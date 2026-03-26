@@ -975,37 +975,30 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de Spider-Man (Homemade Suit) en la sexta escalapresenta:"
+            "x": "Lafigura de Spider-Man (Homemade Suit) en la sexta escalapresenta: 2de0d7d6a637804a8177f813fef25c722de0d7d6a63780398a63e7191944047d2de0d7d6a6378005a8dde7ac0539493d2de0d7d6a63780ca9039cb70dc7f0183 Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de Peter Parker/Spider-Man deSpider-Man: Lejos de casaUna (1) escultura de cabeza enmascarada con tres (3) juegos de oculares intercambiablesCuerpo especializado con más de 30 puntos de articulaciónAproximadamente 11,22\" de alturaOcho (8) manos intercambiables con guantes sin dedos, incluyendo:2de0d7d6a637804a8177f813fef25c722de0d7d6a63780398a63e7191944047d2de0d7d6a6378005a8dde7ac0539493d2de0d7d6a63780ca9039cb70dc7f0183Un (1) par de puñosUn (1) par de manos abiertasUn (1) par de manos para lanzar telarañasUn (1) par de manos para sujetar telarañas"
           },
           {
-            "t": "notion-text",
-            "x": "2de0d7d6a637804a8177f813fef25c722de0d7d6a63780398a63e7191944047d2de0d7d6a6378005a8dde7ac0539493d2de0d7d6a63780ca9039cb70dc7f0183"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de puñosUn (1) par de manos abiertasUn (1) par de manos para lanzar telarañasUn (1) par de manos para sujetar telarañas"
-          },
-          {
-            "t": "notion-text",
-            "x": "Disfraz:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) chaleco rojo con cremallera con el símbolo de Spider-Man impreso en el pechoUna (1) sudadera azul claro con lanzatelarañas montadas en la muñecaUn (1) par de pantalones de chándal azul claroUn (1) par de calcetines rojosUn (1) par de zapatos rojos"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) dron dañado en combateDos (2) telarañas de humo de color verde, que se pueden enganchar a los lanzatelarañasSeis (6) cadenas de telarañas de diferentes formas y longitudes, que se pueden acoplar a los lanzatelarañasUn (1) accesorio de efecto de telaraña abiertaCuatro (4) accesorios de efectos pixelados de color naranja y azul en diferentes tamaños (que se pueden acoplar a la base de la figura)Un (1) soporte dinámico especialmente diseñado con logotipo de película (incluidos dos clips intercambiables para figuras)"
           }
-        ]
+        ],
+        "precio_orig": "3000",
+        "yt": "",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": true
       },
       {
         "n": "Iron Man Mark I (Edición Especial)",
@@ -1215,7 +1208,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable a escala de cuarto de Boba Fett (Versión Deluxe) presenta:"
+            "x": "Lafigura coleccionable a escala de cuarto de Boba Fett (Versión Deluxe) presenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -1226,30 +1219,23 @@
             "x": "Un (1) par de manos relajadasUn (1) par de manos para sostener armasTres (3) manos gesticulares"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) chaleco de armadura Boba Fett MandolorianUn (1) traje interior negro finamente confeccionadoUn (1) cinturón marrón similar al cuero con clips de munición y funda para pistolaUn (1) par de guanteletes de color marrón rojizoUn (1) par de rodilleras amarillasUn (1) par de fundas para botas de color marrón similar al cueroUn (1) par de botas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) rifle blásterUna (1) pistola"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) propulsor con efectos de emergencia (función magnética equipada) y cohete desmontableUn (1) accesorio de efecto lanzallamas (que se puede acoplar al guantelete)Uno (1) Holograma del palacio de BobaUno (1) Holograma de la nave estelar de Boba FettUn soporte para figuras de diorama especialmente diseñado presenta elementos de la nueva sala del trono del palacio de Boba Fett, como escaleras, rejas de ventanas, mesa de control y sello de calavera de mitosaurio, con función de iluminación LED (accionada eléctricamente)Función de encendido operada mediante alimentación USBEl cable de conexión USB no está incluido para coleccionables, se requiere cable Micro USB"
           }
-        ]
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Venom (Let There be Carnage)",
@@ -1355,7 +1341,7 @@
         "escala": "1:6 - 36CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "3600",
+        "precio": "3300",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -1363,7 +1349,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable KX Security Droid Sexta Escalapresenta:"
+            "x": "Lafigura coleccionable KX Security Droid Sexta Escalapresenta: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -1374,22 +1360,19 @@
             "x": "Un (1) par de manos con dedos completamente articuladosArticulaciones mejoradas en la cintura"
           },
           {
-            "t": "notion-text",
-            "x": "Armas:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) rifle blásterUna (1) pistola bláster"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) casco mandaloriano con efectos de envejecimientoUna base de diorama especialmente diseñada con temática rocosaBatería incluida para figuras coleccionables, se requieren celdas de botón"
           }
-        ]
+        ],
+        "precio_orig": "3600",
+        "yt": "",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": true
       },
       {
         "n": "Shadow Trooper",
@@ -1907,7 +1890,7 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/buzz-lightyear-interactive-robot",
         "marca": "Robosen",
         "escala": "37CM",
-        "estado": "Nuevo",
+        "estado": "Vendido",
         "disp": "Entrega Inmediata",
         "precio": "6100",
         "precio_d": "",
@@ -1917,15 +1900,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Robosen (con licencia oficial Disney / Pixar)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una versiónultra realista y robóticadel legendarioBuzz Lightyear, inspirado en las películas deToy Story. Esta figura lleva al icónicoSpace Rangermás allá de lo tradicional, combinando ingeniería avanzada, movimiento realista y sonido envolvente para ofrecer una experiencia interactiva como nunca antes."
-          },
-          {
-            "t": "notion-text",
-            "x": "Desarrollado porRobosen Roboticsen colaboración conDisney y Pixar, este robot recrea aBuzz Lightyearcon movimientos naturales, expresiones faciales dinámicas y audio auténtico extraído del universo de Toy Story, permitiéndote revivir momentos clásicos ocrear escenas nuevas y personalizadas."
+            "x": "Robosen (con licencia oficial Disney / Pixar) Una versiónultra realista y robóticadel legendarioBuzz Lightyear, inspirado en las películas deToy Story. Esta figura lleva al icónicoSpace Rangermás allá de lo tradicional, combinando ingeniería avanzada, movimiento realista y sonido envolvente para ofrecer una experiencia interactiva como nunca antes. Desarrollado porRobosen Roboticsen colaboración conDisney y Pixar, este robot recrea aBuzz Lightyearcon movimientos naturales, expresiones faciales dinámicas y audio auténtico extraído del universo de Toy Story, permitiéndote revivir momentos clásicos ocrear escenas nuevas y personalizadas. El robot está diseñado para ofrecer una experienciainmersiva, interactiva y nostálgica, llevando al icónico guardián espacial a tu colección con un nivel de autenticidad cinematográfica. Puedes hablar con Buzz, verlo caminar, escuchar sus líneas clásicas e incluso personalizar sus acciones."
           },
           {
             "t": "notion-bulleted-list",
@@ -1944,14 +1919,15 @@
             "x": "Compatible conBluetooth y Wi-Fipara comunicaciones avanzadas.Programación desde laaplicación móvilo plataforma web para secuencias personalizadas."
           },
           {
-            "t": "notion-text",
-            "x": "El robot está diseñado para ofrecer una experienciainmersiva, interactiva y nostálgica, llevando al icónico guardián espacial a tu colección con un nivel de autenticidad cinematográfica. Puedes hablar con Buzz, verlo caminar, escuchar sus líneas clásicas e incluso personalizar sus acciones."
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Licencia:Disney / PixarMateriales:ABS, silicona, aleación de aluminio y componentes electrónicos de alta precisión.Control:Voz + App / Bluetooth y Wi-Fi.Comandos de voz:34+Clips de audio:200+Servomotores:23 con microcontrol inteligente"
           }
-        ]
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Ellie – The Last of Us Part II",
@@ -2262,7 +2238,7 @@
         "marca": "Saturn Toys",
         "escala": "1:6 - 32CM",
         "estado": "Exhibido - Excelente Estado",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "4200",
         "precio_d": "",
         "reserva": "",
@@ -2271,15 +2247,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Saturn Toys | Escala 1/6"
-          },
-          {
-            "t": "notion-text",
-            "x": "El legendarioDúo Dinámicode Gotham llega en una espectacular presentación enescala 1/6, recreando aBatmanyRobincon un alto nivel de detalle y una gran variedad de accesorios para exhibición y poses dinámicas."
-          },
-          {
-            "t": "notion-text",
-            "x": "Este set está diseñado para coleccionistas que buscanversatilidad, presencia y fidelidad, ofreciendo múltiples opciones de armado, expresiones y escenas de acción clásicas del universo DC."
+            "x": "Saturn Toys | Escala 1/6 El legendarioDúo Dinámicode Gotham llega en una espectacular presentación enescala 1/6, recreando aBatmanyRobincon un alto nivel de detalle y una gran variedad de accesorios para exhibición y poses dinámicas. Este set está diseñado para coleccionistas que buscanversatilidad, presencia y fidelidad, ofreciendo múltiples opciones de armado, expresiones y escenas de acción clásicas del universo DC."
           },
           {
             "t": "notion-bulleted-list",
@@ -2305,7 +2273,12 @@
             "t": "notion-bulleted-list",
             "x": "2 plataformas/base de exhibición"
           }
-        ]
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Iron Man – Suit Armor (Deluxe Version)",
@@ -2759,7 +2732,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3200",
+        "precio": "3000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -2767,23 +2740,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Star Ace | Escala 1/6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Star Acepresenta con orgullo una figura articuladaDeluxeen escala 1/6 del entrañable“Little Tramp”, interpretado porCharlie Chaplin."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta representación detallada retrata al icónico personaje tal como aparece en varias películas de los inicios del cine, con especial énfasis enThe Pawnshop."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura incluyedos retratos intercambiablesde Chaplin: uno con expresión sonriente y otro con expresión ansiosa. Ambas cabezas presentan un parecido auténtico, estánpintadas a manoy cuentan conojos móviles. El sombrero puede colocarse en cualquiera de las dos cabezas y se incluye unaccesorio de cabelloindependiente para exhibirlo sin sombrero."
-          },
-          {
-            "t": "notion-text",
-            "x": "Vestido con su clásico atuendo de vagabundo —chaleco, abrigo y pantalones holgados—, Chaplin viene acompañado de su bastón tradicional, maletín y sombrero. Además, el set incorpora todos los accesorios necesarios para recrear la famosa escena del“reloj despertador”vista en la película."
+            "x": "Star Ace | Escala 1/6 Star Acepresenta con orgullo una figura articuladaDeluxeen escala 1/6 del entrañable“Little Tramp”, interpretado porCharlie Chaplin. Esta representación detallada retrata al icónico personaje tal como aparece en varias películas de los inicios del cine, con especial énfasis enThe Pawnshop. La figura incluyedos retratos intercambiablesde Chaplin: uno con expresión sonriente y otro con expresión ansiosa. Ambas cabezas presentan un parecido auténtico, estánpintadas a manoy cuentan conojos móviles. El sombrero puede colocarse en cualquiera de las dos cabezas y se incluye unaccesorio de cabelloindependiente para exhibirlo sin sombrero. Vestido con su clásico atuendo de vagabundo —chaleco, abrigo y pantalones holgados—, Chaplin viene acompañado de su bastón tradicional, maletín y sombrero. Además, el set incorpora todos los accesorios necesarios para recrear la famosa escena del“reloj despertador”vista en la película."
           },
           {
             "t": "notion-bulleted-list",
@@ -2805,7 +2762,12 @@
             "t": "notion-bulleted-list",
             "x": "Sombrero con cabello(compatible con ambas cabezas)BastónReloj despertadorTeléfonoMaletaEstetoscopioMartilloCortadores de metalDestornilladorRosa blancaBase de exhibición"
           }
-        ]
+        ],
+        "precio_orig": "3300",
+        "yt": "",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": true
       },
       {
         "n": "Homelander",
