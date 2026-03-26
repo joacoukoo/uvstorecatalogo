@@ -924,7 +924,7 @@
       },
       {
         "n": "Spider-Man Homemade Suit",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/9ff8f668-3186-4004-b51b-fe27fa6b6f89/hot-toys-mms-556-spider-man-far-from-home-spider-man-homemade-suit-3.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658434e8a3f.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/spider-man-homemade-suit",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -959,9 +959,19 @@
         ],
         "precio_orig": "3000",
         "yt": "",
-        "franquicia": "",
+        "franquicia": "Marvel",
         "destacado": false,
-        "oferta": true
+        "oferta": true,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658434e8a3f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658435415fb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658435920e0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658435e4b49.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d6584363edb0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d6584368c078.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658436d7e17.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d6584372d778.jpg"
+        ]
       },
       {
         "n": "Iron Man Mark I (Edición Especial)",
@@ -1342,7 +1352,7 @@
       },
       {
         "n": "Shadow Trooper",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/2ccb7d80-5a53-4557-8a63-cee5ede0f707/482062444_1055040803326598_3029060660526463246_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5cca74c.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/shadow-trooper",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -1356,7 +1366,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de Shadow Trooper™ con Entorno de la Estrella de la Muerte en SextaEscala presenta:"
+            "x": "Lafigura de Shadow Trooper™ con Entorno de la Estrella de la Muerte en SextaEscala presenta: Disfraz: Arma: Eldiorama de sexta escala de la Estrella de la Muerteincluye especialmente:"
           },
           {
             "t": "notion-bulleted-list",
@@ -1367,76 +1377,55 @@
             "x": "Un (1) par de puñosUn (1) par de manos relajadasUn par de armas cogidas de la manoUn (1) gesto con la mano izquierda"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) armadura de Shadow Trooper con efectos de desgasteUn (1) cinturón de herramientas y funda para blástersDos (2) bolsas de utilidad (con función magnética)Una (1) hombrera de color negroUn (1) traje interior negroUn (1) par de botas"
-          },
-          {
-            "t": "notion-text",
-            "x": "Arma:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) rifle bláster"
           },
           {
-            "t": "notion-text",
-            "x": "Eldiorama de sexta escala de la Estrella de la Muerteincluye especialmente:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) panel de pared de diobra de la Estrella de la Muerte iluminado con LED (luz roja, a pilas)Mide aproximadamente 35 cm de alto x 15 cm de anchoPantalla de doble caraSoporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5cca74c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_scale_6633bb6477046.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5d403d6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5dc249a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5e45c07.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5ebacfc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5f3f657.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5fc1343.jpg"
         ]
       },
       {
         "n": "Batman vs Superman Deluxe Edition",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/e645e934-496b-45d4-839d-5153c0dcdb10/udmdcdk3-01dx_b72.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5ac059850.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-vs-superman-deluxe-edition",
         "marca": "Prime1Studio",
         "escala": "Escala 1:3",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "",
-        "precio_d": "37000",
+        "precio": "37000",
+        "precio_d": "",
         "reserva": "",
         "entrega": "",
         "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "Prime 1 Studio"
-          },
-          {
-            "t": "notion-text",
-            "x": "—Batman"
-          },
-          {
-            "t": "notion-text",
-            "x": "Prime 1 Studiopresenta un conflicto icónico que marcó la historia del cómic:Batman vs Superman, inspirado en una de las portadas variantes deThe Dark Knight III: The Master Race."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta impresionante estatua tipo diorama congela el tiempo en el momento exacto en que Batman, equipado con una armadura de última generación diseñada para combatir metahumanos, conecta un devastador golpe a Superman. La escena se desarrolla enCrime Alley, el lugar donde los padres de Bruce Wayne fueron asesinados por Joe Chill."
-          },
-          {
-            "t": "notion-text",
-            "x": "El nivel de detalle es extraordinario:"
+            "x": "Prime 1 Studio —Batman Prime 1 Studiopresenta un conflicto icónico que marcó la historia del cómic:Batman vs Superman, inspirado en una de las portadas variantes deThe Dark Knight III: The Master Race. Esta impresionante estatua tipo diorama congela el tiempo en el momento exacto en que Batman, equipado con una armadura de última generación diseñada para combatir metahumanos, conecta un devastador golpe a Superman. La escena se desarrolla enCrime Alley, el lugar donde los padres de Bruce Wayne fueron asesinados por Joe Chill. El nivel de detalle es extraordinario: La pintura ha sido trabajada con múltiples capas de envejecido, lavados y pigmentación para aportar realismo ambiental. Además, la pieza incorporailuminación LEDen los ojos de Batman y en el farol de Crime Alley, elevando aún más la presencia del diorama. La versión Deluxe lleva esta batalla a otro nivel, con múltiples opciones intercambiables:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Superman sostiene una flecha que emite gas de kriptonita, disparada por un Green Arrow manco.Batman está conectado directamente a la red eléctrica de Gotham para potenciar su siguiente ataque.Texturas hiperrealistas en el traje de Superman y un entorno oscuro y crudo que refuerza la brutalidad del enfrentamiento."
-          },
-          {
-            "t": "notion-text",
-            "x": "La pintura ha sido trabajada con múltiples capas de envejecido, lavados y pigmentación para aportar realismo ambiental. Además, la pieza incorporailuminación LEDen los ojos de Batman y en el farol de Crime Alley, elevando aún más la presencia del diorama."
-          },
-          {
-            "t": "notion-text",
-            "x": "La versión Deluxe lleva esta batalla a otro nivel, con múltiples opciones intercambiables:"
           },
           {
             "t": "notion-bulleted-list",
@@ -1458,11 +1447,26 @@
             "t": "notion-bulleted-list",
             "x": "Caja A:61 × 53.5 × 82 cmCaja B:65 × 51 × 91 cmCaja C:85 × 25 × 105 cm"
           }
+        ],
+        "precio_orig": "41000",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": true,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5ac059850.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abdab768.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abded26d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abe39652.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5ac0a0b29.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abe7dbd5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abec1228.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abf112a8.jpg"
         ]
       },
       {
         "n": "Hulkbuster Escala 1:4",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c82a2f04-e179-41b6-bb79-669f403cc3b5/zfoyc18707.jpg",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-IRONMAN-MK44.jpg?v=1640971331",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/hulkbuster-escala-14",
         "marca": "Genérica - Recast de Queen Studios",
         "escala": "Escala 1:4 - 1 metro",
@@ -1476,49 +1480,32 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Estatua Escala 1/4"
-          },
-          {
-            "t": "notion-text",
-            "x": "Para liberar a Hulk del control mental deScarlet Witch, Tony Stark no tiene otra opción que sacar el armamento pesado: elMark 44, comúnmente conocido comoHulkbuster."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta armadura fue diseñada con un único propósito:detener a Hulk antes de que cause un caos total."
-          },
-          {
-            "t": "notion-text",
-            "x": "El Mark 44 es unaarmadura modular de uso extremo, creada específicamente porTony Stark y Bruce Bannerpara someter a Hulk. Con una altura aproximada deun metro más que Hulk, se convierte en el modelo más grande desarrollado hasta ese momento."
-          },
-          {
-            "t": "notion-text",
-            "x": "ElMark 44es una de las pocas armaduras de Iron Man que se encuentra en constante cambio debido a su naturaleza modular, por lo que el equipo decidió añadir detalles adicionales para elevar esta pieza al máximo nivel."
-          },
-          {
-            "t": "notion-text",
-            "x": "La estatua incorporamúltiples elementos luminosos, reforzando su presencia imponente. Al igual que otras piezas en escala 1/4, el material principal espolystone, cuidadosamente esculpido y terminado con el icónico esquema de coloresrojo y dorado, además de un acabado que simula la textura real del metal utilizado en la armadura Hulkbuster."
-          },
-          {
-            "t": "notion-text",
-            "x": "Como homenaje a la inteligencia de Tony Stark,Queen Studiospresenta esta imponente estatuaHulkbuster escala 1/4."
-          },
-          {
-            "t": "notion-text",
-            "x": "La armadura ha sido creada enpolyresin stone, capturando con precisión cada detalle del colosal traje diseñado para dominar a Hulk."
-          },
-          {
-            "t": "notion-text",
-            "x": "La escena muestra alMark 44 avanzando entre los escombros de Sokovia, en plena zancada, listo para enfrentar a Hulk. La paleta de colores refleja fielmente el diseño clásico de Iron Man, con un intenso rojo tipo “rocket-car” y detalles dorados."
+            "x": "Estatua Escala 1/4 Para liberar a Hulk del control mental deScarlet Witch, Tony Stark no tiene otra opción que sacar el armamento pesado: elMark 44, comúnmente conocido comoHulkbuster. Esta armadura fue diseñada con un único propósito:detener a Hulk antes de que cause un caos total. El Mark 44 es unaarmadura modular de uso extremo, creada específicamente porTony Stark y Bruce Bannerpara someter a Hulk. Con una altura aproximada deun metro más que Hulk, se convierte en el modelo más grande desarrollado hasta ese momento. ElMark 44es una de las pocas armaduras de Iron Man que se encuentra en constante cambio debido a su naturaleza modular, por lo que el equipo decidió añadir detalles adicionales para elevar esta pieza al máximo nivel. La estatua incorporamúltiples elementos luminosos, reforzando su presencia imponente. Al igual que otras piezas en escala 1/4, el material principal espolystone, cuidadosamente esculpido y terminado con el icónico esquema de coloresrojo y dorado, además de"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Licencia:Estatua sin licencia - Edición Genérica RecastEscala:1/4Material:PolystoneAltura:96.6 cmAncho:74.5 cmProfundidad:75.6 cm"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-IRONMAN-MK44.jpg?v=1640971331",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/199231099_1871498249694513_8699546107229357321_n.jpg?v=1641026227",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/217398569_1871497903027881_412483516751990967_n.jpg?v=1641026232",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/207250249_1871498119694526_1167559019911045880_n.jpg?v=1641026236",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/205718314_1871499193027752_416206950135074959_n.jpg?v=1641026241",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/225701682_1871498146361190_1505216755060425645_n.jpg?v=1641026245",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/217651889_1871498266361178_1363832331432830168_n.jpg?v=1627627019",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/213558136_1871497976361207_858465722875986933_n.jpg?v=1641026251"
         ]
       },
       {
         "n": "The Batman – Special Art Edition Deluxe Bonus Version",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/53468bb2-40ff-4d5a-9f5a-bb5a0369190b/mmtbm-01dx_a06_press_dx.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85187f473.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/the-batman-special-art-edition-deluxe-bonus-version",
         "marca": "Prime 1 Studio",
         "escala": "1:3 - 88CM",
@@ -1532,43 +1519,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Prime 1 Studio | Museum Masterline | Escala 1/3"
-          },
-          {
-            "t": "notion-text",
-            "x": "—The Batman"
-          },
-          {
-            "t": "notion-text",
-            "x": "Presentada poco después del impactante tráiler deDC FanDome,Prime 1 Studiose enorgullece en presentar esta espectacularThe Batman – Special Art Edition Deluxe Bonus Versionen escala 1/3, inspirada directamente en la impresionante ilustración deJim Leemostrada durante el eventoDC FanDome 2020."
-          },
-          {
-            "t": "notion-text",
-            "x": "Limitada a solo 500piezas en todo el mundoy con una altura cercana a los88 cm, esta estatua fue diseñada para capturar cada aspecto del nuevo Batman y resaltar la fuerza visual de su renovada estética."
-          },
-          {
-            "t": "notion-text",
-            "x": "El equipo artístico de Prime 1 tomó la esencia del arte de Jim Lee y la llevó a un nivel superior, aumentando el realismo y la carga dramática. Inspirados por la película, los artistas empujaron los límites técnicos para ofrecer una interpretación intensa y poderosa del Caballero Oscuro."
-          },
-          {
-            "t": "notion-text",
-            "x": "Desde el retrato se aprecia claramente latextura tipo cuero del casco, lascosturas intrincadas, y los sutiles rasgos faciales visibles en la parte inferior del rostro, todos ejecutados con una precisión extraordinaria."
-          },
-          {
-            "t": "notion-text",
-            "x": "La armadura combinaforma sólida y función brutal, otorgándole una silueta intimidante y la protección necesaria para cumplir su misión. Cada detalle ha sido recreado con fidelidad absoluta:"
-          },
-          {
-            "t": "notion-text",
-            "x": "costuras, abolladuras, texturas, bolsillos, correas y piezas del traje lucen como si fueran reales."
-          },
-          {
-            "t": "notion-text",
-            "x": "Aunque su apariencia es oscura y nocturna, el trabajo de pintura distingue cuidadosamente las múltiples piezas de la armadura, telas y materiales del traje, evitando que se perciba como un bloque uniforme. Se utilizaron diversas técnicas y acabados para lograr un realismo impactante y demostrar cómo el arte de Jim Lee puede transformarse en una estatua de museo."
-          },
-          {
-            "t": "notion-text",
-            "x": "EstaDeluxe Bonus Version (DXS)ofrece múltiples opciones de exhibición para enriquecer la narrativa visual:"
+            "x": "Prime 1 Studio | Museum Masterline | Escala 1/3 —The Batman Presentada poco después del impactante tráiler deDC FanDome,Prime 1 Studiose enorgullece en presentar esta espectacularThe Batman – Special Art Edition Deluxe Bonus Versionen escala 1/3, inspirada directamente en la impresionante ilustración deJim Leemostrada durante el eventoDC FanDome 2020. Limitada a solo 500piezas en todo el mundoy con una altura cercana a los88 cm, esta estatua fue diseñada para capturar cada aspecto del nuevo Batman y resaltar la fuerza visual de su renovada estética. El equipo artístico de Prime 1 tomó la esencia del arte de Jim Lee y la llevó a un nivel superior, aumentando el realismo y la carga dramática. Inspirados por la película, los artistas empujaron los límites técnicos para ofrecer una interpretación intensa y poderosa del Caballero Oscuro. Desde el retrato se aprecia claramente latextura tipo cuero del casco, lascosturas intrincadas, y los sutiles rasgos faciales visibles en la parte inferior"
           },
           {
             "t": "notion-bulleted-list",
@@ -1581,18 +1532,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Par de manos especialescon un accesorio secreto de Batman(revelado en una fecha futura)Lámina artística de Jim Lee tamaño A4"
-          },
-          {
-            "t": "notion-text",
-            "x": "Solo los compradores de esta edición limitada recibirán estos exclusivos extras."
-          },
-          {
-            "t": "notion-text",
-            "x": "Batman se encuentraposado sobre una icónica gárgola de Gotham City, listo para enfrentar a los criminales más supersticiosos y cobardes de la ciudad."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imponente que está lista para dominar cualquier colección."
           },
           {
             "t": "notion-bulleted-list",
@@ -1614,11 +1553,26 @@
             "t": "notion-bulleted-list",
             "x": "500 piezas en el mundo"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85187f473.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb8518ad2b5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb8518ecbb2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85193b02a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85197cd75.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_silo.png",
+          "https://www.sideshow.com/cdn-cgi/image/height=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85187f473_sm.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb8518ad2b5_sm.jpg"
         ]
       },
       {
         "n": "Hulkbuster – Deluxe Version",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/216ae8bc-2aae-493f-8928-4640f716bb25/hulkbuster-deluxe-version_marvel_gallery_64b59f991cff0.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f98a36bc.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/hulkbuster-deluxe-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 55CM",
@@ -1632,27 +1586,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | Sixth Scale Collectible Figure (Escala 1/6)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Diseñada específicamente porTony StarkyBruce Banner, la armaduraHulkbusterde resistencia extrema puede ser desplegada directamente desde la órbita. Tanto Stark como Banner esperan sinceramente que el poder bruto del Hulkbusternunca tenga que ser utilizado… aunque esté listo para ello."
-          },
-          {
-            "t": "notion-text",
-            "x": "Tras el enorme éxito de la figura Hulkbuster en escala 1/6,Sideshow y Hot Toyspresentan oficialmente laDeluxe Version, una edición que eleva el impacto visual con unailuminación espectaculary una presencia imponente."
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada fielmente en su aparición enAvengers: Age of Ultron, esta colosal figura alcanza aproximadamente55 cm de alturae incluye unbusto del Mark XLIIIcon ojos y reactor ARC iluminados por LED, el cual puede colocarse dentro de la armadura."
-          },
-          {
-            "t": "notion-text",
-            "x": "El acabado metálico enrojo, dorado y plateado, junto con efectos de desgaste, realza el realismo mecánico. La figura cuenta conmás de 20 zonas con iluminación LED, distribuidas en ojos, pecho, palmas repulsoras, espalda y piernas, además de una armadura de pecho intercambiable con daño de batalla y secciones de pecho y hombros abatibles que dejan ver los complejos detalles internos."
-          },
-          {
-            "t": "notion-text",
-            "x": "EstaDeluxe Versionincluye piezas exclusivas que amplían las opciones de exhibición:"
+            "x": "Hot Toys | Sixth Scale Collectible Figure (Escala 1/6) Diseñada específicamente porTony StarkyBruce Banner, la armaduraHulkbusterde resistencia extrema puede ser desplegada directamente desde la órbita. Tanto Stark como Banner esperan sinceramente que el poder bruto del Hulkbusternunca tenga que ser utilizado… aunque esté listo para ello. Tras el enorme éxito de la figura Hulkbuster en escala 1/6,Sideshow y Hot Toyspresentan oficialmente laDeluxe Version, una edición que eleva el impacto visual con unailuminación espectaculary una presencia imponente. Inspirada fielmente en su aparición enAvengers: Age of Ultron, esta colosal figura alcanza aproximadamente55 cm de alturae incluye unbusto del Mark XLIIIcon ojos y reactor ARC iluminados por LED, el cual puede colocarse dentro de la armadura. El acabado metálico enrojo, dorado y plateado, junto con efectos de desgaste, realza el realismo mecánico. La figura cuenta conmás de 20 zonas con iluminación LED, distribuidas en ojos, pecho, palmas"
           },
           {
             "t": "notion-bulleted-list",
@@ -1667,10 +1601,6 @@
             "x": "Ojos del HulkbusterReactor ARC en el pechoPalmas repulsorasEspalda y piernas(luz blanca, funciona con baterías)"
           },
           {
-            "t": "notion-text",
-            "x": "(luz blanca, funciona con baterías)"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Pecho abatible que revela el busto delMark XLIIIcon ojos y reactor ARC iluminadosArmaduras de hombros y pecho abatibles1 armadura izquierda de pecho con daño de batalla (intercambiable)1 brazo izquierdo Jackhammer con iluminación LEDy articulacionesLongitud aproximada:35 cm(hasta41 cmextendido)Más de9 puntos de articulación1 antebrazo con sistema de bloqueo intercambiableArmadura de cuello intercambiable para exhibir el busto Mark XLIII1 par de armaduras de antebrazo removibles1 par de manoscon dedos articulados y repulsores iluminadosUso parcial dediecastpara reforzar la estructura interna y mejorar la articulación"
           },
@@ -1682,11 +1612,26 @@
             "t": "notion-bulleted-list",
             "x": "1 Hulkbuster Pod(aprox. 6 cm de altura)"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f98a36bc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f991cff0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f99d7cef.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f9a5f0ed.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f9ac59e4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6a77e64c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6a98d02f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6abcacb5.jpg"
         ]
       },
       {
         "n": "Perfect Cell – Dragon Ball Z",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/11a2732a-1b09-4c92-87b3-e7a04073fa8e/741719908605_.pic.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/741719908605_.pic.jpg?v=1742340978",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/perfect-cell-dragon-ball-z",
         "marca": "Easy Studio",
         "escala": "Escala 1:2 - 108CM",
@@ -1724,45 +1669,38 @@
           }
         ],
         "yt": "",
-        "franquicia": "Anime"
+        "franquicia": "Anime",
+        "precio_orig": "",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/741719908605_.pic.jpg?v=1742340978",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/801719908611_.pic.jpg?v=1742340978",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/781719908609_.pic.jpg?v=1742340978",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/791719908610_.pic.jpg?v=1742340979",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/751719908606_.pic.jpg?v=1742340979",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/761719908607_.pic.jpg?v=1742340979",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/771719908608_.pic.jpg?v=1742340979",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/811719908612_.pic.jpg?v=1742340979"
+        ]
       },
       {
         "n": "Link on Horseback – Exclusive Edition",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/e21f32a0-9911-48ff-9d97-154982c4edcf/linkonhorseback_ex_08.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_08.jpg?v=1774246261",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/link-on-horseback-exclusive-edition",
         "marca": "First 4 Figures",
         "escala": "1:6 - 57CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "",
-        "precio_d": "9300",
+        "precio": "9300",
+        "precio_d": "",
         "reserva": "",
         "entrega": "",
         "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "First 4 Figures | The Legend of Zelda™: Breath of the Wild"
-          },
-          {
-            "t": "notion-text",
-            "x": "First 4 Figurespresenta con orgulloLink on Horseback, laprimera estatua en resinaque se une a la línea deThe Legend of Zelda: Breath of the Wild."
-          },
-          {
-            "t": "notion-text",
-            "x": "La pieza captura un momento majestuoso:Link montando a su corcel en pleno alzamiento, transmitiendo dinamismo y épica en cada ángulo."
-          },
-          {
-            "t": "notion-text",
-            "x": "El atuendo de Link —que incluye laChampion’s Tunicy losHylian Trousers— ha sido texturizado de forma realista y con un nivel de detalle sobresaliente, al igual que su montura y el resto de los elementos de la estatua. Sus accesorios, como la mochila, elTraveler’s Shieldy, especialmente, laSheikah Slate, están recreados con gran fidelidad."
-          },
-          {
-            "t": "notion-text",
-            "x": "La base presentasímbolos de piedra grabadosen los laterales yenredaderasque envuelven la estructura, aportando una estética antigua y mágica. El uso de luces y sombras crea profundidad y realza las texturas."
-          },
-          {
-            "t": "notion-text",
-            "x": "LaExclusive Editionincluye funciones y accesorios adicionales para personalizar la exhibición:"
+            "x": "First 4 Figures | The Legend of Zelda™: Breath of the Wild First 4 Figurespresenta con orgulloLink on Horseback, laprimera estatua en resinaque se une a la línea deThe Legend of Zelda: Breath of the Wild. La pieza captura un momento majestuoso:Link montando a su corcel en pleno alzamiento, transmitiendo dinamismo y épica en cada ángulo. El atuendo de Link —que incluye laChampion’s Tunicy losHylian Trousers— ha sido texturizado de forma realista y con un nivel de detalle sobresaliente, al igual que su montura y el resto de los elementos de la estatua. Sus accesorios, como la mochila, elTraveler’s Shieldy, especialmente, laSheikah Slate, están recreados con gran fidelidad. La base presentasímbolos de piedra grabadosen los laterales yenredaderasque envuelven la estructura, aportando una estética antigua y mágica. El uso de luces y sombras crea profundidad y realza las texturas. LaExclusive Editionincluye funciones y accesorios adicionales para personalizar la exhibición:"
           },
           {
             "t": "notion-bulleted-list",
@@ -1784,6 +1722,21 @@
             "t": "notion-bulleted-list",
             "x": "9.5 kg"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_08.jpg?v=1774246261",
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex-skuimages-4k.jpg?v=1774246261",
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_02.jpg?v=1774246261",
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_01.jpg?v=1774246261",
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_03.jpg?v=1774246261",
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_05.jpg?v=1774246261",
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_04.jpg?v=1774246261",
+          "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_06.jpg?v=1774246261"
         ]
       },
       {
@@ -1802,15 +1755,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Break Studio"
-          },
-          {
-            "t": "notion-text",
-            "x": "Imponente estatuaOversized de Broly, uno de los personajes más poderosos del universo deDragon Ball."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta pieza enescala 1/4destaca por su gran tamaño y presencia dominante, pensada para coleccionistas que buscan una figura de alto impacto visual."
+            "x": "Break Studio Imponente estatuaOversized de Broly, uno de los personajes más poderosos del universo deDragon Ball. Esta pieza enescala 1/4destaca por su gran tamaño y presencia dominante, pensada para coleccionistas que buscan una figura de alto impacto visual."
           },
           {
             "t": "notion-bulleted-list",
@@ -1828,7 +1773,12 @@
             "t": "notion-bulleted-list",
             "x": "EstatuaOversizedpara máxima presenciaDiseño enfocado en el tamaño y fuerza del personajeIdeal como pieza central de colección"
           }
-        ]
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Jessica & Roger Rabbit",
