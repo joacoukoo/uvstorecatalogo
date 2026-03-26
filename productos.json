@@ -2423,7 +2423,7 @@
       },
       {
         "n": "Bumblebee G1 Performance",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/5ef412f3-e195-42cd-ab5a-dc9a21dc75a6/bbb_front.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/spring-savings-2026-bumblebee-g1.jpg?v=1773902869",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/ficha-estndar-uv-store",
         "marca": "Robosen",
         "escala": "34CM",
@@ -2437,19 +2437,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Robosen | Transformers"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirado en el diseñoG1 clásico,Bumblebee G1 PerformancedeRobosenes unafigura robótica de alto rendimiento en modo robot, enfocada en movimiento, posabilidad e interacción avanzada."
-          },
-          {
-            "t": "notion-text",
-            "x": "A diferencia de otros modelos auto-transformables, la versiónPerformanceestá diseñadaexclusivamente en modo robot, priorizando estabilidad, precisión de movimiento y una experiencia interactiva más fluida."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con estética fiel a los años 80 y tecnología robótica de última generación, Bumblebee camina, gira, posa y responde a comandos por voz y app, convirtiéndose en una pieza viva dentro de cualquier colección."
+            "x": "Robosen | Transformers Inspirado en el diseñoG1 clásico,Bumblebee G1 PerformancedeRobosenes unafigura robótica de alto rendimiento en modo robot, enfocada en movimiento, posabilidad e interacción avanzada. A diferencia de otros modelos auto-transformables, la versiónPerformanceestá diseñadaexclusivamente en modo robot, priorizando estabilidad, precisión de movimiento y una experiencia interactiva más fluida. Con estética fiel a los años 80 y tecnología robótica de última generación, Bumblebee camina, gira, posa y responde a comandos por voz y app, convirtiéndose en una pieza viva dentro de cualquier colección."
           },
           {
             "t": "notion-bulleted-list",
@@ -2467,6 +2455,21 @@
             "t": "notion-bulleted-list",
             "x": "Bluetooth BLE 5.0Puerto USB Type-CBatería:1460 mAh de ion-litioAdaptador:Power Delivery hasta20W"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/spring-savings-2026-bumblebee-g1.jpg?v=1773902869",
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/bumblebee-first.webp?v=1773902869",
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/bbb_front.webp?v=1773902869",
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P13.jpg?v=1773902869",
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P2.jpg?v=1773902869",
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P3.jpg?v=1773902869",
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P4.jpg?v=1773902869",
+          "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P5.jpg?v=1773902869"
         ]
       },
       {
