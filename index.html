@@ -674,7 +674,9 @@ body::after{
   <div class="section">
     <div class="prod-grid" id="search-inline-res"></div>
   </div>
-</div> onclick="if(event.target===this)closeModal()">
+</div>
+
+<div class="modal-bg" id="modal" onclick="if(event.target===this)closeModal()">
   <div class="modal">
     <button class="modal-close" onclick="closeModal()">&#x2715;</button>
     <div class="carousel" id="modal-carousel" onclick="carouselClick(event)">
