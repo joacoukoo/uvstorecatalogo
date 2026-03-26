@@ -6,6 +6,13 @@
 <meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>UV Store GT — Coleccionables Premium</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<meta property="og:title" content="UV Store GT — Coleccionables Premium">
+<meta property="og:description" content="Figuras 1:6, estatuas y pre-órdenes exclusivas. Hot Toys, Sideshow, Iron Studios y más.">
+<meta property="og:image" content="og-image.jpg">
+<meta property="og:url" content="https://uvstorecatalogo.joacouk.workers.dev">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <script type="application/json" id="uv-data">{}</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Syne:wght@400;600;700&display=swap');
@@ -266,6 +273,13 @@ body::after{
   text-transform:uppercase;letter-spacing:.6px;flex-shrink:0;
 }
 .badge-stock{background:rgba(47,199,110,0.12);color:var(--green);border:1px solid rgba(47,199,110,0.2)}
+.badge-dest{background:rgba(123,47,190,0.15);color:#b97aff;border:1px solid rgba(123,47,190,0.3)}
+.badge-oferta{background:rgba(239,68,68,0.15);color:#f87171;border:1px solid rgba(239,68,68,0.3)}
+.prod-corner-badge{position:absolute;top:8px;left:8px;z-index:4;display:flex;flex-direction:column;gap:3px;}
+.corner-tag{font-size:9px;font-weight:700;padding:2px 7px;border-radius:4px;text-transform:uppercase;letter-spacing:.6px;backdrop-filter:blur(4px);}
+.corner-dest{background:rgba(123,47,190,0.85);color:#fff;}
+.corner-oferta{background:rgba(239,68,68,0.85);color:#fff;}
+.precio-tachado{text-decoration:line-through;color:var(--muted);font-size:11px;margin-right:4px;}
 .badge-pre{background:rgba(232,146,42,0.12);color:var(--amber);border:1px solid rgba(232,146,42,0.2)}
 .badge-new{background:rgba(123,47,190,0.15);color:var(--pl);border:1px solid rgba(123,47,190,0.25)}
 
@@ -595,6 +609,13 @@ body::after{
       <div class="sec-meta" id="franchise-home-meta"></div>
     </div>
     <div id="franchise-home-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-bottom:40px"></div>
+    <div id="oferta-section" style="display:none">
+      <div class="sec-hdr">
+        <div class="sec-title" style="color:#f87171">🔥 Ofertas</div>
+        <div class="sec-meta" id="oferta-meta"></div>
+      </div>
+      <div class="prod-grid" id="oferta-grid"></div>
+    </div>
     <div class="sec-hdr">
       <div class="sec-title">Destacados</div>
       <div class="sec-meta" id="feat-meta"></div>
@@ -758,6 +779,20 @@ function makeCard(p,cat){
   } else if(cat==="Entrega Inmediata"){badgeText="En Stock";badgeCls="badge-stock";}
     else if(cat==="Hot Toys · Pre-Órdenes"){badgeText="Pre-Orden";badgeCls="badge-pre";}
   if(badgeText){var badge=document.createElement("div");badge.className="prod-badge "+badgeCls;badge.textContent=badgeText;meta.appendChild(badge);}
+  // Corner badges: DESTACADO y OFERTA
+  var cornerBadges=[];
+  if(p.destacado){cornerBadges.push({cls:"corner-dest",txt:"★ Destacado"});}
+  if(p.oferta){cornerBadges.push({cls:"corner-oferta",txt:"% Oferta"});}
+  if(cornerBadges.length){
+    var cb=document.createElement("div");cb.className="prod-corner-badge";
+    cornerBadges.forEach(function(b){var t=document.createElement("div");t.className="corner-tag "+b.cls;t.textContent=b.txt;cb.appendChild(t);});
+    div.appendChild(cb);
+  }
+  // Precio tachado si hay oferta y precio original
+  if(p.oferta&&p.precio_orig){
+    var prOrig=document.createElement("div");prOrig.className="precio-tachado";prOrig.innerHTML="Q"+p.precio_orig;
+    meta.insertBefore(prOrig,meta.firstChild);
+  }
   info.appendChild(nm);info.appendChild(meta);
   div.appendChild(info);
   div.addEventListener("click",(function(pd,pc){return function(){openModal(pd,pc);};})(p,cat));
@@ -791,10 +826,34 @@ function buildHome(){
     d.addEventListener("click",(function(c){return function(){goCategory(CAT_KEYS.indexOf(c));};})(cat));
     cg.appendChild(d);
   });
-  var ei=DATA["Entrega Inmediata"]||{products:[]};
-  document.getElementById("feat-meta").textContent=ei.products.length+" figuras";
+  // Destacados: primero los marcados como destacado, luego rellena con Entrega Inmediata
+  var destProds=[];
+  CAT_KEYS.forEach(function(c){
+    (DATA[c]||{products:[]}).products.forEach(function(p){if(p.destacado)destProds.push({p:p,cat:c});});
+  });
+  if(destProds.length<4){
+    var ei0=DATA["Entrega Inmediata"]||{products:[]};
+    ei0.products.forEach(function(p){if(!p.destacado&&destProds.length<16)destProds.push({p:p,cat:"Entrega Inmediata"});});
+  }
+  var destLabel=destProds.filter(function(r){return r.p.destacado;}).length;
+  document.getElementById("feat-meta").textContent=(destLabel>0?destLabel+" destacados":destProds.length+" figuras");
   var fg=document.getElementById("feat-grid");fg.innerHTML="";
-  ei.products.slice(0,16).forEach(function(p){fg.appendChild(makeCard(p,"Entrega Inmediata"));});
+  destProds.slice(0,16).forEach(function(r){fg.appendChild(makeCard(r.p,r.cat));});
+
+  // Sección Ofertas
+  var ofertaProds=[];
+  CAT_KEYS.forEach(function(c){
+    (DATA[c]||{products:[]}).products.forEach(function(p){if(p.oferta)ofertaProds.push({p:p,cat:c});});
+  });
+  var ofSec=document.getElementById("oferta-section");
+  var ofGrid=document.getElementById("oferta-grid");
+  if(ofertaProds.length>0&&ofSec&&ofGrid){
+    ofSec.style.display="";
+    ofGrid.innerHTML="";
+    ofertaProds.forEach(function(r){ofGrid.appendChild(makeCard(r.p,r.cat));});
+    document.getElementById("oferta-meta").textContent=ofertaProds.length+" figura"+(ofertaProds.length!==1?"s":"");
+  } else if(ofSec){ofSec.style.display="none";}
+
   // Build franchise section on home
   buildFranchiseGrid("franchise-home-grid");
   // Trigger fade-in for visible cards
@@ -836,7 +895,7 @@ function makeFranchiseCard(fname,gridId){
   card.style.cssText="background:#0d0e18;border:1px solid var(--border);border-radius:14px;padding:0;cursor:pointer;transition:all .2s;overflow:hidden;aspect-ratio:1;display:flex;align-items:center;justify-content:center;";
   var iconVal=FRANCHISE_ICONS[fname];
   var iconHtml=(iconVal&&iconVal.startsWith("data:"))?
-    "<img src='"+iconVal+"' style='width:90%;height:90%;object-fit:contain;display:block;transition:transform .3s' alt='"+fname+"'>":
+    "<img src='"+iconVal+"' style='width:100%;height:100%;object-fit:contain;padding:12%;box-sizing:border-box;display:block;transition:transform .3s' alt='"+fname+"'>":
     "<div style='font-size:52px'>"+iconVal+"</div>";
   var countBadge="<div style='position:absolute;bottom:8px;right:10px;font-size:10px;color:rgba(255,255,255,0.5);font-family:Syne,sans-serif;letter-spacing:.5px'>"+prods.length+" fig.</div>";
   card.innerHTML=iconHtml+countBadge;
@@ -966,7 +1025,8 @@ function openModal(p,cat){
     });
   }
   var prodLink=p.l?("\nLink del producto: "+p.l):"";
-  var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+prodLink);
+  var imgLink=(p.fotos&&p.fotos.length&&p.fotos[0].startsWith("http"))?("\nImagen: "+p.fotos[0]):"";
+  var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+prodLink+imgLink);
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
   document.getElementById("modal").classList.add("open");
   document.body.style.overflow="hidden";
