@@ -237,7 +237,7 @@
       },
       {
         "n": "Iron Man Mark XLII (2.0) – Deluxe Version",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/41b7f3bb-d8fc-41bf-be05-2818a7a8fd42/iron-man-mark-xlii-20-deluxe_marvel_gallery_669fd83360059.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd79687e86.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/iron-man-mark-xlii-20-deluxe-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 32CM",
@@ -251,23 +251,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Hot Toys – Movie Masterpiece Series"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:32 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada enIron Man 3, la Mark XLII (Mark 42) es una de las armaduras más avanzadas creadas por Tony Stark, famosa por su capacidad de ensamblarse en piezas independientes alrededor del cuerpo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Hot Toys presenta laDeluxe Version 2.0, con acabado metálico en dorado, rojo y plateado, incorporando efectos de daño severo (heavy battle damaged) que recrean el intenso combate visto en pantalla."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye head sculpt de Tony Stark con daño de batalla y sistema de ojos móviles independientes, además de casco intercambiable con iluminación LED."
+            "x": "Figura Sixth Scale (1:6) – Hot Toys – Movie Masterpiece Series Altura:32 cm Inspirada enIron Man 3, la Mark XLII (Mark 42) es una de las armaduras más avanzadas creadas por Tony Stark, famosa por su capacidad de ensamblarse en piezas independientes alrededor del cuerpo. Hot Toys presenta laDeluxe Version 2.0, con acabado metálico en dorado, rojo y plateado, incorporando efectos de daño severo (heavy battle damaged) que recrean el intenso combate visto en pantalla. Incluye head sculpt de Tony Stark con daño de batalla y sistema de ojos móviles independientes, además de casco intercambiable con iluminación LED. Incluye múltiples piezas para recrear distintos niveles de daño: Battle Damaged estándar: Exclusivo Deluxe (Heavy Damaged): La versión más completa y versátil de la Mark XLII (2.0), ideal para coleccionistas que buscan máxima fidelidad cinematográfica y múltiples opciones de exhibición con daño extremo de batalla."
           },
           {
             "t": "notion-bulleted-list",
@@ -278,20 +262,8 @@
             "x": "Más de 30 puntos de articulaciónPartes de la armadura en diecast (metal)Aletas traseras y de piernas totalmente desplegablesArticulación mejorada en cinturaBattery booster con cables reales"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye múltiples piezas para recrear distintos niveles de daño:"
-          },
-          {
-            "t": "notion-text",
-            "x": "Battle Damaged estándar:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "MáscaraPecheraHombrosBícepsAntebrazos"
-          },
-          {
-            "t": "notion-text",
-            "x": "Exclusivo Deluxe (Heavy Damaged):"
           },
           {
             "t": "notion-bulleted-list",
@@ -304,16 +276,27 @@
           {
             "t": "notion-bulleted-list",
             "x": "Misiles de hombroDos estilos de flash bangs (normal y activado)Set intercambiable de antebrazos (normal y modo misil)Battery boosterBase diorama temática con iluminación LED"
-          },
-          {
-            "t": "notion-text",
-            "x": "La versión más completa y versátil de la Mark XLII (2.0), ideal para coleccionistas que buscan máxima fidelidad cinematográfica y múltiples opciones de exhibición con daño extremo de batalla."
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd79687e86.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_scale_669fd79c8139f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd796f01be.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7974a1c9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7979898b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7984316a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798993c2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798ead82.jpg"
         ]
       },
       {
         "n": "Clone Commander Wolffe™",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/bea97150-ce5b-4723-b0bf-a631742f6ea1/587238143_1268559571974719_2222276380554068226_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc0caa55.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/clone-commander-wolffe",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -327,23 +310,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Hot Toys – Television Masterpiece Series"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirado enStar Wars: The Clone Wars, Clone Commander Wolffe (CC-3636) fue el leal comandante del escuadrón Wolf Pack bajo el mando del General Plo Koon. Veterano de innumerables batallas, Wolffe lleva las cicatrices del conflicto como símbolo de su experiencia y liderazgo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Hot Toys presenta esta versión Sixth Scale altamente detallada, capturando con precisión su armadura distintiva gris y blanca con efectos de desgaste, así como su retrato sin casco con cicatriz y ojo derecho blanco característico."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura incluye opciones para recrear tanto la armaduraPhase IcomoPhase II, permitiendo mayor versatilidad en exhibición."
+            "x": "Figura Sixth Scale (1:6) – Hot Toys – Television Masterpiece Series Altura:30 cm Inspirado enStar Wars: The Clone Wars, Clone Commander Wolffe (CC-3636) fue el leal comandante del escuadrón Wolf Pack bajo el mando del General Plo Koon. Veterano de innumerables batallas, Wolffe lleva las cicatrices del conflicto como símbolo de su experiencia y liderazgo. Hot Toys presenta esta versión Sixth Scale altamente detallada, capturando con precisión su armadura distintiva gris y blanca con efectos de desgaste, así como su retrato sin casco con cicatriz y ojo derecho blanco característico. La figura incluye opciones para recrear tanto la armaduraPhase IcomoPhase II, permitiendo mayor versatilidad en exhibición. Una pieza esencial para coleccionistas del universo Clone Wars, ideal para completar cualquier display de Clone Troopers con uno de los comandantes más icónicos de la saga."
           },
           {
             "t": "notion-bulleted-list",
@@ -364,16 +331,27 @@
           {
             "t": "notion-bulleted-list",
             "x": "Jetpack con efectos de propulsión magnéticosData padBase con logo de Star Wars y placa identificatoria"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza esencial para coleccionistas del universo Clone Wars, ideal para completar cualquier display de Clone Troopers con uno de los comandantes más icónicos de la saga."
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc0caa55.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-clone-commander-wolffe-sixth-scale-figure-scale-67698eadd8574.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc140cda.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc1a091f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc219fec.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc2779a3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc2d24d4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc33b842.jpg"
         ]
       },
       {
         "n": "Mirage DLX",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/2b5b01c3-383b-4428-a61a-b5c2caeb1722/mirage-dlx_transformers_gallery_669fe7800a69f.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe762be083.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/mirage-dlx",
         "marca": "Threezero",
         "escala": "20CM",
@@ -387,27 +365,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Coleccionable – Threezero – Transformers: Rise of the Beasts"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura Mirage:20 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura Noah Díaz (Exo-Suit):10 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirado enTransformers: Rise of the Beasts, Mirage DLX de Threezero es una figura altamente articulada y detallada que captura la esencia del veloz y carismático Autobot."
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricada con plásticos de grado ingenieril y estructura interna de metal diecast, ofrece aproximadamente61 puntos de articulación, permitiendo poses dinámicas y estables. El acabado con pintura weathered aporta un efecto realista de batalla."
-          },
-          {
-            "t": "notion-text",
-            "x": "Es la primera figura DLX de Threezero en incorporarsistema LED controlado magnéticamente, iluminando ojos, pecho, hombros y blasters para un display impactante."
+            "x": "Figura Coleccionable – Threezero – Transformers: Rise of the Beasts Altura Mirage:20 cm Altura Noah Díaz (Exo-Suit):10 cm Inspirado enTransformers: Rise of the Beasts, Mirage DLX de Threezero es una figura altamente articulada y detallada que captura la esencia del veloz y carismático Autobot. Fabricada con plásticos de grado ingenieril y estructura interna de metal diecast, ofrece aproximadamente61 puntos de articulación, permitiendo poses dinámicas y estables. El acabado con pintura weathered aporta un efecto realista de batalla. Es la primera figura DLX de Threezero en incorporarsistema LED controlado magnéticamente, iluminando ojos, pecho, hombros y blasters para un display impactante. Incluye figura deNoah Díaz en Exo-Suit(10 cm) con aproximadamente 12 puntos de articulación. Accesorios de Noah: ABS, POM, PVC y aleación de zinc diecast Una pieza compacta pero altamente articulada y tecnológicamente avanzada, ideal para coleccionistas de Transformers que buscan calidad premium con"
           },
           {
             "t": "notion-bulleted-list",
@@ -422,30 +380,29 @@
             "x": "Par de Ion BlastersEstuche magnético para control LED2 faceplates intercambiables4 pares de manos intercambiables (puños, relajadas, acción y señalando)"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye figura deNoah Díaz en Exo-Suit(10 cm) con aproximadamente 12 puntos de articulación."
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios de Noah:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Par de espadas Exo-SuitPar de Ion Blasters Exo-Suit"
-          },
-          {
-            "t": "notion-text",
-            "x": "ABS, POM, PVC y aleación de zinc diecast"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza compacta pero altamente articulada y tecnológicamente avanzada, ideal para coleccionistas de Transformers que buscan calidad premium con iluminación y estructura metálica en formato DLX."
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe762be083.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_scale_669fe766c4265.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe763071d6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe7633f743.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe76372550.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe764c66b3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe76559545.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe7659f147.jpg"
         ]
       },
       {
         "n": "ROBO-DOU Ingram Unit 1 – Reactive Armor Version",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/17857b29-5f28-4786-bccd-85b85ee1e20e/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ee04dfa.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ea86bce.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/robo-dou-ingram-unit-1-reactive-armor-version",
         "marca": "Threezero",
         "escala": "23CM",
@@ -459,31 +416,11 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura 1/35 – Threezero – Patlabor 2: The Movie"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:23 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada enPatlabor 2: The Movie, esta versión Reactive Armor del Ingram Unit 1 se suma a la línea ROBO-DOU de Threezero con un nivel de ingeniería y detalle sobresaliente."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura escala 1/35 incorpora una estructura interna dealeación de zinc diecast, ofreciendo casi50 puntos de articulación. Está fabricada en ABS, PVC, POM y tela, utilizando material textil en brazos y muslos para replicar fielmente la silueta del Ingram sin comprometer movilidad."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye efectos de desgaste (weathering) aplicados tanto en las partes de tela como en la armadura reactiva para un acabado más realista."
+            "x": "Figura 1/35 – Threezero – Patlabor 2: The Movie Altura:23 cm Inspirada enPatlabor 2: The Movie, esta versión Reactive Armor del Ingram Unit 1 se suma a la línea ROBO-DOU de Threezero con un nivel de ingeniería y detalle sobresaliente. La figura escala 1/35 incorpora una estructura interna dealeación de zinc diecast, ofreciendo casi50 puntos de articulación. Está fabricada en ABS, PVC, POM y tela, utilizando material textil en brazos y muslos para replicar fielmente la silueta del Ingram sin comprometer movilidad. Incluye efectos de desgaste (weathering) aplicados tanto en las partes de tela como en la armadura reactiva para un acabado más realista. Incluye figura no articulada deNoa Izumique puede colocarse dentro de la cabina. Incluye base de exhibición ROBO-DOU Action Stand. ABS, PVC, POM, tela y aleación de zinc diecast Una pieza técnica y altamente articulada que combina ingeniería avanzada, funciones mecánicas reales y fidelidad al anime clásico, ideal para coleccionistas de mecha"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Cubierta lateral de la pantorrilla derecha abatible (almacena el revolver cannon)Muñeca derecha extensible para acceder al armaArmadura frontal desmontableCabina funcional con aperturaAsiento elevable para mostrar al pilotoParabrisas abatible en la zona del cuello"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye figura no articulada deNoa Izumique puede colocarse dentro de la cabina."
           },
           {
             "t": "notion-bulleted-list",
@@ -496,30 +433,33 @@
           {
             "t": "notion-bulleted-list",
             "x": "Par relajadasPar abiertasPar de puñosMano derecha para revolver cannonPar para stun stickMano derecha para riot gun"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye base de exhibición ROBO-DOU Action Stand."
-          },
-          {
-            "t": "notion-text",
-            "x": "ABS, PVC, POM, tela y aleación de zinc diecast"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza técnica y altamente articulada que combina ingeniería avanzada, funciones mecánicas reales y fidelidad al anime clásico, ideal para coleccionistas de mechas y ciencia ficción."
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ea86bce.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_scale_663a94ee93810.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94eacb29e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94eb1c07f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94eb60c27.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94eba613e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ebeab13.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ec3d24f.jpg"
         ]
       },
       {
         "n": "Spider-Man 1977 (Exclusive 600 Unidades)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/23646aeb-671c-41a9-ba74-faf15c47d5a9/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec39ee07b.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec38c35e5.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/spider-man-1977-exclusive-600-unidades",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "5000",
+        "precio": "5500",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -527,57 +467,44 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Marvel | TV Series Collection"
-          },
-          {
-            "t": "notion-text",
-            "x": "Figura a escala 1:6 deSpider-Man, basada en la serie live-actionSpider-Man. Esta versión presenta unhead sculpt enmascarado de nuevo desarrolloconojos intercambiables, capturando fielmente el look clásico del arácnido televisivo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con30 puntos de articulación, múltiples manos y accesorios icónicos, es una pieza ideal para recrear poses emblemáticas. Producciónlimitada a 600 unidadesen mercados seleccionados."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Marvel | TV Series Collection Figura a escala 1:6 deSpider-Man, basada en la serie live-actionSpider-Man. Esta versión presenta unhead sculpt enmascarado de nuevo desarrolloconojos intercambiables, capturando fielmente el look clásico del arácnido televisivo. Con30 puntos de articulación, múltiples manos y accesorios icónicos, es una pieza ideal para recrear poses emblemáticas. Producciónlimitada a 600 unidadesen mercados seleccionados. Características Incluye Manos (11) Vestuario Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Escala1:6Altura: aprox.30 cmCuerpo con30 puntos de articulaciónCabeza enmascarada con2 pares de ojos intercambiablesEdiciónlimitada (600 unidades)"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye"
-          },
-          {
-            "t": "notion-text",
-            "x": "Manos (11)"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Par de puñosPar de manos gesto “garra”Par de manos golpe tipoknifehandPar de manos adheridas a superficieMano derecha sosteniendo cámaraMano derecha disparando telarañaMano derecha sosteniendo telaraña"
-          },
-          {
-            "t": "notion-text",
-            "x": "Vestuario"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Traje de Spider-Man de una sola pieza en tela elástica roja y azulLanzatelarañasCinturón utilitario"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "CámaraTelaraña cortaTelaraña larga con alambre flexibleTelaraña abiertaTarjeta gráfica transparente con logo de la serieBase especial con logo de la serie y placa con nombre del personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec38c35e5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-scale-691deea1b310e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3a77bc2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3b2b418.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3b79a8f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3ac806a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3bd23e6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3c2e148.jpg"
         ]
       },
       {
         "n": "Ahsoka Tano (Clone Wars)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/530fe0c6-c151-4ca3-9131-efe1fad983b8/s-l1200.png",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98efc0a6ae.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/ahsoka-tano-clone-wars",
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
@@ -591,49 +518,48 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable a sexta escala de Ahsoka Tanopresenta:"
+            "x": "Lafigura coleccionable a sexta escala de Ahsoka Tanopresenta: 2de0d7d6a63780188981f714de8fb2fd2de0d7d6a637806a84f9fcee41bf0efa2de0d7d6a63780d0ad7be6ec7d17897b2de0d7d6a63780e3a9a7d2b92cb3fa54 Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de Ahsoka Tano enStar Wars: The Clone WarsEscultura de cabeza recién desarrollada con características separadas de ojos rodantesExpresiones faciales muy precisas y patrones faciales detalladosMontrals y cabezas recién esculpidos con rayas azules y blancas equipadas con cables flexiblesCuerpo con más de 28 puntos de articulaciónAproximadamente 29 cm de alturaSiete (7) piezas de manos intercambiables, incluyendo:2de0d7d6a63780188981f714de8fb2fd2de0d7d6a637806a84f9fcee41bf0efa2de0d7d6a63780d0ad7be6ec7d17897b2de0d7d6a63780e3a9a7d2b92cb3fa54Un (1) par de relajadosUn (1) par de sables de luz cogidos de la manoUn (1) par de manos gesticularesUn (1) puño derechoCada pieza de escultura de cabeza está especialmente pintada a mano"
           },
           {
-            "t": "notion-text",
-            "x": "2de0d7d6a63780188981f714de8fb2fd2de0d7d6a637806a84f9fcee41bf0efa2de0d7d6a63780d0ad7be6ec7d17897b2de0d7d6a63780e3a9a7d2b92cb3fa54"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de relajadosUn (1) par de sables de luz cogidos de la manoUn (1) par de manos gesticularesUn (1) puño derecho"
-          },
-          {
-            "t": "notion-text",
-            "x": "Disfraz:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) poncho gris con efectos de envejecimientoUna (1) túnica finamente confeccionada azul marino y gris con delantalUn (1) par de traje interior azul marinoUn (1) par de guanteletes azul marino con guantes de antebrazoUn (1) par de rodilleras plateadasUn (1) par de protectores plateados para la pantorrillaUn (1) par de botas negras tipo cuero"
           },
           {
-            "t": "notion-text",
-            "x": "Armas:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de sables de luz azulesUn (1) par de hojas de sable de luz azules en movimiento (acoplables a la empuñadura)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) detonador térmicoUn (1) holoproyectorUna (1) figura holográfica de Anakin SkywalkerUna (1) figura holográfica de Obi-Wan KenobiUna (1) figura holográfica de YodaSoporte para figuras especialmente diseñado con placa de personaje y logo de Star Wars"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98efc0a6ae.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_scale_640f85dd0c6e8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98efcd7a18.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98efd9344f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98efe4d038.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98efef22f4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98effa0809.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98f0051919.jpg"
         ]
       },
       {
         "n": "Groot Deluxe",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/4638224a-719c-4a95-b773-af5be435274e/gallery-35-4.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363eba9b06b8.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/groot-deluxe",
         "marca": "Hot Toys",
         "escala": "1:6 - 26CM",
@@ -647,7 +573,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable Groot (Versión Deluxe)presenta:"
+            "x": "Lafigura coleccionable Groot (Versión Deluxe)presenta: Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -658,26 +584,33 @@
             "x": "Un (1) par de manos relajadasUn (1) par de puños"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Uno (1) pijama color aguamarina con patrones tejidos*Un (1) conjunto de accesorios con hojas para el estilo Hércules (incluye peinado, piezas intercambiables de brazos, pecho y bigote que se pueden colocar en una expresión furiosa esculpida)Un (1) conjunto de accesorios con hojas para estilo caniche (incluye peinado, brazos, cuerpo y piezas para las piernas)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) Iwua translúcido (con función articulada)*Dos (2) rodajas de pepino (que se pueden colocar en una escultura de carita sonriente; con función magnética)Un (1) dibujoExclusivo de la versión Deluxe"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363eba9b06b8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebaa11d25.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebaa65031.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebaabd8b1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebab1e012.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebab72c3b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebabc95a6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebac2c436.jpg"
         ]
       },
       {
         "n": "Arc Trooper Fives",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/80cc7b65-737b-40cc-8aa9-c7036b76bb0c/arc-trooper-fives_star-wars_gallery_66878f4f3f50c.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f47e4f26.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/arc-trooper-fives",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -715,11 +648,24 @@
           }
         ],
         "yt": "",
-        "franquicia": "Star Wars"
+        "franquicia": "Star Wars",
+        "precio_orig": "",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f47e4f26.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_scale_668c1e5dc358c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f484f993.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f48af42b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f491ade0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f497a000.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f49d8f23.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f4a44568.jpg"
+        ]
       },
       {
         "n": "Spider-Punk",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c3102db6-32b1-493c-9241-ff0504fe73b0/480913798_1043860331111312_4569360683247836061_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ed48cb8.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/spider-punk",
         "marca": "Hot Toys",
         "escala": "1:6",
@@ -733,7 +679,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala Spider-Punkpresenta:"
+            "x": "La figura de lasexta escala Spider-Punkpresenta: Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -744,26 +690,33 @@
             "x": "Un (1) par de manos para tocar la guitarraUn (1) par de puñosUn (1) lanzatelarañas con la izquierdaUno (1) relajar la mano izquierdaUna (1) derecha abierta"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) chaleco punk de estilo punk negro con tachuelas y patronesUna (1) camisa azulUna (1) camiseta interior rojaUn (1) par de pantalones negros con patronesUn (1) cinturón negro con tirantes azulesUn (1) par de botas largas rojasUn (1) collar de estilo punkUn (1) par de brazaletes estilo punk"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) guitarra con patrones impresos y cinturón (ajustable)Un (1) efecto de guitarra (acoplable a la guitarra)Dispositivo de viaje unidimensionalCuatro (4) cadenas de accesorios de correas de diferentes formas y longitudesUn (1) conjunto de horizontes con un fondo de estilo pop artUn (1) accesorio de diorama de poste con cadenasUn soporte dinámico de figura con el logo de la película y el nombre del personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ed48cb8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_scale_650de4f349695.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4edd9bd5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ee5129b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4f06a19f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ef2fe12.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4eeb85ca.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ef95de6.jpg"
         ]
       },
       {
         "n": "Spider-Man (Black Suit)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/d4574d43-c198-47b9-b659-750201328d2c/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de22b330a0.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de229430bb.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/spider-man-black-suit",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -800,16 +753,26 @@
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": true
+        "oferta": true,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de229430bb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_scale_650de22bc3e79.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de2262d3b3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de228805b4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de2275d1ce.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de227ee436.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de2268c560.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de226db271.jpg"
+        ]
       },
       {
         "n": "Grogu Life-Size",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/59fe81ee-a816-4213-8090-d9f2a219b8ef/untitled_design.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6924eb56a867d.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/grogu-life-size",
         "marca": "Hot Toys",
         "escala": "1:1 - 38CM",
         "estado": "Sellado",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "3800",
         "precio_d": "",
         "reserva": "",
@@ -818,33 +781,40 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura a tamaño real de Grogupresenta:"
+            "x": "Lafigura a tamaño real de Grogupresenta: Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada del Grogu en la serie de acción realThe MandalorianTamaño y proporción precisosEscultura de cabeza recién desarrollada con elementos de tela blancaExpresión facial muy detallada, arrugas detalladas y textura de pielAproximadamente 37,5 cm de alturaCuerpo recién desarrollado con 9 puntos de articulaciónCada pieza de escultura de cabeza está especialmente pintada a mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) túnica de color beige"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) bolsa bandolera (tamaño para caber en una figura coleccionable tamaño real de Grogu)Soporte personalizado especialmente diseñado"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6924eb56a867d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-scale-681a6481071e0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044d12840.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044da42d9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044df4001.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044e523cd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044eb936c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044f1d6a0.jpg"
         ]
       },
       {
         "n": "Batman (1989)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/77712a9e-25b2-4062-8347-c8c061b98204/473051375_1012418364255509_5539008781050378125_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712a3b715.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-1989",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -858,7 +828,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Batmanpresenta:"
+            "x": "Lafigura de la sexta escala de Batmanpresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -869,34 +839,37 @@
             "x": "Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de armas cogidas de la manoUn (1) mando a distancia sujetando la mano derechaUna (1) mano izquierda abierta"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) traje de murciélago con capa y logo de Batman en el pechoUn (1) cinturón de utilidadesUn (1) par de botas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) pistola de garfioUn (1) guantelete con lanzador de líneaUn (1) batarang unido por cuerdaDos (2) ruedas ninjaTres (3) cápsulas de humo"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) zapato de tacón blancoUn (1) mando a distancia de BatmóvilUn (1) temporizador de bombaUn (1) engranaje perforadorUn soporte de figura con el logo de la película y el nombre del personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": true,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712a3b715.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_scale_63ee73366cf47.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712ae3e91.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712be772d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712cdaefd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712d70cb6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712dd8894.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712ec3717.jpg"
         ]
       },
       {
         "n": "Mandalorian Super Commando Captain",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/19492fac-4632-4b14-9b37-8b6d9fca0190/mandalorian-super-commando_star-wars_gallery_65e0ac32aef39.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0835657.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/mandalorian-super-commando-captain",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
@@ -910,7 +883,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de la sextaescala del Capitán Super Comando Mandalorianopresenta:"
+            "x": "La figura de la sextaescala del Capitán Super Comando Mandalorianopresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -921,29 +894,32 @@
             "x": "Un (1) par de manos relajadasUn (1) par de manos para sujetar el blásterUn (1) par de manos gesticulares"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) armadura y chaleco del Comando Mandaloriano con efectos desgastadosUn (1) par de guanteletes rojos con efectos de envejecimientoUna (1) camisa de manga larga marrónUn (1) cinturón negro con bolsillos utilitariosUn (1) cinturón marrón con funda para pistolaUn (1) par de pantalones marronesUn (1) par de rodilleras rojas con efectos de envejecimientoUn (1) par de protectores negros para la pantorrilla de color rojoUn (1) par de botas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) rifle blásterUna (1) pistola blásterUn (1) escudo de energía (que se puede acoplar a guanteletes)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) propulsor con efectos de desgaste (equipado con función magnética)Soporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0835657.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_scale_65e0ae27aad5f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac08c1cde.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0e3688c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac09c286c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac094b4b4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0a46290.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0c53cbf.jpg"
         ]
       },
       {
@@ -989,7 +965,7 @@
       },
       {
         "n": "Iron Man Mark I (Edición Especial)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/847b9e24-17fe-4ea7-82c4-87334f066603/iron-man-mark-1-whats-in-the-box.jpeg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_66e9e3e64a6e1.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/iron-man-mark-i-edicin-especial",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -1003,49 +979,48 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de fundición a sexta escala de Iron Man Mark I (Edición Especial) presenta:"
+            "x": "Lafigura de fundición a sexta escala de Iron Man Mark I (Edición Especial) presenta: Disfraz: Armas: Accesorios: Accesorio extra exclusivo para la Edición Especial:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una imagen auténtica y detallada de Iron Man Mark I enIron ManUna (1) escultura de cabeza con casco recién pintada con un parecido auténtico de Robert Downey Jr. como Tony Stark en la películaAproximadamente 30 cm de alturaCuerpo especializado con más de 36 puntos de articulación dentro de la armadura Iron Man Mark I (la armadura Iron Man Mark I y el cuerpo de figura son inseparables)Piezas de armadura fundida a presión cuidadosamente elaboradas, incluyendo casco, pecho, hombros, muslos, pantorrilla derecha y pieCaracterísticas especiales sobre la armadura:Múltiples capas de pintura metálica de bronce y acero plateado en las armaduras con cables y cables reales y efectos de envejecimientoReactor de arco en forma de círculo iluminado por LED en el pecho y antebrazo izquierdo (accionado por USB)El motor de motor altamente detallado en la parte trasera de la figura, equipado con diseño rotativo (accionado por USB), simula un motor en funcionamientoDos (2) pares de manos enguantadas intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de puñosCada escultura de cabeza está especialmente pintada a mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) camiseta de color marrón oscuroUn (1) par de pantalones grisesUn (1) par de botas de color marrón oscuro"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) lanzallamas (implantado en el brazo derecho, no desmontable)Uno (1) lanzador de misiles de antebrazo funcional (implantado en el brazo izquierdo, no desmontable)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Dos (2) accesorios de efecto lanzallamasUn (1) soporte temático de figuras de diorama con restos de armas y piedrasUna (1) base de figura elevada con el logo de la película y la placa del personaje"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorio extra exclusivo para la Edición Especial:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) casco Iron Man Mark I de fundición (no se puede llevar en la figura)Función de encendido y función rotativa funcionando mediante alimentación USB*El cable de conexión USB no está incluido para objetos de colección, se requiere cable Micro USB"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": true,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_66e9e3e64a6e1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_scale_6438455f38446.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef155880ca5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef1558dd4ac.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef155a6870c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef15593e628.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef1559a3009.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef155a107dd.jpg"
         ]
       },
       {
         "n": "King Shark",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/6ad296b8-a89d-4529-8d7d-1de10c2d5323/481207990_10160824149212344_5046203506114034355_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc1263e9f.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/king-shark",
         "marca": "Hot Toys",
         "escala": "1:6 - 35CM",
@@ -1059,33 +1034,40 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala del Tiburón Reypresenta:"
+            "x": "Lafigura de la sexta escala del Tiburón Reypresenta: Disfraz: Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada del Rey Tiburón enEl Escuadrón SuicidaRecreación detallada de las características características del Tiburón Rey, incluyendo mandíbula, filas de dientes afilados, aleta dorsal y textura rugosa de la pielPintado hábilmente en blanco y en varios tonos de grisAproximadamente 35,5 cm de altura7 puntos de articulación que incluyen brazos, muñecas y cinturaCuatro (4) piezas de manos intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de manos gesticularesElaborado con material de vinilo"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Uno (1) pantalones azules con patrones"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) libro"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc1263e9f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc12bd9bd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc1323ee1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc137ac07.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc13d2f87.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc1436c7b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc1490439.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc14ea8d1.jpg"
         ]
       },
       {
         "n": "Jack Sparrow (Deluxe)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/df38f906-f7a8-44a1-9f72-6b9873b50952/jack-sparrow-deluxe-version_disney_gallery_66059070b17c4.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058feee5697.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/jack-sparrow-deluxe",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -1099,89 +1081,56 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | Pirates of the Caribbean"
-          },
-          {
-            "t": "notion-text",
-            "x": "Figura a escala 1:6 deJack Sparrow, basada en la interpretación deJohnny DeppenPirates of the Caribbean: Dead Men Tell No Tales."
-          },
-          {
-            "t": "notion-text",
-            "x": "EstaDeluxe Versionpresenta un nivel de realismo excepcional, condos head sculpts intercambiables(expresión burlona y expresión seria), ambos consistema de ojos móviles independientes, pintura a mano y barba/cabellos altamente detallados que combinanimplantes de lana, rastas y accesorios esculpidos."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye un vestuario completo con múltiples capas,botas y cinturones de cuero real, una enorme variedad de armas y accesorios icónicos, además de unabase tipo diorama con efecto de agua translúcida, exclusiva de esta versión."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Hot Toys | Pirates of the Caribbean Figura a escala 1:6 deJack Sparrow, basada en la interpretación deJohnny DeppenPirates of the Caribbean: Dead Men Tell No Tales. EstaDeluxe Versionpresenta un nivel de realismo excepcional, condos head sculpts intercambiables(expresión burlona y expresión seria), ambos consistema de ojos móviles independientes, pintura a mano y barba/cabellos altamente detallados que combinanimplantes de lana, rastas y accesorios esculpidos. Incluye un vestuario completo con múltiples capas,botas y cinturones de cuero real, una enorme variedad de armas y accesorios icónicos, además de unabase tipo diorama con efecto de agua translúcida, exclusiva de esta versión. Características Incluye Head Sculpts (ambos con ojos móviles y pintados a mano) Manos (10) Vestuario Armas Accesorios Alimentación"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Escala1:6Altura: aprox.30 cmCuerpo conmás de 30 puntos de articulaciónDos head sculpts conrolling eyeball systemCabello mixto: implante textil + esculturaEdiciónDeluxecon accesorios exclusivos"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye"
-          },
-          {
-            "t": "notion-text",
-            "x": "Head Sculpts"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Rostro con expresión burlonaRostro con expresión seria(ambos con ojos móviles y pintados a mano)"
-          },
-          {
-            "t": "notion-text",
-            "x": "(ambos con ojos móviles y pintados a mano)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Manos (10)"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Manos para pistolasManos para espada / vainaManos abiertasManos con gestos icónicosManos señalando con el dedo"
           },
           {
-            "t": "notion-text",
-            "x": "Vestuario"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Sombrero marrón tipo cuero (removible)Camisa crema de manga largaChaleco azul con patrónAbrigo marrón oscuroPantalón marrón oscuroCinturones de cuero genuino (marrón oscuro y marrón claro)Cinturón tipo piel de caimánBandolera con vaina para sablePañuelo rojo a rayasBotas marrones de cuero genuinoMuñequeras (negra y con cordones)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas"
           },
           {
             "t": "notion-bulleted-list",
             "x": "SableCuchilloDos (2) pistolas de chispa"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Farol conluz LED amarillaThe Black Pearlen botellaBrújulaCatalejoOrnamentos para cinturónPata de pato (colgante)Mechón de cabello de telaCabeza de la madre de Jack con ornamentos doradosPiel sintética decorativaTimón de barco con cuerdas realesCofre del tesoro (abrible)*Base diorama temática pirata con efecto de agua*Exclusivos de laDeluxe Version"
-          },
-          {
-            "t": "notion-text",
-            "x": "Alimentación"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Baterías incluidas para el accesorio LED (tipo botón)"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": true,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058feee5697.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_scale_6605995775f66.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058fef59982.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058fefac516.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff00b98d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff05fd95.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff0b3e16.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff114f0b.jpg"
         ]
       },
       {
         "n": "Boba Fett (Quarter Scale Deluxe)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/d094b745-ea04-4b57-bfe7-52febbcdc2f1/gallery-37.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc395460ce.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/boba-fett-quarter-scale-deluxe",
         "marca": "Hot Toys",
         "escala": "1:6 - 45CM",
@@ -1222,11 +1171,21 @@
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc395460ce.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc3959e00f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc39608924.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc39674f52.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc396c9d8d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc39728dd5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc3978378e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc397e8cf4.jpg"
+        ]
       },
       {
         "n": "Venom (Let There be Carnage)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c16e024f-8c27-4bec-b742-e64acd75f46b/491189184_10160975071497344_2926705943704803878_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/hot-toys-marvel-venom-sixth-scale-figure-gallery-671be7fa56094.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/venom-let-there-be-carnage",
         "marca": "Hot Toys",
         "escala": "1:6 - 38CM",
@@ -1240,7 +1199,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable Venom Sixth Scalepresenta:"
+            "x": "Lafigura coleccionable Venom Sixth Scalepresenta: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -1251,26 +1210,33 @@
             "x": "Un (1) par de puñosUn (1) par de manos atacantesUna (1) mano izquierda señalando con el dedoUna (1) mano derecha que sujeta la varilla"
           },
           {
-            "t": "notion-text",
-            "x": "Armas:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) hoz simbionte derechaDos (2) simbiontes atacando la mano izquierda"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) varillaDos (2) Venom con accesorios simbiontes (versión Venom con fauces y cabeza sonriente) (con cables; acoplables a la espalda de la figura)Dos (2) accesorios simbiontes (con cable; acoplables a la espalda de la figura)Una base de figura con el logo de la película y la placa del personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/hot-toys-marvel-venom-sixth-scale-figure-gallery-671be7fa56094.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515efc3efc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515ef76f9c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515f01e5da.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515ee7ed5c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515eecd66a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515edd4838.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515ee31ec3.jpg"
         ]
       },
       {
         "n": "Captain America (Falcon & The Winter Soldier)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/b3505a5b-70b9-48dc-a55e-9dc2ed9cd2b3/179770013_10157982267987344_4330941379752751648_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae504439f5.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/captain-america-falcon-the-winter-soldier",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
@@ -1284,7 +1250,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable a escala sexta de CapitánAmérica presenta:"
+            "x": "Lafigura coleccionable a escala sexta de CapitánAmérica presenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -1295,34 +1261,37 @@
             "x": "Un (1) par de manos lanzadoras de escudoUn (1) par de escudos cogiéndose de la manoUn (1) par de manos abiertasUn (1) par de puños"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) traje táctico azul, blanco grisáceo y rojo con patrón en relieve y emblema de estrella en el pechoUn (1) par de pantalones azules con estampado en relieve y rodilleras recubiertas de telaUn (1) cinturón metálico plateado y azulUn (1) par de protectores de antebrazo metálicos plateados y rojosUn (1) par de protectores metálicos plateados y rojos para la pantorrillaUn (1) par de botas metálicas de color plataUna (1) mochila de vuelo"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) escudo circular del Capitán América con emblema de estrella plateada"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) juego de alas mecánicas con función de articulación (abiertas hasta aproximadamente 80 cm de ancho)Un (1) zángan RedwingUn soporte dinámico especialmente diseñado con placa de personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae504439f5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_scale_64358fe1b4439.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae505c208b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae506256e2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae4ea54638.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae4e603ba7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae50503e2a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae4eaa180e.jpg"
         ]
       },
       {
         "n": "KX Enforcer Droid",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/fa6b0442-85de-4d5f-a901-26f6377c660e/498552762_10161092334057344_1576271813376695077_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d731b095.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/kx-enforcer-droid",
         "marca": "Hot Toys",
         "escala": "1:6 - 36CM",
@@ -1357,9 +1326,19 @@
         ],
         "precio_orig": "3600",
         "yt": "",
-        "franquicia": "",
+        "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": true
+        "oferta": true,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d731b095.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7367660.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d73b3071.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7409f87.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7455e1c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d74a4bc8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7504209.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d75587a4.jpg"
+        ]
       },
       {
         "n": "Shadow Trooper",
