@@ -790,7 +790,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de Spider-Man (Traje negro) en la sexta escalapresenta:"
+            "x": "Lafigura de Spider-Man (Traje negro) en la sexta escalapresenta: Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -801,22 +801,19 @@
             "x": "Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de manos para lanzar telarañasUna (1) telaraña sujeta la mano izquierdaUn (1) accesorio sujetando la mano derecha"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Uno (1) conjunto de Spider-Man recién hecho a medida, negro y plateado, grabado con ribetes plateados, patrón de telaraña y emblema de araña en el pecho"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) cabeza de simbionte alienígena (acoplable a la figura) y lengua con función magnéticaDos (2) brazos simbiontes alienígenas (acoplables a los brazos)Una (1) máscara de Spider-Man (no se puede llevar en la figura)Seis (6) cadenas de accesorios de correas de diferentes formas y longitudesSoporte para figuras especialmente diseñado con el logo de la película y la placa del personaje"
           }
-        ]
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": true,
+        "oferta": true
       },
       {
         "n": "Grogu Life-Size",
