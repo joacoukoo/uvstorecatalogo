@@ -1841,7 +1841,7 @@
         ],
         "precio_orig": "",
         "yt": "",
-        "franquicia": "",
+        "franquicia": "Otros",
         "destacado": false,
         "oferta": false
       },
@@ -1853,7 +1853,7 @@
         "escala": "Escala 1:4 - 41CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "5700",
+        "precio": "5500",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -1881,15 +1881,18 @@
           }
         ],
         "yt": "",
-        "franquicia": "Gaming"
+        "franquicia": "Gaming",
+        "precio_orig": "5800",
+        "destacado": false,
+        "oferta": true
       },
       {
         "n": "Iron Man Mark IV – Sub-Zero Fractal Armor",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/2a0cd4c3-d1ba-4bb3-bb45-92c9647f1e89/untitled_design_-1.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefac0c32.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/iron-man-mark-iv-sub-zero-fractal-armor",
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
-        "estado": "Nuevo",
+        "estado": "Vendido",
         "disp": "Entrega Inmediata",
         "precio": "5100",
         "precio_d": "",
@@ -1899,15 +1902,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | Sixth Scale Figure (Escala 1/6)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Figura basada enIron Man 2, presentando unareinterpretación exclusivadelMark IVcon unesquema de color únicoy superficies geométricas irregulares tipo fractal."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza de alto impacto visual que combina acabados premium, iluminación LED avanzada y gran posabilidad."
+            "x": "Hot Toys | Sixth Scale Figure (Escala 1/6) Figura basada enIron Man 2, presentando unareinterpretación exclusivadelMark IVcon unesquema de color únicoy superficies geométricas irregulares tipo fractal. Una pieza de alto impacto visual que combina acabados premium, iluminación LED avanzada y gran posabilidad. (todas con funcionamiento a batería)"
           },
           {
             "t": "notion-bulleted-list",
@@ -1920,10 +1915,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "OjosPalmas repulsorasReactor ARC circular en el pecho (luz blanca)Antebrazos (luz azul)(todas con funcionamiento a batería)"
-          },
-          {
-            "t": "notion-text",
-            "x": "(todas con funcionamiento a batería)"
           },
           {
             "t": "notion-bulleted-list",
@@ -1945,11 +1936,26 @@
             "t": "notion-bulleted-list",
             "x": "Cantidad limitada:2,500 unidades en mercados seleccionados"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefac0c32.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-scale-68cad2ca3f0c1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefb947bd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefc11ff6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefc84e37.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefd02f37.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefd679e3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefdcf4c3.jpg"
         ]
       },
       {
         "n": "Batman: The Dark Knight Returns",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/9950711f-beca-4d38-9ce5-6297bc843fd5/measures_cb709e59-c40f-4905-acd7-ab636071bb60_2000x.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec3ff0e214.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-the-dark-knight-returns",
         "marca": "Iron Studios",
         "escala": "1:6 - 38CM",
@@ -1963,19 +1969,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios | Escala 1/6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Iron Studiospresenta una impactante pieza de la línea1/6inspirada en la legendaria obra deFrank Miller,Batman: The Dark Knight Returns."
-          },
-          {
-            "t": "notion-text",
-            "x": "Este diorama enpolystone, pintado a mano y deedición limitada, recrea uno de los momentos más memorables del cómic. En un futuro sombrío, elLíder Mutantemanipula a la juventud de Gotham para llevar el crimen a niveles nunca vistos y reta a Batman a un combate mano a mano. Tras una primera derrota, un Batman veterano y estratégico elige unpozo de barrocomo escenario para la revancha, buscando ralentizar a su rival."
-          },
-          {
-            "t": "notion-text",
-            "x": "A pesar de su edad, de haber salido recientemente del retiro y de enfrentar a un enemigo más grande y en plenitud física, el Caballero Oscuro logra explotar las debilidades del Líder Mutante y, aun herido,sale victorioso. El diorama captura ese instante triunfal: Batman erguido sobre su oponente derrotado, sobre una base que replica fielmente el terreno del combate."
+            "x": "Iron Studios | Escala 1/6 Iron Studiospresenta una impactante pieza de la línea1/6inspirada en la legendaria obra deFrank Miller,Batman: The Dark Knight Returns. Este diorama enpolystone, pintado a mano y deedición limitada, recrea uno de los momentos más memorables del cómic. En un futuro sombrío, elLíder Mutantemanipula a la juventud de Gotham para llevar el crimen a niveles nunca vistos y reta a Batman a un combate mano a mano. Tras una primera derrota, un Batman veterano y estratégico elige unpozo de barrocomo escenario para la revancha, buscando ralentizar a su rival. A pesar de su edad, de haber salido recientemente del retiro y de enfrentar a un enemigo más grande y en plenitud física, el Caballero Oscuro logra explotar las debilidades del Líder Mutante y, aun herido,sale victorioso. El diorama captura ese instante triunfal: Batman erguido sobre su oponente derrotado, sobre una base que replica fielmente el terreno del combate."
           },
           {
             "t": "notion-bulleted-list",
@@ -1989,6 +1983,21 @@
             "t": "notion-bulleted-list",
             "x": "Pieza de colección inspirada en el arte conceptual de DC Comics y Chiaroscuro Studios.Ideal para fans de DC y coleccionistas del Batman clásico de Frank Miller."
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": true,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec3ff0e214.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec3ff53966.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec3ff9822d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec3ffd5bfa.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec40019c8a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec400561df.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec400923ea.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec400cb985.jpg"
         ]
       },
       {
@@ -2033,7 +2042,7 @@
       },
       {
         "n": "Armorized Deadpool",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/8018c3fe-2e26-4b04-b520-ad2e86ab5230/471257027_998662628964416_8236848631731177113_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef419f39445.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armorized-deadpool",
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
@@ -2047,19 +2056,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | Armorized Warrior Collection | Escala 1/6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Deadpooles un experto tirador, maestro en múltiples artes marciales y casi siempre se le ve empuñando sus inseparables katanas… pero ¿y si también tuviera acceso a una armadura altamente armada?"
-          },
-          {
-            "t": "notion-text",
-            "x": "SideshowyHot Toyspresentan la nuevaArmorized Warrior Collection, una línea que reimagina a personajes icónicos entrajes blindados de alta tecnología, explorando versiones de nuevas dimensiones sin perder la esencia visual que los define."
-          },
-          {
-            "t": "notion-text",
-            "x": "Basada en una reinterpretación de Deadpool con armadura, esta figura de alta gama destaca por sucasco completamente nuevo con iluminación LED, un traje avanzado con diseño aerodinámico enrojo y negrocon acabado mate y detalles enplateado oscuro, además de un impresionante arsenal de armas características del personaje."
+            "x": "Hot Toys | Armorized Warrior Collection | Escala 1/6 Deadpooles un experto tirador, maestro en múltiples artes marciales y casi siempre se le ve empuñando sus inseparables katanas… pero ¿y si también tuviera acceso a una armadura altamente armada? SideshowyHot Toyspresentan la nuevaArmorized Warrior Collection, una línea que reimagina a personajes icónicos entrajes blindados de alta tecnología, explorando versiones de nuevas dimensiones sin perder la esencia visual que los define. Basada en una reinterpretación de Deadpool con armadura, esta figura de alta gama destaca por sucasco completamente nuevo con iluminación LED, un traje avanzado con diseño aerodinámico enrojo y negrocon acabado mate y detalles enplateado oscuro, además de un impresionante arsenal de armas características del personaje. (luz blanca, funcionamiento a batería)"
           },
           {
             "t": "notion-bulleted-list",
@@ -2072,10 +2069,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "OjosReactor ARCManos(luz blanca, funcionamiento a batería)"
-          },
-          {
-            "t": "notion-text",
-            "x": "(luz blanca, funcionamiento a batería)"
           },
           {
             "t": "notion-bulleted-list",
@@ -2097,6 +2090,21 @@
             "t": "notion-bulleted-list",
             "x": "Figura Armorized Deadpool Sixth ScaleSet completo de armasManos intercambiablesBase de exhibición"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef419f39445.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef419f928ea.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef419fdf237.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a07f8ee.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a0cae6e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a129b6a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a1777ba.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a1c262d.jpg"
         ]
       },
       {
@@ -2115,19 +2123,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "PPAP Studio"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza encantadora y dinámica que celebra lalínea evolutiva de Pikachudentro del universo dePokémon."
-          },
-          {
-            "t": "notion-text",
-            "x": "Este set reúne aPichu, Pikachu y Raichuen una sola composición, acompañados porefectos eléctricosque aportan movimiento y energía a la escena. La inclusión deMagnemitesuma un guiño especial al entorno eléctrico del diorama."
-          },
-          {
-            "t": "notion-text",
-            "x": "Diseñada para fans y coleccionistas, esta estatua captura la evolución, personalidad y carisma de uno de los Pokémon más icónicos de todos los tiempos."
+            "x": "PPAP Studio Una pieza encantadora y dinámica que celebra lalínea evolutiva de Pikachudentro del universo dePokémon. Este set reúne aPichu, Pikachu y Raichuen una sola composición, acompañados porefectos eléctricosque aportan movimiento y energía a la escena. La inclusión deMagnemitesuma un guiño especial al entorno eléctrico del diorama. Diseñada para fans y coleccionistas, esta estatua captura la evolución, personalidad y carisma de uno de los Pokémon más icónicos de todos los tiempos."
           },
           {
             "t": "notion-bulleted-list",
@@ -2145,7 +2141,12 @@
             "t": "notion-bulleted-list",
             "x": "Altura:28 cmAncho:29 cmProfundidad:22 cm"
           }
-        ]
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Batman & Robin 66",
@@ -2153,7 +2154,7 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-robin-66",
         "marca": "Saturn Toys",
         "escala": "1:6 - 32CM",
-        "estado": "Exhibido - Excelente Estado",
+        "estado": "Vendido",
         "disp": "Vendido",
         "precio": "4200",
         "precio_d": "",
@@ -2192,13 +2193,13 @@
         ],
         "precio_orig": "",
         "yt": "",
-        "franquicia": "",
+        "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false
       },
       {
-        "n": "Iron Man – Suit Armor (Deluxe Version)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/45337d15-2a4e-492f-a2a4-b66863653182/503810496_10161168206772344_5069700389480187992_n.jpg",
+        "n": "Iron Man – Origins (Deluxe Version)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9ca3287.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/iron-man-suit-armor-deluxe-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
@@ -2212,23 +2213,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | The Origins Collection | Sixth Scale Figure (Escala 1/6)"
-          },
-          {
-            "t": "notion-text",
-            "x": "El debut deIron Manen los años 60 no solo presentó al mundo una serie de armaduras de alta tecnología, sino que también consolidó su lugar como pilar de losAvengers. Su primer traje gris y voluminoso evolucionó con el tiempo hacia la icónica estéticaroja y doradaque perdura hasta hoy."
-          },
-          {
-            "t": "notion-text",
-            "x": "Regresando a los orígenes de los superhéroes,Hot ToyspresentaThe Origins Collection, inspirada directamente en las páginas de loscómics clásicos de Marvel. Para inaugurar la línea,SideshowyHot Toysintroducen elIron Man Suit Armor (Deluxe Version): una figuradiecasten escala 1/6 conarmaduras de cristal reinterpretadasy unabase diorama temática del Taller de Tony Stark, diseñada para elevar la experiencia de colección."
-          },
-          {
-            "t": "notion-text",
-            "x": "Exquisitamente elaborada a partir del Iron Man deMarvel Comics, la figura presenta un casco de nuevo diseño con iluminación LED, una estructura mecánica finamente detallada, pintura metálica en rojo y dorado, piezas de armadura cristalinas, máscaras y armaduras intercambiables para múltiples estilos de exhibición, iluminación LED distribuida por el torso, reactor ARC y palmas, y varios pares de manos para poses icónicas."
-          },
-          {
-            "t": "notion-text",
-            "x": "LaDeluxe Versionincluye accesorios exclusivos:"
+            "x": "Hot Toys | The Origins Collection | Sixth Scale Figure (Escala 1/6) El debut deIron Manen los años 60 no solo presentó al mundo una serie de armaduras de alta tecnología, sino que también consolidó su lugar como pilar de losAvengers. Su primer traje gris y voluminoso evolucionó con el tiempo hacia la icónica estéticaroja y doradaque perdura hasta hoy. Regresando a los orígenes de los superhéroes,Hot ToyspresentaThe Origins Collection, inspirada directamente en las páginas de loscómics clásicos de Marvel. Para inaugurar la línea,SideshowyHot Toysintroducen elIron Man Suit Armor (Deluxe Version): una figuradiecasten escala 1/6 conarmaduras de cristal reinterpretadasy unabase diorama temática del Taller de Tony Stark, diseñada para elevar la experiencia de colección. Exquisitamente elaborada a partir del Iron Man deMarvel Comics, la figura presenta un casco de nuevo diseño con iluminación LED, una estructura mecánica finamente detallada, pintura metálica en rojo y dorado, piezas de armadu"
           },
           {
             "t": "notion-bulleted-list",
@@ -2259,18 +2244,29 @@
             "x": "Puños cerradosManos con dedos articulados yrepulsores LEDManos de combate conrepulsores LED(luz blanca, a batería)"
           },
           {
-            "t": "notion-text",
-            "x": "(luz blanca, a batería)"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Maletín de Iron Mancon función articulada ***Pantalla holográfica***Base diorama del tallercon iluminación LED, brazos de grúa articulados y piezas de ensamblaje de armadura ***"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9ca3287.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9d088f6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9d6b340.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9dca6f5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2ba087e3d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2ba28e9c3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_silo.png",
+          "https://www.sideshow.com/cdn-cgi/image/height=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9ca3287_sm.jpg"
         ]
       },
       {
         "n": "Jiren - Dragon Ball Super",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/9d1a0d18-4987-4f9b-9a60-a0a830e35d81/fb4b2f24-6106-41a8-9559-b11da7e0de17.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/41728bdf-5152-4a1d-bf31-0e490cc1f210.jpg?v=1706827811",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/jiren-dragon-ball-super",
         "marca": "Army Ant Studio",
         "escala": "1:4 - 54CM",
@@ -2284,19 +2280,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "ArmyAnt Studio"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una estatua imponente que rinde homenaje a uno de los guerreros más temidos del universo deDragon Ball Super:Jiren."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta pieza enescala 1/4transmite a la perfección la fuerza, serenidad y poder absoluto que definen al miembro más formidable delPride Troopers."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con una presencia sobria y dominante, Jiren se presenta con una escultura limpia y musculatura perfectamente definida, ideal para coleccionistas que buscan una piezaminimalista pero contundente, donde el protagonismo lo tiene el personaje y su aura intimidante."
+            "x": "ArmyAnt Studio Una estatua imponente que rinde homenaje a uno de los guerreros más temidos del universo deDragon Ball Super:Jiren. Esta pieza enescala 1/4transmite a la perfección la fuerza, serenidad y poder absoluto que definen al miembro más formidable delPride Troopers. Con una presencia sobria y dominante, Jiren se presenta con una escultura limpia y musculatura perfectamente definida, ideal para coleccionistas que buscan una piezaminimalista pero contundente, donde el protagonismo lo tiene el personaje y su aura intimidante."
           },
           {
             "t": "notion-bulleted-list",
@@ -2310,11 +2294,26 @@
             "t": "notion-bulleted-list",
             "x": "Estatua deJirenen escala 1/4Mano adicional intercambiableBase incluida para exhibición"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/41728bdf-5152-4a1d-bf31-0e490cc1f210.jpg?v=1706827811",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3a2baa19-6e56-4037-b7bd-cf498a354e84.jpg?v=1706827811",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/776d0032-0668-466f-b6ec-708fe32bd934.jpg?v=1706827811",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fb4b2f24-6106-41a8-9559-b11da7e0de17.jpg?v=1706827811",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6eff0577-5a28-4124-9d24-4fcdfabc4363.jpg?v=1706827811",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3a53291b-1c69-4e3e-ad09-3fc52c636c31.jpg?v=1706827811",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b9ad549e-b431-43fa-87b3-e7a59eaf4e64.jpg?v=1706827811",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a1f3b5a9-1e69-4d08-bd49-589f9f7ea22a.jpg?v=1706827811"
         ]
       },
       {
         "n": "Strife – Grand Scale Bust",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/461f34de-d0d9-480b-854d-25696c2cb8d8/strife_bust_stn_02.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991058def1.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/strife-grand-scale-bust",
         "marca": "First 4 Figures",
         "escala": "37CM",
@@ -2328,27 +2327,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "First 4 Figures | Darksiders"
-          },
-          {
-            "t": "notion-text",
-            "x": "First 4 Figurespresenta con orgullo elGrand Scale Bust de Strife, uno de losCuatro Jinetes del Apocalipsisdel aclamado videojuegoDarksiders."
-          },
-          {
-            "t": "notion-text",
-            "x": "Strife aparece a lo largo de la saga y es uno de los dos protagonistas jugables deDarksiders Genesis, empuñando sus icónicos revólveres gemelosMercyyRedemptionmientras aniquila hordas interminables de demonios."
-          },
-          {
-            "t": "notion-text",
-            "x": "Este busto en gran escala recrea lacabeza y el torso superiorde Strife con un nivel de detalle sobresaliente. Está diseñado para impresionardesde cualquier distancia: de lejos, su silueta —con capa desgarrada y armadura marcada por la guerra— resulta tan imponente como en el juego; de cerca, la escultura y la pintura hiperrealista revelan texturas, desgaste y detalles que le dan vida al personaje."
-          },
-          {
-            "t": "notion-text",
-            "x": "ElStrife Grand Scale Bustluce espectacular desde todos los ángulos. Subase giratoria manualpermite exhibir la pieza libremente y apreciar cada detalle de la escultura."
-          },
-          {
-            "t": "notion-text",
-            "x": "La base incorporainscripciones rúnicas del misterioso “Void Between Worlds”, una localización recurrente dentro del universo de Darksiders, aportando profundidad narrativa y un fuerte componente de lore."
+            "x": "First 4 Figures | Darksiders First 4 Figurespresenta con orgullo elGrand Scale Bust de Strife, uno de losCuatro Jinetes del Apocalipsisdel aclamado videojuegoDarksiders. Strife aparece a lo largo de la saga y es uno de los dos protagonistas jugables deDarksiders Genesis, empuñando sus icónicos revólveres gemelosMercyyRedemptionmientras aniquila hordas interminables de demonios. Este busto en gran escala recrea lacabeza y el torso superiorde Strife con un nivel de detalle sobresaliente. Está diseñado para impresionardesde cualquier distancia: de lejos, su silueta —con capa desgarrada y armadura marcada por la guerra— resulta tan imponente como en el juego; de cerca, la escultura y la pintura hiperrealista revelan texturas, desgaste y detalles que le dan vida al personaje. ElStrife Grand Scale Bustluce espectacular desde todos los ángulos. Subase giratoria manualpermite exhibir la pieza libremente y apreciar cada detalle de la escultura. La base incorporainscripciones rúnicas del misteri"
           },
           {
             "t": "notion-bulleted-list",
@@ -2366,11 +2345,26 @@
             "t": "notion-bulleted-list",
             "x": "5.02 kg"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991058def1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_scale_64388667432bd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991052e2ef.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d99105e9ff2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d99106532f2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d99106af78b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991070811c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991076697c.jpg"
         ]
       },
       {
         "n": "Batman – XE Suit Hellbat Version",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/aa2ea311-5d3e-4c65-85f4-fb375c2f0f92/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd7197cfd94.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd7197cfd94.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-xe-suit-hellbat-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
@@ -2384,27 +2378,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | Sixth Scale Figure (Escala 1/6)"
-          },
-          {
-            "t": "notion-text",
-            "x": "En el DLC“Cold, Cold Heart”deBatman: Arkham Origins, Batman utiliza elExtreme Environment (XE) Suit, una armadura generadora de calor diseñada para resistir la criotecnología deMr. Freeze."
-          },
-          {
-            "t": "notion-text",
-            "x": "En losDC Comics, laHellbat Armores un traje formidable creado por Batman con ayuda de laJustice League, concebido para enfrentar amenazas que superan los límites humanos; una armadura de fuerza descomunal, vuelo y proyección de energía, cuyo poder se alimenta de la propia fuerza vital de Bruce Wayne."
-          },
-          {
-            "t": "notion-text",
-            "x": "Para celebrarBatman Day,SideshowyHot ToyspresentanBatman (XE Suit Hellbat Version), unafusión audazque combina la resistencia extrema del XE Suit con el poder devastador de la Hellbat. Esta edición eslimitada a 2,000 unidadesy está disponibleexclusivamente en mercados seleccionados."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura incorpora unanueva cabeza con cascoinspirada en el diseño Hellbat. Con una altura aproximada de33 cm, presenta un cuerpo robusto con gran posabilidad. El traje, una versión fuertemente blindada del XE Suit con estética Hellbat, luce unsímbolo del murciélago electrochapado en rojo, líneas rojas conefecto reflectivo luminoso UVyweatheringque aporta un acabado de batalla. Se completa concapa negra con alambre internoycinturón utilitario rojo. Incluye armas icónicas y una base de exhibición especialmente diseñada."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta pieza captura un momento único donde el equipo de supervivencia se encuentra con un poder casi divino, encarnando a Batman llevando su humanidad al límite en nombre de la justicia."
+            "x": "Hot Toys | Sixth Scale Figure (Escala 1/6) En el DLC“Cold, Cold Heart”deBatman: Arkham Origins, Batman utiliza elExtreme Environment (XE) Suit, una armadura generadora de calor diseñada para resistir la criotecnología deMr. Freeze. En losDC Comics, laHellbat Armores un traje formidable creado por Batman con ayuda de laJustice League, concebido para enfrentar amenazas que superan los límites humanos; una armadura de fuerza descomunal, vuelo y proyección de energía, cuyo poder se alimenta de la propia fuerza vital de Bruce Wayne. Para celebrarBatman Day,SideshowyHot ToyspresentanBatman (XE Suit Hellbat Version), unafusión audazque combina la resistencia extrema del XE Suit con el poder devastador de la Hellbat. Esta edición eslimitada a 2,000 unidadesy está disponibleexclusivamente en mercados seleccionados. La figura incorpora unanueva cabeza con cascoinspirada en el diseño Hellbat. Con una altura aproximada de33 cm, presenta un cuerpo robusto con gran posabilidad. El traje, una versión"
           },
           {
             "t": "notion-bulleted-list",
@@ -2430,6 +2404,21 @@
             "t": "notion-bulleted-list",
             "x": "Base de exhibiciónespecialmente diseñada conlogo del juegoyplaca con el nombre del personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": true,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd7197cfd94.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-scale-68cd75034d887.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd719861342.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd7198af70f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd71990ded6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd71995ef22.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd7199b0146.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd719a09f35.jpg"
         ]
       },
       {
