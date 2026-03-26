@@ -2474,11 +2474,11 @@
       },
       {
         "n": "Darth Maul - The Phantom Menace",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/15239f7f-1f50-4c57-a4fa-5911d83a55b0/darth_maul_so.png",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113ac82c3.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/darth-maul-the-phantom-menace",
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
-        "estado": "Nuevo",
+        "estado": "Vendido",
         "disp": "Entrega Inmediata",
         "precio": "3700",
         "precio_d": "",
@@ -2488,15 +2488,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | Star Wars | Escala 1/6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Impulsado por un profundo deseo de venganza contra los Jedi,Darth Maulfue finalmente liberado por su maestroDarth Sidiouspara asesinar a la Reina Amidala. Tras un primer enfrentamiento en Tatooine contraQui-Gon Jinn, Maul aguardó su oportunidad en Naboo, donde se batió en duelo contra Qui-Gon y su aprendiz,Obi-Wan Kenobi. Con velocidad cegadora y una agilidad impresionante, el Sith atravesó a Jinn con su sable de luz rojo de doble hoja; sin embargo, no logró imponerse a Obi-Wan, quien en un movimiento inesperado lo partió en dos y lo precipitó al núcleo del planeta, dándolo por destruido."
-          },
-          {
-            "t": "notion-text",
-            "x": "Para celebrar el25.º aniversario deStar Wars: Episode I – The Phantom Menace,SideshowyHot Toysrevisitan esta icónica figura y presentan unDarth Maulen escala 1/6 con un nivel de detalle excepcional. La pieza incluyedos esculturas de cabezacon expresiones memorables y un vestuario recreado con absoluta fidelidad al filme."
+            "x": "Hot Toys | Star Wars | Escala 1/6 Impulsado por un profundo deseo de venganza contra los Jedi,Darth Maulfue finalmente liberado por su maestroDarth Sidiouspara asesinar a la Reina Amidala. Tras un primer enfrentamiento en Tatooine contraQui-Gon Jinn, Maul aguardó su oportunidad en Naboo, donde se batió en duelo contra Qui-Gon y su aprendiz,Obi-Wan Kenobi. Con velocidad cegadora y una agilidad impresionante, el Sith atravesó a Jinn con su sable de luz rojo de doble hoja; sin embargo, no logró imponerse a Obi-Wan, quien en un movimiento inesperado lo partió en dos y lo precipitó al núcleo del planeta, dándolo por destruido. Para celebrar el25.º aniversario deStar Wars: Episode I – The Phantom Menace,SideshowyHot Toysrevisitan esta icónica figura y presentan unDarth Maulen escala 1/6 con un nivel de detalle excepcional. La pieza incluyedos esculturas de cabezacon expresiones memorables y un vestuario recreado con absoluta fidelidad al filme."
           },
           {
             "t": "notion-bulleted-list",
@@ -2518,11 +2510,26 @@
             "t": "notion-bulleted-list",
             "x": "Sith Probe DroidBinocularesBase dinámicaespecialmente diseñada conlogo de Star Warsyplaca con el nombre del personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113ac82c3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_scale_6633c40a09e6a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113b48899.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113bb3b32.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113c4c133.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113cda476.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113d5d853.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113dc91c1.jpg"
         ]
       },
       {
         "n": "Peacemaker (Season 1)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/4b819e7d-3a60-4853-a955-3e82f10b1aec/481227163_1043146954515983_3507084420554165422_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d983364411e.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/peacemaker-season-1",
         "marca": "Hot Toys",
         "escala": "1:6 - 32CM",
@@ -2536,23 +2543,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Hot Toys | DC | Escala 1/6"
-          },
-          {
-            "t": "notion-text",
-            "x": "—Peacemaker"
-          },
-          {
-            "t": "notion-text",
-            "x": "Continuando los eventos deThe Suicide Squad, la serie de DCPeacemakersigue a un vigilante brutal que cree en alcanzar la paza cualquier costo. Miembro del segundo equipo de ataque deTask Force X, Peacemaker fue enviado a la misión enCorto Maltese, dejando una marca imborrable con su moral extrema y violencia desmedida."
-          },
-          {
-            "t": "notion-text",
-            "x": "Ante la enorme popularidad del personaje,SideshowyHot Toyspresentan la esperadaPeacemaker Sixth Scale Collectible Figure, destacando susicónicos cascos cromados plateadosy una fidelidad excepcional al aspecto interpretado porJohn Cena."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura incluye unacabeza con casco de nuevo desarrolloy uncasco intercambiable con acabado cromo plateado, además de unrostro inferior intercambiabley unalengua acoplablepara crear expresiones alternativas. El vestuario está especialmente confeccionado y se acompaña de armas icónicas. Para completar la experiencia, su inseparable compañeroEaglyse incluye como accesorio en escala 1/6."
+            "x": "Hot Toys | DC | Escala 1/6 —Peacemaker Continuando los eventos deThe Suicide Squad, la serie de DCPeacemakersigue a un vigilante brutal que cree en alcanzar la paza cualquier costo. Miembro del segundo equipo de ataque deTask Force X, Peacemaker fue enviado a la misión enCorto Maltese, dejando una marca imborrable con su moral extrema y violencia desmedida. Ante la enorme popularidad del personaje,SideshowyHot Toyspresentan la esperadaPeacemaker Sixth Scale Collectible Figure, destacando susicónicos cascos cromados plateadosy una fidelidad excepcional al aspecto interpretado porJohn Cena. La figura incluye unacabeza con casco de nuevo desarrolloy uncasco intercambiable con acabado cromo plateado, además de unrostro inferior intercambiabley unalengua acoplablepara crear expresiones alternativas. El vestuario está especialmente confeccionado y se acompaña de armas icónicas. Para completar la experiencia, su inseparable compañeroEaglyse incluye como accesorio en escala 1/6."
           },
           {
             "t": "notion-bulleted-list",
@@ -2578,6 +2569,21 @@
             "t": "notion-bulleted-list",
             "x": "Eagly(aprox.7 cmde altura) conalas desplegables intercambiablesBase temáticacon el nombre del personaje"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d983364411e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d983369c069.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98336ef6df.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d983375b154.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98337ae159.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d983380e7d1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98338645c2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98338bb8aa.jpg"
         ]
       },
       {
