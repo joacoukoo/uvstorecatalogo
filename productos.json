@@ -9,7 +9,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
         "estado": "Nuevo - La Caja tiene un corte",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "3500",
         "precio_d": "",
         "reserva": "",
@@ -53,7 +53,10 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913476/deadpool_marvel_gallery_66a1538293ab8.jpg"
         ],
         "yt": "",
-        "franquicia": "Marvel"
+        "franquicia": "Marvel",
+        "precio_orig": "",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Armored Batman (2.0)",
