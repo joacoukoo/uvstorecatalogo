@@ -1093,8 +1093,10 @@ function openModal(p,cat){
     });
   }
   var prodLink=p.l?("\nLink del producto: "+p.l):"";
-  var figSlug=encodeURIComponent(p.n.toLowerCase().replace(/\s+/g,"-").replace(/[^a-z0-9\-]/g,""));
-  history.pushState(null,"",location.pathname+"#figura/"+figSlug);
+  // Store cat index + product index so deep-link can restore the modal
+  var catIdx=CAT_KEYS.indexOf(cat);
+  var prodIdx=(DATA[cat]||{products:[]}).products.indexOf(p);
+  history.pushState(null,"",location.pathname+"#figura/"+catIdx+"/"+prodIdx);
   var shareUrl=location.href;
   var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+(prodLink||("\nLink: "+shareUrl)));
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
@@ -1174,11 +1176,21 @@ function routeHash(h){
     else goHome();
     return;
   }
-  if(h.match(/^#figura\//)){goHome();return;}
+  var mFig=h.match(/^#figura\/(\d+)\/(\d+)$/);
+  if(mFig){
+    var ci=parseInt(mFig[1],10);
+    var pi=parseInt(mFig[2],10);
+    var cat=CAT_KEYS[ci];
+    if(cat&&DATA[cat]&&DATA[cat].products[pi]){
+      openModal(DATA[cat].products[pi],cat);
+    } else {
+      goHome();
+    }
+    return;
+  }
   goHome();
 }
 window.addEventListener("popstate",function(){
-  // On back/forward, close modal if open then re-route
   var modal=document.getElementById("modal");
   if(modal&&modal.classList.contains("open")){
     modal.classList.remove("open");document.body.style.overflow="";
