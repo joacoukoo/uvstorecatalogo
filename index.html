@@ -1092,12 +1092,11 @@ function openModal(p,cat){
       contentEl.appendChild(el);
     });
   }
-  var prodLink=p.l?("\nLink del producto: "+p.l):"";
   var catIdx=CAT_KEYS.indexOf(cat);
   var prodIdx=(DATA[cat]||{products:[]}).products.indexOf(p);
   history.pushState({_uvNav:true},null,location.pathname+"#figura/"+catIdx+"/"+prodIdx);
   var shareUrl=location.href;
-  var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+(prodLink||("\nLink: "+shareUrl)));
+  var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+"\nLink: "+shareUrl);
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
   document.getElementById("modal").classList.add("open");
   document.body.style.overflow="hidden";
