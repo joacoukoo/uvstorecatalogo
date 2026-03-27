@@ -3686,19 +3686,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Beast Kingdom | Marvel"
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Egg Attack Floating (EAF-001SP) – Infinity Saga"
-          },
-          {
-            "t": "notion-text",
-            "x": "DesdeBeast Kingdom, llega laMetallic Gold EditiondelIron Man Floating: una piezade edición limitadaque celebra el origen delMCUcon un acabado dorado espectacular. Esta figuralevitantepresenta una combinación deacabados brillantes y mate, realzando la silueta del héroe con un look elegante y poderoso."
-          },
-          {
-            "t": "notion-text",
-            "x": "La experiencia se completa coniluminación LEDenojos, reactor ARC del pecho y pies, mientrasIron Man flotasobre una base negra conLED azul, creando un efecto visual impactante para cualquier vitrina."
+            "x": "Beast Kingdom | Marvel Línea:Egg Attack Floating (EAF-001SP) – Infinity Saga DesdeBeast Kingdom, llega laMetallic Gold EditiondelIron Man Floating: una piezade edición limitadaque celebra el origen delMCUcon un acabado dorado espectacular. Esta figuralevitantepresenta una combinación deacabados brillantes y mate, realzando la silueta del héroe con un look elegante y poderoso. La experiencia se completa coniluminación LEDenojos, reactor ARC del pecho y pies, mientrasIron Man flotasobre una base negra conLED azul, creando un efecto visual impactante para cualquier vitrina. (La altura varía según la distancia de levitación sobre la base)"
           },
           {
             "t": "notion-bulleted-list",
@@ -3709,10 +3697,6 @@
             "x": "Ancho de la figura:16 cm(6.3”)(La altura varía según la distancia de levitación sobre la base)"
           },
           {
-            "t": "notion-text",
-            "x": "(La altura varía según la distancia de levitación sobre la base)"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "(1)Iron Man (Golden Version) Floating Figure(1)Base de exhibición con LED(1)Cable de carga USB-CAdaptador 12V no incluido"
           },
@@ -3720,7 +3704,12 @@
             "t": "notion-bulleted-list",
             "x": "Alto:11 cmAncho:22 cmProfundidad:31 cmPeso de envío:1.2 kg"
           }
-        ]
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Grog - Vox Machina",
