@@ -1103,11 +1103,14 @@ function openModal(p,cat){
 }
 
 function closeModal(){
-  document.getElementById("modal").classList.remove("open");
+  var m=document.getElementById("modal");
+  m.classList.remove("open");
+  m.style.display="none";
   document.body.style.overflow="";
   history.replaceState(null,"",location.pathname);
   showPage("home");
   document.getElementById("nav-home").classList.add("active");
+  setTimeout(function(){m.style.display="";},50);
 }
 function openSearch(){document.getElementById("search-ov").classList.add("open");document.body.style.overflow="hidden";setTimeout(function(){document.getElementById("search-inp").focus();},100);}
 function closeSearch(){document.getElementById("search-ov").classList.remove("open");document.body.style.overflow="";document.getElementById("search-inp").value="";document.getElementById("search-res").innerHTML="";document.getElementById("search-query-title").textContent="";document.getElementById("search-count").textContent="";}
@@ -1191,7 +1194,6 @@ function routeHash(h){
   goHome();
 }
 window.addEventListener("popstate",function(){
-  // Only route on popstate if modal is NOT open
   var modal=document.getElementById("modal");
   if(modal&&modal.classList.contains("open")){return;}
   routeHash(location.hash);
