@@ -30,8 +30,10 @@ except ImportError:
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 
-CATALOG_FILE = Path(__file__).parent / "index.html"
-CONFIG_FILE  = Path(__file__).parent / "uv_config.json"
+CATALOG_FILE  = Path(__file__).parent / "productos.json"   # datos del catálogo
+TEMPLATE_FILE = Path(__file__).parent / "index_template.html"  # diseño sin datos
+OUTPUT_FILE   = Path(__file__).parent / "index.html"       # resultado final
+CONFIG_FILE   = Path(__file__).parent / "uv_config.json"
 
 CAT_KEYS = [
     "Entrega Inmediata",
@@ -123,8 +125,10 @@ def git_deploy(repo_path, commit_msg="Update catalog", status_cb=None):
         
         cwd = str(repo_path)
         
-        # git add
-        r = subprocess.run(["git", "add", "index.html"], cwd=cwd, capture_output=True, text=True)
+        # git add — include all relevant files
+        r = subprocess.run(
+            ["git", "add", "index.html", "productos.json", "index_template.html"],
+            cwd=cwd, capture_output=True, text=True)
         if r.returncode != 0:
             return False, f"git add falló: {r.stderr}"
         
@@ -181,6 +185,23 @@ def translate_list(items):
         return result
     except: return items
 
+def clean_features(raw_text):
+    """Toma texto pegado y lo convierte en lineas limpias."""
+    import re as _re
+    NL = "\n"
+    if not raw_text or not raw_text.strip(): return ""
+    text = raw_text.strip()
+    text = _re.sub(r"[ \t]*[\-\*][ \t]+", NL, text)
+    text = _re.sub(r"[ \t]*\d+[\.\)][ \t]+", NL, text)
+    if NL not in text or text.count(NL) < 2:
+        text = _re.sub(r"\.( +)([A-Z])", "." + NL + "\\2", text)
+    lines = []
+    for line in text.splitlines():
+        line = line.strip().strip("-* ")
+        if line and len(line) > 3:
+            lines.append(line)
+    return NL.join(lines)
+
 # ─── PLATFORM SCRAPERS ────────────────────────────────────────────────────────
 
 def detect_platform(url, html_text):
@@ -224,8 +245,20 @@ def scrape_shopify(url, html, soup):
     return _build_result(name, desc, features, photos, escala, marca, price, url)
 
 def scrape_sideshow(url, html, soup):
-    sku_m = re.search(r'-(\d{6,})\/?$', url)
+    # Try SKU from URL slug first
+    sku_m = re.search(r'-(\d{6,})\/?(?:\?.*)?$', url)
     sku = sku_m.group(1) if sku_m else ""
+    # If URL has ?sku= param, use that (variant pages)
+    sku_q = re.search(r'[?&]sku=(\d{5,})', url)
+    if sku_q: sku = sku_q.group(1)
+    # Also scan HTML for the actual product SKU in JSON-LD or data attributes
+    if not sku:
+        sku_html = re.search(r'"sku"\s*:\s*"(\d{5,})"', html)
+        if sku_html: sku = sku_html.group(1)
+    # Try data-product-id or similar
+    if not sku:
+        sku_data = re.search(r'product[_-]id["\'\s]*[=:]["\'\s]*(\d{5,})', html, re.I)
+        if sku_data: sku = sku_data.group(1)
     photos = []; seen = set()
     if sku:
         for img in soup.find_all("img"):
@@ -394,12 +427,23 @@ def scrape_url(url, translate=True, status_cb=None):
 # ─── CATALOG HELPERS ──────────────────────────────────────────────────────────
 
 def load_catalog(path):
+    """Carga el catálogo desde productos.json"""
+    if str(path).endswith(".json"):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    # Legacy: leer desde HTML (fallback)
     with open(path, encoding="utf-8") as f: content = f.read()
     m = re.search(r'<script type="application/json" id="uv-data">(.*?)</script>', content, re.DOTALL)
     if not m: raise ValueError("No se encontró uv-data en el HTML")
     return json.loads(m.group(1))
 
 def save_catalog(path, data):
+    """Guarda el catálogo en productos.json"""
+    if str(path).endswith(".json"):
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        return
+    # Legacy: guardar en HTML (fallback)
     with open(path, encoding="utf-8") as f: content = f.read()
     new_json = json.dumps(data, ensure_ascii=False, separators=(",",":"))
     new_content = re.sub(
@@ -424,9 +468,12 @@ def add_product(path, data, categoria, precio, precio_d, reserva, entrega, canti
     p = {
         "n":data["nombre"],"i":data["fotos"][0] if data["fotos"] else "",
         "l":data["url_origen"],"marca":data["marca"],"escala":data["escala"],
+        "franquicia":data.get("franquicia",""),
         "estado":estado,"disp":CAT_DISP.get(categoria,"Entrega Inmediata"),
-        "precio":precio,"precio_d":precio_d,"reserva":reserva,
-        "entrega":entrega,"cantidad":cantidad,"fotos":data["fotos"],"content":blocks,"yt":youtube,
+        "precio":precio,"precio_d":precio_d,"precio_orig":data.get("precio_orig",""),
+        "reserva":reserva,"entrega":entrega,"cantidad":cantidad,
+        "fotos":data["fotos"],"content":blocks,"yt":youtube,
+        "destacado":data.get("destacado",False),"oferta":data.get("oferta",False),
     }
     if categoria not in catalog:
         catalog[categoria] = {"slug":categoria.lower().replace(" ","-"),"products":[]}
@@ -459,6 +506,7 @@ class PhotoPreview(tk.Frame):
         self.counter = tk.Label(nav,text="0 / 0",bg=BG,fg="#777",font=("Helvetica",10))
         self.counter.pack(side="left",padx=8)
         tk.Button(nav,text="▶",command=self.next,bg="#222",fg="white",font=("Helvetica",12),relief="flat",bd=0,padx=10,pady=3).pack(side="left",padx=2)
+        tk.Button(nav,text="🗑",command=self.delete_current,bg="#3a1a1a",fg="#f87171",font=("Helvetica",11),relief="flat",bd=0,padx=8,pady=3).pack(side="left",padx=(8,2))
 
     def set_photos(self, photos):
         self._photos=photos; self._idx=0
@@ -489,6 +537,15 @@ class PhotoPreview(tk.Frame):
         if not self._photos: return
         self._idx=(self._idx+1)%len(self._photos); self._load(self._idx)
 
+    def delete_current(self):
+        if not self._photos: return
+        del self._photos[self._idx]
+        if not self._photos:
+            self.canvas.config(image="",text="Sin foto"); self.counter.config(text="0 / 0")
+            return
+        self._idx=min(self._idx,len(self._photos)-1)
+        self._load(self._idx)
+
 # ─── MAIN APP ─────────────────────────────────────────────────────────────────
 
 class UVAdminApp:
@@ -504,6 +561,10 @@ class UVAdminApp:
         self._edit_photos = []
         self._upd_selected = None
         self._upd_photos = []
+        self._ef_destacado = tk.BooleanVar(value=False)
+        self._ef_oferta    = tk.BooleanVar(value=False)
+        self._add_destacado = tk.BooleanVar(value=False)
+        self._add_oferta    = tk.BooleanVar(value=False)
         self._build_ui()
         self._check_catalog()
 
@@ -529,7 +590,7 @@ class UVAdminApp:
 
         self._build_add_tab()
         self._build_edit_tab()
-        self._build_photos_tab()
+        # Photos tab merged into Edit tab
         self._build_config_tab()
 
         # Status bar
@@ -600,24 +661,48 @@ class UVAdminApp:
         ttk.Combobox(right,textvariable=self.add_cat_var,values=CAT_KEYS,state="readonly",
                      font=("Helvetica",11)).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
-        tk.Label(right,text="Estado:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=8,column=0,sticky="w",pady=(6,2))
-        self.add_estado_var = tk.StringVar(value="Nuevo")
-        ttk.Combobox(right,textvariable=self.add_estado_var,values=["Nuevo","Usado - Como Nuevo","Vendido"],
+        tk.Label(right,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=8,column=0,sticky="w",pady=(6,2))
+        self.add_franquicia_var = tk.StringVar(value="")
+        ttk.Combobox(right,textvariable=self.add_franquicia_var,values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros"],
                      state="readonly",font=("Helvetica",11)).grid(row=8,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
+        # Precio original + checkboxes Destacado/Oferta
+        tk.Label(right,text="Precio Orig (Q):",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=9,column=0,sticky="w",pady=(6,2))
+        self.add_precio_orig_var = tk.StringVar()
+        tk.Entry(right,textvariable=self.add_precio_orig_var,bg=BG2,fg=TEXT,font=("Helvetica",11),
+                 relief="flat",bd=6,insertbackground=TEXT).grid(row=9,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+        add_chk = tk.Frame(right, bg=BG)
+        add_chk.grid(row=9,column=2,columnspan=1,sticky="w",pady=(6,2),padx=(12,0))
+        tk.Checkbutton(add_chk,text="★ Destacado",variable=self._add_destacado,
+                       bg=BG,fg="#b97aff",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold")).pack(side="left",padx=(0,8))
+        tk.Checkbutton(add_chk,text="% Oferta",variable=self._add_oferta,
+                       bg=BG,fg="#f87171",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold")).pack(side="left")
+
+        tk.Label(right,text="Estado:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=10,column=0,sticky="w",pady=(6,2))
+        self.add_estado_var = tk.StringVar(value="Nuevo")
+        ttk.Combobox(right,textvariable=self.add_estado_var,values=["Nuevo","Usado - Como Nuevo","Vendido"],
+                     state="readonly",font=("Helvetica",11)).grid(row=9,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+
         # Description — EDITABLE
-        tk.Label(right,text="Descripción:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=9,column=0,sticky="nw",pady=(10,2))
+        tk.Label(right,text="Descripción:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=12,column=0,sticky="nw",pady=(10,2))
         self.add_desc_txt = tk.Text(right,height=5,bg=BG2,fg=TEXT,font=("Helvetica",10),
                                     relief="flat",bd=6,wrap="word",insertbackground=TEXT)
-        self.add_desc_txt.grid(row=9,column=1,sticky="ew",pady=(10,2),padx=(8,0))
-        tk.Label(right,text="Características (una por línea):",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=10,column=0,sticky="nw",pady=(8,2))
-        self.add_features_txt = tk.Text(right,height=4,bg=BG2,fg=TEXT,font=("Helvetica",10),
+        self.add_desc_txt.grid(row=11,column=1,sticky="ew",pady=(10,2),padx=(8,0))
+        feat_hdr_add = tk.Frame(right, bg=BG)
+        feat_hdr_add.grid(row=12,column=0,columnspan=2,sticky="ew",pady=(8,0))
+        tk.Label(feat_hdr_add,text="Características (una por línea):",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(side="left")
+        tk.Button(feat_hdr_add,text="🧹 Limpiar formato",
+                  command=lambda: self._clean_features_field(self.add_features_txt),
+                  bg=BG4,fg=MUTED,font=("Helvetica",8),relief="flat",padx=8,pady=2).pack(side="left",padx=(8,0))
+        self.add_features_txt = tk.Text(right,height=5,bg=BG2,fg=TEXT,font=("Helvetica",10),
                                          relief="flat",bd=6,wrap="word",insertbackground=TEXT)
-        self.add_features_txt.grid(row=10,column=1,sticky="ew",pady=(8,2),padx=(8,0))
+        self.add_features_txt.grid(row=13,column=0,columnspan=2,sticky="ew",pady=(2,2))
 
         # Meta info label
         self.add_meta_lbl = tk.Label(right,text="",bg=BG,fg=MUTED,font=("Helvetica",10))
-        self.add_meta_lbl.grid(row=10,column=0,columnspan=2,sticky="w",pady=4)
+        self.add_meta_lbl.grid(row=12,column=0,columnspan=2,sticky="w",pady=4)
 
         # Platforms info
         info = tk.Label(tab,
@@ -643,23 +728,48 @@ class UVAdminApp:
         tk.Entry(search_frame,textvariable=self.edit_search_var,bg=BG2,fg=TEXT,
                  font=("Helvetica",11),relief="flat",bd=8,insertbackground=TEXT,width=40).pack(side="left",padx=8)
 
-        # Layout: list left, form right
-        paned = tk.Frame(tab, bg=BG); paned.pack(fill="both",expand=True,padx=16,pady=(0,8))
+        # Save/Deploy buttons — FUERA del canvas, siempre visibles
+        save_frame = tk.Frame(tab,bg=BG2,pady=8); save_frame.pack(fill="x",padx=16,side="bottom")
+        tk.Button(save_frame,text="💾  Guardar Cambios",command=self._edit_save,
+                  bg="#2563eb",fg="white",font=("Helvetica",11,"bold"),relief="flat",
+                  padx=16,pady=8).pack(side="left",padx=(8,0))
+        tk.Button(save_frame,text="🗑  Eliminar",command=self._edit_delete,
+                  bg=RED,fg="white",font=("Helvetica",11),relief="flat",
+                  padx=12,pady=8).pack(side="left",padx=8)
+        tk.Button(save_frame,text="🚀  Publicar en GitHub",command=self._deploy,
+                  bg=PURPLE,fg="white",font=("Helvetica",11,"bold"),relief="flat",
+                  padx=16,pady=8).pack(side="left",padx=(0,8))
 
-        # Left: results list
+        # Layout: list left, form right
+        paned = tk.Frame(tab, bg=BG); paned.pack(fill="both",expand=True,padx=16,pady=(0,0))
+
+        # Left: lista compacta con altura fija
         list_frame = tk.Frame(paned, bg=BG); list_frame.pack(side="left",fill="y",padx=(0,12))
         tk.Label(list_frame,text="Resultados:",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(anchor="w")
         self.edit_listbox = tk.Listbox(list_frame,bg=BG2,fg=TEXT,font=("Helvetica",10),
-                                       relief="flat",bd=4,width=32,height=24,
+                                       relief="flat",bd=4,width=28,height=18,
                                        selectbackground=PURPLE,selectforeground="white")
-        self.edit_listbox.pack(fill="y",expand=True)
+        self.edit_listbox.pack(side="left",fill="y",expand=True)
         self.edit_listbox.bind("<<ListboxSelect>>", self._edit_select)
         scrollbar = tk.Scrollbar(list_frame,orient="vertical",command=self.edit_listbox.yview)
         self.edit_listbox.configure(yscrollcommand=scrollbar.set)
-        scrollbar.pack(side="right",fill="y")
+        scrollbar.pack(side="left",fill="y")
 
-        # Right: edit form
-        form_frame = tk.Frame(paned, bg=BG); form_frame.pack(side="left",fill="both",expand=True)
+        # Right: form scrolleable
+        right_outer = tk.Frame(paned, bg=BG); right_outer.pack(side="left",fill="both",expand=True)
+        canvas = tk.Canvas(right_outer, bg=BG, highlightthickness=0)
+        vsb = tk.Scrollbar(right_outer, orient="vertical", command=canvas.yview)
+        canvas.configure(yscrollcommand=vsb.set)
+        vsb.pack(side="right", fill="y")
+        canvas.pack(side="left", fill="both", expand=True)
+        form_frame = tk.Frame(canvas, bg=BG)
+        form_win = canvas.create_window((0,0), window=form_frame, anchor="nw")
+        def _on_form_configure(e): canvas.configure(scrollregion=canvas.bbox("all"))
+        def _on_canvas_configure(e): canvas.itemconfig(form_win, width=e.width)
+        form_frame.bind("<Configure>", _on_form_configure)
+        canvas.bind("<Configure>", _on_canvas_configure)
+        def _on_mousewheel(e): canvas.yview_scroll(int(-1*(e.delta/120)), "units")
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
         form_frame.columnconfigure(1,weight=1)
 
         self.edit_title_lbl = tk.Label(form_frame,text="Seleccioná una figura",
@@ -674,11 +784,11 @@ class UVAdminApp:
             e.grid(row=row,column=col*2+1,sticky="ew",pady=(6,2),padx=(8,0))
             return e
 
-        self.ef_nombre   = tk.StringVar(); self.ef_precio    = tk.StringVar()
-        self.ef_precio_d = tk.StringVar(); self.ef_reserva   = tk.StringVar()
-        self.ef_entrega  = tk.StringVar(); self.ef_cantidad  = tk.StringVar()
-        self.ef_marca    = tk.StringVar(); self.ef_escala    = tk.StringVar()
-        self.ef_youtube  = tk.StringVar()
+        self.ef_nombre    = tk.StringVar(); self.ef_precio     = tk.StringVar()
+        self.ef_precio_d  = tk.StringVar(); self.ef_precio_orig= tk.StringVar()
+        self.ef_reserva   = tk.StringVar(); self.ef_entrega    = tk.StringVar()
+        self.ef_cantidad  = tk.StringVar(); self.ef_marca      = tk.StringVar()
+        self.ef_escala    = tk.StringVar(); self.ef_youtube    = tk.StringVar()
 
         efield("Nombre:",       self.ef_nombre,   1, 0); form_frame.columnconfigure(1,weight=1)
         efield("Precio (Q):",   self.ef_precio,   2, 0)
@@ -705,21 +815,39 @@ class UVAdminApp:
                      values=["Nuevo","Usado - Como Nuevo","Vendido"],
                      state="normal",font=("Helvetica",11)).grid(row=6,column=3,sticky="ew",pady=(6,2),padx=(8,0))
 
-        # Category
-        tk.Label(form_frame,text="Categoría:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
+        # Franquicia (row 7 col 0-1) | Precio Orig (row 7 col 2-3)
+        tk.Label(form_frame,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
+        self.ef_franquicia = tk.StringVar()
+        ttk.Combobox(form_frame,textvariable=self.ef_franquicia,
+                     values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros"],
+                     state="readonly",font=("Helvetica",11)).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+        efield("Precio Orig (Q):", self.ef_precio_orig, 7, 1)
+
+        # Destacado / Oferta checkboxes (row 8)
+        chk_frame = tk.Frame(form_frame, bg=BG)
+        chk_frame.grid(row=8,column=0,columnspan=4,sticky="w",pady=(6,2))
+        tk.Checkbutton(chk_frame,text="★ Destacado",variable=self._ef_destacado,
+                       bg=BG,fg="#b97aff",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold")).pack(side="left",padx=(0,16))
+        tk.Checkbutton(chk_frame,text="% Oferta",variable=self._ef_oferta,
+                       bg=BG,fg="#f87171",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold")).pack(side="left")
+
+        # Category (row 9)
+        tk.Label(form_frame,text="Categoría:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=9,column=0,sticky="w",pady=(6,2))
         self.ef_cat_var = tk.StringVar()
         self.ef_cat_combo = ttk.Combobox(form_frame,textvariable=self.ef_cat_var,
                                           values=CAT_KEYS,state="readonly",font=("Helvetica",11))
-        self.ef_cat_combo.grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+        self.ef_cat_combo.grid(row=9,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
         # Photo management
         photo_lbl = tk.Label(form_frame,text="Fotos actuales:",bg=BG,fg=MUTED,font=("Helvetica",9))
-        photo_lbl.grid(row=8,column=0,sticky="nw",pady=(10,2))
+        photo_lbl.grid(row=10,column=0,sticky="nw",pady=(10,2))
         self.edit_fotos_lbl = tk.Label(form_frame,text="—",bg=BG,fg=MUTED,font=("Helvetica",10))
-        self.edit_fotos_lbl.grid(row=8,column=1,sticky="w",pady=(10,2),padx=(8,0))
+        self.edit_fotos_lbl.grid(row=10,column=1,sticky="w",pady=(10,2),padx=(8,0))
 
         photo_btn_frame = tk.Frame(form_frame,bg=BG)
-        photo_btn_frame.grid(row=9,column=0,columnspan=4,sticky="w",pady=(4,0))
+        photo_btn_frame.grid(row=11,column=0,columnspan=4,sticky="w",pady=(4,0))
         tk.Button(photo_btn_frame,text="📁 Subir fotos desde PC",command=self._edit_upload_local,
                   bg=BG4,fg=TEXT,font=("Helvetica",10),relief="flat",padx=10,pady=5).pack(side="left",padx=(0,8))
         tk.Button(photo_btn_frame,text="🔗 Cargar fotos desde URL",command=self._edit_load_url_photos,
@@ -729,80 +857,30 @@ class UVAdminApp:
                  font=("Helvetica",10),relief="flat",bd=6,insertbackground=TEXT,width=40).pack(side="left",padx=(0,8))
 
         # Description
-        tk.Label(form_frame,text="Descripción:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=10,column=0,sticky="nw",pady=(10,2))
+        tk.Label(form_frame,text="Descripción:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=12,column=0,sticky="nw",pady=(10,2))
         self.ef_desc_txt = tk.Text(form_frame,height=4,bg=BG2,fg=TEXT,font=("Helvetica",10),
                                     relief="flat",bd=6,wrap="word",insertbackground=TEXT)
-        self.ef_desc_txt.grid(row=10,column=1,columnspan=3,sticky="ew",pady=(10,2),padx=(8,0))
+        self.ef_desc_txt.grid(row=12,column=1,columnspan=3,sticky="ew",pady=(10,2),padx=(8,0))
 
-        tk.Label(form_frame,text="Características (una por línea):",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=11,column=0,sticky="nw",pady=(8,2))
+        feat_hdr_edit = tk.Frame(form_frame, bg=BG)
+        feat_hdr_edit.grid(row=13,column=0,columnspan=4,sticky="ew",pady=(8,0))
+        tk.Label(feat_hdr_edit,text="Características (una por línea):",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(side="left")
+        tk.Button(feat_hdr_edit,text="🧹 Limpiar formato",
+                  command=lambda: self._clean_features_field(self.ef_features_txt),
+                  bg=BG4,fg=MUTED,font=("Helvetica",8),relief="flat",padx=8,pady=2).pack(side="left",padx=(8,0))
         self.ef_features_txt = tk.Text(form_frame,height=4,bg=BG2,fg=TEXT,font=("Helvetica",10),
                                         relief="flat",bd=6,wrap="word",insertbackground=TEXT)
-        self.ef_features_txt.grid(row=11,column=1,columnspan=3,sticky="ew",pady=(8,2),padx=(8,0))
+        self.ef_features_txt.grid(row=14,column=0,columnspan=4,sticky="ew",pady=(2,2))
 
         # Preview
         self.edit_preview = PhotoPreview(form_frame, w=280, h=220)
-        self.edit_preview.grid(row=12,column=0,columnspan=4,sticky="w",pady=(8,0))
-
-        # Save button
-        save_frame = tk.Frame(tab,bg=BG); save_frame.pack(fill="x",padx=16,pady=8)
-        tk.Button(save_frame,text="💾  Guardar Cambios",command=self._edit_save,
-                  bg="#2563eb",fg="white",font=("Helvetica",12,"bold"),relief="flat",
-                  padx=20,pady=10).pack(side="left")
-        tk.Button(save_frame,text="🗑  Eliminar Figura",command=self._edit_delete,
-                  bg=RED,fg="white",font=("Helvetica",11),relief="flat",
-                  padx=14,pady=10).pack(side="left",padx=12)
+        self.edit_preview.grid(row=15,column=0,columnspan=4,sticky="w",pady=(8,8))
 
         # Load all products on start
         self._edit_all_results = []
         self._edit_load_all()
 
-    # ── TAB 3: ACTUALIZAR FOTOS ───────────────────────────────────────────────
-
-    def _build_photos_tab(self):
-        tab = tk.Frame(self.nb, bg=BG); self.nb.add(tab, text="  📷  Actualizar Fotos  ")
-
-        search_frame = tk.Frame(tab,bg=BG,pady=12,padx=16); search_frame.pack(fill="x")
-        tk.Label(search_frame,text="Buscar figura:",bg=BG,fg=MUTED,font=("Helvetica",10)).pack(side="left")
-        self.upd_search_var = tk.StringVar()
-        self.upd_search_var.trace("w", lambda *_: self._upd_search())
-        tk.Entry(search_frame,textvariable=self.upd_search_var,bg=BG2,fg=TEXT,
-                 font=("Helvetica",11),relief="flat",bd=8,insertbackground=TEXT,width=40).pack(side="left",padx=8)
-
-        main = tk.Frame(tab,bg=BG); main.pack(fill="both",expand=True,padx=16)
-        left = tk.Frame(main,bg=BG); left.pack(side="left",fill="y",padx=(0,12))
-        right = tk.Frame(main,bg=BG); right.pack(side="left",fill="both",expand=True)
-
-        tk.Label(left,text="Resultados:",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(anchor="w")
-        self.upd_listbox = tk.Listbox(left,bg=BG2,fg=TEXT,font=("Helvetica",10),
-                                      relief="flat",bd=4,width=32,height=16,
-                                      selectbackground=PURPLE,selectforeground="white")
-        self.upd_listbox.pack(); self.upd_listbox.bind("<<ListboxSelect>>",self._upd_select)
-        self.upd_selected_lbl = tk.Label(left,text="",bg=BG,fg=MUTED,font=("Helvetica",9),wraplength=220)
-        self.upd_selected_lbl.pack(pady=4,anchor="w")
-
-        # URL input
-        url_frame = tk.Frame(right,bg=BG,pady=8); url_frame.pack(fill="x")
-        tk.Label(url_frame,text="URL del proveedor:",bg=BG,fg=MUTED,font=("Helvetica",10)).pack(side="left")
-        self.upd_url_var = tk.StringVar()
-        tk.Entry(url_frame,textvariable=self.upd_url_var,bg=BG2,fg=TEXT,font=("Helvetica",11),
-                 relief="flat",bd=8,insertbackground=TEXT,width=50).pack(side="left",padx=8,fill="x",expand=True)
-        tk.Button(url_frame,text="Cargar fotos",command=self._upd_load_url,
-                  bg=PURPLE,fg="white",font=("Helvetica",10),relief="flat",padx=10,pady=5).pack(side="left",padx=4)
-
-        # Local upload
-        local_frame = tk.Frame(right,bg=BG,pady=4); local_frame.pack(fill="x")
-        tk.Button(local_frame,text="📁  Subir fotos desde PC",command=self._upd_upload_local,
-                  bg=BG4,fg=TEXT,font=("Helvetica",10),relief="flat",padx=12,pady=6).pack(side="left")
-        self.upd_fotos_lbl = tk.Label(local_frame,text="",bg=BG,fg=MUTED,font=("Helvetica",10))
-        self.upd_fotos_lbl.pack(side="left",padx=12)
-
-        self.upd_preview = PhotoPreview(right,w=320,h=260)
-        self.upd_preview.pack(pady=8,anchor="w")
-
-        tk.Button(right,text="✅  Actualizar Fotos de la Figura",command=self._upd_confirm,
-                  bg=PURPLE,fg="white",font=("Helvetica",12,"bold"),relief="flat",padx=20,pady=10).pack(pady=8,anchor="w")
-
-    # ── TAB 4: CONFIGURACIÓN ──────────────────────────────────────────────────
+    # ── TAB 3: CONFIGURACIÓN ──────────────────────────────────────────────────
 
     def _build_config_tab(self):
         tab = tk.Frame(self.nb, bg=BG); self.nb.add(tab, text="  ⚙  Configuración  ")
@@ -827,6 +905,8 @@ class UVAdminApp:
         tk.Label(content,
             text="Obtenelo gratis en: https://api.imgur.com/oauth2/addclient\n(elegí 'Anonymous usage without user authorization')",
             bg=BG,fg="#555",font=("Helvetica",9)).grid(row=2,column=1,sticky="w")
+        tk.Button(content,text="🧪 Probar conexión Imgur",command=self._test_imgur,
+                  bg=BG4,fg=MUTED,font=("Helvetica",9),relief="flat",padx=10,pady=4).grid(row=3,column=1,sticky="w",pady=(0,8))
 
         # GitHub
         tk.Label(content,text="── GitHub (para publicar automáticamente) ──",
@@ -869,9 +949,17 @@ class UVAdminApp:
     def _status(self, msg, color=GREEN):
         self._status_var.set(msg); self._status_lbl.config(fg=color)
 
+    def _clean_features_field(self, txt_widget):
+        raw = txt_widget.get("1.0", "end").strip()
+        if not raw: return
+        cleaned = clean_features(raw)
+        txt_widget.delete("1.0", "end")
+        txt_widget.insert("1.0", cleaned)
+        self._status("✅ Características formateadas — revisá y ajustá si hace falta.", GREEN)
+
     def _check_catalog(self):
         if not CATALOG_FILE.exists():
-            self._status(f"⚠️  No se encontró index.html en {CATALOG_FILE.parent}", ORANGE)
+            self._status(f"⚠️  No se encontró productos.json en {CATALOG_FILE.parent}", ORANGE)
         else:
             try:
                 cat = load_catalog(CATALOG_FILE)
@@ -925,6 +1013,10 @@ class UVAdminApp:
             self._scraped_add["descripcion"] = self.add_desc_txt.get("1.0","end").strip()
             features_raw = self.add_features_txt.get("1.0","end").strip()
             self._scraped_add["features"] = [l.strip() for l in features_raw.splitlines() if l.strip()]
+            self._scraped_add["franquicia"]  = self.add_franquicia_var.get()
+            self._scraped_add["precio_orig"] = self.add_precio_orig_var.get().strip()
+            self._scraped_add["destacado"]   = self._add_destacado.get()
+            self._scraped_add["oferta"]      = self._add_oferta.get()
             p = add_product(
                 CATALOG_FILE, self._scraped_add,
                 self.add_cat_var.get(),
@@ -942,7 +1034,7 @@ class UVAdminApp:
             self.add_url_var.set(""); self.add_nombre_var.set(""); self.add_precio_var.set("")
             self.add_precio_d_var.set(""); self.add_reserva_var.set(""); self.add_entrega_var.set("")
             self.add_cantidad_var.set(""); self.add_youtube_var.set(""); self.add_preview.set_photos([])
-            self.add_desc_txt.delete("1.0","end"); self.add_features_txt.delete("1.0","end")
+            self.add_desc_txt.delete("1.0","end"); self.add_features_txt.delete("1.0","end"); self.add_franquicia_var.set("")
             self._check_catalog()
         except Exception as e:
             messagebox.showerror("Error", str(e)); self._status(f"❌  {e}", RED)
@@ -994,6 +1086,10 @@ class UVAdminApp:
         self.ef_youtube.set(p.get("yt",""))
         self.ef_disp.set(p.get("disp",""))
         self.ef_estado.set(p.get("estado","Nuevo"))
+        self.ef_franquicia.set(p.get("franquicia",""))
+        self.ef_precio_orig.set(p.get("precio_orig",""))
+        self._ef_destacado.set(bool(p.get("destacado",False)))
+        self._ef_oferta.set(bool(p.get("oferta",False)))
         self.ef_cat_var.set(r["cat"])
         # Description
         self.ef_desc_txt.delete("1.0","end")
@@ -1094,18 +1190,22 @@ class UVAdminApp:
             if line: blocks.append({"t":"notion-bulleted-list","x":line})
 
         fields = {
-            "n":        nombre,
-            "precio":   self.ef_precio.get().strip(),
-            "precio_d": self.ef_precio_d.get().strip(),
-            "reserva":  self.ef_reserva.get().strip(),
-            "entrega":  self.ef_entrega.get().strip(),
-            "cantidad": self.ef_cantidad.get().strip(),
-            "marca":    self.ef_marca.get().strip(),
-            "escala":   self.ef_escala.get().strip(),
-            "yt":       self.ef_youtube.get().strip(),
-            "disp":     self.ef_disp.get().strip(),
-            "estado":   self.ef_estado.get().strip(),
-            "content":  blocks,
+            "n":          nombre,
+            "precio":     self.ef_precio.get().strip(),
+            "precio_d":   self.ef_precio_d.get().strip(),
+            "precio_orig":self.ef_precio_orig.get().strip(),
+            "reserva":    self.ef_reserva.get().strip(),
+            "entrega":    self.ef_entrega.get().strip(),
+            "cantidad":   self.ef_cantidad.get().strip(),
+            "marca":      self.ef_marca.get().strip(),
+            "escala":     self.ef_escala.get().strip(),
+            "yt":         self.ef_youtube.get().strip(),
+            "disp":       self.ef_disp.get().strip(),
+            "estado":     self.ef_estado.get().strip(),
+            "franquicia": self.ef_franquicia.get().strip(),
+            "destacado":  self._ef_destacado.get(),
+            "oferta":     self._ef_oferta.get(),
+            "content":    blocks,
         }
         if self._edit_photos:
             fields["fotos"] = self._edit_photos
@@ -1147,68 +1247,31 @@ class UVAdminApp:
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
-    # ── TAB 3 LOGIC: ACTUALIZAR FOTOS ─────────────────────────────────────────
-
-    def _upd_search(self):
-        q = self.upd_search_var.get().strip()
-        self.upd_listbox.delete(0,"end")
-        if not q: return
-        try:
-            results = search_product(load_catalog(CATALOG_FILE), q)
-            self._upd_results = results
-            for r in results:
-                self.upd_listbox.insert("end", f"  {r['product'].get('n','?')[:28]}")
-        except: pass
-
-    def _upd_select(self, event=None):
-        sel = self.upd_listbox.curselection()
-        if not sel or not hasattr(self,'_upd_results'): return
-        if sel[0] >= len(self._upd_results): return
-        r = self._upd_results[sel[0]]
-        self._upd_selected = r
-        p = r["product"]
-        self.upd_selected_lbl.config(text=f"✔  {p.get('n','?')}\n{r['cat']}", fg=GREEN)
-        self.upd_preview.set_photos(p.get("fotos",[]) or ([p["i"]] if p.get("i") else []))
-
-    def _upd_load_url(self):
-        url = self.upd_url_var.get().strip()
-        if not url: return
-        if not url.startswith("http"): url = "https://" + url
-        self._status("⏳ Cargando fotos...", ORANGE)
-        threading.Thread(target=self._run_scrape_photos, args=(url, "upd"), daemon=True).start()
-
-    def _upd_upload_local(self):
-        client_id = self.cfg.get("imgur_client_id","")
-        if not client_id:
-            messagebox.showwarning("Sin Imgur Client ID",
-                "Configurá tu Imgur Client ID en ⚙ Configuración."); return
-        paths = filedialog.askopenfilenames(
-            title="Seleccioná imágenes",
-            filetypes=[("Imágenes","*.jpg *.jpeg *.png *.webp *.gif"),("Todos los archivos","*.*")])
-        if not paths: return
-        self._status(f"⏳ Subiendo {len(paths)} imágenes...", ORANGE)
-        threading.Thread(target=self._run_imgur_upload, args=(paths, "upd"), daemon=True).start()
-
-    def _upd_confirm(self):
-        if not self._upd_selected:
-            messagebox.showwarning("Falta figura","Seleccioná una figura primero."); return
-        if not self._upd_photos:
-            messagebox.showwarning("Faltan fotos","Cargá fotos primero."); return
-        p = self._upd_selected["product"]
-        if not messagebox.askyesno("Confirmar", f"¿Actualizar fotos de:\n\n'{p['n']}'\n\nCon {len(self._upd_photos)} fotos nuevas?"): return
-        try:
-            update_product(CATALOG_FILE, self._upd_selected["cat"], self._upd_selected["idx"],
-                           {"fotos": self._upd_photos, "i": self._upd_photos[0]})
-            self._status(f"✅ Fotos de '{p['n']}' actualizadas.", GREEN)
-            messagebox.showinfo("✅ Listo", f"Fotos actualizadas.\n\nClickeá '🚀 Publicar en GitHub'.")
-            self._upd_selected = None; self._upd_photos = []
-            self.upd_url_var.set(""); self.upd_search_var.set("")
-            self.upd_listbox.delete(0,"end"); self.upd_preview.set_photos([])
-            self.upd_selected_lbl.config(text="",fg=MUTED); self.upd_fotos_lbl.config(text="")
-        except Exception as e:
-            messagebox.showerror("Error",str(e)); self._status(f"❌ {e}", RED)
-
     # ── CONFIG LOGIC ──────────────────────────────────────────────────────────
+
+    def _test_imgur(self):
+        cid = self.cfg_imgur_var.get().strip()
+        if not cid:
+            messagebox.showwarning("Sin Client ID","Primero ingresá tu Imgur Client ID."); return
+        self._status("Probando Imgur...", ORANGE)
+        def run():
+            try:
+                r = requests.get("https://api.imgur.com/3/credits",
+                                  headers={"Authorization":f"Client-ID {cid}"},timeout=10)
+                data = r.json()
+                if data.get("success"):
+                    cr = data.get("data",{})
+                    msg = f"✅ Imgur OK — {cr.get('ClientRemaining','?')} requests restantes"
+                    self.root.after(0,lambda:self._status(msg,GREEN))
+                    self.root.after(0,lambda:messagebox.showinfo("✅ Imgur conectado",msg))
+                else:
+                    err = data.get("data",{}).get("error","desconocido")
+                    self.root.after(0,lambda:self._status(f"❌ Imgur: {err}",RED))
+                    self.root.after(0,lambda:messagebox.showerror("Error Imgur",f"Client ID inválido: {err}"))
+            except Exception as e:
+                self.root.after(0,lambda:self._status(f"❌ {e}",RED))
+                self.root.after(0,lambda:messagebox.showerror("Error",str(e)))
+        import threading as _t; _t.Thread(target=run,daemon=True).start()
 
     def _save_config(self):
         self.cfg["imgur_client_id"] = self.cfg_imgur_var.get().strip()
@@ -1226,17 +1289,47 @@ class UVAdminApp:
             messagebox.showwarning("Sin repo configurado",
                 "Configurá la carpeta del repo de GitHub en ⚙ Configuración.")
             return
-        # Copy index.html to repo if different path
-        repo = Path(repo_path)
-        catalog_in_repo = repo / "index.html"
-        if CATALOG_FILE.resolve() != catalog_in_repo.resolve():
-            try:
-                shutil.copy2(CATALOG_FILE, catalog_in_repo)
-                self._status("📋 index.html copiado al repo...", ORANGE)
-            except Exception as e:
-                messagebox.showerror("Error copiando archivo", str(e)); return
 
-        self._status("⏳ Publicando en GitHub...", ORANGE)
+        repo = Path(repo_path)
+
+        # Step 1: Run inject_data.py to build index.html from template + productos.json
+        inject_script = repo / "inject_data.py"
+        template_file = repo / "index_template.html"
+        data_file     = repo / "productos.json"
+        output_file   = repo / "index.html"
+
+        # Copy productos.json to repo if different path
+        if CATALOG_FILE.resolve() != data_file.resolve():
+            try:
+                import shutil
+                shutil.copy2(CATALOG_FILE, data_file)
+                self._status("📋 productos.json copiado al repo...", ORANGE)
+            except Exception as e:
+                messagebox.showerror("Error copiando productos.json", str(e)); return
+
+        # Run inject
+        if inject_script.exists() and template_file.exists():
+            self._status("⚙️  Generando index.html...", ORANGE)
+            r = subprocess.run(
+                [sys.executable, str(inject_script),
+                 "--template", str(template_file),
+                 "--data",     str(data_file),
+                 "--output",   str(output_file)],
+                capture_output=True, text=True
+            )
+            if r.returncode != 0:
+                messagebox.showerror("Error en inject_data.py", r.stderr or r.stdout)
+                self._status(f"❌ Error generando index.html", RED); return
+            self._status("✅ index.html generado, subiendo...", ORANGE)
+        else:
+            # Fallback: copy index.html directly (legacy)
+            if CATALOG_FILE.resolve() != (repo / "index.html").resolve():
+                try:
+                    import shutil
+                    shutil.copy2(CATALOG_FILE, repo / "index.html")
+                except Exception as e:
+                    messagebox.showerror("Error copiando archivo", str(e)); return
+
         self._deploy_btn.config(state="disabled")
         threading.Thread(target=self._run_deploy, args=(repo,), daemon=True).start()
 
