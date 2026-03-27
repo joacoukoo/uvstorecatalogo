@@ -883,7 +883,7 @@ function observeFadeUp(){
 }
 
 function showPage(id){document.querySelectorAll(".page").forEach(function(p){p.classList.remove("active");});document.getElementById(id).classList.add("active");window.scrollTo(0,0);}
-function goHome(){showPage("home");document.getElementById("nav-home").classList.add("active");closeSearch();}
+function goHome(){history.replaceState(null,"",location.pathname);showPage("home");document.getElementById("nav-home").classList.add("active");closeSearch();}
 // ── FRANCHISE FUNCTIONS ──
 function getFranchiseProducts(fname){
   var results=[];
@@ -946,17 +946,11 @@ function buildFranchiseGrid(gridId){
 }
 function shareProduct(){
   var name=document.getElementById("modal-name").textContent;
-  var link=document.getElementById("modal-wa").href;
-  // Extract product URL from WA link text
-  var waHref=document.getElementById("modal-wa").getAttribute("href")||"";
-  var decoded=decodeURIComponent(waHref.replace("https://wa.me/50230261622?text=",""));
-  var urlMatch=decoded.match(/Link del producto: (https?:\/\/[^\n]+)/);
-  var prodUrl=urlMatch?urlMatch[1].trim():"https://www.uvstore.shop";
+  var prodUrl=location.href;
   if(navigator.share){
     navigator.share({title:"UV Store GT — "+name,text:"Mirá esta figura en UV Store GT: "+name,url:prodUrl})
       .catch(function(){});
   } else {
-    // Fallback: copy to clipboard
     navigator.clipboard.writeText(prodUrl).then(function(){
       var btn=document.getElementById("modal-share-btn");
       var orig=btn.textContent;btn.textContent="✅";
@@ -978,11 +972,13 @@ function goOfertas(){
   var grid=document.getElementById("cp-grid");grid.innerHTML="";
   ofertaProds.forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");
+  history.pushState(null,"",location.pathname+"#ofertas");
 }
 function goFranchises(){
   buildFranchiseGrid("franchise-page-grid");
   showPage("franchise-page");
   document.getElementById("nav-home").classList.remove("active");
+  history.pushState(null,"",location.pathname+"#franquicias");
 }
 function goFranchise(fname){
   var accent=FRANCHISE_ACCENTS[fname]||"#7B2FBE";
@@ -994,6 +990,7 @@ function goFranchise(fname){
   var grid=document.getElementById("cp-grid");grid.innerHTML="";
   prods.forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");
+  history.pushState(null,"",location.pathname+"#franquicia/"+encodeURIComponent(fname));
 }
 // ── SEARCH PAGE ──
 function openSearchPage(){
@@ -1042,6 +1039,7 @@ function goCategory(idx){
   var grid=document.getElementById("cp-grid");grid.innerHTML="";
   info.products.forEach(function(p){grid.appendChild(makeCard(p,cat));});
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");closeSearch();
+  history.pushState(null,"",location.pathname+"#cat/"+encodeURIComponent(cat));
 }
 
 function openModal(p,cat){
@@ -1095,13 +1093,16 @@ function openModal(p,cat){
     });
   }
   var prodLink=p.l?("\nLink del producto: "+p.l):"";
-  var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+prodLink);
+  var figSlug=encodeURIComponent(p.n.toLowerCase().replace(/\s+/g,"-").replace(/[^a-z0-9\-]/g,""));
+  history.pushState(null,"",location.pathname+"#figura/"+figSlug);
+  var shareUrl=location.href;
+  var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+(prodLink||("\nLink: "+shareUrl)));
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
   document.getElementById("modal").classList.add("open");
   document.body.style.overflow="hidden";
 }
 
-function closeModal(){document.getElementById("modal").classList.remove("open");document.body.style.overflow="";}
+function closeModal(){document.getElementById("modal").classList.remove("open");document.body.style.overflow="";history.back();}
 function openSearch(){document.getElementById("search-ov").classList.add("open");document.body.style.overflow="hidden";setTimeout(function(){document.getElementById("search-inp").focus();},100);}
 function closeSearch(){document.getElementById("search-ov").classList.remove("open");document.body.style.overflow="";document.getElementById("search-inp").value="";document.getElementById("search-res").innerHTML="";document.getElementById("search-query-title").textContent="";document.getElementById("search-count").textContent="";}
 function doSearch(q){
@@ -1157,7 +1158,35 @@ function lightboxMove(dir){
   img.src=_lbPhotos[_lbIdx];img.referrerPolicy="no-referrer";
   document.getElementById("lightbox-counter").textContent=(_lbIdx+1)+" / "+_lbPhotos.length;
 }
+// ── HASH ROUTER ──
+function routeHash(h){
+  h=h||"";
+  if(!h||h==="#"){goHome();return;}
+  if(h==="#ofertas"){goOfertas();return;}
+  if(h==="#franquicias"){goFranchises();return;}
+  var mFranq=h.match(/^#franquicia\/(.+)$/);
+  if(mFranq){goFranchise(decodeURIComponent(mFranq[1]));return;}
+  var mCat=h.match(/^#cat\/(.+)$/);
+  if(mCat){
+    var catName=decodeURIComponent(mCat[1]);
+    var idx=CAT_KEYS.indexOf(catName);
+    if(idx>=0)goCategory(idx);
+    else goHome();
+    return;
+  }
+  if(h.match(/^#figura\//)){goHome();return;}
+  goHome();
+}
+window.addEventListener("popstate",function(){
+  // On back/forward, close modal if open then re-route
+  var modal=document.getElementById("modal");
+  if(modal&&modal.classList.contains("open")){
+    modal.classList.remove("open");document.body.style.overflow="";
+  }
+  routeHash(location.hash);
+});
 buildHome();
+routeHash(location.hash);
 </script>
 
 <div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
