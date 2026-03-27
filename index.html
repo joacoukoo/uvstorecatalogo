@@ -1094,7 +1094,9 @@ function openModal(p,cat){
   }
   var catIdx=CAT_KEYS.indexOf(cat);
   var prodIdx=(DATA[cat]||{products:[]}).products.indexOf(p);
-  history.pushState({_uvNav:true},null,location.pathname+"#figura/"+catIdx+"/"+prodIdx);
+  // Remember what page was active before opening modal
+  var prevHash=location.hash||"";
+  history.pushState({_uvNav:true,_prevHash:prevHash},null,location.pathname+"#figura/"+catIdx+"/"+prodIdx);
   var shareUrl=location.href;
   var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+"\nLink: "+shareUrl);
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
@@ -1107,10 +1109,14 @@ function closeModal(){
   m.classList.remove("open");
   m.style.display="none";
   document.body.style.overflow="";
-  history.replaceState(null,"",location.pathname);
-  showPage("home");
-  document.getElementById("nav-home").classList.add("active");
+  var prevHash=(history.state&&history.state._prevHash)||"";
+  history.replaceState(null,"",location.pathname+(prevHash||""));
   setTimeout(function(){m.style.display="";},50);
+  if(!prevHash||prevHash==="#"){
+    showPage("home");document.getElementById("nav-home").classList.add("active");
+  } else {
+    routeHash(prevHash);
+  }
 }
 function openSearch(){document.getElementById("search-ov").classList.add("open");document.body.style.overflow="hidden";setTimeout(function(){document.getElementById("search-inp").focus();},100);}
 function closeSearch(){document.getElementById("search-ov").classList.remove("open");document.body.style.overflow="";document.getElementById("search-inp").value="";document.getElementById("search-res").innerHTML="";document.getElementById("search-query-title").textContent="";document.getElementById("search-count").textContent="";}
@@ -1170,7 +1176,7 @@ function lightboxMove(dir){
 // ── HASH ROUTER ──
 function routeHash(h){
   h=h||"";
-  if(!h||h==="#"){goHome();return;}
+  if(!h||h==="#"){showPage("home");document.getElementById("nav-home").classList.add("active");return;}
   if(h==="#ofertas"){goOfertas();return;}
   if(h==="#franquicias"){goFranchises();return;}
   var mFranq=h.match(/^#franquicia\/(.+)$/);
@@ -1179,7 +1185,7 @@ function routeHash(h){
   if(mCat){
     var catName=decodeURIComponent(mCat[1]);
     var idx=CAT_KEYS.indexOf(catName);
-    if(idx>=0)goCategory(idx);else goHome();
+    if(idx>=0)goCategory(idx);else{showPage("home");document.getElementById("nav-home").classList.add("active");}
     return;
   }
   var mFig=h.match(/^#figura\/(\d+)\/(\d+)$/);
@@ -1188,10 +1194,10 @@ function routeHash(h){
     var pi=parseInt(mFig[2],10);
     var cat=CAT_KEYS[ci];
     if(cat&&DATA[cat]&&DATA[cat].products[pi]){openModal(DATA[cat].products[pi],cat);}
-    else{goHome();}
+    else{showPage("home");document.getElementById("nav-home").classList.add("active");}
     return;
   }
-  goHome();
+  showPage("home");document.getElementById("nav-home").classList.add("active");
 }
 window.addEventListener("popstate",function(){
   var modal=document.getElementById("modal");
