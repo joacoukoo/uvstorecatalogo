@@ -807,7 +807,7 @@ function makeCard(p,cat){
   }
   info.appendChild(nm);info.appendChild(meta);
   div.appendChild(info);
-  div.addEventListener("click",(function(pd,pc){return function(){openModal(pd,pc);};})(p,cat));
+  div.addEventListener("click",(function(pd,pc){return function(){_uvOpenedFromNav=true;openModal(pd,pc);};})(p,cat));
   return div;
 }
 
@@ -1094,8 +1094,7 @@ function openModal(p,cat){
   }
   var catIdx=CAT_KEYS.indexOf(cat);
   var prodIdx=(DATA[cat]||{products:[]}).products.indexOf(p);
-  var prevHash=location.hash||"";
-  history.pushState({_uvNav:true,_prevHash:prevHash},null,location.pathname+"#figura/"+catIdx+"/"+prodIdx);
+  history.pushState({_uvNav:true,_openedFromNav:_uvOpenedFromNav},null,location.pathname+"#figura/"+catIdx+"/"+prodIdx);
   var shareUrl=location.href;
   var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+"\nLink: "+shareUrl);
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
@@ -1107,15 +1106,14 @@ function closeModal(){
   var m=document.getElementById("modal");
   m.classList.remove("open");
   document.body.style.overflow="";
-  var prevHash=(history.state&&history.state._prevHash!=null)?history.state._prevHash:"__none__";
-  history.replaceState(null,"",location.pathname+(prevHash==="__none__"?"":prevHash));
-  setTimeout(function(){
-    if(prevHash==="__none__"||prevHash===""||prevHash==="#"){
-      showPage("home");document.getElementById("nav-home").classList.add("active");
-    } else {
-      routeHash(prevHash);
-    }
-  },50);
+  var openedFromNav=history.state&&history.state._openedFromNav;
+  if(openedFromNav){
+    history.back();
+  } else {
+    history.replaceState(null,"",location.pathname);
+    showPage("home");
+    document.getElementById("nav-home").classList.add("active");
+  }
 }
 function openSearch(){document.getElementById("search-ov").classList.add("open");document.body.style.overflow="hidden";setTimeout(function(){document.getElementById("search-inp").focus();},100);}
 function closeSearch(){document.getElementById("search-ov").classList.remove("open");document.body.style.overflow="";document.getElementById("search-inp").value="";document.getElementById("search-res").innerHTML="";document.getElementById("search-query-title").textContent="";document.getElementById("search-count").textContent="";}
@@ -1173,6 +1171,8 @@ function lightboxMove(dir){
   document.getElementById("lightbox-counter").textContent=(_lbIdx+1)+" / "+_lbPhotos.length;
 }
 // ── HASH ROUTER ──
+// Tracks whether the current session started with internal navigation
+var _uvOpenedFromNav=false;
 function routeHash(h){
   h=h||"";
   if(!h||h==="#"){showPage("home");document.getElementById("nav-home").classList.add("active");return;}
@@ -1201,9 +1201,12 @@ function routeHash(h){
 window.addEventListener("popstate",function(){
   var modal=document.getElementById("modal");
   if(modal&&modal.classList.contains("open")){return;}
+  _uvOpenedFromNav=true;
   routeHash(location.hash);
 });
 buildHome();
+// On initial load: if hash is a figura, _uvOpenedFromNav stays false (direct link)
+// If navigating internally, popstate sets it to true before openModal is called
 routeHash(location.hash);
 </script>
 
