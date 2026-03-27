@@ -1094,7 +1094,6 @@ function openModal(p,cat){
   }
   var catIdx=CAT_KEYS.indexOf(cat);
   var prodIdx=(DATA[cat]||{products:[]}).products.indexOf(p);
-  // Remember what page was active before opening modal
   var prevHash=location.hash||"";
   history.pushState({_uvNav:true,_prevHash:prevHash},null,location.pathname+"#figura/"+catIdx+"/"+prodIdx);
   var shareUrl=location.href;
@@ -1107,16 +1106,16 @@ function openModal(p,cat){
 function closeModal(){
   var m=document.getElementById("modal");
   m.classList.remove("open");
-  m.style.display="none";
   document.body.style.overflow="";
-  var prevHash=(history.state&&history.state._prevHash)||"";
-  history.replaceState(null,"",location.pathname+(prevHash||""));
-  setTimeout(function(){m.style.display="";},50);
-  if(!prevHash||prevHash==="#"){
-    showPage("home");document.getElementById("nav-home").classList.add("active");
-  } else {
-    routeHash(prevHash);
-  }
+  var prevHash=(history.state&&history.state._prevHash!=null)?history.state._prevHash:"__none__";
+  history.replaceState(null,"",location.pathname+(prevHash==="__none__"?"":prevHash));
+  setTimeout(function(){
+    if(prevHash==="__none__"||prevHash===""||prevHash==="#"){
+      showPage("home");document.getElementById("nav-home").classList.add("active");
+    } else {
+      routeHash(prevHash);
+    }
+  },50);
 }
 function openSearch(){document.getElementById("search-ov").classList.add("open");document.body.style.overflow="hidden";setTimeout(function(){document.getElementById("search-inp").focus();},100);}
 function closeSearch(){document.getElementById("search-ov").classList.remove("open");document.body.style.overflow="";document.getElementById("search-inp").value="";document.getElementById("search-res").innerHTML="";document.getElementById("search-query-title").textContent="";document.getElementById("search-count").textContent="";}
