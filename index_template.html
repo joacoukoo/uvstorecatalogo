@@ -616,6 +616,13 @@ body::after{
       <div class="sec-meta" id="franchise-home-meta"></div>
     </div>
     <div id="franchise-home-grid" style="display:flex;flex-wrap:wrap;gap:24px 32px;margin-bottom:40px;align-items:flex-start"></div>
+    <div id="novedades-section" style="display:none">
+      <div class="sec-hdr">
+        <div class="sec-title">Novedades</div>
+        <div class="sec-meta" id="novedades-meta"></div>
+      </div>
+      <div class="prod-grid" id="novedades-grid"></div>
+    </div>
     <div id="oferta-section" style="display:none">
       <div class="sec-hdr">
         <div class="sec-title" style="color:#f87171;cursor:pointer" onclick="goOfertas()">🔥 Ofertas</div>
@@ -851,6 +858,21 @@ function buildHome(){
   document.getElementById("feat-meta").textContent=(destLabel>0?destLabel+" destacados":destProds.length+" figuras");
   var fg=document.getElementById("feat-grid");fg.innerHTML="";
   destProds.slice(0,16).forEach(function(r){fg.appendChild(makeCard(r.p,r.cat));});
+
+  // Sección Novedades
+  var novProds=[];
+  CAT_KEYS.forEach(function(c){
+    (DATA[c]||{products:[]}).products.forEach(function(p){if(p.added_at)novProds.push({p:p,cat:c,ts:p.added_at});});
+  });
+  novProds.sort(function(a,b){return b.ts>a.ts?1:b.ts<a.ts?-1:0;});
+  var novSec=document.getElementById("novedades-section");
+  var novGrid=document.getElementById("novedades-grid");
+  if(novProds.length>0&&novSec&&novGrid){
+    novSec.style.display="";
+    novGrid.innerHTML="";
+    novProds.slice(0,6).forEach(function(r){novGrid.appendChild(makeCard(r.p,r.cat));});
+    document.getElementById("novedades-meta").textContent=Math.min(novProds.length,6)+" figura"+(Math.min(novProds.length,6)!==1?"s":"");
+  } else if(novSec){novSec.style.display="none";}
 
   // Sección Ofertas
   var ofertaProds=[];
