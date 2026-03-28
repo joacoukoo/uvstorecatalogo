@@ -5401,7 +5401,7 @@
       },
       {
         "n": "Link vs Ganondorf",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/b768e933-c87c-4bd4-b288-36281b5deaf5/2b_54000112060_olarge.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6_53999927488_oLarge.jpg?v=1727468673",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/link-vs-ganondorf",
         "marca": "Kintsukuroi",
         "escala": "1:4 - 65CM",
@@ -5415,58 +5415,41 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Kintsukuroi Studio | The Legend of Zelda"
-          },
-          {
-            "t": "notion-text",
-            "x": "Diorama de alto impacto que recrea el enfrentamiento definitivo entreLinkyGanondorf, inspirado en el universo deThe Legend of Zelda."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con una composición dinámica y presencia imponente, esta pieza aescala 1:4está pensada para vitrinas premium. Incorporailuminación LEDque realza la escena y los efectos del combate, elevando el impacto visual desde cualquier ángulo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Ediciónestrictamente limitadapara coleccionistas exigentes."
-          },
-          {
-            "t": "notion-text",
-            "x": "Detalles"
+            "x": "Kintsukuroi Studio | The Legend of Zelda Diorama de alto impacto que recrea el enfrentamiento definitivo entreLinkyGanondorf, inspirado en el universo deThe Legend of Zelda. Con una composición dinámica y presencia imponente, esta pieza aescala 1:4está pensada para vitrinas premium. Incorporailuminación LEDque realza la escena y los efectos del combate, elevando el impacto visual desde cualquier ángulo. Ediciónestrictamente limitadapara coleccionistas exigentes. Detalles Medidas (aprox.) Características Incluye La estatua tiene partes quebradas, algunas fueron pegadas nuevamente pero se nota que hubo daño.\nLa capa de Ganondorf está partida por la mitad y se nota mucho de cerca. De lejos no se puede apreciar.\nEl precio es con el descuento por estar quebrada."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Estudio:Kintsukuroi StudioEscala:1:4Edición limitada:200 piezas"
           },
           {
-            "t": "notion-text",
-            "x": "Medidas (aprox.)"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Alto:65 cmAncho:60 cmProfundidad:55 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Sistema deiluminación LEDintegradoComposición tipo diorama de gran formatoAcabados premium"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Tarjeta metálica dorada numerada"
-          },
-          {
-            "t": "notion-text",
-            "x": "La estatua tiene partes quebradas, algunas fueron pegadas nuevamente pero se nota que hubo daño.\nLa capa de Ganondorf está partida por la mitad y se nota mucho de cerca. De lejos no se puede apreciar.\nEl precio es con el descuento por estar quebrada."
           }
         ],
-        "id": "link-vs-ganondorf"
+        "id": "link-vs-ganondorf",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6_53999927488_oLarge.jpg?v=1727468673",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/17_53999927688_o.jpg?v=1727468464",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3_53999927348_oLarge.jpg?v=1727468673",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/12_53999688371_o.jpg?v=1727468464",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2_53998790327_oLarge.jpg?v=1727468673",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/13_53999688386_o.jpg?v=1727468464",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2b_54000112060_oLarge.jpg?v=1727468673",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/15_53998790682_o.jpg?v=1727468464"
+        ]
       },
       {
         "n": "Magic the Gathering YouTooz",
@@ -5716,7 +5699,7 @@
       },
       {
         "n": "Batman Arkham",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/897ca54d-9dd3-4abd-9ddf-c09a62e74922/e37d0cbe-7c7a-4923-a857-a4d09b5c1bcd_1024x1024.webp",
+        "i": "https://img.shoplineapp.com/media/image_clips/679f820dc613c3000d129b62/original.jpg?1738506765",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-arkham",
         "marca": "LPZZ",
         "escala": "1:12 - 18CM",
@@ -5730,66 +5713,46 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "LPZZ (良品制造) | 1:12 Scale Action Figure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Figura a escala 1:12 inspirada enBatman: Arkham Knight, que reproduce elBatsuit V8.04con alto nivel de detalle y un completo set de accesorios tácticos."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluyedos head sculpts(Batman yBruce Wayne),capa estilizada integraday múltiples manos para poses dinámicas, ideal para recrear escenas icónicas del juego."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "LPZZ (良品制造) | 1:12 Scale Action Figure Figura a escala 1:12 inspirada enBatman: Arkham Knight, que reproduce elBatsuit V8.04con alto nivel de detalle y un completo set de accesorios tácticos. Incluyedos head sculpts(Batman yBruce Wayne),capa estilizada integraday múltiples manos para poses dinámicas, ideal para recrear escenas icónicas del juego. Características Incluye Cuerpo y Heads Manos Gadgets y Armas Pre-order Bonus"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Escala:1:12Cuerpo articulado concapa estilizadaDos esculturas de cabeza intercambiablesAmplio set de gadgets y armas"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye"
-          },
-          {
-            "t": "notion-text",
-            "x": "Cuerpo y Heads"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Cuerpo de Batman con capa integradaRostro alternativo (expresión calmada)Head sculpt de Bruce Wayne"
-          },
-          {
-            "t": "notion-text",
-            "x": "Manos"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Diez (10) manos intercambiables"
           },
           {
-            "t": "notion-text",
-            "x": "Gadgets y Armas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Sintetizador de vozPistola de ganchoJammer gunSpray de gel explosivoLine Launcher (2)Batarangs (2)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Pre-order Bonus"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Rostro alternativo con expresión enojadaGranada de hieloTracking batarangs (3)"
           }
         ],
-        "id": "batman-arkham"
+        "id": "batman-arkham",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://img.shoplineapp.com/media/image_clips/679f820dc613c3000d129b62/original.jpg?1738506765",
+          "https://img.shoplineapp.com/media/image_clips/679f8217eccccb000a185176/original.jpg?1738506775",
+          "https://img.shoplineapp.com/media/image_clips/679f8217d561ae000a314433/original.jpg?1738506775",
+          "https://img.shoplineapp.com/media/image_clips/679f82179f26f600114ca255/original.jpg?1738506775",
+          "https://img.shoplineapp.com/media/image_clips/679f821709e52a000b68af6b/original.jpg?1738506775"
+        ]
       },
       {
         "n": "Vegeta Daima",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/fd64bf68-0974-480f-942b-3a955a2f5682/item_0000015122_wkvm2gyh_01.jpg",
+        "i": "https://darkostore.com/wp-content/uploads/2024/10/19-2.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/vegeta-daima",
         "marca": "SH Figuarts",
         "escala": "14CM",
@@ -5803,50 +5766,41 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Tamashii Nations | Bandai Spirits"
-          },
-          {
-            "t": "notion-text",
-            "x": "DesdeDragon Ball DAIMA, llegaVegetaen su nueva versiónDAIMA, reinterpretado con un diseño actualizado y proporciones acordes a esta nueva etapa del universo Dragon Ball."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura mantiene el estándar de calidad deS.H.Figuarts, con gran articulación, escultura precisa y múltiples opciones de pose para recrear escenas de combate y momentos clave de la serie."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza esencial para coleccionistas que siguen la línea DAIMA y el Dragon Ball moderno."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Tamashii Nations | Bandai Spirits DesdeDragon Ball DAIMA, llegaVegetaen su nueva versiónDAIMA, reinterpretado con un diseño actualizado y proporciones acordes a esta nueva etapa del universo Dragon Ball. La figura mantiene el estándar de calidad deS.H.Figuarts, con gran articulación, escultura precisa y múltiples opciones de pose para recrear escenas de combate y momentos clave de la serie. Una pieza esencial para coleccionistas que siguen la línea DAIMA y el Dragon Ball moderno. Características Material Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "LíneaS.H.FiguartsFigura totalmente articuladaEsculpido fiel al diseño deDragon Ball DAIMAAlta calidad de pintura y acabado"
           },
           {
-            "t": "notion-text",
-            "x": "Material"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "PVC / ABS"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Cuerpo principalManos intercambiablesPiezas faciales intercambiables(según versión)"
           }
         ],
-        "id": "vegeta-daima"
+        "id": "vegeta-daima",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://darkostore.com/wp-content/uploads/2024/10/19-2.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_02.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_03.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_04.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_07.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/19-2-600x600.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_02-600x750.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_03-600x750.jpg"
+        ]
       },
       {
         "n": "Goku Daima",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/06c75406-f5d7-46a6-a096-2fcf4df3f18d/item_0000015121_fzzcviru_03.jpg",
+        "i": "https://darkostore.com/wp-content/uploads/2024/10/19.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/goku-daima",
         "marca": "SH Figuarts",
         "escala": "15CM",
@@ -5860,46 +5814,41 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Tamashii Nations | Bandai Spirits"
-          },
-          {
-            "t": "notion-text",
-            "x": "DesdeDragon Ball DAIMA, llegaSon Gokuen su versiónDAIMA, con un diseño renovado y proporciones adaptadas al nuevo estilo de la serie."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura mantiene el estándar de la líneaS.H.Figuarts, ofreciendoalta articulación, escultura precisa y acabados limpios, ideales para recrear poses dinámicas y escenas de acción."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Tamashii Nations | Bandai Spirits DesdeDragon Ball DAIMA, llegaSon Gokuen su versiónDAIMA, con un diseño renovado y proporciones adaptadas al nuevo estilo de la serie. La figura mantiene el estándar de la líneaS.H.Figuarts, ofreciendoalta articulación, escultura precisa y acabados limpios, ideales para recrear poses dinámicas y escenas de acción. Características Medidas Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "LíneaS.H.FiguartsFigura totalmente articuladaEsculpido fiel al diseño deDragon Ball DAIMAMateriales:PVC / ABS"
           },
           {
-            "t": "notion-text",
-            "x": "Medidas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Altura aproximada:14 cm(140 mm)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Cuerpo principalManos intercambiablesPiezas faciales intercambiables(según versión)"
           }
         ],
-        "id": "goku-daima"
+        "id": "goku-daima",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://darkostore.com/wp-content/uploads/2024/10/19.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_02.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_03.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_05.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_06.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_07.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/19-600x600.jpg",
+          "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_02-600x750.jpg"
+        ]
       },
       {
         "n": "Monkey D. Luffy",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/9e536377-35e9-4c83-8101-a950dd8b2860/item_0000014324_qh5t0i7b_03.jpg",
+        "i": "https://img.toy-people.com/member/175307837984_1200.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/monkey-d-luffy",
         "marca": "SH Figuarts",
         "escala": "15CM",
@@ -5913,46 +5862,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Tamashii Nations | Bandai Spirits"
-          },
-          {
-            "t": "notion-text",
-            "x": "DesdeONE PIECE, llegaMonkey D. Luffyen la líneaS.H.Figuarts, con un esculpido fiel al anime y la posabilidad característica de la marca."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta figura permite recrear poses dinámicas y expresiones icónicas del capitán de los Sombrero de Paja, manteniendo un equilibrio ideal entre detalle, articulación y estabilidad."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Tamashii Nations | Bandai Spirits DesdeONE PIECE, llegaMonkey D. Luffyen la líneaS.H.Figuarts, con un esculpido fiel al anime y la posabilidad característica de la marca. Esta figura permite recrear poses dinámicas y expresiones icónicas del capitán de los Sombrero de Paja, manteniendo un equilibrio ideal entre detalle, articulación y estabilidad. Características Medidas Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "LíneaS.H.FiguartsFigura totalmente articuladaEsculpido fiel al diseño del animeMateriales:PVC / ABS"
           },
           {
-            "t": "notion-text",
-            "x": "Medidas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Altura aproximada:15 cm(150 mm)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Cuerpo principalManos intercambiablesPiezas faciales intercambiables(según versión)"
           }
         ],
-        "id": "monkey-d-luffy"
+        "id": "monkey-d-luffy",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://img.toy-people.com/member/175307837984_1200.jpg",
+          "https://img.toy-people.com/member/17530783766_1200.jpg",
+          "https://img.toy-people.com/member/175307837330_1200.jpg",
+          "https://img.toy-people.com/member/175307837444_1200.jpg",
+          "https://img.toy-people.com/member/175307837552_1200.jpg",
+          "https://img.toy-people.com/member/175307837680_1200.jpg"
+        ]
       },
       {
         "n": "Grogu Tamagotchi Nano",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/4b8217ce-94a3-4b45-ae56-37f947e8343d/963d7c37d5314f419a291651e95d51cdxl.webp",
+        "i": "https://tamagotchi-official.com/tamagotchi/us/product/2024/05/07/MvvABIBb9nzXzr5a/01オレンジ.png?_=1",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/grogu-tamagotchi-nano",
         "marca": "Tamagotchi",
         "escala": "Nano - 5CM",
@@ -5966,58 +5908,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Bandai Namco | Star Wars"
-          },
-          {
-            "t": "notion-text",
-            "x": "Lleva aGrogua todos lados con esteTamagotchi Nanoinspirado enStar Wars: The Mandalorian. Tu forma de cuidarlo determinará su evolución en12 apariencias distintas, ¡incluyendo3 estilos secretos!"
-          },
-          {
-            "t": "notion-text",
-            "x": "Disfruta de mini-juegos comoFrog CatchyGet the Silver Ball, además de un tercer juego que cambia según tu interacción. Personajes invitados comoThe Armorer,Ahsoka Tanoy unTusken Raiderpueden aparecer como sorpresas especiales. Incluyefunda de siliconaycadenapara llevarlo contigo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Bandai Namco | Star Wars Lleva aGrogua todos lados con esteTamagotchi Nanoinspirado enStar Wars: The Mandalorian. Tu forma de cuidarlo determinará su evolución en12 apariencias distintas, ¡incluyendo3 estilos secretos! Disfruta de mini-juegos comoFrog CatchyGet the Silver Ball, además de un tercer juego que cambia según tu interacción. Personajes invitados comoThe Armorer,Ahsoka Tanoy unTusken Raiderpueden aparecer como sorpresas especiales. Incluyefunda de siliconaycadenapara llevarlo contigo. Características Especificaciones Medidas del producto Empaque Peso"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Tamagotchi Nano oficial Star Wars12 evoluciones posibles (3 secretas)Mini-juegos interactivosInvitados especiales del universo Star WarsFunda de silicona y cadena incluidasBaterías incluidas"
           },
           {
-            "t": "notion-text",
-            "x": "Especificaciones"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Edad recomendada:8+Baterías:2 × LR44(incluidas)Material:PlásticoOrigen:China"
-          },
-          {
-            "t": "notion-text",
-            "x": "Medidas del producto"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Alto:4.83 cmAncho:2.54 cmLargo:8.13 cm"
           },
           {
-            "t": "notion-text",
-            "x": "Empaque"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Alto:16.51 cmAncho:3.18 cmLargo:15.88 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Peso"
           },
           {
             "t": "notion-bulleted-list",
             "x": "0.20 lb(≈91 g)"
           }
         ],
-        "id": "grogu-tamagotchi-nano"
+        "id": "grogu-tamagotchi-nano",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://tamagotchi-official.com/tamagotchi/us/product/2024/05/07/MvvABIBb9nzXzr5a/01オレンジ.png?_=1",
+          "https://tamagotchi-official.com/tamagotchi/us/product/2024/05/07/HOKAXChTxuRDzCfn/01オレンジ シリコン.png?_=1"
+        ]
       },
       {
         "n": "Michael Myers (Halloween II)",
@@ -6071,7 +5994,7 @@
       },
       {
         "n": "Bases Dragon Ball",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/985bfc7c-3eba-4c66-ab66-19f171037e15/0a9f8beb-dfec-4b87-a679-c334519f4647.webp",
+        "i": "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_1.jpg?v=1629926210",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/bases-dragon-ball",
         "marca": "SH Figuarts",
         "escala": "10CM",
@@ -6085,19 +6008,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Tamashii Nations | Bandai Spirits"
-          },
-          {
-            "t": "notion-text",
-            "x": "Soportes oficialesS.H.FiguartsdeDragon Ball Super, producidos encolores exclusivos de evento, ideales para exhibir figuras comoSuper Saiyan God Goku,WhisyNappa(figuras se venden por separado)."
-          },
-          {
-            "t": "notion-text",
-            "x": "Estas bases están pensadas para poses aéreas y dinámicas, con diseños temáticos inspirados en el universo Dragon Ball."
-          },
-          {
-            "t": "notion-text",
-            "x": "Importante – Disponibilidad"
+            "x": "Tamashii Nations | Bandai Spirits Soportes oficialesS.H.FiguartsdeDragon Ball Super, producidos encolores exclusivos de evento, ideales para exhibir figuras comoSuper Saiyan God Goku,WhisyNappa(figuras se venden por separado). Estas bases están pensadas para poses aéreas y dinámicas, con diseños temáticos inspirados en el universo Dragon Ball. Importante – Disponibilidad Características Diseños posibles (random) Contenido"
           },
           {
             "t": "notion-bulleted-list",
@@ -6108,35 +6019,37 @@
             "x": "No se puede elegir el diseñoCada caja trae1 stage al azar"
           },
           {
-            "t": "notion-text",
-            "x": "Características"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras S.H.FiguartsColoresEvent ExclusiveMaterial: plásticoAltura aprox.:9.9 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Diseños posibles (random)"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Goku MarkWhis MarkSaiyan Pod"
           },
           {
-            "t": "notion-text",
-            "x": "Contenido"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "1 base/displayS.H.Figuarts(diseño aleatorio)El precio es por las 3 juntas"
           }
         ],
-        "id": "bases-dragon-ball"
+        "id": "bases-dragon-ball",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_1.jpg?v=1629926210",
+          "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_2.jpg?v=1629926210",
+          "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_3.jpg?v=1629926210",
+          "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_4.jpg?v=1629926210",
+          "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_5.jpg?v=1629926210",
+          "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_6.jpg?v=1629926210",
+          "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_7.jpg?v=1629926211"
+        ]
       },
       {
         "n": "Spider-Man Deluxe – Spider-Man vs Villains Diorama",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/0c9b289e-e68f-4dac-bcbb-f3db3ca18d12/f5ea5455-ba50-49c7-b0fd-96618281cdf0.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbad7c7af.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/spider-man-deluxe-spider-man-vs-villains-diorama",
         "marca": "Iron Studios",
         "escala": "1:10 - 37CM",
@@ -6150,58 +6063,45 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios | Art Scale 1:10"
-          },
-          {
-            "t": "notion-text",
-            "x": "EstatuaDeluxedeSpider-Man, inspirada en el dioramaSpider-Man vs Villains, presentada dentro de la líneaArt Scale 1:10deIron Studios."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta pieza captura al trepamuros en una pose dinámica de combate, con una composición detallada pensada para exhibición premium. Fabricada enpolystoney pintada a mano, ofrece un alto nivel de acabado y presencia en vitrina."
-          },
-          {
-            "t": "notion-text",
-            "x": "Detalles del Producto"
+            "x": "Iron Studios | Art Scale 1:10 EstatuaDeluxedeSpider-Man, inspirada en el dioramaSpider-Man vs Villains, presentada dentro de la líneaArt Scale 1:10deIron Studios. Esta pieza captura al trepamuros en una pose dinámica de combate, con una composición detallada pensada para exhibición premium. Fabricada enpolystoney pintada a mano, ofrece un alto nivel de acabado y presencia en vitrina. Detalles del Producto Materiales (puede contener partes en resina, PVC, metal y tela) Medidas Peso"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Línea:Art ScaleEscala:1:10Tipo:Estatua Deluxe / DioramaLicencia:Spider-ManSub-licencia:Spider-Man vs Villains DioramaGénero: Cómics / SuperhéroesEdad recomendada:15+"
           },
           {
-            "t": "notion-text",
-            "x": "Materiales"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Polystone(puede contener partes en resina, PVC, metal y tela)"
-          },
-          {
-            "t": "notion-text",
-            "x": "(puede contener partes en resina, PVC, metal y tela)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Medidas"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Alto:36.8 cm(14.5”)Ancho:16.3 cm(6.4”)Profundidad:15.2 cm(6”)"
           },
           {
-            "t": "notion-text",
-            "x": "Peso"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "0.9 kg(2 lb)"
           }
         ],
-        "id": "spider-man-deluxe-spider-man-vs-villains-diorama"
+        "id": "spider-man-deluxe-spider-man-vs-villains-diorama",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbad7c7af.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_scale_644bfbb113f00.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbadf0f9c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbae70e6c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbaf1592b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbafa785b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbb025c3d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbb097006.jpg"
+        ]
       },
       {
         "n": "Batman Mistery Minis",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/10afeacf-0d28-4b00-99fd-5a828ce7656d/beastkingdomminieggattackbatmanassembleset_6intheassortment_2-filmsmen.com.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/MEA___1.jpg?v=1679671283",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-mistery-minis",
         "marca": "Beast Kingdom",
         "escala": "8CM",
@@ -6215,70 +6115,36 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Beast Kingdom | Entertainment Experience Brand"
+            "x": "Beast Kingdom | Entertainment Experience Brand “It’s not who I am underneath, but what I do, that defines me.” Celebra la evolución del Caballero Oscuro conBatman Assemble, una línea que recorreseis interpretaciones icónicasdeBatmana lo largo del cine y la televisión. Desde su debut enDetective Comics(1939), Batman se ha reinventado innumerables veces; esta serie reúne algunas de sus versiones más queridas para que armes tu propio viaje del Hombre Murciélago. Las figuras vienen en una caja cerrada, no se conoce el contenido, son aleatorias. La Serie Incluye (6 personajes) Estilo colorido y camp de los años 60. El inicio del tono oscuro de Tim Burton. Traje mejorado y atmósfera aún más sombría. Enfoque realista y épico dirigido por Christopher Nolan. Una versión más robusta y combativa. Traje más estilizado para enfrentar amenazas mayores. Características Medidas"
           },
           {
-            "t": "notion-text",
-            "x": "“It’s not who I am underneath, but what I do, that defines me.”"
-          },
-          {
-            "t": "notion-text",
-            "x": "Celebra la evolución del Caballero Oscuro conBatman Assemble, una línea que recorreseis interpretaciones icónicasdeBatmana lo largo del cine y la televisión. Desde su debut enDetective Comics(1939), Batman se ha reinventado innumerables veces; esta serie reúne algunas de sus versiones más queridas para que armes tu propio viaje del Hombre Murciélago."
-          },
-          {
-            "t": "notion-text",
-            "x": "Las figuras vienen en una caja cerrada, no se conoce el contenido, son aleatorias."
-          },
-          {
-            "t": "notion-text",
-            "x": "La Serie Incluye (6 personajes)"
-          },
-          {
-            "t": "notion-numbered-list",
+            "t": "notion-bulleted-list",
             "x": "Batman– Adam WestEstilo colorido y camp de los años 60.Batman– Michael KeatonEl inicio del tono oscuro de Tim Burton.Batman Returns– Michael KeatonTraje mejorado y atmósfera aún más sombría.The Dark Knight Trilogy– Christian BaleEnfoque realista y épico dirigido por Christopher Nolan.Batman v Superman: Dawn of Justice– Ben AffleckUna versión más robusta y combativa.Justice League– Ben AffleckTraje más estilizado para enfrentar amenazas mayores."
-          },
-          {
-            "t": "notion-text",
-            "x": "Estilo colorido y camp de los años 60."
-          },
-          {
-            "t": "notion-text",
-            "x": "El inicio del tono oscuro de Tim Burton."
-          },
-          {
-            "t": "notion-text",
-            "x": "Traje mejorado y atmósfera aún más sombría."
-          },
-          {
-            "t": "notion-text",
-            "x": "Enfoque realista y épico dirigido por Christopher Nolan."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una versión más robusta y combativa."
-          },
-          {
-            "t": "notion-text",
-            "x": "Traje más estilizado para enfrentar amenazas mayores."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Línea:Batman AssembleMateriales:ABS / PVCDiseño estilizado y coleccionableIdeales para exhibición en conjunto"
           },
           {
-            "t": "notion-text",
-            "x": "Medidas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Altura aproximada:8 cm(3”)"
           }
         ],
-        "id": "batman-mistery-minis"
+        "id": "batman-mistery-minis",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/MEA___1.jpg?v=1679671283",
+          "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_4_cc9f3f83-8f48-43e5-ac5e-235d5d72081a.jpg?v=1679671283",
+          "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_5_607d6c5c-b0d8-4383-89b4-4b138e4b5002.jpg?v=1679671283",
+          "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_6_f97c6ef5-7d6f-484e-85f5-f6b056fa45bb.jpg?v=1679671283",
+          "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_7_32d82d3b-8294-487f-9987-40f14a9b6ff4.jpg?v=1679671283",
+          "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_9_aaf85a4e-9f5f-4f77-a2ed-4d836dbd4834.jpg?v=1679671283",
+          "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_10_599f241c-dea4-4a46-8637-8ed4d9d1e6de.jpg?v=1679671283"
+        ]
       },
       {
         "n": "Hand of the King - Abrebotellas",
@@ -6355,7 +6221,7 @@
       },
       {
         "n": "The Powerpuff Girls - Have a Nice Day",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/d2c8e210-4660-496a-b267-b76cd99c9fd0/the-powerpuff-girls-diorama-dstage-beast-kingdom-094-have-a-nice-day.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909159/the-powerpuff-girls-have-a-nice-day-d-stage_powerpuff-girls_gallery_612050883fa2e.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/the-powerpuff-girls-have-a-nice-day",
         "marca": "Beast Kingdom",
         "escala": "16CM",
@@ -6369,50 +6235,37 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Diorama Stage D-Stage 094 | Beast Kingdom"
-          },
-          {
-            "t": "notion-text",
-            "x": "Diorama oficial deThe Powerpuff Girls, presentado porBeast Kingdomdentro de su líneaD-Stage. Esta pieza captura el espíritu alegre y combativo de Bombón, Burbuja y Bellota en unaescena 360°, conpintura meticulosay gran atención al detalle."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con un tamaño compacto de6 pulgadas, es ideal para escritorio o vitrina, ofreciendo una presencia vibrante que resalta desde cualquier ángulo. Una adición perfecta para fans de la serie animada clásica."
-          },
-          {
-            "t": "notion-text",
-            "x": "Detalles del Producto"
+            "x": "Diorama Stage D-Stage 094 | Beast Kingdom Diorama oficial deThe Powerpuff Girls, presentado porBeast Kingdomdentro de su líneaD-Stage. Esta pieza captura el espíritu alegre y combativo de Bombón, Burbuja y Bellota en unaescena 360°, conpintura meticulosay gran atención al detalle. Con un tamaño compacto de6 pulgadas, es ideal para escritorio o vitrina, ofreciendo una presencia vibrante que resalta desde cualquier ángulo. Una adición perfecta para fans de la serie animada clásica. Detalles del Producto Materiales Medidas Empaque"
           },
           {
             "t": "notion-bulleted-list",
             "x": "SKU:DS-094UPC:4711061157997Línea:D-StageLicencia:Warner BrothersFabricante:Beast KingdomEstado:En stock"
           },
           {
-            "t": "notion-text",
-            "x": "Materiales"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "ABSPVC"
-          },
-          {
-            "t": "notion-text",
-            "x": "Medidas"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: aprox.15–16 cm(6”)"
           },
           {
-            "t": "notion-text",
-            "x": "Empaque"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Caja transparente a color + burbuja protectoraMedidas del empaque:12.5 × 12.5 × 18.5 cm"
           }
         ],
-        "id": "the-powerpuff-girls-have-a-nice-day"
+        "id": "the-powerpuff-girls-have-a-nice-day",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909159/the-powerpuff-girls-have-a-nice-day-d-stage_powerpuff-girls_gallery_612050883fa2e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909159/the-powerpuff-girls-have-a-nice-day-d-stage_powerpuff-girls_gallery_6120508894c05.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909159/the-powerpuff-girls-have-a-nice-day-d-stage_powerpuff-girls_gallery_61205088ee65c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909159/the-powerpuff-girls-have-a-nice-day-d-stage_powerpuff-girls_silo.png"
+        ]
       },
       {
         "n": "Espresso Trip Tina Funko Pop (Sticker SDCC)",
@@ -6461,7 +6314,7 @@
       },
       {
         "n": "Monkey D. Luffy",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/5587607d-bb77-4bc0-a428-e4f29413992c/lightningstudioluffy_1.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-monkey-d-luffy-resin-statue-lightning-studio-in-stock-full-payment-primary-color-248.webp?v=1755045903",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/monkey-d-luffy-1",
         "marca": "Lightning Studio",
         "escala": "1:6 - 33CM",
@@ -6475,62 +6328,46 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lightning Studio | ONE PIECE"
-          },
-          {
-            "t": "notion-text",
-            "x": "Estatua inspirada en el arco deMarineforddeONE PIECE, uno de los momentos más intensos de la historia.Monkey D. Luffyes representado con una pose de alto impacto, pensada para vitrinas de coleccionista."
-          },
-          {
-            "t": "notion-text",
-            "x": "Produccióntime-limited, ideal para fans que buscan piezas de estudio con presencia sólida y acabados de resina."
-          },
-          {
-            "t": "notion-text",
-            "x": "Detalles"
+            "x": "Lightning Studio | ONE PIECE Estatua inspirada en el arco deMarineforddeONE PIECE, uno de los momentos más intensos de la historia.Monkey D. Luffyes representado con una pose de alto impacto, pensada para vitrinas de coleccionista. Produccióntime-limited, ideal para fans que buscan piezas de estudio con presencia sólida y acabados de resina. Detalles Variantes Materiales Medidas Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Estudio:Lightning StudioSerie:ONE PIECEEdición:Time-limited"
           },
           {
-            "t": "notion-text",
-            "x": "Variantes"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "VersiónColouredVersiónGreyscale"
-          },
-          {
-            "t": "notion-text",
-            "x": "Materiales"
           },
           {
             "t": "notion-bulleted-list",
             "x": "PolyresinPU"
           },
           {
-            "t": "notion-text",
-            "x": "Medidas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Altura:33 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Figura de LuffyBase / plataforma"
           }
         ],
-        "id": "monkey-d-luffy-2"
+        "id": "monkey-d-luffy-2",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-monkey-d-luffy-resin-statue-lightning-studio-in-stock-full-payment-primary-color-248.webp?v=1755045903",
+          "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-monkey-d-luffy-resin-statue-lightning-studio-in-stock-full-payment-primary-color-156.webp?v=1755045910",
+          "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-monkey-d-luffy-resin-statue-lightning-studio-in-stock-full-payment-primary-color-256.webp?v=1755045915",
+          "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-monkey-d-luffy-resin-statue-lightning-studio-in-stock-full-payment-primary-color-858.webp?v=1755045921",
+          "https://cdn.shopify.com/s/files/1/0750/7869/7261/files/one-piece-monkey-d-luffy-resin-statue-lightning-studio-in-stock-full-payment-primary-color-564.webp?v=1755045926"
+        ]
       },
       {
         "n": "Roronoa Zoro",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/eb60f3fb-28b9-4c97-8ca2-84323645206e/image_6b3a712f-823f-4147-9336-1df24948ea32.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_6b3a712f-823f-4147-9336-1df24948ea32.jpg?v=1742340632",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/roronoa-zoro",
         "marca": "Lightning Studio",
         "escala": "1:6 - 33CM",
@@ -6544,30 +6381,33 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lightning Studio | ONE PIECE"
-          },
-          {
-            "t": "notion-text",
-            "x": "Estatua en resina deRoronoa Zoro, inspirada enONE PIECE. Una pieza deLightning Studiocon presencia sólida y acabados limpios, ideal para vitrinas de coleccionista."
-          },
-          {
-            "t": "notion-text",
-            "x": "Detalles"
+            "x": "Lightning Studio | ONE PIECE Estatua en resina deRoronoa Zoro, inspirada enONE PIECE. Una pieza deLightning Studiocon presencia sólida y acabados limpios, ideal para vitrinas de coleccionista. Detalles Medidas"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Estudio:Lightning StudioMaterial:ResinaEdición:Limitada"
           },
           {
-            "t": "notion-text",
-            "x": "Medidas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Altura:33 cm"
           }
         ],
-        "id": "roronoa-zoro"
+        "id": "roronoa-zoro",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_6b3a712f-823f-4147-9336-1df24948ea32.jpg?v=1742340632",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_e11743d7-47af-4ab8-bbdb-342f6f1665c1.jpg?v=1742340632",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_b38ede62-a1c7-4a64-85ed-2ee9f540eba8.jpg?v=1742340633",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_f6ea354a-877a-40b7-96dd-1fc6272ba610.jpg?v=1742340633",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_fc188f48-9bbe-4fe4-a877-3e83ff2f6844.jpg?v=1742340633",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_51a71c13-97e8-4483-8882-74648dcb6e85.jpg?v=1742340633",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_7dec6a76-0d95-44b1-8aa0-2674c337d1b2.jpg?v=1742340633",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_40043da4-4d10-416c-a9f0-8663ceb62089.jpg?v=1742340633"
+        ]
       },
       {
         "n": "Captain America vs. Captain America (Endgame)",
