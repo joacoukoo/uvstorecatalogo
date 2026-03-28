@@ -913,7 +913,7 @@ function makeFranchiseCard(fname,gridId){
   if(iconVal&&iconVal.startsWith("data:")){
     var img=document.createElement("img");
     img.src=iconVal;img.alt=fname;
-    img.style.cssText="width:100%;height:100%;object-fit:cover;object-position:center;mix-blend-mode:screen;";
+    img.style.cssText="width:100%;height:100%;object-fit:cover;mix-blend-mode:screen;";
     circle.appendChild(img);
   } else {
     circle.innerHTML="<div style='font-size:48px'>"+iconVal+"</div>";
@@ -943,7 +943,7 @@ function buildFranchiseGrid(gridId){
     var card=makeFranchiseCard(fname,gridId);
     if(card)grid.appendChild(card);
   });
-}}
+}
 function shareProduct(){
   var name=document.getElementById("modal-name").textContent;
   var prodUrl=location.href;
