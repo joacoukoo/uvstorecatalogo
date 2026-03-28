@@ -572,29 +572,19 @@ body::after{
   .lightbox-btn.lb-next{right:8px}
 }
 
-/* === FIX FRANQUICIAS REAL === */
-.franquicia {
-  background-size: 120% !important;
-  background-position: center !important;
+/* === FIX DEFINITIVO FRANQUICIAS === */
+.franquicias .franquicia img {
+  transform: scale(1.1);
 }
 
-.franquicia.marvel {
-  background-size: 140% !important;
+.franquicias .franquicia:nth-child(1) img {
+  transform: scale(1.5);
 }
 
-.franquicia.anime,
-.franquicia.gaming,
-.franquicia.otros {
-  background-size: 130% !important;
-}
-
-/* por si usa img también */
-.franquicia img {
-  transform: scale(1.2) !important;
-}
-
-.franquicia.marvel img {
-  transform: scale(1.4) !important;
+.franquicias .franquicia:nth-child(4) img,
+.franquicias .franquicia:nth-child(5) img,
+.franquicias .franquicia:nth-child(6) img {
+  transform: scale(1.25);
 }
 
 </style>
