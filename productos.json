@@ -61,7 +61,7 @@
       },
       {
         "n": "Armored Batman (2.0)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/020e3d35-0725-4743-8c80-2ec72f730cd2/armored-batman-20_dc-comics_gallery_661954fed7d6d.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661954fed7d6d.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armored-batman-20",
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
@@ -75,23 +75,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Hot Toys – Movie Masterpiece Series Diecast"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:33 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada enBatman v Superman: Dawn of Justice, esta figura representa el momento en que Bruce Wayne utiliza su armadura táctica para enfrentarse a Superman."
-          },
-          {
-            "t": "notion-text",
-            "x": "Hot Toys presenta la versión 2.0 de Armored Batman con importantes mejoras en escultura, pintura y articulación. La armadura incorpora piezas diecast (metal) que aportan mayor peso y realismo, junto con efectos de desgaste que reflejan el intenso combate visto en pantalla."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye una cabeza blindada diecast con ojos LED funcionales (alimentación USB) y tres expresiones faciales intercambiables basadas en la interpretación de Ben Affleck."
+            "x": "Figura Sixth Scale (1:6) – Hot Toys – Movie Masterpiece Series Diecast Altura:33 cm Inspirada enBatman v Superman: Dawn of Justice, esta figura representa el momento en que Bruce Wayne utiliza su armadura táctica para enfrentarse a Superman. Hot Toys presenta la versión 2.0 de Armored Batman con importantes mejoras en escultura, pintura y articulación. La armadura incorpora piezas diecast (metal) que aportan mayor peso y realismo, junto con efectos de desgaste que reflejan el intenso combate visto en pantalla. Incluye una cabeza blindada diecast con ojos LED funcionales (alimentación USB) y tres expresiones faciales intercambiables basadas en la interpretación de Ben Affleck. Una versión definitiva del enfrentamiento más icónico del DC moderno, ideal para coleccionistas que buscan una pieza robusta, imponente y fiel al universo cinematográfico."
           },
           {
             "t": "notion-bulleted-list",
@@ -112,10 +96,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Base temática con logo de la películaPlaca con nombre del personajeIluminación LED integrada"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una versión definitiva del enfrentamiento más icónico del DC moderno, ideal para coleccionistas que buscan una pieza robusta, imponente y fiel al universo cinematográfico."
           }
         ],
         "fotos": [
@@ -126,7 +106,12 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_6619550440123.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661955050a8c7.jpg"
         ],
-        "id": "armored-batman-2-0"
+        "id": "armored-batman-2-0",
+        "precio_orig": "",
+        "yt": "https://www.youtube.com/shorts/e_fbV6z5Hyo",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Armored Batman (2.0) – Deluxe Version",
