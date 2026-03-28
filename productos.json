@@ -4442,7 +4442,7 @@
       },
       {
         "n": "Poison Ivy (Gotham City Sirens)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/a7982563-80dc-42ed-bf49-07cbbef7fcf3/612500911_18549296041005971_3949775839971911798_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cbef04f.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/poison-ivy-gotham-city-sirens",
         "marca": "Iron Studios",
         "escala": "1:10 - 22CM",
@@ -4456,57 +4456,44 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios | DC Comics"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow eIron Studiospresentan esta estatuaArt Scale 1:10dePoison Ivy, inspirada en la serieGotham City Sirens."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una piezaedición limitada, altamente detallada ypintada a mano, que captura la esencia seductora y peligrosa del personaje. Ideal para coleccionistas de DC Comics que buscan una estatua compacta, elegante y de gran calidad de acabado."
-          },
-          {
-            "t": "notion-text",
-            "x": "Disponible enCollector EditionyDeluxe Version(según disponibilidad)."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Iron Studios | DC Comics Sideshow eIron Studiospresentan esta estatuaArt Scale 1:10dePoison Ivy, inspirada en la serieGotham City Sirens. Una piezaedición limitada, altamente detallada ypintada a mano, que captura la esencia seductora y peligrosa del personaje. Ideal para coleccionistas de DC Comics que buscan una estatua compacta, elegante y de gran calidad de acabado. Disponible enCollector EditionyDeluxe Version(según disponibilidad). Características Material Medidas Peso"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Línea Art ScaleEscala 1:10Esculpido y pintura de alta calidadEdición limitada"
           },
           {
-            "t": "notion-text",
-            "x": "Material"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Polystone"
-          },
-          {
-            "t": "notion-text",
-            "x": "Medidas"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Alto: 22 cmAncho: 10 cmProfundidad: 11 cm"
           },
           {
-            "t": "notion-text",
-            "x": "Peso"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "0.6 kg"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cbef04f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_scale_662fe7ce5accd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cc32297.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cdb0044.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cc66e7d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7ccd34f7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cd1224c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cd45183.jpg"
         ]
       },
       {
         "n": "Don Vito Corleone",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/cbe99f60-e404-4acf-89e0-dc7725144e25/090770_2_1024x1024.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21eb1b12d.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/don-vito-corleone",
         "marca": "Iron Studios",
         "escala": "1:10 - 20CM",
@@ -4520,52 +4507,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios | The Godfather"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow eIron Studiospresentan esta estatuaArt Scale 1:10deDon Vito Corleone, inspirada en la obra maestra del cineThe Godfather."
-          },
-          {
-            "t": "notion-text",
-            "x": "Basada enreferencias originales, esta pieza depolystone,pintada a manoy deedición limitada, captura la presencia imponente y el carácter icónico del patriarca de la familia Corleone. Un coleccionable imprescindible para fans deThe Godfathery amantes de estatuas clásicas de alto nivel."
-          },
-          {
-            "t": "notion-text",
-            "x": "Disponible enCollector EditionyDeluxe Edition(según disponibilidad)."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Iron Studios | The Godfather Sideshow eIron Studiospresentan esta estatuaArt Scale 1:10deDon Vito Corleone, inspirada en la obra maestra del cineThe Godfather. Basada enreferencias originales, esta pieza depolystone,pintada a manoy deedición limitada, captura la presencia imponente y el carácter icónico del patriarca de la familia Corleone. Un coleccionable imprescindible para fans deThe Godfathery amantes de estatuas clásicas de alto nivel. Disponible enCollector EditionyDeluxe Edition(según disponibilidad). Características Material Medidas Peso"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Línea Art ScaleEscala 1:10Edición limitadaPintada a manoFabricada en polystone"
           },
           {
-            "t": "notion-text",
-            "x": "Material"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Polystone"
-          },
-          {
-            "t": "notion-text",
-            "x": "Medidas"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Alto: 20 cmAncho: 14 cmProfundidad: 17 cm"
           },
           {
-            "t": "notion-text",
-            "x": "Peso"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "0.5 kg"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21eb1b12d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_scale_64ed21ee5ee15.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21eb6bdbb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ebaadc8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ebe99d3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ec49713.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ec958f7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ecdd79e.jpg"
         ]
       },
       {
