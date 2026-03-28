@@ -13610,6 +13610,142 @@
     "slug": "estatuas",
     "products": [
       {
+        "n": "Doom Slayer",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205451_337__24985.jpg?v=1774621720",
+        "l": "https://statuecorp.com/products/thunder-z-doom-slayer",
+        "marca": "",
+        "escala": "1:3",
+        "franquicia": "Gaming",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "22800",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "4560",
+        "entrega": "Mayo 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205451_337__24985.jpg?v=1774621720",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205516_567__61111.jpg?v=1774621720",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205458_355__11520.jpg?v=1774621720",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205514_545__51619.jpg?v=1774621720",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205504_103__31335.jpg?v=1774621720",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205501_399__39299.jpg?v=1774621720",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205506_479__77511.jpg?v=1774621720",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-03-27_205511_543__05921.jpg?v=1774621720"
+        ],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Thunder Z - Doom Slayer – Estatua 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "[Thunder Z – 1:3 Scale – Doom]"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Esta estatua de Doom Slayer a escala 1:3, desarrollada por Thunder Z, presenta al icónico protagonista de la saga Doom con una presencia imponente y un nivel de detalle pensado para coleccionistas exigentes. La pieza captura la esencia del personaje, destacando su armadura característica y su naturaleza imparable en combate."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Con una escala de gran formato, esta estatua ofrece una fuerte presencia visual, ideal como pieza central en cualquier colección. Su diseño enfatiza proporciones, texturas y acabados que reflejan fielmente el estilo del universo Doom."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Limitada a solo 30 unidades, esta pieza se posiciona como una edición altamente exclusiva."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Thunder Z"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Estatua 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Videojuegos / Acción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 95 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: No aplica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Estatua de Doom Slayer"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Arma adicional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Escala 1:3 de gran formato"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Edición limitada a 30 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Representación del Doom Slayer con alto nivel de detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Pieza de exhibición con fuerte presencia visual"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Incluye arma adicional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Ideal para coleccionistas de videojuegos"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-28T10:58:29.862282"
+      },
+      {
         "n": "Vulture",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915483/iron-studios-marvel-vulture-1-10-scale-statues-gallery-69c59a03eeeb1.jpg",
         "l": "https://www.sideshow.com/collectibles/marvel-vulture-iron-studios-915483",
