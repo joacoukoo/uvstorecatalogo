@@ -913,7 +913,8 @@ function makeFranchiseCard(fname,gridId){
   if(iconVal&&iconVal.startsWith("data:")){
     var img=document.createElement("img");
     img.src=iconVal;img.alt=fname;
-    img.style.cssText="width:130%;height:130%;object-fit:cover;margin:-15%;mix-blend-mode:screen;";
+    var bigZoom=["Anime","Gaming","Otros"].indexOf(fname)>=0;
+    img.style.cssText=bigZoom?"width:130%;height:130%;object-fit:cover;margin:-15%;mix-blend-mode:screen;":"width:115%;height:115%;object-fit:cover;margin:-7.5%;mix-blend-mode:screen;";
     circle.appendChild(img);
   } else {
     circle.innerHTML="<div style='font-size:48px'>"+iconVal+"</div>";
