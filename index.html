@@ -520,6 +520,9 @@ body::after{
   transition:all .15s;margin-bottom:18px;
 }
 .back-btn:hover{color:#fff;border-color:var(--border3)}
+.sort-btn{background:var(--bg3);border:1px solid var(--border2);color:var(--muted2);font-family:"DM Sans",sans-serif;font-size:12px;padding:6px 14px;border-radius:20px;cursor:pointer;transition:all .15s}
+.sort-btn:hover{border-color:var(--purple);color:#fff}
+.sort-btn.sort-active{background:var(--purple);border-color:var(--purple);color:#fff}
 .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
 .filter-btn{
   background:var(--bg3);border:1px solid var(--border);
@@ -589,6 +592,7 @@ body::after{
     <a onclick="goCategory(2)">Estatuas</a>
     <a onclick="goCategory(3)">Escalas 1:12</a>
     <a onclick="goFranchises()">Franquicias</a>
+    <a id="nav-catalog" onclick="goCatalog('recent')">Catálogo</a>
     <a id="nav-ofertas" onclick="goOfertas()" style="color:#f87171">🔥 Ofertas</a>
   </div>
   <div class="nav-right">
@@ -660,6 +664,24 @@ body::after{
     <div class="hero-title" style="font-size:clamp(36px,5vw,64px)">FRANQUICIAS</div>
   </div>
   <div id="franchise-page-grid" style="display:flex;flex-wrap:wrap;gap:24px 40px;padding:0 32px 64px;max-width:1400px;margin:0 auto;align-items:flex-start"></div>
+</div>
+
+<div class="page" id="catalog-page">
+  <div style="padding:82px 32px 28px;max-width:1400px;margin:0 auto">
+    <button class="back-btn" onclick="goHome()">&#8592; Volver</button>
+    <div class="hero-eye">Todos los productos</div>
+    <div class="hero-title" style="font-size:clamp(36px,5vw,64px)">CATÁLOGO COMPLETO</div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:18px;flex-wrap:wrap">
+      <span style="font-size:12px;color:var(--muted);font-family:'Syne',sans-serif">Ordenar:</span>
+      <button id="cat-sort-recent"  onclick="goCatalog('recent')"   class="sort-btn sort-active">Más recientes</button>
+      <button id="cat-sort-price-d" onclick="goCatalog('price-d')"  class="sort-btn">Mayor precio</button>
+      <button id="cat-sort-price-a" onclick="goCatalog('price-a')"  class="sort-btn">Menor precio</button>
+    </div>
+    <div style="font-size:12px;color:var(--muted);margin-top:10px;font-family:'Syne',sans-serif" id="catalog-count"></div>
+  </div>
+  <div class="section" style="padding-top:0">
+    <div class="prod-grid" id="catalog-grid"></div>
+  </div>
 </div>
 
 <div class="page" id="search-page">
@@ -909,7 +931,7 @@ function observeFadeUp(){
 }
 
 function showPage(id){document.querySelectorAll(".page").forEach(function(p){p.classList.remove("active");});document.getElementById(id).classList.add("active");window.scrollTo(0,0);}
-function goHome(){history.replaceState(null,"",location.pathname);showPage("home");document.getElementById("nav-home").classList.add("active");closeSearch();}
+function goHome(){history.replaceState(null,"",location.pathname);showPage("home");document.getElementById("nav-home").classList.add("active");var nc=document.getElementById("nav-catalog");if(nc)nc.classList.remove("active");closeSearch();}
 // ── FRANCHISE FUNCTIONS ──
 function getFranchiseProducts(fname){
   var results=[];
@@ -988,6 +1010,39 @@ function shareProduct(){
       window.open("https://wa.me/?text="+encodeURIComponent(name+" — "+prodUrl),"_blank");
     });
   }
+}
+function goCatalog(sort){
+  sort=sort||"recent";
+  var all=[];
+  CAT_KEYS.forEach(function(c){
+    (DATA[c]||{products:[]}).products.forEach(function(p){all.push({p:p,cat:c});});
+  });
+  if(sort==="recent"){
+    all.sort(function(a,b){
+      var da=a.p.added_at||""; var db=b.p.added_at||"";
+      return da<db?1:da>db?-1:0;
+    });
+  } else if(sort==="price-d"){
+    all.sort(function(a,b){return (parseFloat(b.p.precio)||0)-(parseFloat(a.p.precio)||0);});
+  } else {
+    all.sort(function(a,b){
+      var pa=parseFloat(a.p.precio)||0; var pb=parseFloat(b.p.precio)||0;
+      if(!pa&&!pb)return 0; if(!pa)return 1; if(!pb)return -1;
+      return pa-pb;
+    });
+  }
+  ["cat-sort-recent","cat-sort-price-d","cat-sort-price-a"].forEach(function(id){
+    var el=document.getElementById(id);if(el)el.classList.remove("sort-active");
+  });
+  var activeId=sort==="recent"?"cat-sort-recent":sort==="price-d"?"cat-sort-price-d":"cat-sort-price-a";
+  var activeEl=document.getElementById(activeId);if(activeEl)activeEl.classList.add("sort-active");
+  document.getElementById("catalog-count").textContent=all.length+" figuras";
+  var grid=document.getElementById("catalog-grid");grid.innerHTML="";
+  all.forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});
+  showPage("catalog-page");
+  document.getElementById("nav-home").classList.remove("active");
+  document.getElementById("nav-catalog").classList.add("active");
+  history.pushState({_uvNav:true},null,location.pathname+"#catalogo");
 }
 function goOfertas(){
   var ofertaProds=[];
