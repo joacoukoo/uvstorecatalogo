@@ -5610,7 +5610,7 @@
       },
       {
         "n": "The Joker Knightmare (Deluxe)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/0f7d7921-7d72-428c-9cf7-ea340c4cf618/321483-355e2bba7992bea3e18ebbfcb5c718ae.jpg",
+        "i": "https://www.actionfiguren-shop.com/media/1d/41/de/1673629671/flp-fp22156b-01.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/the-joker-knightmare-deluxe",
         "marca": "Flashpoint",
         "escala": "1:6 - 31CM",
@@ -5624,62 +5624,44 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Flashpoint Studio | DC"
-          },
-          {
-            "t": "notion-text",
-            "x": "FiguraSixth Scale (1:6)delThe Jokeren su versiónKnightmare / Reveler, presentada porFlashpoint Studio."
-          },
-          {
-            "t": "notion-text",
-            "x": "EstaDeluxe Versionofrece un alto nivel de detalle condos head sculpts, vestuario completo y un amplio arsenal de accesorios para recrear múltiples escenas."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Flashpoint Studio | DC FiguraSixth Scale (1:6)delThe Jokeren su versiónKnightmare / Reveler, presentada porFlashpoint Studio. EstaDeluxe Versionofrece un alto nivel de detalle condos head sculpts, vestuario completo y un amplio arsenal de accesorios para recrear múltiples escenas. Características Incluye Cuerpo y Heads Vestuario Manos Armas y Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Escala:1:6Cuerpo totalmente articuladoDos (2) esculpidos de cabeza intercambiablesVestuario y accesorios de estilo táctico / revelerFigura sin licencia oficial - Doomsday Reveler"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye"
-          },
-          {
-            "t": "notion-text",
-            "x": "Cuerpo y Heads"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Cuerpo articuladoHead sculpt AHead sculpt B"
-          },
-          {
-            "t": "notion-text",
-            "x": "Vestuario"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Ropa de trabajo (set completo)ChalecoMáscaraPañuelo / headbandZapatos de cuero"
           },
           {
-            "t": "notion-text",
-            "x": "Manos"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Dos (2) pares de manos intercambiables"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas y Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "PistolaRifleCargadores (2 sets)Carta de naipeMedallas (set)Máscara facialPlataforma/base de soporte"
           }
         ],
-        "id": "the-joker-knightmare-deluxe"
+        "id": "the-joker-knightmare-deluxe",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.actionfiguren-shop.com/media/1d/41/de/1673629671/flp-fp22156b-01.jpg",
+          "https://www.actionfiguren-shop.com/media/1d/f6/ef/1673867847/flp-fp22156b-02.jpg",
+          "https://www.actionfiguren-shop.com/media/c7/f9/ae/1673626434/flp-fp22156b-03.jpg",
+          "https://www.actionfiguren-shop.com/media/63/7a/3d/1673626486/flp-fp22156b-04.jpg",
+          "https://www.actionfiguren-shop.com/media/f4/a7/2c/1673626282/flp-fp22156b-05.jpg",
+          "https://www.actionfiguren-shop.com/media/33/a7/c6/1673868237/flp-fp22156b-06.jpg",
+          "https://www.actionfiguren-shop.com/media/fb/d4/c9/1673868943/flp-fp22156b-07.jpg"
+        ]
       },
       {
         "n": "Transformers One (4 Pack)",
