@@ -4544,7 +4544,7 @@
       },
       {
         "n": "Proxima Midnight",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/69addb9b-2e70-467d-9fa2-06e9d1d53540/sv19__27675.jpg",
+        "i": "https://cdn2.bigcommerce.com/server3500/26633/products/3875/images/99839/SV13__61932.1654061458.490.588.jpg?c=2",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/proxima-midnight",
         "marca": "In-Famous Studio",
         "escala": "1:6 - 31CM",
@@ -4558,40 +4558,29 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "In Famous | Marvel Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Figura a escala 1:6 deProxima Midnight, una de las integrantes más letales de la Orden Negra del universoAvengers."
-          },
-          {
-            "t": "notion-text",
-            "x": "Presenta unhead sculpt altamente detallado con cabello implantado, cuerpo totalmente articulado y un set de armadura fiel al personaje, ideal para poses dinámicas de combate. Una pieza imponente para coleccionistas de Marvel que buscan villanas con presencia y acabado premium."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "In Famous | Marvel Studios Figura a escala 1:6 deProxima Midnight, una de las integrantes más letales de la Orden Negra del universoAvengers. Presenta unhead sculpt altamente detallado con cabello implantado, cuerpo totalmente articulado y un set de armadura fiel al personaje, ideal para poses dinámicas de combate. Una pieza imponente para coleccionistas de Marvel que buscan villanas con presencia y acabado premium. Características Vestuario y Armadura Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Escala 1:6Altura aproximada:31 cmEscultura de cabeza concabello implantadoCuerpo articuladoSeis (6) manos intercambiables"
           },
           {
-            "t": "notion-text",
-            "x": "Vestuario y Armadura"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Traje completo tipo jumpsuit conpauldronGrebas y sabatonesBrazal"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "LanzaBase/soporte para figuraFigura sin licencia oficial - Shadow Void"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn2.bigcommerce.com/server3500/26633/products/3875/images/99839/SV13__61932.1654061458.490.588.jpg?c=2",
+          "https://cdn2.bigcommerce.com/server3500/26633/products/3875/images/99827/SV19__37350.1654061458.490.588.jpg?c=2"
         ]
       },
       {
