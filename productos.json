@@ -7262,7 +7262,7 @@
         "i": "https://cdn.shopify.com/s/files/1/0251/1572/1775/files/ab362fcc322294522d1e30eaef65ec11.jpg?v=1774456366",
         "l": "https://www.slystalloneshop.com/collections/action-figures/products/rocky-iv-standard-edition-sixth-scale-action-figure",
         "marca": "",
-        "escala": "1:6",
+        "escala": "1:6 - 30CM",
         "franquicia": "Otros",
         "estado": "Nuevo",
         "disp": "Pre Orden",
@@ -7281,24 +7281,88 @@
         ],
         "content": [
           {
-            "t": "notion-text",
-            "x": "Figura de acción de sexta escala de edición estándar de ROCKY IV $ 370 (el precio promocional de descuento del 15% que se muestra en nuestro sitio web finalizará el 27 de abril) *Este artículo no está incluido en ninguna promoción de envío gratuito. La colección ROCKY Legacy presenta: Figura de acción de sexta escala de edición estándar de ROCKY IV. Presentamos nuestra figura de acción de sexta escala de ROCKY IV, respaldada y aprobada oficialmente por el propio hombre, Sylvester Stallone. Este coleccionable meticulosamente elaborado captura la esencia de Rocky Balboa como se ve en el icónico éxito de taquilla de 1985 Rocky IV. Con una altura de 12 pulgadas, esta figura es una representación fiel del semental italiano en el apogeo de su legendario enfrentamiento con Ivan Drago. Lo que real"
+            "t": "notion-bulleted-list",
+            "x": "Rocky IV Standard Edition – Figura Sixth Scale"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escultura de cabeza de Rocky IV"
+            "x": "[The Sly Stallone Shop – Sixth Scale – Rocky IV]"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Cuerpo de silicona de platino de grado médico."
+            "x": "Descripción"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Guantes de boxeo Tuf-Wear"
+            "x": "Esta figura Sixth Scale de Rocky IV presenta a Rocky Balboa con una fidelidad excepcional, basada en su icónica aparición en la película de 1985. Desarrollada con aprobación oficial de Sylvester Stallone, la pieza captura la esencia del personaje en uno de los momentos más emblemáticos de su historia."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Calzoncillos De Boxeo Rojo Blanco Azul"
+            "x": "Con una altura de 12 pulgadas, esta figura destaca por su nivel de realismo, incorporando un cuerpo de silicona médica de grado platino que aporta una apariencia y textura superiores. Además, incluye guantes de boxeo TUF-WEAR con licencia oficial, reforzando su autenticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseñada para coleccionistas exigentes, esta edición Standard ofrece una representación sólida y detallada de Rocky Balboa, acompañada de accesorios cuidadosamente elaborados y un empaque artístico diseñado por el artista oficial de Rocky, John Rivoli."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Sixth Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: The Sly Stallone Shop"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada Sixth Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Cine"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Silicona médica de grado platino, otros no especificados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Sí"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza de Rocky IV"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo de silicona médica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes de boxeo TUF-WEAR"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Shorts de boxeo rojo, blanco y azul"
           },
           {
             "t": "notion-bulleted-list",
@@ -7306,15 +7370,43 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "botas de boxeo"
+            "x": "Botas de boxeo"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "De pie con soporte en cuclillas"
+            "x": "Base con soporte"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Aprobada oficialmente por Sylvester Stallone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo de silicona premium para mayor realismo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios con licencia oficial TUF-WEAR"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura facial detallada basada en Rocky IV"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura altamente articulada para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque diseñado por el artista oficial John Rivoli"
           }
         ],
         "yt": "",
-        "destacado": false,
+        "destacado": true,
         "oferta": false
       },
       {
