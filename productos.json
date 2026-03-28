@@ -7187,6 +7187,220 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "quint",
+        "n": "Quint",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3ad10687.jpg",
+        "l": "https://www.sideshow.com/collectibles/jaws-quint-factory-entertainment-914804",
+        "marca": "Factory Entertainment",
+        "escala": "1:6 - 30CM",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4000",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "800",
+        "entrega": "Julio 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3ad10687.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-scale-69c6c51c9afc8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3ad64f77.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3adbbe2a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3ae21230.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3ae79915.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3aecfcd8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914804/factory-entertainment-jaws-quint-sixth-scale-figure-gallery-69c6c3af32743.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Quint es un coleccionable premium que captura la esencia de uno de los personajes más icónicos del cine de aventuras. Esta figura representa a la escala 1:6 un personaje legendario cuya presencia ha marcado generaciones de cinéfilos y coleccionistas alrededor del mundo."
+          },
+          {
+            "t": "notion-text",
+            "x": "Fabricada por Factory Entertainment, una reconocida casa especializada en réplicas de alta calidad, esta pieza refleja la maestría artesanal en cada detalle. La minuciosidad en la escultura y acabado garantiza una representación fiel que satisface a los más exigentes coleccionistas de figuras de acción premium."
+          },
+          {
+            "t": "notion-text",
+            "x": "Quint se presenta como una adquisición esencial para los aficionados a las figuras coleccionables de escala 1:6. Su valor como pieza de colección trasciende lo meramente decorativo, constituyendo un tributo tangible a personajes memorables del entretenimiento."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Factory Entertainment"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 30 cm"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 - 30 cm de altura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Nivel de detalle: Premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Figura coleccionable articulada"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura altamente detallada y fiel al personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manufactura de calidad premium por Factory Entertainment"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala 1:6 ideal para colecciones integradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación funcional para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados meticulosos en cada sección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza de valor coleccionable duradero"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-28T12:18:39.997589"
+      },
+      {
+        "id": "rick-o-connell",
+        "n": "Rick O'Connell",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c59628cf7fd.jpg",
+        "l": "https://www.sideshow.com/collectibles/the-mummy-rick-oconnell-factory-entertainment-914805",
+        "marca": "Sideshow",
+        "escala": "1:6 - 30CM",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3900",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "780",
+        "entrega": "Julio 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c59628cf7fd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-scale-69c5983285f4f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c596292f8f0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c5962980614.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c59629da9c6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c5962a39155.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c5962a8ce6e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914805/factory-entertainment-the-mummy-rick-oconnell-sixth-scale-figure-gallery-69c5962ae40bc.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Rick O'Connell, el legendario aventurero de La Momia, cobra vida en esta excepcional figura coleccionable de Sideshow. Este personaje icónico, interpretado magistralmente en pantalla, se presenta como uno de los tesoros más buscados para coleccionistas de cine de acción y aventura. La figura captura la esencia del explorador audaz, listo para enfrentarse a cualquier peligro en las arenas del antiguo Egipto."
+          },
+          {
+            "t": "notion-text",
+            "x": "Sideshow ha empleado su expertise en escultura y manufactura para recrear cada detalle del vestuario y expresión de Rick O'Connell. La articulación y acabados reflejan el compromiso de la marca con la calidad premium, permitiendo múltiples posiciones de exhibición que capturan la aventura y determinación del personaje."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta figura de 30cm en escala 1:6 representa una inversión valiosa para coleccionistas serios que aprecian réplicas detalladas de personajes clásicos del cine. Su presencia en cualquier colección de premium collectibles garantiza un punto focal de conversación y admiración."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: La Momia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada de colección"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de alta calidad con detalles minuciosos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación múltiple para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario y accesorios auténticamente detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados profesionales típicos de Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para coleccionistas de figuras premium de cine"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-28T12:02:53.817525"
+      },
+      {
         "n": "Rocky IV Ultimate Edition",
         "i": "https://cdn.shopify.com/s/files/1/0251/1572/1775/files/8a27d673bc7792aec569cadaa9d76e5f.jpg?v=1774456322",
         "l": "https://www.slystalloneshop.com/collections/action-figures/products/rocky-iv-ultimate-edition-sixth-scale-action-figure",
