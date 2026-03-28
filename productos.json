@@ -6411,7 +6411,7 @@
       },
       {
         "n": "Captain America vs. Captain America (Endgame)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/1f47d722-26aa-495c-8488-fcd048fa7537/diorama2-9_2000x.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc801788c3.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/captain-america-vs-captain-america-endgame",
         "marca": "Iron Studios",
         "escala": "1:10 - 19CM",
@@ -6425,58 +6425,45 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios | Avengers: Endgame"
-          },
-          {
-            "t": "notion-text",
-            "x": "EstatuaArt Scale 1:10deCaptain America, inspirada en su aparición enAvengers: Endgame. Basada en referencias originales de la película ypintada a mano, esta pieza captura al Capitán en plena batalla contraThanos, como parte del clímax del MCU."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye unabase conectablea laEndgame Battle Diorama Series, permitiendo integrar la estatua con otras piezas de la misma línea para un display unificado."
-          },
-          {
-            "t": "notion-text",
-            "x": "Detalles"
+            "x": "Iron Studios | Avengers: Endgame EstatuaArt Scale 1:10deCaptain America, inspirada en su aparición enAvengers: Endgame. Basada en referencias originales de la película ypintada a mano, esta pieza captura al Capitán en plena batalla contraThanos, como parte del clímax del MCU. Incluye unabase conectablea laEndgame Battle Diorama Series, permitiendo integrar la estatua con otras piezas de la misma línea para un display unificado. Detalles Material Características Medidas Peso"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Licencia:Avengers: EndgameLínea:BDS Art ScaleEscala:1:10Edición:Limitada"
           },
           {
-            "t": "notion-text",
-            "x": "Material"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Polystone"
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Esculpido basado en referencias originales del filmPintada a manoParte de unbattle dioramaconectable"
           },
           {
-            "t": "notion-text",
-            "x": "Medidas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Alto:18.8 cm(7.4”)Ancho:15.7 cm(6.2”)Profundidad:15.0 cm(5.9”)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Peso"
           },
           {
             "t": "notion-bulleted-list",
             "x": "0.64 kg(1.4 lb)"
           }
         ],
-        "id": "captain-america-vs-captain-america-endgame"
+        "id": "captain-america-vs-captain-america-endgame",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc801788c3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc801b963a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc80205262.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc80244ad9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc80281dea.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc802c4585.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc803103fe.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc803514c6.jpg"
+        ]
       },
       {
         "n": "Superman Black Suit (Justice League)",
