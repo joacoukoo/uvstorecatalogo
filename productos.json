@@ -13784,6 +13784,10 @@
         ],
         "content": [
           {
+            "t": "notion-text",
+            "x": "Edición Regular 1:6 - Q3100\nEdición Deluxe 1:6 - Q4100 (Con base de piedras y efectos)\nEdición Deluxe 1:4 - Q5600"
+          },
+          {
             "t": "notion-bulleted-list",
             "x": "Majin Vegeta – Estatua 1/6 y 1/4"
           },
@@ -13894,18 +13898,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "- Pieza ideal para coleccionistas de Dragon Ball"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Edición Regular 1:6 - Q3100"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Edición Deluxe 1:6 - Q4100 (Con base de piedras y efectos)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Edición Deluxe 1:4 - Q5600"
           }
         ],
         "yt": "",
