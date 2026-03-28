@@ -618,6 +618,15 @@ body::after{
   <div class="section">
     <div class="sec-hdr"><div class="sec-title">Categor&iacute;as</div></div>
     <div class="cat-grid" id="cat-grid"></div>
+    <div style="margin:28px 0 8px">
+      <button onclick="goCatalog('recent')" style="width:100%;background:var(--bg3);border:1px solid var(--border2);border-radius:12px;padding:16px 24px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:border-color .2s" onmouseover="this.style.borderColor='var(--purple)'" onmouseout="this.style.borderColor='var(--border2)'">
+        <div style="text-align:left">
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:1.5px;color:#fff">Catálogo Completo</div>
+          <div style="font-size:12px;color:var(--muted);font-family:'Syne',sans-serif;margin-top:2px">Todas las figuras · ordenar por precio o más recientes</div>
+        </div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
     <div class="sec-hdr">
       <div class="sec-title">Franquicias</div>
       <div class="sec-meta" id="franchise-home-meta"></div>
@@ -1089,6 +1098,11 @@ function clearSearchInline(){
   document.getElementById("search-inline-res").innerHTML="";
   document.getElementById("search-inline-clear").style.display="none";
 }
+function _prodSearchText(p){
+  var parts=[p.n||"",p.marca||"",p.franquicia||"",p.escala||""];
+  if(p.content){p.content.forEach(function(b){if(b.x)parts.push(b.x);});}
+  return parts.join(" ").toLowerCase();
+}
 function doSearchInline(q){
   var el=document.getElementById("search-inline-res");
   var qt=document.getElementById("search-inline-title");
@@ -1101,8 +1115,7 @@ function doSearchInline(q){
   CAT_KEYS.forEach(function(cat){
     var info=DATA[cat];if(!info)return;
     info.products.forEach(function(p){
-      if(p.n.toLowerCase().indexOf(ql)>=0||(p.marca&&p.marca.toLowerCase().indexOf(ql)>=0)||(p.franquicia&&p.franquicia.toLowerCase().indexOf(ql)>=0))
-        results.push({p:p,cat:cat});
+      if(_prodSearchText(p).indexOf(ql)>=0) results.push({p:p,cat:cat});
     });
   });
   qt.textContent="Resultados para: "+q;
@@ -1216,8 +1229,7 @@ function doSearch(q){
   CAT_KEYS.forEach(function(cat){
     var info=DATA[cat];if(!info)return;
     info.products.forEach(function(p){
-      if(p.n.toLowerCase().indexOf(ql)>=0||(p.marca&&p.marca.toLowerCase().indexOf(ql)>=0))
-        results.push({p:p,cat:cat});
+      if(_prodSearchText(p).indexOf(ql)>=0) results.push({p:p,cat:cat});
     });
   });
   qt.textContent="Resultados para: "+q;
