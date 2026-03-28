@@ -3713,7 +3713,7 @@
       },
       {
         "n": "Grog - Vox Machina",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/af5ec9a3-008f-4e68-b80b-757691cfe0e3/grog-vox-machina_critical-role_gallery_642e1794e8716.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1794e8716.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/grog-vox-machina",
         "marca": "Sideshow",
         "escala": "1:6 - 34CM",
@@ -3727,19 +3727,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Sideshow | Colección: Critical Role"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow presenta aGrog Strongjaw, el imponente medio gigante delHerd of Storms, irrumpiendo con fuerza en la colecciónVox Machina. Esta estatua totalmente esculpida da vida a Grog en plena furia de combate, rugiendo su grito de guerra mientras empuña su hacha ensangrentada, listo para la siguiente batalla en Tal’Dorei."
-          },
-          {
-            "t": "notion-text",
-            "x": "Representado como unbrawler de alto nivel, Grog luce suhombrera de calavera, elcinturón enano de fuerzay uno de losVestigios de Divergencia: losTitanstone Knuckles. Su musculatura extrema, la barba robusta, el tatuaje de oso en la espalda y las heridas abiertas —meras raspaduras para este héroe— destacan el carácter indomable y leal del personaje."
-          },
-          {
-            "t": "notion-text",
-            "x": "La base hexagonal con acabado depiedra falsa, grabada con elmonograma de Vox Machina, armoniza con el resto del equipo. Combínalo conVex’ahliayVax’ildanpara armar un equipo legendario… y prepárate para alguna que otra broma."
+            "x": "Sideshow | Colección: Critical Role Sideshow presenta aGrog Strongjaw, el imponente medio gigante delHerd of Storms, irrumpiendo con fuerza en la colecciónVox Machina. Esta estatua totalmente esculpida da vida a Grog en plena furia de combate, rugiendo su grito de guerra mientras empuña su hacha ensangrentada, listo para la siguiente batalla en Tal’Dorei. Representado como unbrawler de alto nivel, Grog luce suhombrera de calavera, elcinturón enano de fuerzay uno de losVestigios de Divergencia: losTitanstone Knuckles. Su musculatura extrema, la barba robusta, el tatuaje de oso en la espalda y las heridas abiertas —meras raspaduras para este héroe— destacan el carácter indomable y leal del personaje. La base hexagonal con acabado depiedra falsa, grabada con elmonograma de Vox Machina, armoniza con el resto del equipo. Combínalo conVex’ahliayVax’ildanpara armar un equipo legendario… y prepárate para alguna que otra broma."
           },
           {
             "t": "notion-bulleted-list",
@@ -3753,11 +3741,26 @@
             "t": "notion-bulleted-list",
             "x": "Alto:30 cmAncho:37 cmProfundidad:51 cmPeso de envío:5.2 kg"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1794e8716.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_scale_642e17c548e55.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1792336bd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e17931991d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e17b90b9cc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1795c842d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1796c27e0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1798b0e90.jpg"
         ]
       },
       {
         "n": "Snake Eyes – Commando (FigZero)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/8c8e6fd2-0e49-458a-9eb4-8d11ea555f92/commando-snake-eyes_gi-joe_gallery_65de708b6036e.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de70872b2d4.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/snake-eyes-commando-figzero",
         "marca": "Threezero",
         "escala": "1:6 - 30CM",
@@ -3771,23 +3774,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "threezero | Licencia oficial: Hasbro"
-          },
-          {
-            "t": "notion-text",
-            "x": "Franquicia:G.I. Joe"
-          },
-          {
-            "t": "notion-text",
-            "x": "Escala:1/6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow ythreezeropresentan una nueva incorporación a la líneaG.I. Joe:Snake Eyes – Commando, inspirado en el legendario héroe del icónico cartoon y la clásica línea de juguetes."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta versiónFigZeropresenta unanueva escultura de cabezay untraje táctico completamente renovado, combinando estética retro con un enfoque moderno y realista. Con30 cm de altura, cuerpo totalmente articulado y vestuario en tela confeccionado a mano, Snake Eyes está listo para misiones encubiertas, combate cuerpo a cuerpo o exhibición dinámica en vitrina."
+            "x": "threezero | Licencia oficial: Hasbro Franquicia:G.I. Joe Escala:1/6 Sideshow ythreezeropresentan una nueva incorporación a la líneaG.I. Joe:Snake Eyes – Commando, inspirado en el legendario héroe del icónico cartoon y la clásica línea de juguetes. Esta versiónFigZeropresenta unanueva escultura de cabezay untraje táctico completamente renovado, combinando estética retro con un enfoque moderno y realista. Con30 cm de altura, cuerpo totalmente articulado y vestuario en tela confeccionado a mano, Snake Eyes está listo para misiones encubiertas, combate cuerpo a cuerpo o exhibición dinámica en vitrina."
           },
           {
             "t": "notion-bulleted-list",
@@ -3805,11 +3792,26 @@
             "t": "notion-bulleted-list",
             "x": "1 par depuños1 par demanos relajadas1 par parasujetar armas de fuego1 par parasujetar armas cuerpo a cuerpo"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de70872b2d4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_scale_65de708c5198f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de70877829d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de7087c7345.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de70881b5c6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de708863fd4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de7088b0c5a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de7089130e8.jpg"
         ]
       },
       {
         "n": "Batman Hush",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/174e9b7a-39c2-4bcf-80d0-78c92ae2edd4/gong-batman-3.webp",
+        "i": "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-1.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-hush",
         "marca": "Gong Studio (Pop Mart)",
         "escala": "1:12 - 17.5CM",
@@ -3823,19 +3825,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "GONG Studio | DC Comics"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirado en:Batman: Hush"
-          },
-          {
-            "t": "notion-text",
-            "x": "Basada en la aclamada sagaBatman: Hush,GONG Studiopresenta una nueva figura deBatmanque captura a la perfección el look icónico del Caballero Oscuro en esta historia clásica."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con17.5 cm de altura, múltiples puntos de articulación y unacapa con alambre interno, esta figura permite recrear poses dinámicas y escenas memorables del cómic. El nivel de detalle en la escultura y los materiales combinaplástico y telapara un acabado visual de gran calidad, ideal tanto para exhibición como para fotografía de colección."
+            "x": "GONG Studio | DC Comics Inspirado en:Batman: Hush Basada en la aclamada sagaBatman: Hush,GONG Studiopresenta una nueva figura deBatmanque captura a la perfección el look icónico del Caballero Oscuro en esta historia clásica. Con17.5 cm de altura, múltiples puntos de articulación y unacapa con alambre interno, esta figura permite recrear poses dinámicas y escenas memorables del cómic. El nivel de detalle en la escultura y los materiales combinaplástico y telapara un acabado visual de gran calidad, ideal tanto para exhibición como para fotografía de colección."
           },
           {
             "t": "notion-bulleted-list",
@@ -3845,11 +3835,26 @@
             "t": "notion-bulleted-list",
             "x": "(1)Figura de Batman(2)Cabezas adicionalesintercambiables(7)Manos adicionales(3)Batarangs(2)Piezas de gancho de agarre (grappling hook)"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-1.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-1-1200x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-10-1200x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-11-1200x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-12-1200x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-2-1200x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-3-1200x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-4-1200x1200.jpg"
         ]
       },
       {
         "n": "Batman (1989)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/a81903c5-8d89-4237-b235-cef51b1ccbed/6022766b-1a59-4559-b396-ac2c80d2e973.jpg",
+        "i": "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704b.jpg?v=1715989077",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-1989-1",
         "marca": "Mezco",
         "escala": "1:12 - 17.5CM",
@@ -3863,19 +3868,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Mezco Toyz | Inspirado en: Batman"
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:One:12 Collective"
-          },
-          {
-            "t": "notion-text",
-            "x": "Mezco Toyz presenta aBatmanen su icónica versión1989, dentro de la prestigiosa líneaOne:12 Collective. Esta figura incorpora uncuerpo completamente nuevoconarmadura sin costurasyarticulación oculta, logrando un perfil limpio sin sacrificar posabilidad."
-          },
-          {
-            "t": "notion-text",
-            "x": "Conacabados pintados a mano,tres retratos intercambiables(uno conojos posables) y un traje fiel a la película, esta edición ofrece una presencia cinematográfica ideal para poses dinámicas y exhibición premium."
+            "x": "Mezco Toyz | Inspirado en: Batman Línea:One:12 Collective Mezco Toyz presenta aBatmanen su icónica versión1989, dentro de la prestigiosa líneaOne:12 Collective. Esta figura incorpora uncuerpo completamente nuevoconarmadura sin costurasyarticulación oculta, logrando un perfil limpio sin sacrificar posabilidad. Conacabados pintados a mano,tres retratos intercambiables(uno conojos posables) y un traje fiel a la película, esta edición ofrece una presencia cinematográfica ideal para poses dinámicas y exhibición premium."
           },
           {
             "t": "notion-bulleted-list",
@@ -3893,11 +3886,26 @@
             "t": "notion-bulleted-list",
             "x": "(1)Lanzador tipo arpóncon gancho(1)Lanzador tipo arpóncon gancho y cable(1)Lanzador tipo arpón plegado(1)Guantelete(4)Batarangs(1)Batarangcon alambre para pose(1)Bomba de tiempo(1)Base de exhibición One:12con logo(1)Soporte ajustable One:12"
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704b.jpg?v=1715989077",
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704.jpg?v=1680630781",
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704a.jpg?v=1680630780",
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704c.jpg?v=1680560071",
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704d.jpg?v=1680560071",
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704e.jpg?v=1680560071",
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704f.jpg?v=1680560071",
+          "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704g.jpg?v=1680560071"
         ]
       },
       {
         "n": "Batman: Gotham by Gaslight Deluxe",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/96064e4b-87ec-48f8-885c-c6fb3e63663e/x800-11137.jpg",
+        "i": "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238g.jpg?v=1715285036",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-gotham-by-gaslight-deluxe",
         "marca": "Mezco",
         "escala": "1:12 - 17CM",
@@ -3911,19 +3919,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Mezco Toyz | Batman: Gotham by Gaslight"
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:One:12 Collective"
-          },
-          {
-            "t": "notion-text",
-            "x": "Temido por culpables e inocentes por igual,Batman: Gotham by Gaslightllega a la líneaOne:12 Collectivecon una interpretación única de inspiraciónvictoriana. Ambientada en elsiglo XIX, esta versión muestra el debut de Batman en Gotham justo cuandoJack el Destripadorirrumpe en la ciudad. Junto al Inspector Gordon, el Caballero Oscuro desentraña la identidad del asesino y verdades ocultas sobre la muerte de sus padres."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura viste de pies a cabeza un atuendo de época, concapa con alambre internopara posado,cinturón utilitariocapaz de almacenar hastatres cuchillos arrojadizos, ytres retratosintercambiables, incluido unBruce Wayne sin máscaracon estética del siglo XIX. Para surcar el skyline iluminado por faroles de gas, Batman incluye unplaneadorcon alas articuladas que pueden desplegarse o plegarse."
+            "x": "Mezco Toyz | Batman: Gotham by Gaslight Línea:One:12 Collective Temido por culpables e inocentes por igual,Batman: Gotham by Gaslightllega a la líneaOne:12 Collectivecon una interpretación única de inspiraciónvictoriana. Ambientada en elsiglo XIX, esta versión muestra el debut de Batman en Gotham justo cuandoJack el Destripadorirrumpe en la ciudad. Junto al Inspector Gordon, el Caballero Oscuro desentraña la identidad del asesino y verdades ocultas sobre la muerte de sus padres. La figura viste de pies a cabeza un atuendo de época, concapa con alambre internopara posado,cinturón utilitariocapaz de almacenar hastatres cuchillos arrojadizos, ytres retratosintercambiables, incluido unBruce Wayne sin máscaracon estética del siglo XIX. Para surcar el skyline iluminado por faroles de gas, Batman incluye unplaneadorcon alas articuladas que pueden desplegarse o plegarse. Cada figuraBatman: Gotham by Gaslight – One:12 Collectivese presenta en unacaja amigable para coleccionistas, diseñada para"
           },
           {
             "t": "notion-bulleted-list",
@@ -3940,11 +3936,22 @@
           {
             "t": "notion-bulleted-list",
             "x": "(1)Planeador One:12 Collective(1)Par de goggles(1)Cowladicional(6)Cuchillos arrojadizos(4)Batarangs plegables(1)Grappling hookcon cuerda(1)Base One:12 Collectivecon logo(1)Soporte ajustable One:12"
-          },
-          {
-            "t": "notion-text",
-            "x": "Cada figuraBatman: Gotham by Gaslight – One:12 Collectivese presenta en unacaja amigable para coleccionistas, diseñada para proteger y exhibir la pieza."
           }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238g.jpg?v=1715285036",
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238.jpg?v=1715285019",
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238z.jpg?v=1715285019",
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238a.jpg?v=1715285019",
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238c.jpg?v=1715285019",
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238e.jpg?v=1715285019",
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238d.jpg?v=1715285019",
+          "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238f.jpg?v=1701719633"
         ]
       },
       {
