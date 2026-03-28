@@ -164,9 +164,12 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959de6642a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959e04aad0.jpg"
         ],
-        "yt": "",
+        "yt": "https://www.youtube.com/shorts/e_fbV6z5Hyo",
         "franquicia": "DC Comics",
-        "id": "armored-batman-2-0-deluxe-version"
+        "id": "armored-batman-2-0-deluxe-version",
+        "precio_orig": "",
+        "destacado": false,
+        "oferta": false
       },
       {
         "n": "Iron Man Mark XLII (2.0)",
