@@ -1115,9 +1115,8 @@ function openModal(p,cat){
       contentEl.appendChild(el);
     });
   }
-  var catIdx=CAT_KEYS.indexOf(cat);
-  var prodIdx=(DATA[cat]||{products:[]}).products.indexOf(p);
-  history.pushState({_uvNav:true,_openedFromNav:_uvOpenedFromNav},null,location.pathname+"#figura/"+catIdx+"/"+prodIdx);
+  var figId=p.id||(p.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
+  history.pushState({_uvNav:true,_openedFromNav:_uvOpenedFromNav},null,location.pathname+"#figura/"+encodeURIComponent(figId));
   var shareUrl=location.href;
   var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+"\nLink: "+shareUrl);
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
@@ -1210,12 +1209,28 @@ function routeHash(h){
     if(idx>=0)goCategory(idx);else{showPage("home");document.getElementById("nav-home").classList.add("active");}
     return;
   }
-  var mFig=h.match(/^#figura\/(\d+)\/(\d+)$/);
+  var mFig=h.match(/^#figura\/(.+)$/);
   if(mFig){
-    var ci=parseInt(mFig[1],10);
-    var pi=parseInt(mFig[2],10);
-    var cat=CAT_KEYS[ci];
-    if(cat&&DATA[cat]&&DATA[cat].products[pi]){openModal(DATA[cat].products[pi],cat);}
+    var figId=decodeURIComponent(mFig[1]);
+    // Buscar por id estable primero; fallback: compatibilidad con links viejos catIdx/prodIdx
+    var oldStyle=/^(\d+)\/(\d+)$/.exec(figId);
+    var found=null,foundCat=null;
+    if(oldStyle){
+      var ci=parseInt(oldStyle[1],10);var pi=parseInt(oldStyle[2],10);
+      var cat=CAT_KEYS[ci];
+      if(cat&&DATA[cat]&&DATA[cat].products[pi]){found=DATA[cat].products[pi];foundCat=cat;}
+    }
+    if(!found){
+      outer:for(var ki=0;ki<CAT_KEYS.length;ki++){
+        var ck=CAT_KEYS[ki];var prods=(DATA[ck]||{}).products||[];
+        for(var pi2=0;pi2<prods.length;pi2++){
+          var pp=prods[pi2];
+          var ppId=pp.id||(pp.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
+          if(ppId===figId){found=pp;foundCat=ck;break outer;}
+        }
+      }
+    }
+    if(found){openModal(found,foundCat);}
     else{showPage("home");document.getElementById("nav-home").classList.add("active");}
     return;
   }

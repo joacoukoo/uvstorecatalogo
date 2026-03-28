@@ -56,7 +56,8 @@
         "franquicia": "Marvel",
         "precio_orig": "",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "deadpool"
       },
       {
         "n": "Armored Batman (2.0)",
@@ -124,7 +125,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_66195502c3975.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_6619550440123.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661955050a8c7.jpg"
-        ]
+        ],
+        "id": "armored-batman-2-0"
       },
       {
         "n": "Armored Batman (2.0) – Deluxe Version",
@@ -178,7 +180,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959e04aad0.jpg"
         ],
         "yt": "",
-        "franquicia": "DC Comics"
+        "franquicia": "DC Comics",
+        "id": "armored-batman-2-0-deluxe-version"
       },
       {
         "n": "Iron Man Mark XLII (2.0)",
@@ -233,7 +236,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7984316a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798993c2.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798ead82.jpg"
-        ]
+        ],
+        "id": "iron-man-mark-xlii-2-0"
       },
       {
         "n": "Iron Man Mark XLII (2.0) – Deluxe Version",
@@ -292,7 +296,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7984316a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798993c2.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798ead82.jpg"
-        ]
+        ],
+        "id": "iron-man-mark-xlii-2-0-deluxe-version"
       },
       {
         "n": "Clone Commander Wolffe™",
@@ -347,7 +352,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc2779a3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc2d24d4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc33b842.jpg"
-        ]
+        ],
+        "id": "clone-commander-wolffe"
       },
       {
         "n": "Mirage DLX",
@@ -398,7 +404,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe764c66b3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe76559545.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe7659f147.jpg"
-        ]
+        ],
+        "id": "mirage-dlx"
       },
       {
         "n": "ROBO-DOU Ingram Unit 1 – Reactive Armor Version",
@@ -449,7 +456,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94eba613e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ebeab13.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ec3d24f.jpg"
-        ]
+        ],
+        "id": "robo-dou-ingram-unit-1-reactive-armor-version"
       },
       {
         "n": "Spider-Man 1977 (Exclusive 600 Unidades)",
@@ -500,7 +508,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3ac806a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3bd23e6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3c2e148.jpg"
-        ]
+        ],
+        "id": "spider-man-1977-exclusive-600-unidades"
       },
       {
         "n": "Ahsoka Tano (Clone Wars)",
@@ -555,7 +564,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98efef22f4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98effa0809.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98f0051919.jpg"
-        ]
+        ],
+        "id": "ahsoka-tano-clone-wars"
       },
       {
         "n": "Arc Trooper Fives",
@@ -610,7 +620,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f497a000.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f49d8f23.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f4a44568.jpg"
-        ]
+        ],
+        "id": "arc-trooper-fives"
       },
       {
         "n": "Spider-Punk",
@@ -661,7 +672,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ef2fe12.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4eeb85ca.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ef95de6.jpg"
-        ]
+        ],
+        "id": "spider-punk"
       },
       {
         "n": "Spider-Man (Black Suit)",
@@ -712,7 +724,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de227ee436.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de2268c560.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de226db271.jpg"
-        ]
+        ],
+        "id": "spider-man-black-suit"
       },
       {
         "n": "Grogu Life-Size",
@@ -759,7 +772,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044e523cd.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044eb936c.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044f1d6a0.jpg"
-        ]
+        ],
+        "id": "grogu-life-size"
       },
       {
         "n": "Batman (1989)",
@@ -814,7 +828,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712d70cb6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712dd8894.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712ec3717.jpg"
-        ]
+        ],
+        "id": "batman-1989"
       },
       {
         "n": "Mandalorian Super Commando Captain",
@@ -869,7 +884,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac094b4b4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0a46290.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0c53cbf.jpg"
-        ]
+        ],
+        "id": "mandalorian-super-commando-captain"
       },
       {
         "n": "Spider-Man Homemade Suit",
@@ -920,7 +936,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d6584368c078.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658436d7e17.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d6584372d778.jpg"
-        ]
+        ],
+        "id": "spider-man-homemade-suit"
       },
       {
         "n": "Iron Man Mark I (Edición Especial)",
@@ -975,7 +992,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef15593e628.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef1559a3009.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef155a107dd.jpg"
-        ]
+        ],
+        "id": "iron-man-mark-i-edicion-especial"
       },
       {
         "n": "King Shark",
@@ -1022,7 +1040,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc1436c7b.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc1490439.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc14ea8d1.jpg"
-        ]
+        ],
+        "id": "king-shark"
       },
       {
         "n": "Jack Sparrow (Deluxe)",
@@ -1085,7 +1104,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff05fd95.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff0b3e16.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff114f0b.jpg"
-        ]
+        ],
+        "id": "jack-sparrow-deluxe"
       },
       {
         "n": "Boba Fett (Quarter Scale Deluxe)",
@@ -1140,7 +1160,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc39728dd5.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc3978378e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc397e8cf4.jpg"
-        ]
+        ],
+        "id": "boba-fett-quarter-scale-deluxe"
       },
       {
         "n": "Venom (Let There be Carnage)",
@@ -1191,7 +1212,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515eecd66a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515edd4838.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515ee31ec3.jpg"
-        ]
+        ],
+        "id": "venom-let-there-be-carnage"
       },
       {
         "n": "Captain America (Falcon & The Winter Soldier)",
@@ -1246,7 +1268,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae4e603ba7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae50503e2a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae4eaa180e.jpg"
-        ]
+        ],
+        "id": "captain-america-falcon-the-winter-soldier"
       },
       {
         "n": "KX Enforcer Droid",
@@ -1297,7 +1320,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d74a4bc8.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7504209.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d75587a4.jpg"
-        ]
+        ],
+        "id": "kx-enforcer-droid"
       },
       {
         "n": "Shadow Trooper",
@@ -1352,7 +1376,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5ebacfc.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5f3f657.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5fc1343.jpg"
-        ]
+        ],
+        "id": "shadow-trooper"
       },
       {
         "n": "Batman vs Superman Deluxe Edition",
@@ -1411,7 +1436,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abe7dbd5.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abec1228.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abf112a8.jpg"
-        ]
+        ],
+        "id": "batman-vs-superman-deluxe-edition"
       },
       {
         "n": "Hulkbuster Escala 1:4",
@@ -1450,7 +1476,8 @@
           "https://cdn.shopify.com/s/files/1/0216/7762/products/225701682_1871498146361190_1505216755060425645_n.jpg?v=1641026245",
           "https://cdn.shopify.com/s/files/1/0216/7762/products/217651889_1871498266361178_1363832331432830168_n.jpg?v=1627627019",
           "https://cdn.shopify.com/s/files/1/0216/7762/products/213558136_1871497976361207_858465722875986933_n.jpg?v=1641026251"
-        ]
+        ],
+        "id": "hulkbuster-escala-1-4"
       },
       {
         "n": "The Batman – Special Art Edition Deluxe Bonus Version",
@@ -1517,7 +1544,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_silo.png",
           "https://www.sideshow.com/cdn-cgi/image/height=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85187f473_sm.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb8518ad2b5_sm.jpg"
-        ]
+        ],
+        "id": "the-batman-special-art-edition-deluxe-bonus-version"
       },
       {
         "n": "Hulkbuster – Deluxe Version",
@@ -1576,7 +1604,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6a77e64c.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6a98d02f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6abcacb5.jpg"
-        ]
+        ],
+        "id": "hulkbuster-deluxe-version"
       },
       {
         "n": "Perfect Cell – Dragon Ball Z",
@@ -1631,7 +1660,8 @@
           "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/761719908607_.pic.jpg?v=1742340979",
           "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/771719908608_.pic.jpg?v=1742340979",
           "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/811719908612_.pic.jpg?v=1742340979"
-        ]
+        ],
+        "id": "perfect-cell-dragon-ball-z"
       },
       {
         "n": "Link on Horseback – Exclusive Edition",
@@ -1686,7 +1716,8 @@
           "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_05.jpg?v=1774246261",
           "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_04.jpg?v=1774246261",
           "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_06.jpg?v=1774246261"
-        ]
+        ],
+        "id": "link-on-horseback-exclusive-edition"
       },
       {
         "n": "Broly - Break Studio",
@@ -1727,7 +1758,8 @@
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "broly-break-studio"
       },
       {
         "n": "Jessica & Roger Rabbit",
@@ -1747,7 +1779,8 @@
             "t": "notion-text",
             "x": "Pieza con diseño propio. Fabricado en China con materiales de alta calidad en resina. Pintado a mano."
           }
-        ]
+        ],
+        "id": "jessica-roger-rabbit"
       },
       {
         "n": "Buzz Lightyear Interactive Robot",
@@ -1792,7 +1825,8 @@
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "buzz-lightyear-interactive-robot"
       },
       {
         "n": "Ellie – The Last of Us Part II",
@@ -1833,7 +1867,8 @@
         "franquicia": "Gaming",
         "precio_orig": "5800",
         "destacado": false,
-        "oferta": true
+        "oferta": true,
+        "id": "ellie-the-last-of-us-part-ii"
       },
       {
         "n": "Iron Man Mark IV – Sub-Zero Fractal Armor",
@@ -1900,7 +1935,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefd02f37.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefd679e3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefdcf4c3.jpg"
-        ]
+        ],
+        "id": "iron-man-mark-iv-sub-zero-fractal-armor"
       },
       {
         "n": "Batman: The Dark Knight Returns",
@@ -1947,7 +1983,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec400561df.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec400923ea.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec400cb985.jpg"
-        ]
+        ],
+        "id": "batman-the-dark-knight-returns"
       },
       {
         "n": "Molly Hot Wheels 400% SDCC 2025 Exclusive",
@@ -1987,7 +2024,8 @@
             "t": "notion-bulleted-list",
             "x": "Pieza lanzada específicamente para unevento internacional de coleccionistas(SDCC).Combina el estilo icónico deMollycon la estética Hot Wheels de velocidad, color y cultura automotriz.Formato400%ideal para exhibición en estantes o vitrinas de colección."
           }
-        ]
+        ],
+        "id": "molly-hot-wheels-400-sdcc-2025-exclusive"
       },
       {
         "n": "Armorized Deadpool",
@@ -2054,7 +2092,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a129b6a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a1777ba.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908909/armorized-deadpool_marvel_gallery_60ef41a1c262d.jpg"
-        ]
+        ],
+        "id": "armorized-deadpool"
       },
       {
         "n": "Pikachu Evolution",
@@ -2095,7 +2134,8 @@
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "pikachu-evolution"
       },
       {
         "n": "Batman & Robin 66",
@@ -2144,7 +2184,8 @@
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "batman-robin-66"
       },
       {
         "n": "Iron Man – Origins (Deluxe Version)",
@@ -2211,7 +2252,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2ba28e9c3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_silo.png",
           "https://www.sideshow.com/cdn-cgi/image/height=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9ca3287_sm.jpg"
-        ]
+        ],
+        "id": "iron-man-origins-deluxe-version"
       },
       {
         "n": "Jiren - Dragon Ball Super",
@@ -2258,7 +2300,8 @@
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3a53291b-1c69-4e3e-ad09-3fc52c636c31.jpg?v=1706827811",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b9ad549e-b431-43fa-87b3-e7a59eaf4e64.jpg?v=1706827811",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a1f3b5a9-1e69-4d08-bd49-589f9f7ea22a.jpg?v=1706827811"
-        ]
+        ],
+        "id": "jiren-dragon-ball-super"
       },
       {
         "n": "Strife – Grand Scale Bust",
@@ -2309,7 +2352,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d99106af78b.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991070811c.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991076697c.jpg"
-        ]
+        ],
+        "id": "strife-grand-scale-bust"
       },
       {
         "n": "Batman – XE Suit Hellbat Version",
@@ -2368,7 +2412,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd71995ef22.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd7199b0146.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd719a09f35.jpg"
-        ]
+        ],
+        "id": "batman-xe-suit-hellbat-version"
       },
       {
         "n": "Bumblebee G1 Performance",
@@ -2419,7 +2464,8 @@
           "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P3.jpg?v=1773902869",
           "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P4.jpg?v=1773902869",
           "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/P5.jpg?v=1773902869"
-        ]
+        ],
+        "id": "bumblebee-g1-performance"
       },
       {
         "n": "Darth Maul - The Phantom Menace",
@@ -2474,7 +2520,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113cda476.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113d5d853.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113dc91c1.jpg"
-        ]
+        ],
+        "id": "darth-maul-the-phantom-menace"
       },
       {
         "n": "Peacemaker (Season 1)",
@@ -2533,7 +2580,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d983380e7d1.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98338645c2.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98338bb8aa.jpg"
-        ]
+        ],
+        "id": "peacemaker-season-1"
       },
       {
         "n": "Darth Sidious",
@@ -2588,7 +2636,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913416/darth-sidious_star-wars_gallery_664621064c4af.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913416/darth-sidious_star-wars_gallery_66462106aa81f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913416/darth-sidious_star-wars_gallery_6646210713ce5.jpg"
-        ]
+        ],
+        "id": "darth-sidious"
       },
       {
         "n": "Chaplin",
@@ -2643,7 +2692,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_6409393acce28.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_6409393aefd8d.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_6409393b5c3f3.jpg"
-        ]
+        ],
+        "id": "chaplin"
       },
       {
         "n": "Homelander",
@@ -2698,7 +2748,8 @@
           "https://cdn.shopify.com/s/files/1/0523/0955/7435/products/151204195_2499633243674549_480068913485222343_o.jpg?v=1624128496",
           "https://cdn.shopify.com/s/files/1/0523/0955/7435/products/151263224_2499631623674711_3178779194413906867_o.jpg?v=1624128496",
           "https://cdn.shopify.com/s/files/1/0523/0955/7435/products/151327917_2499633867007820_2457390546204392751_o.jpg?v=1624128496"
-        ]
+        ],
+        "id": "homelander"
       },
       {
         "n": "Skeletor Disco Exclusive",
@@ -2773,7 +2824,8 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/files/DiscoSkele_PP-006_3f289c30-7646-474f-90bd-075d8c166f00.jpg?v=1769186902",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/DiscoSkele_PP-008_af0ba4bd-5e17-49b6-99d1-ff17be81f723.jpg?v=1702310606",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/DiscoSkele_PP-009_7478ba8c-5cce-445a-bfce-f3310e2d43a9.jpg?v=1702310601"
-        ]
+        ],
+        "id": "skeletor-disco-exclusive"
       },
       {
         "n": "He-Man",
@@ -2832,7 +2884,8 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/products/HeMan_Reg_PP_006.jpg?v=1666299989",
           "https://cdn.shopify.com/s/files/1/0558/2081/products/HeMan_Reg_PP_007.jpg?v=1666299989",
           "https://cdn.shopify.com/s/files/1/0558/2081/products/HeMan_Reg_PP_008.jpg?v=1666299989"
-        ]
+        ],
+        "id": "he-man"
       },
       {
         "n": "104th Battalion “Wolfpack” Clone Trooper™",
@@ -2887,7 +2940,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-trooper-sixth-scale-figure-gallery-67698fa309c8d.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-trooper-sixth-scale-figure-gallery-67698fa3647cd.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-trooper-sixth-scale-figure-gallery-67698fa3bf8d1.jpg"
-        ]
+        ],
+        "id": "104th-battalion-wolfpack-clone-trooper"
       },
       {
         "n": "Clone Commando",
@@ -2942,7 +2996,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913610/hot-toys-star-wars-clone-commando-sixth-scale-figure-gallery-671a61ff9aa13.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913610/hot-toys-star-wars-clone-commando-sixth-scale-figure-gallery-671a620005bbc.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913610/hot-toys-star-wars-clone-commando-sixth-scale-figure-gallery-671a62008eb30.jpg"
-        ]
+        ],
+        "id": "clone-commando"
       },
       {
         "n": "Captain Carter",
@@ -2997,7 +3052,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909166/captain-carter_marvel_gallery_6140d172333de.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909166/captain-carter_marvel_gallery_6140d1727c860.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909166/captain-carter_marvel_gallery_6140d172cdfde.jpg"
-        ]
+        ],
+        "id": "captain-carter"
       },
       {
         "n": "Dante – The Original (Luxury Edition)",
@@ -3052,7 +3108,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913703/dante-the-original_devil-may-cry_gallery_66b38c9a5c34f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913703/dante-the-original_devil-may-cry_gallery_66b38c9ab1ac3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913703/dante-the-original_devil-may-cry_gallery_66b38c9b0fb24.jpg"
-        ]
+        ],
+        "id": "dante-the-original-luxury-edition"
       },
       {
         "n": "Groot - Deluxe Version",
@@ -3119,7 +3176,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebab72c3b.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebabc95a6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebac2c436.jpg"
-        ]
+        ],
+        "id": "groot-deluxe-version"
       },
       {
         "n": "Joel Miller",
@@ -3174,7 +3232,8 @@
           "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/50x50/products/674/6308/4__08159.1679888873.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/50x50/products/674/6305/5__98869.1679888873.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/50x50/products/674/6316/7__10752.1679888873.jpg?c=1"
-        ]
+        ],
+        "id": "joel-miller"
       },
       {
         "n": "Shoretrooper Squad Leader",
@@ -3229,7 +3288,8 @@
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/907516/shoretrooper-squad-leader_star-wars_gallery_5ffcab5070dc4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/907516/shoretrooper-squad-leader_star-wars_gallery_5ffcab50b7ce9.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/907516/shoretrooper-squad-leader_star-wars_gallery_5ffcab51135fb.jpg"
-        ]
+        ],
+        "id": "shoretrooper-squad-leader"
       },
       {
         "n": "Katsuki Bakugo",
@@ -3280,7 +3340,8 @@
           "https://dzt1km7tv28ex.cloudfront.net/static/premium/common/400x177_en.png",
           "https://dzt1km7tv28ex.cloudfront.net/login/txt_singup_google.png",
           "https://dzt1km7tv28ex.cloudfront.net/login/txt_singin_google.png"
-        ]
+        ],
+        "id": "katsuki-bakugo"
       },
       {
         "n": "Deadpool Bust",
@@ -3331,7 +3392,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/400346/deadpool_marvel_gallery_5f0df730a52c6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/400346/deadpool_marvel_gallery_5f0df73103d6b.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/400346/deadpool_marvel_gallery_5f0df73155aae.jpg"
-        ]
+        ],
+        "id": "deadpool-bust"
       },
       {
         "n": "Sansa Stark (Season 8)",
@@ -3382,7 +3444,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908226/sansa-stark-season-8_game-of-thrones_gallery_6081a6df4bf77.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908226/sansa-stark-season-8_game-of-thrones_gallery_6081a6dfa9df9.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908226/sansa-stark-season-8_game-of-thrones_gallery_6081a6e009d12.jpg"
-        ]
+        ],
+        "id": "sansa-stark-season-8"
       },
       {
         "n": "Tanjiro Kamado",
@@ -3437,7 +3500,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913650/tanjiro-kamado_demon-slayer_gallery_66a29b59eac63.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913650/tanjiro-kamado_demon-slayer_gallery_66a29b5a3a9a3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913650/tanjiro-kamado_demon-slayer_gallery_66a29b5a7f7ed.jpg"
-        ]
+        ],
+        "id": "tanjiro-kamado"
       },
       {
         "n": "Ellie (TV Series)",
@@ -3484,7 +3548,8 @@
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24655/342509676_188602507329983_6631745967715748561_n__08451.1682137861.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24656/342509963_972463647089789_2838947568206841583_n__00507.1682137861.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24653/341622000_1480799955992191_8978602154816627915_n__15114.1682137861.jpg?c=1"
-        ]
+        ],
+        "id": "ellie-tv-series"
       },
       {
         "n": "Zoltar Speaks – Fortune Teller Machine (Scaled Replica)",
@@ -3527,7 +3592,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912975/zoltar-speaks-fortune-teller-machine_zoltar-speaks_gallery_666b818430239.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912975/zoltar-speaks-fortune-teller-machine_zoltar-speaks_gallery_666b81860e0d6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912975/zoltar-speaks-fortune-teller-machine_zoltar-speaks_gallery_666b818676e83.jpg"
-        ]
+        ],
+        "id": "zoltar-speaks-fortune-teller-machine-scaled-replica"
       },
       {
         "n": "Pegaso Deluxe",
@@ -3566,7 +3632,8 @@
           "https://cdn.shopify.com/s/files/1/0216/7762/files/05_bef58530-2d51-4be5-a2d5-ee72cdbd81a2.jpg?v=1696033858",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/06_9c4ae822-6e11-4946-b942-f42faed2c7a0.jpg?v=1696033857",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/07_d0e3c527-3671-4237-9f0d-64dd393aa52f.jpg?v=1696033857"
-        ]
+        ],
+        "id": "pegaso-deluxe"
       },
       {
         "n": "Optimus Prime (War for Cybertron)",
@@ -3617,7 +3684,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914144/threezero-transformers-optimus-prime-dlx-action-figure-gallery-6792da6553285.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914144/threezero-transformers-optimus-prime-dlx-action-figure-gallery-6792da663e76e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914144/threezero-transformers-optimus-prime-dlx-action-figure-gallery-6792da6752857.jpg"
-        ]
+        ],
+        "id": "optimus-prime-war-for-cybertron"
       },
       {
         "n": "She-Ra",
@@ -3668,7 +3736,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912163/she-ra_masters-of-the-universe_gallery_63f938bc4eff6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912163/she-ra_masters-of-the-universe_gallery_63f938bcde6b1.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912163/she-ra_masters-of-the-universe_gallery_63f938bcde6b1.jpg"
-        ]
+        ],
+        "id": "she-ra"
       },
       {
         "n": "Iron Man Flotador (Golden Version)",
@@ -3709,7 +3778,8 @@
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "iron-man-flotador-golden-version"
       },
       {
         "n": "Grog - Vox Machina",
@@ -3756,7 +3826,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1795c842d.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1796c27e0.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1798b0e90.jpg"
-        ]
+        ],
+        "id": "grog-vox-machina"
       },
       {
         "n": "Snake Eyes – Commando (FigZero)",
@@ -3807,7 +3878,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de708863fd4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de7088b0c5a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de7089130e8.jpg"
-        ]
+        ],
+        "id": "snake-eyes-commando-figzero"
       },
       {
         "n": "Batman Hush",
@@ -3850,7 +3922,8 @@
           "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-2-1200x1200.jpg",
           "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-3-1200x1200.jpg",
           "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-4-1200x1200.jpg"
-        ]
+        ],
+        "id": "batman-hush"
       },
       {
         "n": "Batman (1989)",
@@ -3901,7 +3974,8 @@
           "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704e.jpg?v=1680560071",
           "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704f.jpg?v=1680560071",
           "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704g.jpg?v=1680560071"
-        ]
+        ],
+        "id": "batman-1989-2"
       },
       {
         "n": "Batman: Gotham by Gaslight Deluxe",
@@ -3952,7 +4026,8 @@
           "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238e.jpg?v=1715285019",
           "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238d.jpg?v=1715285019",
           "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238f.jpg?v=1701719633"
-        ]
+        ],
+        "id": "batman-gotham-by-gaslight-deluxe"
       },
       {
         "n": "Gizmo Mogwai – Prop Replica",
@@ -4007,7 +4082,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913637/gizmo-mogwai_gremlins_gallery_66a28e8e29ef9.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913637/gizmo-mogwai_gremlins_gallery_66a28e8ec2bdd.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913637/gizmo-mogwai_gremlins_silo.png"
-        ]
+        ],
+        "id": "gizmo-mogwai-prop-replica"
       },
       {
         "n": "George Mogwai – Prop Replica",
@@ -4062,7 +4138,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913636/george-mogwai_gremlins_gallery_66a28dde245d9.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913636/george-mogwai_gremlins_gallery_66a28dde82591.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913636/george-mogwai_gremlins_silo.png"
-        ]
+        ],
+        "id": "george-mogwai-prop-replica"
       },
       {
         "n": "Tracer – Premium Collector Figure",
@@ -4116,7 +4193,8 @@
           "https://cdn.shopify.com/s/files/1/0611/4030/4091/products/Overwatch_Statue_Tracer_27cm_7.jpg?v=1682384970",
           "https://cdn.shopify.com/s/files/1/0611/4030/4091/products/Overwatch_Statue_Tracer_27cm_17.jpg?v=1682384970",
           "https://cdn.shopify.com/s/files/1/0611/4030/4091/products/Overwatch_Statue_Tracer_27cm_12.jpg?v=1682384970"
-        ]
+        ],
+        "id": "tracer-premium-collector-figure"
       },
       {
         "n": "Luke Skywalker – Deluxe",
@@ -4171,7 +4249,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100190/luke-skywalker-deluxe_star-wars_gallery_5c54cc681bcd7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100190/luke-skywalker-deluxe_star-wars_gallery_5c54cc6963ce6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100190/luke-skywalker-deluxe_star-wars_gallery_5c54cc69dea7b.jpg"
-        ]
+        ],
+        "id": "luke-skywalker-deluxe"
       },
       {
         "n": "Dragon Balls – Life Size Earth (1:1)",
@@ -4208,7 +4287,8 @@
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/433241321_926663146135947_2632288399643991513_n.jpg?v=1711033997",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/products/IMG_4960_1024x1024_2x_e2db4f6f-d3aa-421e-a2e7-04971d79ca63.webp?v=1711033997"
-        ]
+        ],
+        "id": "dragon-balls-life-size-earth-1-1"
       },
       {
         "n": "Deadpool (Comics)",
@@ -4267,7 +4347,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100178/deadpool_marvel_gallery_5c4b9337162ee.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100178/deadpool_marvel_gallery_5c4b93385cad3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100178/deadpool_marvel_gallery_5c4b9339a7356.jpg"
-        ]
+        ],
+        "id": "deadpool-comics"
       },
       {
         "n": "The Armorer Helmet – Black Series Roleplay",
@@ -4307,7 +4388,8 @@
         "oferta": false,
         "fotos": [
           "https://cdn.media.amplience.net/i/hasbropulse/G0704_PROD_SW_BL_MIST_ELECTRONIC_HELMET_0005"
-        ]
+        ],
+        "id": "the-armorer-helmet-black-series-roleplay"
       },
       {
         "n": "Batman & Robin (1966)",
@@ -4350,7 +4432,8 @@
           "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/0Purearts-Promo_S-Batman_Robin__6.jpg?v=1728706611",
           "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/0Purearts-Promo_S-Batman_Robin__7.jpg?v=1728706611",
           "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/0Purearts-Promo_S-Batman_Robin__8.jpg?v=1728706611"
-        ]
+        ],
+        "id": "batman-robin-1966"
       },
       {
         "n": "Piccolo Daimaō (Gran Rey Demonio) - Exclusive SDCC 2025",
@@ -4391,7 +4474,8 @@
         "fotos": [
           "https://tamashiiweb.com/images/item/item_0000015443_DChLTgJM_01.jpg",
           "https://tamashiiweb.com/images/item/item_0000015443_4fT0uNTz_03.jpg"
-        ]
+        ],
+        "id": "piccolo-daimao-gran-rey-demonio-exclusive-sdcc-2025"
       },
       {
         "n": "Geralt de Rivia",
@@ -4438,7 +4522,8 @@
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/1509/15523/163637gt1d7ablieaqi2it__09280.1641680019.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/1509/15525/163638e7jz9i72y8jyv2tc__72589.1641680020.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/1509/15527/163607h22w7fzws25sb2w4__90144.1641680021.jpg?c=1"
-        ]
+        ],
+        "id": "geralt-de-rivia"
       },
       {
         "n": "Poison Ivy (Gotham City Sirens)",
@@ -4489,7 +4574,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7ccd34f7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cd1224c.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cd45183.jpg"
-        ]
+        ],
+        "id": "poison-ivy-gotham-city-sirens"
       },
       {
         "n": "Don Vito Corleone",
@@ -4540,7 +4626,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ec49713.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ec958f7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ecdd79e.jpg"
-        ]
+        ],
+        "id": "don-vito-corleone"
       },
       {
         "n": "Proxima Midnight",
@@ -4581,7 +4668,8 @@
         "fotos": [
           "https://cdn2.bigcommerce.com/server3500/26633/products/3875/images/99839/SV13__61932.1654061458.490.588.jpg?c=2",
           "https://cdn2.bigcommerce.com/server3500/26633/products/3875/images/99827/SV19__37350.1654061458.490.588.jpg?c=2"
-        ]
+        ],
+        "id": "proxima-midnight"
       },
       {
         "n": "Frieza Evil Emperor – Diorama Figure (Prize E)",
@@ -4625,7 +4713,8 @@
           "https://cdn.shopify.com/s/files/1/0657/6164/0702/files/IchibanKujiDragonBallVSOmnibusCROSS-EPrizeFriezaEvilEmperorDioramaFigure_2.jpg?v=1747380151",
           "https://cdn.shopify.com/s/files/1/0657/6164/0702/files/Ichiban_Kuji_Dragon_Ball_VS_Omnibus_CROSS_-_E_Prize_Frieza_Evil_Emperor_Diorama_Figure_4.jpg?v=1747380151",
           "https://cdn.shopify.com/s/files/1/0657/6164/0702/files/IchibanKujiDragonBallVSOmnibusCROSS_66286e11-9bf6-4ab7-b59d-eec28abba212.jpg?v=1747380394"
-        ]
+        ],
+        "id": "frieza-evil-emperor-diorama-figure-prize-e"
       },
       {
         "n": "The Real Ghostbusters – Ecto-Glow Heroes 4-Pack",
@@ -4670,7 +4759,8 @@
           "https://toysntat.com/wp-content/uploads/2025/03/SDCC-2025-Ghostbusters-Ecto-Glow-Heroes-set-Ray-and-Egon.webp",
           "https://toysntat.com/wp-content/uploads/2025/03/SDCC-2025-Ghostbusters-Ecto-Glow-Heroes-set-winston-and-peter.webp",
           "https://toysntat.com/wp-content/uploads/2025/03/Hasbro-Ghostbusters-Ecto-Glow-Heroes-set-winston-and-peter.webp"
-        ]
+        ],
+        "id": "the-real-ghostbusters-ecto-glow-heroes-4-pack"
       },
       {
         "n": "She-Ra & Swiftwind – Origins 2-Pack",
@@ -4721,7 +4811,8 @@
           "https://cdn.shopify.com/s/files/1/0568/1132/3597/files/in4t8jwhmzpxyd5otjy6.jpg?v=1763511697",
           "https://cdn.shopify.com/s/files/1/0568/1132/3597/files/y0qedhabwh7p5e1z31q1.jpg?v=1763511696",
           "https://cdn.shopify.com/s/files/1/0568/1132/3597/files/fpj1rsglalxwovovyht5.jpg?v=1763511696"
-        ]
+        ],
+        "id": "she-ra-swiftwind-origins-2-pack"
       },
       {
         "n": "Batman (1989) – Original Motion Picture Score LP & Graphic Novel Box Set",
@@ -4771,7 +4862,8 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_006_66665bab-3cf8-4458-9fee-621257a2820f.jpg?v=1763494952",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_009_8c4aa6d5-5b77-4373-aa63-ac7532602742.png?v=1724948926",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_001_f5f6c9f9-eddc-4866-9184-b88c0f7a1382.png?v=1724948926"
-        ]
+        ],
+        "id": "batman-1989-original-motion-picture-score-lp-graphic-novel-b"
       },
       {
         "n": "Powerpuff Girls – Action Figure Set",
@@ -4822,7 +4914,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910415/powerpuff-girls-set_powerpuff-girls_gallery_620c0b14504a7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910415/powerpuff-girls-set_powerpuff-girls_gallery_620c0b14a48d0.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910415/powerpuff-girls-set_powerpuff-girls_gallery_620c0b150ac1f.jpg"
-        ]
+        ],
+        "id": "powerpuff-girls-action-figure-set"
       },
       {
         "n": "Monkey D. Luffy – Magnetic Night Lamp",
@@ -4869,7 +4962,8 @@
           "https://favorgk.com/wp-content/uploads/2024/09/006-5.jpg",
           "https://favorgk.com/wp-content/uploads/2024/09/007-5.jpg",
           "https://favorgk.com/wp-content/uploads/2024/09/008-4.jpg"
-        ]
+        ],
+        "id": "monkey-d-luffy-magnetic-night-lamp"
       },
       {
         "n": "Superman & Krypto (Deluxe)",
@@ -4920,7 +5014,8 @@
           "https://fondjoy.co.uk/wp-content/uploads/2025/09/1_6ef470ed-ac1d-4c8f-9152-d729268c090b.webp",
           "https://fondjoy.co.uk/wp-content/uploads/2025/09/2_925bbb7c-60c3-4e7e-ac36-fd94dd2bce37.webp",
           "https://fondjoy.co.uk/wp-content/uploads/2025/09/9_1038b20c-e979-465f-9723-964832bcb577.webp"
-        ]
+        ],
+        "id": "superman-krypto-deluxe"
       },
       {
         "n": "Super Saiyan Son Goku",
@@ -4961,7 +5056,8 @@
         "fotos": [
           "https://tamashiiweb.com/images/item/item_0000015015_IvYERlWE_01.jpg",
           "https://tamashiiweb.com/images/item/item_0000015015_ZE6WBFB9_03.jpg"
-        ]
+        ],
+        "id": "super-saiyan-son-goku"
       },
       {
         "n": "Peanuts Tamagotchi Nano",
@@ -5012,7 +5108,8 @@
           "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/tamagotchi_peanuts1.jpg?quality=90&strip=all&w=2400",
           "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/tamagotchi_peanuts2.jpg?quality=90&strip=all&w=2400",
           "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/tamagotchi_peanuts3.jpg?quality=90&strip=all&w=2400"
-        ]
+        ],
+        "id": "peanuts-tamagotchi-nano"
       },
       {
         "n": "Super Saiyan God Son Goku",
@@ -5067,7 +5164,8 @@
           "https://i0.wp.com/bigfanmerch.com/wp-content/uploads/2025/04/Dragon-Ball-Z-Super-Saiyan-God-Son-Goku-India-BigFan-Merch-2.webp?fit=960%2C1200&ssl=1",
           "https://i0.wp.com/bigfanmerch.com/wp-content/uploads/2025/04/Dragon-Ball-Z-Super-Saiyan-God-Son-Goku-India-BigFan-Merch-5.webp?fit=960%2C1200&ssl=1",
           "https://i0.wp.com/bigfanmerch.com/wp-content/uploads/2025/04/Dragon-Ball-Z-Super-Saiyan-God-Son-Goku-India-BigFan-Merch-1.webp?resize=130%2C163&ssl=1"
-        ]
+        ],
+        "id": "super-saiyan-god-son-goku"
       },
       {
         "n": "Son Goku – The Innocent Challenger",
@@ -5127,7 +5225,8 @@
             "t": "notion-bulleted-list",
             "x": "Derecha: 3 tiposIzquierda: 3 tipos"
           }
-        ]
+        ],
+        "id": "son-goku-the-innocent-challenger"
       },
       {
         "n": "Hot Wheels RacerVerse™ Marvel – 2-Pack",
@@ -5171,7 +5270,8 @@
             "t": "notion-bulleted-list",
             "x": "Vehículo Iron Man RacerVerseVehículo Thanos RacerVerseBase iluminada + pistaEstuche acrílico"
           }
-        ]
+        ],
+        "id": "hot-wheels-racerverse-marvel-2-pack"
       },
       {
         "n": "ROBO-DOU Griffon",
@@ -5239,7 +5339,8 @@
             "t": "notion-bulleted-list",
             "x": "Dimensiones: aprox.290 × 240 × 110 mmPeso:1.7 kg"
           }
-        ]
+        ],
+        "id": "robo-dou-griffon"
       },
       {
         "n": "Magic the Gathering FigPins",
@@ -5291,7 +5392,8 @@
             "t": "notion-bulleted-list",
             "x": "Vraska (Y327)"
           }
-        ]
+        ],
+        "id": "magic-the-gathering-figpins"
       },
       {
         "n": "Vegito vs Buu",
@@ -5343,7 +5445,8 @@
             "t": "notion-bulleted-list",
             "x": "Cabeza adicionalSoporte para cabezaBase negra"
           }
-        ]
+        ],
+        "id": "vegito-vs-buu"
       },
       {
         "n": "Billy Puppet (SAW Life Size)",
@@ -5423,7 +5526,8 @@
             "t": "notion-bulleted-list",
             "x": "Requiere3 baterías AA(no incluidas)"
           }
-        ]
+        ],
+        "id": "billy-puppet-saw-life-size"
       },
       {
         "n": "Link vs Ganondorf",
@@ -5491,7 +5595,8 @@
             "t": "notion-text",
             "x": "La estatua tiene partes quebradas, algunas fueron pegadas nuevamente pero se nota que hubo daño.\nLa capa de Ganondorf está partida por la mitad y se nota mucho de cerca. De lejos no se puede apreciar.\nEl precio es con el descuento por estar quebrada."
           }
-        ]
+        ],
+        "id": "link-vs-ganondorf"
       },
       {
         "n": "Magic the Gathering YouTooz",
@@ -5559,7 +5664,8 @@
             "t": "notion-bulleted-list",
             "x": "Aproximadamente10–11 cmcada figura (estándar Youtooz)"
           }
-        ]
+        ],
+        "id": "magic-the-gathering-youtooz"
       },
       {
         "n": "Rei Ayanami",
@@ -5603,7 +5709,8 @@
             "t": "notion-bulleted-list",
             "x": "Alto:47.3 cmProfundidad:24 cmAncho:24.5 cm"
           }
-        ]
+        ],
+        "id": "rei-ayanami"
       },
       {
         "n": "The Joker Knightmare (Deluxe)",
@@ -5675,7 +5782,8 @@
             "t": "notion-bulleted-list",
             "x": "PistolaRifleCargadores (2 sets)Carta de naipeMedallas (set)Máscara facialPlataforma/base de soporte"
           }
-        ]
+        ],
+        "id": "the-joker-knightmare-deluxe"
       },
       {
         "n": "Transformers One (4 Pack)",
@@ -5747,7 +5855,8 @@
             "t": "notion-bulleted-list",
             "x": "MDLX – threezero"
           }
-        ]
+        ],
+        "id": "transformers-one-4-pack"
       },
       {
         "n": "Batman Arkham",
@@ -5819,7 +5928,8 @@
             "t": "notion-bulleted-list",
             "x": "Rostro alternativo con expresión enojadaGranada de hieloTracking batarangs (3)"
           }
-        ]
+        ],
+        "id": "batman-arkham"
       },
       {
         "n": "Vegeta Daima",
@@ -5875,7 +5985,8 @@
             "t": "notion-bulleted-list",
             "x": "Cuerpo principalManos intercambiablesPiezas faciales intercambiables(según versión)"
           }
-        ]
+        ],
+        "id": "vegeta-daima"
       },
       {
         "n": "Goku Daima",
@@ -5927,7 +6038,8 @@
             "t": "notion-bulleted-list",
             "x": "Cuerpo principalManos intercambiablesPiezas faciales intercambiables(según versión)"
           }
-        ]
+        ],
+        "id": "goku-daima"
       },
       {
         "n": "Monkey D. Luffy",
@@ -5979,7 +6091,8 @@
             "t": "notion-bulleted-list",
             "x": "Cuerpo principalManos intercambiablesPiezas faciales intercambiables(según versión)"
           }
-        ]
+        ],
+        "id": "monkey-d-luffy"
       },
       {
         "n": "Grogu Tamagotchi Nano",
@@ -6047,7 +6160,8 @@
             "t": "notion-bulleted-list",
             "x": "0.20 lb(≈91 g)"
           }
-        ]
+        ],
+        "id": "grogu-tamagotchi-nano"
       },
       {
         "n": "Michael Myers (Halloween II)",
@@ -6071,7 +6185,8 @@
             "t": "notion-text",
             "x": "Presentada en empaque tipo “window box” con solapa abatible para exhibición sin necesidad de desprecintar, ideal para coleccionistas."
           }
-        ]
+        ],
+        "id": "michael-myers-halloween-ii"
       },
       {
         "n": "Michael Myers (Halloween 2018)",
@@ -6095,7 +6210,8 @@
             "t": "notion-text",
             "x": "Presentada en empaque de colección tipo “window box”, permite exhibición inmediata sin necesidad de retirarla de la caja."
           }
-        ]
+        ],
+        "id": "michael-myers-halloween-2018"
       },
       {
         "n": "Bases Dragon Ball",
@@ -6159,7 +6275,8 @@
             "t": "notion-bulleted-list",
             "x": "1 base/displayS.H.Figuarts(diseño aleatorio)El precio es por las 3 juntas"
           }
-        ]
+        ],
+        "id": "bases-dragon-ball"
       },
       {
         "n": "Spider-Man Deluxe – Spider-Man vs Villains Diorama",
@@ -6223,7 +6340,8 @@
             "t": "notion-bulleted-list",
             "x": "0.9 kg(2 lb)"
           }
-        ]
+        ],
+        "id": "spider-man-deluxe-spider-man-vs-villains-diorama"
       },
       {
         "n": "Batman Mistery Minis",
@@ -6303,7 +6421,8 @@
             "t": "notion-bulleted-list",
             "x": "Altura aproximada:8 cm(3”)"
           }
-        ]
+        ],
+        "id": "batman-mistery-minis"
       },
       {
         "n": "Hand of the King - Abrebotellas",
@@ -6375,7 +6494,8 @@
             "t": "notion-bulleted-list",
             "x": "0.24 lb(≈109 g)"
           }
-        ]
+        ],
+        "id": "hand-of-the-king-abrebotellas"
       },
       {
         "n": "The Powerpuff Girls - Have a Nice Day",
@@ -6435,7 +6555,8 @@
             "t": "notion-bulleted-list",
             "x": "Caja transparente a color + burbuja protectoraMedidas del empaque:12.5 × 12.5 × 18.5 cm"
           }
-        ]
+        ],
+        "id": "the-powerpuff-girls-have-a-nice-day"
       },
       {
         "n": "Espresso Trip Tina Funko Pop (Sticker SDCC)",
@@ -6479,7 +6600,8 @@
             "t": "notion-bulleted-list",
             "x": "Caja en buen estado"
           }
-        ]
+        ],
+        "id": "espresso-trip-tina-funko-pop-sticker-sdcc"
       },
       {
         "n": "Monkey D. Luffy",
@@ -6547,7 +6669,8 @@
             "t": "notion-bulleted-list",
             "x": "Figura de LuffyBase / plataforma"
           }
-        ]
+        ],
+        "id": "monkey-d-luffy-2"
       },
       {
         "n": "Roronoa Zoro",
@@ -6587,7 +6710,8 @@
             "t": "notion-bulleted-list",
             "x": "Altura:33 cm"
           }
-        ]
+        ],
+        "id": "roronoa-zoro"
       },
       {
         "n": "Captain America vs. Captain America (Endgame)",
@@ -6655,7 +6779,8 @@
             "t": "notion-bulleted-list",
             "x": "0.64 kg(1.4 lb)"
           }
-        ]
+        ],
+        "id": "captain-america-vs-captain-america-endgame"
       },
       {
         "n": "Superman Black Suit (Justice League)",
@@ -6695,7 +6820,8 @@
             "t": "notion-bulleted-list",
             "x": "Head sculpt estándar (1)Head sculpt alternativoRoaring(1)Cuerpo plástico (1)Capa (1)Zapatos (1 par)Manos intercambiables (8)Diorama display stand(1)"
           }
-        ]
+        ],
+        "id": "superman-black-suit-justice-league"
       },
       {
         "n": "Batman The Animated Series Trio",
@@ -6771,7 +6897,8 @@
             "t": "notion-bulleted-list",
             "x": "Estatua Batman 1:10Estatua Joker 1:10Estatua Harley Quinn 1:10"
           }
-        ]
+        ],
+        "id": "batman-the-animated-series-trio"
       },
       {
         "n": "God Loki (Artisan Edition)",
@@ -6831,7 +6958,8 @@
             "t": "notion-text",
             "x": "Una pieza exclusiva y de producción limitada que captura uno de los momentos más trascendentales del personaje dentro del MCU. Ideal para coleccionistas que buscan una versión premium y definitiva de Loki."
           }
-        ]
+        ],
+        "id": "god-loki-artisan-edition"
       },
       {
         "n": "The Amazing Spider-Man",
@@ -6883,7 +7011,8 @@
             "t": "notion-text",
             "x": "Una versión imprescindible para coleccionistas del Spider-Verse, que captura el estilo ágil y juvenil de esta interpretación del icónico héroe."
           }
-        ]
+        ],
+        "id": "the-amazing-spider-man"
       },
       {
         "n": "X-23",
@@ -6939,7 +7068,8 @@
             "t": "notion-text",
             "x": "Una incorporación esencial para coleccionistas del universoDeadpool & Wolverine, ideal para complementar cualquier display de mutantes con una versión poderosa y cinematográfica de X-23."
           }
-        ]
+        ],
+        "id": "x-23"
       },
       {
         "n": "Batman Returns",
@@ -6999,7 +7129,8 @@
             "t": "notion-text",
             "x": "Una pieza esencial para coleccionistas del Batman cinematográfico clásico, ideal para complementar cualquier colección inspirada en la era de Tim Burton."
           }
-        ]
+        ],
+        "id": "batman-returns"
       },
       {
         "n": "Peter Parker (Anti-Venom Suit)",
@@ -7047,7 +7178,8 @@
             "t": "notion-bulleted-list",
             "x": "Seis (6) cadenas de accesorios de correas de diferentes formas y longitudesTres (3) estilos de accesorios de efecto de ataque potente de color blanco nacarado (que se pueden colocar en los antebrazos)Soporte dinámico especialmente diseñado con el logo del juego y la placa del personaje"
           }
-        ]
+        ],
+        "id": "peter-parker-anti-venom-suit"
       }
     ]
   },
@@ -7232,7 +7364,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T10:48:35.234913"
+        "added_at": "2026-03-28T10:48:35.234913",
+        "id": "rocky-iv-ultimate-edition"
       },
       {
         "n": "Rocky IV Deluxe Edition",
@@ -7399,7 +7532,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T10:47:00.645868"
+        "added_at": "2026-03-28T10:47:00.645868",
+        "id": "rocky-iv-deluxe-edition"
       },
       {
         "n": "Rocky IV Standard Edition Sixth Scale Action Figure- PRE ORDER",
@@ -7551,7 +7685,8 @@
         ],
         "yt": "",
         "destacado": true,
-        "oferta": false
+        "oferta": false,
+        "id": "rocky-iv-standard-edition-sixth-scale-action-figure-pre-orde"
       },
       {
         "n": "Iron Man Mark IV (Haze Fractal Armor)",
@@ -7754,7 +7889,8 @@
         ],
         "yt": "",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "iron-man-mark-iv-haze-fractal-armor"
       },
       {
         "n": "The Mandalorian™ and Grogu™ (Deluxe Version)",
@@ -7878,7 +8014,8 @@
             "t": "notion-text",
             "x": "Una versión pensada para coleccionistas que buscan una pieza central en su colección deStar Wars, combinando presencia, detalle y múltiples configuraciones de exhibición en un solo set."
           }
-        ]
+        ],
+        "id": "the-mandalorian-and-grogu-deluxe-version"
       },
       {
         "n": "The Mandalorian™ and Grogu™ (Regular)",
@@ -7998,7 +8135,8 @@
             "t": "notion-text",
             "x": "Un set imprescindible para fans deStar Wars, combinando presencia, detalle y narrativa en una sola pieza que representa perfectamente el vínculo entre el Mandaloriano y Grogu."
           }
-        ]
+        ],
+        "id": "the-mandalorian-and-grogu-regular"
       },
       {
         "n": "Anzellan Droidsmith™ – Life-Size",
@@ -8070,7 +8208,8 @@
             "t": "notion-text",
             "x": "Una pieza pequeña en tamaño pero grande en personalidad, perfecta para complementar tu colección deThe Mandaloriany añadir un toque distintivo y divertido a tu vitrina."
           }
-        ]
+        ],
+        "id": "anzellan-droidsmith-life-size"
       },
       {
         "n": "Grogu™ – Accessories Set",
@@ -8130,7 +8269,8 @@
             "t": "notion-text",
             "x": "Un complemento ideal para llevar tu Grogu life-size al siguiente nivel, agregando narrativa, variedad y ese toque extra que hace que la pieza cobre vida en vitrina."
           }
-        ]
+        ],
+        "id": "grogu-accessories-set"
       },
       {
         "n": "Grogu™ – Life-Size",
@@ -8222,7 +8362,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para fans deStar Wars, perfecta para destacar en cualquier colección gracias a su tamaño real y su combinación de realismo, ternura y detalle."
           }
-        ]
+        ],
+        "id": "grogu-life-size-2"
       },
       {
         "n": "Riderman",
@@ -8326,7 +8467,8 @@
             "t": "notion-text",
             "x": "Una figura cargada de nostalgia y versatilidad, ideal para fans deKamen Riderque buscan una pieza clásica con múltiples opciones de exhibición y gran presencia en vitrina."
           }
-        ]
+        ],
+        "id": "riderman"
       },
       {
         "n": "Silver Surfer (Marvel Comics)",
@@ -8414,7 +8556,8 @@
             "t": "notion-text",
             "x": "Una figura elegante y visualmente impactante que captura la esencia cósmica de uno de los personajes más icónicos del universo Marvel. Ideal para coleccionistas que buscan una pieza distintiva dentro de su vitrina de cómics."
           }
-        ]
+        ],
+        "id": "silver-surfer-marvel-comics"
       },
       {
         "n": "Superman™",
@@ -8482,7 +8625,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas del universo DC clásico, ideal para recrear el épico enfrentamiento entre Superman y Batman en una de las historias más influyentes del cómic moderno."
           }
-        ]
+        ],
+        "id": "superman"
       },
       {
         "n": "Batman™ (Battle Damaged Version)",
@@ -8546,7 +8690,8 @@
             "t": "notion-text",
             "x": "Una pieza poderosa y fiel al cómic que representa una de las versiones más influyentes y crudas del Caballero Oscuro. Ideal para coleccionistas que buscan una interpretación madura, intensa y definitiva de Batman."
           }
-        ]
+        ],
+        "id": "batman-battle-damaged-version"
       },
       {
         "n": "Pelegostos Chief Jack Sparrow",
@@ -8602,7 +8747,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas dePirates of the Caribbean, que representa uno de los momentos más peculiares y memorables de Jack Sparrow."
           }
-        ]
+        ],
+        "id": "pelegostos-chief-jack-sparrow"
       },
       {
         "n": "Neo (The Matrix Reloaded)",
@@ -8694,7 +8840,8 @@
             "t": "notion-text",
             "x": "Una figura diseñada para recrear uno de los combates más icónicos del cine de acción moderno, ideal para coleccionistas deThe Matrixque buscan una pieza dinámica y altamente detallada para su vitrina."
           }
-        ]
+        ],
+        "id": "neo-the-matrix-reloaded"
       },
       {
         "n": "Batman (Arkham Origins)",
@@ -8766,7 +8913,8 @@
             "t": "notion-bulleted-list",
             "x": "Base especial conlogo del juegoyplaca con nombre"
           }
-        ]
+        ],
+        "id": "batman-arkham-origins"
       },
       {
         "n": "Chopper (One Piece Live Action)",
@@ -8830,7 +8978,8 @@
             "t": "notion-text",
             "x": "Una pieza de gran tamaño y fuerte presencia, ideal para coleccionistas de One Piece que buscan una representación premium y realista del médico más adorable del Grand Line."
           }
-        ]
+        ],
+        "id": "chopper-one-piece-live-action"
       },
       {
         "n": "Indiana Jones (Regular y Deluxe)",
@@ -8886,7 +9035,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) bolsa bandoleraUno (1) Manuscrito en sánscritoDos (2) conjuntos de Piedras Sankara (estados latentes y activados)Base de diorama con temática de altar de calaveras recién diseñada"
           }
-        ]
+        ],
+        "id": "indiana-jones-regular-y-deluxe"
       },
       {
         "n": "Spider-Man (Battle Damaged Version)",
@@ -8930,7 +9080,8 @@
             "t": "notion-bulleted-list",
             "x": "Seis (6) hilos de telaraña en diferentes formas y longitudes (que se pueden acoplar para lanzar telarañas y sujetar las manos con telarañas)Un (1) casco de Duende Verde dañado por la batallaBase de figura de diorama especialmente diseñada con un remanente muy desgastado de un planeador duende y muros de ladrillo rojo destruidos, con una placa de personaje"
           }
-        ]
+        ],
+        "id": "spider-man-battle-damaged-version"
       },
       {
         "n": "John Wick",
@@ -9002,7 +9153,8 @@
             "t": "notion-bulleted-list",
             "x": "Tres (3) pilas de monedas de oroTres (3) monedas de oro individualesSoporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
-        ]
+        ],
+        "id": "john-wick"
       },
       {
         "n": "The Joker Bank Robber Version",
@@ -9074,7 +9226,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) relojUna (1) máscara de payasoUna (1) bolsa de deporte azul claro con portagranadasTres (3) montones de dineroUn (1) conjunto de comodinesUn (1) fondo de atraco a un banco en autobús escolarBase de figura de diorama con temática de banco especialmente diseñada con puerta de cristal roto intercambiable y tablas de madera rotas"
           }
-        ]
+        ],
+        "id": "the-joker-bank-robber-version"
       },
       {
         "n": "Rumi - KPop Demon Hunters",
@@ -9146,7 +9299,8 @@
             "t": "notion-bulleted-list",
             "x": "MicrófonoSmartphoneCup noodles con gráfico del personajeHUNTR/X lightstickPóster holográfico firmado por RumiBanner holográfico de RumiBackdrop lenticular del personajeBase temática de escenario conplaca con nombre"
           }
-        ]
+        ],
+        "id": "rumi-kpop-demon-hunters"
       },
       {
         "n": "Mira - KPop Demon Hunters",
@@ -9218,7 +9372,8 @@
             "t": "notion-bulleted-list",
             "x": "MicrófonoSmartphoneCup noodles con gráfico del personajeHUNTR/X lightstickPóster holográfico firmado por MiraBackdrop lenticular del personajeBase temática de escenario conplaca con nombre"
           }
-        ]
+        ],
+        "id": "mira-kpop-demon-hunters"
       },
       {
         "n": "Zoey - KPop Demon Hunters",
@@ -9290,7 +9445,8 @@
             "t": "notion-bulleted-list",
             "x": "Diario de ZoeyMicrófonoSmartphoneCup noodles con gráfico del personajeHUNTR/X lightstickPóster holográfico firmado por ZoeyBackdrop lenticular del personajeBase temática de escenario conplaca con nombre"
           }
-        ]
+        ],
+        "id": "zoey-kpop-demon-hunters"
       },
       {
         "n": "Han Solo™ Quarter Scale Figure – Star Wars: A New Hope",
@@ -9390,7 +9546,8 @@
             "t": "notion-text",
             "x": "Aproximadamente 24.5 cm (L) x 17 cm (W) x 15.5 cm (H)"
           }
-        ]
+        ],
+        "id": "han-solo-quarter-scale-figure-star-wars-a-new-hope"
       },
       {
         "n": "Anakin Skywalker",
@@ -9462,7 +9619,8 @@
             "t": "notion-bulleted-list",
             "x": "Base de figura de diorama especialmente diseñada con droide Paneador Mustafar (brazos articulados) y efectos de lava translúcidaSoporte especial diseñado con temática de arena y logotipo de Star Wars y placa de nombre de personajes"
           }
-        ]
+        ],
+        "id": "anakin-skywalker"
       },
       {
         "n": "Harley Quinn",
@@ -9534,7 +9692,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) bolso de mano plateadoUn (1) collar dorado para el cuelloUn (1) par de pulseras doradasUn (1) par de pulseras de color morado parecidas a cueroSoporte para figuras especialmente diseñado con placa de personaje y detalles de fragmentos de vidrio"
           }
-        ]
+        ],
+        "id": "harley-quinn"
       },
       {
         "n": "Predator 2.0",
@@ -9606,7 +9765,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) Kit de MedicinaBase de diorama de nueva temática de jungla con dos accesorios de calavera*Exclusivo de la versión Deluxe"
           }
-        ]
+        ],
+        "id": "predator-2-0"
       },
       {
         "n": "Iron Man Mark XLIII (2.0) Estándar",
@@ -9670,7 +9830,8 @@
             "t": "notion-text",
             "x": "Una versión definitiva de la Mark XLIII que combina metal, iluminación avanzada y detalles de batalla, ideal para elevar cualquier colección de Iron Man o Avengers a nivel premium."
           }
-        ]
+        ],
+        "id": "iron-man-mark-xliii-2-0-estandar"
       },
       {
         "n": "Iron Man Mark XLIII (2.0) – Deluxe Version",
@@ -9734,7 +9895,8 @@
             "t": "notion-text",
             "x": "Una edición definitiva para coleccionistas exigentes que buscan no solo la armadura Mark XLIII mejorada, sino una escena completa de batalla para exhibición premium."
           }
-        ]
+        ],
+        "id": "iron-man-mark-xliii-2-0-deluxe-version"
       },
       {
         "n": "Absolute Batman",
@@ -9806,7 +9968,8 @@
             "t": "notion-bulleted-list",
             "x": "Dos (2) juegos de púas cortas y largas intercambiables para la armadura del cuello y los hombrosSoporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
-        ]
+        ],
+        "id": "absolute-batman"
       },
       {
         "n": "MagnaGuard",
@@ -9866,7 +10029,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) bastón electroeléctricoUn (1) conjunto de efecto de rayo translúcido de color púrpura (que se puede acoplar al bastón electroeléctrico)Soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "magnaguard"
       },
       {
         "n": "Feral Predator (Battle Damaged Version)",
@@ -9942,7 +10106,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) Máscara de Huesos con función de iluminación LED (luz roja, alimentación USB)Una (1) mochilaUn (1) hacha (que se puede acoplar a la base de la figura)Dos (2) flechas (que se pueden acoplar a la base de la figura)Dos (2) huesos (que se pueden acoplar al cinturón)Base de figura de diorama especialmente diseñada con temática forestal"
           }
-        ]
+        ],
+        "id": "feral-predator-battle-damaged-version"
       },
       {
         "n": "Leia Organa (Boushh Disguise)",
@@ -10014,7 +10179,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "leia-organa-boushh-disguise"
       },
       {
         "n": "212th Attack Battalion Clone Trooper",
@@ -10086,7 +10252,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) macrobinocularesUno (1) casco macrobinoculares *Uno (1) detonador térmico recién desarrollado (acoplable magnéticamente a la placa trasera)Un (1) juego de tres (3) detonadores térmicos recién desarrollados (acoplables magnéticamente a la placa trasera)Un (1) juego de bolsas utilitarias recién desarrolladas (acoplables magnéticamente a la placa trasera)Una (1) radio recién desarrollada (acoplable magnéticamente a la placa trasera)Soporte especial diseñado con temática de arena y logotipo de Star Wars y placa de nombre de personajesDe la edición de lujo a la de lujo"
           }
-        ]
+        ],
+        "id": "212th-attack-battalion-clone-trooper"
       },
       {
         "n": "Dek & Thia (Predator Badlands)",
@@ -10214,7 +10381,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) juego de correas en forma de rama"
           }
-        ]
+        ],
+        "id": "dek-thia-predator-badlands"
       },
       {
         "n": "Miles Morales (Aliens Vs. Avengers Suit)",
@@ -10278,7 +10446,8 @@
             "t": "notion-bulleted-list",
             "x": "Seis (6) hilos de telaraña en diferentes formas y longitudes (que se pueden acoplar para lanzar telarañas y sujetar las manos con telarañas)Un (1) emblema de Spider de color rosa oscuro (acoplable magnéticamente al pecho)Un (1) Facehugger con simbionte unido con emblema de Spider-Man (cable flexible incrustado)Base de figura de diorama especialmente diseñada con restos de xenomorfos, accesorios para diorama, logotipo de cómic y placa de personaje"
           }
-        ]
+        ],
+        "id": "miles-morales-aliens-vs-avengers-suit"
       },
       {
         "n": "Han Solo (The Empire Strikes Back)",
@@ -10334,7 +10503,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) gafas protectoras de soldaduraUn (1) soldadorUna (1) máscara de alientoUn (1) llamador droide (acoplable al cinturón)Soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "han-solo-the-empire-strikes-back"
       },
       {
         "n": "Obi-Wan Kenobi (Mustafar)",
@@ -10390,7 +10560,8 @@
             "t": "notion-bulleted-list",
             "x": "Base de figura de diorama especialmente diseñada con plataforma repulsora (solapas laterales articuladas) y efectos de lava translúcida (aproximadamente 38cm (L) x 31cm (W) x 28,5cm (H))Dos (2) soportes para clips de cintura (que se pueden acoplar a la base de la figura del diorama)"
           }
-        ]
+        ],
+        "id": "obi-wan-kenobi-mustafar"
       },
       {
         "n": "Broken Tusk Predator",
@@ -10442,7 +10613,8 @@
             "t": "notion-bulleted-list",
             "x": "Base de figura especialmente diseñada con detalles de restos de Xenomorfo, logotipo y placa de nombre del personaje"
           }
-        ]
+        ],
+        "id": "broken-tusk-predator"
       },
       {
         "n": "Endoskeleton (Battle Damaged)",
@@ -10490,7 +10662,8 @@
             "t": "notion-bulleted-list",
             "x": "Base de figura especialmente diseñada con temática de calavera y logotipo de película y placa con el nombre del endoesqueleto"
           }
-        ]
+        ],
+        "id": "endoskeleton-battle-damaged"
       },
       {
         "n": "Sergeant Hound",
@@ -10542,7 +10715,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) Massiff (mandíbula articulada; extremidades delanteras y posteriores ligeramente articuladas) con arnés, correa metálica y mangoSoporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "sergeant-hound"
       },
       {
         "n": "Peacemaker",
@@ -10594,7 +10768,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) jetpack (acoplable magnéticamente a la espalda de Peacemaker)Un (1) Eagly (aproximadamente 7 cm de altura) con un (1) par de alas extendidas intercambiablesSoporte de figura especialmente diseñado con el logo de Peacemaker"
           }
-        ]
+        ],
+        "id": "peacemaker"
       },
       {
         "n": "The Joker Killing Joke",
@@ -10646,7 +10821,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) cámaraUn (1) bastónUna (1) carta comodínUn (1) fondo de portada del cómic Batman: The Killing Joke (montable en un soporte de figura)Soporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
-        ]
+        ],
+        "id": "the-joker-killing-joke"
       },
       {
         "n": "RoboCain",
@@ -10694,7 +10870,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) raíl (que se puede acoplar a la sección del pecho)Un (1) mando a distanciaSoporte de figura especialmente diseñado con placa con nombre y logotipo de película"
           }
-        ]
+        ],
+        "id": "robocain"
       },
       {
         "n": "Big Chap",
@@ -10734,7 +10911,8 @@
             "t": "notion-bulleted-list",
             "x": "Base de diorama especialmente diseñada con temática de restos de Xenomorfos y placa con el nombre del personaje"
           }
-        ]
+        ],
+        "id": "big-chap"
       },
       {
         "n": "Robocop",
@@ -10782,7 +10960,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) juego de frascos NukeUn (1) contenedor nuclear con cubierta extraíbleUno (1) Cerebro de Cain con columna cervicalSoporte para figuras especialmente diseñado con placa de RoboCop y logo de película"
           }
-        ]
+        ],
+        "id": "robocop"
       },
       {
         "n": "Galactus",
@@ -10814,7 +10993,8 @@
             "t": "notion-bulleted-list",
             "x": "Cinco (5) miniaturas (que se pueden colocar al cuerpo de Galactus, de aproximadamente 2 a 5,5 cm de altura), incluyendo:Uno (1) Mister FantasticUna (1) Mujer InvisibleUna (1) Antorcha HumanaUno (1) La CosaUno (1) Silver Surfer"
           }
-        ]
+        ],
+        "id": "galactus"
       },
       {
         "n": "Iron Man Mark III (Armour Suit Up Version)",
@@ -10862,7 +11042,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte de figura especialmente diseñado en colores metálicos rojo, dorado y plateado, incluyendo función de iluminación LED (luz blanca, alimentado por USB) y dos (2) accesorios articulados para dioramas"
           }
-        ]
+        ],
+        "id": "iron-man-mark-iii-armour-suit-up-version"
       },
       {
         "n": "Invisible Woman",
@@ -10910,7 +11091,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) efecto de campo de fuerza holográfico translúcido coloreadoUna (1) figura de Franklin Richards bebé (cabeza, brazos y piernas ligeramente articulados)Una (1) cuna azul con el logo de los Cuatro Fantásticos y cubierta desmontableSoporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
-        ]
+        ],
+        "id": "invisible-woman"
       },
       {
         "n": "Mr. Fantastic",
@@ -10958,7 +11140,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
-        ]
+        ],
+        "id": "mr-fantastic"
       },
       {
         "n": "Human Torch",
@@ -11006,7 +11189,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) efecto de llama translúcida translúcida de color naranja y rojo de doble capa (aproximadamente 32 cm de altura e intercambiable con la parte inferior del cuerpo de la figura)Soporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
-        ]
+        ],
+        "id": "human-torch"
       },
       {
         "n": "The Thing",
@@ -11054,7 +11238,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
-        ]
+        ],
+        "id": "the-thing"
       },
       {
         "n": "Superior Iron Man",
@@ -11090,7 +11275,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado en color plata metálico, incluye función de iluminación LED (luz blanca, alimentado por USB)"
           }
-        ]
+        ],
+        "id": "superior-iron-man"
       },
       {
         "n": "Kamen Rider V3",
@@ -11130,7 +11316,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) Casco con antenasUna (1) tolva V3 (acoplable a la correa)Una (1) tolva V3 en estado desplegado con cable de visualización (conectable al soporte de figuras)Un (1) gorro Kamen Rider Kid CorpsUn (1) collar Kamen Rider Kid CorpsSoporte especial para figuras con el logo Kamen Rider V3 y la placa del personaje"
           }
-        ]
+        ],
+        "id": "kamen-rider-v3"
       },
       {
         "n": "Battle Hopper",
@@ -11154,7 +11341,8 @@
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de Battle Hopper en la serie de televisión Kamen Rider BlackMuestra características específicas del Battle Hopper como el motor, el chasis, el escape y los soportes lateralesAproximadamente 36 cm de ancho x 14 cm de ancho x 21 cm de alturaDiseño exterior similar al de un saltamontes con antenas largas y patas de saltamontesFunción de iluminación LED en el faro (luz roja, alimentación USB accionada)Suspensión de muelles traserosLlantas giratorias con dibujos realistas y efectos de desgaste por la suciedadAplicaciones de pintura fina en un esquema de colores brillante verde, rojo y blancoBase de pantalla transparenteDimensionada para encajar con la figura coleccionable Kamen Rider Black Sixth Scale"
           }
-        ]
+        ],
+        "id": "battle-hopper"
       },
       {
         "n": "Joel Miller",
@@ -11206,7 +11394,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) reloj de pulseraUna (1) linternaUna (1) mochila marrón con efectos de desgaste y detalles de cinta americanaSoporte de figura especialmente diseñado con el logo de la serie de televisión y la placa del personaje"
           }
-        ]
+        ],
+        "id": "joel-miller-2"
       },
       {
         "n": "Knightfall Batman",
@@ -11258,7 +11447,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo del juego y la placa del personaje"
           }
-        ]
+        ],
+        "id": "knightfall-batman"
       },
       {
         "n": "Saesee Tiin",
@@ -11306,7 +11496,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) par de armaduras para antebrazosBase de figura especialmente diseñada con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "saesee-tiin"
       },
       {
         "n": "James Bond 007",
@@ -11354,7 +11545,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) pajaritaUna (1) férulaUn (1) relojUn (1) tubo para purosUn (1) fondo con temática de cañónSoporte para figuras especialmente diseñado con placa de personaje y dos (2) tarjetas gráficas intercambiables"
           }
-        ]
+        ],
+        "id": "james-bond-007"
       },
       {
         "n": "Yelena Belova",
@@ -11406,7 +11598,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo de Thunderbolts* y la placa del personaje"
           }
-        ]
+        ],
+        "id": "yelena-belova"
       },
       {
         "n": "Stitch",
@@ -11442,7 +11635,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) par de gafas de sol con montura rojaUn (1) collar de lei de flores hawaianasUn (1) par de brazaletes de nataciónUna base de figura especialmente diseñada con temática de arena de playa y logotipo de película"
           }
-        ]
+        ],
+        "id": "stitch"
       },
       {
         "n": "Obi-Wan Kenobi (EP II)",
@@ -11494,7 +11688,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) droide mensajeroUn (1) comunicadorDos (2) efectos de desviación de sables de luz (acoplables a la hoja del sable de luz)Soporte dinámico especialmente diseñado con tarjeta gráfica, logotipo de Star Wars y placa de personaje"
           }
-        ]
+        ],
+        "id": "obi-wan-kenobi-ep-ii"
       },
       {
         "n": "Darth Vader Deluxe",
@@ -11546,7 +11741,8 @@
             "t": "notion-bulleted-list",
             "x": "Dos (2) brazos mecánicos - Uno (1) para sujetar la cúpula del casco de Vader y otro (1) para sujetar la máscara facial de Vader (que se puede acoplar a la base del diorama de la mesa de operaciones)*Dos (2) droides articulados con soportes individuales (acoplables a brazos mecánicos)*Un soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje*Una base ambiental especialmente diseñada para girar (rotación hasta 90 grados) con temática de mesa de operación, con funciones LED de iluminación (luz blanca, alimentación USB*Exclusivo para versiones Deluxe"
           }
-        ]
+        ],
+        "id": "darth-vader-deluxe"
       },
       {
         "n": "Darth Vader",
@@ -11598,7 +11794,8 @@
             "t": "notion-bulleted-list",
             "x": "Base de figura temática de estación espacial con función de encendido de luz LED (luz blanca, alimentación USB)Fondo temático especialmente diseñado para estación espacial"
           }
-        ]
+        ],
+        "id": "darth-vader"
       },
       {
         "n": "Chopper (C1-10P™) & BD-1™ (Imperial Disguise)",
@@ -11638,7 +11835,8 @@
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de BD-1 en Star Wars™Estructura mecánica sofisticada con 8 puntos de articulaciónAproximadamente 8 cm de alturaCarrocería mecánica bellamente elaborada en negro y rojo inspirado en el ImperioDiseño mecánico de cuerpo altamente preciso, incluyendo lentes robóticas y detalles de cables"
           }
-        ]
+        ],
+        "id": "chopper-c1-10p-bd-1-imperial-disguise"
       },
       {
         "n": "Jar Jar Binks",
@@ -11690,7 +11888,8 @@
             "t": "notion-bulleted-list",
             "x": "Base de figura especialmente diseñada con temática del desierto con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "jar-jar-binks"
       },
       {
         "n": "Poe Dameron",
@@ -11746,7 +11945,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) par de guantes (no llevables)Un (1) juego de balasSoporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "poe-dameron"
       },
       {
         "n": "Darth Nihilus",
@@ -11798,7 +11998,8 @@
             "t": "notion-bulleted-list",
             "x": "Tres (3) efectos de rayo rojo (que se pueden colocar en los brazos)Dos (2) efectos de rayo de Fuerza en gradiente (rojo y morado) (que se pueden colocar en las manos)Un (1) soporte para figuras especialmente diseñado con placa de personaje y logo de Star Wars"
           }
-        ]
+        ],
+        "id": "darth-nihilus"
       },
       {
         "n": "Palpatine (Darth Sidious)",
@@ -11854,7 +12055,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) base de figura especialmente diseñada con placa de personaje y logotipo de Star Wars"
           }
-        ]
+        ],
+        "id": "palpatine-darth-sidious"
       },
       {
         "n": "Range Trooper",
@@ -11906,7 +12108,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "range-trooper"
       },
       {
         "n": "Scarecrow (2.0)",
@@ -11958,7 +12161,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) mascarilla de saco de arpillera (no ponible)Un (1) par de gafasUn (1) relojUna (1) placa de visitanteUna (1) maleta abribleUn (1) más ligeroUna (1) linternaUn (1) accesorio de efecto humo (que se puede acoplar a la muñeca)Base de figura para diorama de alcantarillado de ciudad especialmente diseñada con fondo de personajes"
           }
-        ]
+        ],
+        "id": "scarecrow-2-0"
       },
       {
         "n": "K-2SO",
@@ -11998,7 +12202,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo de Star Wars, placa de nombre de personaje y tarjeta gráfica"
           }
-        ]
+        ],
+        "id": "k-2so"
       },
       {
         "n": "Cassian Andor",
@@ -12050,7 +12255,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) comunicadorSoporte para figuras especialmente diseñado con placa de personaje y logo de Star Wars"
           }
-        ]
+        ],
+        "id": "cassian-andor"
       },
       {
         "n": "Daredevil",
@@ -12102,7 +12308,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) capucha dañada de DaredevilUn (1) par de gafas de solUn soporte temático con figuras y nombre de personaje"
           }
-        ]
+        ],
+        "id": "daredevil"
       },
       {
         "n": "Mr. Freeze",
@@ -12154,7 +12361,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) efecto de rayo congelante (acoplable a la pistola congelante)Un (1) par de gafasBase de figura de diorama con temática de entorno congelado especialmente diseñada y placa de nombre de personaje *Exclusivo de la versión Deluxe"
           }
-        ]
+        ],
+        "id": "mr-freeze"
       },
       {
         "n": "TIE Fighter Pilot",
@@ -12206,7 +12414,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) panel intercambiable para la armadura traseraSoporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "tie-fighter-pilot"
       },
       {
         "n": "Blade",
@@ -12254,7 +12463,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) par de gafas de solBase de diorama especialmente diseñada con temática rocosa y accesorio para gafas"
           }
-        ]
+        ],
+        "id": "blade"
       },
       {
         "n": "Red Hulk",
@@ -12294,7 +12504,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) pantalones cortos negros dañados en combate"
           }
-        ]
+        ],
+        "id": "red-hulk"
       },
       {
         "n": "Agent Venom",
@@ -12346,7 +12557,8 @@
             "t": "notion-bulleted-list",
             "x": "Cuatro (4) tentáculos (incrustados con alambre, que se pueden acoplar en la parte trasera)Cuatro (4) zarcillos de sostenimiento de cañón (incrustados con alambre, que se pueden acoplar en la parte trasera)Dos (2) cadenas de accesorios de correa de diferentes longitudes (incrustadas con alambre)Soporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
-        ]
+        ],
+        "id": "agent-venom"
       },
       {
         "n": "Seong Gi-hun",
@@ -12394,7 +12606,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) par de esposas para el tobilloUn (1) par de DdakjiUn (1) par de BiseokchigiUn (1) juego de piedras GonggiUn (1) volanteUna (1) trompa giratoria"
           }
-        ]
+        ],
+        "id": "seong-gi-hun"
       },
       {
         "n": "Captain America (Brave New World)",
@@ -12446,7 +12659,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) par de gafas de aviaciónUn (1) juego de alas mecánicas recién pintadas con articulaciones (abiertas hasta aproximadamente 80 cm de ancho)Un (1) zángan RedwingUn soporte dinámico especialmente diseñado con placa de personaje"
           }
-        ]
+        ],
+        "id": "captain-america-brave-new-world"
       },
       {
         "n": "Vi (Arcane)",
@@ -12498,7 +12712,8 @@
             "t": "notion-bulleted-list",
             "x": "Dos (2) pares de accesorios de efecto de ataque (que se pueden acoplar a guanteletes Hextech)Un (1) accesorio de efecto de destrozamiento (que se puede acoplar a guanteletes Hextech)Soporte para figuras especialmente diseñado con nombre de personaje"
           }
-        ]
+        ],
+        "id": "vi-arcane"
       },
       {
         "n": "Rain Carradine",
@@ -12546,7 +12761,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) accesorio articulado para facehuggerUn (1) relojUn (1) collar con colgante de dispositivo de reinicioUn (1) dispositivo de reinicio abiertoUn (1) chipBase de figura de diorama especialmente diseñada con restos de xenomorfos, dioramas, accesorios y placa de identificación de personajes"
           }
-        ]
+        ],
+        "id": "rain-carradine"
       },
       {
         "n": "Darth Malgus",
@@ -12598,7 +12814,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) accesorio de efecto de rayo de Fuerza (acoplable a las manos)Base circular de figura con iluminación LED temática ajustable (accionada por USB)"
           }
-        ]
+        ],
+        "id": "darth-malgus"
       },
       {
         "n": "Batman (Batman & Robin)",
@@ -12650,7 +12867,8 @@
             "t": "notion-bulleted-list",
             "x": "Una (1) tarjeta de crédito con el logo de BatmanSoporte para figuras especialmente diseñado con temática de película y placa de nombre de personaje"
           }
-        ]
+        ],
+        "id": "batman-batman-robin"
       },
       {
         "n": "Robin (Batman & Robin)",
@@ -12706,7 +12924,8 @@
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con temática de película y placa de nombre de personaje"
           }
-        ]
+        ],
+        "id": "robin-batman-robin"
       },
       {
         "n": "Plo Koon",
@@ -12770,7 +12989,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) par de armaduras para antebrazosUna (1) tarjeta gráfica temáticaBase de figura especialmente diseñada con el logo de Star Wars y la placa del personaje"
           }
-        ]
+        ],
+        "id": "plo-koon"
       },
       {
         "n": "Captain America (Stealth 2.0)",
@@ -12830,7 +13050,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) casco recién desarrollado del Capitán AméricaUn soporte magnético con el logo de S.H.I.E.L.D. con el nombre del personaje"
           }
-        ]
+        ],
+        "id": "captain-america-stealth-2-0"
       },
       {
         "n": "Scorched Xenomorph",
@@ -12862,7 +13083,8 @@
             "t": "notion-bulleted-list",
             "x": "Un (1) accesorio articulado para facehuggerBase de diorama especialmente diseñada con iluminación LED y temática de estación espacial, logotipo de película, placa de personaje y cuatro (4) accesorios (luz amarilla, alimentación USB)"
           }
-        ]
+        ],
+        "id": "scorched-xenomorph"
       },
       {
         "n": "Jinx (Arcane)",
@@ -12902,7 +13124,8 @@
             "t": "notion-bulleted-list",
             "x": "Uno (1) lanzacohetes FishbonesUna (1) minigun Pow-PowDos (2) pistolas (acoplables magnéticamente al cinturón)Una (1) granada Chomper"
           }
-        ]
+        ],
+        "id": "jinx-arcane"
       },
       {
         "n": "TK Stormtrooper™",
@@ -12970,7 +13193,8 @@
             "t": "notion-bulleted-list",
             "x": "Thermal detonator(acople magnético al cinturón)Dispositivo de respiracióncon tubos (acople magnético al pecho)Base especial conlogo Star Warsyplaca con nombre"
           }
-        ]
+        ],
+        "id": "tk-stormtrooper"
       },
       {
         "n": "Ficha estándar UV Store",
@@ -13042,7 +13266,8 @@
             "t": "notion-bulleted-list",
             "x": "Bio-maskBase temática de arena conlogo Predator: Badlandsyplaca con nombre"
           }
-        ]
+        ],
+        "id": "ficha-estandar-uv-store"
       },
       {
         "n": "Kamen Rider Amazon",
@@ -13094,7 +13319,8 @@
             "t": "notion-bulleted-list",
             "x": "Escala:1:6Altura:30 cm (11.81\")"
           }
-        ]
+        ],
+        "id": "kamen-rider-amazon"
       },
       {
         "n": "Mister Sinister Limited Edition",
@@ -13150,7 +13376,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas de X-Men que buscan una versión animada, estilizada y limitada de uno de los villanos más icónicos del universo mutante."
           }
-        ]
+        ],
+        "id": "mister-sinister-limited-edition"
       },
       {
         "n": "Batman (The Animated Series)",
@@ -13198,7 +13425,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas del Batman animado, ideal para quienes buscan nostalgia, estilo clásico y una presentación premium en escala 1:6."
           }
-        ]
+        ],
+        "id": "batman-the-animated-series"
       },
       {
         "n": "Superman (The Animated Series)",
@@ -13242,7 +13470,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas del universo animado de DC, ideal para acompañar a Batman de la misma línea y recrear la estética icónica de las series clásicas."
           }
-        ]
+        ],
+        "id": "superman-the-animated-series"
       },
       {
         "n": "The Crow – Eric Draven (Edición Estándar)",
@@ -13294,7 +13523,8 @@
             "t": "notion-text",
             "x": "Una pieza de colección concebida como obra de arte, ideal para quienes buscan una representación definitiva y premium de Eric Draven en escala 1:6."
           }
-        ]
+        ],
+        "id": "the-crow-eric-draven-edicion-estandar"
       },
       {
         "n": "The Crow – Eric Draven (Deluxe Edition)",
@@ -13346,7 +13576,8 @@
             "t": "notion-text",
             "x": "Una edición superior que combina implantación de cabello real y materiales auténticos para ofrecer la representación más impactante y detallada de Eric Draven en escala 1:6. Ideal para coleccionistas que buscan una pieza verdaderamente exclusiva y artística."
           }
-        ]
+        ],
+        "id": "the-crow-eric-draven-deluxe-edition"
       },
       {
         "n": "The Crow – Eric Draven (Deluxe Gold Edition)",
@@ -13398,7 +13629,8 @@
             "t": "notion-text",
             "x": "La versión más completa y elaborada de Eric Draven en escala 1:6, ideal para coleccionistas que buscan una pieza artística de alto nivel con diorama y accesorios exclusivos."
           }
-        ]
+        ],
+        "id": "the-crow-eric-draven-deluxe-gold-edition"
       },
       {
         "n": "Ash Williams",
@@ -13454,7 +13686,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas de cine de horror, ideal para recrear el espíritu irreverente y brutal de Ash Williams en escala 1:6."
           }
-        ]
+        ],
+        "id": "ash-williams"
       },
       {
         "n": "Catwoman (Batman 1966 TV Series) – Standard Edition",
@@ -13510,7 +13743,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas del Batman clásico que buscan una representación auténtica y elegante de la Catwoman más icónica de la televisión."
           }
-        ]
+        ],
+        "id": "catwoman-batman-1966-tv-series-standard-edition"
       },
       {
         "n": "Catwoman (Julie Newmar) – Deluxe Edition",
@@ -13562,7 +13796,8 @@
             "t": "notion-text",
             "x": "Una versión definitiva para el verdadero coleccionista del Batman clásico de 1966."
           }
-        ]
+        ],
+        "id": "catwoman-julie-newmar-deluxe-edition"
       },
       {
         "n": "Catwoman (Basic Clean) – 1992",
@@ -13602,7 +13837,8 @@
             "t": "notion-text",
             "x": "Una versión limpia y elegante del traje más icónico de Catwoman en cine, ideal para coleccionistas que buscan una representación fiel y minimalista del clásico de 1992."
           }
-        ]
+        ],
+        "id": "catwoman-basic-clean-1992"
       }
     ]
   },
@@ -13759,7 +13995,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T11:14:55.315743"
+        "added_at": "2026-03-28T11:14:55.315743",
+        "id": "gandalf-1-3-scale-statue"
       },
       {
         "n": "Majin Vegeta",
@@ -13903,7 +14140,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T11:11:19.294696"
+        "added_at": "2026-03-28T11:11:19.294696",
+        "id": "majin-vegeta"
       },
       {
         "n": "Doom Slayer",
@@ -14039,7 +14277,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T10:58:29.862282"
+        "added_at": "2026-03-28T10:58:29.862282",
+        "id": "doom-slayer"
       },
       {
         "n": "Vulture",
@@ -14175,7 +14414,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:29:00.155828"
+        "added_at": "2026-03-28T00:29:00.155828",
+        "id": "vulture"
       },
       {
         "n": "Donatello Unleashed",
@@ -14315,7 +14555,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:28:10.252947"
+        "added_at": "2026-03-28T00:28:10.252947",
+        "id": "donatello-unleashed"
       },
       {
         "n": "Han Solo",
@@ -14455,7 +14696,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:27:13.239506"
+        "added_at": "2026-03-28T00:27:13.239506",
+        "id": "han-solo"
       },
       {
         "n": "Kobra Khan",
@@ -14591,7 +14833,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:26:22.343922"
+        "added_at": "2026-03-28T00:26:22.343922",
+        "id": "kobra-khan"
       },
       {
         "n": "Liliana Vess",
@@ -14727,7 +14970,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:25:02.507436"
+        "added_at": "2026-03-28T00:25:02.507436",
+        "id": "liliana-vess"
       },
       {
         "n": "Shao Khan, Emperor of Outworld",
@@ -14867,7 +15111,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:22:35.766335"
+        "added_at": "2026-03-28T00:22:35.766335",
+        "id": "shao-khan-emperor-of-outworld"
       },
       {
         "n": "The Incredibles",
@@ -15023,7 +15268,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:21:31.510023"
+        "added_at": "2026-03-28T00:21:31.510023",
+        "id": "the-incredibles"
       },
       {
         "n": "Sally Whitemane",
@@ -15179,7 +15425,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T00:18:41.368515"
+        "added_at": "2026-03-28T00:18:41.368515",
+        "id": "sally-whitemane"
       },
       {
         "n": "Gemini Saga",
@@ -15314,7 +15561,8 @@
         ],
         "yt": "",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "gemini-saga"
       },
       {
         "n": "Nazgûl King Art Mask",
@@ -15461,7 +15709,8 @@
         ],
         "yt": "",
         "destacado": false,
-        "oferta": false
+        "oferta": false,
+        "id": "nazgul-king-art-mask"
       },
       {
         "n": "He-Man & Battle Cat",
@@ -15517,7 +15766,8 @@
             "t": "notion-text",
             "x": "Espada apuntando hacia arriba Tamaño: H 124cm x An 65cm x D 63cm"
           }
-        ]
+        ],
+        "id": "he-man-battle-cat"
       },
       {
         "n": "Jinx Quarter Scale",
@@ -15532,7 +15782,8 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "content": []
+        "content": [],
+        "id": "jinx-quarter-scale"
       },
       {
         "n": "Gon Freecss – King Bust",
@@ -15576,7 +15827,8 @@
             "t": "notion-bulleted-list",
             "x": "Altura:20 cm (7.8\")Ancho:16 cm (6.3\")Profundidad:16 cm (6.3\")Peso aproximado:3 kg (6.6 lbs)"
           }
-        ]
+        ],
+        "id": "gon-freecss-king-bust"
       },
       {
         "n": "Lucy MacLean (Bonus Version)",
@@ -15591,7 +15843,8 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "content": []
+        "content": [],
+        "id": "lucy-maclean-bonus-version"
       },
       {
         "n": "Varian Wrynn – Hearthstone",
@@ -15663,7 +15916,8 @@
             "t": "notion-bulleted-list",
             "x": "Altura: 52cmAncho: 36cmProfundidad: 46cm"
           }
-        ]
+        ],
+        "id": "varian-wrynn-hearthstone"
       },
       {
         "n": "Satoru Gojo (Hollow Technique: Purple Version)",
@@ -15707,7 +15961,8 @@
             "t": "notion-bulleted-list",
             "x": "Altura:26 cm (10.4\")Ancho:25 cm (9.8\")Profundidad:21 cm (8.2\")"
           }
-        ]
+        ],
+        "id": "satoru-gojo-hollow-technique-purple-version"
       },
       {
         "n": "Aquaman™: Lord of the Deep",
@@ -15767,7 +16022,8 @@
             "t": "notion-bulleted-list",
             "x": "Altura:74 cm (29\")Ancho:41 cm (16\")Profundidad:39 cm (15.3\")"
           }
-        ]
+        ],
+        "id": "aquaman-lord-of-the-deep"
       },
       {
         "n": "Sagat & Juli – Street Jam",
@@ -15827,7 +16083,8 @@
             "t": "notion-bulleted-list",
             "x": "Altura:18 cm (7\")Ancho:6 cm (2.5\")Profundidad:6 cm (2.5\")"
           }
-        ]
+        ],
+        "id": "sagat-juli-street-jam"
       },
       {
         "n": "Ultramarines Captain MkX Helmet and Display Stand",
@@ -15875,7 +16132,8 @@
             "t": "notion-text",
             "x": "Una pieza ideal para coleccionistas de Warhammer 40K que buscan una réplica de alto impacto visual, perfecta para exhibición premium en showroom o colección personal."
           }
-        ]
+        ],
+        "id": "ultramarines-captain-mkx-helmet-and-display-stand"
       },
       {
         "n": "Raphael Unleashed",
@@ -15919,7 +16177,8 @@
             "t": "notion-text",
             "x": "Una pieza ideal para coleccionistas de Teenage Mutant Ninja Turtles que buscan una representación poderosa y llena de actitud para su exhibición."
           }
-        ]
+        ],
+        "id": "raphael-unleashed"
       },
       {
         "n": "Eren Yeager",
@@ -15963,7 +16222,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas de anime que buscan una representación poderosa y dinámica de uno de los protagonistas más icónicos deAttack on Titan."
           }
-        ]
+        ],
+        "id": "eren-yeager"
       },
       {
         "n": "Darth Vader (Original Samurai Concept)",
@@ -16023,7 +16283,8 @@
             "t": "notion-text",
             "x": "Una pieza conceptual y elegante, ideal para coleccionistas que valoran diseño, historia e interpretación artística dentro del universo Star Wars."
           }
-        ]
+        ],
+        "id": "darth-vader-original-samurai-concept"
       },
       {
         "n": "Loki Laufeyson",
@@ -16083,7 +16344,8 @@
             "t": "notion-text",
             "x": "Una pieza ideal para coleccionistas de Marvel que buscan incorporar al Dios del Engaño en una versión clásica y elegante dentro de su vitrina premium."
           }
-        ]
+        ],
+        "id": "loki-laufeyson"
       },
       {
         "n": "Cyclops",
@@ -16143,7 +16405,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas de X-Men que buscan una representación clásica y dominante de Cyclops dentro de su vitrina Marvel."
           }
-        ]
+        ],
+        "id": "cyclops"
       },
       {
         "n": "Apollo 11 Astronaut",
@@ -16199,7 +16462,8 @@
             "t": "notion-text",
             "x": "Una pieza imponente en cuarto de escala, ideal para vitrinas premium y colecciones que trascienden la cultura pop hacia hitos históricos reales."
           }
-        ]
+        ],
+        "id": "apollo-11-astronaut"
       },
       {
         "n": "Maleficent",
@@ -16255,7 +16519,8 @@
             "t": "notion-text",
             "x": "Una pieza de gran presencia visual, ideal para coleccionistas Disney que buscan una representación elegante y poderosa de una de las villanas más emblemáticas de la animación."
           }
-        ]
+        ],
+        "id": "maleficent"
       },
       {
         "n": "Ellen Ripley and Dog Alien",
@@ -16315,7 +16580,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas de la saga Alien que buscan representar uno de los momentos más tensos y memorables del cine de ciencia ficción."
           }
-        ]
+        ],
+        "id": "ellen-ripley-and-dog-alien"
       },
       {
         "n": "Greyback (Elder Predator)",
@@ -16371,7 +16637,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas de la saga Predator que buscan incorporar a su vitrina una de las figuras más emblemáticas del clan Yautja."
           }
-        ]
+        ],
+        "id": "greyback-elder-predator"
       },
       {
         "n": "Batgirl™ (Stephanie Brown Variant)",
@@ -16435,7 +16702,8 @@
             "t": "notion-text",
             "x": "Una pieza de alto impacto visual y narrativa, ideal como centro de vitrina para coleccionistas de DC Comics y la línea Premium Format™."
           }
-        ]
+        ],
+        "id": "batgirl-stephanie-brown-variant"
       },
       {
         "n": "Mai Shiranui (Ultimate Bonus Version)",
@@ -16487,7 +16755,8 @@
             "t": "notion-text",
             "x": "Una pieza de alto nivel dentro del coleccionismo de videojuegos, ideal para vitrinas premium donde se busque presencia, dinamismo y acabado de museo."
           }
-        ]
+        ],
+        "id": "mai-shiranui-ultimate-bonus-version"
       },
       {
         "n": "Tony Tony Chopper (Fish-Man Island)",
@@ -16551,7 +16820,8 @@
             "t": "notion-text",
             "x": "Una pieza dinámica y colorida, ideal para coleccionistas de One Piece que buscan una representación detallada y con fuerte narrativa visual dentro de su vitrina premium."
           }
-        ]
+        ],
+        "id": "tony-tony-chopper-fish-man-island"
       },
       {
         "n": "Marcus Fenix (Ultimate Bonus Version)",
@@ -16607,7 +16877,8 @@
             "t": "notion-text",
             "x": "Una pieza de escala monumental, diseñada para coleccionistas que buscan impacto absoluto, realismo extremo y presencia de museo dentro del universo Gears of War."
           }
-        ]
+        ],
+        "id": "marcus-fenix-ultimate-bonus-version"
       },
       {
         "n": "Han Solo™: Sorry About the Mess",
@@ -16679,7 +16950,8 @@
             "t": "notion-text",
             "x": "Una pieza narrativa y cinematográfica, ideal para coleccionistas de Star Wars que buscan capturar el momento que definió a uno de los personajes más icónicos de la saga."
           }
-        ]
+        ],
+        "id": "han-solo-sorry-about-the-mess"
       },
       {
         "n": "Jennifer’s Body",
@@ -16731,7 +17003,8 @@
             "t": "notion-text",
             "x": "Una pieza llamativa y temática, ideal para coleccionistas de cine de culto y horror que buscan una estatua con fuerte presencia visual y carga narrativa."
           }
-        ]
+        ],
+        "id": "jennifer-s-body"
       },
       {
         "n": "MR. SINISTER CLASSIC",
@@ -16787,7 +17060,8 @@
             "t": "notion-text",
             "x": "Una estatua de gran escala y carácter imponente, ideal para coleccionistas que buscan una representación clásica y dominante de Mr. Sinister en formato de exhibición premium."
           }
-        ]
+        ],
+        "id": "mr-sinister-classic"
       },
       {
         "n": "Levi Ackerman",
@@ -16831,7 +17105,8 @@
             "t": "notion-bulleted-list",
             "x": "Figura de Levi AckermanBase de exhibiciónCabeza alterna con efecto de sangreSoporte para head sculpt"
           }
-        ]
+        ],
+        "id": "levi-ackerman"
       },
       {
         "n": "Super Saiyan Goku",
@@ -16875,7 +17150,8 @@
             "t": "notion-bulleted-list",
             "x": "Estatua SSJ GokuCabeza extra con soporteSistema de iluminación LED"
           }
-        ]
+        ],
+        "id": "super-saiyan-goku"
       },
       {
         "n": "Kid Goku",
@@ -16923,7 +17199,8 @@
             "t": "notion-text",
             "x": "Una pieza ideal para coleccionistas de Dragon Ball clásico que valoran ediciones limitadas y representaciones fieles del Goku en su etapa más icónica y nostálgica."
           }
-        ]
+        ],
+        "id": "kid-goku"
       }
     ]
   },
@@ -16988,7 +17265,8 @@
             "t": "notion-text",
             "x": "Una réplica llamativa y divertida para fans deTMNT, perfecta para complementar colecciones dedicadas al universo de las Tortugas Ninja y sus villanos clásicos."
           }
-        ]
+        ],
+        "id": "krang"
       },
       {
         "n": "DLX Iron Man Mark 7 (Battle Damaged)",
@@ -17044,7 +17322,8 @@
             "t": "notion-text",
             "x": "Una versión compacta pero altamente articulada y detallada de la Mark 7, ideal para coleccionistas que buscan calidad die-cast, iluminación y acabado battle-damaged en formato DLX."
           }
-        ]
+        ],
+        "id": "dlx-iron-man-mark-7-battle-damaged"
       },
       {
         "n": "Wolverine (Gamerverse)",
@@ -17092,7 +17371,8 @@
             "t": "notion-text",
             "x": "Ideal para coleccionistas de X-Men y figuras articuladas de alta movilidad, perfecta para recrear escenas de acción intensas en formato compacto."
           }
-        ]
+        ],
+        "id": "wolverine-gamerverse"
       },
       {
         "n": "Kamen Rider Black RX",
@@ -17140,7 +17420,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para coleccionistas de Kamen Rider que buscan máxima autenticidad, articulación superior y acabados premium en formato compacto."
           }
-        ]
+        ],
+        "id": "kamen-rider-black-rx"
       },
       {
         "n": "Madara Uchiha – Legend of Darkness",
@@ -17184,7 +17465,8 @@
             "t": "notion-text",
             "x": "Una pieza esencial para coleccionistas de Naruto que buscan una versión actualizada y altamente posable de uno de los antagonistas más icónicos del anime."
           }
-        ]
+        ],
+        "id": "madara-uchiha-legend-of-darkness"
       },
       {
         "n": "Beavis and Butt-Head",
@@ -17199,7 +17481,8 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "content": []
+        "content": [],
+        "id": "beavis-and-butt-head"
       },
       {
         "n": "Skeletor MOTU200X",
@@ -17247,7 +17530,8 @@
             "t": "notion-text",
             "x": "Una pieza imprescindible para fans de Masters of the Universe que buscan una versión moderna, estilizada y altamente articulada del villano más icónico de Eternia."
           }
-        ]
+        ],
+        "id": "skeletor-motu200x"
       },
       {
         "n": "He-Man MOTU200x",
@@ -17295,7 +17579,8 @@
             "t": "notion-text",
             "x": "Una pieza esencial para coleccionistas de Masters of the Universe que buscan una versión moderna, poderosa y altamente posable del héroe clásico de Eternia."
           }
-        ]
+        ],
+        "id": "he-man-motu200x"
       },
       {
         "n": "Going Merry – Memories of the Journey",
@@ -17351,7 +17636,8 @@
             "t": "notion-text",
             "x": "Una pieza pequeña en escala pero grande en significado, ideal para fans de One Piece que quieran capturar uno de los momentos más icónicos y sentimentales de la serie dentro de su colección."
           }
-        ]
+        ],
+        "id": "going-merry-memories-of-the-journey"
       },
       {
         "n": "Springfield (Queen in Radiance Version)",
@@ -17415,7 +17701,8 @@
             "t": "notion-text",
             "x": "Una pieza sofisticada y visualmente llamativa, ideal para coleccionistas de Girls’ Frontline que buscan una figura elegante con presencia destacada en vitrina."
           }
-        ]
+        ],
+        "id": "springfield-queen-in-radiance-version"
       }
     ]
   }
