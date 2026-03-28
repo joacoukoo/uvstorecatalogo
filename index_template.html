@@ -404,6 +404,8 @@ body::after{
 .modal-prop-value.stock{color:var(--green)}
 .modal-prop-value.preorder{color:var(--amber)}
 .modal-divider{border:none;border-top:1px solid var(--border);margin:18px 0}
+#modal-yt{margin-top:18px}
+#modal-yt iframe{width:100%;aspect-ratio:16/9;border:none;border-radius:10px;display:block}
 .modal-desc{font-size:13px;line-height:1.75;color:var(--muted2);margin-bottom:8px}
 .modal-desc-title{
   font-family:"Syne",sans-serif;
@@ -697,6 +699,7 @@ body::after{
       </div>
       <hr class="modal-divider">
       <div id="modal-content"></div>
+      <div id="modal-yt"></div>
     </div>
   </div>
 </div>
@@ -1117,6 +1120,11 @@ function openModal(p,cat){
       contentEl.appendChild(el);
     });
   }
+  var ytEl=document.getElementById("modal-yt");ytEl.innerHTML="";
+  if(p.yt){
+    var ytId=p.yt.match(/(?:youtu\.be\/|[?&]v=|\/embed\/)([A-Za-z0-9_\-]{11})/);
+    if(ytId){ytEl.innerHTML="<iframe src='https://www.youtube.com/embed/"+ytId[1]+"?rel=0' allowfullscreen loading='lazy'></iframe>";}
+  }
   var figId=p.id||(p.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
   _currentFigId=figId;
   history.pushState({_uvNav:true,_openedFromNav:_uvOpenedFromNav},null,location.pathname+"#figura/"+encodeURIComponent(figId));
@@ -1131,6 +1139,7 @@ function closeModal(){
   var m=document.getElementById("modal");
   m.classList.remove("open");
   document.body.style.overflow="";
+  document.getElementById("modal-yt").innerHTML="";
   var openedFromNav=history.state&&history.state._openedFromNav;
   if(openedFromNav){
     history.back();
