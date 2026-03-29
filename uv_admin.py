@@ -37,15 +37,17 @@ CONFIG_FILE   = Path(__file__).parent / "uv_config.json"
 
 CAT_KEYS = [
     "Entrega Inmediata",
-    "Hot Toys · Pre-Órdenes",
+    "Hot Toys 1:6",
     "Estatuas Premium",
-    "Escalas 1:12 y Otros",
+    "Otras Figuras",
+    "Adultos",
 ]
 CAT_DISP = {
-    "Entrega Inmediata":     "Entrega Inmediata",
-    "Hot Toys · Pre-Órdenes": "Pre Orden",
-    "Estatuas Premium":      "Pre Orden",
-    "Escalas 1:12 y Otros":  "Pre Orden",
+    "Entrega Inmediata": "Entrega Inmediata",
+    "Hot Toys 1:6":      "Pre Orden",
+    "Estatuas Premium":  "Pre Orden",
+    "Otras Figuras":     "Pre Orden",
+    "Adultos":           "Pre Orden",
 }
 WA_NUMBER = "50230261622"
 
@@ -57,9 +59,9 @@ HEADERS = {
 
 PROVIDER_PLATFORMS = {
     "sideshow.com":          "sideshow",
-    "nonasea.com":           "shopify",
+    "nonasea.com":           "spa",
     "lionrocktoyz.com":      "shopify",
-    "fanaticanimestore.com": "shopify",
+    "fanaticanimestore.com": "bigcommerce",
     "statuecorp.com":        "shopify",
     "tnsfigures.com":        "shopify",
     "mondoshop.com":         "shopify",
@@ -127,7 +129,7 @@ def git_deploy(repo_path, commit_msg="Update catalog", status_cb=None):
         
         # git add — include all relevant files
         r = subprocess.run(
-            ["git", "add", "index.html", "productos.json", "index_template.html", "functions/"],
+            ["git", "add", "index.html", "productos.json", "index_template.html", "functions/", "assets/"],
             cwd=cwd, capture_output=True, text=True)
         if r.returncode != 0:
             return False, f"git add falló: {r.stderr}"
@@ -229,7 +231,7 @@ def scrape_shopify(url, html, soup):
                 if len(items) > 2: features = items[:20]; break
             for img in data.get("images", [])[:8]:
                 src = img.get("src","")
-                if src: photos.append(re.sub(r'_\d+x\d+(\.\w+)$', r'\1', src))
+                if src: photos.append(re.sub(r'_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$', r'\1', src))
             variants = data.get("variants", [])
             if variants:
                 p = variants[0].get("price","")
@@ -316,6 +318,40 @@ def scrape_woocommerce(url, html, soup):
         m = re.search(r'[\d,]+\.?\d*', price_el.get_text())
         if m: price = m.group().replace(",","")
     return _build_result(_get_name(soup), _get_desc(soup), _get_features(soup), photos[:8], _get_escala(html), _get_marca(_get_name(soup), html, urlparse(url).netloc), price, url)
+
+def scrape_bigcommerce(url, html, soup):
+    photos = []; seen = set()
+    for img in soup.find_all("img"):
+        for attr in ["data-zoom-image", "data-src", "src"]:
+            src = img.get(attr, "")
+            if not src: continue
+            if not src.startswith("http"): src = urljoin(url, src)
+            # Solo URLs de CDN de BigCommerce (cdn*.bigcommerce.com), no tracking pixels
+            if not re.search(r'cdn\d*\.bigcommerce\.com', src): continue
+            # Upscale cualquier thumbnail stencil a 1280x1280
+            src = re.sub(r'stencil/\d+x\d+/', 'stencil/1280x1280/', src)
+            if src not in seen:
+                seen.add(src); photos.append(src)
+            if len(photos) >= 8: break
+        if len(photos) >= 8: break
+    if not photos: photos = _get_photos_generic(url, soup, html)
+    name, desc, price = "", "", ""
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            d = json.loads(script.string or "{}")
+            if d.get("@type") == "Product":
+                name = name or d.get("name", "")
+                desc = desc or d.get("description", "")
+                offers = d.get("offers", {})
+                if isinstance(offers, list): offers = offers[0] if offers else {}
+                price = price or str(offers.get("price", ""))
+        except: pass
+    if not name: name = _get_name(soup)
+    if not desc: desc = _get_desc(soup)
+    features = _get_features(soup)
+    escala = _get_escala(html)
+    marca = _get_marca(name, html, urlparse(url).netloc, features)
+    return _build_result(name, desc, features, photos[:8], escala, marca, price, url)
 
 def scrape_generic(url, html, soup):
     name, desc, photos, price = "", "", [], ""
@@ -431,14 +467,16 @@ def scrape_url(url, translate=True, status_cb=None):
     html = r.text; soup = BeautifulSoup(html, "html.parser")
     platform = detect_platform(url, html)
     log(f"Plataforma: {platform}")
-    scrapers = {"shopify":scrape_shopify,"sideshow":scrape_sideshow,"opencart":scrape_opencart,"woocommerce":scrape_woocommerce,"generic":scrape_generic}
+    if platform == "spa":
+        raise ValueError("Esta tienda carga sus productos con JavaScript (SPA). El scraper automático no puede leerla. Copiá los datos manualmente o usá la URL directa de la imagen del producto.")
+    scrapers = {"shopify":scrape_shopify,"sideshow":scrape_sideshow,"opencart":scrape_opencart,"woocommerce":scrape_woocommerce,"bigcommerce":scrape_bigcommerce,"generic":scrape_generic}
     data = scrapers.get(platform, scrape_generic)(url, html, soup)
     if not data["fotos"]: data["fotos"] = _get_photos_generic(url, soup, html)
     if translate and data.get("descripcion"):
         log("Traduciendo..."); data["descripcion"] = translate_es(data["descripcion"])
         if data.get("features"): data["features"] = translate_list(data["features"])
         data["traducido"] = True
-    log(f"✅ {len(data['fotos'])} fotos — {platform}")
+    log(f"OK {len(data['fotos'])} fotos — {platform}")
     return data
 
 # ─── CATALOG HELPERS ──────────────────────────────────────────────────────────
@@ -541,6 +579,48 @@ def add_product(path, data, categoria, precio, precio_d, reserva, entrega, canti
     save_catalog(path, catalog)
     return p
 
+def _call_claude(api_key, prompt, foto_url=None):
+    """Llama a Claude Haiku. Si foto_url está dado, intenta con visión; si falla, reintenta sin imagen."""
+    system_prompt = (
+        "Eres un asistente que responde ÚNICAMENTE con JSON válido. "
+        "Nunca agregues texto explicativo, nunca te niegues, nunca uses markdown. "
+        "Si los datos son escasos, inventa contenido plausible basado en el nombre del producto. "
+        "Tu respuesta debe comenzar con '[' y terminar con ']'."
+    )
+
+    def _make_messages(with_img):
+        if with_img and foto_url:
+            return [{"role": "user", "content": [
+                {"type": "image", "source": {"type": "url", "url": foto_url}},
+                {"type": "text", "text": prompt},
+            ]}]
+        return [{"role": "user", "content": prompt}]
+    attempts = [True, False] if foto_url else [False]
+    last_err = None
+    for use_img in attempts:
+        try:
+            r = requests.post(
+                "https://api.anthropic.com/v1/messages",
+                headers={"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+                json={"model": "claude-haiku-4-5-20251001", "max_tokens": 2400, "system": system_prompt, "messages": _make_messages(use_img)},
+                timeout=40,
+            )
+            r.raise_for_status()
+            rj = r.json()
+            if not rj.get("content"):
+                raise ValueError(f"Claude devolvio content vacio. stop_reason={rj.get('stop_reason')}")
+            text = rj["content"][0]["text"].strip()
+            if not text:
+                raise ValueError(f"Claude devolvio texto vacio. stop_reason={rj.get('stop_reason')}")
+            m = re.search(r'\[[\s\S]*\]', text)
+            return json.loads(m.group() if m else text)
+        except Exception as e:
+            last_err = e
+            if not use_img:
+                raise last_err
+    raise last_err
+
+
 def generate_ai_description(data, api_key):
     """Llama a Claude Haiku y devuelve una lista de content blocks estructurados."""
     source_domain = urlparse(data.get('url_origen','')).netloc.replace('www.','')
@@ -549,6 +629,27 @@ def generate_ai_description(data, api_key):
         f"El fabricante real puede aparecer en las características como 'Brand:' o 'Manufacturer:'. "
         f"No uses '{source_domain}' como fabricante en ningún campo.\n"
     ) if source_domain and source_domain not in ("", data.get('marca','').lower()) else ""
+
+    desc_scrapeada = data.get('descripcion','').strip()
+    features = data.get('features',[])
+    fotos = data.get('fotos') or ([data['i']] if data.get('i') else [])
+    is_sparse = len(desc_scrapeada) < 100 and len(features) < 3
+    foto_url = next((f for f in fotos if isinstance(f, str) and f.startswith('http')), None)
+    use_vision = is_sparse and foto_url is not None
+
+    if is_sparse:
+        invent_rule = (
+            "- La página de origen tiene poco texto. DEBES generar la descripción de todas formas. "
+            "Usá el nombre del personaje, el fabricante, la franquicia y " +
+            ("la imagen adjunta" if use_vision else "tu conocimiento general del personaje/franquicia") +
+            " para escribir contenido atractivo. Para specs que no tenés (altura, materiales), "
+            "omití esos bullets específicos pero completá los párrafos narrativos y las secciones "
+            "que sí podés inferir (Línea, Fabricante, Tipo, Género). NUNCA respondas con texto "
+            "explicativo — solo el JSON array."
+        )
+    else:
+        invent_rule = "- No inventes datos específicos (altura exacta, materiales) si no están en la info"
+
     prompt = (
         "Sos redactor para UV Store GT, tienda guatemalteca de coleccionables premium.\n"
         "Generá una descripción profesional en español para esta figura.\n"
@@ -557,10 +658,10 @@ def generate_ai_description(data, api_key):
         f"Nombre: {data.get('nombre','')}\n"
         f"Fabricante detectado: {data.get('marca','') or '(buscar en características)'}\n"
         f"Escala: {data.get('escala','')}\n"
-        f"Descripción scrapeada: {data.get('descripcion','')[:800]}\n"
+        f"Descripción scrapeada: {desc_scrapeada[:800]}\n"
         f"Franquicia/universo: {data.get('franquicia','')}\n\n"
         f"Características/specs scrapeadas (LEER COMPLETO — accesorios, vestuario, manos, display están acá):\n"
-        + "\n".join(f"  {i+1}. {f}" for i,f in enumerate(data.get('features',[])[:40]))
+        + "\n".join(f"  {i+1}. {f}" for i,f in enumerate(features[:40]))
         + "\n\n"
         "Devolvé SOLO un JSON array con bloques de contenido. Formato exacto:\n"
         '[\n'
@@ -596,27 +697,93 @@ def generate_ai_description(data, api_key):
         "  que aparezcan en las características. No omitir ninguno. Si el scrape tiene sub-categorías\n"
         "  (Vestuario, Accesorios, Manos, Display) conservalas como bullets separados con ese prefijo.\n"
         "- Características: 5-7 bullets con lo más destacado de la pieza\n"
-        "- No inventes datos específicos (altura exacta, materiales) si no están en la info\n"
+        f"{invent_rule}\n"
         "- Respondé SOLO con el JSON array, sin markdown, sin texto adicional"
     )
-    r = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": "claude-haiku-4-5-20251001",
-            "max_tokens": 2400,
-            "messages": [{"role": "user", "content": prompt}],
-        },
-        timeout=40,
-    )
-    r.raise_for_status()
-    text = r.json()["content"][0]["text"].strip()
-    m = re.search(r'\[[\s\S]*\]', text)
-    return json.loads(m.group() if m else text)
+    return _call_claude(api_key, prompt, foto_url if use_vision else None)
+
+
+def try_scrape_listing(url):
+    """Detecta si la URL es una página de catálogo/listado y devuelve lista de productos, o None."""
+    parsed = urlparse(url)
+    # Intento 1: API JSON directa (nonasea y similares con DRF/REST)
+    try:
+        r = requests.get(url, headers={**HEADERS, "Accept": "application/json"}, timeout=10)
+        if r.status_code == 200 and "json" in r.headers.get("content-type", ""):
+            data = r.json()
+            items = data.get("results") or data.get("products") or []
+            if isinstance(items, list) and len(items) > 1:
+                products = []
+                for item in items[:40]:
+                    title = item.get("name") or item.get("title") or item.get("product_name", "?")
+                    handle = item.get("handle") or item.get("slug") or str(item.get("id", ""))
+                    img = ""
+                    imgs = item.get("images", [])
+                    if imgs:
+                        first = imgs[0]
+                        img = first.get("src", first) if isinstance(first, dict) else str(first)
+                    elif item.get("image"):
+                        img_field = item["image"]
+                        img = img_field.get("src", "") if isinstance(img_field, dict) else str(img_field)
+                    # Build product URL — nonasea usa /mall/{slug}
+                    if "nonasea" in parsed.netloc:
+                        prod_url = f"{parsed.scheme}://{parsed.netloc}/mall/{handle}"
+                    else:
+                        prod_url = f"{parsed.scheme}://{parsed.netloc}/products/{handle}"
+                    if handle:
+                        products.append({"title": title, "url": prod_url, "image": img})
+                if products:
+                    return products
+    except Exception:
+        pass
+    # Intento 2: Shopify collection .../products.json
+    try:
+        col_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path.rstrip('/')}/products.json?limit=40"
+        r = requests.get(col_url, headers=HEADERS, timeout=10)
+        if r.status_code == 200:
+            items = r.json().get("products", [])
+            if len(items) > 1:
+                return [{"title": p["title"],
+                         "url": f"{parsed.scheme}://{parsed.netloc}/products/{p['handle']}",
+                         "image": p["images"][0]["src"] if p.get("images") else ""}
+                        for p in items[:40]]
+    except Exception:
+        pass
+    # Intento 3: BigCommerce — extraer links de productos del HTML
+    # Solo si el path tiene 2+ segmentos (categoría), no para páginas de producto (1 segmento)
+    path_segs = [p for p in parsed.path.split("/") if p]
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        if len(path_segs) >= 2 and "bigcommerce" in r.text[:8000].lower():
+            from bs4 import BeautifulSoup as _BS
+            _soup = _BS(r.text, "html.parser")
+            base = f"{parsed.scheme}://{parsed.netloc}/"
+            skip = {"contact","about","shipping","policy","faq","terms","cart","login",
+                    "looking","blog","account","categories","products","shop-all","wishlist"}
+            seen_u = set(); products = []
+            for a in _soup.find_all("a", href=True):
+                h = a["href"]
+                if not h.startswith(base): continue
+                path = h[len(base):].strip("/")
+                if "/" in path or len(path) < 8: continue
+                if any(s in path for s in skip): continue
+                if h not in seen_u:
+                    seen_u.add(h)
+                    label = a.get_text(strip=True)
+                    img_tag = a.find("img")
+                    img = ""
+                    if img_tag:
+                        src = img_tag.get("src","")
+                        if "bigcommerce" in src:
+                            img = re.sub(r'stencil/\d+x\d+/', 'stencil/1280x1280/', src)
+                    products.append({"title": label or path, "url": h, "image": img})
+            # Filtrar entradas sin título útil y duplicar-deduplicar por URL
+            products = [p for p in products if len(p["title"]) > 4]
+            if len(products) > 2:
+                return products[:40]
+    except Exception:
+        pass
+    return None
 
 def needs_optimization(product):
     """Devuelve True si el producto tiene contenido mal formateado que vale la pena optimizar."""
@@ -762,7 +929,8 @@ class PhotoPreview(tk.Frame):
             img = Image.open(BytesIO(r.content)); img.thumbnail((300,240),Image.LANCZOS)
             tk_img = ImageTk.PhotoImage(img)
             self.after(0, lambda: self._show(tk_img))
-        except: self.after(0, lambda: self.canvas.config(text="Error al cargar",image=""))
+        except Exception:
+            self.after(0, lambda: self.canvas.config(text="Error al cargar",image=""))
 
     def _show(self, tk_img): self._tk_img=tk_img; self.canvas.config(image=tk_img,text="")
     def prev(self):
@@ -796,10 +964,12 @@ class UVAdminApp:
         self._edit_photos = []
         self._upd_selected = None
         self._upd_photos = []
-        self._ef_destacado = tk.BooleanVar(value=False)
-        self._ef_oferta    = tk.BooleanVar(value=False)
+        self._ef_destacado  = tk.BooleanVar(value=False)
+        self._ef_oferta     = tk.BooleanVar(value=False)
+        self._ef_adulto18   = tk.BooleanVar(value=False)
         self._add_destacado = tk.BooleanVar(value=False)
         self._add_oferta    = tk.BooleanVar(value=False)
+        self._add_adulto18  = tk.BooleanVar(value=False)
         self._build_ui()
         self._check_catalog()
 
@@ -909,7 +1079,7 @@ class UVAdminApp:
 
         tk.Label(right,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=6,column=0,sticky="w",pady=(6,2))
         self.add_franquicia_var = tk.StringVar(value="")
-        ttk.Combobox(right,textvariable=self.add_franquicia_var,values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros"],
+        ttk.Combobox(right,textvariable=self.add_franquicia_var,values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros","Adultos"],
                      state="readonly",font=("Helvetica",11)).grid(row=6,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
         # Precio original + checkboxes Destacado/Oferta
@@ -924,7 +1094,11 @@ class UVAdminApp:
                        font=("Helvetica",9,"bold")).pack(side="left",padx=(0,8))
         tk.Checkbutton(add_chk,text="% Oferta",variable=self._add_oferta,
                        bg=BG,fg="#f87171",selectcolor=BG2,activebackground=BG,
-                       font=("Helvetica",9,"bold")).pack(side="left")
+                       font=("Helvetica",9,"bold")).pack(side="left",padx=(0,8))
+        tk.Checkbutton(add_chk,text="🔞 18+",variable=self._add_adulto18,
+                       bg=BG,fg="#e91e8c",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold"),
+                       command=self._on_add_adulto18_toggle).pack(side="left")
 
         tk.Label(right,text="Estado:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=8,column=0,sticky="w",pady=(6,2))
         self.add_estado_var = tk.StringVar(value="Nuevo")
@@ -967,7 +1141,7 @@ class UVAdminApp:
         search_frame = tk.Frame(tab, bg=BG, pady=12, padx=16); search_frame.pack(fill="x")
         tk.Label(search_frame,text="Buscar figura:",bg=BG,fg=MUTED,font=("Helvetica",10)).pack(side="left")
         self.edit_search_var = tk.StringVar()
-        self.edit_search_var.trace("w", lambda *_: self._edit_search())
+        self.edit_search_var.trace_add("write", lambda *_: self._edit_search())
         tk.Entry(search_frame,textvariable=self.edit_search_var,bg=BG2,fg=TEXT,
                  font=("Helvetica",11),relief="flat",bd=8,insertbackground=TEXT,width=40).pack(side="left",padx=8)
 
@@ -1062,7 +1236,7 @@ class UVAdminApp:
         tk.Label(form_frame,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
         self.ef_franquicia = tk.StringVar()
         ttk.Combobox(form_frame,textvariable=self.ef_franquicia,
-                     values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros"],
+                     values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros","Adultos"],
                      state="readonly",font=("Helvetica",11)).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
         efield("Precio Orig (Q):", self.ef_precio_orig, 7, 1)
 
@@ -1074,7 +1248,11 @@ class UVAdminApp:
                        font=("Helvetica",9,"bold")).pack(side="left",padx=(0,16))
         tk.Checkbutton(chk_frame,text="% Oferta",variable=self._ef_oferta,
                        bg=BG,fg="#f87171",selectcolor=BG2,activebackground=BG,
-                       font=("Helvetica",9,"bold")).pack(side="left")
+                       font=("Helvetica",9,"bold")).pack(side="left",padx=(0,16))
+        tk.Checkbutton(chk_frame,text="🔞 18+",variable=self._ef_adulto18,
+                       bg=BG,fg="#e91e8c",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold"),
+                       command=self._on_ef_adulto18_toggle).pack(side="left")
 
         # Category (row 9)
         tk.Label(form_frame,text="Categoría:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=9,column=0,sticky="w",pady=(6,2))
@@ -1240,13 +1418,50 @@ class UVAdminApp:
         self._status("⏳  Cargando...", ORANGE)
         threading.Thread(target=self._run_scrape_add, args=(url,), daemon=True).start()
 
-    def _run_scrape_add(self, url):
+    def _run_scrape_add(self, url, skip_listing=False):
         try:
+            if not skip_listing:
+                listing = try_scrape_listing(url)
+                if listing:
+                    self.root.after(0, lambda lst=listing: self._show_listing_picker(lst))
+                    return
             data = scrape_url(url, translate=self.add_translate_var.get(),
                               status_cb=lambda m: self.root.after(0, lambda msg=m: self._status(msg, ORANGE)))
-            self.root.after(0, lambda: self._on_scraped_add(data))
+            self.root.after(0, lambda d=data: self._on_scraped_add(d))
         except Exception as e:
-            self.root.after(0, lambda: self._status(f"❌  {e}", RED))
+            msg = str(e)
+            self.root.after(0, lambda m=msg: self._status(f"❌  {m}", RED))
+
+    def _show_listing_picker(self, products):
+        dlg = tk.Toplevel(self.root)
+        dlg.title("Elegir producto del catálogo")
+        dlg.geometry("620x440")
+        dlg.configure(bg=BG)
+        dlg.grab_set()
+        tk.Label(dlg, text=f"Se encontraron {len(products)} productos. Elegí uno para cargarlo:",
+                 bg=BG, fg=TEXT, font=("Helvetica", 11)).pack(pady=(16, 8), padx=16, anchor="w")
+        frm = tk.Frame(dlg, bg=BG)
+        frm.pack(fill="both", expand=True, padx=16, pady=(0, 8))
+        sb = tk.Scrollbar(frm)
+        sb.pack(side="right", fill="y")
+        lb = tk.Listbox(frm, bg=BG2, fg=TEXT, font=("Helvetica", 10), selectbackground=PURPLE,
+                        yscrollcommand=sb.set, activestyle="none", relief="flat", bd=0)
+        lb.pack(side="left", fill="both", expand=True)
+        sb.config(command=lb.yview)
+        for p in products:
+            lb.insert("end", f"  {p['title']}")
+        def on_select():
+            sel = lb.curselection()
+            if not sel:
+                return
+            prod_url = products[sel[0]]["url"]
+            dlg.destroy()
+            self.add_url_var.set(prod_url)
+            self._status("⏳  Cargando producto...", ORANGE)
+            threading.Thread(target=self._run_scrape_add, args=(prod_url, True), daemon=True).start()
+        tk.Button(dlg, text="Cargar producto seleccionado →", bg=PURPLE, fg="white",
+                  font=("Helvetica", 10, "bold"), relief="flat", pady=10,
+                  command=on_select).pack(pady=(0, 16), padx=16, fill="x")
 
     def _on_scraped_add(self, data):
         self._scraped_add = data
@@ -1274,7 +1489,7 @@ class UVAdminApp:
         if not api_key:
             self._status("⚠️  Configurá tu API key de Anthropic en ⚙ Configuración.", ORANGE); return
         self.add_ai_btn.config(state="disabled", text="⏳ Generando...")
-        self._status("✨ Generando descripción con IA...", ORANGE)
+        self._status("Generando descripcion con IA...", ORANGE)
         data = dict(self._scraped_add)
         data["nombre"] = self.add_nombre_var.get().strip() or data["nombre"]
         threading.Thread(target=self._run_ai_gen, args=(data, api_key), daemon=True).start()
@@ -1283,9 +1498,23 @@ class UVAdminApp:
         try:
             blocks = generate_ai_description(data, api_key)
             preview = blocks_to_preview(blocks)
-            self.root.after(0, lambda: self._on_ai_done(blocks, preview))
+            self.root.after(0, lambda b=blocks, p=preview: self._on_ai_done(b, p))
         except Exception as e:
-            self.root.after(0, lambda: self._on_ai_error(str(e)))
+            import traceback; traceback.print_exc()
+            msg = str(e)
+            self.root.after(0, lambda m=msg: self._on_ai_error(m))
+
+    def _on_add_adulto18_toggle(self):
+        if self._add_adulto18.get():
+            self.add_cat_var.set("Adultos")
+        else:
+            self.add_cat_var.set(CAT_KEYS[0])
+
+    def _on_ef_adulto18_toggle(self):
+        if self._ef_adulto18.get():
+            self.ef_cat_var.set("Adultos")
+        else:
+            self.ef_cat_var.set(CAT_KEYS[0])
 
     def _on_ai_done(self, blocks, preview):
         self._scraped_add["ai_blocks"] = blocks
@@ -1390,6 +1619,7 @@ class UVAdminApp:
         self.ef_precio_orig.set(p.get("precio_orig",""))
         self._ef_destacado.set(bool(p.get("destacado",False)))
         self._ef_oferta.set(bool(p.get("oferta",False)))
+        self._ef_adulto18.set(r["cat"] == "Adultos")
         self.ef_cat_var.set(r["cat"])
         # Description
         self.ef_desc_txt.delete("1.0","end")
