@@ -973,7 +973,7 @@ function makeFranchiseCard(fname,gridId){
   // Circle image
   var circle=document.createElement("div");
   circle.style.cssText="width:120px;height:120px;border-radius:50%;overflow:hidden;border:1px solid var(--border);transition:all .2s;background:#0d0e18;display:flex;align-items:center;justify-content:center;flex-shrink:0;";
-  if(iconVal&&iconVal.startsWith("data:")){
+  if(iconVal&&(iconVal.startsWith("data:")||iconVal.startsWith("assets/")||iconVal.startsWith("http"))){
     var img=document.createElement("img");
     img.src=iconVal;img.alt=fname;
     var bigZoom=["Anime","Gaming","Otros"].indexOf(fname)>=0;
