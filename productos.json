@@ -6826,6 +6826,46 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "n": "Ultramarines Captain MkX Helmet and Display Stand",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f0573f989.jpg",
+        "l": "https://uv-store-guatemala.super.site/estatuas/ultramarines-captain-mkx-helmet-and-display-stand",
+        "marca": "JoyToy",
+        "escala": "1:1 - 44CM",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4000",
+        "precio_d": "",
+        "reserva": "Q800",
+        "entrega": "Agosto 2026",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Réplica 1:1 – JoyToy – Warhammer 40,000 Altura (casco solo):30 cm Altura en base:44 cm Inspirado en el universo deWarhammer 40,000, JoyToy presenta esta impresionante réplica 1:1 del casco MkX del Capitán de los Ultramarines. Con un nivel de detalle sobresaliente, esta pieza recrea fielmente el icónico diseño del capítulo Ultramarines de los Space Marines, convirtiéndose en un elemento de exhibición impactante para cualquier colección dedicada al grimdark del 41º milenio. Incluye soporte especial diseñado para mostrar el casco con estabilidad y estilo, incorporando el emblema oficial del capítulo. Una pieza ideal para coleccionistas de Warhammer 40K que buscan una réplica de alto impacto visual, perfecta para exhibición premium en showroom o colección personal."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala 1:1 (tamaño real)Diseño fiel al casco MkX del Capitán UltramarineAcabados detallados y presencia imponenteBase de exhibición incluida con logo del capítulo Ultramarines"
+          }
+        ],
+        "id": "ultramarines-captain-mkx-helmet-and-display-stand",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f0573f989.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f0575f389.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f05787532.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f057bdd32.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f05804864.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f05838475.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f05870e67.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f058a8281.jpg"
+        ]
+      },
+      {
         "id": "mr-freeze-deluxe",
         "n": "Mr. Freeze Deluxe",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbd3a053.jpg",
@@ -16960,41 +17000,21 @@
       },
       {
         "n": "Aquaman™: Lord of the Deep",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/88e3e8fe-880c-4d3e-a2ce-3cc128d5aed8/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdb94e068.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-69965bb6072ab.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/aquaman-lord-of-the-deep",
         "marca": "Sideshow",
         "escala": "1:4 - 74CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "10000",
         "precio_d": "",
-        "reserva": "Q1980",
+        "reserva": "2000",
         "entrega": "Marzo 2027",
         "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "Sideshow presentaAquaman™: Lord of the Deep, una inquietante piezaPremium Format™inspirada en el universo deDC Comics."
-          },
-          {
-            "t": "notion-text",
-            "x": "Parte de la colecciónMythosde Sideshow, esta línea explora versiones alternativas y narrativas inéditas de personajes icónicos, expandiendo sus temas centrales hacia territorios más oscuros, artísticos y conceptuales."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta interpretación deAquamanrecurre a elementos dehorror eldritchpara contar la historia de un Arthur Curry envejecido, cuyo cuerpo se ha fusionado con el océano que juró proteger. La estatua emerge desde las profundidades, elevándose sobre una base de olas translúcidas y turbulentas, donde carne y coral, algas y armadura se confunden desde cualquier ángulo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada en su apariencia de los cómics, la escultura presenta a un guardián marino cubierto de crustáceos, escamas de pez y formas orgánicas de aspecto inquietante. La armadura oxidada luce un acabado metálico envejecido, evocando los restos de un naufragio olvidado en las frías y despiadadas simas del océano. En su avance, Aquaman empuña un tridente dorado desgastado, marcado por incontables batallas y cicatrices del pasado."
-          },
-          {
-            "t": "notion-text",
-            "x": "Un calamar rojo emerge de las profundidades junto a él, mientras tentáculos verdes brotan del propio héroe, difuminando la línea entre hombre, mito y monstruo. ¿Se ha convertido en una bestia o en un salvador? Esa respuesta queda en manos del mar."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza poderosa y atmosférica que redefine al Rey de los Mares."
+            "x": "Sideshow presentaAquaman™: Lord of the Deep, una inquietante piezaPremium Format™inspirada en el universo deDC Comics. Parte de la colecciónMythosde Sideshow, esta línea explora versiones alternativas y narrativas inéditas de personajes icónicos, expandiendo sus temas centrales hacia territorios más oscuros, artísticos y conceptuales. Esta interpretación deAquamanrecurre a elementos dehorror eldritchpara contar la historia de un Arthur Curry envejecido, cuyo cuerpo se ha fusionado con el océano que juró proteger. La estatua emerge desde las profundidades, elevándose sobre una base de olas translúcidas y turbulentas, donde carne y coral, algas y armadura se confunden desde cualquier ángulo. Inspirada en su apariencia de los cómics, la escultura presenta a un guardián marino cubierto de crustáceos, escamas de pez y formas orgánicas de aspecto inquietante. La armadura oxidada luce un acabado metálico envejecido, evocando los restos de un naufragio olvidado en las frías y despiadadas simas"
           },
           {
             "t": "notion-bulleted-list",
@@ -17017,17 +17037,32 @@
             "x": "Altura:74 cm (29\")Ancho:41 cm (16\")Profundidad:39 cm (15.3\")"
           }
         ],
-        "id": "aquaman-lord-of-the-deep"
+        "id": "aquaman-lord-of-the-deep",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-69965bb6072ab.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdb94e068.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdb9b2bca.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdba3049a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdba77751.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdbac02af.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdbb147a6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/300873/sideshow-collectibles-dc-comics-aquaman-lord-of-the-deep-premium-format-figure-gallery-6983bdbb5a248.jpg"
+        ]
       },
       {
         "n": "Sagat & Juli – Street Jam",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/2abfec2b-ba1a-422f-b0d5-9aaf6e155fbd/001_pcs_sf_sagatjuli_2000x.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839def9d6d6.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/sagat-juli-street-jam",
         "marca": "PCS",
         "escala": "1:10 - 24CM y 18CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "3900",
         "precio_d": "",
         "reserva": "Q780",
         "entrega": "Marzo 2027",
@@ -17035,23 +17070,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Sideshow yPremium Collectibles Studio (PCS)presentan elStreet Jam: Sagat & Juli – Set 1:10, una dupla coleccionable inspirada en el icónico póster deUdonque reúne a personajes favoritos del universoStreet Fighter."
-          },
-          {
-            "t": "notion-text",
-            "x": "Este set pertenece a la líneaStreet Jam, reconocida por capturar poses dinámicas y diseños clásicos con una presentación vibrante y fiel al espíritu del videojuego."
-          },
-          {
-            "t": "notion-text",
-            "x": "Sagat, uno de los pilares del torneo desde sus inicios, es representado con su imponente estatura y el torso marcado por cicatrices. La estatua completamente pintada lo muestra con su atuendo clásico: shorts azul y amarillo, vendas en manos y piernas, y una presencia que transmite toda la ferocidad del legendario luchador de Muay Thai."
-          },
-          {
-            "t": "notion-text",
-            "x": "Juli, aunque de menor tamaño, exhibe una disciplina rígida e intimidante. Aparece en pose de saludo, vestida con un leotardo azul marino, corbata amarilla y guanteletes rojos blindados, el equipamiento estándar de una agente deShadaloo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Un set ideal para darle forma definitiva a tu colección deStreet Fighter, combinando fuerza, elegancia y fidelidad visual en una presentación a escala 1:10."
+            "x": "Sideshow yPremium Collectibles Studio (PCS)presentan elStreet Jam: Sagat & Juli – Set 1:10, una dupla coleccionable inspirada en el icónico póster deUdonque reúne a personajes favoritos del universoStreet Fighter. Este set pertenece a la líneaStreet Jam, reconocida por capturar poses dinámicas y diseños clásicos con una presentación vibrante y fiel al espíritu del videojuego. Sagat, uno de los pilares del torneo desde sus inicios, es representado con su imponente estatura y el torso marcado por cicatrices. La estatua completamente pintada lo muestra con su atuendo clásico: shorts azul y amarillo, vendas en manos y piernas, y una presencia que transmite toda la ferocidad del legendario luchador de Muay Thai. Juli, aunque de menor tamaño, exhibe una disciplina rígida e intimidante. Aparece en pose de saludo, vestida con un leotardo azul marino, corbata amarilla y guanteletes rojos blindados, el equipamiento estándar de una agente deShadaloo. Un set ideal para darle forma definitiva a tu"
           },
           {
             "t": "notion-bulleted-list",
@@ -17062,80 +17081,38 @@
             "x": "Premium Collectibles Studio (PCS)"
           },
           {
-            "t": "notion-text",
-            "x": "Sagat"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Altura:24 cm (9.5\")Ancho:11 cm (4.5\")Profundidad:8 cm (3\")"
-          },
-          {
-            "t": "notion-text",
-            "x": "Juli"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura:18 cm (7\")Ancho:6 cm (2.5\")Profundidad:6 cm (2.5\")"
           }
         ],
-        "id": "sagat-juli-street-jam"
-      },
-      {
-        "n": "Ultramarines Captain MkX Helmet and Display Stand",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/6aff885b-5725-4dd0-91fe-7e2ac5b9f309/ultramarines-captain-mkx-helmet-display-stand8.webp",
-        "l": "https://uv-store-guatemala.super.site/estatuas/ultramarines-captain-mkx-helmet-and-display-stand",
-        "marca": "JoyToy",
-        "escala": "1:1 - 44CM",
-        "estado": "",
-        "disp": "Pre Orden",
-        "precio": "",
-        "precio_d": "",
-        "reserva": "Q800",
-        "entrega": "Agosto 2026",
-        "cantidad": "",
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Réplica 1:1 – JoyToy – Warhammer 40,000"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura (casco solo):30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura en base:44 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirado en el universo deWarhammer 40,000, JoyToy presenta esta impresionante réplica 1:1 del casco MkX del Capitán de los Ultramarines."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con un nivel de detalle sobresaliente, esta pieza recrea fielmente el icónico diseño del capítulo Ultramarines de los Space Marines, convirtiéndose en un elemento de exhibición impactante para cualquier colección dedicada al grimdark del 41º milenio."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escala 1:1 (tamaño real)Diseño fiel al casco MkX del Capitán UltramarineAcabados detallados y presencia imponenteBase de exhibición incluida con logo del capítulo Ultramarines"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye soporte especial diseñado para mostrar el casco con estabilidad y estilo, incorporando el emblema oficial del capítulo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza ideal para coleccionistas de Warhammer 40K que buscan una réplica de alto impacto visual, perfecta para exhibición premium en showroom o colección personal."
-          }
-        ],
-        "id": "ultramarines-captain-mkx-helmet-and-display-stand"
+        "id": "sagat-juli-street-jam",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839def9d6d6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-6984ce9e5ad49.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839df069462.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839df0b8ed7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839df1140fa.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839df163d66.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839df1a7e69.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915331/pcs-street-fighter-sagat-juli-collectible-set-gallery-69839df1eb7e1.jpg"
+        ]
       },
       {
         "n": "Raphael Unleashed",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/b81c454e-8725-463b-8738-42649a82a182/640444036_18564555094005971_264316394997525537_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f53f28d04.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/raphael-unleashed",
         "marca": "Iron Studios",
         "escala": "1:10 - 24CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3100",
         "precio_d": "",
@@ -17145,19 +17122,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Estatua 1:10 – Iron Studios – Art Scale"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:24 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Desde la líneaArt Scalede Iron Studios, llegaRaphael Unleashed, una estatua que captura toda la intensidad y carácter explosivo del miembro más feroz de las Teenage Mutant Ninja Turtles."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta pieza es deedición limitada, altamente detallada y pintada a mano, destacando la expresión agresiva y la postura dinámica que representan perfectamente la personalidad impulsiva de Raphael."
+            "x": "Estatua 1:10 – Iron Studios – Art Scale Altura:24 cm Desde la líneaArt Scalede Iron Studios, llegaRaphael Unleashed, una estatua que captura toda la intensidad y carácter explosivo del miembro más feroz de las Teenage Mutant Ninja Turtles. Esta pieza es deedición limitada, altamente detallada y pintada a mano, destacando la expresión agresiva y la postura dinámica que representan perfectamente la personalidad impulsiva de Raphael. Una pieza ideal para coleccionistas de Teenage Mutant Ninja Turtles que buscan una representación poderosa y llena de actitud para su exhibición."
           },
           {
             "t": "notion-bulleted-list",
@@ -17166,13 +17131,24 @@
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 24 cmAncho: 13 cmProfundidad: 14 cmPeso aproximado: 0.9 kg"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza ideal para coleccionistas de Teenage Mutant Ninja Turtles que buscan una representación poderosa y llena de actitud para su exhibición."
           }
         ],
-        "id": "raphael-unleashed"
+        "id": "raphael-unleashed",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f53f28d04.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-scale-69a1f542a9c87.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f53f6761c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f53fa6c1a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f53fe5888.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f54030f1a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f5406dc06.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915389/iron-studios-teenage-mutant-ninja-turtles-raphael-unleashed-1-10-scale-statues-gallery-69a1f540ac11e.jpg"
+        ]
       },
       {
         "n": "Eren Yeager",
