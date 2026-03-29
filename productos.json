@@ -2187,7 +2187,7 @@
         "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058feee5697.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/jack-sparrow-deluxe",
         "marca": "Hot Toys",
-        "escala": "1:6 - 30CM",
+        "escala": "1:6",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "4500",
@@ -2197,16 +2197,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Figura a escala 1:6 de Jack Sparrow basada en la interpretación de Johnny Depp en Pirates of the Caribbean: Dead Men Tell No Tales. Esta Deluxe Version presenta un nivel de realismo excepcional con dos head sculpts intercambiables, sistema de ojos móviles independientes, pintura a mano y barba/cabellos altamente detallados que combinan implantes de lana, rastas y accesorios esculpidos."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -2225,10 +2217,6 @@
             "x": "Cuerpo con más de 30 puntos de articulación"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Heads Sculpts"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Dos head sculpts intercambiables con rolling eyeball system"
           },
@@ -2243,10 +2231,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Cabello mixto: implante textil + escultura"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Manos Intercambiables"
           },
           {
             "t": "notion-bulleted-list",
@@ -2267,10 +2251,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Manos señalando con el dedo"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Vestuario"
           },
           {
             "t": "notion-bulleted-list",
@@ -2315,10 +2295,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Muñequeras negra y con cordones"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Armas y Accesorios"
           },
           {
             "t": "notion-bulleted-list",
@@ -2377,16 +2353,8 @@
             "x": "Cofre del tesoro (abrible)"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Base Diorama"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Base diorama temática pirata con efecto de agua translúcida (exclusiva de Deluxe Version)"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Accesorios Incluidos"
           },
           {
             "t": "notion-bulleted-list",
