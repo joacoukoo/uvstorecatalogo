@@ -13303,11 +13303,11 @@
       },
       {
         "n": "Batman (Batman & Robin)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/a5bb1675-9442-480f-8bf4-06964a773111/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6bf203af.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6bf203af.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/batman-batman-robin",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -13317,7 +13317,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Batmanpresenta:"
+            "x": "Lafigura de la sexta escala de Batmanpresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -13328,97 +13328,235 @@
             "x": "Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de armas cogidas de la manoTres (3) Batarang cogidos de la mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) traje de murciélago recién confeccionado con capa (incrustado con alambre flexible)Un (1) cinturón de utilidades negroUn (1) par de guanteletes de antebrazo negrosUn (1) par de botas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) Bat Launcher con accesorios intercambiablesTres (1) Batarangs de diferentes tamañosUna (1) Sierra de murciélagoUna (1) bomba murciélagoUno (1) Láser de Murciélago"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) tarjeta de crédito con el logo de BatmanSoporte para figuras especialmente diseñado con temática de película y placa de nombre de personaje"
           }
         ],
-        "id": "batman-batman-robin"
+        "id": "batman-batman-robin",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6bf203af.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-scale-6761a8d420f21.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6bfa1e6c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c00d557.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c08d134.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c118f4c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c1760e5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c1d5057.jpg"
+        ]
       },
       {
         "n": "Robin (Batman & Robin)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/04d83bdb-5218-425e-a9fb-6fe576c66fdd/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robin-batman-robin",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Mayo 2026",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
-            "t": "notion-text",
-            "x": "La figura de lasexta escala Robinpresenta:"
+            "t": "notion-bulleted-list",
+            "x": "Robin – Figura Sixth Scale"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Chris O'Donnell como Robin en Batman & RobinUna (1) escultura de cabeza Robin recién desarrollada con función de ojo rodante separadaExpresión facial muy precisa con textura de piel detallada y mascarilla facialAproximadamente 30 cm de alturaCarrocería especializada de nuevo diseño con 30 puntos de articulaciónDiez (10) piezas de manos enguantadas intercambiables, incluyendo:2de0d7d6a6378094b729c07c137193b22de0d7d6a637800288aaebaae5e224eb2de0d7d6a63780fda5a6d54fc70b483a2de0d7d6a63780c68beee176370c18312de0d7d6a6378083af07f75a583a2c4bUn (1) par de puñosUn (1) par de manos relajadasUn (1) par de dispositivos de escalada cogidos de la manoUn par de picos de hielo cogidos de la manoUn (1) par de pistolas láser cogidas de la manoCada pieza de escultura de cabeza está especialmente pintada a mano"
-          },
-          {
-            "t": "notion-text",
-            "x": "2de0d7d6a6378094b729c07c137193b22de0d7d6a637800288aaebaae5e224eb2de0d7d6a63780fda5a6d54fc70b483a2de0d7d6a63780c68beee176370c18312de0d7d6a6378083af07f75a583a2c4b"
+            "x": "[Hot Toys – Movie Masterpiece Series – Batman & Robin]"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de dispositivos de escalada cogidos de la manoUn par de picos de hielo cogidos de la manoUn (1) par de pistolas láser cogidas de la mano"
-          },
-          {
-            "t": "notion-text",
-            "x": "Disfraz:"
+            "x": "Descripción"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) traje negro y rojo metálico recién hecho a medida con capaUn (1) cinturón de utilidades negroUn (1) par de guanteletes de antebrazo negros y rojos metálicosUn (1) par de botas negras"
+            "x": "Esta figura Sixth Scale de Robin, desarrollada por Hot Toys, está inspirada en su aparición en la película Batman & Robin, presentando al personaje interpretado por Chris O'Donnell con un alto nivel de fidelidad."
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
+            "x": "La pieza incorpora un head sculpt detallado con sistema de ojos móviles independientes, capturando con precisión la expresión y rasgos del personaje. Su traje ha sido confeccionado con gran atención al detalle, destacando el diseño en negro con acentos metálicos en rojo, junto con su icónica capa."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "La figura incluye una variedad de accesorios y armas que permiten recrear distintas escenas de acción, consolidándose como una excelente adición para coleccionistas del universo DC."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Movie Masterpiece Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada Sixth Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Superhéroes / Cine"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, tela, otros no especificados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Sí (30 puntos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Head sculpt de Robin con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- 10 manos intercambiables con guantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Traje negro con detalles metálicos en rojo y capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Cinturón utilitario negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Brazales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Botas"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) pistola láserUno (1) Pájaro ArrojadizoUn (1) par de dispositivos de escaladaUn (1) par de picos de escalada en hielo"
+            "x": "- Pistola láser"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
+            "x": "- Throwing Bird"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Dispositivos de escalada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Picos de hielo"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Soporte para figuras especialmente diseñado con temática de película y placa de nombre de personaje"
+            "x": "- Base temática con nombre del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Likeness fiel de Chris O'Donnell como Robin"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Head sculpt con sistema de ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Traje detallado con acabados metálicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Amplia variedad de accesorios y armas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Figura altamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Pintura aplicada con alto nivel de detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Ideal para coleccionistas de DC Comics"
           }
         ],
-        "id": "robin-batman-robin"
+        "id": "robin-batman-robin",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-scale-6761ab51b117e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93cca80c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93d34485.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93db2774.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e403bc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e9d381.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93f1373b.jpg"
+        ]
       },
       {
         "n": "Plo Koon",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/54fda3d7-66a3-487d-aaa5-97c82e0b31b1/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5fd5c19.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a59c5919.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/plo-koon",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
-        "estado": "",
-        "disp": "Hot Toys",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
         "precio": "3700",
         "precio_d": "",
         "reserva": "Q740",
@@ -13426,55 +13564,202 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Plo Koon™presenta:"
+            "t": "notion-bulleted-list",
+            "x": "Plo Koon™ – Figura Sixth Scale"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Plo Koon enStar Wars: Episodio III La venganza de los SithUna (1) escultura de cabeza recién desarrolladaPatrones faciales fieles a la pantalla y textura detallada de la pielAproximadamente 31 cm de alturaCuerpo con más de 30 puntos de articulaciónSeis (6) piezas de manos intercambiables, incluyendo:2de0d7d6a63780c4b736e30d013b2eb72de0d7d6a63780649139eadab368021b2de0d7d6a63780fba4fee437f891d4a0Un (1) par de manos relajadasUn (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la manoCuatro (4) piezas de manos blindadas intercambiables, incluyendo:2de0d7d6a63780fabcaed4d1af2f409c2de0d7d6a63780e7b5c7db830c1e8321Un (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la manoCada pieza de escultura de cabeza está especialmente pintada a mano"
-          },
-          {
-            "t": "notion-text",
-            "x": "2de0d7d6a63780c4b736e30d013b2eb72de0d7d6a63780649139eadab368021b2de0d7d6a63780fba4fee437f891d4a0"
+            "x": "[Hot Toys – Movie Masterpiece Series – Star Wars: Episode III Revenge of the Sith]"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de manos relajadasUn (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la mano"
-          },
-          {
-            "t": "notion-text",
-            "x": "2de0d7d6a63780fabcaed4d1af2f409c2de0d7d6a63780e7b5c7db830c1e8321"
+            "x": "Descripción"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la mano"
-          },
-          {
-            "t": "notion-text",
-            "x": "Disfraz:"
+            "x": "Esta figura Sixth Scale de Plo Koon™, desarrollada por Hot Toys, representa al sabio Maestro Jedi tal como aparece en Star Wars: Episode III – Revenge of the Sith. Conocido por su carácter equilibrado y su fuerte sentido de justicia, Plo Koon es retratado con una fidelidad excepcional."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) túnica Jedi de color marrón oscuro (alambre flexible incrustado)Una (1) túnica de color marrón oscuro (cable flexible incrustado) con cinturónUna (1) túnica marrónUna (1) camiseta interior de manga corta color beigeUn (1) par de pantalones color caquiUn (1) par de botas de color marrón oscuro"
+            "x": "La pieza destaca por su head sculpt detallado que reproduce con precisión los rasgos únicos del Kel Dor, acompañado de aplicaciones de pintura de alto nivel que refuerzan su realismo. El vestuario incluye túnicas Jedi confeccionadas con telas a medida, incorporando alambres internos que permiten ajustar la caída y pose del atuendo."
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
+            "x": "La figura incluye un sable de luz con función LED, así como múltiples accesorios y manos intercambiables que amplían las posibilidades de exhibición. También incorpora piezas adicionales que permiten recrear su apariencia en Star Wars: The Clone Wars."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Movie Masterpiece Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada Sixth Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Ciencia ficción / Acción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Jedi"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, tela, otros no especificados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Sí (más de 30 puntos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Head sculpt de Plo Koon"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- 6 manos estándar intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- 4 manos adicionales con armadura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Túnica Jedi marrón con alambre interno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Capa marrón con cinturón y alambre interno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Túnica interior marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Camisa interior beige"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Pantalón color khaki"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Botas marrón oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) empuñadura de sable™ de luz LED (accionada por USB)Una (1) empuñadura de sable™ de luz con hoja desmontableUna (1) hoja de sable de luz azul en movimiento (acoplable a la empuñadura)"
+            "x": "- Sable de luz con LED (USB)"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
+            "x": "- Empuñadura de sable con hoja desmontable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Hoja azul en efecto movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de armaduras para antebrazosUna (1) tarjeta gráfica temáticaBase de figura especialmente diseñada con el logo de Star Wars y la placa del personaje"
+            "x": "- Brazales/armadura de antebrazo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Tarjeta gráfica temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Base con logo de Star Wars y nombre del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Representación fiel de Plo Koon en Revenge of the Sith"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Head sculpt con alto nivel de detalle y pintura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Vestuario con telas reales y alambre para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Incluye sable de luz con iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Accesorios adicionales para recrear versión de Clone Wars"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Figura altamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Ideal para coleccionistas de Star Wars"
           }
         ],
-        "id": "plo-koon"
+        "id": "plo-koon",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a59c5919.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-scale-675b0eb7d314d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5a34379.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5a96731.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5af3eb6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5b8296a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5be7e4e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5c5cbea.jpg"
+        ]
       },
       {
         "n": "Captain America (Stealth 2.0)",
