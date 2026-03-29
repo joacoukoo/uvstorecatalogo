@@ -1283,6 +1283,7 @@ var _uvOpenedFromNav=false;
 function routeHash(h){
   h=h||"";
   if(!h||h==="#"){showPage("home");document.getElementById("nav-home").classList.add("active");return;}
+  if(h==="#catalogo"){goCatalog();return;}
   if(h==="#ofertas"){goOfertas();return;}
   if(h==="#franquicias"){goFranchises();return;}
   var mFranq=h.match(/^#franquicia\/(.+)$/);
