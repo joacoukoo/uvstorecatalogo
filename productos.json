@@ -2734,7 +2734,7 @@
         "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae504439f5.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/captain-america-falcon-the-winter-soldier",
         "marca": "Hot Toys",
-        "escala": "1:6 - 30CM",
+        "escala": "1:6",
         "estado": "Abierta - Excelentes Condiciones",
         "disp": "Entrega Inmediata",
         "precio": "3300",
@@ -2744,16 +2744,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Figura coleccionable a escala sexta de Capitán América basada en la serie El Halcón y el Soldado de Invierno. Esta pieza presenta una escultura de cabeza recién desarrollada con expresión facial muy detallada, incluyendo barba, gafas de protección y polaina blanca que capturan la autenticidad de Anthony Mackie en el rol del nuevo Capitán América."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -2766,10 +2758,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Cuerpo con 30 puntos de articulación"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
@@ -2830,10 +2818,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Soporte dinámico especialmente diseñado con placa de personaje"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
