@@ -9786,11 +9786,11 @@
       },
       {
         "n": "Absolute Batman",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/58c14bfd-4182-4616-9130-0696c8f9ff7e/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab9978fb77.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab9978fb77.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/absolute-batman",
         "marca": "Hot Toys",
         "escala": "1:6 - 37CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre orden",
         "precio": "4600",
         "precio_d": "",
@@ -9800,27 +9800,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Marca / Línea: Hot Toys"
-          },
-          {
-            "t": "notion-text",
-            "x": "Escala: 1:6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Estado: Pre Orden"
-          },
-          {
-            "t": "notion-text",
-            "x": "Precio (Q): 4600"
-          },
-          {
-            "t": "notion-text",
-            "x": "Entrega estimada: Mayo 2027"
-          },
-          {
-            "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Batman™presenta:"
+            "x": "Marca / Línea: Hot Toys Escala: 1:6 Estado: Pre Orden Precio (Q): 4600 Entrega estimada: Mayo 2027 Lafigura de la sexta escala de Batman™presenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -9831,31 +9811,34 @@
             "x": "Un (1) par de puñosUn (1) par de manos gesticulares abiertasUn (1) par de manos que sujetan el armaUna (1) pieza de mano derecha que sujeta el arma"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Uno (1) traje de murciélago de color gris recién desarrollado con armaduras negras en el cuello y los hombrosUn (1) símbolo de murciélago (extraíble magnéticamente del pecho)Un (1) juego de capa negra en modo alas de murciélago (cable flexible incrustado)Un (1) cinturón de utilidades amarilloUn (1) par de botas largas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) Bat-Hacha con mangos cortos y largos intercambiablesUna (1) escopeta"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Dos (2) juegos de púas cortas y largas intercambiables para la armadura del cuello y los hombrosSoporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
         ],
-        "id": "absolute-batman"
+        "id": "absolute-batman",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab9978fb77.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-scale-694abac54f72e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab99814612.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab9985e66d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab998a88e3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab99928ef7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab99974f99.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab999c036f.jpg"
+        ]
       },
       {
         "n": "MagnaGuard",
