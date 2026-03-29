@@ -1197,8 +1197,8 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/grogu-life-size",
         "marca": "Hot Toys",
         "escala": "1:1 - 38CM",
-        "estado": "Sellado",
-        "disp": "Vendido",
+        "estado": "Vendido",
+        "disp": "Entrega Inmediata",
         "precio": "3800",
         "precio_d": "",
         "reserva": "",
@@ -4037,7 +4037,7 @@
         "marca": "Saturn Toys",
         "escala": "1:6 - 32CM",
         "estado": "Vendido",
-        "disp": "Vendido",
+        "disp": "Entrega Inmediata",
         "precio": "4200",
         "precio_d": "",
         "reserva": "",
@@ -28255,7 +28255,7 @@
         "marca": "Iron Studios",
         "escala": "1:10 - 25CM",
         "estado": "Vendido",
-        "disp": "Bajo Pedido",
+        "disp": "Pre Orden",
         "precio": "3700",
         "precio_d": "",
         "reserva": "Q740",
@@ -29618,6 +29618,41 @@
   "Adultos": {
     "slug": "adultos",
     "products": [
+      {
+        "id": "sparkle",
+        "n": "Sparkle",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7d8ec76ecca2c68ff3a473f5ee20a457.jpg?v=1774523448",
+        "l": "https://statuecorp.com/products/ice-mouse-sparkle",
+        "marca": "",
+        "escala": "1:6",
+        "franquicia": "Adultos",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4500",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "900",
+        "entrega": "Marzo 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7d8ec76ecca2c68ff3a473f5ee20a457.jpg?v=1774523448",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f38dc25f888e80a3f79ccdde05e5f6c2.jpg?v=1774523467",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/65297f1204da03a6ea0195835c7c3f70.jpg?v=1774523467",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5368f1a93d6f1b6399c5638a1988e1a0.jpg?v=1774523467",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cbe2f5cdac1b6932a2b4b7b889c56a72.jpg?v=1774523467",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/392ddeea38083b07032d98e53588d2e5.jpg?v=1774523467"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Escala: 1/6 Fecha de lanzamiento: Q1 2027"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T12:55:21.920084"
+      },
       {
         "id": "moku-asuka",
         "n": "Moku - Asuka",
