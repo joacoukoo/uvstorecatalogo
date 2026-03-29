@@ -964,13 +964,17 @@ function showPage(id){document.querySelectorAll(".page").forEach(function(p){p.c
 function goHome(){history.replaceState(null,"",location.pathname);showPage("home");document.getElementById("nav-home").classList.add("active");var nc=document.getElementById("nav-catalog");if(nc)nc.classList.remove("active");closeSearch();}
 // ── FRANCHISE FUNCTIONS ──
 function getFranchiseProducts(fname){
+  if(fname==="Adultos"){
+    var info=DATA["Adultos"];if(!info)return[];
+    return info.products.map(function(p){return{p:p,cat:"Adultos"};});
+  }
   var results=[];
   CAT_KEYS.forEach(function(cat){
     var info=DATA[cat];if(!info)return;
     info.products.forEach(function(p){
       var pf=p.franquicia||"";
       var match=false;
-      if(fname==="Otros"){match=!pf||FRANCHISE_KEYS.slice(0,-1).indexOf(pf)<0;}
+      if(fname==="Otros"){match=!pf||FRANCHISE_KEYS.slice(0,-2).indexOf(pf)<0;}
       else{match=(pf===fname);}
       if(match)results.push({p:p,cat:cat});
     });
