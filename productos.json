@@ -11275,11 +11275,11 @@
       },
       {
         "n": "Mr. Fantastic",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/8879c39c-078a-4661-85d9-4c5833c44a35/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a765f0f5aa.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a765f0f5aa.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/mr-fantastic",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3700",
         "precio_d": "",
@@ -11289,7 +11289,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de la sexta escalaMister Fantasticpresenta:"
+            "x": "La figura de la sexta escalaMister Fantasticpresenta: Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
@@ -11312,23 +11312,34 @@
             "x": "Un (1) uniforme de los Cuatro Fantásticos de un tejido elástico azul acanalado recién hecho a medidaUn (1) cinturón blanco y cremaUna (1) bota larga blanca"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorio:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Soporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
         ],
-        "id": "mr-fantastic"
+        "id": "mr-fantastic",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a765f0f5aa.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-scale-687a85fc1af1b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a765f910b2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a765fd7a16.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a76602df18.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a7660740c6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a7660bd2ac.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914699/hot-toys-marvel-mister-fantastic-sixth-scale-figure-gallery-687a766110ca5.jpg"
+        ]
       },
       {
         "n": "Human Torch",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/8c065626-1ca1-4be6-a6aa-9d4ac0515c41/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3ccac7a1.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3caf2338.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/human-torch",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3400",
         "precio_d": "",
@@ -11338,7 +11349,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala de la antorcha humanapresenta:"
+            "x": "La figura de lasexta escala de la antorcha humanapresenta: Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -11353,23 +11364,30 @@
             "x": "Un (1) gesto abierto con la mano izquierdaUn (1) puño derecho"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) uniforme de los Cuatro Fantásticos, de tela elástica acanalada azul y blanca recién confeccionadaUn (1) cinturón blanco y cremaUna (1) bota larga blanca"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) efecto de llama translúcida translúcida de color naranja y rojo de doble capa (aproximadamente 32 cm de altura e intercambiable con la parte inferior del cuerpo de la figura)Soporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
         ],
-        "id": "human-torch"
+        "id": "human-torch",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3caf2338.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3cb7220f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3cbbba90.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3cc10458.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3cc5998b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3ccac7a1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3cd3efe7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914702/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-68d6c3cd88a3a.jpg"
+        ]
       },
       {
         "n": "The Thing",
