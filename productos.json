@@ -30058,14 +30058,23 @@
         ],
         "content": [
           {
-            "t": "notion-text",
-            "x": "Escala: 1/6 Fecha de lanzamiento: Q1 2027"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q1 2027"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-29T12:55:21.920084"
+        "added_at": "2026-03-29T12:55:21.920084",
+        "content_ok": true
       },
       {
         "id": "moku-asuka",
