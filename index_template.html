@@ -879,7 +879,7 @@ function buildHome(){
   document.getElementById("nav-logo-img").src=LOGO;
   // Populate hero stats
   var totalFigs=0,stockFigs=0,preFigs=0;
-  CAT_KEYS.forEach(function(c){
+  CAT_KEYS.concat(["Adultos"]).forEach(function(c){
     var prods=(DATA[c]||{products:[]}).products;
     totalFigs+=prods.length;
     prods.forEach(function(p){
