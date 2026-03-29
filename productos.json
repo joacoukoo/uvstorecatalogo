@@ -18339,11 +18339,11 @@
       },
       {
         "n": "Skeletor MOTU200X",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/b24a6e40-19e1-45bc-8679-7243c65b0ef4/skeletor_regpp001.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b702ad3.jpg",
         "l": "https://uv-store-guatemala.super.site/escalas-112-y-otros/skeletor-motu200x",
         "marca": "Mondo",
         "escala": "1:12 - 19CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "1500",
         "precio_d": "",
@@ -18353,19 +18353,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura 1:12 – Mondo – Masters of the Universe"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:19 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "La línea 1:12 deHe-Man and the Masters of the Universede Mondo traslada el nivel de detalle de sus figuras 1:6 a un formato más compacto y dinámico."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta versiónMOTU200X Skeletorpresenta un diseño más agresivo y estilizado, con capa de doble capa completamente articulable y soporte dinámico para poses de vuelo o levitación."
+            "x": "Figura 1:12 – Mondo – Masters of the Universe Altura:19 cm La línea 1:12 deHe-Man and the Masters of the Universede Mondo traslada el nivel de detalle de sus figuras 1:6 a un formato más compacto y dinámico. Esta versiónMOTU200X Skeletorpresenta un diseño más agresivo y estilizado, con capa de doble capa completamente articulable y soporte dinámico para poses de vuelo o levitación. Una pieza imprescindible para fans de Masters of the Universe que buscan una versión moderna, estilizada y altamente articulada del villano más icónico de Eternia."
           },
           {
             "t": "notion-bulleted-list",
@@ -18378,43 +18366,42 @@
           {
             "t": "notion-bulleted-list",
             "x": "3 pares de manos intercambiablesMáscara de gasBastón HavocEspada de doble hoja"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para fans de Masters of the Universe que buscan una versión moderna, estilizada y altamente articulada del villano más icónico de Eternia."
           }
         ],
-        "id": "skeletor-motu200x"
+        "id": "skeletor-motu200x",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b702ad3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b72396c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b73f6ac.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b76423d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b784a67.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b7a5602.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b7cca9f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915252/mondo-masters-of-the-universe-skeletor-motu200x-action-figure-gallery-696a65b80667f.jpg"
+        ]
       },
       {
         "n": "He-Man MOTU200x",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/66f7c37e-982f-407d-b705-7be0c17518b3/he-man_regpp001.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d61eba7.jpg",
         "l": "https://uv-store-guatemala.super.site/escalas-112-y-otros/he-man-motu200x",
         "marca": "Mondo",
         "escala": "1:12 - 19CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "1500",
         "precio_d": "",
         "reserva": "Q300",
         "entrega": "Noviembre 2026",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura 1:12 – Mondo – Masters of the Universe (MOTU200X)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:19 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "El Hombre Más Poderoso del Universo llega en formato 1:12 dentro de la línea MOTU200X de Mondo, trasladando el nivel de detalle de sus figuras 1:6 a una escala más compacta y dinámica."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta versión combina diseño estilizado, gran presencia visual y acabados premium, incluyendo elementos tipo faux fur y soporte dinámico para poses más impactantes."
+            "x": "Figura 1:12 – Mondo – Masters of the Universe (MOTU200X) Altura:19 cm El Hombre Más Poderoso del Universo llega en formato 1:12 dentro de la línea MOTU200X de Mondo, trasladando el nivel de detalle de sus figuras 1:6 a una escala más compacta y dinámica. Esta versión combina diseño estilizado, gran presencia visual y acabados premium, incluyendo elementos tipo faux fur y soporte dinámico para poses más impactantes. Una pieza esencial para coleccionistas de Masters of the Universe que buscan una versión moderna, poderosa y altamente posable del héroe clásico de Eternia."
           },
           {
             "t": "notion-bulleted-list",
@@ -18427,21 +18414,32 @@
           {
             "t": "notion-bulleted-list",
             "x": "3 manos intercambiablesSword of Power (versión transformada)Battle AxeEscudo"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza esencial para coleccionistas de Masters of the Universe que buscan una versión moderna, poderosa y altamente posable del héroe clásico de Eternia."
           }
         ],
-        "id": "he-man-motu200x"
+        "id": "he-man-motu200x",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d61eba7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d6405e0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d65ad2d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d67ed5b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d69edf1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d6bfba6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d6dc631.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914995/mondo-masters-of-the-universe-motu200x-he-man-action-figure-gallery-68f280d7096ed.jpg"
+        ]
       },
       {
         "n": "Going Merry – Memories of the Journey",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/6afe41a3-37f2-4393-8f89-4c2839ee9f6c/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75ca3a182.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75ca3a182.jpg",
         "l": "https://uv-store-guatemala.super.site/escalas-112-y-otros/going-merry-memories-of-the-journey",
         "marca": "Bandai",
         "escala": "11CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "1300",
         "precio_d": "",
@@ -18451,54 +18449,37 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Bandai – One Piece Niformation Tsukuru Figure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Basada en las ilustraciones de la línea Collectible Sticker & Wafer, esta figura recrea de manera estilizada uno de los momentos más emotivos deOne Piece: la despedida del Going Merry."
-          },
-          {
-            "t": "notion-text",
-            "x": "Parte de la competencia anualOne Piece World Figure Colosseum, esta pieza fue esculpida con especial atención para transmitir la carga emocional de la escena original del manga. A pesar de su tamaño compacto, destaca por su nivel de detalle y acabado."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye efectos de llamas translúcidas, pintura detallada y bordes con acabado metálico tipo “sticker” en llamas. La figura de Luffy puede retirarse del bote salvavidas, agregando versatilidad a la exhibición."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:One Piece Niformation Tsukuru Figure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Bandai"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Collectible Figure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Anime / Pop Culture"
+            "x": "Bandai – One Piece Niformation Tsukuru Figure Basada en las ilustraciones de la línea Collectible Sticker & Wafer, esta figura recrea de manera estilizada uno de los momentos más emotivos deOne Piece: la despedida del Going Merry. Parte de la competencia anualOne Piece World Figure Colosseum, esta pieza fue esculpida con especial atención para transmitir la carga emocional de la escena original del manga. A pesar de su tamaño compacto, destaca por su nivel de detalle y acabado. Incluye efectos de llamas translúcidas, pintura detallada y bordes con acabado metálico tipo “sticker” en llamas. La figura de Luffy puede retirarse del bote salvavidas, agregando versatilidad a la exhibición. Línea:One Piece Niformation Tsukuru Figure Fabricante:Bandai Tipo:Collectible Figure Género:Anime / Pop Culture Una pieza pequeña en escala pero grande en significado, ideal para fans de One Piece que quieran capturar uno de los momentos más icónicos y sentimentales de la serie dentro de su colección."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 11 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza pequeña en escala pero grande en significado, ideal para fans de One Piece que quieran capturar uno de los momentos más icónicos y sentimentales de la serie dentro de su colección."
           }
         ],
-        "id": "going-merry-memories-of-the-journey"
+        "id": "going-merry-memories-of-the-journey",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75ca3a182.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-scale-698f75cc1f21d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75ca72a36.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75caa9128.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75cae151a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75cb28981.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75cb63a8d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915355/bandai-one-piece-going-merry-memories-of-the-journey-collectible-figure-gallery-698f75cb9683d.jpg"
+        ]
       },
       {
         "n": "Springfield (Queen in Radiance Version)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/6a678c5a-0c58-4e81-b1d7-b94b20fbf60a/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-feature.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55eb60897.jpg",
         "l": "https://uv-store-guatemala.super.site/escalas-112-y-otros/springfield-queen-in-radiance-version",
         "marca": "Kotobukiya",
         "escala": "28CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "2800",
         "precio_d": "",
@@ -18508,54 +18489,29 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Kotobukiya – Girls’ Frontline 2: Exilium"
-          },
-          {
-            "t": "notion-text",
-            "x": "Kotobukiya presenta a Springfield en su elegante versiónQueen in Radiance, inspirada enGirls’ Frontline 2: Exilium."
-          },
-          {
-            "t": "notion-text",
-            "x": "La gerente del Zucchero Café aparece con un vestido de gala azul vibrante, capturada en una pose refinada que evoca el movimiento de un vals. Su expresión con guiño añade un toque de encanto y personalidad a la pieza."
-          },
-          {
-            "t": "notion-text",
-            "x": "El vestido destaca por sus pliegues definidos y acabado perlado con ligeras variaciones tonales que aportan profundidad y sensación de lujo. La espalda abierta y las líneas estilizadas de la silueta están cuidadosamente esculpidas para mantener equilibrio entre elegancia y dinamismo."
-          },
-          {
-            "t": "notion-text",
-            "x": "El peinado recogido tipo chignon, los ornamentos florales, la joyería y el rifle con detalles en veta de madera y acabados metálicos han sido recreados con alto nivel de precisión."
-          },
-          {
-            "t": "notion-text",
-            "x": "Escala:1:7"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Kotobukiya"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Collectible Figure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Anime / Sci-Fi / Video Game"
-          },
-          {
-            "t": "notion-text",
-            "x": "Materiales:ABS, PVC"
+            "x": "Kotobukiya – Girls’ Frontline 2: Exilium Kotobukiya presenta a Springfield en su elegante versiónQueen in Radiance, inspirada enGirls’ Frontline 2: Exilium. La gerente del Zucchero Café aparece con un vestido de gala azul vibrante, capturada en una pose refinada que evoca el movimiento de un vals. Su expresión con guiño añade un toque de encanto y personalidad a la pieza. El vestido destaca por sus pliegues definidos y acabado perlado con ligeras variaciones tonales que aportan profundidad y sensación de lujo. La espalda abierta y las líneas estilizadas de la silueta están cuidadosamente esculpidas para mantener equilibrio entre elegancia y dinamismo. El peinado recogido tipo chignon, los ornamentos florales, la joyería y el rifle con detalles en veta de madera y acabados metálicos han sido recreados con alto nivel de precisión. Escala:1:7 Fabricante:Kotobukiya Tipo:Collectible Figure Género:Anime / Sci-Fi / Video Game Materiales:ABS, PVC Una pieza sofisticada y visualmente llamativa,"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 28 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza sofisticada y visualmente llamativa, ideal para coleccionistas de Girls’ Frontline que buscan una figura elegante con presencia destacada en vitrina."
           }
         ],
-        "id": "springfield-queen-in-radiance-version"
+        "id": "springfield-queen-in-radiance-version",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55eb60897.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-scale-698e55ee42bb4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55ec0930a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55ebd17fc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55eba3cd1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55ec6f091.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55ecab411.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915353/kotobukiya-girls-frontline-springfield-queen-in-radiance-version-collectible-figure-gallery-698e55ece73d2.jpg"
+        ]
       }
     ]
   }
