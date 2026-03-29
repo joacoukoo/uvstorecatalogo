@@ -9842,11 +9842,11 @@
       },
       {
         "n": "MagnaGuard",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/66e52d41-f30a-44bc-9e78-17052ed7be3e/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-69418134f30b1.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-69418134f30b1.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/magnaguard",
         "marca": "Hot Toys",
         "escala": "1:6 - 34CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -9856,58 +9856,45 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Marca / Línea: Hot Toys"
-          },
-          {
-            "t": "notion-text",
-            "x": "Escala: 1:6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Estado: Pre Orden"
-          },
-          {
-            "t": "notion-text",
-            "x": "Precio (Q): 3700"
-          },
-          {
-            "t": "notion-text",
-            "x": "Entrega estimada: Mayo 2027"
-          },
-          {
-            "t": "notion-text",
-            "x": "Lafigura de la sexta escala MagnaGuard™presenta:"
+            "x": "Marca / Línea: Hot Toys Escala: 1:6 Estado: Pre Orden Precio (Q): 3700 Entrega estimada: Mayo 2027 Lafigura de la sexta escala MagnaGuard™presenta: Disfraz: Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de MagnaGuard™ en Star Wars: La venganza de los Sith™Cabeza MagnaGuard recién desarrollada con efectos de envejecimiento y función de encendido LED (luz roja, alimentada por batería)Cuerpo mecánico especializado recién desarrollado con efectos de envejecimiento y hasta 30 puntos de articulaciónAproximadamente 34 cm de alturaUn (1) par de manos con dedos articulados"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) capa beige con rayas verdes, detalles dañados por la batalla y efectos de desgaste"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) bastón electroeléctricoUn (1) conjunto de efecto de rayo translúcido de color púrpura (que se puede acoplar al bastón electroeléctrico)Soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
         ],
-        "id": "magnaguard"
+        "id": "magnaguard",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-69418134f30b1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-scale-694182f39cc2e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-694181383f1be.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-6941813603afb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-69418137de119.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-69418137880b2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-69418135a1d2a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915174/hot-toys-star-wars-magnaguard-sixth-scale-figure-gallery-69418137312d7.jpg"
+        ]
       },
       {
         "n": "Feral Predator (Battle Damaged Version)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/cd1e3ce5-66a7-47b0-9c3e-399d3d3c1752/hot-toys-predator-feral-predator-sixth-scale-figure-gallery-680fd5c377b97.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c396556ad6.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/feral-predator-battle-damaged-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 37CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4800",
         "precio_d": "",
@@ -9917,27 +9904,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Marca / Línea: Hot Toys"
-          },
-          {
-            "t": "notion-text",
-            "x": "Escala: 1:6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Estado: Pre Orden"
-          },
-          {
-            "t": "notion-text",
-            "x": "Precio (Q): 4800"
-          },
-          {
-            "t": "notion-text",
-            "x": "Entrega estimada: Mayo 2027"
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura de lasexta escala del Depredador Feral (Versión Dañada en Batalla)presenta:"
+            "x": "Marca / Línea: Hot Toys Escala: 1:6 Estado: Pre Orden Precio (Q): 4800 Entrega estimada: Mayo 2027 La figura de lasexta escala del Depredador Feral (Versión Dañada en Batalla)presenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -9952,39 +9919,42 @@
             "x": "Un (1) par de manos con gestos con garraUn (1) par de manos que se sujetan con palitos combisticksUna (1) mano izquierda con armaUna (1) mano derecha que sujeta el látigo"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) cinturón utilitario con faldón lamelarUn (1) par de vendas esculpidas para el tobillo"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) escudo de muñeca (acoplable al guantelete izquierdo)Un (1) fusil de cerrojo (acoplable magnéticamente a la parte trasera del Feral Predator) con dos (2) cerrojosUn (1) combistick (puede separarse)Un (1) combistick retraído (acoplable magnéticamente a la parte trasera de Feral Predator)Un (1) látigoDos (2) cuchillas de muñeca (acoplables al guantelete derecho)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) Máscara de Huesos con función de iluminación LED (luz roja, alimentación USB)Una (1) mochilaUn (1) hacha (que se puede acoplar a la base de la figura)Dos (2) flechas (que se pueden acoplar a la base de la figura)Dos (2) huesos (que se pueden acoplar al cinturón)Base de figura de diorama especialmente diseñada con temática forestal"
           }
         ],
-        "id": "feral-predator-battle-damaged-version"
+        "id": "feral-predator-battle-damaged-version",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c396556ad6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-scale-693c3b05191bc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c3965db078.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c39666490a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c3966e3ccc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c39676c6e5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c3967ce4b8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915173/hot-toys-predator-feral-predator-battle-damaged-version-sixth-scale-figure-gallery-693c396834bb0.jpg"
+        ]
       },
       {
         "n": "Leia Organa (Boushh Disguise)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/f7103136-0e82-4224-9779-8955b008cd59/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8ab27ab3.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8ab27ab3.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/leia-organa-boushh-disguise",
         "marca": "Hot Toys",
         "escala": "1:6 - 27CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -9994,27 +9964,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Marca / Línea: Hot Toys"
-          },
-          {
-            "t": "notion-text",
-            "x": "Escala: 1:6"
-          },
-          {
-            "t": "notion-text",
-            "x": "Estado: Pre Orden"
-          },
-          {
-            "t": "notion-text",
-            "x": "Precio (Q): 3600"
-          },
-          {
-            "t": "notion-text",
-            "x": "Entrega estimada: Mayo 2027"
-          },
-          {
-            "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Leia Organa (Disfraz ™ de Boushh) presenta:"
+            "x": "Marca / Línea: Hot Toys Escala: 1:6 Estado: Pre Orden Precio (Q): 3600 Entrega estimada: Mayo 2027 Lafigura de la sexta escala de Leia Organa (Disfraz ™ de Boushh) presenta: Disfraz: Arma: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -10025,104 +9975,246 @@
             "x": "Un (1) par de manos relajadasUn (1) par de bastóns que se toman de la manoUn (1) par de manos que sujetan el cascoUn (1) par de manos que sostengan el cascoUn (1) trozo de mano izquierda que sujeta el detonadorUna (1) pieza de mano derecha ligeramente abierta sujetando la lanza"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) conjunto de traje Boushh finamente elaborado con efectos de envejecimiento, incluyendo:Un (1) par de guanteletes tachonados de color marrón oscuroUna (1) armadura de hombro de color marrón oscuroUna (1) bandolera de color gris oscuroUn (1) cinturón utilitario de color gris oscuro con hebilla negraUn (1) cinturón envolvente de color marrón oscuro con textura acanaladaUna (1) túnica exterior de color beige desérticoUna (1) túnica de color marrón oscuro debajoUna (1) capa de color amarillo arenaUn (1) conjunto de tanquesUn (1) par de pantalones de color marrón rojoUn (1) par de botas largas de color marrón claro con polainas"
-          },
-          {
-            "t": "notion-text",
-            "x": "Arma:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) detonador térmicoUn (1) electrobastón recién desarrollado"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
         ],
-        "id": "leia-organa-boushh-disguise"
+        "id": "leia-organa-boushh-disguise",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8ab27ab3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-scale-692dba91cc7ca.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8aba0396.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8ac03396.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8ac5de58.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8acb5735.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8ad179a8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915127/hot-toys-star-wars-leia-organa-boushh-disguise-sixth-scale-figure-gallery-692db8ad70c96.jpg"
+        ]
       },
       {
         "n": "212th Attack Battalion Clone Trooper",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/790d96d9-11d6-4716-a04e-47e7134616db/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0b4c15d.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0b4c15d.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/212th-attack-battalion-clone-trooper",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3000",
         "precio_d": "",
-        "reserva": "Q600 / Q700",
+        "reserva": "Q600",
         "entrega": "Mayo 2027",
-        "cantidad": "3500",
+        "cantidad": "2",
         "content": [
           {
-            "t": "notion-text",
-            "x": "Marca / Línea: Hot Toys"
+            "t": "notion-bulleted-list",
+            "x": "212th Attack Battalion Clone Trooper™ – Figura Sixth Scale"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
+            "x": "[Hot Toys – Movie Masterpiece Collection – Star Wars: Episode III Revenge of the Sith]"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Esta figura Sixth Scale del 212th Attack Battalion Clone Trooper™, desarrollada por Hot Toys, representa a uno de los escuadrones más reconocidos de la República durante las Guerras Clon. Inspirada en Star Wars: Episode III – Revenge of the Sith, la pieza captura el diseño distintivo de los soldados bajo el mando de Obi-Wan Kenobi en el planeta Utapau."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "La figura presenta una armadura blanca con detalles en naranja y efectos de desgaste, replicando fielmente su apariencia en combate. El casco ha sido cuidadosamente diseñado con acabado envejecido, mientras que el traje interior y los accesorios completan una representación auténtica del soldado en el campo de batalla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye múltiples manos intercambiables y una amplia variedad de accesorios, incluyendo equipo táctico con sistema magnético que permite distintas configuraciones de exhibición."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Movie Masterpiece Collection"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada Sixth Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Ciencia ficción / Acción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Clone Troopers"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Escala: 1:6"
           },
           {
-            "t": "notion-text",
-            "x": "Estado: Pre Orden"
-          },
-          {
-            "t": "notion-text",
-            "x": "Precio (Q): 3500"
-          },
-          {
-            "t": "notion-text",
-            "x": "Entrega estimada: Mayo 2027"
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura de laSexta Escala del 212º Batallón de Ataque™ (Versión Deluxe) presenta:"
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, tela, otros no especificados"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada del Soldado™ Clon del 212º Batallón de Ataque enStar Wars: Episodio III La venganza de los Sith™Dos (2) cabezas intercambiables de Soldados Clon finamente confeccionadas con casco y efectos de desgaste *Cuerpo con 30 puntos de articulaciónAproximadamente 30 cm de alturaSiete (7) piezas de manos enguantadas intercambiables, incluyendo:Una (1) mano izquierda relajadaUno (1) abrió la mano derechaUn (1) dedo índice señalando la mano izquierdaUn (1) par de blásters cogidos de la manoUn (1) par de accesorios cogiéndose de la mano"
+            "x": "Articulación: Sí (30 puntos)"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) mano izquierda relajadaUno (1) abrió la mano derechaUn (1) dedo índice señalando la mano izquierdaUn (1) par de blásters cogidos de la manoUn (1) par de accesorios cogiéndose de la mano"
-          },
-          {
-            "t": "notion-text",
-            "x": "Disfraz:"
+            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) conjunto de armadura de Soldado Clon finamente elaborada pintada con detalles de patrón naranja y efectos de desgasteUn (1) traje interior de tela negraUno (1) cinturón de utilidades blanco con detalles naranjas y efectos de desgasteUn (1) par de botas blancas con efectos de envejecimiento"
+            "x": "- Casco de Clone Trooper con efecto desgaste"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
+            "x": "Manos:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- 7 manos intercambiables con guantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Armadura blanca con detalles naranjas y efecto desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Traje interior negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Cinturón utilitario blanco con detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Botas blancas con efecto desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) carabina bláster DC-15SUn (1) fusil bláster DC-15AUn (1) cañón rotatorio Z-6 *Un (1) mortero recién desarrollado con base articulada (que se puede fijar a la placa trasera) *"
+            "x": "- DC-15S blaster carbine"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
+            "x": "- DC-15A blaster rifle"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Uno (1) macrobinocularesUno (1) casco macrobinoculares *Uno (1) detonador térmico recién desarrollado (acoplable magnéticamente a la placa trasera)Un (1) juego de tres (3) detonadores térmicos recién desarrollados (acoplables magnéticamente a la placa trasera)Un (1) juego de bolsas utilitarias recién desarrolladas (acoplables magnéticamente a la placa trasera)Una (1) radio recién desarrollada (acoplable magnéticamente a la placa trasera)Soporte especial diseñado con temática de arena y logotipo de Star Wars y placa de nombre de personajesDe la edición de lujo a la de lujo"
+            "x": "- Macrobinoculares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Detonadores térmicos (magnéticos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Bolsas utilitarias (magnéticas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Radio (magnético)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Display:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Base temática estilo arena con logo de Star Wars"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Basado en Star Wars: Episode III – Revenge of the Sith"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Armadura con detalles naranjas distintivos del 212th Battalion"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Efectos de desgaste realistas en armadura y casco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Sistema de accesorios magnéticos en la espalda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Amplia variedad de armas y equipo táctico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Figura altamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Pintura aplicada con alto nivel de detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Ideal para coleccionistas de Star Wars"
           }
         ],
-        "id": "212th-attack-battalion-clone-trooper"
+        "id": "212th-attack-battalion-clone-trooper",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0b4c15d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-scale-69208c30c3ccb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0bcaaeb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0c2e0d4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0e2a523.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0d1383c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0d69c42.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915101/hot-toys-star-wars-212th-attack-battalion-clone-trooper-sixth-scale-figure-gallery-69208a0dc3dcc.jpg"
+        ]
       },
       {
         "n": "Dek & Thia (Predator Badlands)",
