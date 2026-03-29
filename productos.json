@@ -11391,11 +11391,11 @@
       },
       {
         "n": "The Thing",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/af18bbbc-15f9-470f-aab2-2c856f4d5714/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e5f19845.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e5f19845.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/the-thing",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
-        "estado": "",
+        "estado": "Vendido",
         "disp": "Pre Orden",
         "precio": "3800",
         "precio_d": "",
@@ -11405,7 +11405,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de The Thingpresenta:"
+            "x": "Lafigura de la sexta escala de The Thingpresenta: Disfraz: Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
@@ -11420,23 +11420,30 @@
             "x": "Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de manos con gestos con garra"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) uniforme de los Cuatro Fantásticos, de nuevo corte azul y blanco con elástico acanalado y pulsera (la parte superior del traje es extraíble)Un (1) cinturón blanco y crema con el logo de los Cuatro FantásticosUna (1) bota blanca"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Soporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
         ],
-        "id": "the-thing"
+        "id": "the-thing",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e5f19845.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-scale-687a98b5c2ff5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e5fb4e1a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e600d32e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e6092836.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e6119cd7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e6197210.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e61ef69a.jpg"
+        ]
       },
       {
         "n": "Superior Iron Man",
