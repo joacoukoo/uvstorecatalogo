@@ -28946,5 +28946,87 @@
         "added_at": "2026-03-29T11:35:45.152252"
       }
     ]
+  },
+  "Adultos": {
+    "slug": "adultos",
+    "products": [
+      {
+        "id": "moku-asuka",
+        "n": "Moku - Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/49aed12c308cd720e8ad109d984952ec.jpg?v=1774523671",
+        "l": "https://statuecorp.com/products/moku-asuka",
+        "marca": "",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Entrega Inmediata",
+        "precio": "2300",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "460",
+        "entrega": "Marzo 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/49aed12c308cd720e8ad109d984952ec.jpg?v=1774523671",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9d2e916dd676a8a8c9cfbffb4b90878a.jpg?v=1774523671",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2342c952d5defd7b6e87d8d88b5f0cbc.jpg?v=1774523671",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8f723cf520d712ba2662a540f299adda.jpg?v=1774523671"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Moku - Asuka es una figura de colección premium que captura la esencia de este icónico personaje en escala 1:6. Con un diseño meticulosamente detallado y proporciones anatómicamente precisas, esta pieza representa el estándar más alto de manufactura en figuras de acción articuladas para coleccionistas adultos."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada elemento de esta figura ha sido cuidadosamente esculpido y pintado a mano para lograr un nivel de realismo excepcional. Los detalles faciales, la textura del vestuario y los acabados de pintura demuestran el compromiso con la calidad que define a las colecciones premium de UV Store GT."
+          },
+          {
+            "t": "notion-text",
+            "x": "Moku - Asuka se posiciona como una adición indispensable para coleccionistas serios que buscan piezas de alto calibre. Su disponibilidad limitada y lanzamiento programado para el primer trimestre de 2027 la convierten en una oportunidad de inversión en arte coleccionable."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Primer trimestre de 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 10 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T12:15:18.006193"
+      }
+    ]
   }
 }
