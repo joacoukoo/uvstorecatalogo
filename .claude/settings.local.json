@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(grep:*)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\(''productos.json'', encoding=''utf-8''\\)\\); cats=list\\(d.keys\\(\\)\\); cat=cats[0]; prods=d[cat][''products''] if ''products'' in d[cat] else d[cat]; print\\(json.dumps\\(prods[0] if isinstance\\(prods, list\\) else prods, ensure_ascii=False, indent=2\\)[:800]\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\(''C:/Users/Joaquin/OneDrive/Escritorio/sitio que funciona/productos.json'', encoding=''utf-8''\\)\\); cats=list\\(d.keys\\(\\)\\); cat=cats[0]; prods=d[cat][''products''] if isinstance\\(d[cat], dict\\) and ''products'' in d[cat] else list\\(d[cat].values\\(\\)\\) if isinstance\\(d[cat], dict\\) else d[cat]; print\\(json.dumps\\(prods[0], ensure_ascii=False, indent=2\\)[:800]\\)\")",
+      "Bash(py -3 -c \":*)",
+      "Bash(py -3 inject_data.py)",
+      "Bash(py -3 -c \"import ast; ast.parse\\(open\\(''uv_admin.py'',encoding=''utf-8''\\).read\\(\\)\\); print\\(''Sintaxis OK''\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(python inject_data.py --template index_template.html --data productos.json --output index.html)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''uv_admin.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''OK - sin errores de sintaxis''\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''uv_admin.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''OK''\\)\")"
+    ]
+  }
+}

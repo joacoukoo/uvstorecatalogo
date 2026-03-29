@@ -10,7 +10,7 @@ Requiere: pip install requests beautifulsoup4 Pillow deep-translator
 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
-import threading, json, re, os, sys, subprocess, base64, shutil
+import threading, json, re, os, sys, subprocess, base64, shutil, datetime, unicodedata
 from pathlib import Path
 from io import BytesIO
 from urllib.parse import urljoin, unquote, urlparse
@@ -81,7 +81,7 @@ def load_config():
         try:
             return json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
         except: pass
-    return {"imgur_client_id": "", "github_repo": "", "github_token": "", "github_branch": "main"}
+    return {"imgur_client_id": "", "github_repo": "", "github_token": "", "github_branch": "main", "anthropic_api_key": ""}
 
 def save_config(cfg):
     CONFIG_FILE.write_text(json.dumps(cfg, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -127,7 +127,7 @@ def git_deploy(repo_path, commit_msg="Update catalog", status_cb=None):
         
         # git add — include all relevant files
         r = subprocess.run(
-            ["git", "add", "index.html", "productos.json", "index_template.html"],
+            ["git", "add", "index.html", "productos.json", "index_template.html", "functions/"],
             cwd=cwd, capture_output=True, text=True)
         if r.returncode != 0:
             return False, f"git add falló: {r.stderr}"
@@ -248,8 +248,8 @@ def scrape_sideshow(url, html, soup):
     # Try SKU from URL slug first
     sku_m = re.search(r'-(\d{6,})\/?(?:\?.*)?$', url)
     sku = sku_m.group(1) if sku_m else ""
-    # If URL has ?sku= param, use that (variant pages)
-    sku_q = re.search(r'[?&]sku=(\d{5,})', url)
+    # If URL has ?sku= or ?var= param, use that (variant pages — Sideshow uses ?var= for deluxe/special editions)
+    sku_q = re.search(r'[?&](?:sku|var)=(\d{5,})', url)
     if sku_q: sku = sku_q.group(1)
     # Also scan HTML for the actual product SKU in JSON-LD or data attributes
     if not sku:
@@ -277,7 +277,8 @@ def scrape_sideshow(url, html, soup):
     for p in photos:
         fn = p.split("/")[-1].split("?")[0]
         if fn not in fnames: unique.append(p); fnames.add(fn)
-    return _build_result(_get_name(soup), _get_desc(soup), _get_features(soup), unique[:8], _get_escala(html), _get_marca(_get_name(soup), html, "sideshow.com"), "", url)
+    _feats = _get_features(soup)
+    return _build_result(_get_name(soup), _get_desc(soup), _feats, unique[:8], _get_escala(html), _get_marca(_get_name(soup), html, "sideshow.com", _feats), "", url)
 
 def scrape_opencart(url, html, soup):
     photos = []; seen = set()
@@ -390,11 +391,27 @@ def _get_escala(html):
     if m2: escala = (escala + f" - {m2.group(1)}CM").strip(" -")
     return escala[:40]
 
-def _get_marca(name, html, domain):
-    brands = ["Hot Toys","Iron Studios","Prime 1 Studio","Sideshow","Threezero","SH Figuarts",
+def _get_marca(name, html, domain, features=None):
+    # 1. Buscar campo "Brand:" explícito en las features scrapeadas (ej: páginas de Sideshow)
+    if features:
+        for f in features:
+            m = re.match(r'(?:brand|manufacturer|fabricante|marca)\s*[:\-]\s*(.+)', f, re.I)
+            if m:
+                return m.group(1).strip()
+    # 2. Buscar campo "Brand:" en el HTML (tablas de especificaciones)
+    m = re.search(r'(?:Brand|Manufacturer)\s*[:\-<>/\s]+([A-Z][A-Za-z0-9 &\'.]+?)(?:<|\\n|\|)', html)
+    if m:
+        candidate = m.group(1).strip()
+        # Evitar que devuelva palabras genéricas o el propio retailer como marca
+        if len(candidate) > 2 and candidate.lower() not in ("inc","llc","ltd","the","and"):
+            return candidate
+    # 3. Lista de marcas conocidas — buscar en nombre y HTML
+    brands = ["Hot Toys","Iron Studios","Prime 1 Studio","Threezero","SH Figuarts",
               "Mondo","Beast Kingdom","NECA","Mezco","First 4 Figures","PCS","Kotobukiya",
               "Bandai","Hasbro","Funko","McFarlane","Asmus Toys","Toys Era","JoyToy",
-              "Robosen","PureArts","Tsume Art","Infinite Statue","Trick or Treat Studios"]
+              "Robosen","PureArts","Tsume Art","Infinite Statue","Trick or Treat Studios",
+              "Factory Entertainment","Gentle Giant","XM Studios","Blitzway","Weta Workshop",
+              "Chronicle Collectibles","Quantum Mechanix","Sideshow"]
     for b in brands:
         if b.lower() in name.lower() or b.lower() in html.lower()[:3000]: return b
     return ""
@@ -451,6 +468,22 @@ def save_catalog(path, data):
         lambda m: m.group(1) + new_json + m.group(3), content, flags=re.DOTALL)
     with open(path, "w", encoding="utf-8") as f: f.write(new_content)
 
+def _detect_entrega(features, html=""):
+    """Intenta extraer la fecha/trimestre de entrega desde las features o el HTML."""
+    patterns = [
+        r'(?:expected\s+ship(?:ping)?|ship(?:ping)?\s+date|estimated\s+delivery|pre.?order\s+ship[a-z]*|arrives?|release\s+date)\s*[:\-]?\s*([^\n<]{4,50})',
+        r'\b(Q[1-4]\s*\d{4}|\d{4}\s*Q[1-4])\b',
+        r'\b((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4})\b',
+        r'\b((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?\s+\d{4})\b',
+    ]
+    sources = list(features or []) + ([html[:3000]] if html else [])
+    for src in sources:
+        for pat in patterns:
+            m = re.search(pat, src, re.I)
+            if m:
+                return m.group(1).strip()[:60]
+    return ""
+
 def search_product(catalog, query):
     q = query.lower().strip(); results = []
     for cat, info in catalog.items():
@@ -460,12 +493,38 @@ def search_product(catalog, query):
                 results.append({"cat":cat,"idx":i,"product":p})
     return results
 
+def _make_product_id(nombre, catalog_all):
+    """Genera un slug estable y único para el ID del producto."""
+    # Normalizar: bajar a minúsculas, quitar acentos, reemplazar espacios y caracteres raros
+    s = nombre.lower().strip()
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")  # quitar diacríticos
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    s = re.sub(r"-+", "-", s)
+    base = s[:60]
+    # Verificar unicidad global
+    existing = set()
+    for cat_data in catalog_all.values():
+        for prod in (cat_data.get("products", []) if isinstance(cat_data, dict) else []):
+            if prod.get("id"):
+                existing.add(prod["id"])
+    candidate = base
+    counter = 2
+    while candidate in existing:
+        candidate = f"{base}-{counter}"
+        counter += 1
+    return candidate
+
 def add_product(path, data, categoria, precio, precio_d, reserva, entrega, cantidad, estado, youtube=""):
     catalog = load_catalog(path)
-    blocks = []
-    if data.get("descripcion"): blocks.append({"t":"notion-text","x":data["descripcion"][:800]})
-    for f in data.get("features",[]): blocks.append({"t":"notion-bulleted-list","x":f})
+    if data.get("ai_blocks"):
+        blocks = data["ai_blocks"]
+    else:
+        blocks = []
+        if data.get("descripcion"): blocks.append({"t":"notion-text","x":data["descripcion"][:800]})
+        for f in data.get("features",[]): blocks.append({"t":"notion-bulleted-list","x":f})
     p = {
+        "id":_make_product_id(data["nombre"], catalog),
         "n":data["nombre"],"i":data["fotos"][0] if data["fotos"] else "",
         "l":data["url_origen"],"marca":data["marca"],"escala":data["escala"],
         "franquicia":data.get("franquicia",""),
@@ -474,12 +533,188 @@ def add_product(path, data, categoria, precio, precio_d, reserva, entrega, canti
         "reserva":reserva,"entrega":entrega,"cantidad":cantidad,
         "fotos":data["fotos"],"content":blocks,"yt":youtube,
         "destacado":data.get("destacado",False),"oferta":data.get("oferta",False),
+        "added_at":datetime.datetime.now().isoformat(),
     }
     if categoria not in catalog:
         catalog[categoria] = {"slug":categoria.lower().replace(" ","-"),"products":[]}
     catalog[categoria]["products"].insert(0, p)
     save_catalog(path, catalog)
     return p
+
+def generate_ai_description(data, api_key):
+    """Llama a Claude Haiku y devuelve una lista de content blocks estructurados."""
+    source_domain = urlparse(data.get('url_origen','')).netloc.replace('www.','')
+    retailer_note = (
+        f"IMPORTANTE: la URL origen es de '{source_domain}', que es un RETAILER/tienda, NO el fabricante. "
+        f"El fabricante real puede aparecer en las características como 'Brand:' o 'Manufacturer:'. "
+        f"No uses '{source_domain}' como fabricante en ningún campo.\n"
+    ) if source_domain and source_domain not in ("", data.get('marca','').lower()) else ""
+    prompt = (
+        "Sos redactor para UV Store GT, tienda guatemalteca de coleccionables premium.\n"
+        "Generá una descripción profesional en español para esta figura.\n"
+        f"{retailer_note}\n"
+        f"PRODUCTO:\n"
+        f"Nombre: {data.get('nombre','')}\n"
+        f"Fabricante detectado: {data.get('marca','') or '(buscar en características)'}\n"
+        f"Escala: {data.get('escala','')}\n"
+        f"Descripción scrapeada: {data.get('descripcion','')[:800]}\n"
+        f"Franquicia/universo: {data.get('franquicia','')}\n\n"
+        f"Características/specs scrapeadas (LEER COMPLETO — accesorios, vestuario, manos, display están acá):\n"
+        + "\n".join(f"  {i+1}. {f}" for i,f in enumerate(data.get('features',[])[:40]))
+        + "\n\n"
+        "Devolvé SOLO un JSON array con bloques de contenido. Formato exacto:\n"
+        '[\n'
+        '  {"t":"notion-heading-2","x":"Descripción"},\n'
+        '  {"t":"notion-text","x":"Párrafo narrativo sobre el personaje y contexto."},\n'
+        '  {"t":"notion-text","x":"Párrafo sobre detalles artísticos o de manufactura."},\n'
+        '  {"t":"notion-text","x":"Párrafo sobre materiales y propuesta de colección."},\n'
+        '  {"t":"notion-heading-2","x":"Detalles"},\n'
+        '  {"t":"notion-bulleted-list","x":"Línea: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Fabricante: (el fabricante real, no el retailer)"},\n'
+        '  {"t":"notion-bulleted-list","x":"Tipo: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Género: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Afiliación: ..."},\n'
+        '  {"t":"notion-heading-2","x":"Especificaciones"},\n'
+        '  {"t":"notion-bulleted-list","x":"Altura: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Escala: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Materiales: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Articulación: ..."},\n'
+        '  {"t":"notion-heading-2","x":"Incluye"},\n'
+        '  {"t":"notion-bulleted-list","x":"Cabeza esculpida con likeness de ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Vestuario: camisa ..., pantalón ..., etc."},\n'
+        '  {"t":"notion-bulleted-list","x":"Accesorios: espada, escudo, etc."},\n'
+        '  {"t":"notion-bulleted-list","x":"Manos intercambiables: X pares"},\n'
+        '  {"t":"notion-bulleted-list","x":"Base de exhibición"},\n'
+        '  {"t":"notion-heading-2","x":"Características"},\n'
+        '  {"t":"notion-bulleted-list","x":"..."}\n'
+        ']\n\n'
+        "REGLAS:\n"
+        "- Descripción: 2-3 párrafos narrativos, atractivos, en español de Latinoamérica\n"
+        "- Omití secciones enteras si no hay datos suficientes para llenarlas\n"
+        "- Incluye: es la sección MÁS IMPORTANTE para coleccionistas. Listá TODOS los accesorios,\n"
+        "  prendas de vestuario, opciones de cabeza, manos intercambiables, bases y fondos escénicos\n"
+        "  que aparezcan en las características. No omitir ninguno. Si el scrape tiene sub-categorías\n"
+        "  (Vestuario, Accesorios, Manos, Display) conservalas como bullets separados con ese prefijo.\n"
+        "- Características: 5-7 bullets con lo más destacado de la pieza\n"
+        "- No inventes datos específicos (altura exacta, materiales) si no están en la info\n"
+        "- Respondé SOLO con el JSON array, sin markdown, sin texto adicional"
+    )
+    r = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        },
+        json={
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": 2400,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+        timeout=40,
+    )
+    r.raise_for_status()
+    text = r.json()["content"][0]["text"].strip()
+    m = re.search(r'\[[\s\S]*\]', text)
+    return json.loads(m.group() if m else text)
+
+def needs_optimization(product):
+    """Devuelve True si el producto tiene contenido mal formateado que vale la pena optimizar."""
+    if product.get("content_ok"):
+        return False
+    content = product.get("content", [])
+    if not content:
+        return False
+    for b in content:
+        t, x = b.get("t", ""), b.get("x", "")
+        # notion-text muy corto o con artefactos de scraping
+        if t == "notion-text":
+            if len(x) < 80:
+                return True
+            if re.search(r'incluye\s*:|disfraz\s*:|armas\s*:|accesorios\s*:', x, re.I):
+                return True
+        # bullet muy largo = items concatenados sin separación
+        if t == "notion-bulleted-list" and len(x) > 250:
+            return True
+    return False
+
+def optimize_content_blocks(product, api_key):
+    """Toma los bloques content existentes de un producto y los reformatea con Claude."""
+    name = product.get("n", "")
+    current_text = blocks_to_preview_raw(product.get("content", []))
+    prompt = (
+        "Sos redactor para UV Store GT, tienda guatemalteca de coleccionables premium.\n"
+        "Te doy el contenido actual de una figura en el catálogo. Está mal formateado: "
+        "puede tener bullets concatenados sin separación, descripción cortada, o texto desordenado.\n\n"
+        f"FIGURA: {name}\n\n"
+        f"CONTENIDO ACTUAL:\n{current_text}\n\n"
+        "Reorganizá y mejorá este contenido en español de Latinoamérica. "
+        "Usá SOLO la información que ya está en el contenido — no inventes datos.\n\n"
+        "Devolvé SOLO un JSON array con bloques. Formato:\n"
+        '[\n'
+        '  {"t":"notion-heading-2","x":"Descripción"},\n'
+        '  {"t":"notion-text","x":"Párrafo narrativo sobre el personaje y contexto."},\n'
+        '  {"t":"notion-heading-2","x":"Especificaciones"},\n'
+        '  {"t":"notion-bulleted-list","x":"Altura: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Escala: ..."},\n'
+        '  {"t":"notion-heading-2","x":"Incluye"},\n'
+        '  {"t":"notion-bulleted-list","x":"Un item por bullet — separar cada accesorio"},\n'
+        '  {"t":"notion-heading-2","x":"Características"},\n'
+        '  {"t":"notion-bulleted-list","x":"..."}\n'
+        ']\n\n'
+        "REGLAS:\n"
+        "- Cada bullet = UN solo item (si el original tiene muchos concatenados, separalos)\n"
+        "- Omití secciones si no hay datos suficientes\n"
+        "- No agregues información que no esté en el contenido original\n"
+        "- Respondé SOLO con el JSON array, sin markdown, sin texto adicional"
+    )
+    r = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        },
+        json={
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": 2400,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+        timeout=40,
+    )
+    r.raise_for_status()
+    text = r.json()["content"][0]["text"].strip()
+    m = re.search(r'\[[\s\S]*\]', text)
+    return json.loads(m.group() if m else text)
+
+def blocks_to_preview_raw(blocks):
+    """Convierte content blocks a texto plano para enviar como contexto a la IA."""
+    lines = []
+    for b in blocks:
+        t, x = b.get("t", ""), b.get("x", "")
+        if t == "notion-heading-2":
+            lines.append(f"\n[{x}]")
+        elif t == "notion-text":
+            lines.append(x)
+        elif t in ("notion-bulleted-list", "notion-numbered-list"):
+            lines.append(f"• {x}")
+    return "\n".join(lines).strip()
+
+def blocks_to_preview(blocks):
+    """Convierte content blocks a texto legible para mostrar en la UI."""
+    lines = []
+    for b in blocks:
+        t, x = b.get("t", ""), b.get("x", "")
+        if t == "notion-heading-2":
+            if lines: lines.append("")
+            lines.append(f"{x}")
+            lines.append("─" * max(len(x), 4))
+        elif t == "notion-text":
+            lines.append(x)
+            lines.append("")
+        elif t in ("notion-bulleted-list", "notion-numbered-list"):
+            lines.append(f"  • {x}")
+    return "\n".join(lines).strip()
 
 def update_product(path, cat, idx, fields):
     """Update arbitrary fields on a product. fields is a dict."""
@@ -641,38 +876,49 @@ class UVAdminApp:
         right.columnconfigure(1, weight=1)
         self.add_nombre_var  = tk.StringVar()
         self.add_precio_var  = tk.StringVar()
-        self.add_precio_d_var= tk.StringVar()
-        self.add_reserva_var = tk.StringVar()
         self.add_entrega_var = tk.StringVar()
         self.add_cantidad_var= tk.StringVar()
         self.add_youtube_var = tk.StringVar()
 
         field(right,"Nombre (editable):",self.add_nombre_var,0)
-        field(right,"Precio (Q):",self.add_precio_var,1)
-        field(right,"Precio Deluxe (Q, opcional):",self.add_precio_d_var,2)
-        field(right,"Reserva con (Q):",self.add_reserva_var,3)
-        field(right,"Entrega Estimada:",self.add_entrega_var,4)
-        field(right,"Cantidad disponible:",self.add_cantidad_var,5)
-        field(right,"YouTube URL:",self.add_youtube_var,6)
+
+        # Precio + label de reserva automática
+        tk.Label(right,text="Precio (Q):",bg=BG,fg=MUTED,font=("Helvetica",9),anchor="w").grid(row=1,column=0,sticky="nw",pady=(6,2))
+        precio_row = tk.Frame(right, bg=BG)
+        precio_row.grid(row=1,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+        precio_row.columnconfigure(0, weight=1)
+        tk.Entry(precio_row,textvariable=self.add_precio_var,bg=BG2,fg=TEXT,font=("Helvetica",11),relief="flat",bd=6,insertbackground=TEXT).grid(row=0,column=0,sticky="ew")
+        self.add_reserva_lbl = tk.Label(precio_row,text="Reserva: —",bg=BG,fg=MUTED,font=("Helvetica",9))
+        self.add_reserva_lbl.grid(row=0,column=1,sticky="w",padx=(8,0))
+        def _update_reserva_lbl(*_):
+            try:
+                v = float(self.add_precio_var.get().replace(",","").replace("Q","").strip())
+                self.add_reserva_lbl.config(text=f"Reserva: Q {v*0.20:.0f} (20%)")
+            except: self.add_reserva_lbl.config(text="Reserva: —")
+        self.add_precio_var.trace_add("write", _update_reserva_lbl)
+
+        field(right,"Entrega Estimada:",self.add_entrega_var,2)
+        field(right,"Cantidad disponible:",self.add_cantidad_var,3)
+        field(right,"YouTube URL:",self.add_youtube_var,4)
 
         # Category & Estado
-        tk.Label(right,text="Categoría:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
+        tk.Label(right,text="Categoría:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=5,column=0,sticky="w",pady=(6,2))
         self.add_cat_var = tk.StringVar(value=CAT_KEYS[0])
         ttk.Combobox(right,textvariable=self.add_cat_var,values=CAT_KEYS,state="readonly",
-                     font=("Helvetica",11)).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+                     font=("Helvetica",11)).grid(row=5,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
-        tk.Label(right,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=8,column=0,sticky="w",pady=(6,2))
+        tk.Label(right,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=6,column=0,sticky="w",pady=(6,2))
         self.add_franquicia_var = tk.StringVar(value="")
         ttk.Combobox(right,textvariable=self.add_franquicia_var,values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros"],
-                     state="readonly",font=("Helvetica",11)).grid(row=8,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+                     state="readonly",font=("Helvetica",11)).grid(row=6,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
         # Precio original + checkboxes Destacado/Oferta
-        tk.Label(right,text="Precio Orig (Q):",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=9,column=0,sticky="w",pady=(6,2))
+        tk.Label(right,text="Precio Orig (Q):",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
         self.add_precio_orig_var = tk.StringVar()
         tk.Entry(right,textvariable=self.add_precio_orig_var,bg=BG2,fg=TEXT,font=("Helvetica",11),
-                 relief="flat",bd=6,insertbackground=TEXT).grid(row=9,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+                 relief="flat",bd=6,insertbackground=TEXT).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
         add_chk = tk.Frame(right, bg=BG)
-        add_chk.grid(row=9,column=2,columnspan=1,sticky="w",pady=(6,2),padx=(12,0))
+        add_chk.grid(row=7,column=2,columnspan=1,sticky="w",pady=(6,2),padx=(12,0))
         tk.Checkbutton(add_chk,text="★ Destacado",variable=self._add_destacado,
                        bg=BG,fg="#b97aff",selectcolor=BG2,activebackground=BG,
                        font=("Helvetica",9,"bold")).pack(side="left",padx=(0,8))
@@ -680,29 +926,26 @@ class UVAdminApp:
                        bg=BG,fg="#f87171",selectcolor=BG2,activebackground=BG,
                        font=("Helvetica",9,"bold")).pack(side="left")
 
-        tk.Label(right,text="Estado:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=10,column=0,sticky="w",pady=(6,2))
+        tk.Label(right,text="Estado:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=8,column=0,sticky="w",pady=(6,2))
         self.add_estado_var = tk.StringVar(value="Nuevo")
         ttk.Combobox(right,textvariable=self.add_estado_var,values=["Nuevo","Usado - Como Nuevo","Vendido"],
-                     state="readonly",font=("Helvetica",11)).grid(row=9,column=1,sticky="ew",pady=(6,2),padx=(8,0))
-
-        # Description — EDITABLE
-        tk.Label(right,text="Descripción:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=12,column=0,sticky="nw",pady=(10,2))
-        self.add_desc_txt = tk.Text(right,height=5,bg=BG2,fg=TEXT,font=("Helvetica",10),
-                                    relief="flat",bd=6,wrap="word",insertbackground=TEXT)
-        self.add_desc_txt.grid(row=11,column=1,sticky="ew",pady=(10,2),padx=(8,0))
-        feat_hdr_add = tk.Frame(right, bg=BG)
-        feat_hdr_add.grid(row=12,column=0,columnspan=2,sticky="ew",pady=(8,0))
-        tk.Label(feat_hdr_add,text="Características (una por línea):",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(side="left")
-        tk.Button(feat_hdr_add,text="🧹 Limpiar formato",
-                  command=lambda: self._clean_features_field(self.add_features_txt),
-                  bg=BG4,fg=MUTED,font=("Helvetica",8),relief="flat",padx=8,pady=2).pack(side="left",padx=(8,0))
-        self.add_features_txt = tk.Text(right,height=5,bg=BG2,fg=TEXT,font=("Helvetica",10),
-                                         relief="flat",bd=6,wrap="word",insertbackground=TEXT)
-        self.add_features_txt.grid(row=13,column=0,columnspan=2,sticky="ew",pady=(2,2))
+                     state="readonly",font=("Helvetica",11)).grid(row=8,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
         # Meta info label
         self.add_meta_lbl = tk.Label(right,text="",bg=BG,fg=MUTED,font=("Helvetica",10))
-        self.add_meta_lbl.grid(row=12,column=0,columnspan=2,sticky="w",pady=4)
+        self.add_meta_lbl.grid(row=9,column=0,columnspan=2,sticky="w",pady=4)
+
+        # AI description area
+        ai_hdr = tk.Frame(right, bg=BG)
+        ai_hdr.grid(row=10,column=0,columnspan=3,sticky="ew",pady=(8,2))
+        tk.Label(ai_hdr,text="Descripción:",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(side="left")
+        self.add_ai_btn = tk.Button(ai_hdr,text="✨ Generar con IA",
+                  command=self._add_gen_ai,
+                  bg="#2d1a4a",fg="#b97aff",font=("Helvetica",9,"bold"),relief="flat",padx=10,pady=3)
+        self.add_ai_btn.pack(side="left",padx=(10,0))
+        self.add_ai_txt = tk.Text(right,height=13,bg=BG2,fg=TEXT,font=("Helvetica",10),
+                                   relief="flat",bd=6,wrap="word",insertbackground=TEXT)
+        self.add_ai_txt.grid(row=11,column=0,columnspan=3,sticky="ew",pady=(2,2))
 
         # Platforms info
         info = tk.Label(tab,
@@ -896,35 +1139,44 @@ class UVAdminApp:
             e.grid(row=row,column=1,sticky="ew",pady=8)
             return e
 
+        # Anthropic / IA
+        tk.Label(content,text="── Anthropic (para generar descripciones con IA) ──",
+                 bg=BG,fg=PURPLE,font=("Helvetica",10,"bold")).grid(row=0,column=0,columnspan=3,sticky="w",pady=(0,4))
+        self.cfg_anthropic_var = tk.StringVar(value=self.cfg.get("anthropic_api_key",""))
+        cfg_field("Anthropic API Key:", self.cfg_anthropic_var, 1, show="*")
+        tk.Label(content,
+            text="Obtené tu key gratis en: console.anthropic.com → API Keys\nCosto: ~$0.002 por figura (Claude Haiku)",
+            bg=BG,fg="#555",font=("Helvetica",9)).grid(row=2,column=1,sticky="w")
+
         # Imgur
         tk.Label(content,text="── Imgur (para fotos desde PC) ──",
-                 bg=BG,fg=PURPLE,font=("Helvetica",10,"bold")).grid(row=0,column=0,columnspan=3,sticky="w",pady=(0,4))
+                 bg=BG,fg=PURPLE,font=("Helvetica",10,"bold")).grid(row=3,column=0,columnspan=3,sticky="w",pady=(16,4))
 
         self.cfg_imgur_var = tk.StringVar(value=self.cfg.get("imgur_client_id",""))
-        cfg_field("Imgur Client ID:", self.cfg_imgur_var, 1)
+        cfg_field("Imgur Client ID:", self.cfg_imgur_var, 4)
         tk.Label(content,
             text="Obtenelo gratis en: https://api.imgur.com/oauth2/addclient\n(elegí 'Anonymous usage without user authorization')",
-            bg=BG,fg="#555",font=("Helvetica",9)).grid(row=2,column=1,sticky="w")
+            bg=BG,fg="#555",font=("Helvetica",9)).grid(row=5,column=1,sticky="w")
         tk.Button(content,text="🧪 Probar conexión Imgur",command=self._test_imgur,
-                  bg=BG4,fg=MUTED,font=("Helvetica",9),relief="flat",padx=10,pady=4).grid(row=3,column=1,sticky="w",pady=(0,8))
+                  bg=BG4,fg=MUTED,font=("Helvetica",9),relief="flat",padx=10,pady=4).grid(row=6,column=1,sticky="w",pady=(0,8))
 
         # GitHub
         tk.Label(content,text="── GitHub (para publicar automáticamente) ──",
-                 bg=BG,fg=PURPLE,font=("Helvetica",10,"bold")).grid(row=3,column=0,columnspan=3,sticky="w",pady=(16,4))
+                 bg=BG,fg=PURPLE,font=("Helvetica",10,"bold")).grid(row=7,column=0,columnspan=3,sticky="w",pady=(16,4))
 
         self.cfg_repo_var   = tk.StringVar(value=self.cfg.get("github_repo",""))
         self.cfg_branch_var = tk.StringVar(value=self.cfg.get("github_branch","main"))
-        cfg_field("Carpeta del repo (path local):", self.cfg_repo_var, 4)
-        cfg_field("Branch:", self.cfg_branch_var, 5)
+        cfg_field("Carpeta del repo (path local):", self.cfg_repo_var, 8)
+        cfg_field("Branch:", self.cfg_branch_var, 9)
 
         tk.Label(content,
             text="La carpeta local del repo debe tener el index.html.\nSi no tenés Git instalado: https://git-scm.com/downloads\nSi no tenés repo en GitHub, crealo en https://github.com/new",
-            bg=BG,fg="#555",font=("Helvetica",9)).grid(row=6,column=1,sticky="w",pady=(0,8))
+            bg=BG,fg="#555",font=("Helvetica",9)).grid(row=10,column=1,sticky="w",pady=(0,8))
 
         # Setup instructions
         instruct = tk.Text(content,height=8,bg=BG2,fg=MUTED,font=("Helvetica",9),
                            relief="flat",bd=8,wrap="word")
-        instruct.grid(row=7,column=0,columnspan=2,sticky="ew",pady=8)
+        instruct.grid(row=11,column=0,columnspan=2,sticky="ew",pady=8)
         instruct.insert("1.0",
             "SETUP INICIAL (una sola vez):\n\n"
             "1. Instalá Git desde https://git-scm.com/downloads\n"
@@ -942,7 +1194,17 @@ class UVAdminApp:
 
         tk.Button(content,text="💾  Guardar Configuración",command=self._save_config,
                   bg=PURPLE,fg="white",font=("Helvetica",11,"bold"),relief="flat",
-                  padx=16,pady=8).grid(row=8,column=0,columnspan=2,sticky="w",pady=12)
+                  padx=16,pady=8).grid(row=12,column=0,columnspan=2,sticky="w",pady=12)
+
+        # ── Batch optimizer ──
+        tk.Label(content,text="── Optimización en lote ──",
+                 bg=BG,fg=PURPLE,font=("Helvetica",10,"bold")).grid(row=13,column=0,columnspan=3,sticky="w",pady=(16,4))
+        tk.Label(content,
+            text="Detecta figuras con descripción/características mal formateadas y las mejora con IA.\nSalta automáticamente las que ya están bien (marcadas como content_ok).",
+            bg=BG,fg="#555",font=("Helvetica",9)).grid(row=14,column=0,columnspan=2,sticky="w")
+        tk.Button(content,text="✨  Optimizar Catálogo con IA",command=self._batch_optimize,
+                  bg="#1a3a2a",fg=GREEN,font=("Helvetica",11,"bold"),relief="flat",
+                  padx=16,pady=8).grid(row=15,column=0,columnspan=2,sticky="w",pady=(8,4))
 
     # ── STATUS ────────────────────────────────────────────────────────────────
 
@@ -994,12 +1256,47 @@ class UVAdminApp:
         if data.get("precio_sugerido"):
             self._status(f"Precio detectado: USD {data['precio_sugerido']} → poné el precio en Q", ORANGE)
         self.add_preview.set_photos(data["fotos"])
-        self.add_desc_txt.delete("1.0","end")
-        if data.get("descripcion"): self.add_desc_txt.insert("1.0", data["descripcion"][:1000])
-        self.add_features_txt.delete("1.0","end")
-        if data.get("features"): self.add_features_txt.insert("1.0", "\n".join(data["features"]))
+        self.add_ai_txt.delete("1.0","end")
+        # Auto-detectar entrega estimada
+        entrega_det = _detect_entrega(data.get("features",[]))
+        if entrega_det:
+            self.add_entrega_var.set(entrega_det)
         translated = " · Traducido ✓" if data.get("traducido") else ""
         self._status(f"✅  {len(data['fotos'])} fotos encontradas{translated}", GREEN)
+        # Auto-generar descripción con IA si hay API key
+        if self.cfg.get("anthropic_api_key","").strip():
+            self._add_gen_ai()
+
+    def _add_gen_ai(self):
+        if not self._scraped_add:
+            self._status("⚠️  Cargá una URL primero.", ORANGE); return
+        api_key = self.cfg.get("anthropic_api_key","").strip()
+        if not api_key:
+            self._status("⚠️  Configurá tu API key de Anthropic en ⚙ Configuración.", ORANGE); return
+        self.add_ai_btn.config(state="disabled", text="⏳ Generando...")
+        self._status("✨ Generando descripción con IA...", ORANGE)
+        data = dict(self._scraped_add)
+        data["nombre"] = self.add_nombre_var.get().strip() or data["nombre"]
+        threading.Thread(target=self._run_ai_gen, args=(data, api_key), daemon=True).start()
+
+    def _run_ai_gen(self, data, api_key):
+        try:
+            blocks = generate_ai_description(data, api_key)
+            preview = blocks_to_preview(blocks)
+            self.root.after(0, lambda: self._on_ai_done(blocks, preview))
+        except Exception as e:
+            self.root.after(0, lambda: self._on_ai_error(str(e)))
+
+    def _on_ai_done(self, blocks, preview):
+        self._scraped_add["ai_blocks"] = blocks
+        self.add_ai_txt.delete("1.0","end")
+        self.add_ai_txt.insert("1.0", preview)
+        self.add_ai_btn.config(state="normal", text="🔄 Regenerar")
+        self._status("✅ Descripción generada con IA. Revisá y ajustá si hace falta.", GREEN)
+
+    def _on_ai_error(self, err):
+        self.add_ai_btn.config(state="normal", text="✨ Generar con IA")
+        self._status(f"❌ Error IA: {err}", RED)
 
     def _add_confirm(self):
         if not self._scraped_add:
@@ -1009,20 +1306,22 @@ class UVAdminApp:
             messagebox.showwarning("Falta nombre","Ingresá el nombre de la figura."); return
         self._scraped_add["nombre"] = nombre
         try:
-            # Override description/features with what's in the editable fields
-            self._scraped_add["descripcion"] = self.add_desc_txt.get("1.0","end").strip()
-            features_raw = self.add_features_txt.get("1.0","end").strip()
-            self._scraped_add["features"] = [l.strip() for l in features_raw.splitlines() if l.strip()]
+            # ai_blocks ya están en self._scraped_add si se generaron; si no, fallback al texto plano
             self._scraped_add["franquicia"]  = self.add_franquicia_var.get()
             self._scraped_add["precio_orig"] = self.add_precio_orig_var.get().strip()
             self._scraped_add["destacado"]   = self._add_destacado.get()
             self._scraped_add["oferta"]      = self._add_oferta.get()
+            precio_str = self.add_precio_var.get().strip()
+            try:
+                reserva_auto = str(round(float(precio_str.replace(",","").replace("Q","")) * 0.20))
+            except:
+                reserva_auto = ""
             p = add_product(
                 CATALOG_FILE, self._scraped_add,
                 self.add_cat_var.get(),
-                self.add_precio_var.get().strip(),
-                self.add_precio_d_var.get().strip(),
-                self.add_reserva_var.get().strip(),
+                precio_str,
+                "",
+                reserva_auto,
                 self.add_entrega_var.get().strip(),
                 self.add_cantidad_var.get().strip(),
                 self.add_estado_var.get(),
@@ -1032,9 +1331,10 @@ class UVAdminApp:
             messagebox.showinfo("✅ Listo", f"'{p['n']}' agregada al catálogo.\n\nClickeá '🚀 Publicar en GitHub' para actualizar el sitio.")
             self._scraped_add = None
             self.add_url_var.set(""); self.add_nombre_var.set(""); self.add_precio_var.set("")
-            self.add_precio_d_var.set(""); self.add_reserva_var.set(""); self.add_entrega_var.set("")
-            self.add_cantidad_var.set(""); self.add_youtube_var.set(""); self.add_preview.set_photos([])
-            self.add_desc_txt.delete("1.0","end"); self.add_features_txt.delete("1.0","end"); self.add_franquicia_var.set("")
+            self.add_entrega_var.set(""); self.add_cantidad_var.set("")
+            self.add_youtube_var.set(""); self.add_preview.set_photos([])
+            self.add_ai_txt.delete("1.0","end"); self.add_franquicia_var.set("")
+            self.add_ai_btn.config(text="✨ Generar con IA")
             self._check_catalog()
         except Exception as e:
             messagebox.showerror("Error", str(e)); self._status(f"❌  {e}", RED)
@@ -1273,10 +1573,79 @@ class UVAdminApp:
                 self.root.after(0,lambda:messagebox.showerror("Error",str(e)))
         import threading as _t; _t.Thread(target=run,daemon=True).start()
 
+    def _batch_optimize(self):
+        api_key = self.cfg.get("anthropic_api_key", "").strip()
+        if not api_key:
+            messagebox.showwarning("Sin API Key", "Configurá tu API Key de Anthropic primero.")
+            return
+        catalog = load_catalog(CATALOG_FILE)
+        # Recolectar todos los productos que necesitan optimización
+        to_optimize = []
+        for cat, val in catalog.items():
+            for idx, p in enumerate(val.get("products", [])):
+                if needs_optimization(p):
+                    to_optimize.append((cat, idx, p))
+        total = len(to_optimize)
+        if total == 0:
+            messagebox.showinfo("Todo en orden", "No hay figuras que necesiten optimización.")
+            return
+        if not messagebox.askyesno("Optimizar catálogo",
+            f"Se encontraron {total} figuras con contenido para mejorar.\n\n"
+            f"¿Querés continuar? (puede tardar ~{total//2} minutos)"):
+            return
+
+        # Ventana de progreso
+        win = tk.Toplevel(self.root)
+        win.title("Optimizando catálogo..."); win.configure(bg=BG)
+        win.geometry("520x280"); win.resizable(False, False)
+        tk.Label(win,text="✨ Optimizando descripciones con IA",bg=BG,fg=TEXT,
+                 font=("Helvetica",13,"bold")).pack(pady=(20,8))
+        prog_var = tk.StringVar(value="Iniciando...")
+        tk.Label(win,textvariable=prog_var,bg=BG,fg=MUTED,font=("Helvetica",10)).pack()
+        import tkinter.ttk as ttk
+        bar = ttk.Progressbar(win,length=460,mode="determinate",maximum=total)
+        bar.pack(pady=12,padx=20)
+        log_var = tk.StringVar(value="")
+        tk.Label(win,textvariable=log_var,bg=BG,fg="#555",font=("Helvetica",9),
+                 wraplength=480,justify="left").pack(padx=20)
+        close_btn = tk.Button(win,text="Cerrar",command=win.destroy,
+                              bg=BG2,fg=MUTED,relief="flat",padx=12,pady=4,state="disabled")
+        close_btn.pack(pady=(12,0))
+
+        def run():
+            done = 0; errors = 0
+            for cat, idx, p in to_optimize:
+                name = p.get("n","?")
+                win.after(0, lambda n=name, d=done: (
+                    prog_var.set(f"Procesando {d+1}/{total}: {n}"),
+                    bar.configure(value=d)
+                ))
+                try:
+                    new_blocks = optimize_content_blocks(p, api_key)
+                    fresh = load_catalog(CATALOG_FILE)
+                    fresh[cat]["products"][idx]["content"] = new_blocks
+                    fresh[cat]["products"][idx]["content_ok"] = True
+                    save_catalog(CATALOG_FILE, fresh)
+                    done += 1
+                    win.after(0, lambda n=name: log_var.set(f"✅ {n}"))
+                except Exception as e:
+                    errors += 1
+                    win.after(0, lambda n=name, err=e: log_var.set(f"❌ {n}: {err}"))
+                import time; time.sleep(0.3)  # evitar rate limit
+            win.after(0, lambda: (
+                prog_var.set(f"Listo — {done} optimizadas, {errors} errores"),
+                bar.configure(value=total),
+                close_btn.configure(state="normal"),
+                self._edit_load_all(),
+                self._status(f"✅ {done} figuras optimizadas.", GREEN)
+            ))
+        import threading; threading.Thread(target=run, daemon=True).start()
+
     def _save_config(self):
-        self.cfg["imgur_client_id"] = self.cfg_imgur_var.get().strip()
-        self.cfg["github_repo"]     = self.cfg_repo_var.get().strip()
-        self.cfg["github_branch"]   = self.cfg_branch_var.get().strip() or "main"
+        self.cfg["anthropic_api_key"] = self.cfg_anthropic_var.get().strip()
+        self.cfg["imgur_client_id"]   = self.cfg_imgur_var.get().strip()
+        self.cfg["github_repo"]       = self.cfg_repo_var.get().strip()
+        self.cfg["github_branch"]     = self.cfg_branch_var.get().strip() or "main"
         save_config(self.cfg)
         self._status("✅ Configuración guardada.", GREEN)
         messagebox.showinfo("✅ Guardado","Configuración guardada correctamente.")
