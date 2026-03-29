@@ -3,62 +3,6 @@
     "slug": "entrega-inmediata",
     "products": [
       {
-        "n": "Robocop",
-        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f7d5c65.jpg",
-        "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robocop",
-        "marca": "Hot Toys",
-        "escala": "1:6 - 30CM",
-        "estado": "Nuevo",
-        "disp": "Pre Orden",
-        "precio": "3800",
-        "precio_d": "",
-        "reserva": "Q760",
-        "entrega": "Marzo 2027",
-        "cantidad": "3",
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "La figura de lasexta escala de Robocoppresenta: Armas: Accesorios:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Peter Weller como RoboCop en RoboCop 2Una (1) cabeza con casco y tres (3) caras inferiores intercambiables recién desarrolladas que capturan las expresiones faciales de RoboCopUna (1) escultura de cabeza con detalles mecánicosExpresión facial y textura de piel fieles a la películaAproximadamente 30 cm de alturaCuerpo especializado con más de 25 puntos de articulaciónContiene material fundido a presiónArmadura iridiscente de color azul metálico y púrpura con detalles en negroCaracterísticas especiales sobre la armadura:Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el musloSiete (7) piezas de manos intercambiables, incluyendo:Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el muslo"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Una (1) pistolaUna (1) pistola de fundición a presiónUn (1) fusil"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) juego de frascos NukeUn (1) contenedor nuclear con cubierta extraíbleUno (1) Cerebro de Cain con columna cervicalSoporte para figuras especialmente diseñado con placa de RoboCop y logo de película"
-          }
-        ],
-        "id": "robocop",
-        "precio_orig": "",
-        "yt": "",
-        "franquicia": "Otros",
-        "destacado": false,
-        "oferta": false,
-        "fotos": [
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f7d5c65.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-scale-688131fae9a0d.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f854861.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f8a0ee5.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f8e6ec9.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f938b0e.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f97debd.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f9c2ec1.jpg"
-        ]
-      },
-      {
         "n": "Armored Batman (2.0)",
         "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661954fed7d6d.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armored-batman-20",
@@ -6826,6 +6770,62 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "n": "Robocop",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f7d5c65.jpg",
+        "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robocop",
+        "marca": "Hot Toys",
+        "escala": "1:6 - 30CM",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3800",
+        "precio_d": "",
+        "reserva": "Q760",
+        "entrega": "Marzo 2027",
+        "cantidad": "3",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de lasexta escala de Robocoppresenta: Armas: Accesorios:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Imagen auténtica y detallada de Peter Weller como RoboCop en RoboCop 2Una (1) cabeza con casco y tres (3) caras inferiores intercambiables recién desarrolladas que capturan las expresiones faciales de RoboCopUna (1) escultura de cabeza con detalles mecánicosExpresión facial y textura de piel fieles a la películaAproximadamente 30 cm de alturaCuerpo especializado con más de 25 puntos de articulaciónContiene material fundido a presiónArmadura iridiscente de color azul metálico y púrpura con detalles en negroCaracterísticas especiales sobre la armadura:Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el musloSiete (7) piezas de manos intercambiables, incluyendo:Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el muslo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) pistolaUna (1) pistola de fundición a presiónUn (1) fusil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) juego de frascos NukeUn (1) contenedor nuclear con cubierta extraíbleUno (1) Cerebro de Cain con columna cervicalSoporte para figuras especialmente diseñado con placa de RoboCop y logo de película"
+          }
+        ],
+        "id": "robocop",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f7d5c65.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-scale-688131fae9a0d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f854861.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f8a0ee5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f8e6ec9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f938b0e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f97debd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f9c2ec1.jpg"
+        ]
+      },
+      {
         "n": "The Joker Killing Joke",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914762/hot-toys-dc-comics-the-joker-8-inch-figure-gallery-6894d52a71be4.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/the-joker-killing-joke",
@@ -10846,7 +10846,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
         "estado": "Nuevo",
-        "disp": "Entrega Inmediata",
+        "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
         "reserva": "720",
@@ -10898,7 +10898,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Hot Toys",
+        "disp": "Pre Orden",
         "precio": "3900",
         "precio_d": "",
         "reserva": "Q780",
