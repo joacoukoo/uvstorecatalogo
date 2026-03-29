@@ -3,6 +3,62 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "n": "Robocop",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f7d5c65.jpg",
+        "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robocop",
+        "marca": "Hot Toys",
+        "escala": "1:6 - 30CM",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3800",
+        "precio_d": "",
+        "reserva": "Q760",
+        "entrega": "Marzo 2027",
+        "cantidad": "3",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de lasexta escala de Robocoppresenta: Armas: Accesorios:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Imagen auténtica y detallada de Peter Weller como RoboCop en RoboCop 2Una (1) cabeza con casco y tres (3) caras inferiores intercambiables recién desarrolladas que capturan las expresiones faciales de RoboCopUna (1) escultura de cabeza con detalles mecánicosExpresión facial y textura de piel fieles a la películaAproximadamente 30 cm de alturaCuerpo especializado con más de 25 puntos de articulaciónContiene material fundido a presiónArmadura iridiscente de color azul metálico y púrpura con detalles en negroCaracterísticas especiales sobre la armadura:Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el musloSiete (7) piezas de manos intercambiables, incluyendo:Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el muslo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) pistolaUna (1) pistola de fundición a presiónUn (1) fusil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) juego de frascos NukeUn (1) contenedor nuclear con cubierta extraíbleUno (1) Cerebro de Cain con columna cervicalSoporte para figuras especialmente diseñado con placa de RoboCop y logo de película"
+          }
+        ],
+        "id": "robocop",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f7d5c65.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-scale-688131fae9a0d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f854861.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f8a0ee5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f8e6ec9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f938b0e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f97debd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f9c2ec1.jpg"
+        ]
+      },
+      {
         "n": "The Joker Killing Joke",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914762/hot-toys-dc-comics-the-joker-8-inch-figure-gallery-6894d52a71be4.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/the-joker-killing-joke",
@@ -11033,21 +11089,21 @@
       },
       {
         "n": "RoboCain",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/eaaae51d-d02d-4b58-8426-1017416fbd7a/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513bcb10a.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513bcb10a.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robocain",
         "marca": "Hot Toys",
         "escala": "1:6 - 40CM",
-        "estado": "",
+        "estado": "Vendido",
         "disp": "Pre Orden",
         "precio": "6100",
         "precio_d": "",
-        "reserva": "Q1200",
+        "reserva": "1200",
         "entrega": "Marzo 2027",
-        "cantidad": "1",
+        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala de RoboCainpresenta:"
+            "x": "La figura de lasexta escala de RoboCainpresenta: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -11062,41 +11118,48 @@
             "x": "Un (1) gran brazo mecánico izquierdo con seis cañones, una metralleta rotatoria y una mano extensible para un ariete con garras articuladasUn (1) pequeño brazo mecánico izquierdo con alicates articuladosUn (1) brazo mecánico derecho grande con garras articuladasUn (1) pequeño brazo mecánico derecho con soplete cortante"
           },
           {
-            "t": "notion-text",
-            "x": "Armas:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un cañón de hombro desmontable (acoplable al hombro derecho)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) raíl (que se puede acoplar a la sección del pecho)Un (1) mando a distanciaSoporte de figura especialmente diseñado con placa con nombre y logotipo de película"
           }
         ],
-        "id": "robocain"
+        "id": "robocain",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513bcb10a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-scale-6881513f769cf.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513c524f7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513ca1641.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513ce8156.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513d8856d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513dd73db.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513e2f7f4.jpg"
+        ]
       },
       {
         "n": "Big Chap",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/873b685d-eebd-4499-ad30-00fb480993ef/hot-toys-alien-big-chap-special-edition-sixth-scale-figure-gallery-687ff09adf596.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff0149899b.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/big-chap",
         "marca": "Hot Toys",
         "escala": "1:6 - 36CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4000",
         "precio_d": "",
-        "reserva": "Q800",
+        "reserva": "800",
         "entrega": "Marzo 2027",
         "cantidad": "1",
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala del Big Chappresenta:"
+            "x": "La figura de lasexta escala del Big Chappresenta: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -11111,72 +11174,34 @@
             "x": "Tres (3) pares de manos gesticularesUn (1) par de manos con dedos flexibles (con alambre incrustado)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Base de diorama especialmente diseñada con temática de restos de Xenomorfos y placa con el nombre del personaje"
           }
         ],
-        "id": "big-chap"
-      },
-      {
-        "n": "Robocop",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/357b8a95-86ab-4924-baae-b4dc00ecfc3b/hot-toys-robocop-robocop-special-edition-sixth-scale-figure-gallery-6881324c0389b.webp",
-        "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robocop",
-        "marca": "Hot Toys",
-        "escala": "1:6 - 30CM",
-        "estado": "",
-        "disp": "Pre Orden",
-        "precio": "3800",
-        "precio_d": "",
-        "reserva": "Q760",
-        "entrega": "Marzo 2027",
-        "cantidad": "3",
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "La figura de lasexta escala de Robocoppresenta:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Peter Weller como RoboCop en RoboCop 2Una (1) cabeza con casco y tres (3) caras inferiores intercambiables recién desarrolladas que capturan las expresiones faciales de RoboCopUna (1) escultura de cabeza con detalles mecánicosExpresión facial y textura de piel fieles a la películaAproximadamente 30 cm de alturaCuerpo especializado con más de 25 puntos de articulaciónContiene material fundido a presiónArmadura iridiscente de color azul metálico y púrpura con detalles en negroCaracterísticas especiales sobre la armadura:Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el musloSiete (7) piezas de manos intercambiables, incluyendo:Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) casco intercambiable dañado en combateUna (1) armadura de pecho intercambiable dañada en combateUna (1) funda articulada oculta para el muslo"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) par de manos articuladasUn (1) par de puñosUna (1) mano derecha con armaUna (1) mano derecha señalando con el dedoUna (1) mano derecha que sostenga el cerebro"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Una (1) pistolaUna (1) pistola de fundición a presiónUn (1) fusil"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) juego de frascos NukeUn (1) contenedor nuclear con cubierta extraíbleUno (1) Cerebro de Cain con columna cervicalSoporte para figuras especialmente diseñado con placa de RoboCop y logo de película"
-          }
-        ],
-        "id": "robocop"
+        "id": "big-chap",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff0149899b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-scale-687ff01875e0c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff0151697e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff0156ee27.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff015c71c4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff01737f3d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff0178d769.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914712/hot-toys-alien-big-chap-sixth-scale-figure-gallery-687ff017eba3e.jpg"
+        ]
       },
       {
         "n": "Galactus",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/a9dee180-e982-4ca0-b256-117b6e0013d2/hot-toys-marvel-galactus-jumbo-sofvi-collectible-figure-gallery-687ac9b3e5d8f.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-gallery-688967cb9cbd3.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/galactus",
         "marca": "Hot Toys",
         "escala": "1:6 - 70CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4500",
         "precio_d": "",
@@ -11186,40 +11211,50 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable Galactus Jumbo Sofvipresenta:"
+            "x": "Lafigura coleccionable Galactus Jumbo Sofvipresenta: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de Galactus enLos Cuatro Fantásticos: Primeros PasosEsculpido de cabeza de vinilo recién desarrollado con función de iluminación LED en los ojos (luz blanca, alimentado por batería)Cuerpo de vinilo recién desarrolladoSeis (6) puntos de articulación con movimiento rotativo en la cabeza, los brazos superiores, los antebrazos y la cinturaAproximadamente 70 cm de alturaAplicaciones finas de pintura en armaduras en esquema de colores rojo metálico y morado"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Cinco (5) miniaturas (que se pueden colocar al cuerpo de Galactus, de aproximadamente 2 a 5,5 cm de altura), incluyendo:Uno (1) Mister FantasticUna (1) Mujer InvisibleUna (1) Antorcha HumanaUno (1) La CosaUno (1) Silver Surfer"
           }
         ],
-        "id": "galactus"
+        "id": "galactus",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-gallery-688967cb9cbd3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-scale-68839df53bff4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-gallery-688967cb9cbd3_sm.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-scale-68839df53bff4_sm.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=200,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-square_sm.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-feature.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147031/hot-toys-marvel-galactus-jumbo-sofvi-special-edition-collectible-figure-square.jpg"
+        ]
       },
       {
         "n": "Iron Man Mark III (Armour Suit Up Version)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/fc53d704-0417-4fac-aca1-b68b8f068c9f/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-special-edition-sixth-scale-figure-gallery-687e836b136c7.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f1eb150.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/iron-man-mark-iii-armour-suit-up-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "5600",
         "precio_d": "",
-        "reserva": "Q1000",
+        "reserva": "1120",
         "entrega": "Marzo 2027",
         "cantidad": "2",
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura a escala sexta de Iron Man Mark III (Versión Armor Up Up) presenta:"
+            "x": "Lafigura a escala sexta de Iron Man Mark III (Versión Armor Up Up) presenta: Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
@@ -11242,33 +11277,44 @@
             "x": "Un (1) par de cañones montados en los hombrosUn (1) par de armaduras de antebrazo en modo escudo de protecciónUn (1) par de cohetes de antebrazo en modo de disparo"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorio:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Soporte de figura especialmente diseñado en colores metálicos rojo, dorado y plateado, incluyendo función de iluminación LED (luz blanca, alimentado por USB) y dos (2) accesorios articulados para dioramas"
           }
         ],
-        "id": "iron-man-mark-iii-armour-suit-up-version"
+        "id": "iron-man-mark-iii-armour-suit-up-version",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f1eb150.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-scale-687e82f56f0e7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f2775b4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f2c7bd6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f31b96e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f36902e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f3b60cd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f414bd0.jpg"
+        ]
       },
       {
         "n": "Invisible Woman",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/0bdcfeac-6aa7-4f42-b5c7-0bcc055222b1/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b049601a.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b049601a.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/invisible-woman",
         "marca": "Hot Toys",
         "escala": "1:6 - 28CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3700",
         "precio_d": "",
-        "reserva": "Q740",
+        "reserva": "740",
         "entrega": "Febrero 2027",
         "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala de la Mujer Invisiblepresenta:"
+            "x": "La figura de lasexta escala de la Mujer Invisiblepresenta: Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -11283,23 +11329,30 @@
             "x": "Un (1) par de manos relajadasUn (1) par de habilidades usando las manos"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) uniforme de los Cuatro Fantásticos, de tela elástica acanalada azul y blanca recién confeccionadaUn (1) cinturón blanco y cremaUna (1) bota larga blanca"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) efecto de campo de fuerza holográfico translúcido coloreadoUna (1) figura de Franklin Richards bebé (cabeza, brazos y piernas ligeramente articulados)Una (1) cuna azul con el logo de los Cuatro Fantásticos y cubierta desmontableSoporte de figura especialmente diseñado con el logo, silueta y placa de nombre de The Fantastic Four: First Steps"
           }
         ],
-        "id": "invisible-woman"
+        "id": "invisible-woman",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b049601a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-scale-687a91ff079bd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b052209b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b056f355.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b05be154.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b061413d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b065f054.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914700/hot-toys-marvel-invisible-woman-sixth-scale-figure-gallery-687a7b06aa693.jpg"
+        ]
       },
       {
         "n": "Mr. Fantastic",
