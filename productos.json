@@ -12811,11 +12811,11 @@
       },
       {
         "n": "TIE Fighter Pilot",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/2f073683-155c-47f9-948d-f3b0f26d2f25/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c72475be379.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c72475be379.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/tie-fighter-pilot",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3300",
         "precio_d": "",
@@ -12825,7 +12825,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de piloto de caza TIE Sexta Escalapresenta:"
+            "x": "Lafigura de piloto de caza TIE Sexta Escalapresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12836,39 +12836,42 @@
             "x": "Un (1) par de manos para sujetar armasUn (1) par de manos relajadasUn (1) par de manos gesticulares"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) blindaje de piloto de TIE Fighter en pecho y espalda con un dispositivo de soporte vital y tubos de respiración conectados al cascoUn (1) mono de piloto negroUn (1) cinturón negro con hebilla plateada y dos (2) accesorios para cinturón acoplablesUn (1) par de botas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) rifle blásterUna (1) pistola bláster"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) panel intercambiable para la armadura traseraSoporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
         ],
-        "id": "tie-fighter-pilot"
+        "id": "tie-fighter-pilot",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c72475be379.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-scale-67c7263fe8a8c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c724764edde.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c72476afaea.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c724771d1fb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c724777dad5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c72477dcb32.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c7247846bf3.jpg"
+        ]
       },
       {
         "n": "Blade",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c94ec6b2-73db-418b-ae3e-bf2ba4934645/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbd22ca4.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbd22ca4.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/blade",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -12878,46 +12881,49 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la Sexta Escala de la Hojapresenta:"
+            "x": "Lafigura de la Sexta Escala de la Hojapresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de Wesley Snipes como Blade enDeadpool & WolverineUna (1) escultura de cabeza de hoja recién desarrollada con ojos rodantes separadosExpresión facial fiel a la película con arrugas, textura de piel y barba detalladasEscultura de cabello negro con corte rapado muy detalladaAproximadamente 30 cm de alturaCuerpo recién desarrollado con más de 30 puntos de articulaciónDiez (10) piezas de manos intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de puñosUn (1) par de bazucas cogidas de la manoUn (1) par de gujas arrojadizas cogidas de la manoUna (1) pistola sujetando la mano izquierdaUna (1) mano derecha con espadaCada escultura de cabeza está especialmente pintada a mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) traje interior negroUn (1) chaleco táctico negro con detalles en rojoUn (1) par de guanteletesUn (1) cinturón de funda para pistolaUn (1) par de pantalones negros con rodillerasUn (1) par de zapatos negros"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) bazuca con cohete desmontable y accesorio de efecto de disparo (acoplable al cohete)Una (1) pistolaUna (1) guja arrojadizaUna (1) guja arrojadiza manchada de sangreUna (1) dagaUna (1) daga manchada de sangre"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de gafas de solBase de diorama especialmente diseñada con temática rocosa y accesorio para gafas"
           }
         ],
-        "id": "blade"
+        "id": "blade",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbd22ca4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-scale-67a23dc346215.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbda070e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbdef892.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbe4c79b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbe9c1dc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbeeb04a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbf43d32.jpg"
+        ]
       },
       {
         "n": "Red Hulk",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/a7d2752c-7fd7-4091-87c1-310977055918/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4a7d776.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4a7d776.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/red-hulk",
         "marca": "Hot Toys",
         "escala": "1:6 - 47CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "5000",
         "precio_d": "",
@@ -12927,7 +12933,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala de Red Hulkpresenta:"
+            "x": "La figura de lasexta escala de Red Hulkpresenta: Disfraz:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12942,33 +12948,44 @@
             "x": "Un (1) par de puñosUn (1) par de manos abiertas"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Uno (1) pantalones cortos negros dañados en combate"
           }
         ],
-        "id": "red-hulk"
+        "id": "red-hulk",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4a7d776.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-scale-67c0b7ac84b62.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4b0ef5b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4b90290.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4e72131.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4c1d692.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4c6d272.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914215/hot-toys-marvel-red-hulk-sixth-scale-figure-gallery-67c09e4cbeb81.jpg"
+        ]
       },
       {
         "n": "Agent Venom",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/4538519d-b8c3-4875-89f8-509aac88c661/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea1d858b7.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea1d858b7.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/agent-venom",
         "marca": "Hot Toys",
         "escala": "1:6 - 32CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Agosto 2026",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de la sextaescala de AgenteVenompresenta:"
+            "x": "La figura de la sextaescala de AgenteVenompresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12979,49 +12996,52 @@
             "x": "Un (1) par de puñosUn par de pistolas cogidas de la manoUn (1) par de manos abiertas"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) armadura simbiótica con púas y patrón blanco en relieveUn (1) traje interior negro con patrón blanco en relieveUn (1) cinturón de utilidadesUn (1) par de fundas para pistolas de musloUn (1) par de zapatos negros"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) antebrazo de hoja simbiótica intercambiableUn (1) rifle francotiradorUn (1) fusilDos (2) subfusilesDos (2) pistolas"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Cuatro (4) tentáculos (incrustados con alambre, que se pueden acoplar en la parte trasera)Cuatro (4) zarcillos de sostenimiento de cañón (incrustados con alambre, que se pueden acoplar en la parte trasera)Dos (2) cadenas de accesorios de correa de diferentes longitudes (incrustadas con alambre)Soporte para figuras especialmente diseñado con placa de nombre de personaje"
           }
         ],
-        "id": "agent-venom"
+        "id": "agent-venom",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea1d858b7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-scale-67bdece508e2d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea1e13177.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea1e9618e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea1f2ca34.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea1faefab.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea2226393.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914242/hot-toys-marvel-agent-venom-sixth-scale-figure-gallery-67bdea20bb274.jpg"
+        ]
       },
       {
         "n": "Seong Gi-hun",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/b13ad3ec-4688-41b8-a306-39021516c2c2/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae187f082db.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae187f082db.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/seong-gi-hun",
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
         "reserva": "Q720",
-        "entrega": "Agosto 2026",
+        "entrega": "Mayo 2026",
         "cantidad": "1",
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Seong Gi-hunpresenta:"
+            "x": "Lafigura de la sexta escala de Seong Gi-hunpresenta: Disfraz: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -13032,16 +13052,8 @@
             "x": "Un (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de puñosUn (1) par de accesorios cogiéndose de la manoUn (1) par de manos gesticulares"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) chaqueta de chándal verde y blanca con bordado \"456\", insignia de signo de cruz y cremallera (con alambre flexible en el cuello)Una (1) parte superior verde y blanca impresa con \"456\"Un (1) par de pantalones de chándal verdesUn (1) par de zapatos blancos slip-on"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -13052,15 +13064,30 @@
             "x": "Un (1) par de esposas para el tobilloUn (1) par de DdakjiUn (1) par de BiseokchigiUn (1) juego de piedras GonggiUn (1) volanteUna (1) trompa giratoria"
           }
         ],
-        "id": "seong-gi-hun"
+        "id": "seong-gi-hun",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae187f082db.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-scale-67ae19ef03818.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae187f8c8ac.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae188412bd4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae18804387c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae1880990c7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae1881a718d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae1893281a3.jpg"
+        ]
       },
       {
         "n": "Captain America (Brave New World)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/5f884cd8-e122-441e-84ac-8448bea6a52e/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eed95d02.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eed95d02.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/captain-america-brave-new-world",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Vendido",
         "disp": "Pre Orden",
         "precio": "4600",
         "precio_d": "",
@@ -13070,7 +13097,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de Capitán América a Sexta Escalapresenta:"
+            "x": "Lafigura de Capitán América a Sexta Escalapresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -13081,39 +13108,42 @@
             "x": "Un (1) par de manos lanzadoras de escudoUn (1) par de escudos cogiéndose de la manoUn (1) par de manos abiertasUn (1) par de puños"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) traje táctico recién confeccionado en rojo, azul y blanco con patrón en relieve y emblema de estrella en el pechoUn (1) par de pantalones nuevos con estampado azul en relieve y rodillerasUn (1) nuevo cinturón metálico plateado y azulUn (1) par de nuevos protectores de antebrazo metálicos plateados y rojosUn (1) par de protectores de pantorrilla nuevos de color plata metálica y rojoUn (1) par de botas nuevas de color rojo y negro metálicoUna (1) mochila de vuelo"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Uno (1) escudo circular recién pintado del Capitán América con emblema de estrella plateada"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de gafas de aviaciónUn (1) juego de alas mecánicas recién pintadas con articulaciones (abiertas hasta aproximadamente 80 cm de ancho)Un (1) zángan RedwingUn soporte dinámico especialmente diseñado con placa de personaje"
           }
         ],
-        "id": "captain-america-brave-new-world"
+        "id": "captain-america-brave-new-world",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eed95d02.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-scale-67a630ea02882.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eee2ce06.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eee853e3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eeed8236.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eef37888.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eef8c9b9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eefe3e9c.jpg"
+        ]
       },
       {
         "n": "Vi (Arcane)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/525ed4f5-e75b-4d4f-9749-31eeed13bb9e/unnamed_-3.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-67926960f11e5.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/vi-arcane",
         "marca": "Hot Toys",
         "escala": "1:6 - 28CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3700",
         "precio_d": "",
@@ -13123,7 +13153,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de laSexta Escala VIpresenta:"
+            "x": "La figura de laSexta Escala VIpresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -13134,39 +13164,42 @@
             "x": "Un (1) par de manos abiertasUn (1) par de puños"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) camiseta de tirantes beige con detallesUn (1) par de protectores de brazo desmontablesUn (1) cinturón con insignia de Piltover y protector del muslo izquierdoUn (1) par de pantalones marrones dañados por la batalla con rodillera derecha y armadura de pantorrillaUn (1) par de botas de cordones color rojo vino"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de guanteletes Hextech articulados"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Dos (2) pares de accesorios de efecto de ataque (que se pueden acoplar a guanteletes Hextech)Un (1) accesorio de efecto de destrozamiento (que se puede acoplar a guanteletes Hextech)Soporte para figuras especialmente diseñado con nombre de personaje"
           }
         ],
-        "id": "vi-arcane"
+        "id": "vi-arcane",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-67926960f11e5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-scale-67926c35b8f85.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-6792696191b35.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-67926961f2984.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-679269625c236.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-67926962b09fe.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-679269631c37a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-6792696378342.jpg"
+        ]
       },
       {
         "n": "Rain Carradine",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/feb7d18e-1f31-4492-81b2-e6b18ad3b5ef/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868b9f7d0cb.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868b9f7d0cb.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/rain-carradine",
         "marca": "Hot Toys",
         "escala": "1:6 - 26CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -13176,56 +13209,59 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura coleccionable Rain Carradine Sexta Escalapresenta:"
+            "x": "Lafigura coleccionable Rain Carradine Sexta Escalapresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de Cailee Spaeny como Rain Carradine enAlien: RomulusUna (1) escultura de cabeza Rain Carradine recién desarrollada con ojos rodantes separadosExpresión facial fiel a la película con textura de piel y maquillaje detalladosEscultura de cabello castaño oscuro de longitud media muy detalladaAproximadamente 26 cm de alturaCuerpo recién desarrollado con más de 28 puntos de articulaciónBrazos de silicona con unión sin costurasSeis (6) piezas de manos intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de manos gesticularesUn (1) par de rifles tomados de la manoCada escultura de cabeza está especialmente pintada a mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) camiseta gris-verdeUn (1) acuario blanco de capasUna (1) manga para el brazo derechoUna (1) pulsera roja izquierdaUn (1) par de pantalones gris oscuroUn (1) par de zapatillas rojas y blancas"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) fusil con culata articulada"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) accesorio articulado para facehuggerUn (1) relojUn (1) collar con colgante de dispositivo de reinicioUn (1) dispositivo de reinicio abiertoUn (1) chipBase de figura de diorama especialmente diseñada con restos de xenomorfos, dioramas, accesorios y placa de identificación de personajes"
           }
         ],
-        "id": "rain-carradine"
+        "id": "rain-carradine",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868b9f7d0cb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-scale-67868dba047bf.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba00a04c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba08b7d3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba119147.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba16bcdf.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba26c54f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba2d761a.jpg"
+        ]
       },
       {
         "n": "Darth Malgus",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/a437bef2-a121-4d8e-b8d7-705603cb9b7e/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4f08477.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba483f806.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/darth-malgus",
         "marca": "Hot Toys",
         "escala": "1:6 - 34CM",
-        "estado": "",
+        "estado": "Vendido",
         "disp": "Pre Orden",
         "precio": "3900",
         "precio_d": "",
         "reserva": "Q780",
         "entrega": "Mayo 2026",
-        "cantidad": "0",
+        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala de Darth Malgus™presenta:"
+            "x": "La figura de lasexta escala de Darth Malgus™presenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -13236,31 +13272,34 @@
             "x": "Un (1) par de manos relajadasUn (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) armadura de Darth Malgus y traje de nailon con guanteletes LED iluminados (luz roja y blanca, accionado por USB)Una (1) capa negraUna (1) nueva máscara de función desmontable con luz LED (luz roja, USB alimentada)Una (1) placa de pecho con panel de control LED iluminado (luz roja, alimentación USB)Un (1) cinturón negroUn (1) par de pantalones de nylon negroUn (1) par de botas blindadas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) empuñadura de sable de luz LED (luz roja, alimentación USB)Una (1) empuñadura de sable de luzUna (1) hoja de sable de luz roja en movimiento (acoplable a la empuñadura)Una (1) hoja de sable de luz de color rojo (que se puede acoplar a la empuñadura)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) accesorio de efecto de rayo de Fuerza (acoplable a las manos)Base circular de figura con iluminación LED temática ajustable (accionada por USB)"
           }
         ],
-        "id": "darth-malgus"
+        "id": "darth-malgus",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba483f806.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-scale-6776bca59b2d8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4914c5c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4973f26.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4aaf647.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba49d27bf.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4d66f72.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4f08477.jpg"
+        ]
       },
       {
         "n": "Batman (Batman & Robin)",
