@@ -13179,7 +13179,7 @@
         "id": "vi-arcane",
         "precio_orig": "",
         "yt": "",
-        "franquicia": "Otros",
+        "franquicia": "Gaming",
         "destacado": false,
         "oferta": false,
         "fotos": [
@@ -13763,11 +13763,11 @@
       },
       {
         "n": "Captain America (Stealth 2.0)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/d995cd2a-3b73-4787-a53d-45459877dbd2/unnamed_-1.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb03beb9.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/captain-america-stealth-20",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
-        "estado": "",
+        "estado": "Vendido",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -13777,7 +13777,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de Capitán América (traje sigiloso S.T.R.I.K.E.) 2.0 a escala sextacaracterísticas:"
+            "x": "Lafigura de Capitán América (traje sigiloso S.T.R.I.K.E.) 2.0 a escala sextacaracterísticas: Disfraz: Armas: 2de0d7d6a637803ab620f42b1553b371 Uno (1) escudo circular azul y plata del Capitán América recién desarrollado con emblemade estrella plateada Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -13788,47 +13788,42 @@
             "x": "Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de manos gesticularesDos (2) pares de escudos tomados de la manoUna (1) mano derecha señalando con el dedo"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Uno (1) traje Stealth S.T.R.I.K.E. azul marino recién confeccionado con emblema de estrella plateada y rayas en el pechoUn (1) par de pantalones recién hechos a la medida azul marino y rojo oscuro con bolsas, rodilleras y ribetes rojosUn (1) soporte de escudo trasero y correa de cuerpo de color marrón recién desarrolladoUn (1) cinturón utilitario de color marrón recién desarrolladoUn (1) par de botas negras recién desarrolladas"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "2de0d7d6a637803ab620f42b1553b371Uno (1) escudo circular azul y plata del Capitán América recién desarrollado con emblemade estrella plateada"
           },
           {
-            "t": "notion-text",
-            "x": "2de0d7d6a637803ab620f42b1553b371"
-          },
-          {
-            "t": "notion-text",
-            "x": "Uno (1) escudo circular azul y plata del Capitán América recién desarrollado con emblemade estrella plateada"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Uno (1) casco recién desarrollado del Capitán AméricaUn soporte magnético con el logo de S.H.I.E.L.D. con el nombre del personaje"
           }
         ],
-        "id": "captain-america-stealth-2-0"
+        "id": "captain-america-stealth-2-0",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb03beb9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-scale-674f2f189a32f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb09d165.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f3a228c9e7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb159462.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb300330.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb34e002.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cc798df0.jpg"
+        ]
       },
       {
         "n": "Scorched Xenomorph",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/2e0da2b4-8ba7-4d4c-a30b-fda6d2745b59/unnamed.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744051a8b8.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/scorched-xenomorph",
         "marca": "Hot Toys",
         "escala": "1:6 - 44CM",
-        "estado": "",
+        "estado": "Vendido",
         "disp": "Pre Orden",
         "precio": "4000",
         "precio_d": "",
@@ -13838,30 +13833,41 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "El Xenomorfo Quemadopresenta:"
+            "x": "El Xenomorfo Quemadopresenta: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada del Xenomorfo Quemado en la películaAlien: RómuloUna (1) escultura de cabeza recién desarrollada con estructuras internas finamente trabajadas que revelan bajo un caparazón translúcidoDos (2) estilos de caparazón translúcido intercambiableUna (1) mandíbula interior extensible recién desarrolladaExpresión facial fiel a la pantalla con textura de piel detallada que recrea efecto orgánico brillante y estructura. Cola flexible (alambre incrustado)Aproximadamente 44 cm de alturaCuerpo recién desarrollado con más de 20 puntos de articulaciónOcho (8) piezas de manos intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de manos abiertasDos (2) pares de manos gesticularesCada pieza de escultura de cabeza está especialmente impresa a manoTodos los nuevos diseños de articulaciones permiten un rango más amplio de articulaciones"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) accesorio articulado para facehuggerBase de diorama especialmente diseñada con iluminación LED y temática de estación espacial, logotipo de película, placa de personaje y cuatro (4) accesorios (luz amarilla, alimentación USB)"
           }
         ],
-        "id": "scorched-xenomorph"
+        "id": "scorched-xenomorph",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744051a8b8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-scale-67474762c9392.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-67474405b5ad3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-6747440646f46.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-67474406bc9a7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-6747440744a45.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744079d49e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744080949a.jpg"
+        ]
       },
       {
         "n": "Jinx (Arcane)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/e6ed0504-88b5-4bc8-88de-969a33dc4009/unnamed_-2.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3aeaa6c.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/jinx-arcane",
         "marca": "Hot Toys",
         "escala": "1:6 - 28CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -13871,38 +13877,45 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Jinxpresenta:"
+            "x": "Lafigura de la sexta escala de Jinxpresenta: Disfraz: Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de Jinx en Arcane, basada enLeague of LegendsUna (1) escultura de cabeza recién desarrollada y dos (2) piezas de esculturas faciales intercambiables con características separadas de ojos rodantes, incluyendo expresión sonriente (pendiente de aprobación) y expresión determinadaExpresión facial, maquillaje, textura de piel y tono pálido de piel muy precisosEscultura detallada de coleta azul claro (trenza con alambre incrustado)Aproximadamente 27,5 cm de alturaCuerpo recién desarrollado con más de 28 puntos de articulaciónDiseño sin costuras desde el cuello hasta los brazos en material de siliconaTatuaje con patrón de nubes impreso en la parte superior del torsoSeis (6) piezas de manos intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de pistolas de la manoUn (1) par de armas cogidas de la manoCada pieza de escultura de cabeza está especialmente pintada a mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) parte superior marrón con tops con detallesUna (1) venda en el brazo superior izquierdoUn (1) par de mangas para la muñecaUn (1) par de pantalones de rayas moradasUn (1) cinturón marrónUn (1) par de botas con cordones y cordones magenta"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Uno (1) lanzacohetes FishbonesUna (1) minigun Pow-PowDos (2) pistolas (acoplables magnéticamente al cinturón)Una (1) granada Chomper"
           }
         ],
-        "id": "jinx-arcane"
+        "id": "jinx-arcane",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3aeaa6c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-scale-6740ae8e6565a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3c3e9da.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3b81f0d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3bd7153.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3c92bf1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3cea2a6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3d4dec4.jpg"
+        ]
       },
       {
         "n": "TK Stormtrooper™",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c2c794e7-3795-407b-a224-8927c069ca19/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c12e58fdf.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c12e58fdf.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/tk-stormtrooper",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre orden",
         "precio": "3100",
         "precio_d": "",
@@ -13912,66 +13925,53 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Star Wars | The Bad Batch"
-          },
-          {
-            "t": "notion-text",
-            "x": "Figura a escala 1:6 delTK Stormtrooper™, basada en la serieStar Wars: The Bad Batch. Presenta uncasco de nuevo esculpidoconefectos de desgaste (weathering)y un cuerpo altamente articulado para recrear poses tácticas y de combate."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Star Wars | The Bad Batch Figura a escala 1:6 delTK Stormtrooper™, basada en la serieStar Wars: The Bad Batch. Presenta uncasco de nuevo esculpidoconefectos de desgaste (weathering)y un cuerpo altamente articulado para recrear poses tácticas y de combate. Características Incluye Manos (6) Vestuario Armas Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Escala:1:6Altura: aprox.30 cm(11.81”)30 puntos de articulaciónCasco conweatheringrealista"
           },
           {
-            "t": "notion-text",
-            "x": "Incluye"
-          },
-          {
-            "t": "notion-text",
-            "x": "Manos (6)"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Par de manos relajadasPar de manos para blásterMano izquierda señalandoMano derecha con gesto abierto"
-          },
-          {
-            "t": "notion-text",
-            "x": "Vestuario"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Armadura blanca TK Stormtrooper de nuevo desarrollo con weatheringTraje interior de tela negraCinturón utilitario blanco con weatheringBotas blancas con weathering"
           },
           {
-            "t": "notion-text",
-            "x": "Armas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "DC-15A blaster carbineDC-15A blaster riflecon mira de nuevo desarrollo"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Thermal detonator(acople magnético al cinturón)Dispositivo de respiracióncon tubos (acople magnético al pecho)Base especial conlogo Star Warsyplaca con nombre"
           }
         ],
-        "id": "tk-stormtrooper"
+        "id": "tk-stormtrooper",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c12e58fdf.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-scale-6967c3b0cacb1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c12f14c70.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c12f6c2f3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c12fc1124.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c130227af.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c13077981.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915263/hot-toys-star-wars-tk-stormtrooper-sixth-scale-figure-gallery-6967c131369de.jpg"
+        ]
       },
       {
-        "n": "Ficha estándar UV Store",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/e3941aaa-b35d-4950-82dd-3618ef3443d2/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0db5b9e.webp",
+        "n": "Njohrr (Father Predator)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0db5b9e.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/ficha-estndar-uv-store-1",
         "marca": "Hot Toys",
         "escala": "1:6 - 36CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4500",
         "precio_d": "",
@@ -13981,35 +13981,15 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Predator: Badlands"
-          },
-          {
-            "t": "notion-text",
-            "x": "Figura a escala 1:6 deNjohrr, basada enPredator: Badlands. Presenta unnuevo head sculptconojos móviles independientes, expresión facial fiel a pantalla y unatextura de piel y espinasextremadamente detallada."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluyemandíbulas intercambiables,dreadlocks blancos de vinilo blando con aros dorados,barba blanca esculpiday untorso de vinilo suavepara un acabado más orgánico y continuo. Una pieza imponente pensada para vitrinas de alto nivel."
-          },
-          {
-            "t": "notion-text",
-            "x": "Características"
+            "x": "Predator: Badlands Figura a escala 1:6 deNjohrr, basada enPredator: Badlands. Presenta unnuevo head sculptconojos móviles independientes, expresión facial fiel a pantalla y unatextura de piel y espinasextremadamente detallada. Incluyemandíbulas intercambiables,dreadlocks blancos de vinilo blando con aros dorados,barba blanca esculpiday untorso de vinilo suavepara un acabado más orgánico y continuo. Una pieza imponente pensada para vitrinas de alto nivel. Características Manos (7) Vestuario Armas Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Escala:1:6Altura:36 cm(≈14.1”);≈14.5”con bio-mask16 puntos de articulaciónHead sculpt conrolling eyeballsTorso devinilo suavepara diseño sin costurasDos (2) sets de mandíbulas:abiertasynormales"
           },
           {
-            "t": "notion-text",
-            "x": "Manos (7)"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Par de puñosPar de manos con gesto de garraMano derecha con garra heridaMano izquierda con gesto abiertoMano derecha para sostener espada"
-          },
-          {
-            "t": "notion-text",
-            "x": "Vestuario"
           },
           {
             "t": "notion-bulleted-list",
@@ -14020,31 +14000,38 @@
             "x": "Coraza con cadenasHombreras de calaveraFaldas/placas (faulds)Guanteletes de muñecaGrebasZapatos óseos"
           },
           {
-            "t": "notion-text",
-            "x": "Armas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Energy Snare(acople magnético a la cintura)PlasmacasterPlasma SwordplegableDos (2)WristbladesDos (2)Wristblades con pintura de sangre(acoplables o insertables en la mano herida)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Bio-maskBase temática de arena conlogo Predator: Badlandsyplaca con nombre"
           }
         ],
-        "id": "ficha-estandar-uv-store"
+        "id": "ficha-estandar-uv-store",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0db5b9e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-scale-69739cee099f2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0e401f7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0e97d50.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0ef0d90.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0f5673f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b0faf6e5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915273/hot-toys-predator-njohrr-sixth-scale-figure-gallery-69739b10142ac.jpg"
+        ]
       },
       {
         "n": "Kamen Rider Amazon",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c073b958-67c5-4d52-9721-9f4931f04e30/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8c6500e.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8c6500e.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/kamen-rider-amazon",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3500",
         "precio_d": "",
@@ -14089,15 +14076,30 @@
             "x": "Escala:1:6Altura:30 cm (11.81\")"
           }
         ],
-        "id": "kamen-rider-amazon"
+        "id": "kamen-rider-amazon",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8c6500e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-scale-69836c4c83757.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8cdeb5f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8d35db7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8d83d41.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8dcf698.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8e2612a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915312/hot-toys-kamen-rider-kamen-rider-amazon-sixth-scale-figure-gallery-69836a8ea1552.jpg"
+        ]
       },
       {
         "n": "Mister Sinister Limited Edition",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/5705764b-ba0d-4948-8dca-b8235c1c6c3f/mr.sinisterpp001.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.SinisterPP001.jpg?v=1755719689",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/mister-sinister-limited-edition",
         "marca": "Mondo",
         "escala": "1:6 - 32CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3400",
         "precio_d": "",
@@ -14107,27 +14109,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Mondo – X-Men ‘97"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:32 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición Limitada:1,250 unidades"
-          },
-          {
-            "t": "notion-text",
-            "x": "Desde la serie animadaX-Men ‘97, llega Mister Sinister, el brillante y despiadado genetista Dr. Nathaniel Essex."
-          },
-          {
-            "t": "notion-text",
-            "x": "Mondo presenta esta figura a escala 1:6 con un diseño fiel al estilo animado, múltiples retratos intercambiables y accesorios inspirados en momentos icónicos de la serie. Una pieza con gran presencia visual y enfoque en detalles estilizados."
-          },
-          {
-            "t": "notion-text",
-            "x": "La edición está limitada a1,250 unidades, convirtiéndola en una pieza altamente coleccionable."
+            "x": "Figura Sixth Scale (1:6) – Mondo – X-Men ‘97 Altura:32 cm Edición Limitada:1,250 unidades Desde la serie animadaX-Men ‘97, llega Mister Sinister, el brillante y despiadado genetista Dr. Nathaniel Essex. Mondo presenta esta figura a escala 1:6 con un diseño fiel al estilo animado, múltiples retratos intercambiables y accesorios inspirados en momentos icónicos de la serie. Una pieza con gran presencia visual y enfoque en detalles estilizados. La edición está limitada a1,250 unidades, convirtiéndola en una pieza altamente coleccionable. Una pieza imprescindible para coleccionistas de X-Men que buscan una versión animada, estilizada y limitada de uno de los villanos más icónicos del universo mutante."
           },
           {
             "t": "notion-bulleted-list",
@@ -14140,22 +14122,32 @@
           {
             "t": "notion-bulleted-list",
             "x": "Accesorio de torso mutante dañadoDisquete con ADNTentáculo de extracción de ADNFigura accesoria “Sinister Shadow”Base de exhibición"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas de X-Men que buscan una versión animada, estilizada y limitada de uno de los villanos más icónicos del universo mutante."
           }
         ],
-        "id": "mister-sinister-limited-edition"
+        "id": "mister-sinister-limited-edition",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.SinisterPP001.jpg?v=1755719689",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.Sinister_PP002.jpg?v=1755719724",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.Sinister_PP004_1.jpg?v=1755899475",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.Sinister_PP005.jpg?v=1755899475",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.Sinister_PP006.jpg?v=1755899475",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.Sinister_PP007.jpg?v=1755899475",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Mr.Sinister_PP008.jpg?v=1755899475"
+        ]
       },
       {
         "n": "Batman (The Animated Series)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/fb6254ab-02a0-44bb-9ed9-4abb7bc28b6a/batman_pp-033.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-033.jpg?v=1737571929",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/batman-the-animated-series",
         "marca": "Mondo",
         "escala": "1:6 - 30CM",
-        "estado": "",
-        "disp": "Bajo Pedido",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
         "precio": "3000",
         "precio_d": "",
         "reserva": "Q600",
@@ -14164,23 +14156,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Mondo – Batman: The Animated Series (Redux)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirado en la icónica serieBatman: The Animated Series, esta versión Redux de Mondo actualiza la figura clásica con mejoras en pintura, escultura y presencia general."
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye aplicación de color más fiel a la serie animada, escultura revisada con mayor altura y retratos conojos Glow-in-the-Dark (GID)que brillan en la oscuridad, potenciando su impacto en exhibición."
-          },
-          {
-            "t": "notion-text",
-            "x": "Con más de 30 puntos de articulación y una amplia variedad de accesorios, esta pieza es un verdadero homenaje a una de las interpretaciones más influyentes del Caballero Oscuro."
+            "x": "Figura Sixth Scale (1:6) – Mondo – Batman: The Animated Series (Redux) Altura:30 cm Inspirado en la icónica serieBatman: The Animated Series, esta versión Redux de Mondo actualiza la figura clásica con mejoras en pintura, escultura y presencia general. Incluye aplicación de color más fiel a la serie animada, escultura revisada con mayor altura y retratos conojos Glow-in-the-Dark (GID)que brillan en la oscuridad, potenciando su impacto en exhibición. Con más de 30 puntos de articulación y una amplia variedad de accesorios, esta pieza es un verdadero homenaje a una de las interpretaciones más influyentes del Caballero Oscuro. Una pieza imprescindible para coleccionistas del Batman animado, ideal para quienes buscan nostalgia, estilo clásico y una presentación premium en escala 1:6."
           },
           {
             "t": "notion-bulleted-list",
@@ -14189,21 +14165,32 @@
           {
             "t": "notion-bulleted-list",
             "x": "2 BatarangsMáscara de gasGogglesSprayGrapple hookGrapple extendidoBinocularesBat Star9 manos intercambiablesBase de exhibición"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas del Batman animado, ideal para quienes buscan nostalgia, estilo clásico y una presentación premium en escala 1:6."
           }
         ],
-        "id": "batman-the-animated-series"
+        "id": "batman-the-animated-series",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-033.jpg?v=1737571929",
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-002.jpg?v=1737571929",
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-003_Spin.gif?v=1737571929",
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-001.jpg?v=1737571929",
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-004.jpg?v=1737571926",
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-005.jpg?v=1737571926",
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-006.jpg?v=1737571926",
+          "https://cdn.shopify.com/s/files/1/0558/2081/products/Batman_PP-007.jpg?v=1737571926"
+        ]
       },
       {
         "n": "Superman (The Animated Series)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/72191f87-e452-4814-9869-05d2877f2912/superman_pp001_reg.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP001_REG.jpg?v=1769464289",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/superman-the-animated-series",
         "marca": "Mondo",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3000",
         "precio_d": "",
@@ -14213,19 +14200,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Mondo – Superman: The Animated Series"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "El Hombre de Acero inaugura la nueva línea 1:6 basada enSuperman: The Animated Series, con una interpretación fiel al estilo animado clásico."
-          },
-          {
-            "t": "notion-text",
-            "x": "Mondo presenta una figura altamente detallada que incluye múltiples retratos, manos intercambiables y capa adicional para distintas opciones de exhibición. Desde su clásica expresión serena hasta su mirada con visión láser activada, esta pieza captura toda la esencia del Último Hijo de Krypton."
+            "x": "Figura Sixth Scale (1:6) – Mondo – Superman: The Animated Series Altura:30 cm El Hombre de Acero inaugura la nueva línea 1:6 basada enSuperman: The Animated Series, con una interpretación fiel al estilo animado clásico. Mondo presenta una figura altamente detallada que incluye múltiples retratos, manos intercambiables y capa adicional para distintas opciones de exhibición. Desde su clásica expresión serena hasta su mirada con visión láser activada, esta pieza captura toda la esencia del Último Hijo de Krypton. Una pieza imprescindible para coleccionistas del universo animado de DC, ideal para acompañar a Batman de la misma línea y recrear la estética icónica de las series clásicas."
           },
           {
             "t": "notion-bulleted-list",
@@ -14234,21 +14209,31 @@
           {
             "t": "notion-bulleted-list",
             "x": "5 pares de manos intercambiablesCapa estándarViga de hierro dobladaBase de exhibición"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas del universo animado de DC, ideal para acompañar a Batman de la misma línea y recrear la estética icónica de las series clásicas."
           }
         ],
-        "id": "superman-the-animated-series"
+        "id": "superman-the-animated-series",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP001_REG.jpg?v=1769464289",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP002_REG.jpg?v=1769464294",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP003.C_1.gif?v=1769464304",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP004_1.jpg?v=1769464310",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP005_1.jpg?v=1769464315",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP014_1.jpg?v=1769464319",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Superman_PP016_1.jpg?v=1769464325"
+        ]
       },
       {
         "n": "The Crow – Eric Draven (Edición Estándar)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c7c6fba6-a0e4-4237-b06d-62c57141cd37/crow-standard-horizontal-1_2000x.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac55762ac9.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/the-crow-eric-draven-edicin-estndar",
         "marca": "Infinite Statue x Kaustic Plastik",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4600",
         "precio_d": "",
@@ -14258,23 +14243,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Infinite Statue x Kaustic Plastik – Maestro Line"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "La líneaMaestromarca una nueva etapa para Kaustic Plastik, enfocada en la artesanía tradicional y materiales premium para crear figuras que trascienden el coleccionismo convencional."
-          },
-          {
-            "t": "notion-text",
-            "x": "Eric Draven, protagonista deThe Crow, inaugura esta línea con una interpretación profundamente fiel y emocional del icónico personaje. La figura captura no solo su apariencia, sino también la intensidad y presencia que lo convirtieron en un símbolo del cine de culto."
-          },
-          {
-            "t": "notion-text",
-            "x": "El vestuario está confeccionado encuero genuino de alta calidad, con texturas, pliegues y envejecimiento natural que elevan el realismo a un nivel superior."
+            "x": "Figura Sixth Scale (1:6) – Infinite Statue x Kaustic Plastik – Maestro Line Altura:30 cm La líneaMaestromarca una nueva etapa para Kaustic Plastik, enfocada en la artesanía tradicional y materiales premium para crear figuras que trascienden el coleccionismo convencional. Eric Draven, protagonista deThe Crow, inaugura esta línea con una interpretación profundamente fiel y emocional del icónico personaje. La figura captura no solo su apariencia, sino también la intensidad y presencia que lo convirtieron en un símbolo del cine de culto. El vestuario está confeccionado encuero genuino de alta calidad, con texturas, pliegues y envejecimiento natural que elevan el realismo a un nivel superior. Una pieza de colección concebida como obra de arte, ideal para quienes buscan una representación definitiva y premium de Eric Draven en escala 1:6."
           },
           {
             "t": "notion-bulleted-list",
@@ -14287,21 +14256,32 @@
           {
             "t": "notion-bulleted-list",
             "x": "KatanaEscopetaCuervo en vueloGuitarra eléctrica con correa de cuero real13 manos intercambiablesBase magnética"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza de colección concebida como obra de arte, ideal para quienes buscan una representación definitiva y premium de Eric Draven en escala 1:6."
           }
         ],
-        "id": "the-crow-eric-draven-edicion-estandar"
+        "id": "the-crow-eric-draven-edicion-estandar",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac55762ac9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-scale-696ac55c305f6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac557b9d64.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac55820316.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac55884c8b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac558e0a30.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac55a07796.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914717/infinite-statue-the-crow-the-crow-eric-draven-sixth-scale-figure-gallery-696ac55a571b7.jpg"
+        ]
       },
       {
         "n": "The Crow – Eric Draven (Deluxe Edition)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/b0b5d716-4ddf-43eb-a0a5-a1085d3e6586/the-crow-eric-draven-16-luxury-action-figure-deluxe-edition.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce619b5c.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/the-crow-eric-draven-deluxe-edition",
         "marca": "Inifnite Statue x Kaustic Plastik",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "5700",
         "precio_d": "",
@@ -14311,23 +14291,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Infinite Statue x Kaustic Plastik – Maestro Line"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "LaMaestro Linede Kaustic Plastik representa una nueva era en figuras artesanales premium, combinando técnicas tradicionales con materiales de alta gama para lograr un nivel de realismo excepcional."
-          },
-          {
-            "t": "notion-text",
-            "x": "EstaDeluxe Editionde Eric Draven rinde homenaje a uno de los personajes más icónicos del cine de culto. El head sculpt incorporaojos móviles independientesycabello implantado manualmente con lana de cordero tibetano, aplicado mechón por mechón para un acabado completamente natural y realista."
-          },
-          {
-            "t": "notion-text",
-            "x": "El vestuario está confeccionado encuero genuino de alta calidad, con texturas auténticas, pliegues y envejecimiento natural que elevan la pieza a categoría de obra de arte."
+            "x": "Figura Sixth Scale (1:6) – Infinite Statue x Kaustic Plastik – Maestro Line Altura:30 cm LaMaestro Linede Kaustic Plastik representa una nueva era en figuras artesanales premium, combinando técnicas tradicionales con materiales de alta gama para lograr un nivel de realismo excepcional. EstaDeluxe Editionde Eric Draven rinde homenaje a uno de los personajes más icónicos del cine de culto. El head sculpt incorporaojos móviles independientesycabello implantado manualmente con lana de cordero tibetano, aplicado mechón por mechón para un acabado completamente natural y realista. El vestuario está confeccionado encuero genuino de alta calidad, con texturas auténticas, pliegues y envejecimiento natural que elevan la pieza a categoría de obra de arte. Una edición superior que combina implantación de cabello real y materiales auténticos para ofrecer la representación más impactante y detallada de Eric Draven en escala 1:6. Ideal para coleccionistas que buscan una pieza verdaderamente exclusiva"
           },
           {
             "t": "notion-bulleted-list",
@@ -14340,21 +14304,32 @@
           {
             "t": "notion-bulleted-list",
             "x": "KatanaEscopetaCuervo en vuelo con soporte transparenteGuitarra eléctrica con correa de cuero real13 manos intercambiablesBase magnética"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una edición superior que combina implantación de cabello real y materiales auténticos para ofrecer la representación más impactante y detallada de Eric Draven en escala 1:6. Ideal para coleccionistas que buscan una pieza verdaderamente exclusiva y artística."
           }
         ],
-        "id": "the-crow-eric-draven-deluxe-edition"
+        "id": "the-crow-eric-draven-deluxe-edition",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce619b5c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-scale-696acceb517ea.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce688e05.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce6dc111.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce73c784.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce766c04.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce7d77f5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147172/infinite-statue-the-crow-the-crow-eric-draven-deluxe-edition-sixth-scale-figure-gallery-696acce851def.jpg"
+        ]
       },
       {
         "n": "The Crow – Eric Draven (Deluxe Gold Edition)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/cf1a3858-c97e-4466-901e-b5dec22e3b81/the-crow-eric-draven-1-6-luxury-action-figure-delu.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfcd3c43c.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/the-crow-eric-draven-deluxe-gold-edition",
         "marca": "Infinite Statue x Kaustic Plastik",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "6800",
         "precio_d": "",
@@ -14364,23 +14339,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Infinite Statue x Kaustic Plastik – Maestro Line"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "LaDeluxe Gold Editionrepresenta la versión más completa y exclusiva dentro de la Maestro Line de Kaustic Plastik."
-          },
-          {
-            "t": "notion-text",
-            "x": "Eric Draven es presentado con un nivel de detalle excepcional, combinando artesanía tradicional con materiales premium. El head sculpt incluyeojos móviles independientesycabello implantado manualmente con lana de cordero tibetano, logrando un acabado extremadamente natural y realista."
-          },
-          {
-            "t": "notion-text",
-            "x": "El vestuario está confeccionado encuero genuino de alta calidad, con texturas auténticas y envejecimiento natural que refuerzan la estética oscura y dramática del personaje."
+            "x": "Figura Sixth Scale (1:6) – Infinite Statue x Kaustic Plastik – Maestro Line Altura:30 cm LaDeluxe Gold Editionrepresenta la versión más completa y exclusiva dentro de la Maestro Line de Kaustic Plastik. Eric Draven es presentado con un nivel de detalle excepcional, combinando artesanía tradicional con materiales premium. El head sculpt incluyeojos móviles independientesycabello implantado manualmente con lana de cordero tibetano, logrando un acabado extremadamente natural y realista. El vestuario está confeccionado encuero genuino de alta calidad, con texturas auténticas y envejecimiento natural que refuerzan la estética oscura y dramática del personaje. La versión más completa y elaborada de Eric Draven en escala 1:6, ideal para coleccionistas que buscan una pieza artística de alto nivel con diorama y accesorios exclusivos."
           },
           {
             "t": "notion-bulleted-list",
@@ -14393,21 +14352,32 @@
           {
             "t": "notion-bulleted-list",
             "x": "KatanaEscopetaCuervo en vuelo con soporte transparenteCuervo posadoGuitarra eléctrica con correa de cuero realDiorama magnético con tumbasRamo de floresMáscara blanca13 manos intercambiablesBase magnética"
-          },
-          {
-            "t": "notion-text",
-            "x": "La versión más completa y elaborada de Eric Draven en escala 1:6, ideal para coleccionistas que buscan una pieza artística de alto nivel con diorama y accesorios exclusivos."
           }
         ],
-        "id": "the-crow-eric-draven-deluxe-gold-edition"
+        "id": "the-crow-eric-draven-deluxe-gold-edition",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfcd3c43c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-scale-696acfd29bef6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfcd8ee90.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfcde41bb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfce49f3c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfce9e3e9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfcf1c4bc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9147173/infinite-statue-the-crow-the-crow-eric-draven-deluxe-gold-edition-sixth-scale-figure-gallery-696acfcf8d2c0.jpg"
+        ]
       },
       {
         "n": "Ash Williams",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/9b9b6d82-5ee5-4e12-9f23-4fe8597a367e/eda003_005a_1800x1800.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fded65df.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/ash-williams",
         "marca": "Asmus Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3200",
         "precio_d": "",
@@ -14417,19 +14387,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Asmus Collectible Toys – Evil Dead II"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:30 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada enEvil Dead II(1987), dirigida por Sam Raimi, esta figura de Ash Williams captura uno de los momentos más icónicos del personaje cuando decide enfrentar el mal y recuperar el Necronomicón."
-          },
-          {
-            "t": "notion-text",
-            "x": "Asmus Collectible Toys presenta una versión altamente articulada y fiel al actor, con retratos realistas y múltiples accesorios para recrear las escenas más memorables de la película."
+            "x": "Figura Sixth Scale (1:6) – Asmus Collectible Toys – Evil Dead II Altura:30 cm Inspirada enEvil Dead II(1987), dirigida por Sam Raimi, esta figura de Ash Williams captura uno de los momentos más icónicos del personaje cuando decide enfrentar el mal y recuperar el Necronomicón. Asmus Collectible Toys presenta una versión altamente articulada y fiel al actor, con retratos realistas y múltiples accesorios para recrear las escenas más memorables de la película. Una pieza imprescindible para coleccionistas de cine de horror, ideal para recrear el espíritu irreverente y brutal de Ash Williams en escala 1:6."
           },
           {
             "t": "notion-bulleted-list",
@@ -14450,21 +14408,32 @@
           {
             "t": "notion-bulleted-list",
             "x": "Cabeza de Deadite HenriettaBase de exhibición Asmus"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas de cine de horror, ideal para recrear el espíritu irreverente y brutal de Ash Williams en escala 1:6."
           }
         ],
-        "id": "ash-williams"
+        "id": "ash-williams",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fded65df.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-scale-69654fe3c4dc8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fdf33026.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fdf8590c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fdfe0651.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fe042c21.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fe0954e0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915241/asmus-collectible-toys-evil-dead-ii-ash-williams-sixth-scale-figure-gallery-69654fe0e676d.jpg"
+        ]
       },
       {
         "n": "Catwoman (Batman 1966 TV Series) – Standard Edition",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/09938d56-e4e8-428d-a414-8c0ad3967aaf/cat_standard_2000x.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/CAT_STANDARD.jpg?v=1772144672",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/catwoman-batman-1966-tv-series-standard-edition",
         "marca": "Jazzinc Dioramas",
         "escala": "1:6 - 29CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4000",
         "precio_d": "",
@@ -14474,23 +14443,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura 1:6 – Jazzinc – Julie Newmar"
-          },
-          {
-            "t": "notion-text",
-            "x": "CuandoBatmandebutó en 1966, redefinió la televisión con un estilo vibrante, teatral e inolvidable. Entre sus interpretaciones más icónicas destacó Julie Newmar como Catwoman: elegante y peligrosa, sofisticada e impredecible."
-          },
-          {
-            "t": "notion-text",
-            "x": "Para muchos coleccionistas, Julie Newmar sigue siendo la Catwoman definitiva."
-          },
-          {
-            "t": "notion-text",
-            "x": "Jazzinc presenta esta figura 1:6 meticulosamente desarrollada como homenaje a su inolvidable aparición en la serie clásica, pensada para coleccionistas que valoran fidelidad en pantalla, proporción y autenticidad."
-          },
-          {
-            "t": "notion-text",
-            "x": "La Standard Edition captura a Catwoman en su versión más reconocible, cuidando cada detalle de silueta, materiales y retrato."
+            "x": "Figura 1:6 – Jazzinc – Julie Newmar CuandoBatmandebutó en 1966, redefinió la televisión con un estilo vibrante, teatral e inolvidable. Entre sus interpretaciones más icónicas destacó Julie Newmar como Catwoman: elegante y peligrosa, sofisticada e impredecible. Para muchos coleccionistas, Julie Newmar sigue siendo la Catwoman definitiva. Jazzinc presenta esta figura 1:6 meticulosamente desarrollada como homenaje a su inolvidable aparición en la serie clásica, pensada para coleccionistas que valoran fidelidad en pantalla, proporción y autenticidad. La Standard Edition captura a Catwoman en su versión más reconocible, cuidando cada detalle de silueta, materiales y retrato. Una pieza imprescindible para coleccionistas del Batman clásico que buscan una representación auténtica y elegante de la Catwoman más icónica de la televisión."
           },
           {
             "t": "notion-bulleted-list",
@@ -14507,21 +14460,31 @@
           {
             "t": "notion-bulleted-list",
             "x": "Escultura meticulosamente trabajadaVestuario confeccionado para lograr caída y ajuste realistaAcabados metálicos diseñados para reflejar la luz con naturalidadProporciones equilibradas que preservan la postura y presencia vistas en pantalla"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas del Batman clásico que buscan una representación auténtica y elegante de la Catwoman más icónica de la televisión."
           }
         ],
-        "id": "catwoman-batman-1966-tv-series-standard-edition"
+        "id": "catwoman-batman-1966-tv-series-standard-edition",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/CAT_STANDARD.jpg?v=1772144672",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/96886c2a-83cc-4124-ae0b-5c9f290ee6a9FireflyUpscaler2xscale.jpg?v=1772144672",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/592194808_1414312413818861_1842952036318611652_n.jpg?v=1772144672",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/634352487_1361840515981505_273305430228283802_n.jpg?v=1772144672",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/640653367_2407780346360130_1794380898260771497_n.jpg?v=1772144672",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/CATWOMANNEWMARSTANDARDposter.jpg?v=1772144672",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/e972dc67-94bc-45d2-b510-822257376e1fFireflyUpscaler2xscale.jpg?v=1772144672"
+        ]
       },
       {
         "n": "Catwoman (Julie Newmar) – Deluxe Edition",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/9dfb0c34-a2ad-4c7f-af66-f8a8d56e078c/cat_deluxe_2000x.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/CAT_DELUXE.jpg?v=1772144785",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/catwoman-julie-newmar-deluxe-edition",
         "marca": "Jazzinc Dioramas",
         "escala": "1:6 - 29CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "5500",
         "precio_d": "",
@@ -14531,50 +14494,41 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura 1:6 – JazzInc – Batman 1966 TV Series"
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición Limitada"
-          },
-          {
-            "t": "notion-text",
-            "x": "JazzInc presenta la esperadaCatwoman (Julie Newmar) – Deluxe Editionen escala 1:6, basada en su icónica interpretación en la serieBatmande 1966."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta versión Deluxe amplía las posibilidades de exhibición con nuevos retratos y accesorios característicos de su guarida, permitiendo recrear distintas expresiones y escenas memorables de la serie clásica."
+            "x": "Figura 1:6 – JazzInc – Batman 1966 TV Series Edición Limitada JazzInc presenta la esperadaCatwoman (Julie Newmar) – Deluxe Editionen escala 1:6, basada en su icónica interpretación en la serieBatmande 1966. Esta versión Deluxe amplía las posibilidades de exhibición con nuevos retratos y accesorios característicos de su guarida, permitiendo recrear distintas expresiones y escenas memorables de la serie clásica. El retrato adicional captura una de sus expresiones más volátiles y calculadoras, permitiendo representar distintos matices del personaje. Una edición pensada para coleccionistas exigentes que buscan una representación completa del personaje, tanto en expresión como en ambientación. Una versión definitiva para el verdadero coleccionista del Batman clásico de 1966."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Segundo retrato “Angry” fiel a pantallaSistema de ojos móvilesCabello implantado (rooted hair)Aplicación de pintura terminada a manoTrono de CatwomanMesa lateralCatphone8 pares de manos intercambiables (incluye manos específicas para el Catphone)"
           },
           {
-            "t": "notion-text",
-            "x": "El retrato adicional captura una de sus expresiones más volátiles y calculadoras, permitiendo representar distintos matices del personaje."
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Escultura desarrollada con referencia directa de pantallaCuerpo seamless proporcionado para mantener la silueta exactaCatsuit confeccionado con acabado fiel al períodoCinturón y joyería con acabado metálico cuidadosamente trabajadoAccesorios de guarida inspirados en su entorno en la serie"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una edición pensada para coleccionistas exigentes que buscan una representación completa del personaje, tanto en expresión como en ambientación."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una versión definitiva para el verdadero coleccionista del Batman clásico de 1966."
           }
         ],
-        "id": "catwoman-julie-newmar-deluxe-edition"
+        "id": "catwoman-julie-newmar-deluxe-edition",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/CAT_DELUXE.jpg?v=1772144785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1_c2b2370a-9c5e-4b1a-9d60-6adb267b003a.jpg?v=1772144785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2_082dd9b3-87c3-4f23-b3cb-d5749a617f88.jpg?v=1772144785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/551524654_2223965161463627_400849752857543915_n_b96fef93-6f87-4e88-81f8-edfa52c53063.jpg?v=1772144785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/582123860_1833197864035090_781645213559609041_n_a4d6ae77-e87a-4830-bd39-eef90dc5ae3f.jpg?v=1772144785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/589758500_1688003262187377_6466288027067576318_n_cd400a4c-b440-411a-8561-45f1510d6e98.jpg?v=1772144785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/590315387_1448207023485215_5744654185444685649_n_3b770a6c-606e-4a35-82d0-78077ca19a5b.jpg?v=1772144785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/632954560_908369588756547_954437366806624598_n.png?v=1772144785"
+        ]
       },
       {
         "n": "Catwoman (Basic Clean) – 1992",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/a5d3f326-29f0-4334-a4bb-a4523fb1f3e3/basiccleanmain_2000x.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/BASICCLEANMAIN.jpg?v=1729138031",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/catwoman-basic-clean-1992",
         "marca": "Jazzinc Diorama",
         "escala": "1:6 - 29CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4800",
         "precio_d": "",
@@ -14584,15 +14538,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Batman Returns (1992) – JazzInc – Edición Limitada"
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada en la inolvidable interpretación deMichelle PfeifferenBatman Returns (1992), esta versiónBasic Cleancaptura la estética impecable del icónico traje negro de látex antes del desgaste extremo."
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza desarrollada con enfoque absoluto en fidelidad cinematográfica, proporción y materiales de alta calidad."
+            "x": "Batman Returns (1992) – JazzInc – Edición Limitada Inspirada en la inolvidable interpretación deMichelle PfeifferenBatman Returns (1992), esta versiónBasic Cleancaptura la estética impecable del icónico traje negro de látex antes del desgaste extremo. Una pieza desarrollada con enfoque absoluto en fidelidad cinematográfica, proporción y materiales de alta calidad. Una versión limpia y elegante del traje más icónico de Catwoman en cine, ideal para coleccionistas que buscan una representación fiel y minimalista del clásico de 1992."
           },
           {
             "t": "notion-bulleted-list",
@@ -14601,13 +14547,24 @@
           {
             "t": "notion-bulleted-list",
             "x": "El diorama “Hell Here” mostrado en imágenesno está incluidoLos gatos y el periódico solo están incluidos en las versionesDX y 2-PackLa pared de fondo “Hell Here” solo está disponible en la versión2-Pack"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una versión limpia y elegante del traje más icónico de Catwoman en cine, ideal para coleccionistas que buscan una representación fiel y minimalista del clásico de 1992."
           }
         ],
-        "id": "catwoman-basic-clean-1992"
+        "id": "catwoman-basic-clean-1992",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/BASICCLEANMAIN.jpg?v=1729138031",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/BasicCatwomanClean1_a185ee3d-4372-490b-a046-69e35c4be545.jpg?v=1729137874",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/BasicCatwomanClean5_bcc5ceb5-6d4f-4859-9d2d-aeead783a5a5.jpg?v=1729137874",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/catwomanclean2copy2_3ff9f10f-a0b6-49b7-868d-76c4faaa24f4.jpg?v=1729137874",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/catwomanclean2copy3.jpg?v=1729137874",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/catwomanclean5BASIC.jpg?v=1729137874",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/catwomanclean5_da50bc17-9de3-48b4-b25d-17373b9bc5bf.jpg?v=1729137874",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/catwomanclean10_0434accd-e711-44cd-bd29-c1847a94f21f.jpg?v=1729137874"
+        ]
       }
     ]
   },
@@ -16483,11 +16440,11 @@
       },
       {
         "n": "He-Man & Battle Cat",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/d904da33-4f36-460f-bba9-141c2f82ed46/a015-4tc3aqo1_2000x.jpg",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-HE-MAN-REG-SCALE_TILES.png?v=1767045458",
         "l": "https://uv-store-guatemala.super.site/he-man-battle-cat",
         "marca": "Prime 1 Studio",
         "escala": "1:4 - 124CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "",
         "precio_d": "",
@@ -16497,23 +16454,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Marca / Línea: Prime 1 Studio"
-          },
-          {
-            "t": "notion-text",
-            "x": "Escala: 1:4"
-          },
-          {
-            "t": "notion-text",
-            "x": "Estado: Pre Orden"
-          },
-          {
-            "t": "notion-text",
-            "x": "Precio (Q): 32000"
-          },
-          {
-            "t": "notion-text",
-            "x": "Entrega estimada: Enero 2028"
+            "x": "Marca / Línea: Prime 1 Studio Escala: 1:4 Estado: Pre Orden Precio (Q): 32000 Entrega estimada: Enero 2028 Tamaño del producto: H 86cm x An 75cm x D 63cm Espada apuntando hacia arriba Tamaño: H 124cm x An 65cm x D 63cm"
           },
           {
             "t": "notion-bulleted-list",
@@ -16526,33 +16467,168 @@
           {
             "t": "notion-bulleted-list",
             "x": "Dos (2) bocas intercambiables (abierta, cerrada)Un (1) Busto Stand"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tamaño del producto: H 86cm x An 75cm x D 63cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Espada apuntando hacia arriba Tamaño: H 124cm x An 65cm x D 63cm"
           }
         ],
-        "id": "he-man-battle-cat"
+        "id": "he-man-battle-cat",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-HE-MAN-REG-SCALE_TILES.png?v=1767045458",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a001-Egrdyv2K_f66b329e-26ae-42d8-a14b-4bca0623af76.jpg?v=1767046293",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a002-KN5XyJUj_51bcd932-70f3-4f94-8b14-57925f69dea2.jpg?v=1767046293",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a003-KGmbopfX_f1a55869-cc0d-483b-a172-0f6dcbe494e7.jpg?v=1767046293",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a004-bXLz5HOk_85ea79e5-65e1-415b-8b0f-4228d95ada14.jpg?v=1767046293",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a005-eVynAWAV_67c54ffd-3c95-41c2-b91a-4e67e74bad63.jpg?v=1767046293",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a006-XGxV9kp3_d60383bf-1325-4dc6-a667-27448b728ba4.jpg?v=1767046293",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a007-cfo64rTA_899bc47d-85bc-436a-b455-4c0295ef5ee5.jpg?v=1767046293"
+        ]
       },
       {
         "n": "Jinx Quarter Scale",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/0d0f4f7b-eabc-412f-827d-d64fbce11d8d/a7c09501_2000x.webp",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-JINX_b9f899ac-4a39-4529-86aa-7c55cd038bf6.png?v=1766443617",
         "l": "https://uv-store-guatemala.super.site/estatuas/jinx-quarter-scale",
-        "marca": "",
-        "escala": "",
-        "estado": "",
-        "disp": "",
-        "precio": "",
+        "marca": "Infinity Studio",
+        "escala": "1:4",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "13200",
         "precio_d": "",
-        "reserva": "",
+        "reserva": "2640",
         "entrega": "",
-        "cantidad": "",
-        "content": [],
-        "id": "jinx-quarter-scale"
+        "cantidad": "1",
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jinx – Estatua 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "[Infinity Studio – 1:4 Scale – Arcane]"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Infinity Studio presenta a Jinx en una impactante estatua a escala 1:4 inspirada en Arcane, capturando uno de los momentos más intensos del personaje tras su ruptura definitiva con Vi y Silco. La pieza muestra a Jinx en plena acción, disparando su icónica arma Pow-Pow, transmitiendo caos y energía en cada detalle."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "La estatua incluye dos retratos intercambiables que permiten exhibir diferentes facetas del personaje: una expresión más contenida y otra cargada de furia. Su diseño resalta elementos distintivos como los tatuajes de nubes azules y su estilo visual característico, junto con armamento detallado que refuerza su identidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "La base temática incorpora símbolos propios del universo de Arcane y cuenta con múltiples modos de iluminación, elevando la presencia de la pieza en exhibición."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: 1:4 Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Infinity Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Estatua 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Animación / Videojuegos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: No aplica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Estatua de Jinx"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- 2 retratos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Arma Pow-Pow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Base temática con iluminación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Basada en Arcane con enfoque en una escena clave del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Incluye dos expresiones para diferentes estilos de display"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Escultura dinámica con alto nivel de detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Base con múltiples modos de iluminación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Elementos característicos como tatuajes y armamento fielmente representados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "- Pieza de gran formato ideal como centro de colección"
+          }
+        ],
+        "id": "jinx-quarter-scale",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-JINX_b9f899ac-4a39-4529-86aa-7c55cd038bf6.png?v=1766443617",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/A7C09501.jpg?v=1766443744",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/A7C09503.jpg?v=1766443744",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/A7C09509.jpg?v=1766443744",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/A7C09514.jpg?v=1766443744",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/A7C09535.jpg?v=1766443744",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/A7C09418.jpg?v=1766443744",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/A7C09447.jpg?v=1766443744"
+        ]
       },
       {
         "n": "Gon Freecss – King Bust",
