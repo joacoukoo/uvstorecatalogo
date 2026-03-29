@@ -20614,24 +20614,156 @@
         "cantidad": "1",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "Lafigura de la Sexta Escala de la Hojapresenta: Disfraz: Armas: Accesorios:"
+            "x": "Figura de colección de la Sexta Escala que presenta una imagen auténtica y detallada de Wesley Snipes como Blade en Deadpool & Wolverine. Una figura premium con escultura altamente detallada y múltiples accesorios intercambiables."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Wesley Snipes como Blade enDeadpool & WolverineUna (1) escultura de cabeza de hoja recién desarrollada con ojos rodantes separadosExpresión facial fiel a la película con arrugas, textura de piel y barba detalladasEscultura de cabello negro con corte rapado muy detalladaAproximadamente 30 cm de alturaCuerpo recién desarrollado con más de 30 puntos de articulaciónDiez (10) piezas de manos intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de puñosUn (1) par de bazucas cogidas de la manoUn (1) par de gujas arrojadizas cogidas de la manoUna (1) pistola sujetando la mano izquierdaUna (1) mano derecha con espadaCada escultura de cabeza está especialmente pintada a mano"
+            "x": "Altura: Aproximadamente 30 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) traje interior negroUn (1) chaleco táctico negro con detalles en rojoUn (1) par de guanteletesUn (1) cinturón de funda para pistolaUn (1) par de pantalones negros con rodillerasUn (1) par de zapatos negros"
+            "x": "Escala: Sexta Escala"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) bazuca con cohete desmontable y accesorio de efecto de disparo (acoplable al cohete)Una (1) pistolaUna (1) guja arrojadizaUna (1) guja arrojadiza manchada de sangreUna (1) dagaUna (1) daga manchada de sangre"
+            "x": "Puntos de articulación: Más de 30"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Traje"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de gafas de solBase de diorama especialmente diseñada con temática rocosa y accesorio para gafas"
+            "x": "Traje interior negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco táctico negro con detalles en rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones negros con rodilleras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de guanteles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de funda para pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de zapatos negros"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Manos Intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de puños"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos cogidas a bazucas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos cogidas a gujas arrojadizas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano izquierda sujetando pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano derecha con espada"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bazuca con cohete desmontable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorio de efecto de disparo para bazuca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guja arrojadiza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guja arrojadiza manchada de sangre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Daga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Daga manchada de sangre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de gafas de sol"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de diorama con temática rocosa y accesorio para gafas"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza recién desarrollada con ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Expresión facial fiel a la película con arrugas y textura de piel detalladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Barba detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabello negro con corte rapado muy detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo recién desarrollado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura a mano en cada escultura de cabeza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diez piezas de manos intercambiables"
           }
         ],
         "id": "blade",
@@ -20649,7 +20781,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbe9c1dc.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbeeb04a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913953/hot-toys-marvel-blade-sixth-scale-figure-gallery-67a23dbf43d32.jpg"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Red Hulk",
@@ -20904,28 +21037,136 @@
         "cantidad": "1",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Seong Gi-hunpresenta: Disfraz: Accesorios:"
+            "x": "Figura de la sexta escala que presenta una imagen auténtica y detallada de Lee Jung-jae como Seong Gi-hun en Squid Game Temporada 2. Esta figura coleccionable premium captura la esencia del personaje con un nivel de detalle excepcional."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Lee Jung-jae como Seong Gi-hun en Squid Game Temporada 2Una (1) escultura de cabeza de Seong Gi-hun recién desarrollada con ojos rodantes separadosExpresión facial fiel a la pantalla con arrugas y textura de piel detalladasAproximadamente 30 cm de alturaCuerpo recién desarrollado con 30 puntos de articulaciónDiez (10) piezas de manos intercambiables, incluyendo:Un (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de puñosUn (1) par de accesorios cogiéndose de la manoUn (1) par de manos gesticularesCada escultura de cabeza está especialmente pintada a mano"
+            "x": "Altura: aproximadamente 30 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de puñosUn (1) par de accesorios cogiéndose de la manoUn (1) par de manos gesticulares"
+            "x": "Escala: sexta escala"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) chaqueta de chándal verde y blanca con bordado \"456\", insignia de signo de cruz y cremallera (con alambre flexible en el cuello)Una (1) parte superior verde y blanca impresa con \"456\"Un (1) par de pantalones de chándal verdesUn (1) par de zapatos blancos slip-on"
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Cabeza y Expresión"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) máquina de votación con iluminación LED (accionada por USB)Una (1) hucha doradaUna (1) máscara con símbolo cuadradoUn conjunto de juego de pentatlón de seis patas, que incluye:Un (1) par de esposas para el tobilloUn (1) par de DdakjiUn (1) par de BiseokchigiUn (1) juego de piedras GonggiUn (1) volanteUna (1) trompa giratoriaBase de figura especialmente diseñada con temática de escaleras y placa de nombre de personaje"
+            "x": "Escultura de cabeza recién desarrollada con ojos rodantes separados"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de esposas para el tobilloUn (1) par de DdakjiUn (1) par de BiseokchigiUn (1) juego de piedras GonggiUn (1) volanteUna (1) trompa giratoria"
+            "x": "Expresión facial fiel a la pantalla con arrugas y textura de piel detalladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura especial a mano en cada escultura de cabeza"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Manos Intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos abiertas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de puños"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos cogiéndose de la mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos gesticulares"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Vestuario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta de chándal verde y blanca con bordado '456', insignia de signo de cruz y cremallera con alambre flexible en el cuello"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Parte superior verde y blanca impresa con '456'"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de chándal verdes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos blancos slip-on"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Accesorios Incluidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máquina de votación con iluminación LED accionada por USB"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hucha dorada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara con símbolo cuadrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Juego de pentatlón de seis patas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de esposas para el tobillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de Ddakji"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de Biseokchigi"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Juego de piedras Gonggi"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Volante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trompa giratoria"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de figura especialmente diseñada con temática de escaleras y placa de nombre de personaje"
           }
         ],
         "id": "seong-gi-hun",
@@ -20943,7 +21184,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae1880990c7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae1881a718d.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914199/hot-toys-squid-game-seong-gi-hun-sixth-scale-figure-gallery-67ae1893281a3.jpg"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Captain America (Brave New World)",
@@ -21117,28 +21359,124 @@
         "cantidad": "0",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "La figura de laSexta Escala VIpresenta: Disfraz: Armas: Accesorios:"
+            "x": "Figura de Sexta Escala que presenta una imagen auténtica y detallada de Vi en el episodio final de Arcane: League of Legends. Esta escultura captura cada detalle del personaje con precisión, desde su expresión facial hasta sus características únicas."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Vi en el episodio final de Arcane: League of LegendsUna (1) escultura de cabeza Vi recién desarrollada con ojos rodantes separadosExpresión facial, maquillaje y textura de piel muy precisosEscultura detallada de cabello magenta y negro con corte inferiorAproximadamente 28 cm de alturaCuerpo recién desarrollado con más de 28 puntos de articulaciónDiseño sin costuras desde el cuello hasta los brazos en material de silicona, mostrando un contorno muscular detalladoTatuaje mecánico impreso en la parte superior de la espaldaCuatro (4) piezas de manos intercambiables, incluyendo:Un (1) par de manos abiertasUn (1) par de puñosCada escultura de cabeza está especialmente pintada a mano"
+            "x": "Altura: aproximadamente 28 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de manos abiertasUn (1) par de puños"
+            "x": "Escala: Sexta Escala"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) camiseta de tirantes beige con detallesUn (1) par de protectores de brazo desmontablesUn (1) cinturón con insignia de Piltover y protector del muslo izquierdoUn (1) par de pantalones marrones dañados por la batalla con rodillera derecha y armadura de pantorrillaUn (1) par de botas de cordones color rojo vino"
+            "x": "Puntos de articulación: más de 28"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Cabeza"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de guanteletes Hextech articulados"
+            "x": "Escultura de cabeza Vi recién desarrollada con ojos rodantes separados"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Dos (2) pares de accesorios de efecto de ataque (que se pueden acoplar a guanteletes Hextech)Un (1) accesorio de efecto de destrozamiento (que se puede acoplar a guanteletes Hextech)Soporte para figuras especialmente diseñado con nombre de personaje"
+            "x": "Expresión facial, maquillaje y textura de piel muy precisos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura detallada de cabello magenta y negro con corte inferior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cada escultura de cabeza está especialmente pintada a mano"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Cuerpo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo recién desarrollado con más de 28 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño sin costuras desde el cuello hasta los brazos en material de silicona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contorno muscular detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tatuaje mecánico impreso en la parte superior de la espalda"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Manos Intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos abiertas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de puños"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Atuendo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una camiseta de tirantes beige con detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de protectores de brazo desmontables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un cinturón con insignia de Piltover y protector del muslo izquierdo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de pantalones marrones dañados por la batalla con rodillera derecha y armadura de pantorrilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de botas de cordones color rojo vino"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Armas y Accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de guanteletes Hextech articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos pares de accesorios de efecto de ataque acoplables a guanteletes Hextech"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un accesorio de efecto de destrozamiento acoplable a guanteletes Hextech"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte para figuras especialmente diseñado con nombre de personaje"
           }
         ],
         "id": "vi-arcane",
@@ -21156,7 +21494,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-67926962b09fe.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-679269631c37a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-6792696378342.jpg"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Rain Carradine",
@@ -21326,28 +21665,132 @@
         "cantidad": "",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "La figura de lasexta escala de Darth Malgus™presenta: Disfraz: Armas: Accesorios:"
+            "x": "Figura de sexta escala de Darth Malgus™ con imagen auténtica y detallada del personaje de Star Wars."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Darth Malgus en Star WarsUno (1) esculpido de cabeza recién desarrollado con expresión facial muy precisa, cicatrices, ojos rodantes separados y textura de piel detalladaAproximadamente 34 cm de alturaCuerpo especializado con más de 30 puntos de articulaciónSeis (6) piezas de manos enguantadas intercambiables recién fabricadas, incluyendo:Un (1) par de manos relajadasUn (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la manoCada pieza de escultura de cabeza está especialmente pintada a mano"
+            "x": "Altura: aproximadamente 34 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de manos relajadasUn (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la mano"
+            "x": "Escala: sexta escala"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) armadura de Darth Malgus y traje de nailon con guanteletes LED iluminados (luz roja y blanca, accionado por USB)Una (1) capa negraUna (1) nueva máscara de función desmontable con luz LED (luz roja, USB alimentada)Una (1) placa de pecho con panel de control LED iluminado (luz roja, alimentación USB)Un (1) cinturón negroUn (1) par de pantalones de nylon negroUn (1) par de botas blindadas negras"
+            "x": "Puntos de articulación: más de 30"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Cabeza"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una (1) empuñadura de sable de luz LED (luz roja, alimentación USB)Una (1) empuñadura de sable de luzUna (1) hoja de sable de luz roja en movimiento (acoplable a la empuñadura)Una (1) hoja de sable de luz de color rojo (que se puede acoplar a la empuñadura)"
+            "x": "Esculpido recién desarrollado con expresión facial muy precisa"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) accesorio de efecto de rayo de Fuerza (acoplable a las manos)Base circular de figura con iluminación LED temática ajustable (accionada por USB)"
+            "x": "Cicatrices detalladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Textura de piel detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura a mano especial en cada pieza"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Manos Intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos gesticulares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un par de manos con sables de luz cogidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Total de 6 piezas de manos enguantadas intercambiables"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Traje y Armadura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de Darth Malgus de nylon con guanteletes LED iluminados (luz roja y blanca, alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara desmontable con luz LED (luz roja, alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa de pecho con panel de control LED iluminado (luz roja, alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de nylon negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blindadas negras"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empuñadura de sable de luz LED (luz roja, alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empuñadura de sable de luz estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de sable de luz roja en movimiento (acoplable a la empuñadura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de sable de luz roja (acoplable a la empuñadura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorio de efecto de rayo de Fuerza (acoplable a las manos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base circular de figura con iluminación LED temática ajustable (accionada por USB)"
           }
         ],
         "id": "darth-malgus",
@@ -21365,7 +21808,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba49d27bf.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4d66f72.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4f08477.jpg"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Batman (Batman & Robin)",
@@ -21535,32 +21979,24 @@
         "cantidad": "1",
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "Robin – Figura Sixth Scale"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Hot Toys – Movie Masterpiece Series – Batman & Robin]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Esta figura Sixth Scale de Robin, desarrollada por Hot Toys, está inspirada en su aparición en la película Batman & Robin, presentando al personaje interpretado por Chris O'Donnell con un alto nivel de fidelidad."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "La pieza incorpora un head sculpt detallado con sistema de ojos móviles independientes, capturando con precisión la expresión y rasgos del personaje. Su traje ha sido confeccionado con gran atención al detalle, destacando el diseño en negro con acentos metálicos en rojo, junto con su icónica capa."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "La figura incluye una variedad de accesorios y armas que permiten recrear distintas escenas de acción, consolidándose como una excelente adición para coleccionistas del universo DC."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -21580,10 +22016,6 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
             "x": "Altura: 30 cm"
           },
           {
@@ -21592,107 +22024,95 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Materiales: PVC, ABS, tela, otros no especificados"
+            "x": "Materiales: PVC, ABS, tela y otros"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Articulación: Sí (30 puntos)"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Head sculpt de Robin con ojos móviles"
+            "x": "Head sculpt de Robin con ojos móviles"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Manos:"
+            "x": "10 manos intercambiables con guantes"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- 10 manos intercambiables con guantes"
+            "x": "Traje negro con detalles metálicos en rojo"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Vestuario:"
+            "x": "Capa"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Traje negro con detalles metálicos en rojo y capa"
+            "x": "Cinturón utilitario negro"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Cinturón utilitario negro"
+            "x": "Brazales"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Brazales"
+            "x": "Botas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Botas"
+            "x": "Pistola láser"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Armas:"
+            "x": "Throwing Bird"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Pistola láser"
+            "x": "Dispositivos de escalada"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Throwing Bird"
+            "x": "Picos de hielo"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Dispositivos de escalada"
+            "x": "Base temática con nombre del personaje"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "- Picos de hielo"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Accesorios:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "- Base temática con nombre del personaje"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Likeness fiel de Chris O'Donnell como Robin"
+            "x": "Likeness fiel de Chris O'Donnell como Robin"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Head sculpt con sistema de ojos móviles"
+            "x": "Head sculpt con sistema de ojos móviles"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Traje detallado con acabados metálicos"
+            "x": "Traje detallado con acabados metálicos"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Amplia variedad de accesorios y armas"
+            "x": "Amplia variedad de accesorios y armas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Figura altamente articulada"
+            "x": "Figura altamente articulada"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Pintura aplicada con alto nivel de detalle"
+            "x": "Pintura aplicada con alto nivel de detalle"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Ideal para coleccionistas de DC Comics"
+            "x": "Ideal para coleccionistas de DC Comics"
           }
         ],
         "id": "robin-batman-robin",
@@ -21710,7 +22130,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e403bc.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e9d381.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93f1373b.jpg"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Plo Koon",
@@ -21904,28 +22325,116 @@
         "cantidad": "",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "Lafigura de Capitán América (traje sigiloso S.T.R.I.K.E.) 2.0 a escala sextacaracterísticas: Disfraz: Armas: 2de0d7d6a637803ab620f42b1553b371 Uno (1) escudo circular azul y plata del Capitán América recién desarrollado con emblemade estrella plateada Accesorios:"
+            "x": "Imagen auténtica y detallada de Chris Evans como Capitán América/Steve Rogers vistiendo el traje Stealth S.T.R.I.K.E. en Capitán América: El Soldado de Invierno."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Chris Evans como Capitán América/Steve Rogers vistiendo el traje Stealth S.T.R.I.K.E. enCapitán América: El Soldado de InviernoUna (1) escultura de cabeza de Steve Rogers recién esculpida con ojos rodantes separadosUna (1) escultura de cabeza con casco del Capitán América recién desarrollada y tres (3) caras inferiores intercambiables que capturan las expresiones faciales del Capitán AméricaEscultura capilar fiel y expresión facial fieles a la película, con arrugas y textura de piel detalladasAproximadamente 31 cm de alturaCuerpo especializado recién desarrollado con más de 30 puntos de articulación que retrata de forma natural el cuerpo musculoso del Capitán América en la películaTrece (13) piezas de manos enguantadas intercambiables recién esculpidas, incluyendo:Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de manos gesticularesDos (2) pares de escudos tomados de la manoUna (1) mano derecha señalando con el dedoCada pieza de escultura de cabeza está especialmente pintada a mano"
+            "x": "Altura: Aproximadamente 31 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Un (1) par de puñosUn (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de manos gesticularesDos (2) pares de escudos tomados de la manoUna (1) mano derecha señalando con el dedo"
+            "x": "Cuerpo especializado con más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Uno (1) traje Stealth S.T.R.I.K.E. azul marino recién confeccionado con emblema de estrella plateada y rayas en el pechoUn (1) par de pantalones recién hechos a la medida azul marino y rojo oscuro con bolsas, rodilleras y ribetes rojosUn (1) soporte de escudo trasero y correa de cuerpo de color marrón recién desarrolladoUn (1) cinturón utilitario de color marrón recién desarrolladoUn (1) par de botas negras recién desarrolladas"
+            "x": "Una (1) escultura de cabeza de Steve Rogers recién esculpida con ojos rodantes separados"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "2de0d7d6a637803ab620f42b1553b371Uno (1) escudo circular azul y plata del Capitán América recién desarrollado con emblemade estrella plateada"
+            "x": "Una (1) escultura de cabeza con casco del Capitán América con tres (3) caras inferiores intercambiables"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Uno (1) casco recién desarrollado del Capitán AméricaUn soporte magnético con el logo de S.H.I.E.L.D. con el nombre del personaje"
+            "x": "Un (1) par de puños enguantados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de manos abiertas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de manos gesticulares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) pares de manos que sostienen el escudo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) mano derecha señalando con el dedo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uno (1) traje Stealth S.T.R.I.K.E. azul marino con emblema de estrella plateada y rayas en el pecho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de pantalones azul marino y rojo oscuro con bolsas, rodilleras y ribetes rojos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) cinturón utilitario marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) soporte de escudo trasero y correa de cuerpo marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uno (1) escudo circular azul y plata con emblema de estrella plateada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uno (1) casco del Capitán América"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) soporte magnético con logo de S.H.I.E.L.D."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura capilar fiel a la película con expresión facial detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arrugas y textura de piel altamente detalladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo musculoso que retrata fielmente el de la película"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trece (13) piezas de manos enguantadas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cada pieza de escultura de cabeza está especialmente pintada a mano"
           }
         ],
         "id": "captain-america-stealth-2-0",
@@ -21943,7 +22452,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb300330.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb34e002.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cc798df0.jpg"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Scorched Xenomorph",
@@ -22865,24 +23375,120 @@
         "cantidad": "1",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "Figura 1:6 – Jazzinc – Julie Newmar CuandoBatmandebutó en 1966, redefinió la televisión con un estilo vibrante, teatral e inolvidable. Entre sus interpretaciones más icónicas destacó Julie Newmar como Catwoman: elegante y peligrosa, sofisticada e impredecible. Para muchos coleccionistas, Julie Newmar sigue siendo la Catwoman definitiva. Jazzinc presenta esta figura 1:6 meticulosamente desarrollada como homenaje a su inolvidable aparición en la serie clásica, pensada para coleccionistas que valoran fidelidad en pantalla, proporción y autenticidad. La Standard Edition captura a Catwoman en su versión más reconocible, cuidando cada detalle de silueta, materiales y retrato. Una pieza imprescindible para coleccionistas del Batman clásico que buscan una representación auténtica y elegante de la Catwoman más icónica de la televisión."
+            "x": "Cuando Batman debutó en 1966, redefinió la televisión con un estilo vibrante, teatral e inolvidable. Entre sus interpretaciones más icónicas destacó Julie Newmar como Catwoman: elegante y peligrosa, sofisticada e impredecible. Para muchos coleccionistas, Julie Newmar sigue siendo la Catwoman definitiva."
+          },
+          {
+            "t": "notion-text",
+            "x": "Jazzinc presenta esta figura 1:6 meticulosamente desarrollada como homenaje a su inolvidable aparición en la serie clásica, pensada para coleccionistas que valoran fidelidad en pantalla, proporción y autenticidad. La Standard Edition captura a Catwoman en su versión más reconocible, cuidando cada detalle de silueta, materiales y retrato. Una pieza imprescindible para coleccionistas del Batman clásico que buscan una representación auténtica y elegante de la Catwoman más icónica de la televisión."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Retrato fiel a Julie NewmarCuerpo seamless proporcionado para reflejar su silueta estilizadaCatsuit negro confeccionado con textura y acabado fiel a la épocaBotas reproducidas con precisiónCinturón dorado con acabado metálico y hebilla correctaCollar tipo statement de estilo originalPar de pistolas temáticas felinasEstatua de gato"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Manos estándarManos con garrasManos para sostener pistolasManos señalandoManos relajadasManos en la cinturaManos en pose recta"
+            "x": "Fabricante: Jazzinc"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje: Julie Newmar como Catwoman"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Retrato fiel a Julie Newmar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Catsuit negro confeccionado con textura y acabado fiel a la época"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas reproducidas con precisión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón dorado con acabado metálico y hebilla correcta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Collar tipo statement de estilo original"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de pistolas temáticas felinas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de gato"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos con garras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos para sostener pistolas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos señalando"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos en la cintura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos en pose recta"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Base oval personalizada"
           },
           {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
             "t": "notion-bulleted-list",
-            "x": "Escultura meticulosamente trabajadaVestuario confeccionado para lograr caída y ajuste realistaAcabados metálicos diseñados para reflejar la luz con naturalidadProporciones equilibradas que preservan la postura y presencia vistas en pantalla"
+            "x": "Cuerpo seamless proporcionado para reflejar su silueta estilizada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura meticulosamente trabajada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario confeccionado para lograr caída y ajuste realista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados metálicos diseñados para reflejar la luz con naturalidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Proporciones equilibradas que preservan la postura y presencia vistas en pantalla"
           }
         ],
         "id": "catwoman-batman-1966-tv-series-standard-edition",
@@ -22899,7 +23505,8 @@
           "https://cdn.shopify.com/s/files/1/0216/7762/files/640653367_2407780346360130_1794380898260771497_n.jpg?v=1772144672",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/CATWOMANNEWMARSTANDARDposter.jpg?v=1772144672",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/e972dc67-94bc-45d2-b510-822257376e1fFireflyUpscaler2xscale.jpg?v=1772144672"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Catwoman (Julie Newmar) – Deluxe Edition",
@@ -22916,16 +23523,92 @@
         "cantidad": "1",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "Figura 1:6 – JazzInc – Batman 1966 TV Series Edición Limitada JazzInc presenta la esperadaCatwoman (Julie Newmar) – Deluxe Editionen escala 1:6, basada en su icónica interpretación en la serieBatmande 1966. Esta versión Deluxe amplía las posibilidades de exhibición con nuevos retratos y accesorios característicos de su guarida, permitiendo recrear distintas expresiones y escenas memorables de la serie clásica. El retrato adicional captura una de sus expresiones más volátiles y calculadoras, permitiendo representar distintos matices del personaje. Una edición pensada para coleccionistas exigentes que buscan una representación completa del personaje, tanto en expresión como en ambientación. Una versión definitiva para el verdadero coleccionista del Batman clásico de 1966."
+            "x": "JazzInc presenta la esperada Catwoman (Julie Newmar) – Deluxe Edition en escala 1:6, basada en su icónica interpretación en la serie Batman de 1966. Esta versión Deluxe amplía las posibilidades de exhibición con nuevos retratos y accesorios característicos de su guarida, permitiendo recrear distintas expresiones y escenas memorables de la serie clásica. Una edición pensada para coleccionistas exigentes que buscan una representación completa del personaje, tanto en expresión como en ambientación."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Segundo retrato “Angry” fiel a pantallaSistema de ojos móvilesCabello implantado (rooted hair)Aplicación de pintura terminada a manoTrono de CatwomanMesa lateralCatphone8 pares de manos intercambiables (incluye manos específicas para el Catphone)"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escultura desarrollada con referencia directa de pantallaCuerpo seamless proporcionado para mantener la silueta exactaCatsuit confeccionado con acabado fiel al períodoCinturón y joyería con acabado metálico cuidadosamente trabajadoAccesorios de guarida inspirados en su entorno en la serie"
+            "x": "Fabricante: JazzInc"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Batman 1966 TV Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Segundo retrato \"Angry\" fiel a pantalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 pares de manos intercambiables (incluye manos específicas para el Catphone)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trono de Catwoman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mesa lateral"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Catphone"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello implantado (rooted hair)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Aplicación de pintura terminada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura desarrollada con referencia directa de pantalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo seamless proporcionado para mantener la silueta exacta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Catsuit confeccionado con acabado fiel al período"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón y joyería con acabado metálico cuidadosamente trabajado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de guarida inspirados en su entorno en la serie"
           }
         ],
         "id": "catwoman-julie-newmar-deluxe-edition",
@@ -22943,7 +23626,8 @@
           "https://cdn.shopify.com/s/files/1/0216/7762/files/589758500_1688003262187377_6466288027067576318_n_cd400a4c-b440-411a-8561-45f1510d6e98.jpg?v=1772144785",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/590315387_1448207023485215_5744654185444685649_n_3b770a6c-606e-4a35-82d0-78077ca19a5b.jpg?v=1772144785",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/632954560_908369588756547_954437366806624598_n.png?v=1772144785"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Catwoman (Basic Clean) – 1992",
@@ -25017,40 +25701,24 @@
         ],
         "content": [
           {
-            "t": "notion-text",
-            "x": "Edición Regular 1:6 - Q3100\nEdición Deluxe 1:6 - Q4100 (Con base de piedras y efectos)\nEdición Deluxe 1:4 - Q5600"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Majin Vegeta – Estatua 1/6 y 1/4"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Juann Studio – No especificado – Dragon Ball]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Esta estatua de Majin Vegeta, desarrollada por Juann Studio, representa una de las versiones más icónicas y oscuras del personaje dentro del universo Dragon Ball. La pieza captura el momento en el que Vegeta alcanza su transformación Majin, destacando su intensidad, orgullo y determinación en combate."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Disponible en múltiples escalas, esta estatua ofrece diferentes opciones de tamaño y presencia, manteniendo un alto nivel de detalle en cada versión. La escultura resalta la musculatura, la expresión facial característica y la postura desafiante del personaje, logrando una representación fiel y poderosa."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Con una producción limitada, esta pieza está diseñada para coleccionistas que buscan versiones exclusivas de personajes clave de Dragon Ball."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Línea: No especificado"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -25066,78 +25734,75 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "- 34 cm (1/6 A)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "- 37 cm (1/6 B)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "- 56 cm (1/4 B)"
-          },
-          {
-            "t": "notion-bulleted-list",
             "x": "Escala: 1/6 y 1/4"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Materiales: No especificado"
+            "x": "Altura 1/6 (Edición A): 34 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Articulación: No aplica"
+            "x": "Altura 1/6 (Edición B): 37 cm"
           },
           {
             "t": "notion-bulleted-list",
+            "x": "Altura 1/4 (Edición B): 56 cm"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Versiones disponibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Regular 1:6 - Q3,100"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Deluxe 1:6 - Q4,100 (Con base de piedras y efectos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Deluxe 1:4 - Q5,600"
+          },
+          {
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Estatua de Majin Vegeta (según versión seleccionada)"
+            "x": "Estatua de Majin Vegeta (según versión seleccionada)"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Disponible en múltiples versiones y escalas"
+            "x": "Disponible en múltiples versiones y escalas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Representación de Majin Vegeta con gran fidelidad"
+            "x": "Representación de Majin Vegeta con gran fidelidad"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Escultura detallada con énfasis en expresión y musculatura"
+            "x": "Escultura detallada con énfasis en expresión y musculatura"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Diferentes tamaños para adaptarse a la colección"
+            "x": "Edición limitada: 98 piezas (1/6) y 48 piezas (1/4)"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Edición limitada: 98 piezas (1/6) y 48 piezas (1/4)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "- Pieza ideal para coleccionistas de Dragon Ball"
+            "x": "Pieza ideal para coleccionistas de Dragon Ball"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
         "added_at": "2026-03-28T11:11:19.294696",
-        "id": "majin-vegeta"
+        "id": "majin-vegeta",
+        "content_ok": true
       },
       {
         "n": "Doom Slayer",
@@ -25166,36 +25831,24 @@
         ],
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "Thunder Z - Doom Slayer – Estatua 1:3"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Thunder Z – 1:3 Scale – Doom]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Esta estatua de Doom Slayer a escala 1:3, desarrollada por Thunder Z, presenta al icónico protagonista de la saga Doom con una presencia imponente y un nivel de detalle pensado para coleccionistas exigentes. La pieza captura la esencia del personaje, destacando su armadura característica y su naturaleza imparable en combate."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Con una escala de gran formato, esta estatua ofrece una fuerte presencia visual, ideal como pieza central en cualquier colección. Su diseño enfatiza proporciones, texturas y acabados que reflejan fielmente el estilo del universo Doom."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Limitada a solo 30 unidades, esta pieza se posiciona como una edición altamente exclusiva."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Línea: No especificado"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -25211,10 +25864,6 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
             "x": "Altura: 95 cm"
           },
           {
@@ -25222,59 +25871,48 @@
             "x": "Escala: 1:3"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Materiales: No especificado"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Articulación: No aplica"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Estatua de Doom Slayer"
+            "x": "Estatua de Doom Slayer"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Arma adicional"
+            "x": "Arma adicional"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Escala 1:3 de gran formato"
+            "x": "Escala 1:3 de gran formato"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Edición limitada a 30 piezas"
+            "x": "Edición limitada a 30 piezas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Representación del Doom Slayer con alto nivel de detalle"
+            "x": "Representación del Doom Slayer con alto nivel de detalle"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Pieza de exhibición con fuerte presencia visual"
+            "x": "Pieza de exhibición con fuerte presencia visual"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Incluye arma adicional"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "- Ideal para coleccionistas de videojuegos"
+            "x": "Ideal para coleccionistas de videojuegos"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
         "added_at": "2026-03-28T10:58:29.862282",
-        "id": "doom-slayer"
+        "id": "doom-slayer",
+        "content_ok": true
       },
       {
         "n": "Vulture",
@@ -25421,40 +26059,32 @@
         ],
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "Donatello Unleashed – Estatua 1:10"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Iron Studios – Art Scale – Teenage Mutant Ninja Turtles]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Esta estatua de Donatello Unleashed a escala 1:10, desarrollada por Iron Studios, presenta al genio tecnológico de las Teenage Mutant Ninja Turtles en una versión dinámica y llena de energía. La pieza captura su carácter estratégico y su estilo de combate preciso, destacando su icónico bo staff como elemento central."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "La escultura ofrece un alto nivel de detalle en la anatomía, texturas y vestimenta, combinando fielmente el estilo clásico del personaje con una pose más agresiva y moderna. Su composición transmite movimiento y control, reflejando la inteligencia y habilidad de Donatello en combate."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Fabricada con acabados de calidad y pintada a mano, esta estatua es una excelente adición para coleccionistas de TMNT."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Línea: Art Scale"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Art Scale"
           },
           {
             "t": "notion-bulleted-list",
@@ -25466,10 +26096,6 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
             "x": "Altura: 31 cm"
           },
           {
@@ -25477,63 +26103,56 @@
             "x": "Escala: 1:10"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Materiales: No especificado"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Articulación: No aplica"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Estatua de Donatello"
+            "x": "Estatua de Donatello"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Bo staff"
+            "x": "Bo staff"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Base temática"
+            "x": "Base temática"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Representación dinámica de Donatello en versión “Unleashed”"
+            "x": "Representación dinámica de Donatello en versión Unleashed"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Escultura detallada con énfasis en pose y movimiento"
+            "x": "Escultura detallada con énfasis en pose y movimiento"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Incluye su icónica arma bo staff"
+            "x": "Incluye su icónica arma bo staff"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Pintura aplicada a mano"
+            "x": "Pintura aplicada a mano"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Parte de la línea Art Scale de Iron Studios"
+            "x": "Parte de la línea Art Scale de Iron Studios"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Ideal para coleccionistas de Teenage Mutant Ninja Turtles"
+            "x": "Ideal para coleccionistas de Teenage Mutant Ninja Turtles"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
         "added_at": "2026-03-28T00:28:10.252947",
-        "id": "donatello-unleashed"
+        "id": "donatello-unleashed",
+        "content_ok": true
       },
       {
         "n": "Han Solo",
@@ -25924,40 +26543,32 @@
         ],
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "Shao Kahn, Emperor of Outworld – Estatua 1:10"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Iron Studios – Art Scale – Mortal Kombat]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Inspirada en el universo de Mortal Kombat, esta estatua de Shao Kahn representa al imponente emperador de Outworld con toda su fuerza y presencia dominante. Iron Studios captura la esencia del icónico villano, destacando su carácter brutal, su ambición desmedida y su rol como uno de los antagonistas más reconocidos de los videojuegos."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "La pieza muestra a Shao Kahn equipado con su emblemático martillo de guerra, en una pose que transmite poder y autoridad. La escultura presenta un alto nivel de detalle en la armadura, texturas y acabados, logrando una representación fiel del personaje."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Fabricada en polystone y ABS, y pintada a mano, esta estatua es una adición sólida para coleccionistas de Mortal Kombat y figuras de videojuegos."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Línea: Art Scale"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Art Scale"
           },
           {
             "t": "notion-bulleted-list",
@@ -25966,10 +26577,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Género: Videojuegos / Acción"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -25984,11 +26591,7 @@
             "x": "Materiales: Polystone, ABS"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Articulación: No aplica"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
@@ -26004,7 +26607,7 @@
             "x": "Base temática"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
@@ -26026,17 +26629,14 @@
           {
             "t": "notion-bulleted-list",
             "x": "Fabricada en polystone y ABS de alta calidad"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Ideal para coleccionistas de videojuegos y Mortal Kombat"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
         "added_at": "2026-03-28T00:22:35.766335",
-        "id": "shao-khan-emperor-of-outworld"
+        "id": "shao-khan-emperor-of-outworld",
+        "content_ok": true
       },
       {
         "n": "The Incredibles",
@@ -26065,32 +26665,24 @@
         ],
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "The Incredibles – Diorama 1:10"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Iron Studios – Art Scale – Disney]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Este diorama a escala 1:10 de The Incredibles, desarrollado por Iron Studios, reúne a la icónica familia de superhéroes en una composición dinámica que refleja su esencia: acción, trabajo en equipo y vida familiar."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "La pieza presenta a Mr. Incredible, Elastigirl, Violet, Dash y Jack-Jack en una escena cuidadosamente diseñada que transmite movimiento y carácter. Cada figura ha sido esculpida con gran atención al detalle, respetando fielmente el estilo visual de la película y logrando una representación equilibrada entre realismo y estética animada."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Fabricado en polystone y pintado a mano, este diorama destaca como una pieza central ideal para coleccionistas de Disney y amantes de la animación."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -26110,10 +26702,6 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
             "x": "Altura: 25 cm"
           },
           {
@@ -26125,11 +26713,7 @@
             "x": "Materiales: Polystone"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Articulación: No aplica"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
@@ -26161,7 +26745,7 @@
             "x": "Base temática"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
@@ -26183,17 +26767,14 @@
           {
             "t": "notion-bulleted-list",
             "x": "Diseño dinámico ideal para exhibición"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Pieza destacada para colecciones de Disney y animación"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
         "added_at": "2026-03-28T00:21:31.510023",
-        "id": "the-incredibles"
+        "id": "the-incredibles",
+        "content_ok": true
       },
       {
         "n": "Sally Whitemane",
@@ -26364,36 +26945,28 @@
         ],
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "Gemini Saga – Estatua 1:10"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Iron Studios – Art Scale – Saint Seiya]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Inspirada en el icónico universo de Saint Seiya, esta estatua de Gemini Saga captura con precisión la imponente presencia del Caballero de Géminis. Desarrollada por Iron Studios dentro de su línea Art Scale 1:10, la pieza destaca por su alto nivel de detalle, acabados cuidadosamente trabajados y pintura aplicada a mano."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Su diseño transmite la dualidad y poder del personaje, convirtiéndola en una pieza imprescindible para coleccionistas de anime clásico. Se trata de una edición limitada que eleva cualquier colección dedicada a Saint Seiya."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Línea: Art Scale"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Art Scale"
           },
           {
             "t": "notion-bulleted-list",
@@ -26409,10 +26982,6 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
             "x": "Altura: 26 cm"
           },
           {
@@ -26420,15 +26989,7 @@
             "x": "Escala: 1:10"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Materiales: No especificado"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Articulación: No aplica"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
@@ -26440,7 +27001,7 @@
             "x": "Base temática"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
@@ -26462,16 +27023,13 @@
           {
             "t": "notion-bulleted-list",
             "x": "Ideal para coleccionistas de Saint Seiya"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Parte de la línea Art Scale de Iron Studios"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "id": "gemini-saga"
+        "id": "gemini-saga",
+        "content_ok": true
       },
       {
         "n": "Nazgûl King Art Mask",
@@ -26500,36 +27058,24 @@
         ],
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "Nazgûl King Art Mask – Life-Size Bust"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "PureArts – The Lord of the Rings"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "PureArts presenta el Nazgûl King Art Mask, un busto life-size que captura la presencia aterradora del Witch-King of Angmar en su forma espectral."
+            "t": "notion-text",
+            "x": "PureArts presenta el Nazgûl King Art Mask, un busto life-size que captura la presencia aterradora del Witch-King of Angmar en su forma espectral. Inspirado en la icónica escena en las ruinas de Weathertop en The Lord of the Rings: The Return of the King, esta pieza representa al líder de los Nazgûl en uno de sus momentos más intimidantes. La escultura transmite esa sensación de amenaza constante, como si emergiera directamente del mundo invisible."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Inspirado en la icónica escena en las ruinas de Weathertop en The Lord of the Rings: The Return of the King, esta pieza representa al líder de los Nazgûl en uno de sus momentos más intimidantes. La escultura transmite esa sensación de amenaza constante, como si emergiera directamente del mundo invisible."
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "El nivel de realismo es excepcional: piel de silicona, ojos de vidrio y cabello implantado manualmente recrean una apariencia inquietantemente viva, pese a su naturaleza fantasmal. Cada textura, pliegue y detalle deteriorado ha sido trabajado para reflejar su existencia corrompida entre dos mundos."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "La base complementa perfectamente la escena, incorporando la Morgul blade clavada en las ruinas, reforzando el momento narrativo y convirtiéndolo en una pieza central imponente."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -26549,10 +27095,6 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
             "x": "Altura aproximada: 74 cm"
           },
           {
@@ -26564,7 +27106,7 @@
             "x": "Materiales: Silicona, vidrio, poliresina"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
@@ -26588,7 +27130,7 @@
             "x": "Morgul blade integrada en la base"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
@@ -26613,13 +27155,14 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Una pieza oscura, imponente y altamente detallada que no solo representa un personaje, sino toda la atmósfera de Middle-earth. Perfecta para coleccionistas que buscan presencia, escala y realismo absoluto."
+            "x": "Pieza oscura, imponente y altamente detallada que representa toda la atmósfera de Middle-earth"
           }
         ],
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "id": "nazgul-king-art-mask"
+        "id": "nazgul-king-art-mask",
+        "content_ok": true
       },
       {
         "n": "He-Man & Battle Cat",
@@ -26914,36 +27457,32 @@
         "cantidad": "1",
         "content": [
           {
-            "t": "notion-bulleted-list",
-            "x": "Lucy MacLean (Bonus Version) – Estatua 1:4"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "[Prime 1 Studio – 1:4 Scale – Fallout]"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Descripción"
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Prime 1 Studio presenta a Lucy MacLean en su versión Bonus a escala 1:4, inspirada en la serie de Fallout ambientada 200 años después de la guerra nuclear. La pieza muestra al personaje con su característico traje de Vault 33, capturando su esencia dentro de un entorno postapocalíptico."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "La estatua destaca por su nivel de detalle en vestuario, accesorios y narrativa visual. La base temática incluye elementos icónicos del universo Fallout como una máquina de Nuka-Cola, Vault Boy y un Radroach, creando una escena completa que refuerza la ambientación."
           },
           {
-            "t": "notion-bulleted-list",
+            "t": "notion-text",
             "x": "Incluye múltiples manos intercambiables, fundas y accesorios que permiten distintas configuraciones de exhibición. Además, incorpora iluminación LED en el Pip-Boy, aportando un elemento adicional de realismo. Esta versión Bonus añade una pieza exclusiva: una mano con la cabeza del Dr. Wilzig."
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Detalles"
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Línea: 1:4 Scale"
+            "x": "Altura: 59 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
           },
           {
             "t": "notion-bulleted-list",
@@ -26958,92 +27497,76 @@
             "x": "Género: Videojuegos / Ciencia ficción"
           },
           {
-            "t": "notion-bulleted-list",
-            "x": "Especificaciones"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 59 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escala: 1:4"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Materiales: No especificado"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Articulación: No aplica"
-          },
-          {
-            "t": "notion-bulleted-list",
+            "t": "notion-heading-2",
             "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Estatua de Lucy MacLean"
+            "x": "Estatua de Lucy MacLean"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Base temática Fallout (Nuka-Cola, Vault Boy, Radroach)"
+            "x": "Base temática Fallout con Nuka-Cola, Vault Boy y Radroach"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Manos:"
+            "x": "Mano derecha con pistola 10mm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- 3 manos derechas intercambiables (pistola 10mm, Surgical Ripper, bundle de tela)"
+            "x": "Mano derecha con Surgical Ripper"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- 1 mano derecha adicional con cabeza del Dr. Wilzig (Bonus)"
+            "x": "Mano derecha con bundle de tela"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Accesorios:"
+            "x": "Mano derecha adicional con cabeza del Dr. Wilzig (Bonus)"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- 2 fundas intercambiables (vacía y con pistola 10mm)"
+            "x": "Funda intercambiable vacía"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Pip-Boy con iluminación LED"
+            "x": "Funda intercambiable con pistola 10mm"
           },
           {
             "t": "notion-bulleted-list",
+            "x": "Pip-Boy con iluminación LED"
+          },
+          {
+            "t": "notion-heading-2",
             "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Basada en la serie Fallout con ambientación postapocalíptica"
+            "x": "Basada en la serie Fallout con ambientación postapocalíptica"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Versión Bonus con pieza exclusiva incluida"
+            "x": "Versión Bonus con pieza exclusiva incluida"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Base temática con múltiples elementos icónicos"
+            "x": "Base temática con múltiples elementos icónicos"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Iluminación LED en el Pip-Boy"
+            "x": "Iluminación LED en el Pip-Boy"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Múltiples opciones de display con accesorios intercambiables"
+            "x": "Múltiples opciones de display con accesorios intercambiables"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Escala 1:4 de gran presencia"
+            "x": "Escala 1:4 de gran presencia"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "- Ideal para coleccionistas de Fallout"
+            "x": "Ideal para coleccionistas de Fallout"
           }
         ],
         "id": "lucy-maclean-bonus-version",
@@ -27061,7 +27584,8 @@
           "https://cdn.shopify.com/s/files/1/0216/7762/files/a005-rBRs5kBD.jpg?v=1770335989",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/a006-Ou1BKV91.jpg?v=1770335989",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/a007-K9KYdyIS.jpg?v=1770335989"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Varian Wrynn – Hearthstone",
@@ -27706,16 +28230,92 @@
         "cantidad": "",
         "content": [
           {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
             "t": "notion-text",
-            "x": "Prime 1 Studio – Real Elite Masterline – The King of Fighters ’98 Prime 1 Studio presenta a Mai Shiranui en su imponente versiónUltimate Bonus Version, parte de la líneaReal Elite Masterlineen escala 1:4. Inspirada enThe King of Fighters ’98, esta estatua de 70 cm de altura captura a la icónica kunoichi con una presencia impactante, combinando dinamismo, elegancia y fidelidad al diseño del videojuego. Su pose aérea, rodeada por un torbellino de fuego y ornamentos flotantes, transmite movimiento y energía en cada ángulo. El esculpido equilibra anatomía realista con estilización sutil, logrando volumen, fluidez y una silueta inconfundible. La base temática, inspirada en la estética tradicional japonesa, presenta acabado tipo lacado y pétalos de cerezo que contrastan con la intensidad visual de Mai. La versión Ultimate Bonus incluye múltiples piezas intercambiables que permiten recrear distintas poses, además de piezas exclusivas que amplían las opciones de exhibición. Con base incluida:"
+            "x": "Prime 1 Studio presenta a Mai Shiranui en su imponente versión Ultimate Bonus Version, parte de la línea Real Elite Masterline en escala 1:4. Inspirada en The King of Fighters '98, esta estatua de 70 cm de altura captura a la icónica kunoichi con una presencia impactante, combinando dinamismo, elegancia y fidelidad al diseño del videojuego."
+          },
+          {
+            "t": "notion-text",
+            "x": "Su pose aérea, rodeada por un torbellino de fuego y ornamentos flotantes, transmite movimiento y energía en cada ángulo. El esculpido equilibra anatomía realista con estilización sutil, logrando volumen, fluidez y una silueta inconfundible. La base temática, inspirada en la estética tradicional japonesa, presenta acabado tipo lacado y pétalos de cerezo que contrastan con la intensidad visual de Mai."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Estatua en escala 1:4Base temática deThe King of Fighters ’98Fondo tipo sombrilla (Background Stand)Tres (3) brazos derechos intercambiablesDos (2) brazos izquierdos intercambiablesManos intercambiables para distintas posesPar de manos sosteniendo abanico abierto (BONUS exclusivo Ultimate Bonus Version)"
+            "x": "Escala: 1:4"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 70 cmAncho: 50 cmProfundidad: 38 cmPeso: 12.4 kg"
+            "x": "Altura: 70 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 12.4 kg"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua en escala 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de The King of Fighters '98"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fondo tipo sombrilla (Background Stand)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres (3) brazos derechos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) brazos izquierdos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables para distintas poses"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos sosteniendo abanico abierto (bonus exclusivo Ultimate Bonus Version)"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples piezas intercambiables para recrear distintas poses"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas exclusivas que amplían opciones de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Equilibrio entre anatomía realista y estilización sutil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado tipo lacado con pétalos de cerezo en la base"
           }
         ],
         "id": "mai-shiranui-ultimate-bonus-version",
@@ -27733,7 +28333,8 @@
           "https://cdn.shopify.com/s/files/1/0216/7762/files/a005-29bRaZ5m.jpg?v=1768949471",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/a006-CXoEWjzl.jpg?v=1768949471",
           "https://cdn.shopify.com/s/files/1/0216/7762/files/a007-WanQnSX5.jpg?v=1768949471"
-        ]
+        ],
+        "content_ok": true
       },
       {
         "n": "Tony Tony Chopper (Fish-Man Island)",
