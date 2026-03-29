@@ -900,16 +900,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Figura de sexta escala que presenta una imagen auténtica y detallada de Spider-Punk en su versión de Spider-Man: Across the Spider-Verse. Esta figura captura el estilo punk del personaje con un diseño especializado y altamente articulado."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -922,10 +914,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Puntos de articulación: 30 puntos de articulación"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Cabezas y Manos Intercambiables"
           },
           {
             "t": "notion-bulleted-list",
@@ -964,10 +952,6 @@
             "x": "Una (1) mano derecha abierta"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Vestuario"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) chaleco punk negro con tachuelas y patrones"
           },
@@ -990,10 +974,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de botas largas rojas"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Accesorios"
           },
           {
             "t": "notion-bulleted-list",
@@ -1035,7 +1015,7 @@
         "precio_orig": "",
         "yt": "",
         "franquicia": "Marvel",
-        "destacado": false,
+        "destacado": true,
         "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912766/spider-punk-sixth-scale-figure-by-hot-toys_marvel_gallery_650de4ed48cb8.jpg",
