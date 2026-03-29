@@ -29736,6 +29736,67 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "sunohara-kokona",
+        "n": "Sunohara Kokona",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/fnc_logo_1_1599467077__11795.original.png",
+        "l": "https://www.fanaticanimestore.com/pre-order-little-witch-studio-sunohara-kokona/",
+        "marca": "",
+        "escala": "1:3 - 15CM",
+        "franquicia": "Adultos",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4100",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "820",
+        "entrega": "Diciembre 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/fnc_logo_1_1599467077__11795.original.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17541/357995/_2026-03-24_132009_945___13476.1774329898.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17541/357992/_2026-03-24_132004_117__32733.1774329891.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17541/357994/_2026-03-24_132009_945__56141.1774329894.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17541/357990/_2026-03-24_132007_333__39265.1774329810.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17541/357991/_2026-03-24_132005_868__19204.1774329810.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17541/357993/_2026-03-24_132008_653__97221.1774329810.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17157/349296/ca3efc616221411ddb8a7df526a981fc__11750.1771143267.jpg?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Sunohara Kokona es un personaje icónico que cobra vida en esta figura coleccionable premium de Little Witch Studio. Con una altura de 15cm en escala 1:3, esta pieza captura la esencia del personaje con una calidad artística incomparable. Cada detalle ha sido meticulosamente trabajado para ofrecer a los coleccionistas una representación fiel y hermosa. Esta figura destaca por su cuidadosa escultura facial que reproduce fielmente los rasgos del personaje, acompañada de un vestuario detallado que refleja el diseño original. Little Witch Studio demuestra nuevamente su excelencia en la manufactura de figuras premium, posicionando esta pieza como un elemento imprescindible para fans y coleccionistas exigentes. Fabricada con materiales de alta calidad, la figura está diseñada para ser exhibida como una joya de colección. Su tamaño compacto pero generoso permite apreciar cada detalle artístico sin ocupar demasiado espacio, convirtiéndola en la opción ideal para colecciones especializadas de fi"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Little Witch Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Little Witch Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estado: Pre-orden - Próxima disponibilidad"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T14:29:58.536767"
+      },
+      {
         "id": "princess-zelda",
         "n": "Princess Zelda",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358279/2__24978.1774352890.png?c=2",
