@@ -29619,6 +29619,138 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "princess-zelda",
+        "n": "Princess Zelda",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358279/2__24978.1774352890.png?c=2",
+        "l": "https://www.fanaticanimestore.com/pre-order-yumi-figure-1-6-princess-zelda/",
+        "marca": "",
+        "escala": "1:6 - 25CM",
+        "franquicia": "Adultos",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "640",
+        "entrega": "Junio 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358279/2__24978.1774352890.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358278/4__98170.1774352654.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358280/1__53512.1774352654.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358281/5__75856.1774352654.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358282/6__93084.1774352655.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358283/8__07673.1774352655.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17551/358284/7__07358.1774352658.png?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "La Princesa Zelda de Yumi Figure llega en escala 1:6 como una pieza de colección magistral que captura la esencia de uno de los personajes más icónicos de los videojuegos. Esta figura de 25 cm de altura representa a la princesa en toda su elegancia real, rindiendo homenaje a su legado legendario dentro del universo de The Legend of Zelda. Cada detalle ha sido meticulosamente cuidado para ofrecer a los coleccionistas una representación digna de este personaje querido."
+          },
+          {
+            "t": "notion-text",
+            "x": "Yumi Figure demuestra su compromiso con la excelencia artesanal en cada aspecto de esta pieza. La escultura del rostro captura los rasgos característicos de la princesa con precisión y delicadeza, mientras que el acabado general refleja la filosofía de la marca: arte en cada detalle. La pintura y los acabados de alta calidad establecen un nuevo estándar para colecciones premium de figuras de acción de este calibre."
+          },
+          {
+            "t": "notion-text",
+            "x": "Fabricada con materiales de primera categoría, esta figura de pre-orden representa una oportunidad excepcional para completar colecciones dedicadas a The Legend of Zelda. La propuesta de Yumi Figure busca redefinir qué significa una figura de colección verdaderamente premium, combinando artesanía superior con diseño que honra al personaje original."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Yumi Figure Premium Collection"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Yumi Figure"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Femenino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: The Legend of Zelda"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Figura de colección articulada"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con excelente likeness de la Princesa Zelda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Atuendo real de la princesa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala 1:6 ideal para vitrinas y colecciones especializadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arte en cada detalle: filosofía de diseño de Yumi Figure"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado de pintura de alta calidad con atención a la autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación para poses dinámicas de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pre-order exclusivo para coleccionistas premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para fans dedicados de The Legend of Zelda y coleccionistas de figuras de escala 1:6"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T14:15:50.785942"
+      },
+      {
         "id": "chloe-von-einzbern",
         "n": "Chloe von Einzbern",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17554/358388/_2026-03-25_130842_466__47361.1774415581.jpg?c=2",
