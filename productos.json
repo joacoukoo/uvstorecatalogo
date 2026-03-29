@@ -2194,7 +2194,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-text",
