@@ -3,6 +3,62 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "n": "Mr. Freeze",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e52ebab.jpg",
+        "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/mr-freeze",
+        "marca": "Hot Toys",
+        "escala": "1:6 - 34CM",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4400",
+        "precio_d": "",
+        "reserva": "Q880",
+        "entrega": "Agosto 2026",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Lafigura de Mr. Freeze (Versión Deluxe) en sexta escalaincluye: Disfraz: Armas: Accesorios:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Imagen auténtica y detallada de Arnold Schwarzenegger como Mr. Freeze en Batman & RobinUna (1) escultura de cabeza Mr. Freeze recién desarrollada con ojos rodantes separadosUno (1) casco transparente desmontable con luz LED y luz transparente recién desarrollado (luz azul hielo, accionado por USB)Expresión facial fiel a la película con piel azul hielo y textura detalladaAproximadamente 33,5 cm de alturaCuerpo recién desarrollado con 30 puntos de articulaciónOcho (8) piezas de manos intercambiables, incluyendo:Un (1) par de puñosUn (1) par de manos relajadasUn par de pistolas cogidas de la manoUn par de manos señalando con el dedoCada escultura de cabeza está especialmente pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de puñosUn (1) par de manos relajadasUn par de pistolas cogidas de la manoUn par de manos señalando con el dedo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) traje de Mr. Freeze recién confeccionadoAcabado reflectante y metálico en toda la armadura y alas de Mr. Freeze para resaltar su diseño de armadura en capasPiezas de armadura translúcidas e iridiscentes en la parte superior de los brazos, pecho, muslos y pantorrillasDiseño con iluminación LED en casco, brazos superiores, pecho, muslos y pantorrillas (luz azul hielo, accionado por USB)Un (1) par de alas de planeador de color lamina *"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) pistola congeladora (luz azul hielo, alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) efecto de rayo congelante (acoplable a la pistola congelante)Un (1) par de gafasBase de figura de diorama con temática de entorno congelado especialmente diseñada y placa de nombre de personaje *Exclusivo de la versión Deluxe"
+          }
+        ],
+        "id": "mr-freeze",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e52ebab.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-scale-67cb1be77a19c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e5b6922.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e623ff7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e685959.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e70b68c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e76f4de.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914279/hot-toys-dc-comics-mr-freeze-sixth-scale-figure-gallery-67cb19e80b506.jpg"
+        ]
+      },
+      {
         "n": "Armored Batman (2.0)",
         "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661954fed7d6d.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armored-batman-20",
@@ -6770,6 +6826,139 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "mr-freeze-deluxe",
+        "n": "Mr. Freeze Deluxe",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbd3a053.jpg",
+        "l": "https://www.sideshow.com/collectibles/dc-comics-mr-freeze-hot-toys-914279?var=9142792",
+        "marca": "Hot Toys",
+        "escala": "1:6 - 33.5CM",
+        "franquicia": "DC Comics",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4700",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "940",
+        "entrega": "Agosto 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbd3a053.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-scale-67cb2045c7092.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbdc0c3f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbe8d4df.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cda26208.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbe2d23c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbf203a0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9142792/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbfb76fb.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Mr. Freeze es uno de los villanos más icónicos del universo de Batman, un genio criminal obsesionado con preservar a su esposa Nora en estado criogénico. Este personaje representa la complejidad moral dentro de la franquicia, combinando sofisticación científica con una determinación implacable. Su traje criotécnico y arsenal de armas congelantes lo convierten en una amenaza formidable para el Caballero Oscuro."
+          },
+          {
+            "t": "notion-text",
+            "x": "Hot Toys ha capturado magistralmente la esencia de Mr. Freeze en esta figura de colección premium a escala 1:6. Cada detalle del traje blindado, los sistemas de refrigeración incorporados y el diseño futurista ha sido meticulosamente recreado para reflejar fielmente la visión del personaje en el cine y la animación."
+          },
+          {
+            "t": "notion-text",
+            "x": "Como parte de la colección elite de Hot Toys, esta pieza representa el pico de la artesanía en figuras de acción para adultos coleccionistas. Cada componente ha sido cuidadosamente seleccionado para garantizar durabilidad, precisión y un valor de colección duradero."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura de acción articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Villano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Batman Universe"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con likeness detallado de Mr. Freeze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje criotécnico completo con sistemas de refrigeración"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura facial altamente detallada con expresión característica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje blindado con acabados metalizado y detalles tecnológicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones avanzadas para múltiples poses de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados premium con pintura especializada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Compatible con accesorios y escenarios Batman de Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza de colección certificada para aficionados premium"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-28T22:40:25.073060"
+      },
+      {
         "n": "Robocop",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914713/hot-toys-robocop-robocop-sixth-scale-figure-gallery-688131f7d5c65.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robocop",
@@ -12174,11 +12363,11 @@
       },
       {
         "n": "Poe Dameron",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/9fb3af0a-4f37-4952-99fd-d50948fbad11/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f690e582b.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f690e582b.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/poe-dameron",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -12188,7 +12377,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Poe Dameronpresenta:"
+            "x": "Lafigura de la sexta escala de Poe Dameronpresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12203,39 +12392,42 @@
             "x": "Un (1) par de manos relajadas"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) mono de vuelo de color naranja con efectos de envejecimientoUna (1) chaqueta chaleco blanca con efectos de desgasteUn (1) dispositivo de soporte vital acoplableUn (1) casco de vuelo con comunicador y visera (con efectos de desgaste)Un (1) cinturón gris con funda en el musloUna (1) correa de munición para la rodilla de color grisUn (1) par de zapatos negros"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) pistola bláster"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de guantes (no llevables)Un (1) juego de balasSoporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
         ],
-        "id": "poe-dameron"
+        "id": "poe-dameron",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f690e582b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-scale-6814f5868e600.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f6917db7e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f691e8f32.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f6925bbd8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f692bea87.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f6932d7bc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903335/hot-toys-star-wars-hot-toys-poe-dameron-sixth-scale-figure-gallery-6814f6938fdb5.jpg"
+        ]
       },
       {
         "n": "Darth Nihilus",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/3c53fa77-c4dd-4b93-b81a-b2c7a459b36c/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc914397b.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc914397b.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/darth-nihilus",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3400",
         "precio_d": "",
@@ -12245,7 +12437,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de Darth Nihilus en la Sexta Escalapresenta:"
+            "x": "Lafigura de Darth Nihilus en la Sexta Escalapresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12256,39 +12448,42 @@
             "x": "Un (1) par de manos relajadasUn (1) par de manos gesticularesUn (1) par de sables de luz cogidos de la mano"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) traje interior negroUna (1) capa negra con capucha (con cables incrustados)Una (1) túnica corta negra (incrustada con alambre)Una (1) túnica larga negra (incrustada con alambre)Un (1) cinturón negroUn (1) par de pantalones negrosUn (1) par de botas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) empuñadura de sable de luz LED (luz roja, alimentación USB)Una (1) empuñadura de sable de luzUna (1) hoja de sable de luz roja en movimiento (acoplable a la empuñadura)Una (1) hoja de sable de luz de color rojo (que se puede acoplar a la empuñadura)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Tres (3) efectos de rayo rojo (que se pueden colocar en los brazos)Dos (2) efectos de rayo de Fuerza en gradiente (rojo y morado) (que se pueden colocar en las manos)Un (1) soporte para figuras especialmente diseñado con placa de personaje y logo de Star Wars"
           }
         ],
-        "id": "darth-nihilus"
+        "id": "darth-nihilus",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc914397b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-scale-680fcc9924901.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc91d62d7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc9249f9d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc92d86b4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc936090e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc93c81ba.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc945df7d.jpg"
+        ]
       },
       {
         "n": "Palpatine (Darth Sidious)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/cef4af8d-a20a-45ad-923f-0459f65ba0ba/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29cb3537.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29cb3537.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/palpatine-darth-sidious",
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3700",
         "precio_d": "",
@@ -12298,7 +12493,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de laSexta Escala de Palpatine (Darth Sidious) presenta:"
+            "x": "La figura de laSexta Escala de Palpatine (Darth Sidious) presenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12313,39 +12508,42 @@
             "x": "Un (1) par de sables de luz cogidos de la manoUn (1) par de manos relajadasUna (1) mano de gesto"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) capa negra con capucha (con cables incrustados)Una (1) túnica exterior roja (incrustada con alambre)Una (1) túnica interior burdeosUna (1) túnica rojaUn (1) cinturón rojoUn (1) par de pantalones negrosUn (1) par de botas negras"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) empuñadura de sable de luz LED (luz roja, alimentación USB)Una (1) empuñadura de sable de luzUna (1) hoja de sable de luz roja en movimiento (acoplable a la empuñadura)Una (1) hoja de sable de luz de color rojo (que se puede acoplar a la empuñadura)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) base de figura especialmente diseñada con placa de personaje y logotipo de Star Wars"
           }
         ],
-        "id": "palpatine-darth-sidious"
+        "id": "palpatine-darth-sidious",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29cb3537.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-scale-680fb55a07121.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29d48c0e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29da660d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29e17f6c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb2a28b3ab.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29e7cf85.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29ee467a.jpg"
+        ]
       },
       {
         "n": "Range Trooper",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/7915a2a7-180e-4650-bad2-2044e0ebccf7/other-range-trooper-8-inch-figure-gallery-680a64105a185.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a64105a185.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/range-trooper",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -12355,7 +12553,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala del Soldado de Campopresenta:"
+            "x": "Lafigura de la sexta escala del Soldado de Campopresenta: Disfraz: Arma: Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12366,39 +12564,42 @@
             "x": "Un (1) par de manos relajadasUn (1) par de rifles tomados de la manoUn (1) par de manos gesticulares"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) armadura de soldado de rango con abrigo y cuello y detalles de piel sintéticaUn (1) cinturón de utilidadesUn (1) par de pantalones con protectores en el musloUn (1) par de botas recién desarrolladas con protectores para la pantorrilla"
-          },
-          {
-            "t": "notion-text",
-            "x": "Arma:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) rifle blásterUn (1) lanzacohetes recién desarrollado"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorio:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo de Star Wars y la placa del personaje"
           }
         ],
-        "id": "range-trooper"
+        "id": "range-trooper",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a64105a185.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-scale-680a641440ee6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a6410d999b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a641143edd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a64119eab1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a641205529.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a641261936.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a6412bcad2.jpg"
+        ]
       },
       {
         "n": "Scarecrow (2.0)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/308a9eea-3c9e-4f52-98e8-6702c9f50bb2/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117ee10aa7.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117ee10aa7.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/scarecrow-20",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -12408,7 +12609,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala del Espantapájaros (2.0) presenta:"
+            "x": "La figura de lasexta escala del Espantapájaros (2.0) presenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12419,39 +12620,42 @@
             "x": "Un (1) par de manos relajadasUn (1) par de puñosUn (1) par de armas cogidas de la manoUn (1) par de manos abiertasUna (1) mano de gesto"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) chaqueta de traje grisUna (1) camisa blanca con estampado de tirantesUna (1) corbata color azul marinoUno (1) pantalones de traje grisesUn (1) cinturón negroUn (1) par de calcetinesUn (1) par de zapatos negros"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) juego de pulverizadores de toxinas (que se pueden llevar alrededor de la cintura y la muñeca)"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) mascarilla de saco de arpillera (no ponible)Un (1) par de gafasUn (1) relojUna (1) placa de visitanteUna (1) maleta abribleUn (1) más ligeroUna (1) linternaUn (1) accesorio de efecto humo (que se puede acoplar a la muñeca)Base de figura para diorama de alcantarillado de ciudad especialmente diseñada con fondo de personajes"
           }
         ],
-        "id": "scarecrow-2-0"
+        "id": "scarecrow-2-0",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117ee10aa7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-scale-68011a055d3a4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117ee909ed.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117eef3777.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117ef62652.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117efc6fc2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117f047d7d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117f34b983.jpg"
+        ]
       },
       {
         "n": "K-2SO",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/ddcccd95-6233-465f-9af6-81b6dba1566a/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de6e58e58.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de6e58e58.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/k-2so",
         "marca": "Hot Toys",
         "escala": "1:6 - 36CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3400",
         "precio_d": "",
@@ -12461,38 +12665,45 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura a escala K-2SO Sxithpresenta:"
+            "x": "Lafigura a escala K-2SO Sxithpresenta: Armas: Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Imagen auténtica y detallada de K-2SO de la segunda temporada de Star Wars: Andor™Pintura especialmente aplicada en negro/gris mate en el cuerpo con efectos de desgasteOjos iluminados por LED (luz blanca, accionados por USB) con ojos rodantes separadosAproximadamente 36 cm de alturaEstructura mecánica sofisticadamente construida con 30 puntos de articulaciónUn (1) par de manos con dedos completamente articulados"
           },
           {
-            "t": "notion-text",
-            "x": "Armas:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) pistola blásterUn (1) fusil bláster recién desarrollado con correa"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorio:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Soporte para figuras especialmente diseñado con el logo de Star Wars, placa de nombre de personaje y tarjeta gráfica"
           }
         ],
-        "id": "k-2so"
+        "id": "k-2so",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de6e58e58.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-scale-67f7e146aaab5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de6edac27.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de6f43a52.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de6f9ffbe.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de7188e87.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de7cea7ac.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914403/hot-toys-star-wars-k-2so-sixth-scale-figure-gallery-67f7de7e04b94.jpg"
+        ]
       },
       {
         "n": "Cassian Andor",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/7faa6563-dfa8-41df-9df3-6d25a3da6058/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde02931a.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde02931a.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/cassian-andor",
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3600",
         "precio_d": "",
@@ -12502,7 +12713,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Lafigura de la sexta escala de Cassian Andorpresenta:"
+            "x": "Lafigura de la sexta escala de Cassian Andorpresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12513,39 +12724,42 @@
             "x": "Un (1) par de blásters cogidos de la manoUn (1) par de manos relajadasUn (1) par de puños"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) camisa beigeUna (1) chaqueta marrónUn (1) chaleco utilitario de color azul verde oscuroUn (1) par de pantalones color caquiUn (1) cinturón de tela color caquiUn (1) cinturón de cuero con funda en el musloUn (1) par de botas de piel de color marrón oscuro con textura similar a la piel"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Una (1) pistola blásterUn (1) rifle bláster"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) comunicadorSoporte para figuras especialmente diseñado con placa de personaje y logo de Star Wars"
           }
         ],
-        "id": "cassian-andor"
+        "id": "cassian-andor",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde02931a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-scale-67f7e39984a87.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde0a9520.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde11b87d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde1a60cd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde228637.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde281ee3.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde2e323e.jpg"
+        ]
       },
       {
         "n": "Daredevil",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/7805e20f-e5f8-4b6f-9cfb-dbeedd598298/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9cb59c7.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9cb59c7.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/daredevil",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "3700",
         "precio_d": "",
@@ -12555,7 +12769,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "La figura de lasexta escala de Daredevilpresenta:"
+            "x": "La figura de lasexta escala de Daredevilpresenta: Disfraz: Armas: Accesorios:"
           },
           {
             "t": "notion-bulleted-list",
@@ -12566,84 +12780,34 @@
             "x": "Un (1) par de puñosUn (1) par de Billy Club cogidos de la manoUn (1) par de manos relajadasUn (1) par de manos abiertasUn (1) par de manos gesticuladas"
           },
           {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Un (1) traje Daredevil recién hecho a medida, rojo y negro, con efectos de desgasteUn (1) par de guanteletes rojos y negros para el antebrazoUn (1) cinturón de utilidadesUna (1) funda para el muslo de Billy ClubUn (1) par de rodillerasUn (1) par de zapatos negros con detalles rojos"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Un (1) par de porrasUn (1) Billy Club en modo extendidoUno (1) Billy Club en modo nunchaku"
           },
           {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Una (1) capucha dañada de DaredevilUn (1) par de gafas de solUn soporte temático con figuras y nombre de personaje"
           }
         ],
-        "id": "daredevil"
-      },
-      {
-        "n": "Mr. Freeze",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/7a4ed567-4828-4024-afc6-14391cb697da/hot-toys-dc-comics-mr-freeze-deluxe-version-sixth-scale-figure-gallery-67cb1cbd3a053.webp",
-        "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/mr-freeze",
-        "marca": "Hot Toys",
-        "escala": "1:6 - 34CM",
-        "estado": "",
-        "disp": "Pre Orden",
-        "precio": "4400",
-        "precio_d": "",
-        "reserva": "Q880 / Q920",
-        "entrega": "Agosto 2026",
-        "cantidad": "4600",
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Lafigura de Mr. Freeze (Versión Deluxe) en sexta escalaincluye:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Imagen auténtica y detallada de Arnold Schwarzenegger como Mr. Freeze en Batman & RobinUna (1) escultura de cabeza Mr. Freeze recién desarrollada con ojos rodantes separadosUno (1) casco transparente desmontable con luz LED y luz transparente recién desarrollado (luz azul hielo, accionado por USB)Expresión facial fiel a la película con piel azul hielo y textura detalladaAproximadamente 33,5 cm de alturaCuerpo recién desarrollado con 30 puntos de articulaciónOcho (8) piezas de manos intercambiables, incluyendo:Un (1) par de puñosUn (1) par de manos relajadasUn par de pistolas cogidas de la manoUn par de manos señalando con el dedoCada escultura de cabeza está especialmente pintada a mano"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) par de puñosUn (1) par de manos relajadasUn par de pistolas cogidas de la manoUn par de manos señalando con el dedo"
-          },
-          {
-            "t": "notion-text",
-            "x": "Disfraz:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) traje de Mr. Freeze recién confeccionadoAcabado reflectante y metálico en toda la armadura y alas de Mr. Freeze para resaltar su diseño de armadura en capasPiezas de armadura translúcidas e iridiscentes en la parte superior de los brazos, pecho, muslos y pantorrillasDiseño con iluminación LED en casco, brazos superiores, pecho, muslos y pantorrillas (luz azul hielo, accionado por USB)Un (1) par de alas de planeador de color lamina *"
-          },
-          {
-            "t": "notion-text",
-            "x": "Armas:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Una (1) pistola congeladora (luz azul hielo, alimentación USB)"
-          },
-          {
-            "t": "notion-text",
-            "x": "Accesorios:"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Un (1) efecto de rayo congelante (acoplable a la pistola congelante)Un (1) par de gafasBase de figura de diorama con temática de entorno congelado especialmente diseñada y placa de nombre de personaje *Exclusivo de la versión Deluxe"
-          }
-        ],
-        "id": "mr-freeze"
+        "id": "daredevil",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9cb59c7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-scale-67eabfbf5b2d5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabdb11e1ca.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9d47bea.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9d99b7c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9ded2c0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabdb36f6fa.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9e4b6c3.jpg"
+        ]
       },
       {
         "n": "TIE Fighter Pilot",
