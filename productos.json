@@ -28761,6 +28761,42 @@
     "slug": "escalas-1:12-y-otros",
     "products": [
       {
+        "id": "storm-collectibles-haip01-hajime-no-ippo-makunouchi-ippo-2",
+        "n": "Storm Collectibles HAIP01 Hajime no Ippo Makunouchi Ippo",
+        "i": "https://www.bombusbee.net/wp-content/uploads/2026/03/01_1-1-20.jpg",
+        "l": "https://www.bombusbee.net/product/storm-collectibles-haip01-hajime-no-ippo-makunouchi-ippo/#specs",
+        "marca": "",
+        "escala": "1:12",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "1200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "240",
+        "entrega": "Diciembre 2026",
+        "cantidad": "2",
+        "fotos": [
+          "https://www.bombusbee.net/wp-content/uploads/2026/03/01_1-1-20.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/03/02_1-2-19.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/03/03_1-3-18-800x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/03/04_1-4-17.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/03/05_1-5-17.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/03/06_1-6-15-800x1200.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/03/07_1-7-15-800x1200.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Las ventas están prohibidas en las siguientes regiones y países: Taiwán (China), Hong Kong (China), Singapur, Japón, Reino Unido, Estados Unidos."
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T11:40:59.413672"
+      },
+      {
         "id": "storm-collectibles-haip01-hajime-no-ippo-makunouchi-ippo",
         "n": "Storm Collectibles HAIP01 Hajime no Ippo Makunouchi Ippo",
         "i": "https://www.bombusbee.net/wp-content/uploads/2026/03/01_1-1-20.jpg",
