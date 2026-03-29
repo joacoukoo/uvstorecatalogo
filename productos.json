@@ -17152,13 +17152,13 @@
       },
       {
         "n": "Eren Yeager",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/23627fe3-0cba-482f-aa25-fdbd3c1554ee/642409971_18564554800005971_455948726288861257_n.jpg",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-EREN-YAEGER.png?v=1772220748",
         "l": "https://uv-store-guatemala.super.site/estatuas/eren-yeager",
         "marca": "Iron Studios",
         "escala": "1:10 - 24CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "4000",
         "precio_d": "",
         "reserva": "Q800",
         "entrega": "Abril 2027",
@@ -17166,19 +17166,7 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Estatua 1:10 – Iron Studios – Art Scale"
-          },
-          {
-            "t": "notion-text",
-            "x": "Altura:24 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Desde la líneaArt Scalede Iron Studios, llegaEren Yeager, inspirado en el aclamado animeAttack on Titan."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta estatua deedición limitadapresenta un esculpido altamente detallado y pintura aplicada a mano, capturando la intensidad y determinación del personaje en plena acción."
+            "x": "Estatua 1:10 – Iron Studios – Art Scale Altura:24 cm Desde la líneaArt Scalede Iron Studios, llegaEren Yeager, inspirado en el aclamado animeAttack on Titan. Esta estatua deedición limitadapresenta un esculpido altamente detallado y pintura aplicada a mano, capturando la intensidad y determinación del personaje en plena acción. Una pieza imprescindible para coleccionistas de anime que buscan una representación poderosa y dinámica de uno de los protagonistas más icónicos deAttack on Titan."
           },
           {
             "t": "notion-bulleted-list",
@@ -17187,23 +17175,34 @@
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 24 cmAncho: 24 cmProfundidad: 19 cmPeso aproximado: 1 kg"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas de anime que buscan una representación poderosa y dinámica de uno de los protagonistas más icónicos deAttack on Titan."
           }
         ],
-        "id": "eren-yeager"
+        "id": "eren-yeager",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Anime",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-EREN-YAEGER.png?v=1772220748",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/01-Details_Color_bc139af1-f767-4b93-a664-4451cad1e43e.jpg?v=1772221624",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/01-Details_Grey_54a114a9-7100-4944-afc3-5b90902e96a8.jpg?v=1772221624",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/02-Details_Color_d9291dd0-e6e4-40da-b028-66cfa11d3edb.jpg?v=1772221624",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/02-Details_Grey_158b781b-6eb2-40f2-af49-ca314b68718e.jpg?v=1772221624",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/03-Details_Color_3ec7c214-4662-482b-ac29-1b02f5dc76cc.jpg?v=1772221624",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/03-Details_Grey_f4631d83-cc2c-41c2-b8b6-94c54e8b691d.jpg?v=1772221624",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/04-Details_Color_9225f109-64ed-4759-8dc0-bef206d516b0.jpg?v=1772221624"
+        ]
       },
       {
         "n": "Darth Vader (Original Samurai Concept)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/02dbbb68-a49d-4840-8888-89cb34f4666c/643534331_18564554929005971_3896869628445538395_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a787328.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/darth-vader-original-samurai-concept",
         "marca": "Iron Studios",
         "escala": "1:10 - 25CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "3200",
         "precio_d": "",
         "reserva": "Q640",
         "entrega": "Abril 2027",
@@ -17211,60 +17210,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios – Art Scale"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow e Iron Studios presentan la estatua Darth Vader (Original Samurai Concept) 1:10 Scale, inspirada en el concepto samurái original que influyó en el diseño visual del icónico villano de Star Wars."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta pieza reinterpreta a Darth Vader con una estética feudal japonesa, fusionando la armadura tradicional samurái con la presencia imponente del Lord Sith. Una visión artística que conecta las raíces culturales que inspiraron la saga con el universo galáctico."
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición limitada, altamente detallada y pintada a mano."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Art Scale 1:10"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Iron Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Sci-Fi / Pop Culture / Action Adventure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Material:Polystone"
+            "x": "Iron Studios – Art Scale Sideshow e Iron Studios presentan la estatua Darth Vader (Original Samurai Concept) 1:10 Scale, inspirada en el concepto samurái original que influyó en el diseño visual del icónico villano de Star Wars. Esta pieza reinterpreta a Darth Vader con una estética feudal japonesa, fusionando la armadura tradicional samurái con la presencia imponente del Lord Sith. Una visión artística que conecta las raíces culturales que inspiraron la saga con el universo galáctico. Edición limitada, altamente detallada y pintada a mano. Línea:Art Scale 1:10 Fabricante:Iron Studios Tipo:Estatua Género:Sci-Fi / Pop Culture / Action Adventure Material:Polystone Una pieza conceptual y elegante, ideal para coleccionistas que valoran diseño, historia e interpretación artística dentro del universo Star Wars."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 25 cmAncho: 19 cmProfundidad: 18 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza conceptual y elegante, ideal para coleccionistas que valoran diseño, historia e interpretación artística dentro del universo Star Wars."
           }
         ],
-        "id": "darth-vader-original-samurai-concept"
+        "id": "darth-vader-original-samurai-concept",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Star Wars",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a787328.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-scale-69a1f7aaa16ab.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a7cdadd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a820409.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a862473.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a8a0c4d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a8e2017.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915391/iron-studios-star-wars-darth-vader-original-samurai-concept-1-10-scale-statues-gallery-69a1f7a92a95a.jpg"
+        ]
       },
       {
         "n": "Loki Laufeyson",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/d968d8df-286e-4230-85bc-638f1b28bd7a/642105073_18564554083005971_8882553167537229987_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd0842ef.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/loki-laufeyson",
         "marca": "Iron Studios",
         "escala": "1:10 - 27CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "3150",
         "precio_d": "",
         "reserva": "Q630",
         "entrega": "Abril 2027",
@@ -17272,60 +17250,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios – Art Scale – Marvel Comics"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow e Iron Studios presentan la estatua Loki Laufeyson 1:10 Scale, basada en la versión clásica del Dios del Engaño de Marvel Comics."
-          },
-          {
-            "t": "notion-text",
-            "x": "Parte de la reconocida líneaArt Scale 1:10, esta pieza captura la elegancia, arrogancia y presencia imponente de Loki con una escultura dinámica y acabados de alto nivel. Su vestimenta icónica, postura calculadora y detalles meticulosamente pintados reflejan la esencia del personaje dentro del universo Marvel."
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición limitada, altamente detallada y pintada a mano."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Art Scale 1:10"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Iron Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Comic Book / Pop Culture / Action Adventure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Material:Polystone"
+            "x": "Iron Studios – Art Scale – Marvel Comics Sideshow e Iron Studios presentan la estatua Loki Laufeyson 1:10 Scale, basada en la versión clásica del Dios del Engaño de Marvel Comics. Parte de la reconocida líneaArt Scale 1:10, esta pieza captura la elegancia, arrogancia y presencia imponente de Loki con una escultura dinámica y acabados de alto nivel. Su vestimenta icónica, postura calculadora y detalles meticulosamente pintados reflejan la esencia del personaje dentro del universo Marvel. Edición limitada, altamente detallada y pintada a mano. Línea:Art Scale 1:10 Fabricante:Iron Studios Tipo:Estatua Género:Comic Book / Pop Culture / Action Adventure Material:Polystone Una pieza ideal para coleccionistas de Marvel que buscan incorporar al Dios del Engaño en una versión clásica y elegante dentro de su vitrina premium."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 27 cmAncho: 20 cmProfundidad: 18 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza ideal para coleccionistas de Marvel que buscan incorporar al Dios del Engaño en una versión clásica y elegante dentro de su vitrina premium."
           }
         ],
-        "id": "loki-laufeyson"
+        "id": "loki-laufeyson",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd0842ef.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-scale-69a1c12dcbc42.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd0d0c2c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd12b78c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd176a12.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd1bb481.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd20d339.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915392/iron-studios-marvel-loki-laufeyson-1-10-scale-statues-gallery-69a1bfd250616.jpg"
+        ]
       },
       {
         "n": "Cyclops",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/6657dc60-2d62-47aa-b93d-1682d2b8dfa7/642504840_18564553891005971_4069435452841275547_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3dc6ef14.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/cyclops",
         "marca": "Iron Studios",
         "escala": "1:10 - 33CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "3350",
         "precio_d": "",
         "reserva": "Q670",
         "entrega": "Abril 2027",
@@ -17333,60 +17290,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios – BDS Art Scale – Infinity Gauntlet Diorama"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow e Iron Studios presentan la estatua Cyclops 1:10 Scale, parte de la líneaBDS Art Scale, inspirada en Marvel Comics."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta pieza representa al líder de los X-Men en una pose dinámica y poderosa, lista para desplegar su icónico rayo óptico. Integrada dentro de la colección Infinity Gauntlet Diorama, la estatua mantiene coherencia estética con otras piezas de la línea, ideal para exhibición conjunta."
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición limitada, altamente detallada y pintada a mano."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:BDS Art Scale 1:10"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Iron Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Comic Book / Pop Culture / Action Adventure"
-          },
-          {
-            "t": "notion-text",
-            "x": "Material:Polystone"
+            "x": "Iron Studios – BDS Art Scale – Infinity Gauntlet Diorama Sideshow e Iron Studios presentan la estatua Cyclops 1:10 Scale, parte de la líneaBDS Art Scale, inspirada en Marvel Comics. Esta pieza representa al líder de los X-Men en una pose dinámica y poderosa, lista para desplegar su icónico rayo óptico. Integrada dentro de la colección Infinity Gauntlet Diorama, la estatua mantiene coherencia estética con otras piezas de la línea, ideal para exhibición conjunta. Edición limitada, altamente detallada y pintada a mano. Línea:BDS Art Scale 1:10 Fabricante:Iron Studios Tipo:Estatua Género:Comic Book / Pop Culture / Action Adventure Material:Polystone Una pieza imprescindible para coleccionistas de X-Men que buscan una representación clásica y dominante de Cyclops dentro de su vitrina Marvel."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 33 cmAncho: 15 cmProfundidad: 14 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas de X-Men que buscan una representación clásica y dominante de Cyclops dentro de su vitrina Marvel."
           }
         ],
-        "id": "cyclops"
+        "id": "cyclops",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3dc6ef14.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-scale-69a1c3e08bfdc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3dcaed65.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3dcec958.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3dd38887.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3dd7d850.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3ddbe711.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915393/iron-studios-marvel-cyclops-1-10-scale-statues-gallery-69a1c3de0aeda.jpg"
+        ]
       },
       {
         "n": "Apollo 11 Astronaut",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/b4cb7712-dac1-4ef3-a41c-825aa0d0046c/642501264_18564554587005971_5831030134757616987_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2c2f682.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/apollo-11-astronaut",
         "marca": "Iron Studios",
         "escala": "1:4 - 58CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "10400",
         "precio_d": "",
         "reserva": "Q2080",
         "entrega": "Abril 2027",
@@ -17394,56 +17330,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios – Legacy Replica"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow e Iron Studios presentan la estatua Apollo 11 Astronaut en escala Quarter Scale, parte de la líneaLegacy Replica."
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada en uno de los momentos más importantes de la historia de la humanidad — la misión Apollo 11 de la NASA — esta pieza rinde homenaje al histórico alunizaje con una representación detallada y realista de un astronauta en la superficie lunar."
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición limitada, altamente detallada y pintada a mano, diseñada para coleccionistas que valoran piezas históricas con fuerte presencia visual."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Legacy Replica"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Iron Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua – Quarter Scale"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Histórico / Celebridad / Pop Culture"
+            "x": "Iron Studios – Legacy Replica Sideshow e Iron Studios presentan la estatua Apollo 11 Astronaut en escala Quarter Scale, parte de la líneaLegacy Replica. Inspirada en uno de los momentos más importantes de la historia de la humanidad — la misión Apollo 11 de la NASA — esta pieza rinde homenaje al histórico alunizaje con una representación detallada y realista de un astronauta en la superficie lunar. Edición limitada, altamente detallada y pintada a mano, diseñada para coleccionistas que valoran piezas históricas con fuerte presencia visual. Línea:Legacy Replica Fabricante:Iron Studios Tipo:Estatua – Quarter Scale Género:Histórico / Celebridad / Pop Culture Una pieza imponente en cuarto de escala, ideal para vitrinas premium y colecciones que trascienden la cultura pop hacia hitos históricos reales."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 58 cmAncho: 18 cmProfundidad: 29 cmPeso: 4 kg"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imponente en cuarto de escala, ideal para vitrinas premium y colecciones que trascienden la cultura pop hacia hitos históricos reales."
           }
         ],
-        "id": "apollo-11-astronaut"
+        "id": "apollo-11-astronaut",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2c2f682.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-scale-69a0dc2ee4a53.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2c6bdd8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2ca71ab.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2ce4186.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2d3894e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2d786e0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915387/iron-studios-nasa-apollo-11-astronaut-quarter-scale-statue-gallery-69a0dc2db6331.jpg"
+        ]
       },
       {
         "n": "Maleficent",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/55094f60-4174-4450-a4cc-aacf58df924d/642213687_18564554443005971_1866580779983905754_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de4fc6b03.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/maleficent",
         "marca": "Iron Studios",
         "escala": "1:10 - 40CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "8400",
         "precio_d": "",
         "reserva": "Q1680",
         "entrega": "Abril 2027",
@@ -17451,56 +17370,39 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios – Art Scale – Sleeping Beauty"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow e Iron Studios presentan la estatua Maleficent 1:10 Scale, inspirada en la icónica villana deSleeping Beauty."
-          },
-          {
-            "t": "notion-text",
-            "x": "Parte de la líneaArt Scale, esta pieza captura la elegancia oscura y presencia imponente de Maleficent con una escultura detallada y una pintura cuidadosamente aplicada a mano. Su silueta dramática, vestimenta característica y expresión dominante reflejan fielmente el estilo clásico de Disney."
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición limitada, altamente detallada y pintada a mano."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Art Scale 1:10"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Iron Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Animación / Fantasía / Pop Culture"
+            "x": "Iron Studios – Art Scale – Sleeping Beauty Sideshow e Iron Studios presentan la estatua Maleficent 1:10 Scale, inspirada en la icónica villana deSleeping Beauty. Parte de la líneaArt Scale, esta pieza captura la elegancia oscura y presencia imponente de Maleficent con una escultura detallada y una pintura cuidadosamente aplicada a mano. Su silueta dramática, vestimenta característica y expresión dominante reflejan fielmente el estilo clásico de Disney. Edición limitada, altamente detallada y pintada a mano. Línea:Art Scale 1:10 Fabricante:Iron Studios Tipo:Estatua Género:Animación / Fantasía / Pop Culture Una pieza de gran presencia visual, ideal para coleccionistas Disney que buscan una representación elegante y poderosa de una de las villanas más emblemáticas de la animación."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 40 cmAncho: 26 cmProfundidad: 33 cmPeso: 1.5 kg"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza de gran presencia visual, ideal para coleccionistas Disney que buscan una representación elegante y poderosa de una de las villanas más emblemáticas de la animación."
           }
         ],
-        "id": "maleficent"
+        "id": "maleficent",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de4fc6b03.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-scale-69a0de5354244.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de5014bb0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de5056225.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de5096945.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de50d0b72.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de51187cb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915390/iron-studios-disney-maleficent-1-10-scale-statues-gallery-69a0de51553c2.jpg"
+        ]
       },
       {
         "n": "Ellen Ripley and Dog Alien",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/7b4410f0-9f21-4260-b75e-1df305c67832/642092360_18564555316005971_2687017990187420204_n.jpg",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bd9f11688.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/ellen-ripley-and-dog-alien",
         "marca": "Iron Studios",
         "escala": "1:10 - 23CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "",
+        "precio": "4050",
         "precio_d": "",
         "reserva": "Q810",
         "entrega": "Abril 2027",
@@ -17508,180 +17410,117 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios – Art Scale – Alien 3"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow e Iron Studios presentan la estatua Ellen Ripley and Dog Alien 1:10 Scale, inspirada en la intensa atmósfera deAlien 3."
-          },
-          {
-            "t": "notion-text",
-            "x": "Parte de la líneaArt Scale 1:10, esta pieza captura el enfrentamiento entre Ellen Ripley y la versión cuadrúpeda del Xenomorfo, conocida como Dog Alien. La escultura transmite tensión y dramatismo, con un nivel de detalle que resalta la estética oscura y opresiva característica de la película."
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición limitada, altamente detallada y pintada a mano."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Art Scale 1:10"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Iron Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Sci-Fi / Pop Culture / Cult Classic"
-          },
-          {
-            "t": "notion-text",
-            "x": "Material:Polystone"
+            "x": "Iron Studios – Art Scale – Alien 3 Sideshow e Iron Studios presentan la estatua Ellen Ripley and Dog Alien 1:10 Scale, inspirada en la intensa atmósfera deAlien 3. Parte de la líneaArt Scale 1:10, esta pieza captura el enfrentamiento entre Ellen Ripley y la versión cuadrúpeda del Xenomorfo, conocida como Dog Alien. La escultura transmite tensión y dramatismo, con un nivel de detalle que resalta la estética oscura y opresiva característica de la película. Edición limitada, altamente detallada y pintada a mano. Línea:Art Scale 1:10 Fabricante:Iron Studios Tipo:Estatua Género:Sci-Fi / Pop Culture / Cult Classic Material:Polystone Una pieza imprescindible para coleccionistas de la saga Alien que buscan representar uno de los momentos más tensos y memorables del cine de ciencia ficción."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 23 cmAncho: 20 cmProfundidad: 13 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas de la saga Alien que buscan representar uno de los momentos más tensos y memorables del cine de ciencia ficción."
           }
         ],
-        "id": "ellen-ripley-and-dog-alien"
+        "id": "ellen-ripley-and-dog-alien",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bd9f11688.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-scale-69a1bf6229ab9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bd9f563dd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bd9f9c2b7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bd9fdb5cc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bda02bf96.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bda073a8a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915111/iron-studios-alien-3-ellen-ripley-and-dog-alien-1-10-scale-statues-gallery-69a1bda0b1f80.jpg"
+        ]
       },
       {
         "n": "Greyback (Elder Predator)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c44710f2-2193-4cff-a061-13a66be8d1eb/01-details_grey_e3e24ab2-e9cc-41c8-8033-47b8ce9a8255.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef590f4e.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/greyback-elder-predator",
         "marca": "Iron Studios",
         "escala": "1:10 - 25CM",
-        "estado": "",
+        "estado": "Vendido",
         "disp": "Bajo Pedido",
         "precio": "3700",
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "1 mes",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
-            "x": "Iron Studios – Art Scale – Predator 2"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow e Iron Studios presentan la estatua Greyback (Elder Predator) 1:10 Scale, inspirada enPredator 2."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta versión representa al legendario Elder Predator, conocido como Greyback, una de las figuras más icónicas dentro del universo Predator. Parte de la líneaArt Scale 1:10, la pieza destaca por su presencia imponente, detalles minuciosos en la armadura y acabado cuidadosamente pintado a mano."
-          },
-          {
-            "t": "notion-text",
-            "x": "Edición limitada, originalmente lanzada como event exclusive."
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Art Scale 1:10"
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Iron Studios"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Horror / Sci-Fi / Pop Culture"
+            "x": "Iron Studios – Art Scale – Predator 2 Sideshow e Iron Studios presentan la estatua Greyback (Elder Predator) 1:10 Scale, inspirada enPredator 2. Esta versión representa al legendario Elder Predator, conocido como Greyback, una de las figuras más icónicas dentro del universo Predator. Parte de la líneaArt Scale 1:10, la pieza destaca por su presencia imponente, detalles minuciosos en la armadura y acabado cuidadosamente pintado a mano. Edición limitada, originalmente lanzada como event exclusive. Línea:Art Scale 1:10 Fabricante:Iron Studios Tipo:Estatua Género:Horror / Sci-Fi / Pop Culture Una pieza imprescindible para coleccionistas de la saga Predator que buscan incorporar a su vitrina una de las figuras más emblemáticas del clan Yautja."
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 25 cmAncho: 19 cmProfundidad: 13 cmPeso: 1.4 kg"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza imprescindible para coleccionistas de la saga Predator que buscan incorporar a su vitrina una de las figuras más emblemáticas del clan Yautja."
           }
         ],
-        "id": "greyback-elder-predator"
+        "id": "greyback-elder-predator",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Otros",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef590f4e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-scale-699dfef827d9d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef5d0d60.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef61edf4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef65b5c2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef69a018.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef6d5382.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef71e462.jpg"
+        ]
       },
       {
         "n": "Batgirl™ (Stephanie Brown Variant)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/d544a6f8-7592-4fd3-96e2-1575068e2494/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643abbc976.webp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643a9bb8e0.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/batgirl-stephanie-brown-variant",
         "marca": "Sideshow",
         "escala": "1:4 - 55CM",
-        "estado": "",
-        "disp": "Bajo Pedido",
+        "estado": "Vendido",
+        "disp": "Pre Orden",
         "precio": "9300",
         "precio_d": "",
         "reserva": "Q1860",
         "entrega": "1 mes",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
-            "x": "Sideshow Collectibles – DC Comics"
-          },
-          {
-            "t": "notion-text",
-            "x": "Sideshow presenta la Batgirl™ (Stephanie Brown Variant) Premium Format™ Figure, una impresionante pieza en cuarto de escala que forma parte de la línea de coleccionables inspirados en la Batman Family."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta edición variante presenta un esquema de color alternativo y muestra a Stephanie Brown enfrentándose a Clayface en una escena dinámica llena de detalles narrativos. La composición incluye efectos de iluminación que realzan el dramatismo del enfrentamiento, con elementos ocultos que emergen del cuerpo del villano como guiños al universo de Gotham."
-          },
-          {
-            "t": "notion-text",
-            "x": "La escultura captura fielmente el estilo de los cómics, desde los vendajes texturizados en brazos y piernas hasta el traje táctico púrpura con detalles dorados en guanteletes, botas y cinturón. La capa rasgada añade sensación de movimiento, mientras que la base presenta a Clayface en una mezcla de lodo derretido y superficie agrietada, impactado por Batarangs electrificados con efectos luminosos en ojos, boca y heridas."
-          },
-          {
-            "t": "notion-text",
-            "x": "Fabricante:Sideshow Collectibles"
-          },
-          {
-            "t": "notion-text",
-            "x": "Línea:Premium Format™"
-          },
-          {
-            "t": "notion-text",
-            "x": "Tipo:Estatua en cuarto de escala"
-          },
-          {
-            "t": "notion-text",
-            "x": "Género:Superhéroe / Comic Book / Pop Culture"
-          },
-          {
-            "t": "notion-text",
-            "x": "Material:Polystone"
-          },
-          {
-            "t": "notion-text",
-            "x": "Incluye funciones de iluminación en la base (Clayface y efectos de impacto)."
+            "x": "Sideshow Collectibles – DC Comics Sideshow presenta la Batgirl™ (Stephanie Brown Variant) Premium Format™ Figure, una impresionante pieza en cuarto de escala que forma parte de la línea de coleccionables inspirados en la Batman Family. Esta edición variante presenta un esquema de color alternativo y muestra a Stephanie Brown enfrentándose a Clayface en una escena dinámica llena de detalles narrativos. La composición incluye efectos de iluminación que realzan el dramatismo del enfrentamiento, con elementos ocultos que emergen del cuerpo del villano como guiños al universo de Gotham. La escultura captura fielmente el estilo de los cómics, desde los vendajes texturizados en brazos y piernas hasta el traje táctico púrpura con detalles dorados en guanteletes, botas y cinturón. La capa rasgada añade sensación de movimiento, mientras que la base presenta a Clayface en una mezcla de lodo derretido y superficie agrietada, impactado por Batarangs electrificados con efectos luminosos en ojos, boc"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Altura: 55 cmAncho: 38 cmProfundidad: 36 cm"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza de alto impacto visual y narrativa, ideal como centro de vitrina para coleccionistas de DC Comics y la línea Premium Format™."
           }
         ],
-        "id": "batgirl-stephanie-brown-variant"
+        "id": "batgirl-stephanie-brown-variant",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643a9bb8e0.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643aa3ebe2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643aa853be.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643ab03ad7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643ab4b5bd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643abbc976.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643ac3f484.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643aca108e.jpg"
+        ]
       },
       {
         "n": "Mai Shiranui (Ultimate Bonus Version)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c07e6ec7-f2b2-45ec-ae94-c103b230ca9b/b025-esk6de92_2000x.jpg",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-MAI-SHIRANUI-REG-SCALE_TILES_66c33a25-107f-47cf-b008-920ef5e96b1f.png?v=1768949471",
         "l": "https://uv-store-guatemala.super.site/estatuas/mai-shiranui-ultimate-bonus-version",
         "marca": "Prime 1 Studio",
         "escala": "1:4 - 70CM",
-        "estado": "",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "16800",
         "precio_d": "",
@@ -17691,42 +17530,33 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Prime 1 Studio – Real Elite Masterline – The King of Fighters ’98"
-          },
-          {
-            "t": "notion-text",
-            "x": "Prime 1 Studio presenta a Mai Shiranui en su imponente versiónUltimate Bonus Version, parte de la líneaReal Elite Masterlineen escala 1:4."
-          },
-          {
-            "t": "notion-text",
-            "x": "Inspirada enThe King of Fighters ’98, esta estatua de 70 cm de altura captura a la icónica kunoichi con una presencia impactante, combinando dinamismo, elegancia y fidelidad al diseño del videojuego. Su pose aérea, rodeada por un torbellino de fuego y ornamentos flotantes, transmite movimiento y energía en cada ángulo."
-          },
-          {
-            "t": "notion-text",
-            "x": "El esculpido equilibra anatomía realista con estilización sutil, logrando volumen, fluidez y una silueta inconfundible. La base temática, inspirada en la estética tradicional japonesa, presenta acabado tipo lacado y pétalos de cerezo que contrastan con la intensidad visual de Mai."
-          },
-          {
-            "t": "notion-text",
-            "x": "La versión Ultimate Bonus incluye múltiples piezas intercambiables que permiten recrear distintas poses, además de piezas exclusivas que amplían las opciones de exhibición."
+            "x": "Prime 1 Studio – Real Elite Masterline – The King of Fighters ’98 Prime 1 Studio presenta a Mai Shiranui en su imponente versiónUltimate Bonus Version, parte de la líneaReal Elite Masterlineen escala 1:4. Inspirada enThe King of Fighters ’98, esta estatua de 70 cm de altura captura a la icónica kunoichi con una presencia impactante, combinando dinamismo, elegancia y fidelidad al diseño del videojuego. Su pose aérea, rodeada por un torbellino de fuego y ornamentos flotantes, transmite movimiento y energía en cada ángulo. El esculpido equilibra anatomía realista con estilización sutil, logrando volumen, fluidez y una silueta inconfundible. La base temática, inspirada en la estética tradicional japonesa, presenta acabado tipo lacado y pétalos de cerezo que contrastan con la intensidad visual de Mai. La versión Ultimate Bonus incluye múltiples piezas intercambiables que permiten recrear distintas poses, además de piezas exclusivas que amplían las opciones de exhibición. Con base incluida:"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Estatua en escala 1:4Base temática deThe King of Fighters ’98Fondo tipo sombrilla (Background Stand)Tres (3) brazos derechos intercambiablesDos (2) brazos izquierdos intercambiablesManos intercambiables para distintas posesPar de manos sosteniendo abanico abierto (BONUS exclusivo Ultimate Bonus Version)"
           },
           {
-            "t": "notion-text",
-            "x": "Con base incluida:"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Altura: 70 cmAncho: 50 cmProfundidad: 38 cmPeso: 12.4 kg"
-          },
-          {
-            "t": "notion-text",
-            "x": "Una pieza de alto nivel dentro del coleccionismo de videojuegos, ideal para vitrinas premium donde se busque presencia, dinamismo y acabado de museo."
           }
         ],
-        "id": "mai-shiranui-ultimate-bonus-version"
+        "id": "mai-shiranui-ultimate-bonus-version",
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Gaming",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-MAI-SHIRANUI-REG-SCALE_TILES_66c33a25-107f-47cf-b008-920ef5e96b1f.png?v=1768949471",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a001-VWOwAPYe.jpg?v=1768949471",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a002-78wxbOHv.jpg?v=1768949471",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a003-UNfZbGjk.jpg?v=1768949471",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a004-Qi3tIR1N.jpg?v=1768949471",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a005-29bRaZ5m.jpg?v=1768949471",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a006-CXoEWjzl.jpg?v=1768949471",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a007-WanQnSX5.jpg?v=1768949471"
+        ]
       },
       {
         "n": "Tony Tony Chopper (Fish-Man Island)",
