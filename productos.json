@@ -30120,7 +30120,7 @@
       {
         "id": "mueble-uv-detolf-3",
         "n": "Mueble UV Detolf 3",
-        "i": "",
+        "i": "assets/vitrinas/detolf-3.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -30133,7 +30133,9 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "fotos": [],
+        "fotos": [
+          "assets/vitrinas/detolf-3.jpg"
+        ],
         "content": [],
         "yt": "",
         "destacado": false,
@@ -30143,7 +30145,7 @@
       {
         "id": "mueble-uv-detolf-4",
         "n": "Mueble UV Detolf 4",
-        "i": "",
+        "i": "assets/vitrinas/detolf-4.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -30156,7 +30158,9 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "fotos": [],
+        "fotos": [
+          "assets/vitrinas/detolf-4.jpg"
+        ],
         "content": [],
         "yt": "",
         "destacado": false,
@@ -30166,7 +30170,7 @@
       {
         "id": "mueble-uv-detolf-5",
         "n": "Mueble UV Detolf 5",
-        "i": "",
+        "i": "assets/vitrinas/detolf-5.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -30179,7 +30183,9 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "fotos": [],
+        "fotos": [
+          "assets/vitrinas/detolf-5.jpg"
+        ],
         "content": [],
         "yt": "",
         "destacado": false,
@@ -30189,7 +30195,7 @@
       {
         "id": "mueble-uv-detolf-6",
         "n": "Mueble UV Detolf 6",
-        "i": "",
+        "i": "assets/vitrinas/detolf-6.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -30202,7 +30208,9 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "fotos": [],
+        "fotos": [
+          "assets/vitrinas/detolf-6.jpg"
+        ],
         "content": [],
         "yt": "",
         "destacado": false,
@@ -30212,7 +30220,7 @@
       {
         "id": "mueble-uv3",
         "n": "Mueble UV3",
-        "i": "",
+        "i": "assets/vitrinas/uv3.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -30225,7 +30233,9 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "fotos": [],
+        "fotos": [
+          "assets/vitrinas/uv3.jpg"
+        ],
         "content": [],
         "yt": "",
         "destacado": false,
@@ -30235,7 +30245,7 @@
       {
         "id": "uv1-modulo",
         "n": "UV1 — Módulo Individual",
-        "i": "",
+        "i": "assets/vitrinas/uv1-uv2.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -30248,7 +30258,9 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "fotos": [],
+        "fotos": [
+          "assets/vitrinas/uv1-uv2.jpg"
+        ],
         "content": [
           {
             "t": "notion-text",
@@ -30283,7 +30295,7 @@
       {
         "id": "uv2-base",
         "n": "UV2 — Base para Sistema UV1",
-        "i": "",
+        "i": "assets/vitrinas/uv1-uv2.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -30296,7 +30308,9 @@
         "reserva": "",
         "entrega": "",
         "cantidad": "",
-        "fotos": [],
+        "fotos": [
+          "assets/vitrinas/uv1-uv2.jpg"
+        ],
         "content": [
           {
             "t": "notion-text",
