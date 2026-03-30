@@ -40,14 +40,16 @@ CAT_KEYS = [
     "Hot Toys 1:6",
     "Estatuas Premium",
     "Otras Figuras",
+    "Vitrinas Para Figuras",
     "Adultos",
 ]
 CAT_DISP = {
-    "Entrega Inmediata": "Entrega Inmediata",
-    "Hot Toys 1:6":      "Pre Orden",
-    "Estatuas Premium":  "Pre Orden",
-    "Otras Figuras":     "Pre Orden",
-    "Adultos":           "Pre Orden",
+    "Entrega Inmediata":    "Entrega Inmediata",
+    "Hot Toys 1:6":         "Pre Orden",
+    "Estatuas Premium":     "Pre Orden",
+    "Otras Figuras":        "Pre Orden",
+    "Vitrinas Para Figuras":"Solo Bajo Pedido",
+    "Adultos":              "Pre Orden",
 }
 WA_NUMBER = "50230261622"
 
@@ -1635,7 +1637,7 @@ class UVAdminApp:
         fotos = p.get("fotos",[])
         self.edit_fotos_lbl.config(text=f"{len(fotos)} fotos" if fotos else "Sin fotos")
         self._edit_photos = list(fotos)
-        self.edit_preview.set_photos(fotos)
+        self.edit_preview.set_photos(self._edit_photos)
 
     def _edit_upload_local(self):
         """Upload local images to Imgur and add to current edit."""
