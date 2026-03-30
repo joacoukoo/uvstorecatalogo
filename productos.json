@@ -30116,6 +30116,210 @@
   },
   "Vitrinas Para Figuras": {
     "slug": "vitrinas-para-figuras",
-    "products": []
+    "products": [
+      {
+        "id": "mueble-uv-detolf-3",
+        "n": "Mueble UV Detolf 3",
+        "i": "",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "2900",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [],
+        "content": [],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:27:28.886437"
+      },
+      {
+        "id": "mueble-uv-detolf-4",
+        "n": "Mueble UV Detolf 4",
+        "i": "",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "3000",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [],
+        "content": [],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:27:28.886437"
+      },
+      {
+        "id": "mueble-uv-detolf-5",
+        "n": "Mueble UV Detolf 5",
+        "i": "",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "3100",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [],
+        "content": [],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:27:28.886437"
+      },
+      {
+        "id": "mueble-uv-detolf-6",
+        "n": "Mueble UV Detolf 6",
+        "i": "",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "3300",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [],
+        "content": [],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:27:28.886437"
+      },
+      {
+        "id": "mueble-uv3",
+        "n": "Mueble UV3",
+        "i": "",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "3300",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [],
+        "content": [],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:27:28.886437"
+      },
+      {
+        "id": "uv1-modulo",
+        "n": "UV1 — Módulo Individual",
+        "i": "",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "2200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El UV1 es un módulo individual que forma parte del sistema modular UV. El precio indicado (Q2,200) corresponde a UN solo módulo."
+          },
+          {
+            "t": "notion-text",
+            "x": "Se pueden apilar hasta 3 módulos UV1 sobre la base UV2, formando una vitrina tipo torre. Al ser modulares, podés empezar con uno e ir agregando más según tu colección vaya creciendo — no es necesario comprar todo de una vez."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Precio por módulo: Q2,200"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Compatible con base UV2 (se vende por separado — Q650)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capacidad: hasta 3 módulos apilados por base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema modular — comprá por etapas"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:27:28.886437"
+      },
+      {
+        "id": "uv2-base",
+        "n": "UV2 — Base para Sistema UV1",
+        "i": "",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "650",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La UV2 es la base diseñada para el sistema modular UV1. Sobre ella se pueden apilar hasta 3 módulos UV1, formando la vitrina tipo torre."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Precio de la base: Q650"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Compatible con módulos UV1 (se venden por separado — Q2,200 c/u)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporta hasta 3 módulos UV1 apilados"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:27:28.886437"
+      }
+    ]
   }
 }
