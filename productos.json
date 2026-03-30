@@ -31047,8 +31047,12 @@
             "x": "Altura en cada estante de 41cm"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
             "x": "Ideal para figuras escala 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
         "yt": "",
@@ -31101,8 +31105,12 @@
             "x": "Iluminación LED en cada estante"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
             "x": "Ideal para figuras escala 1:6 — 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
         "yt": "",
@@ -31155,8 +31163,12 @@
             "x": "Iluminación LED en cada estante"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
             "x": "Ideal para figuras (escala 1:7) y dioramas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
         "yt": "",
@@ -31209,8 +31221,12 @@
             "x": "Iluminación LED en cada estante"
           },
           {
-            "t": "notion-text",
+            "t": "notion-bulleted-list",
             "x": "Ideal para figuras escala 1:6 y más pequeñas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
         "yt": "",
@@ -31239,8 +31255,8 @@
         ],
         "content": [
           {
-            "t": "notion-text",
-            "x": "Producido 100% en Guatemala con madera de melamina y acrílico de 3mm de grosor."
+            "t": "notion-bulleted-list",
+            "x": "Producido 100% en Guatemala con madera de melamina y acrílico de 3mm de grosor"
           },
           {
             "t": "notion-bulleted-list",
@@ -31248,15 +31264,19 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Incluye iluminación LED"
+            "x": "4 paneles laterales de acrílico fijados con conectores hechos a medida en impresora 3D"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Ideal para estatuas y figuras más grandes"
+            "x": "Iluminación LED incluida"
           },
           {
-            "t": "notion-text",
-            "x": "Diseño especialmente pensado por y para coleccionistas. Los paneles frontales se pueden quitar y poner con un sistema de imanes, facilitando la movilidad de las figuras y su limpieza."
+            "t": "notion-bulleted-list",
+            "x": "Diseñado para estatuas grandes que requieran más espacio y especialmente altura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
         "yt": "",
@@ -31285,8 +31305,8 @@
         ],
         "content": [
           {
-            "t": "notion-text",
-            "x": "Sistema modular apilable producido 100% en Guatemala."
+            "t": "notion-bulleted-list",
+            "x": "Sistema modular apilable producido 100% en Guatemala"
           },
           {
             "t": "notion-bulleted-list",
@@ -31301,8 +31321,20 @@
             "x": "Se pueden apilar hasta 3 módulos UV1 sobre una base UV2"
           },
           {
-            "t": "notion-text",
-            "x": "Los UV1 son modulares: se montan uno encima del otro formando una torre. Al ser de las mismas medidas siempre quedan estéticos. Podés empezar con un módulo e ir agregando más según tu colección crezca — no es necesario comprar todo junto."
+            "t": "notion-bulleted-list",
+            "x": "Diseño especialmente pensado por y para coleccionistas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paneles frontales removibles con sistema de imanes — fácil acceso y limpieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Podés empezar con un módulo e ir agregando más — no es necesario comprar todo junto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
         "yt": "",
