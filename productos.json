@@ -29716,6 +29716,106 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "pre-order-spidera-studio-1-6-asaku-kakudate-kari",
+        "n": "【PRE-ORDER】SpiderA Studio 1:6 Asaku & Kakudate Kari",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355863/IMG_7896__46049.1773733018.JPG?c=2",
+        "l": "https://www.fanaticanimestore.com/pre-order-spidera-studio-1-6-asaku-kakudate-kari/",
+        "marca": "",
+        "escala": "1:6",
+        "franquicia": "Adultos",
+        "estado": "Vendido",
+        "disp": "Pre Orden",
+        "precio": "3400",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "680",
+        "entrega": "Febrero 2027",
+        "cantidad": "",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355863/IMG_7896__46049.1773733018.JPG?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355858/IMG_7901__44029.1773732977.JPG?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355859/IMG_7899__92247.1773732978.JPG?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355860/IMG_7900__51030.1773732978.JPG?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355861/IMG_7897__90378.1773732978.JPG?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355862/IMG_7898__68348.1773732978.JPG?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/14131/274373/339fbd2b295f341a17187f26f0dcdd90__82689.1751621478.jpg?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Presentamos la figura coleccionable de Asaku & Kakudate Kari, una pieza premium en escala 1:6 que captura la esencia artística de estos personajes con una precisión extraordinaria. SpiderA Studio, reconocido por su excelencia en la manufactura de figuras de colección, ha volcado su expertise en cada detalle de esta obra, redefiniendo los estándares de calidad en el mundo de los coleccionables de anime."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta figura destaca por su arte meticuloso en cada componente, desde la escultura facial hasta el vestuario finamente detallado. La propuesta de SpiderA Studio se fundamenta en la selección rigurosa de materiales premium y técnicas de manufactura de clase mundial, garantizando una pieza que trasciende lo convencional y se convierte en un verdadero tesoro para el coleccionista exigente."
+          },
+          {
+            "t": "notion-text",
+            "x": "Diseñada para exhibición de lujo, esta figura representa la confluencia perfecta entre artesanía tradicional e innovación contemporánea. Cada aspecto, desde la textura de las prendas hasta la expresión de los rostros, ha sido cuidadosamente desarrollado para ofrecer una experiencia visual inmersiva que celebra la excelencia en la colección de figuras de anime."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: SpiderA Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Pre-orden"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura facial de alta precisión con likeness detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo totalmente articulado para múltiples posiciones de display"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario profesionalmente confeccionado con atención al detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados de pintura de clase museo con degradados naturales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manufactura de nivel profesional típica de SpiderA Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto de pre-orden con envío internacional disponible"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:51:21.747081"
+      },
+      {
         "id": "bunny-girl-firefly",
         "n": "Bunny Girl Firefly",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356932/x2__76610.1773986139.png?c=2",
