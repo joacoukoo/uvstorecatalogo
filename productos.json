@@ -29716,6 +29716,118 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "bunny-girl-firefly",
+        "n": "Bunny Girl Firefly",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356932/x2__76610.1773986139.png?c=2",
+        "l": "https://www.fanaticanimestore.com/pre-order-genius-bee-studio-1-7-1-4-bunny-girl-firefly/",
+        "marca": "",
+        "escala": "1:4 - 5.6CM",
+        "franquicia": "Adultos",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4800",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "960",
+        "entrega": "Febrero 2027",
+        "cantidad": "",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356932/x2__76610.1773986139.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356933/x5__27091.1773986139.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356934/2__05406.1773986139.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356935/16__80414.1773986139.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356936/17__94752.1773986140.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356937/30__97329.1773986140.png?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17499/356938/21__59843.1773986140.png?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Firefly, la enigmática heroína de Honkai: Star Rail, cobra vida en esta magistral figura de colección de Genius Bee Studio. Con su distintivo traje de conejo y su presencia cautivadora, esta pieza captura la esencia del personaje en una escala que permite apreciar cada detalle con precisión. Perfecta para coleccionistas que buscan representar a sus personajes favoritos del universo de miHoYo con máxima calidad."
+          },
+          {
+            "t": "notion-text",
+            "x": "Crafted con excelencia artesanal, esta figura de escala 1:4 destaca por su precisión en la escultura facial y la fidelidad cromática de cada elemento. Genius Bee Studio ha redefinido los estándares de manufactura al integrar materiales premium con técnicas de pintura de vanguardia, generando una pieza que trasciende lo convencional en el mercado de coleccionables."
+          },
+          {
+            "t": "notion-text",
+            "x": "Disponible en versión de pre-orden, esta figura representa la selección de excelencia que caracteriza a UV Store GT. Su construcción robusta y acabado de museo la posicionan como una inversión para coleccionistas serios que valoran la calidad y la autenticidad en cada aspecto de su colección."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Honkai: Star Rail"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Genius Bee Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura de acción articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Femenino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje: Firefly"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4 / 1:7"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 5.6 cm (1:7) - proporcionalmente mayor en escala 1:4"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura facial de alta fidelidad con expresión característica del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de conejo bunny girl fielmente reproducido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas articuladas para poses dinámicas y versátiles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pecho extraíble para mayor versatilidad en poses"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura de museo con degradados y detalles metalizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Disponible en pre-orden con envíos internacionales a múltiples regiones"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:49:29.420360"
+      },
+      {
         "id": "pre-order-lingyue-studio-1-6-phoebe",
         "n": "【PRE-ORDER】LingYue Studio 1:6 Phoebe",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357112/_2026-03-20_170559_522__00489.1773997597.jpg?c=2",
