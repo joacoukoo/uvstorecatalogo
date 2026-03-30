@@ -9641,6 +9641,111 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "vizam",
+        "n": "Vizam™",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b174dbc.jpg",
+        "l": "https://www.sideshow.com/collectibles/star-wars-vizam-sideshow-collectibles-100492",
+        "marca": "Sideshow",
+        "escala": "1:6 - 32CM",
+        "franquicia": "Star Wars",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3400",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "680",
+        "entrega": "Diciembre 2026",
+        "cantidad": "2",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b174dbc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b1e3113.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b236622.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b2a5a1e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b30347a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b4bb05b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b537546.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100492/sideshow-collectibles-star-wars-vizam-sixth-scale-figure-gallery-69a877b58a533.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Vizam es una figura coleccionable de escala 1:6 que representa un personaje de gran relevancia en su universo. Esta pieza premium captura la esencia del personaje con un nivel de detalle excepcional, diseñada para entusiastas y coleccionistas que valoran la calidad artesanal y la precisión en cada aspecto de la producción."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada elemento de Vizam ha sido cuidadosamente esculpido y pintado a mano para lograr un resultado que trasciende lo convencional. Los artesanos detrás de esta figura han dedicado atención meticulosa a los rasgos faciales, la textura del vestuario y la composición general, garantizando una presencia impactante en cualquier vitrina de colección."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta figura representa el estándar de excelencia en la manufactura de coleccionables premium, con materiales de primera calidad que aseguran durabilidad y autenticidad. Vizam es una adición valiosa para coleccionistas serios que buscan piezas exclusivas y de edición limitada que enaltezcan sus colecciones."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Premium Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura de Acción Articulada"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de alta fidelidad con captura de likeness detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura artesanal aplicada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación múltiple para posicionamiento dinámico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Presenta vestuario y accesorios de calidad premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad de Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseñado para exhibición en vitrina de colección"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:54:47.541112"
+      },
+      {
         "n": "Ultramarines Captain MkX Helmet and Display Stand",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915397/joytoy-warhammer-40k-ultramarines-captain-mkx-helmet-and-display-stand-prop-replica-gallery-69a1f0573f989.jpg",
         "l": "https://uv-store-guatemala.super.site/estatuas/ultramarines-captain-mkx-helmet-and-display-stand",
@@ -24723,6 +24828,260 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "darkseid-art-mask",
+        "n": "Darkseid Art Mask",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de915098c6.jpg",
+        "l": "https://www.sideshow.com/collectibles/dc-comics-darkseid-art-mask-purearts-915377",
+        "marca": "PureArts",
+        "escala": "1:6 - 51CM",
+        "franquicia": "DC Comics",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "9600",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1920",
+        "entrega": "Mayo 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de915098c6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de9155ff4d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de915bd02c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de9161bbb6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de91686ad4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de916dd3a5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de91730f24.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915377/purearts-dc-comics-darkseid-art-mask-life-size-bust-gallery-699de9177b55c.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Darkseid, el señor de Apokolips y uno de los villanos más icónicos del universo DC Comics, cobra vida en esta excepcional máscara de arte de PureArts. Este accesorio de colección captura la esencia maléfica y la presencia omnipotente del tirano cósmico, transformándose en una pieza de exhibición que trasciende lo convencional. Perfecta para entusiastas del universo DC y coleccionistas de arte premium, esta máscara representa el poder absoluto y la amenaza intergaláctica que define al personaje."
+          },
+          {
+            "t": "notion-text",
+            "x": "Elaborada con meticulosa atención al detalle, la máscara refleja el icónico diseño de Darkseid con sus características formas angulares y su expresión de poder contenido. PureArts ha capturado la geometría única del rostro del villano, desde su mandíbula pronunciada hasta sus ojos penetrantes, creando una pieza que es tanto una obra de arte como un tributo al personaje. La escala 1:6 y las dimensiones de 51 cm la posicionan como una declaración visual en cualquier colección."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta pieza de arte coleccionable representa la excelencia en manufactura y diseño, ideal para exhibición en vitrinas especializadas o espacios dedicados al coleccionismo premium. Perfecta para fans dedicados de DC Comics, coleccionistas de máscaras artísticas y entusiastas del universo de New Gods, la máscara de Darkseid de PureArts se destaca como una inversión en cultura pop de calidad superior."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: DC Comics - Villanos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: PureArts"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Máscara de Arte / Pieza de Colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Masculino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Apokolips / DC Universe"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de máscara artística de Darkseid con detalle premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Captura la esencia maléfica y poder del señor de Apokolips"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño icónico del personaje con geometría angular característica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala 1:6 con dimensiones generosas de 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para exhibición en vitrinas especializadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza de referencia para coleccionistas DC Comics y arte pop"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:56:51.221691"
+      },
+      {
+        "id": "snake-plissken",
+        "n": "Snake Plissken",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f386dc2.jpg",
+        "l": "https://www.sideshow.com/collectibles/escape-from-new-york-snake-plissken-sideshow-collectibles-300917",
+        "marca": "Sideshow",
+        "escala": "1:6 - 57CM",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "9600",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1920",
+        "entrega": "Abril 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f386dc2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f404043.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f44c645.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f4c77e6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f51bdb6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f56155d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f5a8fdd.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/300917/sideshow-collectibles-escape-from-new-york-snake-plissken-premium-format-figure-gallery-699e40f5ee8f7.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Snake Plissken es uno de los personajes más icónicos del cine de acción de los años 80, el antihéroe legendario de 'Escape de Nueva York' y 'Escape de L.A.'. Con su parche en el ojo, su actitud cínica y su inconfundible presencia, Plissken representa el espíritu rebelde del cine de culto. Esta figura de colección captura la esencia del personaje en su máxima expresión, permitiendo a los fans poseer una pieza auténtica del legado cinematográfico."
+          },
+          {
+            "t": "notion-text",
+            "x": "Sideshow ha desarrollado esta estatua con un nivel excepcional de detalle artístico, reflejando cada rasgo característico del legendario personaje. La escultura del rostro exhibe precisión en la reproducción del parche ocular distintivo y la expresión dura que define a Snake Plissken, mientras que la postura transmite la actitud peligrosa y desafiante que lo caracteriza en pantalla."
+          },
+          {
+            "t": "notion-text",
+            "x": "Fabricada con materiales de calidad superior, esta figura de 57 centímetros en escala 1:6 es una inversión valiosa para coleccionistas de películas de culto, figuras de acción premium y memorabilia cinematográfica. Su tamaño imponente y presencia visual la convierten en una pieza central de cualquier colección dedicada a iconos del cine de acción clásico."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Colección Premium Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada escala 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Acción/Culto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Cine - Escape de Nueva York / Escape de L.A."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 57 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Articulaciones múltiples para poseabilidad"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con likeness detallado de Snake Plissken"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Atuendo completo del personaje icónico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables para diferentes poses"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de rostro de alta fidelidad con parche ocular distintivo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo completamente articulado para múltiples poses de acción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles de vestuario auténticos y meticulosamente reproducidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados de pintura profesional en cada sección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Proporciones de escala 1:6 perfectas para colecciones dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática para presentación de galería"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza coleccionable de referencia para fans del cine de culto de los 80"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:55:30.236212"
+      },
+      {
         "id": "beetlejuice",
         "n": "Beetlejuice",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/300918/sideshow-collectibles-beetlejuice-beetlejuice-premium-format-figure-gallery-69bb1deddf664.jpg",
@@ -28778,6 +29137,240 @@
   "Otras Figuras": {
     "slug": "escalas-112-y-otros",
     "products": [
+      {
+        "id": "eye-of-sauron-lamp",
+        "n": "Eye of Sauron Lamp",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068b19af4.jpg",
+        "l": "https://www.sideshow.com/collectibles/the-lord-of-the-rings-eye-of-sauron-lamp-nemesis-now-915332",
+        "marca": "Sideshow",
+        "escala": "1:6 - 22.5CM",
+        "franquicia": "Adultos",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "1600",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "320",
+        "entrega": "Junio 2026",
+        "cantidad": "2",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068b19af4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068b4cf1b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068b7aa6b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068bad304.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068bd98df.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068c1174c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-gallery-6985068c3eab6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915332/nemesis-now-the-lord-of-the-rings-eye-of-sauron-lamp-collectible-lamp-silo.png"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "El Ojo de Sauron es uno de los símbolos más icónicos y aterradores de la saga El Señor de los Anillos. Esta lámpara coleccionable captura la esencia del Ojo Único en su forma más recognible: una esfera ardiente envuelta en una aura de fuego oscuro, coronada por la torre de Barad-dûr. Perfecta para cualquier fan de la obra de Tolkien que desee llevar un toque de Mordor a su hogar o colección."
+          },
+          {
+            "t": "notion-text",
+            "x": "Sideshow ha trabajado meticulosamente en cada detalle de esta pieza, desde la textura ardiente del Ojo hasta los tonos dorados y rojizos que evocan el poder maléfico del Señor Oscuro. La escultura combina artesanía premium con iluminación funcional, creando una atmósfera envolvente que trasporta al espectador directamente a las Tierras Medias."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta lámpara decorativa es una adición excepcional para coleccionistas serios de El Señor de los Anillos, fanáticos de la fantasía épica y decoradores que buscan piezas de carácter statement. Funcional y visualmente impactante, se convierte en un punto focal en cualquier habitación, estudio o espacio dedicado a las colecciones premium."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Premium Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Lámpara decorativa funcional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Fantasía épica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: El Señor de los Anillos"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 22.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura detallada del Ojo de Sauron con acabado premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED funcional que simula el brillo ardiente del Ojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Réplica fiel del símbolo más icónico de la trilogía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza de exhibición perfecta para espacios dedicados a colecciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para fans de Tolkien y coleccionistas de fantasía premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Control de iluminación intuitivo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base estable y diseñada para exhibición"
+          }
+        ],
+        "yt": "",
+        "destacado": true,
+        "oferta": false,
+        "added_at": "2026-03-29T23:57:36.103047"
+      },
+      {
+        "id": "strike-freedom-gundam-revival-ver",
+        "n": "Strike Freedom Gundam <Revival Ver.>",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e2e4b6a.jpg",
+        "l": "https://www.sideshow.com/collectibles/mobile-suit-gundam-strike-freedom-gundam-revival-ver-tamashii-nations-915418",
+        "marca": "Sideshow",
+        "escala": "1:6 - 20CM",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4100",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "820",
+        "entrega": "Noviembre 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e2e4b6a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-scale-69a8b2cede66b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e328b69.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e362140.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e3a4d67.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e3cd0ec.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e420d0a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915418/tamashii-nations-gundam-strike-freedom-gundam-revival-ver-action-figure-gallery-69a8b0e46427e.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "El Strike Freedom Gundam Revival Ver. representa uno de los móviles más icónicos del universo Gundam, capturado en esta versión de colección premium a escala 1:6. Este Gundam de élite, conocido por su versatilidad ofensiva y su diseño aerodinámico revolucionario, se presenta ahora en una edición Revival que rinde homenaje a su importancia en la narrativa de Gundam SEED Destiny. La figura encapsula la esencia del combate espacial de alto rendimiento y la tecnología de vanguardia que define al francés protagonista."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada detalle de esta reproducción ha sido meticulosamente trabajado para capturar la complejidad del diseño original. Los paneles, proporciones y acabados reflejan el cuidado artesanal característico de las figuras de colección de alto nivel, permitiendo que los coleccionistas aprecien la ingeniería visual que hace único a este mobile suit."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta pieza es una adición imprescindible para coleccionistas de Gundam y aficionados a la robótica de ficción científica. Su escala y presencia la convierten en una declaración dentro de cualquier vitrina de exhibición premium."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Gundam SEED Destiny"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Bandai"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Mobile Suit (Móvil)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Mecánico - Ciencia Ficción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: OMNI Enforcer / Orb Union"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Totalmente articulado para poseado dinámico"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño aerodinámico característico del Strike Freedom con paneles detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación avanzada para recrear poses de combate y vuelo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados de pintura múltiples con detalles en rojo, blanco y oro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armamento característico del mobile suit"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala premium 1:6 ideal para colecciones de referencia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Revival que celebra el legado del Gundam original"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:56:19.192884"
+      },
       {
         "id": "ultra-magnus-premium",
         "n": "Ultra Magnus PREMIUM",
