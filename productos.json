@@ -29716,6 +29716,130 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "pre-order-lingyue-studio-1-6-phoebe",
+        "n": "【PRE-ORDER】LingYue Studio 1:6 Phoebe",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357112/_2026-03-20_170559_522__00489.1773997597.jpg?c=2",
+        "l": "https://www.fanaticanimestore.com/pre-order-lingyue-studio-1-6-phoebe/",
+        "marca": "",
+        "escala": "1:6 - 20CM",
+        "franquicia": "Adultos",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4600",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "920",
+        "entrega": "Diciembre 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357112/_2026-03-20_170559_522__00489.1773997597.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357113/_2026-03-20_170605_252__41127.1773997597.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357114/_2026-03-20_170557_901__63173.1773997597.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357115/_2026-03-20_170606_627__93946.1773997597.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357116/_2026-03-20_170539_712__42054.1773997597.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357117/_2026-03-20_170540_993__26365.1773997597.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17505/357118/_2026-03-20_170542_133__68056.1773997597.jpg?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Phoebe es una figura coleccionable en escala 1:6 que captura la esencia del personaje con precisión artística. Esta pieza de LingYue Studio representa un logro en la manufactura de figuras premium, con un enfoque meticulos en cada detalle que define la excelencia en colecciones de arte tridimensional."
+          },
+          {
+            "t": "notion-text",
+            "x": "La figura destaca por su artesanía excepcional, donde cada elemento ha sido cuidadosamente esculpido y pintado para alcanzar un likeness auténtico. LingYue Studio ha implementado opciones de configuración versátil que permiten personalizar la presentación, incluyendo cabezas intercambiables con expresiones distintas y accesorios de exhibición modulares."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta es una propuesta diseñada para coleccionistas que valoran la calidad sin compromiso. Los materiales premium y la presentación profesional la convierten en una adición de referencia para cualquier colección especializada, con opciones de envío internacional que aseguran su llegada en perfectas condiciones."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: LingYue Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estado: Pre-orden"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida tímida (Regular version)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza de expresión asustada (EX version)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piernas desnudas intercambiables (EX version)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de plataforma en piedra"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artesanía premium con atención exhaustiva a detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Configuraciones intercambiables para versatilidad de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples opciones de cabeza para expresiones variadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición profesional incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Envío internacional disponible con costos competitivos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque seguro para coleccionistas premium"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-03-29T23:46:31.014917"
+      },
+      {
         "id": "sunohara-kokona",
         "n": "Sunohara Kokona",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17541/357995/_2026-03-24_132009_945___13476.1774329898.jpg?c=2",
@@ -30136,7 +30260,44 @@
         "fotos": [
           "assets/vitrinas/detolf-3.jpg"
         ],
-        "content": [],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elaborado en melamina negra o blanca y vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Respaldo de melamina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paredes laterales de vidrio transparente de 5mm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puerta de vidrio con llave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 estanterías de vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED en cada estante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Área: 60cm ancho x 35cm fondo x 180cm alto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura en cada estante de 41cm"
+          },
+          {
+            "t": "notion-text",
+            "x": "Ideal para figuras escala 1:6"
+          }
+        ],
         "yt": "",
         "destacado": false,
         "oferta": false,
@@ -30161,7 +30322,36 @@
         "fotos": [
           "assets/vitrinas/detolf-4.jpg"
         ],
-        "content": [],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elaborado en melamina negra o blanca y vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Respaldo de melamina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paredes laterales de vidrio transparente de 5mm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puerta de vidrio con llave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 estanterías de vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED en cada estante"
+          },
+          {
+            "t": "notion-text",
+            "x": "Ideal para figuras escala 1:6 — 1:10"
+          }
+        ],
         "yt": "",
         "destacado": false,
         "oferta": false,
@@ -30186,7 +30376,36 @@
         "fotos": [
           "assets/vitrinas/detolf-5.jpg"
         ],
-        "content": [],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elaborado en melamina negra o blanca y vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Respaldo de melamina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paredes laterales de vidrio transparente de 5mm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puerta de vidrio con llave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 estanterías de vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED en cada estante"
+          },
+          {
+            "t": "notion-text",
+            "x": "Ideal para figuras (escala 1:7) y dioramas"
+          }
+        ],
         "yt": "",
         "destacado": false,
         "oferta": false,
@@ -30211,7 +30430,36 @@
         "fotos": [
           "assets/vitrinas/detolf-6.jpg"
         ],
-        "content": [],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elaborado en melamina negra o blanca y vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Respaldo de melamina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paredes laterales de vidrio transparente de 5mm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puerta de vidrio con llave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 estanterías de vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED en cada estante"
+          },
+          {
+            "t": "notion-text",
+            "x": "Ideal para figuras escala 1:6 y más pequeñas"
+          }
+        ],
         "yt": "",
         "destacado": false,
         "oferta": false,
@@ -30236,7 +30484,28 @@
         "fotos": [
           "assets/vitrinas/uv3.jpg"
         ],
-        "content": [],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Producido 100% en Guatemala con madera de melamina y acrílico de 3mm de grosor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Medidas: 100cm x 50cm x 50cm (contando el acrílico)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para estatuas y figuras más grandes"
+          },
+          {
+            "t": "notion-text",
+            "x": "Diseño especialmente pensado por y para coleccionistas. Los paneles frontales se pueden quitar y poner con un sistema de imanes, facilitando la movilidad de las figuras y su limpieza."
+          }
+        ],
         "yt": "",
         "destacado": false,
         "oferta": false,
@@ -30264,23 +30533,23 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Sistema modular apilable. El precio indicado (Q2,200) corresponde a UN módulo UV1. La base UV2 se cotiza por separado a Q650."
+            "x": "Sistema modular apilable producido 100% en Guatemala."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "UV1 (módulo): 110cm x 50cm x 40cm — Ideal para figuras escala 1:6 — Q2,200 c/u"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "UV2 (base): 110cm x 50cm x 40cm — Eleva los módulos del piso — Q650"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Se pueden apilar hasta 3 módulos UV1 sobre una base UV2"
           },
           {
             "t": "notion-text",
-            "x": "Se pueden apilar hasta 3 módulos UV1 sobre la base UV2, formando una vitrina tipo torre. Podés empezar con un módulo e ir agregando más — no es necesario comprar todo de una vez."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Módulo UV1: Q2,200 c/u (hasta 3 por base)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base UV2: Q650"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Sistema modular — comprá por etapas"
+            "x": "Los UV1 son modulares: se montan uno encima del otro formando una torre. Al ser de las mismas medidas siempre quedan estéticos. Podés empezar con un módulo e ir agregando más según tu colección crezca — no es necesario comprar todo junto."
           }
         ],
         "yt": "",
