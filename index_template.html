@@ -403,6 +403,20 @@ body::after{
 .modal-prop-value.price span{color:var(--gold);font-size:14px;font-weight:500}
 .modal-prop-value.stock{color:var(--green)}
 .modal-prop-value.preorder{color:var(--amber)}
+/* Version toggle (Regular / Deluxe) */
+.ver-toggle{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.ver-btn{background:var(--bg3);border:1px solid var(--border);color:var(--muted);
+  border-radius:8px;padding:7px 16px;font-size:11.5px;font-weight:700;
+  cursor:pointer;transition:all .15s;font-family:"Syne",sans-serif;letter-spacing:.5px}
+.ver-btn.active{background:var(--purple);border-color:var(--purple);color:#fff}
+.ver-btn.ver-btn-ago{opacity:.55;text-decoration:line-through}
+/* Deluxe chip on product card */
+.prod-dlx-chip{display:inline-block;font-size:9px;font-weight:700;
+  letter-spacing:.8px;text-transform:uppercase;padding:3px 8px;border-radius:5px;
+  margin-top:5px;font-family:"Syne",sans-serif}
+.chip-dlx-ok{background:rgba(99,220,120,.13);color:#63dc78;border:1px solid rgba(99,220,120,.25)}
+.chip-dlx-ago{background:rgba(120,120,120,.12);color:#888;border:1px solid rgba(120,120,120,.22)}
+.chip-reg-ago{background:rgba(251,191,36,.1);color:#fbbf24;border:1px solid rgba(251,191,36,.22)}
 .modal-divider{border:none;border-top:1px solid var(--border);margin:18px 0}
 .home-divider{border:none;border-top:1px solid var(--border);margin:36px 0 28px}
 #modal-yt{margin-top:14px}
@@ -743,6 +757,10 @@ body::after{
     <div class="modal-body">
       <div class="modal-cat" id="modal-cat"></div>
       <div class="modal-title" id="modal-name"></div>
+      <div class="ver-toggle" id="modal-version-toggle" style="display:none">
+        <button class="ver-btn" id="modal-ver-reg" onclick="modalSetVersion('regular')">Regular</button>
+        <button class="ver-btn" id="modal-ver-dlx" onclick="modalSetVersion('deluxe')">Deluxe</button>
+      </div>
       <div class="modal-props" id="modal-props"></div>
       <div style="display:flex;gap:8px;margin-top:12px">
       <a class="modal-wa" id="modal-wa" href="#" target="_blank" rel="noopener" style="flex:1;padding:11px 18px;font-size:13.5px">
@@ -855,6 +873,15 @@ function makeCard(p,cat){
   else if(cat==="Entrega Inmediata"){badgeText="En Stock";badgeCls="badge-stock";}
   else if(cat==="Hot Toys · Pre-Órdenes"){badgeText="Pre-Orden";badgeCls="badge-pre";}
   if(badgeText){var badge=document.createElement("div");badge.className="prod-badge "+badgeCls;badge.textContent=badgeText;meta.appendChild(badge);}
+  // Deluxe chip
+  if(p.precio_d){
+    var dlxEl=document.createElement("div");
+    if(!p.agotado_d&&!p.agotado_r){dlxEl.className="prod-dlx-chip chip-dlx-ok";dlxEl.textContent="Deluxe Disponible";}
+    else if(!p.agotado_d&&p.agotado_r){dlxEl.className="prod-dlx-chip chip-reg-ago";dlxEl.textContent="Regular Agotada";}
+    else if(p.agotado_d&&!p.agotado_r){dlxEl.className="prod-dlx-chip chip-dlx-ago";dlxEl.textContent="Deluxe Agotada";}
+    else{dlxEl.className="prod-dlx-chip chip-dlx-ago";dlxEl.textContent="Ambas Agotadas";}
+    meta.appendChild(dlxEl);
+  }
   // Corner badges: DESTACADO y OFERTA
   var cornerBadges=[];
   if(p.destacado){cornerBadges.push({cls:"corner-dest",txt:"★ Destacado"});}
@@ -1185,18 +1212,46 @@ function goCategory(idx){
   history.pushState({_uvNav:true},null,location.pathname+"#cat/"+encodeURIComponent(cat));
 }
 
+var _modalProd=null;
+function modalSetVersion(ver){
+  var p=_modalProd;if(!p||!p.precio_d)return;
+  var btnR=document.getElementById("modal-ver-reg");
+  var btnD=document.getElementById("modal-ver-dlx");
+  if(ver==="deluxe"){
+    btnR.classList.remove("active");btnD.classList.add("active");
+    carouselBuild((p.fotos_d&&p.fotos_d.length>0)?p.fotos_d:(p.fotos&&p.fotos.length>0?p.fotos:[p.i]));
+    var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+p.precio_d;
+  }else{
+    btnD.classList.remove("active");btnR.classList.add("active");
+    carouselBuild((p.fotos&&p.fotos.length>0)?p.fotos:[p.i]);
+    var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+(p.precio||"");
+  }
+}
 function openModal(p,cat){
+  _modalProd=p;
   var accent=CAT_ACCENTS[cat]||"#7B2FBE";
-  // Build carousel: sideshow photos first, fallback to single product image
+  // Build carousel: regular photos by default
   var photos=(p.fotos&&p.fotos.length>0)?p.fotos:[p.i];
   carouselBuild(photos);
   document.getElementById("modal-cat").textContent=CAT_LABELS[cat]||cat;
   document.getElementById("modal-cat").style.color=accent;
   document.getElementById("modal-name").textContent=p.n;
+  // Version toggle
+  var toggleEl=document.getElementById("modal-version-toggle");
+  if(p.precio_d){
+    toggleEl.style.display="flex";
+    var btnR=document.getElementById("modal-ver-reg");
+    var btnD=document.getElementById("modal-ver-dlx");
+    btnR.className="ver-btn active"+(p.agotado_r?" ver-btn-ago":"");
+    btnR.textContent=p.agotado_r?"Regular — Agotada":"Regular";
+    btnD.className="ver-btn"+(p.agotado_d?" ver-btn-ago":"");
+    btnD.textContent=p.agotado_d?"Deluxe — Agotada":"Deluxe";
+  }else{
+    toggleEl.style.display="none";
+  }
   var propsEl=document.getElementById("modal-props");propsEl.innerHTML="";
   var propList=[];
-  if(p.precio)propList.push({label:"Precio",value:"<span>Q</span>"+p.precio,cls:"price"});
-  if(p.precio_d)propList.push({label:"Precio Deluxe",value:"<span>Q</span> "+p.precio_d,cls:"price"});
+  if(p.precio)propList.push({label:"Precio",value:"<span>Q</span>"+p.precio,cls:"price",id:"modal-precio-val"});
   if(p.franquicia)propList.push({label:"Franquicia",value:esc(p.franquicia)});
   if(p.disp){var dispCls=p.disp.toLowerCase().indexOf("inmediata")>=0?"stock":p.disp.toLowerCase().indexOf("pre")>=0?"preorder":"";propList.push({label:"Disponibilidad",value:esc(p.disp),cls:dispCls});}
   if(p.estado)propList.push({label:"Estado",value:esc(p.estado)});
@@ -1207,7 +1262,7 @@ function openModal(p,cat){
   if(p.reserva)propList.push({label:"Reserva con",value:esc(fmtReserva(p.reserva))});
   propList.forEach(function(prop){
     var d=document.createElement("div");d.className="modal-prop";
-    d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'>"+prop.value+"</div>";
+    d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'"+(prop.id?' id="'+prop.id+'"':"")+">"+prop.value+"</div>";
     propsEl.appendChild(d);
   });
   var contentEl=document.getElementById("modal-content");contentEl.innerHTML="";
