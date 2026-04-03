@@ -840,24 +840,33 @@ function scrapeSideshow(doc, html, baseUrl) {
 
   // ── 2. Fotos — patrón storage/product-images/{sku}/ (igual que admin desktop) ──
   if (sku) {
-    const seen = new Set();
+    // Deduplicar por filename para evitar el mismo archivo con distintas rutas/CDN
+    const seenFn = new Set();
+    function addSkuImg(src) {
+      const resolved = resolveUrl(src);
+      if (!resolved || resolved.includes("placeholder")) return;
+      const fn = resolved.split("/").pop().split("?")[0];
+      if (seenFn.has(fn)) return;
+      seenFn.add(fn);
+      const cdn = resolved.includes("cdn-cgi") ? resolved
+        : `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${resolved}`;
+      data.fotos.push(cdn);
+    }
+
     doc.querySelectorAll("img").forEach(img => {
       for (const attr of ["src","data-src","data-lazy-src"]) {
         const src = img.getAttribute(attr) || "";
-        if (src.includes("product-images") && src.includes(`/${sku}/`) && !seen.has(src)) {
-          seen.add(src);
-          addImgCdn(src);
-        }
+        if (src.includes("product-images") && src.includes(`/${sku}/`)) addSkuImg(src);
       }
     });
-    // También buscar en el HTML crudo con regex exacto del desktop
+
     const pattern = new RegExp(
       `https://www\\.sideshow\\.com/storage/product-images/${sku}/[^"'\\s)>]+\\.(?:jpg|webp|png)`, "gi"
     );
-    for (const imgUrl of (html.match(pattern) || [])) {
-      const clean = imgUrl.split("?")[0];
-      if (!seen.has(clean)) { seen.add(clean); addImgCdn(clean); }
-    }
+    for (const imgUrl of (html.match(pattern) || [])) addSkuImg(imgUrl.split("?")[0]);
+
+    // Limitar a 12 fotos
+    data.fotos = data.fotos.slice(0, 12);
     data._debug.push("fotos con SKU: " + data.fotos.length);
   }
 
@@ -939,19 +948,32 @@ function scrapeSideshow(doc, html, baseUrl) {
   }
 
   // ── 9. Fecha de entrega ──
-  const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
-  let node;
-  while ((node = walker.nextNode())) {
-    if (/Expected\s+to\s+Ship/i.test(node.textContent)) {
-      let text = node.textContent;
-      if (node.parentElement) {
-        const p = node.parentElement.textContent;
-        if (p.length < 200) text = p;
-        if (p.length < 20 && node.parentElement.parentElement)
-          text = node.parentElement.parentElement.textContent;
+  // Primero buscar en HTML crudo (más confiable para Sideshow)
+  const shipPatterns = [
+    /Expected\s+to\s+Ship\s*[:\-]?\s*([A-Za-z]+\s+\d{4})/i,
+    /expectedShipDate["\s]*[=:]\s*["']([^"']+)["']/i,
+    /"shipDate"\s*:\s*"([^"]+)"/i,
+    /Estimated\s+Arrival[:\-]?\s*([A-Za-z]+\s+\d{4})/i,
+  ];
+  for (const re of shipPatterns) {
+    const m = html.match(re);
+    if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
+  }
+  if (!data.entrega) {
+    const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      if (/Expected\s+to\s+Ship/i.test(node.textContent)) {
+        let text = node.textContent;
+        if (node.parentElement) {
+          const p = node.parentElement.textContent;
+          if (p.length < 200) text = p;
+          if (p.length < 20 && node.parentElement.parentElement)
+            text = node.parentElement.parentElement.textContent;
+        }
+        const m = text.match(/Expected\s+to\s+Ship\s*[:\-]?\s*(.{3,60?})/i);
+        if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
       }
-      const m = text.match(/Expected\s+to\s+Ship\s*[:\-]?\s*(.{3,60?})/i);
-      if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
     }
   }
 
@@ -1157,12 +1179,14 @@ async function doAiDesc(prefix) {
   const escala    = document.getElementById(`${prefix}-escala`).value.trim();
   const featuresRaw = document.getElementById(`${prefix}-features`).value.trim();
   const features  = featuresRaw ? featuresRaw.split("\n").filter(Boolean) : [];
+  const descRaw   = document.getElementById(`${prefix}-desc`).value.trim();
 
-  const userMsg = JSON.stringify({ nombre, marca, escala, features });
+  const userMsg = JSON.stringify({ nombre, marca, escala, features, descripcion_original: descRaw });
   toast("Generando descripción...");
 
   const sysPrompt = `Eres redactor de fichas para UV Store Guatemala, tienda de figuras de colección premium.
-Dado el nombre, marca, escala y características de una figura, genera una descripción en español latinoamericano.
+Dado el nombre, marca, escala, características y descripción original (puede estar en inglés), genera una ficha en español latinoamericano.
+Si hay una descripción_original en inglés, traducila y expandila. Extrae de ella cualquier dato útil (qué incluye, materiales, tamaño, articulaciones, etc.) para completar las características.
 Responde SOLO con un JSON array de bloques de contenido:
 [
   {"t":"notion-heading-2","x":"Descripción"},
@@ -1177,9 +1201,8 @@ Responde SOLO con un JSON array de bloques de contenido:
 ]
 
 REGLAS ESTRICTAS:
-- Solo USA datos que estén en los campos provistos. Si un dato no está disponible, omite el bullet o pon "N/D".
-- NO inventes articulaciones, materiales, altura, escala ni accesorios si no están en los datos.
-- Para estatuas (marcas: Sideshow, Iron Studios, XM Studios, Prime 1 Studio, etc.) NO pongas bullets de articulación.
+- Usa SOLO datos que estén en los campos provistos o en la descripción_original. No inventes datos.
+- Para estatuas (marcas: Sideshow, Iron Studios, XM Studios, Prime 1 Studio, etc.) NO pongas bullets de articulación a menos que la descripción_original lo mencione.
 - Cada bullet = UN solo item.
 - La descripción debe ser atractiva, en 2-3 párrafos.`;
 
