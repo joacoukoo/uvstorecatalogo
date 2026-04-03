@@ -9545,6 +9545,151 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "lydia-deetz",
+        "n": "Lydia Deetz",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c909b7a4.jpg",
+        "l": "https://www.sideshow.com/collectibles/beetlejuice-lydia-deetz-sideshow-collectibles-100498",
+        "marca": "Sideshow",
+        "escala": "1:6 - 25CM",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3500",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "700",
+        "entrega": "Marzo 2027",
+        "cantidad": "2",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c909b7a4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c9113cdb.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c9156993.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c91c0269.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c9213c24.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c928c3f6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c9308bc8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100498/sideshow-collectibles-beetlejuice-lydia-deetz-sixth-scale-figure-gallery-69cd5c9374948.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Lydia Deetz, la icónica adolescente gótica del clásico de horror cómico de 1988, cobra vida en esta espectacular figura de sexta escala. Con su icónica frase \"Toda mi vida es un cuarto oscuro\", Lydia representa el espíritu peculiar y melancólico que definió una generación. Esta figura articulada captura su esencia sombrío en todo su esplendor, presentando una escultura de cabeza que recrea fielmente los rasgos de Winona Ryder en su rol más memorable."
+          },
+          {
+            "t": "notion-text",
+            "x": "Desarrollada en asociación con Warner Bros. Discovery Global Consumer Products, esta pieza destaca por su meticulosa construcción con un cuerpo articulado de Phicen y un traje de tela completamente personalizado. Cada detalle ha sido cuidadosamente considerado por el equipo de diseño y desarrollo de Sideshow, desde el sombrero de ala ancha removible hasta las botas que completan su atuendo característico. Las esculturas de Nancy y Namhoon Kim, combinadas con la pintura experta de Wan Lee y Jung Kook, garantizan una representación auténtica del personaje."
+          },
+          {
+            "t": "notion-text",
+            "x": "Lydia Deetz es una adición imprescindible para coleccionistas de Beetlejuice y admiradores del cine de los 80. Su conjunto completamente negro, accesorios temáticos y múltiples opciones de manos intercambiables ofrecen infinitas posibilidades de exhibición. Con una base hexagonal negra distintiva y complementos como cámaras fotográficas y la icónica imagen de los Maitland como fantasmas de sábanas, esta figura trasciende lo ordinario para convertirse en una pieza de colección verdaderamente excepcional."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Beetlejuice"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada de sexta escala"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Femenino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Warner Bros. Entertainment Inc."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado: Phicen"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con likeness de Winona Ryder como Lydia Deetz"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Sombrero de ala ancha removible, conjunto completamente negro, botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: Cámara de apuntar y disparar con correa, cámara instantánea, imagen de los Maitland como fantasmas de sábanas, bolígrafo y papeles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 6 manos en total"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición: Base hexagonal negra"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza altamente detallada con semejanza fiel a Winona Ryder"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado que permite múltiples posiciones de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de tela confeccionado a medida con accesorios esculpidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Seis manos intercambiables para recrear diversos momentos icónicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios fotográficos temáticos que capturan el espíritu del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base hexagonal negra distintiva para exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto oficial bajo licencia de Warner Bros. Entertainment Inc."
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-02T21:49:59.094435"
+      },
+      {
         "id": "thor-artisan-edition",
         "n": "Thor (Artisan Edition)",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915360/hot-toys-marvel-thor-artisan-edition-sixth-scale-figure-gallery-699c8b06cefcf.jpg",
