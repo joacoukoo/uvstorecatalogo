@@ -811,177 +811,151 @@ function scrapeSideshow(doc, html, baseUrl) {
     if (!src) return "";
     try { return new URL(src, base).href; } catch { return src; }
   }
+  function cdnWrap(u) {
+    // Igual que el admin de escritorio: wrappear con CDN de calidad
+    if (!u) return "";
+    const r = resolveUrl(u);
+    return r && !r.includes("cdn-cgi") ? `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${r}` : r;
+  }
   function addImg(u) {
     const r = resolveUrl(u);
-    if (r && !r.includes("placeholder") && !data.fotos.includes(r)) data.fotos.push(r);
+    if (!r || r.includes("placeholder") || data.fotos.includes(r)) return;
+    data.fotos.push(r);
+  }
+  function addImgCdn(u) {
+    const r = resolveUrl(u);
+    if (!r || r.includes("placeholder")) return;
+    const cdn = r.includes("cdn-cgi") ? r : `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${r}`;
+    if (!data.fotos.includes(cdn)) data.fotos.push(cdn);
   }
   function stripHtml(s) { return (s || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); }
 
-  // ── 1. __NEXT_DATA__ (Next.js — fuente más completa) ──
-  const nextEl = doc.getElementById("__NEXT_DATA__");
-  if (nextEl) {
-    try {
-      const nd = JSON.parse(nextEl.textContent);
-      const pp = nd?.props?.pageProps || {};
-      data._debug.push("NEXT_DATA keys: " + Object.keys(pp).join(", "));
+  // ── 1. SKU desde URL (clave para fotos de Sideshow) ──
+  let sku = "";
+  const skuM = (baseUrl || "").match(/-(\d{6,})\/?(?:\?.*)?$/);
+  if (skuM) sku = skuM[1];
+  if (!sku) { const m = html.match(/"sku"\s*:\s*"(\d{5,})"/); if (m) sku = m[1]; }
+  if (!sku) { const m = html.match(/product[_-]id["'\s]*[=:]"?(\d{5,})/i); if (m) sku = m[1]; }
+  data._debug.push("sku: " + (sku || "no encontrado"));
 
-      // Buscar el objeto producto en distintas rutas comunes de Sideshow
-      const prod = pp.product || pp.productDetail || pp.item
-                || pp.data?.product || pp.data?.item
-                || pp.initialData?.product || null;
-
-      if (prod) {
-        data._debug.push("product keys: " + Object.keys(prod).join(", "));
-
-        if (!data.nombre) data.nombre = prod.name || prod.title || "";
-        if (!data.marca)  data.marca  = prod.brand?.name || prod.brand || prod.manufacturer?.name || prod.manufacturer || "";
-        if (!data.escala) data.escala = prod.scale || prod.productScale || prod.scaleCategory || "";
-
-        // Descripción
-        if (!data.descripcion) {
-          const desc = prod.description || prod.shortDescription || prod.overview || "";
-          if (desc) data.descripcion = stripHtml(desc);
+  // ── 2. Fotos — patrón storage/product-images/{sku}/ (igual que admin desktop) ──
+  if (sku) {
+    const seen = new Set();
+    doc.querySelectorAll("img").forEach(img => {
+      for (const attr of ["src","data-src","data-lazy-src"]) {
+        const src = img.getAttribute(attr) || "";
+        if (src.includes("product-images") && src.includes(`/${sku}/`) && !seen.has(src)) {
+          seen.add(src);
+          addImgCdn(src);
         }
-
-        // Imágenes — probar distintos campos
-        const imgFields = ["images","gallery","mediaGallery","photos","productImages","assets"];
-        for (const f of imgFields) {
-          if (!prod[f]) continue;
-          const arr = Array.isArray(prod[f]) ? prod[f] : [prod[f]];
-          arr.forEach(img => {
-            if (typeof img === "string") addImg(img);
-            else addImg(img.url || img.src || img.full || img.large || img.original || img.uri || "");
-          });
-          if (data.fotos.length) { data._debug.push("imgs from: " + f); break; }
-        }
-        // Thumbnail como fallback
-        if (!data.fotos.length) addImg(prod.image || prod.thumbnail || prod.mainImage || "");
-
-        // Features — "What's in the box"
-        const boxFields = ["whatsInTheBox","inTheBox","boxContents","includes","includedItems","productIncludes"];
-        for (const f of boxFields) {
-          if (!prod[f]) continue;
-          const arr = Array.isArray(prod[f]) ? prod[f] : [prod[f]];
-          arr.forEach(b => {
-            const t = typeof b === "string" ? b : stripHtml(b.description || b.name || b.text || "");
-            if (t && !data.features.includes(t)) data.features.push(t);
-          });
-          if (data.features.length) { data._debug.push("features from: " + f); break; }
-        }
-
-        // Specs
-        const specFields = ["specifications","specs","productSpecs","details","attributes"];
-        for (const f of specFields) {
-          if (!prod[f]) continue;
-          const arr = Array.isArray(prod[f]) ? prod[f] : Object.entries(prod[f]).map(([k,v]) => `${k}: ${v}`);
-          arr.forEach(s => {
-            const t = typeof s === "string" ? s : `${s.label||s.name||s.key}: ${s.value||s.val||""}`;
-            if (t && t.length > 2 && !data.features.includes(t)) data.features.push(t);
-          });
-          if (data.features.length) break;
-        }
-
-        // Fecha de entrega
-        const ship = prod.expectedShipDate || prod.shipDate || prod.estimatedShipDate
-                  || prod.releaseDate || prod.availabilityDate || "";
-        if (ship) data.entrega = detectEntregaClean(ship.toString().trim());
-      } else {
-        data._debug.push("no product obj found in pageProps");
       }
-    } catch(e) {
-      data._debug.push("NEXT_DATA parse error: " + e.message);
+    });
+    // También buscar en el HTML crudo con regex exacto del desktop
+    const pattern = new RegExp(
+      `https://www\\.sideshow\\.com/storage/product-images/${sku}/[^"'\\s)>]+\\.(?:jpg|webp|png)`, "gi"
+    );
+    for (const imgUrl of (html.match(pattern) || [])) {
+      const clean = imgUrl.split("?")[0];
+      if (!seen.has(clean)) { seen.add(clean); addImgCdn(clean); }
     }
-  } else {
-    data._debug.push("no __NEXT_DATA__");
+    data._debug.push("fotos con SKU: " + data.fotos.length);
   }
 
-  // ── 2. JSON-LD — nombre, descripción, marca, 1 imagen ──
-  doc.querySelectorAll('script[type="application/ld+json"]').forEach(s => {
-    try {
-      const obj = JSON.parse(s.textContent);
-      const prod = [obj, ...(obj["@graph"] || [])].find(o =>
-        o["@type"] === "Product" || o["@type"] === "product"
-      );
-      if (!prod) return;
-      if (!data.nombre && prod.name) data.nombre = prod.name.trim();
-      if (!data.descripcion && prod.description) data.descripcion = stripHtml(prod.description);
-      if (!data.marca && prod.brand)
-        data.marca = (typeof prod.brand === "string" ? prod.brand : prod.brand.name || "").trim();
-      const imgs = Array.isArray(prod.image) ? prod.image
-                 : typeof prod.image === "string" ? [prod.image] : [];
-      imgs.forEach(addImg);
-      if (imgs.length) data._debug.push("JSON-LD: " + imgs.length + " img(s)");
-    } catch {}
+  // ── 3. Metadata desde data-product-* (igual que admin desktop) ──
+  const metaEl = doc.querySelector("[data-product-name]");
+  if (metaEl) {
+    data.marca = metaEl.getAttribute("data-product-manufacturer") || metaEl.getAttribute("data-product-brand") || "";
+    const sizeInfo = metaEl.getAttribute("data-product-size") || "";
+    const matsInfo = metaEl.getAttribute("data-product-materials") || "";
+    if (sizeInfo) data.features.push("Tamaño: " + sizeInfo);
+    if (matsInfo) data.features.push("Materiales: " + matsInfo);
+    data._debug.push("data-product-* encontrado");
+  }
+
+  // ── 4. Nombre ──
+  const h1 = doc.querySelector("h1");
+  if (h1) data.nombre = h1.textContent.trim();
+
+  // ── 5. Escala ──
+  if (!data.escala) {
+    const m = html.match(/"(?:scale|productScale)"\s*:\s*"([^"]{2,30})"/i);
+    if (m) data.escala = m[1].trim();
+  }
+
+  // ── 6. Descripción — selectores del admin desktop ──
+  const aboutEl = doc.querySelector(
+    ".product-details-about .product-details-section__content, " +
+    ".product-details-about .ui-dropdown--content, " +
+    ".product-details-about"
+  );
+  if (aboutEl) {
+    // Eliminar listas y headings del about para quedarnos con texto puro
+    const clone = aboutEl.cloneNode(true);
+    clone.querySelectorAll("ul,ol,h2,h3,h4").forEach(el => el.remove());
+    const txt = clone.textContent.replace(/\s+/g, " ").trim();
+    if (txt.length > 20) data.descripcion = txt.slice(0, 900);
+  }
+  // Fallback: og:description
+  if (!data.descripcion) {
+    const og = doc.querySelector('meta[property="og:description"], meta[name="description"]');
+    if (og) data.descripcion = og.getAttribute("content") || "";
+  }
+
+  // ── 7. Features — "What's In The Box" + secciones Detail/Spec ──
+  const seenF = new Set(data.features.map(f => f.toLowerCase()));
+  function addListItems(container) {
+    container.querySelectorAll("ul li, ol li").forEach(li => {
+      const t = li.textContent.trim();
+      if (t.length > 4 && !seenF.has(t.toLowerCase())) {
+        seenF.add(t.toLowerCase());
+        data.features.push(t);
+      }
+    });
+  }
+
+  const inBox = doc.querySelector(".product-details-in-the-box");
+  if (inBox) { addListItems(inBox); data._debug.push("in-the-box: OK"); }
+
+  doc.querySelectorAll(".product-details-section").forEach(section => {
+    const titleEl = section.querySelector(".product-details-section__title");
+    if (!titleEl) return;
+    const title = titleEl.textContent.trim().toLowerCase();
+    if (!["detail","feature","spec"].some(k => title.includes(k))) return;
+    const content = section.querySelector(".product-details-section__content, .ui-dropdown--content");
+    if (!content) return;
+    addListItems(content);
+    content.querySelectorAll("p").forEach(p => {
+      const t = p.textContent.trim();
+      if (t.length > 8 && !seenF.has(t.toLowerCase())) {
+        seenF.add(t.toLowerCase()); data.features.push(t);
+      }
+    });
   });
 
-  // ── 3. Script tags — buscar JSON embebido con datos de producto ──
-  doc.querySelectorAll("script:not([src]):not([type='application/ld+json'])").forEach(s => {
-    const t = s.textContent;
-    // Buscar objetos con campos de imagen típicos de producto
-    const patterns = [
-      /window\.__(?:INITIAL|STORE|STATE|DATA|PRODUCT)__\s*=\s*(\{[\s\S]*?\});/,
-      /window\.pageData\s*=\s*(\{[\s\S]*?\});/,
-      /window\.product\s*=\s*(\{[\s\S]*?\});/,
-    ];
-    for (const re of patterns) {
-      const m = t.match(re);
-      if (!m) continue;
-      try {
-        const obj = JSON.parse(m[1]);
-        data._debug.push("found window var: " + re.source.split("_")[1]);
-        // intentar extraer imágenes recursivamente
-        JSON.stringify(obj).replace(/"(https:\/\/[^"\\]+\.(?:jpg|jpeg|png|webp))"/gi, (_, u) => addImg(u));
-      } catch {}
-    }
-  });
-
-  // ── 4. Nombre — fallback H1 ──
-  if (!data.nombre) {
-    const h1 = doc.querySelector('h1[class*="title"], h1[class*="name"], h1[class*="product"], h1');
-    if (h1) data.nombre = h1.textContent.trim();
-  }
-
-  // ── 5. Fotos — HTML crudo, siempre como suplemento (para galería) ──
-  {
-    const seen = new Set(data.fotos);
-    for (const m of html.matchAll(/"(https:\/\/[^"\\]+\.(?:jpg|jpeg|png|webp))"/gi)) {
-      const u = m[1];
-      if (seen.has(u)) continue;
-      seen.add(u);
-      if (!u.includes("placeholder") && !u.includes("icon") && !u.includes("logo")
-          && !u.includes("sprite") && !u.includes("avatar")) {
-        data.fotos.push(u);
-        if (data.fotos.length >= 40) break;
-      }
-    }
-    data._debug.push("total imgs after raw scan: " + data.fotos.length);
-  }
-
-  // ── 5. Marca — fallback HTML crudo ──
+  // ── 8. Marca — fallback HTML crudo ──
   if (!data.marca) {
     const m = html.match(/"(?:brand|manufacturer)"\s*:\s*"([^"]{2,60})"/i);
     if (m) data.marca = m[1].trim();
   }
 
-  // ── 6. Fecha de entrega — fallback texto ──
-  if (!data.entrega) {
-    const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
-    let node;
-    while ((node = walker.nextNode())) {
-      if (/Expected\s+to\s+Ship/i.test(node.textContent)) {
-        let text = node.textContent;
-        if (node.parentElement) {
-          const p = node.parentElement.textContent;
-          if (p.length < 200) text = p;
-          if (p.length < 20 && node.parentElement.parentElement)
-            text = node.parentElement.parentElement.textContent;
-        }
-        const m = text.match(/Expected\s+to\s+Ship\s*[:\-]?\s*(.{3,60?})/i);
-        if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
+  // ── 9. Fecha de entrega ──
+  const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+  let node;
+  while ((node = walker.nextNode())) {
+    if (/Expected\s+to\s+Ship/i.test(node.textContent)) {
+      let text = node.textContent;
+      if (node.parentElement) {
+        const p = node.parentElement.textContent;
+        if (p.length < 200) text = p;
+        if (p.length < 20 && node.parentElement.parentElement)
+          text = node.parentElement.parentElement.textContent;
       }
+      const m = text.match(/Expected\s+to\s+Ship\s*[:\-]?\s*(.{3,60?})/i);
+      if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
     }
   }
 
+  data._debug.push("features: " + data.features.length + " | desc: " + (data.descripcion ? "OK" : "vacía"));
   return data;
 }
 
