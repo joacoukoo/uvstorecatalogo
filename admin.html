@@ -803,74 +803,113 @@ function detectEntregaFromText(text) {
 }
 
 // ── Sideshow scraper ──
-function scrapeSideshow(doc, html) {
+function scrapeSideshow(doc, html, baseUrl) {
   const data = { fotos: [], features: [], nombre: "", marca: "", escala: "", entrega: "" };
+  const base = baseUrl || "https://www.sideshow.com";
 
-  // Name
-  const nameEl = doc.querySelector(".pdp-info__title, h1.product-title, h1");
-  if (nameEl) data.nombre = nameEl.textContent.trim();
+  // Helper: resolve URL relativa contra sideshow.com
+  function resolveUrl(src) {
+    if (!src) return "";
+    try { return new URL(src, base).href; } catch { return src; }
+  }
 
-  // Images from gallery
-  doc.querySelectorAll(".product-image-gallery img, .js-gallery-img, img[data-zoom-image]").forEach(img => {
-    const src = img.dataset.zoomImage || img.dataset.src || img.src || "";
-    if (src && !src.includes("placeholder") && !data.fotos.includes(src)) data.fotos.push(src);
+  // ── 1. JSON-LD (más confiable que selectores CSS) ──
+  doc.querySelectorAll('script[type="application/ld+json"]').forEach(s => {
+    try {
+      const obj = JSON.parse(s.textContent);
+      const prod = [obj, ...(obj["@graph"] || [])].find(o =>
+        o["@type"] === "Product" || o["@type"] === "product"
+      );
+      if (!prod) return;
+
+      if (!data.nombre && prod.name) data.nombre = prod.name.trim();
+      if (!data.descripcion && prod.description) data.descripcion = prod.description.trim();
+      if (!data.marca && prod.brand)
+        data.marca = (typeof prod.brand === "string" ? prod.brand : prod.brand.name || "").trim();
+
+      const imgs = Array.isArray(prod.image) ? prod.image
+                 : typeof prod.image === "string" ? [prod.image] : [];
+      imgs.forEach(u => {
+        const resolved = resolveUrl(u);
+        if (resolved && !data.fotos.includes(resolved)) data.fotos.push(resolved);
+      });
+    } catch {}
   });
-  // Fallback: all product images
+
+  // ── 2. Nombre — fallback CSS ──
+  if (!data.nombre) {
+    const nameEl = doc.querySelector(
+      'h1[class*="title"], h1[class*="name"], h1[class*="product"], h1'
+    );
+    if (nameEl) data.nombre = nameEl.textContent.trim();
+  }
+
+  // ── 3. Fotos — fallback: buscar en atributos de imagen ──
   if (!data.fotos.length) {
     doc.querySelectorAll("img").forEach(img => {
-      const src = img.src || "";
-      if (/product-images|gallery/i.test(src) && !data.fotos.includes(src)) data.fotos.push(src);
+      // Usar getAttribute para evitar que DOMParser resuelva URLs contra admin.html
+      const src = img.getAttribute("data-zoom-image")
+               || img.getAttribute("data-src")
+               || img.getAttribute("src") || "";
+      const resolved = resolveUrl(src);
+      if (resolved && /sideshow\.com.*(media|product|image)/i.test(resolved)
+          && !resolved.includes("placeholder")
+          && !data.fotos.includes(resolved)) {
+        data.fotos.push(resolved);
+      }
     });
   }
 
-  // data-product-* attributes
-  const infoEl = doc.querySelector("[data-product-brand],[data-product-scale],[data-product-manufacturer]");
-  if (infoEl) {
-    data.marca = infoEl.dataset.productBrand || infoEl.dataset.productManufacturer || "";
-    data.escala = infoEl.dataset.productScale || "";
+  // ── 4. Fotos — fallback: buscar URLs en el HTML crudo ──
+  if (!data.fotos.length) {
+    const matches = html.matchAll(/"(https:\/\/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"/gi);
+    for (const m of matches) {
+      const u = m[1];
+      if (/sideshow\.com/i.test(u) && !u.includes("placeholder") && !data.fotos.includes(u))
+        data.fotos.push(u);
+      if (data.fotos.length >= 30) break;
+    }
   }
 
-  // Description from .product-details-about
-  const aboutSection = doc.querySelector(".product-details-about .product-details-section__content, .product-details-about");
-  if (aboutSection) {
-    const txt = aboutSection.textContent.trim();
-    if (txt.length > 20) data.descripcion = txt;
+  // ── 5. Descripción — fallback CSS ──
+  if (!data.descripcion) {
+    const aboutEl = doc.querySelector(
+      '[class*="about"] [class*="content"], [class*="about"], [class*="description"]'
+    );
+    if (aboutEl) {
+      const txt = aboutEl.textContent.trim();
+      if (txt.length > 30) data.descripcion = txt;
+    }
   }
 
-  // "What's In The Box" section
-  const boxSection = doc.querySelector(".product-details-in-the-box");
-  if (boxSection) {
-    boxSection.querySelectorAll("li, p").forEach(el => {
-      const t = el.textContent.trim();
-      if (t && t.length > 1) data.features.push(t);
-    });
-  }
-
-  // Additional details sections
-  doc.querySelectorAll(".product-details-section").forEach(section => {
-    const title = section.querySelector(".product-details-section__title");
-    if (!title) return;
-    const titleText = title.textContent.trim().toLowerCase();
-    if (titleText.includes("about") || titleText.includes("box")) return;
-    section.querySelectorAll("li, p").forEach(el => {
-      const t = el.textContent.trim();
-      if (t && t.length > 1 && !data.features.includes(t)) data.features.push(t);
-    });
+  // ── 6. Features — "What's In The Box" y otras secciones ──
+  doc.querySelectorAll('[class*="details"] li, [class*="specs"] li, [class*="box"] li').forEach(el => {
+    const t = el.textContent.trim();
+    if (t && t.length > 2 && !data.features.includes(t)) data.features.push(t);
   });
 
-  // Ship date — search text nodes
+  // ── 7. Marca — fallback atributos HTML ──
+  if (!data.marca) {
+    const infoEl = doc.querySelector("[data-product-brand],[data-product-manufacturer]");
+    if (infoEl) data.marca = infoEl.dataset.productBrand || infoEl.dataset.productManufacturer || "";
+  }
+  if (!data.marca) {
+    // Buscar en el HTML "manufacturer":"..." o "brand":"..."
+    const m = html.match(/"(?:brand|manufacturer)"\s*:\s*"([^"]+)"/i);
+    if (m) data.marca = m[1].trim();
+  }
+
+  // ── 8. Fecha de entrega ──
   const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
   let node;
   while ((node = walker.nextNode())) {
     if (/Expected\s+to\s+Ship/i.test(node.textContent)) {
       let text = node.textContent;
-      // Try parent element for full text
       if (node.parentElement) {
-        const parentText = node.parentElement.textContent;
-        if (parentText.length < 200) text = parentText;
-        if (parentText.length < 20 && node.parentElement.parentElement) {
+        const p = node.parentElement.textContent;
+        if (p.length < 200) text = p;
+        if (p.length < 20 && node.parentElement.parentElement)
           text = node.parentElement.parentElement.textContent;
-        }
       }
       const m = text.match(/Expected\s+to\s+Ship\s*[:\-]?\s*(.{3,60?})/i);
       if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
@@ -951,7 +990,7 @@ async function doScrape() {
       const { html, finalUrl } = await fetchViaWorker(url);
       const doc = parseDoc(html);
       if (platform === "sideshow") {
-        scraped = scrapeSideshow(doc, html);
+        scraped = scrapeSideshow(doc, html, finalUrl);
       } else {
         scraped = scrapeGeneric(doc, html);
       }
@@ -1030,6 +1069,15 @@ function scrapeMorePhotos(prefix, type) {
 // ══════════════════════════════════════════════
 // PHOTO STRIP RENDERING
 // ══════════════════════════════════════════════
+function proxyImgUrl(url) {
+  // Imgur ya es CDN público, no necesita proxy.
+  // Otras URLs (Sideshow, etc.) las servimos por el Worker para evitar hotlink block.
+  if (!url) return url;
+  if (/imgur\.com/i.test(url)) return url;
+  if (!cfg.workerUrl || !cfg.workerSecret) return url;
+  return `${cfg.workerUrl}?url=${encodeURIComponent(url)}&secret=${encodeURIComponent(cfg.workerSecret)}`;
+}
+
 function renderPhotoStrip(stripId, photos, prefix, type) {
   const strip = document.getElementById(stripId);
   strip.innerHTML = "";
@@ -1037,7 +1085,7 @@ function renderPhotoStrip(stripId, photos, prefix, type) {
     const wrap = document.createElement("div");
     wrap.className = "photo-thumb-wrap";
     wrap.innerHTML = `
-      <img class="photo-thumb" src="${esc(url)}" loading="lazy">
+      <img class="photo-thumb" src="${esc(proxyImgUrl(url))}" loading="lazy">
       <button class="del-photo" onclick="removePhoto('${prefix}','${type}',${i})">×</button>
     `;
     strip.appendChild(wrap);
@@ -1095,15 +1143,14 @@ REGLAS ESTRICTAS:
 - La descripción debe ser atractiva, en 2-3 párrafos.`;
 
   try {
-    const r = await fetch("https://api.anthropic.com/v1/messages", {
+    if (!cfg.workerUrl) throw new Error("Configura el Worker URL primero");
+    const r = await fetch(cfg.workerUrl, {
       method: "POST",
-      headers: {
-        "x-api-key": cfg.anthropic,
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json",
-        "anthropic-dangerous-direct-browser-calls": "true",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
+        ai: true,
+        secret: cfg.workerSecret,
+        anthropicKey: cfg.anthropic,
         model: "claude-haiku-4-5-20251001",
         max_tokens: 1500,
         system: sysPrompt,
