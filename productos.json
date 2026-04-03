@@ -25566,6 +25566,123 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "dream-super-mario-galaxy-2",
+        "n": "Dream - Super Mario Galaxy 2",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213246_868__73814.jpg?v=1775229857",
+        "l": "https://statuecorp.com/products/dream-super-mario-galaxy-2",
+        "marca": "",
+        "escala": "1:4",
+        "franquicia": "Gaming",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "10400",
+        "precio_d": "",
+        "precio_orig": "11400",
+        "reserva": "2080",
+        "entrega": "Q2 2027",
+        "cantidad": "",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213246_868__73814.jpg?v=1775229857",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213248_511__27116.jpg?v=1775229856",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213257_371__26246.jpg?v=1775229898",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213250_948__62502.jpg?v=1775229898",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213253_224__39284.jpg?v=1775229898",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213256_112__47960.jpg?v=1775229898",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213301_415__15089.jpg?v=1775229898",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213254_675__47242.jpg?v=1775229898"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Dream presenta una interpretación extraordinaria del icónico Mario en su aventura cósmica a través de Super Mario Galaxy 2. Esta figura de colección captura la esencia del fontanero más famoso del universo de Nintendo en una escala monumental 1:4, que alcanza 53 cm de altura, convirtiéndola en una pieza central imprescindible para cualquier coleccionista de premium figures."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada detalle ha sido meticulosamente esculpido y pintado para reflejar la energía y el carisma de Mario en su travesía por galaxias lejanas. La calidad artesanal de Dream se evidencia en la precisión de cada característica, desde la expresión del personaje hasta los acabados de su icónico uniforme rojo y azul."
+          },
+          {
+            "t": "notion-text",
+            "x": "Diseñada como una estatua de exhibición premium, esta pieza es ideal para coleccionistas que buscan celebrar el legado de la franquicia Mario y los mundos imaginativos que Nintendo ha creado. Próxima a llegar en el segundo trimestre de 2027, representa una inversión en calidad y nostalgia gaming de nivel superior."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Dream"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Super Mario Galaxy 2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje: Mario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Videojuegos"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 53 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 48 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 41 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de colección de escala monumental"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Scultura artesanal de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados precisos en pintura y detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño basado en Super Mario Galaxy 2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza de exhibición premium para coleccionistas"
+          }
+        ],
+        "yt": "",
+        "destacado": true,
+        "oferta": true,
+        "added_at": "2026-04-03T12:14:51.200511"
+      },
+      {
         "id": "white-scars-mkx-helmet-display-stand",
         "n": "White Scars MkX Helmet & Display Stand",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915492/joytoy-warhammer-40k-white-scars-mkx-helmet-display-stand-prop-replica-gallery-69cadbd8bb968.jpg",
