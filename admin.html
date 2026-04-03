@@ -690,18 +690,25 @@ async function ghPut(path, content, sha, message) {
 async function loadCatalog() {
   const s = document.getElementById("cfg-status");
   if (!cfg.ghToken || !cfg.ghRepo) { s.textContent = "Configura GitHub primero."; return; }
-  s.textContent = "Cargando catálogo...";
+  s.textContent = "Paso 1: obteniendo SHA...";
   try {
     // Get blob SHA via Git Tree API (works for files > 1MB)
     catalogSha = await getFileSha("productos.json");
+    s.textContent = `Paso 2: descargando JSON (SHA: ${catalogSha.substring(0,7)})...`;
 
     // Download raw content (no size limit)
     const branch = cfg.ghBranch || "main";
     const rawUrl = `https://raw.githubusercontent.com/${cfg.ghRepo}/${branch}/productos.json?t=${Date.now()}`;
-    const r = await fetch(rawUrl);
-    if (!r.ok) throw new Error(`Error descargando raw: ${r.status}`);
+    let r;
+    try {
+      r = await fetch(rawUrl);
+    } catch(fetchErr) {
+      throw new Error(`Raw fetch falló: ${fetchErr.message}`);
+    }
+    if (!r.ok) throw new Error(`Raw HTTP: ${r.status}`);
+    s.textContent = "Paso 3: leyendo texto...";
     const json = await r.text();
-    s.textContent = `Descargado: ${json.length} bytes, inicia: ${json.substring(0,20)}`;
+    s.textContent = `Paso 4: parseando (${json.length} bytes)...`;
     catalog = JSON.parse(json);
 
     s.textContent = `Catálogo cargado: ${Object.values(catalog).reduce((a,c)=>a+c.products.length,0)} figuras.`;
