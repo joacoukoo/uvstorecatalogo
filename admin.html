@@ -895,46 +895,66 @@ function scrapeSideshow(doc, html, baseUrl) {
     data._debug.push("no __NEXT_DATA__");
   }
 
-  // ── 2. JSON-LD fallback ──
-  if (!data.nombre || !data.fotos.length) {
-    doc.querySelectorAll('script[type="application/ld+json"]').forEach(s => {
-      try {
-        const obj = JSON.parse(s.textContent);
-        const prod = [obj, ...(obj["@graph"] || [])].find(o =>
-          o["@type"] === "Product" || o["@type"] === "product"
-        );
-        if (!prod) return;
-        if (!data.nombre && prod.name) data.nombre = prod.name.trim();
-        if (!data.descripcion && prod.description) data.descripcion = stripHtml(prod.description);
-        if (!data.marca && prod.brand)
-          data.marca = (typeof prod.brand === "string" ? prod.brand : prod.brand.name || "").trim();
-        const imgs = Array.isArray(prod.image) ? prod.image
-                   : typeof prod.image === "string" ? [prod.image] : [];
-        imgs.forEach(addImg);
-        if (imgs.length) data._debug.push("imgs from JSON-LD");
-      } catch {}
-    });
-  }
+  // ── 2. JSON-LD — nombre, descripción, marca, 1 imagen ──
+  doc.querySelectorAll('script[type="application/ld+json"]').forEach(s => {
+    try {
+      const obj = JSON.parse(s.textContent);
+      const prod = [obj, ...(obj["@graph"] || [])].find(o =>
+        o["@type"] === "Product" || o["@type"] === "product"
+      );
+      if (!prod) return;
+      if (!data.nombre && prod.name) data.nombre = prod.name.trim();
+      if (!data.descripcion && prod.description) data.descripcion = stripHtml(prod.description);
+      if (!data.marca && prod.brand)
+        data.marca = (typeof prod.brand === "string" ? prod.brand : prod.brand.name || "").trim();
+      const imgs = Array.isArray(prod.image) ? prod.image
+                 : typeof prod.image === "string" ? [prod.image] : [];
+      imgs.forEach(addImg);
+      if (imgs.length) data._debug.push("JSON-LD: " + imgs.length + " img(s)");
+    } catch {}
+  });
 
-  // ── 3. Nombre — fallback H1 ──
+  // ── 3. Script tags — buscar JSON embebido con datos de producto ──
+  doc.querySelectorAll("script:not([src]):not([type='application/ld+json'])").forEach(s => {
+    const t = s.textContent;
+    // Buscar objetos con campos de imagen típicos de producto
+    const patterns = [
+      /window\.__(?:INITIAL|STORE|STATE|DATA|PRODUCT)__\s*=\s*(\{[\s\S]*?\});/,
+      /window\.pageData\s*=\s*(\{[\s\S]*?\});/,
+      /window\.product\s*=\s*(\{[\s\S]*?\});/,
+    ];
+    for (const re of patterns) {
+      const m = t.match(re);
+      if (!m) continue;
+      try {
+        const obj = JSON.parse(m[1]);
+        data._debug.push("found window var: " + re.source.split("_")[1]);
+        // intentar extraer imágenes recursivamente
+        JSON.stringify(obj).replace(/"(https:\/\/[^"\\]+\.(?:jpg|jpeg|png|webp))"/gi, (_, u) => addImg(u));
+      } catch {}
+    }
+  });
+
+  // ── 4. Nombre — fallback H1 ──
   if (!data.nombre) {
     const h1 = doc.querySelector('h1[class*="title"], h1[class*="name"], h1[class*="product"], h1');
     if (h1) data.nombre = h1.textContent.trim();
   }
 
-  // ── 4. Fotos — buscar en HTML crudo (todas las imágenes de cualquier CDN) ──
-  if (!data.fotos.length) {
-    const seen = new Set();
+  // ── 5. Fotos — HTML crudo, siempre como suplemento (para galería) ──
+  {
+    const seen = new Set(data.fotos);
     for (const m of html.matchAll(/"(https:\/\/[^"\\]+\.(?:jpg|jpeg|png|webp))"/gi)) {
       const u = m[1];
       if (seen.has(u)) continue;
       seen.add(u);
-      if (!u.includes("placeholder") && !u.includes("icon") && !u.includes("logo")) {
+      if (!u.includes("placeholder") && !u.includes("icon") && !u.includes("logo")
+          && !u.includes("sprite") && !u.includes("avatar")) {
         data.fotos.push(u);
         if (data.fotos.length >= 40) break;
       }
     }
-    if (data.fotos.length) data._debug.push("imgs from raw HTML (" + data.fotos.length + ")");
+    data._debug.push("total imgs after raw scan: " + data.fotos.length);
   }
 
   // ── 5. Marca — fallback HTML crudo ──
