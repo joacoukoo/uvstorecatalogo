@@ -249,20 +249,19 @@ def scrape_shopify(url, html, soup):
     return _build_result(name, desc, features, photos, escala, marca, price, url)
 
 def scrape_sideshow(url, html, soup):
-    # Try SKU from URL slug first
+    # ── SKU extraction (for photos) ──────────────────────────────────────────
     sku_m = re.search(r'-(\d{6,})\/?(?:\?.*)?$', url)
     sku = sku_m.group(1) if sku_m else ""
-    # If URL has ?sku= or ?var= param, use that (variant pages — Sideshow uses ?var= for deluxe/special editions)
     sku_q = re.search(r'[?&](?:sku|var)=(\d{5,})', url)
     if sku_q: sku = sku_q.group(1)
-    # Also scan HTML for the actual product SKU in JSON-LD or data attributes
     if not sku:
         sku_html = re.search(r'"sku"\s*:\s*"(\d{5,})"', html)
         if sku_html: sku = sku_html.group(1)
-    # Try data-product-id or similar
     if not sku:
         sku_data = re.search(r'product[_-]id["\'\s]*[=:]["\'\s]*(\d{5,})', html, re.I)
         if sku_data: sku = sku_data.group(1)
+
+    # ── Photos ───────────────────────────────────────────────────────────────
     photos = []; seen = set()
     if sku:
         for img in soup.find_all("img"):
@@ -281,8 +280,87 @@ def scrape_sideshow(url, html, soup):
     for p in photos:
         fn = p.split("/")[-1].split("?")[0]
         if fn not in fnames: unique.append(p); fnames.add(fn)
-    _feats = _get_features(soup)
-    return _build_result(_get_name(soup), _get_desc(soup), _feats, unique[:8], _get_escala(html), _get_marca(_get_name(soup), html, "sideshow.com", _feats), "", url)
+
+    # ── Metadata from data-product-* attributes ───────────────────────────────
+    marca = ""; size_info = ""; materials_info = ""
+    meta_el = soup.find(attrs={"data-product-name": True})
+    if meta_el:
+        marca       = meta_el.get("data-product-manufacturer","") or meta_el.get("data-product-brand","")
+        size_info   = meta_el.get("data-product-size","").strip()
+        materials_info = meta_el.get("data-product-materials","").strip()
+
+    # ── Description from "About" accordion section ────────────────────────────
+    desc = ""
+    about_sec = soup.select_one(".product-details-about .product-details-section__content, "
+                                ".product-details-about .ui-dropdown--content")
+    if about_sec:
+        for tag in about_sec.find_all(["ul","ol","h2","h3","h4"]): tag.extract()
+        desc = about_sec.get_text(" ", strip=True)[:900]
+    if not desc:
+        desc = _get_desc(soup)
+
+    # ── Features from all accordion sections ──────────────────────────────────
+    features = []; seen_f = set()
+
+    def _add_list_items(container):
+        for ul in container.find_all(["ul","ol"]):
+            for li in ul.find_all("li"):
+                item = li.get_text(" ", strip=True)
+                if len(item) > 4 and item.lower() not in seen_f:
+                    seen_f.add(item.lower()); features.append(item)
+
+    # Priority 1: "What's In The Box" — most important for collectors
+    in_box = soup.select_one(".product-details-in-the-box")
+    if in_box:
+        _add_list_items(in_box)
+
+    # Priority 2: "Details" and "Additional Details" sections
+    for section in soup.select(".product-details-section"):
+        title_el = section.select_one(".product-details-section__title")
+        if not title_el: continue
+        title = title_el.get_text(strip=True).lower()
+        if any(k in title for k in ["detail", "feature", "spec"]):
+            content = section.select_one(".product-details-section__content, .ui-dropdown--content")
+            if content:
+                _add_list_items(content)
+                # Plain text bullets inside the section (non-list)
+                for p in content.find_all("p"):
+                    t = p.get_text(strip=True)
+                    if len(t) > 8 and t.lower() not in seen_f:
+                        seen_f.add(t.lower()); features.append(t)
+
+    # Append size/materials from data-* if not already captured
+    if size_info and size_info.lower() not in seen_f:
+        features.append(f"Tamaño: {size_info}")
+    if materials_info and materials_info.lower() not in seen_f:
+        features.append(f"Materiales: {materials_info}")
+
+    if not features:
+        features = _get_features(soup)
+
+    # ── Delivery date — "Expected to Ship" puede estar en elementos separados ───
+    entrega = ""
+    # Buscar el text node que contiene "Expected to Ship" y leer el padre completo
+    for node in soup.find_all(string=re.compile(r'Expected\s+to\s+Ship', re.I)):
+        parent_text = node.parent.get_text(" ", strip=True) if node.parent else ""
+        # Subir un nivel más si el padre solo tiene el label
+        if len(parent_text) < 10 and node.parent and node.parent.parent:
+            parent_text = node.parent.parent.get_text(" ", strip=True)
+        m = re.search(r'Expected\s+to\s+Ship\s*[:\-]?\s*(.{5,60})', parent_text, re.I)
+        if m:
+            entrega = _detect_entrega_clean(m.group(1))
+            break
+    if not entrega:
+        entrega = _detect_entrega(features, "")
+
+    # ── Assemble result ───────────────────────────────────────────────────────
+    name = _get_name(soup)
+    if not marca:
+        marca = _get_marca(name, html, "sideshow.com", features)
+    result = _build_result(name, desc, features, unique[:8], _get_escala(html), marca, "", url)
+    if entrega:
+        result["entrega"] = entrega
+    return result
 
 def scrape_opencart(url, html, soup):
     photos = []; seen = set()
@@ -474,6 +552,9 @@ def scrape_url(url, translate=True, status_cb=None):
     scrapers = {"shopify":scrape_shopify,"sideshow":scrape_sideshow,"opencart":scrape_opencart,"woocommerce":scrape_woocommerce,"bigcommerce":scrape_bigcommerce,"generic":scrape_generic}
     data = scrapers.get(platform, scrape_generic)(url, html, soup)
     if not data["fotos"]: data["fotos"] = _get_photos_generic(url, soup, html)
+    # Detectar entrega estimada pasando también el HTML completo
+    if not data.get("entrega"):
+        data["entrega"] = _detect_entrega(data.get("features", []), html)
     if translate and data.get("descripcion"):
         log("Traduciendo..."); data["descripcion"] = translate_es(data["descripcion"])
         if data.get("features"): data["features"] = translate_list(data["features"])
@@ -508,20 +589,67 @@ def save_catalog(path, data):
         lambda m: m.group(1) + new_json + m.group(3), content, flags=re.DOTALL)
     with open(path, "w", encoding="utf-8") as f: f.write(new_content)
 
+def _detect_entrega_clean(raw):
+    """Limpia un string de fecha capturado y maneja rangos (toma la fecha más tardía)."""
+    raw = raw.strip().rstrip(".,;*").strip()
+    range_m = re.search(
+        r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}'
+        r'\s*[-–]\s*'
+        r'((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4})',
+        raw, re.I)
+    if range_m:
+        return range_m.group(1).strip()
+    qrange_m = re.search(r'Q[1-4]\s*\d{4}\s*[-–]\s*(Q[1-4]\s*\d{4})', raw, re.I)
+    if qrange_m:
+        return qrange_m.group(1).strip()
+    return raw[:60]
+
 def _detect_entrega(features, html=""):
     """Intenta extraer la fecha/trimestre de entrega desde las features o el HTML."""
-    patterns = [
-        r'(?:expected\s+ship(?:ping)?|ship(?:ping)?\s+date|estimated\s+delivery|pre.?order\s+ship[a-z]*|arrives?|release\s+date)\s*[:\-]?\s*([^\n<]{4,50})',
-        r'\b(Q[1-4]\s*\d{4}|\d{4}\s*Q[1-4])\b',
+    # Patrones con contexto — buscan la fecha después de una etiqueta específica
+    # Nota: incluye "Expected to Ship" (Sideshow) y variantes comunes
+    labeled_patterns = [
+        r'(?:expected\s+(?:to\s+)?ship(?:ping)?(?:\s+date)?'
+        r'|ship(?:ping)\s+date'
+        r'|estimated\s+(?:ship(?:ping)?|delivery)'
+        r'|pre.?order\s+ship[a-z]*'
+        r'|arrives?\s+(?:approx\.?)?'
+        r'|release\s+date'
+        r'|fecha\s+de\s+entrega'
+        r'|entrega\s+estimada'
+        r')\s*[:\-]?\s*([^\n<\|\*]{4,60})',
+    ]
+    # Patrones standalone — el valor ya es una fecha sin etiqueta
+    standalone_patterns = [
+        r'\b(Q[1-4][\s\-\/]?\d{4}|\d{4}[\s\-\/]?Q[1-4])\b',
         r'\b((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4})\b',
         r'\b((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?\s+\d{4})\b',
+        r'\b(\d{1,2}[\/\-]\d{4})\b',
     ]
-    sources = list(features or []) + ([html[:3000]] if html else [])
-    for src in sources:
-        for pat in patterns:
+
+    # 1. Buscar primero en features (texto limpio, más confiable)
+    for src in (features or []):
+        for pat in labeled_patterns + standalone_patterns:
             m = re.search(pat, src, re.I)
             if m:
-                return m.group(1).strip()[:60]
+                result = _detect_entrega_clean(m.group(1))
+                if len(result) >= 4:
+                    return result
+
+    # 2. Buscar en HTML/texto de sección (hasta 15000 chars)
+    if html:
+        for pat in labeled_patterns:
+            m = re.search(pat, html[:15000], re.I)
+            if m:
+                result = _detect_entrega_clean(m.group(1))
+                if 4 <= len(result) <= 60 and "<" not in result:
+                    return result
+        for pat in standalone_patterns:
+            m = re.search(pat, html[:15000], re.I)
+            if m:
+                result = _detect_entrega_clean(m.group(1))
+                if len(result) >= 4:
+                    return result
     return ""
 
 def search_product(catalog, query):
@@ -586,7 +714,8 @@ def _call_claude(api_key, prompt, foto_url=None):
     system_prompt = (
         "Eres un asistente que responde ÚNICAMENTE con JSON válido. "
         "Nunca agregues texto explicativo, nunca te niegues, nunca uses markdown. "
-        "Si los datos son escasos, inventa contenido plausible basado en el nombre del producto. "
+        "NUNCA inventes especificaciones técnicas (articulación, altura, materiales, puntos de articulación) "
+        "que no estén explícitamente en los datos del producto. "
         "Tu respuesta debe comenzar con '[' y terminar con ']'."
     )
 
@@ -681,7 +810,6 @@ def generate_ai_description(data, api_key):
         '  {"t":"notion-bulleted-list","x":"Altura: ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Escala: ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Materiales: ..."},\n'
-        '  {"t":"notion-bulleted-list","x":"Articulación: ..."},\n'
         '  {"t":"notion-heading-2","x":"Incluye"},\n'
         '  {"t":"notion-bulleted-list","x":"Cabeza esculpida con likeness de ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Vestuario: camisa ..., pantalón ..., etc."},\n'
@@ -700,6 +828,10 @@ def generate_ai_description(data, api_key):
         "  (Vestuario, Accesorios, Manos, Display) conservalas como bullets separados con ese prefijo.\n"
         "- Características: 5-7 bullets con lo más destacado de la pieza\n"
         f"{invent_rule}\n"
+        "- NUNCA pongas bullet de 'Articulación' a menos que las características mencionen explícitamente "
+        "puntos de articulación. Las estatuas, premium format, polystone y busts NO tienen articulación.\n"
+        "- NUNCA inventes altura, materiales, escala ni puntos de articulación si no están en los datos\n"
+        "- Omití cualquier bullet de specs que no puedas confirmar con los datos proporcionados\n"
         "- Respondé SOLO con el JSON array, sin markdown, sin texto adicional"
     )
     return _call_claude(api_key, prompt, foto_url if use_vision else None)
@@ -957,7 +1089,7 @@ class UVAdminApp:
     def __init__(self, root):
         self.root = root
         self.root.title("UV Store GT — Admin v4")
-        self.root.geometry("1080x860")
+        self.root.state("zoomed")
         self.root.configure(bg=BG3)
         self.root.resizable(True, True)
         self.cfg = load_config()
@@ -969,6 +1101,9 @@ class UVAdminApp:
         self._ef_destacado  = tk.BooleanVar(value=False)
         self._ef_oferta     = tk.BooleanVar(value=False)
         self._ef_adulto18   = tk.BooleanVar(value=False)
+        self._ef_agotado_r  = tk.BooleanVar(value=False)
+        self._ef_agotado_d  = tk.BooleanVar(value=False)
+        self._edit_photos_d = []
         self._add_destacado = tk.BooleanVar(value=False)
         self._add_oferta    = tk.BooleanVar(value=False)
         self._add_adulto18  = tk.BooleanVar(value=False)
@@ -991,6 +1126,10 @@ class UVAdminApp:
         tk.Label(hdr, text="  Admin Tool v4 — Multi-Proveedor", bg=BG3, fg=MUTED,
                  font=("Helvetica",11)).pack(side="left")
 
+        # Status bar (antes del notebook para que no quede tapada)
+        bar = tk.Frame(self.root, bg=BG2, pady=8)
+        bar.pack(side="bottom", fill="x", padx=12, pady=(0,8))
+
         # Notebook
         self.nb = ttk.Notebook(self.root)
         self.nb.pack(fill="both", expand=True, padx=12, pady=(0,8))
@@ -999,10 +1138,6 @@ class UVAdminApp:
         self._build_edit_tab()
         # Photos tab merged into Edit tab
         self._build_config_tab()
-
-        # Status bar
-        bar = tk.Frame(self.root, bg=BG2, pady=8)
-        bar.pack(fill="x", padx=12, pady=(0,8))
         self._status_var = tk.StringVar(value="Iniciando...")
         self._status_lbl = tk.Label(bar, textvariable=self._status_var,
                                     bg=BG2, fg=GREEN, font=("Helvetica",10), anchor="w")
@@ -1030,10 +1165,31 @@ class UVAdminApp:
         tk.Button(url_frame,text="Cargar",command=self._add_scrape,
                   bg=PURPLE,fg="white",font=("Helvetica",11,"bold"),relief="flat",padx=14,pady=6).pack(side="left",padx=4)
 
+        tk.Label(tab,
+            text="Proveedores soportados: Sideshow · Shopify (nonasea, lionrocktoyz, fanaticanimestore, statuecorp...) · OpenCart (onesixthkit) · WooCommerce · Entertainment Earth · BigBadToyStore · Genérico",
+            bg=BG,fg="#555",font=("Helvetica",9),anchor="w",wraplength=900,justify="left"
+        ).pack(side="bottom", fill="x",padx=16,pady=(4,0))
+
         # Main layout
         main = tk.Frame(tab, bg=BG); main.pack(fill="both", expand=True, padx=16)
         left = tk.Frame(main, bg=BG); left.pack(side="left", fill="y", padx=(0,16))
-        right = tk.Frame(main, bg=BG); right.pack(side="left", fill="both", expand=True)
+
+        # Right panel — scrolleable
+        right_outer = tk.Frame(main, bg=BG); right_outer.pack(side="left", fill="both", expand=True)
+        add_canvas = tk.Canvas(right_outer, bg=BG, highlightthickness=0)
+        add_vsb = tk.Scrollbar(right_outer, orient="vertical", command=add_canvas.yview)
+        add_canvas.configure(yscrollcommand=add_vsb.set)
+        add_vsb.pack(side="right", fill="y")
+        add_canvas.pack(side="left", fill="both", expand=True)
+        right = tk.Frame(add_canvas, bg=BG)
+        add_win = add_canvas.create_window((0, 0), window=right, anchor="nw")
+        def _on_add_configure(e): add_canvas.configure(scrollregion=add_canvas.bbox("all"))
+        def _on_add_canvas_configure(e): add_canvas.itemconfig(add_win, width=e.width)
+        def _on_add_mousewheel(e): add_canvas.yview_scroll(int(-1*(e.delta/120)), "units")
+        right.bind("<Configure>", _on_add_configure)
+        add_canvas.bind("<Configure>", _on_add_canvas_configure)
+        add_canvas.bind("<Enter>", lambda e: add_canvas.bind_all("<MouseWheel>", _on_add_mousewheel))
+        add_canvas.bind("<Leave>", lambda e: add_canvas.unbind_all("<MouseWheel>"))
 
         self.add_preview = PhotoPreview(left)
         self.add_preview.pack()
@@ -1119,20 +1275,19 @@ class UVAdminApp:
                   command=self._add_gen_ai,
                   bg="#2d1a4a",fg="#b97aff",font=("Helvetica",9,"bold"),relief="flat",padx=10,pady=3)
         self.add_ai_btn.pack(side="left",padx=(10,0))
-        self.add_ai_txt = tk.Text(right,height=13,bg=BG2,fg=TEXT,font=("Helvetica",10),
+        ai_txt_frame = tk.Frame(right,bg=BG2,relief="flat",bd=0)
+        ai_txt_frame.grid(row=11,column=0,columnspan=3,sticky="ew",pady=(2,2))
+        ai_txt_frame.columnconfigure(0,weight=1)
+        self.add_ai_txt = tk.Text(ai_txt_frame,height=13,bg=BG2,fg=TEXT,font=("Helvetica",10),
                                    relief="flat",bd=6,wrap="word",insertbackground=TEXT)
-        self.add_ai_txt.grid(row=11,column=0,columnspan=3,sticky="ew",pady=(2,2))
+        ai_txt_sb = tk.Scrollbar(ai_txt_frame,orient="vertical",command=self.add_ai_txt.yview)
+        self.add_ai_txt.configure(yscrollcommand=ai_txt_sb.set)
+        self.add_ai_txt.grid(row=0,column=0,sticky="ew")
+        ai_txt_sb.grid(row=0,column=1,sticky="ns")
 
-        # Platforms info
-        info = tk.Label(tab,
-            text="Proveedores soportados: Sideshow · Shopify (nonasea, lionrocktoyz, fanaticanimestore, statuecorp...) · OpenCart (onesixthkit) · WooCommerce · Entertainment Earth · BigBadToyStore · Genérico",
-            bg=BG,fg="#555",font=("Helvetica",9),anchor="w",wraplength=900,justify="left")
-        info.pack(fill="x",padx=16,pady=(4,0))
-
-        # Add button
-        tk.Button(tab,text="  + Agregar al Catálogo  ",command=self._add_confirm,
+        tk.Button(right,text="  + Agregar al Catálogo  ",command=self._add_confirm,
                   bg=PURPLE,fg="white",font=("Helvetica",12,"bold"),relief="flat",
-                  padx=20,pady=10).pack(pady=12)
+                  padx=20,pady=10).grid(row=12,column=0,columnspan=3,sticky="w",pady=(14,8))
 
     # ── TAB 2: EDITAR FIGURA ──────────────────────────────────────────────────
 
@@ -1295,9 +1450,42 @@ class UVAdminApp:
                                         relief="flat",bd=6,wrap="word",insertbackground=TEXT)
         self.ef_features_txt.grid(row=14,column=0,columnspan=4,sticky="ew",pady=(2,2))
 
-        # Preview
+        # Preview (fotos regulares)
         self.edit_preview = PhotoPreview(form_frame, w=280, h=220)
         self.edit_preview.grid(row=15,column=0,columnspan=4,sticky="w",pady=(8,8))
+
+        # ── VERSIÓN DELUXE ────────────────────────────────────────────────────
+        tk.Label(form_frame,text="── Versión Deluxe ──",bg=BG,fg=PURPLE,
+                 font=("Helvetica",9,"bold")).grid(row=16,column=0,columnspan=4,sticky="w",pady=(14,4))
+
+        # Checkboxes agotado
+        dlx_chk_frame = tk.Frame(form_frame,bg=BG)
+        dlx_chk_frame.grid(row=17,column=0,columnspan=4,sticky="w",pady=(0,6))
+        tk.Checkbutton(dlx_chk_frame,text="Regular agotada",variable=self._ef_agotado_r,
+                       bg=BG,fg="#fbbf24",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold")).pack(side="left",padx=(0,16))
+        tk.Checkbutton(dlx_chk_frame,text="Deluxe agotada",variable=self._ef_agotado_d,
+                       bg=BG,fg="#888",selectcolor=BG2,activebackground=BG,
+                       font=("Helvetica",9,"bold")).pack(side="left")
+
+        # Fotos Deluxe label + botones
+        tk.Label(form_frame,text="Fotos Deluxe:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=18,column=0,sticky="nw",pady=(4,2))
+        self.edit_fotos_d_lbl = tk.Label(form_frame,text="Sin fotos Deluxe",bg=BG,fg=MUTED,font=("Helvetica",10))
+        self.edit_fotos_d_lbl.grid(row=18,column=1,sticky="w",pady=(4,2),padx=(8,0))
+
+        dlx_btn_frame = tk.Frame(form_frame,bg=BG)
+        dlx_btn_frame.grid(row=19,column=0,columnspan=4,sticky="w",pady=(4,0))
+        tk.Button(dlx_btn_frame,text="📁 Subir fotos Deluxe desde PC",command=self._edit_upload_local_d,
+                  bg=BG4,fg=TEXT,font=("Helvetica",10),relief="flat",padx=10,pady=5).pack(side="left",padx=(0,8))
+        tk.Button(dlx_btn_frame,text="🔗 Cargar fotos Deluxe desde URL",command=self._edit_load_url_photos_d,
+                  bg=BG4,fg=TEXT,font=("Helvetica",10),relief="flat",padx=10,pady=5).pack(side="left",padx=(0,8))
+        self.edit_photo_d_url_var = tk.StringVar()
+        tk.Entry(dlx_btn_frame,textvariable=self.edit_photo_d_url_var,bg=BG2,fg=TEXT,
+                 font=("Helvetica",10),relief="flat",bd=6,insertbackground=TEXT,width=40).pack(side="left",padx=(0,8))
+
+        # Preview fotos Deluxe
+        self.edit_preview_d = PhotoPreview(form_frame, w=280, h=220)
+        self.edit_preview_d.grid(row=20,column=0,columnspan=4,sticky="w",pady=(8,8))
 
         # Load all products on start
         self._edit_all_results = []
@@ -1308,7 +1496,27 @@ class UVAdminApp:
     def _build_config_tab(self):
         tab = tk.Frame(self.nb, bg=BG); self.nb.add(tab, text="  ⚙  Configuración  ")
 
-        content = tk.Frame(tab,bg=BG,padx=32,pady=24); content.pack(fill="both",expand=True)
+        # Canvas con scrollbar para que no se corte el contenido
+        canvas = tk.Canvas(tab, bg=BG, highlightthickness=0)
+        scrollbar = tk.Scrollbar(tab, orient="vertical", command=canvas.yview)
+        canvas.configure(yscrollcommand=scrollbar.set)
+        scrollbar.pack(side="right", fill="y")
+        canvas.pack(side="left", fill="both", expand=True)
+
+        content = tk.Frame(canvas, bg=BG, padx=32, pady=24)
+        content_window = canvas.create_window((0, 0), window=content, anchor="nw")
+
+        def _on_frame_configure(e):
+            canvas.configure(scrollregion=canvas.bbox("all"))
+        def _on_canvas_configure(e):
+            canvas.itemconfig(content_window, width=e.width)
+        def _on_mousewheel(e):
+            canvas.yview_scroll(int(-1*(e.delta/120)), "units")
+
+        content.bind("<Configure>", _on_frame_configure)
+        canvas.bind("<Configure>", _on_canvas_configure)
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
+
         content.columnconfigure(1,weight=1)
 
         def cfg_field(label, var, row, show=""):
@@ -1474,10 +1682,9 @@ class UVAdminApp:
             self._status(f"Precio detectado: USD {data['precio_sugerido']} → poné el precio en Q", ORANGE)
         self.add_preview.set_photos(data["fotos"])
         self.add_ai_txt.delete("1.0","end")
-        # Auto-detectar entrega estimada
-        entrega_det = _detect_entrega(data.get("features",[]))
-        if entrega_det:
-            self.add_entrega_var.set(entrega_det)
+        # Entrega estimada detectada en el scrape
+        if data.get("entrega"):
+            self.add_entrega_var.set(data["entrega"])
         translated = " · Traducido ✓" if data.get("traducido") else ""
         self._status(f"✅  {len(data['fotos'])} fotos encontradas{translated}", GREEN)
         # Auto-generar descripción con IA si hay API key
@@ -1638,6 +1845,13 @@ class UVAdminApp:
         self.edit_fotos_lbl.config(text=f"{len(fotos)} fotos" if fotos else "Sin fotos")
         self._edit_photos = list(fotos)
         self.edit_preview.set_photos(self._edit_photos)
+        # Deluxe fields
+        self._ef_agotado_r.set(bool(p.get("agotado_r", False)))
+        self._ef_agotado_d.set(bool(p.get("agotado_d", False)))
+        fotos_d = p.get("fotos_d", [])
+        self._edit_photos_d = list(fotos_d)
+        self.edit_preview_d.set_photos(self._edit_photos_d)
+        self.edit_fotos_d_lbl.config(text=f"{len(fotos_d)} fotos Deluxe" if fotos_d else "Sin fotos Deluxe")
 
     def _edit_upload_local(self):
         """Upload local images to Imgur and add to current edit."""
@@ -1675,6 +1889,44 @@ class UVAdminApp:
                 self._status(f"✅ {len(uploaded)} imágenes subidas a Imgur", GREEN)
             self.root.after(0, finish)
 
+    def _edit_upload_local_d(self):
+        """Upload local images to Imgur and add to Deluxe photos."""
+        client_id = self.cfg.get("imgur_client_id","")
+        if not client_id:
+            messagebox.showwarning("Sin Imgur Client ID",
+                "Configurá tu Imgur Client ID en la pestaña ⚙ Configuración primero.")
+            return
+        paths = filedialog.askopenfilenames(
+            title="Seleccioná imágenes Deluxe",
+            filetypes=[("Imágenes","*.jpg *.jpeg *.png *.webp *.gif"),("Todos los archivos","*.*")])
+        if not paths: return
+        self._status(f"⏳ Subiendo {len(paths)} imágenes Deluxe a Imgur...", ORANGE)
+        threading.Thread(target=self._run_imgur_upload_d, args=(paths,), daemon=True).start()
+
+    def _run_imgur_upload_d(self, paths):
+        uploaded = []
+        for i, path in enumerate(paths):
+            try:
+                self.root.after(0, lambda i=i: self._status(f"⏳ Subiendo Deluxe {i+1}/{len(paths)}...", ORANGE))
+                url = upload_to_imgur(path, self.cfg.get("imgur_client_id",""))
+                uploaded.append(url)
+            except Exception as e:
+                self.root.after(0, lambda e=e: self._status(f"❌ Error subiendo imagen Deluxe: {e}", RED))
+        if uploaded:
+            def finish():
+                self._edit_photos_d.extend(uploaded)
+                self.edit_preview_d.set_photos(self._edit_photos_d)
+                self.edit_fotos_d_lbl.config(text=f"{len(self._edit_photos_d)} fotos Deluxe")
+                self._status(f"✅ {len(uploaded)} imágenes Deluxe subidas a Imgur", GREEN)
+            self.root.after(0, finish)
+
+    def _edit_load_url_photos_d(self):
+        url = self.edit_photo_d_url_var.get().strip()
+        if not url: return
+        if not url.startswith("http"): url = "https://" + url
+        self._status("⏳ Cargando fotos Deluxe desde URL...", ORANGE)
+        threading.Thread(target=self._run_scrape_photos, args=(url, "edit_d"), daemon=True).start()
+
     def _edit_load_url_photos(self):
         url = self.edit_photo_url_var.get().strip()
         if not url: return
@@ -1692,6 +1944,10 @@ class UVAdminApp:
                     self._edit_photos.extend(photos)
                     self.edit_preview.set_photos(self._edit_photos)
                     self.edit_fotos_lbl.config(text=f"{len(self._edit_photos)} fotos")
+                elif target == "edit_d":
+                    self._edit_photos_d.extend(photos)
+                    self.edit_preview_d.set_photos(self._edit_photos_d)
+                    self.edit_fotos_d_lbl.config(text=f"{len(self._edit_photos_d)} fotos Deluxe")
                 else:
                     self._upd_photos = photos
                     self.upd_preview.set_photos(photos)
@@ -1737,11 +1993,18 @@ class UVAdminApp:
             "franquicia": self.ef_franquicia.get().strip(),
             "destacado":  self._ef_destacado.get(),
             "oferta":     self._ef_oferta.get(),
+            "agotado_r":  self._ef_agotado_r.get(),
+            "agotado_d":  self._ef_agotado_d.get(),
             "content":    blocks,
         }
         if self._edit_photos:
             fields["fotos"] = self._edit_photos
             fields["i"] = self._edit_photos[0]
+        if self._edit_photos_d:
+            fields["fotos_d"] = self._edit_photos_d
+        elif not self.ef_precio_d.get().strip():
+            # Si se borró el precio Deluxe, limpiar fotos_d también
+            fields["fotos_d"] = []
 
         try:
             if new_cat != old_cat:
