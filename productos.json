@@ -25559,6 +25559,100 @@
         "destacado": false,
         "oferta": false,
         "added_at": "2026-03-29T12:37:27.505475"
+      },
+      {
+        "id": "wolverinepool",
+        "n": "Wolverinepool",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd3245c32ef.jpg",
+        "l": "",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "estado": "Sellado",
+        "disp": "Pre-Orden",
+        "precio": "3600",
+        "reserva": "720",
+        "entrega": "Octubre 2026",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Wolverinepool es la fusión definitiva entre dos de los personajes más icónicos de Marvel: la actitud irreverente y el humor sarcástico de Deadpool combinados con la ferocidad y brutalidad de Wolverine. Inspirada en el concepto art del éxito de taquilla Deadpool & Wolverine, esta variante única representa la imaginación sin límites del universo Marvel llevada a la vida en forma de coleccionable premium.\n\nHot Toys presenta esta figura coleccionable a escala 1/6 con una detalla meticulosa que captura la esencia de este mashup legendario. Cada elemento ha sido cuidadosamente diseñado para ofrecerle a los fans una pieza que refleje la naturaleza caótica y poderosa del personaje, con múltiples opciones de customización para recrear diferentes expresiones y poses de combate."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6th"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Marca: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Serie: Movie Masterpiece Series - Deadpool & Wolverine"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado de Wolverinepool"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza enmascarada con sistema de intercambio de piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres pares de piezas intercambiables para los ojos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ocho manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos especializadas para sostener katanas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos especializadas para sostener pistolas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de puños cerrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño basado en el concepto art oficial de la película Deadpool & Wolverine"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples opciones de expresiones faciales intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de manos intercambiables para diversas poses de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones de cuerpo completo para posicionamiento dinámico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados y detalles meticulosos típicos de Hot Toys"
+          }
+        ],
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd3245c32ef.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-scale-69cd33e497788.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd324616cb9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd32465d6d1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd3246a6e31.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd3246ef389.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd324775735.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd3247ea5e9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd3248b16da.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd32490648b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd32494f4e2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915494/hot-toys-marvel-wolverinepool-sixth-scale-figure-gallery-69cd324997353.jpg"
+        ]
       }
     ]
   },
