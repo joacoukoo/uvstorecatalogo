@@ -738,9 +738,9 @@ async function fetchViaWorker(url) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ url, secret: cfg.workerSecret }),
   });
-  if (!r.ok) throw new Error(`Worker error: ${r.status}`);
-  const d = await r.json();
+  const d = await r.json().catch(() => ({}));
   if (d.error) throw new Error(d.error);
+  if (!r.ok) throw new Error(`Worker error: ${r.status}`);
   return { html: d.html, finalUrl: d.finalUrl || url };
 }
 
