@@ -698,9 +698,10 @@ async function loadCatalog() {
     // Download raw content (no size limit)
     const branch = cfg.ghBranch || "main";
     const rawUrl = `https://raw.githubusercontent.com/${cfg.ghRepo}/${branch}/productos.json?t=${Date.now()}`;
-    const r = await fetch(rawUrl, { headers: { Authorization: `token ${cfg.ghToken}` } });
-    if (!r.ok) throw new Error(`Error descargando: ${r.status}`);
+    const r = await fetch(rawUrl);
+    if (!r.ok) throw new Error(`Error descargando raw: ${r.status}`);
     const json = await r.text();
+    s.textContent = `Descargado: ${json.length} bytes, inicia: ${json.substring(0,20)}`;
     catalog = JSON.parse(json);
 
     s.textContent = `Catálogo cargado: ${Object.values(catalog).reduce((a,c)=>a+c.products.length,0)} figuras.`;
