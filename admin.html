@@ -637,23 +637,39 @@ function initCatSelects() {
 // ══════════════════════════════════════════════
 // GITHUB API
 // ══════════════════════════════════════════════
-async function ghGet(path) {
-  const r = await fetch(`https://api.github.com/repos/${cfg.ghRepo}/contents/${path}`, {
+async function ghFetch(apiPath) {
+  const r = await fetch(`https://api.github.com/repos/${cfg.ghRepo}/${apiPath}`, {
     headers: {
       Authorization: `token ${cfg.ghToken}`,
       Accept: "application/vnd.github.v3+json",
     }
   });
-  if (!r.ok) throw new Error(`GitHub GET ${path}: ${r.status}`);
+  if (!r.ok) throw new Error(`GitHub ${apiPath}: ${r.status}`);
   return r.json();
 }
 
+// Get blob SHA for a file path using Git Tree API (works for files of any size)
+async function getFileSha(filePath) {
+  const branch = cfg.ghBranch || "main";
+  const ref  = await ghFetch(`git/refs/heads/${branch}`);
+  const commit = await ghFetch(`git/commits/${ref.object.sha}`);
+  const tree   = await ghFetch(`git/trees/${commit.tree.sha}`);
+  const entry  = tree.tree.find(f => f.path === filePath);
+  if (!entry) throw new Error(`${filePath} no encontrado`);
+  return entry.sha;
+}
+
 async function ghPut(path, content, sha, message) {
-  const body = {
-    message,
-    content: btoa(String.fromCharCode(...new TextEncoder().encode(content))),
-    branch: cfg.ghBranch || "main",
-  };
+  // Encode UTF-8 content to base64
+  const bytes = new TextEncoder().encode(content);
+  let b64 = "";
+  const chunk = 8192;
+  for (let i = 0; i < bytes.length; i += chunk) {
+    b64 += String.fromCharCode(...bytes.subarray(i, i + chunk));
+  }
+  b64 = btoa(b64);
+
+  const body = { message, content: b64, branch: cfg.ghBranch || "main" };
   if (sha) body.sha = sha;
   const r = await fetch(`https://api.github.com/repos/${cfg.ghRepo}/contents/${path}`, {
     method: "PUT",
@@ -676,12 +692,17 @@ async function loadCatalog() {
   if (!cfg.ghToken || !cfg.ghRepo) { s.textContent = "Configura GitHub primero."; return; }
   s.textContent = "Cargando catálogo...";
   try {
-    const data = await ghGet("productos.json");
-    catalogSha = data.sha;
-    const b64 = data.content.replace(/\s/g, "");
-    const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
-    const json = new TextDecoder("utf-8").decode(bytes);
+    // Get blob SHA via Git Tree API (works for files > 1MB)
+    catalogSha = await getFileSha("productos.json");
+
+    // Download raw content (no size limit)
+    const branch = cfg.ghBranch || "main";
+    const rawUrl = `https://raw.githubusercontent.com/${cfg.ghRepo}/${branch}/productos.json?t=${Date.now()}`;
+    const r = await fetch(rawUrl, { headers: { Authorization: `token ${cfg.ghToken}` } });
+    if (!r.ok) throw new Error(`Error descargando: ${r.status}`);
+    const json = await r.text();
     catalog = JSON.parse(json);
+
     s.textContent = `Catálogo cargado: ${Object.values(catalog).reduce((a,c)=>a+c.products.length,0)} figuras.`;
     initCatSelects();
     renderProdList("");
