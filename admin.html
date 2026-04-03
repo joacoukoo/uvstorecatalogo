@@ -651,7 +651,7 @@ async function ghGet(path) {
 async function ghPut(path, content, sha, message) {
   const body = {
     message,
-    content: btoa(unescape(encodeURIComponent(content))),
+    content: btoa(String.fromCharCode(...new TextEncoder().encode(content))),
     branch: cfg.ghBranch || "main",
   };
   if (sha) body.sha = sha;
@@ -678,7 +678,9 @@ async function loadCatalog() {
   try {
     const data = await ghGet("productos.json");
     catalogSha = data.sha;
-    const json = decodeURIComponent(escape(atob(data.content.replace(/\n/g,""))));
+    const b64 = data.content.replace(/\s/g, "");
+    const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+    const json = new TextDecoder("utf-8").decode(bytes);
     catalog = JSON.parse(json);
     s.textContent = `Catálogo cargado: ${Object.values(catalog).reduce((a,c)=>a+c.products.length,0)} figuras.`;
     initCatSelects();
