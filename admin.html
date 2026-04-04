@@ -1003,7 +1003,7 @@ function scrapeSideshow(doc, html, baseUrl) {
     }
   }
 
-  data._debug.push("features: " + data.features.length + " | desc: " + (data.descripcion ? "OK" : "vacía"));
+  data._debug.push("features: " + data.features.length + " | desc: " + (data.descripcion ? "OK" : "vacía") + " | entrega: " + (data.entrega || "no"));
   return data;
 }
 
@@ -1487,6 +1487,7 @@ async function doSaveProduct() {
     n: nombre, i: fotos[0] || oldProd.i || "",
     marca, escala, estado, disp,
     precio, reserva, entrega, content, fotos,
+    added_at: oldProd.added_at || new Date().toISOString(),
   };
   if (precioD) {
     updProd.precio_d = precioD;
