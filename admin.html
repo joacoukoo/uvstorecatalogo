@@ -839,17 +839,18 @@ function scrapeSideshow(doc, html, baseUrl) {
   // ── 2. Fotos — patrón storage/product-images/{sku}/ (igual que admin desktop) ──
   if (sku) {
     // Deduplicar por filename para evitar el mismo archivo con distintas rutas/CDN
-    const seenFn = new Set();
+    const seenPath = new Set();
     function addSkuImg(src) {
       const resolved = resolveUrl(src);
       if (!resolved || resolved.includes("placeholder")) return;
-      // Normalizar: quitar sufijos de tamaño como -thumb, -large, -1200, _800x600, etc.
-      const fn = resolved.split("/").pop().split("?")[0]
-        .replace(/[-_](thumb|thumbnail|small|medium|large|full|\d+x\d+|\d{3,4})(?=\.)/i, "");
-      if (seenFn.has(fn)) return;
-      seenFn.add(fn);
-      const cdn = resolved.includes("cdn-cgi") ? resolved
-        : `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${resolved}`;
+      // Deduplicar por ruta limpia (sin CDN wrapper ni query params)
+      const cleanPath = resolved
+        .replace(/^https?:\/\/[^/]+\/cdn-cgi\/image\/[^/]+\//, "")
+        .split("?")[0];
+      if (seenPath.has(cleanPath)) return;
+      seenPath.add(cleanPath);
+      const cdn = cleanPath.includes("cdn-cgi") ? cleanPath
+        : `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${cleanPath}`;
       data.fotos.push(cdn);
     }
 
