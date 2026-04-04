@@ -9545,6 +9545,108 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "kitt-el-auto-fantastico",
+        "n": "Kitt - El Auto Fantástico",
+        "i": "https://jazzincdioramas-images.s3.us-west-1.amazonaws.com/3480/conversions/HD-KNIGHT-RIDER-KITT-PROMOTIONAL-PHOTO-01-SDX-preview.jpg",
+        "l": "https://jazzincdioramas.com/1-6-scale/kitt-knight-rider-16-scale-vehicle-signature-dx-limited-edition-collectible-david-hasselhoff",
+        "marca": "Factory Entertainment",
+        "escala": "1:6 - 82CM",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "24800",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "4960",
+        "entrega": "Julio 2028",
+        "cantidad": "1",
+        "fotos": [
+          "https://jazzincdioramas-images.s3.us-west-1.amazonaws.com/3480/conversions/HD-KNIGHT-RIDER-KITT-PROMOTIONAL-PHOTO-01-SDX-preview.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Knight Rider es uno de los íconos televisivos más icónicos de los años 80. Esta figura de colección premium captura la esencia del legendario KITT, el auto inteligente que revolucionó la televisión estadounidense. Factory Entertainment trae a vida esta máquina de dos toneladas de sofisticación futurista con una propuesta de coleccionable de alto nivel que honra la serie original."
+          },
+          {
+            "t": "notion-text",
+            "x": "La escultura presenta un detallado acabado en negro brillante que refleja los diseños aeronáuticos del famoso Pontiac Firebird transformado. Cada línea y curva del vehículo ha sido meticulosamente recreada para capturar la presencia intimidante y elegante que caracterizó a KITT durante toda la serie. Los detalles del scanner frontal y la arquitectura clásica de los años 80 se representan con fidelidad cinematográfica."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta colección premium es un tributo perfecto para aficionados de la ciencia ficción retro y coleccionistas de memorabilia televisiva. KITT representa una era dorada de entretenimiento donde la tecnología y el drama se entrelazaban de manera cautivadora, y esta figura permite traer ese universo nostálgico directamente a tu espacio de exhibición."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Knight Rider"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Factory Entertainment"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura de colección premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Ciencia ficción / Drama televisivo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Universo Knight Rider"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 82 cm"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reproducción fiel del Pontiac Firebird transformado en KITT"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado en negro premium con detalles de scanner frontal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tamaño de exhibición impresionante a escala 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza coleccionable de Factory Entertainment"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Perfecto para aficionados de series clásicas y ciencia ficción retro"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-03T23:03:52.998861"
+      },
+      {
         "id": "gimli-son-of-gloin",
         "n": "Gimli son of Gloin",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-GIMLI_1ff64fe7-835b-41dd-a62c-84b6c94a36e7.png?v=1775156585",
