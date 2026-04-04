@@ -32540,6 +32540,75 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "asuka",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/35e85cf3ea5363591f9eea0c4f472b7e.png?v=1775215051",
+        "l": "https://statuecorp.com/products/night-wing-asuka",
+        "marca": "",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "840",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/35e85cf3ea5363591f9eea0c4f472b7e.png?v=1775215051",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/884e8192396f3b60b872274f84b44a6c.png?v=1775215051",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/da8de80d778edc5bdfb6d6aac098b4ea.png?v=1775215051",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/005a57b2da7bfced0b59969a783b726a.png?v=1775215051"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Night Wings - Asuka es una figura coleccionable premium que captura la esencia del personaje en una escala 1:6, presentando una edición limitada de 168 piezas. Esta pieza representa un trabajo meticuloso de escultura y diseño, destinada a coleccionistas que aprecian la calidad y la fidelidad artística en sus adquisiciones."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada detalle ha sido cuidadosamente trabajado para reflejar la personalidad y estética del personaje. La figura combina técnicas avanzadas de esculpido con acabados de precisión, resultando en una pieza que destaca por su nivel de detalle y autenticidad."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta es una propuesta única para coleccionistas exigentes que buscan expandir sus galerías con personajes icónicos. La edición limitada garantiza exclusividad y valor en el tiempo, consolidando a Night Wings - Asuka como una pieza de referencia en cualquier colección premium."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 168 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Segundo trimestre de 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-03T22:35:48.657875"
+      },
+      {
         "id": "pre-order-spidera-studio-1-6-asaku-kakudate-kari",
         "n": "Asaku & Kakudate Kari",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17455/355863/IMG_7896__46049.1773733018.JPG?c=2",
