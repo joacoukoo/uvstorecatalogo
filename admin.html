@@ -926,14 +926,38 @@ function scrapeSideshow(doc, html, baseUrl) {
     });
   }
 
+  // Buscar por clase exacta primero
   const inBox = doc.querySelector(".product-details-in-the-box");
-  if (inBox) { addListItems(inBox); data._debug.push("in-the-box: OK"); }
+  if (inBox) { addListItems(inBox); data._debug.push("in-the-box: clase OK"); }
 
+  // Buscar "What's In The Box" por texto del heading — sin depender de la clase
+  if (!inBox) {
+    doc.querySelectorAll("h2, h3, h4, [class*='title'], [class*='heading'], [class*='label']").forEach(heading => {
+      if (!/what.?s\s+in\s+the\s+box|in\s+the\s+box|box\s+content/i.test(heading.textContent)) return;
+      // Buscar el contenedor padre que tenga listas
+      let container = heading.parentElement;
+      for (let i = 0; i < 4 && container; i++) {
+        if (container.querySelectorAll("li").length > 0) { addListItems(container); break; }
+        container = container.parentElement;
+      }
+      // Si no encontró listas, buscar el siguiente sibling con listas
+      if (!container || container.querySelectorAll("li").length === 0) {
+        let sib = heading.nextElementSibling;
+        for (let i = 0; i < 5 && sib; i++) {
+          if (sib.querySelectorAll("li").length > 0) { addListItems(sib); break; }
+          sib = sib.nextElementSibling;
+        }
+      }
+    });
+    if (data.features.length) data._debug.push("in-the-box: texto heading OK");
+  }
+
+  // Secciones de detalles/specs por clase
   doc.querySelectorAll(".product-details-section").forEach(section => {
     const titleEl = section.querySelector(".product-details-section__title");
     if (!titleEl) return;
     const title = titleEl.textContent.trim().toLowerCase();
-    if (!["detail","feature","spec"].some(k => title.includes(k))) return;
+    if (!["detail","feature","spec","box","include"].some(k => title.includes(k))) return;
     const content = section.querySelector(".product-details-section__content, .ui-dropdown--content");
     if (!content) return;
     addListItems(content);
@@ -944,6 +968,17 @@ function scrapeSideshow(doc, html, baseUrl) {
       }
     });
   });
+
+  // Fallback: cualquier sección con heading que mencione "box", "include", "detail", "spec"
+  if (data.features.length < 3) {
+    doc.querySelectorAll("section, [class*='section'], [class*='accordion'], [class*='panel']").forEach(section => {
+      const heading = section.querySelector("h2,h3,h4,[class*='title']");
+      if (!heading) return;
+      const t = heading.textContent.trim().toLowerCase();
+      if (!["box","include","detail","spec","feature"].some(k => t.includes(k))) return;
+      addListItems(section);
+    });
+  }
 
   // ── 8. Marca — fallback HTML crudo ──
   if (!data.marca) {
