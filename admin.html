@@ -758,13 +758,11 @@ function parseDoc(html) {
 function detectEntregaClean(raw) {
   if (!raw) return "";
   raw = raw.replace(/[\*\.\s]+$/, "").trim();
-  // Range like "Dec 2026 - Mar 2027" → take later
+  // Range like "Jan 2025 - Apr 2025" → take the earlier (start of window)
   const rangeM = raw.match(/([A-Za-z]+\.?\s+\d{4})\s*[-–—]\s*([A-Za-z]+\.?\s+\d{4})/);
-  if (rangeM) {
-    const d1 = new Date(rangeM[1].replace(".", ""));
-    const d2 = new Date(rangeM[2].replace(".", ""));
-    raw = (!isNaN(d2) && d2 > d1) ? rangeM[2] : rangeM[1];
-  }
+  if (rangeM) raw = rangeM[1];
+  const qRangeM = raw.match(/(Q[1-4]\s*\d{4})\s*[-–—]\s*(Q[1-4]\s*\d{4})/i);
+  if (qRangeM) raw = qRangeM[1];
   // Normalize month abbreviations to Spanish
   const MES = {
     jan:"Ene.", feb:"Feb.", mar:"Mar.", apr:"Abr.", may:"May.", jun:"Jun.",
@@ -949,32 +947,55 @@ function scrapeSideshow(doc, html, baseUrl) {
     if (m) data.marca = m[1].trim();
   }
 
-  // ── 9. Fecha de entrega ──
-  // Primero buscar en HTML crudo (más confiable para Sideshow)
-  const shipPatterns = [
-    /Expected\s+to\s+Ship\s*[:\-]?\s*([A-Za-z]+\s+\d{4})/i,
-    /expectedShipDate["\s]*[=:]\s*["']([^"']+)["']/i,
-    /"shipDate"\s*:\s*"([^"]+)"/i,
-    /Estimated\s+Arrival[:\-]?\s*([A-Za-z]+\s+\d{4})/i,
-  ];
-  for (const re of shipPatterns) {
-    const m = html.match(re);
-    if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
-  }
+  // ── 9. Fecha de entrega — buscar en features primero, luego HTML ──
   if (!data.entrega) {
-    const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
-    let node;
-    while ((node = walker.nextNode())) {
-      if (/Expected\s+to\s+Ship/i.test(node.textContent)) {
-        let text = node.textContent;
-        if (node.parentElement) {
-          const p = node.parentElement.textContent;
-          if (p.length < 200) text = p;
-          if (p.length < 20 && node.parentElement.parentElement)
-            text = node.parentElement.parentElement.textContent;
-        }
-        const m = text.match(/Expected\s+to\s+Ship\s*[:\-]?\s*(.{3,60?})/i);
+    const labeledRe = /(?:expected\s+(?:to\s+)?ship(?:ping)?(?:\s+date)?|ship(?:ping)\s+date|estimated\s+(?:ship|delivery)|release\s+date)\s*[:\-]?\s*([^\n<|*]{4,60})/i;
+    const standaloneRes = [
+      /\b(Q[1-4][\s\-/]?\d{4}|\d{4}[\s\-/]?Q[1-4])\b/i,
+      /\b((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4})\b/i,
+      /\b((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?\s+\d{4})\b/i,
+    ];
+
+    // 1. Buscar en features
+    for (const f of data.features) {
+      const m = f.match(labeledRe);
+      if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
+      for (const re of standaloneRes) {
+        const m2 = f.match(re);
+        if (m2) { data.entrega = detectEntregaClean(m2[1].trim()); break; }
+      }
+      if (data.entrega) break;
+    }
+
+    // 2. Buscar en HTML crudo
+    if (!data.entrega) {
+      const htmlSnip = html.slice(0, 20000);
+      const m = htmlSnip.match(labeledRe);
+      if (m) data.entrega = detectEntregaClean(m[1].trim());
+    }
+    if (!data.entrega) {
+      for (const re of standaloneRes) {
+        const m = html.slice(0, 20000).match(re);
         if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
+      }
+    }
+
+    // 3. TreeWalker sobre el DOM
+    if (!data.entrega) {
+      const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+      let node;
+      while ((node = walker.nextNode())) {
+        if (/Expected\s+to\s+Ship/i.test(node.textContent)) {
+          let text = node.textContent;
+          if (node.parentElement) {
+            const p = node.parentElement.textContent;
+            if (p.length < 300) text = p;
+            if (p.length < 25 && node.parentElement.parentElement)
+              text = node.parentElement.parentElement.textContent;
+          }
+          const m = text.match(/Expected\s+to\s+Ship\s*[:\-]?\s*(.{3,60})/i);
+          if (m) { data.entrega = detectEntregaClean(m[1].trim()); break; }
+        }
       }
     }
   }
