@@ -1250,7 +1250,13 @@ async function doAiDesc(prefix) {
 
   const sysPrompt = `Eres redactor de fichas para UV Store Guatemala, tienda de figuras de colección premium.
 Dado el nombre, marca, escala, características y descripción original (puede estar en inglés), genera una ficha en español latinoamericano.
-Si hay una descripción_original en inglés, traducila y expandila. Extrae de ella cualquier dato útil (qué incluye, materiales, tamaño, articulaciones, etc.) para completar las características.
+
+PROCESO:
+1. Traducí y expandí la descripción_original en español (2-3 párrafos atractivos sobre el personaje y la figura).
+2. Extraé de la descripción_original TODOS los ítems mencionados como incluidos (accesorios, partes intercambiables, cabezas, armas, display stand, ropa, etc.) y ponerlos en la sección "Incluye".
+3. Extraé especificaciones técnicas (altura, escala, materiales, puntos de articulación si los menciona).
+4. Usá las características scrapeadas como base adicional.
+
 Responde SOLO con un JSON array de bloques de contenido:
 [
   {"t":"notion-heading-2","x":"Descripción"},
@@ -1258,17 +1264,20 @@ Responde SOLO con un JSON array de bloques de contenido:
   {"t":"notion-heading-2","x":"Especificaciones"},
   {"t":"notion-bulleted-list","x":"Altura: ..."},
   {"t":"notion-bulleted-list","x":"Escala: ..."},
+  {"t":"notion-bulleted-list","x":"Materiales: ..."},
   {"t":"notion-heading-2","x":"Incluye"},
-  {"t":"notion-bulleted-list","x":"Un item por bullet"},
+  {"t":"notion-bulleted-list","x":"Figura principal"},
+  {"t":"notion-bulleted-list","x":"Accesorio 1"},
+  {"t":"notion-bulleted-list","x":"Accesorio 2"},
   {"t":"notion-heading-2","x":"Características"},
   {"t":"notion-bulleted-list","x":"..."}
 ]
 
 REGLAS ESTRICTAS:
-- Usa SOLO datos que estén en los campos provistos o en la descripción_original. No inventes datos.
-- Para estatuas (marcas: Sideshow, Iron Studios, XM Studios, Prime 1 Studio, etc.) NO pongas bullets de articulación a menos que la descripción_original lo mencione.
-- Cada bullet = UN solo item.
-- La descripción debe ser atractiva, en 2-3 párrafos.`;
+- Extraé TODO lo que mencione la descripción_original como incluido en la caja — si dice "includes X interchangeable hands, Y head sculpts, Z accessories", cada uno va como bullet separado en "Incluye".
+- NO inventes ítems que no estén mencionados en los datos provistos.
+- Para estatuas (Sideshow, Iron Studios, XM Studios, Prime 1 Studio) NO pongas articulaciones a menos que la descripción_original las mencione explícitamente.
+- Cada bullet = UN solo item.`;
 
   try {
     if (!cfg.workerUrl) throw new Error("Configura el Worker URL primero");
