@@ -893,9 +893,11 @@ function scrapeSideshow(doc, html, baseUrl) {
   }
 
   // ── 6. Descripción — selectores del admin desktop ──
+  const sectionTitles = [...doc.querySelectorAll(".product-details-section")]
+    .map(s => s.querySelector(".product-details-section__title")?.textContent.trim() || "?").join(" / ");
   data._debug.push("about:" + (doc.querySelector(".product-details-about") ? "OK" : "NO")
     + " inBox:" + (doc.querySelector(".product-details-in-the-box") ? "OK" : "NO")
-    + " sections:" + doc.querySelectorAll(".product-details-section").length);
+    + " sections:[" + sectionTitles + "]");
   const aboutEl = doc.querySelector(
     ".product-details-about .product-details-section__content, " +
     ".product-details-about .ui-dropdown--content, " +
