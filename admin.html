@@ -845,7 +845,9 @@ function scrapeSideshow(doc, html, baseUrl) {
     function addSkuImg(src) {
       const resolved = resolveUrl(src);
       if (!resolved || resolved.includes("placeholder")) return;
-      const fn = resolved.split("/").pop().split("?")[0];
+      // Normalizar: quitar sufijos de tamaño como -thumb, -large, -1200, _800x600, etc.
+      const fn = resolved.split("/").pop().split("?")[0]
+        .replace(/[-_](thumb|thumbnail|small|medium|large|full|\d+x\d+|\d{3,4})(?=\.)/i, "");
       if (seenFn.has(fn)) return;
       seenFn.add(fn);
       const cdn = resolved.includes("cdn-cgi") ? resolved
@@ -1324,6 +1326,7 @@ async function doAddProduct() {
     cantidad: "",
     content,
     fotos,
+    added_at: new Date().toISOString(),
   };
   if (precioD) {
     prod.precio_d = precioD;
