@@ -25660,6 +25660,126 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "freewing-ssj4-vegeta",
+        "n": "Freewing - SSJ4 Vegeta",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1ea6d71d6a2add62322db53a936c1a3104e4006e8980b9aec33b562c91d919cc.avif?v=1775204032",
+        "l": "https://statuecorp.com/products/freewing-ssj4-vegeta",
+        "marca": "",
+        "escala": "",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "12800",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "2560",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1ea6d71d6a2add62322db53a936c1a3104e4006e8980b9aec33b562c91d919cc.avif?v=1775204032",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bb60cb91c99b7ddd85ebe6d508b6af38ff56924d37bb63ddbd859e329ba92fec.avif?v=1775204032",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e7716c204545b1b2583d1f1ed7554f1cf47d808910cec4957dce0d930891f2d8.avif?v=1775204032"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Freewing presenta su interpretación épica de SSJ4 Vegeta, capturando el momento de máxima transformación del Príncipe de los Saiyajin. Esta figura de colección representa la forma más poderosa del personaje, con su icónico pelaje rojo y la intensidad característica que define su presencia en Dragon Ball GT. Una pieza que celebra uno de los transformaciones más memorables del universo de Akira Toriyama."
+          },
+          {
+            "t": "notion-text",
+            "x": "La manufactura de Freewing destaca por su atención al detalle en la escultura, capturando la musculatura prominente y la expresión feroz de Vegeta en su estado Super Saiyajin 4. Cada aspecto del traje característico y los rasgos faciales ha sido meticulosamente trabajado para lograr una representación auténtica del personaje en su máxima potencia."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta es una edición limitada de solo 50 piezas a nivel mundial, lo que la convierte en una pieza verdaderamente exclusiva para coleccionistas serios de Dragon Ball. Escala 1/2 con dimensiones imponentes de 97 cm de altura, esta figura domina cualquier colección premium y representa una inversión significativa en artículos de edición limitada de altísima demanda."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Freewing"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Freewing"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Dragon Ball GT"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje: SSJ4 Vegeta"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 97 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 42 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 48 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 50 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura detallada de SSJ4 Vegeta en su transformación máxima"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pelaje rojo icónico y expresión feroz característica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Musculatura prominente y anatomía definida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición mundial limitada a 50 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala monumental 1/2 para colecciones premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tamaño imponente que domina cualquier espacio de exhibición"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-03T22:11:52.078356"
+      },
+      {
         "id": "dream-super-mario-galaxy-2",
         "n": "Dream - Super Mario Galaxy 2",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-03_213246_868__73814.jpg?v=1775229857",
