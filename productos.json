@@ -199,30 +199,109 @@
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
         "precio": "2600",
-        "precio_d": "",
         "reserva": "",
         "entrega": "",
         "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Coleccionable – Threezero – Transformers: Rise of the Beasts Altura Mirage:20 cm Altura Noah Díaz (Exo-Suit):10 cm Inspirado enTransformers: Rise of the Beasts, Mirage DLX de Threezero es una figura altamente articulada y detallada que captura la esencia del veloz y carismático Autobot. Fabricada con plásticos de grado ingenieril y estructura interna de metal diecast, ofrece aproximadamente61 puntos de articulación, permitiendo poses dinámicas y estables. El acabado con pintura weathered aporta un efecto realista de batalla. Es la primera figura DLX de Threezero en incorporarsistema LED controlado magnéticamente, iluminando ojos, pecho, hombros y blasters para un display impactante. Incluye figura deNoah Díaz en Exo-Suit(10 cm) con aproximadamente 12 puntos de articulación. Accesorios de Noah: ABS, POM, PVC y aleación de zinc diecast Una pieza compacta pero altamente articulada y tecnológicamente avanzada, ideal para coleccionistas de Transformers que buscan calidad premium con"
+            "x": "Inspirada en Transformers: Rise of the Beasts, la figura Mirage DLX de Threezero es una obra maestra de ingeniería coleccionable que captura toda la esencia del veloz y carismático Autobot. Fabricada con plásticos de grado ingenieril y una estructura interna de metal diecast, esta figura ofrece aproximadamente 61 puntos de articulación que permiten poses dinámicas y completamente estables. El acabado con pintura weathered aporta un efecto realista de batalla, haciendo que cada detalle refleje los enfrentamientos del universo Transformers.\n\nLo más destacado de esta edición DLX es que es la primera figura de Threezero en incorporar un sistema LED controlado magnéticamente, iluminando los ojos, pecho, hombros y blasters para un display verdaderamente impactante en cualquier vitrina. El estuche magnético con logo Autobot facilita la activación de esta tecnología de forma elegante y sin cables visibles.\n\nLa figura incluye además a Noah Díaz en su traje Exo-Suit (10 cm) con aproximadamente 12 puntos de articulación, ampliando las posibilidades de display y narrativa visual. Esta es una pieza compacta pero altamente articulada y tecnológicamente avanzada, ideal para coleccionistas de Transformers que buscan calidad premium con detalles de nivel profesional."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Ojos LEDIon Blasters LEDPecho y hombros con iluminaciónActivación mediante estuche magnético con logo Autobot"
+            "x": "Altura Mirage: 20 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Estructura interna de metal diecastAproximadamente 61 puntos de articulaciónPintura con acabado desgastadoDos placas faciales intercambiables (sonriente y expresión estándar)Base de exhibición DLX Action Stand incluida"
+            "x": "Altura Noah Díaz (Exo-Suit): 10 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Par de Ion BlastersEstuche magnético para control LED2 faceplates intercambiables4 pares de manos intercambiables (puños, relajadas, acción y señalando)"
+            "x": "Escala: 1/20"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Par de espadas Exo-SuitPar de Ion Blasters Exo-Suit"
+            "x": "Puntos de articulación Mirage: Aproximadamente 61"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación Noah Díaz: Aproximadamente 12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Plásticos de grado ingenieril, estructura interna de metal diecast, ABS, POM, PVC y aleación de zinc diecast"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado weathered con efecto desgastado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Mirage DLX articulada (20 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Noah Díaz en Exo-Suit (10 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos placas faciales intercambiables (sonriente y expresión estándar)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuatro pares de manos intercambiables (puños, relajadas, acción y señalando)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de Ion Blasters"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estuche magnético para control LED con logo Autobot"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de espadas Exo-Suit"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de Ion Blasters Exo-Suit"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición DLX Action Stand"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema LED controlado magnéticamente en ojos, pecho, hombros y blasters"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Aproximadamente 61 puntos de articulación en Mirage para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estructura interna de metal diecast para estabilidad premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura con acabado weathered para efecto realista de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placas faciales intercambiables para diferentes expresiones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples juegos de manos para versatilidad de poses"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye figura secundaria Noah Díaz con su propio Exo-Suit articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios adicionales para expandir opciones de display"
           }
         ],
         "precio_orig": "",
@@ -240,7 +319,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe76559545.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe7659f147.jpg"
         ],
-        "id": "mirage-dlx"
+        "id": "mirage-dlx",
+        "added_at": "2026-04-05T19:47:22.893Z"
       },
       {
         "n": "ROBO-DOU Ingram Unit 1 – Reactive Armor Version",
