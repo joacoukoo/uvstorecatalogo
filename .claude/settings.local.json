@@ -11,7 +11,12 @@
       "Bash(python -c \":*)",
       "Bash(python inject_data.py --template index_template.html --data productos.json --output index.html)",
       "Bash(python -c \"import ast; ast.parse\\(open\\(''uv_admin.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''OK - sin errores de sintaxis''\\)\")",
-      "Bash(python -c \"import ast; ast.parse\\(open\\(''uv_admin.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''OK''\\)\")"
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''uv_admin.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''OK''\\)\")",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git rebase:*)",
+      "Bash(git push:*)",
+      "Bash(GIT_EDITOR=true git rebase --continue)"
     ]
   }
 }

@@ -32954,6 +32954,107 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "eris",
+        "n": "Eris",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0_1___05831.jpg?v=1775379232",
+        "l": "https://statuecorp.com/products/crown-eris?variant=48819868369119",
+        "marca": "",
+        "escala": "",
+        "franquicia": "Anime",
+        "estado": "Usado - Como Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "840",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0_1___05831.jpg?v=1775379232",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0_1__76066.jpg?v=1775379232",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5_13__39705.jpg?v=1775379370",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8_6__93215.jpg?v=1775379370",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9_2__49959.jpg?v=1775379370",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_13__53976.jpg?v=1775379370",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6_12__84456.jpg?v=1775379370",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3_13__07602.jpg?v=1775379370"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Crown - Eris es una figura de colección premium que captura la esencia de este icónico personaje. Lanzada en el segundo trimestre de 2027, esta pieza forma parte de una edición limitada de solo 128 unidades, lo que la convierte en un tesoro para coleccionistas dedicados que buscan piezas exclusivas de manufactura controlada."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada detalle ha sido cuidadosamente esculpido y pintado a mano por artesanos especializados, garantizando la máxima calidad y precisión en la representación del personaje. La composición general refleja un trabajo meticuloso donde la proporción, la profundidad y los detalles faciales reciben atención minuciosa."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta figura premium es el complemento perfecto para cualquier colección de arte figurativo de alto nivel. Su tamaño compacto pero generoso (27 cm de altura) la hace versátil para displays tanto en vitrinas especializadas como en espacios dedicados a arte de colección."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Segundo trimestre de 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 20 cm"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición ultra limitada de solo 128 unidades de producción mundial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura premium con acabados de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones generosas para un display de lujo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manufactura controlada y numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para coleccionistas serios de figuras premium"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-05T11:00:17.087748"
+      },
+      {
         "id": "asuka",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/35e85cf3ea5363591f9eea0c4f472b7e.png?v=1775215051",
