@@ -25915,6 +25915,98 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "itadori-yuji",
+        "n": "Itadori Yuji",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_23.webp?v=1775337085",
+        "l": "https://statuecorp.com/products/wow-yuji",
+        "marca": "WOW Studio",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "10400",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "2080",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_23.webp?v=1775337085",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_230353_187__68906.jpg?v=1775337085",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_230354_704__20134.jpg?v=1775337085"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Yuji es uno de los personajes más icónicos del universo de Jujutsu Kaisen, y esta figura de escala 1:6 captura la esencia del joven hechicero en su máxima expresión. Con una altura de 60 cm, esta pieza premium representa al protagonista en toda su presencia, reflejando su determinación y poder sobrenatural en cada detalle cuidadosamente esculpido."
+          },
+          {
+            "t": "notion-text",
+            "x": "La manufactura de esta figura demuestra el compromiso con la excelencia artística, presentando una escultura detallada que trasciende la simple representación para convertirse en una obra de arte coleccionable. Cada elemento, desde la expresión facial hasta los pliegues del vestuario, ha sido meticulosamente trabajado para garantizar una fidelidad excepcional al personaje."
+          },
+          {
+            "t": "notion-text",
+            "x": "Limitada a solo 200 piezas en todo el mundo, esta figura representa una oportunidad exclusiva para coleccionistas de premium collectibles. Con lanzamiento programado para Q2 2027, forma parte de una propuesta de colección que establece nuevos estándares en la industria de figuras de alta gama."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 200 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento previsto: Q2 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 45 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 58 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezal adicional intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-05T11:37:02.425083"
+      },
+      {
         "id": "reborn-iron-man",
         "n": "Reborn - Iron Man",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b7ea9020832f61e89cb574c4f9a97eb1.jpg?v=1775238737",
