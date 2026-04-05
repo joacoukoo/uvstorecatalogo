@@ -1058,7 +1058,7 @@ function buildFranchiseGrid(gridId){
 function shareProduct(){
   var name=document.getElementById("modal-name").textContent;
   var prodUrl=_currentFigId
-    ? location.origin+location.pathname+"?figura="+encodeURIComponent(_currentFigId)
+    ? location.origin+"/p/"+encodeURIComponent(_currentFigId)
     : location.href;
   if(navigator.share){
     navigator.share({title:"UV Store GT — "+name,text:"Mirá esta figura en UV Store GT: "+name,url:prodUrl})
@@ -1297,7 +1297,7 @@ function openModal(p,cat){
   var figId=p.id||(p.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
   _currentFigId=figId;
   history.pushState({_uvNav:true,_openedFromNav:_uvOpenedFromNav},null,location.pathname+"#figura/"+encodeURIComponent(figId));
-  var shareUrl=location.origin+location.pathname+"?figura="+encodeURIComponent(figId);
+  var shareUrl=location.origin+"/p/"+encodeURIComponent(figId);
   var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+"\nLink: "+shareUrl);
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
   document.getElementById("modal").classList.add("open");
