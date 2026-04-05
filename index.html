@@ -1022,7 +1022,7 @@ function makeFranchiseCard(fname,gridId){
   circle.style.cssText="width:120px;height:120px;border-radius:50%;overflow:hidden;border:1px solid var(--border);transition:all .2s;background:#0d0e18;display:flex;align-items:center;justify-content:center;flex-shrink:0;";
   if(iconVal&&(iconVal.startsWith("data:")||iconVal.startsWith("assets/")||iconVal.startsWith("http"))){
     var img=document.createElement("img");
-    img.src=iconVal;img.alt=fname;
+    img.src=iconVal;img.alt=fname;img.loading="lazy";
     var bigZoom=["Anime","Gaming","Otros"].indexOf(fname)>=0;
     img.style.cssText=bigZoom?"width:130%;height:130%;object-fit:cover;margin:-15%;mix-blend-mode:screen;":"width:115%;height:115%;object-fit:cover;margin:-7.5%;mix-blend-mode:screen;";
     circle.appendChild(img);

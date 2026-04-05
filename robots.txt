@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin.html
+Disallow: /admin
+Allow: /
+
+Sitemap: https://uvstore.shop/sitemap.xml
