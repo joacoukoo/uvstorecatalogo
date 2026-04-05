@@ -683,6 +683,15 @@ body::after{
   </div>
   <div class="section">
     <div class="sec-hdr"><div class="sec-meta" id="cp-count"></div></div>
+    <div id="cp-filters" class="filter-row" style="margin-bottom:16px">
+      <button class="sort-btn sort-active" id="cp-sort-def" onclick="_cpSetSort('default')">Recientes</button>
+      <button class="sort-btn" id="cp-sort-pa" onclick="_cpSetSort('price-a')">Precio ↑</button>
+      <button class="sort-btn" id="cp-sort-pd" onclick="_cpSetSort('price-d')">Precio ↓</button>
+      <span style="flex:1"></span>
+      <button class="filter-btn on" id="cp-fil-all" onclick="_cpSetFilter('all')">Todos</button>
+      <button class="filter-btn" id="cp-fil-stock" onclick="_cpSetFilter('stock')">Disponible</button>
+      <button class="filter-btn" id="cp-fil-pre" onclick="_cpSetFilter('pre')">Pre Orden</button>
+    </div>
     <div class="prod-grid" id="cp-grid"></div>
   </div>
 </div>
@@ -1114,9 +1123,7 @@ function goOfertas(){
   document.getElementById("cp-label").textContent="Especial";
   document.getElementById("cp-label").style.color="#f87171";
   document.getElementById("cp-title").textContent="OFERTAS";
-  document.getElementById("cp-count").textContent=ofertaProds.length+" figura"+(ofertaProds.length!==1?"s":"");
-  var grid=document.getElementById("cp-grid");grid.innerHTML="";
-  ofertaProds.forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});
+  _cpProds=ofertaProds;_cpSort="default";_cpFilter="all";_cpResetControls();_cpRenderGrid();
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");
   history.pushState({_uvNav:true},null,location.pathname+"#ofertas");
 }
@@ -1132,9 +1139,7 @@ function goFranchise(fname){
   document.getElementById("cp-label").textContent="Franquicia";
   document.getElementById("cp-label").style.color=accent;
   document.getElementById("cp-title").textContent=fname;
-  document.getElementById("cp-count").textContent=prods.length+" figura"+(prods.length!==1?"s":"");
-  var grid=document.getElementById("cp-grid");grid.innerHTML="";
-  prods.forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});
+  _cpProds=prods;_cpSort="default";_cpFilter="all";_cpResetControls();_cpRenderGrid();
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");
   history.pushState({_uvNav:true},null,location.pathname+"#franquicia/"+encodeURIComponent(fname));
 }
@@ -1205,11 +1210,51 @@ function goCategory(idx){
   document.getElementById("cp-label").textContent=CAT_LABELS[cat]||"";
   document.getElementById("cp-label").style.color=accent;
   document.getElementById("cp-title").textContent=cat;
-  document.getElementById("cp-count").textContent=info.products.length+" figuras";
-  var grid=document.getElementById("cp-grid");grid.innerHTML="";
-  info.products.forEach(function(p){grid.appendChild(makeCard(p,cat));});
+  _cpProds=info.products.map(function(p){return{p:p,cat:cat};});
+  _cpSort="default";_cpFilter="all";_cpResetControls();_cpRenderGrid();
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");closeSearch();
   history.pushState({_uvNav:true},null,location.pathname+"#cat/"+encodeURIComponent(cat));
+}
+
+// ── CATEGORY/FRANCHISE FILTERS ──
+var _cpProds=[];var _cpSort="default";var _cpFilter="all";
+function _cpResetControls(){
+  ["def","pa","pd"].forEach(function(k){var b=document.getElementById("cp-sort-"+k);if(b)b.classList.toggle("sort-active",k==="def");});
+  ["all","stock","pre"].forEach(function(k){var b=document.getElementById("cp-fil-"+k);if(b)b.classList.toggle("on",k==="all");});
+}
+function _cpRenderGrid(){
+  var filtered=_cpProds.filter(function(r){
+    if(_cpFilter==="all")return true;
+    var d=(r.p.disp||"").toLowerCase();
+    if(_cpFilter==="stock")return d.indexOf("inmediata")>=0;
+    if(_cpFilter==="pre")return d.indexOf("pre")>=0;
+    return true;
+  });
+  if(_cpSort==="price-a"){
+    filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;if(!pa&&!pb)return 0;if(!pa)return 1;if(!pb)return-1;return pa-pb;});
+  }else if(_cpSort==="price-d"){
+    filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;return pb-pa;});
+  }else{
+    // Default: ofertas primero
+    filtered.sort(function(a,b){if(a.p.oferta&&!b.p.oferta)return-1;if(!a.p.oferta&&b.p.oferta)return 1;return 0;});
+  }
+  var grid=document.getElementById("cp-grid");grid.innerHTML="";
+  if(!filtered.length){grid.innerHTML="<p style='color:#666;font-size:14px;padding:24px;grid-column:1/-1'>Sin resultados con este filtro</p>";}
+  else{filtered.forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});}
+  document.getElementById("cp-count").textContent=filtered.length+" figura"+(filtered.length!==1?"s":"");
+}
+function _cpSetSort(s){
+  _cpSort=s;
+  ["def","pa","pd"].forEach(function(k){var b=document.getElementById("cp-sort-"+k);if(b)b.classList.remove("sort-active");});
+  var id=s==="default"?"cp-sort-def":s==="price-a"?"cp-sort-pa":"cp-sort-pd";
+  var el=document.getElementById(id);if(el)el.classList.add("sort-active");
+  _cpRenderGrid();
+}
+function _cpSetFilter(f){
+  _cpFilter=f;
+  ["all","stock","pre"].forEach(function(k){var b=document.getElementById("cp-fil-"+k);if(b)b.classList.remove("on");});
+  var el=document.getElementById("cp-fil-"+f);if(el)el.classList.add("on");
+  _cpRenderGrid();
 }
 
 var _modalProd=null;
