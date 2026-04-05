@@ -2229,11 +2229,22 @@ class UVAdminApp:
                 from datetime import date as _date
                 _catalog = _json.loads(data_file.read_text(encoding="utf-8"))
                 _today = _date.today().isoformat()
+                def _to_slug(s):
+                    import unicodedata as _ud
+                    s = _ud.normalize("NFD", s.lower())
+                    s = "".join(c for c in s if _ud.category(c) != "Mn")
+                    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
                 _urls = ["https://uvstore.shop/"]
-                for _cat in _catalog.values():
+                _seen_marcas = set()
+                for _cat_key, _cat in _catalog.items():
+                    _cat_slug = _to_slug(_cat_key)
+                    _urls.append(f"https://uvstore.shop/categoria/{_cat_slug}")
                     for _p in _cat.get("products", []):
                         if _p.get("id"):
                             _urls.append(f"https://uvstore.shop/p/{_p['id']}")
+                        if _p.get("marca") and _to_slug(_p["marca"]) not in _seen_marcas:
+                            _seen_marcas.add(_to_slug(_p["marca"]))
+                            _urls.append(f"https://uvstore.shop/marca/{_to_slug(_p['marca'])}")
                 _lines = ['<?xml version="1.0" encoding="UTF-8"?>',
                           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
                 for _u in _urls:
