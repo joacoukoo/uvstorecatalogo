@@ -750,6 +750,8 @@ async function loadCatalog() {
 async function publishCatalog(commitMsg) {
   if (!catalog) throw new Error("No hay catálogo cargado");
   const json = JSON.stringify(catalog, null, 2);
+  // Always fetch fresh SHA to avoid conflicts when GitHub Action committed in between
+  catalogSha = await getFileSha("productos.json");
   const res = await ghPut("productos.json", json, catalogSha, commitMsg || "Update catalog — UV Store GT Admin (mobile)");
   catalogSha = res.content.sha;
 }
