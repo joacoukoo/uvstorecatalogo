@@ -32958,10 +32958,10 @@
         "n": "Eris",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0_1___05831.jpg?v=1775379232",
         "l": "https://statuecorp.com/products/crown-eris?variant=48819868369119",
-        "marca": "",
-        "escala": "",
+        "marca": "Crown Studio",
+        "escala": "1:6",
         "franquicia": "Anime",
-        "estado": "Usado - Como Nuevo",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "4200",
         "precio_d": "",
@@ -32981,24 +32981,8 @@
         ],
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Crown - Eris es una figura de colección premium que captura la esencia de este icónico personaje. Lanzada en el segundo trimestre de 2027, esta pieza forma parte de una edición limitada de solo 128 unidades, lo que la convierte en un tesoro para coleccionistas dedicados que buscan piezas exclusivas de manufactura controlada."
-          },
-          {
-            "t": "notion-text",
-            "x": "Cada detalle ha sido cuidadosamente esculpido y pintado a mano por artesanos especializados, garantizando la máxima calidad y precisión en la representación del personaje. La composición general refleja un trabajo meticuloso donde la proporción, la profundidad y los detalles faciales reciben atención minuciosa."
-          },
-          {
-            "t": "notion-text",
-            "x": "Esta figura premium es el complemento perfecto para cualquier colección de arte figurativo de alto nivel. Su tamaño compacto pero generoso (27 cm de altura) la hace versátil para displays tanto en vitrinas especializadas como en espacios dedicados a arte de colección."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Detalles"
+            "x": "Crown - Eris es una figura de colección premium que captura la esencia de este icónico personaje. Lanzada en el segundo trimestre de 2027, esta pieza forma parte de una edición limitada de solo 128 unidades, lo que la convierte en un tesoro para coleccionistas dedicados que buscan piezas exclusivas de manufactura controlada. Cada detalle ha sido cuidadosamente esculpido y pintado a mano por artesanos especializados, garantizando la máxima calidad y precisión en la representación del personaje. La composición general refleja un trabajo meticuloso donde la proporción, la profundidad y los detalles faciales reciben atención minuciosa. Esta figura premium es el complemento perfecto para cualquier colección de arte figurativo de alto nivel. Su tamaño compacto pero generoso (27 cm de altura) la hace versátil para displays tanto en vitrinas especializadas como en espacios dedicados a arte de colección."
           },
           {
             "t": "notion-bulleted-list",
@@ -33007,10 +32991,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Lanzamiento: Segundo trimestre de 2027"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -33023,10 +33003,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Ancho: 20 cm"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
@@ -33052,7 +33028,10 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-04-05T11:00:17.087748"
+        "added_at": "2026-04-05T11:00:17.087748",
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos_d": []
       },
       {
         "id": "asuka",
