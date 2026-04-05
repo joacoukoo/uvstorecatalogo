@@ -30819,6 +30819,75 @@
         ],
         "id": "kid-goku",
         "content_ok": true
+      },
+      {
+        "id": "broly-and-ozaru",
+        "n": "Broly and Ozaru",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/03af622759e2d66fab69073b0460f381.jpg?v=1774891330",
+        "l": "",
+        "marca": "Yi Shou Studio",
+        "escala": "1/6",
+        "estado": "Sellado",
+        "disp": "Pre-Orden",
+        "precio": "12000",
+        "reserva": "2400",
+        "entrega": "Q1 2027",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Broly, el legendario Super Saiyan de Dragon Ball, alcanza nuevas alturas de poder en esta espectacular representación que lo muestra en su forma Ozaru. Esta figura captura la esencia bruta y destructiva del personaje en uno de sus momentos más icónicos, combinando la ferocidad del Saiyan legendario con la colosal presencia de su transformación en Gran Mono. Cada detalle ha sido meticulosamente trabajado para reflejar la intensidad y el carisma de uno de los antagonistas más memorables de la saga Dragon Ball."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 75 cm (escala 1/6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 60 cm (escala 1/6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 75 cm (escala 1/6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje: Broly"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Serie: Dragon Ball"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Forma mostrada: Ozaru (Gran Mono)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "También disponible en escala 1/4 (112 x 90 x 112 cm)"
+          }
+        ],
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/03af622759e2d66fab69073b0460f381.jpg?v=1774891330",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ff900a7ed1b6e66ddf27e1be46ffdcd8.jpg?v=1774891344",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/921657d83ca9e762da78a92f5f6a47e8.jpg?v=1774891344",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/094240dd4e0adafccc3e0239e6e2378b.jpg?v=1774891344",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/be7a89d435dec52acbee040ee1738cd5.jpg?v=1774891344",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e4212523f8296d75c4445ba5bda959da.jpg?v=1774891344",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b7867694b8e9972706e1cd21a84d2d82.jpg?v=1774891344",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/858403723d58717591461c9d154c7c77.jpg?v=1774891344",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/s7vS0J-ByAXnkoNhELdtk1774712214500.jpg?v=1774891330",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/iiVZ-cBNvoR_nmk1hHmId1774712214500.jpg?v=1774891330"
+        ],
+        "added_at": "2026-04-05T05:06:49.197Z"
       }
     ]
   },
