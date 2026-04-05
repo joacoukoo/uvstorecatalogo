@@ -25915,6 +25915,143 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "iruma-suzuki",
+        "n": "Iruma Suzuki",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161533_588__24590.jpg?v=1775295696",
+        "l": "https://statuecorp.com/products/fireworks-iruma-suzuki",
+        "marca": "Fireworks Studio",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "1700",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "340",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161533_588__24590.jpg?v=1775295696",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161542_300__74168.jpg?v=1775295721",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161535_987__94857.jpg?v=1775295721",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161548_691__98800.jpg?v=1775295721",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161538_410__19382.jpg?v=1775295721",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161546_209__19961.jpg?v=1775295721",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161555_684__19262.jpg?v=1775295721",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_161551_346__57286.jpg?v=1775295721"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Iruma Suzuki, la protagonista de Demon School! Iruma-kun, es capturada en esta figura Premium de Fireworks en su versión escolar clásica. Con su distintivo cabello azul y su uniforme de estudiante, Iruma representa la inocencia y determinación de una joven humana navegando el caótico mundo demoníaco de la academia Babyls. La figura captura su expresión serena y su presencia como uno de los personajes más queridos de la serie."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta escultura premium de 17 cm presenta un nivel de detalle extraordinario en la interpretación del personaje. El cabello azul vibrante con su característica forma ondulada, los ojos expresivos, y la cuidadosa pintura del uniforme escolar (remera clara con cuello gris y pantalón gris) demuestran la maestría artesanal de la manufactura. Los zapatos azules y blancos añaden un toque de autenticidad al conjunto."
+          },
+          {
+            "t": "notion-text",
+            "x": "Producida como una pieza de colección limitada a 100 ejemplares, esta figura destaca por ser un objeto de exhibición Premium Format ideal para coleccionistas devotos de Demon School! Iruma-kun. Su lanzamiento previsto para el segundo trimestre de 2027 la posiciona como una adquisición exclusiva para fans que buscan capturar la esencia del personaje en forma de escultura de alta calidad."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Fireworks"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Statue Corp"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura Premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Anime"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Demon School! Iruma-kun"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 100 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Segundo trimestre de 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con likeness detallado de Iruma Suzuki"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Remera blanca, cuello gris, pantalón gris"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos: Zapatillas azules y blancas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello azul distintivo con forma ondulada característica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Expresión serena y accesible del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura detallada del uniforme escolar completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado premium con atención a cada elemento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada coleccionable de 100 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial de Demon School! Iruma-kun"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-05T11:44:23.086820"
+      },
+      {
         "id": "itadori-yuji",
         "n": "Itadori Yuji",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-04_23.webp?v=1775337085",
