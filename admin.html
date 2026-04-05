@@ -1152,7 +1152,8 @@ async function scrapeShopify(url) {
     if (items.length > 2) { features.push(...items.slice(0, 20)); break; }
   }
   if (features.length === 0 && d.tags) {
-    d.tags.forEach(t => { if (t.length > 3) features.push(t); });
+    const tagArr = Array.isArray(d.tags) ? d.tags : String(d.tags).split(",");
+    tagArr.forEach(t => { t = t.trim(); if (t.length > 3) features.push(t); });
   }
 
   const plainDesc = rawHtml.replace(/<[^>]+>/g, " ").replace(/\s+/g," ").trim();
