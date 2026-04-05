@@ -8,14 +8,20 @@ export async function onRequestGet(context) {
   // Sin parámetro: servir index.html normal
   if (!figId) return context.next();
 
-  // Cargar catálogo usando la API de assets de Cloudflare Pages (más confiable que fetch)
+  // Cargar catálogo — intenta ASSETS binding primero, luego fetch directo
   let catalog;
   try {
     const assetReq = new Request(new URL("/productos.json", url.origin));
-    const resp = await context.env.ASSETS.fetch(assetReq);
-    if (!resp.ok) return context.next();
+    let resp;
+    if (context.env && context.env.ASSETS) {
+      resp = await context.env.ASSETS.fetch(assetReq);
+    } else {
+      resp = await fetch(assetReq);
+    }
+    if (!resp.ok) throw new Error(`status ${resp.status}`);
     catalog = await resp.json();
-  } catch {
+  } catch (e) {
+    // Si no se puede cargar el catálogo, dejar que Cloudflare sirva index.html
     return context.next();
   }
 
@@ -32,12 +38,15 @@ export async function onRequestGet(context) {
   const siteName  = "UV Store GT";
   const siteUrl   = url.origin;
   const title     = `${product.n} — ${siteName}`;
-  const image     = product.i || `${siteUrl}/favicon.png`;
+
+  // Imagen: usar la primera foto disponible, filtrando URLs vacías
+  const fotos = (product.fotos && product.fotos.length) ? product.fotos : [];
+  const image = fotos.find(f => f && f.startsWith("http")) || product.i || `${siteUrl}/favicon.png`;
+
   const pricePart = product.precio ? ` · Q${product.precio}` : "";
-  const desc      = [product.marca, product.escala, product.estado]
+  const desc = [product.marca, product.escala, product.estado]
     .filter(Boolean).join(" · ") + pricePart;
   const canonical = `${siteUrl}/?figura=${encodeURIComponent(figId)}`;
-  const hashUrl   = `${siteUrl}/#figura/${encodeURIComponent(figId)}`;
 
   const esc = s => String(s)
     .replace(/&/g, "&amp;")
@@ -58,7 +67,7 @@ export async function onRequestGet(context) {
 <meta property="og:description"  content="${esc(desc)}">
 <meta property="og:image"        content="${esc(image)}">
 <meta property="og:image:width"  content="800">
-<meta property="og:image:height" content="600">
+<meta property="og:image:height" content="800">
 <meta property="og:url"          content="${esc(canonical)}">
 <!-- Twitter / iMessage -->
 <meta name="twitter:card"        content="summary_large_image">
@@ -66,8 +75,8 @@ export async function onRequestGet(context) {
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image"       content="${esc(image)}">
 <!-- Redirigir al SPA -->
-<meta http-equiv="refresh" content="0;url=${esc(hashUrl)}">
-<script>window.location.replace(${JSON.stringify(hashUrl)});</script>
+<meta http-equiv="refresh" content="0;url=${esc(canonical)}">
+<script>window.location.replace(${JSON.stringify(canonical)});</script>
 </head>
 <body></body>
 </html>`;
