@@ -31045,6 +31045,81 @@
         ],
         "added_at": "2026-04-05T05:06:49.197Z",
         "franquicia": "Anime"
+      },
+      {
+        "id": "ssj4-goku",
+        "n": "SSJ4 Goku",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3c34aa351dac24f995b846d7d01207b2.jpg?v=1775400927",
+        "l": "",
+        "marca": "Iris Studio",
+        "franquicia": "Anime",
+        "escala": "1/6",
+        "estado": "Sellado",
+        "disp": "Pre-Orden",
+        "precio": "3700",
+        "reserva": "740",
+        "entrega": "Q2 2027",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Iris presenta una épica interpretación de Goku en su forma SSJ4, uno de los momentos más icónicos de la saga Dragon Ball GT. Esta figura captura toda la ferocidad y poder del Saiyajin legendario en su transformación más destructiva, con detalles meticulosamente elaborados que resaltan la musculatura, el pelaje característico y la intensidad de esta forma de batalla. La escultura es un tributo a uno de los guerreros más poderosos del universo Dragon Ball.\n\nCon una escala 1/6 y dimensiones imponentes, esta pieza es un complemento esencial para cualquier coleccionista dedicado a la franquicia de Dragon Ball. Cada aspecto de la figura refleja la calidad premium y atención al detalle que caracteriza a las colecciones de lujo, convirtiéndola en una pieza de exhibición verdaderamente notable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Goku SSJ4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje: Goku en forma SSJ4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Dragon Ball"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles de alta calidad"
+          }
+        ],
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3c34aa351dac24f995b846d7d01207b2.jpg?v=1775400927",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fe00671bd5725255c1da7d5e5852d2cc.jpg?v=1775400927",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/c4db9d572d4145d8345288a63ab3e0ec.jpg?v=1775400927",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/22f9127328a1f7e3ebde2676f3cea5d8.jpg?v=1775400927",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/16f0671b23abb2f10edeb98271bd44a0.jpg?v=1775400927",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ca912c6dbc409be4ce23bc246480212d.jpg?v=1775400927",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2ca18b2a1e412940526f6affc28125a8.jpg?v=1775400927"
+        ],
+        "added_at": "2026-04-05T17:11:42.821Z"
       }
     ]
   },
