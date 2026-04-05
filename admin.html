@@ -313,6 +313,10 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
           <input class="field-input" id="add-marca" type="text" placeholder="Hot Toys, Sideshow...">
         </div>
         <div class="field-row">
+          <span class="field-label">Franquicia</span>
+          <input class="field-input" id="add-franquicia" type="text" placeholder="Marvel, DC, Star Wars...">
+        </div>
+        <div class="field-row">
           <span class="field-label">Escala</span>
           <input class="field-input" id="add-escala" type="text" placeholder="1:6, 1:4...">
         </div>
@@ -427,6 +431,10 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
           <div class="field-row">
             <span class="field-label">Marca</span>
             <input class="field-input" id="ef-marca" type="text">
+          </div>
+          <div class="field-row">
+            <span class="field-label">Franquicia</span>
+            <input class="field-input" id="ef-franquicia" type="text">
           </div>
           <div class="field-row">
             <span class="field-label">Escala</span>
@@ -1481,7 +1489,8 @@ async function doAddProduct() {
   const precioD  = document.getElementById("add-precio-d").value.trim();
   const reserva  = document.getElementById("add-reserva").value.trim();
   const entrega  = document.getElementById("add-entrega").value.trim();
-  const marca    = document.getElementById("add-marca").value.trim();
+  const marca       = document.getElementById("add-marca").value.trim();
+  const franquicia  = document.getElementById("add-franquicia").value.trim();
   const escala   = document.getElementById("add-escala").value.trim();
   const estado   = document.getElementById("add-estado").value;
   const disp     = document.getElementById("add-disp").value;
@@ -1496,7 +1505,7 @@ async function doAddProduct() {
     n: nombre,
     i: fotos[0] || "",
     l: "",
-    marca, escala, estado, disp,
+    marca, franquicia, escala, estado, disp,
     precio, reserva, entrega,
     cantidad: "",
     content,
@@ -1525,7 +1534,7 @@ async function doAddProduct() {
 }
 
 function clearAddForm() {
-  ["add-nombre","add-marca","add-escala","add-precio","add-precio-d","add-reserva","add-entrega","add-desc","add-features","add-url"]
+  ["add-nombre","add-marca","add-franquicia","add-escala","add-precio","add-precio-d","add-reserva","add-entrega","add-desc","add-features","add-url"]
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ""; });
   document.getElementById("add-estado").value = "Sellado";
   document.getElementById("add-disp").value = "Entrega Inmediata";
@@ -1579,8 +1588,9 @@ function openEditForm(catName, idx) {
   buildCatOptions("ef-cat", catName);
 
   document.getElementById("ef-nombre").value   = p.n || "";
-  document.getElementById("ef-marca").value    = p.marca || "";
-  document.getElementById("ef-escala").value   = p.escala || "";
+  document.getElementById("ef-marca").value       = p.marca || "";
+  document.getElementById("ef-franquicia").value  = p.franquicia || "";
+  document.getElementById("ef-escala").value      = p.escala || "";
   document.getElementById("ef-estado").value   = p.estado || "Sellado";
   document.getElementById("ef-disp").value     = p.disp || "Entrega Inmediata";
   document.getElementById("ef-precio").value   = p.precio || "";
@@ -1621,7 +1631,8 @@ async function doSaveProduct() {
   const precioD  = document.getElementById("ef-precio-d").value.trim();
   const reserva  = document.getElementById("ef-reserva").value.trim();
   const entrega  = document.getElementById("ef-entrega").value.trim();
-  const marca    = document.getElementById("ef-marca").value.trim();
+  const marca       = document.getElementById("ef-marca").value.trim();
+  const franquicia  = document.getElementById("ef-franquicia").value.trim();
   const escala   = document.getElementById("ef-escala").value.trim();
   const estado   = document.getElementById("ef-estado").value;
   const disp     = document.getElementById("ef-disp").value;
@@ -1636,7 +1647,7 @@ async function doSaveProduct() {
   const updProd = {
     ...oldProd,
     n: nombre, i: fotos[0] || oldProd.i || "",
-    marca, escala, estado, disp,
+    marca, franquicia, escala, estado, disp,
     precio, reserva, entrega, content, fotos,
     added_at: oldProd.added_at || new Date().toISOString(),
   };
