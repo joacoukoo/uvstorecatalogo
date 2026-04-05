@@ -30826,6 +30826,92 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "the-riddler-batman-forever",
+        "n": "The Riddler - Batman Forever",
+        "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3129/images/35018/9207922e-481e-47fc-8e6b-c159989e55f8__41647.1775107873.386.513.jpg?c=1",
+        "l": "https://onesixthoutfitters.com/pc-toys-pc2601-1-12-scale-mr-question-mark-figure/",
+        "marca": "",
+        "escala": "1:12",
+        "franquicia": "DC Comics",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "1500",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "300",
+        "entrega": "Marzo 2027",
+        "cantidad": "2",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3129/images/35018/9207922e-481e-47fc-8e6b-c159989e55f8__41647.1775107873.386.513.jpg?c=1"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Mr. Question Mark es una figura de colección a escala 1:12 que captura la esencia de este enigmático personaje. Esta pieza representa una adición distintiva para coleccionistas que buscan expandir sus galerías con personajes únicos y memorables del mundo de los coleccionables premium."
+          },
+          {
+            "t": "notion-text",
+            "x": "Fabricada por PC Toys, esta figura demuestra el compromiso de la marca con la calidad artesanal y los detalles minuciosos. Cada elemento ha sido cuidadosamente esculpido y pintado para garantizar una representación fiel del personaje, ofreciendo una experiencia visual excepcional a los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-text",
+            "x": "Disponible en preventa con lanzamiento estimado para el primer trimestre de 2027, Mr. Question Mark es una oportunidad para asegurar una pieza exclusiva. Se recomienda encarecidamente realizar el pedido antes del 20 de mayo de 2026 para garantizar la disponibilidad, ya que las cantidades posteriores no están aseguradas."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: PC Toys (PC2601)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: PC Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura de colección"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Notas Importantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto en preventa - Lanzamiento estimado: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha límite de pedido garantizado: 20 de mayo de 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Se muestra prototipo; el producto final puede variar ligeramente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles del producto sujetos a cambios sin previo aviso"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-04T21:57:22.609736"
+      },
+      {
         "id": "batman-battle-damaged-arkham-origins",
         "n": "Batman (Battle-Damaged) Arkham Origins",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BATMAN-ARKHAM-ORIGINS.png?v=1775157847",
