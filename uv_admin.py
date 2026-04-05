@@ -145,6 +145,9 @@ def git_deploy(repo_path, commit_msg="Update catalog", status_cb=None):
         
         log("📤 Sincronizando con GitHub...")
 
+        # Guardar cambios no commiteados antes del pull
+        subprocess.run(["git", "stash"], cwd=cwd, capture_output=True, text=True)
+
         # git pull --rebase para traer commits del Action antes de pushear
         r = subprocess.run(["git", "pull", "--rebase"], cwd=cwd, capture_output=True, text=True, timeout=30)
         if r.returncode != 0:
@@ -156,7 +159,10 @@ def git_deploy(repo_path, commit_msg="Update catalog", status_cb=None):
                                 env={**os.environ, "GIT_EDITOR": "true"}, timeout=30)
             if rc.returncode != 0:
                 subprocess.run(["git", "rebase", "--abort"], cwd=cwd, capture_output=True)
+                subprocess.run(["git", "stash", "pop"], cwd=cwd, capture_output=True)
                 return False, f"git pull --rebase falló: {r.stderr}"
+
+        subprocess.run(["git", "stash", "pop"], cwd=cwd, capture_output=True, text=True)
 
         log("📤 Subiendo a GitHub...")
 
