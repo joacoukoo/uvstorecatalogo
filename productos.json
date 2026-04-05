@@ -132,7 +132,7 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798ead82.jpg"
         ],
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": true
       },
       {
         "n": "Clone Commander Wolffe™",
@@ -1637,7 +1637,7 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/iron-man-mark-i-edicin-especial",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "Sellado",
+        "estado": "Vendido",
         "disp": "Entrega Inmediata",
         "precio": "3900",
         "precio_d": "",
@@ -1646,16 +1646,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Figura de colección a escala 1:6 de Iron Man Mark I (Edición Especial). Esta escultura detallada captura la icónica armadura del primer traje de Tony Stark en Iron Man, con un parecido auténtico de Robert Downey Jr. como Tony Stark en la película."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -1668,10 +1660,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Puntos de articulación: Más de 36 puntos dentro de la armadura"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Armadura y Cuerpo"
           },
           {
             "t": "notion-bulleted-list",
@@ -1694,10 +1682,6 @@
             "x": "Cables y tuberías reales con efectos de envejecimiento"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Características Especiales"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Reactor de arco LED iluminado en forma de círculo en el pecho"
           },
@@ -1716,10 +1700,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Escultura de cabeza pintada a mano con parecido auténtico de Robert Downey Jr."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
@@ -1762,16 +1742,8 @@
             "x": "Base de figura elevada con logo de la película y placa del personaje"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Accesorios Exclusivos Edición Especial"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Casco Iron Man Mark I de fundición adicional (no se puede llevar en la figura)"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Notas Importantes"
           },
           {
             "t": "notion-bulleted-list",
@@ -1794,7 +1766,10 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_60ef155a107dd.jpg"
         ],
         "id": "iron-man-mark-i-edicion-especial",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos_d": []
       },
       {
         "n": "King Shark",
