@@ -732,23 +732,15 @@
         "escala": "1:6 - 30CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "3200",
+        "precio": "3000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
-          {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
           {
             "t": "notion-text",
             "x": "Figura de sexta escala del soldado ARC Trooper Fives de la serie Star Wars: The Clone Wars. Esta figura presenta una imagen auténtica y detallada del personaje con expresión facial precisa, peinado, barba, textura detallada de la piel y tatuajes característicos."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -761,10 +753,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Puntos de articulación: Más de 30"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
@@ -827,10 +815,6 @@
             "x": "Soporte para figuras con logo de Star Wars y placa del personaje"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Características"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Escultura de cabeza especialmente pintada a mano"
           },
@@ -853,9 +837,9 @@
         ],
         "yt": "",
         "franquicia": "Star Wars",
-        "precio_orig": "",
+        "precio_orig": "3200",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f47e4f26.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_scale_668c1e5dc358c.jpg",
@@ -867,7 +851,10 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f4a44568.jpg"
         ],
         "id": "arc-trooper-fives",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos_d": []
       },
       {
         "n": "Spider-Punk",
