@@ -2223,6 +2223,25 @@ class UVAdminApp:
                 messagebox.showerror("Error en inject_data.py", r.stderr or r.stdout)
                 self._status(f"❌ Error generando index.html", RED); return
             self._status("✅ index.html generado, subiendo...", ORANGE)
+            # Regenerar sitemap.xml
+            try:
+                import json as _json
+                from datetime import date as _date
+                _catalog = _json.loads(data_file.read_text(encoding="utf-8"))
+                _today = _date.today().isoformat()
+                _urls = ["https://uvstore.shop/"]
+                for _cat in _catalog.values():
+                    for _p in _cat.get("products", []):
+                        if _p.get("id"):
+                            _urls.append(f"https://uvstore.shop/p/{_p['id']}")
+                _lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+                          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+                for _u in _urls:
+                    _lines.append(f"  <url><loc>{_u}</loc><lastmod>{_today}</lastmod></url>")
+                _lines.append("</urlset>")
+                (repo / "sitemap.xml").write_text("\n".join(_lines), encoding="utf-8")
+            except Exception:
+                pass  # El sitemap no es crítico
         else:
             # Fallback: copy index.html directly (legacy)
             if CATALOG_FILE.resolve() != (repo / "index.html").resolve():
