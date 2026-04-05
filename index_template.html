@@ -733,6 +733,15 @@ body::after{
     </div>
     <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:1.5px;color:#fff;margin-top:20px" id="search-inline-title"></div>
     <div style="font-size:12px;color:var(--muted);margin-top:4px;font-family:'Syne',sans-serif" id="search-inline-count"></div>
+    <div id="sr-filters" class="filter-row" style="margin-top:16px;display:none">
+      <button class="sort-btn sort-active" id="sr-sort-def" onclick="_srSetSort('default')">Relevancia</button>
+      <button class="sort-btn" id="sr-sort-pa" onclick="_srSetSort('price-a')">Precio ↑</button>
+      <button class="sort-btn" id="sr-sort-pd" onclick="_srSetSort('price-d')">Precio ↓</button>
+      <span style="flex:1"></span>
+      <button class="filter-btn on" id="sr-fil-all" onclick="_srSetFilter('all')">Todos</button>
+      <button class="filter-btn" id="sr-fil-stock" onclick="_srSetFilter('stock')">Disponible</button>
+      <button class="filter-btn" id="sr-fil-pre" onclick="_srSetFilter('pre')">Pre Orden</button>
+    </div>
   </div>
   <div class="section">
     <div class="prod-grid" id="search-inline-res"></div>
@@ -1155,6 +1164,8 @@ function clearSearchInline(){
   document.getElementById("search-inline-count").textContent="";
   document.getElementById("search-inline-res").innerHTML="";
   document.getElementById("search-inline-clear").style.display="none";
+  var f=document.getElementById("sr-filters");if(f)f.style.display="none";
+  _srProds=[];
 }
 function _norm(s){return(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
 function _prodSearchText(p){
@@ -1163,13 +1174,17 @@ function _prodSearchText(p){
   return _norm(parts.join(" "));
 }
 function doSearchInline(q){
-  var el=document.getElementById("search-inline-res");
   var qt=document.getElementById("search-inline-title");
-  var qc=document.getElementById("search-inline-count");
   var clr=document.getElementById("search-inline-clear");
+  var filters=document.getElementById("sr-filters");
   q=q.trim();
   clr.style.display=q.length>0?"block":"none";
-  if(q.length<2){el.innerHTML="";qt.textContent="";qc.textContent="";return;}
+  if(q.length<2){
+    document.getElementById("search-inline-res").innerHTML="";
+    qt.textContent="";document.getElementById("search-inline-count").textContent="";
+    if(filters)filters.style.display="none";
+    return;
+  }
   var ql=_norm(q);var results=[];
   CAT_KEYS.forEach(function(cat){
     var info=DATA[cat];if(!info)return;
@@ -1178,10 +1193,11 @@ function doSearchInline(q){
     });
   });
   qt.textContent="Resultados para: "+q;
-  qc.textContent=results.length+" figura"+(results.length!==1?"s":"")+" encontrada"+(results.length!==1?"s":"");
-  el.innerHTML="";
-  if(!results.length){el.innerHTML="<p style='color:#666;font-size:14px;padding:24px;grid-column:1/-1'>Sin resultados</p>";return;}
-  results.forEach(function(r){el.appendChild(makeCard(r.p,r.cat));});
+  _srProds=results;_srSort="default";_srFilter="all";
+  ["def","pa","pd"].forEach(function(k){var b=document.getElementById("sr-sort-"+k);if(b)b.classList.toggle("sort-active",k==="def");});
+  ["all","stock","pre"].forEach(function(k){var b=document.getElementById("sr-fil-"+k);if(b)b.classList.toggle("on",k==="all");});
+  if(filters)filters.style.display=results.length?"flex":"none";
+  _srRenderGrid();
 }
 function openSearch(){openSearchPage();}
 
@@ -1255,6 +1271,39 @@ function _cpSetFilter(f){
   ["all","stock","pre"].forEach(function(k){var b=document.getElementById("cp-fil-"+k);if(b)b.classList.remove("on");});
   var el=document.getElementById("cp-fil-"+f);if(el)el.classList.add("on");
   _cpRenderGrid();
+}
+
+// ── SEARCH FILTERS ──
+var _srProds=[];var _srSort="default";var _srFilter="all";
+function _srRenderGrid(){
+  var filtered=_srProds.filter(function(r){
+    if(_srFilter==="all")return true;
+    var d=(r.p.disp||"").toLowerCase();
+    if(_srFilter==="stock")return d.indexOf("inmediata")>=0;
+    if(_srFilter==="pre")return d.indexOf("pre")>=0;
+    return true;
+  });
+  if(_srSort==="price-a"){
+    filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;if(!pa&&!pb)return 0;if(!pa)return 1;if(!pb)return-1;return pa-pb;});
+  }else if(_srSort==="price-d"){
+    filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;return pb-pa;});
+  }
+  var el=document.getElementById("search-inline-res");el.innerHTML="";
+  if(!filtered.length){el.innerHTML="<p style='color:#666;font-size:14px;padding:24px;grid-column:1/-1'>Sin resultados con este filtro</p>";}
+  else{filtered.forEach(function(r){el.appendChild(makeCard(r.p,r.cat));});}
+  document.getElementById("search-inline-count").textContent=filtered.length+" figura"+(filtered.length!==1?"s":"")+" encontrada"+(filtered.length!==1?"s":"");
+}
+function _srSetSort(s){
+  _srSort=s;
+  ["def","pa","pd"].forEach(function(k){var b=document.getElementById("sr-sort-"+k);if(b)b.classList.remove("sort-active");});
+  var el=document.getElementById("sr-sort-"+(s==="default"?"def":s==="price-a"?"pa":"pd"));if(el)el.classList.add("sort-active");
+  _srRenderGrid();
+}
+function _srSetFilter(f){
+  _srFilter=f;
+  ["all","stock","pre"].forEach(function(k){var b=document.getElementById("sr-fil-"+k);if(b)b.classList.remove("on");});
+  var el=document.getElementById("sr-fil-"+f);if(el)el.classList.add("on");
+  _srRenderGrid();
 }
 
 var _modalProd=null;
