@@ -698,7 +698,7 @@ def _make_product_id(nombre, catalog_all):
         counter += 1
     return candidate
 
-def add_product(path, data, categoria, precio, precio_d, reserva, entrega, cantidad, estado, youtube=""):
+def add_product(path, data, categoria, precio, precio_d, reserva, entrega, cantidad, estado, youtube="", disp=None):
     catalog = load_catalog(path)
     if data.get("ai_blocks"):
         blocks = data["ai_blocks"]
@@ -711,7 +711,7 @@ def add_product(path, data, categoria, precio, precio_d, reserva, entrega, canti
         "n":data["nombre"],"i":data["fotos"][0] if data["fotos"] else "",
         "l":data["url_origen"],"marca":data["marca"],"escala":data["escala"],
         "franquicia":data.get("franquicia",""),
-        "estado":estado,"disp":CAT_DISP.get(categoria,"Entrega Inmediata"),
+        "estado":estado,"disp":disp if disp else CAT_DISP.get(categoria,"Entrega Inmediata"),
         "precio":precio,"precio_d":precio_d,"precio_orig":data.get("precio_orig",""),
         "reserva":reserva,"entrega":entrega,"cantidad":cantidad,
         "fotos":data["fotos"],"content":blocks,"yt":youtube,
@@ -1222,6 +1222,8 @@ class UVAdminApp:
         self.add_entrega_var = tk.StringVar()
         self.add_cantidad_var= tk.StringVar()
         self.add_youtube_var = tk.StringVar()
+        self.add_marca_var   = tk.StringVar()
+        self.add_escala_var  = tk.StringVar()
 
         field(right,"Nombre (editable):",self.add_nombre_var,0)
 
@@ -1241,27 +1243,36 @@ class UVAdminApp:
         self.add_precio_var.trace_add("write", _update_reserva_lbl)
 
         field(right,"Entrega Estimada:",self.add_entrega_var,2)
-        field(right,"Cantidad disponible:",self.add_cantidad_var,3)
-        field(right,"YouTube URL:",self.add_youtube_var,4)
+        field(right,"Marca:",          self.add_marca_var,  3)
+        field(right,"Escala:",         self.add_escala_var, 4)
+        field(right,"Cantidad disponible:",self.add_cantidad_var,5)
+        field(right,"YouTube URL:",    self.add_youtube_var,6)
 
-        # Category & Estado
-        tk.Label(right,text="Categoría:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=5,column=0,sticky="w",pady=(6,2))
+        # Disponibilidad
+        tk.Label(right,text="Disponibilidad:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
+        self.add_disp_var = tk.StringVar(value="Pre Orden")
+        ttk.Combobox(right,textvariable=self.add_disp_var,
+                     values=["Entrega Inmediata","Pre Orden","Vendido","Reservado"],
+                     state="normal",font=("Helvetica",11)).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+
+        # Category & Franquicia
+        tk.Label(right,text="Categoría:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=8,column=0,sticky="w",pady=(6,2))
         self.add_cat_var = tk.StringVar(value=CAT_KEYS[0])
         ttk.Combobox(right,textvariable=self.add_cat_var,values=CAT_KEYS,state="readonly",
-                     font=("Helvetica",11)).grid(row=5,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+                     font=("Helvetica",11)).grid(row=8,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
-        tk.Label(right,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=6,column=0,sticky="w",pady=(6,2))
+        tk.Label(right,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=9,column=0,sticky="w",pady=(6,2))
         self.add_franquicia_var = tk.StringVar(value="")
         ttk.Combobox(right,textvariable=self.add_franquicia_var,values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros","Adultos"],
-                     state="readonly",font=("Helvetica",11)).grid(row=6,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+                     state="readonly",font=("Helvetica",11)).grid(row=9,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
         # Precio original + checkboxes Destacado/Oferta
-        tk.Label(right,text="Precio Orig (Q):",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
+        tk.Label(right,text="Precio Orig (Q):",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=10,column=0,sticky="w",pady=(6,2))
         self.add_precio_orig_var = tk.StringVar()
         tk.Entry(right,textvariable=self.add_precio_orig_var,bg=BG2,fg=TEXT,font=("Helvetica",11),
-                 relief="flat",bd=6,insertbackground=TEXT).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+                 relief="flat",bd=6,insertbackground=TEXT).grid(row=10,column=1,sticky="ew",pady=(6,2),padx=(8,0))
         add_chk = tk.Frame(right, bg=BG)
-        add_chk.grid(row=7,column=2,columnspan=1,sticky="w",pady=(6,2),padx=(12,0))
+        add_chk.grid(row=10,column=2,columnspan=1,sticky="w",pady=(6,2),padx=(12,0))
         tk.Checkbutton(add_chk,text="★ Destacado",variable=self._add_destacado,
                        bg=BG,fg="#b97aff",selectcolor=BG2,activebackground=BG,
                        font=("Helvetica",9,"bold")).pack(side="left",padx=(0,8))
@@ -1273,25 +1284,25 @@ class UVAdminApp:
                        font=("Helvetica",9,"bold"),
                        command=self._on_add_adulto18_toggle).pack(side="left")
 
-        tk.Label(right,text="Estado:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=8,column=0,sticky="w",pady=(6,2))
+        tk.Label(right,text="Estado:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=11,column=0,sticky="w",pady=(6,2))
         self.add_estado_var = tk.StringVar(value="Nuevo")
         ttk.Combobox(right,textvariable=self.add_estado_var,values=["Nuevo","Usado - Como Nuevo","Vendido"],
-                     state="readonly",font=("Helvetica",11)).grid(row=8,column=1,sticky="ew",pady=(6,2),padx=(8,0))
+                     state="readonly",font=("Helvetica",11)).grid(row=11,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
         # Meta info label
         self.add_meta_lbl = tk.Label(right,text="",bg=BG,fg=MUTED,font=("Helvetica",10))
-        self.add_meta_lbl.grid(row=9,column=0,columnspan=2,sticky="w",pady=4)
+        self.add_meta_lbl.grid(row=12,column=0,columnspan=2,sticky="w",pady=4)
 
         # AI description area
         ai_hdr = tk.Frame(right, bg=BG)
-        ai_hdr.grid(row=10,column=0,columnspan=3,sticky="ew",pady=(8,2))
+        ai_hdr.grid(row=13,column=0,columnspan=3,sticky="ew",pady=(8,2))
         tk.Label(ai_hdr,text="Descripción:",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(side="left")
         self.add_ai_btn = tk.Button(ai_hdr,text="✨ Generar con IA",
                   command=self._add_gen_ai,
                   bg="#2d1a4a",fg="#b97aff",font=("Helvetica",9,"bold"),relief="flat",padx=10,pady=3)
         self.add_ai_btn.pack(side="left",padx=(10,0))
         ai_txt_frame = tk.Frame(right,bg=BG2,relief="flat",bd=0)
-        ai_txt_frame.grid(row=11,column=0,columnspan=3,sticky="ew",pady=(2,2))
+        ai_txt_frame.grid(row=14,column=0,columnspan=3,sticky="ew",pady=(2,2))
         ai_txt_frame.columnconfigure(0,weight=1)
         self.add_ai_txt = tk.Text(ai_txt_frame,height=13,bg=BG2,fg=TEXT,font=("Helvetica",10),
                                    relief="flat",bd=6,wrap="word",insertbackground=TEXT)
@@ -1302,7 +1313,7 @@ class UVAdminApp:
 
         tk.Button(right,text="  + Agregar al Catálogo  ",command=self._add_confirm,
                   bg=PURPLE,fg="white",font=("Helvetica",12,"bold"),relief="flat",
-                  padx=20,pady=10).grid(row=12,column=0,columnspan=3,sticky="w",pady=(14,8))
+                  padx=20,pady=10).grid(row=15,column=0,columnspan=3,sticky="w",pady=(14,8))
 
     # ── TAB 2: EDITAR FIGURA ──────────────────────────────────────────────────
 
@@ -1691,15 +1702,16 @@ class UVAdminApp:
     def _on_scraped_add(self, data):
         self._scraped_add = data
         self.add_nombre_var.set(data["nombre"])
+        self.add_marca_var.set(data.get("marca",""))
+        self.add_escala_var.set(data.get("escala",""))
+        if data.get("entrega"):
+            self.add_entrega_var.set(data["entrega"])
         parsed = urlparse(data["url_origen"])
-        self.add_meta_lbl.config(text=f"🌐 {parsed.netloc.replace('www.','')}  ·  {data['marca']}  ·  {data['escala']}")
+        self.add_meta_lbl.config(text=f"🌐 {parsed.netloc.replace('www.','')}")
         if data.get("precio_sugerido"):
             self._status(f"Precio detectado: USD {data['precio_sugerido']} → poné el precio en Q", ORANGE)
         self.add_preview.set_photos(data["fotos"])
         self.add_ai_txt.delete("1.0","end")
-        # Entrega estimada detectada en el scrape
-        if data.get("entrega"):
-            self.add_entrega_var.set(data["entrega"])
         translated = " · Traducido ✓" if data.get("traducido") else ""
         self._status(f"✅  {len(data['fotos'])} fotos encontradas{translated}", GREEN)
         # Auto-generar descripción con IA si hay API key
@@ -1764,6 +1776,8 @@ class UVAdminApp:
             self._scraped_add["precio_orig"] = self.add_precio_orig_var.get().strip()
             self._scraped_add["destacado"]   = self._add_destacado.get()
             self._scraped_add["oferta"]      = self._add_oferta.get()
+            self._scraped_add["marca"]       = self.add_marca_var.get().strip()
+            self._scraped_add["escala"]      = self.add_escala_var.get().strip()
             precio_str = self.add_precio_var.get().strip()
             try:
                 reserva_auto = str(round(float(precio_str.replace(",","").replace("Q","")) * 0.20))
@@ -1779,12 +1793,15 @@ class UVAdminApp:
                 self.add_cantidad_var.get().strip(),
                 self.add_estado_var.get(),
                 self.add_youtube_var.get().strip(),
+                disp=self.add_disp_var.get(),
             )
             self._status(f"✅  '{p['n']}' agregada. Publicá en GitHub para actualizar el sitio.", GREEN)
             messagebox.showinfo("✅ Listo", f"'{p['n']}' agregada al catálogo.\n\nClickeá '🚀 Publicar en GitHub' para actualizar el sitio.")
             self._scraped_add = None
             self.add_url_var.set(""); self.add_nombre_var.set(""); self.add_precio_var.set("")
             self.add_entrega_var.set(""); self.add_cantidad_var.set("")
+            self.add_marca_var.set(""); self.add_escala_var.set("")
+            self.add_disp_var.set("Pre Orden")
             self.add_youtube_var.set(""); self.add_preview.set_photos([])
             self.add_ai_txt.delete("1.0","end"); self.add_franquicia_var.set("")
             self.add_ai_btn.config(text="✨ Generar con IA")
