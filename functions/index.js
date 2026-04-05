@@ -47,6 +47,7 @@ export async function onRequestGet(context) {
   const desc = [product.marca, product.escala, product.estado]
     .filter(Boolean).join(" · ") + pricePart;
   const canonical = `${siteUrl}/?figura=${encodeURIComponent(figId)}`;
+  const redirect  = `${siteUrl}/#figura/${encodeURIComponent(figId)}`;
 
   const esc = s => String(s)
     .replace(/&/g, "&amp;")
@@ -74,9 +75,9 @@ export async function onRequestGet(context) {
 <meta name="twitter:title"       content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image"       content="${esc(image)}">
-<!-- Redirigir al SPA -->
-<meta http-equiv="refresh" content="0;url=${esc(canonical)}">
-<script>window.location.replace(${JSON.stringify(canonical)});</script>
+<!-- Redirigir al SPA via hash (evita re-disparar la Function) -->
+<meta http-equiv="refresh" content="0;url=${esc(redirect)}">
+<script>window.location.replace(${JSON.stringify(redirect)});</script>
 </head>
 <body></body>
 </html>`;
