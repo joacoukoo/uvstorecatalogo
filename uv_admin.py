@@ -143,8 +143,23 @@ def git_deploy(repo_path, commit_msg="Update catalog", status_cb=None):
                 return True, "Sin cambios nuevos para subir."
             return False, f"git commit falló: {r.stderr}"
         
+        log("📤 Sincronizando con GitHub...")
+
+        # git pull --rebase para traer commits del Action antes de pushear
+        r = subprocess.run(["git", "pull", "--rebase"], cwd=cwd, capture_output=True, text=True, timeout=30)
+        if r.returncode != 0:
+            # Conflicto en index.html (generado por el Action) — tomamos la versión remota
+            subprocess.run(["git", "checkout", "--theirs", "index.html"], cwd=cwd, capture_output=True)
+            subprocess.run(["git", "add", "index.html"], cwd=cwd, capture_output=True)
+            rc = subprocess.run(["git", "rebase", "--continue"],
+                                cwd=cwd, capture_output=True, text=True,
+                                env={**os.environ, "GIT_EDITOR": "true"}, timeout=30)
+            if rc.returncode != 0:
+                subprocess.run(["git", "rebase", "--abort"], cwd=cwd, capture_output=True)
+                return False, f"git pull --rebase falló: {r.stderr}"
+
         log("📤 Subiendo a GitHub...")
-        
+
         # git push
         r = subprocess.run(["git", "push"], cwd=cwd, capture_output=True, text=True, timeout=30)
         if r.returncode != 0:
