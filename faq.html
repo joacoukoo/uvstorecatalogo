@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preguntas Frecuentes — UV Store GT</title>
+<meta name="description" content="Resolvemos tus dudas sobre productos, pre órdenes, pagos, envíos y garantías en UV Store GT. Figuras coleccionables originales en Guatemala.">
+<link rel="canonical" href="https://uvstore.shop/faq.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Preguntas Frecuentes — UV Store GT">
+<meta property="og:description" content="Todo lo que necesitás saber antes de comprar en UV Store GT. Figuras coleccionables premium en Guatemala.">
+<meta property="og:url" content="https://uvstore.shop/faq.html">
+<meta property="og:site_name" content="UV Store GT">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"¿Los productos son originales?","acceptedAnswer":{"@type":"Answer","text":"Sí. Todos nuestros productos son 100% originales de marcas reconocidas como Hot Toys, Prime 1 Studio, Iron Studios, entre otras. No trabajamos con réplicas ni imitaciones."}},
+    {"@type":"Question","name":"¿Qué significa pre orden?","acceptedAnswer":{"@type":"Answer","text":"Una pre orden es una reserva de un producto que aún no ha llegado al país. Te asegura la pieza antes de que se agote."}},
+    {"@type":"Question","name":"¿Qué métodos de pago aceptan?","acceptedAnswer":{"@type":"Answer","text":"Aceptamos transferencias bancarias, depósitos, pago con tarjeta de crédito o débito en modalidad contado sin recargo, y Visa Cuotas con recargo."}},
+    {"@type":"Question","name":"¿Los precios incluyen envío?","acceptedAnswer":{"@type":"Answer","text":"Sí, todos nuestros precios incluyen envío a cualquier parte de Guatemala."}},
+    {"@type":"Question","name":"¿Los productos tienen garantía?","acceptedAnswer":{"@type":"Answer","text":"Sí, todos nuestros productos tienen garantía. Evaluamos cada caso de forma individual para darte la mejor solución posible."}},
+    {"@type":"Question","name":"¿Dónde están ubicados?","acceptedAnswer":{"@type":"Answer","text":"Contamos con showroom en Zona 10, sobre la 20 calle. La atención es con cita previa."}}
+  ]
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d0e18;--bg2:#13141f;--bg3:#1a1b2e;
+  --purple:#7B2FBE;--purple2:#a78bfa;
+  --text:#e0e0e0;--muted:#888;--border:#2a2b3d;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"DM Sans",system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+/* ── HEADER ── */
+header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(13,14,24,0.85);backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+  padding:0 24px;height:60px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.logo{
+  font-family:"Bebas Neue",sans-serif;font-size:22px;letter-spacing:2px;
+  color:#fff;text-decoration:none;
+}
+.logo span{color:var(--purple2)}
+.back-link{
+  font-size:13px;color:var(--muted);text-decoration:none;
+  display:flex;align-items:center;gap:6px;transition:color .15s;
+}
+.back-link:hover{color:var(--purple2)}
+
+/* ── HERO ── */
+.hero{
+  padding:72px 24px 48px;max-width:860px;margin:0 auto;text-align:center;
+}
+.hero-eye{
+  font-family:"Bebas Neue",sans-serif;font-size:13px;letter-spacing:3px;
+  color:var(--purple2);margin-bottom:16px;
+}
+.hero h1{
+  font-family:"Bebas Neue",sans-serif;font-size:clamp(42px,8vw,72px);
+  letter-spacing:2px;line-height:1;margin-bottom:16px;color:#fff;
+}
+.hero p{font-size:15px;color:var(--muted);max-width:500px;margin:0 auto}
+
+/* ── SECTIONS ── */
+main{max-width:860px;margin:0 auto;padding:0 24px 80px}
+
+.faq-section{margin-bottom:48px}
+.faq-section-title{
+  font-family:"Bebas Neue",sans-serif;font-size:22px;letter-spacing:2px;
+  color:var(--purple2);margin-bottom:16px;padding-bottom:10px;
+  border-bottom:1px solid var(--border);
+}
+
+/* ── ACCORDION ── */
+.faq-item{
+  border:1px solid var(--border);border-radius:12px;
+  margin-bottom:8px;overflow:hidden;transition:border-color .2s;
+}
+.faq-item:hover{border-color:var(--purple)}
+.faq-q{
+  width:100%;background:var(--bg2);border:none;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:18px 20px;cursor:pointer;text-align:left;
+  color:var(--text);font-family:"DM Sans",sans-serif;font-size:15px;font-weight:600;
+  transition:background .15s;
+}
+.faq-q:hover{background:var(--bg3)}
+.faq-q.open{background:var(--bg3);color:#fff}
+.faq-icon{
+  flex-shrink:0;width:22px;height:22px;border-radius:50%;
+  background:var(--bg3);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;color:var(--muted);transition:all .2s;
+}
+.faq-q.open .faq-icon{background:var(--purple);border-color:var(--purple);color:#fff;transform:rotate(45deg)}
+.faq-a{
+  max-height:0;overflow:hidden;transition:max-height .3s ease;
+  background:var(--bg2);
+}
+.faq-a-inner{
+  padding:0 20px 18px;font-size:14px;color:var(--muted);line-height:1.7;
+  border-top:1px solid var(--border);padding-top:14px;
+}
+.faq-item.open .faq-a{max-height:300px}
+
+/* ── CTA ── */
+.cta{
+  text-align:center;background:var(--bg2);border:1px solid var(--border);
+  border-radius:16px;padding:40px 24px;margin-top:16px;
+}
+.cta p{color:var(--muted);font-size:15px;margin-bottom:20px}
+.wa-btn{
+  display:inline-flex;align-items:center;gap:10px;
+  background:#25d366;color:#fff;padding:14px 28px;
+  border-radius:12px;text-decoration:none;font-weight:600;font-size:15px;
+  transition:background .15s;
+}
+.wa-btn:hover{background:#1db954}
+.wa-btn svg{width:20px;height:20px;fill:#fff}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">UV <span>Store</span></a>
+  <a class="back-link" href="/">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+    Volver al catálogo
+  </a>
+</header>
+
+<div class="hero">
+  <div class="hero-eye">AYUDA</div>
+  <h1>Preguntas Frecuentes</h1>
+  <p>Todo lo que necesitás saber antes de comprar. Si no encontrás tu respuesta, escribinos por WhatsApp.</p>
+</div>
+
+<main>
+
+  <div class="faq-section">
+    <div class="faq-section-title">Sobre los productos</div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Los productos son originales?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí. Todos nuestros productos son 100% originales de marcas reconocidas como Hot Toys, Prime 1 Studio, Iron Studios, entre otras. No trabajamos con réplicas ni imitaciones.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué tipo de productos venden?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Ofrecemos figuras coleccionables premium, incluyendo figuras escala 1:6, estatuas de alta gama y piezas exclusivas para coleccionistas.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Las figuras son nuevas?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí, todos los productos son nuevos, excepto que se indique lo contrario. En esos casos, podemos enviarte fotos reales detalladas para que tomes la decisión con total confianza.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Los productos incluyen caja y accesorios?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí, incluyen todo lo que el fabricante indica: caja original, accesorios, base y elementos adicionales, excepto que se indique lo contrario.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Las imágenes son reales?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">En la mayoría de los casos son imágenes oficiales del fabricante. Si deseás ver fotos reales del producto disponible, podés solicitarlas por WhatsApp o Instagram.</div></div>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="faq-section-title">Pre órdenes</div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué significa "pre orden"?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Una pre orden es una reserva de un producto que aún no ha llegado al país. Te asegura la pieza antes de que se agote.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Cuánto tiempo tarda en llegar una pre orden?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Depende del fabricante, pero normalmente entre 1 a 6 meses después de su lanzamiento oficial. Siempre indicamos un estimado en cada producto.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Cómo funciona el pago en una pre orden?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Se solicita un anticipo (generalmente 20%) para asegurar la reserva. El saldo restante se paga cuando el producto llega a Guatemala.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Se puede pagar en cuotas?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí. Podés realizar pagos parciales durante el período de espera para mayor comodidad.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué pasa si el producto se retrasa?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Los retrasos pueden ocurrir por parte del fabricante. En ese caso, te mantenemos informado en todo momento. Tu reserva sigue asegurada.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Se puede cancelar una pre orden?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Las pre órdenes no son reembolsables, ya que el producto se solicita específicamente para vos. Si tenés dudas, te recomendamos consultarnos antes de confirmar.</div></div>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="faq-section-title">Entrega inmediata</div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué significa "entrega inmediata"?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Son productos que ya tenemos disponibles en Guatemala, listos para envío o entrega.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿En cuánto tiempo recibo mi producto?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Generalmente entre 1 a 3 días hábiles dependiendo de tu ubicación.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Puedo apartar un producto en stock?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí, podemos reservarlo por un tiempo corto con un anticipo. Te recomendamos confirmarlo lo antes posible, ya que suelen venderse rápido.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Se puede ver el producto antes de comprar?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí, contamos con showroom por cita en Zona 10. Podés coordinar tu visita para ver las piezas disponibles.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Los productos en stock son limitados?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí. Muchas piezas son de edición limitada, por lo que una vez vendidas, no siempre vuelven a estar disponibles.</div></div>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="faq-section-title">Pagos</div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué métodos de pago aceptan?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Aceptamos transferencias bancarias, depósitos, pago con tarjeta de crédito o débito en modalidad contado sin recargo, y Visa Cuotas con recargo.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Cuándo debo pagar el saldo restante?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Cuando el producto llega a Guatemala. Además, ofrecemos hasta 2 meses adicionales para completar el pago.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Puedo pagar contra entrega?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">No trabajamos con pago contra entrega.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Los precios incluyen envío?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí, todos nuestros precios incluyen envío a cualquier parte de Guatemala.</div></div>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="faq-section-title">Envíos</div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Cómo funcionan los envíos?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Realizamos envíos a toda Guatemala a través de Cargo Expreso y Forza.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Cómo sé que mi producto está seguro?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Empacamos cuidadosamente cada pieza para protegerla durante el transporte.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Puedo recoger en persona?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí, podés coordinar entrega en nuestro showroom en Zona 10.</div></div>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="faq-section-title">Garantías y devoluciones</div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Los productos tienen garantía?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí, todos nuestros productos tienen garantía. Evaluamos cada caso de forma individual para darte la mejor solución posible.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué pasa si el producto llega dañado?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Debés notificarnos lo antes posible. Evaluamos cada caso y te damos una solución.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Puedo devolver un producto?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">No manejamos devoluciones por cambio de opinión. Solo aplican en casos específicos como daño o defecto.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué pasa si falta una pieza o accesorio?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Nos encargamos de gestionar la reposición con el fabricante lo antes posible. Nosotros manejamos todo el proceso por vos.</div></div>
+    </div>
+  </div>
+
+  <div class="faq-section">
+    <div class="faq-section-title">General</div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Dónde están ubicados?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Contamos con showroom en Zona 10, sobre la 20 calle. La atención es con cita previa.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Cómo puedo comprar?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Podés comprar directamente escribiéndonos por WhatsApp o Instagram. Te guiamos en todo el proceso.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Puedo confiar en UV Store?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Sí. Llevamos más de 5 años operando en Guatemala y más de 10 años en Centroamérica, trabajando con productos premium y clientes exigentes.</div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggle(this)">
+        ¿Qué pasa si tengo dudas antes de comprar?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">Estamos para ayudarte. Escribinos y te asesoramos sin compromiso para que tomes la mejor decisión.</div></div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <p>¿No encontraste lo que buscabas? Escribinos y te respondemos enseguida.</p>
+    <a class="wa-btn" href="https://wa.me/50230261622?text=Hola!%20Tengo%20una%20consulta%20sobre%20UV%20Store%20GT">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Escribinos por WhatsApp
+    </a>
+  </div>
+
+</main>
+
+<script>
+function toggle(btn){
+  var item=btn.closest(".faq-item");
+  var isOpen=item.classList.contains("open");
+  // Cerrar todos
+  document.querySelectorAll(".faq-item.open").forEach(function(el){
+    el.classList.remove("open");
+    el.querySelector(".faq-q").classList.remove("open");
+  });
+  // Abrir el clickeado si estaba cerrado
+  if(!isOpen){
+    item.classList.add("open");
+    btn.classList.add("open");
+  }
+}
+</script>
+</body>
+</html>
