@@ -12,11 +12,15 @@
       "Bash(python inject_data.py --template index_template.html --data productos.json --output index.html)",
       "Bash(python -c \"import ast; ast.parse\\(open\\(''uv_admin.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''OK - sin errores de sintaxis''\\)\")",
       "Bash(python -c \"import ast; ast.parse\\(open\\(''uv_admin.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''OK''\\)\")",
-      "Bash(git checkout:*)",
-      "Bash(git add:*)",
-      "Bash(git rebase:*)",
-      "Bash(git push:*)",
-      "Bash(GIT_EDITOR=true git rebase --continue)"
+      "Bash(python inject_data.py)",
+      "Bash(py -c \":*)",
+      "Bash(python -c \"import json; d=json.load\\(open\\(''productos.json'',encoding=''utf-8''\\)\\); [print\\(k, len\\(v[''products'']\\)\\) for k,v in d.items\\(\\)]\")",
+      "Bash(python -m py_compile uv_admin.py)",
+      "Bash(python -c \"import json; d=json.load\\(open\\(''productos.json'',encoding=''utf-8''\\)\\); [print\\(c,p[''n'']\\) for c,v in d.items\\(\\) for p in v[''products''] if ''zelda'' in p[''n''].lower\\(\\) or ''link'' in p[''n''].lower\\(\\)]\")",
+      "Read(//c/Users/Joaquin/Downloads/**)",
+      "Bash(python editar_flyer.py)",
+      "Bash(python:*)",
+      "Bash(du -sh C:/Users/Joaquin/.claude/projects/C--Users-Joaquin-OneDrive-Escritorio-sitio-que-funciona/*)"
     ]
   }
 }
