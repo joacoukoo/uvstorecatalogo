@@ -1378,10 +1378,29 @@ function openModal(p,cat){
   if(p.variantes&&p.variantes.length>0){
     varToggleEl.style.display="flex";
     var basePhotos=(p.fotos&&p.fotos.length>0)?p.fotos:[p.i];
-    // Botón base (el producto principal)
+    var baseContent=p.content||[];
+    // Helper: rebuild content section
+    function _renderContent(contentArr){
+      var contentEl=document.getElementById("modal-content");contentEl.innerHTML="";
+      if(!contentArr||!contentArr.length)return;
+      contentArr.slice(0,30).forEach(function(b){
+        var el;
+        if(b.t==="notion-heading-2"||b.t==="notion-heading-3"){
+          el=document.createElement("div");el.className="modal-desc-title";el.textContent=b.x;
+        }else if(b.t==="notion-bulleted-list"||b.t==="notion-numbered-list"){
+          var raw=b.x;var items=[];
+          var byNewline=raw.split(/\n+/).map(function(s){return s.trim();}).filter(Boolean);
+          if(byNewline.length>1){items=byNewline;}
+          else{items=raw.split(/\.\s+(?=[A-ZÁÉÍÓÚÑ])/).map(function(s){return s.trim().replace(/\.$/,"");}).filter(Boolean);if(items.length<=1)items=[raw];}
+          items.forEach(function(item){if(item.trim()){var li=document.createElement("div");li.className="modal-desc-bullet";li.textContent=item.trim();contentEl.appendChild(li);}});return;
+        }else{el=document.createElement("div");el.className="modal-desc";el.textContent=b.x;}
+        contentEl.appendChild(el);
+      });
+    }
+    // Botón base (el producto principal) — siempre dice "Regular"
     var btnBase=document.createElement("button");
     btnBase.className="ver-btn active";
-    btnBase.textContent=p.escala||"Regular";
+    btnBase.textContent="Regular";
     btnBase.onclick=function(){
       varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
       btnBase.classList.add("active");
@@ -1392,6 +1411,7 @@ function openModal(p,cat){
       if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
       if(se&&p.escala)se.textContent=p.escala;
       carouselBuild(basePhotos);
+      _renderContent(baseContent);
     };
     varToggleEl.appendChild(btnBase);
     // Variantes adicionales
@@ -1408,8 +1428,10 @@ function openModal(p,cat){
         if(pe&&v.precio)pe.innerHTML="<span>Q</span>"+v.precio;
         if(re)re.textContent=v.reserva?fmtReserva(v.reserva):"";
         if(se){se.textContent=v.escala||v.label||se.textContent;}
-        // Cambiar fotos si la variante tiene las suyas
         if(v.fotos&&v.fotos.length>0)carouselBuild(v.fotos);
+        // Cambiar descripción si la variante tiene la suya
+        if(v.content&&v.content.length){_renderContent(v.content);}
+        else if(v.desc){_renderContent([{t:"notion-text",x:v.desc}]);}
       };
       varToggleEl.appendChild(btn);
     });

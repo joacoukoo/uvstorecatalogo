@@ -1994,11 +1994,21 @@ class UVAdminApp:
         tk.Button(add_row, text="Quitar sel.", command=_del_selected, bg=BG4, fg=RED,
                   font=("Helvetica",8), relief="flat", padx=4).pack(side="left", padx=(4,0))
 
+        # Descripción propia de la variante
+        tk.Label(fotos_frame, text="Descripción de esta versión (opcional):",
+                 bg=BG3, fg=MUTED, font=("Helvetica",8)).pack(anchor="w", padx=4, pady=(6,2))
+        desc_text = tk.Text(fotos_frame, bg=BG2, fg=TEXT, font=("Helvetica",9),
+                            relief="flat", height=3, wrap="word", insertbackground=TEXT)
+        desc_text.pack(fill="x", padx=4, pady=(0,6))
+        if v and v.get("desc"):
+            desc_text.insert("1.0", v["desc"])
+
         # Pre-populate if existing fotos
         if fotos_list:
             _refresh_fotos_list()
 
         wrap._vars = (label_var, price_var, res_var)
+        wrap._desc_text = desc_text
 
     def _get_variantes(self, container):
         result = []
@@ -2013,6 +2023,10 @@ class UVAdminApp:
                     fotos = list(child._fotos)
                     if fotos:
                         entry["fotos"] = fotos
+                    if hasattr(child, "_desc_text"):
+                        desc = child._desc_text.get("1.0", "end").strip()
+                        if desc:
+                            entry["desc"] = desc
                     result.append(entry)
         return result if result else None
 

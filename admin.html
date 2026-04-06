@@ -1732,6 +1732,19 @@ function addVarianteRow(prefix, v = {}) {
 
   fotosSection.appendChild(strip);
   fotosSection.appendChild(urlInput);
+
+  // Descripción propia de la variante (opcional)
+  const descLabel = document.createElement("div");
+  descLabel.style.cssText = "color:var(--muted);font-size:12px;margin-top:10px;margin-bottom:4px";
+  descLabel.textContent = "Descripción de esta versión (opcional):";
+  const descArea = document.createElement("textarea");
+  descArea.placeholder = "Ej: Medidas: 45 cm de alto. Incluye base exclusiva con efectos de luz.";
+  descArea.rows = 3;
+  descArea.style.cssText = "width:100%;box-sizing:border-box;font-size:13px;padding:8px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);resize:vertical";
+  descArea.value = v.desc || "";
+  fotosSection.appendChild(descLabel);
+  fotosSection.appendChild(descArea);
+
   fotosToggle.onclick = () => {
     const open = fotosSection.style.display === "none";
     fotosSection.style.display = open ? "block" : "none";
@@ -1739,8 +1752,9 @@ function addVarianteRow(prefix, v = {}) {
   wrap.appendChild(fotosToggle);
   wrap.appendChild(fotosSection);
 
-  // Guardar referencia a fotos para getVariantes
+  // Guardar referencia a fotos/desc para getVariantes
   wrap._fotosArr = fotosArr;
+  wrap._descArea = descArea;
   wrap._isVarianteRow = true;
 
   list.appendChild(wrap);
@@ -1769,6 +1783,8 @@ function getVariantes(prefix) {
     // Mantener 'escala' por compat con variantes de escala puras
     if (/^1:[0-9]+/.test(label)) v.escala = label;
     if (wrap._fotosArr?.length) v.fotos = [...wrap._fotosArr];
+    const desc = wrap._descArea?.value.trim();
+    if (desc) v.desc = desc;
     result.push(v);
   });
   return result.length ? result : null;
