@@ -549,6 +549,22 @@ body::after{
 
 /* ══ MISC ══ */
 .page{display:none}.page.active{display:block}
+.site-footer{
+  padding:40px 24px 32px;text-align:center;border-top:1px solid var(--border2);
+  margin-top:32px;
+}
+.site-footer-logo{
+  font-family:"Bebas Neue",sans-serif;font-size:20px;letter-spacing:2px;color:var(--muted2);margin-bottom:16px;
+}
+.site-footer-logo span{color:var(--purple2)}
+.site-footer-links{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:8px 24px;margin-bottom:16px;
+}
+.site-footer-links a{
+  font-size:13px;color:var(--muted);text-decoration:none;transition:color .15s;
+}
+.site-footer-links a:hover{color:var(--purple2)}
+.site-footer-copy{font-size:11px;color:#444;letter-spacing:.3px;}
 .wa-fab{
   position:fixed;bottom:24px;right:24px;
   width:52px;height:52px;background:#25D366;border-radius:50%;
@@ -673,6 +689,16 @@ body::after{
     </div>
     <div class="prod-grid" id="feat-grid"></div>
   </div>
+  <footer class="site-footer">
+    <div class="site-footer-logo">UV <span>STORE</span> GT</div>
+    <div class="site-footer-links">
+      <a href="/nosotros.html">Quiénes somos</a>
+      <a href="/faq.html">Preguntas frecuentes</a>
+      <a href="https://instagram.com/uvstore_gt" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/50230261622" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <div class="site-footer-copy">© 2026 UV Store Guatemala · Figuras coleccionables premium</div>
+  </footer>
 </div>
 
 <div class="page" id="cat-page">
