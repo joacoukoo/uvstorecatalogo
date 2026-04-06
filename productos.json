@@ -9600,6 +9600,134 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "albus-dumbledore-deluxe",
+        "n": "Albus Dumbledore Deluxe",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/DUMBDLX.jpg?v=1770408108",
+        "l": "https://www.specfictionshop.com/products/harry-potter-albus-dumbledore-deluxe-1-6-scale-figure",
+        "marca": "INART",
+        "escala": "1:6",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "5600",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1120",
+        "entrega": "Abril 2027",
+        "cantidad": "2",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/DUMBDLX.jpg?v=1770408108",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/624261805_883491681130653_3309454397281735112_n.jpg?v=1770408108",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/625086719_883507567795731_9089033009400356125_n.jpg?v=1770408108",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/625090345_883518217794666_8481325582196979850_n.jpg?v=1770408108",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/625432818_883490291130792_888753155725058203_n.jpg?v=1770408108",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/625477669_883487294464425_1608433135993178176_n.jpg?v=1770408108",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/625756299_883509204462234_6951427755602454419_n.jpg?v=1770408108",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/625952171_883515461128275_5931259231844161031_n.jpg?v=1770408108"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "DESCRIPCIÓN También de InArt Collectibles está su Albus Dumbledore (Versión Premium). El producto incluye: Figura esculpida con barba y cabello enraizado con ojos articulados magnéticos (se puede operar mediante imanes y palancas interiores) Cuerpo completamente articulado 8x manos intercambiables: 1x par de manos relajadas 1x par de manos señaladoras 1x par de manos abiertas 1x mano derecha con varita 1x mano derecha con espada Ropa: 1x conjunto de túnica de mago Accesorios: 1x par de anteojos 1x sombrero de mago 1x Varita de saúco 1x Espada de Gryffindor 2x Libros 1x Pluma 1x Botella de tinta 1x Mesa 1x Base 1x Soporte de metal 1x Caja de presentación 1x Estuche protector con escultura de cabeza enraizada Tamaño del producto (incluidas la base y el sombrero): Alto 37 cm x Ancho 20 cm x F"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura esculpida con cabeza de cabello y barba con ojos articulados magnéticos (puede operarse mediante imanes y palancas interiores) Cuerpo totalmente articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza de cabello y barba con raíces y ojos articulados magnéticos (puede funcionar mediante imanes y palancas interiores)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo totalmente articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8x manos intercambiables: 1x par de manos relajadas 1x par de manos que señalan 1x par de manos abiertas 1x mano derecha con varita 1x mano derecha con espada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x par de manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x par de manos señaladoras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x par de manos abiertas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x mano derecha que sostiene la varita"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x mano derecha con espada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ropa: 1 juego de túnica de mago."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x conjunto de túnica de mago"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: 1x par de gafas 1x sombrero de mago 1x varita de saúco 1x espada de Gryffindor 2x libros 1x pluma 1x botella de tinta 1x mesa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x par de gafas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x sombrero de mago"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x varita de saúco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Espada de Gryffindor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x libros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x pluma"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x botella de tinta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x mesa"
+          }
+        ],
+        "yt": "",
+        "destacado": true,
+        "oferta": false,
+        "added_at": "2026-04-06T15:43:53.303967",
+        "variantes": [
+          {
+            "label": "Premium",
+            "precio": "6400",
+            "reserva": "1280",
+            "fotos": [
+              "https://www.specfictionshop.com/products/harry-potter-dumbledore-1-6-scale-figure"
+            ],
+            "desc": "Albus Dumbledore (Premium) – Figura Sixth Scale\n\n[InArt Collectibles – 1:6 Scale – Harry Potter]\n\nDescripción\n\nEsta figura Sixth Scale de Albus Dumbledore en su versión Premium, desarrollada por InArt Collectibles, ofrece una representación detallada del icónico director de Hogwarts, destacando su presencia imponente y su carácter sabio dentro del universo de Harry Potter.\n\nLa pieza incorpora un head sculpt con cabello y barba implantados, junto con un sistema de ojos articulados controlados mediante imanes y mecanismos internos, permitiendo ajustar la mirada con precisión. El cuerpo completamente articulado facilita una amplia variedad de poses.\n\nEsta versión Premium amplía el set con la inclusión de Fawkes, el fénix, acompañado de su propio soporte de exhibición. Además, incluye múltiples accesorios icónicos como la Varita de Saúco y la espada de Gryffindor, junto con elementos de escritorio que enriquecen la presentación.\n\nDetalles\n\nLínea: No especificado  \nFabricante: InArt Collectibles  \nTipo: Figura articulada Sixth Scale  \nGénero: Cine / Fantasía  \n\nEspecificaciones\n\nAltura: 37 cm (con base y sombrero)  \nEscala: 1:6  \nMateriales: PVC, ABS, tela, otros no especificados  \nArticulación: Sí  \n\nIncluye\n\n- Head sculpt con cabello y barba implantados  \n- Ojos articulados magnéticos  \n\nManos:\n- 8 manos intercambiables:\n  - Manos relajadas  \n  - Manos señalando  \n  - Manos abiertas  \n  - Mano para varita  \n  - Mano para espada  \n\nFigura adicional:\n- Fawkes (fénix)  \n- Base para Fawkes  \n\nVestuario:\n- Set completo de túnica de mago  \n\nAccesorios:\n- Gafas  \n- Sombrero de mago  \n- Varita de Saúco  \n- Espada de Gryffindor  \n- 2 libros  \n- Pluma  \n- Tintero  \n- Mesa  \n\nDisplay:\n- Base  \n- Soporte metálico  \n- Caja de exhibición  \n- Estuche protector para head sculpt  \n\nCaracterísticas\n\n- Versión Premium con figura adicional de Fawkes  \n- Cabello y barba implantados para mayor realismo  \n- Sistema de ojos articulados con control magnético  \n- Figura completamente articulada  \n- Amplia variedad de accesorios icónicos  \n- Incluye elementos de display adicionales  \n- Ideal para coleccionistas de Harry Potter"
+          }
+        ]
+      },
+      {
         "id": "catwoman-the-dark-knight-rises-2012",
         "n": "Catwoman - The Dark Knight Rises (2012) -",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-CATWOMAN-SIXTH-SCALE_TILES.png?v=1764893452",
