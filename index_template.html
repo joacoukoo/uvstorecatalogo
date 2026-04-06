@@ -1371,21 +1371,41 @@ function openModal(p,cat){
     toggleEl.style.display="none";
   }
   // Variantes de escala
+  // El precio/escala/reserva principal del producto ES la primera opción (1:6).
+  // p.variantes contiene solo las escalas adicionales (1:4, etc.).
   var varToggleEl=document.getElementById("modal-variantes-toggle");
   varToggleEl.innerHTML="";
-  if(p.variantes&&p.variantes.length>1){
+  if(p.variantes&&p.variantes.length>0){
     varToggleEl.style.display="flex";
-    p.variantes.forEach(function(v,i){
+    // Primera opción: el producto base (usa p.precio / p.reserva / p.escala)
+    var btnBase=document.createElement("button");
+    btnBase.className="ver-btn active";
+    btnBase.textContent=p.escala||"Base";
+    btnBase.onclick=function(){
+      varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
+      btnBase.classList.add("active");
+      var pe=document.getElementById("modal-precio-val");
+      var re=document.getElementById("modal-reserva-val");
+      var se=document.getElementById("modal-escala-val");
+      if(pe&&p.precio)pe.innerHTML="<span>Q</span>"+p.precio;
+      if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
+      if(se&&p.escala)se.textContent=p.escala;
+    };
+    varToggleEl.appendChild(btnBase);
+    // Opciones adicionales desde p.variantes
+    p.variantes.forEach(function(v){
       var btn=document.createElement("button");
-      btn.className="ver-btn"+(i===0?" active":"");
+      btn.className="ver-btn";
       btn.textContent=v.escala;
       btn.onclick=function(){
         varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
         btn.classList.add("active");
         var pe=document.getElementById("modal-precio-val");
         var re=document.getElementById("modal-reserva-val");
+        var se=document.getElementById("modal-escala-val");
         if(pe&&v.precio)pe.innerHTML="<span>Q</span>"+v.precio;
         if(re)re.textContent=v.reserva?fmtReserva(v.reserva):"";
+        if(se&&v.escala)se.textContent=v.escala;
       };
       varToggleEl.appendChild(btn);
     });
@@ -1393,25 +1413,19 @@ function openModal(p,cat){
     varToggleEl.style.display="none";
   }
 
-  // Precio y reserva activos (primera variante si existen)
-  var activePrecio=p.precio;
-  var activeReserva=p.reserva;
-  if(p.variantes&&p.variantes.length>0){
-    if(p.variantes[0].precio)activePrecio=p.variantes[0].precio;
-    if(p.variantes[0].reserva)activeReserva=p.variantes[0].reserva;
-  }
-
+  // Precio y reserva: usar siempre p.precio/p.reserva como base (los campos principales del producto)
+  // Las variantes solo actualizan al hacer click
   var propsEl=document.getElementById("modal-props");propsEl.innerHTML="";
   var propList=[];
-  if(activePrecio)propList.push({label:"Precio",value:"<span>Q</span>"+activePrecio,cls:"price",id:"modal-precio-val"});
+  if(p.precio)propList.push({label:"Precio",value:"<span>Q</span>"+p.precio,cls:"price",id:"modal-precio-val"});
   if(p.franquicia)propList.push({label:"Franquicia",value:esc(p.franquicia)});
   if(p.disp){var dispCls=p.disp.toLowerCase().indexOf("inmediata")>=0?"stock":p.disp.toLowerCase().indexOf("pre")>=0?"preorder":"";propList.push({label:"Disponibilidad",value:esc(p.disp),cls:dispCls});}
   if(p.estado)propList.push({label:"Estado",value:esc(p.estado)});
   if(p.marca)propList.push({label:"Marca",value:esc(p.marca)});
-  if(p.escala)propList.push({label:"Escala",value:esc(p.escala)});
+  if(p.escala)propList.push({label:"Escala",value:esc(p.escala),id:"modal-escala-val"});
   if(p.entrega)propList.push({label:"Entrega Estimada",value:esc(p.entrega)});
   if(p.cantidad)propList.push({label:"Disponibles",value:esc(p.cantidad)});
-  if(activeReserva)propList.push({label:"Reserva con",value:esc(fmtReserva(activeReserva)),id:"modal-reserva-val"});
+  if(p.reserva)propList.push({label:"Reserva con",value:esc(fmtReserva(p.reserva)),id:"modal-reserva-val"});
   propList.forEach(function(prop){
     var d=document.createElement("div");d.className="modal-prop";
     d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'"+(prop.id?' id="'+prop.id+'"':"")+">"+prop.value+"</div>";
