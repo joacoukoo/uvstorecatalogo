@@ -31404,6 +31404,79 @@
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2ca18b2a1e412940526f6affc28125a8.jpg?v=1775400927"
         ],
         "added_at": "2026-04-05T17:11:42.821Z"
+      },
+      {
+        "id": "wake-riku",
+        "n": "Wake - Riku",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/83b9c01f3eebd24c0fc6c81a2dcbd952.jpg?v=1774449228",
+        "l": "",
+        "marca": "Wake Studio",
+        "franquicia": "Gaming",
+        "escala": "1/4",
+        "estado": "Sellado",
+        "disp": "Pre-Orden",
+        "precio": "6700",
+        "reserva": "1340",
+        "entrega": "Q1 2027",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Riku es uno de los personajes más icónicos de la saga Kingdom Hearts, el amigo de Sora que ha atravesado un viaje oscuro lleno de conflictos internos y redención. Esta figura de colección captura la esencia del personaje en su forma característica, presentando un detallado trabajo de escultura que refleja su compleja personalidad y estilo distintivo.\n\nLa estatua Wake de Riku es una pieza premium en escala 1/4 que forma parte de una edición limitada de solo 199 piezas en todo el mundo. Con un nivel de detalle excepcional en esculpido, pintura y acabados, esta figura es un must-have para coleccionistas dedicados de Kingdom Hearts y admiradores del personaje que desean una representación artística de museo en sus colecciones."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 41 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 199 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Riku escala 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje de Kingdom Hearts"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de museo con detallado trabajo de pintura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición de coleccionista limitada"
+          }
+        ],
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/83b9c01f3eebd24c0fc6c81a2dcbd952.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bc63bf908d2f73731427b5959f22df08.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/675f097ff6773398256ad84a0f12e093.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/51c5a65fcc41ba7b4f38d9cbc5e5d7fa.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/58bfb79690c74f5055464fd1ebdf0875.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/69c06d1d139b8da56d717dccc313fa99.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6170bdc095418bdd19a3a6d62c2c9a0a.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/296d4f7a539d73ba51453db64157f13c.jpg?v=1774449228",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/addc39c1edd3c9bb0fb92801eb184fe8.jpg?v=1774449228"
+        ],
+        "added_at": "2026-04-06T02:30:35.872Z"
       }
     ]
   },
