@@ -3,62 +3,6 @@
     "slug": "entrega-inmediata",
     "products": [
       {
-        "n": "Clone Commander Wolffe™",
-        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc0caa55.jpg",
-        "l": "https://uv-store-guatemala.super.site/entrega-inmediata/clone-commander-wolffe",
-        "marca": "Hot Toys",
-        "escala": "1:6 - 30CM",
-        "estado": "Sellado",
-        "disp": "Entrega Inmediata",
-        "precio": "3300",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Hot Toys – Television Masterpiece Series Altura:30 cm Inspirado enStar Wars: The Clone Wars, Clone Commander Wolffe (CC-3636) fue el leal comandante del escuadrón Wolf Pack bajo el mando del General Plo Koon. Veterano de innumerables batallas, Wolffe lleva las cicatrices del conflicto como símbolo de su experiencia y liderazgo. Hot Toys presenta esta versión Sixth Scale altamente detallada, capturando con precisión su armadura distintiva gris y blanca con efectos de desgaste, así como su retrato sin casco con cicatriz y ojo derecho blanco característico. La figura incluye opciones para recrear tanto la armaduraPhase IcomoPhase II, permitiendo mayor versatilidad en exhibición. Una pieza esencial para coleccionistas del universo Clone Wars, ideal para completar cualquier display de Clone Troopers con uno de los comandantes más icónicos de la saga."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Head sculpt con expresión fiel al personajeOjo izquierdo con sistema de movimiento independienteArmadura con efectos weathered realistasMás de 30 puntos de articulaciónPintura aplicada manualmente"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Casco Phase I con efecto de desgasteCasco Phase II con efecto de desgasteArmadura gris y blanca con marcas distintivasDos accesorios intercambiables para el guantelete izquierdoCinturón con faldones de comando y fundasUnder-suit negroBotas blindadas"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Par de manos relajadasPar de manos para sostener armasPar de manos en gestoMano derecha abierta"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 rifle blaster2 pistolas blaster2 detonadores térmicos"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Jetpack con efectos de propulsión magnéticosData padBase con logo de Star Wars y placa identificatoria"
-          }
-        ],
-        "precio_orig": "",
-        "yt": "",
-        "franquicia": "Star Wars",
-        "destacado": false,
-        "oferta": false,
-        "fotos": [
-          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc0caa55.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-clone-commander-wolffe-sixth-scale-figure-scale-67698eadd8574.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc140cda.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc1a091f.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc219fec.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc2779a3.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc2d24d4.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914065/hot-toys-star-wars-wolffe-sixth-scale-figure-gallery-67698bc33b842.jpg"
-        ],
-        "id": "clone-commander-wolffe"
-      },
-      {
         "n": "Mirage DLX",
         "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe762be083.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/mirage-dlx",
@@ -9467,6 +9411,143 @@
   "Hot Toys 1:6": {
     "slug": "hot-toys-pre-ordenes",
     "products": [
+      {
+        "n": "Spider-Man (Integrated Suit)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d8359a1a456.jpg",
+        "l": "https://uv-store-guatemala.super.site/entrega-inmediata/clone-commander-wolffe",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3300",
+        "precio_d": "",
+        "reserva": "",
+        "entrega": "1 mes",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Después de que Mysterio expusiera la identidad de Peter Parker como Spider-Man al final de Spider-Man: Lejos de Casa, el joven héroe se ve obligado a recurrir al Doctor Strange en busca de ayuda para restaurar su vida desenmascarada. Hot Toys trae a la vida este crucial momento de Spider-Man: No Way Home con una figura coleccionable de sexta escala que captura la esencia del Spider-Man en su traje integrado, interpretado por Tom Holland. Cada detalle ha sido meticulosamente elaborado por los expertos de Hot Toys, desde las cabezas esculpidas especialmente pintadas a mano hasta el traje integrado rojo y negro con adornos en gris metálico, patrón de red y emblema de araña dorado en el pecho. Esta figura destaca por su versatilidad con múltiples opciones de display, permitiendo a los coleccionistas recrear diversas escenas y expresiones del Hombre Araña."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Movie Masterpiece – Spider-Man: No Way Home"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Superhéroes / Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 28,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) cabeza esculpida con likeness de Tom Holland como Peter Parker"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) cabeza enmascarada intercambiable con cinco (5) pares de oculares intercambiables para múltiples expresiones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Traje integrado de Spider-Man rojo y negro con adornos en gris metálico, patrón de red y emblema de araña dorado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: Trece (13) piezas incluyendo puños, manos relajadas, manos abiertas, manos para disparar telarañas, mano para sostener smartphone, mano para balancear telaraña, manos señalando y gesto con mano izquierda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: Cuatro (4) pinzas doradas desmontables con función articulada, un (1) par de alas magnéticas, máscara de Spider-Man adicional, teléfono inteligente, seis (6) hilos de telaraña de diferentes formas y longitudes, accesorio abierto con efecto de telaraña"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición especialmente diseñada con logotipo de la película y placa con nombre del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas esculpidas especialmente pintadas a mano con auténtico likeness de Tom Holland"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinco pares de oculares intercambiables para crear numerosas combinaciones de expresiones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "30 puntos de articulación para poses dinámicas y versátiles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trece piezas de manos intercambiables con patrón de telaraña negra para máxima versatilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples accesorios temáticos incluyendo telarañas, pinzas articuladas y alas magnéticas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detallado traje integrado confeccionado con cuidadosa atención a los detalles de la película"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto de la línea Movie Masterpiece de Hot Toys con estándares de calidad premium"
+          }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d8359a1a456.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_scale_640f930c92eb6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d835873a800.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d8357fc7293.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d835866e96a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d83599b6028.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_silo.png",
+          "https://www.sideshow.com/cdn-cgi/image/width=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d8359a1a456_sm.jpg"
+        ],
+        "id": "clone-commander-wolffe",
+        "agotado_r": true,
+        "agotado_d": false,
+        "variantes": [
+          {
+            "label": "Deluxe",
+            "precio": "4600",
+            "reserva": "920",
+            "fotos": [
+              "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d838eecdeb1.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_scale_64c93026547e8.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d83cf98e8a5.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d838ef9ea5f.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d83cfa5b038.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d83cf8c3156.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d839aef24ae.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d83cf669ada.jpg"
+            ],
+            "desc": "Descripción\n───────────\nDespués de que Mysterio lo desenmascara, Spider-Man enfrenta su mayor desafío: la imposibilidad de separar su vida como Peter Parker de los peligros de ser un superhéroe. Buscando ayuda del Doctor Strange, descubre que está en juego mucho más de lo que imaginaba, obligándolo a redefinir lo que realmente significa ser Spider-Man. Esta es la historia de Spider-Man: No Way Home, y ahora puedes poseer la representación definitiva de este momento crucial en la forma de una figura coleccionable de lujo creada por Hot Toys.\n\nBasada meticulosamente en la interpretación de Tom Holland en la película, esta figura de sexta escala captura cada detalle del Traje Integrado de Spider-Man con precisión magistral. Las cabezas esculpidas están pintadas a mano, incluyendo un rostro sin máscara de Peter Parker y una versión enmascarada con cinco pares de oculares intercambiables que permiten crear múltiples expresiones del héroe. El traje rojo y negro presenta adornos en tonos grisáceos, un patrón de red detallado y un emblema de araña metálico dorado en el pecho, reflejando la calidad premium característica de Hot Toys.\n\n\nDetalles\n────────\n  • Línea: Movie Masterpiece – Spider-Man: No Way Home\n  • Fabricante: Hot Toys\n  • Tipo: Figura articulada de coleccionista\n  • Género: Superhéroes / Marvel\n\nEspecificaciones\n────────────────\n  • Altura: 28,5 cm\n  • Escala: 1:6\n  • Puntos de articulación: 30\n\nIncluye\n───────\n  • Cabeza esculpida con likeness de Tom Holland como Peter Parker sin máscara\n  • Cabeza esculpida de Peter Parker medio enmascarada\n  • Cabeza enmascarada intercambiable con cinco pares de oculares intercambiables\n  • Vestuario: Traje Integrado de Spider-Man rojo y negro con adornos grisáceos, patrón de red y emblema de araña metálico dorado\n  • 13 pares de manos intercambiables con patrón de telaraña negra: puños, manos relajadas, manos abiertas, manos para disparar telarañas, mano izquierda para sostener teléfono inteligente, mano derecha para balancear telaraña, manos que señalan y gesto con mano izquierda\n  • Cuatro pinzas doradas desmontables con función articulada\n  • Un par de alas magnéticas\n  • Máscara de Spider-Man (accesorio de exhibición)\n  • Teléfono inteligente\n  • Seis hilos de telaraña de diferentes formas y longitudes\n  • Accesorio abierto con efecto de telaraña\n  • Base de exhibición diorama con temática de campo de batalla (aprox. 21 cm x 21 cm x 19 cm) que incluye tentáculos flexibles del Dr. Ock con garras giratorias y articuladas, elementos del Duende Verde y efecto de humo\n\nCaracterísticas\n───────────────\n  • Múltiples opciones de cabeza intercambiables para recrear diferentes momentos de la película\n  • Cinco pares de oculares intercambiables que crean numerosas combinaciones de expresiones faciales\n  • 13 pares de manos intercambiables para infinitas posibilidades de poses\n  • Pinzas doradas con articulación funcional que se pueden desmontar y reposicionar\n  • Base de exhibición diorama altamente detallada inspirada en los enemigos de Spider-Man\n  • Versión Deluxe con especial énfasis en calidad artesanal y detalles premium\n  • Pintura a mano en todas las cabezas esculpidas para máxima precisión y realismo"
+          }
+        ],
+        "fotos_d": []
+      },
       {
         "id": "spider-man-integrated-suit-2",
         "n": "Spider-Man (Integrated Suit)",
