@@ -25995,90 +25995,6 @@
     "slug": "estatuas",
     "products": [
       {
-        "id": "aries-mu-deluxe",
-        "n": "Aries Mu Deluxe",
-        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d938588.jpg",
-        "l": "https://www.sideshow.com/collectibles/saint-seiya-aries-mu-iron-studios-914469?var=9144692",
-        "marca": "Iron Studios",
-        "escala": "1:6 - 27CM",
-        "franquicia": "Anime",
-        "estado": "Nuevo",
-        "disp": "Entrega Inmediata",
-        "precio": "4400",
-        "precio_d": "",
-        "precio_orig": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "1",
-        "fotos": [
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d938588.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-scale-680ff4f3bf31c.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d96f09d.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d9a46a8.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d9db528.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3da2371e.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3da599b6.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3da90c87.jpg"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Aries Mu es uno de los personajes más icónicos de Saint Seiya: Los Caballeros del Zodíaco. Como el Maestro de Aries y guardián del primer templo zodiacal, Mu representa la sabiduría, la fortaleza y el legado de los Gold Saints. Su presencia en la serie lo convierte en una figura imprescindible para cualquier coleccionista apasionado por este clásico del manga y anime. Iron Studios ha capturado la esencia del personaje en esta estatua Art Scale a escala 1:10. Cada detalle ha sido meticulosamente esculpido y pintado a mano, reflejando la majestuosidad del Gold Saint de Aries. Se trata de una pieza de edición limitada que destaca por su acabado premium y su fidelidad al diseño original del personaje. Esta pieza representa el más alto estándar de manufactura coleccionable, combinando artesanía tradicional con diseño contemporáneo. Perfecta para completar una exhibición dedicada a Saint Seiya, Aries Mu es un coleccionable que trasciende el entretenimiento para convertirse en una obra de art"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Línea: Art Scale"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Fabricante: Iron Studios"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Franquicia: Saint Seiya: Los Caballeros del Zodíaco"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Personaje: Aries Mu"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 23 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escala: 1:10"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Edición limitada de coleccionista"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escultura artesanal pintada a mano"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Detallado con precisión y alta calidad"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Licencia oficial ©Masami Kurumada, Toei Animation"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Prototipo mostrado; producción final puede variar"
-          }
-        ],
-        "yt": "",
-        "destacado": true,
-        "oferta": false,
-        "added_at": "2026-04-06T12:45:03.839174",
-        "agotado_r": false,
-        "agotado_d": false,
-        "fotos_d": []
-      },
-      {
         "id": "aries-mu",
         "n": "Aries Mu",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff251ac26f.jpg",
@@ -26168,7 +26084,24 @@
         "added_at": "2026-04-06T12:42:55.236188",
         "agotado_r": false,
         "agotado_d": false,
-        "fotos_d": []
+        "fotos_d": [],
+        "variantes": [
+          {
+            "label": "Deluxe",
+            "precio": "4400",
+            "reserva": "",
+            "fotos": [
+              "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d938588.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-scale-680ff4f3bf31c.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d96f09d.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d9a46a8.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3d9db528.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3da2371e.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3da599b6.jpg",
+              "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9144692/iron-studios-saint-seiya-aries-mu-deluxe-1-10-scale-statues-gallery-680ff3da90c87.jpg"
+            ]
+          }
+        ]
       },
       {
         "id": "leon-scott-kennedy",

@@ -207,6 +207,33 @@ textarea.field-input {
   background: #e5e5ea; transition: background 0.2s;
 }
 .toggle-switch input:checked + .toggle-track { background: var(--green); }
+
+/* ── Variantes de escala ── */
+.variante-row {
+  display: flex; gap: 8px; align-items: center;
+  padding: 10px 14px; border-bottom: 0.5px solid var(--border);
+}
+.variante-row:last-of-type { border-bottom: none; }
+.variante-row input {
+  background: var(--bg); border: none; border-radius: 8px;
+  padding: 7px 10px; font-size: 15px; font-family: inherit;
+  color: var(--text); outline: none; -webkit-appearance: none;
+}
+.variante-row input:first-child { width: 72px; flex-shrink: 0; text-align: center; }
+.variante-row input:not(:first-child) { flex: 1; min-width: 0; }
+.variante-row .del-variante {
+  background: none; border: none; color: var(--sub);
+  font-size: 20px; cursor: pointer; padding: 0 4px; flex-shrink: 0;
+  line-height: 1;
+}
+.variante-header {
+  display: flex; gap: 8px; padding: 6px 14px;
+  font-size: 12px; color: var(--sub); font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  border-bottom: 0.5px solid var(--border);
+}
+.variante-header span:first-child { width: 72px; flex-shrink: 0; text-align: center; }
+.variante-header span:not(:first-child) { flex: 1; }
 .toggle-thumb {
   position: absolute; top: 2px; left: 2px;
   width: 27px; height: 27px; border-radius: 50%;
@@ -363,6 +390,17 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
         </div>
       </div>
 
+      <p class="section-label">Variantes <span style="font-weight:400;color:var(--sub)">(ej: 1:4, Deluxe)</span></p>
+      <div class="card" style="padding:0">
+        <div class="variante-header">
+          <span>Versión</span><span>Precio Q</span><span>Reserva Q</span><span style="width:32px;flex-shrink:0"></span>
+        </div>
+        <div id="add-variantes-list"></div>
+        <div style="padding:10px 14px">
+          <button class="btn-sm btn-sm-gray" onclick="addVarianteRow('add')">+ Agregar variante</button>
+        </div>
+      </div>
+
       <p class="section-label">Descripción</p>
       <div class="card">
         <div class="field-row" style="flex-direction:column;align-items:stretch;gap:8px">
@@ -489,6 +527,17 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
           <div class="field-row">
             <span class="field-label">Entrega</span>
             <input class="field-input" id="ef-entrega" type="text">
+          </div>
+        </div>
+
+        <p class="section-label">Variantes de Escala <span style="font-weight:400;color:var(--sub)">(opcional)</span></p>
+        <div class="card" style="padding:0">
+          <div class="variante-header">
+            <span>Escala</span><span>Precio Q</span><span>Reserva Q</span><span style="width:32px;flex-shrink:0"></span>
+          </div>
+          <div id="ef-variantes-list"></div>
+          <div style="padding:10px 14px">
+            <button class="btn-sm btn-sm-gray" onclick="addVarianteRow('ef')">+ Agregar variante</button>
           </div>
         </div>
 
@@ -1114,6 +1163,7 @@ function scrapeSideshow(doc, html, baseUrl) {
   }
 
   data._debug.push("features: " + data.features.length + " | desc: " + (data.descripcion ? "OK" : "vacía") + " | entrega: " + (data.entrega || "no"));
+
   return data;
 }
 
@@ -1188,16 +1238,130 @@ async function scrapeShopify(url) {
   const marca = getMarca(d.title || "", rawHtml, features);
   debug.push(`marca:${marca||"?"} fotos:${fotos.length}`);
 
-  return {
+  // ── Detectar variantes de escala (Statuecorp y similares) ──
+  const variantes = _detectShopifyScaleVariants(d);
+  const escala = (() => {
+    // Si hay variantes, usar la primera como escala principal
+    if (variantes.length > 0) return variantes[0].escala;
+    const m = (d.title + " " + plainDesc).match(/\b(1\s*[:/]\s*[1-9]\d?)\b/);
+    return m ? m[1].replace(/\s/g,"") : "";
+  })();
+
+  const result = {
     nombre: d.title || "",
     descripcion: plainDesc,
     features,
     fotos: fotos.slice(0, 12),
     marca,
-    escala: (() => { const m = (d.title + " " + plainDesc).match(/\b(1\s*[:/]\s*[1-9]\d?)\b/); return m ? m[1].replace(/\s/g,"") : ""; })(),
+    escala,
     entrega: detectEntregaFromText(plainDesc),
     _debug: debug,
   };
+  if (variantes.length > 1) {
+    result.variantes = variantes;
+    debug.push(`variantes: ${variantes.map(v=>v.escala).join(", ")}`);
+  }
+  return result;
+}
+
+function _normalizeScale(text) {
+  return (text || "").trim()
+    .replace(/sixth\s+scale/i,   "1:6")
+    .replace(/quarter\s+scale/i, "1:4")
+    .replace(/twelfth\s+scale/i, "1:12")
+    .replace(/third\s+scale/i,   "1:3")
+    .replace(/\s+/g, "");
+}
+
+function _detectShopifyScaleVariants(d) {
+  // Buscar una opción de tipo "Scale" o "Size" en las opciones del producto
+  const options = d.options || [];
+  const scaleOpt = options.find(o => /scale|size|escala/i.test(o.name || ""));
+  if (!scaleOpt) return [];
+
+  // Mapear cada valor de la opción scale a sus variantes con precio
+  const variantMap = new Map(); // escala => precio (el más bajo)
+  const optIdx = options.indexOf(scaleOpt); // 0, 1 o 2 → option1/2/3
+  const optKey = `option${optIdx + 1}`;
+
+  for (const v of (d.variants || [])) {
+    const rawScale = v[optKey] || "";
+    const scale = _normalizeScale(rawScale);
+    if (!/^1:[0-9]+$/.test(scale)) continue;
+    const price = parseFloat(v.price || 0);
+    if (!variantMap.has(scale) || price < variantMap.get(scale)) {
+      variantMap.set(scale, price);
+    }
+  }
+
+  if (variantMap.size < 2) return [];
+  return [...variantMap.entries()].map(([escala, precio]) => ({
+    escala,
+    precio:  precio > 0 ? String(Math.round(precio)) : "",
+    reserva: "",
+  }));
+}
+
+function _detectBigCommerceScaleVariants(doc, html) {
+  const found = new Map(); // escala -> precio string
+
+  // 1. Buscar en jsContext o BCData (BigCommerce theme data)
+  const jsCtxM = html.match(/window\.jsContext\s*=\s*({[\s\S]*?});?\s*(?:window|<\/script>)/);
+  const bcDataM = html.match(/window\.BCData\s*=\s*({[\s\S]*?});?\s*(?:window|<\/script>)/);
+  for (const raw of [jsCtxM?.[1], bcDataM?.[1]]) {
+    if (!raw) continue;
+    try {
+      const j = JSON.parse(raw);
+      const variants = j?.product?.variants || j?.productVariants || [];
+      for (const v of variants) {
+        // Buscar opción de escala en las attributes/options del variant
+        const opts = v.options || v.option_values || [];
+        for (const o of opts) {
+          const label = o.label || o.value || o.display_name || "";
+          const scale = _normalizeScale(label);
+          if (/^1:[0-9]+$/.test(scale)) {
+            const price = parseFloat(v.price?.without_tax?.value || v.price || 0);
+            if (!found.has(scale) || price < found.get(scale)) found.set(scale, price);
+          }
+        }
+      }
+    } catch(e) {}
+  }
+
+  // 2. Buscar en application/ld+json (offers con nombres de escala)
+  if (found.size < 2) {
+    doc.querySelectorAll('script[type="application/ld+json"]').forEach(s => {
+      try {
+        const j = JSON.parse(s.textContent);
+        const offers = [].concat(j.offers || []);
+        for (const o of offers) {
+          const name = o.name || "";
+          const m = name.match(/\b(1\s*:\s*[0-9]+|quarter scale|sixth scale)\b/i);
+          if (m) {
+            const scale = _normalizeScale(m[1]);
+            const price = parseFloat(o.price || 0);
+            if (!found.has(scale) || price < found.get(scale)) found.set(scale, price);
+          }
+        }
+      } catch(e) {}
+    });
+  }
+
+  // 3. Selectores de variante en el DOM (BigCommerce típicamente usa [data-product-attribute])
+  if (found.size < 2) {
+    doc.querySelectorAll("[data-product-attribute] label, .form-option-variant").forEach(el => {
+      const text = el.textContent.trim();
+      const scale = _normalizeScale(text);
+      if (/^1:[0-9]+$/.test(scale) && !found.has(scale)) found.set(scale, 0);
+    });
+  }
+
+  if (found.size < 2) return [];
+  return [...found.entries()].map(([escala, precio]) => ({
+    escala,
+    precio:  precio > 0 ? String(Math.round(precio)) : "",
+    reserva: "",
+  }));
 }
 
 // ── Generic scraper ──
@@ -1251,6 +1415,11 @@ async function doScrape() {
         scraped = scrapeSideshow(doc, html, finalUrl);
       } else {
         scraped = scrapeGeneric(doc, html);
+        // BigCommerce: detectar variantes de escala adicional
+        if (platform === "bigcommerce") {
+          const variantes = _detectBigCommerceScaleVariants(doc, html);
+          if (variantes.length > 1) scraped.variantes = variantes;
+        }
       }
     }
 
@@ -1267,6 +1436,10 @@ async function doScrape() {
 
     addPhotos = scraped.fotos || [];
     renderPhotoStrip("add-photos-strip", addPhotos, "add", "regular");
+
+    if (scraped.variantes && scraped.variantes.length > 1) {
+      setVariantes("add", scraped.variantes);
+    }
 
     const dbg = scraped._debug?.length ? " | " + scraped._debug.join(" | ") : "";
     status.textContent = `Listo — ${addPhotos.length} fotos, plataforma: ${platform}${dbg}`;
@@ -1377,7 +1550,8 @@ async function doAiDesc(prefix) {
   const features  = featuresRaw ? featuresRaw.split("\n").filter(Boolean) : [];
   const descRaw   = document.getElementById(`${prefix}-desc`).value.trim();
 
-  const userMsg = JSON.stringify({ nombre, marca, escala, features, descripcion_original: descRaw });
+  const variantes = getVariantes(prefix);
+  const userMsg = JSON.stringify({ nombre, marca, escala, features, descripcion_original: descRaw, variantes });
   toast("Generando descripción...");
 
   const sysPrompt = `Eres redactor de fichas para UV Store Guatemala, tienda de figuras de colección premium.
@@ -1386,7 +1560,7 @@ Dado el nombre, marca, escala, características y descripción original (puede e
 PROCESO:
 1. Traducí y expandí la descripción_original en español (2-3 párrafos atractivos sobre el personaje y la figura).
 2. Extraé de la descripción_original TODOS los ítems mencionados como incluidos (accesorios, partes intercambiables, cabezas, armas, display stand, ropa, etc.) y ponerlos en la sección "Incluye".
-3. Extraé especificaciones técnicas (altura, escala, materiales, puntos de articulación si los menciona).
+3. Extraé especificaciones técnicas (altura, escala, materiales, puntos de articulación si los menciona). Si el campo "variantes" tiene múltiples escalas, incluí la altura/medidas de CADA escala como un bullet separado (ej: "Escala 1:6: ~30 cm" y "Escala 1:4: ~44 cm"), tomándolas de las características. No inventes medidas.
 4. Usá las características scrapeadas como base adicional.
 
 Responde SOLO con un JSON array de bloques de contenido:
@@ -1494,6 +1668,119 @@ function extractContent(blocks) {
 }
 
 // ══════════════════════════════════════════════
+// ══════════════════════════════════════════════
+// VARIANTES DE ESCALA
+// ══════════════════════════════════════════════
+function addVarianteRow(prefix, v = {}) {
+  const list = document.getElementById(`${prefix}-variantes-list`);
+  const wrap = document.createElement("div");
+  wrap.style.cssText = "border-bottom:0.5px solid var(--border)";
+
+  // Fila principal
+  const row = document.createElement("div");
+  row.className = "variante-row";
+  const precioId  = `vp-${Date.now()}-${Math.random().toString(36).slice(2,6)}`;
+  const reservaId = `vr-${Date.now()}-${Math.random().toString(36).slice(2,6)}`;
+  const fotosArr  = Array.isArray(v.fotos) ? [...v.fotos] : [];
+
+  row.innerHTML = `
+    <input type="text"   placeholder="1:4 / Deluxe" value="${esc(v.label||v.escala||"")}" maxlength="20">
+    <input type="number" placeholder="Precio"  value="${v.precio||""}"  min="0" id="${precioId}">
+    <input type="number" placeholder="Reserva" value="${v.reserva||""}" min="0" id="${reservaId}">
+    <button class="del-variante" onclick="this.closest('[style]').remove()">×</button>
+  `;
+  wrap.appendChild(row);
+
+  // Sección de fotos (colapsable)
+  const fotosToggle = document.createElement("button");
+  fotosToggle.className = "btn-sm btn-sm-gray";
+  fotosToggle.style.cssText = "margin:6px 14px 8px;font-size:13px";
+  const updateFotosBtn = () => { fotosToggle.textContent = fotosArr.length ? `📷 ${fotosArr.length} fotos` : "📷 Agregar fotos"; };
+  updateFotosBtn();
+
+  const fotosSection = document.createElement("div");
+  fotosSection.style.cssText = "display:none;padding:8px 14px 10px;background:var(--bg)";
+
+  const strip = document.createElement("div");
+  strip.style.cssText = "display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px";
+
+  const urlInput = document.createElement("input");
+  urlInput.type = "text"; urlInput.placeholder = "Pegar URL de foto y Enter";
+  urlInput.className = "field-input left";
+  urlInput.style.cssText = "font-size:13px;padding:6px 8px;border:1px solid var(--border);border-radius:8px;background:var(--card)";
+
+  function renderFotosStrip() {
+    strip.innerHTML = "";
+    fotosArr.forEach((url, i) => {
+      const img = document.createElement("img");
+      img.src = url; img.style.cssText = "width:56px;height:56px;object-fit:cover;border-radius:6px;border:1px solid var(--border);cursor:pointer";
+      img.title = "Click para eliminar";
+      img.onclick = () => { fotosArr.splice(i, 1); renderFotosStrip(); updateFotosBtn(); };
+      strip.appendChild(img);
+    });
+    updateFotosBtn();
+  }
+  renderFotosStrip();
+
+  urlInput.addEventListener("keydown", e => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const url = urlInput.value.trim();
+      if (url) { fotosArr.push(url); urlInput.value = ""; renderFotosStrip(); }
+    }
+  });
+
+  fotosSection.appendChild(strip);
+  fotosSection.appendChild(urlInput);
+  fotosToggle.onclick = () => {
+    const open = fotosSection.style.display === "none";
+    fotosSection.style.display = open ? "block" : "none";
+  };
+  wrap.appendChild(fotosToggle);
+  wrap.appendChild(fotosSection);
+
+  // Guardar referencia a fotos para getVariantes
+  wrap._fotosArr = fotosArr;
+  wrap._isVarianteRow = true;
+
+  list.appendChild(wrap);
+
+  // Auto-calcular reserva al 20%
+  const precioEl  = row.querySelector(`#${precioId}`);
+  const reservaEl = row.querySelector(`#${reservaId}`);
+  precioEl.addEventListener("input", () => {
+    const p = parseFloat(precioEl.value);
+    if (!isNaN(p) && p > 0) reservaEl.value = Math.round(p * 0.20);
+    else reservaEl.value = "";
+  });
+}
+
+function getVariantes(prefix) {
+  const wraps = document.querySelectorAll(`#${prefix}-variantes-list [style]`);
+  const result = [];
+  wraps.forEach(wrap => {
+    if (!wrap._isVarianteRow) return;
+    const inputs = wrap.querySelectorAll("input[type=text], input[type=number]");
+    const label   = inputs[0]?.value.trim();
+    const precio  = inputs[1]?.value.trim();
+    const reserva = inputs[2]?.value.trim();
+    if (!label && !precio) return;
+    const v = { label, precio, reserva };
+    // Mantener 'escala' por compat con variantes de escala puras
+    if (/^1:[0-9]+/.test(label)) v.escala = label;
+    if (wrap._fotosArr?.length) v.fotos = [...wrap._fotosArr];
+    result.push(v);
+  });
+  return result.length ? result : null;
+}
+
+function setVariantes(prefix, variantes) {
+  const list = document.getElementById(`${prefix}-variantes-list`);
+  list.innerHTML = "";
+  (variantes || []).forEach(v => addVarianteRow(prefix, v));
+}
+
+// ══════════════════════════════════════════════
 // ADD PRODUCT
 // ══════════════════════════════════════════════
 async function doAddProduct() {
@@ -1520,6 +1807,8 @@ async function doAddProduct() {
   const fotosD = [...addPhotosD];
   const content = buildContent(desc, features);
 
+  const variantes = getVariantes("add");
+
   const prod = {
     id,
     n: nombre,
@@ -1532,6 +1821,7 @@ async function doAddProduct() {
     fotos,
     added_at: new Date().toISOString(),
   };
+  if (variantes) prod.variantes = variantes;
   if (precioD) {
     prod.precio_d = precioD;
     prod.fotos_d = fotosD;
@@ -1561,6 +1851,7 @@ function clearAddForm() {
   addPhotos = []; addPhotosD = [];
   renderPhotoStrip("add-photos-strip", [], "add", "regular");
   renderPhotoStrip("add-photos-d-strip", [], "add", "deluxe");
+  setVariantes("add", []);
   document.getElementById("scrape-status").textContent = "";
 }
 
@@ -1630,6 +1921,8 @@ function openEditForm(catName, idx) {
   renderPhotoStrip("ef-photos-strip",   efPhotos,  "ef", "regular");
   renderPhotoStrip("ef-photos-d-strip", efPhotosD, "ef", "deluxe");
 
+  setVariantes("ef", p.variantes || []);
+
   document.getElementById("edit-list-panel").style.display = "none";
   document.getElementById("edit-form-panel").style.display = "block";
   document.getElementById("content").scrollTop = 0;
@@ -1662,6 +1955,7 @@ async function doSaveProduct() {
   const fotos  = [...efPhotos];
   const fotosD = [...efPhotosD];
   const content = buildContent(desc, features);
+  const variantes = getVariantes("ef");
 
   const oldProd = catalog[catName].products[idx];
   const updProd = {
@@ -1671,6 +1965,11 @@ async function doSaveProduct() {
     precio, reserva, entrega, content, fotos,
     added_at: oldProd.added_at || new Date().toISOString(),
   };
+  if (variantes) {
+    updProd.variantes = variantes;
+  } else {
+    delete updProd.variantes;
+  }
   if (precioD) {
     updProd.precio_d = precioD;
     updProd.fotos_d  = fotosD;

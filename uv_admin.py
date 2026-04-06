@@ -242,10 +242,12 @@ def scrape_shopify(url, html, soup):
     parsed = urlparse(url)
     json_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path.rstrip('/')}.json"
     photos, name, desc, features, price, escala, marca = [], "", "", [], "", "", ""
+    shopify_data = {}
     try:
         r = requests.get(json_url, headers=HEADERS, timeout=10)
         if r.status_code == 200:
-            data = r.json().get("product", {})
+            shopify_data = r.json().get("product", {})
+            data = shopify_data
             name = data.get("title", "")
             desc_soup = BeautifulSoup(data.get("body_html",""), "html.parser")
             desc = desc_soup.get_text(" ", strip=True)
@@ -267,7 +269,15 @@ def scrape_shopify(url, html, soup):
     if not desc: desc = _get_desc(soup)
     if not features: features = _get_features(soup)
     escala = _get_escala(html); marca = _get_marca(name, html, urlparse(url).netloc)
-    return _build_result(name, desc, features, photos, escala, marca, price, url)
+    result = _build_result(name, desc, features, photos, escala, marca, price, url)
+    # Detectar variantes de escala desde las opciones Shopify
+    if shopify_data:
+        variantes = _detect_shopify_scale_variants(shopify_data)
+        if len(variantes) > 1:
+            result["variantes"] = variantes
+            if not result.get("escala") and variantes:
+                result["escala"] = variantes[0]["escala"]
+    return result
 
 def scrape_sideshow(url, html, soup):
     # ── SKU extraction (for photos) ──────────────────────────────────────────
@@ -381,6 +391,7 @@ def scrape_sideshow(url, html, soup):
     result = _build_result(name, desc, features, unique[:8], _get_escala(html), marca, "", url)
     if entrega:
         result["entrega"] = entrega
+
     return result
 
 def scrape_opencart(url, html, soup):
@@ -419,6 +430,81 @@ def scrape_woocommerce(url, html, soup):
         m = re.search(r'[\d,]+\.?\d*', price_el.get_text())
         if m: price = m.group().replace(",","")
     return _build_result(_get_name(soup), _get_desc(soup), _get_features(soup), photos[:8], _get_escala(html), _get_marca(_get_name(soup), html, urlparse(url).netloc), price, url)
+
+def _normalize_scale(text):
+    return (text or "").strip() \
+        .replace("Sixth Scale","1:6").replace("sixth scale","1:6") \
+        .replace("Quarter Scale","1:4").replace("quarter scale","1:4") \
+        .replace("Twelfth Scale","1:12").replace("twelfth scale","1:12") \
+        .replace("Third Scale","1:3").replace("third scale","1:3") \
+        .replace(" ","")
+
+def _detect_shopify_scale_variants(product_data):
+    """Detecta variantes de escala en el JSON de producto Shopify."""
+    options = product_data.get("options", [])
+    scale_opt = next((o for o in options if re.search(r'scale|size|escala', o.get("name",""), re.I)), None)
+    if not scale_opt: return []
+    opt_idx = options.index(scale_opt)
+    opt_key = f"option{opt_idx + 1}"
+    found = {}  # escala -> precio_min
+    for v in product_data.get("variants", []):
+        raw = v.get(opt_key, "")
+        scale = _normalize_scale(raw)
+        if not re.match(r'^1:[0-9]+$', scale): continue
+        try: price = float(v.get("price", 0))
+        except: price = 0
+        if scale not in found or price < found[scale]:
+            found[scale] = price
+    if len(found) < 2: return []
+    return [{"escala": s, "precio": str(round(p)) if p > 0 else "", "reserva": ""} for s, p in found.items()]
+
+def _detect_bigcommerce_scale_variants(html, soup):
+    """Detecta variantes de escala en páginas BigCommerce (FNC)."""
+    found = {}
+
+    # 1. window.jsContext o BCData
+    for pattern in [r'window\.jsContext\s*=\s*(\{[\s\S]*?\});', r'window\.BCData\s*=\s*(\{[\s\S]*?\});']:
+        m = re.search(pattern, html)
+        if m:
+            try:
+                j = json.loads(m.group(1))
+                variants = j.get("product",{}).get("variants", []) or j.get("productVariants", [])
+                for v in variants:
+                    for o in v.get("options", []) or v.get("option_values", []):
+                        scale = _normalize_scale(o.get("label","") or o.get("value",""))
+                        if re.match(r'^1:[0-9]+$', scale):
+                            try: price = float(v.get("price",{}).get("without_tax",{}).get("value", 0) or v.get("price", 0))
+                            except: price = 0
+                            if scale not in found or price < found[scale]:
+                                found[scale] = price
+            except: pass
+
+    # 2. JSON-LD offers con nombre de escala
+    if len(found) < 2:
+        for script in soup.find_all("script", type="application/ld+json"):
+            try:
+                d = json.loads(script.string or "{}")
+                for offer in ([d.get("offers")] if isinstance(d.get("offers"), dict) else d.get("offers", [])):
+                    if not offer: continue
+                    mo = re.search(r'\b(1\s*:\s*[0-9]+|quarter scale|sixth scale)\b', offer.get("name",""), re.I)
+                    if mo:
+                        scale = _normalize_scale(mo.group(1))
+                        try: price = float(offer.get("price", 0))
+                        except: price = 0
+                        if scale not in found or price < found[scale]:
+                            found[scale] = price
+            except: pass
+
+    # 3. Selectores de variante en el DOM
+    if len(found) < 2:
+        for el in soup.find_all(attrs={"data-product-attribute": True}):
+            for label in el.find_all(["label", "option"]):
+                scale = _normalize_scale(label.get_text())
+                if re.match(r'^1:[0-9]+$', scale) and scale not in found:
+                    found[scale] = 0
+
+    if len(found) < 2: return []
+    return [{"escala": s, "precio": str(round(p)) if p > 0 else "", "reserva": ""} for s, p in found.items()]
 
 def scrape_bigcommerce(url, html, soup):
     photos = []; seen = set()
@@ -471,7 +557,13 @@ def scrape_generic(url, html, soup):
     if not photos: photos = _get_photos_generic(url, soup, html)
     if not name: name = _get_name(soup)
     if not desc: desc = _get_desc(soup)
-    return _build_result(name, desc, _get_features(soup), photos[:8], _get_escala(html), _get_marca(name, html, urlparse(url).netloc), price, url)
+    result = _build_result(name, desc, _get_features(soup), photos[:8], _get_escala(html), _get_marca(name, html, urlparse(url).netloc), price, url)
+    variantes = _detect_bigcommerce_scale_variants(html, soup)
+    if len(variantes) > 1:
+        result["variantes"] = variantes
+        if not result.get("escala") and variantes:
+            result["escala"] = variantes[0]["escala"]
+    return result
 
 def _get_name(soup):
     for sel in ["h1.product-title","h1.product_title","h1[itemprop='name']","h1"]:
@@ -704,7 +796,7 @@ def _make_product_id(nombre, catalog_all):
         counter += 1
     return candidate
 
-def add_product(path, data, categoria, precio, precio_d, reserva, entrega, cantidad, estado, youtube="", disp=None):
+def add_product(path, data, categoria, precio, precio_d, reserva, entrega, cantidad, estado, youtube="", disp=None, variantes=None):
     catalog = load_catalog(path)
     if data.get("ai_blocks"):
         blocks = data["ai_blocks"]
@@ -724,6 +816,8 @@ def add_product(path, data, categoria, precio, precio_d, reserva, entrega, canti
         "destacado":data.get("destacado",False),"oferta":data.get("oferta",False),
         "added_at":datetime.datetime.now().isoformat(),
     }
+    if variantes:
+        p["variantes"] = variantes
     if categoria not in catalog:
         catalog[categoria] = {"slug":categoria.lower().replace(" ","-"),"products":[]}
     catalog[categoria]["products"].insert(0, p)
@@ -812,7 +906,10 @@ def generate_ai_description(data, api_key):
         f"Escala: {data.get('escala','')}\n"
         f"Descripción scrapeada: {desc_scrapeada[:800]}\n"
         f"Franquicia/universo: {data.get('franquicia','')}\n\n"
-        f"Características/specs scrapeadas (LEER COMPLETO — accesorios, vestuario, manos, display están acá):\n"
+        + (f"Variantes de escala disponibles: {', '.join(v['escala'] for v in data.get('variantes',[]) if v.get('escala'))}\n"
+           f"IMPORTANTE: si hay múltiples escalas, incluí la altura/medida de CADA escala como bullet separado en Especificaciones. Tomá las medidas de las características. No las inventes.\n"
+           if data.get('variantes') else "")
+        + f"Características/specs scrapeadas (LEER COMPLETO — accesorios, vestuario, manos, display están acá):\n"
         + "\n".join(f"  {i+1}. {f}" for i,f in enumerate(features[:40]))
         + "\n\n"
         "Devolvé SOLO un JSON array con bloques de contenido. Formato exacto:\n"
@@ -1317,9 +1414,19 @@ class UVAdminApp:
         self.add_ai_txt.grid(row=0,column=0,sticky="ew")
         ai_txt_sb.grid(row=0,column=1,sticky="ns")
 
+        # ── Variantes de escala ──
+        var_hdr = tk.Frame(right, bg=BG)
+        var_hdr.grid(row=15,column=0,columnspan=3,sticky="ew",pady=(10,2))
+        tk.Label(var_hdr,text="Variantes (escala/versión):",bg=BG,fg=MUTED,font=("Helvetica",9)).pack(side="left")
+        tk.Button(var_hdr,text="+ Agregar variante",command=lambda: self._add_variante_row(self.add_variantes_frame),
+                  bg=BG4,fg=TEXT,font=("Helvetica",9),relief="flat",padx=8,pady=2).pack(side="left",padx=(10,0))
+
+        self.add_variantes_frame = tk.Frame(right, bg=BG)
+        self.add_variantes_frame.grid(row=16,column=0,columnspan=3,sticky="ew")
+
         tk.Button(right,text="  + Agregar al Catálogo  ",command=self._add_confirm,
                   bg=PURPLE,fg="white",font=("Helvetica",12,"bold"),relief="flat",
-                  padx=20,pady=10).grid(row=15,column=0,columnspan=3,sticky="w",pady=(14,8))
+                  padx=20,pady=10).grid(row=17,column=0,columnspan=3,sticky="w",pady=(14,8))
 
     # ── TAB 2: EDITAR FIGURA ──────────────────────────────────────────────────
 
@@ -1486,13 +1593,24 @@ class UVAdminApp:
         self.edit_preview = PhotoPreview(form_frame, w=280, h=220)
         self.edit_preview.grid(row=15,column=0,columnspan=4,sticky="w",pady=(8,8))
 
+        # ── Variantes de escala ──
+        var_hdr_ef = tk.Frame(form_frame, bg=BG)
+        var_hdr_ef.grid(row=16,column=0,columnspan=4,sticky="ew",pady=(12,2))
+        tk.Label(var_hdr_ef,text="── Variantes (escala/versión) ──",bg=BG,fg=MUTED,
+                 font=("Helvetica",9,"bold")).pack(side="left")
+        tk.Button(var_hdr_ef,text="+ Agregar variante",command=lambda: self._add_variante_row(self.ef_variantes_frame),
+                  bg=BG4,fg=TEXT,font=("Helvetica",9),relief="flat",padx=8,pady=2).pack(side="left",padx=(10,0))
+
+        self.ef_variantes_frame = tk.Frame(form_frame, bg=BG)
+        self.ef_variantes_frame.grid(row=17,column=0,columnspan=4,sticky="ew")
+
         # ── VERSIÓN DELUXE ────────────────────────────────────────────────────
         tk.Label(form_frame,text="── Versión Deluxe ──",bg=BG,fg=PURPLE,
-                 font=("Helvetica",9,"bold")).grid(row=16,column=0,columnspan=4,sticky="w",pady=(14,4))
+                 font=("Helvetica",9,"bold")).grid(row=18,column=0,columnspan=4,sticky="w",pady=(14,4))
 
         # Checkboxes agotado
         dlx_chk_frame = tk.Frame(form_frame,bg=BG)
-        dlx_chk_frame.grid(row=17,column=0,columnspan=4,sticky="w",pady=(0,6))
+        dlx_chk_frame.grid(row=19,column=0,columnspan=4,sticky="w",pady=(0,6))
         tk.Checkbutton(dlx_chk_frame,text="Regular agotada",variable=self._ef_agotado_r,
                        bg=BG,fg="#fbbf24",selectcolor=BG2,activebackground=BG,
                        font=("Helvetica",9,"bold")).pack(side="left",padx=(0,16))
@@ -1501,12 +1619,12 @@ class UVAdminApp:
                        font=("Helvetica",9,"bold")).pack(side="left")
 
         # Fotos Deluxe label + botones
-        tk.Label(form_frame,text="Fotos Deluxe:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=18,column=0,sticky="nw",pady=(4,2))
+        tk.Label(form_frame,text="Fotos Deluxe:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=20,column=0,sticky="nw",pady=(4,2))
         self.edit_fotos_d_lbl = tk.Label(form_frame,text="Sin fotos Deluxe",bg=BG,fg=MUTED,font=("Helvetica",10))
-        self.edit_fotos_d_lbl.grid(row=18,column=1,sticky="w",pady=(4,2),padx=(8,0))
+        self.edit_fotos_d_lbl.grid(row=20,column=1,sticky="w",pady=(4,2),padx=(8,0))
 
         dlx_btn_frame = tk.Frame(form_frame,bg=BG)
-        dlx_btn_frame.grid(row=19,column=0,columnspan=4,sticky="w",pady=(4,0))
+        dlx_btn_frame.grid(row=21,column=0,columnspan=4,sticky="w",pady=(4,0))
         tk.Button(dlx_btn_frame,text="📁 Subir fotos Deluxe desde PC",command=self._edit_upload_local_d,
                   bg=BG4,fg=TEXT,font=("Helvetica",10),relief="flat",padx=10,pady=5).pack(side="left",padx=(0,8))
         tk.Button(dlx_btn_frame,text="🔗 Cargar fotos Deluxe desde URL",command=self._edit_load_url_photos_d,
@@ -1517,7 +1635,7 @@ class UVAdminApp:
 
         # Preview fotos Deluxe
         self.edit_preview_d = PhotoPreview(form_frame, w=280, h=220)
-        self.edit_preview_d.grid(row=20,column=0,columnspan=4,sticky="w",pady=(8,8))
+        self.edit_preview_d.grid(row=22,column=0,columnspan=4,sticky="w",pady=(8,8))
 
         # Load all products on start
         self._edit_all_results = []
@@ -1719,7 +1837,12 @@ class UVAdminApp:
         self.add_preview.set_photos(data["fotos"])
         self.add_ai_txt.delete("1.0","end")
         translated = " · Traducido ✓" if data.get("traducido") else ""
-        self._status(f"✅  {len(data['fotos'])} fotos encontradas{translated}", GREEN)
+        # Auto-poblar variantes si el scraper las detectó
+        if data.get("variantes"):
+            self._set_variantes(self.add_variantes_frame, data["variantes"])
+            self._status(f"✅  {len(data['fotos'])} fotos encontradas{translated} · {len(data['variantes'])} variantes de escala detectadas", GREEN)
+        else:
+            self._status(f"✅  {len(data['fotos'])} fotos encontradas{translated}", GREEN)
         # Auto-generar descripción con IA si hay API key
         if self.cfg.get("anthropic_api_key","").strip():
             self._add_gen_ai()
@@ -1734,6 +1857,9 @@ class UVAdminApp:
         self._status("Generando descripcion con IA...", ORANGE)
         data = dict(self._scraped_add)
         data["nombre"] = self.add_nombre_var.get().strip() or data["nombre"]
+        variantes = self._get_variantes(self.add_variantes_frame)
+        if variantes:
+            data["variantes"] = variantes
         threading.Thread(target=self._run_ai_gen, args=(data, api_key), daemon=True).start()
 
     def _run_ai_gen(self, data, api_key):
@@ -1769,6 +1895,133 @@ class UVAdminApp:
         self.add_ai_btn.config(state="normal", text="✨ Generar con IA")
         self._status(f"❌ Error IA: {err}", RED)
 
+    # ── Variantes helpers ─────────────────────────────────────────────────────
+
+    def _add_variante_row(self, container, v=None):
+        """Agrega una fila de variante (label / precio / reserva + fotos) al container."""
+        # Initial fotos list
+        fotos_list = list(v.get("fotos") or []) if v else []
+
+        wrap = tk.Frame(container, bg=BG4, pady=2)
+        wrap.pack(fill="x", pady=2)
+        wrap._fotos = fotos_list
+        wrap._is_variante = True
+
+        # ── Fila principal ──
+        row = tk.Frame(wrap, bg=BG4)
+        row.pack(fill="x")
+
+        tk.Label(row, text="Versión:", bg=BG4, fg=MUTED, font=("Helvetica",9)).pack(side="left", padx=(6,2))
+        # label with fallback to escala for old data
+        initial_label = (v.get("label") or v.get("escala") or "") if v else ""
+        label_var = tk.StringVar(value=initial_label)
+        tk.Entry(row, textvariable=label_var, bg=BG2, fg=TEXT, font=("Helvetica",10),
+                 relief="flat", bd=4, insertbackground=TEXT, width=8).pack(side="left", padx=(0,8))
+
+        tk.Label(row, text="Precio Q:", bg=BG4, fg=MUTED, font=("Helvetica",9)).pack(side="left", padx=(0,2))
+        price_var = tk.StringVar(value=v.get("precio","") if v else "")
+        res_var   = tk.StringVar(value=v.get("reserva","") if v else "")
+        def _auto_reserva(*_, pv=price_var, rv=res_var):
+            try:
+                rv.set(str(round(float(pv.get().replace(",","").strip()) * 0.20)))
+            except: pass
+        price_var.trace_add("write", _auto_reserva)
+        tk.Entry(row, textvariable=price_var, bg=BG2, fg=TEXT, font=("Helvetica",10),
+                 relief="flat", bd=4, insertbackground=TEXT, width=8).pack(side="left", padx=(0,8))
+        tk.Label(row, text="Reserva Q:", bg=BG4, fg=MUTED, font=("Helvetica",9)).pack(side="left", padx=(0,2))
+        tk.Entry(row, textvariable=res_var, bg=BG2, fg=TEXT, font=("Helvetica",10),
+                 relief="flat", bd=4, insertbackground=TEXT, width=8).pack(side="left", padx=(0,8))
+
+        # Fotos toggle button
+        fotos_frame = tk.Frame(wrap, bg=BG3)
+        fotos_open = [False]
+
+        def _update_fotos_btn(btn=None):
+            n = len(wrap._fotos)
+            lbl = f"Fotos ({n})" if n else "Fotos"
+            if btn: btn.config(text=lbl)
+
+        fotos_btn = tk.Button(row, text="Fotos (0)", bg=BG3, fg=MUTED, font=("Helvetica",8),
+                              relief="flat", padx=4)
+        def _toggle_fotos():
+            fotos_open[0] = not fotos_open[0]
+            if fotos_open[0]:
+                _refresh_fotos_list()
+                fotos_frame.pack(fill="x", padx=6, pady=(0,4))
+            else:
+                fotos_frame.pack_forget()
+        fotos_btn.config(command=_toggle_fotos)
+        fotos_btn.pack(side="left", padx=(4,8))
+        _update_fotos_btn(fotos_btn)
+
+        tk.Button(row, text="✕", command=wrap.destroy, bg=BG4, fg=RED,
+                  font=("Helvetica",10), relief="flat", padx=4).pack(side="left")
+
+        # ── Fotos panel ──
+        listbox = tk.Listbox(fotos_frame, bg=BG2, fg=TEXT, font=("Helvetica",8),
+                             selectbackground=PURPLE, height=3, relief="flat")
+        listbox.pack(fill="x", padx=4, pady=(4,2))
+
+        def _refresh_fotos_list():
+            listbox.delete(0, "end")
+            for url in wrap._fotos:
+                listbox.insert("end", url)
+            _update_fotos_btn(fotos_btn)
+
+        def _del_selected():
+            sel = listbox.curselection()
+            if sel:
+                idx = sel[0]
+                wrap._fotos.pop(idx)
+                _refresh_fotos_list()
+
+        add_row = tk.Frame(fotos_frame, bg=BG3)
+        add_row.pack(fill="x", padx=4, pady=(0,4))
+        url_var = tk.StringVar()
+        url_entry = tk.Entry(add_row, textvariable=url_var, bg=BG2, fg=TEXT, font=("Helvetica",8),
+                             relief="flat", bd=3, insertbackground=TEXT)
+        url_entry.pack(side="left", fill="x", expand=True, padx=(0,4))
+
+        def _add_foto(event=None):
+            url = url_var.get().strip()
+            if url:
+                wrap._fotos.append(url)
+                url_var.set("")
+                _refresh_fotos_list()
+        url_entry.bind("<Return>", _add_foto)
+        tk.Button(add_row, text="Agregar", command=_add_foto, bg=PURPLE, fg=TEXT,
+                  font=("Helvetica",8), relief="flat", padx=6).pack(side="left")
+        tk.Button(add_row, text="Quitar sel.", command=_del_selected, bg=BG4, fg=RED,
+                  font=("Helvetica",8), relief="flat", padx=4).pack(side="left", padx=(4,0))
+
+        # Pre-populate if existing fotos
+        if fotos_list:
+            _refresh_fotos_list()
+
+        wrap._vars = (label_var, price_var, res_var)
+
+    def _get_variantes(self, container):
+        result = []
+        for child in container.winfo_children():
+            if getattr(child, "_is_variante", False):
+                label, precio, reserva = [v.get().strip() for v in child._vars]
+                if label or precio:
+                    entry = {"label": label, "precio": precio, "reserva": reserva}
+                    # If label looks like a scale, also set escala for compat
+                    if re.match(r'^1:[0-9]+', label):
+                        entry["escala"] = label
+                    fotos = list(child._fotos)
+                    if fotos:
+                        entry["fotos"] = fotos
+                    result.append(entry)
+        return result if result else None
+
+    def _set_variantes(self, container, variantes):
+        for child in container.winfo_children():
+            child.destroy()
+        for v in (variantes or []):
+            self._add_variante_row(container, v)
+
     def _add_confirm(self):
         if not self._scraped_add:
             messagebox.showwarning("Falta data","Cargá una URL primero."); return
@@ -1789,6 +2042,7 @@ class UVAdminApp:
                 reserva_auto = str(round(float(precio_str.replace(",","").replace("Q","")) * 0.20))
             except:
                 reserva_auto = ""
+            variantes = self._get_variantes(self.add_variantes_frame)
             p = add_product(
                 CATALOG_FILE, self._scraped_add,
                 self.add_cat_var.get(),
@@ -1800,6 +2054,7 @@ class UVAdminApp:
                 self.add_estado_var.get(),
                 self.add_youtube_var.get().strip(),
                 disp=self.add_disp_var.get(),
+                variantes=variantes,
             )
             self._status(f"✅  '{p['n']}' agregada. Publicá en GitHub para actualizar el sitio.", GREEN)
             messagebox.showinfo("✅ Listo", f"'{p['n']}' agregada al catálogo.\n\nClickeá '🚀 Publicar en GitHub' para actualizar el sitio.")
@@ -1811,6 +2066,7 @@ class UVAdminApp:
             self.add_youtube_var.set(""); self.add_preview.set_photos([])
             self.add_ai_txt.delete("1.0","end"); self.add_franquicia_var.set("")
             self.add_ai_btn.config(text="✨ Generar con IA")
+            self._set_variantes(self.add_variantes_frame, [])
             self._check_catalog()
         except Exception as e:
             messagebox.showerror("Error", str(e)); self._status(f"❌  {e}", RED)
@@ -1883,6 +2139,8 @@ class UVAdminApp:
         self.edit_fotos_lbl.config(text=f"{len(fotos)} fotos" if fotos else "Sin fotos")
         self._edit_photos = list(fotos)
         self.edit_preview.set_photos(self._edit_photos)
+        # Variantes
+        self._set_variantes(self.ef_variantes_frame, p.get("variantes", []))
         # Deluxe fields
         self._ef_agotado_r.set(bool(p.get("agotado_r", False)))
         self._ef_agotado_d.set(bool(p.get("agotado_d", False)))
@@ -2015,6 +2273,8 @@ class UVAdminApp:
             line = line.strip()
             if line: blocks.append({"t":"notion-bulleted-list","x":line})
 
+        variantes = self._get_variantes(self.ef_variantes_frame)
+
         fields = {
             "n":          nombre,
             "precio":     self.ef_precio.get().strip(),
@@ -2035,6 +2295,8 @@ class UVAdminApp:
             "agotado_d":  self._ef_agotado_d.get(),
             "content":    blocks,
         }
+        if variantes:
+            fields["variantes"] = variantes
         if self._edit_photos:
             fields["fotos"] = self._edit_photos
             fields["i"] = self._edit_photos[0]
@@ -2050,12 +2312,18 @@ class UVAdminApp:
                 catalog = load_catalog(CATALOG_FILE)
                 p = catalog[old_cat]["products"].pop(idx)
                 for k, v in fields.items(): p[k] = v
+                if not variantes: p.pop("variantes", None)
                 if new_cat not in catalog:
                     catalog[new_cat] = {"slug":new_cat.lower().replace(" ","-"),"products":[]}
                 catalog[new_cat]["products"].insert(0, p)
                 save_catalog(CATALOG_FILE, catalog)
             else:
                 update_product(CATALOG_FILE, old_cat, idx, fields)
+                if not variantes:
+                    # Eliminar variantes si se borraron todas
+                    cat = load_catalog(CATALOG_FILE)
+                    cat[old_cat]["products"][idx].pop("variantes", None)
+                    save_catalog(CATALOG_FILE, cat)
 
             self._status(f"✅ '{nombre}' guardado. Publicá en GitHub para actualizar.", GREEN)
             messagebox.showinfo("✅ Guardado", f"'{nombre}' actualizado correctamente.\n\nClickeá '🚀 Publicar en GitHub' para actualizar el sitio.")

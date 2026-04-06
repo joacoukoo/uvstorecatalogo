@@ -1377,10 +1377,11 @@ function openModal(p,cat){
   varToggleEl.innerHTML="";
   if(p.variantes&&p.variantes.length>0){
     varToggleEl.style.display="flex";
-    // Primera opción: el producto base (usa p.precio / p.reserva / p.escala)
+    var basePhotos=(p.fotos&&p.fotos.length>0)?p.fotos:[p.i];
+    // Botón base (el producto principal)
     var btnBase=document.createElement("button");
     btnBase.className="ver-btn active";
-    btnBase.textContent=p.escala||"Base";
+    btnBase.textContent=p.escala||"Regular";
     btnBase.onclick=function(){
       varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
       btnBase.classList.add("active");
@@ -1390,13 +1391,14 @@ function openModal(p,cat){
       if(pe&&p.precio)pe.innerHTML="<span>Q</span>"+p.precio;
       if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
       if(se&&p.escala)se.textContent=p.escala;
+      carouselBuild(basePhotos);
     };
     varToggleEl.appendChild(btnBase);
-    // Opciones adicionales desde p.variantes
+    // Variantes adicionales
     p.variantes.forEach(function(v){
       var btn=document.createElement("button");
       btn.className="ver-btn";
-      btn.textContent=v.escala;
+      btn.textContent=v.label||v.escala||"Variante";
       btn.onclick=function(){
         varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
         btn.classList.add("active");
@@ -1405,7 +1407,9 @@ function openModal(p,cat){
         var se=document.getElementById("modal-escala-val");
         if(pe&&v.precio)pe.innerHTML="<span>Q</span>"+v.precio;
         if(re)re.textContent=v.reserva?fmtReserva(v.reserva):"";
-        if(se&&v.escala)se.textContent=v.escala;
+        if(se){se.textContent=v.escala||v.label||se.textContent;}
+        // Cambiar fotos si la variante tiene las suyas
+        if(v.fotos&&v.fotos.length>0)carouselBuild(v.fotos);
       };
       varToggleEl.appendChild(btn);
     });
