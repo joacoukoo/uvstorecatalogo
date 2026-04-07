@@ -9541,6 +9541,159 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "paul-atreides-standard",
+        "n": "Paul Atreides (Standard)",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/PAUL-ATREIDES-STANDARD-SCALE_TILES.png?v=1709857446",
+        "l": "https://www.specfictionshop.com/products/paul-atreides-standard-inart-1-6-scale-figure?_pos=22&_sid=4b9cffaa2&_ss=r&variant=47815592280368",
+        "marca": "INART",
+        "escala": "1:6",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "5400",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1080",
+        "entrega": "2 meses",
+        "cantidad": "",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/PAUL-ATREIDES-STANDARD-SCALE_TILES.png?v=1709857446",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/both-_7208_2a3233ba-1865-422d-b4d0-5db6eca2dc73.png?v=1709857446",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/standard-1_1.png?v=1709857446",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/standard-1_2.png?v=1709857446",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/both-_5290_9fa12cb5-7dd7-439a-b8b8-0dcd230f3fd4.png?v=1709857446",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/both-_2863_5368b7a3-807c-40b4-8076-bbc891dbba70.png?v=1709857446",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/both-_0725_97f93f92-0ddc-4857-9918-9c6caeb41024.png?v=1709857446",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/both-_6448_05539b95-cc05-405b-8879-146561d83993.png?v=1709857446"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Paul Atreides, el joven protagonista de Duna, es capturado en esta magistral figura de colección de escala 1/6 por InArt. Este personaje icónico, heredero de una dinastía intergaláctica y portador del don de la previsión, cobra vida en una escultura que refleja tanto su elegancia como su determinación. La figura captura la esencia del líder carismático que se convertiría en una leyenda en el universo de Frank Herbert."
+          },
+          {
+            "t": "notion-text",
+            "x": "Con un nivel de detalle extraordinario, esta figura de InArt presenta opciones versátiles para recrear diferentes momentos del personaje. La articulación completa del cuerpo permite poses dinámicas y expresivas, mientras que el vestuario meticulosamente confeccionado y los múltiples accesorios ofrecen flexibilidad para armar la escena perfecta. Los materiales premium, que incluyen ABS, PVC, tela y metal, garantizan durabilidad y un acabado de museo."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: InArt"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: InArt"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Masculino"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 12 pulgadas (aproximadamente 30 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: ABS, PVC, acrílico, tela y metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición: 18 cm (ancho) × 16 cm (profundidad) × 2 cm (alto)"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con cabello esculpido, expresión tranquila y ojos en movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con disfraz de destiltraje y ojos en movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo completamente articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: 1 conjunto de ropa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de vestuario: 2 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Calzado: 1 par de zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 9 juegos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios adicionales: 14 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Doble opción de cabeza para versatilidad narrativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo totalmente articulado para posicionamiento personalizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 juegos de manos intercambiables para expresión gestual variada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles escultóricos de alta precisión en rostro y vestuario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Colección completa de 14 accesorios para recrear escenas icónicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales premium que garantizan longevidad y calidad de museo"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-06T18:49:22.335104"
+      },
+      {
         "id": "spider-man-integrated-suit-2",
         "n": "Spider-Man (Integrated Suit)",
         "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d8359a1a456.jpg",
