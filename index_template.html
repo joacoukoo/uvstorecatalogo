@@ -1399,8 +1399,8 @@ function openModal(p,cat){
     }
     // Botón base (el producto principal) — siempre dice "Regular"
     var btnBase=document.createElement("button");
-    btnBase.className="ver-btn active";
-    btnBase.textContent="Regular";
+    btnBase.className="ver-btn active"+(p.agotado_r?" ver-btn-ago":"");
+    btnBase.textContent=p.agotado_r?"Regular — Agotada":"Regular";
     btnBase.onclick=function(){
       varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
       btnBase.classList.add("active");
@@ -1417,8 +1417,8 @@ function openModal(p,cat){
     // Variantes adicionales
     p.variantes.forEach(function(v){
       var btn=document.createElement("button");
-      btn.className="ver-btn";
-      btn.textContent=v.label||v.escala||"Variante";
+      btn.className="ver-btn"+(v.agotado?" ver-btn-ago":"");
+      btn.textContent=(v.label||v.escala||"Variante")+(v.agotado?" — Agotada":"");
       btn.onclick=function(){
         varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
         btn.classList.add("active");

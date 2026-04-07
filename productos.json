@@ -3,6 +3,135 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "n": "Armored Batman (2.0)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661954fed7d6d.jpg",
+        "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armored-batman-20",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "estado": "Sellado",
+        "disp": "Entrega Inmediata",
+        "precio": "3900",
+        "precio_d": "4600",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura Sixth Scale (1:6) â€“ Hot Toys â€“ Movie Masterpiece Series Diecast Altura:33 cm Inspirada enBatman v Superman: Dawn of Justice, esta figura representa el momento en que Bruce Wayne utiliza su armadura tÃ¡ctica para enfrentarse a Superman. Hot Toys presenta la versiÃ³n 2.0 de Armored Batman con importantes mejoras en escultura, pintura y articulaciÃ³n. La armadura incorpora piezas diecast (metal) que aportan mayor peso y realismo, junto con efectos de desgaste que reflejan el intenso combate visto en pantalla. Incluye una cabeza blindada diecast con ojos LED funcionales (alimentaciÃ³n USB) y tres expresiones faciales intercambiables basadas en la interpretaciÃ³n de Ben Affleck. Una versiÃ³n definitiva del enfrentamiento mÃ¡s icÃ³nico del DC moderno, ideal para coleccionistas que buscan una pieza robusta, imponente y fiel al universo cinematogrÃ¡fico."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza blindada diecast con ojos LEDTres expresiones intercambiablesMÃ¡s de 30 puntos de articulaciÃ³nPartes de la armadura en metalAcabado metÃ¡lico negro con efectos weatheredArticulaciÃ³n mejorada para mayor rango de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura con piezas diecast (pecho, hombros y piernas)Capa con alambre interno moldeableBatsuit especializadoCinturÃ³n utilitarioBotas metÃ¡licas gris oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de puÃ±osPar de manos relajadasDos manos derechas para armasMano derecha en gesto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grapple gunArma de Kryptonita2 municiones de Kryptonita (modo cerrado y abierto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temÃ¡tica con logo de la pelÃ­culaPlaca con nombre del personajeIluminaciÃ³n LED integrada"
+          }
+        ],
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661954fed7d6d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661955005472e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_6619550193dc2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_66195502c3975.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_6619550440123.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661955050a8c7.jpg"
+        ],
+        "id": "armored-batman-2-0",
+        "precio_orig": "",
+        "yt": "https://www.youtube.com/shorts/e_fbV6z5Hyo",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos_d": [
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959c7a93c9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959c837760.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959c89ac98.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959c986cc5.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959de6642a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959e04aad0.jpg"
+        ],
+        "agotado_r": false,
+        "agotado_d": false
+      },
+      {
+        "n": "Iron Man Mark XLII (2.0)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd79687e86.jpg",
+        "l": "https://uv-store-guatemala.super.site/entrega-inmediata/iron-man-mark-xlii-20",
+        "marca": "Hot Toys",
+        "escala": "1:6 - 32CM",
+        "estado": "Sellado",
+        "disp": "Entrega Inmediata",
+        "precio": "5200",
+        "precio_d": "5600",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura Sixth Scale (1:6) – Hot Toys – Movie Masterpiece Series Altura:32 cm Inspirada en⁠Iron Man 3, la Mark XLII (Mark 42) es la icónica armadura con sistema de ensamblaje autónomo que puede dividirse en piezas y acoplarse al cuerpo de Tony Stark. Hot Toys presenta la versión 2.0 con un impresionante nivel de detalle y acabado⁠heavy battle damaged, recreando desde rasguños leves hasta daños severos de combate. Fabricada con piezas⁠diecast (metal)⁠y acabados metálicos en dorado, rojo y plateado, esta versión captura la intensidad de las escenas más impactantes de la película. Incluye head sculpt de Tony Stark con daño de batalla y sistema de ojos móviles independientes, además de casco intercambiable con iluminación LED."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos LED (luz blanca)⁠Reactor Arc LED en el pecho (blanco)⁠Iluminación LED trasera⁠Iluminación azul visible en pecho, brazos y piernas⁠Casco con función LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Más de 30 puntos de articulación⁠Material diecast en partes de la armadura⁠Efectos de desgaste y daño severo⁠Aletas traseras y de piernas totalmente desplegables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de puños⁠Par de manos con repulsores activados⁠Par de manos articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Misiles de hombro⁠Dos estilos de flash bangs⁠Set intercambiable de antebrazos⁠Base temática con iluminación LED"
+          }
+        ],
+        "precio_orig": "",
+        "yt": "",
+        "franquicia": "Marvel",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd79687e86.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_scale_669fd79c8139f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd796f01be.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7974a1c9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7979898b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7984316a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798993c2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798ead82.jpg"
+        ],
+        "fotos_d": [
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd79687e86.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_scale_669fd79c8139f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd796f01be.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7974a1c9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7979898b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd7984316a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798993c2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913628/iron-man-mark-xlii-20_marvel_gallery_669fd798ead82.jpg"
+        ],
+        "id": "iron-man-mark-xlii-2-0",
+        "agotado_r": false,
+        "agotado_d": true,
+        "added_at": "2026-04-06T18:30:00.000000"
+      },
+      {
         "n": "Mirage DLX",
         "i": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe762be083.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/mirage-dlx",
