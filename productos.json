@@ -9541,6 +9541,147 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "michael-jackson",
+        "n": "Michael Jackson",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-MICHAEL-JACKSON.png?v=1721781125",
+        "l": "https://www.specfictionshop.com/products/michael-jackson-inart-1-6-scale-figure?_pos=17&_sid=4b9cffaa2&_ss=r",
+        "marca": "INART",
+        "escala": "1:6",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "6500",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1300",
+        "entrega": "2 meses",
+        "cantidad": "",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-MICHAEL-JACKSON.png?v=1721781125",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/452256453_467784006034758_5525209619234920483_n.jpg?v=1721781172",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/452257512_467785102701315_6028783134605861453_n.jpg?v=1721781172",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/452283305_467784796034679_6733998450547651095_n.jpg?v=1721781173",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/452288347_467784616034697_4346757613829192514_n.jpg?v=1721781172",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/452289836_467784566034702_575724808766837355_n.jpg?v=1721781172",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/452316297_467784736034685_5852114226748736495_n.jpg?v=1721781172",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/452317108_467783756034783_7995955624629833072_n.jpg?v=1721781172"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta figura de escala 1:6 de Michael Jackson captura la esencia del Rey del Pop en uno de sus momentos más icónicos. Celebra la carrera legendaria del artista con una representación detallada que refleja su impacto cultural y su legado imborrable en la música y el entretenimiento mundial. Una pieza imprescindible para coleccionistas dedicados que desean honrar la trayectoria de una de las figuras más influyentes del siglo XX."
+          },
+          {
+            "t": "notion-text",
+            "x": "Realizada con estándares de manufactura de coleccionista premium, esta figura destaca por su cabeza esculpida con cabello enraizado que proporciona un detalle extraordinario y un acabado naturalmente realista. El cuerpo completamente articulado permite múltiples posicionamientos dinámicos, mientras que el extenso vestuario y accesorios incluidos ofrecen opciones de personalización para recrear diferentes momentos de la carrera del artista."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: InArt"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Pop / Música"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30,5 cm (figura) / 37 cm con base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones con base: 37 cm alto × 17 cm ancho × 13 cm profundidad"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con cabello enraizado y ojos articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo completamente articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Disfraz Jam"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de vestuario: 2 piezas adicionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Calzado: 1 par de zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 5 juegos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: 2 piezas de accesorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja expositora con escultura de cabeza enraizada"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello enraizado para un acabado realista y premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo totalmente articulado para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples sistemas de manos intercambiables para diferentes expresiones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario detallado basado en los atuendos icónicos del artista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Presentación en caja expositora especialmente diseñada para coleccionistas"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-06T18:54:49.020675"
+      },
+      {
         "id": "draco-malfoy-standard",
         "n": "Draco Malfoy (Standard)",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-DRACO-MALFOY-STANDARD-SCALE_TILES.png?v=1750110483",
