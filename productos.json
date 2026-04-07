@@ -3489,7 +3489,7 @@
       },
       {
         "n": "Ellie – The Last of Us Part II",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/07c8894a-42f3-48c3-ada1-7432d95bcd0a/vertical_3_3_2.jpg",
+        "i": "https://cdn.gamingheads.com/media/catalog/product/p/r/pro_big_16_1.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/ellie-the-last-of-us-part-ii",
         "marca": "Gaming Heads",
         "escala": "Escala 1:4 - 41CM",
@@ -3522,12 +3522,18 @@
             "x": "6.1 kg(13.3 lbs)"
           }
         ],
-        "yt": "",
+        "yt": "https://www.youtube.com/watch?v=tUG2lJW25RU",
         "franquicia": "Gaming",
         "precio_orig": "5800",
         "destacado": false,
         "oferta": true,
-        "id": "ellie-the-last-of-us-part-ii"
+        "id": "ellie-the-last-of-us-part-ii",
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://cdn.gamingheads.com/media/catalog/product/p/r/pro_big_16_1.jpg"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Iron Man Mark IV – Sub-Zero Fractal Armor",
