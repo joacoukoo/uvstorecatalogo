@@ -36720,7 +36720,7 @@
         "marca": "Barcode Studio",
         "escala": "1:4",
         "franquicia": "Adultos",
-        "estado": "Usado - Como Nuevo",
+        "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "5200",
         "precio_d": "",
@@ -36738,20 +36738,8 @@
         ],
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Barcode - Master Sister es una figura de colección de escala 1:4 que captura la esencia de este personaje icónico con una presencia imponente. Con 54 cm de altura, esta pieza representa el pico de la manufactura artesanal en el mundo de los coleccionables premium, ofreciendo un nivel de detalle que satisface a los coleccionistas más exigentes."
-          },
-          {
-            "t": "notion-text",
-            "x": "Cada ejemplar es cuidadosamente esculpido y pintado a mano, garantizando que cada una de las 99 piezas de esta edición limitada sea una obra única. La atención al detalle en cada aspecto de la figura refleja el compromiso con la excelencia artística que define a UV Store GT."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Detalles"
+            "x": "Barcode - Master Sister es una figura de colección de escala 1:4 que captura la esencia de este personaje icónico con una presencia imponente. Con 54 cm de altura, esta pieza representa el pico de la manufactura artesanal en el mundo de los coleccionables premium, ofreciendo un nivel de detalle que satisface a los coleccionistas más exigentes. Cada ejemplar es cuidadosamente esculpido y pintado a mano, garantizando que cada una de las 99 piezas de esta edición limitada sea una obra única. La atención al detalle en cada aspecto de la figura refleja el compromiso con la excelencia artística que define a UV Store GT."
           },
           {
             "t": "notion-bulleted-list",
@@ -36764,10 +36752,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Lanzamiento previsto: Q2 2027"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -36789,7 +36773,10 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-04-07T08:47:00.310603"
+        "added_at": "2026-04-07T08:47:00.310603",
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos_d": []
       },
       {
         "id": "fritz-rumey-schwarzes-kaninchen-version",
