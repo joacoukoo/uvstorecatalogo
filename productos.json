@@ -8919,7 +8919,7 @@
       },
       {
         "n": "Espresso Trip Tina Funko Pop (Sticker SDCC)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/4c62f586-90e5-4f97-b4cd-b821e8904d9a/s-l1200.jpg",
+        "i": "https://www.coleka.com/media/item/201806/28/pop-rides-new-item.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/espresso-trip-tina-funko-pop-sticker-sdcc",
         "marca": "Funko Pop",
         "escala": "",
@@ -8932,16 +8932,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Funko Pop! de Tina Belcher en su versión Espresso Trip, con sticker exclusivo de convención. Una pieza muy buscada por coleccionistas que priorizan autenticidad y valor, ideal para vitrina y para completar sets de exclusivas de evento."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -8964,16 +8956,23 @@
             "x": "Licencia oficial"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Estado"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Caja en buen estado"
           }
         ],
         "id": "espresso-trip-tina-funko-pop-sticker-sdcc",
-        "content_ok": true
+        "content_ok": true,
+        "precio_orig": "",
+        "yt": "https://www.youtube.com/watch?v=xJ6pfnfBsII",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://www.coleka.com/media/item/201806/28/pop-rides-new-item.jpg"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Monkey D. Luffy",
