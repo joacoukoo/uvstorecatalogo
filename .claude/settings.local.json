@@ -20,7 +20,20 @@
       "Read(//c/Users/Joaquin/Downloads/**)",
       "Bash(python editar_flyer.py)",
       "Bash(python:*)",
-      "Bash(du -sh C:/Users/Joaquin/.claude/projects/C--Users-Joaquin-OneDrive-Escritorio-sitio-que-funciona/*)"
+      "Bash(du -sh C:/Users/Joaquin/.claude/projects/C--Users-Joaquin-OneDrive-Escritorio-sitio-que-funciona/*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git rebase:*)",
+      "Bash(git push:*)",
+      "Bash(GIT_EDITOR=true git rebase --continue)",
+      "Bash(git commit -m ':*)",
+      "Bash(git stash:*)",
+      "Bash(git pull:*)",
+      "Bash(git tag:*)",
+      "Bash(ls:*)",
+      "Bash(git commit:*)",
+      "Bash(python3 -c ':*)",
+      "mcp__claude_ai_Canva__generate-design"
     ]
   }
 }
