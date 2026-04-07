@@ -8521,7 +8521,7 @@
       },
       {
         "n": "Michael Myers (Halloween II)",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/48e417ad-cde4-4eff-a814-015cd8fdba5a/b07h8lkf2p-500x500.jpg",
+        "i": "https://files.ekmcdn.com/767eaa/images/neca-halloween-2-ultimate-michael-myers-s-action-figure-instock-2260-p.jpeg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/michael-myers-halloween-ii",
         "marca": "NECA",
         "escala": "18CM",
@@ -8535,14 +8535,21 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Esta figura Ultimate mide aproximadamente 18 cm (7″), con más de 25 puntos de articulación para poses dinámicas y dramáticas. Incluye tres cabezas intercambiables (máscara limpia, máscara ensangrentada, máscara con lágrimas de sangre), así como accesorios como jeringa, cuchillo, martillo, bisturí y linterna Jack-o’-Lantern con apertura funcional en la caja."
-          },
-          {
-            "t": "notion-text",
-            "x": "Presentada en empaque tipo “window box” con solapa abatible para exhibición sin necesidad de desprecintar, ideal para coleccionistas."
+            "x": "Esta figura Ultimate mide aproximadamente 18 cm (7″), con más de 25 puntos de articulación para poses dinámicas y dramáticas. Incluye tres cabezas intercambiables (máscara limpia, máscara ensangrentada, máscara con lágrimas de sangre), así como accesorios como jeringa, cuchillo, martillo, bisturí y linterna Jack-o’-Lantern con apertura funcional en la caja. Presentada en empaque tipo “window box” con solapa abatible para exhibición sin necesidad de desprecintar, ideal para coleccionistas."
           }
         ],
-        "id": "michael-myers-halloween-ii"
+        "id": "michael-myers-halloween-ii",
+        "precio_orig": "",
+        "yt": "https://www.youtube.com/watch?v=uVwyvmHUzYs",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://files.ekmcdn.com/767eaa/images/neca-halloween-2-ultimate-michael-myers-s-action-figure-instock-2260-p.jpeg"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Michael Myers (Halloween 2018)",
