@@ -27787,6 +27787,123 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "aizen-and-gin",
+        "n": "Aizen and Gin",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8eb024622003650c0be431b587654b00.jpg?v=1775564498",
+        "l": "https://statuecorp.com/products/pop-art-aizen-and-gin",
+        "marca": "Pop Art Studio",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3600",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "720",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8eb024622003650c0be431b587654b00.jpg?v=1775564498",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6b0f09a59c7af714396a7b8f9189cab3.jpg?v=1775564498",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/41999ebdf0e20dc83b862eaeb28400ae.jpg?v=1775564498",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ba8d90e55af4966a7c411d7953e89e84.jpg?v=1775564498",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4c4a604f011180bde10e8dbc3a9d36bc.jpg?v=1775564498",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8140069119c2ba03e30aeadffcceed36.jpg?v=1775564498",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1b13e6079007f83faad4ad0a6564f43e.jpg?v=1775564498",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a2cef9d360a18bce7ad70aa3b3311f56.jpg?v=1775564498"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Pop Art - Aizen and Gin presenta una interpretación artística única de dos de los personajes más icónicos del universo de Bleach. Esta colección representa a Sosuke Aizen y Gin Ichimaru en una composición visual que captura la esencia de su compleja relación dentro de la narrativa. La propuesta estética fusiona elementos del arte pop con la caracterización de estos personajes, creando una pieza de colección verdaderamente distintiva."
+          },
+          {
+            "t": "notion-text",
+            "x": "Elaborada en escala 1:6, esta figura destaca por su cuidado artístico y atención al detalle. Cada versión ofrece diferentes dimensiones y opciones de presentación, permitiendo al coleccionista elegir la configuración que mejor se adapte a su espacio de exhibición. La edición limitada a 188 piezas asegura exclusividad y valor de colección a largo plazo."
+          },
+          {
+            "t": "notion-text",
+            "x": "Diseñada para entusiastas de las figuras premium, esta obra representa un segmento sofisticado dentro de la colección de personajes de anime. Su lanzamiento programado para Q2 2027 posiciona a Pop Art - Aizen and Gin como una pieza anticipada en el catálogo de coleccionables de alto nivel."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Pop Art"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Anime"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tamaño Versión A: 37 H x 20 D x 27 W cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tamaño Versión B: 37 H x 26 D x 42 W cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Torso de Aizen adicional (incluido con Versión B)"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Representación artística en estilo Pop Art de personajes principales de Bleach"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada numerada de 188 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Disponible en dos versiones con diferentes dimensiones y configuraciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento programado para Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de colección premium para aficionados de anime de alto nivel"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T08:56:14.331371"
+      },
+      {
         "id": "niuzi-dad-and-me",
         "n": "Niuzi - Dad  and Me",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/767f3a9d3ece2ff84b846fcbd03270a2.jpg?v=1775553341",
