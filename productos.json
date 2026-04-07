@@ -9541,6 +9541,139 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "draco-malfoy-standard",
+        "n": "Draco Malfoy (Standard)",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-DRACO-MALFOY-STANDARD-SCALE_TILES.png?v=1750110483",
+        "l": "https://www.specfictionshop.com/products/harry-potter-draco-malfoy-standard-inart-1-6-scale-figure?_pos=18&_sid=4b9cffaa2&_ss=r",
+        "marca": "INART",
+        "escala": "1:6 - 26CM",
+        "franquicia": "Otros",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4700",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "940",
+        "entrega": "Diciembre 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-DRACO-MALFOY-STANDARD-SCALE_TILES.png?v=1750110483",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/12_d1df5f3d-6346-444f-bf75-d297600ccf36.jpg?v=1750110564",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/13_40f99bf1-fa98-4185-9a38-5fd7496c5978.jpg?v=1750110564",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/StandardVersion_29a9f5e6-5d65-4088-8925-ca20d17320cb.jpg?v=1750110606"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Draco Malfoy, el antagonista icónico de la saga de Harry Potter, cobra vida en esta excepcional figura coleccionable de escala 1/6 de InArt. Conocido por su arrogancia, su lealtad a las fuerzas oscuras y su compleja evolución a lo largo de la serie, este personaje es capturado aquí con un nivel de detalle que satisfará incluso a los coleccionistas más exigentes de la franquicia."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta figura premium presenta una cabeza esculpida con ojos articulados que pueden operarse mediante palancas interiores, permitiendo diferentes expresiones faciales. El cuerpo completamente articulado garantiza versatilidad en las poses de exhibición, mientras que la impresionante colección de accesorios y vestuario permite recrear múltiples escenas y momentos del personaje en toda la saga."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: InArt"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Queen Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Cine - Harry Potter"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 26 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos articulados operables mediante palancas interiores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo completamente articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Capa de invierno, túnica de mago, camisa, suéter, corbata, bufanda, pantalones y par de zapatos de cuero negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: Par de manos relajadas, mano derecha con apretón de manos, mano derecha que sostiene recuerdo, mano derecha que sostiene linterna, par de manos para sostener escoba, par de manos enguantadas, mano derecha que sostiene varita y mano de duelo izquierda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: Varita mágica, escoba, sombrero seleccionador, recuerdo, linterna y colmillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base magnética para exhibición"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo completamente articulado para múltiples posiciones de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos articulados con operación mediante palancas interiores para diferentes expresiones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 opciones de manos intercambiables para recrear distintas escenas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Completo vestuario que incluye uniformes y prendas de la saga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base magnética para exhibición segura y profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos: varita, escoba, sombrero seleccionador y elementos narrativos clave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Nivel de detalle premium adecuado para coleccionistas serios de Harry Potter"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-06T18:53:29.245386"
+      },
+      {
         "id": "paul-atreides-standard",
         "n": "Paul Atreides (Standard)",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/PAUL-ATREIDES-STANDARD-SCALE_TILES.png?v=1709857446",
