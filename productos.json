@@ -3388,7 +3388,7 @@
       },
       {
         "n": "Buzz Lightyear Interactive Robot",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/87fadc05-40db-4630-ac1a-1c135100497c/product-buzzlightyear-box.webp",
+        "i": "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-08-courtesy-of-Disney-Robosen.png",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/buzz-lightyear-interactive-robot",
         "marca": "Robosen",
         "escala": "37CM",
@@ -3401,16 +3401,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Robosen presenta una versión ultra realista y robótica del legendario Buzz Lightyear, inspirado en las películas de Toy Story. Desarrollado por Robosen Robotics en colaboración con Disney y Pixar, este robot recrea al icónico Space Ranger con movimientos naturales, expresiones faciales dinámicas y audio auténtico extraído del universo de Toy Story. Una experiencia inmersiva, interactiva y nostálgica que lleva al guardián espacial a tu colección con autenticidad cinematográfica."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
@@ -3449,10 +3441,6 @@
             "x": "Placa de pie con firma de Andy, personalizable con tu nombre"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Funcionalidades Interactivas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Control por voz y aplicación móvil"
           },
@@ -3469,10 +3457,6 @@
             "x": "Conexión Bluetooth y Wi-Fi para comunicaciones avanzadas"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Especificaciones Técnicas"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Licencia: Disney / Pixar"
           },
@@ -3486,12 +3470,22 @@
           }
         ],
         "precio_orig": "",
-        "yt": "",
+        "yt": "https://www.youtube.com/watch?v=Ou-uS1c44sQ&t=12s",
         "franquicia": "Otros",
         "destacado": false,
         "oferta": false,
         "id": "buzz-lightyear-interactive-robot",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-08-courtesy-of-Disney-Robosen.png",
+          "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-05-courtesy-of-Disney-Robosen.png",
+          "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-06-courtesy-of-Disney-Robosen.png",
+          "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-03-courtesy-of-Disney-Robosen.png",
+          "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-08-courtesy-of-Disney-Robosen-copy.png"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Ellie – The Last of Us Part II",
