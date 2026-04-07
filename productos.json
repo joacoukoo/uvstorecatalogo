@@ -27787,6 +27787,130 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ryomen-sukuna",
+        "n": "Ryomen Sukuna",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362532/_2026-04-07_140922_088__13473.1775542418.jpg?c=2",
+        "l": "https://www.fanaticanimestore.com/pre-order-neon-studio-1-6-ryomen-sukuna/",
+        "marca": "Neon Studio",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "5000",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1000",
+        "entrega": "4Q 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362532/_2026-04-07_140922_088__13473.1775542418.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362534/_2026-04-07_140932_756__98349.1775542409.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362527/_2026-04-07_140923_848__60365.1775542308.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362528/_2026-04-07_140929_766__48477.1775542309.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362529/_2026-04-07_140934_221__81966.1775542309.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362530/_2026-04-07_140927_881__72033.1775542309.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362531/_2026-04-07_140925_161__32242.1775542309.jpg?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Ryomen Sukuna, el Rey de las Maldiciones de Jujutsu Kaisen, cobra vida en esta figura coleccionable de escala 1:6 de NEON Studio. Esta representación captura la esencia del poderoso antagonista en toda su magnificencia, mostrando su presencia intimidante y carisma sobrenatural que lo define como uno de los personajes más icónicos del manga y anime moderno."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada detalle de esta pieza ha sido meticulosamente trabajado para ofrecerle al coleccionista una experiencia visual superior. La manufactura de NEON Studio se distingue por su dedicación artística en cada aspecto, desde la escultura de la cabeza hasta la presentación final en base de exhibición."
+          },
+          {
+            "t": "notion-text",
+            "x": "Con una escala de 21 cm de altura, esta figura representa un punto focal ideal para cualquier colección premium de anime y manga. Es la adquisición perfecta para fanáticos de Jujutsu Kaisen que buscan poseer una interpretación de lujo del Rey de las Maldiciones."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: NEON Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: NEON Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Masculino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Afiliación: Jujutsu Kaisen"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida reemplazable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artesanía de NEON Studio con excelencia en cada detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Componentes intercambiables para personalización"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Presenta al Rey de las Maldiciones en toda su gloria"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño profesional pensado para coleccionistas exigentes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pre-orden disponible con envío internacional"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T09:06:14.447195"
+      },
+      {
         "id": "marco",
         "n": "Marco",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_18.webp?v=1775564845",
