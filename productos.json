@@ -27787,6 +27787,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "niuzi-dad-and-me",
+        "n": "Niuzi - Dad  and Me",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/767f3a9d3ece2ff84b846fcbd03270a2.jpg?v=1775553341",
+        "l": "https://statuecorp.com/products/niuzi-me-1",
+        "marca": "Niuzi Studio",
+        "escala": "",
+        "franquicia": "Anime",
+        "estado": "Usado - Como Nuevo",
+        "disp": "Pre Orden",
+        "precio": "2000",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "400",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/767f3a9d3ece2ff84b846fcbd03270a2.jpg?v=1775553341",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cbe9b8a5552638c060dd1d6a26cdf902.jpg?v=1775553341",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5544c840b88a1d63edf41d076d76dfda.jpg?v=1775553341",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/04312d322e87fbbc414d0d6a0e4b12bc.jpg?v=1775553341",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d540b59b9eac2e03ab3db12f239f3362.jpg?v=1775553341",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/74625072d12de792d1cfc359d8270e2d.jpg?v=1775553341",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a8e8b1fe97e9e6ebdb1bf90e2395be49.jpg?v=1775553341",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/42bd245e9e1accf3e060b5bce97c8596.jpg?v=1775553341"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Niuzi - Dad and Me es una figura que captura un momento íntimo y significativo entre padre e hijo. Esta pieza celebra la conexión especial de la paternidad, presentando a ambos personajes en una composición que transmite calidez, complicidad y el vínculo indisoluble que define la relación paternal. Una obra que resonará profundamente con coleccionistas que valoran la narrativa emocional en sus piezas."
+          },
+          {
+            "t": "notion-text",
+            "x": "Elaborada con atención meticulosa a los detalles, esta figura destaca por su capacidad de congelar un momento cotidiano en una expresión artística de calidad premium. La composición dinámica y la ejecución cuidadosa de la escultura reflejan el compromiso de los artistas con la excelencia en cada aspecto de la pieza."
+          },
+          {
+            "t": "notion-text",
+            "x": "Producida en edición limitada de solo 288 piezas, Niuzi - Dad and Me se posiciona como una coleccionable exclusiva que combina valor artístico con rareza. Diseñada para coleccionistas que buscan piezas significativas que trasciendan lo meramente decorativo, esta figura es una inversión en arte figurativo premium."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 288 piezas numeradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Segundo trimestre de 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 15 cm (ancho) × 10 cm (alto) × 8,5 cm (profundidad)"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T08:30:20.891434"
+      },
+      {
         "id": "super-mario-and-princess-peach",
         "n": "Super Mario and Princess Peach",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cdac63b6a8fa5459542146ee65534c21Large.jpg?v=1775548920",
