@@ -1427,7 +1427,7 @@ function openModal(p,cat){
         var se=document.getElementById("modal-escala-val");
         if(pe&&v.precio)pe.innerHTML="<span>Q</span>"+v.precio;
         if(re)re.textContent=v.reserva?fmtReserva(v.reserva):"";
-        if(se){se.textContent=v.escala||v.label||se.textContent;}
+        if(se){se.textContent=v.escala||se.textContent;}
         if(v.fotos&&v.fotos.length>0)carouselBuild(v.fotos);
         // Cambiar descripción si la variante tiene la suya
         if(v.content&&v.content.length){_renderContent(v.content);}
