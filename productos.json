@@ -27787,6 +27787,107 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "super-mario-and-princess-peach",
+        "n": "Super Mario and Princess Peach",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cdac63b6a8fa5459542146ee65534c21Large.jpg?v=1775548920",
+        "l": "https://statuecorp.com/products/chao-she-super-mario-and-princess-peach",
+        "marca": "Chao She Studio",
+        "escala": "",
+        "franquicia": "Gaming",
+        "estado": "Usado - Como Nuevo",
+        "disp": "Pre Orden",
+        "precio": "3200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "640",
+        "entrega": "Q2 2027",
+        "cantidad": "2",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cdac63b6a8fa5459542146ee65534c21Large.jpg?v=1775548920",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2cfc5be75b04005c149849c31072e5e6Large.jpg?v=1775548920",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4ac4e0e280ad2b79cc857c5a7b7fca33Large.jpg?v=1775548920",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cf3a268b1c38a2cca6dd0f76a9019beeLarge.jpg?v=1775548892"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Chao She presenta una interpretación única y cautivadora de Mario y la Princesa Peach, dos de los personajes más icónicos del universo de Nintendo. Esta pieza coleccionable captura la esencia de la franquicia Super Mario en una composición que celebra la relación emblemática entre el fontanero italiano y la realeza del Reino Champiñón, ofreciendo a los coleccionistas una representación artística de estos legendarios personajes."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada detalle de esta escultura ha sido cuidadosamente elaborado para honrar la identidad visual de Mario y Peach, combinando técnica artesanal de primer nivel con un diseño que trasciende la nostalgia del videojuego clásico. La calidad de manufactura refleja el compromiso de Chao She con la excelencia en la producción de figuras coleccionables premium."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta es una edición limitada de solo 200 piezas numeradas, lo que la convierte en una adquisición verdaderamente exclusiva para coleccionistas dedicados. Programada para su lanzamiento en el segundo trimestre de 2027, representa una oportunidad única de poseer una pieza de arte que fusiona la cultura pop más emblemática de Nintendo con craftsmanship de nivel de galería."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Chao She"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Super Mario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura coleccionable de edición limitada"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 20 cm de ancho × 18 cm de alto × 15 cm de profundidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: 200 piezas numeradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada y numerada de solo 200 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño premium que captura la esencia icónica de Mario y Peach"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para coleccionistas de Super Mario y Nintendo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza de exhibición de galería con calidad artesanal superior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento exclusivo programado para 2027"
+          }
+        ],
+        "yt": "",
+        "destacado": true,
+        "oferta": false,
+        "added_at": "2026-04-07T08:27:17.496087"
+      },
+      {
         "id": "perona",
         "n": "Perona",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6c2258d94657858c90846968cc68e3ef.jpg?v=1775483487",
