@@ -27787,6 +27787,102 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ranbo-dx",
+        "n": "Ranbo DX",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362808/_2026-04-07_182955_719__58882.1775558705.jpg?c=2",
+        "l": "https://www.fanaticanimestore.com/pre-order-lueying-studio-ranbo-with-led/",
+        "marca": "LueYing Studio",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "9500",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1900",
+        "entrega": "Diciembre 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362808/_2026-04-07_182955_719__58882.1775558705.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362806/_2026-04-07_182953_318__13923.1775558704.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362803/_2026-04-07_182948_211__94618.1775558690.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362804/_2026-04-07_182958_187__63636.1775558691.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362805/_2026-04-07_182950_821__17111.1775558691.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362807/_2026-04-07_182945_259__57445.1775558692.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16624/334987/_2026-01-04_152642_945__23200.1767512664.jpg?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "LueYing Studio presenta a Ranbo, una figura coleccionable de escala 1:6 que alcanza 29 cm de altura. Esta pieza representa el pico de la artesanía en estatuillas de colección premium, combinando escultura detallada con tecnología de iluminación LED integrada para crear una experiencia visual extraordinaria."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada aspecto de esta figura ha sido cuidadosamente diseñado y ejecutado con la filosofía de 'arte en cada detalle'. LueYing Studio demuestra su maestría en la captura de likeness y expresión, elevando el estándar de lo que significa ser un coleccionable verdaderamente premium."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta es una pieza de PRE-ORDER que promete redefinir tu colección con excelencia manufacturera y atención sin compromiso a la calidad. Ideal para coleccionistas que buscan piezas singulares que combinen artesanía tradicional con características modernas."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: LueYing Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura coleccionable de escala 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED integrada para exhibición dinámica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de alta fidelidad con atención al detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado premium de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Disponible en modalidad PRE-ORDER"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Envío internacional disponible con cotización según región"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T09:13:38.669028"
+      },
+      {
         "id": "ryomen-sukuna",
         "n": "Ryomen Sukuna",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17734/362532/_2026-04-07_140922_088__13473.1775542418.jpg?c=2",
