@@ -36640,6 +36640,158 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "kafka",
+        "n": "Kafka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195147_735__20243.jpg?v=1775565169",
+        "l": "https://statuecorp.com/products/mountain-rain-kafka",
+        "marca": "Mountain Rain Cloud Studio",
+        "escala": "1:4",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "5600",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1120",
+        "entrega": "Q2 2027",
+        "cantidad": "",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195147_735__20243.jpg?v=1775565169",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195124_511__96145.jpg?v=1775565169",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195121_509__75269.jpg?v=1775565169",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195155_153__23756.jpg?v=1775565169",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195135_768__53982.jpg?v=1775565169",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195144_740__63107.jpg?v=1775565169",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195152_423__46051.jpg?v=1775565169",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195123_173__31359.jpg?v=1775565169"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Mountain Rain Cloud - Kafka es una figura que captura la esencia de este icónico personaje en su escala 1:4, representando una propuesta artística premium para coleccionistas exigentes. Esta edición limitada a 99 piezas promete ser un hito en la colección, con un lanzamiento previsto para el segundo trimestre de 2027."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada detalle de esta escultura ha sido cuidadosamente elaborado para reflejar la personalidad y el carisma del personaje. La manufactura de alta calidad garantiza una pieza que se destaca no solo por su tamaño, sino por la precisión artística en cada aspecto de su diseño."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta es una adquisición imprescindible para coleccionistas que buscan piezas de edición limitada con valor de colección duradero. La combinación de escala generosa, acabado premium y disponibilidad restringida la posiciona como una inversión significativa en el universo del coleccionismo de figuras de lujo."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Limitada: 99 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezal adicional (incluido con versión B)"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T08:49:57.469877"
+      },
+      {
+        "id": "master-sister",
+        "n": "Master Sister",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/11a2739c4d2f1bea60c61f14e34e334c.jpg?v=1775552707",
+        "l": "https://statuecorp.com/products/barcode-master-sister",
+        "marca": "Barcode Studio",
+        "escala": "1:4",
+        "franquicia": "Adultos",
+        "estado": "Usado - Como Nuevo",
+        "disp": "Pre Orden",
+        "precio": "5200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1040",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/11a2739c4d2f1bea60c61f14e34e334c.jpg?v=1775552707",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a4e4e40de144ecd038d47ef2bf937331.jpg?v=1775552733",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cd0e7ecd7793f2aecc368ef2ac03ecdf.jpg?v=1775552733",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/722540c9f2c43e54c530ba9ea0f16974.jpg?v=1775552733",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/efeb66b38c5171f5cc7d4ab2466c5b1c.jpg?v=1775552733",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/c8f10366b38b29d152690d918ad1e7ae.jpg?v=1775552733"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Barcode - Master Sister es una figura de colección de escala 1:4 que captura la esencia de este personaje icónico con una presencia imponente. Con 54 cm de altura, esta pieza representa el pico de la manufactura artesanal en el mundo de los coleccionables premium, ofreciendo un nivel de detalle que satisface a los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cada ejemplar es cuidadosamente esculpido y pintado a mano, garantizando que cada una de las 99 piezas de esta edición limitada sea una obra única. La atención al detalle en cada aspecto de la figura refleja el compromiso con la excelencia artística que define a UV Store GT."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada a 99 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento previsto: Q2 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 54 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T08:47:00.310603"
+      },
+      {
         "id": "fritz-rumey-schwarzes-kaninchen-version",
         "n": "Fritz Rumey (Schwarzes Kaninchen Version)",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915515/kotobukiya-azur-lane-fritz-rumey-schwarzes-kaninchen-version-collectible-figure-gallery-69d41ca73b6b7.jpg",
