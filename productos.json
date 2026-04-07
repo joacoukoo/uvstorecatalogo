@@ -3738,7 +3738,7 @@
       },
       {
         "n": "Molly Hot Wheels 400% SDCC 2025 Exclusive",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/ea69fec3-9d93-40ca-8972-008a3c3eb51d/6883dee24400e6cdd36d9af2_hot_wheels_-1.webp",
+        "i": "https://www.actionfigureinsider.com/wpress/wp-content/uploads/2025/07/MEGA-SPACE-MOLLY-400_-风火轮-HOTW-400.439-MC20250217174516wtS2.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/molly-hot-wheels-400-sdcc-2025-exclusive",
         "marca": "Pop Mart",
         "escala": "400%",
@@ -3751,16 +3751,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Una edición exclusiva para San Diego Comic-Con (SDCC) 2025, esta pieza combina el estilo artístico de Molly con la colaboración temática de Hot Wheels y Pop Mart en formato Mega Space Molly 400%. La figura presenta a Molly vestida con un traje de piloto Hot Wheels decorado con llamas y detalles de carreras, evocando el espíritu de velocidad y adrenalina característico de la marca automovilística. Este lanzamiento forma parte de una serie especial de exclusivas reveladas específicamente para SDCC 2025, pensado para coleccionistas que buscan piezas únicas de cultura pop."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -3777,10 +3769,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Altura aproximada: 35–38 cm"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
@@ -3804,7 +3792,18 @@
           }
         ],
         "id": "molly-hot-wheels-400-sdcc-2025-exclusive",
-        "content_ok": true
+        "content_ok": true,
+        "precio_orig": "",
+        "yt": "https://www.youtube.com/watch?v=UQbAQL5kKb0",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://www.actionfigureinsider.com/wpress/wp-content/uploads/2025/07/MEGA-SPACE-MOLLY-400_-风火轮-HOTW-400.439-MC20250217174516wtS2.jpg"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Armorized Deadpool",
