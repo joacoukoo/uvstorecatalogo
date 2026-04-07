@@ -27787,6 +27787,126 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "kurosaki-ichigo",
+        "n": "Kurosaki Ichigo",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362716/_2026-04-07_162615_261__68007.1775551079.jpg?c=2",
+        "l": "https://www.fanaticanimestore.com/pre-order-cross-studio-1-6-kurosaki-ichigo/",
+        "marca": "Cross Studio",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "7200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "1440",
+        "entrega": "Diciembre 2026",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362716/_2026-04-07_162615_261__68007.1775551079.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362715/_2026-04-07_162612_549__65263.1775551073.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362717/_2026-04-07_162609_704__70811.1775551073.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362718/_2026-04-07_162606_743__44912.1775551073.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362719/_2026-04-07_162608_251__11619.1775551073.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362720/_2026-04-07_162611_085__66649.1775551073.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17741/362721/_2026-04-07_162613_885__17351.1775551073.jpg?c=2"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Kurosaki Ichigo, el protagonista icónico de Bleach, cobra vida en esta figura de colección de escala 1:6 realizada por Cross Studio. Con una altura de 24.7 cm, esta pieza captura la esencia del poderoso Soul Reaper en su forma característica, combinando artesanía de nivel premium con un diseño que honra cada aspecto del personaje."
+          },
+          {
+            "t": "notion-text",
+            "x": "Cross Studio ha puesto énfasis en los detalles más finos, desde la escultura facial hasta la textura de cada prenda. Esta figura representa el estándar de excelencia en colecciones especializadas, redefiniendo lo que significa poseer un coleccionable de calidad superior. Cada elemento ha sido cuidadosamente desarrollado para satisfacer a los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-text",
+            "x": "Disponible en dos versiones diferenciadas: la opción Regular con base simple, y la edición EX con base expandida e iluminación LED integrada. Ambas incluyen manos intercambiables especializadas y accesorios cuidadosamente seleccionados para maximizar las posibilidades de exhibición."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Cross Studio Premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Cross Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje: Kurosaki Ichigo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Bleach"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24.7 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: Par adicional compatible (Rukia)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición: Versión Regular (base simple) o Versión EX (base grande con iluminación LED)"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de alta fidelidad con likeness detallado del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Disponible en versión Regular con base simple"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Disponible en versión EX con base grande e iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables para múltiples opciones de posicionamiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Objeto de pre-orden exclusivo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para colecciones temáticas de Bleach y figuras de escala 1:6"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T09:21:10.639777"
+      },
+      {
         "id": "ranbo-dx",
         "n": "Ranbo DX",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17744/362808/_2026-04-07_182955_719__58882.1775558705.jpg?c=2",
