@@ -3319,7 +3319,7 @@
       },
       {
         "n": "Broly - Break Studio",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/c15c9b19-6a5b-4482-b7f9-008fad731ca4/dragon-ball-oversized-broly-resin-statue-break-studio-in-stock-full-payment-1-4-scale-873.webp",
+        "i": "https://www.senseitoy.com/image/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/2/2/2241_product/thumb300x300/3510057150/break-super-broly-resin-statue-2.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/broly-break-studio",
         "marca": "Break Studio",
         "escala": "1:4 - 90CM",
@@ -3353,11 +3353,17 @@
           }
         ],
         "precio_orig": "",
-        "yt": "",
+        "yt": "https://www.youtube.com/shorts/cFox-nToNZk",
         "franquicia": "Anime",
         "destacado": false,
         "oferta": false,
-        "id": "broly-break-studio"
+        "id": "broly-break-studio",
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://www.senseitoy.com/image/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/2/2/2241_product/thumb300x300/3510057150/break-super-broly-resin-statue-2.jpg"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Jessica & Roger Rabbit",
