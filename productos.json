@@ -27030,6 +27030,119 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "perona",
+        "n": "Perona",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6c2258d94657858c90846968cc68e3ef.jpg?v=1775483487",
+        "l": "https://statuecorp.com/products/sy-x-lx-perona",
+        "marca": "SY x LX Studio",
+        "escala": "",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4400",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "880",
+        "entrega": "Q2 2027",
+        "cantidad": "1",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6c2258d94657858c90846968cc68e3ef.jpg?v=1775483487",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3eea06880886e3ab6b7a03030bbb90b7.jpg?v=1775483487",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fe253f797ccff4e72255480337e2a7e5.jpg?v=1775483496",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4ba5263a62deaf1189653719f1038f53.jpg?v=1775483496",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4754c51f08258baac16ece3f059faf03.jpg?v=1775483496",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d4ffcd8dca074fd9fd34bf59a31f3067.jpg?v=1775483496",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/66868b680e2350776bb10afa5545fa50.jpg?v=1775483496",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d1dca355494fcfd185e0eb38bbafc7af.jpg?v=1775483496"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Perona, la enigmática navegante y miembro de los Piratas de Barba Negra, cobra vida en esta extraordinaria figura coleccionable de la colaboración SY x LX. Con su icónico estilo gótico y su presencia magnética, esta representación captura la esencia de uno de los personajes más cautivadores del universo de One Piece. Cada detalle ha sido meticulosamente trabajado para reflejar la sofisticación y el misterio que rodean a este personaje, convirtiéndola en una pieza imprescindible para cualquier coleccionista apasionado."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta figura destaca por su cuidada factura artística y su atención excepcional a los elementos visuales del personaje. Desde su distintiva vestimenta hasta sus accesorios característicos, cada componente ha sido diseñado para ofrecer una experiencia visual completa que satisface los estándares más exigentes del coleccionismo premium. La composición general transmite la elegancia y el carisma que define a Perona dentro de la narrativa de One Piece."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: SY x LX"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: SY"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Personaje femenino"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19 cm"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Lanzamiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha prevista: Segundo trimestre de 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Representación fiel del personaje Perona de One Piece"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño premium y acabado de coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Proporciones cuidadosamente equilibradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para coleccionistas de figuras de anime y manga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto exclusivo de la colaboración SY x LX"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-06T19:10:50.664266"
+      },
+      {
         "id": "aries-mu",
         "n": "Aries Mu",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff251ac26f.jpg",
