@@ -3875,7 +3875,7 @@
       },
       {
         "n": "Pikachu Evolution",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/6c85e25e-fa23-4991-a0fd-dceba331bcfc/ppapstudioevolutionseriespikachufamily_1.webp",
+        "i": "https://cdn.toyokoku.com.au/app/uploads/2023/01/05001242/WeChat-Image_20230104234155.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/pikachu-evolution",
         "marca": "PPAP Studio",
         "escala": "28CM",
@@ -3909,11 +3909,17 @@
           }
         ],
         "precio_orig": "",
-        "yt": "",
+        "yt": "https://www.youtube.com/watch?v=ACG_0IxRc9E",
         "franquicia": "Anime",
         "destacado": false,
         "oferta": false,
-        "id": "pikachu-evolution"
+        "id": "pikachu-evolution",
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://cdn.toyokoku.com.au/app/uploads/2023/01/05001242/WeChat-Image_20230104234155.jpg"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Batman & Robin 66",
