@@ -27787,6 +27787,143 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "marco",
+        "n": "Marco",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_18.webp?v=1775564845",
+        "l": "https://statuecorp.com/products/sy-x-lx-marco",
+        "marca": "SY x LX Studio",
+        "escala": "1:6",
+        "franquicia": "Anime",
+        "estado": "Nuevo",
+        "disp": "Pre Orden",
+        "precio": "4400",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "880",
+        "entrega": "Q2 2027",
+        "cantidad": "",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_18.webp?v=1775564845",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_182047_670__24065.jpg?v=1775564845",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_182055_145__70610.jpg?v=1775564845",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_182049_166__03394.jpg?v=1775564845",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_182050_460__57782.jpg?v=1775564845",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_182053_771__33188.jpg?v=1775564845",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_182056_445__64525.jpg?v=1775564845",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_182051_572__37272.jpg?v=1775564845"
+        ],
+        "content": [
+          {
+            "t": "notion-heading-2",
+            "x": "Descripción"
+          },
+          {
+            "t": "notion-text",
+            "x": "Marco emerge como una figura icónica que captura la esencia del caos controlado y la energía desenfrenada. Con su cabello bicolor distintivo y su actitud desafiante, este personaje se posiciona en el centro de un torbellino visual de poder elemental. La composición dinámina de la escultura refleja un momento de absoluto dominio, donde la naturaleza misma responde a su voluntad en una danza de fuerzas ancestrales."
+          },
+          {
+            "t": "notion-text",
+            "x": "La obra maestra de SY x LX presenta una manufactura que equilibra la delicadeza de los detalles faciales con la monumentalidad de los efectos elementales que lo rodean. La base escénica incorpora elementos naturales entrelazados con tonalidades que van desde el azul glacial hasta el naranja abrasador, creando una composición visual que trasciende la simple representación estatuaria para convertirse en una declaración artística de poder y transformación."
+          },
+          {
+            "t": "notion-text",
+            "x": "Esta es una propuesta de colección premium destinada a coleccionistas que buscan capturar momentos de tensión narrativa y virtuosismo artístico. Cada elemento, desde la indumentaria detallada hasta los accesorios escénicos, ha sido concebido para crear una experiencia visual completa que domina cualquier espacio de exhibición."
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Detalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: SY x LX"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: SY x LX"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura de colección premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Masculino"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de Marco con cabeza detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: Chaqueta púrpura, pantalón azul marino con detalles dorados, cinturón ornamentado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: Efectos elementales integrados, base escénica con elementos naturales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño dinámico que captura un momento de máximo poder elemental"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello bicolor distintivo con efecto visual de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Integración de efectos visuales de agua y fuego en la composición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalle minucioso en vestuario y accesorios de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica con gradiente cromático que refleja dualidad elemental"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Propuesta premium para exhibición de coleccionistas"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-04-07T08:58:25.284848"
+      },
+      {
         "id": "aizen-and-gin",
         "n": "Aizen and Gin",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8eb024622003650c0be431b587654b00.jpg?v=1775564498",
