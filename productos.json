@@ -7968,7 +7968,7 @@
       },
       {
         "n": "Magic the Gathering YouTooz",
-        "i": "https://assets.super.so/a962c944-438f-4485-82d9-f7204777a0bb/images/ecdfafcb-1672-4b4f-8dfc-31be9453bb40/love-magic-our-new-magic-the-gathering-figures-and-plushies-v0-ksjlcge005zd1.png",
+        "i": "https://cdn.shopify.com/s/files/1/1288/8361/files/youtooz-magic-the-gathering-collection-jace-beleren-vinyl-figure-_0-Box-Cover.jpg?v=1760642510",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/magic-the-gathering-youtooz",
         "marca": "Youtooz",
         "escala": "11CM",
@@ -7981,16 +7981,8 @@
         "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
             "x": "Set de figuras coleccionables inspirado en el universo de Magic: The Gathering, que reúne a tres de los Planeswalkers más icónicos de la saga. Cada figura presenta el estilo característico de Youtooz, con proporciones estilizadas y detalles reconocibles que capturan la esencia de cada personaje. Un set ideal tanto para fans de Magic como para coleccionistas de figuras de diseño."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Incluye"
           },
           {
             "t": "notion-bulleted-list",
@@ -8003,10 +7995,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Figura de Jace Beleren"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
@@ -8025,10 +8013,6 @@
             "x": "Presentación individual por personaje dentro del set"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
-          },
-          {
             "t": "notion-bulleted-list",
             "x": "Material: Vinilo"
           },
@@ -8038,7 +8022,23 @@
           }
         ],
         "id": "magic-the-gathering-youtooz",
-        "content_ok": true
+        "content_ok": true,
+        "precio_orig": "",
+        "yt": "https://www.youtube.com/shorts/-ls3Ne8q3IA",
+        "franquicia": "",
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1288/8361/files/youtooz-magic-the-gathering-collection-jace-beleren-vinyl-figure-_0-Box-Cover.jpg?v=1760642510",
+          "https://cdn.shopify.com/s/files/1/1288/8361/files/youtooz-magic-the-gathering-collection-jace-beleren-vinyl-figure-_0-1.jpg?v=1760642510",
+          "https://cdn.shopify.com/s/files/1/1288/8361/files/youtooz-magic-the-gathering-collection-jace-beleren-vinyl-figure-_0-2.jpg?v=1760642510",
+          "https://cdn.shopify.com/s/files/1/1288/8361/files/youtooz-magic-the-gathering-collection-jace-beleren-vinyl-figure-_0-3.jpg?v=1760642510",
+          "https://cdn.shopify.com/s/files/1/1288/8361/files/youtooz-magic-the-gathering-collection-jace-beleren-vinyl-figure-_0-4.jpg?v=1760642510",
+          "https://cdn.shopify.com/s/files/1/1288/8361/files/youtooz-magic-the-gathering-collection-jace-beleren-vinyl-figure-_0-5.jpg?v=1760642510"
+        ],
+        "fotos_d": []
       },
       {
         "n": "Rei Ayanami",
