@@ -104,7 +104,18 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="section-title">Basico</div>
     <div class="field-row">
       <div class="field"><label class="field-label">Nombre</label><input type="text" id="add-name" placeholder="Nombre de la figura"></div>
-      <div class="field"><label class="field-label">Franquicia</label><input type="text" id="add-franquicia" placeholder="Batman, Spider-Man, One Piece..."></div>
+      <div class="field"><label class="field-label">Franquicia</label>
+        <select id="add-franquicia">
+          <option value="">-- Elegir --</option>
+          <option value="Marvel">Marvel</option>
+          <option value="DC Comics">DC Comics</option>
+          <option value="Star Wars">Star Wars</option>
+          <option value="Anime">Anime</option>
+          <option value="Gaming">Gaming</option>
+          <option value="Otros">Otros</option>
+          <option value="Adultos">Adultos</option>
+        </select>
+      </div>
     </div>
     <div class="field-row-3">
       <div class="field"><label class="field-label">Marca</label><input type="text" id="add-marca" placeholder="Hot Toys, Sideshow..."></div>
@@ -203,7 +214,18 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="section-title">Basico</div>
     <div class="field-row">
       <div class="field"><label class="field-label">Nombre</label><input type="text" id="edit-name"></div>
-      <div class="field"><label class="field-label">Franquicia</label><input type="text" id="edit-franquicia" placeholder="Batman, Spider-Man..."></div>
+      <div class="field"><label class="field-label">Franquicia</label>
+        <select id="edit-franquicia">
+          <option value="">-- Elegir --</option>
+          <option value="Marvel">Marvel</option>
+          <option value="DC Comics">DC Comics</option>
+          <option value="Star Wars">Star Wars</option>
+          <option value="Anime">Anime</option>
+          <option value="Gaming">Gaming</option>
+          <option value="Otros">Otros</option>
+          <option value="Adultos">Adultos</option>
+        </select>
+      </div>
     </div>
     <div class="field-row-3">
       <div class="field"><label class="field-label">Marca</label><input type="text" id="edit-marca"></div>
