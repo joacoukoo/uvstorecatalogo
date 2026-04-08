@@ -12,15 +12,35 @@ async function readFile(token, repo) {
   const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json`, { headers: headers(token) });
   if (!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
   const data = await res.json();
-  const bytes = Uint8Array.from(atob(data.content.replace(/\n/g, '')), c => c.charCodeAt(0));
-  const text = new TextDecoder().decode(bytes);
+  let text;
+  if (data.content) {
+    const bytes = Uint8Array.from(atob(data.content.replace(/\s/g, '')), c => c.charCodeAt(0));
+    text = new TextDecoder().decode(bytes);
+  } else if (data.download_url) {
+    // File > 1MB: content is null, use download_url
+    const dlRes = await fetch(data.download_url);
+    if (!dlRes.ok) throw new Error(`download_url ${dlRes.status}`);
+    text = await dlRes.text();
+  } else {
+    throw new Error('GitHub API returned no content and no download_url');
+  }
   return { catalog: JSON.parse(text), sha: data.sha };
+}
+
+function bytesToBase64(bytes) {
+  // Process in chunks to avoid stack overflow on large files
+  const CHUNK = 8192;
+  let binary = '';
+  for (let i = 0; i < bytes.length; i += CHUNK) {
+    binary += String.fromCharCode(...bytes.subarray(i, i + CHUNK));
+  }
+  return btoa(binary);
 }
 
 async function writeFile(token, repo, catalog, sha) {
   const json = JSON.stringify(catalog, null, 2);
   const bytes = new TextEncoder().encode(json);
-  const b64 = btoa(String.fromCharCode(...bytes));
+  const b64 = bytesToBase64(bytes);
   const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json`, {
     method: 'PUT',
     headers: { ...headers(token), 'Content-Type': 'application/json' },
