@@ -34617,6 +34617,124 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "jon-snow-deluxe-mnqctphn",
+        "n": "Jon Snow Deluxe",
+        "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/products/4197/images/37035/659803009_1482794463289422_4256432795822353938_n__10293.1774636131.500.750.jpg",
+        "franquicia": "Otros",
+        "marca": "KLG x UPF Studio",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/products/4197/images/37035/659803009_1482794463289422_4256432795822353938_n__10293.1774636131.500.750.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4197/37037/657349669_1482794716622730_7944224592081054230_n__06150.1774636131.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4197/37038/657520316_1482794643289404_8801483181636695752_n__13218.1774636131.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4197/37032/657834315_1482794776622724_2195312443367745705_n__14418.1774636131.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4197/37034/658141322_1482794133289455_3995069002809108613_n__27590.1774636131.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4197/37033/657938195_1482794539956081_166344550003568101_n__87610.1774636131.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4197/37031/658144461_1482794933289375_8748382216409263036_n__05479.1774636131.jpg?c=2?imbypass=on"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Deluxe de Jon Snow captura la esencia del icónico personaje de Game of Thrones con una calidad de museo. Tres cabezas intercambiables con cabello enraizado y esculpida, junto con traje weatherizado con efectos de nieve, ofrecen versatilidad de exhibición incomparable. Cada detalle, desde la capa de piel hasta las armas auténticas, refleja el compromiso de KLG x UPF Studio con la excelencia en figuras coleccionables premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15-16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: KLG x UPF Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Múltiples puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados: Efectos de weathering y manchas de nieve aplicados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables x3 (cabello enraizado x1, cabello moldeado x1, expresión neutra x1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos relajadas x2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puños x2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos para sostener espada x2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas x2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo exterior x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camisa interior x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada larga x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vaina para espada x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Daga x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vaina para daga x1"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-08",
+        "reserva": "320",
+        "entrega": "Diciembre 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "archive-of-adventure-vol-3",
         "n": "Archive of Adventure [Vol. 3]",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915516/tamashii-nations-one-piece-archive-of-adventure-vol-3-blind-box-set-gallery-69d425d612177.jpg",
