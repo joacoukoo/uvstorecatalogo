@@ -12,33 +12,106 @@
         "disp": "Entrega Inmediata",
         "precio": "3900",
         "precio_d": "4600",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) â€“ Hot Toys â€“ Movie Masterpiece Series Diecast Altura:33 cm Inspirada enBatman v Superman: Dawn of Justice, esta figura representa el momento en que Bruce Wayne utiliza su armadura tÃ¡ctica para enfrentarse a Superman. Hot Toys presenta la versiÃ³n 2.0 de Armored Batman con importantes mejoras en escultura, pintura y articulaciÃ³n. La armadura incorpora piezas diecast (metal) que aportan mayor peso y realismo, junto con efectos de desgaste que reflejan el intenso combate visto en pantalla. Incluye una cabeza blindada diecast con ojos LED funcionales (alimentaciÃ³n USB) y tres expresiones faciales intercambiables basadas en la interpretaciÃ³n de Ben Affleck. Una versiÃ³n definitiva del enfrentamiento mÃ¡s icÃ³nico del DC moderno, ideal para coleccionistas que buscan una pieza robusta, imponente y fiel al universo cinematogrÃ¡fico."
+            "x": "Armored Batman 2.0 es la obra maestra definitiva de Hot Toys que captura el icónico enfrentamiento de Batman v Superman con precisión cinematográfica. Construida con componentes diecast metálicos, articulación avanzada y ojos LED funcionales, esta figura de colección representa el pico de la craftsmanship en escala 1:6. Cada detalle, desde los efectos de desgaste de la armadura hasta las tres expresiones faciales intercambiables de Ben Affleck, la convierte en una pieza imprescindible para coleccionistas de DC y cine de acción."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Cabeza blindada diecast con ojos LEDTres expresiones intercambiablesMÃ¡s de 30 puntos de articulaciÃ³nPartes de la armadura en metalAcabado metÃ¡lico negro con efectos weatheredArticulaciÃ³n mejorada para mayor rango de movimiento"
+            "x": "Altura: 33 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Armadura con piezas diecast (pecho, hombros y piernas)Capa con alambre interno moldeableBatsuit especializadoCinturÃ³n utilitarioBotas metÃ¡licas gris oscuro"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Par de puÃ±osPar de manos relajadasDos manos derechas para armasMano derecha en gesto"
+            "x": "Material: Diecast metálico (componentes principales), tela técnica, resina"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Grapple gunArma de Kryptonita2 municiones de Kryptonita (modo cerrado y abierto)"
+            "x": "Articulaciones: 30+ puntos de articulación"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base temÃ¡tica con logo de la pelÃ­culaPlaca con nombre del personajeIluminaciÃ³n LED integrada"
+            "x": "Ojos LED: Funcionales con alimentación USB"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Metálico negro con efectos weathered"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.2-1.5 kg (debido a componentes diecast)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza blindada diecast con ojos LED funcionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 Expresiones faciales intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo con armadura diecast (pecho, hombros, piernas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batsuit especializado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa con alambre interno moldeables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas metálicas gris oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de puños"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Manos derechas adicionales para armas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Mano derecha en gesto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grapple gun"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arma de Kryptonita"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Municiones de Kryptonita (modo cerrado y abierto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con logo de película"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa con nombre del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED integrada en la base"
           }
         ],
         "fotos": [
@@ -50,7 +123,6 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661955050a8c7.jpg"
         ],
         "id": "armored-batman-2-0",
-        "precio_orig": "",
         "yt": "https://www.youtube.com/shorts/e_fbV6z5Hyo",
         "franquicia": "DC Comics",
         "destacado": false,
