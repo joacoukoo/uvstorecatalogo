@@ -17,6 +17,8 @@ const FETCH_HEADERS = {
   'Upgrade-Insecure-Requests': '1',
 };
 
+const PROXY_URL = 'https://safe-carp-12.joacoukoo.deno.net';
+
 // Fetch with manual redirect handling to preserve cookies across redirects
 async function fetchPage(url, maxRedirects = 6) {
   let currentUrl = url;
@@ -40,10 +42,29 @@ async function fetchPage(url, maxRedirects = 6) {
       currentUrl = location.startsWith('http') ? location : new URL(location, currentUrl).toString();
       continue;
     }
+    if (res.status === 429 || res.status === 403) {
+      // Blocked by bot detection — retry through external proxy
+      return fetchViaProxy(currentUrl);
+    }
     if (!res.ok) throw new Error(`El sitio respondio ${res.status}`);
     return res;
   }
   throw new Error('Too many redirects');
+}
+
+// Fetch through Deno proxy to bypass IP-based blocks
+async function fetchViaProxy(url) {
+  const res = await fetch(PROXY_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ url })
+  });
+  if (!res.ok) throw new Error(`Proxy error: ${res.status}`);
+  const { html, status, error } = await res.json();
+  if (error) throw new Error(`Proxy: ${error}`);
+  if (status && status >= 400) throw new Error(`El sitio respondio ${status}`);
+  // Return a fake Response-like object with .text() method
+  return { ok: true, text: () => Promise.resolve(html) };
 }
 
 export async function onRequestPost({ request }) {
