@@ -1,1 +1,4 @@
 uv_config.json
+.worktrees/
+node_modules/
+.superpowers/
