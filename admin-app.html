@@ -23,7 +23,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .tab-btn{padding:10px 18px;background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:color .15s,border-color .15s;margin-bottom:-1px}
 .tab-btn:hover{color:var(--text)}
 .tab-btn.active{color:var(--purple-light);border-bottom-color:var(--purple)}
-.tab-content{padding:24px;max-width:840px}
+.tab-content{padding:24px;max-width:880px}
 .field{margin-bottom:14px}
 .field-label{display:block;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:5px}
 .field input,.field select,.field textarea{width:100%;padding:8px 11px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-family:'DM Sans',sans-serif;font-size:13px;outline:none;transition:border-color .15s}
@@ -32,6 +32,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .field textarea{resize:vertical;min-height:70px}
 .field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .field-row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.field-row-4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px}
 .url-row{display:flex;gap:8px;margin-bottom:20px}
 .url-row input{flex:1;padding:8px 12px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:13px;outline:none;transition:border-color .15s}
 .url-row input:focus{border-color:var(--purple)}
@@ -55,11 +56,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .section-title{font-family:'Syne',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin:20px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--border)}
 .photos-grid{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:8px;align-items:flex-start}
 .photo-add-row{display:flex;gap:6px;align-items:center}
-.photo-add-row input{flex:1;max-width:280px;padding:6px 10px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:12px;outline:none}
+.photo-add-row input{flex:1;max-width:320px;padding:6px 10px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:12px;outline:none}
 .photo-add-row input:focus{border-color:var(--purple)}
-.search-row{margin-bottom:14px}
-.search-row input{width:100%;max-width:360px;padding:8px 12px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:13px;outline:none}
-.search-row input:focus{border-color:var(--purple)}
 .cat-header{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--bg3);border:1px solid var(--border2);border-radius:7px;margin-bottom:4px;cursor:pointer;user-select:none}
 .cat-header:hover{border-color:#444}
 .cat-header-name{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--purple-light)}
@@ -73,7 +71,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .cfg-row{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:var(--bg2);border:1px solid var(--border);border-radius:7px;margin-bottom:7px}
 .cfg-label{font-size:13px;color:var(--muted2)}
 .divider{height:1px;background:var(--border);margin:20px 0}
-@media(max-width:600px){.field-row,.field-row-3{grid-template-columns:1fr}.tab-content{padding:16px}}
+@media(max-width:600px){.field-row,.field-row-3,.field-row-4{grid-template-columns:1fr 1fr}.tab-content{padding:16px}}
+@media(max-width:400px){.field-row,.field-row-3,.field-row-4{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -98,12 +97,18 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 <!-- TAB AGREGAR -->
 <div id="tab-add" class="tab-content">
   <div class="url-row">
-    <input type="url" id="add-url" placeholder="https://www.sideshowtoy.com/..." autocomplete="off">
+    <input type="url" id="add-url" placeholder="https://www.sideshow.com/..." autocomplete="off">
     <button class="btn btn-secondary" onclick="scrapeUrl()">Scrapear</button>
   </div>
   <div id="add-form" style="display:none">
+    <div class="section-title">Basico</div>
     <div class="field-row">
       <div class="field"><label class="field-label">Nombre</label><input type="text" id="add-name" placeholder="Nombre de la figura"></div>
+      <div class="field"><label class="field-label">Franquicia</label><input type="text" id="add-franquicia" placeholder="Batman, Spider-Man, One Piece..."></div>
+    </div>
+    <div class="field-row-3">
+      <div class="field"><label class="field-label">Marca</label><input type="text" id="add-marca" placeholder="Hot Toys, Sideshow..."></div>
+      <div class="field"><label class="field-label">Escala</label><input type="text" id="add-escala" placeholder="1:6, 1:4..."></div>
       <div class="field"><label class="field-label">Categoria</label>
         <select id="add-cat">
           <option value="">-- Elegir --</option>
@@ -116,32 +121,63 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
         </select>
       </div>
     </div>
-    <div class="field-row-3">
-      <div class="field"><label class="field-label">Precio (Q)</label><input type="text" id="add-price" placeholder="0.00"></div>
-      <div class="field"><label class="field-label">Escala</label><input type="text" id="add-escala" placeholder="1:6, 1:4..."></div>
-      <div class="field"><label class="field-label">Marca</label><input type="text" id="add-marca" placeholder="Hot Toys, Sideshow..."></div>
+
+    <div class="section-title">Disponibilidad y Precios</div>
+    <div class="field-row">
+      <div class="field"><label class="field-label">Disponibilidad (disp)</label>
+        <select id="add-disp">
+          <option value="">-- Estado --</option>
+          <option value="Entrega Inmediata">Entrega Inmediata</option>
+          <option value="Pre-Orden">Pre-Orden</option>
+          <option value="Vendido">Vendido</option>
+        </select>
+      </div>
+      <div class="field"><label class="field-label">Estado fisico</label>
+        <select id="add-estado">
+          <option value="">-- Estado --</option>
+          <option value="Sellado">Sellado</option>
+          <option value="Nuevo">Nuevo</option>
+          <option value="En caja abierta">En caja abierta</option>
+          <option value="Usado">Usado</option>
+        </select>
+      </div>
     </div>
-    <div class="field"><label class="field-label">Disponibilidad</label>
-      <select id="add-estado">
-        <option value="">-- Estado --</option>
-        <option value="Entrega Inmediata">Entrega Inmediata</option>
-        <option value="Pre-Orden">Pre-Orden</option>
-        <option value="Agotado">Agotado</option>
-      </select>
+    <div class="field-row-4">
+      <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="add-precio" placeholder="0"></div>
+      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="add-precio-d" placeholder="0"></div>
+      <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="add-precio-orig" placeholder="Para ofertas"></div>
+      <div class="field"><label class="field-label">Reserva con (Q)</label><input type="text" id="add-reserva" placeholder="0"></div>
     </div>
-    <div class="section-title">Fotos</div>
+    <div class="field-row">
+      <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="add-entrega" placeholder="Q1 2025, Marzo 2025..."></div>
+      <div class="field"><label class="field-label">Cantidad disponible</label><input type="text" id="add-cantidad" placeholder="1, 2..."></div>
+    </div>
+
+    <div class="section-title">Fotos — Edicion Regular</div>
     <div id="add-photos" class="photos-grid"></div>
     <div class="photo-add-row" style="margin-bottom:14px">
       <input type="url" id="add-photo-input" placeholder="URL de la foto">
-      <button class="btn btn-secondary" onclick="addPhoto('add')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
+      <button class="btn btn-secondary" onclick="addPhoto('add','r')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
-    <div class="field"><label class="field-label">Descripcion</label><textarea id="add-desc" placeholder="Descripcion del producto..."></textarea></div>
-    <div class="field"><label class="field-label">Caracteristicas</label><textarea id="add-features" placeholder="Caracteristica 1" style="min-height:90px"></textarea></div>
+
+    <div class="section-title">Fotos — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(solo si hay precio deluxe)</span></div>
+    <div id="add-photos-d" class="photos-grid"></div>
+    <div class="photo-add-row" style="margin-bottom:14px">
+      <input type="url" id="add-photo-d-input" placeholder="URL de la foto deluxe">
+      <button class="btn btn-secondary" onclick="addPhoto('add','d')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
+    </div>
+
+    <div class="section-title">Contenido</div>
+    <div class="field"><label class="field-label">Descripcion</label><textarea id="add-desc" placeholder="Descripcion del producto..." style="min-height:90px"></textarea></div>
+    <div class="field"><label class="field-label">Caracteristicas <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="add-features" placeholder="Altura: 30 cm&#10;Escala: 1:6&#10;Incluye: accesorios..." style="min-height:100px"></textarea></div>
+    <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="add-yt" placeholder="https://youtube.com/watch?v=..."></div>
+
     <div class="section-title">Flags</div>
     <div class="checks">
       <label class="check-item"><input type="checkbox" id="add-destacado"><span>Destacado</span></label>
       <label class="check-item"><input type="checkbox" id="add-oferta"><span>Oferta</span></label>
-      <label class="check-item"><input type="checkbox" id="add-adulto18"><span>+18</span></label>
+      <label class="check-item"><input type="checkbox" id="add-agotado-r"><span>Agotado Regular</span></label>
+      <label class="check-item"><input type="checkbox" id="add-agotado-d"><span>Agotado Deluxe</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('add')">Generar con IA</button>
@@ -161,8 +197,15 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
   </div>
   <div id="edit-form" style="display:none">
     <button class="btn btn-secondary" onclick="cancelEdit()" style="margin-bottom:18px">Volver</button>
+
+    <div class="section-title">Basico</div>
     <div class="field-row">
       <div class="field"><label class="field-label">Nombre</label><input type="text" id="edit-name"></div>
+      <div class="field"><label class="field-label">Franquicia</label><input type="text" id="edit-franquicia" placeholder="Batman, Spider-Man..."></div>
+    </div>
+    <div class="field-row-3">
+      <div class="field"><label class="field-label">Marca</label><input type="text" id="edit-marca"></div>
+      <div class="field"><label class="field-label">Escala</label><input type="text" id="edit-escala"></div>
       <div class="field"><label class="field-label">Categoria</label>
         <select id="edit-cat">
           <option value="Entrega Inmediata">Entrega Inmediata</option>
@@ -174,32 +217,63 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
         </select>
       </div>
     </div>
-    <div class="field-row-3">
-      <div class="field"><label class="field-label">Precio (Q)</label><input type="text" id="edit-price"></div>
-      <div class="field"><label class="field-label">Escala</label><input type="text" id="edit-escala"></div>
-      <div class="field"><label class="field-label">Marca</label><input type="text" id="edit-marca"></div>
+
+    <div class="section-title">Disponibilidad y Precios</div>
+    <div class="field-row">
+      <div class="field"><label class="field-label">Disponibilidad (disp)</label>
+        <select id="edit-disp">
+          <option value="">-- Estado --</option>
+          <option value="Entrega Inmediata">Entrega Inmediata</option>
+          <option value="Pre-Orden">Pre-Orden</option>
+          <option value="Vendido">Vendido</option>
+        </select>
+      </div>
+      <div class="field"><label class="field-label">Estado fisico</label>
+        <select id="edit-estado">
+          <option value="">-- Estado --</option>
+          <option value="Sellado">Sellado</option>
+          <option value="Nuevo">Nuevo</option>
+          <option value="En caja abierta">En caja abierta</option>
+          <option value="Usado">Usado</option>
+        </select>
+      </div>
     </div>
-    <div class="field"><label class="field-label">Disponibilidad</label>
-      <select id="edit-estado">
-        <option value="">-- Estado --</option>
-        <option value="Entrega Inmediata">Entrega Inmediata</option>
-        <option value="Pre-Orden">Pre-Orden</option>
-        <option value="Agotado">Agotado</option>
-      </select>
+    <div class="field-row-4">
+      <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="edit-precio"></div>
+      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="edit-precio-d"></div>
+      <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="edit-precio-orig"></div>
+      <div class="field"><label class="field-label">Reserva con (Q)</label><input type="text" id="edit-reserva"></div>
     </div>
-    <div class="section-title">Fotos</div>
+    <div class="field-row">
+      <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="edit-entrega"></div>
+      <div class="field"><label class="field-label">Cantidad disponible</label><input type="text" id="edit-cantidad"></div>
+    </div>
+
+    <div class="section-title">Fotos — Edicion Regular</div>
     <div id="edit-photos" class="photos-grid"></div>
     <div class="photo-add-row" style="margin-bottom:14px">
       <input type="url" id="edit-photo-input" placeholder="URL de la foto">
-      <button class="btn btn-secondary" onclick="addPhoto('edit')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
+      <button class="btn btn-secondary" onclick="addPhoto('edit','r')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
-    <div class="field"><label class="field-label">Descripcion</label><textarea id="edit-desc"></textarea></div>
-    <div class="field"><label class="field-label">Caracteristicas</label><textarea id="edit-features" style="min-height:90px"></textarea></div>
+
+    <div class="section-title">Fotos — Edicion Deluxe</div>
+    <div id="edit-photos-d" class="photos-grid"></div>
+    <div class="photo-add-row" style="margin-bottom:14px">
+      <input type="url" id="edit-photo-d-input" placeholder="URL de la foto deluxe">
+      <button class="btn btn-secondary" onclick="addPhoto('edit','d')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
+    </div>
+
+    <div class="section-title">Contenido</div>
+    <div class="field"><label class="field-label">Descripcion</label><textarea id="edit-desc" style="min-height:90px"></textarea></div>
+    <div class="field"><label class="field-label">Caracteristicas <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="edit-features" style="min-height:100px"></textarea></div>
+    <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="edit-yt"></div>
+
     <div class="section-title">Flags</div>
     <div class="checks">
       <label class="check-item"><input type="checkbox" id="edit-destacado"><span>Destacado</span></label>
       <label class="check-item"><input type="checkbox" id="edit-oferta"><span>Oferta</span></label>
-      <label class="check-item"><input type="checkbox" id="edit-adulto18"><span>+18</span></label>
+      <label class="check-item"><input type="checkbox" id="edit-agotado-r"><span>Agotado Regular</span></label>
+      <label class="check-item"><input type="checkbox" id="edit-agotado-d"><span>Agotado Deluxe</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('edit')">Generar con IA</button>
@@ -231,6 +305,22 @@ function setTA(id,val){var el=document.getElementById(id);if(el)el.value=val||''
 function getBool(id){var el=document.getElementById(id);return el?el.checked:false;}
 function setBool(id,val){var el=document.getElementById(id);if(el)el.checked=!!val;}
 
+// Convert desc+features strings to Notion content blocks
+function buildContent(desc,features){
+  var blocks=[];
+  if(desc){desc.split('\n\n').forEach(function(p){p=p.trim();if(p)blocks.push({t:'notion-text',x:p});});}
+  if(features){features.split('\n').forEach(function(f){f=f.trim().replace(/^[*\-]\s*/,'');if(f)blocks.push({t:'notion-bulleted-list',x:f});});}
+  return blocks;
+}
+// Extract desc from content blocks
+function contentToDesc(content){
+  return (content||[]).filter(function(b){return b.t==='notion-text'||b.t==='notion-heading-2'||b.t==='notion-heading-3';}).map(function(b){return b.x;}).join('\n\n');
+}
+// Extract features from content blocks
+function contentToFeatures(content){
+  return (content||[]).filter(function(b){return b.t==='notion-bulleted-list'||b.t==='notion-numbered-list';}).map(function(b){return b.x;}).join('\n');
+}
+
 function showTab(name){
   ['add','edit','config'].forEach(function(t){
     document.getElementById('tab-'+t).style.display=t===name?'':'none';
@@ -240,45 +330,52 @@ function showTab(name){
   if(name==='config')loadConfigTab();
 }
 
-var _addPhotos=[];
-var _editPhotos=[];
-function getPhotos(w){return w==='edit'?_editPhotos:_addPhotos;}
+// photos: _photos['add']['r'], _photos['add']['d'], _photos['edit']['r'], _photos['edit']['d']
+var _photos={add:{r:[],d:[]},edit:{r:[],d:[]}};
 
-function renderPhotos(w){
-  var arr=getPhotos(w);
-  var c=document.getElementById(w+'-photos');
+function getPhotos(w,ed){return _photos[w][ed];}
+
+function renderPhotos(w,ed){
+  var arr=_photos[w][ed];
+  var id=w+'-photos'+(ed==='d'?'-d':'');
+  var c=document.getElementById(id);
   if(!c)return;
   c.innerHTML=arr.map(function(url,i){
     return '<div style="position:relative;display:inline-block">' +
       '<img src="'+url+'" style="width:58px;height:58px;object-fit:cover;border-radius:5px;border:1px solid #222;display:block" onerror="this.style.opacity=0.2">' +
-      '<button onclick="removePhoto(\''+w+'\','+i+')" style="position:absolute;top:-5px;right:-5px;background:#e63946;border:none;border-radius:50%;width:17px;height:17px;color:#fff;font-size:10px;cursor:pointer;line-height:17px;text-align:center;padding:0">x</button>' +
+      '<button onclick="removePhoto(\''+w+'\',\''+ed+'\','+i+')" style="position:absolute;top:-5px;right:-5px;background:#e63946;border:none;border-radius:50%;width:17px;height:17px;color:#fff;font-size:10px;cursor:pointer;line-height:17px;text-align:center;padding:0">x</button>' +
     '</div>';
   }).join('');
 }
 
-function addPhoto(w){
-  var input=document.getElementById(w+'-photo-input');
+function addPhoto(w,ed){
+  var inputId=w+'-photo'+(ed==='d'?'-d':'')+'-input';
+  var input=document.getElementById(inputId);
   var url=input?input.value.trim():'';
   if(!url||!url.startsWith('http'))return;
-  if(w==='edit')_editPhotos.push(url);else _addPhotos.push(url);
+  _photos[w][ed].push(url);
   if(input)input.value='';
-  renderPhotos(w);
+  renderPhotos(w,ed);
 }
 
-function removePhoto(w,idx){
-  if(w==='edit')_editPhotos.splice(idx,1);else _addPhotos.splice(idx,1);
-  renderPhotos(w);
+function removePhoto(w,ed,idx){
+  _photos[w][ed].splice(idx,1);
+  renderPhotos(w,ed);
 }
 
 function fillAddForm(data){
   setField('add-name',data.name||'');
-  setField('add-price',data.price||'');
+  setField('add-franquicia',data.franquicia||'');
+  setField('add-marca',data.marca||'');
+  setField('add-escala',data.escala||'');
+  setField('add-precio',data.price||'');
   setTA('add-desc',data.desc||'');
-  _addPhotos=data.photos||[];
-  renderPhotos('add');
-  setField('add-estado',data.estado||'');
-  if(data.estado==='Entrega Inmediata')setField('add-cat','Entrega Inmediata');
-  else if(data.estado==='Pre-Orden')setField('add-cat','Hot Toys 1:6');
+  _photos.add.r=data.photos||[];
+  _photos.add.d=[];
+  renderPhotos('add','r');
+  renderPhotos('add','d');
+  if(data.estado==='Entrega Inmediata')setField('add-disp','Entrega Inmediata');
+  else if(data.estado==='Pre-Orden')setField('add-disp','Pre-Orden');
 }
 
 function makeId(name){
@@ -290,15 +387,42 @@ function makeId(name){
 
 function buildAddProduct(){
   var now=new Date().toISOString().slice(0,10);
-  var fotos=_addPhotos.slice();
-  return{id:makeId(getField('add-name')||'figura'),n:getField('add-name'),i:fotos[0]||'',precio:getField('add-price'),desc:getTA('add-desc'),features:getTA('add-features'),fotos:fotos,escala:getField('add-escala'),marca:getField('add-marca'),estado:getField('add-estado'),destacado:getBool('add-destacado'),oferta:getBool('add-oferta'),adulto18:getBool('add-adulto18'),added_at:now};
+  var fotos=_photos.add.r.slice();
+  var fotos_d=_photos.add.d.slice();
+  var p={
+    id:makeId(getField('add-name')||'figura'),
+    n:getField('add-name'),
+    i:fotos[0]||'',
+    franquicia:getField('add-franquicia'),
+    marca:getField('add-marca'),
+    escala:getField('add-escala'),
+    disp:getField('add-disp'),
+    estado:getField('add-estado'),
+    precio:getField('add-precio'),
+    fotos:fotos,
+    content:buildContent(getTA('add-desc'),getTA('add-features')),
+    destacado:getBool('add-destacado'),
+    oferta:getBool('add-oferta'),
+    agotado_r:getBool('add-agotado-r'),
+    agotado_d:getBool('add-agotado-d'),
+    added_at:now
+  };
+  var pd=getField('add-precio-d');if(pd)p.precio_d=pd;
+  var po=getField('add-precio-orig');if(po)p.precio_orig=po;
+  var rv=getField('add-reserva');if(rv)p.reserva=rv;
+  var en=getField('add-entrega');if(en)p.entrega=en;
+  var cn=getField('add-cantidad');if(cn)p.cantidad=cn;
+  var yt=getField('add-yt');if(yt)p.yt=yt;
+  if(fotos_d.length)p.fotos_d=fotos_d;
+  return p;
 }
 
 function resetAddForm(){
-  ['add-name','add-price','add-escala','add-marca','add-estado','add-cat'].forEach(function(id){setField(id,'');});
+  ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-entrega','add-cantidad','add-yt','add-cat','add-disp','add-estado'].forEach(function(id){setField(id,'');});
   ['add-desc','add-features'].forEach(function(id){setTA(id,'');});
-  ['add-destacado','add-oferta','add-adulto18'].forEach(function(id){setBool(id,false);});
-  _addPhotos=[];renderPhotos('add');
+  ['add-destacado','add-oferta','add-agotado-r','add-agotado-d'].forEach(function(id){setBool(id,false);});
+  _photos.add={r:[],d:[]};
+  renderPhotos('add','r');renderPhotos('add','d');
   document.getElementById('add-form').style.display='none';
   setField('add-url','');
 }
@@ -312,24 +436,24 @@ async function scrapeUrl(){
     if(!res.ok)throw new Error(data.error);
     fillAddForm(data);
     document.getElementById('add-form').style.display='';
-    setStatus('Datos cargados -- revisa y ajusta','green');
+    setStatus('Datos cargados — revisa y ajusta','green');
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
 async function generateAI(w){
   var name=getField(w+'-name');
   var desc=getTA(w+'-desc');
-  var foto=getPhotos(w)[0]||'';
+  var foto=_photos[w].r[0]||'';
   if(!name)return setStatus('Ingresa el nombre primero','orange');
   setStatus('Generando con IA...','orange');
-  var prompt='Sos un experto en figuras de coleccion premium. Para la figura "'+name+'" genera una descripcion atractiva y caracteristicas tecnicas.\nDescripcion actual: '+desc+'\n\nResponde SOLO con JSON sin markdown: {"desc": "descripcion en espanol", "features": "punto 1\npunto 2\n..."}';
+  var prompt='Sos un experto en figuras de coleccion premium. Para la figura "'+name+'" genera una descripcion atractiva y caracteristicas tecnicas.\nDescripcion actual: '+desc+'\n\nResponde SOLO con JSON sin markdown: {"desc": "descripcion en espanol de 2-3 oraciones", "features": "Linea1\nLinea2\nLinea3"}';
   try{
     var res=await fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:prompt,image_url:foto})});
     var data=await res.json();
     if(!res.ok)throw new Error(data.error);
     var match=data.text.match(/\{[\s\S]*\}/);
     if(match){try{var p=JSON.parse(match[0]);if(p.desc)setTA(w+'-desc',p.desc);if(p.features)setTA(w+'-features',p.features);}catch(pe){}}
-    setStatus('Contenido generado -- revisa','green');
+    setStatus('Contenido generado — revisa','green');
   }catch(e){setStatus('Error IA: '+e.message,'red');}
 }
 
@@ -345,7 +469,8 @@ async function saveAdd(){
     var saveRes=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
     var result=await saveRes.json();
     if(!saveRes.ok)throw new Error(result.error);
-    setStatus('Guardado -- el sitio se actualiza en ~30 seg','green');
+    setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
+    _catalog=null;
     resetAddForm();
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
@@ -376,29 +501,28 @@ function renderProductList(){
     var filtered=[];
     for(var idx=0;idx<prods.length;idx++){
       var p=prods[idx];
-      if(!q||((p.n||'').toLowerCase().includes(q)))filtered.push({p:p,idx:idx});
+      if(!q||((p.n||'').toLowerCase().includes(q)||(p.franquicia||'').toLowerCase().includes(q)))filtered.push({p:p,idx:idx});
     }
     totalShown+=filtered.length;
     if(!filtered.length)continue;
     var catDiv=document.createElement('div');
-    var bodyId='cat-body-'+cat.replace(/\s+/g,'-');
+    var bodyId='cat-body-'+cat.replace(/\s+/g,'-').replace(/[^a-z0-9\-]/gi,'');
     var hdr=document.createElement('div');
     hdr.className='cat-header';
     hdr.innerHTML='<span class="cat-header-name">'+cat+'</span><span class="cat-header-count">'+filtered.length+' figura'+(filtered.length!==1?'s':'')+'</span>';
-    hdr.onclick=(function(id){return function(){var b=document.getElementById(id);b.style.display=b.style.display==='none'?'':'none';}})(bodyId);
+    hdr.onclick=(function(id){return function(){var b=document.getElementById(id);b.style.display=b.style.display==='none'?'':'none';};})(bodyId);
     catDiv.appendChild(hdr);
     var body=document.createElement('div');
-    body.className='cat-body';
-    body.id=bodyId;
+    body.className='cat-body';body.id=bodyId;
     for(var fi=0;fi<filtered.length;fi++){
-      var p=filtered[fi].p,idx=filtered[fi].idx;
+      var fp=filtered[fi].p,fidx=filtered[fi].idx;
       var item=document.createElement('div');
       item.className='product-item';
-      var imgSrc=(p.fotos&&p.fotos[0])?p.fotos[0]:(p.i||'');
+      var imgSrc=(fp.fotos&&fp.fotos[0])?fp.fotos[0]:(fp.i||'');
       var catEsc=cat.replace(/'/g,"\\'");
       item.innerHTML='<img src="'+imgSrc+'" onerror="this.style.visibility=\'hidden\'">' +
-        '<div style="flex:1;min-width:0"><div class="product-item-name">'+(p.n||'(sin nombre)')+'</div><div class="product-item-meta">Q'+(p.precio||'&mdash;')+(p.estado?' &middot; '+p.estado:'')+'</div></div>' +
-        '<button onclick="openEdit(\''+catEsc+'\','+idx+')" class="btn btn-secondary" style="font-size:12px;padding:5px 11px">Editar</button>';
+        '<div style="flex:1;min-width:0"><div class="product-item-name">'+(fp.n||'(sin nombre)')+'</div><div class="product-item-meta">Q'+(fp.precio||'&mdash;')+(fp.disp?' &middot; '+fp.disp:fp.estado?' &middot; '+fp.estado:'')+(fp.franquicia?' &middot; '+fp.franquicia:'')+'</div></div>' +
+        '<button onclick="openEdit(\''+catEsc+'\','+fidx+')" class="btn btn-secondary" style="font-size:12px;padding:5px 11px">Editar</button>';
       body.appendChild(item);
     }
     catDiv.appendChild(body);
@@ -411,11 +535,30 @@ function renderProductList(){
 function openEdit(cat,idx){
   _editTarget={cat:cat,idx:idx};
   var p=_catalog[cat].products[idx];
-  setField('edit-cat',cat);setField('edit-name',p.n||'');setField('edit-price',p.precio||'');
-  setField('edit-escala',p.escala||'');setField('edit-marca',p.marca||'');setField('edit-estado',p.estado||'');
-  setTA('edit-desc',p.desc||'');setTA('edit-features',p.features||'');
-  setBool('edit-destacado',p.destacado);setBool('edit-oferta',p.oferta);setBool('edit-adulto18',p.adulto18);
-  _editPhotos=(p.fotos||[]).slice();renderPhotos('edit');
+  setField('edit-cat',cat);
+  setField('edit-name',p.n||'');
+  setField('edit-franquicia',p.franquicia||'');
+  setField('edit-marca',p.marca||'');
+  setField('edit-escala',p.escala||'');
+  setField('edit-disp',p.disp||'');
+  setField('edit-estado',p.estado||'');
+  setField('edit-precio',p.precio||'');
+  setField('edit-precio-d',p.precio_d||'');
+  setField('edit-precio-orig',p.precio_orig||'');
+  setField('edit-reserva',p.reserva||'');
+  setField('edit-entrega',p.entrega||'');
+  setField('edit-cantidad',p.cantidad||'');
+  setField('edit-yt',p.yt||'');
+  setTA('edit-desc',contentToDesc(p.content));
+  setTA('edit-features',contentToFeatures(p.content));
+  setBool('edit-destacado',p.destacado);
+  setBool('edit-oferta',p.oferta);
+  setBool('edit-agotado-r',p.agotado_r);
+  setBool('edit-agotado-d',p.agotado_d);
+  _photos.edit.r=(p.fotos||[]).slice();
+  _photos.edit.d=(p.fotos_d||[]).slice();
+  renderPhotos('edit','r');
+  renderPhotos('edit','d');
   document.getElementById('edit-list-container').style.display='none';
   document.getElementById('edit-form').style.display='';
 }
@@ -430,7 +573,29 @@ async function saveEdit(){
   if(!_editTarget)return;
   var cat=_editTarget.cat,idx=_editTarget.idx;
   var p=_catalog[cat].products[idx];
-  var updated=Object.assign({},p,{n:getField('edit-name'),precio:getField('edit-price'),escala:getField('edit-escala'),marca:getField('edit-marca'),estado:getField('edit-estado'),desc:getTA('edit-desc'),features:getTA('edit-features'),fotos:_editPhotos.slice(),i:_editPhotos[0]||p.i||'',destacado:getBool('edit-destacado'),oferta:getBool('edit-oferta'),adulto18:getBool('edit-adulto18')});
+  var updated=Object.assign({},p,{
+    n:getField('edit-name'),
+    franquicia:getField('edit-franquicia'),
+    marca:getField('edit-marca'),
+    escala:getField('edit-escala'),
+    disp:getField('edit-disp'),
+    estado:getField('edit-estado'),
+    precio:getField('edit-precio'),
+    reserva:getField('edit-reserva')||undefined,
+    entrega:getField('edit-entrega')||undefined,
+    cantidad:getField('edit-cantidad')||undefined,
+    yt:getField('edit-yt')||undefined,
+    fotos:_photos.edit.r.slice(),
+    i:_photos.edit.r[0]||p.i||'',
+    content:buildContent(getTA('edit-desc'),getTA('edit-features')),
+    destacado:getBool('edit-destacado'),
+    oferta:getBool('edit-oferta'),
+    agotado_r:getBool('edit-agotado-r'),
+    agotado_d:getBool('edit-agotado-d')
+  });
+  var pd=getField('edit-precio-d');updated.precio_d=pd||undefined;
+  var po=getField('edit-precio-orig');updated.precio_orig=po||undefined;
+  var fd=_photos.edit.d.slice();updated.fotos_d=fd.length?fd:undefined;
   var newCat=getField('edit-cat');
   if(newCat!==cat&&_catalog[newCat]){_catalog[cat].products.splice(idx,1);_catalog[newCat].products.unshift(updated);}
   else{_catalog[cat].products[idx]=updated;}
@@ -475,9 +640,9 @@ async function optimizeCatalog(){
       var prods=catalog[catKey].products||[];
       for(var i=0;i<prods.length;i++){
         var p=prods[i];if(p.content_ok)continue;
-        var prompt='Sos experto en figuras de coleccion. Mejora el contenido de "'+p.n+'".\nDesc actual: '+(p.desc||'(vacia)')+'\nCaract: '+(p.features||'(vacias)')+'\n\nResponde SOLO con JSON: {"desc":"...","features":"punto1\npunto2"}';
-        var r=await fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:prompt,image_url:(p.fotos&&p.fotos[0])||''})});
-        if(r.ok){var d=await r.json();var m=d.text.match(/\{[\s\S]*\}/);if(m){try{var parsed=JSON.parse(m[0]);if(parsed.desc)p.desc=parsed.desc;if(parsed.features)p.features=parsed.features;p.content_ok=true;count++;setStatus('Optimizados: '+count+'...','orange');}catch(pe){}}}
+        var prompt='Sos experto en figuras de coleccion. Mejora el contenido de "'+p.n+'".\nDesc actual: '+(contentToDesc(p.content)||p.desc||'(vacia)')+'\n\nResponde SOLO con JSON: {"desc":"descripcion","features":"linea1\nlinea2"}';
+        var r=await fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:prompt,image_url:(p.fotos&&p.fotos[0])||p.i||''})});
+        if(r.ok){var d=await r.json();var m=d.text.match(/\{[\s\S]*\}/);if(m){try{var parsed=JSON.parse(m[0]);if(parsed.desc||parsed.features){p.content=buildContent(parsed.desc||'',parsed.features||'');p.content_ok=true;count++;setStatus('Optimizados: '+count+'...','orange');}}catch(pe){}}}
       }
     }
     var saveRes=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
