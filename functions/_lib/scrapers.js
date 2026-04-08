@@ -104,60 +104,75 @@ function guessEscala(name, tags = []) {
   return m ? m[0].replace(/\s+/g, '') : '';
 }
 
-// Extract product images from embedded Shopify theme JS variables
-// Handles stores like Statuecorp that block the JSON API and use custom JS vars
-function extractShopifyScriptImages(html, url) {
+// Extract product data (photos, vendor, tags, product_type) from embedded Shopify HTML scripts
+// Works for stores that block the JSON API (Statuecorp, Specfiction, etc.)
+function extractShopifyScriptData(html, url) {
   const baseUrl = new URL(url).origin;
   const photos = [];
   const seen = new Set();
+  let vendor = '';
+  let productType = '';
+  let tags = [];
 
-  // Patterns to find JSON blobs in script tags that contain product image data
+  function normalizeImg(rawSrc) {
+    if (!rawSrc) return '';
+    if (rawSrc.startsWith('//')) rawSrc = 'https:' + rawSrc;
+    if (!rawSrc.startsWith('http')) rawSrc = baseUrl + (rawSrc.startsWith('/') ? '' : '/') + rawSrc;
+    return rawSrc.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1');
+  }
+
+  // Strategy 1: find JSON objects in script tags — handles var productjson={}, window.x.product={}, etc.
   const scriptRe = /<script[^>]*>([\s\S]*?)<\/script>/gi;
   let sm;
   while ((sm = scriptRe.exec(html)) !== null) {
     const src = sm[1];
-    // Look for variable assignments or object literals containing "images" arrays
-    // e.g. var productjson = {...} or window.productjson = {...}
-    const jsonRe = /(?:var\s+\w*[Pp]roduct\w*\s*=\s*|window\.\w*[Pp]roduct\w*\s*=\s*)(\{[\s\S]*?\});/g;
+    // Match any JSON-like object assigned to a variable containing "product" (case-insensitive)
+    // Also catch ShopifyAnalytics.meta, _BISConfig, SPOParams patterns
+    const jsonRe = /(?:(?:var\s+\w+|[\w.]+)\s*[=:]\s*)(\{[^{}]*"(?:images|vendor|product_type)"[^{}]*(?:\{[^{}]*\}[^{}]*)?\})/g;
     let jm;
     while ((jm = jsonRe.exec(src)) !== null) {
       try {
         const obj = JSON.parse(jm[1]);
+        if (obj.vendor && !vendor) vendor = obj.vendor;
+        if (obj.product_type && !productType) productType = obj.product_type;
+        if (obj.tags && !tags.length) {
+          tags = Array.isArray(obj.tags) ? obj.tags : obj.tags.split(',').map(t => t.trim());
+        }
         const images = obj.images || obj.media || [];
         for (const img of images) {
-          let rawSrc = typeof img === 'string' ? img : (img.src || img.original_src || img.url || '');
-          if (!rawSrc) continue;
-          // Handle protocol-relative URLs
-          if (rawSrc.startsWith('//')) rawSrc = 'https:' + rawSrc;
-          // Absolute URL check
-          if (!rawSrc.startsWith('http')) rawSrc = baseUrl + (rawSrc.startsWith('/') ? '' : '/') + rawSrc;
-          // Remove Shopify size suffix before extension
-          rawSrc = rawSrc.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1');
-          if (!seen.has(rawSrc)) { seen.add(rawSrc); photos.push(rawSrc); }
+          const u = normalizeImg(typeof img === 'string' ? img : (img.src || img.original_src || img.url || ''));
+          if (u && !seen.has(u)) { seen.add(u); photos.push(u); }
           if (photos.length >= 8) break;
         }
       } catch (_) {}
-      if (photos.length >= 8) break;
     }
-    if (photos.length >= 8) break;
+    // Also extract vendor/type from loose JSON strings (e.g. ShopifyAnalytics)
+    if (!vendor) { const m = src.match(/"vendor"\s*:\s*"([^"]+)"/); if (m) vendor = m[1]; }
+    if (!productType) { const m = src.match(/"product_type"\s*:\s*"([^"]+)"/); if (m) productType = m[1]; }
   }
 
-  // If the script-var approach found nothing, try raw CDN URL pattern specific to the store
+  // Strategy 2: CDN image URLs in HTML (covers Statuecorp-style custom CDN)
   if (!photos.length) {
     const domain = new URL(url).hostname.replace(/^www\./, '');
-    const cdnRe = new RegExp(`(?:https?:)?//${domain.replace('.', '\\.')}/cdn/shop/[^"'\\s>]+\\.(?:jpg|jpeg|webp|png)`, 'gi');
-    const matches = [...html.matchAll(cdnRe)].map(m => {
-      let u = m[0];
-      if (u.startsWith('//')) u = 'https:' + u;
-      return u.split('?')[0];
-    });
-    for (const u of matches) {
+    const cdnRe = new RegExp(`(?:https?:)?//${domain.replace(/\./g, '\\.')}/cdn/shop/[^"'\\s>]+\\.(?:jpg|jpeg|webp|png)`, 'gi');
+    for (const m of html.matchAll(cdnRe)) {
+      const u = normalizeImg(m[0]);
+      if (u && !seen.has(u)) { seen.add(u); photos.push(u); }
+      if (photos.length >= 8) break;
+    }
+  }
+
+  // Strategy 3: any Shopify CDN images in the HTML
+  if (!photos.length) {
+    const cdnRe = /https?:\/\/cdn\.shopify\.com\/s\/files\/[^"'\s>]+\.(?:jpg|jpeg|webp|png)/gi;
+    for (const m of html.matchAll(cdnRe)) {
+      const u = m[0].split('?')[0].replace(/_\d+x\d*(?:@\d+x)?(\.\w+)$/, '$1');
       if (!seen.has(u)) { seen.add(u); photos.push(u); }
       if (photos.length >= 8) break;
     }
   }
 
-  return photos;
+  return { photos, vendor, productType, tags };
 }
 
 export async function scrapeSideshow(url, html) {
@@ -235,10 +250,10 @@ export async function scrapeShopify(url, html = '') {
 
   // Fallback: parse HTML
   if (html) {
-    // Try embedded product JS variables first — more complete image set than JSON-LD
-    const scriptPhotos = extractShopifyScriptImages(html, url);
+    // Extract all available data from embedded JS scripts (photos, vendor, tags, product_type)
+    const scriptData = extractShopifyScriptData(html, url);
 
-    // Try JSON-LD for metadata (name, price, desc, marca)
+    // Try JSON-LD for metadata (name, price, desc)
     const jsonLd = extractJsonLd(html);
     const ldProduct = jsonLd.find(d => d['@type'] === 'Product');
     if (ldProduct) {
@@ -247,28 +262,38 @@ export async function scrapeShopify(url, html = '') {
       const price = offer?.price ? String(offer.price) : '';
       const desc = decodeHtml((ldProduct.description || '').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
       const available = offer?.availability?.includes('InStock') ?? !isPreOrder(html);
-      // Prefer script photos (more complete); fall back to JSON-LD images, then og:image
-      let photos = scriptPhotos;
+      let photos = scriptData.photos;
       if (!photos.length) {
         const imgRaw = Array.isArray(ldProduct.image) ? ldProduct.image : (ldProduct.image ? [ldProduct.image] : []);
         photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean)
           .map(u => u.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1'))
           .slice(0, 8);
       }
+      const marca = scriptData.vendor || ldProduct.brand?.name || '';
+      const allTags = scriptData.tags.length ? scriptData.tags : [];
       return {
         name, price, desc,
         photos: photos.length ? photos : [ogImage(html)].filter(Boolean),
-        marca: ldProduct.brand?.name || '',
-        franquicia: guessFranquicia(name),
-        escala: guessEscala(name),
+        marca,
+        franquicia: guessFranquicia(name, allTags),
+        escala: guessEscala(name + ' ' + scriptData.productType, allTags),
         estado: available ? 'Entrega Inmediata' : 'Pre-Orden',
         provider: 'shopify'
       };
     }
 
-    // No JSON-LD — use script photos + generic metadata
+    // No JSON-LD — combine script data with generic metadata
     const generic = scrapeGeneric(html);
-    return { ...generic, photos: scriptPhotos.length ? scriptPhotos : generic.photos, provider: 'shopify' };
+    const name = generic.name;
+    const allTags = scriptData.tags;
+    return {
+      ...generic,
+      photos: scriptData.photos.length ? scriptData.photos : generic.photos,
+      marca: scriptData.vendor || generic.marca || '',
+      franquicia: guessFranquicia(name, allTags),
+      escala: guessEscala(name + ' ' + scriptData.productType, allTags),
+      provider: 'shopify'
+    };
   }
   throw new Error('Shopify API bloqueada y no hay HTML disponible');
 }
