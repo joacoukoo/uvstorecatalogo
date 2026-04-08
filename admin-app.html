@@ -595,8 +595,8 @@ function renderProductList(){
 }
 
 function openEdit(cat,idx){
-  _editTarget={cat:cat,idx:idx};
   var p=_catalog[cat].products[idx];
+  _editTarget={cat:cat,idx:idx,id:p.id};
   setField('edit-cat',cat);
   setField('edit-name',p.n||'');
   setField('edit-franquicia',p.franquicia||'');
@@ -633,8 +633,8 @@ function cancelEdit(){
 
 async function saveEdit(){
   if(!_editTarget)return;
-  var cat=_editTarget.cat,idx=_editTarget.idx;
-  var p=_catalog[cat].products[idx];
+  var productId=_editTarget.id;
+  var p=_catalog[_editTarget.cat].products[_editTarget.idx];
   var updated=Object.assign({},p,{
     n:getField('edit-name'),
     franquicia:getField('edit-franquicia'),
@@ -660,13 +660,29 @@ async function saveEdit(){
   var po=getField('edit-precio-orig');updated.precio_orig=po||undefined;
   var fd=_photos.edit.d.slice();updated.fotos_d=fd.length?fd:undefined;
   var newCat=getField('edit-cat');
-  if(newCat!==cat&&_catalog[newCat]){_catalog[cat].products.splice(idx,1);_catalog[newCat].products.unshift(updated);}
-  else{_catalog[cat].products[idx]=updated;}
   setStatus('Guardando...','orange');
   try{
-    var res=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:_catalog})});
+    // Fetch fresh catalog to avoid overwriting changes made from other sessions
+    var freshRes=await fetch('/api/catalog');
+    var catalog=await freshRes.json();
+    // Find product by id in fresh catalog
+    var found=false;
+    for(var c in catalog){
+      var prods=catalog[c].products||[];
+      for(var i=0;i<prods.length;i++){
+        if(prods[i].id===productId){
+          if(newCat!==c&&catalog[newCat]){prods.splice(i,1);catalog[newCat].products.unshift(updated);}
+          else{prods[i]=updated;}
+          found=true;break;
+        }
+      }
+      if(found)break;
+    }
+    if(!found)throw new Error('Producto no encontrado en el catalogo actualizado');
+    var res=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
     var result=await res.json();
     if(!res.ok)throw new Error(result.error);
+    _catalog=catalog;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();
   }catch(e){setStatus('Error: '+e.message,'red');}
@@ -674,12 +690,24 @@ async function saveEdit(){
 
 async function deleteProduct(){
   if(!_editTarget||!confirm('Eliminar este producto? No se puede deshacer.'))return;
-  var cat=_editTarget.cat,idx=_editTarget.idx;
-  _catalog[cat].products.splice(idx,1);
+  var productId=_editTarget.id;
   setStatus('Eliminando...','orange');
   try{
-    var res=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:_catalog})});
+    // Fetch fresh catalog to avoid overwriting changes made from other sessions
+    var freshRes=await fetch('/api/catalog');
+    var catalog=await freshRes.json();
+    var found=false;
+    for(var c in catalog){
+      var prods=catalog[c].products||[];
+      for(var i=0;i<prods.length;i++){
+        if(prods[i].id===productId){prods.splice(i,1);found=true;break;}
+      }
+      if(found)break;
+    }
+    if(!found)throw new Error('Producto no encontrado');
+    var res=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
     if(!res.ok)throw new Error((await res.json()).error);
+    _catalog=catalog;
     setStatus('Producto eliminado','green');
     cancelEdit();renderProductList();
   }catch(e){setStatus('Error: '+e.message,'red');}
