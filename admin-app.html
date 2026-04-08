@@ -168,12 +168,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
 
     <div class="section-title">Contenido — Edicion Regular</div>
-    <div class="field"><label class="field-label">Descripcion</label><textarea id="add-desc" placeholder="Descripcion del producto..." style="min-height:90px"></textarea></div>
-    <div class="field"><label class="field-label">Caracteristicas <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="add-features" placeholder="Altura: 30 cm&#10;Escala: 1:6&#10;Incluye: accesorios..." style="min-height:100px"></textarea></div>
+    <div class="field"><label class="field-label">Descripcion <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">lineas con "- " son viñetas</span></label><textarea id="add-desc" placeholder="Figura de coleccion premium...&#10;&#10;- Altura: 30 cm&#10;- Escala: 1:6&#10;- Incluye: espada, escudo, base..." style="min-height:140px"></textarea></div>
 
     <div class="section-title">Contenido — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
-    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="add-desc-d" placeholder="Descripcion de la edicion deluxe..." style="min-height:90px"></textarea></div>
-    <div class="field"><label class="field-label">Caracteristicas Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="add-features-d" placeholder="Altura: 30 cm&#10;Incluye: accesorios exclusivos..." style="min-height:100px"></textarea></div>
+    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="add-desc-d" placeholder="Misma figura con accesorios exclusivos...&#10;&#10;- Incluye: accesorios adicionales..." style="min-height:100px"></textarea></div>
     <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="add-yt" placeholder="https://youtube.com/watch?v=..."></div>
 
     <div class="section-title">Flags</div>
@@ -268,12 +266,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
 
     <div class="section-title">Contenido — Edicion Regular</div>
-    <div class="field"><label class="field-label">Descripcion</label><textarea id="edit-desc" style="min-height:90px"></textarea></div>
-    <div class="field"><label class="field-label">Caracteristicas <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="edit-features" style="min-height:100px"></textarea></div>
+    <div class="field"><label class="field-label">Descripcion <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">lineas con "- " son viñetas</span></label><textarea id="edit-desc" style="min-height:140px"></textarea></div>
 
     <div class="section-title">Contenido — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
-    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="edit-desc-d" style="min-height:90px"></textarea></div>
-    <div class="field"><label class="field-label">Caracteristicas Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="edit-features-d" style="min-height:100px"></textarea></div>
+    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="edit-desc-d" style="min-height:100px"></textarea></div>
     <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="edit-yt"></div>
 
     <div class="section-title">Flags</div>
@@ -313,20 +309,38 @@ function setTA(id,val){var el=document.getElementById(id);if(el)el.value=val||''
 function getBool(id){var el=document.getElementById(id);return el?el.checked:false;}
 function setBool(id,val){var el=document.getElementById(id);if(el)el.checked=!!val;}
 
-// Convert desc+features strings to Notion content blocks
-function buildContent(desc,features){
+// Convert a single textarea string to Notion content blocks.
+// Lines starting with "- " or "• " become notion-bulleted-list; paragraph groups become notion-text.
+function buildContent(text){
   var blocks=[];
-  if(desc){desc.split('\n\n').forEach(function(p){p=p.trim();if(p)blocks.push({t:'notion-text',x:p});});}
-  if(features){features.split('\n').forEach(function(f){f=f.trim().replace(/^[*\-]\s*/,'');if(f)blocks.push({t:'notion-bulleted-list',x:f});});}
+  if(!text)return blocks;
+  // Split into lines, group consecutive bullet lines vs paragraph text
+  var lines=text.split('\n');
+  var paraLines=[];
+  function flushPara(){
+    var t=paraLines.join('\n').trim();
+    if(t)blocks.push({t:'notion-text',x:t});
+    paraLines=[];
+  }
+  lines.forEach(function(line){
+    if(/^[-•]\s+/.test(line)){
+      if(paraLines.length&&paraLines.join('').trim())flushPara();
+      var item=line.replace(/^[-•]\s+/,'').trim();
+      if(item)blocks.push({t:'notion-bulleted-list',x:item});
+    } else {
+      paraLines.push(line);
+    }
+  });
+  flushPara();
   return blocks;
 }
-// Extract desc from content blocks
-function contentToDesc(content){
-  return (content||[]).filter(function(b){return b.t==='notion-text'||b.t==='notion-heading-2'||b.t==='notion-heading-3';}).map(function(b){return b.x;}).join('\n\n');
-}
-// Extract features from content blocks
-function contentToFeatures(content){
-  return (content||[]).filter(function(b){return b.t==='notion-bulleted-list'||b.t==='notion-numbered-list';}).map(function(b){return b.x;}).join('\n');
+// Convert content blocks back to a single textarea string
+function contentToText(content){
+  if(!content||!content.length)return '';
+  return (content||[]).map(function(b){
+    if(b.t==='notion-bulleted-list'||b.t==='notion-numbered-list')return '- '+b.x;
+    return b.x;
+  }).join('\n');
 }
 
 function showTab(name){
@@ -378,12 +392,12 @@ function fillAddForm(data){
   setField('add-escala',data.escala||'');
   setField('add-precio',data.price||'');
   setTA('add-desc',data.desc||'');
+  setTA('add-desc-d','');
   _photos.add.r=data.photos||[];
   _photos.add.d=[];
   renderPhotos('add','r');
   renderPhotos('add','d');
-  if(data.estado==='Entrega Inmediata')setField('add-disp','Entrega Inmediata');
-  else if(data.estado==='Pre-Orden')setField('add-disp','Pre-Orden');
+  if(data.estado==='Entrega Inmediata'||data.estado==='Pre-Orden')setField('add-disp',data.estado);
 }
 
 function makeId(name){
@@ -408,14 +422,14 @@ function buildAddProduct(){
     estado:getField('add-estado'),
     precio:getField('add-precio'),
     fotos:fotos,
-    content:buildContent(getTA('add-desc'),getTA('add-features')),
+    content:buildContent(getTA('add-desc')),
     destacado:getBool('add-destacado'),
     oferta:getBool('add-oferta'),
     agotado_r:getBool('add-agotado-r'),
     agotado_d:getBool('add-agotado-d'),
     added_at:now
   };
-  var cd=buildContent(getTA('add-desc-d'),getTA('add-features-d'));if(cd.length)p.content_d=cd;
+  var cd=buildContent(getTA('add-desc-d'));if(cd.length)p.content_d=cd;
   var pd=getField('add-precio-d');if(pd)p.precio_d=pd;
   var po=getField('add-precio-orig');if(po)p.precio_orig=po;
   var rv=getField('add-reserva');if(rv)p.reserva=rv;
@@ -428,7 +442,7 @@ function buildAddProduct(){
 
 function resetAddForm(){
   ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-entrega','add-cantidad','add-yt','add-cat','add-disp','add-estado'].forEach(function(id){setField(id,'');});
-  ['add-desc','add-features','add-desc-d','add-features-d'].forEach(function(id){setTA(id,'');});
+  ['add-desc','add-desc-d'].forEach(function(id){setTA(id,'');});
   ['add-destacado','add-oferta','add-agotado-r','add-agotado-d'].forEach(function(id){setBool(id,false);});
   _photos.add={r:[],d:[]};
   renderPhotos('add','r');renderPhotos('add','d');
@@ -451,18 +465,34 @@ async function scrapeUrl(){
 
 async function generateAI(w){
   var name=getField(w+'-name');
-  var desc=getTA(w+'-desc');
+  var marca=getField(w+'-marca');
+  var escala=getField(w+'-escala');
+  var franquicia=getField(w+'-franquicia');
+  var currentDesc=getTA(w+'-desc');
   var foto=_photos[w].r[0]||'';
   if(!name)return setStatus('Ingresa el nombre primero','orange');
   setStatus('Generando con IA...','orange');
-  var prompt='Sos un experto en figuras de coleccion premium. Para la figura "'+name+'" genera una descripcion atractiva y caracteristicas tecnicas.\nDescripcion actual: '+desc+'\n\nResponde SOLO con JSON sin markdown: {"desc": "descripcion en espanol de 2-3 oraciones", "features": "Linea1\nLinea2\nLinea3"}';
+  var ctx='';
+  if(marca)ctx+='Fabricante: '+marca+'. ';
+  if(escala)ctx+='Escala: '+escala+'. ';
+  if(franquicia)ctx+='Franquicia: '+franquicia+'. ';
+  var prompt='Sos experto en figuras de coleccion premium de alto valor. Genera contenido de venta detallado para la figura: "'+name+'".\n'+ctx+'\nDescripcion/texto actual del fabricante:\n'+(currentDesc||'(no disponible)')+'\n\nNECESITO que el JSON incluya:\n1. "desc": 2-3 oraciones en español que vendan la figura (calidad, coleccionabilidad, detalles visuales)\n2. "specs": lista de especificaciones tecnicas detalladas. SIEMPRE incluir altura en cm, escala si aplica, materiales, peso aproximado si conocido. Buscar en el nombre/descripcion claves como "1/4 scale" = ~50cm, "1/6 scale" = ~30cm, "Premium Format" = ~50-60cm, "Polystone" = resina/polistone.\n3. "includes": lista de accesorios y piezas incluidas (bases, armas, cabezas intercambiables, efectos especiales, etc). Si la descripcion los menciona, listarlos todos.\n\nResponde SOLO con JSON valido sin markdown:\n{"desc":"...","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...\\n- Peso: ...","includes":"- Item 1\\n- Item 2\\n- Item 3"}';
   try{
     var res=await fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:prompt,image_url:foto})});
     var data=await res.json();
     if(!res.ok)throw new Error(data.error);
     var match=data.text.match(/\{[\s\S]*\}/);
-    if(match){try{var p=JSON.parse(match[0]);if(p.desc)setTA(w+'-desc',p.desc);if(p.features)setTA(w+'-features',p.features);}catch(pe){}}
-    setStatus('Contenido generado — revisa','green');
+    if(match){
+      try{
+        var p=JSON.parse(match[0]);
+        var parts=[];
+        if(p.desc)parts.push(p.desc);
+        if(p.specs)parts.push(p.specs);
+        if(p.includes)parts.push(p.includes);
+        if(parts.length)setTA(w+'-desc',parts.join('\n\n'));
+      }catch(pe){}
+    }
+    setStatus('Contenido generado — revisa y ajusta','green');
   }catch(e){setStatus('Error IA: '+e.message,'red');}
 }
 
@@ -558,10 +588,8 @@ function openEdit(cat,idx){
   setField('edit-entrega',p.entrega||'');
   setField('edit-cantidad',p.cantidad||'');
   setField('edit-yt',p.yt||'');
-  setTA('edit-desc',contentToDesc(p.content));
-  setTA('edit-features',contentToFeatures(p.content));
-  setTA('edit-desc-d',contentToDesc(p.content_d));
-  setTA('edit-features-d',contentToFeatures(p.content_d));
+  setTA('edit-desc',contentToText(p.content));
+  setTA('edit-desc-d',contentToText(p.content_d));
   setBool('edit-destacado',p.destacado);
   setBool('edit-oferta',p.oferta);
   setBool('edit-agotado-r',p.agotado_r);
@@ -598,8 +626,8 @@ async function saveEdit(){
     yt:getField('edit-yt')||undefined,
     fotos:_photos.edit.r.slice(),
     i:_photos.edit.r[0]||p.i||'',
-    content:buildContent(getTA('edit-desc'),getTA('edit-features')),
-    content_d:(function(){var c=buildContent(getTA('edit-desc-d'),getTA('edit-features-d'));return c.length?c:undefined;})(),
+    content:buildContent(getTA('edit-desc')),
+    content_d:(function(){var c=buildContent(getTA('edit-desc-d'));return c.length?c:undefined;})(),
     destacado:getBool('edit-destacado'),
     oferta:getBool('edit-oferta'),
     agotado_r:getBool('edit-agotado-r'),
@@ -652,9 +680,9 @@ async function optimizeCatalog(){
       var prods=catalog[catKey].products||[];
       for(var i=0;i<prods.length;i++){
         var p=prods[i];if(p.content_ok)continue;
-        var prompt='Sos experto en figuras de coleccion. Mejora el contenido de "'+p.n+'".\nDesc actual: '+(contentToDesc(p.content)||p.desc||'(vacia)')+'\n\nResponde SOLO con JSON: {"desc":"descripcion","features":"linea1\nlinea2"}';
+        var prompt='Sos experto en figuras de coleccion premium. Genera contenido de venta para "'+p.n+'".\nMarca: '+(p.marca||'?')+'. Escala: '+(p.escala||'?')+'.\nDescripcion actual: '+(contentToText(p.content)||p.desc||'(vacia)')+'\n\nResponde SOLO con JSON valido: {"desc":"2-3 oraciones vendedoras","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2"}';
         var r=await fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:prompt,image_url:(p.fotos&&p.fotos[0])||p.i||''})});
-        if(r.ok){var d=await r.json();var m=d.text.match(/\{[\s\S]*\}/);if(m){try{var parsed=JSON.parse(m[0]);if(parsed.desc||parsed.features){p.content=buildContent(parsed.desc||'',parsed.features||'');p.content_ok=true;count++;setStatus('Optimizados: '+count+'...','orange');}}catch(pe){}}}
+        if(r.ok){var d=await r.json();var m=d.text.match(/\{[\s\S]*\}/);if(m){try{var parsed=JSON.parse(m[0]);var parts=[];if(parsed.desc)parts.push(parsed.desc);if(parsed.specs)parts.push(parsed.specs);if(parsed.includes)parts.push(parsed.includes);if(parts.length){p.content=buildContent(parts.join('\n\n'));p.content_ok=true;count++;setStatus('Optimizados: '+count+'...','orange');}}catch(pe){}}}
       }
     }
     var saveRes=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
