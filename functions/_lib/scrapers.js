@@ -104,6 +104,62 @@ function guessEscala(name, tags = []) {
   return m ? m[0].replace(/\s+/g, '') : '';
 }
 
+// Extract product images from embedded Shopify theme JS variables
+// Handles stores like Statuecorp that block the JSON API and use custom JS vars
+function extractShopifyScriptImages(html, url) {
+  const baseUrl = new URL(url).origin;
+  const photos = [];
+  const seen = new Set();
+
+  // Patterns to find JSON blobs in script tags that contain product image data
+  const scriptRe = /<script[^>]*>([\s\S]*?)<\/script>/gi;
+  let sm;
+  while ((sm = scriptRe.exec(html)) !== null) {
+    const src = sm[1];
+    // Look for variable assignments or object literals containing "images" arrays
+    // e.g. var productjson = {...} or window.productjson = {...}
+    const jsonRe = /(?:var\s+\w*[Pp]roduct\w*\s*=\s*|window\.\w*[Pp]roduct\w*\s*=\s*)(\{[\s\S]*?\});/g;
+    let jm;
+    while ((jm = jsonRe.exec(src)) !== null) {
+      try {
+        const obj = JSON.parse(jm[1]);
+        const images = obj.images || obj.media || [];
+        for (const img of images) {
+          let rawSrc = typeof img === 'string' ? img : (img.src || img.original_src || img.url || '');
+          if (!rawSrc) continue;
+          // Handle protocol-relative URLs
+          if (rawSrc.startsWith('//')) rawSrc = 'https:' + rawSrc;
+          // Absolute URL check
+          if (!rawSrc.startsWith('http')) rawSrc = baseUrl + (rawSrc.startsWith('/') ? '' : '/') + rawSrc;
+          // Remove Shopify size suffix before extension
+          rawSrc = rawSrc.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1');
+          if (!seen.has(rawSrc)) { seen.add(rawSrc); photos.push(rawSrc); }
+          if (photos.length >= 8) break;
+        }
+      } catch (_) {}
+      if (photos.length >= 8) break;
+    }
+    if (photos.length >= 8) break;
+  }
+
+  // If the script-var approach found nothing, try raw CDN URL pattern specific to the store
+  if (!photos.length) {
+    const domain = new URL(url).hostname.replace(/^www\./, '');
+    const cdnRe = new RegExp(`(?:https?:)?//${domain.replace('.', '\\.')}/cdn/shop/[^"'\\s>]+\\.(?:jpg|jpeg|webp|png)`, 'gi');
+    const matches = [...html.matchAll(cdnRe)].map(m => {
+      let u = m[0];
+      if (u.startsWith('//')) u = 'https:' + u;
+      return u.split('?')[0];
+    });
+    for (const u of matches) {
+      if (!seen.has(u)) { seen.add(u); photos.push(u); }
+      if (photos.length >= 8) break;
+    }
+  }
+
+  return photos;
+}
+
 export async function scrapeSideshow(url, html) {
   const varMatch = url.match(/[?&](?:var|sku)=(\d{5,})/i);
   const pathMatch = url.match(/-(\d{6,})\/?(?:\?.*)?$/);
@@ -202,8 +258,13 @@ export async function scrapeShopify(url, html = '') {
         provider: 'shopify'
       };
     }
-    // Last resort: og:image only
+    // Try embedded product JSON in script tags (common in custom Shopify themes like Statuecorp)
+    const shopifyPhotos = extractShopifyScriptImages(html, url);
     const generic = scrapeGeneric(html);
+    if (shopifyPhotos.length) {
+      return { ...generic, photos: shopifyPhotos, provider: 'shopify' };
+    }
+    // Last resort: og:image only
     return { ...generic, provider: 'shopify' };
   }
   throw new Error('Shopify API bloqueada y no hay HTML disponible');
