@@ -3,6 +3,91 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "wolverine-tva-jacket-version-mnqjskgn",
+        "n": "Wolverine (TVA Jacket Version)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-square.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-square.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3cc300c7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-scale-67af9664caf1f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3cacbcf4.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3dd52c7e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3de8b5ef.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-gallery-67af7f07786c0.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una figura de colección premium que captura a Wolverine en su icónica versión con chaqueta TVA, presentando una escultura facial altamente detallada y un cuerpo musculoso perfectamente articulado. Hot Toys demuestra su maestría en la reproducción de texturas y acabados, desde el tejido de la chaqueta hasta la precisión en cada garras de adamantio. Una pieza imprescindible para coleccionistas de Marvel que buscan poseer la representación más auténtica del mutante en escala 1:6."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado con escultura de cabeza en pintura de alta precisión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Sistema Hot Toys con múltiples puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximadamente 400-500 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable con expresión de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta TVA (Autoridad de Variantes Temporales)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones amarillos con detalles azules"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Garras de adamantio (manos intercambiables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables para múltiples poses"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pinzas de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios adicionales de personaje"
+          }
+        ],
+        "destacado": true,
+        "oferta": true,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-08",
+        "precio_orig": "4200",
+        "cantidad": "1"
+      },
+      {
         "n": "Armored Batman (2.0)",
         "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913300/armored-batman-20_dc-comics_gallery_661954fed7d6d.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armored-batman-20",
