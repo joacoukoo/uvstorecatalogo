@@ -60,7 +60,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .search-row{margin-bottom:14px}
 .search-row input{width:100%;max-width:360px;padding:8px 12px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:13px;outline:none}
 .search-row input:focus{border-color:var(--purple)}
-.product-item{display:flex;align-items:center;gap:11px;padding:9px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:7px;margin-bottom:5px;transition:border-color .15s}
+.cat-header{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--bg3);border:1px solid var(--border2);border-radius:7px;margin-bottom:4px;cursor:pointer;user-select:none}
+.cat-header:hover{border-color:#444}
+.cat-header-name{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--purple-light)}
+.cat-header-count{font-size:11px;color:var(--muted)}
+.cat-body{margin-bottom:10px}
+.product-item{display:flex;align-items:center;gap:11px;padding:9px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:7px;margin-bottom:4px;transition:border-color .15s}
 .product-item:hover{border-color:var(--border2)}
 .product-item img{width:42px;height:42px;object-fit:cover;border-radius:4px;flex-shrink:0;background:var(--bg3)}
 .product-item-name{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -148,7 +153,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 <!-- TAB EDITAR -->
 <div id="tab-edit" class="tab-content" style="display:none">
   <div id="edit-list-container">
-    <div class="search-row"><input type="search" id="edit-search" placeholder="Buscar por nombre..." oninput="renderProductList()"></div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap">
+      <input type="search" id="edit-search" placeholder="Buscar por nombre..." oninput="renderProductList()" style="flex:1;min-width:180px;padding:8px 12px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:13px;outline:none">
+      <span id="edit-count" style="font-size:12px;color:var(--muted);white-space:nowrap"></span>
+    </div>
     <div id="edit-list"></div>
   </div>
   <div id="edit-form" style="display:none">
@@ -361,21 +369,43 @@ function renderProductList(){
   var list=document.getElementById('edit-list');
   if(!list)return;list.innerHTML='';
   if(!_catalog)return;
+  var totalShown=0,totalAll=0;
   for(var cat in _catalog){
     var prods=_catalog[cat].products||[];
+    totalAll+=prods.length;
+    var filtered=[];
     for(var idx=0;idx<prods.length;idx++){
       var p=prods[idx];
-      if(q&&!(p.n||'').toLowerCase().includes(q))continue;
+      if(!q||((p.n||'').toLowerCase().includes(q)))filtered.push({p:p,idx:idx});
+    }
+    totalShown+=filtered.length;
+    if(!filtered.length)continue;
+    var catDiv=document.createElement('div');
+    var bodyId='cat-body-'+cat.replace(/\s+/g,'-');
+    var hdr=document.createElement('div');
+    hdr.className='cat-header';
+    hdr.innerHTML='<span class="cat-header-name">'+cat+'</span><span class="cat-header-count">'+filtered.length+' figura'+(filtered.length!==1?'s':'')+'</span>';
+    hdr.onclick=(function(id){return function(){var b=document.getElementById(id);b.style.display=b.style.display==='none'?'':'none';}})(bodyId);
+    catDiv.appendChild(hdr);
+    var body=document.createElement('div');
+    body.className='cat-body';
+    body.id=bodyId;
+    for(var fi=0;fi<filtered.length;fi++){
+      var p=filtered[fi].p,idx=filtered[fi].idx;
       var item=document.createElement('div');
       item.className='product-item';
       var imgSrc=(p.fotos&&p.fotos[0])?p.fotos[0]:(p.i||'');
       var catEsc=cat.replace(/'/g,"\\'");
       item.innerHTML='<img src="'+imgSrc+'" onerror="this.style.visibility=\'hidden\'">' +
-        '<div style="flex:1;min-width:0"><div class="product-item-name">'+(p.n||'(sin nombre)')+'</div><div class="product-item-meta">'+cat+' &middot; Q'+(p.precio||'&mdash;')+'</div></div>' +
+        '<div style="flex:1;min-width:0"><div class="product-item-name">'+(p.n||'(sin nombre)')+'</div><div class="product-item-meta">Q'+(p.precio||'&mdash;')+(p.estado?' &middot; '+p.estado:'')+'</div></div>' +
         '<button onclick="openEdit(\''+catEsc+'\','+idx+')" class="btn btn-secondary" style="font-size:12px;padding:5px 11px">Editar</button>';
-      list.appendChild(item);
+      body.appendChild(item);
     }
+    catDiv.appendChild(body);
+    list.appendChild(catDiv);
   }
+  var countEl=document.getElementById('edit-count');
+  if(countEl)countEl.textContent=q?(totalShown+' de '+totalAll+' figuras'):(totalAll+' figuras en total');
 }
 
 function openEdit(cat,idx){
