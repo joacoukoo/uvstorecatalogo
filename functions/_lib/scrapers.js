@@ -365,7 +365,9 @@ export function scrapeBigCommerce(url, html) {
   );
   const descHtml = rx(html, /id="tab-description"[^>]*>([\s\S]{0,3000}?)<\/div>/i) ||
                    rx(html, /class="[^"]*productView-description[^"]*"[^>]*>([\s\S]{0,3000}?)<\/div>/i);
-  const desc = descHtml ? htmlToDesc(descHtml) : decodeHtml(rx(html, /<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i));
+  const descRaw = descHtml ? htmlToDesc(descHtml) : '';
+  // Only use extracted description if it has meaningful content (>40 chars)
+  const desc = descRaw.length > 40 ? descRaw : decodeHtml(rx(html, /<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i));
 
   // Extract specs from definition list (dt/dd pairs) — common in BigCommerce stores like FNC
   const specs = {};
