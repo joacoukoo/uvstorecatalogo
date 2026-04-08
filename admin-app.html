@@ -413,6 +413,7 @@ function fillAddForm(data){
   setField('add-marca',data.marca||'');
   setField('add-escala',data.escala||'');
   setField('add-precio',data.price||'');
+  if(data.price){var p=parseFloat(data.price);if(!isNaN(p)&&p>0)setField('add-reserva',Math.round(p*0.2));}
   setTA('add-desc',data.desc||'');
   setTA('add-desc-d','');
   _photos.add.r=data.photos||[];
@@ -713,6 +714,19 @@ async function optimizeCatalog(){
     setStatus(count+' productos optimizados','green');
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
+
+// Auto-calcular reserva como 20% del precio regular
+(function(){
+  function calcReserva(precioId, reservaId) {
+    var precio = parseFloat(document.getElementById(precioId).value);
+    var reservaEl = document.getElementById(reservaId);
+    if (!isNaN(precio) && precio > 0 && !reservaEl.value) {
+      reservaEl.value = Math.round(precio * 0.2);
+    }
+  }
+  document.getElementById('add-precio').addEventListener('change', function(){ calcReserva('add-precio','add-reserva'); });
+  document.getElementById('edit-precio').addEventListener('change', function(){ calcReserva('edit-precio','edit-reserva'); });
+})();
 </script>
 </body>
 </html>
