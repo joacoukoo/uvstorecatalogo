@@ -1345,10 +1345,9 @@ function renderModalContent(contentArr){
       el=document.createElement("div");el.className="modal-desc-title";el.textContent=b.x;
     }else if(b.t==="notion-bulleted-list"||b.t==="notion-numbered-list"){
       var raw=b.x;var items=[];
-      var byNewline=raw.split(/
-+/).map(function(s){return s.trim();}).filter(Boolean);
+      var byNewline=raw.split(/\n+/).map(function(s){return s.trim();}).filter(Boolean);
       if(byNewline.length>1){items=byNewline;}
-      else{items=raw.split(/.s+(?=[A-ZÀ-ÿ])/).map(function(s){return s.trim().replace(/.$/,"");}).filter(Boolean);if(items.length<=1)items=[raw];}
+      else{items=raw.split(/\.\s+(?=[A-ZÁÉÍÓÚÑ])/).map(function(s){return s.trim().replace(/\.$/,"");}).filter(Boolean);if(items.length<=1)items=[raw];}
       items.forEach(function(item){if(item.trim()){var li=document.createElement("div");li.className="modal-desc-bullet";li.textContent=item.trim();contentEl.appendChild(li);}});return;
     }else{el=document.createElement("div");el.className="modal-desc";el.textContent=b.x;}
     contentEl.appendChild(el);
