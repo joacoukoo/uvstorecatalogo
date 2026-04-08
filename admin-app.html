@@ -386,7 +386,7 @@ function renderPhotos(w,ed){
   if(!c)return;
   c.innerHTML=arr.map(function(url,i){
     return '<div style="position:relative;display:inline-block">' +
-      '<img src="'+url+'" style="width:58px;height:58px;object-fit:cover;border-radius:5px;border:1px solid #222;display:block" onerror="this.style.opacity=0.2">' +
+      '<img src="'+url+'" style="width:100px;height:100px;object-fit:cover;border-radius:5px;border:1px solid #222;display:block;cursor:pointer" onclick="window.open(\''+url+'\',\'_blank\')" onerror="this.style.opacity=0.2" title="Click para ver en tamaño completo">' +
       '<button onclick="removePhoto(\''+w+'\',\''+ed+'\','+i+')" style="position:absolute;top:-5px;right:-5px;background:#e63946;border:none;border-radius:50%;width:17px;height:17px;color:#fff;font-size:10px;cursor:pointer;line-height:17px;text-align:center;padding:0">x</button>' +
     '</div>';
   }).join('');
