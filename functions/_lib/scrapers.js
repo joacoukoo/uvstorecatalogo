@@ -1,7 +1,7 @@
 // Explicit domain → platform mapping
 const DOMAIN_PLATFORMS = {
   'sideshow.com':           'sideshow',
-  'lionrocktoyz.com':       'shopify',
+  'lionrocktoyz.com':       'bigcommerce',
   'fanaticanimestore.com':  'bigcommerce',
   'statuecorp.com':         'shopify',
   'tnsfigures.com':         'bigcommerce',
