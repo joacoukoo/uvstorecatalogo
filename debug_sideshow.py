@@ -7,6 +7,9 @@ Muestra qué HTML encuentra el scraper en las secciones de contenido.
 import sys, re, requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+import io, os
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+os.environ["PYTHONIOENCODING"] = "utf-8"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -80,3 +83,38 @@ for el in soup.find_all(True):
             data_attrs.add(attr)
 for a in sorted(data_attrs):
     print(f"  {a}")
+
+# ── 7. Edition / variant selector links ──
+sep("Links with ?var= (edition selectors)")
+for a in soup.find_all("a", href=re.compile(r'\?var=\d+')):
+    print(f"  href={a.get('href','')}  text={repr(a.get_text(strip=True)[:60])}  class={a.get('class','')}")
+
+# ── 8. pdp-info__details sections ──
+sep("pdp-info__details sections (visible/hidden)")
+for div in soup.find_all("div", class_=re.compile(r'pdp-info__details')):
+    classes = " ".join(div.get("class", []))
+    # Find edition label inside
+    label_el = div.select_one(".pdp-info__edition-label, .edition-label, [class*='edition']")
+    label = label_el.get_text(strip=True) if label_el else "(no label found)"
+    # Find any ?var= link inside
+    var_link = div.find("a", href=re.compile(r'\?var='))
+    var_href = var_link.get("href") if var_link else "(no var link)"
+    # First 100 chars of text
+    snippet = div.get_text(" ", strip=True)[:100]
+    print(f"\n  .{classes}")
+    print(f"    label_el: {label}")
+    print(f"    var_link: {var_href}")
+    print(f"    snippet:  {snippet}")
+
+# ── 9. JSON with var/sku/edition data ──
+sep("JS patterns: var/sku/edition in scripts")
+for pattern, label in [
+    (r'"var"\s*:\s*"?(\d{5,})"?', "var"),
+    (r'"sku"\s*:\s*"(\d{5,})"', "sku"),
+    (r'"edition"\s*:\s*"([^"]{3,50})"', "edition"),
+    (r'\?var=(\d{5,})', "?var= in JS"),
+    (r'"variants"\s*:\s*\[', "variants array"),
+]:
+    matches = re.findall(pattern, html)
+    if matches:
+        print(f"  [{label}]: {matches[:10]}")

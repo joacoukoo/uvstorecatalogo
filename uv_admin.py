@@ -279,6 +279,60 @@ def scrape_shopify(url, html, soup):
                 result["escala"] = variantes[0]["escala"]
     return result
 
+def _detect_sideshow_editions(url, html, soup):
+    """Detect Regular/Deluxe/Exclusive edition variants on Sideshow pages.
+    Returns list of {"label", "fotos"} or [] if single-edition product."""
+    base_url = re.sub(r'\?.*', '', url).rstrip('/')
+    current_sku = (re.search(r'[?&]var=(\d+)', url) or re.search(r'-(\d{6,})/?$', url))
+    current_sku = current_sku.group(1) if current_sku else None
+
+    editions = {}  # sku -> raw label text
+
+    for a in soup.find_all("a", href=True):
+        href = a.get("href", "")
+        if base_url not in href:
+            continue
+        var_m = re.search(r'[?&]var=(\d+)', href)
+        if not var_m:
+            continue
+        sku = var_m.group(1)
+        text = a.get_text(" ", strip=True)
+        # Extract the edition keyword from link text
+        ed_m = re.search(r'\b(deluxe|exclusive|regular|standard|premium|special|dx)\s*(?:version|edition)?\b', text, re.I)
+        if ed_m:
+            editions[sku] = ed_m.group(1).strip().title()
+
+    if not editions:
+        return []
+
+    if len(editions) < 1:
+        return []
+
+    result = []
+    for sku, label in editions.items():
+        # El SKU actual es el producto base — no crear fila de variante para él
+        if sku == current_sku:
+            continue
+        # Find photos for this SKU already embedded in the HTML
+        seen = set()
+        fotos = []
+        pattern = rf'https://www\.sideshow\.com/storage/product-images/{re.escape(sku)}/[^"\'\s\)>]+\.(?:jpg|webp|png)'
+        for img_url in re.findall(pattern, html):
+            img_url = unquote(img_url).split("?")[0]
+            if img_url not in seen:
+                fotos.append(f"https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/{img_url}")
+                seen.add(img_url)
+        # Dedupe by filename
+        unique, fnames = [], set()
+        for p in fotos:
+            fn = p.split("/")[-1]
+            if fn not in fnames:
+                unique.append(p); fnames.add(fn)
+        result.append({"label": label, "fotos": unique[:8]})
+
+    return result
+
+
 def scrape_sideshow(url, html, soup):
     # ── SKU extraction (for photos) ──────────────────────────────────────────
     sku_m = re.search(r'-(\d{6,})\/?(?:\?.*)?$', url)
@@ -320,17 +374,20 @@ def scrape_sideshow(url, html, soup):
         size_info   = meta_el.get("data-product-size","").strip()
         materials_info = meta_el.get("data-product-materials","").strip()
 
+    # ── Scope to visible edition section to avoid mixing two editions' content ──
+    info_scope = soup.select_one(".pdp-info__details.visible") or soup
+
     # ── Description from "About" accordion section ────────────────────────────
     desc = ""
-    about_sec = soup.select_one(".product-details-about .product-details-section__content, "
-                                ".product-details-about .ui-dropdown--content")
+    about_sec = info_scope.select_one(".product-details-about .product-details-section__content, "
+                                      ".product-details-about .ui-dropdown--content")
     if about_sec:
         for tag in about_sec.find_all(["ul","ol","h2","h3","h4"]): tag.extract()
-        desc = about_sec.get_text(" ", strip=True)[:900]
+        desc = about_sec.get_text(" ", strip=True)[:2500]
     if not desc:
         desc = _get_desc(soup)
 
-    # ── Features from all accordion sections ──────────────────────────────────
+    # ── Features from accordion sections (scoped to visible edition) ──────────
     features = []; seen_f = set()
 
     def _add_list_items(container):
@@ -341,12 +398,12 @@ def scrape_sideshow(url, html, soup):
                     seen_f.add(item.lower()); features.append(item)
 
     # Priority 1: "What's In The Box" — most important for collectors
-    in_box = soup.select_one(".product-details-in-the-box")
+    in_box = info_scope.select_one(".product-details-in-the-box")
     if in_box:
         _add_list_items(in_box)
 
     # Priority 2: "Details" and "Additional Details" sections
-    for section in soup.select(".product-details-section"):
+    for section in info_scope.select(".product-details-section"):
         title_el = section.select_one(".product-details-section__title")
         if not title_el: continue
         title = title_el.get_text(strip=True).lower()
@@ -354,7 +411,6 @@ def scrape_sideshow(url, html, soup):
             content = section.select_one(".product-details-section__content, .ui-dropdown--content")
             if content:
                 _add_list_items(content)
-                # Plain text bullets inside the section (non-list)
                 for p in content.find_all("p"):
                     t = p.get_text(strip=True)
                     if len(t) > 8 and t.lower() not in seen_f:
@@ -371,10 +427,8 @@ def scrape_sideshow(url, html, soup):
 
     # ── Delivery date — "Expected to Ship" puede estar en elementos separados ───
     entrega = ""
-    # Buscar el text node que contiene "Expected to Ship" y leer el padre completo
     for node in soup.find_all(string=re.compile(r'Expected\s+to\s+Ship', re.I)):
         parent_text = node.parent.get_text(" ", strip=True) if node.parent else ""
-        # Subir un nivel más si el padre solo tiene el label
         if len(parent_text) < 10 and node.parent and node.parent.parent:
             parent_text = node.parent.parent.get_text(" ", strip=True)
         m = re.search(r'Expected\s+to\s+Ship\s*[:\-]?\s*(.{5,60})', parent_text, re.I)
@@ -391,6 +445,15 @@ def scrape_sideshow(url, html, soup):
     result = _build_result(name, desc, features, unique[:8], _get_escala(html), marca, "", url)
     if entrega:
         result["entrega"] = entrega
+
+    # ── Edition variants (Regular / Deluxe / Exclusive) ───────────────────────
+    editions = _detect_sideshow_editions(url, html, soup)
+    if editions:
+        result["variantes"] = [
+            {"label": ed["label"], "precio": "", "reserva": "",
+             **({"fotos": ed["fotos"]} if ed.get("fotos") else {})}
+            for ed in editions
+        ]
 
     return result
 
@@ -774,17 +837,30 @@ def search_product(catalog, query):
                 results.append({"cat":cat,"idx":i,"product":p})
     return results
 
+USED_IDS_FILE = Path(__file__).parent / "used_ids.json"
+
+def _load_used_ids():
+    if USED_IDS_FILE.exists():
+        with open(USED_IDS_FILE, encoding="utf-8") as f:
+            return set(json.load(f))
+    return set()
+
+def _save_used_id(pid):
+    ids = _load_used_ids()
+    ids.add(pid)
+    with open(USED_IDS_FILE, "w", encoding="utf-8") as f:
+        json.dump(sorted(ids), f, ensure_ascii=False, indent=2)
+
 def _make_product_id(nombre, catalog_all):
     """Genera un slug estable y único para el ID del producto."""
-    # Normalizar: bajar a minúsculas, quitar acentos, reemplazar espacios y caracteres raros
     s = nombre.lower().strip()
     s = unicodedata.normalize("NFD", s)
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn")  # quitar diacríticos
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     s = re.sub(r"-+", "-", s)
     base = s[:60]
-    # Verificar unicidad global
-    existing = set()
+    # IDs activos + IDs históricos (no reusar IDs de productos borrados)
+    existing = _load_used_ids()
     for cat_data in catalog_all.values():
         for prod in (cat_data.get("products", []) if isinstance(cat_data, dict) else []):
             if prod.get("id"):
@@ -821,6 +897,7 @@ def add_product(path, data, categoria, precio, precio_d, reserva, entrega, canti
     if categoria not in catalog:
         catalog[categoria] = {"slug":categoria.lower().replace(" ","-"),"products":[]}
     catalog[categoria]["products"].insert(0, p)
+    _save_used_id(p["id"])
     save_catalog(path, catalog)
     return p
 
@@ -848,7 +925,7 @@ def _call_claude(api_key, prompt, foto_url=None):
             r = requests.post(
                 "https://api.anthropic.com/v1/messages",
                 headers={"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-                json={"model": "claude-haiku-4-5-20251001", "max_tokens": 2400, "system": system_prompt, "messages": _make_messages(use_img)},
+                json={"model": "claude-haiku-4-5-20251001", "max_tokens": 4000, "system": system_prompt, "messages": _make_messages(use_img)},
                 timeout=40,
             )
             r.raise_for_status()
@@ -858,8 +935,12 @@ def _call_claude(api_key, prompt, foto_url=None):
             text = rj["content"][0]["text"].strip()
             if not text:
                 raise ValueError(f"Claude devolvio texto vacio. stop_reason={rj.get('stop_reason')}")
-            m = re.search(r'\[[\s\S]*\]', text)
-            return json.loads(m.group() if m else text)
+            # Parsear solo el primer JSON válido (ignora texto extra después)
+            start = next((i for i, c in enumerate(text) if c in '{['), None)
+            if start is None:
+                raise ValueError("No se encontró JSON en la respuesta")
+            parsed, _ = json.JSONDecoder().raw_decode(text, start)
+            return parsed
         except Exception as e:
             last_err = e
             if not use_img:
@@ -906,8 +987,8 @@ def generate_ai_description(data, api_key):
         f"Escala: {data.get('escala','')}\n"
         f"Descripción scrapeada: {desc_scrapeada[:800]}\n"
         f"Franquicia/universo: {data.get('franquicia','')}\n\n"
-        + (f"Variantes de escala disponibles: {', '.join(v['escala'] for v in data.get('variantes',[]) if v.get('escala'))}\n"
-           f"IMPORTANTE: si hay múltiples escalas, incluí la altura/medida de CADA escala como bullet separado en Especificaciones. Tomá las medidas de las características. No las inventes.\n"
+        + (f"Variantes de escala disponibles: {', '.join(v.get('label') or v.get('escala','') for v in data.get('variantes',[]) if v.get('label') or v.get('escala'))}\n"
+           f"IMPORTANTE: si hay múltiples escalas, incluí la altura/medida de CADA escala como bullet separado en Especificaciones.\n"
            if data.get('variantes') else "")
         + f"Características/specs scrapeadas (LEER COMPLETO — accesorios, vestuario, manos, display están acá):\n"
         + "\n".join(f"  {i+1}. {f}" for i,f in enumerate(features[:40]))
@@ -917,21 +998,19 @@ def generate_ai_description(data, api_key):
         '  {"t":"notion-heading-2","x":"Descripción"},\n'
         '  {"t":"notion-text","x":"Párrafo narrativo sobre el personaje y contexto."},\n'
         '  {"t":"notion-text","x":"Párrafo sobre detalles artísticos o de manufactura."},\n'
-        '  {"t":"notion-text","x":"Párrafo sobre materiales y propuesta de colección."},\n'
         '  {"t":"notion-heading-2","x":"Detalles"},\n'
         '  {"t":"notion-bulleted-list","x":"Línea: ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Fabricante: (el fabricante real, no el retailer)"},\n'
         '  {"t":"notion-bulleted-list","x":"Tipo: ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Género: ..."},\n'
-        '  {"t":"notion-bulleted-list","x":"Afiliación: ..."},\n'
         '  {"t":"notion-heading-2","x":"Especificaciones"},\n'
         '  {"t":"notion-bulleted-list","x":"Altura: ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Escala: ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Materiales: ..."},\n'
         '  {"t":"notion-heading-2","x":"Incluye"},\n'
         '  {"t":"notion-bulleted-list","x":"Cabeza esculpida con likeness de ..."},\n'
-        '  {"t":"notion-bulleted-list","x":"Vestuario: camisa ..., pantalón ..., etc."},\n'
-        '  {"t":"notion-bulleted-list","x":"Accesorios: espada, escudo, etc."},\n'
+        '  {"t":"notion-bulleted-list","x":"Vestuario: ..."},\n'
+        '  {"t":"notion-bulleted-list","x":"Accesorios: ..."},\n'
         '  {"t":"notion-bulleted-list","x":"Manos intercambiables: X pares"},\n'
         '  {"t":"notion-bulleted-list","x":"Base de exhibición"},\n'
         '  {"t":"notion-heading-2","x":"Características"},\n'
@@ -941,9 +1020,7 @@ def generate_ai_description(data, api_key):
         "- Descripción: 2-3 párrafos narrativos, atractivos, en español de Latinoamérica\n"
         "- Omití secciones enteras si no hay datos suficientes para llenarlas\n"
         "- Incluye: es la sección MÁS IMPORTANTE para coleccionistas. Listá TODOS los accesorios,\n"
-        "  prendas de vestuario, opciones de cabeza, manos intercambiables, bases y fondos escénicos\n"
-        "  que aparezcan en las características. No omitir ninguno. Si el scrape tiene sub-categorías\n"
-        "  (Vestuario, Accesorios, Manos, Display) conservalas como bullets separados con ese prefijo.\n"
+        "  prendas de vestuario, opciones de cabeza, manos intercambiables, bases y fondos escénicos.\n"
         "- Características: 5-7 bullets con lo más destacado de la pieza\n"
         f"{invent_rule}\n"
         "- NUNCA pongas bullet de 'Articulación' a menos que las características mencionen explícitamente "
@@ -1096,7 +1173,7 @@ def optimize_content_blocks(product, api_key):
         },
         json={
             "model": "claude-haiku-4-5-20251001",
-            "max_tokens": 2400,
+            "max_tokens": 4000,
             "messages": [{"role": "user", "content": prompt}],
         },
         timeout=40,
@@ -1226,7 +1303,30 @@ class UVAdminApp:
         self._add_oferta    = tk.BooleanVar(value=False)
         self._add_adulto18  = tk.BooleanVar(value=False)
         self._build_ui()
-        self._check_catalog()
+        threading.Thread(target=self._sync_on_start, daemon=True).start()
+
+    def _sync_on_start(self):
+        """Hace git pull al iniciar para asegurar que el catálogo esté actualizado."""
+        self._status("🔄  Sincronizando con GitHub...", ORANGE)
+        try:
+            cwd = str(Path(__file__).parent)
+            r = subprocess.run(
+                ["git", "pull", "--rebase"],
+                cwd=cwd, capture_output=True, text=True, timeout=30
+            )
+            if r.returncode == 0:
+                if "Already up to date" in r.stdout or "Ya está actualizado" in r.stdout:
+                    pass  # sin cambios, _check_catalog mostrará el estado normal
+                else:
+                    self._status("✅  Catálogo sincronizado desde GitHub", GREEN)
+            else:
+                self._status(f"⚠️  No se pudo sincronizar: {r.stderr.strip()[:80]}", ORANGE)
+        except subprocess.TimeoutExpired:
+            self._status("⚠️  Timeout al sincronizar — continuando con copia local", ORANGE)
+        except Exception as e:
+            self._status(f"⚠️  Sin conexión a GitHub: {e}", ORANGE)
+        finally:
+            self.root.after(0, self._check_catalog)
 
     # ── UI BUILD ──────────────────────────────────────────────────────────────
 
@@ -1932,7 +2032,60 @@ class UVAdminApp:
         tk.Entry(row, textvariable=res_var, bg=BG2, fg=TEXT, font=("Helvetica",10),
                  relief="flat", bd=4, insertbackground=TEXT, width=8).pack(side="left", padx=(0,8))
 
-        # Fotos toggle button
+        # ── Cargar variante desde URL (siempre visible) ───────────────────────
+        load_row = tk.Frame(wrap, bg=BG4)
+        load_row.pack(fill="x", padx=6, pady=(2,0))
+        load_url_var = tk.StringVar()
+        load_entry = tk.Entry(load_row, textvariable=load_url_var, bg=BG2, fg=TEXT,
+                              font=("Helvetica",9), relief="flat", bd=4,
+                              insertbackground=TEXT)
+        load_entry.pack(side="left", fill="x", expand=True, padx=(0,4))
+        load_entry.insert(0, "URL de la variante...")
+        load_entry.bind("<FocusIn>",  lambda e: load_entry.delete(0,"end") if load_url_var.get()=="" else None)
+        load_status = tk.Label(load_row, text="", bg=BG4, fg=MUTED, font=("Helvetica",8))
+
+        def _load_variante():
+            page_url = load_url_var.get().strip()
+            if not page_url or page_url == "URL de la variante...":
+                return
+            load_status.config(text="Cargando...")
+            load_status.pack(side="left")
+            def _do():
+                try:
+                    data   = scrape_url(page_url)
+                    fotos  = data.get("fotos") or []
+                    blocks = []
+                    api_key = self.cfg.get("anthropic_api_key", "").strip()
+                    if api_key:
+                        self.root.after(0, lambda: load_status.config(text="Generando descripción con IA..."))
+                        blocks = generate_ai_description(data, api_key)
+                    desc     = data.get("descripcion") or ""
+                    features = data.get("features") or []
+                    self.root.after(0, lambda f=fotos, d=desc, ft=features, b=blocks: _apply_variante(f, d, ft, b))
+                except Exception as e:
+                    self.root.after(0, lambda err=str(e): load_status.config(text=f"Error: {err[:60]}"))
+            threading.Thread(target=_do, daemon=True).start()
+
+        def _apply_variante(fotos, desc, features, blocks):
+            if fotos:
+                wrap._fotos = list(fotos)  # reemplazar, no appendear
+            _refresh_fotos_list()
+            wrap._ai_blocks = blocks  # contenido generado por IA para esta variante
+            if blocks:
+                preview = blocks_to_preview(blocks)
+                desc_text.delete("1.0", "end")
+                desc_text.insert("1.0", preview)
+                load_status.config(text=f"✓ {len(wrap._fotos)} fotos + descripción IA")
+            else:
+                load_status.config(text=f"✓ {len(wrap._fotos)} fotos")
+            load_url_var.set("")
+
+        tk.Button(load_row, text="Cargar variante", command=_load_variante,
+                  bg=PURPLE, fg=TEXT, font=("Helvetica",9,"bold"),
+                  relief="flat", padx=8).pack(side="left")
+        load_entry.bind("<Return>", lambda e: _load_variante())
+
+        # ── Fotos panel (colapsable, para gestión manual) ──────────────────────
         fotos_frame = tk.Frame(wrap, bg=BG3)
         fotos_open = [False]
 
@@ -1951,13 +2104,11 @@ class UVAdminApp:
             else:
                 fotos_frame.pack_forget()
         fotos_btn.config(command=_toggle_fotos)
-        fotos_btn.pack(side="left", padx=(4,8))
+        fotos_btn.pack(side="left", padx=(4,4))
         _update_fotos_btn(fotos_btn)
-
         tk.Button(row, text="✕", command=wrap.destroy, bg=BG4, fg=RED,
                   font=("Helvetica",10), relief="flat", padx=4).pack(side="left")
 
-        # ── Fotos panel ──
         listbox = tk.Listbox(fotos_frame, bg=BG2, fg=TEXT, font=("Helvetica",8),
                              selectbackground=PURPLE, height=3, relief="flat")
         listbox.pack(fill="x", padx=4, pady=(4,2))
@@ -1967,16 +2118,16 @@ class UVAdminApp:
             for url in wrap._fotos:
                 listbox.insert("end", url)
             _update_fotos_btn(fotos_btn)
+            load_status.config(text=f"✓ {len(wrap._fotos)} fotos" if wrap._fotos else "")
 
         def _del_selected():
             sel = listbox.curselection()
             if sel:
-                idx = sel[0]
-                wrap._fotos.pop(idx)
+                wrap._fotos.pop(sel[0])
                 _refresh_fotos_list()
 
         add_row = tk.Frame(fotos_frame, bg=BG3)
-        add_row.pack(fill="x", padx=4, pady=(0,4))
+        add_row.pack(fill="x", padx=4, pady=(0,6))
         url_var = tk.StringVar()
         url_entry = tk.Entry(add_row, textvariable=url_var, bg=BG2, fg=TEXT, font=("Helvetica",8),
                              relief="flat", bd=3, insertbackground=TEXT)
@@ -1994,18 +2145,19 @@ class UVAdminApp:
         tk.Button(add_row, text="Quitar sel.", command=_del_selected, bg=BG4, fg=RED,
                   font=("Helvetica",8), relief="flat", padx=4).pack(side="left", padx=(4,0))
 
-        # Descripción propia de la variante
-        tk.Label(fotos_frame, text="Descripción de esta versión (opcional):",
-                 bg=BG3, fg=MUTED, font=("Helvetica",8)).pack(anchor="w", padx=4, pady=(6,2))
-        desc_text = tk.Text(fotos_frame, bg=BG2, fg=TEXT, font=("Helvetica",9),
-                            relief="flat", height=3, wrap="word", insertbackground=TEXT)
-        desc_text.pack(fill="x", padx=4, pady=(0,6))
-        if v and v.get("desc"):
-            desc_text.insert("1.0", v["desc"])
-
         # Pre-populate if existing fotos
         if fotos_list:
             _refresh_fotos_list()
+
+        # Descripción propia de la variante — siempre visible, fuera del panel de fotos
+        desc_row = tk.Frame(wrap, bg=BG4)
+        desc_row.pack(fill="x", padx=6, pady=(0,4))
+        tk.Label(desc_row, text="Desc. versión:", bg=BG4, fg=MUTED, font=("Helvetica",8)).pack(anchor="w")
+        desc_text = tk.Text(desc_row, bg=BG2, fg=TEXT, font=("Helvetica",9),
+                            relief="flat", height=5, wrap="word", insertbackground=TEXT)
+        desc_text.pack(fill="x")
+        if v and v.get("desc"):
+            desc_text.insert("1.0", v["desc"])
 
         wrap._vars = (label_var, price_var, res_var)
         wrap._desc_text = desc_text
@@ -2027,6 +2179,8 @@ class UVAdminApp:
                         desc = child._desc_text.get("1.0", "end").strip()
                         if desc:
                             entry["desc"] = desc
+                    if hasattr(child, "_ai_blocks") and child._ai_blocks:
+                        entry["content"] = child._ai_blocks
                     result.append(entry)
         return result if result else None
 
