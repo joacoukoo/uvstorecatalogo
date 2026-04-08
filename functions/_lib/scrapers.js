@@ -4,7 +4,7 @@ const DOMAIN_PLATFORMS = {
   'lionrocktoyz.com':       'shopify',
   'fanaticanimestore.com':  'bigcommerce',
   'statuecorp.com':         'shopify',
-  'tnsfigures.com':         'shopify',
+  'tnsfigures.com':         'bigcommerce',
   'mondoshop.com':          'shopify',
   'specfictionshop.com':    'shopify',
   'onesixthkit.com':        'opencart',
