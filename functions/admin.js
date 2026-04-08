@@ -316,7 +316,7 @@ async function generateAI(w){
   var foto=getPhotos(w)[0]||'';
   if(!name)return setStatus('⚠️ Ingresá el nombre primero','orange');
   setStatus('⏳ Generando con IA...','orange');
-  var prompt='Sos un experto en figuras de coleccion premium. Para la figura "'+name+'" genera una descripcion atractiva y caracteristicas tecnicas.\nDescripcion actual: '+desc+'\n\nResponde SOLO con JSON sin markdown: {"desc": "descripcion en espanol", "features": "• caracteristica 1\\n• caracteristica 2\\n..."}';
+  var prompt='Sos un experto en figuras de coleccion premium. Para la figura "'+name+'" genera una descripcion atractiva y caracteristicas tecnicas.\\nDescripcion actual: '+desc+'\\n\\nResponde SOLO con JSON sin markdown: {"desc": "descripcion en espanol", "features": "• caracteristica 1\\n• caracteristica 2\\n..."}';
   try{
     var res=await fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:prompt,image_url:foto})});
     var data=await res.json();
@@ -447,7 +447,7 @@ async function optimizeCatalog(){
       var prods=catalog[catKey].products||[];
       for(var i=0;i<prods.length;i++){
         var p=prods[i];if(p.content_ok)continue;
-        var prompt='Sos experto en figuras de coleccion. Mejora el contenido de "'+p.n+'".\nDesc actual: '+(p.desc||'(vacia)')+'\nCaract: '+(p.features||'(vacias)')+'\n\nResponde SOLO con JSON: {"desc":"...","features":"• ...\\n• ..."}';
+        var prompt='Sos experto en figuras de coleccion. Mejora el contenido de "'+p.n+'".\\nDesc actual: '+(p.desc||'(vacia)')+'\\nCaract: '+(p.features||'(vacias)')+'\\n\\nResponde SOLO con JSON: {"desc":"...","features":"• ...\\n• ..."}';
         var r=await fetch('/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt:prompt,image_url:(p.fotos&&p.fotos[0])||''})});
         if(r.ok){var d=await r.json();var m=d.text.match(/\{[\s\S]*\}/);if(m){try{var parsed=JSON.parse(m[0]);if(parsed.desc)p.desc=parsed.desc;if(parsed.features)p.features=parsed.features;p.content_ok=true;count++;setStatus('⏳ Optimizados: '+count+'...','orange');}catch(pe){}}}
       }
