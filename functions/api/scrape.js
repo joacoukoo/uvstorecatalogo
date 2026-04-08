@@ -49,6 +49,15 @@ export async function onRequestPost({ request }) {
   if (!url || !url.startsWith('http')) return json({ error: 'URL invalida' }, 400);
 
   try {
+    // For known Shopify stores, try the JSON API first — avoids bot-detection on HTML fetch
+    const providerEarly = detectProvider(url);
+    if (providerEarly === 'shopify') {
+      try {
+        const result = await scrapeShopify(url, '');
+        if (result.name) return json(result);
+      } catch (_) {}
+    }
+
     const res = await fetchPage(url);
     if (!res.ok) return json({ error: `El sitio respondio ${res.status}` }, 422);
     const html = await res.text();
