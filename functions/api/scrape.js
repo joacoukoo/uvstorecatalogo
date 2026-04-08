@@ -1,4 +1,4 @@
-import { detectProvider, scrapeSideshow, scrapeShopify, scrapeWooCommerce, scrapeBigCommerce, scrapeOpenCart, scrapeEE, scrapeBBTS, scrapeGeneric } from '../_lib/scrapers.js';
+import { detectProvider, scrapeSideshow, scrapeShopify, scrapeWooCommerce, scrapeBigCommerce, scrapeOpenCart, scrapeEE, scrapeBBTS, scrapeGeneric, guessFranquicia as guessFranquiciaProxy, guessEscala as guessEscalaProxy } from '../_lib/scrapers.js';
 
 const FETCH_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -76,13 +76,34 @@ export async function onRequestPost({ request }) {
   if (!url || !url.startsWith('http')) return json({ error: 'URL invalida' }, 400);
 
   try {
-    // For known Shopify stores, try the JSON API first — avoids bot-detection on HTML fetch
+    // For known Shopify stores, try the JSON API first (direct, then via proxy)
     const providerEarly = detectProvider(url);
     if (providerEarly === 'shopify') {
+      // Direct JSON API
       try {
         const result = await scrapeShopify(url, '');
         if (result.name) return json(result);
       } catch (_) {}
+      // JSON API via proxy (for sites that block Cloudflare IPs)
+      const handleMatch = url.match(/\/products\/([^/?#]+)/);
+      if (handleMatch) {
+        try {
+          const jsonUrl = `${new URL(url).origin}/products/${handleMatch[1]}.json`;
+          const proxyRes = await fetch(PROXY_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: jsonUrl }) });
+          if (proxyRes.ok) {
+            const { html: jsonText, status } = await proxyRes.json();
+            if (status < 400) {
+              const { product } = JSON.parse(jsonText);
+              if (product?.title) {
+                const tags = product.tags ? (Array.isArray(product.tags) ? product.tags : product.tags.split(',').map(t=>t.trim())) : [];
+                const photos = (product.images||[]).map(i=>i.src.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/,'$1')).slice(0,8);
+                const name = product.title;
+                return json({ name, price: product.variants?.[0]?.price||'', marca: product.vendor||'', photos, franquicia: guessFranquiciaProxy(name, tags), escala: guessEscalaProxy(name, tags), estado: product.variants?.some(v=>v.available)?'Entrega Inmediata':'Pre-Orden', provider: 'shopify' });
+              }
+            }
+          }
+        } catch (_) {}
+      }
     }
 
     const res = await fetchPage(url);

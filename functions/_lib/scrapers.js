@@ -85,7 +85,7 @@ function htmlToDesc(bodyHtml) {
 }
 
 // Try to guess franquicia from product name / tags
-function guessFranquicia(name, tags = []) {
+export function guessFranquicia(name, tags = []) {
   const known = ['Batman','Superman','Spider-Man','Iron Man','Captain America','Thor','Wolverine','Deadpool',
     'Joker','Wonder Woman','Hulk','Black Panther','Venom','One Piece','Naruto','Dragon Ball','Goku','Luffy',
     'Demon Slayer','Attack on Titan','Star Wars','Mandalorian','Darth Vader','Yoda','Alien','Predator',
@@ -98,7 +98,7 @@ function guessFranquicia(name, tags = []) {
 }
 
 // Try to extract scale from name/tags
-function guessEscala(name, tags = []) {
+export function guessEscala(name, tags = []) {
   const text = name + ' ' + tags.join(' ');
   const m = text.match(/\b(1\s*[:/]\s*\d+(?:\s*scale)?|\d+(?:th|st|rd)[\s-]scale|1\/\d+)\b/i);
   return m ? m[0].replace(/\s+/g, '') : '';
