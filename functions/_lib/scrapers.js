@@ -331,16 +331,26 @@ export function scrapeBigCommerce(url, html) {
   );
   const jsonLd = extractJsonLd(html);
   const ldProduct = jsonLd.find(d => d['@type'] === 'Product');
-  let photos = [];
-  if (ldProduct?.image) {
-    const imgRaw = Array.isArray(ldProduct.image) ? ldProduct.image : [ldProduct.image];
-    photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean).slice(0, 8);
+
+  // Extract all BigCommerce CDN images, deduplicate by image ID (ignoring size variant)
+  // URL pattern: /stencil/WxH/products/ID/IMG_ID/filename.ext
+  const cdnRe = /https?:\/\/cdn\d*\.bigcommerce\.com\/[^"'\s?]+\.(?:jpg|jpeg|webp|png)/gi;
+  const byImgId = new Map();
+  for (const m of html.matchAll(cdnRe)) {
+    const u = m[0];
+    // Extract the image ID segment to deduplicate sizes (e.g. products/4197/37035/filename.jpg)
+    const key = u.replace(/\/stencil\/[^/]+\//, '/stencil//');
+    if (!byImgId.has(key)) byImgId.set(key, u);
+    // Prefer larger size (1280 > 608 > 590 > 250 > 100)
+    else {
+      const cur = byImgId.get(key);
+      const curSize = parseInt(cur.match(/\/stencil\/(\d+)x/)?.[1] || '0');
+      const newSize = parseInt(u.match(/\/stencil\/(\d+)x/)?.[1] || '0');
+      if (newSize > curSize) byImgId.set(key, u);
+    }
   }
-  if (!photos.length) {
-    const cdnImgs = [...html.matchAll(/https?:\/\/cdn\d*\.bigcommerce\.com\/[^"'\s]+\.(?:jpg|jpeg|webp|png)[^"'\s]*/gi)]
-      .map(m => m[0].split('?')[0]);
-    photos = [...new Set(cdnImgs)].slice(0, 8);
-  }
+  // Filter out non-product images (logo, etc.) by requiring /products/ in path
+  let photos = [...byImgId.values()].filter(u => u.includes('/products/')).slice(0, 8);
   if (!photos.length) photos = [ogImage(html)].filter(Boolean);
 
   const price = extractPrice(
