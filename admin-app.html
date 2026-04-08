@@ -743,17 +743,19 @@ async function optimizeCatalog(){
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
-// Auto-calcular reserva como 20% del precio regular
+// Auto-calcular reserva como 20% del precio regular (siempre, en tiempo real)
 (function(){
   function calcReserva(precioId, reservaId) {
     var precio = parseFloat(document.getElementById(precioId).value);
     var reservaEl = document.getElementById(reservaId);
-    if (!isNaN(precio) && precio > 0 && !reservaEl.value) {
+    if (!isNaN(precio) && precio > 0) {
       reservaEl.value = Math.round(precio * 0.2);
+    } else {
+      reservaEl.value = '';
     }
   }
-  document.getElementById('add-precio').addEventListener('change', function(){ calcReserva('add-precio','add-reserva'); });
-  document.getElementById('edit-precio').addEventListener('change', function(){ calcReserva('edit-precio','edit-reserva'); });
+  document.getElementById('add-precio').addEventListener('input', function(){ calcReserva('add-precio','add-reserva'); });
+  document.getElementById('edit-precio').addEventListener('input', function(){ calcReserva('edit-precio','edit-reserva'); });
 })();
 </script>
 </body>
