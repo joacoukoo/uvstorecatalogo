@@ -332,24 +332,27 @@ export function scrapeBigCommerce(url, html) {
   const jsonLd = extractJsonLd(html);
   const ldProduct = jsonLd.find(d => d['@type'] === 'Product');
 
-  // Extract BigCommerce CDN product images from HTML, deduplicate by image file path (ignoring size)
-  // URL pattern: /stencil/WxH/products/ID/IMG_ID/filename.ext
+  // Strategy 1: extract image URLs from anywhere in the HTML (including JSON-encoded in scripts)
+  // BigCommerce embeds product data in stencilBootstrap and data attributes, but JSON-encodes the URLs
+  // so we unescape the HTML first, then scan for CDN URLs
+  const unescaped = html.replace(/\\u002F/gi, '/').replace(/\\/g, '').replace(/&quot;/g, '"');
   const cdnRe = /https?:\/\/cdn\d*\.bigcommerce\.com\/[^"'\s?]+\.(?:jpg|jpeg|webp|png)/gi;
   const byImgId = new Map();
-  for (const m of html.matchAll(cdnRe)) {
-    const u = m[0];
-    if (!u.includes('/products/')) continue; // skip logos, etc.
-    const key = u.replace(/\/stencil\/[^/]+\//, '/stencil//');
-    if (!byImgId.has(key)) byImgId.set(key, u);
-    else {
-      // Prefer larger size
-      const curSize = parseInt(byImgId.get(key).match(/\/stencil\/(\d+)x/)?.[1] || '0');
-      const newSize = parseInt(u.match(/\/stencil\/(\d+)x/)?.[1] || '0');
-      if (newSize > curSize) byImgId.set(key, u);
+  for (const source of [html, unescaped]) {
+    for (const m of source.matchAll(cdnRe)) {
+      const u = m[0];
+      if (!u.includes('/products/')) continue;
+      const key = u.replace(/\/stencil\/[^/]+\//, '/stencil//');
+      if (!byImgId.has(key)) byImgId.set(key, u);
+      else {
+        const curSize = parseInt(byImgId.get(key).match(/\/stencil\/(\d+)x/)?.[1] || '0');
+        const newSize = parseInt(u.match(/\/stencil\/(\d+)x/)?.[1] || '0');
+        if (newSize > curSize) byImgId.set(key, u);
+      }
     }
   }
   let photos = [...byImgId.values()].slice(0, 8);
-  // Fallback: JSON-LD image(s), then og:image
+  // Strategy 2: JSON-LD image(s)
   if (!photos.length && ldProduct?.image) {
     const imgRaw = Array.isArray(ldProduct.image) ? ldProduct.image : [ldProduct.image];
     photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean).slice(0, 8);
