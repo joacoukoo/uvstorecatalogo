@@ -420,6 +420,7 @@ function fillAddForm(data){
   _photos.add.d=[];
   renderPhotos('add','r');
   renderPhotos('add','d');
+  if(data.entrega)setField('add-entrega',data.entrega);
   if(data.estado==='Entrega Inmediata'||data.estado==='Pre-Orden')setField('add-disp',data.estado);
 }
 

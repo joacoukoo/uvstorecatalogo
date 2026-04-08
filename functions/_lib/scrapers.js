@@ -365,8 +365,21 @@ export function scrapeBigCommerce(url, html) {
   );
   const descHtml = rx(html, /class="[^"]*productView-description[^"]*"[^>]*>([\s\S]{0,3000}?)<\/div>/i);
   const desc = descHtml ? htmlToDesc(descHtml) : decodeHtml(rx(html, /<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i));
-  const marca = ldProduct?.brand?.name || '';
-  return { name, price, desc, photos, marca, franquicia: guessFranquicia(name), escala: guessEscala(name), estado: isPreOrder(html) ? 'Pre-Orden' : 'Entrega Inmediata', provider: 'bigcommerce' };
+
+  // Extract specs from definition list (dt/dd pairs) — common in BigCommerce stores like FNC
+  const specs = {};
+  const dlRe = /<dt[^>]*>([\s\S]*?)<\/dt>\s*<dd[^>]*>([\s\S]*?)<\/dd>/gi;
+  let dm;
+  while ((dm = dlRe.exec(html)) !== null) {
+    const key = decodeHtml(dm[1].replace(/<[^>]+>/g, '').replace(/:$/, '').trim().toLowerCase());
+    const val = decodeHtml(dm[2].replace(/<[^>]+>/g, '').trim());
+    if (key && val) specs[key] = val;
+  }
+  const marca = specs['brand'] || ldProduct?.brand?.name || '';
+  const escala = specs['scale'] || guessEscala(name);
+  const entrega = specs['estimated release time'] || specs['release date'] || specs['release time'] || '';
+
+  return { name, price, desc, photos, marca, escala, entrega, franquicia: guessFranquicia(name), estado: isPreOrder(html) ? 'Pre-Orden' : 'Entrega Inmediata', provider: 'bigcommerce' };
 }
 
 export function scrapeOpenCart(url, html) {
