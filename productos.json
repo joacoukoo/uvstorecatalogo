@@ -34617,6 +34617,89 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "godzilla-vs-the-smog-monster-mnqdua8d",
+        "n": "Godzilla vs The Smog Monster",
+        "i": "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP001_198738f7-3602-493c-b3ec-bfefabca68a8.jpg?v=1773352037",
+        "franquicia": "Otros",
+        "marca": "Mondo",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP001_198738f7-3602-493c-b3ec-bfefabca68a8.jpg?v=1773352037",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP002.jpg?v=1773352037",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP003.A.gif?v=1773352037",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP003.B.gif?v=1773352037",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP004.A.jpg?v=1773352037",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP004.B.jpg?v=1773352037",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP005.jpg?v=1773352037",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Godzilla.vs.Hedorah.REG_PP006.jpg?v=1773352037"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Set de colección premium de Mondo que captura el épico enfrentamiento entre Godzilla y Hedorah (The Smog Monster) con detalle cinematográfico excepcional. Cada figura presenta escultura de alta calidad, pintura artesanal meticulosa y accesorios temáticos que recrean fielmente el clásico enfrentamiento de 1971. Una adquisición imprescindible para coleccionistas de kaiju y aficionados al cine tokusatsu de generaciones."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Godzilla ~35-40 cm, Hedorah ~40-45 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12 aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina de poliestireno) con detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura acrílica de grado museo con efectos weathering"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Incluida para ambas figuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg por set"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Godzilla articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Hedorah (The Smog Monster) con efectos visuales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base urbana destruida con edificio dañado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas/extensiones amarillas intercambiables para Hedorah"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de escombros y detalles ambientales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad Mondo"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-08",
+        "reserva": "700",
+        "entrega": "1 mes",
+        "cantidad": "1"
+      },
+      {
         "id": "jon-snow-deluxe-mnqctphn",
         "n": "Jon Snow Deluxe",
         "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/products/4197/images/37035/659803009_1482794463289422_4256432795822353938_n__10293.1774636131.500.750.jpg",
