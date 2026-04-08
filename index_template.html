@@ -1615,19 +1615,20 @@ window.addEventListener("popstate",function(){
   _uvOpenedFromNav=true;
   routeHash(location.hash);
 });
-buildHome();
-// Si la URL tiene ?figura= (link compartido desde redes), abrir modal directamente
-(function(){
-  var qp=new URLSearchParams(location.search);
-  var qfig=qp.get("figura");
-  if(qfig){
-    // Limpiar el query param de la barra sin recargar, luego abrir como hash
-    history.replaceState(null,"",location.pathname+"#figura/"+encodeURIComponent(qfig));
-  }
+// Fetch productos.json fresh before rendering so web-admin changes reflect immediately
+(async function(){
+  try{
+    var _r=await fetch('/productos.json',{cache:'no-cache'});
+    if(_r.ok){var _fresh=await _r.json();if(_fresh&&typeof _fresh==='object')DATA=_fresh;}
+  }catch(_e){}
+  buildHome();
+  (function(){
+    var qp=new URLSearchParams(location.search);
+    var qfig=qp.get("figura");
+    if(qfig){history.replaceState(null,"",location.pathname+"#figura/"+encodeURIComponent(qfig));}
+  })();
+  routeHash(location.hash);
 })();
-// On initial load: if hash is a figura, _uvOpenedFromNav stays false (direct link)
-// If navigating internally, popstate sets it to true before openModal is called
-routeHash(location.hash);
 </script>
 
 <div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
