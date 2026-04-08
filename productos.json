@@ -18,7 +18,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-scale-67af9664caf1f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3cacbcf4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3dd52c7e.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3de8b5ef.jpg"
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3de8b5ef.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-gallery-67af7f07786c0.jpg"
         ],
         "content": [
           {
@@ -1428,25 +1429,13 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/grogu-life-size",
         "marca": "Hot Toys",
         "escala": "1:1 - 38CM",
-        "estado": "Vendido",
-        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "disp": "Vendido",
         "precio": "3800",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura a tamaño real de Grogu basada en la serie de acción The Mandalorian. Una réplica auténtica y detallada del personaje icónico, con escultura de cabeza recién desarrollada y cuerpo articulado."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nFigura a tamaño real de Grogu basada en la serie de acción The Mandalorian. Una réplica auténtica y detallada del personaje icónico, con escultura de cabeza recién desarrollada y cuerpo articulado.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -1457,7 +1446,7 @@
             "x": "Puntos de articulación: 9 puntos de movimiento"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -1485,7 +1474,7 @@
             "x": "Cada pieza de escultura de cabeza está especialmente pintada a mano"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Incluye"
           },
           {
@@ -1501,8 +1490,6 @@
             "x": "Soporte personalizado especialmente diseñado"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
         "oferta": false,
@@ -1517,7 +1504,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912533/hot-toys-star-wars-grogu-life-size-figure-gallery-6808044f1d6a0.jpg"
         ],
         "id": "grogu-life-size",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Batman (1989)",
