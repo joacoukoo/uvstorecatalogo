@@ -245,7 +245,7 @@ function renderPhotos(w){
   c.innerHTML=arr.map(function(url,i){
     return '<div style="position:relative;display:inline-block">' +
       '<img src="'+url+'" style="width:58px;height:58px;object-fit:cover;border-radius:5px;border:1px solid #222;display:block" onerror="this.style.opacity=0.2">' +
-      '<button onclick="removePhoto(\''+w+'\','+i+')" style="position:absolute;top:-5px;right:-5px;background:#e63946;border:none;border-radius:50%;width:17px;height:17px;color:#fff;font-size:10px;cursor:pointer;line-height:17px;text-align:center;padding:0">×</button>' +
+      '<button onclick="removePhoto(\\''+w+'\\',' +i+')" style="position:absolute;top:-5px;right:-5px;background:#e63946;border:none;border-radius:50%;width:17px;height:17px;color:#fff;font-size:10px;cursor:pointer;line-height:17px;text-align:center;padding:0">×</button>' +
     '</div>';
   }).join('');
 }
@@ -371,10 +371,10 @@ function renderProductList(){
       var item=document.createElement('div');
       item.className='product-item';
       var imgSrc=(p.fotos&&p.fotos[0])?p.fotos[0]:(p.i||'');
-      var catEsc=cat.replace(/'/g,"\\'");
+      var catEsc=cat;
       item.innerHTML='<img src="'+imgSrc+'" onerror="this.style.visibility=\'hidden\'">' +
         '<div style="flex:1;min-width:0"><div class="product-item-name">'+(p.n||'(sin nombre)')+'</div><div class="product-item-meta">'+cat+' · Q'+(p.precio||'—')+'</div></div>' +
-        '<button onclick="openEdit(\''+catEsc+'\','+idx+')" class="btn btn-secondary" style="font-size:12px;padding:5px 11px">Editar</button>';
+        '<button onclick="openEdit(\\''+catEsc+'\\',' +idx+')" class="btn btn-secondary" style="font-size:12px;padding:5px 11px">Editar</button>';
       list.appendChild(item);
     }
   }
