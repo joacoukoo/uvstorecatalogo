@@ -643,34 +643,80 @@
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "5500",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
-            "x": "Marvel | TV Series Collection Figura a escala 1:6 deSpider-Man, basada en la serie live-actionSpider-Man. Esta versión presenta unhead sculpt enmascarado de nuevo desarrolloconojos intercambiables, capturando fielmente el look clásico del arácnido televisivo. Con30 puntos de articulación, múltiples manos y accesorios icónicos, es una pieza ideal para recrear poses emblemáticas. Producciónlimitada a 600 unidadesen mercados seleccionados. Características Incluye Manos (11) Vestuario Accesorios"
+            "x": "Figura coleccionable premium de Spider-Man basada en la icónica serie de televisión de 1977, capturando la esencia clásica del arácnido con un nuevo head sculpt enmascarado y ojos intercambiables de alta precisión. Con 30 puntos de articulación y un traje de tela elástica roja y azul meticulosamente elaborado, esta pieza limitada a solo 600 unidades representa un hito imprescindible para coleccionistas de Marvel. Incluye múltiples manos intercambiables y accesorios temáticos que permiten recrear poses emblemáticas del héroe televisivo con autenticidad cinematográfica."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escala1:6Altura: aprox.30 cmCuerpo con30 puntos de articulaciónCabeza enmascarada con2 pares de ojos intercambiablesEdiciónlimitada (600 unidades)"
+            "x": "Altura: 30 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Par de puñosPar de manos gesto “garra”Par de manos golpe tipoknifehandPar de manos adheridas a superficieMano derecha sosteniendo cámaraMano derecha disparando telarañaMano derecha sosteniendo telaraña"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Traje de Spider-Man de una sola pieza en tela elástica roja y azulLanzatelarañasCinturón utilitario"
+            "x": "Material: Cuerpo articulado con cabeza enmascarada, traje de tela elástica, accesorios en plástico y metal"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "CámaraTelaraña cortaTelaraña larga con alambre flexibleTelaraña abiertaTarjeta gráfica transparente con logo de la serieBase especial con logo de la serie y placa con nombre del personaje"
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 600 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 600-700 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "11 pares de manos intercambiables (puños, garras, knife-hand, adherentes, sosteniendo cámara, disparando telaraña, sosteniendo telaraña)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de Spider-Man de una sola pieza en tela elástica roja y azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzatelarañas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cámara fotográfica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Telaraña corta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Telaraña larga con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Telaraña abierta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base especial con logo de la serie"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa con nombre del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta gráfica transparente con logo de la serie"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
@@ -684,7 +730,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3bd23e6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3c2e148.jpg"
         ],
-        "id": "spider-man-1977-exclusive-600-unidades"
+        "id": "spider-man-1977-exclusive-600-unidades",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Ahsoka Tano (Clone Wars)",
@@ -27980,93 +28028,6 @@
   "Estatuas Premium": {
     "slug": "estatuas",
     "products": [
-      {
-        "id": "shinobu-mnqax90c",
-        "n": "Shinobu",
-        "i": "https://statuecorp.com/cdn/shop/files/93d25c194eef620e256365ed25518efc.jpg?v=1775586535",
-        "franquicia": "Anime",
-        "marca": "Wu Jin Studio",
-        "escala": "1:6",
-        "disp": "Pre-Orden",
-        "estado": "Nuevo",
-        "precio": "3400",
-        "fotos": [
-          "https://statuecorp.com/cdn/shop/files/93d25c194eef620e256365ed25518efc.jpg?v=1775586535",
-          "https://statuecorp.com/cdn/shop/files/622d5136a75c5954515ef3d59ea0c128.jpg?v=1775586535",
-          "https://statuecorp.com/cdn/shop/files/540f99fa08cda90f4589a0c81a937857.jpg?v=1775586535",
-          "https://statuecorp.com/cdn/shop/files/f91e761e9db940d808500de313d3a553.jpg?v=1775586535",
-          "https://statuecorp.com/cdn/shop/files/17c1aca9f4967d87020adad2b66371cf.jpg?v=1775586535",
-          "https://statuecorp.com/cdn/shop/files/b0abe5cc72b80135c4d9959967b9b48e.jpg?v=1775586535",
-          "https://statuecorp.com/cdn/shop/files/2dea77f7e5ce1605030e67312aa119ab.jpg?v=1775586535",
-          "https://statuecorp.com/cdn/shop/files/4ae503ab59991f9506b5f1dcd51f4709.jpg?v=1775586535"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Wu Jin - Shinobu es una figura de colección premium que captura la esencia del personaje en su máxima expresión artística, con detalles meticulosos en cada aspecto de su atuendo tradicional y accesorios. Esta edición limitada a solo 99 piezas garantiza la exclusividad y el valor coleccionable, presentando una calidad de factura excepcional característica de StatueCorp. El entorno temático con flores de glicina y efectos luminosos especiales crea una composición visualmente cautivadora que trasciende el límite entre figura y obra de arte."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 28.5 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Profundidad: 16.5 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Ancho: 16 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escala: 1:6"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Edición limitada: 99 piezas"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material: Polistone de alta calidad y resina"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Fabricante: StatueCorp"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Fecha de lanzamiento: Q2 2027"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Figura principal articulada"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base temática con motivo de caracteres orientales"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Efectos de iluminación LED integrados"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Accesorios de arma decorativa"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Flores de glicina decorativas destacables"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-04-08",
-        "reserva": "680",
-        "entrega": "Agosto 2027",
-        "cantidad": "1"
-      },
       {
         "id": "kurosaki-ichigo",
         "n": "Kurosaki Ichigo",
