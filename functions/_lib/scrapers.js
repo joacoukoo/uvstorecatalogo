@@ -233,21 +233,28 @@ export async function scrapeShopify(url, html = '') {
     } catch (_) {}
   }
 
-  // Fallback: use JSON-LD Product data from HTML (most reliable)
+  // Fallback: parse HTML
   if (html) {
+    // Try embedded product JS variables first — more complete image set than JSON-LD
+    const scriptPhotos = extractShopifyScriptImages(html, url);
+
+    // Try JSON-LD for metadata (name, price, desc, marca)
     const jsonLd = extractJsonLd(html);
     const ldProduct = jsonLd.find(d => d['@type'] === 'Product');
     if (ldProduct) {
       const name = decodeHtml(ldProduct.name || '');
-      // Collect all image URLs from JSON-LD
-      const imgRaw = Array.isArray(ldProduct.image) ? ldProduct.image : (ldProduct.image ? [ldProduct.image] : []);
-      const photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean)
-        .map(u => u.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1'))
-        .slice(0, 8);
       const offer = Array.isArray(ldProduct.offers) ? ldProduct.offers[0] : ldProduct.offers;
       const price = offer?.price ? String(offer.price) : '';
       const desc = decodeHtml((ldProduct.description || '').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
       const available = offer?.availability?.includes('InStock') ?? !isPreOrder(html);
+      // Prefer script photos (more complete); fall back to JSON-LD images, then og:image
+      let photos = scriptPhotos;
+      if (!photos.length) {
+        const imgRaw = Array.isArray(ldProduct.image) ? ldProduct.image : (ldProduct.image ? [ldProduct.image] : []);
+        photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean)
+          .map(u => u.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1'))
+          .slice(0, 8);
+      }
       return {
         name, price, desc,
         photos: photos.length ? photos : [ogImage(html)].filter(Boolean),
@@ -258,14 +265,10 @@ export async function scrapeShopify(url, html = '') {
         provider: 'shopify'
       };
     }
-    // Try embedded product JSON in script tags (common in custom Shopify themes like Statuecorp)
-    const shopifyPhotos = extractShopifyScriptImages(html, url);
+
+    // No JSON-LD — use script photos + generic metadata
     const generic = scrapeGeneric(html);
-    if (shopifyPhotos.length) {
-      return { ...generic, photos: shopifyPhotos, provider: 'shopify' };
-    }
-    // Last resort: og:image only
-    return { ...generic, provider: 'shopify' };
+    return { ...generic, photos: scriptPhotos.length ? scriptPhotos : generic.photos, provider: 'shopify' };
   }
   throw new Error('Shopify API bloqueada y no hay HTML disponible');
 }
