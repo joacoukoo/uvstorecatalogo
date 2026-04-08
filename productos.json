@@ -34523,6 +34523,93 @@
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/addc39c1edd3c9bb0fb92801eb184fe8.jpg?v=1774449228"
         ],
         "added_at": "2026-04-06T02:30:35.872Z"
+      },
+      {
+        "id": "shinobu-mnqax90c",
+        "n": "Shinobu",
+        "i": "https://statuecorp.com/cdn/shop/files/93d25c194eef620e256365ed25518efc.jpg?v=1775586535",
+        "franquicia": "Anime",
+        "marca": "Wu Jin Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://statuecorp.com/cdn/shop/files/93d25c194eef620e256365ed25518efc.jpg?v=1775586535",
+          "https://statuecorp.com/cdn/shop/files/622d5136a75c5954515ef3d59ea0c128.jpg?v=1775586535",
+          "https://statuecorp.com/cdn/shop/files/540f99fa08cda90f4589a0c81a937857.jpg?v=1775586535",
+          "https://statuecorp.com/cdn/shop/files/f91e761e9db940d808500de313d3a553.jpg?v=1775586535",
+          "https://statuecorp.com/cdn/shop/files/17c1aca9f4967d87020adad2b66371cf.jpg?v=1775586535",
+          "https://statuecorp.com/cdn/shop/files/b0abe5cc72b80135c4d9959967b9b48e.jpg?v=1775586535",
+          "https://statuecorp.com/cdn/shop/files/2dea77f7e5ce1605030e67312aa119ab.jpg?v=1775586535",
+          "https://statuecorp.com/cdn/shop/files/4ae503ab59991f9506b5f1dcd51f4709.jpg?v=1775586535"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Wu Jin - Shinobu es una figura de colección premium que captura la esencia del personaje en su máxima expresión artística, con detalles meticulosos en cada aspecto de su atuendo tradicional y accesorios. Esta edición limitada a solo 99 piezas garantiza la exclusividad y el valor coleccionable, presentando una calidad de factura excepcional característica de StatueCorp. El entorno temático con flores de glicina y efectos luminosos especiales crea una composición visualmente cautivadora que trasciende el límite entre figura y obra de arte."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone de alta calidad y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: StatueCorp"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con motivo de caracteres orientales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de iluminación LED integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de arma decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Flores de glicina decorativas destacables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-08",
+        "reserva": "680",
+        "entrega": "Agosto 2027",
+        "cantidad": "1"
       }
     ]
   },
