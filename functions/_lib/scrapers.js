@@ -1,5 +1,5 @@
 export function detectProvider(url) {
-  if (/sideshowtoy\.com/i.test(url)) return 'sideshow';
+  if (/sideshow(?:toy)?\.com/i.test(url)) return 'sideshow';
   if (/entertainmentearth\.com/i.test(url)) return 'entertainmentearth';
   if (/bigbadtoystore\.com/i.test(url)) return 'bbts';
   if (/\/products\/[^/?]+/.test(url)) return 'shopify';
