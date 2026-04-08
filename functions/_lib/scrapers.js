@@ -102,19 +102,30 @@ export async function scrapeShopify(url, html = '') {
       const res = await fetch(`${origin}/products/${handleMatch[1]}.json`);
       if (res.ok) {
         const { product } = await res.json();
+        // Clean Shopify size suffixes from image URLs (_480x, _1024x1024, etc.)
+        const photos = (product.images || [])
+          .map(i => i.src.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1'))
+          .slice(0, 8);
         return {
           name: product.title || '',
           price: product.variants?.[0]?.price || '',
           desc: (product.body_html || '').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim(),
-          photos: (product.images || []).map(i=>i.src).slice(0, 8),
+          photos,
           estado: product.variants?.some(v=>v.available) ? 'Entrega Inmediata' : 'Pre-Orden',
           provider: 'shopify'
         };
       }
     } catch (_) { /* fall through to HTML */ }
   }
-  // Fallback: parse from HTML (API blocked or no handle)
-  if (html) return { ...scrapeGeneric(html), provider: 'shopify' };
+  // Fallback: extract Shopify CDN images from HTML
+  if (html) {
+    const generic = scrapeGeneric(html);
+    const cdnImgs = [...html.matchAll(/https?:\/\/cdn\.shopify\.com\/[^"'\s]+\.(?:jpg|jpeg|webp|png)[^"'\s?]*/gi)]
+      .map(m => m[0].replace(/_\d+x\d*(?:@\d+x)?(\.\w+)$/, '$1'))
+      .filter(u => !/(_icon|icon_|logo|badge)/i.test(u));
+    const photos = [...new Set(cdnImgs)].slice(0, 8);
+    return { ...generic, photos: photos.length ? photos : generic.photos, provider: 'shopify' };
+  }
   throw new Error('Shopify API bloqueada y no hay HTML disponible');
 }
 

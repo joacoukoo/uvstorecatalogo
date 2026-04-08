@@ -167,9 +167,13 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <button class="btn btn-secondary" onclick="addPhoto('add','d')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
 
-    <div class="section-title">Contenido</div>
+    <div class="section-title">Contenido — Edicion Regular</div>
     <div class="field"><label class="field-label">Descripcion</label><textarea id="add-desc" placeholder="Descripcion del producto..." style="min-height:90px"></textarea></div>
     <div class="field"><label class="field-label">Caracteristicas <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="add-features" placeholder="Altura: 30 cm&#10;Escala: 1:6&#10;Incluye: accesorios..." style="min-height:100px"></textarea></div>
+
+    <div class="section-title">Contenido — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
+    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="add-desc-d" placeholder="Descripcion de la edicion deluxe..." style="min-height:90px"></textarea></div>
+    <div class="field"><label class="field-label">Caracteristicas Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="add-features-d" placeholder="Altura: 30 cm&#10;Incluye: accesorios exclusivos..." style="min-height:100px"></textarea></div>
     <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="add-yt" placeholder="https://youtube.com/watch?v=..."></div>
 
     <div class="section-title">Flags</div>
@@ -263,9 +267,13 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <button class="btn btn-secondary" onclick="addPhoto('edit','d')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
 
-    <div class="section-title">Contenido</div>
+    <div class="section-title">Contenido — Edicion Regular</div>
     <div class="field"><label class="field-label">Descripcion</label><textarea id="edit-desc" style="min-height:90px"></textarea></div>
     <div class="field"><label class="field-label">Caracteristicas <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="edit-features" style="min-height:100px"></textarea></div>
+
+    <div class="section-title">Contenido — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
+    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="edit-desc-d" style="min-height:90px"></textarea></div>
+    <div class="field"><label class="field-label">Caracteristicas Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">una por linea</span></label><textarea id="edit-features-d" style="min-height:100px"></textarea></div>
     <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="edit-yt"></div>
 
     <div class="section-title">Flags</div>
@@ -407,6 +415,7 @@ function buildAddProduct(){
     agotado_d:getBool('add-agotado-d'),
     added_at:now
   };
+  var cd=buildContent(getTA('add-desc-d'),getTA('add-features-d'));if(cd.length)p.content_d=cd;
   var pd=getField('add-precio-d');if(pd)p.precio_d=pd;
   var po=getField('add-precio-orig');if(po)p.precio_orig=po;
   var rv=getField('add-reserva');if(rv)p.reserva=rv;
@@ -419,7 +428,7 @@ function buildAddProduct(){
 
 function resetAddForm(){
   ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-entrega','add-cantidad','add-yt','add-cat','add-disp','add-estado'].forEach(function(id){setField(id,'');});
-  ['add-desc','add-features'].forEach(function(id){setTA(id,'');});
+  ['add-desc','add-features','add-desc-d','add-features-d'].forEach(function(id){setTA(id,'');});
   ['add-destacado','add-oferta','add-agotado-r','add-agotado-d'].forEach(function(id){setBool(id,false);});
   _photos.add={r:[],d:[]};
   renderPhotos('add','r');renderPhotos('add','d');
@@ -551,6 +560,8 @@ function openEdit(cat,idx){
   setField('edit-yt',p.yt||'');
   setTA('edit-desc',contentToDesc(p.content));
   setTA('edit-features',contentToFeatures(p.content));
+  setTA('edit-desc-d',contentToDesc(p.content_d));
+  setTA('edit-features-d',contentToFeatures(p.content_d));
   setBool('edit-destacado',p.destacado);
   setBool('edit-oferta',p.oferta);
   setBool('edit-agotado-r',p.agotado_r);
@@ -588,6 +599,7 @@ async function saveEdit(){
     fotos:_photos.edit.r.slice(),
     i:_photos.edit.r[0]||p.i||'',
     content:buildContent(getTA('edit-desc'),getTA('edit-features')),
+    content_d:(function(){var c=buildContent(getTA('edit-desc-d'),getTA('edit-features-d'));return c.length?c:undefined;})(),
     destacado:getBool('edit-destacado'),
     oferta:getBool('edit-oferta'),
     agotado_r:getBool('edit-agotado-r'),
