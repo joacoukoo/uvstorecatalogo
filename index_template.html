@@ -1334,6 +1334,25 @@ function _srSetFilter(f){
 }
 
 var _modalProd=null;
+function renderModalContent(contentArr){
+  var contentEl=document.getElementById("modal-content");
+  if(!contentEl)return;
+  contentEl.innerHTML="";
+  if(!contentArr||!contentArr.length)return;
+  contentArr.slice(0,30).forEach(function(b){
+    var el;
+    if(b.t==="notion-heading-2"||b.t==="notion-heading-3"){
+      el=document.createElement("div");el.className="modal-desc-title";el.textContent=b.x;
+    }else if(b.t==="notion-bulleted-list"||b.t==="notion-numbered-list"){
+      var raw=b.x;var items=[];
+      var byNewline=raw.split(/\n+/).map(function(s){return s.trim();}).filter(Boolean);
+      if(byNewline.length>1){items=byNewline;}
+      else{items=raw.split(/\.\s+(?=[A-ZÁÉÍÓÚÑ])/).map(function(s){return s.trim().replace(/\.$/,"");}).filter(Boolean);if(items.length<=1)items=[raw];}
+      items.forEach(function(item){if(item.trim()){var li=document.createElement("div");li.className="modal-desc-bullet";li.textContent=item.trim();contentEl.appendChild(li);}});return;
+    }else{el=document.createElement("div");el.className="modal-desc";el.textContent=b.x;}
+    contentEl.appendChild(el);
+  });
+}
 function modalSetVersion(ver){
   var p=_modalProd;if(!p||!p.precio_d)return;
   var btnR=document.getElementById("modal-ver-reg");
@@ -1342,10 +1361,12 @@ function modalSetVersion(ver){
     btnR.classList.remove("active");btnD.classList.add("active");
     carouselBuild((p.fotos_d&&p.fotos_d.length>0)?p.fotos_d:(p.fotos&&p.fotos.length>0?p.fotos:[p.i]));
     var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+p.precio_d;
+    if(p.content_d&&p.content_d.length)renderModalContent(p.content_d);
   }else{
     btnD.classList.remove("active");btnR.classList.add("active");
     carouselBuild((p.fotos&&p.fotos.length>0)?p.fotos:[p.i]);
     var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+(p.precio||"");
+    renderModalContent(p.content||[]);
   }
 }
 function openModal(p,cat){
@@ -1457,31 +1478,7 @@ function openModal(p,cat){
     d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'"+(prop.id?' id="'+prop.id+'"':"")+">"+prop.value+"</div>";
     propsEl.appendChild(d);
   });
-  var contentEl=document.getElementById("modal-content");contentEl.innerHTML="";
-  if(p.content&&p.content.length){
-    p.content.slice(0,30).forEach(function(b){
-      var el;
-      if(b.t==="notion-heading-2"||b.t==="notion-heading-3"){
-        el=document.createElement("div");el.className="modal-desc-title";el.textContent=b.x;
-      }else if(b.t==="notion-bulleted-list"||b.t==="notion-numbered-list"){
-        // Split only on clear bullet separators, not mid-word capitals
-        var raw=b.x;
-        var items=[];
-        // Try newline split first
-        var byNewline=raw.split(/\n+/).map(function(s){return s.trim();}).filter(Boolean);
-        if(byNewline.length>1){items=byNewline;}
-        else{
-          // Split on sentence-ending punctuation followed by capital
-          items=raw.split(/\.\s+(?=[A-ZÁÉÍÓÚÑ])/).map(function(s){return s.trim().replace(/\.$/,"");}).filter(Boolean);
-          if(items.length<=1)items=[raw]; // No split found, show as-is
-        }
-        items.forEach(function(item){
-          if(item.trim()){var li=document.createElement("div");li.className="modal-desc-bullet";li.textContent=item.trim();contentEl.appendChild(li);}
-        });return;
-      }else{el=document.createElement("div");el.className="modal-desc";el.textContent=b.x;}
-      contentEl.appendChild(el);
-    });
-  }
+  renderModalContent(p.content||[]);
   var ytEl=document.getElementById("modal-yt");ytEl.innerHTML="";
   if(p.yt){
     ytEl.innerHTML="<a href='"+esc(p.yt)+"' target='_blank' rel='noopener'><svg width='20' height='14' viewBox='0 0 20 14' fill='white'><path d='M19.58 2.19A2.49 2.49 0 0 0 17.83.43C16.27 0 10 0 10 0S3.73 0 2.17.43A2.49 2.49 0 0 0 .42 2.19 26 26 0 0 0 0 7a26 26 0 0 0 .42 4.81 2.49 2.49 0 0 0 1.75 1.76C3.73 14 10 14 10 14s6.27 0 7.83-.43a2.49 2.49 0 0 0 1.75-1.76A26 26 0 0 0 20 7a26 26 0 0 0-.42-4.81z'/><polygon points='8,10 13,7 8,4' fill='red'/></svg>Ver en YouTube</a>";
