@@ -94,21 +94,28 @@ export async function scrapeSideshow(url, html) {
   return { name, price, desc: '', photos, estado: isPreOrder(html) ? 'Pre-Orden' : 'Entrega Inmediata', provider: 'sideshow', sku };
 }
 
-export async function scrapeShopify(url) {
+export async function scrapeShopify(url, html = '') {
   const handleMatch = url.match(/\/products\/([^/?#]+)/);
-  if (!handleMatch) throw new Error('No se detectó handle Shopify');
-  const origin = new URL(url).origin;
-  const res = await fetch(`${origin}/products/${handleMatch[1]}.json`);
-  if (!res.ok) throw new Error(`Shopify API: ${res.status}`);
-  const { product } = await res.json();
-  return {
-    name: product.title || '',
-    price: product.variants?.[0]?.price || '',
-    desc: (product.body_html || '').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim(),
-    photos: (product.images || []).map(i=>i.src).slice(0, 8),
-    estado: product.variants?.some(v=>v.available) ? 'Entrega Inmediata' : 'Pre-Orden',
-    provider: 'shopify'
-  };
+  if (handleMatch) {
+    const origin = new URL(url).origin;
+    try {
+      const res = await fetch(`${origin}/products/${handleMatch[1]}.json`);
+      if (res.ok) {
+        const { product } = await res.json();
+        return {
+          name: product.title || '',
+          price: product.variants?.[0]?.price || '',
+          desc: (product.body_html || '').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim(),
+          photos: (product.images || []).map(i=>i.src).slice(0, 8),
+          estado: product.variants?.some(v=>v.available) ? 'Entrega Inmediata' : 'Pre-Orden',
+          provider: 'shopify'
+        };
+      }
+    } catch (_) { /* fall through to HTML */ }
+  }
+  // Fallback: parse from HTML (API blocked or no handle)
+  if (html) return { ...scrapeGeneric(html), provider: 'shopify' };
+  throw new Error('Shopify API bloqueada y no hay HTML disponible');
 }
 
 export function scrapeWooCommerce(url, html) {

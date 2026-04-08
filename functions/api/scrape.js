@@ -49,11 +49,6 @@ export async function onRequestPost({ request }) {
   if (!url || !url.startsWith('http')) return json({ error: 'URL invalida' }, 400);
 
   try {
-    // Shopify can be scraped without fetching HTML first
-    if (detectProvider(url) === 'shopify') {
-      return json(await scrapeShopify(url));
-    }
-
     const res = await fetchPage(url);
     if (!res.ok) return json({ error: `El sitio respondio ${res.status}` }, 422);
     const html = await res.text();
@@ -63,7 +58,7 @@ export async function onRequestPost({ request }) {
 
     let result;
     if (provider === 'sideshow')          result = await scrapeSideshow(url, html);
-    else if (provider === 'shopify')      result = await scrapeShopify(url);
+    else if (provider === 'shopify')      result = await scrapeShopify(url, html);
     else if (provider === 'woocommerce')  result = scrapeWooCommerce(url, html);
     else if (provider === 'bigcommerce')  result = scrapeBigCommerce(url, html);
     else if (provider === 'opencart')     result = scrapeOpenCart(url, html);
