@@ -255,7 +255,7 @@ export async function scrapeSideshow(url, html) {
   }
 
   // 3. Extraer párrafos del bloque "product-details-about" en el HTML
-  if (!desc || desc.length < 80) {
+  if (!desc || desc.length < 400) {
     const aboutIdx2 = html.indexOf('product-details-about');
     if (aboutIdx2 !== -1) {
       const aboutHtml = html.slice(aboutIdx2, aboutIdx2 + 6000);
@@ -270,7 +270,7 @@ export async function scrapeSideshow(url, html) {
   }
 
   // 3b. Fallback: buscar texto largo en plainText después de "About"
-  if (!desc || desc.length < 80) {
+  if (!desc || desc.length < 400) {
     const aboutM = plainText.match(/About\s+(?:the\s+)?[A-Z][^\n]{0,80}\n+([\s\S]{100,1200}?)(?:\n\n|\bWhat.s\b)/i);
     if (aboutM) {
       const clean = aboutM[1].replace(/\s+/g, ' ').trim();
@@ -367,7 +367,7 @@ export async function scrapeSideshow(url, html) {
     `desc:${desc.length}ch`,
     `features:${features.length}`,
     `photos:${photos.length}`,
-    `photo0:${photos[0] ? photos[0].split('/').pop().slice(0,70) : 'none'}`,
+    `photo0:${photos[0] ? photos[0].split('/').pop().slice(0,100) : 'none'}`,
     `aboutIdx:${html.indexOf('product-details-about')}`,
     `inBoxIdx:${html.toLowerCase().indexOf("what's in the box")}`,
     `marca:${marca||'?'}`,
