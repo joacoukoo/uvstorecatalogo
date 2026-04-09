@@ -679,8 +679,8 @@ body::after{
 .marquee-item:last-child{border-right:none}
 .marquee-item:hover{color:var(--text)}
 .marquee-item svg{flex-shrink:0;opacity:.5}
-.brand-logo{height:20px;width:auto;object-fit:contain;flex-shrink:0;background:rgba(255,255,255,.88);border-radius:4px;padding:2px 7px;transition:background .2s;}
-.marquee-item:hover .brand-logo{background:rgba(255,255,255,1);}
+.brand-logo{height:22px;width:auto;object-fit:contain;flex-shrink:0;filter:brightness(0) invert(1);opacity:.55;transition:opacity .2s;}
+.marquee-item:hover .brand-logo{opacity:.85;}
 @keyframes marqueeScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* ── CARD GLOW ON HOVER ── */
