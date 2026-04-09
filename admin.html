@@ -1852,6 +1852,7 @@ async function doAddProduct() {
     await publishCatalog(`Add ${nombre} — UV Store GT Admin (mobile)`);
     toast("Figura agregada y publicada");
     clearAddForm();
+    renderProdList("");
   } catch(e) {
     // Remove from in-memory catalog if publish failed
     catalog[catName].products.pop();

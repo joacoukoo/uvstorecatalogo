@@ -66,16 +66,22 @@ header{
 /* ── MAIN ── */
 main{max-width:860px;margin:0 auto;padding:0 24px 80px;}
 
-/* ── PHOTO PLACEHOLDER ── */
+/* ── PHOTOS ── */
 .photo-block{
   width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;
-  background:var(--bg3);border:1px dashed var(--border);
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  color:var(--muted);font-size:13px;gap:8px;margin:32px 0;
+  margin:32px 0;
 }
-.photo-block svg{opacity:.3}
-.photo-block.portrait{aspect-ratio:3/4;max-width:340px;margin-left:auto;margin-right:auto;}
-.photo-block span{opacity:.5}
+.photo-block img{width:100%;height:100%;object-fit:cover;display:block;}
+
+/* ── GALLERY ── */
+.gallery{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:32px 0;
+}
+@media(max-width:500px){.gallery{grid-template-columns:1fr;}}
+.gallery-item{border-radius:12px;overflow:hidden;aspect-ratio:4/3;}
+.gallery-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s;}
+.gallery-item:hover img{transform:scale(1.04);}
+.gallery-caption{font-size:11px;color:var(--muted);text-align:center;margin-top:8px;letter-spacing:.5px;}
 
 /* ── SECTION BLOCKS ── */
 .block{margin-bottom:48px;}
@@ -178,8 +184,7 @@ main{max-width:860px;margin:0 auto;padding:0 24px 80px;}
 <!-- Foto del showroom -->
 <div style="max-width:860px;margin:0 auto;padding:0 24px">
   <div class="photo-block">
-    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-    <span>Foto del showroom — próximamente</span>
+    <img src="/assets/nosotros/showroom-1.jpeg" alt="Showroom UV Store Guatemala">
   </div>
 </div>
 
@@ -206,8 +211,7 @@ main{max-width:860px;margin:0 auto;padding:0 24px 80px;}
     <div class="block-label">El fundador</div>
     <div class="founder">
       <div class="founder-photo">
-        <!-- Reemplazar con: <img src="URL_FOTO" alt="Joaquin"> -->
-        <span>Foto</span>
+        <img src="/assets/nosotros/joaquin-hulkbuster.jpeg" alt="Joaquin">
       </div>
       <div>
         <div class="founder-name">Joaquin</div>
@@ -234,8 +238,7 @@ main{max-width:860px;margin:0 auto;padding:0 24px 80px;}
 
   <!-- Foto showroom interior -->
   <div class="photo-block">
-    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-    <span>Foto interior showroom — próximamente</span>
+    <img src="/assets/nosotros/showroom-2.jpeg" alt="Interior showroom UV Store">
   </div>
 
   <!-- Diferenciadores -->
@@ -264,6 +267,38 @@ main{max-width:860px;margin:0 auto;padding:0 24px 80px;}
         <div class="diff-text"><strong>Respaldo regional</strong>Parte de una estructura que opera en toda Centroamérica con años de experiencia.</div>
       </li>
     </ul>
+  </div>
+
+  <!-- Galería -->
+  <div class="block">
+    <div class="block-label">Momentos</div>
+    <h2>Pasión por el coleccionismo</h2>
+    <div class="gallery">
+      <div>
+        <div class="gallery-item">
+          <img src="/assets/nosotros/kevin-joaquin.jpeg" alt="Kevin y Joaquin — UV Store GT">
+        </div>
+        <div class="gallery-caption">Kevin &amp; Joaquin — El equipo</div>
+      </div>
+      <div>
+        <div class="gallery-item">
+          <img src="/assets/nosotros/display-figures.jpeg" alt="Stand UV Store — Guatemala Comicon 2023">
+        </div>
+        <div class="gallery-caption">Guatemala Comicon 2023</div>
+      </div>
+      <div>
+        <div class="gallery-item">
+          <img src="/assets/nosotros/joaquin-vegeta.jpeg" alt="Joaquin con figura de Vegeta">
+        </div>
+        <div class="gallery-caption">Coleccionista de corazón</div>
+      </div>
+      <div>
+        <div class="gallery-item">
+          <img src="/assets/nosotros/joaquin-peanuts.jpeg" alt="Joaquin con figura Peanuts">
+        </div>
+        <div class="gallery-caption">Cada pieza tiene su historia</div>
+      </div>
+    </div>
   </div>
 
   <!-- CTA -->
