@@ -222,7 +222,7 @@ export async function scrapeSideshow(url, html) {
   const plainText = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
 
   // 1. __NEXT_DATA__: buscar la cadena de texto más larga que parezca descripción
-  const nextDataM = html.match(/<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/i);
+  const nextDataM = html.match(/<script[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i);
   if (nextDataM) {
     try {
       const ndRaw = nextDataM[1];
@@ -351,11 +351,11 @@ export async function scrapeSideshow(url, html) {
   const _dbg = [
     `sku:${sku||'?'}`,
     `html:${Math.round(html.length/1000)}kb`,
-    `nextData:${nextDataM ? Math.round(nextDataM[1].length/1000)+'kb' : 'NO'}`,
+    `nextData:${nextDataM ? Math.round(nextDataM[1].length/1000)+'kb' : (html.includes('__NEXT_DATA__') ? 'NOMATCH' : 'NO')}`,
     `desc:${desc.length}ch`,
     `features:${features.length}`,
     `photos:${photos.length}`,
-    `photo0:${photos[0] ? photos[0].split('/').pop().slice(0,40) : 'none'}`,
+    `photo0:${photos[0] ? photos[0].split('/').pop().slice(0,70) : 'none'}`,
     `aboutIdx:${html.indexOf('product-details-about')}`,
     `inBoxIdx:${html.toLowerCase().indexOf("what's in the box")}`,
     `marca:${marca||'?'}`,
