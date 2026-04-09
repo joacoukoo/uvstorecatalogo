@@ -414,14 +414,26 @@ function fillAddForm(data){
   setField('add-escala',data.escala||'');
   setField('add-precio',data.price||'');
   if(data.price){var p=parseFloat(data.price);if(!isNaN(p)&&p>0)setField('add-reserva',Math.round(p*0.2));}
-  setTA('add-desc',data.desc||'');
+  // Build description: base desc + features as bullet lines
+  var descParts=[];
+  if(data.desc)descParts.push(data.desc);
+  if(data.features&&data.features.length){
+    var bullets=data.features.map(function(f){return'- '+f;}).join('\n');
+    descParts.push(bullets);
+  }
+  setTA('add-desc',descParts.join('\n'));
   setTA('add-desc-d','');
   _photos.add.r=data.photos||[];
   _photos.add.d=[];
   renderPhotos('add','r');
   renderPhotos('add','d');
   if(data.entrega)setField('add-entrega',data.entrega);
-  if(data.estado==='Entrega Inmediata'||data.estado==='Pre-Orden')setField('add-disp',data.estado);
+  var disp=data.disp||data.estado||'';
+  if(disp==='Entrega Inmediata'||disp==='Pre-Orden')setField('add-disp',disp);
+  // Physical condition: pre-orders are always sealed
+  if(disp==='Pre-Orden')setField('add-estado','Sellado');
+  // Default quantity
+  setField('add-cantidad','2');
 }
 
 function makeId(name){
@@ -483,7 +495,9 @@ async function scrapeUrl(){
     if(!res.ok)throw new Error(data.error);
     fillAddForm(data);
     document.getElementById('add-form').style.display='';
-    setStatus('Datos cargados — revisa y ajusta','green');
+    var dbgMsg='Datos cargados — revisa y ajusta';
+    if(data._dbg)dbgMsg+=' | '+data._dbg;
+    setStatus(dbgMsg,'green');
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
