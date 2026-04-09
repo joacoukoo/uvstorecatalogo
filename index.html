@@ -1280,6 +1280,7 @@ function clearSearchInline(){
   document.getElementById("search-inline-clear").style.display="none";
   var f=document.getElementById("sr-filters");if(f)f.style.display="none";
   _srProds=[];
+  if(new URLSearchParams(location.search).get("q")){history.replaceState(null,"","/");}
 }
 function _norm(s){return(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
 function _prodSearchText(p){
@@ -1292,6 +1293,15 @@ function doSearchInline(q){
   var clr=document.getElementById("search-inline-clear");
   var filters=document.getElementById("sr-filters");
   q=q.trim();
+  // ── URL reflection ──
+  var currentQ=new URLSearchParams(location.search).get("q")||"";
+  if(q.length>=2){
+    if(currentQ===""){history.pushState(null,"","?q="+encodeURIComponent(q));}
+    else{history.replaceState(null,"","?q="+encodeURIComponent(q));}
+  } else if(currentQ!==""){
+    history.replaceState(null,"","/");
+  }
+  // ── end URL reflection ──
   clr.style.display=q.length>0?"block":"none";
   if(q.length<2){
     document.getElementById("search-inline-res").innerHTML="";
@@ -1697,6 +1707,18 @@ window.addEventListener("popstate",function(){
   var modal=document.getElementById("modal");
   if(modal&&modal.classList.contains("open")){return;}
   _uvOpenedFromNav=true;
+  // If back/forward lands on a search URL, restore search view
+  var q=new URLSearchParams(location.search).get("q");
+  if(q&&q.trim().length>=2){
+    openSearchPage();
+    var inp=document.getElementById("search-inline-inp");
+    if(inp){inp.value=q;}
+    doSearchInline(q);
+    return;
+  }
+  // If back/forward leaves search, clear search UI
+  var inp2=document.getElementById("search-inline-inp");
+  if(inp2&&inp2.value){clearSearchInline();}
   routeHash(location.hash);
 });
 // Fetch productos.json fresh before rendering so web-admin changes reflect immediately
@@ -1712,6 +1734,16 @@ window.addEventListener("popstate",function(){
     if(qfig){history.replaceState(null,"",location.pathname+"#figura/"+encodeURIComponent(qfig));}
   })();
   routeHash(location.hash);
+  // Restore search from URL ?q= param
+  (function(){
+    var q=new URLSearchParams(location.search).get("q");
+    if(q&&q.trim().length>=2){
+      openSearchPage();
+      var inp=document.getElementById("search-inline-inp");
+      if(inp){inp.value=q;}
+      doSearchInline(q);
+    }
+  })();
 })();
 
 /* Scroll reveal */
