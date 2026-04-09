@@ -37,7 +37,7 @@ export async function onRequestGet(context) {
   const siteName  = "UV Store GT";
   const title     = `${product.n} — ${siteName}`;
   const fotos     = (product.fotos && product.fotos.length) ? product.fotos : [];
-  const image     = fotos.find(f => f && f.startsWith("http")) || product.i || `${siteUrl}/favicon.png`;
+  const image     = `${siteUrl}/img/${encodeURIComponent(figId)}`;
   const pricePart = product.precio ? ` · Q${product.precio}` : "";
   const metaDesc  = [product.marca, product.escala, product.estado].filter(Boolean).join(" · ") + pricePart;
   const canonical = `${siteUrl}/p/${encodeURIComponent(figId)}`;
@@ -67,7 +67,7 @@ export async function onRequestGet(context) {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": product.n,
-    "image": fotos.length ? fotos.slice(0, 5) : [image],
+    "image": fotos.length ? fotos.slice(0, 5) : [`${siteUrl}/og-image.jpg`],
     "description": descripcion || metaDesc,
     "brand": { "@type": "Brand", "name": product.marca || siteName },
     "offers": {
@@ -100,8 +100,6 @@ export async function onRequestGet(context) {
 <meta property="og:title"        content="${esc(title)}">
 <meta property="og:description"  content="${esc(metaDesc)}">
 <meta property="og:image"        content="${esc(image)}">
-<meta property="og:image:width"  content="800">
-<meta property="og:image:height" content="800">
 <meta property="og:url"          content="${esc(canonical)}">
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:title"       content="${esc(title)}">
