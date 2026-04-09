@@ -34879,6 +34879,92 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "caiman-mnrkcipq",
+        "n": "Caiman",
+        "i": "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-gallery-69d6c5f25499b.jpg",
+        "franquicia": "Anime",
+        "marca": "MegaHouse",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-gallery-69d6c5f25499b.jpg",
+          "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-scale-69d6c5f58a73a.jpg",
+          "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-gallery-69d6c5f29971f.jpg",
+          "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-gallery-69d6c5f2eb51a.jpg",
+          "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-gallery-69d6c5f343f5e.jpg",
+          "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-gallery-69d6c5f3922ce.jpg",
+          "https://www.sideshow.com/storage/product-images/915529/megahouse-dorohedoro-caiman-collectible-figure-gallery-69d6c5f3e1739.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Caiman de la aclamada serie Dorohedoro, esculpida magistralmente por el artista prototipista Atsushi Gojima. Esta pieza de alto valor captura la imponente presencia del personaje con detalles excepcionales en su atuendo, musculatura y accesorios, ofreciendo dos versiones de rostro intercambiables para máxima versatilidad coleccionista. Una adquisición imprescindible para aficionados de dark fantasy y figuras de anime de grado premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/8"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone/Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 800-1000 g aproximado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MegaHouse / Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artista: Atsushi Gojima"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de detalle profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Dorohedoro (manga dark fantasy)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Caiman (1/8 scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable sin máscara"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable con máscara"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de arma/equipo según diseño original"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-09",
+        "reserva": "380",
+        "entrega": "Dic. 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "legoshi-mnrk9qf4",
         "n": "Legoshi",
         "i": "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e6b4c71.jpg",
