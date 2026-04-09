@@ -218,24 +218,29 @@ export async function scrapeSideshow(url, html) {
   // ── Descripción ──
   let desc = '';
 
-  // 1. Intentar __NEXT_DATA__ para descripción completa
+  // Texto limpio del HTML (sin tags) para búsquedas de texto
+  const plainText = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+
+  // 1. __NEXT_DATA__: buscar la cadena de texto más larga que parezca descripción
   const nextDataM = html.match(/<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/i);
   if (nextDataM) {
     try {
-      const nd = JSON.parse(nextDataM[1]);
-      function findDescND(obj, depth) {
-        if (!obj || typeof obj !== 'object' || depth > 8) return '';
-        for (const key of ['description','longDescription','about','overview','bodyHtml','body_html']) {
-          if (typeof obj[key] === 'string' && obj[key].length > 80) return obj[key];
-        }
-        for (const val of Object.values(obj)) {
-          const found = findDescND(val, depth + 1);
-          if (found) return found;
-        }
-        return '';
+      const ndRaw = nextDataM[1];
+      // Buscar todas las strings JSON de más de 120 chars y quedarse con la más larga
+      // que no sea URL, código ni HTML
+      let bestDesc = '';
+      const strRe = /"((?:[^"\\]|\\.){120,})"/g;
+      let sm;
+      while ((sm = strRe.exec(ndRaw)) !== null) {
+        const s = sm[1]
+          .replace(/\\n/g, ' ').replace(/\\t/g, ' ').replace(/\\"/g, '"')
+          .replace(/\\u[\da-f]{4}/gi, '')
+          .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        if (s.startsWith('http') || s.startsWith('/') || s.startsWith('{') ||
+            s.includes('function') || s.includes('\\') || s.split(' ').length < 8) continue;
+        if (s.length > bestDesc.length) bestDesc = s;
       }
-      const ndDesc = findDescND(nd, 0);
-      if (ndDesc) desc = decodeHtml(ndDesc.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()).slice(0, 1200);
+      if (bestDesc.length > 80) desc = bestDesc.slice(0, 1200);
     } catch (_) {}
   }
 
@@ -249,11 +254,11 @@ export async function scrapeSideshow(url, html) {
     }
   }
 
-  // 3. Regex sobre HTML crudo buscando sección "about"
+  // 3. Buscar texto largo en plainText después de "About" heading
   if (!desc || desc.length < 80) {
-    const aboutM = html.match(/class="[^"]*product-details-about[^"]*"[^>]*>([\s\S]{0,3000}?)<\/(?:div|section)/i);
+    const aboutM = plainText.match(/\bAbout\b[\s:]*([A-Z][^.!?]{100,}(?:[.!?][^.!?]{20,}){2,})/);
     if (aboutM) {
-      const clean = decodeHtml(aboutM[1].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
+      const clean = aboutM[1].trim();
       if (clean.length > desc.length) desc = clean.slice(0, 1200);
     }
   }
@@ -292,33 +297,39 @@ export async function scrapeSideshow(url, html) {
     }
   }
 
-  // ── Entrega estimada ──
+  // ── Entrega estimada — buscar en plainText (sin tags HTML) ──
   let entrega = '';
-  const shipM = html.match(/Expected\s+to\s+Ship\s*[:\-]?\s*([A-Za-z]+\s*\d{4}(?:\s*[-–]\s*[A-Za-z]+\s*\d{4})?)/i);
+  const shipM = plainText.match(/Expected\s+to\s+Ship\s*[:\-]?\s*([A-Za-z]+\.?\s+\d{4}(?:\s*[-–—]\s*[A-Za-z]+\.?\s+\d{4})?)/i);
   if (shipM) {
-    const raw = shipM[1].trim().replace(/\*+$/, '');
-    const rangeM2 = raw.match(/([A-Za-z]+\s+\d{4})\s*[-–]\s*([A-Za-z]+\s+\d{4})/);
+    const raw = shipM[1].trim().replace(/[\*\.\s]+$/, '');
+    const rangeM2 = raw.match(/([A-Za-z]+\.?\s+\d{4})\s*[-–—]\s*([A-Za-z]+\.?\s+\d{4})/);
     const dateStr = rangeM2 ? rangeM2[2] : raw;
     const MES = {jan:'Ene.',feb:'Feb.',mar:'Mar.',apr:'Abr.',may:'May.',jun:'Jun.',jul:'Jul.',aug:'Ago.',sep:'Sep.',oct:'Oct.',nov:'Nov.',dec:'Dic.'};
-    const dm = dateStr.match(/([A-Za-z]+)\s+(\d{4})/);
+    const dm = dateStr.match(/([A-Za-z]+)\.?\s+(\d{4})/);
     if (dm) {
       const esp = MES[dm[1].toLowerCase().slice(0, 3)];
       entrega = esp ? `${esp} ${dm[2]}` : dateStr;
     }
   }
 
-  // ── Fotos ──
+  // ── Fotos — deduplicar por nombre de archivo ──
   let photos = [];
   if (sku) {
     const storagePattern = new RegExp(
       `https://www\\.sideshow\\.com/storage/product-images/${sku}/[^"'\\s)>]+\\.(?:jpg|webp|png)`,
       'gi'
     );
+    const seenFile = new Set();
     const found = [...html.matchAll(storagePattern)]
       .map(m => m[0].split('?')[0])
-      .filter(u => !/[_-](?:preview|swatch|icon|thumb|badge|logo)(?:[_.\-]|$)/i.test(u));
-    const cdnUrls = [...new Set(found)].map(u => `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${u}`);
-    photos = cdnUrls.slice(0, 8);
+      .filter(u => {
+        if (/[_-](?:preview|swatch|icon|thumb|badge|logo)(?:[_.\-]|$)/i.test(u)) return false;
+        const fname = u.split('/').pop().toLowerCase();
+        if (seenFile.has(fname)) return false;
+        seenFile.add(fname);
+        return true;
+      });
+    photos = found.map(u => `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${u}`).slice(0, 8);
   }
   if (!photos.length) {
     const allImgs = [...html.matchAll(/https?:\/\/[^"'\s]+\.(?:jpg|jpeg|webp)[^"'\s]*/gi)];
