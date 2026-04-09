@@ -327,9 +327,15 @@ export async function scrapeSideshow(url, html) {
     }
   }
 
-  // ── Fotos — deduplicar por nombre de archivo ──
+  // ── Fotos — excluir imágenes de meta tags (og:image, twitter:image = promo) ──
   let photos = [];
   if (sku) {
+    // Recolectar URLs que aparecen en <meta> tags — son las imágenes promocionales (feature, square, etc.)
+    const metaImgs = new Set();
+    for (const m of html.matchAll(/<meta[^>]+content=["']([^"']+\.(?:jpg|webp|png))[^"']*["']/gi)) {
+      metaImgs.add(m[1].split('?')[0]);
+    }
+
     const storagePattern = new RegExp(
       `https://www\\.sideshow\\.com/storage/product-images/${sku}/[^"'\\s)>]+\\.(?:jpg|webp|png)`,
       'gi'
@@ -338,8 +344,10 @@ export async function scrapeSideshow(url, html) {
     const allFound = [...html.matchAll(storagePattern)]
       .map(m => m[0].split('?')[0])
       .filter(u => {
-        // Filtrar imágenes de tipo preview/thumbnail por nombre de archivo
-        if (/[_-](?:preview|swatch|icon|thumb|badge|logo|hover|rollover|lifestyle|detail|compare|zoom|spin|feature|banner|hero|card|poster)(?:[_.\-]|$)/i.test(u)) return false;
+        // Excluir imágenes que aparecen en meta tags (og:image, twitter:image, etc.)
+        if (metaImgs.has(u)) return false;
+        // Filtrar por nombre de archivo como segunda línea de defensa
+        if (/[_-](?:preview|swatch|icon|thumb|badge|logo|hover|rollover|lifestyle|detail|compare|zoom|spin|feature|banner|hero|card|poster|square)(?:[_.\-]|$)/i.test(u)) return false;
         const fname = u.split('/').pop().toLowerCase();
         if (seenFile.has(fname)) return false;
         seenFile.add(fname);
@@ -348,7 +356,6 @@ export async function scrapeSideshow(url, html) {
     // Priorizar imágenes numeradas (_01, _02, -01, -02 ...) que suelen ser las fotos principales
     const numbered = allFound.filter(u => /[_-]\d{1,3}\.(?:jpg|webp|png)$/i.test(u));
     const chosen = numbered.length ? numbered : allFound;
-    // Usar URLs raw de Sideshow (el admin las muestra con referrerpolicy=no-referrer)
     photos = chosen.slice(0, 8);
   }
   if (!photos.length) {
