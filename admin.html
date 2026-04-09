@@ -1654,10 +1654,8 @@ async function doScrape() {
       setVariantes("add", scraped.variantes);
     }
 
-    const dbg = scraped._debug?.length ? " | " + scraped._debug.join(" | ") : "";
-    status.textContent = `Listo — ${addPhotos.length} fotos, plataforma: ${platform}${dbg}`;
-    // Debug temporal: mostrar en alerta para diagnóstico
-    if (dbg) alert("DEBUG SCRAPER:\n\n" + scraped._debug.join("\n"));
+    const dbg = scraped._debug?.length ? scraped._debug.join(" | ") : "sin debug";
+    status.innerHTML = `Listo — ${addPhotos.length} fotos, plataforma: ${platform}<br><small style="color:#f90;word-break:break-all">${dbg}</small>`;
     toast("Scraping completado");
   } catch(e) {
     status.textContent = "Error: " + e.message;
