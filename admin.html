@@ -436,12 +436,24 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
           <input class="field-input" id="add-precio-d" type="number" placeholder="Dejar vacío si no hay">
         </div>
       </div>
+      <div class="card" style="margin-top:1px">
+        <div class="field-row" style="flex-direction:column;align-items:stretch;gap:8px">
+          <textarea class="field-input" id="add-desc-d" rows="3" placeholder="Descripción Deluxe (qué incluye de extra)..."></textarea>
+          <textarea class="field-input" id="add-features-d" rows="4" placeholder="Extras Deluxe (un bullet por línea)..."></textarea>
+          <button class="btn-sm btn-sm-accent" onclick="doAiDesc('add','deluxe')">✦ Generar con IA (Deluxe)</button>
+        </div>
+      </div>
       <div class="card" style="padding:12px;margin-top:1px">
         <p style="font-size:13px;color:var(--sub);margin-bottom:8px">Fotos Deluxe</p>
         <div class="photo-strip" id="add-photos-d-strip"></div>
-        <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
-          <button class="btn-sm btn-sm-gray" onclick="pickPhotos('add','deluxe')">+ Subir foto</button>
-          <button class="btn-sm btn-sm-gray" onclick="scrapeMorePhotos('add','deluxe')">+ Fotos de URL</button>
+        <div style="margin-top:10px">
+          <div style="display:flex;gap:8px;margin-bottom:8px">
+            <button class="btn-sm btn-sm-gray" onclick="pickPhotos('add','deluxe')">+ Subir foto</button>
+          </div>
+          <div style="display:flex;gap:8px">
+            <input class="field-input" id="add-url-d" type="url" placeholder="URL ficha Deluxe (Sideshow, etc.)">
+            <button class="btn-sm btn-sm-accent" onclick="doScrapeDeluxePhotos('add')" style="white-space:nowrap">Importar fotos</button>
+          </div>
         </div>
       </div>
 
@@ -592,12 +604,24 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
             </label>
           </div>
         </div>
+        <div class="card" style="margin-top:1px">
+          <div class="field-row" style="flex-direction:column;align-items:stretch;gap:8px">
+            <textarea class="field-input" id="ef-desc-d" rows="3" placeholder="Descripción Deluxe (qué incluye de extra)..."></textarea>
+            <textarea class="field-input" id="ef-features-d" rows="4" placeholder="Extras Deluxe (un bullet por línea)..."></textarea>
+            <button class="btn-sm btn-sm-accent" onclick="doAiDesc('ef','deluxe')">✦ Generar con IA (Deluxe)</button>
+          </div>
+        </div>
         <div class="card" style="padding:12px;margin-top:1px">
           <p style="font-size:13px;color:var(--sub);margin-bottom:8px">Fotos Deluxe</p>
           <div class="photo-strip" id="ef-photos-d-strip"></div>
-          <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
-            <button class="btn-sm btn-sm-gray" onclick="pickPhotos('ef','deluxe')">+ Subir foto</button>
-            <button class="btn-sm btn-sm-gray" onclick="scrapeMorePhotos('ef','deluxe')">+ Fotos de URL</button>
+          <div style="margin-top:10px">
+            <div style="display:flex;gap:8px;margin-bottom:8px">
+              <button class="btn-sm btn-sm-gray" onclick="pickPhotos('ef','deluxe')">+ Subir foto</button>
+            </div>
+            <div style="display:flex;gap:8px">
+              <input class="field-input" id="ef-url-d" type="url" placeholder="URL ficha Deluxe (Sideshow, etc.)">
+              <button class="btn-sm btn-sm-accent" onclick="doScrapeDeluxePhotos('ef')" style="white-space:nowrap">Importar fotos</button>
+            </div>
           </div>
         </div>
 
@@ -1707,8 +1731,37 @@ function pickPhotos(prefix, type) {
 }
 
 function scrapeMorePhotos(prefix, type) {
-  const url = document.getElementById("add-url")?.value || "";
-  toast("Las fotos ya fueron cargadas del scraping");
+  toast("Usá el campo de URL Deluxe para importar fotos");
+}
+
+async function doScrapeDeluxePhotos(prefix) {
+  const urlEl = document.getElementById(`${prefix}-url-d`);
+  const url = urlEl?.value.trim();
+  if (!url) { toast("Ingresa la URL de la ficha Deluxe"); return; }
+  toast("Importando fotos Deluxe...");
+  try {
+    let photos = [];
+    const platform = detectPlatform(url);
+    if (platform === "shopify") {
+      const scraped = await scrapeShopify(url);
+      photos = scraped?.fotos || [];
+    } else {
+      const { html, finalUrl } = await fetchViaWorker(url);
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, "text/html");
+      const scraped = platform === "sideshow"
+        ? scrapeSideshow(doc, html, finalUrl)
+        : scrapeGeneric(doc, html);
+      photos = scraped?.fotos || [];
+    }
+    if (!photos.length) { toast("No se encontraron fotos en esa URL"); return; }
+    const arr = prefix === "add" ? addPhotosD : efPhotosD;
+    photos.forEach(p => { if (!arr.includes(p)) arr.push(p); });
+    renderPhotoStrip(`${prefix}-photos-d-strip`, arr, prefix, "deluxe");
+    toast(`${photos.length} fotos Deluxe importadas`);
+  } catch(e) {
+    toast("Error: " + e.message);
+  }
 }
 
 // ══════════════════════════════════════════════
@@ -1754,7 +1807,7 @@ function removePhoto(prefix, type, idx) {
 // ══════════════════════════════════════════════
 // AI DESCRIPTION
 // ══════════════════════════════════════════════
-async function doAiDesc(prefix) {
+async function doAiDesc(prefix, variant = 'regular') {
   if (!cfg.anthropic) { toast("Configura API Anthropic"); return; }
   const nombre    = document.getElementById(`${prefix}-nombre`).value.trim();
   const marca     = document.getElementById(`${prefix}-marca`).value.trim();
@@ -1762,12 +1815,46 @@ async function doAiDesc(prefix) {
   const featuresRaw = document.getElementById(`${prefix}-features`).value.trim();
   const features  = featuresRaw ? featuresRaw.split("\n").filter(Boolean) : [];
   const descRaw   = document.getElementById(`${prefix}-desc`).value.trim();
-
   const variantes = getVariantes(prefix);
-  const userMsg = JSON.stringify({ nombre, marca, escala, features, descripcion_original: descRaw, variantes });
-  toast("Generando descripción...");
+  const isDeluxe  = variant === 'deluxe';
 
-  const sysPrompt = `Eres redactor de fichas para UV Store Guatemala, tienda de figuras de colección premium.
+  let sysPrompt, userMsg;
+
+  if (isDeluxe) {
+    const descDRaw    = document.getElementById(`${prefix}-desc-d`)?.value.trim() || "";
+    const featuresDRaw = document.getElementById(`${prefix}-features-d`)?.value.trim() || "";
+    const featuresD   = featuresDRaw ? featuresDRaw.split("\n").filter(Boolean) : [];
+    userMsg = JSON.stringify({
+      nombre, marca, escala,
+      descripcion_regular: descRaw,
+      caracteristicas_regular: features,
+      descripcion_deluxe_original: descDRaw,
+      extras_deluxe: featuresD,
+      variantes,
+    });
+    sysPrompt = `Eres redactor de fichas para UV Store Guatemala, tienda de figuras de colección premium.
+Se te da el nombre, marca, la descripción/características de la versión regular y los datos de la versión Deluxe.
+Genera una ficha SOLO para la versión Deluxe en español latinoamericano, enfocada en qué la hace especial.
+
+PROCESO:
+1. Escribe 1-2 párrafos sobre qué hace especial a la versión Deluxe (exclusivos, extras, edición limitada).
+2. Lista SOLO los ítems EXCLUSIVOS de la versión Deluxe (no repitas los de la regular).
+
+Responde SOLO con un JSON array:
+[
+  {"t":"notion-text","x":"Párrafo sobre los exclusivos Deluxe."},
+  {"t":"notion-bulleted-list","x":"Accesorio exclusivo 1"},
+  {"t":"notion-bulleted-list","x":"Accesorio exclusivo 2"}
+]
+
+REGLAS:
+- Enfocate SOLO en lo que diferencia o agrega la versión Deluxe.
+- No repitas contenido de la versión regular.
+- NO inventes ítems no mencionados en los datos provistos.
+- Cada bullet = UN solo item exclusivo de Deluxe.`;
+  } else {
+    userMsg = JSON.stringify({ nombre, marca, escala, features, descripcion_original: descRaw, variantes });
+    sysPrompt = `Eres redactor de fichas para UV Store Guatemala, tienda de figuras de colección premium.
 Dado el nombre, marca, escala, características y descripción original (puede estar en inglés), genera una ficha en español latinoamericano.
 
 PROCESO:
@@ -1797,6 +1884,9 @@ REGLAS ESTRICTAS:
 - NO inventes ítems que no estén mencionados en los datos provistos.
 - Para estatuas (Sideshow, Iron Studios, XM Studios, Prime 1 Studio) NO pongas articulaciones a menos que la descripción_original las mencione explícitamente.
 - Cada bullet = UN solo item.`;
+  }
+
+  toast(isDeluxe ? "Generando descripción Deluxe..." : "Generando descripción...");
 
   try {
     if (!cfg.workerUrl) throw new Error("Configura el Worker URL primero");
@@ -1816,20 +1906,24 @@ REGLAS ESTRICTAS:
     const d = await r.json();
     if (!r.ok) throw new Error(d.error?.message || `API error ${r.status}`);
     const text = d.content?.[0]?.text || "";
-    // Parse JSON from response
     const match = text.match(/\[[\s\S]*\]/);
     if (!match) throw new Error("Respuesta inesperada de IA");
     const blocks = JSON.parse(match[0]);
-    // Separate heading2+text blocks into desc textarea, bulleted into features
     let desc = "";
-    const features = [];
+    const featsList = [];
     blocks.forEach(b => {
       if (b.t === "notion-text") desc += (desc ? "\n\n" : "") + b.x;
-      else if (b.t === "notion-bulleted-list") features.push(b.x);
+      else if (b.t === "notion-bulleted-list") featsList.push(b.x);
     });
-    document.getElementById(`${prefix}-desc`).value     = desc;
-    document.getElementById(`${prefix}-features`).value = features.join("\n");
-    toast("Descripción generada");
+    if (isDeluxe) {
+      document.getElementById(`${prefix}-desc-d`).value     = desc;
+      document.getElementById(`${prefix}-features-d`).value = featsList.join("\n");
+      toast("Descripción Deluxe generada");
+    } else {
+      document.getElementById(`${prefix}-desc`).value     = desc;
+      document.getElementById(`${prefix}-features`).value = featsList.join("\n");
+      toast("Descripción generada");
+    }
   } catch(e) {
     toast("Error IA: " + e.message);
   }
@@ -2021,6 +2115,8 @@ async function doAddProduct() {
 
   const desc     = document.getElementById("add-desc").value.trim();
   const features = document.getElementById("add-features").value;
+  const descD    = document.getElementById("add-desc-d").value.trim();
+  const featuresD = document.getElementById("add-features-d").value;
   const precio   = document.getElementById("add-precio").value.trim();
   const precioD  = document.getElementById("add-precio-d").value.trim();
   const reserva  = document.getElementById("add-reserva").value.trim();
@@ -2035,7 +2131,8 @@ async function doAddProduct() {
   const id = makeProductId(nombre, getAllProductIds());
   const fotos = [...addPhotos];
   const fotosD = [...addPhotosD];
-  const content = buildContent(desc, features);
+  const content  = buildContent(desc, features);
+  const contentD = buildContent(descD, featuresD);
 
   const variantes = getVariantes("add");
 
@@ -2057,6 +2154,7 @@ async function doAddProduct() {
     prod.fotos_d = fotosD;
     prod.agotado_r = false;
     prod.agotado_d = false;
+    if (contentD.length) prod.content_d = contentD;
   }
 
   catalog[catName].products.push(prod);
@@ -2075,7 +2173,7 @@ async function doAddProduct() {
 }
 
 function clearAddForm() {
-  ["add-nombre","add-marca","add-franquicia","add-escala","add-precio","add-precio-d","add-reserva","add-entrega","add-desc","add-features","add-url","add-cant"]
+  ["add-nombre","add-marca","add-franquicia","add-escala","add-precio","add-precio-d","add-reserva","add-entrega","add-desc","add-features","add-url","add-cant","add-desc-d","add-features-d","add-url-d"]
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ""; });
   document.getElementById("add-estado").value = "Sellado";
   document.getElementById("add-disp").value = "Entrega Inmediata";
@@ -2147,6 +2245,10 @@ function openEditForm(catName, idx) {
   document.getElementById("ef-desc").value     = desc;
   document.getElementById("ef-features").value = features;
 
+  const { desc: descD, features: featuresD } = extractContent(p.content_d);
+  document.getElementById("ef-desc-d").value     = descD;
+  document.getElementById("ef-features-d").value = featuresD;
+
   efPhotos  = [...(p.fotos   || [])];
   efPhotosD = [...(p.fotos_d || [])];
   renderPhotoStrip("ef-photos-strip",   efPhotos,  "ef", "regular");
@@ -2171,6 +2273,8 @@ async function doSaveProduct() {
 
   const desc     = document.getElementById("ef-desc").value.trim();
   const features = document.getElementById("ef-features").value;
+  const descD    = document.getElementById("ef-desc-d").value.trim();
+  const featuresD = document.getElementById("ef-features-d").value;
   const precio   = document.getElementById("ef-precio").value.trim();
   const precioD  = document.getElementById("ef-precio-d").value.trim();
   const reserva  = document.getElementById("ef-reserva").value.trim();
@@ -2185,7 +2289,8 @@ async function doSaveProduct() {
 
   const fotos  = [...efPhotos];
   const fotosD = [...efPhotosD];
-  const content = buildContent(desc, features);
+  const content  = buildContent(desc, features);
+  const contentD = buildContent(descD, featuresD);
   const variantes = getVariantes("ef");
 
   const oldProd = catalog[catName].products[idx];
@@ -2206,11 +2311,14 @@ async function doSaveProduct() {
     updProd.fotos_d  = fotosD;
     updProd.agotado_r = agotadoR;
     updProd.agotado_d = agotadoD;
+    if (contentD.length) updProd.content_d = contentD;
+    else delete updProd.content_d;
   } else {
     delete updProd.precio_d;
     delete updProd.fotos_d;
     delete updProd.agotado_r;
     delete updProd.agotado_d;
+    delete updProd.content_d;
   }
 
   // Handle category change
