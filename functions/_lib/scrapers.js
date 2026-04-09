@@ -84,17 +84,15 @@ function htmlToDesc(bodyHtml) {
   return parts.join('\n\n');
 }
 
-// Try to guess franquicia from product name / tags
+// Try to guess franquicia from product name / tags — returns admin select values
 export function guessFranquicia(name, tags = []) {
-  const known = ['Batman','Superman','Spider-Man','Iron Man','Captain America','Thor','Wolverine','Deadpool',
-    'Joker','Wonder Woman','Hulk','Black Panther','Venom','One Piece','Naruto','Dragon Ball','Goku','Luffy',
-    'Demon Slayer','Attack on Titan','Star Wars','Mandalorian','Darth Vader','Yoda','Alien','Predator',
-    'Terminator','RoboCop','Transformers','He-Man','Godzilla','King Kong'];
   const text = (name + ' ' + tags.join(' ')).toLowerCase();
-  for (const f of known) {
-    if (text.includes(f.toLowerCase())) return f;
-  }
-  return '';
+  if (/\b(marvel|spider.?man|iron\s*man|hulk|thor|captain\s*america|black\s*panther|wolverine|deadpool|avengers|x.men|venom|ant.?man|doctor\s*strange|daredevil|punisher|ghost\s*rider|black\s*widow|captain\s*marvel|hawkeye|moon\s*knight|shang.?chi)\b/.test(text)) return 'Marvel';
+  if (/\b(batman|superman|wonder\s*woman|aquaman|the\s*flash|green\s*lantern|joker|harley\s*quinn|darkseid|shazam|nightwing|green\s*arrow|lex\s*luthor|cyborg|supergirl|dc\s*comics)\b/.test(text)) return 'DC Comics';
+  if (/\b(star\s*wars|darth\s*vader|luke\s*skywalker|yoda|mandalorian|stormtrooper|boba\s*fett|kylo\s*ren|obi.?wan|jedi|sith|grogu|han\s*solo|princess\s*leia|chewbacca|r2.?d2|c.?3po)\b/.test(text)) return 'Star Wars';
+  if (/\b(dragon\s*ball|naruto|one\s*piece|demon\s*slayer|attack\s*on\s*titan|my\s*hero\s*academia|fullmetal|bleach|sword\s*art|evangelion|gundam|goku|vegeta|luffy|ichigo|jujutsu|chainsaw\s*man|death\s*note|berserk|kimetsu)\b/.test(text)) return 'Anime';
+  if (/\b(god\s*of\s*war|halo|master\s*chief|last\s*of\s*us|resident\s*evil|final\s*fantasy|zelda|mario|sonic|kratos|horizon|cyberpunk|mortal\s*kombat|street\s*fighter|gaming|video\s*game)\b/.test(text)) return 'Gaming';
+  return 'Otros';
 }
 
 // Try to extract scale from name/tags
@@ -180,28 +178,145 @@ export async function scrapeSideshow(url, html) {
   const pathMatch = url.match(/-(\d{6,})\/?(?:\?.*)?$/);
   const sku = (varMatch ? varMatch[1] : pathMatch ? pathMatch[1] : null);
 
+  // ── Nombre ──
   const name = decodeHtml(
     rx(html, /<h1[^>]*class="[^"]*(?:product[_-]?title|pdp[_-]?title)[^"]*"[^>]*>([^<]+)/i) ||
     rx(html, /<h1[^>]*>([^<\n]+)/)
   );
 
+  // ── Precio ──
   let price = rx(html, /"price"\s*:\s*"([\d.]+)"/);
   if (!price) price = extractPrice(rx(html, /class="[^"]*price[^"]*"[^>]*>[^$]*\$([\d,.]+)/i));
 
-  // Description from JSON-LD or og:description
-  const jsonLd = extractJsonLd(html);
-  const ldProduct = jsonLd.find(d => d['@type'] === 'Product');
+  // ── Marca — patrón "by [Brand]" en subtítulo ──
+  let marca = '';
+  const marcaM = html.match(/(?:Scale\s*Figure|Premium\s*Format|Polystone|Statue|Collectible|Figure|Scale)\s+by\s+([A-Z][A-Za-z0-9\s&.]{1,30}?)(?:<|"|\n)/);
+  if (marcaM) marca = marcaM[1].trim();
+  if (!marca) {
+    // Intentar desde JSON embebido
+    const m = html.match(/"(?:brand|manufacturer|makerName)"\s*:\s*"([^"]{2,60})"/i);
+    if (m) marca = m[1].trim();
+  }
+
+  // ── Escala desde texto ──
+  const scaleMap = [
+    [/\bnon[- ]?scale\b/i, 'Non-Scale'],
+    [/\bsixth[\s-]?scale\b/i, '1:6'],
+    [/\bquarter[\s-]?scale\b/i, '1:4'],
+    [/\b1\s*[/:]\s*6\b/i, '1:6'],
+    [/\b1\s*[/:]\s*4\b/i, '1:4'],
+    [/\b1\s*[/:]\s*3\b/i, '1:3'],
+    [/\b1\s*[/:]\s*8\b/i, '1:8'],
+    [/\b1\s*[/:]\s*10\b/i, '1:10'],
+    [/\b1\s*[/:]\s*12\b/i, '1:12'],
+  ];
+  let escala = '';
+  for (const [re, label] of scaleMap) {
+    if (re.test(html)) { escala = label; break; }
+  }
+
+  // ── Descripción ──
   let desc = '';
-  if (ldProduct?.description) desc = decodeHtml(ldProduct.description.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
+
+  // 1. Intentar __NEXT_DATA__ para descripción completa
+  const nextDataM = html.match(/<script[^>]*id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/i);
+  if (nextDataM) {
+    try {
+      const nd = JSON.parse(nextDataM[1]);
+      function findDescND(obj, depth) {
+        if (!obj || typeof obj !== 'object' || depth > 8) return '';
+        for (const key of ['description','longDescription','about','overview','bodyHtml','body_html']) {
+          if (typeof obj[key] === 'string' && obj[key].length > 80) return obj[key];
+        }
+        for (const val of Object.values(obj)) {
+          const found = findDescND(val, depth + 1);
+          if (found) return found;
+        }
+        return '';
+      }
+      const ndDesc = findDescND(nd, 0);
+      if (ndDesc) desc = decodeHtml(ndDesc.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()).slice(0, 1200);
+    } catch (_) {}
+  }
+
+  // 2. JSON-LD Product description
+  if (!desc || desc.length < 80) {
+    const jsonLd = extractJsonLd(html);
+    const ldProduct = jsonLd.find(d => d['@type'] === 'Product');
+    if (ldProduct?.description) {
+      const ldDesc = decodeHtml(ldProduct.description.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
+      if (ldDesc.length > desc.length) desc = ldDesc;
+    }
+  }
+
+  // 3. Regex sobre HTML crudo buscando sección "about"
+  if (!desc || desc.length < 80) {
+    const aboutM = html.match(/class="[^"]*product-details-about[^"]*"[^>]*>([\s\S]{0,3000}?)<\/(?:div|section)/i);
+    if (aboutM) {
+      const clean = decodeHtml(aboutM[1].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
+      if (clean.length > desc.length) desc = clean.slice(0, 1200);
+    }
+  }
+
+  // 4. og:description como fallback final
   if (!desc) desc = decodeHtml(rx(html, /<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i));
 
+  // ── Features: What's In The Box + Specs ──
+  const features = [];
+  const seenF = new Set();
+  function addFeature(text) {
+    const t = text.replace(/\s+/g,' ').trim();
+    if (t.length > 2 && t.length < 300 && !seenF.has(t.toLowerCase())) {
+      seenF.add(t.toLowerCase());
+      features.push(t);
+    }
+  }
+
+  // What's In The Box
+  const inBoxM = html.match(/What.s\s+In\s+The\s+Box[\s\S]{0,500}?<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/i);
+  if (inBoxM) {
+    for (const [, liHtml] of inBoxM[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)) {
+      addFeature(decodeHtml(liHtml.replace(/<[^>]+>/g,' ')));
+    }
+  }
+
+  // Specifications / Additional Details / Details
+  for (const secRe of [
+    /(?:Specifications|Additional\s+Details|Product\s+Details)[\s\S]{0,500}?<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/gi,
+    /class="[^"]*product-details-section[^"]*"[\s\S]{0,200}?<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/gi,
+  ]) {
+    for (const m of html.matchAll(secRe)) {
+      for (const [, liHtml] of m[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)) {
+        addFeature(decodeHtml(liHtml.replace(/<[^>]+>/g,' ')));
+      }
+    }
+  }
+
+  // ── Entrega estimada ──
+  let entrega = '';
+  const shipM = html.match(/Expected\s+to\s+Ship\s*[:\-]?\s*([A-Za-z]+\s*\d{4}(?:\s*[-–]\s*[A-Za-z]+\s*\d{4})?)/i);
+  if (shipM) {
+    const raw = shipM[1].trim().replace(/\*+$/, '');
+    const rangeM2 = raw.match(/([A-Za-z]+\s+\d{4})\s*[-–]\s*([A-Za-z]+\s+\d{4})/);
+    const dateStr = rangeM2 ? rangeM2[2] : raw;
+    const MES = {jan:'Ene.',feb:'Feb.',mar:'Mar.',apr:'Abr.',may:'May.',jun:'Jun.',jul:'Jul.',aug:'Ago.',sep:'Sep.',oct:'Oct.',nov:'Nov.',dec:'Dic.'};
+    const dm = dateStr.match(/([A-Za-z]+)\s+(\d{4})/);
+    if (dm) {
+      const esp = MES[dm[1].toLowerCase().slice(0, 3)];
+      entrega = esp ? `${esp} ${dm[2]}` : dateStr;
+    }
+  }
+
+  // ── Fotos ──
   let photos = [];
   if (sku) {
     const storagePattern = new RegExp(
       `https://www\\.sideshow\\.com/storage/product-images/${sku}/[^"'\\s)>]+\\.(?:jpg|webp|png)`,
       'gi'
     );
-    const found = [...html.matchAll(storagePattern)].map(m => m[0].split('?')[0]);
+    const found = [...html.matchAll(storagePattern)]
+      .map(m => m[0].split('?')[0])
+      .filter(u => !/[_-](?:preview|swatch|icon|thumb|badge|logo)(?:[_.\-]|$)/i.test(u));
     const cdnUrls = [...new Set(found)].map(u => `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${u}`);
     photos = cdnUrls.slice(0, 8);
   }
@@ -211,10 +326,12 @@ export async function scrapeSideshow(url, html) {
     if (!photos.length) { const og = ogImage(html); if (og) photos = [og]; }
   }
 
+  const isPreorder = isPreOrder(html) || !!entrega;
+
   return {
-    name, price, desc, photos,
+    name, price, desc, photos, marca, escala, entrega, features,
     franquicia: guessFranquicia(name),
-    estado: isPreOrder(html) ? 'Pre-Orden' : 'Entrega Inmediata',
+    estado: isPreorder ? 'Pre-Orden' : 'Entrega Inmediata',
     provider: 'sideshow', sku
   };
 }

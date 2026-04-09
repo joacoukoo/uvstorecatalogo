@@ -1576,7 +1576,33 @@ async function doScrape() {
     const platform = detectPlatform(url);
     let scraped = null;
 
-    if (platform === "shopify") {
+    // ── Intentar /api/scrape primero (scraper server-side) ──
+    try {
+      const r = await fetch("/api/scrape", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url }),
+      });
+      const d = await r.json();
+      if (!d.error && d.name) {
+        // Mapear respuesta del servidor al formato que espera el formulario
+        scraped = {
+          nombre:     d.name      || "",
+          marca:      d.marca     || "",
+          escala:     d.escala    || "",
+          entrega:    d.entrega   || "",
+          descripcion:d.desc      || "",
+          features:   Array.isArray(d.features) ? d.features : [],
+          fotos:      Array.isArray(d.photos)   ? d.photos   : [],
+          franquicia: d.franquicia || "",
+          _disp:      d.estado    || "",   // "Pre-Orden" o "Entrega Inmediata"
+          _debug: [`/api/scrape OK · desc=${(d.desc||"").length}ch · features=${(d.features||[]).length} · fotos=${(d.photos||[]).length}`],
+        };
+      }
+    } catch (_) {}
+
+    // ── Fallback: fetchViaWorker + scraper cliente ──
+    if (!scraped && platform === "shopify") {
       scraped = await scrapeShopify(url);
     }
 
@@ -1587,7 +1613,6 @@ async function doScrape() {
         scraped = scrapeSideshow(doc, html, finalUrl);
       } else {
         scraped = scrapeGeneric(doc, html);
-        // BigCommerce: detectar variantes de escala adicional
         if (platform === "bigcommerce") {
           const variantes = _detectBigCommerceScaleVariants(doc, html);
           if (variantes.length > 1) scraped.variantes = variantes;
@@ -1611,15 +1636,12 @@ async function doScrape() {
     const _franqEl = document.getElementById("add-franquicia");
     if (_franqEl) _franqEl.value = detectFranquicia(_searchText);
 
-    // Disponibilidad y estado según si hay fecha de entrega
+    // Disponibilidad y estado
     const _dispEl  = document.getElementById("add-disp");
     const _estadoEl = document.getElementById("add-estado");
-    if (scraped.entrega) {
-      if (_dispEl)   _dispEl.value   = "Pre-Orden";
-      if (_estadoEl) _estadoEl.value = "Sellado";
-    } else {
-      if (_dispEl)   _dispEl.value   = "Entrega Inmediata";
-    }
+    const _isPreOrder = scraped._disp === "Pre-Orden" || !!scraped.entrega;
+    if (_dispEl)   _dispEl.value   = _isPreOrder ? "Pre-Orden" : "Entrega Inmediata";
+    if (_estadoEl && _isPreOrder) _estadoEl.value = "Sellado";
 
     // Cantidad por defecto 2
     const _cantEl = document.getElementById("add-cant");
