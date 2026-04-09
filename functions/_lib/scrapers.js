@@ -254,11 +254,26 @@ export async function scrapeSideshow(url, html) {
     }
   }
 
-  // 3. Buscar texto largo en plainText después de "About" heading
+  // 3. Extraer párrafos del bloque "product-details-about" en el HTML
   if (!desc || desc.length < 80) {
-    const aboutM = plainText.match(/\bAbout\b[\s:]*([A-Z][^.!?]{100,}(?:[.!?][^.!?]{20,}){2,})/);
+    const aboutIdx2 = html.indexOf('product-details-about');
+    if (aboutIdx2 !== -1) {
+      const aboutHtml = html.slice(aboutIdx2, aboutIdx2 + 6000);
+      const paragraphs = [...aboutHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+        .map(m => decodeHtml(m[1].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()))
+        .filter(t => t.length > 40);
+      if (paragraphs.length) {
+        const joined = paragraphs.join(' ');
+        if (joined.length > desc.length) desc = joined.slice(0, 1200);
+      }
+    }
+  }
+
+  // 3b. Fallback: buscar texto largo en plainText después de "About"
+  if (!desc || desc.length < 80) {
+    const aboutM = plainText.match(/About\s+(?:the\s+)?[A-Z][^\n]{0,80}\n+([\s\S]{100,1200}?)(?:\n\n|\bWhat.s\b)/i);
     if (aboutM) {
-      const clean = aboutM[1].trim();
+      const clean = aboutM[1].replace(/\s+/g, ' ').trim();
       if (clean.length > desc.length) desc = clean.slice(0, 1200);
     }
   }
@@ -333,11 +348,8 @@ export async function scrapeSideshow(url, html) {
     // Priorizar imágenes numeradas (_01, _02 ...) que suelen ser las fotos principales
     const numbered = allFound.filter(u => /_\d{1,3}\.(?:jpg|webp|png)$/i.test(u));
     const chosen = numbered.length ? numbered : allFound;
-    // Usar path relativo para cdn-cgi (evitar URL malformada con dominio duplicado)
-    photos = chosen.map(u => {
-      const path = u.replace('https://www.sideshow.com', '');
-      return `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto${path}`;
-    }).slice(0, 8);
+    // Usar URLs raw de Sideshow (el admin las muestra con referrerpolicy=no-referrer)
+    photos = chosen.slice(0, 8);
   }
   if (!photos.length) {
     const allImgs = [...html.matchAll(/https?:\/\/[^"'\s]+\.(?:jpg|jpeg|webp)[^"'\s]*/gi)];
