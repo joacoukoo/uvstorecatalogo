@@ -320,16 +320,24 @@ export async function scrapeSideshow(url, html) {
       'gi'
     );
     const seenFile = new Set();
-    const found = [...html.matchAll(storagePattern)]
+    const allFound = [...html.matchAll(storagePattern)]
       .map(m => m[0].split('?')[0])
       .filter(u => {
-        if (/[_-](?:preview|swatch|icon|thumb|badge|logo)(?:[_.\-]|$)/i.test(u)) return false;
+        // Filtrar imágenes de tipo preview/thumbnail por nombre de archivo
+        if (/[_-](?:preview|swatch|icon|thumb|badge|logo|hover|rollover|lifestyle|detail|compare|zoom|spin)(?:[_.\-]|$)/i.test(u)) return false;
         const fname = u.split('/').pop().toLowerCase();
         if (seenFile.has(fname)) return false;
         seenFile.add(fname);
         return true;
       });
-    photos = found.map(u => `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/${u}`).slice(0, 8);
+    // Priorizar imágenes numeradas (_01, _02 ...) que suelen ser las fotos principales
+    const numbered = allFound.filter(u => /_\d{1,3}\.(?:jpg|webp|png)$/i.test(u));
+    const chosen = numbered.length ? numbered : allFound;
+    // Usar path relativo para cdn-cgi (evitar URL malformada con dominio duplicado)
+    photos = chosen.map(u => {
+      const path = u.replace('https://www.sideshow.com', '');
+      return `https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto${path}`;
+    }).slice(0, 8);
   }
   if (!photos.length) {
     const allImgs = [...html.matchAll(/https?:\/\/[^"'\s]+\.(?:jpg|jpeg|webp)[^"'\s]*/gi)];
@@ -347,6 +355,7 @@ export async function scrapeSideshow(url, html) {
     `desc:${desc.length}ch`,
     `features:${features.length}`,
     `photos:${photos.length}`,
+    `photo0:${photos[0] ? photos[0].split('/').pop().slice(0,40) : 'none'}`,
     `aboutIdx:${html.indexOf('product-details-about')}`,
     `inBoxIdx:${html.toLowerCase().indexOf("what's in the box")}`,
     `marca:${marca||'?'}`,
