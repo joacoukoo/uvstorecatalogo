@@ -9873,6 +9873,105 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "wonder-woman-batman-v-superman-2016-mnqpz2uk",
+        "n": "Wonder Woman Batman v. Superman (2016)",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-WONDER-WOMAN_6e5ee454-efda-4700-a18d-2aa60264ba1f.png?v=1756234489",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-WONDER-WOMAN_6e5ee454-efda-4700-a18d-2aa60264ba1f.png?v=1756234489",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1copy_4026601f-9e0d-431f-957e-6edc66a02c27.jpg?v=1756234611",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2copy_40212ba4-d0a5-48ca-a9b0-d3031065f479.jpg?v=1756234611",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3copy_1a7bbadb-01f0-4364-867a-77e61c1a41ab.jpg?v=1756234611",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4copy_c703d925-2c05-4f01-b656-e47c8ef2c710.jpg?v=1756234611",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5copy_6eb8565c-e00a-447e-bf4e-b8d4a074047c.jpg?v=1756234611",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6copy_697d9ec1-9b07-4229-8621-0fe686d4354b.jpg?v=1756234611",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/7copy_e128ad9d-66b8-4db6-b009-cb1ff96ec8e7.jpg?v=1756234611"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Wonder Woman basada en Batman v Superman (2016), fabricada por INART en escala 1:6 con detalles artesanales excepcionales. Presenta cabeza esculpida con cabello implantado y ojos articulados, cuerpo de silicona totalmente articulado, y acabados en múltiples materiales de alta calidad que capturan la esencia guerrera del personaje. Incluye cinco pares de manos intercambiables y accesorios icónicos como la Lasso de la Verdad, Espada de Atenea y Brazaletes de Sumisión, ideales para coleccionistas exigentes de DC Comics."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33.7 cm (incluyendo base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 11.4 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, lana, silicona, tela, aleación de zinc y otros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza: Cabello implantado con ojos articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo: Silicona totalmente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con cabello implantado y ojos articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado de silicona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 pares de manos intercambiables (relajadas, puños, empuñadura de espada, sosteniendo, abiertas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazaletes de Sumisión (par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada de Atenea"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lasso de la Verdad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con soporte de metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-09",
+        "reserva": "1100",
+        "entrega": "Diciembre 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "lionel-messi-qatar-world-cup-champion",
         "n": "Lionel Messi Qatar World Cup Champion",
         "i": "https://cdn.shopify.com/s/files/1/0876/6554/1421/files/af4283c7aee132f55d3f762220e58462.jpg?v=1755549495",
