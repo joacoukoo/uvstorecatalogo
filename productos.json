@@ -34879,6 +34879,72 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "legoshi-mnrk9qf4",
+        "n": "Legoshi",
+        "i": "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e6b4c71.jpg",
+        "franquicia": "Anime",
+        "marca": "MegaHouse",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e6b4c71.jpg",
+          "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-scale-69d6c8e9ea587.jpg",
+          "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e6e0b20.jpg",
+          "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e7319ca.jpg",
+          "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e779f8c.jpg",
+          "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e7a7adc.jpg",
+          "https://www.sideshow.com/storage/product-images/915530/megahouse-beastars-legoshi-collectible-figure-gallery-69d6c8e802228.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Legoshi del manga/anime BEASTARS, meticulosamente elaborada por MegaHouse en colaboración con Sideshow bajo la supervisión de la creadora Paru Itagaki. Captura la esencia gentil del personaje con textura de pelaje distintiva y volumen impresionante, presentando una pieza de exhibición de alto valor para coleccionistas de anime y admiradores de personajes antropomórficos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: aproximadamente 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MegaHouse en colaboración con Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ropa detallada: Camisa blanca, corbata negra y pantalones negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional con detalles de ojos y expresión facial cuidadosamente renderizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Legoshi"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de ladrillo rojo con acabado realista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-09",
+        "reserva": "300",
+        "entrega": "Dic. 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "jewelry-bonney-the-freest-future-version-mnqzlx5c",
         "n": "Jewelry Bonney (The Freest Future Version)",
         "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915524/megahouse-one-piece-jewelry-bonney-the-freest-future-version-collectible-figure-square.jpg",
