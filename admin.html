@@ -723,15 +723,20 @@ async function ghFetch(apiPath) {
   return r.json();
 }
 
-// Get blob SHA for a file path using Git Tree API (works for files of any size)
-async function getFileSha(filePath) {
+// Get blob SHA + commit SHA for a file path using Git Tree API (works for files of any size)
+// Returns { blobSha, commitSha } so callers can use commitSha for consistent raw downloads.
+async function getFileShaFull(filePath) {
   const branch = cfg.ghBranch || "main";
-  const ref  = await ghFetch(`git/refs/heads/${branch}`);
-  const commit = await ghFetch(`git/commits/${ref.object.sha}`);
+  const ref    = await ghFetch(`git/refs/heads/${branch}`);
+  const commitSha = ref.object.sha;
+  const commit = await ghFetch(`git/commits/${commitSha}`);
   const tree   = await ghFetch(`git/trees/${commit.tree.sha}`);
   const entry  = tree.tree.find(f => f.path === filePath);
   if (!entry) throw new Error(`${filePath} no encontrado`);
-  return entry.sha;
+  return { blobSha: entry.sha, commitSha };
+}
+async function getFileSha(filePath) {
+  return (await getFileShaFull(filePath)).blobSha;
 }
 
 async function ghPut(path, content, sha, message) {
@@ -767,13 +772,13 @@ async function loadCatalog() {
   if (!cfg.ghToken || !cfg.ghRepo) { s.textContent = "Configura GitHub primero."; return; }
   s.textContent = "Paso 1: obteniendo SHA...";
   try {
-    // Get blob SHA via Git Tree API (works for files > 1MB)
-    catalogSha = await getFileSha("productos.json");
+    // Get blob SHA + commit SHA atomically (works for files > 1MB)
+    const { blobSha, commitSha } = await getFileShaFull("productos.json");
+    catalogSha = blobSha;
     s.textContent = `Paso 2: descargando JSON (SHA: ${catalogSha.substring(0,7)})...`;
 
-    // Download raw content (no size limit)
-    const branch = cfg.ghBranch || "main";
-    const rawUrl = `https://raw.githubusercontent.com/${cfg.ghRepo}/${branch}/productos.json?t=${Date.now()}`;
+    // Download raw content using EXACT commit SHA — never stale, always consistent with blobSha
+    const rawUrl = `https://raw.githubusercontent.com/${cfg.ghRepo}/${commitSha}/productos.json`;
     let r;
     try {
       r = await fetch(rawUrl);
@@ -992,6 +997,101 @@ function scrapeSideshow(doc, html, baseUrl) {
     data._debug.push("fotos con SKU: " + data.fotos.length);
   }
 
+  // ── 2b. __NEXT_DATA__ — fuente más rica, parsear antes que DOM ──
+  const nextScript = doc.querySelector('script#__NEXT_DATA__');
+  if (nextScript) {
+    try {
+      const nd = JSON.parse(nextScript.textContent);
+
+      // Búsqueda profunda de un valor por claves candidatas
+      function deepGet(obj, keys, maxDepth) {
+        if (!obj || typeof obj !== 'object' || maxDepth < 0) return undefined;
+        for (const k of keys) {
+          if (k in obj && obj[k] !== null && obj[k] !== undefined && obj[k] !== '') return obj[k];
+        }
+        for (const v of Object.values(obj)) {
+          if (v && typeof v === 'object') {
+            const found = deepGet(v, keys, maxDepth - 1);
+            if (found !== undefined) return found;
+          }
+        }
+        return undefined;
+      }
+
+      // Nombre
+      const ndName = deepGet(nd, ['name','title','productName'], 8);
+      if (ndName && typeof ndName === 'string') data.nombre = ndName.trim();
+
+      // Marca / manufacturer
+      const ndBrand = deepGet(nd, ['brand','manufacturer','makerName'], 8);
+      if (ndBrand && typeof ndBrand === 'string') data.marca = ndBrand.trim();
+
+      // Escala
+      const ndScale = deepGet(nd, ['scale','productScale','scaleLabel'], 8);
+      if (ndScale && typeof ndScale === 'string') data.escala = ndScale.trim();
+
+      // Descripción — puede venir como HTML, la limpiamos
+      const ndDesc = deepGet(nd, ['description','descriptionHtml','body','bodyHtml','overview'], 8);
+      if (ndDesc && typeof ndDesc === 'string') {
+        const clean = stripHtml(ndDesc).replace(/\s+/g,' ').trim();
+        if (clean.length > 30) data.descripcion = clean.slice(0, 1200);
+      }
+
+      // Helper: extraer texto de arrays de strings u objetos con label/value/text/name
+      function extractItems(arr) {
+        if (!Array.isArray(arr)) return [];
+        const out = [];
+        for (const item of arr) {
+          if (!item) continue;
+          if (typeof item === 'string' && item.trim().length > 2) {
+            out.push(item.trim());
+          } else if (typeof item === 'object') {
+            // {label, value} o {name, value} o {key, value}
+            const label = item.label || item.name || item.key || item.title || '';
+            const value = item.value || item.text || item.content || '';
+            if (label && value) out.push(`${label.trim()}: ${value.toString().trim()}`);
+            else if (value) out.push(value.toString().trim());
+            else if (label) out.push(label.trim());
+          }
+        }
+        return out;
+      }
+
+      // What's in the box
+      const inBox = deepGet(nd, ['inTheBox','inBox','boxContents','whatsInTheBox','includes'], 8);
+      for (const item of extractItems(inBox)) {
+        if (!data.features.includes(item)) data.features.push(item);
+      }
+
+      // Specifications / Details / Additional Details
+      for (const key of ['specifications','specs','details','productDetails','additionalDetails','features','productFeatures','attributes']) {
+        const arr = deepGet(nd, [key], 8);
+        if (!arr) continue;
+        // Si es objeto plano {height:'28"', scale:'1:6', ...}
+        if (!Array.isArray(arr) && typeof arr === 'object') {
+          for (const [k, v] of Object.entries(arr)) {
+            if (!v || typeof v === 'object') continue;
+            const line = `${k.charAt(0).toUpperCase()+k.slice(1)}: ${v}`;
+            if (!data.features.includes(line)) data.features.push(line);
+            // Escala desde specs
+            if (/scale/i.test(k) && !data.escala) data.escala = String(v).trim();
+          }
+        } else {
+          for (const item of extractItems(arr)) {
+            if (!data.features.includes(item)) data.features.push(item);
+            // Detectar escala en los items
+            const sm = item.match(/^scale\s*:\s*(.+)/i);
+            if (sm && !data.escala) data.escala = sm[1].trim();
+          }
+        }
+      }
+
+      data._debug.push('__NEXT_DATA__: desc=' + (data.descripcion?'OK':'no') + ' features=' + data.features.length + ' escala=' + (data.escala||'no'));
+    } catch(e) {
+      data._debug.push('__NEXT_DATA__ parse error: ' + e.message.slice(0,50));
+    }
+  }
+
   // ── 3. Metadata desde data-product-* (igual que admin desktop) ──
   const metaEl = doc.querySelector("[data-product-name]");
   if (metaEl) {
@@ -1025,11 +1125,11 @@ function scrapeSideshow(doc, html, baseUrl) {
     ".product-details-about"
   );
   if (aboutEl) {
-    // Eliminar listas y headings del about para quedarnos con texto puro
     const clone = aboutEl.cloneNode(true);
-    clone.querySelectorAll("ul,ol,h2,h3,h4").forEach(el => el.remove());
+    // Sacar solo headings, mantener párrafos y listas para el texto
+    clone.querySelectorAll("h2,h3,h4").forEach(el => el.remove());
     const txt = clone.textContent.replace(/\s+/g, " ").trim();
-    if (txt.length > 20) data.descripcion = txt.slice(0, 900);
+    if (txt.length > 20 && !data.descripcion) data.descripcion = txt.slice(0, 1200);
   }
   // Fallback: og:description
   if (!data.descripcion) {
