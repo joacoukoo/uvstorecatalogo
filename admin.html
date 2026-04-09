@@ -1596,7 +1596,7 @@ async function doScrape() {
           fotos:      Array.isArray(d.photos)   ? d.photos   : [],
           franquicia: d.franquicia || "",
           _disp:      d.estado    || "",   // "Pre-Orden" o "Entrega Inmediata"
-          _debug: [`/api/scrape OK · desc=${(d.desc||"").length}ch · features=${(d.features||[]).length} · fotos=${(d.photos||[]).length}`],
+          _debug: [d._dbg || `/api/scrape OK · desc=${(d.desc||"").length}ch · features=${(d.features||[]).length} · fotos=${(d.photos||[]).length}`],
         };
       }
     } catch (_) {}

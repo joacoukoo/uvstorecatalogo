@@ -339,11 +339,26 @@ export async function scrapeSideshow(url, html) {
 
   const isPreorder = isPreOrder(html) || !!entrega;
 
+  // Debug info para diagnóstico
+  const _dbg = [
+    `sku:${sku||'?'}`,
+    `html:${Math.round(html.length/1000)}kb`,
+    `nextData:${nextDataM ? Math.round(nextDataM[1].length/1000)+'kb' : 'NO'}`,
+    `desc:${desc.length}ch`,
+    `features:${features.length}`,
+    `photos:${photos.length}`,
+    `aboutIdx:${html.indexOf('product-details-about')}`,
+    `inBoxIdx:${html.toLowerCase().indexOf("what's in the box")}`,
+    `marca:${marca||'?'}`,
+    `escala:${escala||'?'}`,
+    `entrega:${entrega||'?'}`,
+  ].join(' | ');
+
   return {
     name, price, desc, photos, marca, escala, entrega, features,
     franquicia: guessFranquicia(name),
     estado: isPreorder ? 'Pre-Orden' : 'Entrega Inmediata',
-    provider: 'sideshow', sku
+    provider: 'sideshow', sku, _dbg
   };
 }
 
