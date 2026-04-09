@@ -9873,6 +9873,96 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "gridman-the-hyper-agent-tokusatsu-color-version-mnrjusto",
+        "n": "Gridman the Hyper Agent (Tokusatsu Color Version)",
+        "i": "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d57126da74a.jpg",
+        "franquicia": "Otros",
+        "marca": "Threezero",
+        "escala": "Non-Scale",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2600",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d57126da74a.jpg",
+          "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-scale-69d5712ac6a57.jpg",
+          "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d5712747ae9.jpg",
+          "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d5712799485.jpg",
+          "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d57127eb599.jpg",
+          "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d5712848eef.jpg",
+          "https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d57128a3160.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura FigZero Gridman the Hyper Agent (Tokusatsu Color Version) de Threezero es una obra maestra de colección que captura la esencia del icónico héroe tokusatsu con un acabado de pintura sombreado inspirado directamente en el traje de la serie televisiva original. Con aproximadamente 40 puntos de articulación, detalles esculpidos de alta precisión, características de iluminación LED en los ojos y el pecho, además de una combinación innovadora de tela y plástico con recubrimiento especial, esta figura de 30cm representa el máximo nivel de autenticidad y calidad coleccionable para fans devotos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm (12 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Non-Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Combinación de tela y plástico con recubrimiento especial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Aproximadamente 40"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Articulaciones de tobillo de doble unión, pintura con estilo sombreado, iluminación LED en ojos y pecho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Threezero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Gridman the Hyper Agent (Tokusatsu)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Plasma Blade Largo con acabado chapado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Plasma Blade Corto con acabado chapado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Barrier Shield con pintura de estilo sombreado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gridman Sword (combinación de Plasma Blade Largo + Barrier Shield)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Thunder Axe (combinación de Plasma Blade Corto + Barrier Shield)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto Grid Beam de nueva escultura acoplable al protector de antebrazo izquierdo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-09",
+        "reserva": "520",
+        "entrega": "May. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "wonder-woman-batman-v-superman-2016-mnqpz2uk",
         "n": "Wonder Woman Batman v. Superman (2016)",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-WONDER-WOMAN_6e5ee454-efda-4700-a18d-2aa60264ba1f.png?v=1756234489",
