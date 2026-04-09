@@ -1656,6 +1656,8 @@ async function doScrape() {
 
     const dbg = scraped._debug?.length ? " | " + scraped._debug.join(" | ") : "";
     status.textContent = `Listo — ${addPhotos.length} fotos, plataforma: ${platform}${dbg}`;
+    // Debug temporal: mostrar en alerta para diagnóstico
+    if (dbg) alert("DEBUG SCRAPER:\n\n" + scraped._debug.join("\n"));
     toast("Scraping completado");
   } catch(e) {
     status.textContent = "Error: " + e.message;
