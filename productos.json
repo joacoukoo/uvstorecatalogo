@@ -9873,6 +9873,83 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "gridman-the-hyper-agent-tokusatsu-color-version-mnqziluy",
+        "n": "Gridman the Hyper Agent (Tokusatsu Color Version)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d57126da74a.jpg",
+        "franquicia": "Anime",
+        "marca": "Threezero",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2600",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d57126da74a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-scale-69d5712ac6a57.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d5712747ae9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d5712799485.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d57127eb599.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915523/threezero-gridman-gridman-the-hyper-agent-tokusatsu-color-version-action-figure-gallery-69d5712848eef.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Gridman the Hyper Agent en su icónica versión Tokusatsu llega como figura de colección premium de Threezero a escala 1:6, capturando cada detalle de este legendario héroe con acabados de pintura profesional y articulación avanzada. Esta figura de coleccionista representa la fusión perfecta entre la nostalgia del tokusatsu clásico y la calidad de manufactura contemporánea, con un nivel de detalle fotográfico en su armadura roja, plateada y dorada. Un must-have para devotos del Gridman Universe y coleccionistas de figuras de acción premium de alto valor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, PVC, tela y metal (componentes metálicos selectos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Múltiples puntos de articulación avanzada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura aplicada a mano con detallado fotográfico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Gridman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables (puños cerrados y abiertos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de efectos especiales (energía/ataques)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-09",
+        "reserva": "520",
+        "entrega": "Junio 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "wonder-woman-batman-v-superman-2016-mnqpz2uk",
         "n": "Wonder Woman Batman v. Superman (2016)",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-WONDER-WOMAN_6e5ee454-efda-4700-a18d-2aa60264ba1f.png?v=1756234489",
