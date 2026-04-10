@@ -38499,6 +38499,99 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "aemeath-mns91j99",
+        "n": "Aemeath",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d0f34163cae17dd8a9fb5db9c0b7f23a7cdcfafb6bdf56b034d21277e76d09a1.avif?v=1775730946",
+        "franquicia": "Adultos",
+        "marca": "MWCB Studio",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d0f34163cae17dd8a9fb5db9c0b7f23a7cdcfafb6bdf56b034d21277e76d09a1.avif?v=1775730946",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9f1062bb0d39d34ed624f882dceea20bba5aae51c4ce9644aceec6a5a297a77d.avif?v=1775730946"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Aemeath es una figura de colección premium en escala 1:6 que captura la esencia de un personaje futurista con un nivel de detalle excepcional. Fabricada por MWCB Studio, esta pieza de 23 cm de altura destaca por su acabado de calidad superior, pintura meticulosa y accesorios temáticos que incluyen una mascota acompañante y elementos ambientales. Una adquisición imprescindible para coleccionistas de figuras premium adultas que buscan piezas edición limitada con valor de inversión."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MWCB Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone con pintura acrílica de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.5-2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Colección Adultos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional con detalles metalizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada de Aemeath (23 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama temática con efectos de hielo/nieve"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mascota acompañante (figura negra con detalles)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de armas/equipamiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Papel secante de protección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-10",
+        "reserva": "800",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "hinata-mns905cj",
         "n": "Hinata",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173030_587__99279.jpg?v=1775730279",
