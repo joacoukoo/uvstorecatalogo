@@ -95,6 +95,19 @@ body{
   overflow-x:hidden;
 }
 
+/* ── ATMOSPHERIC BACKGROUND ── */
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% -10%, rgba(123,47,190,0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 110%, rgba(123,47,190,0.08) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(200,150,62,0.03) 0%, transparent 70%);
+  pointer-events:none;
+  z-index:0;
+}
+
 /* ── GRAIN TEXTURE ── */
 body::after{
   content:'';
@@ -168,11 +181,22 @@ body::after{
   font-size:clamp(56px,8.5vw,108px);
   line-height:.9;letter-spacing:2px;color:#fff;
   margin-bottom:16px;
+  position:relative;
 }
 .hero-title span{
   color:transparent;
   -webkit-text-stroke:2px var(--purple);
-  text-shadow:0 0 60px rgba(123,47,190,0.3);
+  background:linear-gradient(135deg, var(--purple) 0%, #c084fc 40%, var(--pl) 60%, var(--purple) 100%);
+  background-size:300% 300%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  animation:shimmer 6s ease infinite;
+  text-shadow:none;
+}
+@keyframes shimmer{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 .hero-sub{
   font-size:14.5px;color:var(--muted2);font-weight:300;
@@ -195,7 +219,9 @@ body::after{
 .hero-stat:hover{background:var(--bg3)}
 .hero-stat-num{
   font-family:"Bebas Neue",sans-serif;
-  font-size:28px;letter-spacing:1px;color:#fff;line-height:1;
+  font-size:28px;letter-spacing:1px;line-height:1;
+  background:linear-gradient(135deg,#fff 0%,rgba(255,255,255,0.75) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
 }
 .hero-stat-lbl{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:2px}
 
@@ -234,12 +260,12 @@ body::after{
   transition:opacity .3s;
 }
 .cat-card:hover{
-  transform:translateY(-4px);
-  border-color:var(--border3);
-  box-shadow:0 20px 60px rgba(0,0,0,0.5);
+  transform:translateY(-5px);
+  border-color:rgba(123,47,190,0.4);
+  box-shadow:0 24px 64px rgba(0,0,0,0.6), 0 0 40px rgba(123,47,190,0.15);
 }
 .cat-card:hover::before{
-  background:linear-gradient(to top,rgba(0,0,0,0.95) 0%,rgba(0,0,0,0.5) 60%,rgba(0,0,0,0.1) 100%);
+  background:linear-gradient(to top,rgba(10,4,20,0.97) 0%,rgba(40,10,80,0.35) 60%,transparent 100%);
 }
 .cat-card img{
   width:100%;height:100%;object-fit:cover;object-position:center center;
@@ -278,13 +304,24 @@ body::after{
   border:1px solid var(--border);
   border-radius:var(--radius);
   overflow:hidden;cursor:pointer;
-  transition:all .25s ease;
+  transition:border-color .25s ease, transform .25s ease, box-shadow .25s ease;
   position:relative;
+  animation:cardIn .4s ease both;
 }
+@keyframes cardIn{
+  from{opacity:0;transform:translateY(16px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.prod-card:nth-child(2){animation-delay:.04s}
+.prod-card:nth-child(3){animation-delay:.08s}
+.prod-card:nth-child(4){animation-delay:.12s}
+.prod-card:nth-child(5){animation-delay:.16s}
+.prod-card:nth-child(6){animation-delay:.20s}
+.prod-card:nth-child(n+7){animation-delay:.24s}
 .prod-card:hover{
-  border-color:var(--border3);
-  transform:translateY(-4px);
-  box-shadow:0 16px 48px rgba(0,0,0,0.5),0 0 0 1px var(--border2);
+  border-color:rgba(123,47,190,0.5);
+  transform:translateY(-6px);
+  box-shadow:0 20px 60px rgba(0,0,0,0.6), 0 0 30px rgba(123,47,190,0.2), 0 0 0 1px rgba(123,47,190,0.15);
 }
 .prod-card:hover .prod-img{transform:scale(1.03)}
 .prod-img-wrap{overflow:hidden;position:relative}
@@ -299,6 +336,16 @@ body::after{
   content:'';position:absolute;bottom:0;left:0;right:0;height:40%;
   background:linear-gradient(to top,var(--bg2),transparent);
   pointer-events:none;
+  transition:opacity .3s;
+}
+.prod-img-wrap::before{
+  content:'';position:absolute;inset:0;z-index:1;
+  background:rgba(123,47,190,0);
+  transition:background .3s;
+  pointer-events:none;
+}
+.prod-card:hover .prod-img-wrap::before{
+  background:rgba(123,47,190,0.07);
 }
 .prod-info{padding:12px 14px 14px}
 .prod-name{
@@ -308,10 +355,16 @@ body::after{
 }
 .prod-meta{display:flex;align-items:center;justify-content:space-between;gap:6px}
 .prod-price{
-  font-size:15px;font-weight:600;color:var(--gold-l);
+  font-size:15px;font-weight:600;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
   display:flex;align-items:baseline;gap:3px;
 }
-.prod-price span{color:var(--gold);font-size:11px;font-weight:500}
+.prod-price span{
+  background:linear-gradient(135deg,var(--gold),#a06820);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  font-size:11px;font-weight:600;
+}
 .prod-price-empty{font-size:12px;color:var(--muted);font-style:italic}
 .prod-badge{
   font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:4px;
