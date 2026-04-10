@@ -1327,7 +1327,8 @@ function doSearchInline(q){
     return;
   }
   var ql=_norm(q);var results=[];
-  CAT_KEYS.forEach(function(cat){
+  var searchKeys=sessionStorage.getItem("uv_age_ok")==="1"?CAT_KEYS.concat(["Adultos"]):CAT_KEYS;
+  searchKeys.forEach(function(cat){
     var info=DATA[cat];if(!info)return;
     info.products.forEach(function(p){
       if(_prodSearchText(p).indexOf(ql)>=0) results.push({p:p,cat:cat});
@@ -1630,7 +1631,8 @@ function doSearch(q){
   q=q.trim();
   if(q.length<2){el.innerHTML="";qt.textContent="";qc.textContent="";return;}
   var ql=_norm(q);var results=[];
-  CAT_KEYS.forEach(function(cat){
+  var searchKeys=sessionStorage.getItem("uv_age_ok")==="1"?CAT_KEYS.concat(["Adultos"]):CAT_KEYS;
+  searchKeys.forEach(function(cat){
     var info=DATA[cat];if(!info)return;
     info.products.forEach(function(p){
       if(_prodSearchText(p).indexOf(ql)>=0) results.push({p:p,cat:cat});
