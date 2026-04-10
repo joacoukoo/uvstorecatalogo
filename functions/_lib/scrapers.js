@@ -8,8 +8,8 @@ const DOMAIN_PLATFORMS = {
   'mondoshop.com':          'shopify',
   'specfictionshop.com':    'shopify',
   'onesixthkit.com':        'opencart',
-  'entertainmentearth.com': 'generic',
-  'bigbadtoystore.com':     'generic',
+  'entertainmentearth.com': 'entertainmentearth',
+  'bigbadtoystore.com':     'bbts',
   'hottoys.com.hk':         'generic',
 };
 

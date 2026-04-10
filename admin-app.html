@@ -423,7 +423,7 @@ function fillAddForm(data){
   setField('add-marca',data.marca||'');
   setField('add-escala',data.escala||'');
   setField('add-precio',data.price||'');
-  if(data.price){var p=parseFloat(data.price);if(!isNaN(p)&&p>0)setField('add-reserva',Math.round(p*0.2));}
+  if(data.price){var p=parseFloat(data.price);if(!isNaN(p)&&p>0)setField('add-reserva',Math.round(p*RESERVA_FACTOR));}
   // Build description: base desc + features as bullet lines
   var descParts=[];
   if(data.desc)descParts.push(data.desc);
@@ -591,18 +591,47 @@ async function scrapeDeluxePhotos(w){
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
+var RESERVA_FACTOR = 0.2;
+
+async function fetchFreshCatalog() {
+  var res = await fetch('/api/catalog', {cache:'no-store'});
+  return res.json();
+}
+
+async function saveCatalogToGitHub(catalog) {
+  var res = await fetch('/api/catalog', {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify({catalog:catalog})});
+  var result = await res.json();
+  if (!res.ok) throw new Error(result.error);
+  return catalog;
+}
+
+async function findAndMutateCatalog(productId, mutateFn) {
+  var catalog = await fetchFreshCatalog();
+  var found = false;
+  for (var c in catalog) {
+    var prods = catalog[c].products || [];
+    for (var i = 0; i < prods.length; i++) {
+      if (prods[i].id === productId) {
+        mutateFn(catalog, c, prods, i);
+        found = true;
+        break;
+      }
+    }
+    if (found) break;
+  }
+  if (!found) throw new Error('Producto no encontrado');
+  return saveCatalogToGitHub(catalog);
+}
+
 async function saveAdd(){
   var name=getField('add-name');if(!name)return setStatus('El nombre es obligatorio','orange');
   var cat=getField('add-cat');if(!cat)return setStatus('Elegi una categoria','orange');
   setStatus('Guardando...','orange');
   try{
-    var catRes=await fetch('/api/catalog',{cache:'no-store'});
-    var catalog=await catRes.json();
+    var catalog=await fetchFreshCatalog();
     if(!catalog[cat])catalog[cat]={products:[]};
     catalog[cat].products.unshift(buildAddProduct());
-    var saveRes=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
-    var result=await saveRes.json();
-    if(!saveRes.ok)throw new Error(result.error);
+    await saveCatalogToGitHub(catalog);
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
     _catalog=null;
     resetAddForm();
@@ -734,26 +763,10 @@ async function saveEdit(){
   var newCat=getField('edit-cat');
   setStatus('Guardando...','orange');
   try{
-    // Fetch fresh catalog to avoid overwriting changes made from other sessions
-    var freshRes=await fetch('/api/catalog',{cache:'no-store'});
-    var catalog=await freshRes.json();
-    // Find product by id in fresh catalog
-    var found=false;
-    for(var c in catalog){
-      var prods=catalog[c].products||[];
-      for(var i=0;i<prods.length;i++){
-        if(prods[i].id===productId){
-          if(newCat!==c&&catalog[newCat]){prods.splice(i,1);catalog[newCat].products.unshift(updated);}
-          else{prods[i]=updated;}
-          found=true;break;
-        }
-      }
-      if(found)break;
-    }
-    if(!found)throw new Error('Producto no encontrado en el catalogo actualizado');
-    var res=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
-    var result=await res.json();
-    if(!res.ok)throw new Error(result.error);
+    var catalog=await findAndMutateCatalog(productId,function(cat,c,prods,i){
+      if(newCat!==c&&cat[newCat]){prods.splice(i,1);cat[newCat].products.unshift(updated);}
+      else{prods[i]=updated;}
+    });
     _catalog=catalog;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();
@@ -765,20 +778,9 @@ async function deleteProduct(){
   var productId=_editTarget.id;
   setStatus('Eliminando...','orange');
   try{
-    // Fetch fresh catalog to avoid overwriting changes made from other sessions
-    var freshRes=await fetch('/api/catalog',{cache:'no-store'});
-    var catalog=await freshRes.json();
-    var found=false;
-    for(var c in catalog){
-      var prods=catalog[c].products||[];
-      for(var i=0;i<prods.length;i++){
-        if(prods[i].id===productId){prods.splice(i,1);found=true;break;}
-      }
-      if(found)break;
-    }
-    if(!found)throw new Error('Producto no encontrado');
-    var res=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
-    if(!res.ok)throw new Error((await res.json()).error);
+    var catalog=await findAndMutateCatalog(productId,function(cat,c,prods,i){
+      prods.splice(i,1);
+    });
     _catalog=catalog;
     setStatus('Producto eliminado','green');
     cancelEdit();renderProductList();
@@ -821,7 +823,7 @@ async function optimizeCatalog(){
     var precio = parseFloat(document.getElementById(precioId).value);
     var reservaEl = document.getElementById(reservaId);
     if (!isNaN(precio) && precio > 0) {
-      reservaEl.value = Math.round(precio * 0.2);
+      reservaEl.value = Math.round(precio * RESERVA_FACTOR);
     } else {
       reservaEl.value = '';
     }

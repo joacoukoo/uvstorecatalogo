@@ -1,7 +1,9 @@
 export const COOKIE_NAME = 'uv_session';
 export const TOKEN_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 días
 
-async function sign(secret, data) {
+const _keyCache = new Map();
+async function getKey(secret) {
+  if (_keyCache.has(secret)) return _keyCache.get(secret);
   const key = await crypto.subtle.importKey(
     'raw',
     new TextEncoder().encode(secret),
@@ -9,6 +11,12 @@ async function sign(secret, data) {
     false,
     ['sign']
   );
+  _keyCache.set(secret, key);
+  return key;
+}
+
+async function sign(secret, data) {
+  const key = await getKey(secret);
   const sig = await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(String(data)));
   return btoa(String.fromCharCode(...new Uint8Array(sig)));
 }
@@ -42,7 +50,7 @@ export function getSessionToken(request) {
 }
 
 export function buildSessionCookie(token) {
-  return `${COOKIE_NAME}=${encodeURIComponent(token)}; HttpOnly; Secure; SameSite=Strict; Max-Age=${7 * 24 * 3600}; Path=/`;
+  return `${COOKIE_NAME}=${encodeURIComponent(token)}; HttpOnly; Secure; SameSite=Strict; Max-Age=${TOKEN_TTL_MS / 1000}; Path=/`;
 }
 
 export function clearSessionCookie() {
