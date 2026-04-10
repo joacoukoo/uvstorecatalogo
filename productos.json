@@ -38499,6 +38499,90 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "zero-two-mns8upgh",
+        "n": "Zero Two",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1aaddae88eb64b868035df3934a872a1b45edaa46701758d1d08ba99114c9df4.avif?v=1775725519",
+        "franquicia": "Adultos",
+        "marca": "BGA Studio",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Sellado",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1aaddae88eb64b868035df3934a872a1b45edaa46701758d1d08ba99114c9df4.avif?v=1775725519",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6536f2fb4636b95e88752b214e4571b9cb816fbe225e36d088ff524093537361.avif?v=1775725546",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/511fbc0e65c6a6284c7ed73d1a0f61710e3e7b3d997587417795607192d2be61.avif?v=1775725546",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d7d72f5ece2344e7cdf1d57ae495f6b4a15cdebdda909534f4cb54238415c99e.avif?v=1775725546",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a6ec9832f948417b60cb69b16956fb16fb74377807a9fddea720e99bc07caddd.avif?v=1775725546"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una figura de colección premium que captura la icónica Zero Two en una pose veraniega junto al mar, con detalles exquisitos en su cabello rosa y expresión cautivadora. StatueCorp demuestra maestría en la escultura con esta edición limitada de solo 128 piezas, presentando texturas realistas en el traje de baño y accesorios playeros. La base temática con sombrilla, plantas tropicales y arena transporta al coleccionista a un paraíso tropical lleno de encanto y nostalgia."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal esculpida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con sombrilla azul y blanca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elementos decorativos de plantas tropicales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Helado/paleta incluida en mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles de arena y paisaje marino en la base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-10",
+        "reserva": "760",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "fern-mns89zz2",
         "n": "Fern",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162549_702__86115.jpg?v=1775639793",
