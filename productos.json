@@ -38499,38 +38499,37 @@
     "slug": "adultos",
     "products": [
       {
-        "id": "zero-two-mns8upgh",
-        "n": "Zero Two",
-        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1aaddae88eb64b868035df3934a872a1b45edaa46701758d1d08ba99114c9df4.avif?v=1775725519",
+        "id": "le-malin-mercredi-mns8wasp",
+        "n": "Le Malin Mercredi",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165659_294__90353.jpg?v=1775725766",
         "franquicia": "Adultos",
-        "marca": "BGA Studio",
-        "escala": "1:6 ",
+        "marca": "Pertop Studio",
+        "escala": "1:6  ",
         "disp": "Pre-Orden",
-        "estado": "Sellado",
-        "precio": "3800",
+        "estado": "Nuevo",
+        "precio": "3900",
         "fotos": [
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1aaddae88eb64b868035df3934a872a1b45edaa46701758d1d08ba99114c9df4.avif?v=1775725519",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6536f2fb4636b95e88752b214e4571b9cb816fbe225e36d088ff524093537361.avif?v=1775725546",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/511fbc0e65c6a6284c7ed73d1a0f61710e3e7b3d997587417795607192d2be61.avif?v=1775725546",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d7d72f5ece2344e7cdf1d57ae495f6b4a15cdebdda909534f4cb54238415c99e.avif?v=1775725546",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a6ec9832f948417b60cb69b16956fb16fb74377807a9fddea720e99bc07caddd.avif?v=1775725546"
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165659_294__90353.jpg?v=1775725766",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165657_803__07431.jpg?v=1775725766",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165701_463__35480.jpg?v=1775725766",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165656_448__76654.jpg?v=1775725766"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "Una figura de colección premium que captura la icónica Zero Two en una pose veraniega junto al mar, con detalles exquisitos en su cabello rosa y expresión cautivadora. StatueCorp demuestra maestría en la escultura con esta edición limitada de solo 128 piezas, presentando texturas realistas en el traje de baño y accesorios playeros. La base temática con sombrilla, plantas tropicales y arena transporta al coleccionista a un paraíso tropical lleno de encanto y nostalgia."
+            "x": "'Le Malin Mercredi' es una figura de colección premium de Pertop Studio que captura la esencia de un personaje cautivador con un detalle artístico excepcional. Edición limitada a solo 100 piezas, esta estatua en escala 1/6 presenta una calidad de manufactura superior con materiales de alta gama y acabados impecables. Cada elemento, desde la delicada expresión facial hasta los accesorios temáticos, ha sido meticulosamente elaborado para satisfacer a los coleccionistas más exigentes."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 23 cm"
+            "x": "Altura: 32 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Profundidad: 14 cm"
+            "x": "Profundidad: 16 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Ancho: 16 cm"
+            "x": "Ancho: 17.5 cm"
           },
           {
             "t": "notion-bulleted-list",
@@ -38538,11 +38537,11 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: Polystone/Resina de alta calidad"
+            "x": "Edición limitada: 100 piezas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Edición limitada: 128 piezas"
+            "x": "Material: Polistone de alta calidad/Resina premium"
           },
           {
             "t": "notion-bulleted-list",
@@ -38550,27 +38549,31 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 800-1000g"
+            "x": "Acabado: Pintura de detalle profesional"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Figura principal esculpida"
+            "x": "Figura principal articulada"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base temática con sombrilla azul y blanca"
+            "x": "Base de exhibición personalizada"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Elementos decorativos de plantas tropicales"
+            "x": "Auriculares decorativos temáticos"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Helado/paleta incluida en mano"
+            "x": "Accesorios de complemento de vestuario"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Detalles de arena y paisaje marino en la base"
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de coleccionista premium"
           }
         ],
         "destacado": false,
@@ -38578,7 +38581,7 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-10",
-        "reserva": "760",
+        "reserva": "780",
         "entrega": "2Q 2027",
         "cantidad": "1"
       },
