@@ -38499,6 +38499,81 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "asuka-mns842jx",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/998bf022d1d8352c43af10faede80e05.jpg?v=1775657797",
+        "franquicia": "Adultos",
+        "marca": "Starry Sky Studio ",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/998bf022d1d8352c43af10faede80e05.jpg?v=1775657797",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/04117a676c1bc556e61c9d1f7b067d31.jpg?v=1775657797",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/00ba76963c44c903504b77bd3ffec19a.jpg?v=1775657797",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/24ba17269725b5ff8164ead9c6015243.jpg?v=1775657797",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d01a7316742aad2b204f0ebe39d49016.jpg?v=1775657797",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/612945f4e3d94f6878f008e6d7774eec.jpg?v=1775657797",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cb5bc188a70f39d63b8307ff8e9b1f93.jpg?v=1775657797",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e4d86f3fd56078b053fa7f7333aa0d44.jpg?v=1775657777"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Asuka de Starry Sky Studio en escala 1:6, capturando cada detalle de este icónico personaje de anime con una calidad artesanal excepcional. Con 29 cm de altura y acabados meticulosos en ropa, cabello y accesorios, esta pieza es un must-have para coleccionistas exigentes. Su lanzamiento previsto para Q2 2027 promete ser un referente en figuras premium de alto valor por su precisión y presentación."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 14.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 12.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados: Pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Limitadas (figura de display)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1200 g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Asuka"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación oficial"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-10",
+        "reserva": "640",
+        "entrega": "Ene. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "kafka",
         "n": "Kafka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-07_195147_735__20243.jpg?v=1775565169",
