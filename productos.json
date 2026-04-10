@@ -38499,35 +38499,31 @@
     "slug": "adultos",
     "products": [
       {
-        "id": "aemeath-mns91j99",
-        "n": "Aemeath",
-        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d0f34163cae17dd8a9fb5db9c0b7f23a7cdcfafb6bdf56b034d21277e76d09a1.avif?v=1775730946",
+        "id": "firefly-and-castorice-mns93pyy",
+        "n": "Firefly and Castorice",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8930aba4be2c3f51dced7172901d048245373d60b40f690ba92f3e715adb24a7Large.jpg?v=1775731597",
         "franquicia": "Adultos",
-        "marca": "MWCB Studio",
+        "marca": "RG Studio",
         "escala": "1:6 ",
         "disp": "Pre-Orden",
         "estado": "Nuevo",
-        "precio": "4000",
+        "precio": "3400",
         "fotos": [
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d0f34163cae17dd8a9fb5db9c0b7f23a7cdcfafb6bdf56b034d21277e76d09a1.avif?v=1775730946",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9f1062bb0d39d34ed624f882dceea20bba5aae51c4ce9644aceec6a5a297a77d.avif?v=1775730946"
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8930aba4be2c3f51dced7172901d048245373d60b40f690ba92f3e715adb24a7Large.jpg?v=1775731597",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/941335be4ca0fd334f18cded2dbec21cafd42c451d8a2bd628223a55176b4c6c.avif?v=1775731597",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d0619d3ccfdd847f777f3acc0447a0c5f0f6e8bd519de3005cdaec2a6f3ae1f2.avif?v=1775731597",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9157dce314deb08e2b450a17c8c5fff04e1c37fc0fdd989a7e6c98bfa81b953d.avif?v=1775731597",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f00e42ed4e6d31837c929c55e4ad108ca62690580dc310b0c3c062a86351d6c6.avif?v=1775731597",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/05443ad3e80e3dfdfdb150f3ef1c12ca5fc642d43ae507e4bcd7ee76415ba8ec.avif?v=1775731597"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "Aemeath es una figura de colección premium en escala 1:6 que captura la esencia de un personaje futurista con un nivel de detalle excepcional. Fabricada por MWCB Studio, esta pieza de 23 cm de altura destaca por su acabado de calidad superior, pintura meticulosa y accesorios temáticos que incluyen una mascota acompañante y elementos ambientales. Una adquisición imprescindible para coleccionistas de figuras premium adultas que buscan piezas edición limitada con valor de inversión."
+            "x": "Figura de colección premium 1:6 de Firefly y Castorice, fabricada por RG Studio con acabados de alta calidad y detalles meticulosos. Edición limitada a solo 128 piezas que garantiza exclusividad y valor coleccionable excepcional. Presenta alas translúcidas detalladas, uniformes escolares personalizados y expresiones faciales de alta resolución en una composición dinámica de doble personaje."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 23 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Profundidad: 14.5 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Ancho: 19 cm"
+            "x": "Altura: aproximadamente 30 cm"
           },
           {
             "t": "notion-bulleted-list",
@@ -38535,51 +38531,55 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Fabricante: MWCB Studio"
+            "x": "Edición limitada: 128 piezas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: Resina/Polistone con pintura acrílica de alta calidad"
+            "x": "Material: PVC, poliuretano y componentes resinados"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 1.5-2 kg"
+            "x": "Detalles: Pintado a mano con acabados premium"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Fecha de lanzamiento: Q2 2027"
+            "x": "Alas translúcidas articuladas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Categoría: Colección Adultos"
+            "x": "Bases de presentación individuales"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Acabado: Pintura profesional con detalles metalizados"
+            "x": "Lanzamiento: Q2 2027"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Figura principal articulada de Aemeath (23 cm)"
+            "x": "Figura Firefly con corona/tocado decorativo"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base diorama temática con efectos de hielo/nieve"
+            "x": "Figura Castorice con alas translúcidas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Mascota acompañante (figura negra con detalles)"
+            "x": "Base de presentación con temática urbana"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Accesorios de armas/equipamiento"
+            "x": "Accesorios de cabello intercambiables"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Papel secante de protección"
+            "x": "Elementos decorativos temáticos"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Caja de presentación premium"
+            "x": "Certificado de autenticidad y número de serie"
+          },
+          {
+            "t": "notion-text",
+            "x": "El precio es por cada una."
           }
         ],
         "destacado": false,
@@ -38587,7 +38587,7 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-10",
-        "reserva": "800",
+        "reserva": "680",
         "entrega": "2Q 2027",
         "cantidad": "1"
       },
