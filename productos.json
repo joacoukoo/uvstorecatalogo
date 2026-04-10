@@ -38499,37 +38499,32 @@
     "slug": "adultos",
     "products": [
       {
-        "id": "le-malin-mercredi-mns8wasp",
-        "n": "Le Malin Mercredi",
-        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165659_294__90353.jpg?v=1775725766",
+        "id": "sorasaki-hina-mns8xjuq",
+        "n": "Sorasaki Hina",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/775612895c2b8e55d9006e075053dcb0a1611753e10b71c937043a187ddb050a.webp?v=1775727200",
         "franquicia": "Adultos",
-        "marca": "Pertop Studio",
-        "escala": "1:6  ",
+        "marca": "RG Studio",
+        "escala": "1:6 ",
         "disp": "Pre-Orden",
         "estado": "Nuevo",
-        "precio": "3900",
+        "precio": "3400",
         "fotos": [
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165659_294__90353.jpg?v=1775725766",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165657_803__07431.jpg?v=1775725766",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165701_463__35480.jpg?v=1775725766",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_165656_448__76654.jpg?v=1775725766"
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/775612895c2b8e55d9006e075053dcb0a1611753e10b71c937043a187ddb050a.webp?v=1775727200",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5cb26bdf49b2f4b7867433ea9156d1fc87e8c523bd82c49e087fbe5f3ef9dd94.webp?v=1775727200",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d947069bd19bc3ce7fae9fec96509a72f10af63a7f0c39011d6ec7dc49bfb68b.webp?v=1775727200",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d182756a8700556e96f672a50387b54d6e9e6cf47b8bc7407d60d38629dbcdfd.webp?v=1775727200",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/69bfd09dc3376700b027a1b05d5b60969c6d76a23efd91a2c949bccfe3be7775.webp?v=1775727200",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/867a725842a925f2f285b1d797cb17a142789433e9525005725ef2ac0e1a6c6c.webp?v=1775727200",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/853f97c4166fc0afe5e9f0fd91c0fdb88cbec3f1cdf88f29796c46c2a28a89d1.webp?v=1775727200"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "'Le Malin Mercredi' es una figura de colección premium de Pertop Studio que captura la esencia de un personaje cautivador con un detalle artístico excepcional. Edición limitada a solo 100 piezas, esta estatua en escala 1/6 presenta una calidad de manufactura superior con materiales de alta gama y acabados impecables. Cada elemento, desde la delicada expresión facial hasta los accesorios temáticos, ha sido meticulosamente elaborado para satisfacer a los coleccionistas más exigentes."
+            "x": "Figura de colección premium RG - Sorasaki Hina de StatueCorp, una pieza limitada a solo 128 unidades que captura la esencia de este personaje con detalles artísticos excepcionales. Escala 1/6 de 18 cm de altura, elaborada con materiales de alta calidad que garantizan durabilidad y un acabado de museo. Cada detalle, desde la expresión facial hasta los accesorios temáticos, refleja el compromiso de StatueCorp con la excelencia en figuras de colección de lujo."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 32 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Profundidad: 16 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Ancho: 17.5 cm"
+            "x": "Altura: 18 cm"
           },
           {
             "t": "notion-bulleted-list",
@@ -38537,11 +38532,19 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Edición limitada: 100 piezas"
+            "x": "Tamaño aproximado: 18 cm de altura"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: Polistone de alta calidad/Resina premium"
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polystone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional detallada"
           },
           {
             "t": "notion-bulleted-list",
@@ -38549,7 +38552,7 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Acabado: Pintura de detalle profesional"
+            "x": "Clasificación: Figura premium de colección"
           },
           {
             "t": "notion-bulleted-list",
@@ -38557,23 +38560,15 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base de exhibición personalizada"
+            "x": "Base temática personalizada"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Auriculares decorativos temáticos"
+            "x": "Accesorios de caracterización"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Accesorios de complemento de vestuario"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Certificado de autenticidad"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Empaque de coleccionista premium"
+            "x": "Certificado de autenticidad de edición limitada"
           }
         ],
         "destacado": false,
@@ -38581,7 +38576,7 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-10",
-        "reserva": "780",
+        "reserva": "680",
         "entrega": "2Q 2027",
         "cantidad": "1"
       },
