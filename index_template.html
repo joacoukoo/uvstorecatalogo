@@ -855,7 +855,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
 
 <div class="page" id="search-page">
   <div style="padding:82px 32px 28px;max-width:1400px;margin:0 auto">
-    <button class="back-btn" onclick="goHome()">&#8592; Volver</button>
+    <button class="back-btn" onclick="searchGoBack()">&#8592; Volver</button>
     <div style="display:flex;align-items:center;gap:10px;background:var(--bg3);border:1px solid var(--border2);border-radius:10px;padding:12px 18px;max-width:600px;margin-top:16px;transition:border-color .2s" id="search-inline-wrap">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
       <input type="text" id="search-inline-inp" placeholder="Buscar figura, marca, personaje..." oninput="doSearchInline(this.value)" autocomplete="off" style="background:none;border:none;outline:none;color:#fff;font-size:15px;font-family:'DM Sans',sans-serif;flex:1">
@@ -1284,7 +1284,10 @@ function goFranchise(fname){
   history.pushState({_uvNav:true},null,location.pathname+"#franquicia/"+encodeURIComponent(fname));
 }
 // ── SEARCH PAGE ──
+var _prevPageId=null;
 function openSearchPage(){
+  var cur=document.querySelector(".page.active");
+  _prevPageId=(cur&&cur.id!=="search-page")?cur.id:_prevPageId;
   showPage("search-page");
   document.getElementById("nav-home").classList.remove("active");
   setTimeout(function(){document.getElementById("search-inline-inp").focus();},100);
@@ -1298,6 +1301,11 @@ function clearSearchInline(){
   var f=document.getElementById("sr-filters");if(f)f.style.display="none";
   _srProds=[];
   if(new URLSearchParams(location.search).get("q")){history.replaceState(null,"","/");}
+  if(_prevPageId){showPage(_prevPageId);_prevPageId=null;}
+}
+function searchGoBack(){
+  clearSearchInline();
+  if(!_prevPageId){goHome();}
 }
 function _norm(s){return(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
 function _prodSearchText(p){
