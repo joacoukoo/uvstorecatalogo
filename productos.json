@@ -28291,6 +28291,71 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "requiem-lifesize-mns9a3oc",
+        "n": "Requiem Lifesize",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a04d34ded3f994a1f19cadb2ccd1e475Large.jpg?v=1772834676",
+        "franquicia": "Gaming",
+        "marca": "Panda Studio",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a04d34ded3f994a1f19cadb2ccd1e475Large.jpg?v=1772834676",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e67d4f7be3aa80c171f096081703bf3fLarge.jpg?v=1772834676"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura 'Requiem REV-911C' de Panda Studio es una réplica de tamaño natural (1:1) del icónico revólver de Resident Evil 4, capturando cada detalle del arma legendaria con precisión fotorrealista. Esta pieza de colección premium presenta acabados envejecidos, texturas oxidadas y elementos decorativos que reflejan la estética post-apocalíptica del videojuego, convirtiéndola en un must-have para coleccionistas de gaming. Con solo 88 piezas producidas en edición limitada, representa una inversión de alto valor con materiales de primera calidad y detalles que rivalizan con piezas museum-grade."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 42 cm (Requiem)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (Tamaño Real)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina polistone de grado museum con acabados metalizado y oxidado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Revólver Requiem REV-911C"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorámica temática con ruinas arquitectónicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad y numeración"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-10",
+        "reserva": "700",
+        "entrega": "1Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "grace-ashcroft-mns95i9i",
         "n": "Grace Ashcroft",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/eebc0ad25a7f62498f1c735eb41b7adf.jpg?v=1775745117",
