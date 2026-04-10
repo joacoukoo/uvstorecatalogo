@@ -38499,42 +38499,42 @@
     "slug": "adultos",
     "products": [
       {
-        "id": "albedo-mns8yslf",
-        "n": "Albedo",
-        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/unlogo0.webp?v=1775727326",
+        "id": "hinata-mns905cj",
+        "n": "Hinata",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173030_587__99279.jpg?v=1775730279",
         "franquicia": "Adultos",
-        "marca": "Liu Li Studio",
-        "escala": "1:6 ",
+        "marca": "Xian Dan Studio",
+        "escala": "1:4",
         "disp": "Pre-Orden",
         "estado": "Nuevo",
-        "precio": "3400",
+        "precio": "4800",
         "fotos": [
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/unlogo0.webp?v=1775727326"
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173030_587__99279.jpg?v=1775730279",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173033_401__92267.jpg?v=1775730279",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173035_070__85139.jpg?v=1775730279",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173036_436__32670.jpg?v=1775730279",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173037_660__59864.jpg?v=1775730279"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura de colección premium de Albedo en escala 1:6, masterpiece de Liu Li Studio que captura cada detalle con precisión artística excepcional. Con una altura de 20 cm, esta pieza combina escultura de alta calidad, pintura impecable y materiales premium para ofrecerte una obra maestra coleccionable de valor duradero. Ideal para coleccionistas exigentes que aprecian la excelencia en craftsmanship y la representación detallada de personajes icónicos."
+            "x": "Figura de colección premium 1:4 de Hinata que captura cada detalle con precisión artística. Obra maestra de Xian Dan Studio que combina escultura de alta calidad, pintura meticuosa y accesorios temáticos. Pieza imprescindible para coleccionistas adultos que buscan figuras de valor superior y presencia visual excepcional."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 20 cm"
+            "x": "Altura: aproximadamente 50 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escala: 1:6"
+            "x": "Escala: 1:4"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: PVC/Resina de alta calidad con pintura acrílica profesional"
+            "x": "Material: PVC/Resina de grado premium"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 300-400 gramos"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Acabado: Pintura hand-painted de lujo"
+            "x": "Pintura: Acrílica de alta definición"
           },
           {
             "t": "notion-bulleted-list",
@@ -38542,23 +38542,35 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Fecha de lanzamiento: Q2 2027"
+            "x": "Acabado: Mate y brillante selectivo"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Fabricante: Liu Li Studio"
+            "x": "Lanzamiento: Q4 2026"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Figura principal articulada"
+            "x": "Figura principal"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base de exhibición premium"
+            "x": "Base de exhibición temática"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Accesorios decorativos"
+            "x": "Accesorios complementarios (bebida)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Maleta/equipaje decorativo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
           }
         ],
         "destacado": false,
@@ -38566,8 +38578,8 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-10",
-        "reserva": "680",
-        "entrega": "2Q 2027",
+        "reserva": "960",
+        "entrega": "4Q 2026",
         "cantidad": "1"
       },
       {
