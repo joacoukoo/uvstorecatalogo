@@ -1304,8 +1304,9 @@ function clearSearchInline(){
   if(_prevPageId){showPage(_prevPageId);_prevPageId=null;}
 }
 function searchGoBack(){
+  var prev=_prevPageId;
   clearSearchInline();
-  if(!_prevPageId){goHome();}
+  if(!prev){goHome();}
 }
 function _norm(s){return(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
 function _prodSearchText(p){
@@ -1332,6 +1333,7 @@ function doSearchInline(q){
     document.getElementById("search-inline-res").innerHTML="";
     qt.textContent="";document.getElementById("search-inline-count").textContent="";
     if(filters)filters.style.display="none";
+    if(q.length===0&&_prevPageId){showPage(_prevPageId);_prevPageId=null;}
     return;
   }
   var ql=_norm(q);var results=[];
