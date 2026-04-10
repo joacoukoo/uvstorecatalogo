@@ -38499,69 +38499,67 @@
     "slug": "adultos",
     "products": [
       {
-        "id": "asuka-mns842jx",
-        "n": "Asuka",
-        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/998bf022d1d8352c43af10faede80e05.jpg?v=1775657797",
+        "id": "fern-mns89zz2",
+        "n": "Fern",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162549_702__86115.jpg?v=1775639793",
         "franquicia": "Adultos",
-        "marca": "Starry Sky Studio ",
+        "marca": "Kawaii Studio",
         "escala": "1:6 ",
         "disp": "Pre-Orden",
         "estado": "Nuevo",
-        "precio": "3200",
+        "precio": "4000",
         "fotos": [
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/998bf022d1d8352c43af10faede80e05.jpg?v=1775657797",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/04117a676c1bc556e61c9d1f7b067d31.jpg?v=1775657797",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/00ba76963c44c903504b77bd3ffec19a.jpg?v=1775657797",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/24ba17269725b5ff8164ead9c6015243.jpg?v=1775657797",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d01a7316742aad2b204f0ebe39d49016.jpg?v=1775657797",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/612945f4e3d94f6878f008e6d7774eec.jpg?v=1775657797",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cb5bc188a70f39d63b8307ff8e9b1f93.jpg?v=1775657797",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e4d86f3fd56078b053fa7f7333aa0d44.jpg?v=1775657777"
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162549_702__86115.jpg?v=1775639793",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162542_404__63158.jpg?v=1775639793",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162537_909__95543.jpg?v=1775639793",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162544_690__47403.jpg?v=1775639793",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162547_165__81032.jpg?v=1775639793",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-08_162540_242__35448.jpg?v=1775639793"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura de colección premium Asuka de Starry Sky Studio en escala 1:6, capturando cada detalle de este icónico personaje de anime con una calidad artesanal excepcional. Con 29 cm de altura y acabados meticulosos en ropa, cabello y accesorios, esta pieza es un must-have para coleccionistas exigentes. Su lanzamiento previsto para Q2 2027 promete ser un referente en figuras premium de alto valor por su precisión y presentación."
+            "x": "Kawaii - Fern – Estatua 1:6\n\nDescripción\n\nLa estatua Fern, desarrollada por Kawaii Studio, presenta una interpretación estilizada del personaje con un enfoque en estética tipo kawaii. La pieza destaca por su diseño atractivo y una presencia visual pensada para colecciones de estilo artístico.\n\nDisponible en versiones Regular y Exclusive, esta estatua ofrece una opción adicional para coleccionistas que buscan mayor versatilidad en exhibición. La versión Exclusive incluye una cabeza adicional, permitiendo variar la apariencia del personaje.\n\nCon una producción limitada, esta pieza se posiciona como una opción exclusiva dentro de su categoría.\n\nDetalles\n\nLínea: No especificado  \nFabricante: Kawaii Studio\nTipo: Estatua 1:6  \nGénero: No especificado  \n\nEspecificaciones\n\nAltura: No especificado  \nEscala: 1:6  \nMateriales: No especificado  \nArticulación: No aplica  \n\nIncluye"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 29 cm"
+            "x": "Estatua Kawaii - Fern"
+          },
+          {
+            "t": "notion-text",
+            "x": "Versión Exclusive:"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escala: 1:6"
+            "x": "Cabeza adicional"
+          },
+          {
+            "t": "notion-text",
+            "x": "Características"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Ancho: 14.5 cm"
+            "x": "Escala 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Profundidad: 12.5 cm"
+            "x": "Edición limitada a 100 piezas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: PVC/Resina de alta calidad"
+            "x": "Disponible en versión Regular y Exclusive"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Acabados: Pintura detallada a mano"
+            "x": "Versión Exclusive con head sculpt adicional"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Articulaciones: Limitadas (figura de display)"
+            "x": "Diseño estilizado tipo kawaii"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 800-1200 g"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Figura Asuka"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base de presentación oficial"
+            "x": "Pieza ideal para coleccionistas de figuras artísticas"
           }
         ],
         "destacado": false,
@@ -38569,8 +38567,9 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-10",
-        "reserva": "640",
-        "entrega": "Ene. 2027",
+        "precio_d": "4600",
+        "reserva": "800",
+        "entrega": "2Q 2027",
         "cantidad": "1"
       },
       {
