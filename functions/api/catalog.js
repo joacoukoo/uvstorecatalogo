@@ -53,7 +53,7 @@ async function writeFile(token, repo, catalog, sha) {
 export async function onRequestGet({ env }) {
   try {
     const { catalog } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
-    return new Response(JSON.stringify(catalog), { headers: { 'Content-Type': 'application/json' } });
+    return new Response(JSON.stringify(catalog), { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
   } catch (e) {
     return new Response(JSON.stringify({ error: e.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
   }

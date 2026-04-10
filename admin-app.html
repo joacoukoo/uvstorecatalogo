@@ -596,7 +596,7 @@ async function saveAdd(){
   var cat=getField('add-cat');if(!cat)return setStatus('Elegi una categoria','orange');
   setStatus('Guardando...','orange');
   try{
-    var catRes=await fetch('/api/catalog');
+    var catRes=await fetch('/api/catalog',{cache:'no-store'});
     var catalog=await catRes.json();
     if(!catalog[cat])catalog[cat]={products:[]};
     catalog[cat].products.unshift(buildAddProduct());
@@ -735,7 +735,7 @@ async function saveEdit(){
   setStatus('Guardando...','orange');
   try{
     // Fetch fresh catalog to avoid overwriting changes made from other sessions
-    var freshRes=await fetch('/api/catalog');
+    var freshRes=await fetch('/api/catalog',{cache:'no-store'});
     var catalog=await freshRes.json();
     // Find product by id in fresh catalog
     var found=false;
@@ -766,7 +766,7 @@ async function deleteProduct(){
   setStatus('Eliminando...','orange');
   try{
     // Fetch fresh catalog to avoid overwriting changes made from other sessions
-    var freshRes=await fetch('/api/catalog');
+    var freshRes=await fetch('/api/catalog',{cache:'no-store'});
     var catalog=await freshRes.json();
     var found=false;
     for(var c in catalog){
