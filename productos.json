@@ -7639,12 +7639,8 @@
         "marca": "Mondo",
         "escala": "Long Play",
         "estado": "Nuevo",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "1000",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
@@ -7667,8 +7663,6 @@
             "x": "The Batman Theme (2:38)Roof Fight (1:20)First Confrontation (4:43)Flowers (1:51)Clown Attack (1:58)Batman To the Rescue (3:56)Roasted Dude (1:04)Photos / Beautiful Dreamer (2:30)Descent Into Mystery (1:34)Batcave (2:35)The Joker’s Poem (0:57)"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -7681,7 +7675,9 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_009_8c4aa6d5-5b77-4373-aa63-ac7532602742.png?v=1724948926",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_001_f5f6c9f9-eddc-4866-9184-b88c0f7a1382.png?v=1724948926"
         ],
-        "id": "batman-1989-original-motion-picture-score-lp-graphic-novel-b"
+        "id": "batman-1989-original-motion-picture-score-lp-graphic-novel-b",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Powerpuff Girls – Action Figure Set",
