@@ -28457,6 +28457,85 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "armored-batman-helmet-art-mask-mntssbfp",
+        "n": "Armored Batman Helmet Art Mask",
+        "i": "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c2c4c68.jpg",
+        "franquicia": "DC Comics",
+        "marca": "PureArts",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "9600",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c2c4c68.jpg",
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c316a55.jpg",
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c39132f.jpg",
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c3d63d5.jpg",
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c4269af.jpg",
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c46c566.jpg",
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c4b5bca.jpg",
+          "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c511378.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una réplica premium del icónico casco de Batman blindado de Batman v Superman: Dawn of Justice, diseñada por PureArts con detalles mecánicos brutales y líneas industriales afiladas. Esta pieza de colección presenta funcionalidad LED integrada en las lentes de los ojos que se iluminan, trayendo a la vida el aspecto intimidante y listo para la batalla de esta versión legendaria de Batman. Montada en una elegante base blindada con el logo de Batman, es un must-have para coleccionistas devotos del Universo Extendido DC."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina/PVC de alta calidad con acabados pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funcionalidad: LED iluminado en lentes de los ojos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 800-1000g aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: DC Comics - Batman v Superman: Dawn of Justice"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: PureArts"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco Armored Batman con detalles mecánicos y acabado premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte blindada con logo de Batman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED (requiere baterías)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "1920",
+        "entrega": "Jun. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "requiem-lifesize-mns9a3oc",
         "n": "Requiem Lifesize",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a04d34ded3f994a1f19cadb2ccd1e475Large.jpg?v=1772834676",
