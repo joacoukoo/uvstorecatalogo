@@ -605,15 +605,36 @@ async function fetchFreshCatalog() {
   return res.json();
 }
 
+// Catálogo guardado en memoria para evitar race condition cuando se suben
+// fichas seguidas (GitHub tarda en propagar, fetchFreshCatalog devolvería
+// la versión vieja y pisaría el guardado anterior).
+var _pendingCatalog = null;
+var _pendingCatalogAt = 0;
+var _saving = false;
+var PENDING_TTL = 60000; // 1 minuto
+
+function getBaseCatalog() {
+  if (_pendingCatalog && (Date.now() - _pendingCatalogAt < PENDING_TTL)) {
+    return Promise.resolve(JSON.parse(JSON.stringify(_pendingCatalog)));
+  }
+  return fetchFreshCatalog();
+}
+
+function setPendingCatalog(catalog) {
+  _pendingCatalog = JSON.parse(JSON.stringify(catalog));
+  _pendingCatalogAt = Date.now();
+}
+
 async function saveCatalogToGitHub(catalog) {
   var res = await fetch('/api/catalog', {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify({catalog:catalog})});
   var result = await res.json();
   if (!res.ok) throw new Error(result.error);
+  setPendingCatalog(catalog);
   return catalog;
 }
 
 async function findAndMutateCatalog(productId, mutateFn) {
-  var catalog = await fetchFreshCatalog();
+  var catalog = await getBaseCatalog();
   var found = false;
   for (var c in catalog) {
     var prods = catalog[c].products || [];
@@ -633,16 +654,18 @@ async function findAndMutateCatalog(productId, mutateFn) {
 async function saveAdd(){
   var name=getField('add-name');if(!name)return setStatus('El nombre es obligatorio','orange');
   var cat=getField('add-cat');if(!cat)return setStatus('Elegi una categoria','orange');
+  if(_saving)return setStatus('Espera, hay un guardado en curso...','orange');
+  _saving=true;
   setStatus('Guardando...','orange');
   try{
-    var catalog=await fetchFreshCatalog();
+    var catalog=await getBaseCatalog();
     if(!catalog[cat])catalog[cat]={products:[]};
     catalog[cat].products.unshift(buildAddProduct());
     await saveCatalogToGitHub(catalog);
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
     _catalog=null;
     resetAddForm();
-  }catch(e){setStatus('Error: '+e.message,'red');}
+  }catch(e){setStatus('Error: '+e.message,'red');}finally{_saving=false;}
 }
 
 var _catalog=null;
