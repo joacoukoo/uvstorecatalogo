@@ -28831,6 +28831,97 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "gilgamesh-mnulpqo8",
+        "n": "Gilgamesh",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9c753c8dc5400f9024650edb84817334.jpg?v=1775831824",
+        "franquicia": "Anime",
+        "marca": "Holy Grail Studio",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9c753c8dc5400f9024650edb84817334.jpg?v=1775831824",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/17e372d9909284c185e69b236186726f.jpg?v=1775831824",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2c4dd95661d6c61c96e5bec00a1a7c1d.jpg?v=1775831824",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e279924100624507d2e36c967ed3b39a.jpg?v=1775831824",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/42a3fa6fe66bf35586b2d146a70c0af8.jpg?v=1775831824",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2e18e1901491e579fd6d2535e7e19d3a.jpg?v=1775831824",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/88f897b46724d5eb3f293e4d28e07c7f.jpg?v=1775831824",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e0b755b1563f855ca4d9f355e79e9d0a.jpg?v=1775831824"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con esta épica representación de Gilgamesh, el Rey de Héroes, capturado en su máxima gloria con efectos de fuego y luz LED integrados. Esta masterpiece de StatueCorp combina escultura de museo con tecnología de iluminación premium, creando una pieza de exhibición incomparable que trasciende el estatus de figura coleccionable. Con solo 99 piezas producidas mundialmente, esta edición limitada es un tesoro para coleccionistas exigentes que valoran la calidad artesanal y la exclusividad absoluta."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 42 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 34 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 41 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: LEDs integrados para iluminación dinámica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada de Gilgamesh"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorámica con efectos de fuego y piedra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema LED integrado (múltiples puntos de luz)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzas doradas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de cadena y ornamentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de edición limitada y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "1300",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "joel-ellie-mnukts86",
         "n": "Joel & Ellie",
         "i": "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad85d627.jpg",
