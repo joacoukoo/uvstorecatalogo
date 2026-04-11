@@ -21,7 +21,13 @@
       "Bash(python editar_flyer.py)",
       "Bash(python:*)",
       "Bash(du -sh C:/Users/Joaquin/.claude/projects/C--Users-Joaquin-OneDrive-Escritorio-sitio-que-funciona/*)",
-      "WebFetch(domain:www.sideshow.com)"
+      "WebFetch(domain:www.sideshow.com)",
+      "Bash(git fetch:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(git pull:*)",
+      "Bash(node -e ':*)",
+      "Bash(node:*)",
+      "Bash(git show:*)"
     ]
   }
 }
