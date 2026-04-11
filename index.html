@@ -396,6 +396,7 @@ body::after{
   animation:modalIn .28s cubic-bezier(.34,1.4,.64,1);
 }
 @keyframes modalIn{from{opacity:0;transform:translateY(20px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes sheetIn{from{transform:translateY(100%)}to{transform:translateY(0)}}
 .modal-close{
   position:absolute;top:14px;right:14px;
   background:rgba(0,0,0,0.5);
@@ -406,6 +407,14 @@ body::after{
   transition:background-color .15s,color .15s;
 }
 .modal-close:hover{background:rgba(255,255,255,0.1);color:#fff}
+.modal-handle{
+  display:none;
+  width:36px;height:4px;
+  background:rgba(255,255,255,0.18);
+  border-radius:2px;
+  margin:12px auto 4px;
+  flex-shrink:0;
+}
 
 /* ══ CAROUSEL ══ */
 .carousel{
@@ -694,6 +703,15 @@ body::after{
   .hero-stats{max-width:100%}
   .lightbox-btn.lb-prev{left:8px}
   .lightbox-btn.lb-next{right:8px}
+  #modal{align-items:flex-end;padding:0;overflow:hidden}
+  #modal>.modal{
+    border-radius:20px 20px 0 0;max-width:100%;width:100%;margin:0;
+    max-height:92dvh;overflow-y:auto;
+    animation:sheetIn .32s cubic-bezier(.32,.72,0,1);
+    -webkit-overflow-scrolling:touch;
+  }
+  #modal>.modal>.carousel{border-radius:0}
+  .modal-handle{display:block}
 }
 
 /* ── HERO ENTRANCE ANIMATIONS ── */
@@ -984,6 +1002,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
 
 <div class="modal-bg" id="modal" onclick="if(event.target===this)closeModal()">
   <div class="modal">
+    <div class="modal-handle"></div>
     <button class="modal-close" onclick="closeModal()" aria-label="Cerrar">&#x2715;</button>
     <div class="carousel" id="modal-carousel" onclick="carouselClick(event)">
       <div class="carousel-track" id="carousel-track"></div>
@@ -1085,6 +1104,69 @@ function carouselMove(dir){
   var n=(_carIdx+dir+_carPhotos.length)%_carPhotos.length;
   carouselGo(n);
 }
+
+// ── CAROUSEL SWIPE ──
+(function(){
+  var car=document.getElementById("modal-carousel");
+  var _tx=0,_ty=0,_dir=null;
+  car.addEventListener("touchstart",function(e){
+    var t=e.touches[0];_tx=t.clientX;_ty=t.clientY;_dir=null;
+  },{passive:true});
+  car.addEventListener("touchmove",function(e){
+    if(!e.touches.length)return;
+    var dx=e.touches[0].clientX-_tx;
+    var dy=e.touches[0].clientY-_ty;
+    if(_dir===null&&(Math.abs(dx)>6||Math.abs(dy)>6)){
+      _dir=Math.abs(dx)>Math.abs(dy)?"h":"v";
+    }
+    if(_dir==="h")e.preventDefault();
+  },{passive:false});
+  car.addEventListener("touchend",function(e){
+    if(_dir!=="h")return;
+    var dx=e.changedTouches[0].clientX-_tx;
+    if(Math.abs(dx)>40)carouselMove(dx<0?1:-1);
+    _dir=null;
+  },{passive:true});
+})();
+
+// ── MODAL DRAG-TO-CLOSE ──
+(function(){
+  var modalCard=document.querySelector("#modal>.modal");
+  var _sy=0,_isDragging=false,_startScrollTop=0;
+  modalCard.addEventListener("touchstart",function(e){
+    _sy=e.touches[0].clientY;
+    _startScrollTop=modalCard.scrollTop;
+    _isDragging=false;
+  },{passive:true});
+  modalCard.addEventListener("touchmove",function(e){
+    if(!window.matchMedia("(max-width:768px)").matches)return;
+    var dy=e.touches[0].clientY-_sy;
+    if(dy>0&&_startScrollTop===0){
+      _isDragging=true;
+      e.preventDefault();
+      modalCard.style.transform="translateY("+dy+"px)";
+      modalCard.style.transition="none";
+    }
+  },{passive:false});
+  modalCard.addEventListener("touchend",function(e){
+    if(!_isDragging){
+      modalCard.style.transform="";modalCard.style.transition="";return;
+    }
+    var dy=e.changedTouches[0].clientY-_sy;
+    modalCard.style.transition="transform .28s cubic-bezier(.32,.72,0,1)";
+    if(dy>modalCard.offsetHeight*0.3){
+      modalCard.style.transform="translateY(100%)";
+      setTimeout(function(){
+        modalCard.style.transform="";modalCard.style.transition="";
+        closeModal();
+      },280);
+    }else{
+      modalCard.style.transform="";
+      setTimeout(function(){modalCard.style.transition="";},280);
+    }
+    _isDragging=false;
+  },{passive:true});
+})();
 
 function makeCard(p,cat){
   var div=document.createElement("div");div.className="prod-card";div.id="prod-"+p.id;
@@ -1735,6 +1817,8 @@ function openModal(p,cat){
   var shareUrl=location.origin+"/p/"+encodeURIComponent(figId);
   var waText=encodeURIComponent("Hola, vengo del catálogo UV Store GT y quiero consultar por: "+p.n+"\nLink: "+shareUrl);
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
+  var _mc=document.querySelector("#modal>.modal");
+  _mc.style.transform="";_mc.style.transition="";
   document.getElementById("modal").classList.add("open");
   document.body.style.overflow="hidden";
 }
