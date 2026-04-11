@@ -9869,6 +9869,129 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "dek-bone-bison-armor-and-bud-mnttlf7j",
+        "n": "Dek (Bone Bison Armor) and Bud",
+        "i": "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db01c6aa.jpg",
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db01c6aa.jpg",
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db0b6f41.jpg",
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db150c33.jpg",
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db1dfd0b.jpg",
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db27840f.jpg",
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db3218a7.jpg",
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db388d1e.jpg",
+          "https://www.sideshow.com/storage/product-images/915532/hot-toys-predator-dek-bone-bison-armor-and-bud-sixth-scale-figure-set-gallery-69d93db3ebeb1.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Este conjunto coleccionable de Hot Toys presenta a Dek con su icónica armadura de Bone Bison, una obra maestra de ingeniería que combina tecnología Predator con elementos orgánicos del planeta Genna. Cada detalle está meticulosamente elaborado, desde la cabeza esculpida con ojos rodantes intercambiables hasta la armadura de hueso expertamente crafteada sobre tela de pelaje marrón, acompañada por su leal compañero Bud. Este set es imprescindible para coleccionistas de Predator: Badlands que buscan capturar la ferocidad y adaptabilidad del cazador supremo en la frontera más peligrosa del universo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Dek: 30.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Bud: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cabeza y cuerpo de Dek en plástico/resina premium con articulaciones de vinilo suave; Armadura de Bone Bison en plástico moldeado sobre tela de pelaje; Accesorios en plástico, metal y materiales flexibles con alambre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones Dek: 16 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones Bud: 4 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Movie Masterpiece Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida de Dek con ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 sets de mandíbulas intercambiables (abiertas y normales)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara de Bone Bison"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de Bone Bison con pelaje marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de muñequeras con hoja de colmillo Luna Bug (muñeca izquierda)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de grebas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables (garras, agarre de espada/combistick/granadas, agarre de látigo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Látigo Razor Grass con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Combistick con 2 sets de puntas intercambiables (modo retractado y extendido)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada de plasma plegable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Granadas Cryo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Spray Snake \"Squirt\" con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de diorama temática de terreno rocoso"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura coleccionable Bud (16 cm)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "880",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "bvs-dawn-of-justice-batman-mnt80p1w",
         "n": "BvS: Dawn of Justice - Batman",
         "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/15_35e83aba-8e2a-4064-bb3f-9d8533720bae.jpg?v=1775820829",
@@ -35437,81 +35560,6 @@
   "Otras Figuras": {
     "slug": "escalas-112-y-otros",
     "products": [
-      {
-        "id": "scene-selection-03-mazinger-z-rocket-punch-mnttjxzf",
-        "n": "Scene Selection 03: Mazinger Z Rocket Punch!",
-        "i": "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714c95fa0.jpg",
-        "franquicia": "Anime",
-        "marca": "Plex",
-        "escala": "",
-        "disp": "Pre-Orden",
-        "estado": "Nuevo",
-        "precio": "1450",
-        "fotos": [
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714c95fa0.jpg",
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714cb37de.jpg",
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714cd0f04.jpg",
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714cee790.jpg",
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714d17f89.jpg",
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714d355e8.jpg",
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714d52e75.jpg",
-          "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714d6fc1d.jpg"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Una obra maestra coleccionable que captura el icónico momento del Rocket Punch de Mazinger Z con detalles extraordinarios. Esta figura de Plex recrea la escena legendaria del anime con efectos de pintura envejecida que representan las áreas chamuscadas, transformando una simple figura en una auténtica pieza de arte. Imprescindible para fans del anime clásico y coleccionistas de figuras premium que buscan calidad excepcional y autenticidad narrativa."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 18 cm (7.25 pulgadas)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Ancho: 19 cm (7.5 pulgadas)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material: PVC"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Fabricante: Plex"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escala: Aproximadamente 1/144 - 1/150"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Tipo: Figura coleccionable premium articulada"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Figura principal de Mazinger Z posicionada en pose de ataque"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base diorámica con efecto de terreno destruido y quemado"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Detalles de fuego y escombros en la base"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Efectos visuales de devastación y impacto"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-04-11",
-        "reserva": "290",
-        "entrega": "Dic. 2026",
-        "cantidad": "2"
-      },
       {
         "id": "megazord-mnttbbsn",
         "n": "Megazord",
