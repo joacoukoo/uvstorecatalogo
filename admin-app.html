@@ -197,6 +197,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <label class="check-item"><input type="checkbox" id="add-oferta"><span>Oferta</span></label>
       <label class="check-item"><input type="checkbox" id="add-agotado-r"><span>Agotado Regular</span></label>
       <label class="check-item"><input type="checkbox" id="add-agotado-d"><span>Agotado Deluxe</span></label>
+      <label class="check-item"><input type="checkbox" id="add-preorden-mes"><span>Pre orden del mes</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('add')">Generar con IA</button>
@@ -313,6 +314,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <label class="check-item"><input type="checkbox" id="edit-oferta"><span>Oferta</span></label>
       <label class="check-item"><input type="checkbox" id="edit-agotado-r"><span>Agotado Regular</span></label>
       <label class="check-item"><input type="checkbox" id="edit-agotado-d"><span>Agotado Deluxe</span></label>
+      <label class="check-item"><input type="checkbox" id="edit-preorden-mes"><span>Pre orden del mes</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('edit')">Generar con IA</button>
@@ -476,6 +478,7 @@ function buildAddProduct(){
     oferta:getBool('add-oferta'),
     agotado_r:getBool('add-agotado-r'),
     agotado_d:getBool('add-agotado-d'),
+    preorden_mes:getBool('add-preorden-mes')||undefined,
     added_at:now
   };
   var cd=buildContent(getTA('add-desc-d'));if(cd.length)p.content_d=cd;
@@ -494,7 +497,7 @@ function resetAddForm(){
   ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-reserva-d','add-entrega','add-cantidad','add-yt','add-cat','add-disp'].forEach(function(id){setField(id,'');});
   setField('add-estado','Nuevo');
   ['add-desc','add-desc-d'].forEach(function(id){setTA(id,'');});
-  ['add-destacado','add-oferta','add-agotado-r','add-agotado-d'].forEach(function(id){setBool(id,false);});
+  ['add-destacado','add-oferta','add-agotado-r','add-agotado-d','add-preorden-mes'].forEach(function(id){setBool(id,false);});
   _photos.add={r:[],d:[]};
   renderPhotos('add','r');renderPhotos('add','d');
   document.getElementById('add-form').style.display='none';
@@ -707,6 +710,7 @@ function openEdit(cat,idx){
   setBool('edit-oferta',p.oferta);
   setBool('edit-agotado-r',p.agotado_r);
   setBool('edit-agotado-d',p.agotado_d);
+  setBool('edit-preorden-mes',p.preorden_mes);
   _photos.edit.r=(p.fotos||[]).slice();
   _photos.edit.d=(p.fotos_d||[]).slice();
   renderPhotos('edit','r');
@@ -744,7 +748,8 @@ async function saveEdit(){
     destacado:getBool('edit-destacado'),
     oferta:getBool('edit-oferta'),
     agotado_r:getBool('edit-agotado-r'),
-    agotado_d:getBool('edit-agotado-d')
+    agotado_d:getBool('edit-agotado-d'),
+    preorden_mes:getBool('edit-preorden-mes')||undefined
   });
   var pd=getField('edit-precio-d');updated.precio_d=pd||undefined;
   var rvd=getField('edit-reserva-d');updated.reserva_d=rvd||undefined;
