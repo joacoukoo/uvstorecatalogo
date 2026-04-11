@@ -28831,6 +28831,86 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mnum6crv",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e465f9b6ebd329421e055a8d7f59d927.jpg?v=1775832702",
+        "franquicia": "Anime",
+        "marca": "Zhenxing  Studio ",
+        "escala": "1:4 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e465f9b6ebd329421e055a8d7f59d927.jpg?v=1775832702",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3af0a3c8981e3c23058179f95a36727a.jpg?v=1775832702",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b596c80e6678e06eeffef2cabbb4ddb8.jpg?v=1775832702",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/627d62bac39e43ae46ec2f99105e6124.jpg?v=1775832702",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/c9be191a94dec7ed81f7d3b5dcc3caab.jpg?v=1775832702",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cff1cfa039ef4ca5f8f3ebc5d3cfee87.jpg?v=1775832702"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una figura de colección premium de Asuka Shikinami Langley en escala 1:4 que captura magistralmente cada detalle de este icónico personaje del anime. Con una altura de 48.5 cm, esta obra maestra de Zhenxing Studio presenta un traje rojo brillante con acabados de látex de alta calidad, accesorios metalizados y una base temática cinematográfica. Edición limitada a solo 188 piezas, incluyendo una cabeza alternativa ultra realista en versiones exclusivas, convirtiéndola en una pieza imprescindible para coleccionistas de figuras premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 48.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliuretano/Resina de alta calidad con acabados de látex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base incluida: Plataforma futurista temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Asuka (48.5 cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base futurista cinematográfica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza realista alternativa (versiones exclusivas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios metalizados y detalles de vestuario"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "1160",
+        "cantidad": "2"
+      },
+      {
         "id": "gilgamesh-mnulpqo8",
         "n": "Gilgamesh",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9c753c8dc5400f9024650edb84817334.jpg?v=1775831824",
