@@ -759,6 +759,21 @@ button:focus-visible,a:focus-visible{
   .marquee-track{animation:none!important}
   .reveal{opacity:1!important;transform:none!important;transition:none!important}
 }
+/* ── Pre Orden del Mes Band ─────────────────────────────────────────────── */
+#preorden-band{background:linear-gradient(135deg,rgba(123,47,190,.1) 0%,rgba(200,150,62,.05) 100%);border-top:1px solid rgba(123,47,190,.25);border-bottom:1px solid rgba(123,47,190,.12);padding:0 24px;}
+.preorden-band-inner{max-width:900px;margin:0 auto;padding:16px 0;display:grid;grid-template-columns:72px 1fr auto;align-items:center;gap:20px;}
+.po-img{width:72px;height:80px;border-radius:8px;overflow:hidden;border:1px solid rgba(123,47,190,.35);background:var(--bg3);flex-shrink:0;}
+.po-img img{width:100%;height:100%;object-fit:cover;}
+.po-tag{font-family:"Syne",sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:5px;}
+.po-name{font-family:"Bebas Neue",sans-serif;font-size:20px;color:var(--text);line-height:1.1;letter-spacing:.5px;}
+.po-sub{font-size:11px;color:var(--muted2);margin-top:2px;}
+.po-right{text-align:right;flex-shrink:0;}
+.po-price{font-family:"Bebas Neue",sans-serif;font-size:24px;color:var(--text);line-height:1;}
+.po-reserva{font-size:11px;color:var(--gold);margin:3px 0;}
+.po-entrega{font-size:10px;color:var(--muted2);margin-bottom:6px;}
+.po-btn{background:var(--purple);color:#fff;border:none;border-radius:6px;font-family:"Syne",sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:8px 18px;cursor:pointer;transition:opacity .15s;}
+.po-btn:hover{opacity:.85;}
+@media(max-width:600px){.preorden-band-inner{grid-template-columns:56px 1fr;gap:12px;}.po-right{display:none;}}
 </style>
 <!-- Meta Pixel -->
 <script>
@@ -816,6 +831,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
   <div class="marquee-wrap">
     <div class="marquee-track"><div class="marquee-item"><img class="brand-logo brand-logo--color" src="/assets/logos/hot-toys.png" alt="Hot Toys">HOT TOYS</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/sideshow.png" alt="Sideshow">SIDESHOW</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/iron-studios.jpg" alt="Iron Studios">IRON STUDIOS</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/prime1-studio.png" alt="Prime 1 Studio">PRIME 1 STUDIO</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/blitzway.png" alt="Blitzway">BLITZWAY</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/xm-studios.png" alt="XM Studios">XM STUDIOS</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/queen-studios.avif" alt="Queen Studios">QUEEN STUDIOS</div><div class="marquee-item"><img class="brand-logo brand-logo--color" src="/assets/logos/hot-toys.png" alt="Hot Toys">HOT TOYS</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/sideshow.png" alt="Sideshow">SIDESHOW</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/iron-studios.jpg" alt="Iron Studios">IRON STUDIOS</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/prime1-studio.png" alt="Prime 1 Studio">PRIME 1 STUDIO</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/blitzway.png" alt="Blitzway">BLITZWAY</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/xm-studios.png" alt="XM Studios">XM STUDIOS</div><div class="marquee-item"><img class="brand-logo" src="/assets/logos/queen-studios.avif" alt="Queen Studios">QUEEN STUDIOS</div></div>
   </div>
+  <div id="preorden-band" style="display:none"></div>
   <div class="section">
     <div class="sec-hdr"><div class="sec-title">Categor&iacute;as</div></div>
     <div class="cat-grid" id="cat-grid"></div>
@@ -1063,7 +1079,7 @@ function carouselMove(dir){
 }
 
 function makeCard(p,cat){
-  var div=document.createElement("div");div.className="prod-card";
+  var div=document.createElement("div");div.className="prod-card";div.id="prod-"+p.id;
   // Image wrapper
   var wrap=document.createElement("div");wrap.className="prod-img-wrap";
   var img=document.createElement("img");
@@ -1190,8 +1206,40 @@ function buildHome(){
 
   // Build franchise section on home
   buildFranchiseGrid("franchise-home-grid");
+  renderPreOrdenBand();
   // Trigger fade-in for visible cards
   setTimeout(observeFadeUp, 50);
+}
+var _poProduct=null,_poCategory=null;
+function renderPreOrdenBand(){
+  var band=document.getElementById("preorden-band");
+  if(!band)return;
+  var found=null,foundCat=null;
+  CAT_KEYS.forEach(function(c){
+    if(found)return;
+    (DATA[c]||{products:[]}).products.forEach(function(p){if(!found&&p.preorden_mes){found=p;foundCat=c;}});
+  });
+  if(!found){band.style.display="none";return;}
+  _poProduct=found;_poCategory=foundCat;
+  var months=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+  var now=new Date();
+  var monthLabel=months[now.getMonth()]+" "+now.getFullYear();
+  var sub=[found.franquicia,found.escala].filter(Boolean).join(" \u00B7 ");
+  band.innerHTML="<div class='preorden-band-inner'>"+
+    "<div class='po-img'><img src='"+esc(found.i)+"' alt='"+esc(found.n)+"' loading='lazy'></div>"+
+    "<div class='po-center'>"+
+      "<div class='po-tag'>\u2726 Pre Orden del Mes \u00B7 "+monthLabel+"</div>"+
+      "<div class='po-name'>"+esc(found.n)+"</div>"+
+      (sub?"<div class='po-sub'>"+esc(sub)+"</div>":"")+
+    "</div>"+
+    "<div class='po-right'>"+
+      (found.precio?"<div class='po-price'>Q "+esc(found.precio)+"</div>":"")+
+      (found.reserva?"<div class='po-reserva'>Reserva: Q "+esc(found.reserva)+"</div>":"")+
+      (found.entrega?"<div class='po-entrega'>Entrega: "+esc(found.entrega)+"</div>":"")+
+      "<button class='po-btn' onclick='openModal(_poProduct,_poCategory)'>Reservar</button>"+
+    "</div>"+
+  "</div>";
+  band.style.display="";
 }
 function observeFadeUp(){
   if(!window.IntersectionObserver){
