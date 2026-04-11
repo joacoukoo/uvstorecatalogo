@@ -39429,6 +39429,85 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "nami-new-version-mntv4467",
+        "n": "Nami (New Version)",
+        "i": "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccb995bd.jpg",
+        "franquicia": "Adultos",
+        "marca": "MegaHouse",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1950",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccb995bd.jpg",
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-scale-69d6bcbe1a31a.jpg",
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccdb4ec1.jpg",
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccbceb67.jpg",
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccc0fb9e.jpg",
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccde718a.jpg",
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccc441fd.jpg",
+          "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccc76c70.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Nami (New Version) de MegaHouse captura a la icónica navegante de One Piece en todo su esplendor, con un detallado traje de baño floral blanco y pantalones cortos que destacan su encanto tanto seductor como adorable. Cada aspecto de esta pieza premium ha sido meticulosamente esculpido, desde la elegante posición de sus piernas alrededor del Clima-Tact hasta la delicada posición de sus dedos, reflejando la máxima calidad característica de la línea Portrait.Of.Pirates. Una adición imprescindible para coleccionistas dedicados de One Piece que buscan capturar la esencia de este personaje icónico en su colección de figuras de alto valor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 21 cm (8.26 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Portrait.Of.Pirates (P.O.P)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 300-350 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MegaHouse"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Reimpresión limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Nami con detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Clima-Tact (bastón meteorológico)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "390",
+        "entrega": "Nov. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "takakiyo-kanan-mntv333n",
         "n": "Takakiyo Kanan",
         "i": "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ec7433f.jpg",
