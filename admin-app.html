@@ -605,67 +605,27 @@ async function fetchFreshCatalog() {
   return res.json();
 }
 
-// Catálogo guardado en memoria para evitar race condition cuando se suben
-// fichas seguidas (GitHub tarda en propagar, fetchFreshCatalog devolvería
-// la versión vieja y pisaría el guardado anterior).
-var _pendingCatalog = null;
-var _pendingCatalogAt = 0;
-var _saving = false;
-var PENDING_TTL = 60000; // 1 minuto
-
-function getBaseCatalog() {
-  if (_pendingCatalog && (Date.now() - _pendingCatalogAt < PENDING_TTL)) {
-    return Promise.resolve(JSON.parse(JSON.stringify(_pendingCatalog)));
-  }
-  return fetchFreshCatalog();
-}
-
-function setPendingCatalog(catalog) {
-  _pendingCatalog = JSON.parse(JSON.stringify(catalog));
-  _pendingCatalogAt = Date.now();
-}
-
-async function saveCatalogToGitHub(catalog) {
-  var res = await fetch('/api/catalog', {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify({catalog:catalog})});
+async function catalogAction(body) {
+  var res = await fetch('/api/catalog', {
+    method: 'PUT',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(body)
+  });
   var result = await res.json();
   if (!res.ok) throw new Error(result.error);
-  setPendingCatalog(catalog);
-  return catalog;
-}
-
-async function findAndMutateCatalog(productId, mutateFn) {
-  var catalog = await getBaseCatalog();
-  var found = false;
-  for (var c in catalog) {
-    var prods = catalog[c].products || [];
-    for (var i = 0; i < prods.length; i++) {
-      if (prods[i].id === productId) {
-        mutateFn(catalog, c, prods, i);
-        found = true;
-        break;
-      }
-    }
-    if (found) break;
-  }
-  if (!found) throw new Error('Producto no encontrado');
-  return saveCatalogToGitHub(catalog);
+  return result;
 }
 
 async function saveAdd(){
   var name=getField('add-name');if(!name)return setStatus('El nombre es obligatorio','orange');
   var cat=getField('add-cat');if(!cat)return setStatus('Elegi una categoria','orange');
-  if(_saving)return setStatus('Espera, hay un guardado en curso...','orange');
-  _saving=true;
   setStatus('Guardando...','orange');
   try{
-    var catalog=await getBaseCatalog();
-    if(!catalog[cat])catalog[cat]={products:[]};
-    catalog[cat].products.unshift(buildAddProduct());
-    await saveCatalogToGitHub(catalog);
+    await catalogAction({action:'add', category:cat, product:buildAddProduct()});
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
     _catalog=null;
     resetAddForm();
-  }catch(e){setStatus('Error: '+e.message,'red');}finally{_saving=false;}
+  }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
 var _catalog=null;
@@ -795,11 +755,8 @@ async function saveEdit(){
   var newCat=getField('edit-cat');
   setStatus('Guardando...','orange');
   try{
-    var catalog=await findAndMutateCatalog(productId,function(cat,c,prods,i){
-      if(newCat!==c&&cat[newCat]){prods.splice(i,1);cat[newCat].products.unshift(updated);}
-      else{prods[i]=updated;}
-    });
-    _catalog=catalog;
+    await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
+    _catalog=null;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();
   }catch(e){setStatus('Error: '+e.message,'red');}
@@ -810,10 +767,8 @@ async function deleteProduct(){
   var productId=_editTarget.id;
   setStatus('Eliminando...','orange');
   try{
-    var catalog=await findAndMutateCatalog(productId,function(cat,c,prods,i){
-      prods.splice(i,1);
-    });
-    _catalog=catalog;
+    await catalogAction({action:'delete', productId:productId});
+    _catalog=null;
     setStatus('Producto eliminado','green');
     cancelEdit();renderProductList();
   }catch(e){setStatus('Error: '+e.message,'red');}
@@ -842,8 +797,7 @@ async function optimizeCatalog(){
         if(r.ok){var d=await r.json();var m=d.text.match(/\{[\s\S]*\}/);if(m){try{var parsed=JSON.parse(m[0]);var parts=[];if(parsed.desc)parts.push(parsed.desc);if(parsed.specs)parts.push(parsed.specs);if(parsed.includes)parts.push(parsed.includes);if(parts.length){p.content=buildContent(parts.join('\n\n'));p.content_ok=true;count++;setStatus('Optimizados: '+count+'...','orange');}}catch(pe){}}}
       }
     }
-    var saveRes=await fetch('/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({catalog:catalog})});
-    if(!saveRes.ok)throw new Error((await saveRes.json()).error);
+    await catalogAction({action:'replace', catalog:catalog});
     _catalog=null;
     setStatus(count+' productos optimizados','green');
   }catch(e){setStatus('Error: '+e.message,'red');}
