@@ -28831,6 +28831,101 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "joel-ellie-mnukts86",
+        "n": "Joel & Ellie",
+        "i": "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad85d627.jpg",
+        "franquicia": "Gaming",
+        "marca": "Prime 1 Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "26800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad85d627.jpg",
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_scale_651718e714daa.jpg",
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad8b9f5f.jpg",
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad90d09b.jpg",
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad952bae.jpg",
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad997a9b.jpg",
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ad9f259b.jpg",
+          "https://www.sideshow.com/storage/product-images/9127763/joel-ellie-deluxe-bonus-version_the-last-of-us_gallery_66ba7ada58fb5.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una obra maestra en escala 1:4 que captura la esencia emocional de The Last of Us Part I. Esta figura premium de Prime 1 Studio representa el icónico dúo de Joel y Ellie en plena acción defensiva, con un nivel de detalle artesanal incomparable: desde las expresiones faciales hasta los accesorios de la mochila. El diorama incluye un Clicker atacante y restos infectados, creando una escena narrativa tridimensional que resume la tensión y el vínculo entre los personajes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 73 cm (aproximadamente)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 56 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 64 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4 (Quarter Scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Ultimate Premium Masterline"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad con pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Oversized Item (envío en múltiples paquetes)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Sony Interactive Entertainment / Naughty Dog"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Joel completamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Ellie con rifle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Clicker atacante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Restos de infectado fallecido integrado en la base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de The Last of Us Part I"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de equipamiento (armas, mochilas con detalles)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de crecimiento fúngico detallados"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "5360",
+        "entrega": "Junio 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "armored-batman-helmet-art-mask-mntssbfp",
         "n": "Armored Batman Helmet Art Mask",
         "i": "https://www.sideshow.com/storage/product-images/915541/purearts-dc-comics-armored-batman-helmet-art-mask-prop-replica-gallery-69d976c2c4c68.jpg",
