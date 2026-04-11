@@ -122,6 +122,11 @@ export async function onRequestPut({ env, request }) {
       if (!category || !product) return err400('add requiere category y product');
       const catalog = await readCatalog(env);
       if (!catalog[category]) catalog[category] = { products: [] };
+      if (product.preorden_mes) {
+        for (const c in catalog) {
+          (catalog[c].products || []).forEach(p => { delete p.preorden_mes; });
+        }
+      }
       catalog[category].products.unshift(product);
       await persistCatalog(env, catalog);
       return ok();
@@ -131,6 +136,11 @@ export async function onRequestPut({ env, request }) {
       const { productId, product, newCategory } = body;
       if (!productId || !product) return err400('edit requiere productId y product');
       const catalog = await readCatalog(env);
+      if (product.preorden_mes) {
+        for (const c in catalog) {
+          (catalog[c].products || []).forEach(p => { delete p.preorden_mes; });
+        }
+      }
       let found = false;
       for (const c in catalog) {
         const prods = catalog[c].products || [];
