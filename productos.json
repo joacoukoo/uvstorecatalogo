@@ -28831,6 +28831,97 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "baran-mnumselv",
+        "n": "Baran",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161425_537__65503.jpg?v=1775910013",
+        "franquicia": "Anime",
+        "marca": "MG Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161425_537__65503.jpg?v=1775910013",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161435_243__23139.jpg?v=1775910075",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161447_479__82122.jpg?v=1775910075",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161429_791__22592.jpg?v=1775910075",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161428_177__50737.jpg?v=1775910075",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161443_302__68615.jpg?v=1775910075",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161431_164__88225.jpg?v=1775910075",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_161441_947__81170.jpg?v=1775910075"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de MG Studio que captura al Hundred Flame King Balan en todo su esplendor, con un nivel de detalle excepcional que incluye efectos de iluminación LED integrados. Esta pieza de gran formato (43cm de altura) representa el pico de la artesanía en figuras de anime de colección, combinando escultura de alta calidad con elementos lumínicos dinámicos. Un must-have para coleccionistas de élite que buscan piezas de arte de edición limitada con presencia visual impactante."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 43 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 55 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Premium Format (~1/4 scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MG Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: LED integrados incluidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q3 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8-12 kg (estimado para figura de este tamaño)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática iluminada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema LED pre-instalado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía especiales (accesorios)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "1240",
+        "entrega": "3Q 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "asuka-mnumco89",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_154207_887__43699.jpg?v=1775909674",
