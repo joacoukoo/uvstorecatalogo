@@ -39429,6 +39429,81 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "takakiyo-kanan-mntv333n",
+        "n": "Takakiyo Kanan",
+        "i": "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ec7433f.jpg",
+        "franquicia": "Adultos",
+        "marca": "Kotobukiya",
+        "escala": "1:7",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ec7433f.jpg",
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-scale-69d8169b8dd55.jpg",
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ecabab6.jpg",
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ece4f66.jpg",
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ed1ccb5.jpg",
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ed48e66.jpg",
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815ed8b4c3.jpg",
+          "https://www.sideshow.com/storage/product-images/915538/kotobukiya-mistress-kanan-is-devilishly-easy-takakiyo-kanan-collectible-figure-gallery-69d815edcd5e0.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Takakiyo Kanan de Kotobukiya que captura la esencia seductora y encantadora del personaje en un deslumbrante traje de sirvienta de baño. Con un acabado nacarado que recrea la textura brillante del traje de baño y proporciones voluptuosas meticulosamente esculpidas, cada ángulo de la figura revela detalles extraordinarios desde los fruncidos delicados de los volantes hasta el cinturón de liga. Una pieza de colección imprescindible para los aficionados a anime que busca capturar la dualidad del personaje: expresión fría pero profundamente adorable y fácilmente influenciable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25 cm (9.84 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:7"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: ABS y PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Kotobukiya"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultor: TOKIRO EMA"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Basado en ilustración original de nonco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pearlescent (nacarado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Takakiyo Kanan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de piso (elementos decorativos del set)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "540",
+        "entrega": "Feb. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "hinata-mns905cj",
         "n": "Hinata",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-09_173030_587__99279.jpg?v=1775730279",
