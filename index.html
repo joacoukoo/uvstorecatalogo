@@ -1241,10 +1241,8 @@ function renderPreOrdenBand(){
       (sub?"<div class='po-sub'>"+esc(sub)+"</div>":"")+
     "</div>"+
     "<div class='po-right'>"+
-      (found.precio?"<div class='po-price'>Q "+esc(found.precio)+"</div>":"")+
-      (found.reserva?"<div class='po-reserva'>Reserva: Q "+esc(found.reserva)+"</div>":"")+
       (found.entrega?"<div class='po-entrega'>Entrega: "+esc(found.entrega)+"</div>":"")+
-      "<button class='po-btn' onclick='openModal(_poProduct,_poCategory)'>Reservar</button>"+
+      "<button class='po-btn' onclick='openModal(_poProduct,_poCategory)'>Ver m\u00e1s</button>"+
     "</div>"+
   "</div>";
   band.style.display="";
