@@ -444,6 +444,7 @@ function fillAddForm(data){
   if(data.entrega)setField('add-entrega',data.entrega);
   var disp=data.disp||data.estado||'';
   if(disp==='Entrega Inmediata'||disp==='Pre-Orden')setField('add-disp',disp);
+  setField('add-estado','Nuevo');
   // Default quantity
   setField('add-cantidad','2');
 }
@@ -490,7 +491,8 @@ function buildAddProduct(){
 }
 
 function resetAddForm(){
-  ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-reserva-d','add-entrega','add-cantidad','add-yt','add-cat','add-disp','add-estado'].forEach(function(id){setField(id,'');});
+  ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-reserva-d','add-entrega','add-cantidad','add-yt','add-cat','add-disp'].forEach(function(id){setField(id,'');});
+  setField('add-estado','Nuevo');
   ['add-desc','add-desc-d'].forEach(function(id){setTA(id,'');});
   ['add-destacado','add-oferta','add-agotado-r','add-agotado-d'].forEach(function(id){setBool(id,false);});
   _photos.add={r:[],d:[]};
