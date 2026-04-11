@@ -153,11 +153,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
         </select>
       </div>
     </div>
-    <div class="field-row-4">
+    <div class="field-row-3">
       <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="add-precio" placeholder="0"></div>
       <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="add-precio-d" placeholder="0"></div>
       <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="add-precio-orig" placeholder="Para ofertas"></div>
+    </div>
+    <div class="field-row">
       <div class="field"><label class="field-label">Reserva con (Q)</label><input type="text" id="add-reserva" placeholder="0"></div>
+      <div class="field"><label class="field-label">Reserva Deluxe (Q)</label><input type="text" id="add-reserva-d" placeholder="0"></div>
     </div>
     <div class="field-row">
       <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="add-entrega" placeholder="Q1 2025, Marzo 2025..."></div>
@@ -267,11 +270,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
         </select>
       </div>
     </div>
-    <div class="field-row-4">
+    <div class="field-row-3">
       <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="edit-precio"></div>
       <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="edit-precio-d"></div>
       <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="edit-precio-orig"></div>
+    </div>
+    <div class="field-row">
       <div class="field"><label class="field-label">Reserva con (Q)</label><input type="text" id="edit-reserva"></div>
+      <div class="field"><label class="field-label">Reserva Deluxe (Q)</label><input type="text" id="edit-reserva-d"></div>
     </div>
     <div class="field-row">
       <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="edit-entrega"></div>
@@ -479,6 +485,7 @@ function buildAddProduct(){
   var pd=getField('add-precio-d');if(pd)p.precio_d=pd;
   var po=getField('add-precio-orig');if(po)p.precio_orig=po;
   var rv=getField('add-reserva');if(rv)p.reserva=rv;
+  var rvd=getField('add-reserva-d');if(rvd)p.reserva_d=rvd;
   var en=getField('add-entrega');if(en)p.entrega=en;
   var cn=getField('add-cantidad');if(cn)p.cantidad=cn;
   var yt=getField('add-yt');if(yt)p.yt=yt;
@@ -487,7 +494,7 @@ function buildAddProduct(){
 }
 
 function resetAddForm(){
-  ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-entrega','add-cantidad','add-yt','add-cat','add-disp','add-estado'].forEach(function(id){setField(id,'');});
+  ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-reserva-d','add-entrega','add-cantidad','add-yt','add-cat','add-disp','add-estado'].forEach(function(id){setField(id,'');});
   ['add-desc','add-desc-d'].forEach(function(id){setTA(id,'');});
   ['add-destacado','add-oferta','add-agotado-r','add-agotado-d'].forEach(function(id){setBool(id,false);});
   _photos.add={r:[],d:[]};
@@ -709,6 +716,7 @@ function openEdit(cat,idx){
   setField('edit-precio-d',p.precio_d||'');
   setField('edit-precio-orig',p.precio_orig||'');
   setField('edit-reserva',p.reserva||'');
+  setField('edit-reserva-d',p.reserva_d||'');
   setField('edit-entrega',p.entrega||'');
   setField('edit-cantidad',p.cantidad||'');
   setField('edit-yt',p.yt||'');
@@ -758,6 +766,7 @@ async function saveEdit(){
     agotado_d:getBool('edit-agotado-d')
   });
   var pd=getField('edit-precio-d');updated.precio_d=pd||undefined;
+  var rvd=getField('edit-reserva-d');updated.reserva_d=rvd||undefined;
   var po=getField('edit-precio-orig');updated.precio_orig=po||undefined;
   var fd=_photos.edit.d.slice();updated.fotos_d=fd.length?fd:undefined;
   var newCat=getField('edit-cat');
@@ -829,7 +838,9 @@ async function optimizeCatalog(){
     }
   }
   document.getElementById('add-precio').addEventListener('input', function(){ calcReserva('add-precio','add-reserva'); });
+  document.getElementById('add-precio-d').addEventListener('input', function(){ calcReserva('add-precio-d','add-reserva-d'); });
   document.getElementById('edit-precio').addEventListener('input', function(){ calcReserva('edit-precio','edit-reserva'); });
+  document.getElementById('edit-precio-d').addEventListener('input', function(){ calcReserva('edit-precio-d','edit-reserva-d'); });
 })();
 </script>
 </body>
