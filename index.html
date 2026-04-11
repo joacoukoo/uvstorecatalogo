@@ -1141,7 +1141,7 @@ function carouselMove(dir){
   modalCard.addEventListener("touchmove",function(e){
     if(!window.matchMedia("(max-width:768px)").matches)return;
     var dy=e.touches[0].clientY-_sy;
-    if(dy>0&&_startScrollTop===0){
+    if(dy>15&&_startScrollTop===0){
       _isDragging=true;
       e.preventDefault();
       modalCard.style.transform="translateY("+dy+"px)";
