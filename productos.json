@@ -28831,6 +28831,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mnumco89",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_154207_887__43699.jpg?v=1775909674",
+        "franquicia": "Anime",
+        "marca": "Honey Studio ",
+        "escala": "1:6/1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_154207_887__43699.jpg?v=1775909674",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_154210_352__28852.jpg?v=1775909674",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_154212_004__32263.jpg?v=1775909674",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_154213_817__15966.jpg?v=1775909674"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Asuka de Honey Studio que captura la icónica esencia del personaje en escala 1/6 (34 cm) y 1/4 (51 cm) con detalles extraordinarios. Cada pieza es una obra maestra de escultura y pintura que recrea fielmente su outfit de combate, expresión característica y los efectos de energía luminiscente que la rodean. Edición limitada de 100 piezas (1/6) y 50 piezas (1/4) que representa el pico de la artesanía coleccionista de anime de gama alta."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 34 cm (escala 1/6) / 51 cm (escala 1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6 y 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Honey Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Evangelion-02 (Anime)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone/Resina de alta calidad con pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 100 piezas (1/6 scale) y 50 piezas (1/4 scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de detalle premium con efectos de iluminación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada de Asuka"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación temática con detalles de escenario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arma de combate/Lanza equipada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales de energía luminiscente intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad y número de serie"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "precio_d": "6600",
+        "reserva": "920",
+        "reserva_d": "1320",
+        "entrega": "1Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "shiryu-choun-mnum8hd7",
         "n": "Shiryu Choun",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151403_584__90823.jpg?v=1775908577",
