@@ -215,102 +215,150 @@ export async function scrapeSideshow(url, html) {
     if (re.test(html)) { escala = label; break; }
   }
 
-  // ── Descripción ──
-  let desc = '';
-
-  // Texto limpio del HTML (sin tags) para búsquedas de texto
+  // ── Texto limpio del HTML (sin tags) para búsquedas ──
   const plainText = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
 
-  // 1. __NEXT_DATA__: buscar la cadena de texto más larga que parezca descripción
+  // ── Extractor de secciones de Sideshow ──────────────────────────────────
+  // Sideshow usa Next.js: toda la data está en __NEXT_DATA__. Las secciones
+  // About / Details / What's In The Box / Additional Details están en el JSON
+  // aunque el accordion esté colapsado en la UI. También se extrae del HTML.
+
   const nextDataM = html.match(/<script[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i);
-  if (nextDataM) {
-    try {
-      const ndRaw = nextDataM[1];
-      // Buscar todas las strings JSON de más de 120 chars y quedarse con la más larga
-      // que no sea URL, código ni HTML
-      let bestDesc = '';
-      const strRe = /"((?:[^"\\]|\\.){120,})"/g;
-      let sm;
-      while ((sm = strRe.exec(ndRaw)) !== null) {
-        const s = sm[1]
-          .replace(/\\n/g, ' ').replace(/\\t/g, ' ').replace(/\\"/g, '"')
-          .replace(/\\u[\da-f]{4}/gi, '')
-          .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-        if (s.startsWith('http') || s.startsWith('/') || s.startsWith('{') ||
-            s.includes('function') || s.includes('\\') || s.split(' ').length < 8) continue;
-        if (s.length > bestDesc.length) bestDesc = s;
+
+  // Claves conocidas → etiqueta legible
+  const ND_SECTION_KEYS = {
+    about: 'About', description: 'About', longdescription: 'About',
+    productdescription: 'About', overview: 'About',
+    details: 'Details', productdetails: 'Details', specifications: 'Details',
+    specs: 'Details',
+    whatsinthebox: "What's In The Box", whatsinbox: "What's In The Box",
+    inthebox: "What's In The Box", boxcontents: "What's In The Box",
+    includes: "What's In The Box",
+    additionaldetails: 'Additional Details', moredetails: 'Additional Details',
+    highlights: 'Highlights', features: 'Highlights',
+  };
+
+  function ndTextFromValue(val) {
+    if (!val) return '';
+    if (typeof val === 'string') {
+      // Puede ser HTML — stripear tags
+      return decodeHtml(val.replace(/<[^>]+>/g, ' ').replace(/\\n/g, '\n').replace(/\\t/g, ' ').replace(/\s+/g, ' ').trim());
+    }
+    if (Array.isArray(val)) {
+      return val.map(item => {
+        if (typeof item === 'string') {
+          const t = decodeHtml(item.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
+          return t.length > 2 ? '- ' + t : '';
+        }
+        if (item && typeof item === 'object') {
+          // Probar campos comunes de objetos de lista
+          for (const f of ['name', 'title', 'text', 'value', 'description', 'label', 'content', 'item']) {
+            if (typeof item[f] === 'string' && item[f].length > 2) {
+              return '- ' + decodeHtml(item[f].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
+            }
+          }
+        }
+        return '';
+      }).filter(Boolean).join('\n');
+    }
+    if (typeof val === 'object') {
+      // Objeto plano: concatenar strings de sus valores
+      const parts = Object.values(val).filter(v => typeof v === 'string' && v.length > 5)
+        .map(v => decodeHtml(v.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()));
+      return parts.join(' ');
+    }
+    return '';
+  }
+
+  function extractNextDataSections(ndRaw) {
+    let nd;
+    try { nd = JSON.parse(ndRaw); } catch { return []; }
+    const found = [];
+    const seenText = new Set();
+    function walk(obj, depth) {
+      if (depth > 14 || !obj || typeof obj !== 'object') return;
+      for (const [k, v] of Object.entries(obj)) {
+        const nk = k.toLowerCase().replace(/[_\-\s]/g, '');
+        const label = ND_SECTION_KEYS[nk];
+        if (label) {
+          const text = ndTextFromValue(v);
+          if (text && text.length > 30) {
+            const sig = text.slice(0, 80).toLowerCase();
+            if (!seenText.has(sig)) { seenText.add(sig); found.push({ label, text }); }
+          }
+        }
+        if (v && typeof v === 'object') walk(v, depth + 1);
       }
-      if (bestDesc.length > 80) desc = bestDesc.slice(0, 1200);
-    } catch (_) {}
-  }
-
-  // 2. JSON-LD Product description
-  if (!desc || desc.length < 80) {
-    const jsonLd = extractJsonLd(html);
-    const ldProduct = jsonLd.find(d => d['@type'] === 'Product');
-    if (ldProduct?.description) {
-      const ldDesc = decodeHtml(ldProduct.description.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim());
-      if (ldDesc.length > desc.length) desc = ldDesc;
     }
+    walk(nd, 0);
+    return found;
   }
 
-  // 3. Extraer párrafos del bloque "product-details-about" en el HTML
-  if (!desc || desc.length < 400) {
-    const aboutIdx2 = html.indexOf('product-details-about');
-    if (aboutIdx2 !== -1) {
-      const aboutHtml = html.slice(aboutIdx2, aboutIdx2 + 6000);
-      const paragraphs = [...aboutHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
-        .map(m => decodeHtml(m[1].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()))
-        .filter(t => t.length > 40);
-      if (paragraphs.length) {
-        const joined = paragraphs.join(' ');
-        if (joined.length > desc.length) desc = joined.slice(0, 1200);
+  // Extractor de secciones desde el HTML (acordeones visibles en el DOM)
+  const HTML_SECTIONS = [
+    { re: /About\s+(?:the\s+)?[A-Z]/i, label: 'About' },
+    { re: /product-details-about/i,    label: 'About' },
+    { re: /What.s\s+In\s+The\s+Box/i,  label: "What's In The Box" },
+    { re: /Additional\s+Details/i,     label: 'Additional Details' },
+    { re: /(?<!Additional\s)Details(?!\s+Section)/i, label: 'Details' },
+    { re: /Specifications/i,           label: 'Details' },
+    { re: /product-details-section/i,  label: 'Details' },
+  ];
+
+  function extractHtmlSections(html) {
+    const found = [];
+    const seenText = new Set();
+    for (const { re, label } of HTML_SECTIONS) {
+      const idx = html.search(re);
+      if (idx === -1) continue;
+      const chunk = html.slice(idx, idx + 5000);
+      const paras = [...chunk.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+        .map(m => decodeHtml(m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()))
+        .filter(t => t.length > 30);
+      const items = [...chunk.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)]
+        .map(m => decodeHtml(m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()))
+        .filter(t => t.length > 2)
+        .map(t => '- ' + t);
+      const text = [...paras, ...items].join('\n');
+      if (text.length > 30) {
+        const sig = text.slice(0, 80).toLowerCase();
+        if (!seenText.has(sig)) { seenText.add(sig); found.push({ label, text }); }
       }
     }
+    return found;
   }
 
-  // 3b. Fallback: buscar texto largo en plainText después de "About"
-  if (!desc || desc.length < 400) {
-    const aboutM = plainText.match(/About\s+(?:the\s+)?[A-Z][^\n]{0,80}\n+([\s\S]{100,1200}?)(?:\n\n|\bWhat.s\b)/i);
-    if (aboutM) {
-      const clean = aboutM[1].replace(/\s+/g, ' ').trim();
-      if (clean.length > desc.length) desc = clean.slice(0, 1200);
+  // ── Combinar todas las secciones en desc ──────────────────────────────────
+  let desc = '';
+  {
+    const ndSections = nextDataM ? extractNextDataSections(nextDataM[1]) : [];
+    const htmlSections = extractHtmlSections(html);
+
+    // Preferir __NEXT_DATA__ (más completo), complementar con HTML
+    const allSections = [...ndSections];
+    const ndTexts = new Set(ndSections.map(s => s.text.slice(0, 80).toLowerCase()));
+    for (const s of htmlSections) {
+      if (!ndTexts.has(s.text.slice(0, 80).toLowerCase())) allSections.push(s);
+    }
+
+    if (allSections.length) {
+      // Agrupar por label y deduplicar
+      const byLabel = new Map();
+      for (const { label, text } of allSections) {
+        if (!byLabel.has(label)) byLabel.set(label, text);
+        else if (text.length > byLabel.get(label).length) byLabel.set(label, text);
+      }
+      desc = [...byLabel.entries()].map(([label, text]) => `[${label}]\n${text}`).join('\n\n');
+    }
+
+    // Fallback: og:description si no se extrajo nada
+    if (!desc) {
+      desc = decodeHtml(rx(html, /<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i));
     }
   }
 
-  // 4. og:description como fallback final
-  if (!desc) desc = decodeHtml(rx(html, /<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i));
-
-  // ── Features: What's In The Box + Specs ──
+  // features vacío — todo el contenido va en desc para que la IA lo use completo
   const features = [];
-  const seenF = new Set();
-  function addFeature(text) {
-    const t = text.replace(/\s+/g,' ').trim();
-    if (t.length > 2 && t.length < 300 && !seenF.has(t.toLowerCase())) {
-      seenF.add(t.toLowerCase());
-      features.push(t);
-    }
-  }
-
-  // What's In The Box
-  const inBoxM = html.match(/What.s\s+In\s+The\s+Box[\s\S]{0,500}?<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/i);
-  if (inBoxM) {
-    for (const [, liHtml] of inBoxM[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)) {
-      addFeature(decodeHtml(liHtml.replace(/<[^>]+>/g,' ')));
-    }
-  }
-
-  // Specifications / Additional Details / Details
-  for (const secRe of [
-    /(?:Specifications|Additional\s+Details|Product\s+Details)[\s\S]{0,500}?<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/gi,
-    /class="[^"]*product-details-section[^"]*"[\s\S]{0,200}?<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/gi,
-  ]) {
-    for (const m of html.matchAll(secRe)) {
-      for (const [, liHtml] of m[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)) {
-        addFeature(decodeHtml(liHtml.replace(/<[^>]+>/g,' ')));
-      }
-    }
-  }
 
   // ── Entrega estimada — buscar en plainText (sin tags HTML) ──
   let entrega = '';
