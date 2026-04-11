@@ -28831,6 +28831,101 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "shiryu-choun-mnum8hd7",
+        "n": "Shiryu Choun",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151403_584__90823.jpg?v=1775908577",
+        "franquicia": "Anime",
+        "marca": "Surreal Studio",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151403_584__90823.jpg?v=1775908577",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151342_654__88507.jpg?v=1775908577",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151400_785__48731.jpg?v=1775908577",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151348_147__32492.jpg?v=1775908577",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151407_056__30664.jpg?v=1775908577",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151350_969__22607.jpg?v=1775908577",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151356_944__94389.jpg?v=1775908577",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-11_151354_192__58301.jpg?v=1775908577"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Shiryu Choun de Surreal Studio que captura la esencia del personaje con detalles extraordinarios en una escala 1:6. Esta pieza de edición limitada a 99 unidades combina craftsmanship de alta calidad con una base dinámica que evoca poder y movimiento. Cada elemento, desde el flujo del cabello plateado hasta las armas katana y los accesorios, ha sido meticulosamente esculpido y pintado para crear una obra maestra coleccionable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 22.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 17.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polystone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal con detalles aplicados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con motivos ornamentales tallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Katana principal con vaina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Katana secundaria"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de armas adicionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de energía/poder en la base"
+          },
+          {
+            "t": "notion-text",
+            "x": "Opción A ojos abiertos\nOpción B ojos cerrados"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "1040",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "asuka-mnum6crv",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e465f9b6ebd329421e055a8d7f59d927.jpg?v=1775832702",
