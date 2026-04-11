@@ -1801,7 +1801,7 @@ function doSearch(q){
 document.addEventListener("keydown",function(e){if(e.key==="Escape"){closeModal();closeSearch();closeLightbox();}});
 
 // ── LIGHTBOX ──
-var _lbPhotos=[], _lbIdx=0;
+var _lbPhotos=[], _lbIdx=0, _lbOpenedAt=0;
 function carouselClick(e){
   if(e.target.closest&&(e.target.closest(".carousel-btn")||e.target.closest(".carousel-dots")))return;
   if(_carPhotos&&_carPhotos.length>0)openLightbox(_carPhotos,_carIdx);
@@ -1819,8 +1819,10 @@ function openLightbox(photos,idx){
   if(lbn)lbn.style.display=showNav?"flex":"none";
   document.getElementById("lightbox").classList.add("open");
   document.body.style.overflow="hidden";
+  _lbOpenedAt=Date.now();
 }
 function closeLightbox(){
+  if(Date.now()-_lbOpenedAt<300)return;
   var lb=document.getElementById("lightbox");
   if(lb)lb.classList.remove("open");
   document.body.style.overflow="";
