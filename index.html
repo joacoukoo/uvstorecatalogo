@@ -773,7 +773,15 @@ button:focus-visible,a:focus-visible{
 .po-entrega{font-size:10px;color:var(--muted2);margin-bottom:6px;}
 .po-btn{background:var(--purple);color:#fff;border:none;border-radius:6px;font-family:"Syne",sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:8px 18px;cursor:pointer;transition:opacity .15s;}
 .po-btn:hover{opacity:.85;}
-@media(max-width:600px){.preorden-band-inner{grid-template-columns:56px 1fr;gap:12px;}.po-right{display:none;}}
+@media(max-width:600px){
+#preorden-band{padding:0 16px;}
+.preorden-band-inner{grid-template-columns:56px 1fr;gap:8px 12px;}
+.po-img{width:56px;height:64px;}
+.po-right{grid-column:1/-1;text-align:left;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.po-price{font-size:18px;}
+.po-reserva{margin:0;}
+.po-entrega{display:none;}
+}
 </style>
 <!-- Meta Pixel -->
 <script>
