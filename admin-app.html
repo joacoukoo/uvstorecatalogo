@@ -146,7 +146,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <div class="field"><label class="field-label">Estado fisico</label>
         <select id="add-estado">
           <option value="">-- Estado --</option>
-          <option value="Sellado">Sellado</option>
           <option value="Nuevo">Nuevo</option>
           <option value="En caja abierta">En caja abierta</option>
           <option value="Usado">Usado</option>
@@ -263,7 +262,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <div class="field"><label class="field-label">Estado fisico</label>
         <select id="edit-estado">
           <option value="">-- Estado --</option>
-          <option value="Sellado">Sellado</option>
           <option value="Nuevo">Nuevo</option>
           <option value="En caja abierta">En caja abierta</option>
           <option value="Usado">Usado</option>
@@ -446,8 +444,6 @@ function fillAddForm(data){
   if(data.entrega)setField('add-entrega',data.entrega);
   var disp=data.disp||data.estado||'';
   if(disp==='Entrega Inmediata'||disp==='Pre-Orden')setField('add-disp',disp);
-  // Physical condition: pre-orders are always sealed
-  if(disp==='Pre-Orden')setField('add-estado','Sellado');
   // Default quantity
   setField('add-cantidad','2');
 }
