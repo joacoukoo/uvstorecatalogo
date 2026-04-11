@@ -9869,6 +9869,133 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "lieutenant-starbuck-mntu7wqa",
+        "n": "Lieutenant Starbuck",
+        "i": "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd34ba5d.jpg",
+        "franquicia": "Otros",
+        "marca": "Factory Entertainment",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd34ba5d.jpg",
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-scale-69d7ecd769715.jpg",
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd3a068e.jpg",
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd3f3d04.jpg",
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd454200.jpg",
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd4ae3ab.jpg",
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd511ad2.jpg",
+          "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd5633d4.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la artesanía excepcional de esta figura de colección en escala 1:6 del Teniente Starbuck de Battlestar Galactica, con un asombroso parecido a Dirk Benedict y detalles auténticos del uniforme de piloto viper colonial. Cada elemento está meticulosamente elaborado, desde la icónica chaqueta marrón con hebillas doradas hasta el traje de vuelo acolchado en beige con ribete dorado a cuadros, transformándola en una pieza imprescindible para coleccionistas de ciencia ficción. Con accesorios premium, rostros intercambiables, ojos móviles independientes y una base de exhibición con telón de fondo impreso, esta figura captura la esencia del legendario piloto de los 70 con precisión cinematográfica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm (12 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado de primera calidad con pintura de detalle profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 500-700 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Noviembre 2026 - Enero 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Universal City Studios LLC / Battlestar Galactica 1978"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Factory Entertainment"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con rostro estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza alternativa con peinado de piloto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos movibles independientes (intercambiables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta de piloto marrón con hebillas doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de vuelo acolchado beige con ribete dorado a cuadros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de vuelo beige con cinturón de tejido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas marrones de piloto con hebillas plateadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco de piloto Viper Colonial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blaster de piloto Viper Colonial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta de circuito con correa para pierna"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dispositivo traductor Languatron"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj de piloto Colonial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de tejido con funda y cargadores de munición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición con tapa impresa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Telón de fondo escénico impreso"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-11",
+        "reserva": "880",
+        "entrega": "Ene. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "captain-apollo-mntu8k26",
         "n": "Captain Apollo",
         "i": "https://www.sideshow.com/storage/product-images/915534/factory-entertainment-battlestar-galactica-captain-apollo-sixth-scale-figure-gallery-69d7ef58261cf.jpg",
