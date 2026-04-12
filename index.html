@@ -1075,7 +1075,12 @@ function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").repl
 function fmtReserva(v){v=String(v).trim();return"Q"+(v.toLowerCase().startsWith("q")?v.slice(1):v);}
 
 function carouselBuild(photos){
-  _carPhotos=photos;_carIdx=0;
+  // Resolve relative URLs to absolute so lightbox works after history.pushState cambia a /p/...
+  _carPhotos=photos.map(function(src){
+    if(src&&!src.match(/^https?:\/\//))return location.origin+'/'+(src.replace(/^\//,''));
+    return src;
+  });
+  _carIdx=0;
   var track=document.getElementById("carousel-track");
   var dots=document.getElementById("carousel-dots");
   track.innerHTML="";dots.innerHTML="";
