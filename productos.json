@@ -17483,24 +17483,15 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "",
         "precio": "4100",
-        "precio_d": "",
         "reserva": "Q820",
         "entrega": "Agosto 2027",
-        "cantidad": "6",
+        "cantidad": "3",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura de acción de Spider-Man en versión con daños de batalla, basada en la interpretación de Tobey Maguire de la película Spider-Man. Esta réplica en sexta escala captura al personaje en estado dañado, con su distintivo traje rojo y azul oscuro mostrando los efectos del combate."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nFigura de acción de Spider-Man en versión con daños de batalla, basada en la interpretación de Tobey Maguire de la película Spider-Man. Esta réplica en sexta escala captura al personaje en estado dañado, con su distintivo traje rojo y azul oscuro mostrando los efectos del combate.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -17515,7 +17506,7 @@
             "x": "Puntos de articulación: 30"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Incluye"
           },
           {
@@ -17551,7 +17542,7 @@
             "x": "Placa de personaje"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -17576,8 +17567,6 @@
           }
         ],
         "id": "spider-man-battle-damaged-version",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
@@ -17591,7 +17580,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915211/hot-toys-marvel-spider-man-battle-damaged-version-sixth-scale-figure-gallery-6958169b595d1.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915211/hot-toys-marvel-spider-man-battle-damaged-version-sixth-scale-figure-gallery-6958169b9f495.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Rumi - KPop Demon Hunters",
