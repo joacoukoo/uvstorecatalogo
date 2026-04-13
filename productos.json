@@ -93,7 +93,7 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armored-batman-20",
         "marca": "Hot Toys",
         "escala": "1:6",
-        "estado": "Sellado",
+        "estado": "",
         "disp": "Entrega Inmediata",
         "precio": "3900",
         "precio_d": "4600",
@@ -225,7 +225,7 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959e04aad0.jpg"
         ],
         "agotado_r": false,
-        "agotado_d": false,
+        "agotado_d": true,
         "content_d": [
           {
             "t": "notion-text",
