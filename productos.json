@@ -7397,13 +7397,9 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/don-vito-corleone",
         "marca": "Iron Studios",
         "escala": "1:10 - 20CM",
-        "estado": "Exhibido - Excelente Estado",
-        "disp": "Entrega Inmediata",
+        "estado": "",
+        "disp": "Vendido",
         "precio": "2500",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
@@ -7426,8 +7422,6 @@
             "x": "0.5 kg"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Otros",
         "destacado": false,
         "oferta": false,
@@ -7441,7 +7435,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ec958f7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ecdd79e.jpg"
         ],
-        "id": "don-vito-corleone"
+        "id": "don-vito-corleone",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Proxima Midnight",
