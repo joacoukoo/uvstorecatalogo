@@ -28822,6 +28822,85 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "bruce-lee-kali-sticks-fight-deluxe-mny374ah",
+        "n": "Bruce Lee (Kali Sticks Fight) Deluxe",
+        "i": "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be36329af.jpg",
+        "franquicia": "Otros",
+        "marca": "Star Ace Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be36329af.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be368e233.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be36e4599.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be3747e7e.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be37a2a37.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be39f3ada.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be3814358.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be38860f8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Bruce Lee en su icónica pose de combate con Kali Sticks, capturada en un momento de puro dominio marcial del clásico Enter the Dragon. Con una altura de aproximadamente 30 cm, esta estatua de poliresina muestra un nivel excepcional de detalle en la musculatura, expresión facial y energía cinética del legendario maestro. La base temática con dragones chinos y el acabado pintado a mano la convierten en una pieza de exhibición imprescindible para coleccionistas de Bruce Lee y cinéfagos de artes marciales."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm (incluida la base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina (Polyresin)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Star Ace Toys en colaboración con Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Incluida con temática cinética de dragones chinos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Bruce Lee Enterprises, LLC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Bruce Lee con postura de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con dragones chinos estilizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Kali Sticks (bastones de combate)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque premium de colección"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-14",
+        "reserva": "780",
+        "entrega": "Jun. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "resident-evil-requiem-leon-s-kennedy-raccoon-city--mnuo1lvy",
         "n": "Resident Evil Requiem Leon S. Kennedy: Raccoon City Chase",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365088/_2026-04-11_211327_892__00365.1775913808.jpg",
