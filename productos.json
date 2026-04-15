@@ -40580,6 +40580,84 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "kannagi-yuuri-kannagi-yuma-mo0m0ojs",
+        "n": "Kannagi Yuuri & Kannagi Yuma",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17888/images/366324/_2026-04-15_165747_143__74504.1776243856.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "BGA Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17888/images/366324/_2026-04-15_165747_143__74504.1776243856.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366324/_2026-04-15_165747_143__74504.1776243856.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366319/_2026-04-15_165751_348__10421.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366320/_2026-04-15_165752_916__24771.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366321/_2026-04-15_165754_832__05204.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366322/_2026-04-15_165749_338__94428.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366323/_2026-04-15_165744_225__11810.1776243847.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de colección de las hermanas Kannagi Yuuri y Kannagi Yuma de BGA Studio, con acabados de calidad superior y exquisitos detalles en escultura y pintura. Esta pieza artesanal de 1:6 captura la esencia de los personajes con gran fidelidad, presentando poses dinámicas y expresiones cautivadoras. Un must-have para coleccionistas de figuras premium de alto valor que aprecian la artesanía y el detallismo excepcional."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm (aproximado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU (Poliuretano)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 16 cm (Alto) x 16 cm (Ancho) x 16 cm (Profundo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: BGA Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Kannagi Yuuri"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Kannagi Yuma"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios incluidos según especificaciones del fabricante"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "reserva": "920",
+        "entrega": "Q1 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "nami-new-version-mntv4467",
         "n": "Nami (New Version)",
         "i": "https://www.sideshow.com/storage/product-images/915525/megahouse-one-piece-nami-new-version-collectible-figure-gallery-69d6bccb995bd.jpg",
