@@ -40580,6 +40580,73 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "makima-mo0mo4z7",
+        "n": "Makima",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17672/images/361247/_2026-04-03_143555_017__84951.1775198443.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "NingYu Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17672/images/361247/_2026-04-03_143555_017__84951.1775198443.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17672/361247/_2026-04-03_143555_017__84951.1775198443.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17672/361246/_2026-04-03_143557_862__73391.1775198441.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17672/361245/_2026-04-03_143600_589__88180.1775198435.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Makima en escala 1:6, elaborada con materiales de alta calidad (PU + Resina) que capturan cada detalle de este icónico personaje. Esta pieza de 28 cm de altura representa la maestría artesanal de NingYu Studio, ofreciendo una postura dinámica y acabados de lujo para coleccionistas exigentes. Una inversión en calidad y detalle visual que define el estándar de las figuras adultas premium del mercado."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 28 cm (alto) x 13 cm (ancho) x 13 cm (profundidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: NingYu Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Precio: 145 USD (Depósito: 45 USD)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Mayo 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Makima"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "reserva": "500",
+        "entrega": "May 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "kannagi-yuuri-kannagi-yuma-mo0m0ojs",
         "n": "Kannagi Yuuri & Kannagi Yuma",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17888/images/366324/_2026-04-15_165747_143__74504.1776243856.386.513.jpg",
