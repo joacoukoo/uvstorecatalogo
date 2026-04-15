@@ -36582,6 +36582,106 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "astro-boy-classic-design-version-mo06x27q",
+        "n": "Astro Boy Classic Design Version",
+        "i": "https://img.sugotoys.com.au/images/20260408014008/mbPl2nGaBr-6wxBnnXJY39COLKq6y4aW157v5RFkyTM.jpeg",
+        "franquicia": "Anime",
+        "marca": "Gong Studio",
+        "escala": "1:8",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "fotos": [
+          "https://img.sugotoys.com.au/images/20260408014008/mbPl2nGaBr-6wxBnnXJY39COLKq6y4aW157v5RFkyTM.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014010/f6T-tEcErrSRdhv6c4ZHJsPMz1YYJluEo8_VlovKiqE.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014012/D3fS4Qe8Jj_QPsskx_iwk2pMOb2zYD7MbYSnQVo8nKU.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014014/G9zzh2ca9BaoqnikeD-kC2idkFHodPW6TAyY8giTQ5w.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014016/0_GFtkNz-LDbYNw41zW4c_tN6oNwj7LjKiuJtLcDFFU.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014017/U7knYS5KwoMzm4hMf2fAi5a2E596qDYwOC2BxAIIY5A.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014019/sYJTa2BH_AzMQnwC6S6f14QIKlm6I52yr4UWreEJiRs.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014021/0LZcisboNNHpxqDLaxohf41_rKdgBeF21vmBz2kx1xE.jpeg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Astro Boy de 22.5 cm con esqueleto interno de aleación die-cast y estructura modular intercambiable. Presenta tres modos de exhibición distintos: armadura completa, estructura interna expuesta o configuración de ventana media, permitiendo una personalización visual sin precedentes. Equipada con módulos LED magnéticos en ojos y pecho con efectos de iluminación estable y respirante, capturando la esencia icónica del personaje con tecnología de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 22.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Aproximadamente 1:8"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Aleación die-cast con marco interno de metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armazón interno: Metal con acabado pulido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura externa: Acero/Plástico de ingeniería"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 400-500 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de precisión y detalles metallizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Astro Boy de 22.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Esqueleto interno de aleación die-cast visible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de armadura removible (configuración completa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Módulos LED magnéticos (ojos y pecho)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de luz: modo fijo y modo respirante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de llama para poses de vuelo dinámico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación oficial y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "precio_orig": "3000",
+        "reserva": "540",
+        "entrega": "Septiembre 2026",
+        "cantidad": "4"
+      },
+      {
         "id": "ip-man-4-the-finale-mnywkiqj",
         "n": "Ip Man 4: The Finale",
         "i": "https://img.sugotoys.com.au/images/20220613030050/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-0-1-1.jpg",
