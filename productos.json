@@ -17351,41 +17351,110 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "",
         "precio": "3800",
-        "precio_d": "",
         "reserva": "Q760",
         "entrega": "Julio 2027",
         "cantidad": "3",
         "content": [
           {
             "t": "notion-text",
-            "x": "DC | Video Game Collection Figura a escala 1:6 deBatman, basada en el videojuegoBatman: Arkham Origins. Esta versión presenta unnuevo head sculpt enmascaradoconojos móviles independientesydos lower faces intercambiablespara distintas expresiones, logrando un alto nivel de realismo. Concuerpo musculosoy30 puntos de articulación, incluye un completo set degadgets icónicosdel juego y unacapa con alambre internopara poses dinámicas. Características Incluye Manos (7) Vestuario Armas y Gadgets Accesorio"
+            "x": "Experimenta la intensidad de Batman: Arkham Origins con esta figura coleccionable premium de Hot Toys a escala 1:6, que captura la esencia del vigilante de Gotham con un nivel de detalle extraordinario. Equipado con cabeza intercambiable con ojos móviles independientes, 30 puntos de articulación y una capa con alambre interno para poses dinámicas, esta figura de 33 cm es un must-have para coleccionistas. Incluye un arsenal completo de gadgets del videojuego y efectos de rayos azules intercambiables que destacan su poder devastador."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escala:1:6Altura: aprox.32.5–33 cmCuerpo musculoso con30 puntos de articulaciónCabeza conrolling eyeballsy2 lower facesintercambiables"
+            "x": "Altura: 32.5-33 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Par de puñosPar de manos abiertasPar de manos para armasMano derecha sosteniendo Batarang"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Batsuit de nuevo desarrollo con armadura gris y negraTraje interior negroCapa negra con alambre flexibleGuanteletes pesadosCinturón utilitario gris claroBotas negras"
+            "x": "Fabricante: Hot Toys"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Placas deShock Glovescon efecto de rayos azules (intercambiables con los guanteletes)Smoke PelletGrapnel GunDisruptorSonic BatarangBatarangRemote ClawExplosive Gel"
+            "x": "Material: PVC, tela, resina"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base especial conlogo del juegoyplaca con nombre"
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con ojos móviles independientes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 lower faces intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza enmascarada con rolling eyeballs"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 pares de manos intercambiables (puños, manos abiertas, manos para armas, mano derecha sosteniendo Batarang)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batsuit gris y negro con armadura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa negra con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guanteletes pesados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario gris claro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placas de Shock Gloves con efecto de rayos azules (intercambiables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Smoke Pellet"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grapnel Gun"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Disruptor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sonic Batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Remote Claw"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Explosive Gel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base especial con logo del juego y placa con nombre"
           }
         ],
         "id": "batman-arkham-origins",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -17398,7 +17467,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915221/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-695fd09e9f074.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915221/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-695fd09e55e11.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915221/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-695fd08c5d0e9.jpg"
-        ]
+        ],
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Chopper (One Piece Live Action)",
