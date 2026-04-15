@@ -40580,6 +40580,82 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "freedom-fighter-mo0mrbuy",
+        "n": "Freedom Fighter",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17565/images/358661/11__18287.1774441107.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "IRON KNIGHT Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17565/images/358661/11__18287.1774441107.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358659/12__58196.1774440991.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358663/__64208.1774441104.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358660/13__39150.1774440991.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358662/14__53810.1774440991.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Freedom Fighter es una figura de colección premium de escala 1:6 que captura la esencia de un guerrero musculoso y heroico con un nivel de detalle anatómico excepcional. Fabricada por IRON KNIGHT Studio con materiales de alta calidad (PU + Resina), esta figura de 33cm de altura es un testimonio de la maestría artesanal y la precisión en la escultura de figuras para adultos coleccionistas. Incluye el rifle Lupus de 20cm como accesorio principal, consolidándola como una pieza imprescindible para coleccionistas exigentes que buscan obras de arte tridimensionales de alto valor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura figura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 26 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: IRON KNIGHT Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Colección Premium Adulto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q3 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Freedom Fighter (33 cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle Lupus (20 cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "reserva": "1080",
+        "entrega": "Q3 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "makima-mo0mo4z7",
         "n": "Makima",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17672/images/361247/_2026-04-03_143555_017__84951.1775198443.386.513.jpg",
