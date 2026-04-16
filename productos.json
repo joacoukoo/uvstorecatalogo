@@ -29168,6 +29168,93 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ssj4-gogeta-mo1ntytn",
+        "n": "SSJ4 Gogeta",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b2bf76fcba6310b6fdf3d261e716cf5bLarge.jpg?v=1776340993",
+        "franquicia": "Anime",
+        "marca": "FXW Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b2bf76fcba6310b6fdf3d261e716cf5bLarge.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d9d195a3b00275c0b413cf614151ab81Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2448a1251f11acc304aaa08a57ef23ebLarge.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fa16891a2098b5e515827dde85176013Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/187158e6afbbf0ec8a02b7505ed93132Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/22e59dfda166a43261c40bd1c1bbbb01Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a2f356b5fd519325d6375c276128839aLarge.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cb0321fa2fbbed4be032b2fc509e8077Large.jpg?v=1776340993"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con la icónica figura FXW SSJ4 Gogeta, la fusión definitiva capturada en máxima calidad premium. Esta obra maestra presenta detalles de escultura ultra-realista, musculatura característica del Super Saiyajin 4 y energía dorada envolvente que captura la esencia del legendario personaje. Una inversión coleccionable imprescindible en edición limitada de solo 188 piezas para fanáticos del anime que buscan la máxima expresión artística."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina Premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal SSJ4 Gogeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática rocosa diseñada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía/aura intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Número de serie"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "640",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "bruce-lee-kali-sticks-fight-deluxe-mny374ah",
         "n": "Bruce Lee (Kali Sticks Fight) Deluxe",
         "i": "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be36329af.jpg",
