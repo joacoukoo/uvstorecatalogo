@@ -37019,6 +37019,81 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "mega-man-mo1nydk0",
+        "n": "Mega Man",
+        "i": "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fa4d69.jpg",
+        "franquicia": "Gaming",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fa4d69.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fd6081.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba012244.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba0457f5.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba0772cf.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba0a8a66.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fa4d69_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Mega Man de la serie Gigantic de X-Plus regresa con una presencia abrumadora de aproximadamente 35 cm de altura, perfectamente esculpida para capturar tanto la bondad como la fortaleza del icónico héroe. Con detalles excepcionales realizados en partes transparentes en el casco, suelas de pies y apertura del Mega Buster, esta pieza premium se destaca por su calidad de colección de alto nivel. La capacidad de intercambiar la cabeza para recrear la versión sin casco añade versatilidad y valor duradero a este imprescindible para cualquier coleccionista de gaming."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Gigantic Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina con partes transparentes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: X-Plus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Mega Man (Capcom)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Partes transparentes para detalles del casco, suelas de pies y apertura del Mega Buster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Mega Man con casco puesto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable (versión sin casco)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de visualización"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "420",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "astro-boy-classic-design-version-mo06x27q",
         "n": "Astro Boy Classic Design Version",
         "i": "https://img.sugotoys.com.au/images/20260408014008/mbPl2nGaBr-6wxBnnXJY39COLKq6y4aW157v5RFkyTM.jpeg",
