@@ -37019,6 +37019,85 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "snoopy-piggy-bank-black-gold-version-mo1nzluy",
+        "n": "Snoopy Piggy Bank (Black & Gold Version)",
+        "i": "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd817e62c.jpg",
+        "franquicia": "Otros",
+        "marca": "Beast Kingdom",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd817e62c.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd81a85f8.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd8207c6b.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd825d9e3.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd82b9a27.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd831f299.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd8378586.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd83b5568.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Snoopy regresa en esta encantadora hucha premium de Beast Kingdom con un sofisticado esquema en negro y oro que realza cada detalle de este icónico personaje de Peanuts. Captura magistralmente la expresión despreocupada y las características distintivas de Snoopy, incluyendo sus emblemáticas orejas caídas, transformando el ahorro diario en un ritual relajante y delightful. Esta edición de colección combina funcionalidad práctica con artesanía refinada, siendo un tesoro perfecto para coleccionistas y fans devotos del legendario beagle."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 15-18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Beast Kingdom"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina/Polistone con acabados en oro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 300-400 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Hucha de colección Premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Esquema negro y oro refinado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: Orejas caídas articuladas, expresión facial detallada, collar dorado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hucha funcional de Snoopy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acceso para extracción de monedas (inferior o lateral)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de colección"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "360",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "mega-man-mo1nydk0",
         "n": "Mega Man",
         "i": "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fa4d69.jpg",
