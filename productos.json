@@ -3,6 +3,116 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "black-widow-artisan-edition-mo1lizyk",
+        "n": "Black Widow (Artisan Edition)",
+        "i": "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca920ae4a.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca920ae4a.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_scale_66a7cb29d27c1.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca96070bf.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca9ae3425.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca9bae580.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7caa843c54.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7caadc4bc3.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7cab2df02d.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La Black Widow (Artisan Edition) de Hot Toys es una obra maestra de coleccionismo que captura la debut icónica de Natasha Romanoff en Iron Man 2 con precisión cinematográfica. Presentando una innovadora técnica de implantación de cabello en lana que logra un realismo extraordinario, esta figura de 1:6 incluye un sistema de ojos rodantes articulado y una escultura facial meticulosamente pintada a mano que reproduce fielmente a Scarlett Johansson. Con más de 28 puntos de articulación, un traje táctico confeccionado a medida y una colección completa de accesorios auténticos, esta edición limitada de solo 2,000 unidades en el mundo es la pieza definitiva para coleccionistas exigentes de Marvel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado, cabeza con implantación de cabello en lana, traje en tela, accesorios en plástico y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: No especificado por fabricante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 28"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 2,000 unidades a nivel mundial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Movie Masterpiece Series - Iron Man 2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) escultura de cabeza desarrollada recientemente con sistema de ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) traje de una pieza de color azul oscuro con cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de brazaletes Black Widow's bite de color negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) cinturón gris oscuro con bolsas y cartuchera de pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de botas de plataforma gris oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Doce (12) pares de manos intercambiables: puños, manos relajadas, manos abiertas, manos para sostener pistolas, manos para sostener shuriken, gesto con mano izquierda, mano derecha para sostener spray"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) pistolas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) discos de taser"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) discos de taser activados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) cuerda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) lata de spray"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de figura especialmente diseñada con característica magnética, logo de película y placa con nombre de personaje"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "1080",
+        "cantidad": "1"
+      },
+      {
         "id": "wolverine-tva-jacket-version-mnqjskgn",
         "n": "Wolverine (TVA Jacket Version)",
         "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-square.jpg",
