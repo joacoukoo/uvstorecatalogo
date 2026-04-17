@@ -29168,6 +29168,97 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "killer-croc-mo330lif",
+        "n": "Killer Croc",
+        "i": "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea2a6283.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Sideshow Collectibles",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea2a6283.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea32d9af.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea3ae86b.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea44168c.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea4c7b90.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea5582d1.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69e124a7c0209.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea67b699.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la ferocidad desatada del Asesino de Cocodrilos con esta figura Premium Format de Sideshow Collectibles, una obra maestra de escultura que captura al villano de DC Comics en su máxima expresión animal. Con más de 56 cm de altura y detalles intrincados que van desde sus mandíbulas abiertas hasta sus garras afiladas, esta pieza es un punto focal irresistible para cualquier colección de Batman. La base narrativa incluye referencias a su historia en cómics, esqueletos, la máscara de Bane y agua encharcada, transformando este coleccionable en una obra de arte que cuenta la historia de Waylon Jones."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 56,98 cm (22,44\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 62,03 cm (24,44\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anchura: 53,98 cm (21,25\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4 Premium Format"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina de alta calidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Warner Bros. Discovery Global Consumer Products / DC Comics"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura completamente detallada con pintura profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8-10 kg (estimado para Premium Format de este tamaño)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Premium Format de Killer Croc"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base narrativa altamente detallada con agua temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios en la base: esqueletos, máscara de Bane"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano derecha intercambiable con tubo/barra de metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-17",
+        "reserva": "2240",
+        "entrega": "Feb. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "ssj4-gogeta-mo1ntytn",
         "n": "SSJ4 Gogeta",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b2bf76fcba6310b6fdf3d261e716cf5bLarge.jpg?v=1776340993",
