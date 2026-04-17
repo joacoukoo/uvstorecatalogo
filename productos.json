@@ -29168,6 +29168,81 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "arwen-mo3atobs",
+        "n": "Arwen",
+        "i": "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131af53533.jpg",
+        "franquicia": "Otros",
+        "marca": "Infinity Studio",
+        "escala": "1:2",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "30400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131af53533.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-scale-69e1352df2870.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131afab81b.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b0100b2.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b06b276.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b0c1cbe.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b116a14.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b15f434.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Arwen a escala 1:2 de Infinity Studio, capturando la elegancia etérea de la princesa élfica con un nivel de detalle extraordinario. Escultura facial exquisitamente tallada con cabello implantado en fibra de seda de alta temperatura, piel de silicona platino y ropa confeccionada en tela superior con patrones únicos. Una pieza de museo que encarna la belleza y dignidad regia de la heredera de Rivendell, perfecta para coleccionistas devotos de El Señor de los Anillos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 90-100 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona platino de grado premium (piel), polistone (cuerpo), tela superior (vestidura), metal (accesorios)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: aproximadamente 8-12 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fibra de cabello: Seda implantada de alta temperatura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Detalle espejo en accesorios metálicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Arwen"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada metálica con patrones elegantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-17",
+        "reserva": "6080",
+        "entrega": "Oct. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "momo-ayase-ikigai-mo3as586",
         "n": "Momo Ayase Ikigai",
         "i": "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e2d416c.jpg",
