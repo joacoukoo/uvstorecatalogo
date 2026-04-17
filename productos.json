@@ -29168,6 +29168,89 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "momo-ayase-ikigai-mo3as586",
+        "n": "Momo Ayase Ikigai",
+        "i": "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e2d416c.jpg",
+        "franquicia": "Anime",
+        "marca": "Tsume Art",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e2d416c.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e357e12.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e3d67fa.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e45a6c3.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e4d354c.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e55adf2.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e5d712a.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e75f749.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Momo Ayase Ikigai de Tsume Art que captura la esencia dinámico del anime DanDaDan en escala 1:6. Con una altura de aproximadamente 30 cm, esta estatua destaca por sus efectos translúcidos que representan los poderes psíquicos de Momo en plena acción, creando una composición fluida e impactante. Cada detalle ha sido cuidadosamente esculpido para mantener la identidad visual del personaje mientras transmite movimiento y energía controlada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: ~30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Tsume Art"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia: DanDaDan (Yukino Tatsu/SHUEISHA)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura detallada con efectos translúcidos especiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base temática diorama"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Momo Ayase"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos translúcidos de energía psíquica (azul turquesa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama con temática DanDaDan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de colección premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-17",
+        "reserva": "1340",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "killer-croc-mo330lif",
         "n": "Killer Croc",
         "i": "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea32d9af.jpg",
