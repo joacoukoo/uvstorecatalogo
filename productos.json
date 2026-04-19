@@ -29419,6 +29419,91 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mo5at6oy",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e22195fe6b36622ec9deb745ed7e9c97.jpg?v=1776422086",
+        "franquicia": "Anime",
+        "marca": "Duel Soul Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e22195fe6b36622ec9deb745ed7e9c97.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b6e21269f15f9398cf16e2760140be61.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/27e1fd619515627bd3ad7ed193f2028c.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7c748dc044a03601d2f89b333ca7a786.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/448233d8f3b908c0672c33226161ae3dLarge.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/86662b047ff02f00aa327fe4779fabed.jpg?v=1776422086"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Asuka de Duel Soul Studio que captura la esencia del personaje con un detallado nivel artístico superior. Esculpida en escala 1/6 con una altura de 40 cm, presenta una composición arquitectónica única donde la figura emerge desde una base de ciudad en miniatura, envuelta en fluido tejido rojo escarlata que contrasta con su piel pálida. Edición limitada a solo 80 piezas mundiales, representando el pico de la artesanía de coleccionismo de figuras anime premium con acabados de calidad museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 80 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Duel Soul Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base incluida con diorama de ciudad miniatura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Asuka (40 cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de diorama con ciudad en miniatura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad (edición limitada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-19",
+        "reserva": "860",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "arwen-mo3atobs",
         "n": "Arwen",
         "i": "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131af53533.jpg",
