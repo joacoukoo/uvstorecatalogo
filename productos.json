@@ -37519,6 +37519,74 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "captain-america-shield-mo53a0gc",
+        "n": "Captain America Shield",
+        "i": "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled1.png?v=1723120429",
+        "franquicia": "Marvel",
+        "marca": "Hasbro",
+        "escala": "1:1",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled1.png?v=1723120429",
+          "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled2.jpg?v=1723120428",
+          "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled3.jpg?v=1723120429"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Réplica premium a escala 1:1 del icónico escudo de Capitán América de Marvel Legends, midiendo 24 pulgadas de diámetro con detalles altamente precisos y durables. Este accesorio de rol es una representación fiel del símbolo distintivo del Primer Vengador, combinando funcionalidad y autenticidad para coleccionistas y fans exigentes. Diseñado para ser portado como el propio Capitán América gracias a sus correas ajustables, esta pieza es imprescindible para cualquier colección premium del universo Marvel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 61 cm (24 pulgadas de diámetro)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (tamaño real)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico de alta durabilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diámetro: 61 cm (24 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.8-2.2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Marvel Legends Gear"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hasbro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo de Capitán América (réplica premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 correas ajustables para portar el escudo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-19",
+        "cantidad": "1"
+      },
+      {
         "id": "snoopy-piggy-bank-black-gold-version-mo1nzluy",
         "n": "Snoopy Piggy Bank (Black & Gold Version)",
         "i": "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd817e62c.jpg",
