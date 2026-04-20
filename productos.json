@@ -3491,25 +3491,15 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/hulkbuster-deluxe-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 56CM",
-        "estado": "Exhibido - Excelente Estado",
+        "estado": "",
         "disp": "Entrega Inmediata",
-        "precio": "",
-        "precio_d": "19500",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "precio": "19500",
+        "reserva": "0",
+        "cantidad": "1",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Diseñada específicamente por Tony Stark y Bruce Banner, la armadura Hulkbuster de resistencia extrema puede ser desplegada directamente desde la órbita. Tanto Stark como Banner esperan sinceramente que el poder bruto del Hulkbuster nunca tenga que ser utilizado, aunque esté listo para ello. Inspirada fielmente en su aparición en Avengers: Age of Ultron, esta colosal figura alcanza aproximadamente 55 cm de altura e incluye un busto del Mark XLIII con ojos y reactor ARC iluminados por LED, el cual puede colocarse dentro de la armadura."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nDiseñada específicamente por Tony Stark y Bruce Banner, la armadura Hulkbuster de resistencia extrema puede ser desplegada directamente desde la órbita. Tanto Stark como Banner esperan sinceramente que el poder bruto del Hulkbuster nunca tenga que ser utilizado, aunque esté listo para ello. Inspirada fielmente en su aparición en Avengers: Age of Ultron, esta colosal figura alcanza aproximadamente 55 cm de altura e incluye un busto del Mark XLIII con ojos y reactor ARC iluminados por LED, el cual puede colocarse dentro de la armadura.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -3532,7 +3522,7 @@
             "x": "Más de 30 puntos de articulación"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Incluye"
           },
           {
@@ -3568,7 +3558,7 @@
             "x": "Hulkbuster Pod (aproximadamente 6 cm de altura)"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -3612,8 +3602,6 @@
             "x": "Brazo Jackhammer con longitud aproximada de 35 cm (hasta 41 cm extendido) y más de 9 puntos de articulación"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
@@ -3628,7 +3616,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6abcacb5.jpg"
         ],
         "id": "hulkbuster-deluxe-version",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Perfect Cell – Dragon Ball Z",
