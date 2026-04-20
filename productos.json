@@ -29508,6 +29508,85 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "mazinger-z-elite-1-4-scale-bust-mo7h8c01",
+        "n": "Mazinger Z Elite 1/4 Scale Bust",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-MAZINGER-Z.png?v=1659999626",
+        "franquicia": "Anime",
+        "marca": "Figurama",
+        "escala": "1/4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-MAZINGER-Z.png?v=1659999626",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_1_5000x_ea87bd2d-31af-44db-9dd2-e581fe9d5c0c.jpg?v=1659999653",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_2_5000x_9a16bf55-652f-45ad-8619-871426663f59.jpg?v=1659999653",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_3_5000x_4ee386fd-2f41-4a08-92f5-322092966e66.jpg?v=1659999653",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_4_5000x_2b32a63d-805e-463f-ba5c-203dd9b4df93.jpg?v=1659999652"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Obra maestra de colección que captura la legendaria Mazinger Z en su gloria épica. Esta figura Elite 1/4 escala de Figurama presenta detalles extraordinarios con un realismo metalizado incomparable, incluyendo pernos y remaches que simulan los paneles de Super Aleación Z. El diorama completo con el Jet Scrander desplegado y la base del Hover Pilder crea una composición visualmente impactante que celebra el icónico Super Robot en su momento de batalla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 26 cm (busto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional con estilo signature Figurama"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: Pernos y remaches realistas, paneles diferenciados, alas Jet Scrander articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base temática Hover Pilder con detalles mecánicos intricados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto Mazinger Z Elite 1/4 Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas Jet Scrander (rojo brillante)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pilder bonus en la cabeza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base Hover Pilder con detalles de misiles y abanicos VTOL"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de Autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de colección premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "900",
+        "cantidad": "2"
+      },
+      {
         "id": "super-mario-galaxy-2-mo7dxan8",
         "n": "Super Mario Galaxy 2",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b957fed3086e6b3f165765a7c1268982Large.jpg?v=1776079544",
