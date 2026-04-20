@@ -29508,6 +29508,92 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "diana-mo7cblnn",
+        "n": "Diana",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2098610be59cd69aaf09470746ee154b.jpg?v=1776442450",
+        "franquicia": "Gaming",
+        "marca": "Reflection Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2098610be59cd69aaf09470746ee154b.jpg?v=1776442450",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161236_092__85231.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161229_805__91848.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161238_881__60546.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161231_535__71763.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161241_593__95722.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161233_378__17675.jpg?v=1776676987"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium Diana de Pragmata en escala 1:4, elaborada con resina importada de alta calidad y materiales PU que garantizan durabilidad y excelente acabado. Esta pieza de edición limitada captura cada detalle del personaje con precisión artesanal, desde su traje táctico azul hasta sus accesorios militares, siendo un imprescindible para coleccionistas de figuras gaming de alto valor. Lanzamiento previsto para Q2 2027, representando una inversión coleccionable de rango premium con potencial de revalorización."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Pragmata (Gaming)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Reflection Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estado: Pre-orden/Preventa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Diana articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama futurista circular"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios tácticos integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales de entorno de laboratorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "940",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "reze-mo7bwpj4",
         "n": "Reze",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_16.webp?v=1776678759",
