@@ -29508,6 +29508,85 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "dog-alien-bust-mo7dj0mv",
+        "n": "Dog Alien Bust",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17942/images/367859/_2026-04-20_134745_106__43205.1776671420.386.513.jpg",
+        "franquicia": "Otros",
+        "marca": "Deep Tale Studio",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "20800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17942/images/367859/_2026-04-20_134745_106__43205.1776671420.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367861/_2026-04-20_134748_600__25607.1776671429.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367859/_2026-04-20_134745_106__43205.1776671420.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367860/_2026-04-20_134758_671__79008.1776671424.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367862/_2026-04-20_134754_000__36866.1776671425.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367863/_2026-04-20_134746_962__56684.1776671426.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367864/_2026-04-20_134757_183__40008.1776671429.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367865/_2026-04-20_134751_879__84999.1776671432.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El Dog Alien Bust de Deep Tale Studio es una obra maestra de coleccionismo premium que captura la esencia aterradora de la icónica criatura de la franquicia Alien en escala 1:1. Fabricado con resinas importadas de alta calidad y acabados en PU, cada detalle biomecánico del xenomorfo ha sido meticulosamente esculpido para ofrecer un realismo sin precedentes. Esta pieza numerada limitada a solo 99 unidades a nivel mundial representa el pico del arte coleccionable para aficionados y curadores de figuras premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 83 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 86 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (tamaño real)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Año de lanzamiento estimado: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Busto coleccionable premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto Dog Alien 1:1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) mandíbulas interiores intercambiables (extendida y retractada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación personalizada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "4160",
+        "entrega": "Q2 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "diana-mo7ccrpm",
         "n": "Diana",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215148_458__77355.jpg?v=1776524171",
