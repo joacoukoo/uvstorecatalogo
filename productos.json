@@ -9975,6 +9975,105 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "pennywise-mo6o3afv",
+        "n": "Pennywise",
+        "i": "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9ab4ffa.jpg",
+        "franquicia": "Otros",
+        "marca": "Sideshow Collectibles",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9ab4ffa.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9b5f26a.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9bd786c.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9c4d23e.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise_it_gallery_66ec4d86c4580.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9d353ce.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9dc8b66.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9e99c13.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Pennywise Sixth Scale de Sideshow Collectibles es una representación magistral del icónico payaso del miniserie It (1990), capturando con precisión los detalles del legendario Tim Curry. Con dos cabezas intercambiables, traje tailorizado impecable y una colección de 12 manos intercambiables, esta pieza premium ofrece infinitas posibilidades de exhibición para los coleccionistas más exigentes. Cada accesorio, desde el globo de papel hasta el ramillete de globos flotantes, ha sido meticulosamente diseñado para recrear los momentos más terroríficos de la adaptación clásica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cabeza esculpida en resina con cabello sintético, cuerpo articulado con traje de tela tailorizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximadamente 300-400 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Totalmente articulada para poseado completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) cabezas intercambiables (retrato sonriente y retrato monstruoso)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de payaso amarillo completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuello rizado multicolor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pompones naranjas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo rayado azul y púrpura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Doce (12) manos intercambiables (guantes blancos, garras, gestos variados)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bote de papel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ramillete de globos de colores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Globo amarillo destacable (sostenible independientemente)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base hexagonal negra"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "720",
+        "entrega": "Dic. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "superman-1978-mo3ejug7",
         "n": "Superman (1978)",
         "i": "https://img.shoplineapp.com/media/image_clips/69e2101b55eba12af2afa267/original.jpg?1776422939=&owner_id=62f310ccf972b800600e7b20",
