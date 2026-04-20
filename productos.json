@@ -29508,6 +29508,101 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "super-mario-galaxy-2-mo7dxan8",
+        "n": "Super Mario Galaxy 2",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b957fed3086e6b3f165765a7c1268982Large.jpg?v=1776079544",
+        "franquicia": "Gaming",
+        "marca": "T Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "9200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b957fed3086e6b3f165765a7c1268982Large.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9ce17a64110a79b63206d23de66e4b8d.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a7b67f9973905dbd87728fdf2e06bc5fLarge.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5b89967730e257c9a1f15bc62a1c1190.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d0bfa997365871df54d61a014471f338Large.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8b7336a136b1f2b8809aaa848d737f3f.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5c3c51c76c8e3ca85e60011538ebf4b4.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20ca548cefecd72b260d4381773bf705.jpg?v=1776079544"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Obra maestra de colección de T Studio que celebra 40 años de Super Mario con una diorama épica de 62 cm de altura. Figura premium en resina importada de altísima calidad que captura a toda la familia Mario en una composición dinámica y detallada. Edición limitada a solo 98 unidades mundial, con acabados profesionales y detalles visuales excepcionales que la convierten en pieza de inversión para coleccionistas premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 62 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 98 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de entrega: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Premium Diorama (sin escala específica)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Diorama tematizado con elementos del juego"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama base masivo con escenario temático Mario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras de Mario, Luigi, Princess Peach, Bowser, Yoshi, Toad, Koopa Troopa, Lakitu y Piranha Plant"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Power Star (Super Star) como bonificación especial de pre-orden"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bandera M de 62 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tubo verde decorativo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Monedas coleccionables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales temáticos integrados"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "1840",
+        "entrega": "4Q 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "dog-alien-bust-mo7dj0mv",
         "n": "Dog Alien Bust",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367861/_2026-04-20_134748_600__25607.1776671429.jpg",
