@@ -41754,6 +41754,89 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "power-mo7awujc",
+        "n": "Power",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161923_313__45337.jpg?v=1776505099",
+        "franquicia": "Adultos",
+        "marca": "MAN'S VIEM Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161923_313__45337.jpg?v=1776505099",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161930_883__65854.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161924_917__14140.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161933_352__53635.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161927_293__95821.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161929_713__77067.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161926_111__72563.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161932_135__71724.jpg?v=1776505173"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura 'Power' de MAN'S VIEM Studio es una pieza de colección premium en escala 1:4 que captura cada detalle con una calidad artesanal excepcional. Con dimensiones imponentes de 33 cm de altura, esta escultura de edición limitada a 199 piezas numeradas destaca por su acabado de museo y su presencia cautivadora. Un must-have para coleccionistas adultos que buscan obras de arte de alto valor y exclusividad garantizada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polystone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 199 piezas numeradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Premium con pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de lujo para coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "920",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "freedom-fighter-mo0mrbuy",
         "n": "Freedom Fighter",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17565/images/358661/11__18287.1774441107.386.513.jpg",
