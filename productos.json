@@ -29508,6 +29508,92 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "diana-mo7ccrpm",
+        "n": "Diana",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215148_458__77355.jpg?v=1776524171",
+        "franquicia": "Gaming",
+        "marca": "3109 Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215148_458__77355.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215147_220__69650.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215142_137__00163.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215143_693__10004.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215145_043__74483.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215151_566__55962.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215149_973__68100.jpg?v=1776524171"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Diana es una figura de colección premium de 3109 Studio que captura magistralmente a este icónico personaje del universo gaming con un nivel de detalle excepcional. Elaborada en escala 1:4 con una altura de 27 cm, esta pieza limitada a solo 88 unidades worldwide representa el pico de la craftsmanship en figuras de colección de alto valor. Cada elemento, desde su atuendo azul con detalles textilizados hasta su cabello rubio y expresión dinámica, refleja la calidad premium que define a 3109 Studio."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 piezas numeradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Plataforma iluminada con logo PRAG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal de nivel museo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Diana articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base iluminada con display PRAG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Plataforma de exhibición circular"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad y certificado de edición limitada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "760",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "diana-mo7cblnn",
         "n": "Diana",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2098610be59cd69aaf09470746ee154b.jpg?v=1776442450",
