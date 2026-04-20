@@ -29508,6 +29508,86 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "reze-mo7bwpj4",
+        "n": "Reze",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_16.webp?v=1776678759",
+        "franquicia": "Anime",
+        "marca": "CDKey x PG Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_16.webp?v=1776678759"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Reze en escala 1:6, desarrollada por CDKey x PG Studio, que captura la elegancia y misterio del personaje con detalles excepcionales. La escultura exhibe un refinado vestido negro con volantes translúcidos en tonos púrpura, complementado por accesorios de cuero y una postura cautivadora. Edición limitada a solo 128 piezas mundialmente, asegurando su valor y exclusividad para coleccionistas exigentes de figuras de anime premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: CDKey x PG Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Anime"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Reze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición personalizada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de luz/partículas púrpuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes intercambiables de cuero negro"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "760",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "asuka-mo5at6oy",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e22195fe6b36622ec9deb745ed7e9c97.jpg?v=1776422086",
