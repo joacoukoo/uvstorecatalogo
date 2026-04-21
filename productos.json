@@ -29508,6 +29508,144 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "doctor-doom-mo7xmi55",
+        "n": "Doctor Doom",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202631_885__48365.jpg?v=1763642820",
+        "franquicia": "Marvel",
+        "marca": "Iron Pin Jiang",
+        "escala": "1:1 y 1:2",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202631_885__48365.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202639_004__92857.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202633_508__50249.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202628_197__75090.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202637_148__75391.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202642_613__82488.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202635_314__21593.jpg?v=1763642820"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una representación magnífica del icónico villano Doctor Doom en forma de busto premium, capturando su imponente presencia con armadura elaborada y capa de tela real que realza el detalle. Limitado a solo 198 unidades, esta pieza de colección de alto valor combina resina importada y tela de calidad superior para un acabado excepcional. Cada detalle, desde su máscara metálica hasta sus ornamentos dorados, refleja la excelencia artesanal característica de Iron Studio."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 85 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 65 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 55 cm (1/1) / 30 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/1 y 1/2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada + poliuretano + tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 198 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de entrega: 2026 Q4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Doctor Doom en escala 1/1 o 1/2 (a elegir)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa de tela real (incluida en versión 1/1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios y ornamentación dorada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Una representación magnífica del icónico villano Doctor Doom en forma de busto premium, capturando su imponente presencia con armadura elaborada y capa de tela real que realza el detalle. Limitado a solo 198 unidades, esta pieza de colección de alto valor combina resina importada y tela de calidad superior para un acabado excepcional. Cada detalle, desde su máscara metálica hasta sus ornamentos dorados, refleja la excelencia artesanal característica de Iron Studio."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 85 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 65 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 55 cm (1/1) / 30 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/1 y 1/2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada + poliuretano + tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 198 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de entrega: 2026 Q4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Doctor Doom en escala 1/1 o 1/2 (a elegir)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa de tela real (incluida en versión 1/1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios y ornamentación dorada"
+          }
+        ],
+        "precio_d": "11000",
+        "reserva": "800",
+        "reserva_d": "2200",
+        "entrega": "Nov. 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "mazinger-z-elite-1-4-scale-bust-mo7h8c01",
         "n": "Mazinger Z Elite 1/4 Scale Bust",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-MAZINGER-Z.png?v=1659999626",
