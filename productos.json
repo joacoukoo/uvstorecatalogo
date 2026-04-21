@@ -42527,6 +42527,77 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "silver-hair-girl-mo8zogvx",
+        "n": "Silver Hair Girl",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17962/images/368316/_8__06138.1776760787.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "MIYABI × PURE Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17962/images/368316/_8__06138.1776760787.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368316/_8__06138.1776760787.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368315/_11__62989.1776760783.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368311/_16__34646.1776760552.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368312/_22__49937.1776760555.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368313/_18__90061.1776760561.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368314/_10__61893.1776760568.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368317/_9__15014.1776760602.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de la línea MIYABI × PURE Studio que captura la elegancia y delicadeza de una chica de cabello plateado en pose cautivadora. Elaborada en PVC y ABS de alta calidad con detalles meticulosos que destacan su cabello fluido, expresión encantadora y accesorios decorativos. Una pieza de edición limitada que combina artesanía superior con un diseño de anime adulto que la convierte en un tesoro imprescindible para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC + ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Precio: 209 USD (Depósito: 69 USD)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Abril 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MIYABI × PURE Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición (azul translúcido)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios y complementos decorativos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "reserva": "640",
+        "entrega": "Apr 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "power-mo7awujc",
         "n": "Power",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161923_313__45337.jpg?v=1776505099",
