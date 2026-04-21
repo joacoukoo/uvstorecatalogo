@@ -38335,6 +38335,77 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "batman-classic-version-mo7zob76",
+        "n": "Batman Classic Version",
+        "i": "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b44460b.jpg",
+        "franquicia": "DC Comics",
+        "marca": "PureArts",
+        "escala": "1:8",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b44460b.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_scale_655653b8ee08b.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b4b2d42.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b52948f.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b59ccab.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b61cf13.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b6917f8.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b798d56.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica ilustración de Neal Adams con esta impresionante estatua de Batman de PureArts, capturando al Caped Crusader en todo su esplendor clásico. Con 28 cm de altura en escala 1:8, cada detalle está meticulosamente elaborado en materiales premium, desde la capa ondulante hasta la musculatura perfectamente definida del traje azul y negro. Esta edición limitada exclusiva de Previews es un tesoro imprescindible para coleccionistas devotos del universo DC, combinando artesanía excepcional con el legado timeless del Dark Knight."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:8"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC y ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso de envío aproximado: 1.2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Presentación: Caja ilustrada de colores completos apta para coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Límite de compra: 6 unidades por persona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Batman 1:8"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con diseño de sombra de capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación ilustrada en color (Previews Exclusive)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "reserva": "260",
+        "entrega": "Jul. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "captain-america-shield-mo53a0gc",
         "n": "Captain America Shield",
         "i": "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled1.png?v=1723120429",
