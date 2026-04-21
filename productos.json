@@ -29508,6 +29508,76 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ssj3-goku-mo8pxb3x",
+        "n": "SSJ3 Goku",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/71f8f6118b6e9b519366813fb636428d.jpg?v=1763492993",
+        "franquicia": "Anime",
+        "marca": "WDF Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/71f8f6118b6e9b519366813fb636428d.jpg?v=1763492993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/35279c38561bd9b35d550dabc59235f5.jpg?v=1763492993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/77f437a884544f2ca4897778c16a893e.jpg?v=1763492993"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium SSJ3 Goku de WDF Studio que captura la icónica transformación Super Saiyan 3 con un nivel de detalle extraordinario. Cada aspecto del personaje ha sido meticulosamente esculpido, desde el característico cabello dorado y voluminoso hasta la expresión intensa del rostro y la musculatura definida del cuerpo. Esta versión exclusiva incluye una base de diorama que complementa perfectamente la presencia épica de Goku, convirtiéndola en una pieza imprescindible para coleccionistas de alto nivel del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, poliuretano y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: WDF Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura acrílica premium con detalles aplicados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Limitadas (figura de exhibición)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal SSJ3 Goku en escala 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de diorama exclusiva"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "reserva": "580",
+        "entrega": "3Q 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "doctor-doom-mo7xmi55",
         "n": "Doctor Doom",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202631_885__48365.jpg?v=1763642820",
