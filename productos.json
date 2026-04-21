@@ -42527,6 +42527,141 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "makima-reze-mo90e4sh",
+        "n": "Makima & Reze",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17958/images/368230/_2026-04-21_131730_786__94175.1776749331.386.513.png",
+        "franquicia": "Adultos",
+        "marca": "DC Studio",
+        "escala": "1:6/1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17958/images/368230/_2026-04-21_131730_786__94175.1776749331.386.513.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17958/368230/_2026-04-21_131730_786__94175.1776749331.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17958/368231/_2026-04-21_131725_693__37750.1776749333.png",
+          "https://statuecorp.com/cdn/shop/files/preview_images/264618e92973449e806d8371322db7bd.thumbnail.0000000000.jpg?v=1776762612&width=600"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de DC Studio que captura magistralmente a Makima y Reze en una composición artística de lujo absoluto. Con iluminación LED integrada y detalles esculpidos de nivel museo, esta pieza representa el pico de la artesanía en figuras de anime de alto valor. Un must-have para coleccionistas exigentes que demandan exclusividad y calidad sin compromisos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm (escala 1:6) / 50 cm (escala 1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 30 cm (1:6) / 45 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 31 cm (1:6) / 46 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 y 1:4 disponibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: DC Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Iluminación LED integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: ES 100 (1:4) / ES 88 (1:6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras de Makima y Reze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de DC Studio que captura magistralmente a Makima y Reze en una composición artística de lujo absoluto. Con iluminación LED integrada y detalles esculpidos de nivel museo, esta pieza representa el pico de la artesanía en figuras de anime de alto valor. Un must-have para coleccionistas exigentes que demandan exclusividad y calidad sin compromisos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm (escala 1:6) / 50 cm (escala 1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 30 cm (1:6) / 45 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 31 cm (1:6) / 46 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 y 1:4 disponibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: DC Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Iluminación LED integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: ES 100 (1:4) / ES 88 (1:6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras de Makima y Reze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos"
+          }
+        ],
+        "precio_d": "6800",
+        "reserva": "920",
+        "reserva_d": "1360",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "silver-hair-girl-mo8zogvx",
         "n": "Silver Hair Girl",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17962/images/368316/_8__06138.1776760787.386.513.jpg",
