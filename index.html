@@ -719,6 +719,10 @@ body::after{
   .hero-stats{max-width:100%}
   .lightbox-btn.lb-prev{left:8px}
   .lightbox-btn.lb-next{right:8px}
+  .mobile-nav{display:flex}
+  body{padding-bottom:calc(56px + env(safe-area-inset-bottom,0px))}
+  .wa-fab{bottom:calc(56px + env(safe-area-inset-bottom,0px) + 16px)}
+  .to-top{bottom:calc(56px + env(safe-area-inset-bottom,0px) + 76px)}
 }
 
 /* ── HERO ENTRANCE ANIMATIONS ── */
@@ -766,6 +770,29 @@ body::after{
 /* ── SCROLL REVEAL ── */
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
 .reveal.visible{opacity:1;transform:translateY(0)}
+
+/* ── MOBILE BOTTOM NAV ── */
+.mobile-nav{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:850;
+  background:rgba(7,8,13,0.96);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-top:1px solid var(--border);
+  padding:6px 0 max(6px,env(safe-area-inset-bottom));
+}
+.mobile-nav-item{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:3px;min-height:44px;padding:6px 2px;
+  cursor:pointer;background:none;border:none;
+  color:var(--muted2);font-family:"DM Sans",sans-serif;
+  font-size:9.5px;font-weight:500;letter-spacing:.3px;
+  transition:color .15s;-webkit-tap-highlight-color:transparent;
+}
+.mobile-nav-item.active{color:var(--pl)}
+.mobile-nav-item svg{
+  width:21px;height:21px;stroke:currentColor;stroke-width:1.8;fill:none;
+  stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;
+}
+.mobile-nav-item.active svg{stroke-width:2.2}
 
 /* ── FOCUS VISIBLE ── */
 button:focus-visible,a:focus-visible{
@@ -1290,7 +1317,12 @@ function observeFadeUp(){
 }
 
 function showPage(id){document.querySelectorAll(".page").forEach(function(p){p.classList.remove("active");});document.getElementById(id).classList.add("active");window.scrollTo(0,0);}
-function goHome(){history.replaceState(null,"","/");showPage("home");document.getElementById("nav-home").classList.add("active");var nc=document.getElementById("nav-catalog");if(nc)nc.classList.remove("active");closeSearch();}
+function _setMnav(activeId){
+  ["mnav-home","mnav-inmediata","mnav-catalog","mnav-franq"].forEach(function(id){
+    var el=document.getElementById(id);if(el)el.classList.toggle("active",id===activeId);
+  });
+}
+function goHome(){history.replaceState(null,"","/");showPage("home");document.getElementById("nav-home").classList.add("active");var nc=document.getElementById("nav-catalog");if(nc)nc.classList.remove("active");closeSearch();_setMnav("mnav-home");}
 // ── FRANCHISE FUNCTIONS ──
 function getFranchiseProducts(fname){
   if(fname==="Adultos"){
@@ -1406,6 +1438,7 @@ function goCatalog(sort){
   document.getElementById("nav-home").classList.remove("active");
   document.getElementById("nav-catalog").classList.add("active");
   history.pushState({_uvNav:true},null,location.pathname+"#catalogo");
+  _setMnav("mnav-catalog");
 }
 function goOfertas(){
   var ofertaProds=[];
@@ -1424,6 +1457,7 @@ function goFranchises(){
   showPage("franchise-page");
   document.getElementById("nav-home").classList.remove("active");
   history.pushState({_uvNav:true},null,location.pathname+"#franquicias");
+  _setMnav("mnav-franq");
 }
 function goFranchise(fname){
   var accent=FRANCHISE_ACCENTS[fname]||"#7B2FBE";
@@ -1534,6 +1568,7 @@ function goCategory(idx){
   _cpSort="default";_cpFilter="all";_cpResetControls();_cpRenderGrid();
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");closeSearch();
   history.pushState({_uvNav:true},null,location.pathname+"#cat/"+encodeURIComponent(cat));
+  _setMnav(idx===0?"mnav-inmediata":"");
 }
 
 // ── CATEGORY/FRANCHISE FILTERS ──
@@ -2071,5 +2106,28 @@ window.addEventListener("popstate",function(){
   <button class="lightbox-btn lb-next" onclick="lightboxMove(1)" aria-label="Imagen siguiente">&#8250;</button>
   <div class="lightbox-counter" id="lightbox-counter"></div>
 </div>
+
+<nav class="mobile-nav" aria-label="Navegación principal">
+  <button class="mobile-nav-item active" id="mnav-home" onclick="goHome()" aria-label="Inicio">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    Inicio
+  </button>
+  <button class="mobile-nav-item" id="mnav-inmediata" onclick="goCategory(0)" aria-label="En Stock">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+    En Stock
+  </button>
+  <button class="mobile-nav-item" onclick="openSearchPage()" aria-label="Buscar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    Buscar
+  </button>
+  <button class="mobile-nav-item" id="mnav-catalog" onclick="goCatalog('recent')" aria-label="Catálogo completo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+    Catálogo
+  </button>
+  <button class="mobile-nav-item" id="mnav-franq" onclick="goFranchises()" aria-label="Franquicias">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+    Franquicias
+  </button>
+</nav>
 </body>
 </html>
