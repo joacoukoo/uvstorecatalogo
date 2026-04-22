@@ -29508,6 +29508,93 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "mewtwo-moadm7zx",
+        "n": "Mewtwo",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f3ec4298292d7fe1555804f24c5d4084.jpg?v=1767620136",
+        "franquicia": "Anime",
+        "marca": "JP Studo",
+        "escala": "1:20",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f3ec4298292d7fe1555804f24c5d4084.jpg?v=1767620136",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1b0c1109b2817329b8a04e1e8eb6dea2.jpg?v=1767620136",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f4760bfd28734a0888ad3b054bf1ed6c.jpg?v=1767620136",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3d47d6b4d9fd6abbc5f0bd1f36c43d7c.png?v=1767620136",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8470be55ac0cfc4a5c94839ad4bf25f4.jpg?v=1767620136",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/63d04a4ae9e06fc1d9daf2d924879ea7.jpg?v=1767620221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7f03920371f4f9269b17b6e0455ec4a1.jpg?v=1767620221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/29061e5872e7f87ec58dae01e28c0f83.jpg?v=1767620136"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Mewtwo en escala 1:20 con acabado artístico de nivel museo, capturando la esencia legendaria del icónico Pokémon psíquico con detalles dinámicos y efectos de energía LED integrados. Edición extremadamente limitada con solo 100 piezas para la versión blanca y 20 piezas para la versión negra, garantizando exclusividad y potencial de revalorización en el mercado de coleccionistas. Construcción de materiales premium con iluminación LED que resalta los efectos de poder sobrenatural y la arquitectura gótica de su entorno."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 45-50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:20"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal y efectos metalizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación: LEDs integrados incluidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 100 piezas versión blanca / 20 piezas versión negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento previsto: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Mewtwo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "LEDs integrados para efectos de iluminación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con arquitectura gótica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de efectos de poder psíquico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad y numeración"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-22",
+        "reserva": "840",
+        "entrega": "4Q 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "ssj3-goku-mo8pxb3x",
         "n": "SSJ3 Goku",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/71f8f6118b6e9b519366813fb636428d.jpg?v=1763492993",
