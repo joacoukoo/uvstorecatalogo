@@ -45018,20 +45018,15 @@
       },
       {
         "id": "mueble-uv-detolf-4",
-        "n": "Mueble UV Detolf 4",
+        "n": "Mueble UV Detolf 5",
         "i": "assets/vitrinas/detolf-4.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
         "franquicia": "",
         "estado": "",
-        "disp": "Solo Bajo Pedido",
+        "disp": "",
         "precio": "3000",
-        "precio_d": "",
-        "precio_orig": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "fotos": [
           "assets/vitrinas/detolf-4.jpg"
         ],
@@ -45054,7 +45049,7 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "4 estanterías de vidrio"
+            "x": "4 estanterías de vidrio - 5 espacios"
           },
           {
             "t": "notion-bulleted-list",
@@ -45069,10 +45064,11 @@
             "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
-        "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-29T23:27:28.886437"
+        "added_at": "2026-03-29T23:27:28.886437",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "id": "mueble-uv-detolf-5",
