@@ -38405,6 +38405,85 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "stepper-mo9gu9ac",
+        "n": "Stepper",
+        "i": "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731b66e67.jpg",
+        "franquicia": "Otros",
+        "marca": "Threezero",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731b66e67.jpg",
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-scale-69e6731e768ae.jpg",
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731bb9669.jpg",
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731c13bb2.jpg",
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731c67006.jpg",
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731cf2a14.jpg",
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731d3a58d.jpg",
+          "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731d76695.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Stepper MDLX de Threezero es una obra maestra de ingeniería coleccionable que combina la legendaria estética G1 de Transformers con tecnología premium de articulación avanzada. Con su esquema de colores negro, blanco y oro, detalles metalizados refinados y el icónico motivo de llamas en el pecho, esta figura destaca como pieza de colección de alto valor. Sus 46 articulaciones reforzadas y marco de aleación de zinc fundido permiten poses dinámicas ilimitadas, convirtiéndola en una adición imprescindible para coleccionistas exigentes de Transformers y figuras de acción premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15 cm (6 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Threezero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Transformers MDLX Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Aleación de zinc fundido, plástico de ingeniería, ABS, POM, PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 46 articulaciones reforzadas de alta movilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura metalizada refinada con detalles en oro y motivo de llamas G1 inspirado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: MDLX (Premium Collectible Action Figure)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Rifle de Fotones (Photon Rifle)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Gancho de Agarre Retráctil (Retractable Grappling Hook)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 pares de manos intercambiables:"
+          },
+          {
+            "t": "notion-text",
+            "x": "• 1 par para sostener rifle\n  • 1 par de puños cerrados\n  • 1 mano derecha en pose de saludo\n  • 1 mano izquierda con gesto de paz\n  • 1 mano derecha en pose abierta"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-22",
+        "reserva": "240",
+        "entrega": "Feb. 2027",
+        "cantidad": "3"
+      },
+      {
         "id": "batman-classic-version-mo7zob76",
         "n": "Batman Classic Version",
         "i": "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b44460b.jpg",
@@ -44957,7 +45036,7 @@
       {
         "id": "mueble-uv-detolf-3",
         "n": "Mueble UV Detolf 4",
-        "i": "assets/vitrinas/detolf-3.png",
+        "i": "assets/vitrinas/detolf-3.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -44966,7 +45045,7 @@
         "disp": "",
         "precio": "2900",
         "fotos": [
-          "assets/vitrinas/detolf-3.png"
+          "assets/vitrinas/detolf-3.jpg"
         ],
         "content": [
           {
@@ -45019,7 +45098,7 @@
       {
         "id": "mueble-uv-detolf-4",
         "n": "Mueble UV Detolf 5",
-        "i": "assets/vitrinas/detolf-4.png",
+        "i": "assets/vitrinas/detolf-4.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -45028,7 +45107,7 @@
         "disp": "",
         "precio": "3000",
         "fotos": [
-          "assets/vitrinas/detolf-4.png"
+          "assets/vitrinas/detolf-4.jpg"
         ],
         "content": [
           {
@@ -45073,7 +45152,7 @@
       {
         "id": "mueble-uv-detolf-5",
         "n": "Mueble UV Detolf 6",
-        "i": "assets/vitrinas/detolf-5.png",
+        "i": "assets/vitrinas/detolf-5.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -45082,7 +45161,7 @@
         "disp": "",
         "precio": "3100",
         "fotos": [
-          "assets/vitrinas/detolf-5.png"
+          "assets/vitrinas/detolf-5.jpg"
         ],
         "content": [
           {
@@ -45127,7 +45206,7 @@
       {
         "id": "mueble-uv-detolf-6",
         "n": "Mueble UV Detolf 7",
-        "i": "assets/vitrinas/detolf-6.png",
+        "i": "assets/vitrinas/detolf-6.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -45136,7 +45215,7 @@
         "disp": "",
         "precio": "3300",
         "fotos": [
-          "assets/vitrinas/detolf-6.png"
+          "assets/vitrinas/detolf-6.jpg"
         ],
         "content": [
           {
