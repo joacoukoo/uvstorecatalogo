@@ -44956,22 +44956,17 @@
     "products": [
       {
         "id": "mueble-uv-detolf-3",
-        "n": "Mueble UV Detolf 3",
-        "i": "assets/vitrinas/detolf-3.png",
+        "n": "Mueble UV Detolf 4",
+        "i": "assets/vitrinas/detolf-3.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
         "franquicia": "",
         "estado": "",
-        "disp": "Solo Bajo Pedido",
+        "disp": "",
         "precio": "2900",
-        "precio_d": "",
-        "precio_orig": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-3.png"
+          "assets/vitrinas/detolf-3.jpg"
         ],
         "content": [
           {
@@ -44992,7 +44987,7 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "3 estanterías de vidrio"
+            "x": "3 estanterías de vidrio - 4 espacios"
           },
           {
             "t": "notion-bulleted-list",
@@ -45015,15 +45010,16 @@
             "x": "Tiempo de elaboración: 10 días hábiles"
           }
         ],
-        "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-29T23:27:28.886437"
+        "added_at": "2026-03-29T23:27:28.886437",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "id": "mueble-uv-detolf-4",
         "n": "Mueble UV Detolf 4",
-        "i": "assets/vitrinas/detolf-4.png",
+        "i": "assets/vitrinas/detolf-4.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -45037,7 +45033,7 @@
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-4.png"
+          "assets/vitrinas/detolf-4.jpg"
         ],
         "content": [
           {
@@ -45081,7 +45077,7 @@
       {
         "id": "mueble-uv-detolf-5",
         "n": "Mueble UV Detolf 5",
-        "i": "assets/vitrinas/detolf-5.png",
+        "i": "assets/vitrinas/detolf-5.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -45095,7 +45091,7 @@
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-5.png"
+          "assets/vitrinas/detolf-5.jpg"
         ],
         "content": [
           {
@@ -45139,7 +45135,7 @@
       {
         "id": "mueble-uv-detolf-6",
         "n": "Mueble UV Detolf 6",
-        "i": "assets/vitrinas/detolf-6.png",
+        "i": "assets/vitrinas/detolf-6.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -45153,7 +45149,7 @@
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-6.png"
+          "assets/vitrinas/detolf-6.jpg"
         ],
         "content": [
           {
