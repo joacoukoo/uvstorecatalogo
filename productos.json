@@ -42058,7 +42058,7 @@
       {
         "id": "mueble-uv-detolf-3",
         "n": "Mueble UV Detolf 3",
-        "i": "assets/vitrinas/detolf-3.jpg",
+        "i": "assets/vitrinas/detolf-3.png",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -42072,7 +42072,7 @@
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-3.jpg"
+          "assets/vitrinas/detolf-3.png"
         ],
         "content": [
           {
@@ -42124,7 +42124,7 @@
       {
         "id": "mueble-uv-detolf-4",
         "n": "Mueble UV Detolf 4",
-        "i": "assets/vitrinas/detolf-4.jpg",
+        "i": "assets/vitrinas/detolf-4.png",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -42138,7 +42138,7 @@
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-4.jpg"
+          "assets/vitrinas/detolf-4.png"
         ],
         "content": [
           {
@@ -42182,7 +42182,7 @@
       {
         "id": "mueble-uv-detolf-5",
         "n": "Mueble UV Detolf 5",
-        "i": "assets/vitrinas/detolf-5.jpg",
+        "i": "assets/vitrinas/detolf-5.png",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -42196,7 +42196,7 @@
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-5.jpg"
+          "assets/vitrinas/detolf-5.png"
         ],
         "content": [
           {
@@ -42240,7 +42240,7 @@
       {
         "id": "mueble-uv-detolf-6",
         "n": "Mueble UV Detolf 6",
-        "i": "assets/vitrinas/detolf-6.jpg",
+        "i": "assets/vitrinas/detolf-6.png",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -42254,7 +42254,7 @@
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/detolf-6.jpg"
+          "assets/vitrinas/detolf-6.png"
         ],
         "content": [
           {
