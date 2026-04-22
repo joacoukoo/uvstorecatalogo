@@ -35,7 +35,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "Store"],
+  "@type": ["Store", "LocalBusiness"],
   "name": "UV Store Guatemala",
   "url": "https://uvstore.shop",
   "logo": "https://uvstore.shop/favicon.png",
@@ -1648,8 +1648,10 @@ function modalSetVersion(ver){
 }
 function _productAvailability(disp){
   if(!disp)return"https://schema.org/OutOfStock";
-  if(disp==="Disponible")return"https://schema.org/InStock";
-  if(disp.indexOf("Pre")===0)return"https://schema.org/PreOrder";
+  var d=disp.toLowerCase();
+  if(d==="entrega inmediata"||d==="disponible")return"https://schema.org/InStock";
+  if(d.indexOf("pre")===0)return"https://schema.org/PreOrder";
+  if(d==="solo bajo pedido")return"https://schema.org/BackOrder";
   return"https://schema.org/OutOfStock";
 }
 function injectProductSchema(p,figId){
@@ -1658,21 +1660,22 @@ function injectProductSchema(p,figId){
   if(p.content&&p.content.length>0){
     desc=p.content.filter(function(b){return b.x;}).map(function(b){return b.x;}).join(" ").substring(0,500);
   }
+  var price=p.precio?parseFloat(p.precio):undefined;
   var schema={
     "@context":"https://schema.org",
     "@type":"Product",
     "name":p.n,
     "image":imgs,
-    "brand":{"@type":"Brand","name":p.marca},
     "offers":{
       "@type":"Offer",
       "priceCurrency":"GTQ",
-      "price":p.precio,
       "availability":_productAvailability(p.disp),
       "url":location.origin+"/p/"+encodeURIComponent(figId),
       "seller":{"@type":"Organization","name":"UV Store Guatemala"}
     }
   };
+  if(price)schema.offers.price=price;
+  if(p.marca)schema.brand={"@type":"Brand","name":p.marca};
   if(desc)schema.description=desc;
   if(p.escala)schema.additionalProperty={"@type":"PropertyValue","name":"Escala","value":p.escala};
   var el=document.getElementById("product-ld-json");
@@ -1955,6 +1958,20 @@ window.addEventListener("popstate",function(){
     if(qfig){history.replaceState(null,"",location.pathname+"#figura/"+encodeURIComponent(qfig));}
   })();
   routeHash(location.hash);
+  // Cold load: abrir modal si la URL es /p/:slug directamente
+  if(location.pathname.startsWith("/p/")){
+    var _slug=decodeURIComponent(location.pathname.slice(3));
+    var _found=null,_foundCat=null;
+    outer2:for(var _ki=0;_ki<CAT_KEYS.length;_ki++){
+      var _ck=CAT_KEYS[_ki];var _prods=(DATA[_ck]||{}).products||[];
+      for(var _pi=0;_pi<_prods.length;_pi++){
+        var _pp=_prods[_pi];
+        var _ppId=_pp.id||(_pp.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
+        if(_ppId===_slug){_found=_pp;_foundCat=_ck;break outer2;}
+      }
+    }
+    if(_found)openModal(_found,_foundCat);
+  }
   // Restore search from URL ?q= param
   (function(){
     var q=new URLSearchParams(location.search).get("q");
