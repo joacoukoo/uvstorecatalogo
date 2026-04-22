@@ -706,6 +706,29 @@ body::after{
 .fade-up{opacity:0;transform:translateY(16px);transition:opacity .4s ease,transform .4s ease}
 .fade-up.visible{opacity:1;transform:none}
 
+
+/* ── MOBILE BOTTOM NAV ── */
+.mobile-nav{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:850;
+  background:rgba(7,8,13,0.96);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-top:1px solid var(--border);
+  padding:6px 0 max(6px,env(safe-area-inset-bottom));
+}
+.mobile-nav-item{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:3px;min-height:44px;padding:6px 2px;
+  cursor:pointer;background:none;border:none;
+  color:var(--muted2);font-family:`"DM Sans`",sans-serif;
+  font-size:9.5px;font-weight:500;letter-spacing:.3px;
+  transition:color .15s;-webkit-tap-highlight-color:transparent;
+}
+.mobile-nav-item.active{color:var(--pl)}
+.mobile-nav-item svg{
+  width:21px;height:21px;stroke:currentColor;stroke-width:1.8;fill:none;
+  stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;
+}
+.mobile-nav-item.active svg{stroke-width:2.2}
 /* ══ RESPONSIVE ══ */
 @media(max-width:1024px){.cat-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:768px){
@@ -772,28 +795,6 @@ body::after{
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
 .reveal.visible{opacity:1;transform:translateY(0)}
 
-/* ── MOBILE BOTTOM NAV ── */
-.mobile-nav{
-  display:none;position:fixed;bottom:0;left:0;right:0;z-index:850;
-  background:rgba(7,8,13,0.96);
-  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
-  border-top:1px solid var(--border);
-  padding:6px 0 max(6px,env(safe-area-inset-bottom));
-}
-.mobile-nav-item{
-  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
-  gap:3px;min-height:44px;padding:6px 2px;
-  cursor:pointer;background:none;border:none;
-  color:var(--muted2);font-family:"DM Sans",sans-serif;
-  font-size:9.5px;font-weight:500;letter-spacing:.3px;
-  transition:color .15s;-webkit-tap-highlight-color:transparent;
-}
-.mobile-nav-item.active{color:var(--pl)}
-.mobile-nav-item svg{
-  width:21px;height:21px;stroke:currentColor;stroke-width:1.8;fill:none;
-  stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;
-}
-.mobile-nav-item.active svg{stroke-width:2.2}
 
 /* ── FOCUS VISIBLE ── */
 button:focus-visible,a:focus-visible{
