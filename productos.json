@@ -3,6 +3,116 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "black-widow-artisan-edition-mo1lizyk",
+        "n": "Black Widow (Artisan Edition)",
+        "i": "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca920ae4a.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Vendido",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca920ae4a.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_scale_66a7cb29d27c1.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca96070bf.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca9ae3425.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca9bae580.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7caa843c54.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7caadc4bc3.jpg",
+          "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7cab2df02d.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La Black Widow (Artisan Edition) de Hot Toys es una obra maestra de coleccionismo que captura la debut icónica de Natasha Romanoff en Iron Man 2 con precisión cinematográfica. Presentando una innovadora técnica de implantación de cabello en lana que logra un realismo extraordinario, esta figura de 1:6 incluye un sistema de ojos rodantes articulado y una escultura facial meticulosamente pintada a mano que reproduce fielmente a Scarlett Johansson. Con más de 28 puntos de articulación, un traje táctico confeccionado a medida y una colección completa de accesorios auténticos, esta edición limitada de solo 2,000 unidades en el mundo es la pieza definitiva para coleccionistas exigentes de Marvel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado, cabeza con implantación de cabello en lana, traje en tela, accesorios en plástico y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: No especificado por fabricante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 28"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 2,000 unidades a nivel mundial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Movie Masterpiece Series - Iron Man 2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) escultura de cabeza desarrollada recientemente con sistema de ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) traje de una pieza de color azul oscuro con cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de brazaletes Black Widow's bite de color negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) cinturón gris oscuro con bolsas y cartuchera de pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Un (1) par de botas de plataforma gris oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Doce (12) pares de manos intercambiables: puños, manos relajadas, manos abiertas, manos para sostener pistolas, manos para sostener shuriken, gesto con mano izquierda, mano derecha para sostener spray"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) pistolas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) discos de taser"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) discos de taser activados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) cuerda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) lata de spray"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de figura especialmente diseñada con característica magnética, logo de película y placa con nombre de personaje"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "1080",
+        "cantidad": "0"
+      },
+      {
         "id": "wolverine-tva-jacket-version-mnqjskgn",
         "n": "Wolverine (TVA Jacket Version)",
         "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-square.jpg",
@@ -93,7 +203,7 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/armored-batman-20",
         "marca": "Hot Toys",
         "escala": "1:6",
-        "estado": "Sellado",
+        "estado": "",
         "disp": "Entrega Inmediata",
         "precio": "3900",
         "precio_d": "4600",
@@ -225,7 +335,7 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959e04aad0.jpg"
         ],
         "agotado_r": false,
-        "agotado_d": false,
+        "agotado_d": true,
         "content_d": [
           {
             "t": "notion-text",
@@ -3381,25 +3491,15 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/hulkbuster-deluxe-version",
         "marca": "Hot Toys",
         "escala": "1:6 - 56CM",
-        "estado": "Exhibido - Excelente Estado",
+        "estado": "",
         "disp": "Entrega Inmediata",
-        "precio": "",
-        "precio_d": "19500",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "precio": "19500",
+        "reserva": "0",
+        "cantidad": "1",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Diseñada específicamente por Tony Stark y Bruce Banner, la armadura Hulkbuster de resistencia extrema puede ser desplegada directamente desde la órbita. Tanto Stark como Banner esperan sinceramente que el poder bruto del Hulkbuster nunca tenga que ser utilizado, aunque esté listo para ello. Inspirada fielmente en su aparición en Avengers: Age of Ultron, esta colosal figura alcanza aproximadamente 55 cm de altura e incluye un busto del Mark XLIII con ojos y reactor ARC iluminados por LED, el cual puede colocarse dentro de la armadura."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nDiseñada específicamente por Tony Stark y Bruce Banner, la armadura Hulkbuster de resistencia extrema puede ser desplegada directamente desde la órbita. Tanto Stark como Banner esperan sinceramente que el poder bruto del Hulkbuster nunca tenga que ser utilizado, aunque esté listo para ello. Inspirada fielmente en su aparición en Avengers: Age of Ultron, esta colosal figura alcanza aproximadamente 55 cm de altura e incluye un busto del Mark XLIII con ojos y reactor ARC iluminados por LED, el cual puede colocarse dentro de la armadura.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -3422,7 +3522,7 @@
             "x": "Más de 30 puntos de articulación"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Incluye"
           },
           {
@@ -3458,7 +3558,7 @@
             "x": "Hulkbuster Pod (aproximadamente 6 cm de altura)"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -3502,8 +3602,6 @@
             "x": "Brazo Jackhammer con longitud aproximada de 35 cm (hasta 41 cm extendido) y más de 9 puntos de articulación"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
@@ -3518,7 +3616,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_5c4ba6abcacb5.jpg"
         ],
         "id": "hulkbuster-deluxe-version",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Perfect Cell – Dragon Ball Z",
@@ -7397,13 +7497,9 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/don-vito-corleone",
         "marca": "Iron Studios",
         "escala": "1:10 - 20CM",
-        "estado": "Exhibido - Excelente Estado",
-        "disp": "Entrega Inmediata",
+        "estado": "",
+        "disp": "Vendido",
         "precio": "2500",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
@@ -7426,8 +7522,6 @@
             "x": "0.5 kg"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Otros",
         "destacado": false,
         "oferta": false,
@@ -7441,7 +7535,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ec958f7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912721/don-vito-corleone_the-godfather_gallery_64ed21ecdd79e.jpg"
         ],
-        "id": "don-vito-corleone"
+        "id": "don-vito-corleone",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Proxima Midnight",
@@ -9869,6 +9965,525 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "pennywise-mo6o3afv",
+        "n": "Pennywise",
+        "i": "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9ab4ffa.jpg",
+        "franquicia": "Otros",
+        "marca": "Sideshow Collectibles",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9ab4ffa.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9b5f26a.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9bd786c.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9c4d23e.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise_it_gallery_66ec4d86c4580.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9d353ce.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9dc8b66.jpg",
+          "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9e99c13.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Pennywise Sixth Scale de Sideshow Collectibles es una representación magistral del icónico payaso del miniserie It (1990), capturando con precisión los detalles del legendario Tim Curry. Con dos cabezas intercambiables, traje tailorizado impecable y una colección de 12 manos intercambiables, esta pieza premium ofrece infinitas posibilidades de exhibición para los coleccionistas más exigentes. Cada accesorio, desde el globo de papel hasta el ramillete de globos flotantes, ha sido meticulosamente diseñado para recrear los momentos más terroríficos de la adaptación clásica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cabeza esculpida en resina con cabello sintético, cuerpo articulado con traje de tela tailorizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximadamente 300-400 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Totalmente articulada para poseado completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) cabezas intercambiables (retrato sonriente y retrato monstruoso)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de payaso amarillo completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuello rizado multicolor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pompones naranjas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo rayado azul y púrpura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Doce (12) manos intercambiables (guantes blancos, garras, gestos variados)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bote de papel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ramillete de globos de colores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Globo amarillo destacable (sostenible independientemente)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base hexagonal negra"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "720",
+        "entrega": "Dic. 2026",
+        "cantidad": "2"
+      },
+      {
+        "id": "superman-1978-mo3ejug7",
+        "n": "Superman (1978)",
+        "i": "https://img.shoplineapp.com/media/image_clips/69e2101b55eba12af2afa267/original.jpg?1776422939=&owner_id=62f310ccf972b800600e7b20",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4500",
+        "fotos": [
+          "https://img.shoplineapp.com/media/image_clips/69e2101b55eba12af2afa267/original.jpg?1776422939=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2101ccd77de0643191b63/original.jpg?1776422940=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2101c57453ddfdfc6cf3c/original.jpg?1776422940=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2101dff4d432828c7b65e/original.jpg?1776422940=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2101d43d9fb5c278bc050/original.jpg?1776422940=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2101d424278201f923d62/original.jpg?1776422940=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2101d5d694c9dca20689a/original.jpg?1776422940=&owner_id=62f310ccf972b800600e7b20",
+          "https://shoplineimg.com/62f310ccf972b800600e7b20/69e2101cb48d47f664e45163/2960x.webp?source_format=jpg",
+          "https://shoplineimg.com/62f310ccf972b800600e7b20/69e2101d30217730f4b7f517/2960x.webp?source_format=jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica representación de Superman del filme de 1978 con esta figura coleccionable premium de Inart en escala 1/6. Cada detalle ha sido meticulosamente esculpido para capturar la esencia del Hombre de Acero, desde su expresión característica hasta la precisión de su traje clásico. Una adquisición imprescindible para coleccionistas de DC Comics que buscan una pieza de museo con articulación completa y accesorios intercambiables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36 cm (sin sombrero)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina (cabeza esculpida) y cuerpo articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: Ojos articulados, 5 pares de manos intercambiables, 2 capas (drapeada y con cable posicionable)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones base: 13.7 cm (ancho) x 10.8 cm (profundidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.5 kg (estimado para figura 1/6 premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos articulados (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo completamente articulado (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos relajadas (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos sujetando (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puños cerrados (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos abiertas (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano izquierda con gesto de advertencia (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa drapeada (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa poseable con alambre (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Collar de Kriptonita (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Balas (5)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base Fortaleza de la Soledad (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de vuelo (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte metálico de estabilización (1)"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-17",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "La edición Deluxe transforma esta figura en una experiencia coleccionable completa al incluir la figura de Clark Kent totalmente articulada, permitiendo recrear tanto la identidad secreta como la forma heroica de Superman en una misma vitrina. Esta versión premium ofrece una narrativa visual única con accesorios de periodista y el icónico momento de rasgarse la camisa, elevándola a pieza de museo imprescindible para coleccionistas dedicados.\n\nSuperman:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos articulados (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo completamente articulado (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos relajadas (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos sujetando (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puños cerrados (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos abiertas (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano izquierda con gesto de advertencia (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa drapeada (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa poseable con alambre (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Collar de Kriptonita (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Balas (5)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base Fortaleza de la Soledad (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de vuelo (1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte metálico de estabilización (1)"
+          },
+          {
+            "t": "notion-text",
+            "x": "Clark Kent:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Clark Kent completamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello alternativo con sombrero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo gris"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas de marco marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sombrero de fieltro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Maletín"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolígrafo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Libreta/Cuaderno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano derecha sosteniendo gafas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano derecha escribiendo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano derecha sosteniendo maletín"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano izquierda sujetadora de objetos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos rasgando camisa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con textura de oficina/Diario"
+          }
+        ],
+        "precio_d": "7800",
+        "reserva": "900",
+        "reserva_d": "1560",
+        "entrega": "2Q 2027",
+        "cantidad": "8",
+        "fotos_d": [
+          "https://img.shoplineapp.com/media/image_clips/69e2185dbea4ec7c4a504a72/original.jpg?1776425052=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2185b20a46925c9204f6b/original.jpg?1776425050=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2185b55eba179d4af9af5/original.jpg?1776425051=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2185c72a98ea5b863ba03/original.jpg?1776425052=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2185c57453df2fac6d0c9/original.jpg?1776425052=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2185ccfb8e259dacfcb5f/original.jpg?1776425052=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/69e2185c06cc6d0112706265/original.jpg?1776425052=&owner_id=62f310ccf972b800600e7b20",
+          "https://shoplineimg.com/62f310ccf972b800600e7b20/69e2185b85936bdebe7b3380/2960x.webp?source_format=jpg",
+          "https://shoplineimg.com/62f310ccf972b800600e7b20/69e2181e0c0268cdfaa94c92/540x.webp?source_format=jpg"
+        ]
+      },
+      {
+        "id": "imperial-remnant-at-rt-driver-mo07qec4",
+        "n": "Imperial Remnant AT-RT Driver™",
+        "i": "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6dfc9470.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6dfc9470.jpg",
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-scale-69dfa83d1a669.jpg",
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6e04c7d0.jpg",
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6e0a1d43.jpg",
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6e103efe.jpg",
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6e15c479.jpg",
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6e1b0c45.jpg",
+          "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6e21538a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Hot Toys que captura la esencia amenazante del Imperial Remnant AT-RT Driver de Star Wars: The Mandalorian & Grogu. Con detalles de envejecimiento experto, armadura desarrollada específicamente y textura realista, esta figura de 30 cm es una pieza imprescindible para coleccionistas que buscan autenticidad y precisión cinematográfica. Equipada con accesorios temáticos de nieve y armas de combate, representa la sofisticación técnica característica de Hot Toys."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material armadura: Plástico desarrollado con efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material abrigo: Tela con textura flocked"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material botas: Vinilo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Movie Masterpiece Diecast Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Lucasfilm Ltd. / Star Wars"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable con casco del Imperial Remnant (con efectos de envejecimiento)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado de 30 puntos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 pares de manos intercambiables (puños, relajadas, abiertas, sosteniendo armas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura beige del Imperial Remnant con efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo color greige con textura flocked"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón beige con funda de pistola y efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones color greige"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas largas de material vinilo color greige"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola blaster SE-14r"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle blaster DLT-20A"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de nieve con logo de Star Wars y placa del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "La edición Deluxe eleva la experiencia coleccionista al incluir el AT-RT totalmente funcional y articulado, transformando esta en una pieza de exhibición épica que recrea la amenaza imperial en toda su escala. Con iluminación LED integrada y más de 10 puntos de articulación, el vehículo se convierte en el complemento definitivo para el figurante, ofreciendo una representación cinematográfica incomparable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "AT-RT totalmente articulado (33-60cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estructura mecánica altamente detallada con pintura fina y efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cañón blaster articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Asiento del conductor con agarraderas y reposapiés articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED frontal (luz blanca, USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED trasera (luz roja, USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de cilindros hidráulicos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cables realistas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Antenas de material metálico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática de nieve mejorada para el set completo"
+          }
+        ],
+        "precio_d": "6000",
+        "reserva": "620",
+        "reserva_d": "1200",
+        "entrega": "Sep. 2027",
+        "cantidad": "2",
+        "fotos_d": [
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaaca7e185.jpg",
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacb03c8d.jpg",
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacb5c34e.jpg",
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacbb5763.jpg",
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacc30479.jpg",
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacc9e972.jpg",
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacd17a47.jpg",
+          "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacd912eb.jpg"
+        ]
+      },
+      {
         "id": "lieutenant-starbuck-mntu7wqa",
         "n": "Lieutenant Starbuck",
         "i": "https://www.sideshow.com/storage/product-images/914803/factory-entertainment-battlestar-galactica-lieutenant-starbuck-sixth-scale-figure-gallery-69d7ecd34ba5d.jpg",
@@ -10409,7 +11024,7 @@
         "added_at": "2026-04-10",
         "reserva": "1120",
         "entrega": "Mayo 2027",
-        "cantidad": "3",
+        "cantidad": "7",
         "preorden_mes": true
       },
       {
@@ -17186,41 +17801,110 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "",
         "precio": "3800",
-        "precio_d": "",
         "reserva": "Q760",
         "entrega": "Julio 2027",
         "cantidad": "3",
         "content": [
           {
             "t": "notion-text",
-            "x": "DC | Video Game Collection Figura a escala 1:6 deBatman, basada en el videojuegoBatman: Arkham Origins. Esta versión presenta unnuevo head sculpt enmascaradoconojos móviles independientesydos lower faces intercambiablespara distintas expresiones, logrando un alto nivel de realismo. Concuerpo musculosoy30 puntos de articulación, incluye un completo set degadgets icónicosdel juego y unacapa con alambre internopara poses dinámicas. Características Incluye Manos (7) Vestuario Armas y Gadgets Accesorio"
+            "x": "Experimenta la intensidad de Batman: Arkham Origins con esta figura coleccionable premium de Hot Toys a escala 1:6, que captura la esencia del vigilante de Gotham con un nivel de detalle extraordinario. Equipado con cabeza intercambiable con ojos móviles independientes, 30 puntos de articulación y una capa con alambre interno para poses dinámicas, esta figura de 33 cm es un must-have para coleccionistas. Incluye un arsenal completo de gadgets del videojuego y efectos de rayos azules intercambiables que destacan su poder devastador."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escala:1:6Altura: aprox.32.5–33 cmCuerpo musculoso con30 puntos de articulaciónCabeza conrolling eyeballsy2 lower facesintercambiables"
+            "x": "Altura: 32.5-33 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Par de puñosPar de manos abiertasPar de manos para armasMano derecha sosteniendo Batarang"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Batsuit de nuevo desarrollo con armadura gris y negraTraje interior negroCapa negra con alambre flexibleGuanteletes pesadosCinturón utilitario gris claroBotas negras"
+            "x": "Fabricante: Hot Toys"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Placas deShock Glovescon efecto de rayos azules (intercambiables con los guanteletes)Smoke PelletGrapnel GunDisruptorSonic BatarangBatarangRemote ClawExplosive Gel"
+            "x": "Material: PVC, tela, resina"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base especial conlogo del juegoyplaca con nombre"
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con ojos móviles independientes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 lower faces intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza enmascarada con rolling eyeballs"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 pares de manos intercambiables (puños, manos abiertas, manos para armas, mano derecha sosteniendo Batarang)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batsuit gris y negro con armadura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa negra con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guanteletes pesados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario gris claro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placas de Shock Gloves con efecto de rayos azules (intercambiables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Smoke Pellet"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grapnel Gun"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Disruptor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sonic Batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Remote Claw"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Explosive Gel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base especial con logo del juego y placa con nombre"
           }
         ],
         "id": "batman-arkham-origins",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -17233,7 +17917,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915221/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-695fd09e9f074.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915221/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-695fd09e55e11.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915221/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-695fd08c5d0e9.jpg"
-        ]
+        ],
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Chopper (One Piece Live Action)",
@@ -17483,24 +18169,15 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "",
         "precio": "4100",
-        "precio_d": "",
         "reserva": "Q820",
         "entrega": "Agosto 2027",
-        "cantidad": "6",
+        "cantidad": "3",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura de acción de Spider-Man en versión con daños de batalla, basada en la interpretación de Tobey Maguire de la película Spider-Man. Esta réplica en sexta escala captura al personaje en estado dañado, con su distintivo traje rojo y azul oscuro mostrando los efectos del combate."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nFigura de acción de Spider-Man en versión con daños de batalla, basada en la interpretación de Tobey Maguire de la película Spider-Man. Esta réplica en sexta escala captura al personaje en estado dañado, con su distintivo traje rojo y azul oscuro mostrando los efectos del combate.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -17515,7 +18192,7 @@
             "x": "Puntos de articulación: 30"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Incluye"
           },
           {
@@ -17551,7 +18228,7 @@
             "x": "Placa de personaje"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -17576,8 +18253,6 @@
           }
         ],
         "id": "spider-man-battle-damaged-version",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
@@ -17591,7 +18266,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915211/hot-toys-marvel-spider-man-battle-damaged-version-sixth-scale-figure-gallery-6958169b595d1.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915211/hot-toys-marvel-spider-man-battle-damaged-version-sixth-scale-figure-gallery-6958169b9f495.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Rumi - KPop Demon Hunters",
@@ -28831,9 +29508,1221 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ssj3-goku-mo8pxb3x",
+        "n": "SSJ3 Goku",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/71f8f6118b6e9b519366813fb636428d.jpg?v=1763492993",
+        "franquicia": "Anime",
+        "marca": "WDF Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/71f8f6118b6e9b519366813fb636428d.jpg?v=1763492993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/35279c38561bd9b35d550dabc59235f5.jpg?v=1763492993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/77f437a884544f2ca4897778c16a893e.jpg?v=1763492993"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium SSJ3 Goku de WDF Studio que captura la icónica transformación Super Saiyan 3 con un nivel de detalle extraordinario. Cada aspecto del personaje ha sido meticulosamente esculpido, desde el característico cabello dorado y voluminoso hasta la expresión intensa del rostro y la musculatura definida del cuerpo. Esta versión exclusiva incluye una base de diorama que complementa perfectamente la presencia épica de Goku, convirtiéndola en una pieza imprescindible para coleccionistas de alto nivel del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, poliuretano y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: WDF Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura acrílica premium con detalles aplicados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Limitadas (figura de exhibición)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal SSJ3 Goku en escala 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de diorama exclusiva"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "reserva": "580",
+        "entrega": "3Q 2026",
+        "cantidad": "1"
+      },
+      {
+        "id": "doctor-doom-mo7xmi55",
+        "n": "Doctor Doom",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202631_885__48365.jpg?v=1763642820",
+        "franquicia": "Marvel",
+        "marca": "Iron Pin Jiang",
+        "escala": "1:1 y 1:2",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202631_885__48365.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202639_004__92857.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202633_508__50249.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202628_197__75090.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202637_148__75391.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202642_613__82488.jpg?v=1763642820",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2025-11-20_202635_314__21593.jpg?v=1763642820"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una representación magnífica del icónico villano Doctor Doom en forma de busto premium, capturando su imponente presencia con armadura elaborada y capa de tela real que realza el detalle. Limitado a solo 198 unidades, esta pieza de colección de alto valor combina resina importada y tela de calidad superior para un acabado excepcional. Cada detalle, desde su máscara metálica hasta sus ornamentos dorados, refleja la excelencia artesanal característica de Iron Studio."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 85 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 65 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 55 cm (1/1) / 30 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/1 y 1/2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada + poliuretano + tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 198 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de entrega: 2026 Q4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Doctor Doom en escala 1/1 o 1/2 (a elegir)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa de tela real (incluida en versión 1/1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios y ornamentación dorada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Una representación magnífica del icónico villano Doctor Doom en forma de busto premium, capturando su imponente presencia con armadura elaborada y capa de tela real que realza el detalle. Limitado a solo 198 unidades, esta pieza de colección de alto valor combina resina importada y tela de calidad superior para un acabado excepcional. Cada detalle, desde su máscara metálica hasta sus ornamentos dorados, refleja la excelencia artesanal característica de Iron Studio."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 85 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 65 cm (1/1) / 42 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 55 cm (1/1) / 30 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/1 y 1/2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada + poliuretano + tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 198 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de entrega: 2026 Q4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Doctor Doom en escala 1/1 o 1/2 (a elegir)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa de tela real (incluida en versión 1/1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios y ornamentación dorada"
+          }
+        ],
+        "precio_d": "11000",
+        "reserva": "800",
+        "reserva_d": "2200",
+        "entrega": "Nov. 2026",
+        "cantidad": "1"
+      },
+      {
+        "id": "mazinger-z-elite-1-4-scale-bust-mo7h8c01",
+        "n": "Mazinger Z Elite 1/4 Scale Bust",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-MAZINGER-Z.png?v=1659999626",
+        "franquicia": "Anime",
+        "marca": "Figurama",
+        "escala": "1/4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-MAZINGER-Z.png?v=1659999626",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_1_5000x_ea87bd2d-31af-44db-9dd2-e581fe9d5c0c.jpg?v=1659999653",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_2_5000x_9a16bf55-652f-45ad-8619-871426663f59.jpg?v=1659999653",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_3_5000x_4ee386fd-2f41-4a08-92f5-322092966e66.jpg?v=1659999653",
+          "https://cdn.shopify.com/s/files/1/0216/7762/products/Mazinger_4_5000x_2b32a63d-805e-463f-ba5c-203dd9b4df93.jpg?v=1659999652"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Obra maestra de colección que captura la legendaria Mazinger Z en su gloria épica. Esta figura Elite 1/4 escala de Figurama presenta detalles extraordinarios con un realismo metalizado incomparable, incluyendo pernos y remaches que simulan los paneles de Super Aleación Z. El diorama completo con el Jet Scrander desplegado y la base del Hover Pilder crea una composición visualmente impactante que celebra el icónico Super Robot en su momento de batalla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 26 cm (busto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional con estilo signature Figurama"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: Pernos y remaches realistas, paneles diferenciados, alas Jet Scrander articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base temática Hover Pilder con detalles mecánicos intricados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto Mazinger Z Elite 1/4 Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas Jet Scrander (rojo brillante)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pilder bonus en la cabeza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base Hover Pilder con detalles de misiles y abanicos VTOL"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de Autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de colección premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "900",
+        "cantidad": "2"
+      },
+      {
+        "id": "super-mario-galaxy-2-mo7dxan8",
+        "n": "Super Mario Galaxy 2",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b957fed3086e6b3f165765a7c1268982Large.jpg?v=1776079544",
+        "franquicia": "Gaming",
+        "marca": "T Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "9200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b957fed3086e6b3f165765a7c1268982Large.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9ce17a64110a79b63206d23de66e4b8d.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a7b67f9973905dbd87728fdf2e06bc5fLarge.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5b89967730e257c9a1f15bc62a1c1190.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d0bfa997365871df54d61a014471f338Large.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8b7336a136b1f2b8809aaa848d737f3f.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5c3c51c76c8e3ca85e60011538ebf4b4.jpg?v=1776079544",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20ca548cefecd72b260d4381773bf705.jpg?v=1776079544"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Obra maestra de colección de T Studio que celebra 40 años de Super Mario con una diorama épica de 62 cm de altura. Figura premium en resina importada de altísima calidad que captura a toda la familia Mario en una composición dinámica y detallada. Edición limitada a solo 98 unidades mundial, con acabados profesionales y detalles visuales excepcionales que la convierten en pieza de inversión para coleccionistas premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 62 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 98 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de entrega: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Premium Diorama (sin escala específica)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Diorama tematizado con elementos del juego"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama base masivo con escenario temático Mario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras de Mario, Luigi, Princess Peach, Bowser, Yoshi, Toad, Koopa Troopa, Lakitu y Piranha Plant"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Power Star (Super Star) como bonificación especial de pre-orden"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bandera M de 62 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tubo verde decorativo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Monedas coleccionables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales temáticos integrados"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "1840",
+        "entrega": "4Q 2026",
+        "cantidad": "1"
+      },
+      {
+        "id": "dog-alien-bust-mo7dj0mv",
+        "n": "Dog Alien Bust",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367861/_2026-04-20_134748_600__25607.1776671429.jpg",
+        "franquicia": "Otros",
+        "marca": "Deep Tale Studio",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "20800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367861/_2026-04-20_134748_600__25607.1776671429.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367859/_2026-04-20_134745_106__43205.1776671420.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367860/_2026-04-20_134758_671__79008.1776671424.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367862/_2026-04-20_134754_000__36866.1776671425.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367863/_2026-04-20_134746_962__56684.1776671426.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367864/_2026-04-20_134757_183__40008.1776671429.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17942/367865/_2026-04-20_134751_879__84999.1776671432.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El Dog Alien Bust de Deep Tale Studio es una obra maestra de coleccionismo premium que captura la esencia aterradora de la icónica criatura de la franquicia Alien en escala 1:1. Fabricado con resinas importadas de alta calidad y acabados en PU, cada detalle biomecánico del xenomorfo ha sido meticulosamente esculpido para ofrecer un realismo sin precedentes. Esta pieza numerada limitada a solo 99 unidades a nivel mundial representa el pico del arte coleccionable para aficionados y curadores de figuras premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 83 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 86 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (tamaño real)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Año de lanzamiento estimado: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Busto coleccionable premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto Dog Alien 1:1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) mandíbulas interiores intercambiables (extendida y retractada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación personalizada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "4160",
+        "entrega": "Q2 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "diana-mo7ccrpm",
+        "n": "Diana",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215148_458__77355.jpg?v=1776524171",
+        "franquicia": "Gaming",
+        "marca": "3109 Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215148_458__77355.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215147_220__69650.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215142_137__00163.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215143_693__10004.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215145_043__74483.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215151_566__55962.jpg?v=1776524171",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_215149_973__68100.jpg?v=1776524171"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Diana es una figura de colección premium de 3109 Studio que captura magistralmente a este icónico personaje del universo gaming con un nivel de detalle excepcional. Elaborada en escala 1:4 con una altura de 27 cm, esta pieza limitada a solo 88 unidades worldwide representa el pico de la craftsmanship en figuras de colección de alto valor. Cada elemento, desde su atuendo azul con detalles textilizados hasta su cabello rubio y expresión dinámica, refleja la calidad premium que define a 3109 Studio."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 piezas numeradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Plataforma iluminada con logo PRAG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal de nivel museo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Diana articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base iluminada con display PRAG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Plataforma de exhibición circular"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad y certificado de edición limitada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "760",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "diana-mo7cblnn",
+        "n": "Diana",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2098610be59cd69aaf09470746ee154b.jpg?v=1776442450",
+        "franquicia": "Gaming",
+        "marca": "Reflection Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2098610be59cd69aaf09470746ee154b.jpg?v=1776442450",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161236_092__85231.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161229_805__91848.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161238_881__60546.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161231_535__71763.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161241_593__95722.jpg?v=1776676987",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_161233_378__17675.jpg?v=1776676987"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium Diana de Pragmata en escala 1:4, elaborada con resina importada de alta calidad y materiales PU que garantizan durabilidad y excelente acabado. Esta pieza de edición limitada captura cada detalle del personaje con precisión artesanal, desde su traje táctico azul hasta sus accesorios militares, siendo un imprescindible para coleccionistas de figuras gaming de alto valor. Lanzamiento previsto para Q2 2027, representando una inversión coleccionable de rango premium con potencial de revalorización."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Pragmata (Gaming)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Reflection Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estado: Pre-orden/Preventa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Diana articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama futurista circular"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios tácticos integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales de entorno de laboratorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "940",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "reze-mo7bwpj4",
+        "n": "Reze",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_16.webp?v=1776678759",
+        "franquicia": "Anime",
+        "marca": "CDKey x PG Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-20_16.webp?v=1776678759"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Reze en escala 1:6, desarrollada por CDKey x PG Studio, que captura la elegancia y misterio del personaje con detalles excepcionales. La escultura exhibe un refinado vestido negro con volantes translúcidos en tonos púrpura, complementado por accesorios de cuero y una postura cautivadora. Edición limitada a solo 128 piezas mundialmente, asegurando su valor y exclusividad para coleccionistas exigentes de figuras de anime premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: CDKey x PG Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Anime"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Reze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición personalizada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de luz/partículas púrpuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes intercambiables de cuero negro"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "760",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
+        "id": "asuka-mo5at6oy",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e22195fe6b36622ec9deb745ed7e9c97.jpg?v=1776422086",
+        "franquicia": "Anime",
+        "marca": "Duel Soul Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e22195fe6b36622ec9deb745ed7e9c97.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b6e21269f15f9398cf16e2760140be61.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/27e1fd619515627bd3ad7ed193f2028c.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7c748dc044a03601d2f89b333ca7a786.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/448233d8f3b908c0672c33226161ae3dLarge.jpg?v=1776422086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/86662b047ff02f00aa327fe4779fabed.jpg?v=1776422086"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Asuka de Duel Soul Studio que captura la esencia del personaje con un detallado nivel artístico superior. Esculpida en escala 1/6 con una altura de 40 cm, presenta una composición arquitectónica única donde la figura emerge desde una base de ciudad en miniatura, envuelta en fluido tejido rojo escarlata que contrasta con su piel pálida. Edición limitada a solo 80 piezas mundiales, representando el pico de la artesanía de coleccionismo de figuras anime premium con acabados de calidad museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 80 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Duel Soul Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base incluida con diorama de ciudad miniatura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Asuka (40 cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de diorama con ciudad en miniatura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad (edición limitada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-19",
+        "reserva": "860",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "arwen-mo3atobs",
+        "n": "Arwen",
+        "i": "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131af53533.jpg",
+        "franquicia": "Otros",
+        "marca": "Infinity Studio",
+        "escala": "1:2",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "30400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131af53533.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-scale-69e1352df2870.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131afab81b.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b0100b2.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b06b276.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b0c1cbe.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b116a14.jpg",
+          "https://www.sideshow.com/storage/product-images/915563/infinity-studio-the-lord-of-the-rings-arwen-1-2-scale-statue-gallery-69e131b15f434.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Arwen a escala 1:2 de Infinity Studio, capturando la elegancia etérea de la princesa élfica con un nivel de detalle extraordinario. Escultura facial exquisitamente tallada con cabello implantado en fibra de seda de alta temperatura, piel de silicona platino y ropa confeccionada en tela superior con patrones únicos. Una pieza de museo que encarna la belleza y dignidad regia de la heredera de Rivendell, perfecta para coleccionistas devotos de El Señor de los Anillos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 90-100 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona platino de grado premium (piel), polistone (cuerpo), tela superior (vestidura), metal (accesorios)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: aproximadamente 8-12 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fibra de cabello: Seda implantada de alta temperatura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Detalle espejo en accesorios metálicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Arwen"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada metálica con patrones elegantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-17",
+        "reserva": "6080",
+        "entrega": "Oct. 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "momo-ayase-ikigai-mo3as586",
+        "n": "Momo Ayase Ikigai",
+        "i": "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e2d416c.jpg",
+        "franquicia": "Anime",
+        "marca": "Tsume Art",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e2d416c.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e357e12.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e3d67fa.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e45a6c3.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e4d354c.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e55adf2.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e5d712a.jpg",
+          "https://www.sideshow.com/storage/product-images/915566/tsume-art-dandadan-momo-ayase-ikigai-statue-gallery-69e255e75f749.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Momo Ayase Ikigai de Tsume Art que captura la esencia dinámico del anime DanDaDan en escala 1:6. Con una altura de aproximadamente 30 cm, esta estatua destaca por sus efectos translúcidos que representan los poderes psíquicos de Momo en plena acción, creando una composición fluida e impactante. Cada detalle ha sido cuidadosamente esculpido para mantener la identidad visual del personaje mientras transmite movimiento y energía controlada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: ~30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Tsume Art"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia: DanDaDan (Yukino Tatsu/SHUEISHA)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura detallada con efectos translúcidos especiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base temática diorama"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Momo Ayase"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos translúcidos de energía psíquica (azul turquesa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama con temática DanDaDan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de colección premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-17",
+        "reserva": "1340",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
+        "id": "killer-croc-mo330lif",
+        "n": "Killer Croc",
+        "i": "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea32d9af.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Sideshow Collectibles",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea32d9af.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea3ae86b.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea44168c.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea4c7b90.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea5582d1.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69e124a7c0209.jpg",
+          "https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea67b699.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/300914/sideshow-collectibles-dc-comics-killer-croc-premium-format-figure-gallery-69de6ea2a6283.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la ferocidad desatada del Asesino de Cocodrilos con esta figura Premium Format de Sideshow Collectibles, una obra maestra de escultura que captura al villano de DC Comics en su máxima expresión animal. Con más de 56 cm de altura y detalles intrincados que van desde sus mandíbulas abiertas hasta sus garras afiladas, esta pieza es un punto focal irresistible para cualquier colección de Batman. La base narrativa incluye referencias a su historia en cómics, esqueletos, la máscara de Bane y agua encharcada, transformando este coleccionable en una obra de arte que cuenta la historia de Waylon Jones."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 56,98 cm (22,44\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 62,03 cm (24,44\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anchura: 53,98 cm (21,25\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4 Premium Format"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina de alta calidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Warner Bros. Discovery Global Consumer Products / DC Comics"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura completamente detallada con pintura profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8-10 kg (estimado para Premium Format de este tamaño)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Premium Format de Killer Croc"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base narrativa altamente detallada con agua temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios en la base: esqueletos, máscara de Bane"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano derecha intercambiable con tubo/barra de metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-17",
+        "reserva": "2240",
+        "entrega": "Feb. 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "ssj4-gogeta-mo1ntytn",
+        "n": "SSJ4 Gogeta",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b2bf76fcba6310b6fdf3d261e716cf5bLarge.jpg?v=1776340993",
+        "franquicia": "Anime",
+        "marca": "FXW Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b2bf76fcba6310b6fdf3d261e716cf5bLarge.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d9d195a3b00275c0b413cf614151ab81Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2448a1251f11acc304aaa08a57ef23ebLarge.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fa16891a2098b5e515827dde85176013Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/187158e6afbbf0ec8a02b7505ed93132Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/22e59dfda166a43261c40bd1c1bbbb01Large.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a2f356b5fd519325d6375c276128839aLarge.jpg?v=1776340993",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cb0321fa2fbbed4be032b2fc509e8077Large.jpg?v=1776340993"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con la icónica figura FXW SSJ4 Gogeta, la fusión definitiva capturada en máxima calidad premium. Esta obra maestra presenta detalles de escultura ultra-realista, musculatura característica del Super Saiyajin 4 y energía dorada envolvente que captura la esencia del legendario personaje. Una inversión coleccionable imprescindible en edición limitada de solo 188 piezas para fanáticos del anime que buscan la máxima expresión artística."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina Premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal SSJ4 Gogeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática rocosa diseñada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía/aura intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Número de serie"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "640",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
+        "id": "bruce-lee-kali-sticks-fight-deluxe-mny374ah",
+        "n": "Bruce Lee (Kali Sticks Fight) Deluxe",
+        "i": "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be36329af.jpg",
+        "franquicia": "Otros",
+        "marca": "Star Ace Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be36329af.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be368e233.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be36e4599.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be3747e7e.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be37a2a37.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be39f3ada.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be3814358.jpg",
+          "https://www.sideshow.com/storage/product-images/915141/star-ace-toys-ltd-bruce-lee-bruce-lee-kali-sticks-fight-deluxe-statue-gallery-6930be38860f8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Bruce Lee en su icónica pose de combate con Kali Sticks, capturada en un momento de puro dominio marcial del clásico Enter the Dragon. Con una altura de aproximadamente 30 cm, esta estatua de poliresina muestra un nivel excepcional de detalle en la musculatura, expresión facial y energía cinética del legendario maestro. La base temática con dragones chinos y el acabado pintado a mano la convierten en una pieza de exhibición imprescindible para coleccionistas de Bruce Lee y cinéfagos de artes marciales."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm (incluida la base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina (Polyresin)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Star Ace Toys en colaboración con Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Incluida con temática cinética de dragones chinos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Bruce Lee Enterprises, LLC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Bruce Lee con postura de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con dragones chinos estilizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Kali Sticks (bastones de combate)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque premium de colección"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-14",
+        "reserva": "780",
+        "entrega": "Jun. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "resident-evil-requiem-leon-s-kennedy-raccoon-city--mnuo1lvy",
         "n": "Resident Evil Requiem Leon S. Kennedy: Raccoon City Chase",
-        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17833/images/365087/_2026-04-11_211326_024__34459.1775913809.386.513.jpg",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365088/_2026-04-11_211327_892__00365.1775913808.jpg",
         "franquicia": "Gaming",
         "marca": "RE Studio",
         "escala": "1:6/1:4",
@@ -28841,9 +30730,9 @@
         "estado": "Nuevo",
         "precio": "9600",
         "fotos": [
-          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17833/images/365087/_2026-04-11_211326_024__34459.1775913809.386.513.jpg",
           "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365088/_2026-04-11_211327_892__00365.1775913808.jpg",
-          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365086/_2026-04-11_211329_729__52597.1775913802.jpg"
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365086/_2026-04-11_211329_729__52597.1775913802.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365087/_2026-04-11_211326_024__34459.1775913809.jpg?c=2"
         ],
         "content": [
           {
@@ -28988,9 +30877,9 @@
         "entrega": "Q4 2026",
         "cantidad": "1",
         "fotos_d": [
-          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17833/images/365087/_2026-04-11_211326_024__34459.1775913809.386.513.jpg",
           "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365088/_2026-04-11_211327_892__00365.1775913808.jpg",
-          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365086/_2026-04-11_211329_729__52597.1775913802.jpg"
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365086/_2026-04-11_211329_729__52597.1775913802.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17833/365087/_2026-04-11_211326_024__34459.1775913809.jpg?c=2"
         ]
       },
       {
@@ -36516,6 +38405,510 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "batman-classic-version-mo7zob76",
+        "n": "Batman Classic Version",
+        "i": "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b44460b.jpg",
+        "franquicia": "DC Comics",
+        "marca": "PureArts",
+        "escala": "1:8",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b44460b.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_scale_655653b8ee08b.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b4b2d42.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b52948f.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b59ccab.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b61cf13.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b6917f8.jpg",
+          "https://www.sideshow.com/storage/product-images/912909/batman-classic-version-px-exclusive_dc-comics_gallery_655653b798d56.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica ilustración de Neal Adams con esta impresionante estatua de Batman de PureArts, capturando al Caped Crusader en todo su esplendor clásico. Con 28 cm de altura en escala 1:8, cada detalle está meticulosamente elaborado en materiales premium, desde la capa ondulante hasta la musculatura perfectamente definida del traje azul y negro. Esta edición limitada exclusiva de Previews es un tesoro imprescindible para coleccionistas devotos del universo DC, combinando artesanía excepcional con el legado timeless del Dark Knight."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:8"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC y ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso de envío aproximado: 1.2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Presentación: Caja ilustrada de colores completos apta para coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Límite de compra: 6 unidades por persona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Batman 1:8"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con diseño de sombra de capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación ilustrada en color (Previews Exclusive)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "reserva": "260",
+        "entrega": "Jul. 2026",
+        "cantidad": "2"
+      },
+      {
+        "id": "captain-america-shield-mo53a0gc",
+        "n": "Captain America Shield",
+        "i": "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled1.png?v=1723120429",
+        "franquicia": "Marvel",
+        "marca": "Hasbro",
+        "escala": "1:1",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled1.png?v=1723120429",
+          "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled2.jpg?v=1723120428",
+          "https://cdn.shopify.com/s/files/1/0432/8397/2262/files/marvel-legends-gear-24-inch-prop-replica-captain-america-shiled3.jpg?v=1723120429"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Réplica premium a escala 1:1 del icónico escudo de Capitán América de Marvel Legends, midiendo 24 pulgadas de diámetro con detalles altamente precisos y durables. Este accesorio de rol es una representación fiel del símbolo distintivo del Primer Vengador, combinando funcionalidad y autenticidad para coleccionistas y fans exigentes. Diseñado para ser portado como el propio Capitán América gracias a sus correas ajustables, esta pieza es imprescindible para cualquier colección premium del universo Marvel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 61 cm (24 pulgadas de diámetro)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (tamaño real)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico de alta durabilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diámetro: 61 cm (24 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.8-2.2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Marvel Legends Gear"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hasbro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo de Capitán América (réplica premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 correas ajustables para portar el escudo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-19",
+        "cantidad": "1"
+      },
+      {
+        "id": "snoopy-piggy-bank-black-gold-version-mo1nzluy",
+        "n": "Snoopy Piggy Bank (Black & Gold Version)",
+        "i": "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd817e62c.jpg",
+        "franquicia": "Otros",
+        "marca": "Beast Kingdom",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd817e62c.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd81a85f8.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd8207c6b.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd825d9e3.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd82b9a27.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd831f299.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd8378586.jpg",
+          "https://www.sideshow.com/storage/product-images/915554/beast-kingdom-peanuts-snoopy-piggy-bank-black-gold-version-collectible-figure-gallery-69dfcd83b5568.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Snoopy regresa en esta encantadora hucha premium de Beast Kingdom con un sofisticado esquema en negro y oro que realza cada detalle de este icónico personaje de Peanuts. Captura magistralmente la expresión despreocupada y las características distintivas de Snoopy, incluyendo sus emblemáticas orejas caídas, transformando el ahorro diario en un ritual relajante y delightful. Esta edición de colección combina funcionalidad práctica con artesanía refinada, siendo un tesoro perfecto para coleccionistas y fans devotos del legendario beagle."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 15-18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Beast Kingdom"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina/Polistone con acabados en oro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 300-400 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Hucha de colección Premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Esquema negro y oro refinado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: Orejas caídas articuladas, expresión facial detallada, collar dorado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hucha funcional de Snoopy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acceso para extracción de monedas (inferior o lateral)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de colección"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "360",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
+        "id": "mega-man-mo1nydk0",
+        "n": "Mega Man",
+        "i": "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fa4d69.jpg",
+        "franquicia": "Gaming",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fa4d69.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fd6081.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba012244.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba0457f5.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba0772cf.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decba0a8a66.jpg",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/915551/x-plus-mega-man-mega-man-figure-gallery-69decb9fa4d69_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Mega Man de la serie Gigantic de X-Plus regresa con una presencia abrumadora de aproximadamente 35 cm de altura, perfectamente esculpida para capturar tanto la bondad como la fortaleza del icónico héroe. Con detalles excepcionales realizados en partes transparentes en el casco, suelas de pies y apertura del Mega Buster, esta pieza premium se destaca por su calidad de colección de alto nivel. La capacidad de intercambiar la cabeza para recrear la versión sin casco añade versatilidad y valor duradero a este imprescindible para cualquier coleccionista de gaming."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Gigantic Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina con partes transparentes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: X-Plus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Mega Man (Capcom)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Partes transparentes para detalles del casco, suelas de pies y apertura del Mega Buster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Mega Man con casco puesto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable (versión sin casco)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de visualización"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-16",
+        "reserva": "420",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
+        "id": "astro-boy-classic-design-version-mo06x27q",
+        "n": "Astro Boy Classic Design Version",
+        "i": "https://img.sugotoys.com.au/images/20260408014008/mbPl2nGaBr-6wxBnnXJY39COLKq6y4aW157v5RFkyTM.jpeg",
+        "franquicia": "Anime",
+        "marca": "Gong Studio",
+        "escala": "1:8",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "fotos": [
+          "https://img.sugotoys.com.au/images/20260408014008/mbPl2nGaBr-6wxBnnXJY39COLKq6y4aW157v5RFkyTM.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014010/f6T-tEcErrSRdhv6c4ZHJsPMz1YYJluEo8_VlovKiqE.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014012/D3fS4Qe8Jj_QPsskx_iwk2pMOb2zYD7MbYSnQVo8nKU.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014014/G9zzh2ca9BaoqnikeD-kC2idkFHodPW6TAyY8giTQ5w.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014016/0_GFtkNz-LDbYNw41zW4c_tN6oNwj7LjKiuJtLcDFFU.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014017/U7knYS5KwoMzm4hMf2fAi5a2E596qDYwOC2BxAIIY5A.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014019/sYJTa2BH_AzMQnwC6S6f14QIKlm6I52yr4UWreEJiRs.jpeg",
+          "https://img.sugotoys.com.au/images/20260408014021/0LZcisboNNHpxqDLaxohf41_rKdgBeF21vmBz2kx1xE.jpeg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Astro Boy de 22.5 cm con esqueleto interno de aleación die-cast y estructura modular intercambiable. Presenta tres modos de exhibición distintos: armadura completa, estructura interna expuesta o configuración de ventana media, permitiendo una personalización visual sin precedentes. Equipada con módulos LED magnéticos en ojos y pecho con efectos de iluminación estable y respirante, capturando la esencia icónica del personaje con tecnología de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 22.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Aproximadamente 1:8"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Aleación die-cast con marco interno de metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armazón interno: Metal con acabado pulido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura externa: Acero/Plástico de ingeniería"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 400-500 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de precisión y detalles metallizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Astro Boy de 22.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Esqueleto interno de aleación die-cast visible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de armadura removible (configuración completa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Módulos LED magnéticos (ojos y pecho)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de luz: modo fijo y modo respirante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de llama para poses de vuelo dinámico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación oficial y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "precio_orig": "3000",
+        "reserva": "540",
+        "entrega": "Septiembre 2026",
+        "cantidad": "4"
+      },
+      {
+        "id": "ip-man-4-the-finale-mnywkiqj",
+        "n": "Ip Man 4: The Finale",
+        "i": "https://img.sugotoys.com.au/images/20220613030050/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-0-1-1.jpg",
+        "franquicia": "Otros",
+        "marca": "Enterbay Real Masterpiece ",
+        "escala": "1:6 ",
+        "disp": "Entrega Inmediata",
+        "estado": "Usado",
+        "precio": "3500",
+        "fotos": [
+          "https://img.sugotoys.com.au/images/20220613030050/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-0-1-1.jpg",
+          "https://img.sugotoys.com.au/images/20220613030053/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-1-1-1.jpg",
+          "https://img.sugotoys.com.au/images/20220613030056/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-2-1-1.jpg",
+          "https://img.sugotoys.com.au/images/20220613030100/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-3-1-1.jpg",
+          "https://img.sugotoys.com.au/images/20220613030103/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-4-1-1.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Ip Man 4: The Finale con escultura de cabeza de alta fidelidad y pintura multicapa artesanal que captura cada detalle facial del legendario maestro. Cuerpo articulado con más de 30 puntos de movimiento que permite recrear las icónicas posturas de combate de Ip Man, ideal para coleccionistas de cine de artes marciales y figuras de colección de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 30 cm (12 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cabeza esculpida en resina pintada a mano, cuerpo de figura articulada, accesorios en madera y plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Enterbay Real Masterpiece"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Película: Ip Man 4: The Finale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza esculpida con expresión facial natural"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 Pares de manos intercambiables (signature poses)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Bastón de hockey"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Silla de madera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Muñeco de madera (con imán en base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Base de piso diorama"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Maleta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Diorama de cartón doble cara"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Base negra de figuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Soporte de figuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Traje chino negro (completo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Túnica larga china negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de calcetines blancos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de zapatos negros"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-14",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "scene-selection-03-mazinger-z-rocket-punch-mnttjxzf",
         "n": "Scene Selection 03: Mazinger Z Rocket Punch!",
         "i": "https://www.sideshow.com/storage/product-images/915543/plex-mazinger-scene-selection-03-mazinger-z-rocket-punch-collectible-figure-gallery-69d9714c95fa0.jpg",
@@ -40133,6 +42526,512 @@
   "Adultos": {
     "slug": "adultos",
     "products": [
+      {
+        "id": "makima-reze-mo90e4sh",
+        "n": "Makima & Reze",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17958/images/368230/_2026-04-21_131730_786__94175.1776749331.386.513.png",
+        "franquicia": "Adultos",
+        "marca": "DC Studio",
+        "escala": "1:6/1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17958/images/368230/_2026-04-21_131730_786__94175.1776749331.386.513.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17958/368230/_2026-04-21_131730_786__94175.1776749331.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17958/368231/_2026-04-21_131725_693__37750.1776749333.png",
+          "https://statuecorp.com/cdn/shop/files/preview_images/264618e92973449e806d8371322db7bd.thumbnail.0000000000.jpg?v=1776762612&width=600"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de DC Studio que captura magistralmente a Makima y Reze en una composición artística de lujo absoluto. Con iluminación LED integrada y detalles esculpidos de nivel museo, esta pieza representa el pico de la artesanía en figuras de anime de alto valor. Un must-have para coleccionistas exigentes que demandan exclusividad y calidad sin compromisos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm (escala 1:6) / 50 cm (escala 1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 30 cm (1:6) / 45 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 31 cm (1:6) / 46 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 y 1:4 disponibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: DC Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Iluminación LED integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: ES 100 (1:4) / ES 88 (1:6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras de Makima y Reze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de DC Studio que captura magistralmente a Makima y Reze en una composición artística de lujo absoluto. Con iluminación LED integrada y detalles esculpidos de nivel museo, esta pieza representa el pico de la artesanía en figuras de anime de alto valor. Un must-have para coleccionistas exigentes que demandan exclusividad y calidad sin compromisos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm (escala 1:6) / 50 cm (escala 1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 30 cm (1:6) / 45 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 31 cm (1:6) / 46 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 y 1:4 disponibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: DC Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Iluminación LED integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: ES 100 (1:4) / ES 88 (1:6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras de Makima y Reze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos"
+          }
+        ],
+        "precio_d": "6800",
+        "reserva": "920",
+        "reserva_d": "1360",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "silver-hair-girl-mo8zogvx",
+        "n": "Silver Hair Girl",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17962/images/368316/_8__06138.1776760787.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "MIYABI × PURE Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17962/images/368316/_8__06138.1776760787.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368316/_8__06138.1776760787.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368315/_11__62989.1776760783.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368311/_16__34646.1776760552.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368312/_22__49937.1776760555.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368313/_18__90061.1776760561.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368314/_10__61893.1776760568.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17962/368317/_9__15014.1776760602.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de la línea MIYABI × PURE Studio que captura la elegancia y delicadeza de una chica de cabello plateado en pose cautivadora. Elaborada en PVC y ABS de alta calidad con detalles meticulosos que destacan su cabello fluido, expresión encantadora y accesorios decorativos. Una pieza de edición limitada que combina artesanía superior con un diseño de anime adulto que la convierte en un tesoro imprescindible para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC + ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Precio: 209 USD (Depósito: 69 USD)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Abril 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MIYABI × PURE Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición (azul translúcido)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios y complementos decorativos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-21",
+        "reserva": "640",
+        "entrega": "Apr 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "power-mo7awujc",
+        "n": "Power",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161923_313__45337.jpg?v=1776505099",
+        "franquicia": "Adultos",
+        "marca": "MAN'S VIEM Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161923_313__45337.jpg?v=1776505099",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161930_883__65854.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161924_917__14140.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161933_352__53635.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161927_293__95821.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161929_713__77067.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161926_111__72563.jpg?v=1776505173",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-04-18_161932_135__71724.jpg?v=1776505173"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura 'Power' de MAN'S VIEM Studio es una pieza de colección premium en escala 1:4 que captura cada detalle con una calidad artesanal excepcional. Con dimensiones imponentes de 33 cm de altura, esta escultura de edición limitada a 199 piezas numeradas destaca por su acabado de museo y su presencia cautivadora. Un must-have para coleccionistas adultos que buscan obras de arte de alto valor y exclusividad garantizada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polystone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 199 piezas numeradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Premium con pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de lujo para coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-20",
+        "reserva": "920",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
+        "id": "freedom-fighter-mo0mrbuy",
+        "n": "Freedom Fighter",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17565/images/358661/11__18287.1774441107.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "IRON KNIGHT Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17565/images/358661/11__18287.1774441107.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358659/12__58196.1774440991.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358663/__64208.1774441104.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358660/13__39150.1774440991.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17565/358662/14__53810.1774440991.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Freedom Fighter es una figura de colección premium de escala 1:6 que captura la esencia de un guerrero musculoso y heroico con un nivel de detalle anatómico excepcional. Fabricada por IRON KNIGHT Studio con materiales de alta calidad (PU + Resina), esta figura de 33cm de altura es un testimonio de la maestría artesanal y la precisión en la escultura de figuras para adultos coleccionistas. Incluye el rifle Lupus de 20cm como accesorio principal, consolidándola como una pieza imprescindible para coleccionistas exigentes que buscan obras de arte tridimensionales de alto valor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura figura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 26 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: IRON KNIGHT Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Colección Premium Adulto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q3 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Freedom Fighter (33 cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle Lupus (20 cm de altura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "reserva": "1080",
+        "entrega": "Q3 2026",
+        "cantidad": "2"
+      },
+      {
+        "id": "makima-mo0mo4z7",
+        "n": "Makima",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17672/images/361247/_2026-04-03_143555_017__84951.1775198443.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "NingYu Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17672/images/361247/_2026-04-03_143555_017__84951.1775198443.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17672/361247/_2026-04-03_143555_017__84951.1775198443.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17672/361246/_2026-04-03_143557_862__73391.1775198441.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17672/361245/_2026-04-03_143600_589__88180.1775198435.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Makima en escala 1:6, elaborada con materiales de alta calidad (PU + Resina) que capturan cada detalle de este icónico personaje. Esta pieza de 28 cm de altura representa la maestría artesanal de NingYu Studio, ofreciendo una postura dinámica y acabados de lujo para coleccionistas exigentes. Una inversión en calidad y detalle visual que define el estándar de las figuras adultas premium del mercado."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 28 cm (alto) x 13 cm (ancho) x 13 cm (profundidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: NingYu Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Mayo 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Makima"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "reserva": "500",
+        "entrega": "May 2026",
+        "cantidad": "1"
+      },
+      {
+        "id": "kannagi-yuuri-kannagi-yuma-mo0m0ojs",
+        "n": "Kannagi Yuuri & Kannagi Yuma",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17888/images/366324/_2026-04-15_165747_143__74504.1776243856.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "BGA Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17888/images/366324/_2026-04-15_165747_143__74504.1776243856.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366324/_2026-04-15_165747_143__74504.1776243856.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366319/_2026-04-15_165751_348__10421.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366320/_2026-04-15_165752_916__24771.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366321/_2026-04-15_165754_832__05204.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366322/_2026-04-15_165749_338__94428.1776243846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17888/366323/_2026-04-15_165744_225__11810.1776243847.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de colección de las hermanas Kannagi Yuuri y Kannagi Yuma de BGA Studio, con acabados de calidad superior y exquisitos detalles en escultura y pintura. Esta pieza artesanal de 1:6 captura la esencia de los personajes con gran fidelidad, presentando poses dinámicas y expresiones cautivadoras. Un must-have para coleccionistas de figuras premium de alto valor que aprecian la artesanía y el detallismo excepcional."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm (aproximado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU (Poliuretano)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 16 cm (Alto) x 16 cm (Ancho) x 16 cm (Profundo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: BGA Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Kannagi Yuuri"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Kannagi Yuma"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios incluidos según especificaciones del fabricante"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-15",
+        "reserva": "920",
+        "entrega": "Q1 2027",
+        "cantidad": "1"
+      },
       {
         "id": "nami-new-version-mntv4467",
         "n": "Nami (New Version)",
