@@ -63,23 +63,30 @@ export async function onRequestGet(context) {
     .replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
   // JSON-LD para Google rich results
+  const getAvailability = disp => {
+    if (!disp) return "https://schema.org/OutOfStock";
+    const d = disp.toLowerCase();
+    if (d === "entrega inmediata" || d === "disponible") return "https://schema.org/InStock";
+    if (d.startsWith("pre")) return "https://schema.org/PreOrder";
+    if (d === "solo bajo pedido") return "https://schema.org/BackOrder";
+    return "https://schema.org/OutOfStock";
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": product.n,
     "image": fotos.length ? fotos.slice(0, 5) : [`${siteUrl}/og-image.jpg`],
     "description": descripcion || metaDesc,
-    "brand": { "@type": "Brand", "name": product.marca || siteName },
     "offers": {
       "@type": "Offer",
       "priceCurrency": "GTQ",
-      "price": product.precio || "0",
-      "availability": product.disp === "Entrega Inmediata"
-        ? "https://schema.org/InStock"
-        : "https://schema.org/PreOrder",
+      ...(product.precio ? { "price": parseFloat(product.precio) } : {}),
+      "availability": getAvailability(product.disp),
       "seller": { "@type": "Organization", "name": siteName }
     }
   };
+  if (product.marca) jsonLd.brand = { "@type": "Brand", "name": product.marca };
 
   // HTML de la página de producto
   const featuresHtml = features.length

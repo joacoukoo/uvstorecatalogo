@@ -1,6 +1,15 @@
 // Cloudflare Pages Function — Página de categoría para SEO
 // Ruta: /categoria/{slug}  →  ej: uvstore.shop/categoria/estatuas-premium
 
+function getAvailability(disp) {
+  if (!disp) return "https://schema.org/OutOfStock";
+  const d = disp.toLowerCase();
+  if (d === "entrega inmediata" || d === "disponible") return "https://schema.org/InStock";
+  if (d.startsWith("pre")) return "https://schema.org/PreOrder";
+  if (d === "solo bajo pedido") return "https://schema.org/BackOrder";
+  return "https://schema.org/OutOfStock";
+}
+
 function toSlug(str) {
   return String(str).toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -66,10 +75,8 @@ export async function onRequestGet(context) {
         "offers": {
           "@type": "Offer",
           "priceCurrency": "GTQ",
-          "price": p.precio || "0",
-          "availability": p.disp === "Entrega Inmediata"
-            ? "https://schema.org/InStock"
-            : "https://schema.org/PreOrder"
+          ...(p.precio ? { "price": parseFloat(p.precio) } : {}),
+          "availability": getAvailability(p.disp)
         }
       }
     }))
