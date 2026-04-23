@@ -29508,6 +29508,153 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "reze-black-dress-mobqvddt",
+        "n": "Reze black dress",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17994/images/369137/_2026-04-23_152019_401__87235.1776929106.386.513.jpg",
+        "franquicia": "Anime",
+        "marca": "Star Origin Studio",
+        "escala": "1:6/1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17994/images/369137/_2026-04-23_152019_401__87235.1776929106.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17994/369137/_2026-04-23_152019_401__87235.1776929106.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17994/369145/_2026-04-23_152020_729__71813.1776929144.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17994/369141/_2026-04-23_152023_239__25083.1776929147.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17994/369138/_2026-04-23_152024_526__23027.1776929112.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17994/369139/_2026-04-23_152027_844__78635.1776929117.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17994/369140/_2026-04-23_152029_160__26478.1776929117.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17994/369142/_2026-04-23_152030_407__21814.1776929118.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Reze en su icónico vestido negro, capturando la esencia del personaje de Chainsaw Man con una calidad de escultura excepcional. Disponible en dos escalas (1:6 y 1:4) con detalles meticulosos en materiales de primera calidad PU y resina, ideal para coleccionistas exigentes. Esta obra maestra de Star Origin Studio combina craftsmanship superior con una presentación visual cautivadora que destaca en cualquier vitrina de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura 1:6: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura 1:4: 47 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 y 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho 1:6: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad 1:6: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho 1:4: 22 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad 1:4: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Star Origin Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 100 piezas por escala"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento estimado: Q3-Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Reze en vestido negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Reze en su icónico vestido negro, capturando la esencia del personaje de Chainsaw Man con una calidad de escultura excepcional. Disponible en dos escalas (1:6 y 1:4) con detalles meticulosos en materiales de primera calidad PU y resina, ideal para coleccionistas exigentes. Esta obra maestra de Star Origin Studio combina craftsmanship superior con una presentación visual cautivadora que destaca en cualquier vitrina de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura 1:6: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura 1:4: 47 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 y 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho 1:6: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad 1:6: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho 1:4: 22 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad 1:4: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Star Origin Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 100 piezas por escala"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento estimado: Q3-Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Reze en vestido negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "precio_d": "5400",
+        "reserva": "760",
+        "reserva_d": "1080",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "ayanami-rei-mobqryfl",
         "n": "Ayanami Rei",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17993/images/369121/_2026-04-23_151709_019__27900.1776928805.386.513.jpg",
