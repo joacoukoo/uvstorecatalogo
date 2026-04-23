@@ -29508,6 +29508,101 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "altria-pendragon-black-saber-mobqfc3m",
+        "n": "Altria Pendragon (black saber)",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18003/images/369345/_2026-04-23_173358_078__43837.1776937307.386.513.jpg",
+        "franquicia": "Anime",
+        "marca": "LueYing × DEMONS Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "12000",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18003/images/369345/_2026-04-23_173358_078__43837.1776937307.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18003/369345/_2026-04-23_173358_078__43837.1776937307.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18003/369338/_2026-04-23_173402_955__71170.1776937215.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18003/369339/_2026-04-23_173401_805__48137.1776937215.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18003/369340/_2026-04-23_173359_406__65688.1776937215.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18003/369341/_2026-04-23_173400_618__18628.1776937215.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18003/369342/_2026-04-23_173406_606__98935.1776937215.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18003/369343/_2026-04-23_173405_441__39161.1776937215.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Altria Pendragon en su variante Black Saber, creada por la colaboración exclusiva de LueYing × DEMONS Studio. Con una altura imponente de 60 cm y detallado hasta el más mínimo detalle, esta escultura captura la esencia oscura y poderosa del personaje rodeado de efectos de energía mágica espectaculares. Un must-have para coleccionistas de figuras de anime de alto valor y fans de Fate Series que buscan una pieza de museo en sus vitrinas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 62 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 43 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Approximately 1/4 scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: LueYing × DEMONS Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Fate Series (Anime)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8-12 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Q3-Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Black Saber Altria Pendragon"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con efectos de energía mágica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada/arma característica del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de iluminación mágica destacables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "2400",
+        "entrega": "Q3-Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "maelle-mobqcxhq",
         "n": "Maelle",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18010/images/369517/_2026-04-23_230828_569__81672.1776957805.386.513.jpg",
