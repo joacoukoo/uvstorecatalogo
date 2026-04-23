@@ -43777,6 +43777,77 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "illyasviel-von-einzbern-mobqzt5t",
+        "n": "Illyasviel von Einzbern",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18000/images/369268/1_3___26362.1776935968.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "Meat Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3900",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18000/images/369268/1_3___26362.1776935968.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18000/369268/1_3___26362.1776935968.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18000/369274/7_13__76920.1776936201.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18000/369275/4_3__12137.1776936255.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18000/369276/3_4__08522.1776936259.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18000/369277/2_3__72746.1776936259.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18000/369278/5_3__39899.1776936260.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18000/369279/6_3__81228.1776936262.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Illyasviel von Einzbern en escala 1:6 fabricada por Meat Studio, capturando cada detalle con precisión artesanal. Esta pieza de alto valor presenta acabados excepcionales con materiales de primera calidad (PU, resina y ABS) que garantizan durabilidad y una presentación visual impactante. Un must-have para coleccionistas de Fate series que buscan figuras de museo con esculturas detalladas y pintura profesional."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU + Resina + ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Illyasviel von Einzbern"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos incluidos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "780",
+        "entrega": "Q1 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "formidable-mobqplxu",
         "n": "Formidable",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17992/369102/_2026-04-23_151542_091__94396.1776928585.jpg",
