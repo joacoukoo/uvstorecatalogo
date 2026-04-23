@@ -29508,6 +29508,93 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "leon-mobqj0xp",
+        "n": "Leon",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17988/images/368994/_2026-04-23_134006_607__92929.1776923287.386.513.jpg",
+        "franquicia": "Gaming",
+        "marca": "HunDian Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7200",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17988/images/368994/_2026-04-23_134006_607__92929.1776923287.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17988/368994/_2026-04-23_134006_607__92929.1776923287.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17988/368992/_2026-04-23_134019_470__87815.1776923036.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17988/368993/_2026-04-23_134017_577__37670.1776923041.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17988/368995/_2026-04-23_134016_017__75870.1776923086.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17988/368996/_2026-04-23_134014_276__28675.1776923101.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17988/368997/_2026-04-23_134022_023__25664.1776923105.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17988/368998/_2026-04-23_134010_581__43219.1776923112.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium 1:4 de Leon Scott Kennedy del icónico videojuego Resident Evil, realizada por HunDian Studio con un nivel de detalle excepcional y acabado artístico de galería. Esta estatua captura la esencia del personaje con ropa táctica realista, accesorios de combate y una base temática que refleja el universo oscuro de la franquicia. Una pieza imprescindible para coleccionistas hardcore de Resident Evil y figuras de acción de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 34 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina (acabado premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: HunDian Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Resident Evil Requiem"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Leon Scott Kennedy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de Resident Evil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de combate (armas incluidas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas intercambiables de detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de presentación premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "1440",
+        "entrega": "Q4 2026",
+        "cantidad": "3"
+      },
+      {
         "id": "kamado-nezuko-mobqgxcu",
         "n": "Kamado Nezuko",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17996/images/369168/_2026-04-23_162616_834__84653.1776933150.386.513.jpg",
