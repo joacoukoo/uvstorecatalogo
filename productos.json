@@ -43777,6 +43777,143 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "c-c-mobr88vj",
+        "n": "C.C.",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18009/images/369496/_2026-04-23_200603_794__23551.1776946592.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "Red Studio",
+        "escala": "1:6/1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18009/images/369496/_2026-04-23_200603_794__23551.1776946592.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18009/369496/_2026-04-23_200603_794__23551.1776946592.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18009/369503/_2026-04-23_201811_008__88578.1776946975.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18009/369505/_2026-04-23_201812_960__46482.1776946980.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18009/369504/_2026-04-23_201814_933__67260.1776946983.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18009/369490/_2026-04-23_200600_395__41274.1776946562.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de C.C. de Red Studio que captura magistralmente los detalles y el carisma del personaje con una calidad de escultura de museo. Fabricada en materiales de alta gama (PU + Resina), presenta una presentación dinámica y elegante con base temática que complementa la composición general. Una pieza esencial para coleccionistas de figuras de acción premium que buscan arte coleccionable de máxima calidad. Code Geass"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32.9 cm (Escala 1:6) / 48.3 cm (Escala 1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19.4 cm (1:6) / 28.4 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19.4 cm (1:6) / 28.4 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 / 1:4 (dos opciones disponibles)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU (Poliuretano) + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Red Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.2-1.8 kg (1:6) / 2.5-3.5 kg (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento estimado: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Colección para Adultos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de C.C."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de colección"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de C.C. de Red Studio que captura magistralmente los detalles y el carisma del personaje con una calidad de escultura de museo. Fabricada en materiales de alta gama (PU + Resina), presenta una presentación dinámica y elegante con base temática que complementa la composición general. Una pieza esencial para coleccionistas de figuras de acción premium que buscan arte coleccionable de máxima calidad. Code Geas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32.9 cm (Escala 1:6) / 48.3 cm (Escala 1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19.4 cm (1:6) / 28.4 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19.4 cm (1:6) / 28.4 cm (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 / 1:4 (dos opciones disponibles)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU (Poliuretano) + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Red Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.2-1.8 kg (1:6) / 2.5-3.5 kg (1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento estimado: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Colección para Adultos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de C.C."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de colección"
+          }
+        ],
+        "precio_d": "5000",
+        "reserva": "700",
+        "reserva_d": "1000",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "hoshino-ai-hoshino-rubii-mobr52hw",
         "n": "Hoshino Ai & Hoshino Rubii",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18002/images/369314/1___28264.1776936861.386.513.jpg",
