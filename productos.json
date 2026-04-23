@@ -29508,6 +29508,90 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mobjk4d5",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/05d29694b4ae0e70e1bb3f71f45c3d8d.png?v=1776855052",
+        "franquicia": "Anime",
+        "marca": "Kawaii Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/05d29694b4ae0e70e1bb3f71f45c3d8d.png?v=1776855052",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a447c1e54620fc041d0c7c9307dadc53.png?v=1776855053",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/85e6d1abaeb939e37c3d9984520f9e7c.png?v=1776855052",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/15c87fca3c56d6c7512e660a89ca39cb.png?v=1776855052",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/25c42ff7a93d8a5067d64bb0f0e48b85.png?v=1776855052"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Asuka en escala 1:6 de Kawaii Studio, capturando la elegancia y sofisticación del personaje con un vestido de gala rojo wine de detalles exquisitos. Esta edición limitada de solo 180 piezas mundiales presenta un nivel de detalle excepcional en el modelado, pintura y texturización de telas, convirtiéndola en una pieza imprescindible para coleccionistas de anime de alto nivel. La base decorativa y los accesorios premium garantizan un producto de museo que elevará cualquier colección de figuras de colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad (Polystone) y pintura acrílica profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximadamente 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 180 piezas worldwide"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Kawaii Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Asuka en pose de elegancia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática con motivos de la franquicia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos de tacón rojo a juego (acoplados)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Instrucciones de cuidado y mantenimiento"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "780",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "jin-woo-sung-with-led-mob1qupe",
         "n": "Jin woo Sung with LED",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/16821/images/340354/16351720434731_.pic_hd__04738.1768981426.386.513.png",
