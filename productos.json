@@ -43496,6 +43496,84 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "formidable-mobqplxu",
+        "n": "Formidable",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17992/369102/_2026-04-23_151542_091__94396.1776928585.jpg",
+        "franquicia": "Adultos",
+        "marca": "Little Witch Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17992/369102/_2026-04-23_151542_091__94396.1776928585.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17992/369101/_2026-04-23_151540_858__12361.1776928590.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17992/369103/_2026-04-23_151539_531__12448.1776928572.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium HMS Formidable de Little Witch Studio que captura la elegancia y sofisticación en escala 1:6. Diseño artístico de alto detalle con acabados en materiales PU y ABS de calidad superior, representando un personaje femenino con poses y expresiones cautivadoras. Pieza de coleccionista exclusiva que destaca por su precisión artesanal y presentación en entorno refinado, ideal para coleccionistas adultos exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU (Poliuretano) + ABS (Acrilonitrilo Butadieno Estireno)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tamaño total: 29 (H) x 17 (W) x 12 (D) cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Little Witch Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Versión: Nude Version"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento estimado: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de tela (velos/bufandas decorativas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Instrucciones de montaje y cuidado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "800",
+        "entrega": "Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "makima-reze-mo90e4sh",
         "n": "Makima & Reze",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17958/images/368230/_2026-04-21_131730_786__94175.1776749331.386.513.png",
