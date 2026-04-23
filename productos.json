@@ -29508,6 +29508,93 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "jin-woo-sung-with-led-mob1qupe",
+        "n": "Jin woo Sung with LED",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/16821/images/340354/16351720434731_.pic_hd__04738.1768981426.386.513.png",
+        "franquicia": "Anime",
+        "marca": "Mask Studio",
+        "escala": "1/4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/16821/images/340354/16351720434731_.pic_hd__04738.1768981426.386.513.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340354/16351720434731_.pic_hd__04738.1768981426.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340355/16361720434732_.pic_hd__61095.1768981426.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340356/16341720434727_.pic_hd__63676.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340357/16391720434732_.pic_hd__97835.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340358/16371720434732_.pic_hd__49997.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340359/16411720434735_.pic_hd__44911.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340360/16401720434735_.pic_hd__96305.1768981427.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Jin Woo Sung del anime 'Solo Leveling', fabricada por Mask Studio con una escala 1/4 que alcanza los impresionantes 59 cm de altura. Esta estatua captura al personaje en su forma de Shadow King con detalles extraordinarios, iluminación LED integrada en tonos púrpura y magenta, y una base temática que complementa el carácter épico de la figura. Una obra maestra de escultura y pintura para los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 59 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Mask Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Sistema LED incorporado con iluminación púrpura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8-10 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Jin Woo Sung con detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema LED con iluminación púrpura/magenta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos especiales visuales integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación y certificado de autenticidad Mask Studio"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "1520",
+        "entrega": "2 meses",
+        "cantidad": "1"
+      },
+      {
         "id": "raging-wolf-mob0m67u",
         "n": "Raging Wolf",
         "i": "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3e08423.jpg",
