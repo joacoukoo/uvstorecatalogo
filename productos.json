@@ -43777,6 +43777,81 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "frieren-in-the-wall-mobr2n0h",
+        "n": "Frieren in the wall",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18001/images/369288/1___73272.1776936505.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "Fish Head Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18001/images/369288/1___73272.1776936505.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18001/369288/1___73272.1776936505.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18001/369300/1__58370.1776936596.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18001/369297/8__80457.1776936553.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18001/369298/9__49764.1776936553.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18001/369299/7__95327.1776936568.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18001/369301/10__14351.1776936576.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18001/369302/2__80946.1776936579.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium coleccionable de Frieren posicionada de manera audaz y provocativa contra una pared de ladrillos. Fabricada por Fish Head Studio con materiales de alta calidad (PU + Resina), esta pieza de 1:6 captura cada detalle con precisión artesanal. Una adquisición imprescindible para coleccionistas adultos que buscan arte figurativo de exclusividad y acabado superior."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 22 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 19.5 cm (ancho) x 18 cm (profundidad) x 22 cm (alto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Fish Head Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento estimado: Noviembre-Diciembre 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorámica (pared de ladrillos con asiento/banco)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de posicionamiento"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "720",
+        "entrega": "Dec 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "illyasviel-von-einzbern-mobqzt5t",
         "n": "Illyasviel von Einzbern",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18000/images/369268/1_3___26362.1776935968.386.513.jpg",
