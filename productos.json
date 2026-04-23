@@ -43777,6 +43777,97 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "hoshino-ai-hoshino-rubii-mobr52hw",
+        "n": "Hoshino Ai & Hoshino Rubii",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18002/images/369314/1___28264.1776936861.386.513.jpg",
+        "franquicia": "Adultos",
+        "marca": "Crown Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5000",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18002/images/369314/1___28264.1776936861.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18002/369314/1___28264.1776936861.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18002/369308/1__47361.1776936860.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18002/369307/2__88591.1776936860.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18002/369309/3__42916.1776936856.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18002/369311/4__26522.1776936860.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18002/369312/5__38162.1776936860.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18002/369306/6__08170.1776936858.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Crown Studio que captura la esencia angelical de Hoshino Ai con detalles exquisitos y acabados de lujo. Esta obra maestra de 23cm de altura combina materiales de alta calidad (PU+Resina) con una artesanía impecable, presentando a la icónica personaje con alas blancas y una base ornamentada de mármol blanco. Una pieza de referencia obligada para coleccionistas premium que buscan exclusividad y valor artístico incomparable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Número de producto: Angel Hoshino Ai & Hoshino Rubii ES:128"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Crown Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q4 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Clasificación: Figura para coleccionistas adultos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base ornamentada con inscripción 'ANGELIC AI'"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas de ángel desmontables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de presentación premium"
+          },
+          {
+            "t": "notion-text",
+            "x": "Precio por cada una*"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "1000",
+        "entrega": "Q4 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "frieren-in-the-wall-mobr2n0h",
         "n": "Frieren in the wall",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18001/images/369288/1___73272.1776936505.386.513.jpg",
