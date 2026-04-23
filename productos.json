@@ -29508,6 +29508,73 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ayanami-rei-mobqryfl",
+        "n": "Ayanami Rei",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17993/images/369121/_2026-04-23_151709_019__27900.1776928805.386.513.jpg",
+        "franquicia": "Anime",
+        "marca": "YOLO Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17993/images/369121/_2026-04-23_151709_019__27900.1776928805.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17993/369121/_2026-04-23_151709_019__27900.1776928805.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17993/369119/_2026-04-23_151711_699__62317.1776928796.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17993/369120/_2026-04-23_151710_490__80820.1776928796.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Ayanami Rei en escala 1:6 fabricada por YOLO Studio, capturando la elegancia y misterio del icónico personaje en un impresionante vestido azul con detalles de alta calidad. Realizada en material PU de superior acabado, esta pieza de 28 cm de altura ofrece una escultura exquisitamente detallada que destaca por su precisión facial, texturizado de tela y presencia artística. Una adquisición imprescindible para coleccionistas de figuras premium de anime que buscan obras maestras de artesanía y autenticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU (Poliuretano)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: YOLO Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Evangelion"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q3-Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Ayanami Rei 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "680",
+        "entrega": "Q3-Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "sung-jin-woo-mobqkr6b",
         "n": "Sung Jin Woo",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17990/images/369064/_2026-04-23_142138_247__96531.1776925598.386.513.jpg",
