@@ -29508,6 +29508,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mobjmrdb",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0a55bc19a1277b8d34ee5af635784619ec08eb2958491cf9903eaba4a9280d2eLarge.jpg?v=1776852526",
+        "franquicia": "Anime",
+        "marca": "Bust Studio",
+        "escala": "1:6 y 1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0a55bc19a1277b8d34ee5af635784619ec08eb2958491cf9903eaba4a9280d2eLarge.jpg?v=1776852526",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1f8fcb25fe94fdac454f0f2c964a4e6b062c3cc4cb466d06b1a909a5a82c5464Large.jpg?v=1776852526",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f957bbcba585b01c3e0fa85c6d35aaa6024cb8f384b8111d78822b40a87969c3Large.jpg?v=1776852526",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7dfcbc12fa2a8b1eb8c177d5c6fe5dde0796f505e6ce95f3b54ef7139db63ccbLarge.jpg?v=1776852526",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/51af73697a97a96ddc6aaf0cb55df94494e9e59f5423df58e2771cccd9b3df2cLarge.jpg?v=1776852526",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/558f42ebc1f8f0eb0179510b5f2d5c9fec4f5621e6be36bf0807ea9152a32e96Large.jpg?v=1776852526",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/c6396e8ee4aa0224da3de687c1240831b4e48566273c2e08945cef4598153d60Large.jpg?v=1776852526",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4de8dfe32626b5d8ab257d34397f42f6ce66c536080eb7cbcca76e3ce6774d16Large.jpg?v=1776852526"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Asuka de Bust Studio que captura la esencia del personaje con una calidad artesanal excepcional. Disponible en dos escalas (1/6 y 1/4), esta pieza limitada a 180 unidades destaca por sus detalles minuciosos en la escultura facial, textura de telas y acabados de pintura de nivel museo. Una adquisición imprescindible para coleccionistas de anime que buscan piezas de alto valor artístico y exclusividad garantizada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 18 cm (escala 1/6) / 29.5 cm (escala 1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm (1/6) / 26.5 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm (1/6) / 26.5 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escalas: 1/6 y 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 180 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Bust Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado profesional a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Asuka"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base negra de exhibición espejo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de vestuario detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad (incluido en edición limitada)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "precio_d": "6100",
+        "reserva": "780",
+        "reserva_d": "1220",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "asuka-mobjk4d5",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/05d29694b4ae0e70e1bb3f71f45c3d8d.png?v=1776855052",
