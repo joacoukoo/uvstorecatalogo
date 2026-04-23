@@ -1388,8 +1388,9 @@ function makeFranchiseCard(fname,gridId){
   wrap.style.cssText="position:relative;border-radius:12px;overflow:hidden;aspect-ratio:3/4;border:1px solid "+accentRgba35+";box-shadow:0 4px 16px rgba(0,0,0,.4);cursor:pointer;transition:transform .2s,box-shadow .2s;";
 
   var img=document.createElement("img");
-  img.src=iconVal;img.alt=fname;img.loading="lazy";
+  img.alt=fname;img.loading="lazy";
   img.style.cssText="width:100%;height:100%;object-fit:cover;filter:brightness(.5);display:block;";
+  if(iconVal){img.src=iconVal;}else{img.style.background=accent;}
   wrap.appendChild(img);
 
   var overlay=document.createElement("div");
@@ -1410,11 +1411,11 @@ function makeFranchiseCard(fname,gridId){
   textDiv.appendChild(lbl);textDiv.appendChild(cnt);
   wrap.appendChild(textDiv);
 
-  wrap.addEventListener("mouseover",function(){
+  wrap.addEventListener("mouseenter",function(){
     wrap.style.transform="scale(1.03)";
     wrap.style.boxShadow="0 8px 28px rgba(0,0,0,.6)";
   });
-  wrap.addEventListener("mouseout",function(){
+  wrap.addEventListener("mouseleave",function(){
     wrap.style.transform="";
     wrap.style.boxShadow="0 4px 16px rgba(0,0,0,.4)";
   });
