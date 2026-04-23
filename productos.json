@@ -29508,6 +29508,101 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "maelle-mobqcxhq",
+        "n": "Maelle",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18010/images/369517/_2026-04-23_230828_569__81672.1776957805.386.513.jpg",
+        "franquicia": "Gaming",
+        "marca": "THUNDER Z Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18010/images/369517/_2026-04-23_230828_569__81672.1776957805.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18010/369517/_2026-04-23_230828_569__81672.1776957805.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18010/369516/_2026-04-23_230825_304__87997.1776957469.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18010/369518/_2026-04-23_230835_646__73062.1776958570.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18010/369519/_2026-04-23_230826_951__63725.1776958861.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18010/369521/_2026-04-23_230835_646__39666.1776958862.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18010/369520/_2026-04-23_230828_569__62427.1776958861.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18010/369522/_2026-04-23_230825_304__14127.1776958862.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Expedition 33 Maelle de THUNDER Z Studio es una obra maestra de coleccionista en escala 1:6 que captura cada detalle con precisión excepcional. Con una altura de 58 cm y materiales premium de PU y polistone, esta pieza ofrece una presencia imposible de ignorar en cualquier colección. Sus accesorios temáticos, pose dinámica y acabados artísticos la convierten en una inversión de coleccionabilidad de alto valor para aficionados exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 58 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 56 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 26 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU + Polistone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: THUNDER Z Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Otros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Precio: 475 USD"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Depósito requerido: 155 USD"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q3 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Maelle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada/Arma principal temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorámica decorativa con efectos de roca/escombros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de vestuario especializados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elementos decorativos adicionales según diseño Expedition 33"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "1520",
+        "entrega": "Q3 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "asuka-mobjmrdb",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0a55bc19a1277b8d34ee5af635784619ec08eb2958491cf9903eaba4a9280d2eLarge.jpg?v=1776852526",
