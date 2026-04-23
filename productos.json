@@ -29508,6 +29508,93 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "raging-wolf-mob0m67u",
+        "n": "Raging Wolf",
+        "i": "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3e08423.jpg",
+        "franquicia": "Gaming",
+        "marca": "Gecco Corp",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3e08423.jpg",
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-scale-69e79b42612c1.jpg",
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3e55c57.jpg",
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3ea499c.jpg",
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3f00444.jpg",
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3f511d5.jpg",
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3fa3dd3.jpg",
+          "https://www.sideshow.com/storage/product-images/915578/gecco-co-elden-ring-raging-wolf-statue-gallery-69e79b3ff3c8a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la ferocidad del Elden Ring con esta extraordinaria figura de colección de Gecco Corp, que captura al legendario Vargram el Lobo Furioso en toda su gloria oscura. Con una altura de 33 cm y escala 1:6, esta pieza de premium showcasing presenta un detallado trabajo de escultura por Shinya Yamaoka y un acabado pictórico de clase mundial que resalta cada ornamento de su armadura y el movimiento dinámico de su pose de combate. Una adquisición imprescindible para coleccionistas de Dark Fantasy y fanáticos del gaming que buscan una representación de museo de uno de los personajes más icónicos del universo de FromSoftware."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm (12.99 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: ABS y PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Gecco Corp"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artista (Escultura): Shinya Yamaoka"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artista (Escultura Digital): Kaiseki"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artista (Pintura): Katsushige Akeyama (-Accent-)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Clasificación: Dark Fantasy / Video Game / Pop Culture"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Vargram el Lobo Furioso"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha de batalla (arma principal)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo (defensa secundaria)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación con diseño temático"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos de armadura detallados"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "1240",
+        "entrega": "Dic. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "evolution-of-mewtwo-mega-x-mega-y-pokemon-resin-st-moaduzuz",
         "n": "Evolution of Mewtwo Mega X & Mega Y - Pokemon Resin Statue - EGGS Studios [In Stock]",
         "i": "http://img.staticdj.com/d70d38a7c84021d0233463b37ab4dba6.jpg",
