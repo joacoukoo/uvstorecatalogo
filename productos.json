@@ -29508,6 +29508,82 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "kamado-nezuko-mobqgxcu",
+        "n": "Kamado Nezuko",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17996/images/369168/_2026-04-23_162616_834__84653.1776933150.386.513.jpg",
+        "franquicia": "Anime",
+        "marca": "YI Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/17996/images/369168/_2026-04-23_162616_834__84653.1776933150.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17996/369168/_2026-04-23_162616_834__84653.1776933150.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17996/369166/_2026-04-23_162618_483__62833.1776933142.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17996/369167/_2026-04-23_162621_293__68166.1776933142.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17996/369169/_2026-04-23_162619_955__26886.1776933142.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Kamado Nezuko en escala 1:6, capturando cada detalle de la icónica personaje de Demon Slayer con una calidad artesanal excepcional. Fabricada en material PU de alta durabilidad, presenta una pose dinámica sobre una tabla de surf que refleja fielmente su carácter aventurero y desenfadado. Un must-have imprescindible para coleccionistas dedicados que buscan piezas de referencia en sus vitrinas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 9 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU (Poliuretano)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Anime (Demon Slayer/Kimetsu no Yaiba)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: YI Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q3 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Kamado Nezuko"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base/diorama con tabla de surf rosa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales de agua y movimiento"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-23",
+        "reserva": "400",
+        "entrega": "Q3 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "altria-pendragon-black-saber-mobqfc3m",
         "n": "Altria Pendragon (black saber)",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18003/images/369345/_2026-04-23_173358_078__43837.1776937307.386.513.jpg",
