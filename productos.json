@@ -9965,6 +9965,109 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "weapon-x-mod7rlfy",
+        "n": "Weapon X",
+        "i": "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973a3532d.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973a3532d.jpg",
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-scale-69eb972cc26fe.jpg",
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973aae717.jpg",
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973b0154b.jpg",
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973b48c4f.jpg",
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973b935a5.jpg",
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973c0f67b.jpg",
+          "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973c7db66.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Weapon X de Hot Toys captura la esencia feroz de Logan en su forma más brutal, con un esculpido helmeted head sculpt de nueva creación y un cuerpo de silicona musculoso sin costuras que ofrece un realismo sin precedentes. Con 24 puntos de articulación y materiales premium, esta pieza es un must-have para coleccionistas de Marvel que buscan la máxima calidad y detalle cómics-auténtico. El conjunto completo incluye equipamiento de monitoreo y accesorios de escape que recrean el icónico momento de su liberación del programa Weapon X."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo de silicona con esqueleto interno de metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 24 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: 1 (con casco/equipo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de manos: 4 pares intercambiables con garras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Cabello negro-azul ondulado, expresión facial detallada con vello facial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel Comics"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza esculpida con casco y equipo de monitoreo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pares de manos intercambiables con garras (puños y gestos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de pantalones cortos negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cinturón marrón con hebilla plateada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 arnés marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 set completo de equipamiento Weapon X (consola de control, baterías, receptores y cables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 soporte de exhibición diseñado especialmente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 telón de fondo con portada del cómic Weapon X"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-24",
+        "reserva": "680",
+        "entrega": "Sep. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "pennywise-mo6o3afv",
         "n": "Pennywise",
         "i": "https://www.sideshow.com/storage/product-images/100479/pennywise-sixth-scale-figure_it_gallery_65cfdb9ab4ffa.jpg",
