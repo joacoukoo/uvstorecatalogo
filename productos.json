@@ -3,6 +3,133 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "batman-returns-1992-deluxe-moda4hfp",
+        "n": "Batman Returns 1992 Deluxe",
+        "i": "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91fe3cc04.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "4300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91fe3cc04.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_scale_66ed93cae4cc4.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91feb05a9.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ff2c472.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ff86621.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ffe1032.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed920047b7d.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed9200a0e06.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed92153e030.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Esta figura coleccionable de Batman de Hot Toys captura magistralmente la icónica interpretación de Michael Keaton en Batman Returns (1992), con un nivel de detalle cinematográfico incomparable. El Deluxe Version incluye una base temática de azotea elaboradamente diseñada y accesorios exclusivos que recrean el legendario escenario de la película. Con múltiples cabezas intercambiables, expresiones faciales, traje alado y arsenal completo de gadgets, esta es la pieza definitiva para coleccionistas exigentes de DC Comics y del cine de superhéroes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado especializado con piel de silicona en cabeza, tela en traje y capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximadamente 500-700 gramos (estimado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30 puntos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: 2 (Bruce Wayne y Batman con sistema de ojos rodantes)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caras inferiores intercambiables: 3 expresiones diferentes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cabeza esculpida de Bruce Wayne con sistema de ojos rodantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cabeza con capucha de Batman con ojos rodantes y 3 caras inferiores intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 traje Bat con capa y logo en pecho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 traje alado con estructura ósea detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cinturón utilitario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de guantes negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 manos intercambiables (puños, relajadas, sostenedoras de armas, para grapple gun, para line launcher, mano abierta)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 line launcher con par de cables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 grapple gun"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cápsulas de napalm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 control remoto del Batmóvil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 controlador de lanzamiento de cohetes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 capucha de Batman dañada (exclusiva Deluxe)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de azotea con 2 accesorios intercambiables (exclusiva Deluxe)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-24",
+        "reserva": "860",
+        "cantidad": "2"
+      },
+      {
         "id": "black-widow-artisan-edition-mo1lizyk",
         "n": "Black Widow (Artisan Edition)",
         "i": "https://www.sideshow.com/storage/product-images/9136141/black-widow-artisan-edition-special-edition_marvel_gallery_66a7ca920ae4a.jpg",
