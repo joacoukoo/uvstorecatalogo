@@ -9787,7 +9787,7 @@
         ]
       },
       {
-        "n": "Batman Returns",
+        "n": "Batman Returns 1992",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913808/batman_dc-comics_gallery_66ed91280999a.jpg",
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-returns",
         "marca": "Hot Toys",
@@ -9795,8 +9795,6 @@
         "estado": "Nuevo",
         "disp": "Vendido",
         "precio": "3500",
-        "precio_d": "4300",
-        "cantidad": "2",
         "content": [
           {
             "t": "notion-text",
@@ -10048,18 +10046,7 @@
           }
         ],
         "agotado_r": false,
-        "agotado_d": false,
-        "reserva_d": "860",
-        "fotos_d": [
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91fe3cc04.jpg",
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_scale_66ed93cae4cc4.jpg",
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91feb05a9.jpg",
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ff2c472.jpg",
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ff86621.jpg",
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ffe1032.jpg",
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed920047b7d.jpg",
-          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed9200a0e06.jpg"
-        ]
+        "agotado_d": false
       },
       {
         "n": "Peter Parker (Anti-Venom Suit)",
