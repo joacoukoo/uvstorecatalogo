@@ -9792,38 +9792,110 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-returns",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "Vendido",
-        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "disp": "Vendido",
         "precio": "3500",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "precio_d": "4300",
+        "cantidad": "2",
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura Sixth Scale (1:6) – Hot Toys – Movie Masterpiece Series Altura:30 cm Inspirada enBatman Returns, esta figura recrea la icónica versión de Michael Keaton bajo la dirección de Tim Burton. Hot Toys captura con precisión la apariencia cinematográfica del Caballero Oscuro, incorporando una cabeza con capucha que incluye sistema de ojos móviles independientes y tres expresiones intercambiables para variar la exhibición. El cuerpo especializado ofrece más de 30 puntos de articulación, resaltando la silueta atlética del personaje junto a un Batsuit fiel a la película. Incluye múltiples manos para poses dinámicas: Una pieza esencial para coleccionistas del Batman cinematográfico clásico, ideal para complementar cualquier colección inspirada en la era de Tim Burton."
+            "x": "Figura de colección premium de Hot Toys que recrea con precisión cinematográfica al icónico Batman de Michael Keaton de Tim Burton. Con más de 30 puntos de articulación, cabeza intercambiable con ojos móviles independientes y tres expresiones faciales diferentes, esta pieza es imprescindible para coleccionistas del superhéroe clásico. Cada detalle del traje, capa y accesorios ha sido meticulosamente recreado para capturar la esencia del Caballero Oscuro en su mejor expresión cinematográfica."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Head sculpt con ojos móviles independientesTres expresiones faciales intercambiablesMás de 30 puntos de articulaciónPintura facial aplicada manualmenteWingsuit adicional para pose extendida"
+            "x": "Altura: 30 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Batsuit con logo en el pechoCapa negraWingsuit con estructura detalladaCinturón utilitarioGuanteletes negrosBotas negras"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Puños cerradosManos relajadasManos para sostener armasMano para grapple gunMano para line launcherMano izquierda abierta"
+            "x": "Material: PVC, tela, plástico ABS"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Line launcherPar de zip-linesGrapple gunBatarang2 cápsulas de napalmControl remoto del BatmobileControl de lanzamiento de cohetesBase temática con diseño de la película"
+            "x": "Peso aproximado: 600-700 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura facial: Aplicada manualmente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable con sistema de ojos móviles independientes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres expresiones faciales intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batsuit con logo en el pecho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa negra con estructura detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Wingsuit adicional para pose extendida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guanteletes negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos múltiples (cerradas, relajadas, para armas, para grapple gun, para line launcher, mano izquierda abierta)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Line launcher"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de zip-lines"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grapple gun"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cápsulas de napalm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Control remoto del Batmobile"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Control de lanzamiento de cohetes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con diseño de la película"
           }
         ],
         "id": "batman-returns",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -9836,6 +9908,157 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913808/batman_dc-comics_gallery_66ed9129c7750.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913808/batman_dc-comics_gallery_66ed912a4bade.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913808/batman_dc-comics_gallery_66ed912ac3e94.jpg"
+        ],
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Batman (Deluxe Version) – Figura Sixth Scale\n\n[Hot Toys – Movie Masterpiece Series – Batman Returns]\n\nDescripción\n\nEsta figura Sixth Scale de Batman en su versión Deluxe, desarrollada por Hot Toys, está inspirada en Batman Returns y presenta al Caballero Oscuro interpretado por Michael Keaton con un alto nivel de fidelidad.\n\nLa pieza incluye múltiples head sculpts, destacando el rostro de Bruce Wayne exclusivo de esta versión, así como una cabeza enmascarada con sistema de ojos móviles y placas faciales intercambiables. El traje ha sido recreado con precisión, incorporando tanto la clásica capa como un wingsuit adicional para poses más dinámicas.\n\nEl set se complementa con una amplia variedad de gadgets y accesorios característicos del personaje, junto con una base tipo diorama que recrea una escena en rooftop, elevando la presentación.\n\nDetalles\n\nLínea: Movie Masterpiece Series  \nFabricante: Hot Toys  \nTipo: Figura articulada Sixth Scale  \nGénero: Superhéroes / Cine  \n\nEspecificaciones\n\nAltura: 30 cm  \nEscala: 1:6  \nMateriales: PVC, ABS, tela, otros no especificados  \nArticulación: Sí (30 puntos)  \n\nIncluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Head sculpt de Bruce Wayne con ojos móviles (Deluxe)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Head sculpt de Batman con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 placas faciales intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara de Batman dañada (Deluxe)"
+          },
+          {
+            "t": "notion-text",
+            "x": "Manos:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 manos intercambiables con guantes"
+          },
+          {
+            "t": "notion-text",
+            "x": "Vestuario:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batsuit con capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Wingsuit"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas"
+          },
+          {
+            "t": "notion-text",
+            "x": "Armas:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Line launcher"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grapple gun"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cápsulas de napalm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cables zip-line"
+          },
+          {
+            "t": "notion-text",
+            "x": "Accesorios:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Control remoto del Batimóvil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Control de lanzamiento de cohete"
+          },
+          {
+            "t": "notion-text",
+            "x": "Display:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama estilo rooftop con accesorios intercambiables (Deluxe)"
+          },
+          {
+            "t": "notion-text",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Basado en Batman Returns"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Likeness fiel de Michael Keaton"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye head sculpt adicional de Bruce Wayne (Deluxe)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Wingsuit adicional para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Amplia variedad de gadgets y accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama exclusiva de la versión Deluxe"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura altamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para coleccionistas de DC Comics"
+          }
+        ],
+        "agotado_r": false,
+        "agotado_d": false,
+        "reserva_d": "860",
+        "fotos_d": [
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91fe3cc04.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_scale_66ed93cae4cc4.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91feb05a9.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ff2c472.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ff86621.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91ffe1032.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed920047b7d.jpg",
+          "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed9200a0e06.jpg"
         ]
       },
       {
