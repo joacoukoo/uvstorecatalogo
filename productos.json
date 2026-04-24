@@ -26929,32 +26929,13 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3600",
-        "precio_d": "",
-        "reserva": "Q720",
-        "entrega": "Mayo 2026",
         "cantidad": "1",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Esta figura Sixth Scale de Robin, desarrollada por Hot Toys, está inspirada en su aparición en la película Batman & Robin, presentando al personaje interpretado por Chris O'Donnell con un alto nivel de fidelidad."
-          },
-          {
-            "t": "notion-text",
-            "x": "La pieza incorpora un head sculpt detallado con sistema de ojos móviles independientes, capturando con precisión la expresión y rasgos del personaje. Su traje ha sido confeccionado con gran atención al detalle, destacando el diseño en negro con acentos metálicos en rojo, junto con su icónica capa."
-          },
-          {
-            "t": "notion-text",
-            "x": "La figura incluye una variedad de accesorios y armas que permiten recrear distintas escenas de acción, consolidándose como una excelente adición para coleccionistas del universo DC."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nEsta figura Sixth Scale de Robin, desarrollada por Hot Toys, está inspirada en su aparición en la película Batman & Robin, presentando al personaje interpretado por Chris O'Donnell con un alto nivel de fidelidad.\nLa pieza incorpora un head sculpt detallado con sistema de ojos móviles independientes, capturando con precisión la expresión y rasgos del personaje. Su traje ha sido confeccionado con gran atención al detalle, destacando el diseño en negro con acentos metálicos en rojo, junto con su icónica capa.\nLa figura incluye una variedad de accesorios y armas que permiten recrear distintas escenas de acción, consolidándose como una excelente adición para coleccionistas del universo DC.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -26989,7 +26970,7 @@
             "x": "Articulación: Sí (30 puntos)"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Incluye"
           },
           {
@@ -27041,7 +27022,7 @@
             "x": "Base temática con nombre del personaje"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -27074,8 +27055,6 @@
           }
         ],
         "id": "robin-batman-robin",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -27089,7 +27068,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e9d381.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93f1373b.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Plo Koon",
