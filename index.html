@@ -1254,7 +1254,8 @@ function buildHome(){
     var d=document.createElement("div");d.className="cat-card";
     var catProds=(DATA[cat]||{products:[]}).products.length;
     var imgPos=CAT_IMG_POS[cat]||"center center";
-    d.innerHTML="<img src='"+CAT_COVERS[cat]+"' alt='"+esc(cat)+"' loading='lazy' width='800' height='500' style='object-position:"+imgPos+"'><div class='cat-ov'></div><div class='cat-info'><div class='cat-lbl' style='color:"+accent+"'>"+esc(CAT_LABELS[cat]||"")+"</div><div class='cat-name'>"+esc(cat)+"</div><div class='cat-count'>"+catProds+" figuras</div></div><div class='cat-accent' style='background:"+accent+"'></div>";
+    var countWord=(cat==="Vitrinas Para Figuras")?"productos":"figuras";
+    d.innerHTML="<img src='"+CAT_COVERS[cat]+"' alt='"+esc(cat)+"' loading='lazy' width='800' height='500' style='object-position:"+imgPos+"'><div class='cat-ov'></div><div class='cat-info'><div class='cat-lbl' style='color:"+accent+"'>"+esc(CAT_LABELS[cat]||"")+"</div><div class='cat-name'>"+esc(cat)+"</div><div class='cat-count'>"+catProds+" "+countWord+"</div></div><div class='cat-accent' style='background:"+accent+"'></div>";
     d.addEventListener("click",(function(c){return function(){goCategory(CAT_KEYS.indexOf(c));};})(cat));
     cg.appendChild(d);
   });

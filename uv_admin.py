@@ -1291,6 +1291,7 @@ class UVAdminApp:
         self._scraped_add = None
         self._edit_selected = None   # {"cat":, "idx":, "product":}
         self._edit_photos = []
+        self._edit_photos_changed = False
         self._upd_selected = None
         self._upd_photos = []
         self._ef_destacado  = tk.BooleanVar(value=False)
@@ -2306,6 +2307,7 @@ class UVAdminApp:
         fotos = p.get("fotos",[])
         self.edit_fotos_lbl.config(text=f"{len(fotos)} fotos" if fotos else "Sin fotos")
         self._edit_photos = list(fotos)
+        self._edit_photos_changed = False
         self.edit_preview.set_photos(self._edit_photos)
         # Variantes
         self._set_variantes(self.ef_variantes_frame, p.get("variantes", []))
@@ -2344,6 +2346,7 @@ class UVAdminApp:
             def finish():
                 if target == "edit":
                     self._edit_photos.extend(uploaded)
+                    self._edit_photos_changed = True
                     self.edit_preview.set_photos(self._edit_photos)
                     self.edit_fotos_lbl.config(text=f"{len(self._edit_photos)} fotos")
                 else:
@@ -2406,6 +2409,7 @@ class UVAdminApp:
             def finish():
                 if target == "edit":
                     self._edit_photos.extend(photos)
+                    self._edit_photos_changed = True
                     self.edit_preview.set_photos(self._edit_photos)
                     self.edit_fotos_lbl.config(text=f"{len(self._edit_photos)} fotos")
                 elif target == "edit_d":
@@ -2465,7 +2469,7 @@ class UVAdminApp:
         }
         if variantes:
             fields["variantes"] = variantes
-        if self._edit_photos:
+        if self._edit_photos and self._edit_photos_changed:
             fields["fotos"] = self._edit_photos
             fields["i"] = self._edit_photos[0]
         if self._edit_photos_d:
