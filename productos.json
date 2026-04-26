@@ -10302,6 +10302,117 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "ton-mogbg1yv",
+        "n": "TON",
+        "i": "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-698226441366f.jpg",
+        "franquicia": "Otros",
+        "marca": "Underverse",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-698226441366f.jpg",
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-scale-698226491655e.jpg",
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-6982264466b8a.jpg",
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-69822644bccbb.jpg",
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-6982264520daf.jpg",
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-698226457d44b.jpg",
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-69822645d3550.jpg",
+          "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-6982264632f99.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura TON en escala 1:6 de Underverse es una obra maestra de colección que combina escultura de alta calidad con mecánica detallada y articulación excepcional. Presenta un acabado envejecido impecable, piernas mecánicas de metal fundido y un uniforme Taisho inspirado con capa de PU, capturando cada aspecto del diseño original con precisión de museo. Un must-have para coleccionistas premium que buscan figuras de acción articuladas con detalles cinematográficos y múltiples accesorios funcionales."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm (con sombrero), 27.5 cm (sin sombrero)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cabeza esculpida, cuerpo articulado UV-patentado, piernas mecánicas de metal fundido (die-cast), tela envejecida (poliuretano)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 25 aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura envejecida y detalles mecánicos aplicados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza TON intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sombrero con detalles mecánicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado de 10 pulgadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 pares de manos intercambiables envejecidas (Relajadas, TCE Hold, TJD Hold)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de piernas mecánicas inferiores envejecidas (metal fundido)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta blanca Taisho envejecida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo uniforme Taisho-style con dispositivos mecánicos (no removible)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa larga Taisho-style (material PU)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones cortos uniforme Taisho envejecidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de vendajes de pierna (izquierdo y derecho)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola TJD con funda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle TCE"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición magnética UV"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-26",
+        "reserva": "800",
+        "entrega": "Dic. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "weapon-x-mod7rlfy",
         "n": "Weapon X",
         "i": "https://www.sideshow.com/storage/product-images/915594/hot-toys-marvel-weapon-x-sixth-scale-figure-gallery-69eb973a3532d.jpg",
