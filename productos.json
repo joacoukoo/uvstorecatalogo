@@ -29929,6 +29929,97 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "bartholomew-kuma-mog20vpi",
+        "n": "Bartholomew Kuma",
+        "i": "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c0c5122.jpg",
+        "franquicia": "Anime",
+        "marca": "Jimei Palace",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c0c5122.jpg",
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c12cee8.jpg",
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c181c90.jpg",
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c1db605.jpg",
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c23a9f9.jpg",
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c287d4f.jpg",
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c3079ce.jpg",
+          "https://www.sideshow.com/storage/product-images/915597/jimei-palace-one-piece-bartholomew-kuma-statue-gallery-69ebe4c379e55.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección de One Piece con esta espectacular estatua de Bartholomew Kuma de 54 cm, creada por Jimei Palace con detalles de batalla excepcionales. Esta pieza premium captura la esencia del personaje con una musculatura exquisitamente esculpida, efectos de energía azul cian y una base LED interactiva que alberga a Jewelry Bonney en lágrimas. Una obra maestra de coleccionismo que combina artesanía de nivel superior, iluminación dinámica y autenticidad de franquicia oficial."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 54 cm (21.25 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 61 cm (24.01 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 50.68 cm (19.68 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Premium Format (~1:4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina (Resin) y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Jimei Palace x AniKingdom"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: LED iluminada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Garantía de satisfacción: 30 días"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Límite: 1 por persona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua principal de Bartholomew Kuma con detalles de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base LED iluminada con escena de Jewelry Bonney"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fuente de alimentación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía azul cian"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de doble caja disponible"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-26",
+        "reserva": "2240",
+        "entrega": "Mar. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "shadow-mog14fzr",
         "n": "Shadow",
         "i": "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd5008c47.jpg",
