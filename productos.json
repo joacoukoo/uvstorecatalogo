@@ -29929,85 +29929,70 @@
     "slug": "estatuas",
     "products": [
       {
-        "id": "grace-ashcroft-mog381r6",
-        "n": "Grace Ashcroft",
-        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0759339e676f563bc3ba3163f5af9d3d.jpg?v=1777218389",
-        "franquicia": "Gaming",
-        "marca": "Singularity ",
-        "escala": "1:4",
-        "disp": "Pre-Orden",
+        "id": "freezer-mog3d5en",
+        "n": "Freezer",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iSPxkg5Povf7O79x-k31E1777215950164.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_1000%2Ch_1000",
+        "franquicia": "Anime",
+        "marca": "Ash&XD Studio",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "6800",
+        "precio": "3200",
         "fotos": [
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0759339e676f563bc3ba3163f5af9d3d.jpg?v=1777218389",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/eea8da5ba3f9cee3ddf5733ed2d9591e.jpg?v=1777218389",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bd3e31053fd92de26a0dc2c9233ffedb.jpg?v=1777218389",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fb3c0bae0bb8b0641adfd624ff7c4ec4.jpg?v=1777218389"
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iSPxkg5Povf7O79x-k31E1777215950164.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_1000%2Ch_1000",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/NYPgVpdPqGR_YwQXUjPVv1777215950164.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_1000%2Ch_1000",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JLb4rwbzt9FIYz6tyBERW1777215950164.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_1000%2Ch_1000",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KYdl_whZNtnzyL-nHtFz71777215950164.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_1000%2Ch_1000",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OmfzmQxVHttn2MCcYdhBl1777215950164.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_1000%2Ch_1000"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "Grace Ashcroft es una figura de colección premium a escala 1:4 que captura cada detalle de este icónico personaje gamer con una calidad artesanal excepcional. Con 45 cm de altura y una presencia cautivadora, esta edición limitada a 66 piezas presenta un nivel de escultura y pintura de nivel museo, perfecta para coleccionistas exigentes. Los detalles inmersivos, iluminación LED integrada y accesorios intercambiables la convierten en una pieza de inversión premium obligatoria para entusiastas del gaming."
+            "x": "Figura de colección premium de Frieza en escala 1:6 del icónico villano de Dragon Ball, elaborada por Ash&XD Studio con una altura de 34 cm. Realizada en resina importada de la más alta calidad con detalles impecables, capturando la pose amenazante y el icónico traje púrpura del personaje. Edición limitada a solo 88 unidades mundiales, convirtiéndola en una pieza de inversión altamente codiciada para coleccionistas de anime premium."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 45 cm"
+            "x": "Altura: 34 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Profundidad: 39.5 cm"
+            "x": "Escala: 1:6"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Ancho: 38 cm"
+            "x": "Material: Resina importada y PU"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escala: 1:4"
+            "x": "Fabricante: Ash&XD Studio"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Edición limitada: 66 piezas"
+            "x": "Franquicia: Dragon Ball"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: Polystone/Resina de grado coleccionista"
+            "x": "Unidades limitadas: 88"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 8-10 kg"
+            "x": "Fecha estimada de entrega: Q3 2026"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Lanzamiento: Q2 2027"
+            "x": "Peso aproximado: 1.5-2 kg"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Accesorios tecnológicos: Sistema LED integrado"
+            "x": "Figura principal de Frieza"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Brazos intercambiables adicionales"
+            "x": "Base decorativa temática con paisaje alienígena"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Sistema de iluminación LED"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base temática con detalles de entorno"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Accesorios tácticos y equipamiento"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Documentación de autenticidad"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Embalaje premium de coleccionista"
+            "x": "Aura/efecto energético intercambiable"
           }
         ],
         "destacado": false,
@@ -30015,8 +30000,8 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-26",
-        "reserva": "1360",
-        "entrega": "2Q 2027",
+        "reserva": "640",
+        "entrega": "Q3 2026",
         "cantidad": "2"
       },
       {
