@@ -29929,6 +29929,85 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "shadow-mog14fzr",
+        "n": "Shadow",
+        "i": "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd5008c47.jpg",
+        "franquicia": "Gaming",
+        "marca": "First 4 Figures",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd5008c47.jpg",
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-scale-69ebbd53054a6.jpg",
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd503b08c.jpg",
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd506fa1b.jpg",
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd50a4387.jpg",
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd50d87f4.jpg",
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd5117441.jpg",
+          "https://www.sideshow.com/storage/product-images/915596/first-4-figures-sonic-the-hedgehog-shadow-statue-gallery-69ebbd51524ab.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de colección premium de Shadow the Hedgehog inspirada en la icónica portada de Sonic Adventure 2. Esta figura de resina pintada captura la intensidad y rivalidad del personaje en una pose dinámica y controlada sobre un vórtice rojo giratorio. Una pieza esencial para coleccionistas de videojuegos que buscan calidad artesanal y detalles excepcionales."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25 cm (9.8\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 17 cm (6.7\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm (7.4\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: First 4 Figures"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada con numeración"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de resina pintada de Shadow the Hedgehog"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con diseño de vórtice rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Numeración de edición limitada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-26",
+        "reserva": "700",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "sonic-mog137gp",
         "n": "Sonic",
         "i": "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb88fc500d.jpg",
