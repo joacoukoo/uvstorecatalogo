@@ -29929,6 +29929,89 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "sonic-mog137gp",
+        "n": "Sonic",
+        "i": "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb88fc500d.jpg",
+        "franquicia": "Gaming",
+        "marca": "First 4 Figures",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb88fc500d.jpg",
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-scale-69ebb8928bfc3.jpg",
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb89002470.jpg",
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb89036888.jpg",
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb8906bd3f.jpg",
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb890a199e.jpg",
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb890d6460.jpg",
+          "https://www.sideshow.com/storage/product-images/915595/first-4-figures-sonic-the-hedgehog-sonic-statue-gallery-69ebb8911d0b2.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de colección Premium de Sonic en resina de alta calidad, inspirada en el icónico diseño de Sonic Adventure 2, capturando al famoso erizo azul en una pose dinámica mid-motion con detalles excepcionales. Esta figura limitada de First 4 Figures exhibe la confianza y energía aventurera de Sonic en el momento exacto de lanzarse a toda velocidad, con una base de vórtice azul giratorio que acentúa su movimiento. Pieza de coleccionista premium numerada y auténtica, perfecta para completar cualquier galería de videojuegos clásicos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24 cm (9.6\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 17 cm (6.7\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm (7.4\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Premium Format"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Numeración limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: First 4 Figures"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "SKU: 915595"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de resina pintada de Sonic Adventure 2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con efecto vórtice azul giratorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta de autenticación numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Numeración limitada de edición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-26",
+        "reserva": "700",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "angel-frieren-mobqx5mv",
         "n": "Angel Frieren",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17995/369155/_2026-04-23_160657_754__45933.1776932035.jpg",
@@ -47075,7 +47158,7 @@
       {
         "id": "mueble-uv-detolf-3",
         "n": "Mueble UV Detolf 4",
-        "i": "assets/vitrinas/detolf-3.png",
+        "i": "assets/vitrinas/detolf-3.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -47084,7 +47167,7 @@
         "disp": "",
         "precio": "2900",
         "fotos": [
-          "assets/vitrinas/detolf-3.png"
+          "assets/vitrinas/detolf-3.jpg"
         ],
         "content": [
           {
@@ -47137,7 +47220,7 @@
       {
         "id": "mueble-uv-detolf-4",
         "n": "Mueble UV Detolf 5",
-        "i": "assets/vitrinas/detolf-4.png",
+        "i": "assets/vitrinas/detolf-4.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -47146,7 +47229,7 @@
         "disp": "",
         "precio": "3000",
         "fotos": [
-          "assets/vitrinas/detolf-4.png"
+          "assets/vitrinas/detolf-4.jpg"
         ],
         "content": [
           {
@@ -47191,7 +47274,7 @@
       {
         "id": "mueble-uv-detolf-5",
         "n": "Mueble UV Detolf 6",
-        "i": "assets/vitrinas/detolf-5.png",
+        "i": "assets/vitrinas/detolf-5.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -47200,7 +47283,7 @@
         "disp": "",
         "precio": "3100",
         "fotos": [
-          "assets/vitrinas/detolf-5.png"
+          "assets/vitrinas/detolf-5.jpg"
         ],
         "content": [
           {
@@ -47245,7 +47328,7 @@
       {
         "id": "mueble-uv-detolf-6",
         "n": "Mueble UV Detolf 7",
-        "i": "assets/vitrinas/detolf-6.png",
+        "i": "assets/vitrinas/detolf-6.jpg",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
@@ -47254,7 +47337,7 @@
         "disp": "",
         "precio": "3300",
         "fotos": [
-          "assets/vitrinas/detolf-6.png"
+          "assets/vitrinas/detolf-6.jpg"
         ],
         "content": [
           {
