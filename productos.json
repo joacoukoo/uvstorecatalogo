@@ -40432,6 +40432,139 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "evangelion-unit-02-mohssfu8",
+        "n": "Evangelion Unit-02 ",
+        "i": "https://www.hlj.com/productimages/ccs/ccs07069_0.jpg",
+        "franquicia": "Anime",
+        "marca": "CSS Toys",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4200",
+        "fotos": [
+          "https://www.hlj.com/productimages/ccs/ccs07069_0.jpg",
+          "https://www.hlj.com/productimages/ccs/ccs07069_2.jpg",
+          "https://www.hlj.com/productimages/ccs/ccs07069_3.jpg",
+          "https://www.hlj.com/productimages/ccs/ccs07069_6.jpg",
+          "https://www.hlj.com/productimages/ccs/ccs07069_13.jpg",
+          "https://www.hlj.com/productimages/ccs/ccs07069_15.jpg",
+          "https://www.hlj.com/productimages/ccs/ccs07069_1.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Evangelion Unit-02 Type II de CSS Toys es una figura de colección premium que representa la versión modificada del icónico Eva Unit-02 de la novela 'Evangelion ANIMA', caracterizada por su impactante esquema de color rojo que combina dinamismo con lujo sustancial. Con una estructura articular innovadora que replica los movimientos del esqueleto y músculos humanos, ofrece una amplitud excepcional de movimiento y posibilidades de pose natural y dinámica. Este tesoro de colección incluye un arsenal completo de armas legendarias de la franquicia, convirtiéndola en una pieza imprescindible para coleccionistas de figuras de acción premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura total: 31.5 cm (altura de cabeza: 28.5 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6 aproximada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, POM, PV, aleación y magnet"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Estructura articular innovadora con movimiento esquelético replícado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Evangelion Unit-02 Type II"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanza de Longinus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Depósito de armas (edificio)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bombas N2 (x4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastidor de bomba N2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pilón de armas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo progresivo Unit-02 Type II (x2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cable umbilical"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rectenna de transmisión láser de microondas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de rectenna de transmisión láser de microondas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo de emergencia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas LMG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Powered Eight-LMG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Percha de arma auxiliar (x6)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base dedicada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pilar de soporte móvil A"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pilar de soporte móvil B"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Juntas de pilar de soporte móvil (x2 tipos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pilar de soporte de cuerpo principal (corto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pilar de soporte de cuerpo principal (largo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Juntas de pilar de soporte (x6 tipos)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-27",
+        "reserva": "840",
+        "cantidad": "2"
+      },
+      {
         "id": "stepper-mo9gu9ac",
         "n": "Stepper",
         "i": "https://www.sideshow.com/storage/product-images/915573/threezero-transformers-stepper-mdlx-action-figure-gallery-69e6731b66e67.jpg",
