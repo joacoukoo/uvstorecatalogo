@@ -10302,6 +10302,113 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "imperial-remnant-stormtrooper-moitvrhr",
+        "n": "Imperial Remnant Stormtrooper",
+        "i": "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e821ca0fb.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e821ca0fb.jpg",
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-scale-69e8e83daf8a3.jpg",
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e82250918.jpg",
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e822a3ecf.jpg",
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e8230540a.jpg",
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e823d1763.jpg",
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e8235adc1.jpg",
+          "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e8243325f.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura del Imperial Remnant Stormtrooper de Hot Toys es una obra maestra de precisión y detalle que captura la esencia de estos soldados endurecidos del Imperio en Star Wars: The Mandalorian & Grogu. Con armadura blanca desgastada, efectos de envejecimiento auténticos y 30 puntos de articulación, esta pieza de colección premium ofrece posibilidades de posado casi ilimitadas. Un must-have para coleccionistas de Star Wars que buscan reproducir escenas épicas con una fidelidad cinematográfica incomparable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Serie: Movie Masterpiece Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico articulado con armadura detallada y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios incluidos: 7 pares de manos intercambiables, armas y accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza casco Imperial Remnant Stormtrooper con efectos de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado con 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 piezas de manos intercambiables (puños, manos relajadas, manos portando blaster, mano abierta izquierda)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura blanca Imperial Remnant con efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de tela negro interno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de utilidad blanco con desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blancas con efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blaster SE-14r"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blaster rifle E-11"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detonador térmico (magnético, se acopla al cinturón)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición diseñada con logo de Star Wars y placa de nombre del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-28",
+        "reserva": "580",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "yoda-moitfsvn",
         "n": "Yoda",
         "i": "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb6152c044.jpg",
@@ -30165,7 +30272,7 @@
         "franquicia": "Anime",
         "marca": "Ash&XD Studio",
         "escala": "1:6",
-        "disp": "Pre-Orden",
+        "disp": "Entrega Inmediata",
         "estado": "Nuevo",
         "precio": "3200",
         "fotos": [
