@@ -10302,6 +10302,101 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "zeb-orrelios-moitswli",
+        "n": "Zeb Orrelios",
+        "i": "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0967b0d4.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0967b0d4.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-scale-69efb09a307d9.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb096f3106.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0974fd94.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb097a2057.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb097f352d.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0984ebd1.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb098c8fce.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de Zeb Orrelios de Hot Toys es una obra maestra de coleccionismo que captura al legendario guerrero Lasat en su transición al cine live-action con precisión cinematográfica. Cada detalle, desde el esculpido facial con ojospárpados móviles hasta el pelo implantado en material lana y las texturas de piel envejecida, refleja el más alto estándar de artesanía premium. Con 30 puntos de articulación y su icónico rifle Bo-AB-75 intercambiable, esta figura es una declaración definitiva para cualquier coleccionista de Star Wars de élite."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo especializado con pelo de fibra, cabeza esculpida con implantación de lana, traje de tela cosido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 600-800g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos rodantes intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 pares de manos intercambiables (puños, relajadas, empuñadura de rifle, disparo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de vuelo azul de una pieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco acolchado blanco con símbolo de la Alianza Rebelde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dispositivo de soporte vital con tubo de oxígeno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arnés de vuelo blanco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bandolera de rodilla derecha blanca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle AB-75 Bo-Rifle con puntas intercambiables (modo rifle y modo bo-staff)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Set de bengalas de señal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de figura con logotipo de Star Wars y placa identificativa del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-28",
+        "reserva": "740",
+        "entrega": "Sep. 2027",
+        "cantidad": "3"
+      },
+      {
         "id": "yoda-moitfsvn",
         "n": "Yoda",
         "i": "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb6152c044.jpg",
