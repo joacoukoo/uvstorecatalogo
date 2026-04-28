@@ -10302,6 +10302,125 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "yoda-moitfsvn",
+        "n": "Yoda",
+        "i": "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb6152c044.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb6152c044.jpg",
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-scale-69efb6194915a.jpg",
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb6159a770.jpg",
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb6161195c.jpg",
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb616651d6.jpg",
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb616b761c.jpg",
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb617317db.jpg",
+          "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb617a1216.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura coleccionable Yoda de Hot Toys captura la esencia del legendario Maestro Jedi en escala 1:6 con una precisión cinematográfica excepcional. Cuenta con dos esculturas de cabeza intercambiables con expresiones relajada y determinada, ojos rodantes móviles y cabello de fibra blanca, junto con un cuerpo especializado articulado con 23 puntos de movimiento. Este es un artículo premium imprescindible para coleccionistas de Star Wars que desean recrear los momentos más icónicos del Episodio III con autenticidad de película."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 14 cm (5.51 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Sculpted plastic/PVC con cabello de fibra de nylon y tela textil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 23 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Costumes: Túnica Jedi beige con alambre flexible integrado, túnica marrón oscuro y obi marrón oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de iluminación: Empuñadura de sable de luz LED con luz verde (requiere cable USB-C, no incluido)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 esculturas de cabeza intercambiables (expresión relajada y determinada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables (par sujetador de sable, par de Fuerza, mano derecha abierta, mano derecha sujetadora de bastón, par gestual sin costuras)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 brazos intercambiables sin costuras con manos gestuales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pies intercambiables (postura de pie y postura levitante)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica Jedi beige con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica marrón oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Obi marrón oscuro con función magnética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empuñadura de sable de luz LED iluminada (luz verde, USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empuñadura de sable de luz magnética acoplable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de sable de luz verde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de sable de luz verde en movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón signature"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Comlink Hush-98"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Silla flotante hover con soporte transparente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición especializada con logo de Star Wars, placa de personaje y 2 tarjetas gráficas intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-28",
+        "reserva": "620",
+        "entrega": "Sep. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "ton-mogbg1yv",
         "n": "TON",
         "i": "https://www.sideshow.com/storage/product-images/915311/underverse-beautiful-chemistry-ton-sixth-scale-figure-gallery-698226441366f.jpg",
