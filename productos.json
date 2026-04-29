@@ -11053,7 +11053,7 @@
             "x": "Base de exhibición especializada con logo de Star Wars, placa de personaje y 2 tarjetas gráficas intercambiables"
           }
         ],
-        "destacado": false,
+        "destacado": true,
         "oferta": false,
         "agotado_r": false,
         "agotado_d": false,
