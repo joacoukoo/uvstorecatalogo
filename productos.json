@@ -10302,6 +10302,133 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "imperial-remnant-snowtrooper-mok745u0",
+        "n": "Imperial Remnant Snowtrooper",
+        "i": "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e6379aa58.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e6379aa58.jpg",
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-scale-69e8e66536b12.jpg",
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e63820daf.jpg",
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e6387fa8f.jpg",
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e638d5afe.jpg",
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e6393af72.jpg",
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e639b20b6.jpg",
+          "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e63a37df4.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Hot Toys que captura magistralmente al Imperial Remnant Snowtrooper de The Mandalorian & Grogu con dos cabezas intercambiables, armadura blanca con efectos de desgaste realista y abrigo texturizado. Este guerrero del Imperio presenta 30 puntos de articulación, arsenal completo de tres blasters diferentes y accesorios exclusivos como droide ratón controlable, mochila magnética y peana temática de nieve. Un must-have para coleccionistas exigentes de Star Wars que buscan la máxima calidad de detalle y versatilidad en display."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico de ingeniería, tela con textura flocked, resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 8 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: 2 (con máscara suave y versión sin máscara)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 500-600 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza Imperial Remnant Snowtrooper con máscara de plástico suave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza Imperial Remnant Snowtrooper sin máscara"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 Manos intercambiables (puños, relajadas, abiertas, empuñadura de blaster)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Armadura blanca con efectos de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Abrigo greige con textura flocked"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cinturón blanco con efectos de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de pantalones greige"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de botas largas greige"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Rifle blaster E-11"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Rifle blaster DLT-20A"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Blaster de targeting DLT-19X"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Detonador térmico (acoplable al cinturón)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Mochila (magnéticamente acoplable)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Droide Ratón blanco Mouse Droid (MSE-6-Series)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Control remoto con 2 antenas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Peana temática de nieve con logo Star Wars y placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-29",
+        "reserva": "680",
+        "entrega": "Sep. 2026",
+        "cantidad": "3"
+      },
+      {
         "id": "grand-admiral-thrawn-imperial-armor-mok724s5",
         "n": "Grand Admiral Thrawn™ (Imperial Armor)",
         "i": "https://www.sideshow.com/storage/product-images/915283/hot-toys-star-wars-grand-admiral-thrawn-imperial-armor-sixth-scale-figure-gallery-69e8e081c8c47.jpg",
