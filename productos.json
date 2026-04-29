@@ -1525,25 +1525,14 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/spider-man-black-suit",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "Sellado",
+        "estado": "",
         "disp": "Entrega Inmediata",
         "precio": "3200",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura articulada de Spider-Man con traje negro de la película Spider-Man 3, basada en la icónica interpretación de Tobey Maguire como Peter Parker. Esta figura de sexta escala captura cada detalle del traje negro y plateado con precisión, incluyendo el patrón de telaraña y el emblema de araña en el pecho."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nFigura articulada de Spider-Man con traje negro de la película Spider-Man 3, basada en la icónica interpretación de Tobey Maguire como Peter Parker. Esta figura de sexta escala captura cada detalle del traje negro y plateado con precisión, incluyendo el patrón de telaraña y el emblema de araña en el pecho.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -1558,7 +1547,7 @@
             "x": "Puntos de articulación: 30"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Incluye"
           },
           {
@@ -1626,7 +1615,7 @@
             "x": "Soporte especialmente diseñado con logo de la película y placa del personaje"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -1643,7 +1632,6 @@
           }
         ],
         "precio_orig": "3500",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": true,
@@ -1658,7 +1646,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de226db271.jpg"
         ],
         "id": "spider-man-black-suit",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Grogu Life-Size",
