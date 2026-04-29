@@ -10310,7 +10310,7 @@
         "escala": "1:6",
         "disp": "Pre-Orden",
         "estado": "Nuevo",
-        "precio": "3700",
+        "precio": "300.00",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0967b0d4.jpg",
           "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-scale-69efb09a307d9.jpg",
@@ -10400,7 +10400,9 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-29",
-        "reserva": "740",
+        "precio_d": "3700",
+        "reserva": "60",
+        "reserva_d": "740",
         "entrega": "Sep. 2027",
         "cantidad": "2"
       },
@@ -10680,7 +10682,6 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-29",
-        "precio_d": "0",
         "reserva": "700",
         "entrega": "Sep. 2027",
         "cantidad": "3"
