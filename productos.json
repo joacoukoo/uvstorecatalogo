@@ -10302,6 +10302,133 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "clone-commander-gree-mojbdkh8",
+        "n": "Clone Commander Gree",
+        "i": "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb56642a07.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb56642a07.jpg",
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-scale-69efb569d4e7a.jpg",
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb566b22b6.jpg",
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb5672aff0.jpg",
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb5677f45d.jpg",
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb567d344c.jpg",
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb5682f2a0.jpg",
+          "https://www.sideshow.com/storage/product-images/915591/hot-toys-star-wars-clone-commander-gree-sixth-scale-figure-gallery-69efb568832f8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura coleccionable de Clone Commander Gree en escala 1:6 de Hot Toys captura magistralmente al legendario comandante de élite en su icónico uniforme de camuflaje verde con efectos de desgaste realista. Con 30 puntos de articulación y un acabado de calidad premium, esta figura reproduce fielmente el crucial momento de Order 66 de Star Wars: Revenge of the Sith. Una adición imprescindible para coleccionistas de Star Wars que buscan personajes clave del universo expandido con niveles de detalle y precisión incomparables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, accesorios plásticos y metálicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye cabeza esculpida con efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura multicolor con detalles de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje base de tela negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas grises oscuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario con detonador térmico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable de Clone Commander Gree con casco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables (relajadas, para sostener blaster, índice extendido, puño cerrado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de camuflaje verde multicolor con dos arneses"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje base negro de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario con detonador térmico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas largas grises oscuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle Blaster DC-15A"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carabina Blaster DC-15A"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Datapad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Macrobinoculares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Holograma del Emperador Palpatine"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Imagecaster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición con logo Star Wars y placa de personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta de gráficos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-29",
+        "reserva": "620",
+        "entrega": "Sep. 2027",
+        "cantidad": "3"
+      },
+      {
         "id": "yoda-moitfsvn",
         "n": "Yoda",
         "i": "https://www.sideshow.com/storage/product-images/915547/hot-toys-star-wars-yoda-sixth-scale-figure-gallery-69efb6152c044.jpg",
