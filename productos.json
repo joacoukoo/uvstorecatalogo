@@ -10302,6 +10302,142 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "maul-mok7hdv4",
+        "n": "Maul",
+        "i": "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc3923cc.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc3923cc.jpg",
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-scale-69ef8bc7bb107.jpg",
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc4112e1.jpg",
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc465b70.jpg",
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc4bd01e.jpg",
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc51ec14.jpg",
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc577a75.jpg",
+          "https://www.sideshow.com/storage/product-images/915592/hot-toys-star-wars-darth-maul-sixth-scale-figure-gallery-69ef8bc5cebc7.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable de premium de Hot Toys que captura la ferocidad del legendario Maul en escala 1:6, basada en la serie animada Star Wars: Maul - Shadow Lord. Con dos cabezas esculpidas magistralmente, piernas cibernéticas detalladas, tatuajes iconográficos y un elaborado vestuario multicapa en materiales de microfiber similar al cuero, esta figura de ~29 cm es una adición imprescindible para coleccionistas de Star Wars. Incluye múltiples accesorios de lightsaber con efectos LED y articulación de 30 puntos para poses dinámicas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado, vestuario en tela y microfiber tipo cuero, accesorios en plástico y metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios LED: Con alimentación USB"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Recomendado para coleccionistas mayores de 15 años"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cabezas intercambiables (expresión determinada y expresión amenazante) con ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos enguantadas intercambiables (relajadas, empuñadora de lightsaber, de uso de la Fuerza)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 manos sin guantes intercambiables (relajadas, empuñadora de lightsaber)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Robe negro con capucha reforzada con alambre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tabard de microfiber tipo cuero negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de hombreras de armadura negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de guanteletes negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón ancho de microfiber tipo cuero negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Set de 3 cinturones de utilidad con 2 portasables de lightsaber"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de botas largas de microfiber tipo cuero negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lightsaber doble hoja con LED rojo (alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lightsaber monofilar con LED rojo (alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lightsaber doble hoja divisible (sin LED)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lightsaber monofilar (sin LED)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de cuchillas de lightsaber rojas estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de cuchillas de lightsaber rojas con efecto de movimiento ondulante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición personalizada con logo Star Wars y placa del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-29",
+        "precio_d": "0",
+        "reserva": "700",
+        "entrega": "Sep. 2027",
+        "cantidad": "3"
+      },
+      {
         "id": "imperial-remnant-snowtrooper-mok745u0",
         "n": "Imperial Remnant Snowtrooper",
         "i": "https://www.sideshow.com/storage/product-images/915297/hot-toys-star-wars-imperial-remnant-snowtrooper-sixth-scale-figure-gallery-69e8e6379aa58.jpg",
