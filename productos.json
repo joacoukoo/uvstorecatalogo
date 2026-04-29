@@ -10302,6 +10302,111 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "zeb-orrelios-mok8hlvx",
+        "n": "Zeb Orrelios",
+        "i": "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0967b0d4.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "300.00",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0967b0d4.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-scale-69efb09a307d9.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb096f3106.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0974fd94.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb097a2057.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb097f352d.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb0984ebd1.jpg",
+          "https://www.sideshow.com/storage/product-images/915546/hot-toys-star-wars-zeb-orrelios-sixth-scale-figure-gallery-69efb098c8fce.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Zeb Orrelios cobra vida en esta figura coleccionable de escala 1:6 de Hot Toys, capturando magistralmente los detalles únicos del guerrero Lasat con una escultura de cabeza recién desarrollada, pelo implantado en material lana y expresión hiperrealista. Con 30 puntos de articulación, traje táctico completamente equipado y su icónico rifle AB-75 con modos intercambiables, esta pieza es un imprescindible para coleccionistas premium de Star Wars. La atención al detalle en textura de piel, arrugas faciales y accesorios especializados la posiciona como una obra maestra de la colección de figuras de acción de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo especializado con pelo de fibra, cabeza esculpida con pelo de lana implantado, tela para vestuario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos: Rodillos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 600-800 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza de Zeb Orrelios con ojos rodantes intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo especializado con 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de vuelo azul de una pieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco acolchado blanco con símbolo de la Alianza Rebelde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dispositivo de soporte vital con tubo de oxígeno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arnés de vuelo blanco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bandolera de rodilla blanca del lado derecho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle AB-75 con puntas intercambiables (modo rifle y modo bastón)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 manos intercambiables (puños, manos relajadas, manos para sostener rifle, mano de disparo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Conjunto de bengalas de señal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de figura especializado con logotipo de Star Wars y placa con nombre del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-29",
+        "precio_d": "3700",
+        "reserva": "60",
+        "reserva_d": "740",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "imperial-remnant-stormtrooper-mok7wcpn",
         "n": "Imperial Remnant Stormtrooper",
         "i": "https://www.sideshow.com/storage/product-images/915225/hot-toys-star-wars-imperial-remnant-stormtrooper-sixth-scale-figure-gallery-69e8e821ca0fb.jpg",
