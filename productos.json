@@ -41281,6 +41281,117 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "dark-nights-metal-batman-who-laughs-molt2yva",
+        "n": "Dark Nights: Metal - Batman Who Laughs",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BATMAN-WHO-LAUGHS_2eedcf3b-3c3b-44f7-80a3-05faff3c6365.png?v=1777417420",
+        "franquicia": "DC Comics",
+        "marca": "InArt Collectibles",
+        "escala": "1/12Scale",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BATMAN-WHO-LAUGHS_2eedcf3b-3c3b-44f7-80a3-05faff3c6365.png?v=1777417420",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1_e00b5c54-fe0a-4cca-ad0e-627b42329e1c.jpg?v=1777532780",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2_049b00b5-b121-4144-8a49-ccbeb2b48fcf.jpg?v=1777532780",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3_83289d55-abdb-4975-b68c-5281c615a57e.jpg?v=1777532780",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4_65d7af6e-2048-4acd-92b2-8c331eea5526.jpg?v=1777532780",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5_e6d7d607-53f5-4faf-bef0-cfdb07fe7ae2.jpg?v=1777532780",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6_abba6a63-d3b8-45e4-b601-77779c0cea6f.jpg?v=1777532780",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/7_2c716374-d5f5-4838-a472-53be83f97ea1.jpg?v=1777532780"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de colección premium Batman Who Laughs 1/12 de InArt Collectibles captura la esencia del villano más aterrador del Multiverso DC con una calidad de escultura y pintura de nivel profesional. Con tres cabezas intercambiables, nueve manos posicionables y nueve accesorios temáticos, esta figura ofrece infinitas posibilidades de exhibición y posecionamiento. Cada detalle, desde los afilados pinchos de su armadura hasta la expresión de risa siniestra, refleja la maestría artesanal y el compromiso de InArt con la excelencia en figuras de coleccionista de alto valor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 18.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, POM, Die-cast y otros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: InArt Collectibles (Queen Studios Morfig)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: DC Comics - Dark Nights: Metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Cuerpo principal articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3x Cabezas intercambiables (Estándar, Pesadilla, Sin Cinta)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9x Manos intercambiables (Puño, Palmas abiertas x2, Garras x2, Agarre x2, Sosteniendo jeringa, Sosteniendo arma)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Bayonetas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Subfusil MP5"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Guadaña"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Gancho encadenado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Arma de doble filo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Batarang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Revólver"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Base con efecto especial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Soporte de exhibición"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-30",
+        "reserva": "320",
+        "entrega": "Enero 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "deluxe-grendizer-ufo-spazer-mokz24u6",
         "n": "Deluxe Grendizer & UFO Spazer",
         "i": "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f2759133234.jpg",
