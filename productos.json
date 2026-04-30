@@ -41472,6 +41472,77 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "lilith-mom4dwu1",
+        "n": "Lilith",
+        "i": "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b139e1d99.jpg",
+        "franquicia": "Gaming",
+        "marca": "Kotobukiya",
+        "escala": "1:7",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b139e1d99.jpg",
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-scale-69f3b13b99798.jpg",
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a1949d.jpg",
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a4460c.jpg",
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a6e80d.jpg",
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a98f43.jpg",
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13ac44bb.jpg",
+          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13ae5a7c.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Lilith de Darkstalkers llega como una figura de colección premium de Kotobukiya que captura la esencia juguetona y seductora de esta sucubina. Con una altura de 14 cm en escala 1:7, presenta un esculpido intrincado de sus alas desplegadas y contornos delicados que reflejan su personalidad adorable y traviesa. La fluidez de sus manos y la angulación de su mirada transmiten su naturaleza libre y desenfadada, siendo una pieza imprescindible para coleccionistas de videojuegos y anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:7"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: ABS, PVC, Poliéster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Kotobukiya"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultor: MRScapsule"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 200-250g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de tela dedicada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Lilith"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base compatible para exhibir junto a Morrigan"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-30",
+        "reserva": "540",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "dark-nights-metal-batman-who-laughs-molt2yva",
         "n": "Dark Nights: Metal - Batman Who Laughs",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BATMAN-WHO-LAUGHS_2eedcf3b-3c3b-44f7-80a3-05faff3c6365.png?v=1777417420",
