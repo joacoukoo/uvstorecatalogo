@@ -41285,6 +41285,101 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "deluxe-grendizer-ufo-spazer-mokz24u6",
+        "n": "Deluxe Grendizer & UFO Spazer",
+        "i": "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f2759133234.jpg",
+        "franquicia": "Anime",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f2759133234.jpg",
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-scale-69f27592e1d07.jpg",
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f2759104390.jpg",
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f2759190381.jpg",
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f275916070e.jpg",
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f27591baba6.jpg",
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f27591e801f.jpg",
+          "https://www.sideshow.com/storage/product-images/915614/tamashii-nations-ufo-robot-grendizer-deluxe-grendizer-ufo-spazer-action-figure-gallery-69f2759227f21.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura Deluxe Grendizer & UFO Spazer de Tamashii Nations es una pieza de colección premium que captura la esencia icónica del legendario anime clásico con una calidad de escultura y acabado excepcional. Este set deluxe incluye el mecha principal completamente articulado junto con su nave UFO Spazer intercambiable, ofreciendo múltiples opciones de display y posicionamiento. Con un arsenal extenso de accesorios intercambiables incluyendo brazos alternativos, harkens, misiles y armas especiales, es la figura definitiva para coleccionistas devotos de la franquicia."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 18-20 cm (figura principal)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/144 aproximada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, ABS y plástico premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Múltiples puntos de articulación para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 300-400 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo principal de Grendizer"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "UFO Spazer transformable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 puños intercambiables (izquierdo y derecho)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 Harkens estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Harkens largos extendidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 misiles perforadores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 misiles de disco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola anti-gravedad Dizer"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 misiles anti-gravedad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-30",
+        "reserva": "400",
+        "entrega": "Ene. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "pegaso-seiya-mokvwxgw",
         "n": "Pegaso Seiya",
         "i": "https://www.sideshow.com/storage/product-images/915613/tamashii-nations-saint-seiya-pegasus-seiya-first-bronze-cloth-statue-gallery-69f270db995d1.jpg",
