@@ -41472,9 +41472,9 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
-        "id": "lilith-mom4dwu1",
-        "n": "Lilith",
-        "i": "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b139e1d99.jpg",
+        "id": "morrigan-aensland-mom4jo86",
+        "n": "Morrigan Aensland",
+        "i": "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6d80714.jpg",
         "franquicia": "Gaming",
         "marca": "Kotobukiya",
         "escala": "1:7",
@@ -41482,23 +41482,23 @@
         "estado": "Nuevo",
         "precio": "2700",
         "fotos": [
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b139e1d99.jpg",
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-scale-69f3b13b99798.jpg",
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a1949d.jpg",
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a4460c.jpg",
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a6e80d.jpg",
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13a98f43.jpg",
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13ac44bb.jpg",
-          "https://www.sideshow.com/storage/product-images/915620/kotobukiya-darkstalkers-lilith-collectible-figure-gallery-69f3b13ae5a7c.jpg"
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6d80714.jpg",
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-scale-69f3ae7057348.jpg",
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6dd7392.jpg",
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6dabd9e.jpg",
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6e0f7ea.jpg",
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6e443b8.jpg",
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6e715b7.jpg",
+          "https://www.sideshow.com/storage/product-images/915619/kotobukiya-darkstalkers-morrigan-aensland-collectible-figure-gallery-69f3ae6ea6119.jpg"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "Lilith de Darkstalkers llega como una figura de colección premium de Kotobukiya que captura la esencia juguetona y seductora de esta sucubina. Con una altura de 14 cm en escala 1:7, presenta un esculpido intrincado de sus alas desplegadas y contornos delicados que reflejan su personalidad adorable y traviesa. La fluidez de sus manos y la angulación de su mirada transmiten su naturaleza libre y desenfadada, siendo una pieza imprescindible para coleccionistas de videojuegos y anime."
+            "x": "Morrigan Aensland llega como una figura premium de Kotobukiya que captura la esencia seductora de la súcubo en una pose dinámica de rodillas. Cada detalle ha sido meticulosamente esculpido, desde la textura de sus alas desplegadas hasta el flujo de su cabello y sus gestos cautivadores, reflejando la perfección característica del personaje. Esta pieza de colección de alto valor es ideal para completar tu lineup de Darkstalkers y crear escenas dramáticas cuando se exhibe junto a Lilith."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 14 cm"
+            "x": "Altura: 25 cm (9.84 pulgadas)"
           },
           {
             "t": "notion-bulleted-list",
@@ -41506,7 +41506,11 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Materiales: ABS, PVC, Poliéster"
+            "x": "Materiales: ABS, PVC y Poliéster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 500-700 gramos"
           },
           {
             "t": "notion-bulleted-list",
@@ -41514,11 +41518,15 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escultor: MRScapsule"
+            "x": "Artista (Escultura): MRScapsule"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 200-250g"
+            "x": "Franquicia: Darkstalkers (Gaming)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Morrigan Aensland"
           },
           {
             "t": "notion-bulleted-list",
@@ -41526,11 +41534,11 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Figura articulada de Lilith"
+            "x": "Posibilidad de exhibición con o sin base"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Base compatible para exhibir junto a Morrigan"
+            "x": "Compatible para exhibir junto a Lilith en la misma base"
           }
         ],
         "destacado": false,
@@ -41539,7 +41547,7 @@
         "agotado_d": false,
         "added_at": "2026-04-30",
         "reserva": "540",
-        "entrega": "Mar. 2027",
+        "entrega": "Feb. 2027",
         "cantidad": "2"
       },
       {
