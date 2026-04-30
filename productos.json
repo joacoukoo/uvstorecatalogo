@@ -30889,6 +30889,85 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "tmnt-underground-tabletop-edition-mom3td1y",
+        "n": "TMNT – Underground (Tabletop Edition)",
+        "i": "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1c02add.jpg",
+        "franquicia": "Otros",
+        "marca": "PCS",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1c02add.jpg",
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1c75a8a.jpg",
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1ce7a4f.jpg",
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1d60fba.jpg",
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1db9087.jpg",
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1e2606a.jpg",
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1e8854b.jpg",
+          "https://www.sideshow.com/storage/product-images/9134672/pcs-teenage-mutant-ninja-turtles-tmnt-underground-tabletop-edition-quarter-scale-statue-gallery-69f24d1ee094f.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La TMNT - Underground Tabletop Edition es una diorama de colección premium de 1:4 escala que captura la esencia nostálgica de los años 90 con una maestría artística excepcional. Presenta los cuatro Tortugas Ninja (Leonardo, Miguel Ángel, Rafael y Donatello) emergiendo de su guarida subterránea con un nivel de detalle y realismo en cada retrato que los trae a la vida como nunca antes. Esta pieza, esculpida por los hermanos Kucharek, combina texturas realistas, aplicaciones decorativas de alta calidad y un efecto de agua translúcida verde que añade autenticidad a la entrada de la alcantarilla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 11.4 cm (4.5 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 28 cm (11 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30.5 cm (12 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone (resina de alta calidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Premium Collectibles Studio (PCS)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Tabletop Edition"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con tapa de alcantarilla detallada en la ciudad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuatro cabezas de Tortuga Ninja esculpidas (Leonardo, Miguel Ángel, Rafael, Donatello) con máscaras de colores distintos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de agua translúcida verde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama completo con detalles de textura realista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-04-30",
+        "reserva": "700",
+        "entrega": "Ene. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "freezer-mog3d5en",
         "n": "Freezer",
         "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iSPxkg5Povf7O79x-k31E1777215950164.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_1000%2Ch_1000",
