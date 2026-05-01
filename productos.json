@@ -1741,25 +1741,14 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/batman-1989",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "Sellado",
-        "disp": "Entrega Inmediata",
+        "estado": "",
+        "disp": "Vendido",
         "precio": "3500",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura de colección a escala 1/6 que captura la imagen auténtica y detallada de Michael Keaton como Batman en la película Batman (1989). Esta pieza premium recrea fielmente el icónico traje de murciélago y los accesorios del Caballero Oscuro con un nivel de detalle excepcional."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nFigura de colección a escala 1/6 que captura la imagen auténtica y detallada de Michael Keaton como Batman en la película Batman (1989). Esta pieza premium recrea fielmente el icónico traje de murciélago y los accesorios del Caballero Oscuro con un nivel de detalle excepcional.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -1774,7 +1763,7 @@
             "x": "Puntos de articulación: 30"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Cabeza y Rostros"
           },
           {
@@ -1794,7 +1783,7 @@
             "x": "Escultura de cabeza especialmente pintada a mano"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Manos Intercambiables"
           },
           {
@@ -1818,7 +1807,7 @@
             "x": "Una mano izquierda abierta"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Traje y Accesorios de Vestuario"
           },
           {
@@ -1838,7 +1827,7 @@
             "x": "Un par de botas negras"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Armas y Equipo"
           },
           {
@@ -1862,7 +1851,7 @@
             "x": "Tres cápsulas de humo"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Accesorios Adicionales"
           },
           {
@@ -1886,8 +1875,6 @@
             "x": "Soporte de figura con logo de la película y nombre del personaje"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": true,
         "oferta": false,
@@ -1902,7 +1889,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911372/batman_dc-comics_gallery_63ee712ec3717.jpg"
         ],
         "id": "batman-1989",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Mandalorian Super Commando Captain",
