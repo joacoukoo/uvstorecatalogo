@@ -10281,104 +10281,6 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
-        "id": "human-torch-mon4cgtk",
-        "n": "Human Torch",
-        "i": "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb016c400a.jpg",
-        "franquicia": "Marvel",
-        "marca": "Hot Toys",
-        "escala": "1:6",
-        "disp": "Entrega Inmediata",
-        "estado": "Nuevo",
-        "precio": "3800",
-        "fotos": [
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb016c400a.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-scale-677ebede76a56.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb017b2f6b.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018149ef.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0186b2ab.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018c0e4a.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb019231f9.jpg"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "La figura de colección Human Torch de Hot Toys captura la esencia explosiva del personaje con una precisión excepcional. Cada detalle, desde la expresión facial cinematográfica hasta los efectos de fuego intercambiables, refleja el compromiso de Hot Toys con la excelencia artesanal. Una pieza imprescindible para coleccionistas de Marvel que desean poseer el poder del Antorcha Humana en su máxima expresión visual."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 31 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escala: 1:6"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material: Plástico ABS (cuerpo), tela (traje y capa), accesorios de resina pintados a mano"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Puntos de articulación: Más de 30"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 500-600 g"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Una (1) cabeza esculpida de Johnny Storm con ojos rodantes intercambiables"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Cinco (5) manos envueltas intercambiables (relajadas y de gesto)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Seis (6) manos adicionales intercambiables (puños y gestos)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Traje azul Human Torch con logo del Cuarteto Fantástico"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Capa azul con efecto de daño de batalla"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Envolturas de brazos desprendibles"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Cinturón de utilidad marrón"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Pantalones de combate azules"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Botas de combate negras"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Ocho (8) accesorios de efectos de fuego (remolino de fuego, cinco lenguas de fuego, efecto de hombros, efecto de ataque en muñeca)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base especialmente diseñada con logo de película y placa de personaje"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-05-01",
-        "reserva": "760",
-        "cantidad": "1"
-      },
-      {
         "id": "sasuke-uchiha-mon2agwu",
         "n": "Sasuke Uchiha",
         "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4212/37228/684834220_1440428958099001_1890550240967405291_n__84174.1777543954.jpg",
@@ -31247,6 +31149,88 @@
   "Estatuas Premium": {
     "slug": "estatuas",
     "products": [
+      {
+        "id": "aries-mu-mon4e77b",
+        "n": "Aries Mu",
+        "i": "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff251ac26f.jpg",
+        "franquicia": "Anime",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff251ac26f.jpg",
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-scale-680ff38131d45.jpg",
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff251e2768.jpg",
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff25223c77.jpg",
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff2525db66.jpg",
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff25294ed7.jpg",
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff252c72f7.jpg",
+          "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff253068cd.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Aries Mu emerge en toda su gloria divina con esta estatua Art Scale 1:10 de Iron Studios, capturando la esencia del Dios de Aries en polystone de alta calidad. Cada detalle de su armadura dorada, corona celestial y capa negra ha sido meticulosamente esculpido, demostrando el dominio artístico de Masami Kurumado. Una pieza de colección limitada imprescindible para fanáticos de Saint Seiya que buscan traer la majestuosidad de los Knights of the Zodiac a su colección premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 13.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 0.4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Limitada de Coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Basado en Saint Seiya: Knights of the Zodiac"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Aries Mu articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa negra intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura dorada detallada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-01",
+        "reserva": "0",
+        "cantidad": "1"
+      },
       {
         "id": "tmnt-underground-tabletop-edition-mom3td1y",
         "n": "TMNT – Underground (Tabletop Edition)",
