@@ -10281,35 +10281,33 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
-        "id": "human-torch-mon4jwpo",
-        "n": "Human Torch",
-        "i": "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
-        "franquicia": "Marvel",
+        "id": "robin-mon4pkg2",
+        "n": "Robin",
+        "i": "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
+        "franquicia": "DC Comics",
         "marca": "Hot Toys",
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3800",
+        "precio": "3400",
         "fotos": [
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb017b2f6b.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018149ef.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0186b2ab.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018c0e4a.jpg",
-          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb019231f9.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01bac41e.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01d27608.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01db3409.jpg",
-          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01e484b9.jpg"
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-scale-6761ab51b117e.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93cca80c.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93d34485.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93db2774.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e403bc.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e9d381.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93f1373b.jpg"
         ],
         "content": [
           {
             "t": "notion-text",
-            "x": "Figura de colección premium Hot Toys 1:6 que captura la esencia del Human Torch en Deadpool & Wolverine, con una réplica auténtica del rostro de Chris Evans y expresión facial cinematográfica de película. Destaca por su cuerpo articulado con más de 30 puntos de movimiento y accesorios de efectos de fuego intercambiables que permiten recrear dinámicas escenas de combate. Una pieza imprescindible para coleccionistas que buscan detalle excepcional, pintura manual especializada y versatilidad de poses en sus adquisiciones premium."
+            "x": "Una figura coleccionable premium de Hot Toys que captura magistralmente el icónico Robin de Chris O'Donnell en Batman & Robin, con un esculpido de cabeza de alta precisión, expresión facial detallada y función de ojo móvil giratorio. Presenta un traje negro y rojo metálico impecablemente confeccionado con capa, accesorios temáticos de la película y 30 puntos de articulación para poses dinámicas. Pieza de museo para coleccionistas exigentes que demandan autenticidad, detalles cinematográficos y versatilidad de exhibición."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: 31 cm"
+            "x": "Altura: aproximadamente 30 cm"
           },
           {
             "t": "notion-bulleted-list",
@@ -10317,67 +10315,63 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: PVC/poliuretano (cuerpo y accesorios), resina (cabeza esculpida)"
+            "x": "Material: Cabeza esculpida en poliuretano, cuerpo articulado con esqueleto interno, traje en tela especializada"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Puntos de articulación: Más de 30"
+            "x": "Articulaciones: 30 puntos de movimiento"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Peso: Aproximadamente 500-600 gramos"
+            "x": "Acabado: Pintura manual especializada en cada escultura de cabeza"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Pintura: Aplicación manual especializada"
+            "x": "Accesorios: Piezas de mano intercambiables, arma láser, herramientas de escalada y hielo"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Cabeza esculpida: Chris Evans con ojos rodantes intercambiables"
+            "x": "1 escultura de cabeza de Robin con función de ojo móvil giratorio"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "1 Cabeza esculpida Johnny Storm con ojos rodantes separados"
+            "x": "10 piezas de manos intercambiables (puños, manos relajadas, manos para dispositivo de escalada, manos para piolets de hielo, manos para pistola láser)"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "5 Manos intercambiables envueltas (relajadas, gestos, apuntando)"
+            "x": "1 traje negro y rojo metálico con capa"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "6 Manos intercambiables adicionales (puños, gestos dobles)"
+            "x": "1 cinturón de utilidad negro"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "1 Traje azul Human Torch con emblema Fantastic Four"
+            "x": "1 par de guanteletes negros y rojo metálico"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "1 Capa azul con efecto batalla desgastada y cable flexible"
+            "x": "1 par de botas negras"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "1 Par de vendajes para brazos (desmontables)"
+            "x": "1 pistola láser"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "1 Cinturón de utilidad marrón"
+            "x": "1 Throwing Bird"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "1 Pantalón de combate azul"
+            "x": "1 par de dispositivos de escalada"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "1 Par de botas de combate negras"
+            "x": "1 par de piolets de hielo"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "8 Accesorios de efectos de fuego (torbellino de fuego, 5 lenguas de fuego, efecto hombros, efecto ataque muñeca)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 Base especializada con logo de película y placa de personaje"
+            "x": "1 base de figura temática de película con placa de nombre del personaje"
           }
         ],
         "destacado": false,
