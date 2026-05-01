@@ -10281,6 +10281,114 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "human-torch-mon4jwpo",
+        "n": "Human Torch",
+        "i": "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb017b2f6b.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018149ef.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0186b2ab.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018c0e4a.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb019231f9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01bac41e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01d27608.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01db3409.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01e484b9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Hot Toys 1:6 que captura la esencia del Human Torch en Deadpool & Wolverine, con una réplica auténtica del rostro de Chris Evans y expresión facial cinematográfica de película. Destaca por su cuerpo articulado con más de 30 puntos de movimiento y accesorios de efectos de fuego intercambiables que permiten recrear dinámicas escenas de combate. Una pieza imprescindible para coleccionistas que buscan detalle excepcional, pintura manual especializada y versatilidad de poses en sus adquisiciones premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/poliuretano (cuerpo y accesorios), resina (cabeza esculpida)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximadamente 500-600 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Aplicación manual especializada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida: Chris Evans con ojos rodantes intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza esculpida Johnny Storm con ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 Manos intercambiables envueltas (relajadas, gestos, apuntando)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 Manos intercambiables adicionales (puños, gestos dobles)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Traje azul Human Torch con emblema Fantastic Four"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Capa azul con efecto batalla desgastada y cable flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de vendajes para brazos (desmontables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cinturón de utilidad marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Pantalón de combate azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de botas de combate negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 Accesorios de efectos de fuego (torbellino de fuego, 5 lenguas de fuego, efecto hombros, efecto ataque muñeca)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Base especializada con logo de película y placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-01",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "sasuke-uchiha-mon2agwu",
         "n": "Sasuke Uchiha",
         "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4212/37228/684834220_1440428958099001_1890550240967405291_n__84174.1777543954.jpg",
