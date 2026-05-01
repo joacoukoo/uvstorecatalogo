@@ -7837,9 +7837,12 @@
         "marca": "Mondo",
         "escala": "Long Play",
         "estado": "Nuevo",
-        "disp": "Vendido",
+        "disp": "Entrega Inmediata",
         "precio": "1000",
-        "cantidad": "0",
+        "precio_d": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
@@ -7862,6 +7865,8 @@
             "x": "The Batman Theme (2:38)Roof Fight (1:20)First Confrontation (4:43)Flowers (1:51)Clown Attack (1:58)Batman To the Rescue (3:56)Roasted Dude (1:04)Photos / Beautiful Dreamer (2:30)Descent Into Mystery (1:34)Batcave (2:35)The Joker’s Poem (0:57)"
           }
         ],
+        "precio_orig": "",
+        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -7874,9 +7879,7 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_009_8c4aa6d5-5b77-4373-aa63-ac7532602742.png?v=1724948926",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_001_f5f6c9f9-eddc-4866-9184-b88c0f7a1382.png?v=1724948926"
         ],
-        "id": "batman-1989-original-motion-picture-score-lp-graphic-novel-b",
-        "agotado_r": false,
-        "agotado_d": false
+        "id": "batman-1989-original-motion-picture-score-lp-graphic-novel-b"
       },
       {
         "n": "Powerpuff Girls – Action Figure Set",
@@ -10277,6 +10280,104 @@
   "Hot Toys 1:6": {
     "slug": "hot-toys-pre-ordenes",
     "products": [
+      {
+        "id": "human-torch-mon4cgtk",
+        "n": "Human Torch",
+        "i": "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb016c400a.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb016c400a.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-scale-677ebede76a56.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb017b2f6b.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018149ef.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0186b2ab.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018c0e4a.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb019231f9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de colección Human Torch de Hot Toys captura la esencia explosiva del personaje con una precisión excepcional. Cada detalle, desde la expresión facial cinematográfica hasta los efectos de fuego intercambiables, refleja el compromiso de Hot Toys con la excelencia artesanal. Una pieza imprescindible para coleccionistas de Marvel que desean poseer el poder del Antorcha Humana en su máxima expresión visual."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico ABS (cuerpo), tela (traje y capa), accesorios de resina pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 500-600 g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Una (1) cabeza esculpida de Johnny Storm con ojos rodantes intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinco (5) manos envueltas intercambiables (relajadas y de gesto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Seis (6) manos adicionales intercambiables (puños y gestos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje azul Human Torch con logo del Cuarteto Fantástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa azul con efecto de daño de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Envolturas de brazos desprendibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de utilidad marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de combate azules"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de combate negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ocho (8) accesorios de efectos de fuego (remolino de fuego, cinco lenguas de fuego, efecto de hombros, efecto de ataque en muñeca)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base especialmente diseñada con logo de película y placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-01",
+        "reserva": "760",
+        "cantidad": "1"
+      },
       {
         "id": "sasuke-uchiha-mon2agwu",
         "n": "Sasuke Uchiha",
