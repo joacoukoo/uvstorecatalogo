@@ -3,6 +3,108 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "robin-mon4pkg2",
+        "n": "Robin",
+        "i": "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-scale-6761ab51b117e.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93cca80c.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93d34485.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93db2774.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e403bc.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e9d381.jpg",
+          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93f1373b.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una figura coleccionable premium de Hot Toys que captura magistralmente el icónico Robin de Chris O'Donnell en Batman & Robin, con un esculpido de cabeza de alta precisión, expresión facial detallada y función de ojo móvil giratorio. Presenta un traje negro y rojo metálico impecablemente confeccionado con capa, accesorios temáticos de la película y 30 puntos de articulación para poses dinámicas. Pieza de museo para coleccionistas exigentes que demandan autenticidad, detalles cinematográficos y versatilidad de exhibición."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cabeza esculpida en poliuretano, cuerpo articulado con esqueleto interno, traje en tela especializada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura manual especializada en cada escultura de cabeza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: Piezas de mano intercambiables, arma láser, herramientas de escalada y hielo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 escultura de cabeza de Robin con función de ojo móvil giratorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 piezas de manos intercambiables (puños, manos relajadas, manos para dispositivo de escalada, manos para piolets de hielo, manos para pistola láser)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 traje negro y rojo metálico con capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cinturón de utilidad negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de guanteletes negros y rojo metálico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 pistola láser"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Throwing Bird"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de dispositivos de escalada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de piolets de hielo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 base de figura temática de película con placa de nombre del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-01",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "human-torch-mon61gxy",
         "n": "Human Torch",
         "i": "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
@@ -10389,108 +10491,6 @@
   "Hot Toys 1:6": {
     "slug": "hot-toys-pre-ordenes",
     "products": [
-      {
-        "id": "robin-mon4pkg2",
-        "n": "Robin",
-        "i": "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
-        "franquicia": "DC Comics",
-        "marca": "Hot Toys",
-        "escala": "1:6",
-        "disp": "Entrega Inmediata",
-        "estado": "Nuevo",
-        "precio": "3400",
-        "fotos": [
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-scale-6761ab51b117e.jpg",
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93cca80c.jpg",
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93d34485.jpg",
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93db2774.jpg",
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e403bc.jpg",
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e9d381.jpg",
-          "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93f1373b.jpg"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Una figura coleccionable premium de Hot Toys que captura magistralmente el icónico Robin de Chris O'Donnell en Batman & Robin, con un esculpido de cabeza de alta precisión, expresión facial detallada y función de ojo móvil giratorio. Presenta un traje negro y rojo metálico impecablemente confeccionado con capa, accesorios temáticos de la película y 30 puntos de articulación para poses dinámicas. Pieza de museo para coleccionistas exigentes que demandan autenticidad, detalles cinematográficos y versatilidad de exhibición."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: aproximadamente 30 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Escala: 1:6"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material: Cabeza esculpida en poliuretano, cuerpo articulado con esqueleto interno, traje en tela especializada"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Articulaciones: 30 puntos de movimiento"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Acabado: Pintura manual especializada en cada escultura de cabeza"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Accesorios: Piezas de mano intercambiables, arma láser, herramientas de escalada y hielo"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 escultura de cabeza de Robin con función de ojo móvil giratorio"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "10 piezas de manos intercambiables (puños, manos relajadas, manos para dispositivo de escalada, manos para piolets de hielo, manos para pistola láser)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 traje negro y rojo metálico con capa"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 cinturón de utilidad negro"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 par de guanteletes negros y rojo metálico"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 par de botas negras"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 pistola láser"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 Throwing Bird"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 par de dispositivos de escalada"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 par de piolets de hielo"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 base de figura temática de película con placa de nombre del personaje"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-05-01",
-        "reserva": "0",
-        "cantidad": "1"
-      },
       {
         "id": "sasuke-uchiha-mon2agwu",
         "n": "Sasuke Uchiha",
@@ -28353,6 +28353,156 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c1d5057.jpg"
         ],
         "content_ok": true
+      },
+      {
+        "n": "Robin (Batman & Robin)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
+        "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/robin-batman-robin",
+        "marca": "Hot Toys",
+        "escala": "1:6 - 30CM",
+        "estado": "Nuevo",
+        "disp": "Entrega Inmediata",
+        "precio": "3600",
+        "cantidad": "1",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Descripción\nEsta figura Sixth Scale de Robin, desarrollada por Hot Toys, está inspirada en su aparición en la película Batman & Robin, presentando al personaje interpretado por Chris O'Donnell con un alto nivel de fidelidad.\nLa pieza incorpora un head sculpt detallado con sistema de ojos móviles independientes, capturando con precisión la expresión y rasgos del personaje. Su traje ha sido confeccionado con gran atención al detalle, destacando el diseño en negro con acentos metálicos en rojo, junto con su icónica capa.\nLa figura incluye una variedad de accesorios y armas que permiten recrear distintas escenas de acción, consolidándose como una excelente adición para coleccionistas del universo DC.\nEspecificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Movie Masterpiece Series"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada Sixth Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Superhéroes / Cine"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, tela y otros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Sí (30 puntos)"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Head sculpt de Robin con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 manos intercambiables con guantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje negro con detalles metálicos en rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola láser"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Throwing Bird"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dispositivos de escalada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Picos de hielo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con nombre del personaje"
+          },
+          {
+            "t": "notion-text",
+            "x": "Características"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Likeness fiel de Chris O'Donnell como Robin"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Head sculpt con sistema de ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje detallado con acabados metálicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Amplia variedad de accesorios y armas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura altamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura aplicada con alto nivel de detalle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para coleccionistas de DC Comics"
+          }
+        ],
+        "id": "robin-batman-robin",
+        "franquicia": "DC Comics",
+        "destacado": false,
+        "oferta": false,
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93c4b06d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-scale-6761ab51b117e.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93cca80c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93d34485.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93db2774.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e403bc.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93e9d381.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93f1373b.jpg"
+        ],
+        "content_ok": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Plo Koon",
