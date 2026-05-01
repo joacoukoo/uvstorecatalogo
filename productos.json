@@ -3,6 +3,115 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "human-torch-mon61gxy",
+        "n": "Human Torch",
+        "i": "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0175c8c2.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb017b2f6b.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018149ef.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0186b2ab.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb018c0e4a.jpg",
+          "https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb019231f9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb0197df5f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01ae4a0a.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01c92c04.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01db3409.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914100/hot-toys-marvel-human-torch-sixth-scale-figure-gallery-677eb01e484b9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de colección Human Torch de Hot Toys captura la esencia ardiente del personaje de Chris Evans en Deadpool & Wolverine con un nivel de detalle cinematográfico sin igual. Con una escultura de cabeza altamente realista, expresión facial precisa y más de 30 puntos de articulación, esta pieza premium ofrece poses dinámicas y versátiles. Los efectos de fuego intercambiables y la vestimenta meticulosamente tailoreada convierten esta figura en una obra maestra imprescindible para coleccionistas exigentes de Marvel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, resina (cabeza esculpida)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 500-600g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Marvel Studios 2025"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Escultura de cabeza de Johnny Storm con ojos rodantes intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 Pares de manos intercambiables envueltas (relajadas, gestos, señalando)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 Piezas de manos intercambiables (puños, gestos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Traje azul de Human Torch con emblema del Cuarto Fantástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Capa azul con efecto de daño de batalla y alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de envolturas de brazos desprendibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cinturón utilitario marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de pantalones de combate azules"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Par de botas de combate negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 Piezas de efectos de fuego (remolino de fuego, 5 lenguas de fuego, efecto de hombro, ataque con llamas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Soporte especialmente diseñado con logo de película y placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-01",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "batman-returns-1992-deluxe-moda4hfp",
         "n": "Batman Returns 1992 Deluxe",
         "i": "https://www.sideshow.com/storage/product-images/9138082/batman-deluxe-version_dc-comics_gallery_66ed91fe3cc04.jpg",
