@@ -31211,6 +31211,108 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "the-wind-waker-final-battle-mopwgv69",
+        "n": "The Wind Waker Final Battle",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/01c6047ca607091964a17a0018b91c70.jpg?v=1777726376",
+        "franquicia": "Gaming",
+        "marca": "Kintsukuroi",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "14900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/01c6047ca607091964a17a0018b91c70.jpg?v=1777726376",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d365e5f8813095b1dabdb4c9ee9ae456.jpg?v=1777726375",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7dd7339d4621c52a001b092e4d315109.jpg?v=1777726375",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/427705f36be1ccb9cee23042fcbbfb1d.jpg?v=1777726375",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4d963eccaf6db56d367e01dc058cd77b.jpg?v=1777726376",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/09d6bcc7fa1c10a47e93f94d30016e4c.jpg?v=1777726376",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9571ec780840999428aef0b5b4fea92b.jpg?v=1777726375",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9f443d2739a9673d4061b2bc9ca6bf17.jpg?v=1777726376"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La diorama definitiva de The Wind Waker Final Battle captura el épico enfrentamiento entre Link y Ganon en una escala monumental de 1:4, presentando una escultura de colección premium con detalles cinematográficos excepcionales. Cada elemento, desde la postura dramática del personaje hasta los efectos de hielo y las intrincadas decoraciones ornamentales, refleja la maestría artesanal de Kintsukuroi Creations en la captura de momentos icónicos del gaming. Esta pieza de colección de alto valor combina escultura artística, pintura de calidad museo y efectos especiales que transforman cualquier espacio en un santuario para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina de alta calidad con pintura acrílica profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales complementarios: , pintura detallada con aplicaciones de efecto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 15-20 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: The Legend of Zelda: The Wind Waker"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Ganon en posición de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama de base temática con diseño decorativo tallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras de Link y Tetra a escala proporcional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Plataforma de batalla con efectos de hielo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos (nubes, elementos atmosféricos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Control remoto para efectos (según especificaciones del prototipo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad y certificado de colección limitada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-03",
+        "reserva": "2980",
+        "cantidad": "2"
+      },
+      {
         "id": "aries-mu-mon4e77b",
         "n": "Aries Mu",
         "i": "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff251ac26f.jpg",
