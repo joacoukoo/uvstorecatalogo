@@ -134,9 +134,7 @@ body::after{
 /* ══ NAV ══ */
 .nav{
   position:fixed;top:0;left:0;right:0;z-index:900;
-  background:rgba(7,8,13,0.92);
-  backdrop-filter:blur(20px);
-  -webkit-backdrop-filter:blur(20px);
+  background:var(--bg);
   border-bottom:1px solid var(--border);
   height:60px;
   display:flex;align-items:center;
@@ -628,7 +626,7 @@ body::after{
   transition:border-color .2s;
 }
 .search-box:focus-within{border-color:var(--purple)}
-.search-box input{background:none;border:none;outline:none;color:#fff;font-size:15px;font-family:"DM Sans",sans-serif;flex:1}
+.search-box input{background:none;border:none;outline:none;color:#fff;font-size:16px;font-family:"DM Sans",sans-serif;flex:1;min-width:0}
 /* focus indicado por .search-box:focus-within border color */
 .search-box input::placeholder{color:var(--muted)}
 .search-close-btn{background:none;border:1px solid var(--border2);color:var(--muted2);font-family:"DM Sans",sans-serif;font-size:12.5px;padding:8px 16px;border-radius:8px;cursor:pointer;transition:color .15s,border-color .15s;white-space:nowrap}
@@ -1031,7 +1029,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
     <button class="back-btn" onclick="searchGoBack()">&#8592; Volver</button>
     <div style="display:flex;align-items:center;gap:10px;background:var(--bg3);border:1px solid var(--border2);border-radius:10px;padding:12px 18px;max-width:600px;margin-top:16px;transition:border-color .2s" id="search-inline-wrap">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="search-inline-inp" placeholder="Buscar figura, marca, personaje..." oninput="doSearchInline(this.value)" autocomplete="off" style="background:none;border:none;outline:none;color:#fff;font-size:15px;font-family:'DM Sans',sans-serif;flex:1">
+      <input type="text" id="search-inline-inp" placeholder="Buscar figura, marca, personaje..." oninput="doSearchInline(this.value)" autocomplete="off" style="background:none;border:none;outline:none;color:#fff;font-size:16px;font-family:'DM Sans',sans-serif;flex:1;min-width:0">
       <button id="search-inline-clear" onclick="clearSearchInline()" style="display:none;background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;padding:0 4px">&#x2715;</button>
     </div>
     <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:1.5px;color:#fff;margin-top:20px" id="search-inline-title"></div>
