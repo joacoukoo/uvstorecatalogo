@@ -98,9 +98,11 @@ body{
   background:var(--bg);
   color:var(--text);
   font-family:"DM Sans",sans-serif;
-  min-height:100vh;
+  min-height:100vh;min-height:100dvh;
   overflow-x:hidden;
+  -webkit-tap-highlight-color:transparent;
 }
+button,a,[role="button"]{touch-action:manipulation}
 
 /* ── ATMOSPHERIC BACKGROUND ── */
 body::before{
@@ -174,6 +176,7 @@ body::after{
   color:var(--muted);font-size:14px;font-family:"DM Sans",sans-serif;
 }
 .home-search-bar:hover{border-color:var(--purple)}
+.home-search-bar:active{border-color:var(--purple);background:var(--bg4);transform:scale(0.99)}
 .home-search-bar svg{flex-shrink:0;opacity:.5}
 
 /* ══ HERO ══ */
@@ -328,6 +331,7 @@ body::after{
   transform:translateY(-6px);
   box-shadow:0 20px 60px rgba(0,0,0,0.6), 0 0 30px rgba(123,47,190,0.2), 0 0 0 1px rgba(123,47,190,0.15);
 }
+.prod-card:active{transform:scale(0.97);border-color:rgba(123,47,190,0.5);transition-duration:.08s}
 .prod-card:hover .prod-img{transform:scale(1.03)}
 .prod-img-wrap{overflow:hidden;position:relative}
 .prod-img{
@@ -1522,7 +1526,7 @@ function openSearchPage(){
   _prevPageId=(cur&&cur.id!=="search-page")?cur.id:_prevPageId;
   showPage("search-page");
   document.getElementById("nav-home").classList.remove("active");
-  setTimeout(function(){document.getElementById("search-inline-inp").focus();},100);
+  document.getElementById("search-inline-inp").focus();
 }
 function clearSearchInline(){
   document.getElementById("search-inline-inp").value="";
