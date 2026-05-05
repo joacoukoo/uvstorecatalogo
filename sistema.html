@@ -806,23 +806,16 @@ function uvDashboard() {
     async cargar() {
       this.loading = true;
       try {
-        const [ordenes, pagosAll, clientes] = await Promise.all([
+        const [ordenes, clientesCount] = await Promise.all([
           dbGetOrdenes(),
-          db.from('pagos').select('orden_id, monto').then(r => r.data || []),
           db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0)
         ]);
-
-        // Agrupar pagos por orden
-        const pagoMap = {};
-        for (const p of pagosAll) {
-          pagoMap[p.orden_id] = (pagoMap[p.orden_id] || 0) + (p.monto || 0);
-        }
 
         let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
         const estadoCount = {};
 
         for (const o of ordenes) {
-          const ab = pagoMap[o.id] || 0;
+          const ab = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
           const saldo = (o.precio_venta_gtq || 0) - ab;
           o._abonado = ab;
           o._saldo = saldo;
@@ -836,7 +829,7 @@ function uvDashboard() {
         const ordenEstados = ['reservada', 'en_proceso', 'pagada', 'entregada'];
         this.stats = {
           total: ordenes.length,
-          porCobrar, cobrado, clientes,
+          porCobrar, cobrado, clientes: clientesCount,
           ventasTotal,
           margen: ventasTotal - costoTotal,
           porEstado: ordenEstados.filter(e => estadoCount[e]).map(e => ({ estado: e, count: estadoCount[e] })),
@@ -859,16 +852,9 @@ function uvOrdenes() {
     async cargar() {
       this.loading = true;
       try {
-        const [data, pagosAll] = await Promise.all([
-          dbGetOrdenes(),
-          db.from('pagos').select('orden_id, monto').then(r => r.data || [])
-        ]);
-        const pagoMap = {};
-        for (const p of pagosAll) {
-          pagoMap[p.orden_id] = (pagoMap[p.orden_id] || 0) + (p.monto || 0);
-        }
+        const data = await dbGetOrdenes();
         for (const o of data) {
-          o._abonado = pagoMap[o.id] || 0;
+          o._abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
           o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
         }
         this.ordenes = data;
