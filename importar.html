@@ -738,20 +738,45 @@ function importApp() {
     vcfMatches: [],
     clientesDB: [],
     aplicando: false,
+    _pagosARestaurar: null,
 
     async init() {
       this.session = await dbGetSession();
     },
 
     async limpiarYImportar() {
-      if (!confirm('¿Borrar todas las órdenes y pagos actuales para reimportar desde cero?')) return;
+      if (!confirm('¿Reimportar todo desde el Excel?\n\nLos pagos manuales que registraste en el sistema se conservan automáticamente.')) return;
       this.cargando = true;
       this.error = '';
-      this.statusMsg = 'Limpiando base de datos...';
       this.estado = 'importando';
+      this.statusMsg = 'Guardando pagos manuales...';
+      this.progreso = 1;
+
       try {
+        // Guardar pagos manuales (no vinieron del Excel) con datos de su orden
+        const { data: todasOrdenes } = await db.from('ordenes')
+          .select('id, producto, cliente_id, fecha_venta, precio_venta_gtq');
+        const ordenesById = Object.fromEntries((todasOrdenes || []).map(o => [o.id, o]));
+
+        const { data: pagosManual } = await db.from('pagos').select('*')
+          .or('notas.neq.Importado,notas.is.null');
+
+        this._pagosARestaurar = (pagosManual || []).map(p => {
+          const o = ordenesById[p.orden_id];
+          if (!o) return null;
+          return {
+            monto: p.monto, tipo: p.tipo, metodo: p.metodo, fecha: p.fecha, notas: p.notas,
+            _key: `${(o.producto||'').toLowerCase()}|${o.fecha_venta}|${o.cliente_id}|${Math.round((o.precio_venta_gtq||0)*100)}`
+          };
+        }).filter(Boolean);
+
+        this.detalle = `${this._pagosARestaurar.length} pagos manuales guardados`;
+        this.progreso = 4;
+        this.statusMsg = 'Limpiando base de datos...';
         await db.from('ordenes').delete().gte('created_at', '2000-01-01');
-      } catch(e) { /* ignorar si ya está vacía */ }
+      } catch(e) {
+        this._pagosARestaurar = null;
+      }
       this.estado = 'idle';
       this.cargando = false;
       await this.descargarSheets();
@@ -960,6 +985,35 @@ function importApp() {
           } else {
             pagosCreados = insPagos.length;
           }
+        }
+
+        // ── 4. Restaurar pagos manuales ──
+        if (this._pagosARestaurar && this._pagosARestaurar.length > 0) {
+          this.statusMsg = 'Restaurando pagos manuales...';
+          const { data: newOrdenes } = await db.from('ordenes')
+            .select('id, producto, cliente_id, fecha_venta, precio_venta_gtq');
+          const newOrdenesMap = {};
+          for (const o of (newOrdenes || [])) {
+            const k = `${(o.producto||'').toLowerCase()}|${o.fecha_venta}|${o.cliente_id}|${Math.round((o.precio_venta_gtq||0)*100)}`;
+            if (!newOrdenesMap[k]) newOrdenesMap[k] = [];
+            newOrdenesMap[k].push(o.id);
+          }
+          const usedNew = {};
+          let restaurados = 0;
+          for (const p of this._pagosARestaurar) {
+            const opciones = newOrdenesMap[p._key] || [];
+            const idx = usedNew[p._key] || 0;
+            if (idx < opciones.length) {
+              await db.from('pagos').insert({
+                orden_id: opciones[idx], monto: p.monto, tipo: p.tipo,
+                metodo: p.metodo, fecha: p.fecha, notas: p.notas
+              });
+              usedNew[p._key] = idx + 1;
+              restaurados++;
+            }
+          }
+          pagosCreados += restaurados;
+          this._pagosARestaurar = null;
         }
 
         this.progreso = 100;
