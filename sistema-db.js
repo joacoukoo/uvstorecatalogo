@@ -105,7 +105,7 @@ async function dbDeleteOrden(id) {
 async function dbGetOrdenesByCliente(clienteId) {
   const { data, error } = await db
     .from('ordenes')
-    .select('*')
+    .select('*, pagos(monto)')
     .eq('cliente_id', clienteId)
     .order('created_at', { ascending: false });
   if (error) throw error;
