@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UV Store — Importar</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
+<script src="sistema-db.js"></script>
+<style>
+[x-cloak]{display:none}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:#07080d;color:#ecedf8;
+  font-family:"Segoe UI",system-ui,sans-serif;
+  min-height:100dvh;display:flex;align-items:center;justify-content:center;
+  padding:24px;
+}
+.card{
+  background:#0d0e18;border:1px solid #272840;border-radius:16px;
+  padding:40px 36px;width:100%;max-width:520px;
+}
+.logo{font-size:18px;font-weight:700;letter-spacing:2px;color:#fff;margin-bottom:4px;}
+.logo span{color:#9d5cd4;}
+h1{font-size:20px;font-weight:700;color:#fff;margin-bottom:8px;}
+p{font-size:14px;color:#848aa0;line-height:1.6;}
+.steps{list-style:none;margin:20px 0;display:flex;flex-direction:column;gap:10px;}
+.steps li{
+  background:#13141f;border:1px solid #1c1d2c;border-radius:10px;
+  padding:12px 16px;font-size:13px;color:#848aa0;
+  display:flex;align-items:center;gap:12px;
+}
+.steps li b{color:#ecedf8;}
+.step-num{
+  width:24px;height:24px;border-radius:50%;background:#7B2FBE;
+  color:#fff;font-size:12px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.upload-area{
+  border:2px dashed #272840;border-radius:12px;
+  padding:32px;text-align:center;margin:24px 0;
+  transition:border-color .2s;cursor:pointer;
+}
+.upload-area:hover,.upload-area.active{border-color:#7B2FBE;}
+.upload-area input{display:none;}
+.upload-icon{font-size:32px;margin-bottom:8px;}
+.upload-label{font-size:14px;color:#848aa0;}
+.upload-label b{color:#9d5cd4;cursor:pointer;}
+.file-selected{font-size:13px;color:#2fc76e;margin-top:8px;font-weight:600;}
+.btn{
+  width:100%;background:#7B2FBE;color:#fff;border:none;
+  border-radius:10px;padding:13px;font-size:15px;font-weight:600;
+  font-family:inherit;cursor:pointer;transition:background .15s;
+}
+.btn:hover{background:#9d5cd4;}
+.btn:disabled{opacity:.5;cursor:not-allowed;}
+.btn-ghost{
+  width:100%;background:#13141f;color:#848aa0;
+  border:1px solid #272840;border-radius:10px;padding:10px;
+  font-size:14px;font-weight:500;font-family:inherit;cursor:pointer;
+  margin-top:10px;transition:color .15s;text-decoration:none;display:block;text-align:center;
+}
+.btn-ghost:hover{color:#fff;}
+.progress-wrap{margin:24px 0;}
+.progress-label{display:flex;justify-content:space-between;margin-bottom:8px;font-size:13px;color:#848aa0;}
+.progress-bar{background:#1c1d2c;border-radius:999px;height:8px;overflow:hidden;}
+.progress-fill{height:100%;background:#7B2FBE;border-radius:999px;transition:width .3s;}
+.status-msg{font-size:13px;color:#848aa0;margin-top:10px;text-align:center;}
+.resultado{margin-top:20px;display:flex;flex-direction:column;gap:10px;}
+.res-row{
+  background:#13141f;border:1px solid #1c1d2c;border-radius:10px;
+  padding:14px 18px;display:flex;justify-content:space-between;align-items:center;
+}
+.res-label{font-size:13px;color:#848aa0;}
+.res-val{font-size:18px;font-weight:700;color:#fff;}
+.check{color:#2fc76e;font-size:20px;margin-right:8px;}
+.error-box{
+  background:rgba(230,57,70,.1);border:1px solid rgba(230,57,70,.3);
+  border-radius:10px;padding:14px;font-size:13px;color:#e63946;margin-top:16px;
+}
+</style>
+</head>
+<body>
+<div x-data="importApp()" x-cloak>
+
+  <!-- Sin sesión -->
+  <div class="card" x-show="!session">
+    <div class="logo">UV <span>STORE</span></div>
+    <p style="margin-top:16px">Para importar datos necesitás iniciar sesión primero.</p>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none;margin-top:24px">
+      Ir al sistema →
+    </a>
+  </div>
+
+  <!-- Pantalla inicial -->
+  <div class="card" x-show="session && estado==='idle'">
+    <div class="logo" style="margin-bottom:20px">UV <span>STORE</span></div>
+    <h1>Importar desde Google Sheets</h1>
+    <p>Seguí estos pasos para exportar el CSV:</p>
+    <ul class="steps">
+      <li>
+        <span class="step-num">1</span>
+        Abrí tu Google Sheet → <b>Archivo → Descargar → Valores separados por comas (.csv)</b>
+      </li>
+      <li>
+        <span class="step-num">2</span>
+        Subí el archivo descargado acá abajo
+      </li>
+      <li>
+        <span class="step-num">3</span>
+        Hacé clic en <b>Importar</b> — el proceso tarda ~30 segundos
+      </li>
+    </ul>
+
+    <div class="upload-area"
+      :class="{active: archivos.length > 0}"
+      @click="$refs.fileInput.click()"
+      @dragover.prevent="$el.classList.add('active')"
+      @dragleave="$el.classList.remove('active')"
+      @drop.prevent="handleDrop($event)">
+      <input type="file" accept=".csv" multiple x-ref="fileInput" @change="handleFile($event)">
+      <div class="upload-icon">📂</div>
+      <div class="upload-label">
+        <span x-show="archivos.length === 0">Arrastrá los CSVs acá o <b>hacé clic para seleccionar</b><br><small style="font-size:11px;opacity:.7">Podés seleccionar varios archivos a la vez (una solapa = un CSV)</small></span>
+        <div x-show="archivos.length > 0" style="text-align:left">
+          <template x-for="a in archivos" :key="a.nombre">
+            <div class="file-selected">✓ <span x-text="a.nombre"></span> — <span x-text="a.filas + ' filas'"></span></div>
+          </template>
+        </div>
+      </div>
+    </div>
+
+    <div class="error-box" x-show="error" x-text="error"></div>
+
+    <button class="btn" @click="importar()" :disabled="archivos.length === 0 || importando">
+      Importar datos
+    </button>
+    <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
+  </div>
+
+  <!-- Importando -->
+  <div class="card" x-show="session && estado==='importando'">
+    <div class="logo" style="margin-bottom:20px">UV <span>STORE</span></div>
+    <h1>Importando...</h1>
+    <div class="progress-wrap">
+      <div class="progress-label">
+        <span x-text="statusMsg"></span>
+        <span x-text="Math.round(progreso) + '%'"></span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" :style="'width:' + progreso + '%'"></div>
+      </div>
+    </div>
+    <p class="status-msg" x-text="detalle"></p>
+  </div>
+
+  <!-- Resultado -->
+  <div class="card" x-show="session && estado==='listo'">
+    <div class="logo" style="margin-bottom:20px">UV <span>STORE</span></div>
+    <h1><span class="check">✓</span>Importación completa</h1>
+    <div class="resultado">
+      <div class="res-row">
+        <span class="res-label">Clientes creados</span>
+        <span class="res-val" x-text="resultado.clientes"></span>
+      </div>
+      <div class="res-row">
+        <span class="res-label">Órdenes importadas</span>
+        <span class="res-val" x-text="resultado.ordenes"></span>
+      </div>
+      <div class="res-row">
+        <span class="res-label">Pagos registrados</span>
+        <span class="res-val" x-text="resultado.pagos"></span>
+      </div>
+      <div class="res-row" x-show="resultado.errores > 0">
+        <span class="res-label" style="color:#e63946">Filas con error</span>
+        <span class="res-val" style="color:#e63946" x-text="resultado.errores"></span>
+      </div>
+    </div>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none;margin-top:24px">
+      Ir al sistema →
+    </a>
+  </div>
+
+</div>
+
+<script>
+// ── CSV PARSER ────────────────────────────────────────────────────────
+function parseCSVLine(line) {
+  const fields = [];
+  let field = '';
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') {
+      if (inQuotes && line[i+1] === '"') { field += '"'; i++; }
+      else { inQuotes = !inQuotes; }
+    } else if (c === ',' && !inQuotes) {
+      fields.push(field);
+      field = '';
+    } else {
+      field += c;
+    }
+  }
+  fields.push(field);
+  return fields;
+}
+
+function parseCSV(text) {
+  return text
+    .split('\n')
+    .map(l => parseCSVLine(l.replace(/\r$/, '')));
+}
+
+// ── CURRENCY PARSER ───────────────────────────────────────────────────
+function parseMoney(s) {
+  if (!s || !s.trim()) return 0;
+  const str = s.trim();
+  if (/^[\$Q\s\-\. ]+$/.test(str)) return 0; // "$ -   " → 0
+  const neg = str.startsWith('-');
+  const num = parseFloat(str.replace(/[^0-9.]/g, '')) || 0;
+  return neg ? -num : num;
+}
+
+// ── ALPINE APP ────────────────────────────────────────────────────────
+function importApp() {
+  return {
+    session: null,
+    estado: 'idle',
+    archivos: [],    // [{nombre, filas, rows}]
+    totalFilas: 0,
+    progreso: 0,
+    statusMsg: '',
+    detalle: '',
+    error: '',
+    importando: false,
+    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0 },
+
+    async init() {
+      this.session = await dbGetSession();
+    },
+
+    handleFile(e) {
+      const files = Array.from(e.target.files);
+      files.forEach(f => this.procesarArchivo(f));
+    },
+
+    handleDrop(e) {
+      const files = Array.from(e.dataTransfer.files);
+      files.forEach(f => this.procesarArchivo(f));
+    },
+
+    procesarArchivo(file) {
+      this.error = '';
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const rows = parseCSV(e.target.result);
+        const data = rows.filter(r => r[1] && r[1].trim() && r[1].trim() !== 'Producto');
+        if (data.length === 0) {
+          this.error = `"${file.name}" no tiene filas válidas. Verificá que sea el CSV correcto.`;
+          return;
+        }
+        // Evitar duplicados si el archivo ya fue agregado
+        if (this.archivos.find(a => a.nombre === file.name)) return;
+        this.archivos.push({ nombre: file.name, filas: data.length, rows: data });
+        this.totalFilas = this.archivos.reduce((s, a) => s + a.filas, 0);
+      };
+      reader.readAsText(file, 'UTF-8');
+    },
+
+    async importar() {
+      this.importando = true;
+      this.estado = 'importando';
+      this.error = '';
+
+      try {
+        // Combinar todas las filas de todos los archivos
+        const rows = this.archivos.flatMap(a => a.rows);
+        let clientesCreados = 0;
+        let ordenesCreadas = 0;
+        let pagosCreados = 0;
+        let errores = 0;
+
+        // ── 1. Clientes únicos ──
+        this.statusMsg = 'Creando clientes...';
+        this.progreso = 5;
+
+        const clienteMap = {}; // nombre_lower → {nombre, whatsapp}
+        for (const r of rows) {
+          const nombre = r[14]?.trim();
+          if (nombre && !clienteMap[nombre.toLowerCase()]) {
+            clienteMap[nombre.toLowerCase()] = {
+              nombre,
+              whatsapp: r[15]?.trim() || null,
+              notas: null
+            };
+          }
+        }
+
+        const clientesArr = Object.values(clienteMap);
+        let nameToId = {};
+
+        if (clientesArr.length > 0) {
+          const { data: insertedClientes, error: cErr } = await db
+            .from('clientes')
+            .insert(clientesArr)
+            .select('id, nombre');
+
+          if (cErr) throw new Error('Error al insertar clientes: ' + cErr.message);
+          clientesCreados = insertedClientes.length;
+          for (const c of insertedClientes) {
+            nameToId[c.nombre.toLowerCase()] = c.id;
+          }
+        }
+
+        this.progreso = 15;
+        this.detalle = `${clientesCreados} clientes creados`;
+
+        // ── 2. Órdenes ──
+        this.statusMsg = 'Importando órdenes...';
+
+        const ordenesArr = [];
+        const abonadosArr = [];
+
+        for (const r of rows) {
+          const producto = r[1]?.trim();
+          if (!producto) continue;
+
+          const nombreCliente = r[14]?.trim()?.toLowerCase();
+          const precioGTQ = parseMoney(r[13]);
+          const abonado = parseMoney(r[16]);
+
+          let estado = 'reservada';
+          if (abonado > 0 && abonado >= precioGTQ) estado = 'pagada';
+          else if (abonado > 0) estado = 'en_proceso';
+
+          const pedidoRaw = r[19]?.trim() || '';
+          const pedido = (pedidoRaw === 'Si' || pedidoRaw === 'No') ? pedidoRaw : '';
+          const notas = (pedidoRaw !== 'Si' && pedidoRaw !== 'No' && pedidoRaw) ? pedidoRaw : '';
+
+          ordenesArr.push({
+            cliente_id: (nombreCliente && nameToId[nombreCliente]) || null,
+            producto,
+            codigo: r[2]?.trim() || '',
+            marca: r[3]?.trim() || '',
+            escala: r[4]?.trim() || '',
+            pedido,
+            precio_original: parseMoney(r[5]),
+            envio: parseMoney(r[6]),
+            envio_mbe: parseMoney(r[7]),
+            impuesto: parseMoney(r[8]),
+            aduana: parseMoney(r[9]),
+            arancel: parseMoney(r[10]),
+            precio_venta_usd: parseMoney(r[12]),
+            precio_venta_gtq: precioGTQ,
+            estado,
+            notas
+          });
+
+          abonadosArr.push(abonado);
+        }
+
+        // Insertar órdenes en lotes de 50
+        const LOTE = 50;
+        const pagosArr = [];
+
+        for (let i = 0; i < ordenesArr.length; i += LOTE) {
+          const lote = ordenesArr.slice(i, i + LOTE);
+          const loteAbonados = abonadosArr.slice(i, i + LOTE);
+
+          const { data: inserted, error: oErr } = await db
+            .from('ordenes')
+            .insert(lote)
+            .select('id');
+
+          if (oErr) {
+            errores += lote.length;
+          } else {
+            ordenesCreadas += inserted.length;
+            for (let j = 0; j < inserted.length; j++) {
+              if (loteAbonados[j] > 0) {
+                pagosArr.push({
+                  orden_id: inserted[j].id,
+                  monto: loteAbonados[j],
+                  tipo: 'abono',
+                  metodo: 'transferencia',
+                  notas: 'Importado'
+                });
+              }
+            }
+          }
+
+          this.progreso = 15 + Math.round(((i + LOTE) / ordenesArr.length) * 70);
+          this.detalle = `${ordenesCreadas} órdenes importadas...`;
+        }
+
+        // ── 3. Pagos ──
+        this.statusMsg = 'Registrando pagos...';
+        this.progreso = 88;
+
+        if (pagosArr.length > 0) {
+          const { data: insertedPagos, error: pErr } = await db
+            .from('pagos')
+            .insert(pagosArr)
+            .select('id');
+
+          if (pErr) {
+            // Si falla el batch, intentar uno a uno
+            for (const pago of pagosArr) {
+              const { error: p2Err } = await db.from('pagos').insert(pago);
+              if (!p2Err) pagosCreados++;
+            }
+          } else {
+            pagosCreados = insertedPagos.length;
+          }
+        }
+
+        this.progreso = 100;
+        this.resultado = { clientes: clientesCreados, ordenes: ordenesCreadas, pagos: pagosCreados, errores };
+        this.estado = 'listo';
+
+      } catch(e) {
+        this.error = 'Error: ' + e.message;
+        this.estado = 'idle';
+        this.importando = false;
+      }
+    }
+  };
+}
+</script>
+</body>
+</html>
