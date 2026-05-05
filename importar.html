@@ -228,7 +228,13 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
 
 <script>
 const SHEET_ID = '1AWT6y-oJG8egeLHu8HdvFFDBX8xIIju4RbLz9ZwHdKU';
-const SHEET_NAMES = ['ventas', 'ventas 2023', 'ventas 2024', 'ventas 2025', 'ventas 2026'];
+const SHEETS = [
+  { nombre: 'ventas',      gid: '664773405'  },
+  { nombre: 'ventas 2023', gid: '1215766378' },
+  { nombre: 'ventas 2024', gid: '526670935'  },
+  { nombre: 'ventas 2025', gid: '797259527'  },
+  { nombre: 'ventas 2026', gid: '1367456236' },
+];
 
 // ── CSV PARSER ────────────────────────────────────────────────────────
 function parseCSVLine(line) {
@@ -262,8 +268,8 @@ function parseMoney(s) {
   return neg ? -num : num;
 }
 
-async function fetchSheet(nombre) {
-  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&sheet=${encodeURIComponent(nombre)}`;
+async function fetchSheet(gid) {
+  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${gid}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
@@ -281,7 +287,7 @@ function importApp() {
     estado: 'idle',
     cargando: false,
     error: '',
-    sheets: SHEET_NAMES.map(n => ({ nombre: n, estado: 'pendiente', filas: 0, rows: [] })),
+    sheets: SHEETS.map(s => ({ nombre: s.nombre, gid: s.gid, estado: 'pendiente', filas: 0, rows: [] })),
     todasLasFilas: [],
     totalFilas: 0,
     clientesDetectados: [],
@@ -302,7 +308,7 @@ function importApp() {
       for (const s of this.sheets) {
         s.estado = 'cargando';
         try {
-          const text = await fetchSheet(s.nombre);
+          const text = await fetchSheet(s.gid);
           s.rows = extraerFilas(text);
           s.filas = s.rows.length;
           s.estado = 'ok';
