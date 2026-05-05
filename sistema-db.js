@@ -174,3 +174,8 @@ async function dbMovePago(pagoId, newOrdenId) {
   const { error } = await db.from('pagos').update({ orden_id: newOrdenId }).eq('id', pagoId);
   if (error) throw error;
 }
+
+async function dbUpdateEstadoOrden(id, estado) {
+  const { error } = await db.from('ordenes').update({ estado }).eq('id', id);
+  if (error) throw error;
+}

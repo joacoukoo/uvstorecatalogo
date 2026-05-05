@@ -406,7 +406,14 @@ button,a{touch-action:manipulation;cursor:pointer}
                     <td x-text="fmtQ(o.precio_venta_gtq)"></td>
                     <td x-text="fmtQ(o._abonado)" style="color:var(--green)"></td>
                     <td x-text="fmtQ(o._saldo)" :style="o._saldo>0?'color:var(--red)':''"></td>
-                    <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
+                    <td>
+                      <select :value="o.estado" @change="cambiarEstadoOrden(o, $event.target.value)" class="badge" :class="'badge-'+o.estado" style="border:none;cursor:pointer;font-size:12px;padding:3px 6px;border-radius:6px;font-weight:600;appearance:none;-webkit-appearance:none;background-image:none">
+                        <option value="en_proceso">en proceso</option>
+                        <option value="pagada">pagada</option>
+                        <option value="entregada">entregada</option>
+                        <option value="cancelada">cancelada</option>
+                      </select>
+                    </td>
                     <td>
                       <button class="btn-sm btn-ghost" @click="verOrden(o.id)">Ver</button>
                     </td>
@@ -475,6 +482,12 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <span style="color:var(--muted2)">Arancel (15%)</span><span x-text="fmtUSD(orden.arancel)" style="text-align:right;color:#fff"></span>
                 <span style="color:#fff;border-top:1px solid var(--border);padding-top:6px;font-weight:600">Costo estimado</span><span x-text="fmtUSD(costoEstimado)" style="text-align:right;color:#fff;border-top:1px solid var(--border);padding-top:6px;font-weight:600"></span>
                 <span style="color:var(--muted2)">Precio venta USD</span><span x-text="fmtUSD((orden.precio_venta_gtq||0)/7.9)" style="text-align:right;color:#fff"></span>
+                <template x-if="comisionTarjeta > 0">
+                  <span style="color:var(--red)">Comision tarjeta (5%)</span>
+                </template>
+                <template x-if="comisionTarjeta > 0">
+                  <span x-text="'−' + fmtQ(comisionTarjeta)" style="text-align:right;color:var(--red)"></span>
+                </template>
               </div>
             </div>
 
@@ -554,7 +567,8 @@ button,a{touch-action:manipulation;cursor:pointer}
                     <select class="form-select" x-model="formPago.metodo" style="font-size:16px">
                       <option value="transferencia">Transferencia</option>
                       <option value="efectivo">Efectivo</option>
-                      <option value="deposito">Depósito</option>
+                      <option value="deposito">Deposito</option>
+                      <option value="tarjeta">Tarjeta (−5%)</option>
                     </select></div>
                 </div>
                 <div class="form-row">
@@ -1131,6 +1145,12 @@ function uvOrdenes() {
       document.dispatchEvent(new CustomEvent('ver-orden', { detail: id }));
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
     },
+    async cambiarEstadoOrden(o, nuevoEstado) {
+      const prev = o.estado;
+      o.estado = nuevoEstado;
+      try { await dbUpdateEstadoOrden(o.id, nuevoEstado); }
+      catch(e) { o.estado = prev; alert('Error: ' + e.message); }
+    },
     fmtQ, fmtDate
   };
 }
@@ -1140,6 +1160,7 @@ function uvClientes() {
   return {
     clientes: [], loading: true, busqueda: '',
     modal: false, guardando: false,
+    clienteSel: null, ordenesCliente: [], cargandoOrdenes: false,
     form: { id: null, nombre: '', whatsapp: '', notas: '' },
     async init() { await this.cargar(); },
     async cargar() {
@@ -1172,7 +1193,6 @@ function uvClientes() {
       try { await dbDeleteCliente(id); await this.cargar(); }
       catch(e) { alert('Error: ' + e.message); }
     },
-    clienteSel: null, ordenesCliente: [], cargandoOrdenes: false,
     async verCliente(c) {
       this.clienteSel = c;
       this.cargandoOrdenes = true;
@@ -1394,9 +1414,12 @@ function uvDetalleOrden() {
     get abonado() { return calcAbonado(this.pagos); },
     get saldo() { return this.orden ? calcSaldo(this.orden, this.pagos) : 0; },
     get costoEstimado() { return this.orden ? calcCostoEstimado(this.orden) : 0; },
+    get comisionTarjeta() {
+      return this.pagos.filter(p => p.metodo === 'tarjeta').reduce((s, p) => s + (p.monto || 0), 0) * 0.05;
+    },
     get gananciaEstimada() {
       if (!this.orden) return 0;
-      return ((this.orden.precio_venta_gtq||0) / 7.9) - this.costoEstimado;
+      return ((this.orden.precio_venta_gtq||0) / 7.9) - this.costoEstimado - (this.comisionTarjeta / 7.9);
     },
     get fechaOrden() {
       return this.orden ? fmtDate(this.orden.created_at) : '';
