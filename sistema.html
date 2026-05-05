@@ -437,6 +437,12 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <span class="badge" :class="'badge-'+orden.estado" x-text="orden.estado.replace('_',' ')"></span>
                 <span style="font-size:12px;color:var(--muted2)" x-text="'Creada el ' + fechaOrden"></span>
               </div>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px">
+                <button class="btn-sm" :class="orden.estado==='en_proceso'?'btn-purple':'btn-ghost'" @click="cambiarEstado('en_proceso')">En proceso</button>
+                <button class="btn-sm" :class="orden.estado==='pagada'?'btn-purple':'btn-ghost'" @click="cambiarEstado('pagada')">Pagada</button>
+                <button class="btn-sm" :class="orden.estado==='entregada'?'btn-purple':'btn-ghost'" @click="cambiarEstado('entregada')">Entregada</button>
+                <button class="btn-sm" :class="orden.estado==='cancelada'?'btn-danger':'btn-ghost'" @click="cambiarEstado('cancelada')">Cancelada</button>
+              </div>
             </div>
 
             <div class="stats-grid" style="grid-template-columns:repeat(2,1fr);margin-bottom:24px">
@@ -455,6 +461,20 @@ button,a{touch-action:manipulation;cursor:pointer}
               <div class="stat-card">
                 <div class="stat-label">Ganancia est.</div>
                 <div class="stat-value" :style="gananciaEstimada>=0?'color:var(--green)':'color:var(--red)'" x-text="fmtUSD(gananciaEstimada)"></div>
+              </div>
+            </div>
+
+            <div class="card" style="margin-bottom:16px;padding:16px 20px">
+              <div style="font-size:11px;color:var(--muted2);margin-bottom:10px;font-weight:600;letter-spacing:.05em">DESGLOSE DE COSTOS</div>
+              <div style="display:grid;grid-template-columns:1fr auto;gap:6px 16px;font-size:13px">
+                <span style="color:var(--muted2)">Precio original</span><span x-text="fmtUSD(orden.precio_original)" style="text-align:right;color:#fff"></span>
+                <span style="color:var(--muted2)">Envío int.</span><span x-text="fmtUSD(orden.envio)" style="text-align:right;color:#fff"></span>
+                <span style="color:var(--muted2)">Envío MBE</span><span x-text="fmtUSD(orden.envio_mbe)" style="text-align:right;color:#fff"></span>
+                <span style="color:var(--muted2)">Impuesto</span><span x-text="fmtUSD(orden.impuesto)" style="text-align:right;color:#fff"></span>
+                <span style="color:var(--muted2)">Aduana (12%)</span><span x-text="fmtUSD(orden.aduana)" style="text-align:right;color:#fff"></span>
+                <span style="color:var(--muted2)">Arancel (15%)</span><span x-text="fmtUSD(orden.arancel)" style="text-align:right;color:#fff"></span>
+                <span style="color:#fff;border-top:1px solid var(--border);padding-top:6px;font-weight:600">Costo estimado</span><span x-text="fmtUSD(costoEstimado)" style="text-align:right;color:#fff;border-top:1px solid var(--border);padding-top:6px;font-weight:600"></span>
+                <span style="color:var(--muted2)">Precio venta USD</span><span x-text="fmtUSD((orden.precio_venta_gtq||0)/7.9)" style="text-align:right;color:#fff"></span>
               </div>
             </div>
 
@@ -724,12 +744,37 @@ button,a{touch-action:manipulation;cursor:pointer}
               <tbody>
                 <template x-for="c in clientesFiltrados" :key="c.id">
                   <tr>
-                    <td x-text="c.nombre" style="color:#fff;font-weight:500"></td>
+                    <td><span x-text="c.nombre" style="color:var(--pl);font-weight:500;cursor:pointer" @click="verCliente(c)"></span></td>
                     <td x-text="c.whatsapp||'—'" style="color:var(--muted2)"></td>
                     <td style="display:flex;gap:8px">
                       <button class="btn-sm btn-ghost" @click="abrirFormCliente(c)">Editar</button>
                       <button class="btn-sm btn-danger" @click="eliminarCliente(c.id)">Eliminar</button>
                     </td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Historial de cliente -->
+        <div class="card" x-show="clienteSel" style="margin-top:16px">
+          <div class="card-header">
+            <span class="card-title" x-text="clienteSel?.nombre + ' — Historial'"></span>
+            <button class="btn-sm btn-ghost" @click="clienteSel=null">✕</button>
+          </div>
+          <div x-show="cargandoOrdenes" style="padding:20px;color:var(--muted2)">Cargando...</div>
+          <div x-show="!cargandoOrdenes && ordenesCliente.length===0" class="empty" style="padding:24px"><p>Sin órdenes registradas</p></div>
+          <div x-show="!cargandoOrdenes && ordenesCliente.length>0">
+            <table class="table">
+              <thead><tr><th>Producto</th><th>Estado</th><th>Precio</th><th></th></tr></thead>
+              <tbody>
+                <template x-for="o in ordenesCliente" :key="o.id">
+                  <tr>
+                    <td x-text="o.producto" style="color:#fff;font-weight:500"></td>
+                    <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
+                    <td x-text="fmtQ(o.precio_venta_gtq)" style="color:var(--green)"></td>
+                    <td><button class="btn-sm btn-ghost" @click="$dispatch('ver-orden',o.id);$dispatch('go-to','detalle-orden')">Ver</button></td>
                   </tr>
                 </template>
               </tbody>
@@ -1126,7 +1171,15 @@ function uvClientes() {
       if (!confirm('¿Eliminar este cliente? También se eliminarán sus órdenes.')) return;
       try { await dbDeleteCliente(id); await this.cargar(); }
       catch(e) { alert('Error: ' + e.message); }
-    }
+    },
+    clienteSel: null, ordenesCliente: [], cargandoOrdenes: false,
+    async verCliente(c) {
+      this.clienteSel = c;
+      this.cargandoOrdenes = true;
+      try { this.ordenesCliente = await dbGetOrdenesByCliente(c.id); }
+      finally { this.cargandoOrdenes = false; }
+    },
+    fmtQ, fmtDate
   };
 }
 
@@ -1395,6 +1448,15 @@ function uvDetalleOrden() {
         this.modalMoverPago = false;
       } catch(e) { alert('Error: ' + e.message); }
       finally { this.moviendoPago = false; }
+    },
+    async cambiarEstado(nuevoEstado) {
+      if (this.orden.estado === nuevoEstado) return;
+      if (!confirm(`¿Cambiar estado a "${nuevoEstado.replace('_',' ')}"?`)) return;
+      try {
+        await dbSaveOrden({ ...this.orden, estado: nuevoEstado });
+        this.orden.estado = nuevoEstado;
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
+      } catch(e) { alert('Error: ' + e.message); }
     },
     editarOrden() {
       document.dispatchEvent(new CustomEvent('editar-orden', { detail: this.orden.id }));
