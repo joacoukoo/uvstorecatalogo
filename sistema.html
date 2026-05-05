@@ -773,8 +773,12 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
           </div>
 
+          <div x-show="soloAnual" class="hint-box" style="margin-bottom:16px">
+            Este año no tiene desglose mensual — se importó como año completo.
+          </div>
+
           <!-- Gráfico de barras por mes -->
-          <div class="card" style="padding:24px;margin-bottom:24px">
+          <div class="card" x-show="!soloAnual" style="padding:24px;margin-bottom:24px">
             <div class="card-title" style="margin-bottom:20px">Ventas por mes</div>
             <div style="display:grid;grid-template-columns:repeat(12,1fr);gap:8px;align-items:end;height:120px">
               <template x-for="m in meses" :key="m.mes">
@@ -790,7 +794,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
 
           <!-- Tabla mensual -->
-          <div class="card">
+          <div class="card" x-show="!soloAnual">
             <div class="card-header"><span class="card-title">Detalle mensual</span></div>
             <div style="overflow-x:auto">
               <table class="table">
@@ -1087,6 +1091,7 @@ function uvMetricas() {
     anios: [],
     anioSel: new Date().getFullYear(),
     meses: [],
+    soloAnual: false,
     resumen: { ordenes:0, ventas:0, cobrado:0, margen:0 },
 
     async init() {
@@ -1113,14 +1118,23 @@ function uvMetricas() {
       let totalOrdenes=0, totalVentas=0, totalCobrado=0, totalCosto=0;
 
       for (const o of this._ordenes) {
-        const fecha = new Date(o.created_at);
-        if (fecha.getFullYear() !== anio) continue;
-        const mes = fecha.getMonth();
+        let anioOrden, mesOrden;
+        if (o.fecha_venta) {
+          const p = o.fecha_venta.split('-');
+          anioOrden = parseInt(p[0]);
+          mesOrden  = parseInt(p[1]) - 1;
+        } else {
+          const f = new Date(o.created_at);
+          anioOrden = f.getFullYear();
+          mesOrden  = f.getMonth();
+        }
+        if (anioOrden !== anio) continue;
+
         const ab = (o.pagos || []).reduce((s,p) => s + (p.monto||0), 0);
-        byMes[mes].ordenes++;
-        byMes[mes].ventas += o.precio_venta_gtq || 0;
-        byMes[mes].cobrado += ab;
-        byMes[mes].porCobrar += Math.max(0, (o.precio_venta_gtq||0) - ab);
+        byMes[mesOrden].ordenes++;
+        byMes[mesOrden].ventas += o.precio_venta_gtq || 0;
+        byMes[mesOrden].cobrado += ab;
+        byMes[mesOrden].porCobrar += Math.max(0, (o.precio_venta_gtq||0) - ab);
         totalOrdenes++;
         totalVentas += o.precio_venta_gtq || 0;
         totalCobrado += ab;
@@ -1128,6 +1142,8 @@ function uvMetricas() {
       }
 
       const maxVentas = Math.max(...byMes.map(m => m.ventas), 1);
+      const mesesConDatos = byMes.filter(m => m.ordenes > 0).length;
+      this.soloAnual = mesesConDatos <= 1;
       this.meses = byMes.map(m => ({ ...m, pct: Math.round(m.ventas / maxVentas * 100) }));
       this.resumen = { ordenes: totalOrdenes, ventas: totalVentas, cobrado: totalCobrado, margen: totalVentas - totalCosto };
     },

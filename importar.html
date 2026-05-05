@@ -503,11 +503,11 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
 <script>
 const SHEET_ID = '1AWT6y-oJG8egeLHu8HdvFFDBX8xIIju4RbLz9ZwHdKU';
 const SHEETS = [
-  { nombre: 'ventas',      gid: '664773405'  },
-  { nombre: 'ventas 2023', gid: '1215766378' },
-  { nombre: 'ventas 2024', gid: '526670935'  },
-  { nombre: 'ventas 2025', gid: '797259527'  },
-  { nombre: 'ventas 2026', gid: '1367456236' },
+  { nombre: 'ventas',      gid: '664773405',  anio: 2022 },
+  { nombre: 'ventas 2023', gid: '1215766378', anio: 2023 },
+  { nombre: 'ventas 2024', gid: '526670935',  anio: 2024 },
+  { nombre: 'ventas 2025', gid: '797259527',  anio: 2025 },
+  { nombre: 'ventas 2026', gid: '1367456236', anio: 2026 },
 ];
 
 // ── CSV PARSER ────────────────────────────────────────────────────────
@@ -552,6 +552,23 @@ async function fetchSheet(gid) {
 function extraerFilas(text) {
   const rows = parseCSV(text);
   return rows.filter(r => r[1] && r[1].trim() && r[1].trim() !== 'Producto');
+}
+
+// Versión con tracking de mes: fila vacía = cierre de mes
+function extraerFilasConMeses(text, anio) {
+  const rows = parseCSV(text);
+  const result = [];
+  let mes = 1, hayDatos = false;
+  for (const r of rows) {
+    const prod = r[1]?.trim();
+    if (!prod || prod === 'Producto') {
+      if (hayDatos) { mes++; hayDatos = false; }
+      continue;
+    }
+    result.push({ row: r, mes, anio });
+    hayDatos = true;
+  }
+  return result;
 }
 
 // ── PHONE NORMALIZER ─────────────────────────────────────────────────
@@ -655,7 +672,7 @@ function importApp() {
     estado: 'idle',
     cargando: false,
     error: '',
-    sheets: SHEETS.map(s => ({ nombre: s.nombre, gid: s.gid, estado: 'pendiente', filas: 0, rows: [] })),
+    sheets: SHEETS.map(s => ({ nombre: s.nombre, gid: s.gid, anio: s.anio, estado: 'pendiente', filas: 0, rows: [] })),
     todasLasFilas: [],
     totalFilas: 0,
     clientesDetectados: [],
@@ -688,7 +705,7 @@ function importApp() {
         s.estado = 'cargando';
         try {
           const text = await fetchSheet(s.gid);
-          s.rows = extraerFilas(text);
+          s.rows = extraerFilasConMeses(text, s.anio);
           s.filas = s.rows.length;
           s.estado = 'ok';
         } catch(e) {
@@ -710,8 +727,8 @@ function importApp() {
 
       // Detectar clientes únicos
       const clienteMap = {};
-      for (const r of this.todasLasFilas) {
-        const nombre = r[14]?.trim() || '';
+      for (const fila of this.todasLasFilas) {
+        const nombre = fila.row[14]?.trim() || '';
         const key = nombre.toLowerCase();
         if (!clienteMap[key]) {
           clienteMap[key] = { original: nombre, normalizado: nombre, ordenes: 0 };
@@ -795,7 +812,8 @@ function importApp() {
         const ordenesArr = [];
         const abonadosArr = [];
 
-        for (const r of rows) {
+        for (const fila of rows) {
+          const r = fila.row;
           const producto = r[1]?.trim();
           if (!producto) continue;
 
@@ -803,14 +821,14 @@ function importApp() {
           const normInfo = normMap[originalNombre.toLowerCase()];
           const nombreNorm = (normInfo?.normalizado || originalNombre).toLowerCase();
           const precioGTQ = parseMoney(r[13]);
-          const abonado = parseMoney(r[15]);  // r[15] = abonado
+          const abonado = parseMoney(r[15]);
 
           let estado = 'reservada';
           if (abonado > 0 && abonado >= precioGTQ) estado = 'pagada';
           else if (abonado > 0) estado = 'en_proceso';
 
-          const pedido = r[18]?.trim() || '';  // r[18] = proveedor
-          const notas = '';
+          const mesStr = String(fila.mes).padStart(2, '0');
+          const fecha_venta = `${fila.anio}-${mesStr}-01`;
 
           ordenesArr.push({
             cliente_id: nameToId[nombreNorm] || null,
@@ -818,7 +836,7 @@ function importApp() {
             codigo: r[2]?.trim() || '',
             marca: r[3]?.trim() || '',
             escala: r[4]?.trim() || '',
-            pedido,
+            pedido: r[18]?.trim() || '',
             precio_original: parseMoney(r[5]),
             envio: parseMoney(r[6]),
             envio_mbe: parseMoney(r[7]),
@@ -828,7 +846,8 @@ function importApp() {
             precio_venta_usd: parseMoney(r[12]),
             precio_venta_gtq: precioGTQ,
             estado,
-            notas
+            notas: '',
+            fecha_venta
           });
           abonadosArr.push(abonado);
         }
