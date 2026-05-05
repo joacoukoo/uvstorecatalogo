@@ -719,10 +719,26 @@ function importApp() {
         clienteMap[key].ordenes++;
       }
 
-      // Ordenar por nombre
-      this.clientesDetectados = Object.values(clienteMap)
+      // Pre-llenar normalizado con el mejor match del sistema existente
+      const { data: clientesExistentes } = await db.from('clientes').select('nombre');
+      const nombresExistentes = (clientesExistentes || []).map(c => c.nombre);
+
+      const detectados = Object.values(clienteMap)
         .sort((a, b) => a.original.localeCompare(b.original, 'es'));
 
+      if (nombresExistentes.length > 0) {
+        for (const c of detectados) {
+          const tokensOrig = normTokens(c.original);
+          let bestNombre = c.original, bestConf = 0;
+          for (const n of nombresExistentes) {
+            const conf = jaccard(tokensOrig, normTokens(n));
+            if (conf > bestConf) { bestConf = conf; bestNombre = n; }
+          }
+          if (bestConf >= 0.5) c.normalizado = bestNombre;
+        }
+      }
+
+      this.clientesDetectados = detectados;
       this.cargando = false;
       this.estado = 'revisar-clientes';
     },
