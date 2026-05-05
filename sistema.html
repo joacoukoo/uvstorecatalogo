@@ -758,7 +758,7 @@ button,a{touch-action:manipulation;cursor:pointer}
               <tbody>
                 <template x-for="c in clientesFiltrados" :key="c.id">
                   <tr>
-                    <td><span x-text="c.nombre" style="color:var(--pl);font-weight:500;cursor:pointer" @click="verCliente(c)"></span></td>
+                    <td><button class="btn-sm btn-ghost" style="color:var(--pl);font-weight:600;background:none;border:none;padding:0;text-align:left" @click="verCliente(c)" x-text="c.nombre"></button></td>
                     <td x-text="c.whatsapp||'—'" style="color:var(--muted2)"></td>
                     <td style="display:flex;gap:8px">
                       <button class="btn-sm btn-ghost" @click="abrirFormCliente(c)">Editar</button>
@@ -771,28 +771,28 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
         </div>
 
-        <!-- Historial de cliente -->
-        <div class="card" x-show="mostrarHistorial" style="margin-top:16px">
-          <div class="card-header">
-            <span class="card-title" x-text="clienteSel ? clienteSel.nombre + ' - Historial' : ''"></span>
-            <button class="btn-sm btn-ghost" @click="mostrarHistorial=false;clienteSel=null">&#10005;</button>
-          </div>
-          <div x-show="cargandoOrdenes" style="padding:20px;color:var(--muted2)">Cargando...</div>
-          <div x-show="!cargandoOrdenes && ordenesCliente.length===0" class="empty" style="padding:24px"><p>Sin ordenes registradas</p></div>
-          <div x-show="!cargandoOrdenes && ordenesCliente.length>0">
-            <table class="table">
-              <thead><tr><th>Producto</th><th>Estado</th><th>Precio</th><th></th></tr></thead>
-              <tbody>
-                <template x-for="o in ordenesCliente" :key="o.id">
-                  <tr>
-                    <td x-text="o.producto" style="color:#fff;font-weight:500"></td>
-                    <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
-                    <td x-text="fmtQ(o.precio_venta_gtq)" style="color:var(--green)"></td>
-                    <td><button class="btn-sm btn-ghost" @click="$dispatch('ver-orden',o.id);$dispatch('go-to','detalle-orden')">Ver</button></td>
-                  </tr>
-                </template>
-              </tbody>
-            </table>
+        <!-- Modal Historial de cliente -->
+        <div class="modal-bg" :class="{open:modalHistorial}" @click.self="modalHistorial=false">
+          <div class="modal" style="max-width:620px;width:100%">
+            <button class="modal-close" @click="modalHistorial=false">&#10005;</button>
+            <div class="modal-title" x-text="clienteSel ? clienteSel.nombre + ' — Historial' : 'Historial'"></div>
+            <div x-show="cargandoOrdenes" style="padding:16px 0;color:var(--muted2)">Cargando...</div>
+            <div x-show="!cargandoOrdenes && ordenesCliente.length===0" style="padding:16px 0;color:var(--muted2)">Sin ordenes registradas</div>
+            <div x-show="!cargandoOrdenes && ordenesCliente.length>0" style="overflow-x:auto">
+              <table class="table">
+                <thead><tr><th>Producto</th><th>Estado</th><th>Precio</th><th></th></tr></thead>
+                <tbody>
+                  <template x-for="o in ordenesCliente" :key="o.id">
+                    <tr>
+                      <td x-text="o.producto" style="color:#fff;font-weight:500"></td>
+                      <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
+                      <td x-text="fmtQ(o.precio_venta_gtq)" style="color:var(--green)"></td>
+                      <td><button class="btn-sm btn-ghost" @click="modalHistorial=false;$dispatch('ver-orden',o.id);$dispatch('go-to','detalle-orden')">Ver</button></td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
 
@@ -1160,7 +1160,7 @@ function uvClientes() {
   return {
     clientes: [], loading: true, busqueda: '',
     modal: false, guardando: false,
-    mostrarHistorial: false, clienteSel: null, ordenesCliente: [], cargandoOrdenes: false,
+    modalHistorial: false, clienteSel: null, ordenesCliente: [], cargandoOrdenes: false,
     form: { id: null, nombre: '', whatsapp: '', notas: '' },
     async init() { await this.cargar(); },
     async cargar() {
@@ -1195,7 +1195,7 @@ function uvClientes() {
     },
     async verCliente(c) {
       this.clienteSel = c;
-      this.mostrarHistorial = true;
+      this.modalHistorial = true;
       this.cargandoOrdenes = true;
       this.ordenesCliente = [];
       try { this.ordenesCliente = await dbGetOrdenesByCliente(c.id); }
