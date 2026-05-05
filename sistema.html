@@ -772,10 +772,10 @@ button,a{touch-action:manipulation;cursor:pointer}
         </div>
 
         <!-- Historial de cliente -->
-        <div class="card" x-show="clienteSel" style="margin-top:16px">
+        <div class="card" x-show="mostrarHistorial" style="margin-top:16px">
           <div class="card-header">
             <span class="card-title" x-text="clienteSel ? clienteSel.nombre + ' - Historial' : ''"></span>
-            <button class="btn-sm btn-ghost" @click="clienteSel=null">&#10005;</button>
+            <button class="btn-sm btn-ghost" @click="mostrarHistorial=false;clienteSel=null">&#10005;</button>
           </div>
           <div x-show="cargandoOrdenes" style="padding:20px;color:var(--muted2)">Cargando...</div>
           <div x-show="!cargandoOrdenes && ordenesCliente.length===0" class="empty" style="padding:24px"><p>Sin ordenes registradas</p></div>
@@ -1160,7 +1160,7 @@ function uvClientes() {
   return {
     clientes: [], loading: true, busqueda: '',
     modal: false, guardando: false,
-    clienteSel: null, ordenesCliente: [], cargandoOrdenes: false,
+    mostrarHistorial: false, clienteSel: null, ordenesCliente: [], cargandoOrdenes: false,
     form: { id: null, nombre: '', whatsapp: '', notas: '' },
     async init() { await this.cargar(); },
     async cargar() {
@@ -1195,8 +1195,11 @@ function uvClientes() {
     },
     async verCliente(c) {
       this.clienteSel = c;
+      this.mostrarHistorial = true;
       this.cargandoOrdenes = true;
+      this.ordenesCliente = [];
       try { this.ordenesCliente = await dbGetOrdenesByCliente(c.id); }
+      catch(e) { alert('Error: ' + e.message); }
       finally { this.cargandoOrdenes = false; }
     },
     fmtQ, fmtDate
