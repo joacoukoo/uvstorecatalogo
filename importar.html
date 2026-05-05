@@ -562,7 +562,7 @@ function extraerFilasConMeses(text, anio) {
   for (const r of rows) {
     const prod = r[1]?.trim();
     if (!prod || prod === 'Producto') {
-      if (hayDatos) { mes++; hayDatos = false; }
+      if (hayDatos && mes < 12) { mes++; hayDatos = false; }
       continue;
     }
     result.push({ row: r, mes, anio });
