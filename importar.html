@@ -129,7 +129,11 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
     <p>Después vas a poder revisar y corregir los nombres de los clientes antes de guardar.</p>
     <div class="error-box" x-show="error" x-text="error"></div>
     <button class="btn" @click="descargarSheets()" :disabled="cargando">
-      <span x-text="cargando ? 'Descargando...' : 'Descargar hojas'"></span>
+      <span x-text="cargando ? 'Descargando...' : 'Descargar hojas e importar'"></span>
+    </button>
+    <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
+      @click="estado='sync-standalone'" :disabled="cargando">
+      📱 Solo actualizar WhatsApp
     </button>
     <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
   </div>
@@ -219,9 +223,27 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
         <span class="res-val" style="color:#e63946" x-text="resultado.errores"></span>
       </div>
     </div>
-    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none">
+    <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0;margin-top:4px"
+      @click="syncWhatsapp()" :disabled="syncando">
+      <span x-text="syncando ? 'Actualizando...' : '📱 Sincronizar WhatsApp desde la hoja'"></span>
+    </button>
+    <div x-show="syncMsg" style="margin-top:12px;font-size:13px;color:#2fc76e;text-align:center" x-text="syncMsg"></div>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none;margin-top:4px">
       Ir al sistema →
     </a>
+  </div>
+
+  <!-- Sync whatsapp standalone (acceso directo) -->
+  <div class="card" x-show="session && estado==='sync-standalone'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1>📱 Sincronizar WhatsApp</h1>
+    <p>Descarga las 5 solapas y actualiza el número de cada cliente en el sistema.</p>
+    <div class="error-box" x-show="error" x-text="error"></div>
+    <div x-show="syncMsg" style="margin-top:12px;font-size:13px;color:#2fc76e" x-text="syncMsg"></div>
+    <button class="btn" @click="syncWhatsapp()" :disabled="syncando" style="margin-top:20px">
+      <span x-text="syncando ? 'Actualizando...' : 'Actualizar WhatsApp'"></span>
+    </button>
+    <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
   </div>
 
 </div>
@@ -295,6 +317,8 @@ function importApp() {
     statusMsg: '',
     detalle: '',
     resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0 },
+    syncando: false,
+    syncMsg: '',
 
     async init() {
       this.session = await dbGetSession();
@@ -498,6 +522,52 @@ function importApp() {
       } catch(e) {
         this.error = 'Error: ' + e.message;
         this.estado = 'revisar-clientes';
+      }
+    },
+
+    async syncWhatsapp() {
+      this.syncando = true;
+      this.syncMsg = '';
+      this.error = '';
+      try {
+        // Descargar todas las hojas
+        const allRows = [];
+        for (const s of SHEETS) {
+          try {
+            const text = await fetchSheet(s.gid);
+            allRows.push(...extraerFilas(text));
+          } catch(e) { /* skip failed sheets */ }
+        }
+
+        // Construir mapa nombre → mejor whatsapp disponible
+        const waMap = {}; // nombre_lower → whatsapp
+        for (const r of allRows) {
+          const nombre = r[14]?.trim();
+          const tel = r[15]?.trim();
+          if (nombre && tel) {
+            waMap[nombre.toLowerCase()] = tel;
+          }
+        }
+
+        // Obtener todos los clientes del sistema
+        const { data: clientes, error: cErr } = await db.from('clientes').select('id, nombre, whatsapp');
+        if (cErr) throw new Error(cErr.message);
+
+        // Actualizar los que tienen número en la hoja
+        let actualizados = 0;
+        for (const c of clientes) {
+          const tel = waMap[c.nombre.toLowerCase()];
+          if (tel && tel !== c.whatsapp) {
+            await db.from('clientes').update({ whatsapp: tel }).eq('id', c.id);
+            actualizados++;
+          }
+        }
+
+        this.syncMsg = `✓ ${actualizados} clientes actualizados con su número de WhatsApp`;
+      } catch(e) {
+        this.error = 'Error: ' + e.message;
+      } finally {
+        this.syncando = false;
       }
     }
   };
