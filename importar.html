@@ -863,6 +863,7 @@ function importApp() {
 
           const { data: ins, error: oErr } = await db.from('ordenes').insert(lote).select('id');
           if (oErr) {
+            if (errores === 0) throw new Error('Error insertando órdenes: ' + oErr.message);
             errores += lote.length;
           } else {
             ordenesCreadas += ins.length;
