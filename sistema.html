@@ -837,7 +837,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
             <div class="stat-card">
               <div class="stat-label">Ganancia neta est.</div>
-              <div class="stat-value" :class="resumen.margen>=0?'green':'red'" x-text="fmtQ(resumen.margen)"></div>
+              <div class="stat-value" :class="resumen.margen>=0?'green':'red'" x-text="fmtUSD(resumen.margen)"></div>
             </div>
           </div>
 
@@ -904,7 +904,7 @@ button,a{touch-action:manipulation;cursor:pointer}
               <div style="padding:10px 16px;font-size:13px;color:var(--muted2);border-bottom:1px solid var(--border);display:flex;gap:24px">
                 <span>Órdenes: <b style="color:#fff" x-text="ordenesDelMes.length"></b></span>
                 <span>Ventas: <b style="color:#fff" x-text="fmtQ(ordenesDelMes.reduce((s,o)=>s+(o.precio_venta_gtq||0),0))"></b></span>
-                <span>Ganancia: <b style="color:var(--green)" x-text="fmtQ(ordenesDelMes.reduce((s,o)=>s+(o._ganancia||0),0))"></b></span>
+                <span>Ganancia: <b style="color:var(--green)" x-text="fmtUSD(ordenesDelMes.reduce((s,o)=>s+(o._ganancia||0),0))"></b></span>
               </div>
               <table class="table">
                 <thead><tr><th>Producto</th><th>Cliente</th><th>Precio</th><th>Ganancia est.</th><th>Abonado</th><th>Saldo</th><th>Estado</th></tr></thead>
@@ -917,7 +917,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                       </td>
                       <td style="color:var(--muted2)" x-text="o.clientes?.nombre||'—'"></td>
                       <td x-text="fmtQ(o.precio_venta_gtq)"></td>
-                      <td :style="o._ganancia>=0?'color:var(--green)':'color:var(--red)'" x-text="fmtQ(o._ganancia)"></td>
+                      <td :style="o._ganancia>=0?'color:var(--green)':'color:var(--red)'" x-text="fmtUSD(o._ganancia)"></td>
                       <td style="color:var(--green)" x-text="fmtQ(o._abonado)"></td>
                       <td :style="o._saldo>0?'color:var(--red)':''" x-text="fmtQ(o._saldo)"></td>
                       <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
@@ -1276,7 +1276,7 @@ function uvMetricas() {
         const ab = (o.pagos || []).reduce((s,p) => s + (p.monto||0), 0);
         o._abonado = ab;
         o._saldo   = Math.max(0, (o.precio_venta_gtq||0) - ab);
-        o._ganancia = (o.precio_venta_gtq||0) - calcCostoEstimado(o);
+        o._ganancia = ((o.precio_venta_gtq||0) / 7.9) - calcCostoEstimado(o);
 
         let anioOrden, mesOrden;
         if (o.fecha_venta) {
@@ -1304,7 +1304,7 @@ function uvMetricas() {
       const mesesConDatos = byMes.filter(m => m.ordenes > 0).length;
       this.soloAnual = mesesConDatos <= 1;
       this.meses = byMes.map(m => ({ ...m, pct: Math.round(m.ventas / maxVentas * 100) }));
-      this.resumen = { ordenes: totalOrdenes, ventas: totalVentas, cobrado: totalCobrado, margen: totalVentas - totalCosto };
+      this.resumen = { ordenes: totalOrdenes, ventas: totalVentas, cobrado: totalCobrado, margen: (totalVentas / 7.9) - totalCosto };
     },
 
     selMes(m) { this.mesSel = this.mesSel?.mes === m.mes ? null : m; },
@@ -1325,7 +1325,8 @@ function uvMetricas() {
       if (!n) return '';
       if (n >= 1000) return 'Q' + Math.round(n/1000) + 'k';
       return 'Q' + Math.round(n);
-    }
+    },
+    fmtUSD
   };
 }
 
