@@ -168,7 +168,31 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
       @click="deduplicar()" :disabled="cargando">
       🔁 Fusionar clientes duplicados
     </button>
+    <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
+      @click="normalizarTelefonos()" :disabled="cargando">
+      🧹 Normalizar formatos de teléfono
+    </button>
     <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
+  </div>
+
+  <!-- Normalizar teléfonos: listo -->
+  <div class="card" x-show="session && estado==='norm-listo'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1><span class="check">✓</span>Teléfonos normalizados</h1>
+    <div class="resultado">
+      <div class="res-row">
+        <span class="res-label">Números actualizados</span>
+        <span class="res-val" x-text="resultado.normActualizados"></span>
+      </div>
+      <div class="res-row">
+        <span class="res-label">Sin cambios</span>
+        <span class="res-val" x-text="resultado.normSinCambios"></span>
+      </div>
+    </div>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none">
+      Ir al sistema →
+    </a>
+    <button class="btn-ghost" @click="estado='idle'">← Volver</button>
   </div>
 
   <!-- Dedup: procesando -->
@@ -457,6 +481,19 @@ function extraerFilas(text) {
   return rows.filter(r => r[1] && r[1].trim() && r[1].trim() !== 'Producto');
 }
 
+// ── PHONE NORMALIZER ─────────────────────────────────────────────────
+function normalizarTel(raw) {
+  if (!raw) return '';
+  // Quitar todo excepto dígitos y + al inicio
+  let s = raw.trim();
+  const hasPlus = s.startsWith('+');
+  s = s.replace(/\D/g, '');          // solo dígitos
+  if (hasPlus) s = s;                // ya sin el +
+  if (s.startsWith('00')) s = s.slice(2);  // 00502... → 502...
+  if (s.length === 8) s = '502' + s;       // número local guatemalteco
+  return s;
+}
+
 // ── VCF PARSER ────────────────────────────────────────────────────────
 function parseVCF(text) {
   const contactos = [];
@@ -552,7 +589,7 @@ function importApp() {
     progreso: 0,
     statusMsg: '',
     detalle: '',
-    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0, vcf: 0, dedupGrupos: 0, dedupEliminados: 0 },
+    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0, vcf: 0, dedupGrupos: 0, dedupEliminados: 0, normActualizados: 0, normSinCambios: 0 },
     syncando: false,
     syncMsg: '',
     vcfContactos: [],
@@ -838,6 +875,32 @@ function importApp() {
       } catch(e) {
         this.error = 'Error: ' + e.message;
         this.estado = 'idle';
+      }
+    },
+
+    async normalizarTelefonos() {
+      this.error = '';
+      try {
+        const { data: clientes, error: cErr } = await db.from('clientes').select('id, whatsapp').not('whatsapp', 'is', null);
+        if (cErr) throw new Error(cErr.message);
+
+        let actualizados = 0, sinCambios = 0;
+
+        for (const c of clientes) {
+          const norm = normalizarTel(c.whatsapp);
+          if (norm && norm !== c.whatsapp) {
+            await db.from('clientes').update({ whatsapp: norm }).eq('id', c.id);
+            actualizados++;
+          } else {
+            sinCambios++;
+          }
+        }
+
+        this.resultado.normActualizados = actualizados;
+        this.resultado.normSinCambios = sinCambios;
+        this.estado = 'norm-listo';
+      } catch(e) {
+        this.error = 'Error: ' + e.message;
       }
     },
 
