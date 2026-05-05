@@ -1010,13 +1010,17 @@ function importApp() {
 
     async normalizarTelefonos() {
       this.error = '';
+      this.statusMsg = 'Normalizando teléfonos...';
+      this.progreso = 0;
+      this.estado = 'dedup-running';
       try {
         const { data: clientes, error: cErr } = await db.from('clientes').select('id, whatsapp').not('whatsapp', 'is', null);
         if (cErr) throw new Error(cErr.message);
 
         let actualizados = 0, sinCambios = 0;
 
-        for (const c of clientes) {
+        for (let i = 0; i < clientes.length; i++) {
+          const c = clientes[i];
           const norm = normalizarTel(c.whatsapp);
           if (norm && norm !== c.whatsapp) {
             await db.from('clientes').update({ whatsapp: norm }).eq('id', c.id);
@@ -1024,6 +1028,7 @@ function importApp() {
           } else {
             sinCambios++;
           }
+          this.progreso = Math.round(((i + 1) / clientes.length) * 100);
         }
 
         this.resultado.normActualizados = actualizados;
@@ -1031,6 +1036,7 @@ function importApp() {
         this.estado = 'norm-listo';
       } catch(e) {
         this.error = 'Error: ' + e.message;
+        this.estado = 'idle';
       }
     },
 
