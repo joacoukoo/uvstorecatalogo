@@ -180,6 +180,10 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
       @click="normalizarTelefonos()" :disabled="cargando">
       🧹 Normalizar formatos de teléfono
     </button>
+    <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
+      @click="repararOrden()" :disabled="cargando">
+      🔢 Reparar orden de la lista
+    </button>
     <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
   </div>
 
@@ -392,6 +396,26 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
     </div>
     <button class="btn" @click="abrirMergeManual()">Fusionar otros</button>
     <a href="sistema.html" class="btn-ghost" style="display:block;text-align:center;text-decoration:none;margin-top:8px">Ir al sistema →</a>
+  </div>
+
+  <!-- Reparar orden: listo -->
+  <div class="card" x-show="session && estado==='reparar-listo'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1><span class="check">✓</span>Orden reparado</h1>
+    <div class="resultado">
+      <div class="res-row">
+        <span class="res-label">Órdenes actualizadas</span>
+        <span class="res-val" x-text="resultado.ordenes"></span>
+      </div>
+      <div class="res-row" x-show="resultado.errores > 0">
+        <span class="res-label" style="color:#C8963E">Sin match en Excel</span>
+        <span class="res-val" style="color:#C8963E" x-text="resultado.errores"></span>
+      </div>
+    </div>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none">
+      Ir al sistema →
+    </a>
+    <button class="btn-ghost" @click="estado='idle'">← Volver</button>
   </div>
 
   <!-- Paso 1b: Descargando sheets -->
@@ -679,6 +703,14 @@ function jaccard(setA, setB) {
   return inter / union;
 }
 
+function mkSortKey(producto, fechaVenta, precioOriginal) {
+  return [
+    (producto || '').toLowerCase().trim(),
+    fechaVenta || '',
+    Math.round((parseFloat(precioOriginal) || 0) * 100)
+  ].join('|');
+}
+
 // ── APP ───────────────────────────────────────────────────────────────
 function importApp() {
   return {
@@ -874,7 +906,8 @@ function importApp() {
             precio_venta_gtq: precioGTQ,
             estado,
             notas: '',
-            fecha_venta
+            fecha_venta,
+            sort_index: ordenesArr.length
           });
           abonadosArr.push(abonado);
         }
@@ -935,6 +968,79 @@ function importApp() {
       } catch(e) {
         this.error = 'Error: ' + e.message;
         this.estado = 'revisar-clientes';
+      }
+    },
+
+    async repararOrden() {
+      if (!confirm('Esto asigna el índice de orden del Excel a cada orden existente sin borrar nada. ¿Continuar?')) return;
+      this.estado = 'importando';
+      this.statusMsg = 'Descargando hojas...';
+      this.progreso = 0;
+      this.error = '';
+      try {
+        const todasLasFilas = [];
+        for (const s of this.sheets) {
+          s.estado = 'cargando';
+          try {
+            const text = await fetchSheet(s.gid);
+            todasLasFilas.push(...extraerFilasConMeses(text, s.anio));
+            s.estado = 'ok';
+          } catch(e) { s.estado = 'error'; }
+        }
+        this.progreso = 30;
+
+        this.statusMsg = 'Cargando órdenes de la base de datos...';
+        const { data: ordenes, error: oErr } = await db.from('ordenes').select('id, producto, fecha_venta, precio_original');
+        if (oErr) throw new Error('Error cargando órdenes: ' + oErr.message);
+
+        // Agrupar órdenes del DB por clave de match
+        const dbMap = {};
+        for (const o of ordenes) {
+          const k = mkSortKey(o.producto, o.fecha_venta, o.precio_original);
+          if (!dbMap[k]) dbMap[k] = [];
+          dbMap[k].push(o);
+        }
+
+        // Asignar sort_index por posición en el Excel
+        const usedCounts = {};
+        const updates = [];
+        let sortIdx = 0;
+        for (const fila of todasLasFilas) {
+          const r = fila.row;
+          const producto = r[1]?.trim();
+          if (!producto) { sortIdx++; continue; }
+          const mesStr = String(fila.mes).padStart(2, '0');
+          const fecha_venta = `${fila.anio}-${mesStr}-01`;
+          const precio_original = parseMoney(r[5]);
+          const k = mkSortKey(producto, fecha_venta, precio_original);
+          const matches = dbMap[k];
+          if (matches) {
+            const count = usedCounts[k] || 0;
+            if (count < matches.length) {
+              updates.push({ id: matches[count].id, sort_index: sortIdx });
+              usedCounts[k] = count + 1;
+            }
+          }
+          sortIdx++;
+        }
+
+        this.progreso = 60;
+        this.statusMsg = `Actualizando ${updates.length} órdenes...`;
+
+        for (let i = 0; i < updates.length; i++) {
+          await db.from('ordenes').update({ sort_index: updates[i].sort_index }).eq('id', updates[i].id);
+          if (i % 10 === 0) {
+            this.progreso = 60 + Math.round((i / updates.length) * 38);
+            this.detalle = `${i + 1} / ${updates.length}`;
+          }
+        }
+
+        this.progreso = 100;
+        this.resultado = { ...this.resultado, ordenes: updates.length, errores: ordenes.length - updates.length };
+        this.estado = 'reparar-listo';
+      } catch(e) {
+        this.error = 'Error: ' + e.message;
+        this.estado = 'idle';
       }
     },
 
