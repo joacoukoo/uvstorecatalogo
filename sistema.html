@@ -168,6 +168,8 @@ button,a{touch-action:manipulation;cursor:pointer}
 .btn-ghost:hover{color:#fff;}
 .btn-danger{background:rgba(230,57,70,.15);color:var(--red);border:1px solid rgba(230,57,70,.3);}
 .btn-danger:hover{background:var(--red);color:#fff;}
+.btn-green{background:rgba(47,199,110,.15);color:var(--green);border:1px solid rgba(47,199,110,.3);}
+.btn-green:hover{background:rgba(47,199,110,.25);}
 
 /* ── SEARCH ── */
 .search-bar{
@@ -371,8 +373,12 @@ button,a{touch-action:manipulation;cursor:pointer}
             <option value="">Todos los estados</option>
             <option value="en_proceso">En proceso</option>
             <option value="pagada">Pagada</option>
-            <option value="entregada">Entregada</option>
             <option value="cancelada">Cancelada</option>
+          </select>
+          <select class="form-select" x-model="filtroEntregado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+            <option value="">Toda entrega</option>
+            <option value="entregado">Entregadas</option>
+            <option value="sin_entregar">Sin entregar</option>
           </select>
         </div>
 
@@ -391,7 +397,8 @@ button,a{touch-action:manipulation;cursor:pointer}
                   <th>Precio</th>
                   <th>Abonado</th>
                   <th>Saldo</th>
-                  <th>Estado</th>
+                  <th>Pago</th>
+                  <th>Entrega</th>
                   <th></th>
                 </tr>
               </thead>
@@ -410,9 +417,11 @@ button,a{touch-action:manipulation;cursor:pointer}
                       <select :value="o.estado" @change="cambiarEstadoOrden(o, $event.target.value)" class="badge" :class="'badge-'+o.estado" style="border:none;cursor:pointer;font-size:12px;padding:3px 6px;border-radius:6px;font-weight:600;appearance:none;-webkit-appearance:none;background-image:none">
                         <option value="en_proceso">en proceso</option>
                         <option value="pagada">pagada</option>
-                        <option value="entregada">entregada</option>
                         <option value="cancelada">cancelada</option>
                       </select>
+                    </td>
+                    <td>
+                      <button class="btn-sm" :class="o.entregado ? 'btn-green' : 'btn-ghost'" @click="toggleEntregado(o)" style="font-size:11px;padding:3px 10px" x-text="o.entregado ? 'Entregado' : 'Sin entregar'"></button>
                     </td>
                     <td>
                       <button class="btn-sm btn-ghost" @click="verOrden(o.id)">Ver</button>
@@ -1144,7 +1153,7 @@ function uvDashboard() {
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
-    ordenes: [], loading: true, busqueda: '', filtroEstado: '',
+    ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '',
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());
@@ -1165,7 +1174,9 @@ function uvOrdenes() {
         const q = this.busqueda.toLowerCase();
         const matchQ = !q || o.producto?.toLowerCase().includes(q) || o.clientes?.nombre?.toLowerCase().includes(q);
         const matchE = !this.filtroEstado || o.estado === this.filtroEstado;
-        return matchQ && matchE;
+        const matchEnt = !this.filtroEntregado ||
+          (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
+        return matchQ && matchE && matchEnt;
       });
     },
     verOrden(id) {
@@ -1177,6 +1188,12 @@ function uvOrdenes() {
       o.estado = nuevoEstado;
       try { await dbUpdateEstadoOrden(o.id, nuevoEstado); }
       catch(e) { o.estado = prev; alert('Error: ' + e.message); }
+    },
+    async toggleEntregado(o) {
+      const prev = o.entregado;
+      o.entregado = !o.entregado;
+      try { await dbSetEntregado(o.id, o.entregado); }
+      catch(e) { o.entregado = prev; alert('Error: ' + e.message); }
     },
     fmtQ, fmtDate
   };
