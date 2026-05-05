@@ -31211,6 +31211,77 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "misa-mosznqam",
+        "n": "Misa",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-05_190250_336__80579.webp?v=1777985194",
+        "franquicia": "Anime",
+        "marca": "ANE Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-05_190250_336__80579.webp?v=1777985194",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-05_190255_354__89972.webp?v=1777985194",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-05_190252_981__16360.webp?v=1777985194",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-05_190251_787__98231.webp?v=1777985194",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-05_190254_189__42828.webp?v=1777985194"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Misa de ANE Studio que captura la elegancia y sofisticación del personaje con una calidad artesanal excepcional. Realizada en escala 1:6 con detalles minuciosos en la ropa, accesorios y expresión facial que reflejan fielmente su estilo icónico. Edición limitada a solo 188 piezas mundiales, convirtiéndola en una pieza de coleccionista altamente codiciada para fans del anime y coleccionistas de figuras premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: ANE Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con decoración de calaveras y cadenas doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Misa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-05",
+        "reserva": "660",
+        "cantidad": "1"
+      },
+      {
         "id": "the-wind-waker-final-battle-mopwgv69",
         "n": "The Wind Waker Final Battle",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/01c6047ca607091964a17a0018b91c70.jpg?v=1777726376",
