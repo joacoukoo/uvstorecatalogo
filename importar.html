@@ -851,9 +851,8 @@ function importApp() {
           const precioGTQ = parseMoney(r[13]);
           const abonado = parseMoney(r[15]);
 
-          let estado = 'reservada';
+          let estado = 'en_proceso';
           if (abonado > 0 && abonado >= precioGTQ) estado = 'pagada';
-          else if (abonado > 0) estado = 'en_proceso';
 
           const mesStr = String(fila.mes).padStart(2, '0');
           const fecha_venta = `${fila.anio}-${mesStr}-01`;

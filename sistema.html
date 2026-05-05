@@ -129,10 +129,10 @@ button,a{touch-action:manipulation;cursor:pointer}
   display:inline-block;padding:3px 8px;border-radius:20px;
   font-size:11px;font-weight:600;letter-spacing:.3px;
 }
-.badge-reservada{background:rgba(123,47,190,.2);color:var(--pl);}
 .badge-en_proceso{background:rgba(232,146,42,.15);color:#E8922A;}
-.badge-pagada{background:rgba(47,199,110,.15);color:var(--green);}
-.badge-entregada{background:rgba(82,85,104,.2);color:var(--muted2);}
+.badge-pagada{background:rgba(123,47,190,.2);color:var(--pl);}
+.badge-entregada{background:rgba(47,199,110,.15);color:var(--green);}
+.badge-cancelada{background:rgba(230,57,70,.12);color:var(--red);}
 
 /* ── FORMS ── */
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
@@ -368,10 +368,10 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
           <select class="form-select" x-model="filtroEstado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Todos los estados</option>
-            <option value="reservada">Reservada</option>
             <option value="en_proceso">En proceso</option>
             <option value="pagada">Pagada</option>
             <option value="entregada">Entregada</option>
+            <option value="cancelada">Cancelada</option>
           </select>
         </div>
 
@@ -606,10 +606,10 @@ button,a{touch-action:manipulation;cursor:pointer}
             <div class="form-row">
               <div><label class="form-label">Estado</label>
                 <select class="form-select" x-model="form.estado" style="font-size:16px">
-                  <option value="reservada">Reservada</option>
                   <option value="en_proceso">En proceso</option>
                   <option value="pagada">Pagada</option>
                   <option value="entregada">Entregada</option>
+                  <option value="cancelada">Cancelada</option>
                 </select></div>
             </div>
             <div class="form-row-1">
@@ -768,8 +768,8 @@ button,a{touch-action:manipulation;cursor:pointer}
               <div class="stat-value green" x-text="fmtQ(resumen.cobrado)"></div>
             </div>
             <div class="stat-card">
-              <div class="stat-label">Margen estimado</div>
-              <div class="stat-value" :class="resumen.margen>=0?'green':''" x-text="fmtQ(resumen.margen)"></div>
+              <div class="stat-label">Ganancia neta est.</div>
+              <div class="stat-value" :class="resumen.margen>=0?'green':'red'" x-text="fmtQ(resumen.margen)"></div>
             </div>
           </div>
 
@@ -833,8 +833,13 @@ button,a{touch-action:manipulation;cursor:pointer}
               <button class="btn-sm btn-ghost" @click="mesSel=null" style="padding:4px 10px;font-size:12px">✕ Cerrar</button>
             </div>
             <div style="overflow-x:auto">
+              <div style="padding:10px 16px;font-size:13px;color:var(--muted2);border-bottom:1px solid var(--border);display:flex;gap:24px">
+                <span>Órdenes: <b style="color:#fff" x-text="ordenesDelMes.length"></b></span>
+                <span>Ventas: <b style="color:#fff" x-text="fmtQ(ordenesDelMes.reduce((s,o)=>s+(o.precio_venta_gtq||0),0))"></b></span>
+                <span>Ganancia: <b style="color:var(--green)" x-text="fmtQ(ordenesDelMes.reduce((s,o)=>s+(o._ganancia||0),0))"></b></span>
+              </div>
               <table class="table">
-                <thead><tr><th>Producto</th><th>Cliente</th><th>Precio</th><th>Abonado</th><th>Saldo</th><th>Estado</th></tr></thead>
+                <thead><tr><th>Producto</th><th>Cliente</th><th>Precio</th><th>Ganancia est.</th><th>Abonado</th><th>Saldo</th><th>Estado</th></tr></thead>
                 <tbody>
                   <template x-for="o in ordenesDelMes" :key="o.id">
                     <tr>
@@ -844,6 +849,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                       </td>
                       <td style="color:var(--muted2)" x-text="o.clientes?.nombre||'—'"></td>
                       <td x-text="fmtQ(o.precio_venta_gtq)"></td>
+                      <td :style="o._ganancia>=0?'color:var(--green)':'color:var(--red)'" x-text="fmtQ(o._ganancia)"></td>
                       <td style="color:var(--green)" x-text="fmtQ(o._abonado)"></td>
                       <td :style="o._saldo>0?'color:var(--red)':''" x-text="fmtQ(o._saldo)"></td>
                       <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
@@ -1053,7 +1059,7 @@ function uvNuevaOrden() {
       id: null, cliente_id: '', producto: '', codigo: '', marca: '',
       escala: '', pedido: '', precio_original: 0, envio: 0, envio_mbe: 0,
       impuesto: 0, aduana: 0, arancel: 0, precio_venta_usd: 0,
-      precio_venta_gtq: 0, estado: 'reservada', notas: ''
+      precio_venta_gtq: 0, estado: 'en_proceso', notas: ''
     },
     get costoEstimado() {
       return calcCostoEstimado(this.form);
@@ -1154,6 +1160,12 @@ function uvMetricas() {
       let totalOrdenes=0, totalVentas=0, totalCobrado=0, totalCosto=0;
 
       for (const o of this._ordenes) {
+        // Calcular abonado para TODOS los órdenes (no solo el año seleccionado)
+        const ab = (o.pagos || []).reduce((s,p) => s + (p.monto||0), 0);
+        o._abonado = ab;
+        o._saldo   = Math.max(0, (o.precio_venta_gtq||0) - ab);
+        o._ganancia = (o.precio_venta_gtq||0) - calcCostoEstimado(o);
+
         let anioOrden, mesOrden;
         if (o.fecha_venta) {
           const p = o.fecha_venta.split('-');
@@ -1166,15 +1178,14 @@ function uvMetricas() {
         }
         if (anioOrden !== anio) continue;
 
-        const ab = (o.pagos || []).reduce((s,p) => s + (p.monto||0), 0);
         byMes[mesOrden].ordenes++;
-        byMes[mesOrden].ventas += o.precio_venta_gtq || 0;
-        byMes[mesOrden].cobrado += ab;
-        byMes[mesOrden].porCobrar += Math.max(0, (o.precio_venta_gtq||0) - ab);
+        byMes[mesOrden].ventas   += o.precio_venta_gtq || 0;
+        byMes[mesOrden].cobrado  += ab;
+        byMes[mesOrden].porCobrar += o._saldo;
         totalOrdenes++;
-        totalVentas += o.precio_venta_gtq || 0;
+        totalVentas  += o.precio_venta_gtq || 0;
         totalCobrado += ab;
-        totalCosto += calcCostoEstimado(o);
+        totalCosto   += calcCostoEstimado(o);
       }
 
       const maxVentas = Math.max(...byMes.map(m => m.ventas), 1);
@@ -1229,10 +1240,10 @@ function uvDetalleOrden() {
       try {
         await dbSavePago({ ...this.formPago, orden_id: this.orden.id });
         this.pagos = await dbGetPagosByOrden(this.orden.id);
-        if (this.saldo <= 0) {
+        if (this.saldo <= 0 && this.orden.estado !== 'entregada') {
           await dbSaveOrden({ ...this.orden, estado: 'pagada' });
           this.orden.estado = 'pagada';
-        } else if (this.orden.estado === 'reservada') {
+        } else if (this.saldo > 0 && this.orden.estado === 'pagada') {
           await dbSaveOrden({ ...this.orden, estado: 'en_proceso' });
           this.orden.estado = 'en_proceso';
         }
