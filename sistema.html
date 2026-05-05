@@ -745,7 +745,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           <template x-for="a in anios" :key="a">
             <button class="btn-sm"
               :class="a===anioSel ? 'btn-purple' : 'btn-ghost'"
-              @click="anioSel=a;calcular()" x-text="a">
+              @click="anioSel=a;mesSel=null;calcular()" x-text="a">
             </button>
           </template>
         </div>
@@ -794,8 +794,8 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
 
           <!-- Tabla mensual -->
-          <div class="card" x-show="!soloAnual">
-            <div class="card-header"><span class="card-title">Detalle mensual</span></div>
+          <div class="card" x-show="!soloAnual" style="margin-bottom:16px">
+            <div class="card-header"><span class="card-title">Detalle mensual</span><span style="font-size:12px;color:var(--muted2)">Clic en un mes para ver órdenes</span></div>
             <div style="overflow-x:auto">
               <table class="table">
                 <thead>
@@ -809,12 +809,44 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </thead>
                 <tbody>
                   <template x-for="m in meses.filter(m=>m.ordenes>0)" :key="m.mes">
-                    <tr :style="m.esActual ? 'background:rgba(123,47,190,.08)' : ''">
-                      <td style="font-weight:500;color:#fff" x-text="m.nombre + (m.esActual ? ' ◂' : '')"></td>
+                    <tr @click="selMes(m)" style="cursor:pointer"
+                      :style="mesSel&&mesSel.mes===m.mes ? 'background:rgba(123,47,190,.18)' : m.esActual ? 'background:rgba(123,47,190,.06)' : ''">
+                      <td style="font-weight:500;color:#fff">
+                        <span x-text="m.nombre + (m.esActual ? ' ◂' : '')"></span>
+                        <span x-show="mesSel&&mesSel.mes===m.mes" style="color:var(--pl);margin-left:6px">▾</span>
+                      </td>
                       <td x-text="m.ordenes"></td>
                       <td x-text="fmtQ(m.ventas)"></td>
                       <td style="color:var(--green)" x-text="fmtQ(m.cobrado)"></td>
                       <td :style="m.porCobrar>0?'color:var(--red)':''" x-text="fmtQ(m.porCobrar)"></td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Drilldown mes seleccionado -->
+          <div class="card" x-show="mesSel" style="margin-bottom:16px">
+            <div class="card-header">
+              <span class="card-title" x-text="mesSel ? mesSel.nombre + ' ' + anioSel : ''"></span>
+              <button class="btn-sm btn-ghost" @click="mesSel=null" style="padding:4px 10px;font-size:12px">✕ Cerrar</button>
+            </div>
+            <div style="overflow-x:auto">
+              <table class="table">
+                <thead><tr><th>Producto</th><th>Cliente</th><th>Precio</th><th>Abonado</th><th>Saldo</th><th>Estado</th></tr></thead>
+                <tbody>
+                  <template x-for="o in ordenesDelMes" :key="o.id">
+                    <tr>
+                      <td>
+                        <div style="font-weight:500;color:#fff" x-text="o.producto"></div>
+                        <div style="font-size:11px;color:var(--muted2)" x-text="[o.marca,o.escala].filter(Boolean).join(' · ')"></div>
+                      </td>
+                      <td style="color:var(--muted2)" x-text="o.clientes?.nombre||'—'"></td>
+                      <td x-text="fmtQ(o.precio_venta_gtq)"></td>
+                      <td style="color:var(--green)" x-text="fmtQ(o._abonado)"></td>
+                      <td :style="o._saldo>0?'color:var(--red)':''" x-text="fmtQ(o._saldo)"></td>
+                      <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
                     </tr>
                   </template>
                 </tbody>
@@ -1092,6 +1124,7 @@ function uvMetricas() {
     anioSel: new Date().getFullYear(),
     meses: [],
     soloAnual: false,
+    mesSel: null,
     resumen: { ordenes:0, ventas:0, cobrado:0, margen:0 },
 
     async init() {
@@ -1149,6 +1182,19 @@ function uvMetricas() {
       this.soloAnual = mesesConDatos <= 1;
       this.meses = byMes.map(m => ({ ...m, pct: Math.round(m.ventas / maxVentas * 100) }));
       this.resumen = { ordenes: totalOrdenes, ventas: totalVentas, cobrado: totalCobrado, margen: totalVentas - totalCosto };
+    },
+
+    selMes(m) { this.mesSel = this.mesSel?.mes === m.mes ? null : m; },
+
+    get ordenesDelMes() {
+      if (!this.mesSel) return [];
+      const anio = this.anioSel, mesIdx = this.mesSel.mes;
+      return this._ordenes.filter(o => {
+        let ao, mo;
+        if (o.fecha_venta) { const p = o.fecha_venta.split('-'); ao = parseInt(p[0]); mo = parseInt(p[1]) - 1; }
+        else { const f = new Date(o.created_at); ao = f.getFullYear(); mo = f.getMonth(); }
+        return ao === anio && mo === mesIdx;
+      });
     },
 
     fmtQ,

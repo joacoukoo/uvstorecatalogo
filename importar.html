@@ -554,14 +554,24 @@ function extraerFilas(text) {
   return rows.filter(r => r[1] && r[1].trim() && r[1].trim() !== 'Producto');
 }
 
-// Versión con tracking de mes: fila vacía = cierre de mes
+// Versión con tracking de mes: fila vacía o nombre de mes = cierre de mes
+const MESES_RE = /^(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)/i;
+function esSeparadorDeMes(r) {
+  const v = r[1]?.trim() || '';
+  if (!v || v === 'Producto') return true;          // fila vacía o cabecera
+  if (MESES_RE.test(v)) return true;                // nombre de mes
+  if (/^total/i.test(v)) return true;               // fila de totales
+  // fila sin precio de venta ni abonado → probablemente footer
+  if (!parseMoney(r[13]) && !parseMoney(r[15]) && v.length < 40) return true;
+  return false;
+}
+
 function extraerFilasConMeses(text, anio) {
   const rows = parseCSV(text);
   const result = [];
   let mes = 1, hayDatos = false;
   for (const r of rows) {
-    const prod = r[1]?.trim();
-    if (!prod || prod === 'Producto') {
+    if (esSeparadorDeMes(r)) {
       if (hayDatos && mes < 12) { mes++; hayDatos = false; }
       continue;
     }
