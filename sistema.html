@@ -456,8 +456,8 @@ button,a{touch-action:manipulation;cursor:pointer}
               <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px">
                 <button class="btn-sm" :class="orden.estado==='en_proceso'?'btn-purple':'btn-ghost'" @click="cambiarEstado('en_proceso')">En proceso</button>
                 <button class="btn-sm" :class="orden.estado==='pagada'?'btn-purple':'btn-ghost'" @click="cambiarEstado('pagada')">Pagada</button>
-                <button class="btn-sm" :class="orden.estado==='entregada'?'btn-purple':'btn-ghost'" @click="cambiarEstado('entregada')">Entregada</button>
                 <button class="btn-sm" :class="orden.estado==='cancelada'?'btn-danger':'btn-ghost'" @click="cambiarEstado('cancelada')">Cancelada</button>
+                <button class="btn-sm" :class="orden.entregado?'btn-green':'btn-ghost'" @click="toggleEntregado()" x-text="orden.entregado?'Entregado':'Sin entregar'"></button>
               </div>
             </div>
 
@@ -1550,6 +1550,12 @@ function uvDetalleOrden() {
         this.orden.estado = nuevoEstado;
         document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       } catch(e) { alert('Error: ' + e.message); }
+    },
+    async toggleEntregado() {
+      const prev = this.orden.entregado;
+      this.orden.entregado = !this.orden.entregado;
+      try { await dbSetEntregado(this.orden.id, this.orden.entregado); }
+      catch(e) { this.orden.entregado = prev; alert('Error: ' + e.message); }
     },
     editarOrden() {
       document.dispatchEvent(new CustomEvent('editar-orden', { detail: this.orden.id }));
