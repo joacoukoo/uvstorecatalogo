@@ -1,7 +1,7 @@
 // sistema-db.js
 const { createClient } = supabase;
 
-const SUPABASE_URL = 'https://rpaizqttenkfbiqulng.supabase.co';
+const SUPABASE_URL = 'https://rpaiizqttenkfbiqulng.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwYWlpenF0dGVua2ZiaXF1bG5nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5MzA4ODksImV4cCI6MjA5MzUwNjg4OX0.bqITcQIRVLxfqTSmrwdWCo9k8l1FdJpBmT-eLmcPovw';
 
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
