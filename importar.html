@@ -714,13 +714,9 @@ function importApp() {
         const nombre = r[14]?.trim() || '';
         const key = nombre.toLowerCase();
         if (!clienteMap[key]) {
-          clienteMap[key] = { original: nombre, normalizado: nombre, ordenes: 0, whatsapp: r[15]?.trim() || '' };
+          clienteMap[key] = { original: nombre, normalizado: nombre, ordenes: 0 };
         }
         clienteMap[key].ordenes++;
-        // Conservar whatsapp si está vacío
-        if (!clienteMap[key].whatsapp && r[15]?.trim()) {
-          clienteMap[key].whatsapp = r[15].trim();
-        }
       }
 
       // Ordenar por nombre
@@ -755,27 +751,27 @@ function importApp() {
         for (const c of this.clientesDetectados) {
           const norm = (c.normalizado.trim() || c.original).toLowerCase();
           if (!clientesFinal[norm]) {
-            clientesFinal[norm] = {
-              nombre: c.normalizado.trim() || c.original,
-              whatsapp: c.whatsapp || null,
-              notas: null
-            };
+            clientesFinal[norm] = { nombre: c.normalizado.trim() || c.original, notas: null };
           }
         }
 
-        const clientesArr = Object.values(clientesFinal);
+        // Lookup-or-create: reusar clientes existentes para no perder teléfonos
+        const { data: existentes, error: eErr } = await db.from('clientes').select('id, nombre');
+        if (eErr) throw new Error('Error leyendo clientes: ' + eErr.message);
         const nameToId = {};
-        let clientesCreados = 0;
+        for (const c of existentes) nameToId[c.nombre.trim().toLowerCase()] = c.id;
 
-        if (clientesArr.length > 0) {
-          const { data: ins, error: cErr } = await db.from('clientes').insert(clientesArr).select('id, nombre');
+        const toInsert = Object.values(clientesFinal).filter(c => !nameToId[c.nombre.toLowerCase()]);
+        let clientesCreados = 0;
+        if (toInsert.length > 0) {
+          const { data: ins, error: cErr } = await db.from('clientes').insert(toInsert).select('id, nombre');
           if (cErr) throw new Error('Error clientes: ' + cErr.message);
           clientesCreados = ins.length;
           for (const c of ins) nameToId[c.nombre.toLowerCase()] = c.id;
         }
 
         this.progreso = 15;
-        this.detalle = `${clientesCreados} clientes creados`;
+        this.detalle = `${clientesCreados} clientes nuevos, ${existentes.length} existentes reutilizados`;
 
         // ── 2. Órdenes ──
         this.statusMsg = 'Importando órdenes...';
@@ -791,15 +787,14 @@ function importApp() {
           const normInfo = normMap[originalNombre.toLowerCase()];
           const nombreNorm = (normInfo?.normalizado || originalNombre).toLowerCase();
           const precioGTQ = parseMoney(r[13]);
-          const abonado = parseMoney(r[16]);
+          const abonado = parseMoney(r[15]);  // r[15] = abonado
 
           let estado = 'reservada';
           if (abonado > 0 && abonado >= precioGTQ) estado = 'pagada';
           else if (abonado > 0) estado = 'en_proceso';
 
-          const pedidoRaw = r[19]?.trim() || '';
-          const pedido = (pedidoRaw === 'Si' || pedidoRaw === 'No') ? pedidoRaw : '';
-          const notas = (pedidoRaw !== 'Si' && pedidoRaw !== 'No' && pedidoRaw) ? pedidoRaw : '';
+          const pedido = r[18]?.trim() || '';  // r[18] = proveedor
+          const notas = '';
 
           ordenesArr.push({
             cliente_id: nameToId[nombreNorm] || null,
