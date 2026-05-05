@@ -890,10 +890,11 @@ function importApp() {
         const { data: clientes, error: cErr } = await db.from('clientes').select('id, nombre, whatsapp');
         if (cErr) throw new Error(cErr.message);
 
-        // Agrupar por nombre normalizado
+        // Agrupar por nombre normalizado (sin tildes ni mayúsculas)
+        const normNombre = s => s.trim().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
         const grupos = {};
         for (const c of clientes) {
-          const key = c.nombre.trim().toLowerCase();
+          const key = normNombre(c.nombre);
           if (!grupos[key]) grupos[key] = [];
           grupos[key].push(c);
         }
