@@ -157,8 +157,12 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
     </ul>
     <p>Después vas a poder revisar y corregir los nombres de los clientes antes de guardar.</p>
     <div class="error-box" x-show="error" x-text="error"></div>
-    <button class="btn" @click="descargarSheets()" :disabled="cargando">
-      <span x-text="cargando ? 'Descargando...' : 'Descargar hojas e importar'"></span>
+    <button class="btn" @click="limpiarYImportar()" :disabled="cargando">
+      <span x-text="cargando ? 'Descargando...' : '🔄 Limpiar órdenes y reimportar'"></span>
+    </button>
+    <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
+      @click="descargarSheets()" :disabled="cargando">
+      <span x-text="cargando ? 'Descargando...' : 'Importar sin limpiar'"></span>
     </button>
     <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
       @click="estado='vcf-upload'" :disabled="cargando">
@@ -704,6 +708,20 @@ function importApp() {
 
     async init() {
       this.session = await dbGetSession();
+    },
+
+    async limpiarYImportar() {
+      if (!confirm('¿Borrar todas las órdenes y pagos actuales para reimportar desde cero?')) return;
+      this.cargando = true;
+      this.error = '';
+      this.statusMsg = 'Limpiando base de datos...';
+      this.estado = 'importando';
+      try {
+        await db.from('ordenes').delete().gte('created_at', '2000-01-01');
+      } catch(e) { /* ignorar si ya está vacía */ }
+      this.estado = 'idle';
+      this.cargando = false;
+      await this.descargarSheets();
     },
 
     async descargarSheets() {
