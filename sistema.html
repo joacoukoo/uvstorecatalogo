@@ -845,13 +845,14 @@ button,a{touch-action:manipulation;cursor:pointer}
             <div x-show="ordenes.length===0" class="empty"><p>Sin ordenes registradas</p></div>
             <div x-show="ordenes.length>0" class="card" style="overflow-x:auto">
               <table class="table">
-                <thead><tr><th>Producto</th><th>Marca</th><th>Estado</th><th>Precio</th><th>Saldo</th><th></th></tr></thead>
+                <thead><tr><th>Producto</th><th>Marca</th><th>Estado</th><th>Entrega</th><th>Precio</th><th>Saldo</th><th></th></tr></thead>
                 <tbody>
                   <template x-for="o in ordenes" :key="o.id">
                     <tr>
                       <td x-text="o.producto" style="color:#fff;font-weight:500"></td>
                       <td x-text="o.marca||'—'" style="color:var(--muted2)"></td>
                       <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
+                      <td><span class="badge" :class="o.entregado?'badge-entregada':''" x-text="o.entregado?'Entregado':'—'"></span></td>
                       <td x-text="fmtQ(o.precio_venta_gtq)" style="color:var(--green)"></td>
                       <td x-text="fmtQ((o.precio_venta_gtq||0) - (o._abonado||0))" :style="((o.precio_venta_gtq||0)-(o._abonado||0))>0?'color:var(--red)':''"></td>
                       <td><button class="btn-sm btn-ghost" @click="verOrden(o.id)">Ver</button></td>
