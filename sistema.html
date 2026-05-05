@@ -978,20 +978,31 @@ function uvLogin() {
   };
 }
 
+const VIEWS_PERSISTIBLES = new Set(['dashboard', 'ordenes', 'clientes', 'metricas', 'whatsapp-masivo']);
+
 function uvApp() {
   return {
     session: null,
     view: 'dashboard',
     async init() {
       this.session = await dbGetSession();
+      const guardada = localStorage.getItem('uv_view');
+      if (guardada && VIEWS_PERSISTIBLES.has(guardada)) this.view = guardada;
       document.addEventListener('session-changed', (e) => { this.session = e.detail; });
-      document.addEventListener('go-to', (e) => { this.view = e.detail; });
+      document.addEventListener('go-to', (e) => {
+        this.view = e.detail;
+        if (VIEWS_PERSISTIBLES.has(e.detail)) localStorage.setItem('uv_view', e.detail);
+      });
       document.addEventListener('open-nueva-orden', () => { this.view = 'nueva-orden'; });
     },
-    goTo(v) { this.view = v; },
+    goTo(v) {
+      this.view = v;
+      if (VIEWS_PERSISTIBLES.has(v)) localStorage.setItem('uv_view', v);
+    },
     async logout() {
       await dbSignOut();
       this.session = null;
+      localStorage.removeItem('uv_view');
       document.dispatchEvent(new CustomEvent('session-changed', { detail: null }));
     }
   };
