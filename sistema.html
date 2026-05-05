@@ -1184,6 +1184,7 @@ function uvNuevaOrden() {
         this.form.aduana = this.aduanaCalc;
         this.form.arancel = this.arancelCalc;
         this.form.precio_venta_usd = this.precioVentaUSDCalc;
+        if (!this.form.id) this.form.sort_index = Date.now();
         const saved = await dbSaveOrden(this.form);
         if (!this.form.id && this.abonoInicial > 0) {
           await dbSavePago({

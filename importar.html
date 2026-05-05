@@ -703,11 +703,12 @@ function jaccard(setA, setB) {
   return inter / union;
 }
 
-function mkSortKey(producto, fechaVenta, precioOriginal) {
+function mkSortKey(producto, fechaVenta, precioOriginal, precioGTQ) {
   return [
-    (producto || '').toLowerCase().trim(),
+    (producto || '').trim().replace(/\s+/g, ' ').toLowerCase(),
     fechaVenta || '',
-    Math.round((parseFloat(precioOriginal) || 0) * 100)
+    Math.round((parseFloat(precioOriginal) || 0) * 100),
+    Math.round((parseFloat(precioGTQ) || 0) * 100)
   ].join('|');
 }
 
@@ -990,13 +991,13 @@ function importApp() {
         this.progreso = 30;
 
         this.statusMsg = 'Cargando órdenes de la base de datos...';
-        const { data: ordenes, error: oErr } = await db.from('ordenes').select('id, producto, fecha_venta, precio_original');
+        const { data: ordenes, error: oErr } = await db.from('ordenes').select('id, producto, fecha_venta, precio_original, precio_venta_gtq');
         if (oErr) throw new Error('Error cargando órdenes: ' + oErr.message);
 
         // Agrupar órdenes del DB por clave de match
         const dbMap = {};
         for (const o of ordenes) {
-          const k = mkSortKey(o.producto, o.fecha_venta, o.precio_original);
+          const k = mkSortKey(o.producto, o.fecha_venta, o.precio_original, o.precio_venta_gtq);
           if (!dbMap[k]) dbMap[k] = [];
           dbMap[k].push(o);
         }
@@ -1012,7 +1013,8 @@ function importApp() {
           const mesStr = String(fila.mes).padStart(2, '0');
           const fecha_venta = `${fila.anio}-${mesStr}-01`;
           const precio_original = parseMoney(r[5]);
-          const k = mkSortKey(producto, fecha_venta, precio_original);
+          const precio_venta_gtq = parseMoney(r[13]);
+          const k = mkSortKey(producto, fecha_venta, precio_original, precio_venta_gtq);
           const matches = dbMap[k];
           if (matches) {
             const count = usedCounts[k] || 0;
@@ -1027,12 +1029,14 @@ function importApp() {
         this.progreso = 60;
         this.statusMsg = `Actualizando ${updates.length} órdenes...`;
 
-        for (let i = 0; i < updates.length; i++) {
-          await db.from('ordenes').update({ sort_index: updates[i].sort_index }).eq('id', updates[i].id);
-          if (i % 10 === 0) {
-            this.progreso = 60 + Math.round((i / updates.length) * 38);
-            this.detalle = `${i + 1} / ${updates.length}`;
-          }
+        const BATCH = 20;
+        for (let i = 0; i < updates.length; i += BATCH) {
+          const batch = updates.slice(i, i + BATCH);
+          await Promise.all(batch.map(u =>
+            db.from('ordenes').update({ sort_index: u.sort_index }).eq('id', u.id)
+          ));
+          this.progreso = 60 + Math.round(((i + BATCH) / updates.length) * 38);
+          this.detalle = `${Math.min(i + BATCH, updates.length)} / ${updates.length}`;
         }
 
         this.progreso = 100;
