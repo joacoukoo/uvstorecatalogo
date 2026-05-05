@@ -100,6 +100,35 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
 .hint-box b{color:#ecedf8;}
 .col-header{font-size:11px;color:#525568;text-transform:uppercase;letter-spacing:.5px;
   display:grid;grid-template-columns:1fr 1fr auto;gap:10px;padding:0 14px;margin-bottom:4px;}
+/* VCF review */
+.vcf-table{width:100%;border-collapse:collapse;font-size:13px;}
+.vcf-table th{padding:8px 12px;font-size:11px;font-weight:600;color:#525568;
+  text-transform:uppercase;letter-spacing:.5px;text-align:left;border-bottom:1px solid #1c1d2c;}
+.vcf-table td{padding:9px 12px;border-bottom:1px solid #1c1d2c;vertical-align:middle;}
+.vcf-table tr:last-child td{border-bottom:none;}
+.vcf-table tr.high td{background:rgba(47,199,110,.04);}
+.vcf-table tr.mid td{background:rgba(200,150,62,.04);}
+.vcf-table tr.low td{background:rgba(230,57,70,.04);}
+.match-select{
+  background:#07080d;border:1px solid #272840;border-radius:6px;
+  padding:5px 8px;color:#ecedf8;font-size:12px;font-family:inherit;
+  outline:none;width:100%;max-width:200px;
+}
+.match-select:focus{border-color:#7B2FBE;}
+.conf-badge{
+  display:inline-block;padding:2px 7px;border-radius:20px;
+  font-size:10px;font-weight:700;letter-spacing:.3px;
+}
+.conf-high{background:rgba(47,199,110,.2);color:#2fc76e;}
+.conf-mid{background:rgba(200,150,62,.2);color:#C8963E;}
+.conf-low{background:rgba(230,57,70,.2);color:#e63946;}
+.upload-area{
+  border:2px dashed #272840;border-radius:12px;
+  padding:32px;text-align:center;margin:20px 0;
+  transition:border-color .2s;cursor:pointer;
+}
+.upload-area:hover{border-color:#7B2FBE;}
+.upload-area input{display:none;}
 </style>
 </head>
 <body>
@@ -132,10 +161,97 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
       <span x-text="cargando ? 'Descargando...' : 'Descargar hojas e importar'"></span>
     </button>
     <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
-      @click="estado='sync-standalone'" :disabled="cargando">
-      📱 Solo actualizar WhatsApp
+      @click="estado='vcf-upload'" :disabled="cargando">
+      📱 Agregar WhatsApp desde contactos (.vcf)
     </button>
     <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
+  </div>
+
+  <!-- VCF: subir archivo -->
+  <div class="card" x-show="session && estado==='vcf-upload'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1>📱 WhatsApp desde contactos</h1>
+    <p style="margin-bottom:4px">Exportá tus contactos como <b style="color:#ecedf8">.vcf</b> desde tu teléfono y subí el archivo acá.</p>
+    <ul class="steps" style="margin-top:12px">
+      <li><span class="step-num">A</span><b>Android:</b> Contactos → Menú → Exportar → .vcf</li>
+      <li><span class="step-num">i</span><b>iPhone:</b> iCloud.com → Contactos → Seleccionar todos → Exportar vCard</li>
+    </ul>
+    <div class="upload-area" @click="$refs.vcfInput.click()">
+      <input type="file" accept=".vcf,.vcard,text/vcard,text/x-vcard" x-ref="vcfInput" @change="procesarVCF($event)">
+      <div style="font-size:28px;margin-bottom:8px">📂</div>
+      <div style="font-size:14px;color:#848aa0">Hacé clic o arrastrá el archivo <b style="color:#9d5cd4">.vcf</b></div>
+    </div>
+    <div class="error-box" x-show="error" x-text="error"></div>
+    <button class="btn-ghost" @click="estado='idle';error=''">← Volver</button>
+  </div>
+
+  <!-- VCF: revisar matches -->
+  <div class="card card-wide" x-show="session && estado==='vcf-review'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1>Revisá los matches</h1>
+    <div class="hint-box">
+      Se encontraron <b x-text="vcfMatches.filter(m=>m.seleccionado).length"></b> matches de
+      <b x-text="vcfContactos.length"></b> contactos.
+      Revisá los <span style="color:#C8963E">amarillos</span> (confianza media) y corregí si hace falta.
+      Los <span style="color:#e63946">rojos</span> no se van a aplicar.
+    </div>
+    <div style="overflow-x:auto;max-height:480px;overflow-y:auto;margin-bottom:16px">
+      <table class="vcf-table">
+        <thead>
+          <tr>
+            <th><input type="checkbox" @change="toggleTodos($event)"></th>
+            <th>Contacto</th>
+            <th>Número</th>
+            <th>→ Cliente en sistema</th>
+            <th>Conf.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <template x-for="(m, i) in vcfMatches" :key="i">
+            <tr :class="m.conf >= 0.8 ? 'high' : m.conf >= 0.5 ? 'mid' : 'low'">
+              <td><input type="checkbox" x-model="vcfMatches[i].seleccionado"></td>
+              <td style="color:#ecedf8;font-weight:500" x-text="m.vcfNombre"></td>
+              <td style="color:#848aa0" x-text="m.telefono"></td>
+              <td>
+                <select class="match-select" x-model="vcfMatches[i].clienteId">
+                  <option value="">— no vincular —</option>
+                  <template x-for="c in clientesDB" :key="c.id">
+                    <option :value="c.id" x-text="c.nombre"></option>
+                  </template>
+                </select>
+              </td>
+              <td>
+                <span class="conf-badge"
+                  :class="m.conf >= 0.8 ? 'conf-high' : m.conf >= 0.5 ? 'conf-mid' : 'conf-low'"
+                  x-text="Math.round(m.conf*100) + '%'">
+                </span>
+              </td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
+    <div class="error-box" x-show="error" x-text="error"></div>
+    <button class="btn" @click="aplicarVCF()" :disabled="aplicando">
+      <span x-text="aplicando ? 'Aplicando...' : 'Aplicar ' + vcfMatches.filter(m=>m.seleccionado&&m.clienteId).length + ' números'"></span>
+    </button>
+    <button class="btn-ghost" @click="estado='vcf-upload';error=''">← Volver</button>
+  </div>
+
+  <!-- VCF: listo -->
+  <div class="card" x-show="session && estado==='vcf-listo'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1><span class="check">✓</span>WhatsApp actualizado</h1>
+    <div class="resultado">
+      <div class="res-row">
+        <span class="res-label">Clientes actualizados</span>
+        <span class="res-val" x-text="resultado.vcf"></span>
+      </div>
+    </div>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none">
+      Ir al sistema →
+    </a>
+    <button class="btn-ghost" @click="estado='vcf-upload'">Subir otro archivo</button>
   </div>
 
   <!-- Paso 1b: Descargando sheets -->
@@ -302,6 +418,87 @@ function extraerFilas(text) {
   return rows.filter(r => r[1] && r[1].trim() && r[1].trim() !== 'Producto');
 }
 
+// ── VCF PARSER ────────────────────────────────────────────────────────
+function parseVCF(text) {
+  const contactos = [];
+  const cards = text.split(/BEGIN:VCARD/i).slice(1);
+  for (const card of cards) {
+    const lines = card.split(/\r?\n/);
+    let nombre = '', telefono = '';
+
+    // Unfold continued lines (RFC 2425: lines starting with space/tab continue prev)
+    const unfolded = [];
+    for (const l of lines) {
+      if ((l.startsWith(' ') || l.startsWith('\t')) && unfolded.length) {
+        unfolded[unfolded.length - 1] += l.trimStart();
+      } else {
+        unfolded.push(l);
+      }
+    }
+
+    for (const line of unfolded) {
+      const upper = line.toUpperCase();
+      // FN: display name
+      if (upper.startsWith('FN:') || upper.startsWith('FN;')) {
+        nombre = line.split(':').slice(1).join(':').trim();
+      }
+      // N: structured name — only use if FN not found
+      if (!nombre && (upper.startsWith('N:') || upper.startsWith('N;'))) {
+        const val = line.split(':').slice(1).join(':').trim();
+        const parts = val.split(';');
+        const last  = parts[0]?.trim() || '';
+        const first = parts[1]?.trim() || '';
+        nombre = [first, last].filter(Boolean).join(' ');
+      }
+      // TEL: phone number — prefer CELL/MOBILE, otherwise take first
+      if (upper.startsWith('TEL')) {
+        const raw = line.split(':').slice(1).join(':').trim();
+        const cleaned = raw.replace(/[\s\-().]/g, '');
+        if (!telefono || upper.includes('CELL') || upper.includes('MOBILE')) {
+          telefono = cleaned;
+        }
+      }
+    }
+
+    // Decode quoted-printable encoding (common in Android v2.1 exports)
+    if (nombre.includes('=')) {
+      try {
+        nombre = decodeQP(nombre);
+      } catch(e) { /* keep as-is */ }
+    }
+
+    if (nombre && telefono) {
+      contactos.push({ nombre: nombre.trim(), telefono });
+    }
+  }
+  return contactos;
+}
+
+function decodeQP(str) {
+  return str.replace(/=([0-9A-Fa-f]{2})/g, (_, hex) =>
+    String.fromCharCode(parseInt(hex, 16))
+  ).replace(/=\r?\n/g, '');
+}
+
+function normTokens(str) {
+  return new Set(
+    str
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9 ]/g, ' ')
+      .split(/\s+/)
+      .filter(t => t.length > 1)
+  );
+}
+
+function jaccard(setA, setB) {
+  if (!setA.size || !setB.size) return 0;
+  let inter = 0;
+  for (const t of setA) if (setB.has(t)) inter++;
+  const union = setA.size + setB.size - inter;
+  return inter / union;
+}
+
 // ── APP ───────────────────────────────────────────────────────────────
 function importApp() {
   return {
@@ -316,9 +513,13 @@ function importApp() {
     progreso: 0,
     statusMsg: '',
     detalle: '',
-    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0 },
+    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0, vcf: 0 },
     syncando: false,
     syncMsg: '',
+    vcfContactos: [],
+    vcfMatches: [],
+    clientesDB: [],
+    aplicando: false,
 
     async init() {
       this.session = await dbGetSession();
@@ -522,6 +723,85 @@ function importApp() {
       } catch(e) {
         this.error = 'Error: ' + e.message;
         this.estado = 'revisar-clientes';
+      }
+    },
+
+    async procesarVCF(event) {
+      this.error = '';
+      const file = event.target.files[0];
+      if (!file) return;
+
+      let text;
+      try {
+        text = await file.text();
+      } catch(e) {
+        this.error = 'No se pudo leer el archivo.';
+        return;
+      }
+
+      // Parsear VCF
+      this.vcfContactos = parseVCF(text);
+      if (!this.vcfContactos.length) {
+        this.error = 'No se encontraron contactos en el archivo.';
+        return;
+      }
+
+      // Cargar clientes del sistema
+      try {
+        this.clientesDB = await dbGetClientes();
+      } catch(e) {
+        this.error = 'Error al cargar clientes: ' + e.message;
+        return;
+      }
+
+      // Calcular matches con Jaccard
+      this.vcfMatches = this.vcfContactos.map(c => {
+        let bestId = '', bestNombre = '', bestConf = 0;
+        const tokensVCF = normTokens(c.nombre);
+        for (const cl of this.clientesDB) {
+          const conf = jaccard(tokensVCF, normTokens(cl.nombre));
+          if (conf > bestConf) {
+            bestConf = conf;
+            bestId = cl.id;
+            bestNombre = cl.nombre;
+          }
+        }
+        // Auto-deselect si confianza < 50%
+        return {
+          vcfNombre: c.nombre,
+          telefono: c.telefono,
+          clienteId: bestConf >= 0.5 ? bestId : '',
+          conf: bestConf,
+          seleccionado: bestConf >= 0.5
+        };
+      });
+
+      this.estado = 'vcf-review';
+    },
+
+    toggleTodos(event) {
+      const checked = event.target.checked;
+      this.vcfMatches = this.vcfMatches.map(m => ({ ...m, seleccionado: checked && !!m.clienteId }));
+    },
+
+    async aplicarVCF() {
+      this.aplicando = true;
+      this.error = '';
+      let actualizados = 0;
+      try {
+        for (const m of this.vcfMatches) {
+          if (!m.seleccionado || !m.clienteId) continue;
+          const cliente = this.clientesDB.find(c => c.id === m.clienteId);
+          if (!cliente) continue;
+          await dbSaveCliente({ ...cliente, whatsapp: m.telefono });
+          actualizados++;
+        }
+        this.resultado.vcf = actualizados;
+        this.estado = 'vcf-listo';
+      } catch(e) {
+        this.error = 'Error al guardar: ' + e.message;
+      } finally {
+        this.aplicando = false;
       }
     },
 
