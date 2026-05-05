@@ -665,7 +665,7 @@ function uvLogin() {
         this.session = await dbSignIn(this.email, this.password);
         document.dispatchEvent(new CustomEvent('session-changed', { detail: this.session }));
       } catch(e) {
-        this.error = 'Email o contraseña incorrectos';
+        this.error = e.message || 'Email o contraseña incorrectos';
       } finally { this.loading = false; }
     }
   };
