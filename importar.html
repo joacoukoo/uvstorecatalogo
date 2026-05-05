@@ -169,6 +169,10 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
       🔁 Fusionar clientes duplicados
     </button>
     <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
+      @click="abrirMergeManual()" :disabled="cargando">
+      🔀 Fusionar dos clientes manualmente
+    </button>
+    <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
       @click="normalizarTelefonos()" :disabled="cargando">
       🧹 Normalizar formatos de teléfono
     </button>
@@ -315,6 +319,75 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
       Ir al sistema →
     </a>
     <button class="btn-ghost" @click="estado='vcf-upload'">Subir otro archivo</button>
+  </div>
+
+  <!-- Merge manual -->
+  <div class="card" x-show="session && estado==='merge-manual'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1>🔀 Fusionar dos clientes</h1>
+    <div class="hint-box" style="margin-bottom:20px">
+      Las órdenes del cliente <b style="color:#e63946">a eliminar</b> se mueven al que <b style="color:#2fc76e">conservás</b>.
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px;margin-bottom:20px">
+      <div>
+        <div style="font-size:11px;color:#525568;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Conservar</div>
+        <input class="cliente-input" type="text" placeholder="Buscar cliente a conservar..."
+          x-model="mergeQuery1" @input="filtrarMerge1()" style="width:100%">
+        <div x-show="mergeSugg1.length" style="background:#13141f;border:1px solid #1c1d2c;border-radius:8px;margin-top:4px;overflow:hidden">
+          <template x-for="c in mergeSugg1" :key="c.id">
+            <div @click="selMerge1=c;mergeQuery1=c.nombre;mergeSugg1=[]"
+              style="padding:9px 14px;font-size:13px;cursor:pointer;border-bottom:1px solid #1c1d2c"
+              :style="selMerge1&&selMerge1.id===c.id?'color:#2fc76e':'color:#ecedf8'"
+              @mouseenter="$el.style.background='#1c1d2c'" @mouseleave="$el.style.background=''">
+              <span x-text="c.nombre"></span>
+              <span style="color:#525568;font-size:11px;margin-left:8px" x-text="c.whatsapp||''"></span>
+            </div>
+          </template>
+        </div>
+        <div x-show="selMerge1" style="margin-top:6px;font-size:12px;color:#2fc76e" x-text="selMerge1 ? '✓ ' + selMerge1.nombre : ''"></div>
+      </div>
+      <div>
+        <div style="font-size:11px;color:#525568;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Eliminar (sus órdenes pasan al anterior)</div>
+        <input class="cliente-input" type="text" placeholder="Buscar cliente a eliminar..."
+          x-model="mergeQuery2" @input="filtrarMerge2()" style="width:100%">
+        <div x-show="mergeSugg2.length" style="background:#13141f;border:1px solid #1c1d2c;border-radius:8px;margin-top:4px;overflow:hidden">
+          <template x-for="c in mergeSugg2" :key="c.id">
+            <div @click="selMerge2=c;mergeQuery2=c.nombre;mergeSugg2=[]"
+              style="padding:9px 14px;font-size:13px;cursor:pointer;border-bottom:1px solid #1c1d2c"
+              :style="selMerge2&&selMerge2.id===c.id?'color:#e63946':'color:#ecedf8'"
+              @mouseenter="$el.style.background='#1c1d2c'" @mouseleave="$el.style.background=''">
+              <span x-text="c.nombre"></span>
+              <span style="color:#525568;font-size:11px;margin-left:8px" x-text="c.whatsapp||''"></span>
+            </div>
+          </template>
+        </div>
+        <div x-show="selMerge2" style="margin-top:6px;font-size:12px;color:#e63946" x-text="selMerge2 ? '✗ ' + selMerge2.nombre : ''"></div>
+      </div>
+    </div>
+    <div class="error-box" x-show="error" x-text="error"></div>
+    <button class="btn" @click="ejecutarMerge()"
+      :disabled="!selMerge1||!selMerge2||selMerge1.id===selMerge2.id||mergeando">
+      <span x-text="mergeando ? 'Fusionando...' : 'Fusionar'"></span>
+    </button>
+    <button class="btn-ghost" @click="estado='idle';error=''">← Volver</button>
+  </div>
+
+  <!-- Merge manual: listo -->
+  <div class="card" x-show="session && estado==='merge-listo'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1><span class="check">✓</span>Clientes fusionados</h1>
+    <div class="resultado">
+      <div class="res-row">
+        <span class="res-label">Conservado</span>
+        <span class="res-val" style="font-size:15px" x-text="resultado.mergeConservado"></span>
+      </div>
+      <div class="res-row">
+        <span class="res-label">Eliminado</span>
+        <span class="res-val" style="font-size:15px;color:#848aa0" x-text="resultado.mergeEliminado"></span>
+      </div>
+    </div>
+    <button class="btn" @click="abrirMergeManual()">Fusionar otros</button>
+    <a href="sistema.html" class="btn-ghost" style="display:block;text-align:center;text-decoration:none;margin-top:8px">Ir al sistema →</a>
   </div>
 
   <!-- Paso 1b: Descargando sheets -->
@@ -589,7 +662,12 @@ function importApp() {
     progreso: 0,
     statusMsg: '',
     detalle: '',
-    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0, vcf: 0, dedupGrupos: 0, dedupEliminados: 0, normActualizados: 0, normSinCambios: 0 },
+    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0, vcf: 0, dedupGrupos: 0, dedupEliminados: 0, normActualizados: 0, normSinCambios: 0, mergeConservado: '', mergeEliminado: '' },
+    _todosClientes: [],
+    mergeQuery1: '', mergeQuery2: '',
+    mergeSugg1: [], mergeSugg2: [],
+    selMerge1: null, selMerge2: null,
+    mergeando: false,
     syncando: false,
     syncMsg: '',
     vcfContactos: [],
@@ -875,6 +953,57 @@ function importApp() {
       } catch(e) {
         this.error = 'Error: ' + e.message;
         this.estado = 'idle';
+      }
+    },
+
+    async abrirMergeManual() {
+      this.error = '';
+      this.mergeQuery1 = ''; this.mergeQuery2 = '';
+      this.mergeSugg1 = []; this.mergeSugg2 = [];
+      this.selMerge1 = null; this.selMerge2 = null;
+      try {
+        this._todosClientes = await dbGetClientes();
+      } catch(e) {
+        this.error = 'Error al cargar clientes: ' + e.message;
+        return;
+      }
+      this.estado = 'merge-manual';
+    },
+
+    filtrarMerge1() {
+      this.selMerge1 = null;
+      const q = this.mergeQuery1.toLowerCase();
+      this.mergeSugg1 = q.length < 2 ? [] :
+        this._todosClientes.filter(c => c.nombre.toLowerCase().includes(q)).slice(0, 8);
+    },
+
+    filtrarMerge2() {
+      this.selMerge2 = null;
+      const q = this.mergeQuery2.toLowerCase();
+      this.mergeSugg2 = q.length < 2 ? [] :
+        this._todosClientes.filter(c => c.nombre.toLowerCase().includes(q)).slice(0, 8);
+    },
+
+    async ejecutarMerge() {
+      if (!this.selMerge1 || !this.selMerge2 || this.selMerge1.id === this.selMerge2.id) return;
+      this.mergeando = true;
+      this.error = '';
+      try {
+        // Mover órdenes
+        await db.from('ordenes').update({ cliente_id: this.selMerge1.id }).eq('cliente_id', this.selMerge2.id);
+        // Copiar whatsapp si el conservado no tiene
+        if (!this.selMerge1.whatsapp && this.selMerge2.whatsapp) {
+          await db.from('clientes').update({ whatsapp: this.selMerge2.whatsapp }).eq('id', this.selMerge1.id);
+        }
+        // Eliminar duplicado
+        await db.from('clientes').delete().eq('id', this.selMerge2.id);
+        this.resultado.mergeConservado = this.selMerge1.nombre;
+        this.resultado.mergeEliminado  = this.selMerge2.nombre;
+        this.estado = 'merge-listo';
+      } catch(e) {
+        this.error = 'Error: ' + e.message;
+      } finally {
+        this.mergeando = false;
       }
     },
 
