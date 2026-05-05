@@ -164,7 +164,46 @@ p,small{font-size:14px;color:#848aa0;line-height:1.6;}
       @click="estado='vcf-upload'" :disabled="cargando">
       📱 Agregar WhatsApp desde contactos (.vcf)
     </button>
+    <button class="btn" style="background:#13141f;border:1px solid #272840;color:#848aa0"
+      @click="deduplicar()" :disabled="cargando">
+      🔁 Fusionar clientes duplicados
+    </button>
     <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
+  </div>
+
+  <!-- Dedup: procesando -->
+  <div class="card" x-show="session && estado==='dedup-running'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1>Fusionando duplicados...</h1>
+    <div class="progress-wrap">
+      <div class="progress-label">
+        <span x-text="statusMsg"></span>
+        <span x-text="Math.round(progreso) + '%'"></span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" :style="'width:' + progreso + '%'"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dedup: listo -->
+  <div class="card" x-show="session && estado==='dedup-listo'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1><span class="check">✓</span>Duplicados fusionados</h1>
+    <div class="resultado">
+      <div class="res-row">
+        <span class="res-label">Grupos duplicados encontrados</span>
+        <span class="res-val" x-text="resultado.dedupGrupos"></span>
+      </div>
+      <div class="res-row">
+        <span class="res-label">Clientes eliminados</span>
+        <span class="res-val" x-text="resultado.dedupEliminados"></span>
+      </div>
+    </div>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none">
+      Ir al sistema →
+    </a>
+    <button class="btn-ghost" @click="estado='idle'">← Volver</button>
   </div>
 
   <!-- VCF: subir archivo -->
@@ -513,7 +552,7 @@ function importApp() {
     progreso: 0,
     statusMsg: '',
     detalle: '',
-    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0, vcf: 0 },
+    resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0, vcf: 0, dedupGrupos: 0, dedupEliminados: 0 },
     syncando: false,
     syncMsg: '',
     vcfContactos: [],
@@ -723,6 +762,82 @@ function importApp() {
       } catch(e) {
         this.error = 'Error: ' + e.message;
         this.estado = 'revisar-clientes';
+      }
+    },
+
+    async deduplicar() {
+      this.estado = 'dedup-running';
+      this.error = '';
+      this.statusMsg = 'Cargando clientes...';
+      this.progreso = 5;
+
+      try {
+        const { data: clientes, error: cErr } = await db.from('clientes').select('id, nombre, whatsapp');
+        if (cErr) throw new Error(cErr.message);
+
+        // Agrupar por nombre normalizado
+        const grupos = {};
+        for (const c of clientes) {
+          const key = c.nombre.trim().toLowerCase();
+          if (!grupos[key]) grupos[key] = [];
+          grupos[key].push(c);
+        }
+
+        const duplicados = Object.values(grupos).filter(g => g.length > 1);
+        this.progreso = 20;
+        this.statusMsg = `${duplicados.length} grupos duplicados encontrados...`;
+
+        let grupos_count = duplicados.length;
+        let eliminados = 0;
+        let i = 0;
+
+        for (const grupo of duplicados) {
+          // Obtener conteo de órdenes por cliente
+          const counts = {};
+          for (const c of grupo) {
+            const { count } = await db.from('ordenes').select('id', { count: 'exact', head: true }).eq('cliente_id', c.id);
+            counts[c.id] = count || 0;
+          }
+
+          // Elegir ganador: preferir el que tiene whatsapp; si empate, el que tiene más órdenes
+          grupo.sort((a, b) => {
+            const wa = a.whatsapp ? 1 : 0;
+            const wb = b.whatsapp ? 1 : 0;
+            if (wb !== wa) return wb - wa;
+            return counts[b.id] - counts[a.id];
+          });
+
+          const ganador = grupo[0];
+          const perdedores = grupo.slice(1);
+
+          // Reasignar órdenes de cada perdedor al ganador
+          for (const p of perdedores) {
+            if (counts[p.id] > 0) {
+              await db.from('ordenes').update({ cliente_id: ganador.id }).eq('cliente_id', p.id);
+            }
+            await db.from('clientes').delete().eq('id', p.id);
+            eliminados++;
+          }
+
+          // Si el ganador no tiene whatsapp pero un perdedor lo tenía, copiar
+          const perdedorConWA = perdedores.find(p => p.whatsapp);
+          if (!ganador.whatsapp && perdedorConWA) {
+            await db.from('clientes').update({ whatsapp: perdedorConWA.whatsapp }).eq('id', ganador.id);
+          }
+
+          i++;
+          this.progreso = 20 + Math.round((i / duplicados.length) * 75);
+          this.statusMsg = `Procesando ${i}/${duplicados.length}...`;
+        }
+
+        this.progreso = 100;
+        this.resultado.dedupGrupos = grupos_count;
+        this.resultado.dedupEliminados = eliminados;
+        this.estado = 'dedup-listo';
+
+      } catch(e) {
+        this.error = 'Error: ' + e.message;
+        this.estado = 'idle';
       }
     },
 
