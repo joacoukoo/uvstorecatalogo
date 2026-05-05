@@ -13,44 +13,34 @@
 body{
   background:#07080d;color:#ecedf8;
   font-family:"Segoe UI",system-ui,sans-serif;
-  min-height:100dvh;display:flex;align-items:center;justify-content:center;
-  padding:24px;
+  min-height:100dvh;padding:24px;
+  display:flex;justify-content:center;align-items:flex-start;
 }
 .card{
   background:#0d0e18;border:1px solid #272840;border-radius:16px;
-  padding:40px 36px;width:100%;max-width:520px;
+  padding:36px;width:100%;max-width:560px;margin-top:40px;
 }
-.logo{font-size:18px;font-weight:700;letter-spacing:2px;color:#fff;margin-bottom:4px;}
+.card-wide{max-width:700px;}
+.logo{font-size:18px;font-weight:700;letter-spacing:2px;color:#fff;margin-bottom:20px;}
 .logo span{color:#9d5cd4;}
 h1{font-size:20px;font-weight:700;color:#fff;margin-bottom:8px;}
-p{font-size:14px;color:#848aa0;line-height:1.6;}
+p,small{font-size:14px;color:#848aa0;line-height:1.6;}
 .steps{list-style:none;margin:20px 0;display:flex;flex-direction:column;gap:10px;}
 .steps li{
   background:#13141f;border:1px solid #1c1d2c;border-radius:10px;
   padding:12px 16px;font-size:13px;color:#848aa0;
-  display:flex;align-items:center;gap:12px;
+  display:flex;align-items:flex-start;gap:12px;
 }
 .steps li b{color:#ecedf8;}
 .step-num{
   width:24px;height:24px;border-radius:50%;background:#7B2FBE;
-  color:#fff;font-size:12px;font-weight:700;
-  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  color:#fff;font-size:12px;font-weight:700;flex-shrink:0;margin-top:1px;
+  display:flex;align-items:center;justify-content:center;
 }
-.upload-area{
-  border:2px dashed #272840;border-radius:12px;
-  padding:32px;text-align:center;margin:24px 0;
-  transition:border-color .2s;cursor:pointer;
-}
-.upload-area:hover,.upload-area.active{border-color:#7B2FBE;}
-.upload-area input{display:none;}
-.upload-icon{font-size:32px;margin-bottom:8px;}
-.upload-label{font-size:14px;color:#848aa0;}
-.upload-label b{color:#9d5cd4;cursor:pointer;}
-.file-selected{font-size:13px;color:#2fc76e;margin-top:8px;font-weight:600;}
 .btn{
   width:100%;background:#7B2FBE;color:#fff;border:none;
   border-radius:10px;padding:13px;font-size:15px;font-weight:600;
-  font-family:inherit;cursor:pointer;transition:background .15s;
+  font-family:inherit;cursor:pointer;transition:background .15s;margin-top:16px;
 }
 .btn:hover{background:#9d5cd4;}
 .btn:disabled{opacity:.5;cursor:not-allowed;}
@@ -72,12 +62,44 @@ p{font-size:14px;color:#848aa0;line-height:1.6;}
   padding:14px 18px;display:flex;justify-content:space-between;align-items:center;
 }
 .res-label{font-size:13px;color:#848aa0;}
-.res-val{font-size:18px;font-weight:700;color:#fff;}
-.check{color:#2fc76e;font-size:20px;margin-right:8px;}
+.res-val{font-size:20px;font-weight:700;color:#fff;}
+.check{color:#2fc76e;margin-right:6px;}
 .error-box{
   background:rgba(230,57,70,.1);border:1px solid rgba(230,57,70,.3);
   border-radius:10px;padding:14px;font-size:13px;color:#e63946;margin-top:16px;
 }
+.sheet-list{display:flex;flex-direction:column;gap:8px;margin:20px 0;}
+.sheet-item{
+  background:#13141f;border:1px solid #1c1d2c;border-radius:10px;
+  padding:12px 16px;display:flex;align-items:center;gap:12px;font-size:13px;
+}
+.sheet-icon{font-size:16px;}
+.sheet-name{color:#ecedf8;font-weight:500;flex:1;}
+.sheet-count{color:#848aa0;font-size:12px;}
+.sheet-ok{color:#2fc76e;}
+.sheet-loading{color:#848aa0;}
+/* Cliente review */
+.clientes-list{display:flex;flex-direction:column;gap:8px;margin:20px 0;max-height:400px;overflow-y:auto;}
+.cliente-row{
+  background:#13141f;border:1px solid #1c1d2c;border-radius:10px;
+  padding:10px 14px;display:grid;
+  grid-template-columns:1fr 1fr auto;gap:10px;align-items:center;
+}
+.cliente-original{font-size:12px;color:#848aa0;word-break:break-word;}
+.cliente-input{
+  background:#07080d;border:1px solid #272840;border-radius:7px;
+  padding:7px 10px;color:#ecedf8;font-size:13px;font-family:inherit;
+  outline:none;width:100%;
+}
+.cliente-input:focus{border-color:#7B2FBE;}
+.cliente-orders{font-size:12px;color:#525568;text-align:right;white-space:nowrap;}
+.hint-box{
+  background:#13141f;border:1px solid #1c1d2c;border-radius:10px;
+  padding:14px;font-size:13px;color:#848aa0;margin-bottom:16px;line-height:1.5;
+}
+.hint-box b{color:#ecedf8;}
+.col-header{font-size:11px;color:#525568;text-transform:uppercase;letter-spacing:.5px;
+  display:grid;grid-template-columns:1fr 1fr auto;gap:10px;padding:0 14px;margin-bottom:4px;}
 </style>
 </head>
 <body>
@@ -86,61 +108,82 @@ p{font-size:14px;color:#848aa0;line-height:1.6;}
   <!-- Sin sesión -->
   <div class="card" x-show="!session">
     <div class="logo">UV <span>STORE</span></div>
-    <p style="margin-top:16px">Para importar datos necesitás iniciar sesión primero.</p>
-    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none;margin-top:24px">
+    <p>Iniciá sesión primero para poder importar datos.</p>
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none">
       Ir al sistema →
     </a>
   </div>
 
-  <!-- Pantalla inicial -->
+  <!-- Paso 1: Inicio -->
   <div class="card" x-show="session && estado==='idle'">
-    <div class="logo" style="margin-bottom:20px">UV <span>STORE</span></div>
+    <div class="logo">UV <span>STORE</span></div>
     <h1>Importar desde Google Sheets</h1>
-    <p>Seguí estos pasos para exportar el CSV:</p>
-    <ul class="steps">
-      <li>
-        <span class="step-num">1</span>
-        Abrí tu Google Sheet → <b>Archivo → Descargar → Valores separados por comas (.csv)</b>
-      </li>
-      <li>
-        <span class="step-num">2</span>
-        Subí el archivo descargado acá abajo
-      </li>
-      <li>
-        <span class="step-num">3</span>
-        Hacé clic en <b>Importar</b> — el proceso tarda ~30 segundos
-      </li>
+    <p style="margin-bottom:4px">Se van a importar las 5 solapas de tu hoja:</p>
+    <ul class="steps" style="margin-top:12px">
+      <li><span class="step-num">1</span><span>ventas</span></li>
+      <li><span class="step-num">2</span><span>ventas 2023</span></li>
+      <li><span class="step-num">3</span><span>ventas 2024</span></li>
+      <li><span class="step-num">4</span><span>ventas 2025</span></li>
+      <li><span class="step-num">5</span><span>ventas 2026</span></li>
     </ul>
-
-    <div class="upload-area"
-      :class="{active: archivos.length > 0}"
-      @click="$refs.fileInput.click()"
-      @dragover.prevent="$el.classList.add('active')"
-      @dragleave="$el.classList.remove('active')"
-      @drop.prevent="handleDrop($event)">
-      <input type="file" accept=".csv" multiple x-ref="fileInput" @change="handleFile($event)">
-      <div class="upload-icon">📂</div>
-      <div class="upload-label">
-        <span x-show="archivos.length === 0">Arrastrá los CSVs acá o <b>hacé clic para seleccionar</b><br><small style="font-size:11px;opacity:.7">Podés seleccionar varios archivos a la vez (una solapa = un CSV)</small></span>
-        <div x-show="archivos.length > 0" style="text-align:left">
-          <template x-for="a in archivos" :key="a.nombre">
-            <div class="file-selected">✓ <span x-text="a.nombre"></span> — <span x-text="a.filas + ' filas'"></span></div>
-          </template>
-        </div>
-      </div>
-    </div>
-
+    <p>Después vas a poder revisar y corregir los nombres de los clientes antes de guardar.</p>
     <div class="error-box" x-show="error" x-text="error"></div>
-
-    <button class="btn" @click="importar()" :disabled="archivos.length === 0 || importando">
-      Importar datos
+    <button class="btn" @click="descargarSheets()" :disabled="cargando">
+      <span x-text="cargando ? 'Descargando...' : 'Descargar hojas'"></span>
     </button>
     <a href="sistema.html" class="btn-ghost">← Volver al sistema</a>
   </div>
 
+  <!-- Paso 1b: Descargando sheets -->
+  <div class="card" x-show="session && estado==='descargando'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1>Descargando hojas...</h1>
+    <div class="sheet-list">
+      <template x-for="s in sheets" :key="s.nombre">
+        <div class="sheet-item">
+          <span class="sheet-icon">📄</span>
+          <span class="sheet-name" x-text="s.nombre"></span>
+          <span x-show="s.estado==='ok'" class="sheet-ok">✓ <span x-text="s.filas + ' filas'"></span></span>
+          <span x-show="s.estado==='cargando'" class="sheet-loading">cargando...</span>
+          <span x-show="s.estado==='error'" style="color:#e63946">error</span>
+        </div>
+      </template>
+    </div>
+  </div>
+
+  <!-- Paso 2: Revisar clientes -->
+  <div class="card card-wide" x-show="session && estado==='revisar-clientes'">
+    <div class="logo">UV <span>STORE</span></div>
+    <h1>Revisá los clientes</h1>
+    <div class="hint-box">
+      Se detectaron <b x-text="clientesDetectados.length"></b> nombres distintos en las hojas.<br>
+      Si el mismo cliente aparece con nombres distintos, <b>escribí el mismo nombre en ambos</b> y quedarán fusionados.
+    </div>
+    <div class="col-header">
+      <span>Nombre en la hoja</span>
+      <span>Nombre a guardar</span>
+      <span style="text-align:right">Órdenes</span>
+    </div>
+    <div class="clientes-list">
+      <template x-for="(c, i) in clientesDetectados" :key="c.original">
+        <div class="cliente-row">
+          <span class="cliente-original" x-text="c.original || '(sin nombre)'"></span>
+          <input class="cliente-input" type="text" x-model="clientesDetectados[i].normalizado"
+            :placeholder="c.original || '(sin nombre)'">
+          <span class="cliente-orders" x-text="c.ordenes + ' órd.'"></span>
+        </div>
+      </template>
+    </div>
+    <div class="error-box" x-show="error" x-text="error"></div>
+    <button class="btn" style="margin-top:8px" @click="importar()">
+      Importar <span x-text="totalFilas"></span> órdenes →
+    </button>
+    <button class="btn-ghost" @click="estado='idle';error=''">← Volver</button>
+  </div>
+
   <!-- Importando -->
   <div class="card" x-show="session && estado==='importando'">
-    <div class="logo" style="margin-bottom:20px">UV <span>STORE</span></div>
+    <div class="logo">UV <span>STORE</span></div>
     <h1>Importando...</h1>
     <div class="progress-wrap">
       <div class="progress-label">
@@ -154,9 +197,9 @@ p{font-size:14px;color:#848aa0;line-height:1.6;}
     <p class="status-msg" x-text="detalle"></p>
   </div>
 
-  <!-- Resultado -->
+  <!-- Listo -->
   <div class="card" x-show="session && estado==='listo'">
-    <div class="logo" style="margin-bottom:20px">UV <span>STORE</span></div>
+    <div class="logo">UV <span>STORE</span></div>
     <h1><span class="check">✓</span>Importación completa</h1>
     <div class="resultado">
       <div class="res-row">
@@ -176,7 +219,7 @@ p{font-size:14px;color:#848aa0;line-height:1.6;}
         <span class="res-val" style="color:#e63946" x-text="resultado.errores"></span>
       </div>
     </div>
-    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none;margin-top:24px">
+    <a href="sistema.html" class="btn" style="display:block;text-align:center;text-decoration:none">
       Ir al sistema →
     </a>
   </div>
@@ -184,6 +227,9 @@ p{font-size:14px;color:#848aa0;line-height:1.6;}
 </div>
 
 <script>
+const SHEET_ID = '1AWT6y-oJG8egeLHu8HdvFFDBX8xIIju4RbLz9ZwHdKU';
+const SHEET_NAMES = ['ventas', 'ventas 2023', 'ventas 2024', 'ventas 2025', 'ventas 2026'];
+
 // ── CSV PARSER ────────────────────────────────────────────────────────
 function parseCSVLine(line) {
   const fields = [];
@@ -195,121 +241,152 @@ function parseCSVLine(line) {
       if (inQuotes && line[i+1] === '"') { field += '"'; i++; }
       else { inQuotes = !inQuotes; }
     } else if (c === ',' && !inQuotes) {
-      fields.push(field);
-      field = '';
-    } else {
-      field += c;
-    }
+      fields.push(field); field = '';
+    } else { field += c; }
   }
   fields.push(field);
   return fields;
 }
 
 function parseCSV(text) {
-  return text
-    .split('\n')
+  return text.split('\n')
     .map(l => parseCSVLine(l.replace(/\r$/, '')));
 }
 
-// ── CURRENCY PARSER ───────────────────────────────────────────────────
 function parseMoney(s) {
   if (!s || !s.trim()) return 0;
   const str = s.trim();
-  if (/^[\$Q\s\-\. ]+$/.test(str)) return 0; // "$ -   " → 0
+  if (/^[\$Q\s\-\. ]+$/.test(str)) return 0;
   const neg = str.startsWith('-');
   const num = parseFloat(str.replace(/[^0-9.]/g, '')) || 0;
   return neg ? -num : num;
 }
 
-// ── ALPINE APP ────────────────────────────────────────────────────────
+async function fetchSheet(nombre) {
+  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&sheet=${encodeURIComponent(nombre)}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.text();
+}
+
+function extraerFilas(text) {
+  const rows = parseCSV(text);
+  return rows.filter(r => r[1] && r[1].trim() && r[1].trim() !== 'Producto');
+}
+
+// ── APP ───────────────────────────────────────────────────────────────
 function importApp() {
   return {
     session: null,
     estado: 'idle',
-    archivos: [],    // [{nombre, filas, rows}]
+    cargando: false,
+    error: '',
+    sheets: SHEET_NAMES.map(n => ({ nombre: n, estado: 'pendiente', filas: 0, rows: [] })),
+    todasLasFilas: [],
     totalFilas: 0,
+    clientesDetectados: [],
     progreso: 0,
     statusMsg: '',
     detalle: '',
-    error: '',
-    importando: false,
     resultado: { clientes: 0, ordenes: 0, pagos: 0, errores: 0 },
 
     async init() {
       this.session = await dbGetSession();
     },
 
-    handleFile(e) {
-      const files = Array.from(e.target.files);
-      files.forEach(f => this.procesarArchivo(f));
-    },
-
-    handleDrop(e) {
-      const files = Array.from(e.dataTransfer.files);
-      files.forEach(f => this.procesarArchivo(f));
-    },
-
-    procesarArchivo(file) {
+    async descargarSheets() {
+      this.cargando = true;
       this.error = '';
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        const rows = parseCSV(e.target.result);
-        const data = rows.filter(r => r[1] && r[1].trim() && r[1].trim() !== 'Producto');
-        if (data.length === 0) {
-          this.error = `"${file.name}" no tiene filas válidas. Verificá que sea el CSV correcto.`;
-          return;
+      this.estado = 'descargando';
+
+      for (const s of this.sheets) {
+        s.estado = 'cargando';
+        try {
+          const text = await fetchSheet(s.nombre);
+          s.rows = extraerFilas(text);
+          s.filas = s.rows.length;
+          s.estado = 'ok';
+        } catch(e) {
+          s.estado = 'error';
+          s.filas = 0;
         }
-        // Evitar duplicados si el archivo ya fue agregado
-        if (this.archivos.find(a => a.nombre === file.name)) return;
-        this.archivos.push({ nombre: file.name, filas: data.length, rows: data });
-        this.totalFilas = this.archivos.reduce((s, a) => s + a.filas, 0);
-      };
-      reader.readAsText(file, 'UTF-8');
+      }
+
+      const todasOk = this.sheets.some(s => s.estado === 'ok');
+      if (!todasOk) {
+        this.error = 'No se pudo descargar ninguna hoja. Verificá que la hoja sea pública (cualquiera con el link puede ver).';
+        this.estado = 'idle';
+        this.cargando = false;
+        return;
+      }
+
+      this.todasLasFilas = this.sheets.flatMap(s => s.rows);
+      this.totalFilas = this.todasLasFilas.length;
+
+      // Detectar clientes únicos
+      const clienteMap = {};
+      for (const r of this.todasLasFilas) {
+        const nombre = r[14]?.trim() || '';
+        const key = nombre.toLowerCase();
+        if (!clienteMap[key]) {
+          clienteMap[key] = { original: nombre, normalizado: nombre, ordenes: 0, whatsapp: r[15]?.trim() || '' };
+        }
+        clienteMap[key].ordenes++;
+        // Conservar whatsapp si está vacío
+        if (!clienteMap[key].whatsapp && r[15]?.trim()) {
+          clienteMap[key].whatsapp = r[15].trim();
+        }
+      }
+
+      // Ordenar por nombre
+      this.clientesDetectados = Object.values(clienteMap)
+        .sort((a, b) => a.original.localeCompare(b.original, 'es'));
+
+      this.cargando = false;
+      this.estado = 'revisar-clientes';
     },
 
     async importar() {
-      this.importando = true;
       this.estado = 'importando';
       this.error = '';
 
       try {
-        // Combinar todas las filas de todos los archivos
-        const rows = this.archivos.flatMap(a => a.rows);
-        let clientesCreados = 0;
-        let ordenesCreadas = 0;
-        let pagosCreados = 0;
-        let errores = 0;
+        const rows = this.todasLasFilas;
 
-        // ── 1. Clientes únicos ──
+        // Mapeo: nombre original (lower) → nombre normalizado
+        const normMap = {};
+        for (const c of this.clientesDetectados) {
+          normMap[c.original.toLowerCase()] = {
+            normalizado: c.normalizado.trim() || c.original,
+            whatsapp: c.whatsapp
+          };
+        }
+
+        // ── 1. Clientes únicos según nombre normalizado ──
         this.statusMsg = 'Creando clientes...';
         this.progreso = 5;
 
-        const clienteMap = {}; // nombre_lower → {nombre, whatsapp}
-        for (const r of rows) {
-          const nombre = r[14]?.trim();
-          if (nombre && !clienteMap[nombre.toLowerCase()]) {
-            clienteMap[nombre.toLowerCase()] = {
-              nombre,
-              whatsapp: r[15]?.trim() || null,
+        const clientesFinal = {};
+        for (const c of this.clientesDetectados) {
+          const norm = (c.normalizado.trim() || c.original).toLowerCase();
+          if (!clientesFinal[norm]) {
+            clientesFinal[norm] = {
+              nombre: c.normalizado.trim() || c.original,
+              whatsapp: c.whatsapp || null,
               notas: null
             };
           }
         }
 
-        const clientesArr = Object.values(clienteMap);
-        let nameToId = {};
+        const clientesArr = Object.values(clientesFinal);
+        const nameToId = {};
+        let clientesCreados = 0;
 
         if (clientesArr.length > 0) {
-          const { data: insertedClientes, error: cErr } = await db
-            .from('clientes')
-            .insert(clientesArr)
-            .select('id, nombre');
-
-          if (cErr) throw new Error('Error al insertar clientes: ' + cErr.message);
-          clientesCreados = insertedClientes.length;
-          for (const c of insertedClientes) {
-            nameToId[c.nombre.toLowerCase()] = c.id;
-          }
+          const { data: ins, error: cErr } = await db.from('clientes').insert(clientesArr).select('id, nombre');
+          if (cErr) throw new Error('Error clientes: ' + cErr.message);
+          clientesCreados = ins.length;
+          for (const c of ins) nameToId[c.nombre.toLowerCase()] = c.id;
         }
 
         this.progreso = 15;
@@ -325,7 +402,9 @@ function importApp() {
           const producto = r[1]?.trim();
           if (!producto) continue;
 
-          const nombreCliente = r[14]?.trim()?.toLowerCase();
+          const originalNombre = r[14]?.trim() || '';
+          const normInfo = normMap[originalNombre.toLowerCase()];
+          const nombreNorm = (normInfo?.normalizado || originalNombre).toLowerCase();
           const precioGTQ = parseMoney(r[13]);
           const abonado = parseMoney(r[16]);
 
@@ -338,7 +417,7 @@ function importApp() {
           const notas = (pedidoRaw !== 'Si' && pedidoRaw !== 'No' && pedidoRaw) ? pedidoRaw : '';
 
           ordenesArr.push({
-            cliente_id: (nombreCliente && nameToId[nombreCliente]) || null,
+            cliente_id: nameToId[nombreNorm] || null,
             producto,
             codigo: r[2]?.trim() || '',
             marca: r[3]?.trim() || '',
@@ -355,31 +434,27 @@ function importApp() {
             estado,
             notas
           });
-
           abonadosArr.push(abonado);
         }
 
-        // Insertar órdenes en lotes de 50
         const LOTE = 50;
         const pagosArr = [];
+        let ordenesCreadas = 0;
+        let errores = 0;
 
         for (let i = 0; i < ordenesArr.length; i += LOTE) {
           const lote = ordenesArr.slice(i, i + LOTE);
           const loteAbonados = abonadosArr.slice(i, i + LOTE);
 
-          const { data: inserted, error: oErr } = await db
-            .from('ordenes')
-            .insert(lote)
-            .select('id');
-
+          const { data: ins, error: oErr } = await db.from('ordenes').insert(lote).select('id');
           if (oErr) {
             errores += lote.length;
           } else {
-            ordenesCreadas += inserted.length;
-            for (let j = 0; j < inserted.length; j++) {
+            ordenesCreadas += ins.length;
+            for (let j = 0; j < ins.length; j++) {
               if (loteAbonados[j] > 0) {
                 pagosArr.push({
-                  orden_id: inserted[j].id,
+                  orden_id: ins[j].id,
                   monto: loteAbonados[j],
                   tipo: 'abono',
                   metodo: 'transferencia',
@@ -396,21 +471,17 @@ function importApp() {
         // ── 3. Pagos ──
         this.statusMsg = 'Registrando pagos...';
         this.progreso = 88;
+        let pagosCreados = 0;
 
         if (pagosArr.length > 0) {
-          const { data: insertedPagos, error: pErr } = await db
-            .from('pagos')
-            .insert(pagosArr)
-            .select('id');
-
+          const { data: insPagos, error: pErr } = await db.from('pagos').insert(pagosArr).select('id');
           if (pErr) {
-            // Si falla el batch, intentar uno a uno
             for (const pago of pagosArr) {
               const { error: p2Err } = await db.from('pagos').insert(pago);
               if (!p2Err) pagosCreados++;
             }
           } else {
-            pagosCreados = insertedPagos.length;
+            pagosCreados = insPagos.length;
           }
         }
 
@@ -420,8 +491,7 @@ function importApp() {
 
       } catch(e) {
         this.error = 'Error: ' + e.message;
-        this.estado = 'idle';
-        this.importando = false;
+        this.estado = 'revisar-clientes';
       }
     }
   };
