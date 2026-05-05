@@ -272,6 +272,10 @@ button,a{touch-action:manipulation;cursor:pointer}
         <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         Clientes
       </button>
+      <button class="nav-item" :class="{active: view==='metricas'}" @click="goTo('metricas')">
+        <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Métricas
+      </button>
     </nav>
     <div class="sidebar-footer">
       <button class="btn-logout" @click="logout()">Cerrar sesión</button>
@@ -733,6 +737,91 @@ button,a{touch-action:manipulation;cursor:pointer}
       </div>
     </div>
 
+    <!-- Vista: Métricas -->
+    <div x-show="view==='metricas'" x-data="uvMetricas()">
+      <div class="page-header">
+        <h1 class="page-title">Métricas</h1>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <template x-for="a in anios" :key="a">
+            <button class="btn-sm"
+              :class="a===anioSel ? 'btn-purple' : 'btn-ghost'"
+              @click="anioSel=a;calcular()" x-text="a">
+            </button>
+          </template>
+        </div>
+      </div>
+      <div class="page-body">
+        <div x-show="loading" style="color:var(--muted2)">Cargando...</div>
+        <div x-show="!loading">
+
+          <div class="stats-grid" style="margin-bottom:24px">
+            <div class="stat-card">
+              <div class="stat-label">Órdenes</div>
+              <div class="stat-value" x-text="resumen.ordenes"></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Ventas totales</div>
+              <div class="stat-value" x-text="fmtQ(resumen.ventas)"></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Cobrado</div>
+              <div class="stat-value green" x-text="fmtQ(resumen.cobrado)"></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Margen estimado</div>
+              <div class="stat-value" :class="resumen.margen>=0?'green':''" x-text="fmtQ(resumen.margen)"></div>
+            </div>
+          </div>
+
+          <!-- Gráfico de barras por mes -->
+          <div class="card" style="padding:24px;margin-bottom:24px">
+            <div class="card-title" style="margin-bottom:20px">Ventas por mes</div>
+            <div style="display:grid;grid-template-columns:repeat(12,1fr);gap:8px;align-items:end;height:120px">
+              <template x-for="m in meses" :key="m.mes">
+                <div style="display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end">
+                  <div style="font-size:10px;color:var(--muted2)" x-text="fmtQShort(m.ventas)" x-show="m.ventas>0"></div>
+                  <div style="width:100%;border-radius:4px 4px 0 0;min-height:2px;transition:height .3s"
+                    :style="'height:' + m.pct + '%;background:' + (m.esActual ? 'var(--pl)' : 'var(--purple)')">
+                  </div>
+                  <div style="font-size:10px;color:var(--muted2);white-space:nowrap" x-text="m.nombre"></div>
+                </div>
+              </template>
+            </div>
+          </div>
+
+          <!-- Tabla mensual -->
+          <div class="card">
+            <div class="card-header"><span class="card-title">Detalle mensual</span></div>
+            <div style="overflow-x:auto">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Mes</th>
+                    <th>Órdenes</th>
+                    <th>Ventas</th>
+                    <th>Cobrado</th>
+                    <th>Por cobrar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <template x-for="m in meses.filter(m=>m.ordenes>0)" :key="m.mes">
+                    <tr :style="m.esActual ? 'background:rgba(123,47,190,.08)' : ''">
+                      <td style="font-weight:500;color:#fff" x-text="m.nombre + (m.esActual ? ' ◂' : '')"></td>
+                      <td x-text="m.ordenes"></td>
+                      <td x-text="fmtQ(m.ventas)"></td>
+                      <td style="color:var(--green)" x-text="fmtQ(m.cobrado)"></td>
+                      <td :style="m.porCobrar>0?'color:var(--red)':''" x-text="fmtQ(m.porCobrar)"></td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <!-- MOBILE NAV -->
@@ -744,6 +833,10 @@ button,a{touch-action:manipulation;cursor:pointer}
     <button class="mobile-nav-item" :class="{active:view==='ordenes'||view==='detalle-orden'||view==='nueva-orden'}" @click="goTo('ordenes')">
       <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
       Órdenes
+    </button>
+    <button class="mobile-nav-item" :class="{active:view==='metricas'}" @click="goTo('metricas')">
+      <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      Métricas
     </button>
     <button class="mobile-nav-item" :class="{active:view==='clientes'||view==='detalle-cliente'||view==='whatsapp-masivo'}" @click="goTo('clientes')">
       <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
@@ -981,6 +1074,69 @@ function uvWhatsappMasivo() {
       this.savedMsg = actualizados > 0
         ? `✓ ${actualizados} cliente${actualizados > 1 ? 's' : ''} actualizado${actualizados > 1 ? 's' : ''}`
         : 'Sin cambios';
+    }
+  };
+}
+
+// ── MÉTRICAS ──────────────────────────────────────────────────────────
+function uvMetricas() {
+  const NOMBRES = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  return {
+    loading: true,
+    _ordenes: [],
+    anios: [],
+    anioSel: new Date().getFullYear(),
+    meses: [],
+    resumen: { ordenes:0, ventas:0, cobrado:0, margen:0 },
+
+    async init() {
+      this.loading = true;
+      try {
+        this._ordenes = await dbGetOrdenes();
+        const years = [...new Set(this._ordenes.map(o => new Date(o.created_at).getFullYear()))].sort();
+        this.anios = years.length ? years : [this.anioSel];
+        if (!this.anios.includes(this.anioSel)) this.anioSel = this.anios[this.anios.length - 1];
+        this.calcular();
+      } finally { this.loading = false; }
+    },
+
+    calcular() {
+      const anio = this.anioSel;
+      const mesActual = new Date().getMonth();
+      const anioActual = new Date().getFullYear();
+
+      const byMes = Array.from({length:12}, (_, i) => ({
+        mes: i, nombre: NOMBRES[i], ordenes: 0, ventas: 0, cobrado: 0, porCobrar: 0,
+        esActual: i === mesActual && anio === anioActual
+      }));
+
+      let totalOrdenes=0, totalVentas=0, totalCobrado=0, totalCosto=0;
+
+      for (const o of this._ordenes) {
+        const fecha = new Date(o.created_at);
+        if (fecha.getFullYear() !== anio) continue;
+        const mes = fecha.getMonth();
+        const ab = (o.pagos || []).reduce((s,p) => s + (p.monto||0), 0);
+        byMes[mes].ordenes++;
+        byMes[mes].ventas += o.precio_venta_gtq || 0;
+        byMes[mes].cobrado += ab;
+        byMes[mes].porCobrar += Math.max(0, (o.precio_venta_gtq||0) - ab);
+        totalOrdenes++;
+        totalVentas += o.precio_venta_gtq || 0;
+        totalCobrado += ab;
+        totalCosto += calcCostoEstimado(o);
+      }
+
+      const maxVentas = Math.max(...byMes.map(m => m.ventas), 1);
+      this.meses = byMes.map(m => ({ ...m, pct: Math.round(m.ventas / maxVentas * 100) }));
+      this.resumen = { ordenes: totalOrdenes, ventas: totalVentas, cobrado: totalCobrado, margen: totalVentas - totalCosto };
+    },
+
+    fmtQ,
+    fmtQShort(n) {
+      if (!n) return '';
+      if (n >= 1000) return 'Q' + Math.round(n/1000) + 'k';
+      return 'Q' + Math.round(n);
     }
   };
 }
