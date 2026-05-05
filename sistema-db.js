@@ -187,3 +187,8 @@ async function dbUpdateEstadoOrden(id, estado) {
   const { error } = await db.from('ordenes').update({ estado }).eq('id', id);
   if (error) throw error;
 }
+
+async function dbSetEntregado(id, entregado) {
+  const { error } = await db.from('ordenes').update({ entregado }).eq('id', id);
+  if (error) throw error;
+}
