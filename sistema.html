@@ -1141,7 +1141,7 @@ function uvDashboard() {
           estadoCount[o.estado] = (estadoCount[o.estado] || 0) + 1;
         }
 
-        const ordenEstados = ['reservada', 'en_proceso', 'pagada', 'entregada'];
+        const ordenEstados = ['en_proceso', 'pagada', 'cancelada'];
         this.stats = {
           total: ordenes.length,
           porCobrar, cobrado, clientes: clientesCount,
@@ -1514,7 +1514,7 @@ function uvDetalleOrden() {
       try {
         await dbSavePago({ ...this.formPago, orden_id: this.orden.id });
         this.pagos = await dbGetPagosByOrden(this.orden.id);
-        if (this.saldo <= 0 && this.orden.estado !== 'entregada') {
+        if (this.saldo <= 0 && this.orden.estado !== 'cancelada') {
           await dbSaveOrden({ ...this.orden, estado: 'pagada' });
           this.orden.estado = 'pagada';
         } else if (this.saldo > 0 && this.orden.estado === 'pagada') {
