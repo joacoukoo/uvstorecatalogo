@@ -60,7 +60,8 @@ async function dbGetOrdenes() {
     .from('ordenes')
     .select('*, clientes(nombre), pagos(monto)')
     .order('fecha_venta', { ascending: false, nullsFirst: true })
-    .order('created_at', { ascending: false });
+    .order('created_at', { ascending: false })
+    .order('id', { ascending: false });
   if (error) throw error;
   return data;
 }
