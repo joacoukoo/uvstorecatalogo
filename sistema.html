@@ -1098,7 +1098,10 @@ function uvMetricas() {
       this.loading = true;
       try {
         this._ordenes = await dbGetOrdenes();
-        const years = [...new Set(this._ordenes.map(o => new Date(o.created_at).getFullYear()))].sort();
+        const years = [...new Set(this._ordenes.map(o => {
+          if (o.fecha_venta) return parseInt(o.fecha_venta.split('-')[0]);
+          return new Date(o.created_at).getFullYear();
+        }))].sort();
         this.anios = years.length ? years : [this.anioSel];
         if (!this.anios.includes(this.anioSel)) this.anioSel = this.anios[this.anios.length - 1];
         this.calcular();
