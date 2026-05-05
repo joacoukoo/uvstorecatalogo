@@ -59,6 +59,7 @@ async function dbGetOrdenes() {
   const { data, error } = await db
     .from('ordenes')
     .select('*, clientes(nombre), pagos(monto)')
+    .order('fecha_venta', { ascending: false, nullsFirst: true })
     .order('created_at', { ascending: false });
   if (error) throw error;
   return data;

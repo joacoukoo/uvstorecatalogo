@@ -400,7 +400,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                   <tr>
                     <td>
                       <div x-text="o.producto" style="font-weight:500;color:#fff"></div>
-                      <div style="font-size:11px;color:var(--muted2)" x-text="[o.marca, fmtDate(o.created_at)].filter(Boolean).join(' · ')"></div>
+                      <div style="font-size:11px;color:var(--muted2)" x-text="[o.marca, !o.fecha_venta ? fmtDate(o.created_at) : ''].filter(Boolean).join(' · ')"></div>
                     </td>
                     <td x-text="o.clientes?.nombre || '—'" style="color:var(--muted2)"></td>
                     <td x-text="fmtQ(o.precio_venta_gtq)"></td>
