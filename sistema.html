@@ -282,10 +282,71 @@ button,a{touch-action:manipulation;cursor:pointer}
   <main class="main">
 
     <!-- Vista: Dashboard -->
-    <div x-show="view==='dashboard'">
+    <div x-show="view==='dashboard'" x-data="uvDashboard()">
       <div class="page-header"><h1 class="page-title">Dashboard</h1></div>
       <div class="page-body">
-        <p style="color:var(--muted2)">Dashboard — próximamente</p>
+        <div x-show="loading" style="color:var(--muted2)">Cargando...</div>
+        <div x-show="!loading">
+          <div class="stats-grid" style="margin-bottom:24px">
+            <div class="stat-card">
+              <div class="stat-label">Total órdenes</div>
+              <div class="stat-value" x-text="stats.total"></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Por cobrar</div>
+              <div class="stat-value gold" x-text="fmtQ(stats.porCobrar)"></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Ya cobrado</div>
+              <div class="stat-value green" x-text="fmtQ(stats.cobrado)"></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Clientes</div>
+              <div class="stat-value purple" x-text="stats.clientes"></div>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
+            <div class="card" style="padding:20px">
+              <div class="stat-label" style="margin-bottom:12px">Por estado</div>
+              <template x-for="e in stats.porEstado" :key="e.estado">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+                  <span class="badge" :class="'badge-'+e.estado" x-text="e.estado.replace('_',' ')"></span>
+                  <span style="font-weight:600;color:#fff" x-text="e.count"></span>
+                </div>
+              </template>
+            </div>
+            <div class="card" style="padding:20px">
+              <div class="stat-label" style="margin-bottom:12px">Ventas totales (GTQ)</div>
+              <div style="font-size:28px;font-weight:700;color:#fff;margin-bottom:4px" x-text="fmtQ(stats.ventasTotal)"></div>
+              <div style="font-size:13px;color:var(--muted2)">precio venta × órdenes</div>
+              <div style="margin-top:16px">
+                <div class="stat-label" style="margin-bottom:4px">Margen estimado</div>
+                <div style="font-size:20px;font-weight:700" :style="stats.margen>=0?'color:var(--green)':'color:var(--red)'" x-text="fmtQ(stats.margen)"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header"><span class="card-title">Últimas 10 órdenes</span></div>
+            <div style="overflow-x:auto">
+              <table class="table">
+                <thead><tr><th>Producto</th><th>Cliente</th><th>Precio</th><th>Saldo</th><th>Estado</th></tr></thead>
+                <tbody>
+                  <template x-for="o in stats.ultimas" :key="o.id">
+                    <tr>
+                      <td style="color:#fff;font-weight:500" x-text="o.producto"></td>
+                      <td style="color:var(--muted2)" x-text="o.clientes?.nombre||'—'"></td>
+                      <td x-text="fmtQ(o.precio_venta_gtq)"></td>
+                      <td x-text="fmtQ(o._saldo)" :style="o._saldo>0?'color:var(--red)':''"></td>
+                      <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -733,6 +794,60 @@ function uvApp() {
   };
 }
 
+// ── DASHBOARD ─────────────────────────────────────────────────────────
+function uvDashboard() {
+  return {
+    loading: true,
+    stats: { total: 0, porCobrar: 0, cobrado: 0, clientes: 0, ventasTotal: 0, margen: 0, porEstado: [], ultimas: [] },
+    async init() {
+      await this.cargar();
+      document.addEventListener('recargar-ordenes', () => this.cargar());
+    },
+    async cargar() {
+      this.loading = true;
+      try {
+        const [ordenes, pagosAll, clientes] = await Promise.all([
+          dbGetOrdenes(),
+          db.from('pagos').select('orden_id, monto').then(r => r.data || []),
+          db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0)
+        ]);
+
+        // Agrupar pagos por orden
+        const pagoMap = {};
+        for (const p of pagosAll) {
+          pagoMap[p.orden_id] = (pagoMap[p.orden_id] || 0) + (p.monto || 0);
+        }
+
+        let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
+        const estadoCount = {};
+
+        for (const o of ordenes) {
+          const ab = pagoMap[o.id] || 0;
+          const saldo = (o.precio_venta_gtq || 0) - ab;
+          o._abonado = ab;
+          o._saldo = saldo;
+          if (saldo > 0) porCobrar += saldo;
+          cobrado += ab;
+          ventasTotal += o.precio_venta_gtq || 0;
+          costoTotal += calcCostoEstimado(o);
+          estadoCount[o.estado] = (estadoCount[o.estado] || 0) + 1;
+        }
+
+        const ordenEstados = ['reservada', 'en_proceso', 'pagada', 'entregada'];
+        this.stats = {
+          total: ordenes.length,
+          porCobrar, cobrado, clientes,
+          ventasTotal,
+          margen: ventasTotal - costoTotal,
+          porEstado: ordenEstados.filter(e => estadoCount[e]).map(e => ({ estado: e, count: estadoCount[e] })),
+          ultimas: ordenes.slice(0, 10)
+        };
+      } finally { this.loading = false; }
+    },
+    fmtQ
+  };
+}
+
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
@@ -744,11 +859,17 @@ function uvOrdenes() {
     async cargar() {
       this.loading = true;
       try {
-        const data = await dbGetOrdenes();
+        const [data, pagosAll] = await Promise.all([
+          dbGetOrdenes(),
+          db.from('pagos').select('orden_id, monto').then(r => r.data || [])
+        ]);
+        const pagoMap = {};
+        for (const p of pagosAll) {
+          pagoMap[p.orden_id] = (pagoMap[p.orden_id] || 0) + (p.monto || 0);
+        }
         for (const o of data) {
-          const pagos = await dbGetPagosByOrden(o.id);
-          o._abonado = calcAbonado(pagos);
-          o._saldo = calcSaldo(o, pagos);
+          o._abonado = pagoMap[o.id] || 0;
+          o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
         }
         this.ordenes = data;
       } finally { this.loading = false; }
