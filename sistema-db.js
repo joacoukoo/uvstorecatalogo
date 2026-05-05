@@ -159,3 +159,17 @@ function calcSaldo(orden, pagos) {
 function fmtQ(n) {
   return 'Q' + Number(n || 0).toLocaleString('es-GT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
+
+function fmtUSD(n) {
+  return '$' + Number(n || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function fmtDate(dt) {
+  if (!dt) return '';
+  return new Date(dt).toLocaleDateString('es-GT', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+
+async function dbMovePago(pagoId, newOrdenId) {
+  const { error } = await db.from('pagos').update({ orden_id: newOrdenId }).eq('id', pagoId);
+  if (error) throw error;
+}
