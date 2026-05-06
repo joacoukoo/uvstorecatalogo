@@ -221,11 +221,19 @@ button,a{touch-action:manipulation;cursor:pointer}
 /* ── RESPONSIVE ── */
 @media(max-width:768px){
   .sidebar{display:none;}
-  .main{margin-left:0;padding-bottom:calc(68px + env(safe-area-inset-bottom));}
+  .main{margin-left:0;padding-bottom:calc(68px + env(safe-area-inset-bottom));overflow-x:hidden;}
   .mobile-nav{display:flex;}
   .page-header{padding:20px 16px 0;flex-wrap:wrap;}
   .page-body{padding:0 16px 24px;}
+  /* Stat cards más compactos para pantallas pequeñas */
   .stats-grid{grid-template-columns:repeat(2,1fr);gap:12px;}
+  .stat-card{padding:12px;}
+  .stat-value{font-size:16px;}
+  .stat-label{font-size:9px;letter-spacing:0;}
+  /* Títulos de página reducidos */
+  .page-title{font-size:18px;}
+  /* Cards internas del dash reducidas (tienen padding inline → !important) */
+  .dash-two-col .card{padding:14px !important;}
   .form-row{grid-template-columns:1fr;}
   .form-row-3{grid-template-columns:1fr;}
   /* Tablas: padding reducido */
@@ -238,10 +246,11 @@ button,a{touch-action:manipulation;cursor:pointer}
   .chart-monthly-wrap{overflow-x:auto;margin:0 -4px;}
   .chart-monthly{min-width:440px;}
   /* Ocultar columnas no esenciales en cada tabla */
-  /* Órdenes: ocultar Cliente(2) Precio(3) Abonado(4) */
+  /* Órdenes: ocultar Cliente(2) Precio(3) Abonado(4) Saldo(5) */
   .tbl-ordenes th:nth-child(2),.tbl-ordenes td:nth-child(2),
   .tbl-ordenes th:nth-child(3),.tbl-ordenes td:nth-child(3),
-  .tbl-ordenes th:nth-child(4),.tbl-ordenes td:nth-child(4){display:none;}
+  .tbl-ordenes th:nth-child(4),.tbl-ordenes td:nth-child(4),
+  .tbl-ordenes th:nth-child(5),.tbl-ordenes td:nth-child(5){display:none;}
   /* Historial cliente: ocultar Marca(2) Precio(5) */
   .tbl-historial th:nth-child(2),.tbl-historial td:nth-child(2),
   .tbl-historial th:nth-child(5),.tbl-historial td:nth-child(5){display:none;}
