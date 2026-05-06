@@ -652,7 +652,7 @@ button,a{touch-action:manipulation;cursor:pointer}
     </div>
 
     <!-- Vista: Nueva / Editar Orden -->
-    <div x-show="view==='nueva-orden'" x-data="uvNuevaOrden()">
+    <template x-if="view==='nueva-orden'"><div x-data="uvNuevaOrden()">
       <div class="page-header">
         <h1 class="page-title" x-text="form.id ? 'Editar orden' : 'Nueva orden'"></h1>
         <button class="btn-sm btn-ghost" @click="$dispatch('go-to','ordenes')">← Volver</button>
@@ -696,15 +696,15 @@ button,a{touch-action:manipulation;cursor:pointer}
             <div class="card-title" style="margin-bottom:16px;font-size:16px">Costos (USD)</div>
             <div class="form-row-3">
               <div><label class="form-label">Precio original</label>
-                <input class="form-input" type="number" x-model.number="form.precio_original" step="0.01" style="font-size:16px"></div>
+                <input class="form-input" type="number" x-model.number.lazy="form.precio_original" step="0.01" style="font-size:16px"></div>
               <div><label class="form-label">Envío</label>
-                <input class="form-input" type="number" x-model.number="form.envio" step="0.01" style="font-size:16px"></div>
+                <input class="form-input" type="number" x-model.number.lazy="form.envio" step="0.01" style="font-size:16px"></div>
               <div><label class="form-label">Envío MBE</label>
-                <input class="form-input" type="number" x-model.number="form.envio_mbe" step="0.01" style="font-size:16px"></div>
+                <input class="form-input" type="number" x-model.number.lazy="form.envio_mbe" step="0.01" style="font-size:16px"></div>
             </div>
             <div class="form-row-3">
               <div><label class="form-label">Impuesto</label>
-                <input class="form-input" type="number" x-model.number="form.impuesto" step="0.01" style="font-size:16px"></div>
+                <input class="form-input" type="number" x-model.number.lazy="form.impuesto" step="0.01" style="font-size:16px"></div>
               <div><label class="form-label">Aduana (auto 12%)</label>
                 <div class="calc-field" x-text="fmtUSD(aduanaCalc)"></div></div>
               <div><label class="form-label">Arancel (auto 15%)</label>
@@ -720,7 +720,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             <div class="card-title" style="margin-bottom:16px;font-size:16px">Precios de venta</div>
             <div class="form-row">
               <div><label class="form-label">Precio venta GTQ</label>
-                <input class="form-input" type="number" x-model.number="form.precio_venta_gtq" step="0.01" style="font-size:16px"></div>
+                <input class="form-input" type="number" x-model.number.lazy="form.precio_venta_gtq" step="0.01" style="font-size:16px"></div>
               <div><label class="form-label">Precio venta USD (÷7.9)</label>
                 <div class="calc-field" x-text="fmtUSD(precioVentaUSDCalc)"></div></div>
             </div>
@@ -789,7 +789,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
         </div>
       </div>
-    </div>
+    </div></template>
 
     <!-- Vista: Lista Clientes -->
     <div x-show="view==='clientes'" x-data="uvClientes()">
@@ -1105,6 +1105,8 @@ button,a{touch-action:manipulation;cursor:pointer}
 </div>
 
 <script>
+let _editarOrdenId = null; // usado por uvDetalleOrden → uvNuevaOrden
+
 // ── AUTH ──────────────────────────────────────────────────────────────
 function uvLogin() {
   return {
@@ -1367,11 +1369,12 @@ function uvNuevaOrden() {
     },
     async init() {
       this.clientes = await dbGetClientes();
-      document.addEventListener('editar-orden', async (e) => {
-        const o = await dbGetOrden(e.detail);
+      if (_editarOrdenId) {
+        const o = await dbGetOrden(_editarOrdenId);
         this.form = { ...o };
         this.abonoInicial = 0;
-      });
+        _editarOrdenId = null;
+      }
     },
     async crearCliente() {
       if (!this.nuevoClienteForm.nombre.trim()) { alert('El nombre es obligatorio'); return; }
@@ -1628,7 +1631,7 @@ function uvDetalleOrden() {
       catch(e) { this.orden.entregado = prev; alert('Error: ' + e.message); }
     },
     editarOrden() {
-      document.dispatchEvent(new CustomEvent('editar-orden', { detail: this.orden.id }));
+      _editarOrdenId = this.orden.id;
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'nueva-orden' }));
     },
     abrirComprobante(p) {
