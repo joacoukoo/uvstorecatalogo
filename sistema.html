@@ -527,6 +527,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                         <td x-text="p.metodo" style="color:var(--muted2)"></td>
                         <td x-text="fmtQ(p.monto)" style="font-weight:600;color:var(--green)"></td>
                         <td style="display:flex;gap:4px">
+                          <button class="btn-sm btn-ghost" @click="abrirComprobante(p)" title="Generar comprobante">📄</button>
                           <button class="btn-sm btn-ghost" @click="abrirMoverPago(p)">Mover</button>
                           <button class="btn-sm btn-danger" @click="eliminarPago(p.id)">✕</button>
                         </td>
@@ -1582,6 +1583,19 @@ function uvDetalleOrden() {
     editarOrden() {
       document.dispatchEvent(new CustomEvent('editar-orden', { detail: this.orden.id }));
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'nueva-orden' }));
+    },
+    abrirComprobante(p) {
+      const figura = this.orden.producto + (this.orden.marca ? ' by ' + this.orden.marca : '');
+      const params = new URLSearchParams({
+        tipo:     p.tipo === 'reserva' ? 'reserva' : 'abono',
+        nombre:   this.orden.clientes?.nombre || '',
+        figura,
+        monto:    p.monto,
+        total:    this.orden.precio_venta_gtq || 0,
+        abonado:  this.abonado,
+        restante: Math.max(0, this.saldo)
+      });
+      window.open('comprobante.html?' + params.toString(), '_blank');
     },
     fmtQ, fmtUSD
   };

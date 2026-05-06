@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Comprobante — UV Store GT</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:#07080d;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:16px;
+  font-family:'Montserrat',sans-serif;
+  gap:16px;
+}
+.wrap {
+  position:relative;
+  width:100%;
+  max-width:480px;
+}
+.wrap img {
+  width:100%;
+  display:block;
+}
+.overlay {
+  position:absolute;
+  top:0; left:0; width:100%; height:100%;
+  pointer-events:none;
+}
+.f {
+  position:absolute;
+  left:0; width:100%;
+  text-align:center;
+  line-height:1.2;
+}
+.f.tv {
+  left:40%; width:52%;
+}
+.btn-share {
+  width:100%; max-width:480px;
+  padding:14px;
+  background:#25D366; color:#fff;
+  border:none; border-radius:10px;
+  font-size:16px; font-weight:700;
+  font-family:inherit; cursor:pointer;
+  display:flex; align-items:center; justify-content:center; gap:8px;
+}
+.btn-share:disabled { opacity:.6; cursor:default; }
+</style>
+</head>
+<body>
+
+<div class="wrap" id="comp">
+  <img id="bg" src="" alt="comprobante" crossorigin="anonymous">
+  <div class="overlay" id="overlay"></div>
+</div>
+
+<button class="btn-share" id="btn" onclick="compartir()">📤 Compartir por WhatsApp</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+const q = new URLSearchParams(location.search);
+const tipo     = q.get('tipo')    || 'abono';
+const nombre   = q.get('nombre')  || '';
+const figura   = q.get('figura')  || '';
+const monto    = q.get('monto')   || '0';
+const total    = q.get('total')   || '0';
+const abonado  = q.get('abonado') || '0';
+const restante = q.get('restante')|| '0';
+
+function fmtQ(v) {
+  const n = parseFloat(v) || 0;
+  return 'Q' + n.toLocaleString('es-GT', { minimumFractionDigits:0, maximumFractionDigits:2 });
+}
+
+const bg = document.getElementById('bg');
+bg.src = tipo === 'reserva'
+  ? 'assets/comprobante-reserva-bg.png'
+  : 'assets/comprobante-abono-bg.png';
+
+bg.onload = function() {
+  const wrap  = document.getElementById('comp');
+  const scale = wrap.offsetWidth / 1200;
+
+  const sNombre = Math.round(72 * scale) + 'px';
+  const sDesc   = Math.round(44 * scale) + 'px';
+  const sFigura = Math.round(40 * scale) + 'px';
+  const sTable  = Math.round(56 * scale) + 'px';
+
+  function add(cls, text, topPct, style) {
+    const el = document.createElement('div');
+    el.className = 'f' + (cls ? ' ' + cls : '');
+    el.textContent = text;
+    el.style.top = topPct + '%';
+    if (style) Object.assign(el.style, style);
+    document.getElementById('overlay').appendChild(el);
+  }
+
+  add('', nombre,      18.5, { fontSize:sNombre, fontWeight:'800', color:'#fff' });
+  add('', fmtQ(monto), 26.2, { fontSize:sDesc,   fontWeight:'700', color:'#fff' });
+
+  if (tipo === 'abono') {
+    add('', figura,           37,   { fontSize:sFigura, fontWeight:'700', color:'#E8A020', fontStyle:'italic' });
+    add('tv', fmtQ(total),    50.5, { fontSize:sTable,  fontWeight:'800', color:'#111' });
+    add('tv', fmtQ(abonado),  57.3, { fontSize:sTable,  fontWeight:'800', color:'#111' });
+    add('tv', fmtQ(restante), 64,   { fontSize:sTable,  fontWeight:'800', color:'#111' });
+  } else {
+    add('', figura,           35,   { fontSize:sFigura, fontWeight:'700', color:'#E8A020', fontStyle:'italic' });
+    add('tv', fmtQ(total),    53.8, { fontSize:sTable,  fontWeight:'800', color:'#111' });
+    add('tv', fmtQ(restante), 61,   { fontSize:sTable,  fontWeight:'800', color:'#111' });
+  }
+};
+
+async function compartir() {
+  const btn = document.getElementById('btn');
+  btn.disabled = true;
+  btn.textContent = 'Generando...';
+  try {
+    const el = document.getElementById('comp');
+    const canvas = await html2canvas(el, {
+      scale: 2.5,
+      useCORS: true,
+      logging: false,
+      backgroundColor: null
+    });
+
+    const { jsPDF } = window.jspdf;
+    const pw = canvas.width  / 2.5;
+    const ph = canvas.height / 2.5;
+    const pdf = new jsPDF({ orientation:'portrait', unit:'px', format:[pw, ph] });
+    pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, pw, ph);
+
+    const blob  = pdf.output('blob');
+    const fname = 'comprobante-' + nombre.replace(/\s+/g, '-') + '.pdf';
+    const file  = new File([blob], fname, { type:'application/pdf' });
+
+    if (navigator.canShare && navigator.canShare({ files:[file] })) {
+      await navigator.share({ files:[file], title:'Comprobante UV Store GT' });
+    } else {
+      const url = URL.createObjectURL(blob);
+      const a   = document.createElement('a');
+      a.href = url; a.download = fname; a.click();
+      URL.revokeObjectURL(url);
+    }
+  } catch(e) {
+    alert('Error al generar el comprobante: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = '📤 Compartir por WhatsApp';
+  }
+}
+</script>
+</body>
+</html>
