@@ -10,10 +10,11 @@ Generar automáticamente comprobantes de pago (reserva y abono) en PDF desde el 
 
 No requiere backend, Cloudflare Worker, ni integración con Canva API.
 
-## Assets requeridos (provistos por el usuario)
+## Assets (ya copiados a assets/)
 
-- `assets/comprobante-bg.jpg` — foto de fondo exportada desde Canva (la misma imagen oscura con figuras que usan ambos templates)
-- `assets/uvstore-logo.png` — logo UV Store GT (el que aparece en la parte inferior de ambos comprobantes)
+- `assets/comprobante-abono-bg.png` — fondo completo del abono (1200×1600px), incluye banner ABONO, tabla con bordes, logo, footer — solo faltan los textos dinámicos
+- `assets/comprobante-reserva-bg.png` — fondo completo de la reserva (1200×1600px), incluye banner ¡FELICIDADES!, tabla, logo, footer — solo faltan los textos dinámicos
+- `assets/uvstore-logo.jpg` — logo UV Store GT (para uso futuro)
 
 ## Tipos de comprobante
 
@@ -68,29 +69,36 @@ comprobante.html?tipo=abono&nombre=Elizabeth+López&figura=Pegaso+Seiya+Deluxe+b
 - Si falta cualquier otro param: mostrar "—" en lugar del valor
 - Si falta `tipo`: asumir `abono` por defecto
 
-## Tipografía
-
-- Encabezado (ABONO / ¡FELICIDADES!): **Syne** 700, mayúsculas
-- Nombre cliente: **Syne** 700, ~36px
-- Textos descriptivos y tabla: **DM Sans** 400/700
-- Nombre figura: **DM Sans** 700 italic, color naranja
-- Ambas fuentes disponibles vía Google Fonts
-
 ## Visual design de comprobante.html
 
-Dimensiones: 600×900px (proporción similar al diseño de Canva, portrait).
+Los backgrounds ya tienen todo el diseño estático renderizado. `comprobante.html` muestra el PNG como imagen base y superpone solo los textos dinámicos con `position: absolute` en porcentajes.
 
-Estructura de arriba a abajo:
-1. **Fondo**: `comprobante-bg.jpg` con overlay oscuro semitransparente (`rgba(0,0,0,0.55)`)
-2. **Encabezado**: banner rombo/paralelo morado (`#7B2FBE`) con texto blanco bold en mayúsculas ("ABONO" o "¡FELICIDADES!")
-3. **Nombre cliente**: texto blanco, ~36px, bold
-4. **Descripción**: texto blanco, ~16px, centrado, con el monto subrayado/destacado
-5. **Nombre figura**: texto naranja/dorado (`#E8A020`), ~20px, cursiva o bold
-6. **Nota de envío** (solo reserva): texto blanco, ~14px, centrado
-7. **Tabla**: borde naranja redondeado, fondo blanco semitransparente, 2 o 3 filas. Columna izquierda texto normal, columna derecha texto bold
-8. **"¡Gracias por confiar en nosotros!"**: texto blanco, cursiva
-9. **Logo UV Store GT**: centrado, ~200px de ancho
-10. **Footer**: fondo oscuro, iconos de redes sociales + @uvstore_gt + +502 3026 1622
+Dimensiones del contenedor: 1200×1600px (o escalado proporcionalmente con `max-width: 600px` para que entre en pantalla).
+
+**Textos dinámicos a superponer (con % desde el borde superior del contenedor):**
+
+### Abono (`comprobante-abono-bg.png`)
+| Campo | top% | Estilo |
+|---|---|---|
+| Nombre cliente | ~19% | blanco, bold, ~32px, centrado |
+| Monto (inline en descripción) | ~27% | blanco, bold, centrado |
+| Nombre figura | ~38% | naranja `#E8A020`, bold, centrado |
+| Valor total (celda derecha fila 1) | ~51% | negro, bold, ~22px, centrado |
+| Abono total (celda derecha fila 2) | ~57.5% | negro, bold, centrado |
+| Saldo pendiente (celda derecha fila 3) | ~64% | negro, bold, centrado |
+
+### Reserva (`comprobante-reserva-bg.png`)
+| Campo | top% | Estilo |
+|---|---|---|
+| Nombre cliente | ~19% | blanco, bold, ~32px, centrado |
+| Monto (inline en descripción) | ~27% | blanco, bold, centrado |
+| Nombre figura | ~36% | naranja `#E8A020`, bold, centrado |
+| Valor total (celda derecha fila 1) | ~54% | negro, bold, ~22px, centrado |
+| Saldo restante (celda derecha fila 2) | ~61% | negro, bold, centrado |
+
+Los % son estimados y se ajustan durante implementación con prueba visual.
+
+**Fuente para overlays:** `"Montserrat", "DM Sans", sans-serif` — bold para valores, regular para nombre.
 
 ## Trigger desde sistema.html
 
@@ -122,5 +130,4 @@ En `comprobante.html`:
 
 - **Crear**: `comprobante.html`
 - **Modificar**: `sistema.html` — agregar botón "Comprobante" en tabla de pagos de `uvDetalleOrden`
-- **Agregar**: `assets/comprobante-bg.jpg` (el usuario provee este archivo)
-- **Agregar**: `assets/uvstore-logo.png` (el usuario provee este archivo)
+- **Ya en repo**: `assets/comprobante-abono-bg.png`, `assets/comprobante-reserva-bg.png`, `assets/uvstore-logo.jpg`
