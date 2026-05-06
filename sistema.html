@@ -827,40 +827,76 @@ button,a{touch-action:manipulation;cursor:pointer}
     <template x-if="view==='clientes'"><div x-data="uvClientes()">
       <div class="page-header">
         <h1 class="page-title">Clientes</h1>
-        <div style="display:flex;gap:8px">
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn-sm" :class="mostraCobros ? 'btn-purple' : 'btn-ghost'" @click="toggleCobros()">
+            💰 Cobros<template x-if="cobros.length>0"> (<span x-text="cobros.length"></span>)</template>
+          </button>
           <button class="btn-sm btn-ghost" @click="$dispatch('go-to','whatsapp-masivo')">📱 Teléfonos</button>
           <button class="btn-sm btn-purple" @click="abrirFormCliente()">+ Nuevo cliente</button>
         </div>
       </div>
       <div class="page-body">
-        <div style="margin-bottom:20px">
-          <div class="search-bar">
-            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" placeholder="Buscar cliente..." x-model="busqueda" style="font-size:16px">
+
+        <!-- Vista: Cobros pendientes -->
+        <div x-show="mostraCobros">
+          <div x-show="loadingCobros" style="color:var(--muted2);margin-bottom:16px">Calculando cobros...</div>
+          <div x-show="!loadingCobros && cobros.length===0" class="empty">
+            <p>No hay saldos pendientes 🎉</p>
+          </div>
+          <div x-show="!loadingCobros && cobros.length>0" class="card">
+            <div class="card-header">
+              <span class="card-title">Saldos pendientes</span>
+              <span style="font-size:13px;color:var(--muted2)" x-text="cobros.length + ' clientes'"></span>
+            </div>
+            <div style="overflow-x:auto">
+              <table class="table">
+                <thead><tr><th>Cliente</th><th>Saldo pendiente</th><th>Órdenes</th><th></th></tr></thead>
+                <tbody>
+                  <template x-for="c in cobros" :key="c.id">
+                    <tr>
+                      <td style="font-weight:500;color:#fff" x-text="c.nombre"></td>
+                      <td style="color:var(--red);font-weight:600" x-text="fmtQ(c.saldo)"></td>
+                      <td style="color:var(--muted2)" x-text="c.ordenes"></td>
+                      <td><button class="btn-sm btn-ghost" @click="verCobro(c)">Ver historial</button></td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
-          <div x-show="!loading && clientesFiltrados.length===0" class="empty">
-            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-            <p>No hay clientes</p>
+
+        <!-- Vista: Lista clientes -->
+        <div x-show="!mostraCobros">
+          <div style="margin-bottom:20px">
+            <div class="search-bar">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="text" placeholder="Buscar cliente..." x-model="busqueda" style="font-size:16px">
+            </div>
           </div>
-          <div x-show="!loading && clientesFiltrados.length>0">
-            <table class="table">
-              <thead><tr><th>Nombre</th><th>WhatsApp</th><th></th></tr></thead>
-              <tbody>
-                <template x-for="c in clientesFiltrados" :key="c.id">
-                  <tr>
-                    <td><button class="btn-sm btn-ghost" style="color:var(--pl);font-weight:600;background:none;border:none;padding:0;text-align:left" @click="verCliente(c)" x-text="c.nombre"></button></td>
-                    <td x-text="c.whatsapp||'—'" style="color:var(--muted2)"></td>
-                    <td style="display:flex;gap:8px">
-                      <button class="btn-sm btn-ghost" @click="abrirFormCliente(c)">Editar</button>
-                      <button class="btn-sm btn-danger" @click="eliminarCliente(c.id)">Eliminar</button>
-                    </td>
-                  </tr>
-                </template>
-              </tbody>
-            </table>
+          <div class="card">
+            <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
+            <div x-show="!loading && clientesFiltrados.length===0" class="empty">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              <p>No hay clientes</p>
+            </div>
+            <div x-show="!loading && clientesFiltrados.length>0">
+              <table class="table">
+                <thead><tr><th>Nombre</th><th>WhatsApp</th><th></th></tr></thead>
+                <tbody>
+                  <template x-for="c in clientesFiltrados" :key="c.id">
+                    <tr>
+                      <td><button class="btn-sm btn-ghost" style="color:var(--pl);font-weight:600;background:none;border:none;padding:0;text-align:left" @click="verCliente(c)" x-text="c.nombre"></button></td>
+                      <td x-text="c.whatsapp||'—'" style="color:var(--muted2)"></td>
+                      <td style="display:flex;gap:8px">
+                        <button class="btn-sm btn-ghost" @click="abrirFormCliente(c)">Editar</button>
+                        <button class="btn-sm btn-danger" @click="eliminarCliente(c.id)">Eliminar</button>
+                      </td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
 
@@ -948,39 +984,112 @@ button,a{touch-action:manipulation;cursor:pointer}
     <!-- Vista: WhatsApp Masivo -->
     <template x-if="view==='whatsapp-masivo'"><div x-data="uvWhatsappMasivo()">
       <div class="page-header">
-        <h1 class="page-title">Teléfonos</h1>
-        <button class="btn-sm btn-purple" @click="guardarTodos()" :disabled="guardando">
-          <span x-text="guardando ? 'Guardando...' : 'Guardar todos'"></span>
-        </button>
+        <h1 class="page-title">WhatsApp</h1>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <button class="btn-sm" :class="tab==='telefonos'?'btn-purple':'btn-ghost'" @click="switchTab('telefonos')">📱 Teléfonos</button>
+          <button class="btn-sm" :class="tab==='anuncio'?'btn-purple':'btn-ghost'" @click="switchTab('anuncio')">📣 Anuncio</button>
+          <button x-show="tab==='telefonos'" class="btn-sm btn-ghost" @click="guardarTodos()" :disabled="guardando">
+            <span x-text="guardando ? 'Guardando...' : 'Guardar todos'"></span>
+          </button>
+        </div>
       </div>
       <div class="page-body">
-        <p style="color:var(--muted2);margin-bottom:20px;font-size:14px">
-          Editá los números directamente en la lista. Solo se guardan los que modifiques.
-        </p>
-        <div x-show="loading" style="color:var(--muted2)">Cargando...</div>
-        <div x-show="!loading" class="card">
-          <table class="table">
-            <thead><tr><th>Cliente</th><th>WhatsApp</th></tr></thead>
-            <tbody>
-              <template x-for="(c, i) in clientes" :key="c.id">
-                <tr>
-                  <td x-text="c.nombre" style="color:#fff;font-weight:500"></td>
-                  <td>
-                    <input
-                      style="background:transparent;border:none;border-bottom:1px solid var(--border2);
-                             color:var(--text);font-size:14px;font-family:inherit;
-                             outline:none;padding:4px 0;width:100%;max-width:200px"
-                      type="tel"
-                      x-model="clientes[i].whatsapp"
-                      placeholder="—"
-                      @focus="$el.style.borderBottomColor='var(--purple)'"
-                      @blur="$el.style.borderBottomColor='var(--border2)'">
-                  </td>
-                </tr>
-              </template>
-            </tbody>
-          </table>
+
+        <!-- Tab: Teléfonos -->
+        <div x-show="tab==='telefonos'">
+          <p style="color:var(--muted2);margin-bottom:20px;font-size:14px">
+            Editá los números directamente en la lista. Solo se guardan los que modifiques.
+          </p>
+          <div x-show="loading" style="color:var(--muted2)">Cargando...</div>
+          <div x-show="!loading" class="card">
+            <table class="table">
+              <thead><tr><th>Cliente</th><th>WhatsApp</th></tr></thead>
+              <tbody>
+                <template x-for="(c, i) in clientes" :key="c.id">
+                  <tr>
+                    <td x-text="c.nombre" style="color:#fff;font-weight:500"></td>
+                    <td>
+                      <input
+                        style="background:transparent;border:none;border-bottom:1px solid var(--border2);
+                               color:var(--text);font-size:14px;font-family:inherit;
+                               outline:none;padding:4px 0;width:100%;max-width:200px"
+                        type="tel"
+                        x-model="clientes[i].whatsapp"
+                        placeholder="—"
+                        @focus="$el.style.borderBottomColor='var(--purple)'"
+                        @blur="$el.style.borderBottomColor='var(--border2)'">
+                    </td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </div>
         </div>
+
+        <!-- Tab: Anuncio de figura -->
+        <div x-show="tab==='anuncio'">
+          <div class="card" style="padding:20px;margin-bottom:20px">
+            <div class="card-title" style="margin-bottom:16px">Datos de la figura</div>
+            <div class="form-row">
+              <div>
+                <label class="form-label">Nombre de la figura *</label>
+                <input class="form-input" type="text" x-model="anuncio.figura" placeholder="Ej: Batman Arkham Knight" style="font-size:16px">
+              </div>
+              <div>
+                <label class="form-label">Precio (Q)</label>
+                <input class="form-input" type="number" x-model="anuncio.precio" placeholder="3500" style="font-size:16px">
+              </div>
+            </div>
+            <div class="form-row-1" style="margin-bottom:16px">
+              <label class="form-label">Llegada estimada</label>
+              <input class="form-input" type="text" x-model="anuncio.fecha" placeholder="Ej: Julio 2026" style="font-size:16px">
+            </div>
+            <div class="form-row-1" style="margin-bottom:16px">
+              <label class="form-label">Mensaje adicional (opcional)</label>
+              <textarea class="form-textarea" x-model="anuncio.extra" placeholder="Ej: Edición limitada, solo 3 disponibles"></textarea>
+            </div>
+            <div x-show="mensajeAnuncio" style="background:var(--bg3);border:1px solid var(--border2);border-radius:8px;padding:14px;margin-top:8px">
+              <div style="font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Preview del mensaje</div>
+              <pre style="font-family:inherit;font-size:14px;color:var(--text);white-space:pre-wrap;margin:0" x-text="mensajeAnuncio"></pre>
+              <button class="btn-sm btn-ghost" style="margin-top:10px;font-size:12px" @click="copiarMensaje()">📋 Copiar mensaje</button>
+            </div>
+          </div>
+
+          <div class="card" style="padding:20px">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px">
+              <div class="card-title">Enviar a clientes</div>
+              <div class="search-bar" style="max-width:260px">
+                <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="text" placeholder="Filtrar por figura pasada..." x-model="filtroAnuncio" style="font-size:14px">
+              </div>
+            </div>
+            <div x-show="loadingAnuncio" style="color:var(--muted2);text-align:center;padding:20px">Cargando órdenes...</div>
+            <div x-show="!loadingAnuncio && clientesAnuncio.length===0" class="empty" style="padding:24px">
+              <p x-text="filtroAnuncio ? 'Sin clientes con esa figura' : 'No hay clientes con teléfono registrado'"></p>
+            </div>
+            <div x-show="!loadingAnuncio && clientesAnuncio.length>0">
+              <p style="font-size:12px;color:var(--muted2);margin-bottom:12px" x-text="clientesAnuncio.length + ' clientes' + (filtroAnuncio ? ' con \'' + filtroAnuncio + '\' en sus órdenes' : ' con teléfono')"></p>
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <template x-for="c in clientesAnuncio" :key="c.id">
+                  <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--border)">
+                    <div>
+                      <div style="font-weight:500;color:#fff" x-text="c.nombre"></div>
+                      <div style="font-size:12px;color:var(--muted2)" x-text="c.whatsapp"></div>
+                    </div>
+                    <a :href="waLink(c)" target="_blank" rel="noopener"
+                       class="btn-sm"
+                       :class="mensajeAnuncio ? 'btn-green' : 'btn-ghost'"
+                       :style="!mensajeAnuncio ? 'pointer-events:none;opacity:.45' : ''"
+                       style="text-decoration:none">
+                      💬 WhatsApp
+                    </a>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div x-show="savedMsg" style="color:var(--green);font-size:14px;margin-top:16px" x-text="savedMsg"></div>
       </div>
     </div></template>
@@ -1339,6 +1448,7 @@ function uvClientes() {
     clientes: [], loading: true, busqueda: '',
     modal: false, guardando: false,
     form: { id: null, nombre: '', whatsapp: '', notas: '' },
+    mostraCobros: false, cobros: [], loadingCobros: false,
     async init() { await this.cargar(); },
     async cargar() {
       this.loading = true;
@@ -1348,6 +1458,33 @@ function uvClientes() {
     get clientesFiltrados() {
       const q = this.busqueda.toLowerCase();
       return !q ? this.clientes : this.clientes.filter(c => c.nombre.toLowerCase().includes(q));
+    },
+    async toggleCobros() {
+      this.mostraCobros = !this.mostraCobros;
+      if (this.mostraCobros && this.cobros.length === 0) {
+        this.loadingCobros = true;
+        try {
+          const ordenes = await dbGetOrdenes();
+          const mapa = {};
+          for (const o of ordenes) {
+            if (o.estado === 'cancelada') continue;
+            const abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
+            const saldo = (o.precio_venta_gtq || 0) - abonado;
+            if (saldo <= 0) continue;
+            const cid = o.cliente_id;
+            const nombre = o.clientes?.nombre || '—';
+            if (!mapa[cid]) mapa[cid] = { id: cid, nombre, saldo: 0, ordenes: 0 };
+            mapa[cid].saldo += saldo;
+            mapa[cid].ordenes++;
+          }
+          this.cobros = Object.values(mapa).sort((a, b) => b.saldo - a.saldo);
+        } finally { this.loadingCobros = false; }
+      }
+    },
+    verCobro(c) {
+      const full = this.clientes.find(cl => cl.id === c.id) || c;
+      _verClienteData = full;
+      document.dispatchEvent(new CustomEvent('go-to', { detail: 'historial-cliente' }));
     },
     abrirFormCliente(c = null) {
       this.form = c
@@ -1468,6 +1605,10 @@ function uvNuevaOrden() {
 function uvWhatsappMasivo() {
   return {
     clientes: [], _original: [], loading: true, guardando: false, savedMsg: '',
+    tab: 'telefonos',
+    anuncio: { figura: '', precio: '', fecha: '', extra: '' },
+    filtroAnuncio: '',
+    _ordenes: [], loadingAnuncio: false,
     async init() {
       this.loading = true;
       try {
@@ -1475,6 +1616,52 @@ function uvWhatsappMasivo() {
         this.clientes = data.map(c => ({ ...c }));
         this._original = data.map(c => ({ ...c }));
       } finally { this.loading = false; }
+    },
+    async switchTab(t) {
+      this.tab = t;
+      if (t === 'anuncio' && this._ordenes.length === 0) {
+        this.loadingAnuncio = true;
+        try { this._ordenes = await dbGetOrdenes(); }
+        finally { this.loadingAnuncio = false; }
+      }
+    },
+    get clientesAnuncio() {
+      const q = this.filtroAnuncio.toLowerCase().trim();
+      const mapa = {};
+      for (const o of this._ordenes) {
+        if (!o.cliente_id) continue;
+        if (!mapa[o.cliente_id]) {
+          const c = this.clientes.find(c => c.id === o.cliente_id);
+          if (!c || !c.whatsapp) continue;
+          mapa[o.cliente_id] = { ...c, _productos: [] };
+        }
+        if (mapa[o.cliente_id]) mapa[o.cliente_id]._productos.push(o.producto || '');
+      }
+      let lista = Object.values(mapa);
+      if (q) lista = lista.filter(c => c._productos.some(p => p.toLowerCase().includes(q)));
+      return lista;
+    },
+    get mensajeAnuncio() {
+      const a = this.anuncio;
+      if (!a.figura.trim()) return '';
+      let msg = `🔥 *${a.figura.trim()}*`;
+      if (a.precio) msg += `\nPrecio: Q${a.precio}`;
+      if (a.fecha.trim()) msg += `\nLlegada estimada: ${a.fecha.trim()}`;
+      if (a.extra.trim()) msg += `\n\n${a.extra.trim()}`;
+      msg += '\n\nRespondé este mensaje para reservar ✅';
+      return msg;
+    },
+    waLink(c) {
+      if (!c.whatsapp || !this.mensajeAnuncio) return '#';
+      const phone = c.whatsapp.replace(/[\s+\-()]/g, '');
+      return `https://wa.me/${phone}?text=${encodeURIComponent(this.mensajeAnuncio)}`;
+    },
+    async copiarMensaje() {
+      try {
+        await navigator.clipboard.writeText(this.mensajeAnuncio);
+        this.savedMsg = '✓ Mensaje copiado';
+        setTimeout(() => this.savedMsg = '', 2000);
+      } catch(e) { alert('No se pudo copiar'); }
     },
     async guardarTodos() {
       this.guardando = true; this.savedMsg = '';
@@ -1492,7 +1679,8 @@ function uvWhatsappMasivo() {
       this.savedMsg = actualizados > 0
         ? `✓ ${actualizados} cliente${actualizados > 1 ? 's' : ''} actualizado${actualizados > 1 ? 's' : ''}`
         : 'Sin cambios';
-    }
+    },
+    fmtQ
   };
 }
 
