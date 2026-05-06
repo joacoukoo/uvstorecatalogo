@@ -614,7 +614,8 @@ function extraerFilasConMeses(text, anio) {
     // "Total 2022", "Total 2023", etc. = cierre del año → las siguientes filas son del año siguiente
     if (/^total\s+\d{4}/i.test(v)) { anioActual++; mes = 1; hayDatos = false; continue; }
     if (esSeparadorDeMes(r, abonadoIdx)) {
-      if (hayDatos && mes < 12) { mes++; hayDatos = false; }
+      // Solo avanzar mes cuando la fila ES un nombre de mes real
+      if (MESES_RE.test(v) && mes < 12) { mes++; hayDatos = false; }
       continue;
     }
     result.push({ row: r, mes, anio: anioActual, abonadoIdx });
