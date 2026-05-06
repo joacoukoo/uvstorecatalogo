@@ -438,7 +438,7 @@ button,a{touch-action:manipulation;cursor:pointer}
     <!-- Vista: Detalle Orden -->
     <div x-show="view==='detalle-orden'" x-data="uvDetalleOrden()">
       <div class="page-header">
-        <button class="btn-sm btn-ghost" @click="$dispatch('go-to','ordenes')">← Órdenes</button>
+        <button class="btn-sm btn-ghost" @click="$dispatch('go-to', backView)" x-text="backView==='historial-cliente' ? '← Cliente' : '← Órdenes'"></button>
         <button class="btn-sm btn-ghost" @click="editarOrden()" x-show="orden">Editar</button>
       </div>
       <div class="page-body">
@@ -852,7 +852,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                       <td x-text="o.producto" style="color:#fff;font-weight:500"></td>
                       <td x-text="o.marca||'—'" style="color:var(--muted2)"></td>
                       <td><span class="badge" :class="'badge-'+o.estado" x-text="o.estado.replace('_',' ')"></span></td>
-                      <td><span class="badge" :class="o.entregado?'badge-entregada':''" x-text="o.entregado?'Entregado':'—'"></span></td>
+                      <td><button class="btn-sm" :class="o.entregado?'btn-green':'btn-ghost'" @click="toggleEntregado(o)" x-text="o.entregado?'Entregado':'Sin entregar'"></button></td>
                       <td x-text="fmtQ(o.precio_venta_gtq)" style="color:var(--green)"></td>
                       <td x-text="fmtQ((o.precio_venta_gtq||0) - (o._abonado||0))" :style="((o.precio_venta_gtq||0)-(o._abonado||0))>0?'color:var(--red)':''"></td>
                       <td><button class="btn-sm btn-ghost" @click="verOrden(o.id)">Ver</button></td>
@@ -1186,6 +1186,7 @@ function uvOrdenes() {
       });
     },
     verOrden(id) {
+      document.dispatchEvent(new CustomEvent('set-detalle-back', { detail: 'ordenes' }));
       document.dispatchEvent(new CustomEvent('ver-orden', { detail: id }));
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
     },
@@ -1215,20 +1216,31 @@ function uvHistorialCliente() {
     get totalSaldo() { return this.totalGastado - this.totalAbonado; },
     async init() {
       document.addEventListener('ver-cliente', async (e) => {
-        this.loading = true;
         this.cliente = e.detail;
-        this.ordenes = [];
-        try {
-          const data = await dbGetOrdenesByCliente(e.detail.id);
-          for (const o of data) o._abonado = (o.pagos||[]).reduce((s,p) => s+(p.monto||0), 0);
-          this.ordenes = data;
-        } catch(err) { alert('Error: ' + err.message); }
-        finally { this.loading = false; }
+        await this.cargar();
       });
+      document.addEventListener('recargar-ordenes', () => this.cargar());
+    },
+    async cargar() {
+      if (!this.cliente) return;
+      this.loading = true;
+      try {
+        const data = await dbGetOrdenesByCliente(this.cliente.id);
+        for (const o of data) o._abonado = (o.pagos||[]).reduce((s,p) => s+(p.monto||0), 0);
+        this.ordenes = data;
+      } catch(err) { alert('Error: ' + err.message); }
+      finally { this.loading = false; }
     },
     verOrden(id) {
+      document.dispatchEvent(new CustomEvent('set-detalle-back', { detail: 'historial-cliente' }));
       document.dispatchEvent(new CustomEvent('ver-orden', { detail: id }));
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
+    },
+    async toggleEntregado(o) {
+      const prev = o.entregado;
+      o.entregado = !o.entregado;
+      try { await dbSetEntregado(o.id, o.entregado); }
+      catch(e) { o.entregado = prev; alert('Error: ' + e.message); }
     },
     fmtQ
   };
@@ -1483,7 +1495,7 @@ function uvMetricas() {
 // ── DETALLE ORDEN ─────────────────────────────────────────────────────
 function uvDetalleOrden() {
   return {
-    orden: null, pagos: [], loading: true,
+    orden: null, pagos: [], loading: true, backView: 'ordenes',
     modalPago: false, guardandoPago: false,
     modalMoverPago: false, pagoAMover: null, ordenesLista: [], ordenDestino: '', moviendoPago: false,
     formPago: { monto: 0, tipo: 'abono', metodo: 'transferencia', fecha: new Date().toISOString().slice(0,10), notas: '' },
@@ -1501,6 +1513,7 @@ function uvDetalleOrden() {
       return this.orden ? fmtDate(this.orden.created_at) : '';
     },
     async init() {
+      document.addEventListener('set-detalle-back', (e) => { this.backView = e.detail; });
       document.addEventListener('ver-orden', async (e) => {
         this.loading = true; this.orden = null; this.pagos = [];
         this.orden = await dbGetOrden(e.detail);
@@ -1523,6 +1536,7 @@ function uvDetalleOrden() {
         }
         this.modalPago = false;
         this.formPago = { monto: 0, tipo: 'abono', metodo: 'transferencia', fecha: new Date().toISOString().slice(0,10), notas: '' };
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       } catch(e) { alert('Error: ' + e.message); }
       finally { this.guardandoPago = false; }
     },
@@ -1530,6 +1544,7 @@ function uvDetalleOrden() {
       if (!confirm('¿Eliminar este pago?')) return;
       await dbDeletePago(id);
       this.pagos = await dbGetPagosByOrden(this.orden.id);
+      document.dispatchEvent(new CustomEvent('recargar-ordenes'));
     },
     async abrirMoverPago(pago) {
       this.pagoAMover = pago;
@@ -1545,6 +1560,7 @@ function uvDetalleOrden() {
         await dbMovePago(this.pagoAMover.id, this.ordenDestino);
         this.pagos = await dbGetPagosByOrden(this.orden.id);
         this.modalMoverPago = false;
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       } catch(e) { alert('Error: ' + e.message); }
       finally { this.moviendoPago = false; }
     },
