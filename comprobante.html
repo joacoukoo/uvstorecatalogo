@@ -2,54 +2,64 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Comprobante — UV Store GT</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
-html, body {
+body {
   background:#07080d;
   min-height:100vh;
-  font-family:'Montserrat',sans-serif;
-}
-.page {
   display:flex;
   flex-direction:column;
   align-items:center;
+  justify-content:flex-start;
   padding:16px;
   gap:12px;
-  max-width:520px;
-  margin:0 auto;
+  font-family:'Montserrat',sans-serif;
 }
 #preview-img {
   width:100%;
+  max-width:440px;
+  height:auto;
   display:block;
-  border-radius:6px;
+  border-radius:8px;
+  background:#111;
+  min-height:200px;
+}
+.btns {
+  width:100%;
+  max-width:440px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
 }
 .btn {
   width:100%;
   padding:15px;
-  border:none; border-radius:10px;
-  font-size:16px; font-weight:700;
-  font-family:inherit; cursor:pointer;
-  display:flex; align-items:center; justify-content:center; gap:8px;
+  border:none;
+  border-radius:10px;
+  font-size:16px;
+  font-weight:700;
+  font-family:inherit;
+  cursor:pointer;
 }
-.btn-wa { background:#25D366; color:#fff; }
-.btn-dl { background:#1e1f2e; color:#aaa; font-size:14px; padding:12px; }
-.btn:disabled { opacity:.5; cursor:default; }
-#msg { font-size:13px; color:#666; min-height:18px; }
+.btn:disabled { opacity:.45; cursor:default; }
+.btn-wa  { background:#25D366; color:#fff; }
+.btn-dl  { background:#1e1f2e; color:#aaa; font-size:14px; }
+#msg { color:#555; font-size:13px; text-align:center; min-height:16px; }
 </style>
 </head>
 <body>
-<div class="page">
-  <p id="msg">Generando comprobante…</p>
-  <img id="preview-img" src="" alt="Comprobante">
+
+<img id="preview-img" alt="Generando comprobante...">
+<p id="msg">Generando…</p>
+<div class="btns">
   <button class="btn btn-wa" id="btn-wa" onclick="compartir()" disabled>📤 Compartir por WhatsApp</button>
   <button class="btn btn-dl" id="btn-dl" onclick="descargar()" disabled>⬇ Descargar imagen</button>
 </div>
 
 <script>
-// ── Parámetros ────────────────────────────────────────────────
 const q        = new URLSearchParams(location.search);
 const tipo     = q.get('tipo')     || 'abono';
 const nombre   = q.get('nombre')   || '';
@@ -60,129 +70,135 @@ const abonado  = parseFloat(q.get('abonado'))  || 0;
 const restante = parseFloat(q.get('restante')) || 0;
 
 function fmtQ(v) {
-  return 'Q' + (v || 0).toLocaleString('es-GT', { minimumFractionDigits:0, maximumFractionDigits:2 });
+  return 'Q' + (v||0).toLocaleString('es-GT',{minimumFractionDigits:0,maximumFractionDigits:2});
 }
 
-// ── Posiciones en canvas 1200×1600 ────────────────────────────
-// Si algún texto queda corrido, ajustá los valores acá:
+// ─── Posiciones en canvas 1200 × 1600 ──────────────
+// Ajustá estos números si algún texto queda corrido:
+//   x = posición horizontal (600 = centro)
+//   y = posición vertical desde arriba (px)
 const POS = {
   abono: {
-    nombre: { x:600,  y:300  },
-    monto:  { x:660,  y:415  },
-    figura: { x:600,  y:585  },
-    val1:   { x:810,  y:795  },   // Valor total
-    val2:   { x:810,  y:905  },   // Abono total
-    val3:   { x:810,  y:1015 },   // Saldo pendiente
+    nombre: { x:600, y:265 },
+    monto:  { x:655, y:400 },
+    figura: { x:600, y:575 },
+    val1:   { x:810, y:785 },   // Valor total
+    val2:   { x:810, y:885 },   // Abono total
+    val3:   { x:810, y:985 },   // Saldo pendiente
   },
   reserva: {
-    nombre: { x:600,  y:300  },
-    monto:  { x:630,  y:415  },
-    figura: { x:600,  y:565  },
-    val1:   { x:810,  y:858  },   // El valor es de
-    val2:   { x:810,  y:968  },   // Saldo restante
+    nombre: { x:600, y:265 },
+    monto:  { x:620, y:400 },
+    figura: { x:600, y:555 },
+    val1:   { x:810, y:840 },   // El valor es de
+    val2:   { x:810, y:950 },   // Saldo restante
   }
 };
+// ────────────────────────────────────────────────────
 
-// ── Render ────────────────────────────────────────────────────
-let _blob = null;
+let _dataURL = null;
 
 async function render() {
-  // Esperar fuente
-  try { await document.fonts.load('800 68px Montserrat'); } catch(_) {}
+  // esperar fuentes
+  try { await document.fonts.ready; } catch(_){}
 
   const canvas = document.createElement('canvas');
   canvas.width  = 1200;
   canvas.height = 1600;
   const ctx = canvas.getContext('2d');
 
-  // Fondo (sin crossOrigin porque es mismo dominio)
+  // cargar fondo — crossOrigin anonymous para que canvas no quede tainted
   const bgSrc = tipo === 'reserva'
     ? 'assets/comprobante-reserva-bg.png'
     : 'assets/comprobante-abono-bg.png';
 
   await new Promise((res, rej) => {
-    const img = new Image();
-    img.onload = () => { ctx.drawImage(img, 0, 0, 1200, 1600); res(); };
+    const img       = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload  = () => { ctx.drawImage(img, 0, 0, 1200, 1600); res(); };
     img.onerror = rej;
-    img.src = bgSrc;
+    img.src = bgSrc + '?v=1'; // evitar caché sin CORS header
   });
 
   const p = POS[tipo] || POS.abono;
 
-  function escribir(text, x, y, size, color, italic) {
-    const maxW = 1050;
-    let s = size;
+  function texto(str, x, y, size, color, italic) {
     ctx.save();
-    // Reducir si es muy largo
-    do {
-      ctx.font = (italic ? 'italic ' : '') + '700 ' + s + 'px Montserrat, Arial, sans-serif';
-      if (ctx.measureText(text).width <= maxW) break;
-      s = Math.round(s * 0.88);
-    } while (s > 20);
-    ctx.fillStyle   = color;
-    ctx.textAlign   = 'center';
+    let s = size;
+    let style = (italic ? 'italic ' : '') + '700 ';
+    // shrink si es muy largo
+    ctx.font = style + s + 'px Montserrat, Arial, sans-serif';
+    while (ctx.measureText(str).width > 1060 && s > 18) {
+      s -= 2;
+      ctx.font = style + s + 'px Montserrat, Arial, sans-serif';
+    }
+    ctx.fillStyle    = color;
+    ctx.textAlign    = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText(text, x, y);
+    ctx.fillText(str, x, y);
     ctx.restore();
   }
 
-  // Nombre (bold 800 necesita weight en font string)
+  // nombre — weight 800
   ctx.save();
   ctx.font = '800 68px Montserrat, Arial, sans-serif';
-  ctx.fillStyle = '#ffffff';
-  ctx.textAlign = 'center';
+  if (ctx.measureText(nombre).width > 1060) ctx.font = '800 50px Montserrat, Arial, sans-serif';
+  ctx.fillStyle    = '#ffffff';
+  ctx.textAlign    = 'center';
   ctx.textBaseline = 'middle';
-  const maxNombreW = 1050;
-  if (ctx.measureText(nombre).width > maxNombreW) {
-    ctx.font = '800 50px Montserrat, Arial, sans-serif';
-  }
   ctx.fillText(nombre, p.nombre.x, p.nombre.y);
   ctx.restore();
 
-  escribir(fmtQ(monto), p.monto.x,  p.monto.y,  44, '#ffffff');
-  escribir(figura,       p.figura.x, p.figura.y, 36, '#E8A020', true);
+  texto(fmtQ(monto), p.monto.x, p.monto.y, 44, '#ffffff');
+  texto(figura,      p.figura.x, p.figura.y, 36, '#E8A020', true);
 
-  // Valores de tabla — negro, más grande
-  const TABLA_SIZE = 54;
   if (tipo === 'abono') {
-    escribir(fmtQ(total),    p.val1.x, p.val1.y, TABLA_SIZE, '#111111');
-    escribir(fmtQ(abonado),  p.val2.x, p.val2.y, TABLA_SIZE, '#111111');
-    escribir(fmtQ(restante), p.val3.x, p.val3.y, TABLA_SIZE, '#111111');
+    texto(fmtQ(total),    p.val1.x, p.val1.y, 54, '#111111');
+    texto(fmtQ(abonado),  p.val2.x, p.val2.y, 54, '#111111');
+    texto(fmtQ(restante), p.val3.x, p.val3.y, 54, '#111111');
   } else {
-    escribir(fmtQ(total),    p.val1.x, p.val1.y, TABLA_SIZE, '#111111');
-    escribir(fmtQ(restante), p.val2.x, p.val2.y, TABLA_SIZE, '#111111');
+    texto(fmtQ(total),    p.val1.x, p.val1.y, 54, '#111111');
+    texto(fmtQ(restante), p.val2.x, p.val2.y, 54, '#111111');
   }
 
-  // Convertir a blob e imagen de preview
-  _blob = await new Promise(res => canvas.toBlob(res, 'image/jpeg', 0.93));
-  document.getElementById('preview-img').src = URL.createObjectURL(_blob);
+  _dataURL = canvas.toDataURL('image/jpeg', 0.93);
+  document.getElementById('preview-img').src = _dataURL;
   document.getElementById('msg').textContent = '';
   document.getElementById('btn-wa').disabled = false;
   document.getElementById('btn-dl').disabled = false;
 }
 
+function getBlob() {
+  const b64  = _dataURL.split(',')[1];
+  const raw  = atob(b64);
+  const arr  = new Uint8Array(raw.length);
+  for (let i=0;i<raw.length;i++) arr[i]=raw.charCodeAt(i);
+  return new Blob([arr], {type:'image/jpeg'});
+}
+
 async function compartir() {
-  if (!_blob) return;
-  const fname = 'comprobante-' + (nombre || 'uv').replace(/\s+/g, '-') + '.jpg';
-  const file  = new File([_blob], fname, { type:'image/jpeg' });
-  if (navigator.canShare && navigator.canShare({ files:[file] })) {
-    try { await navigator.share({ files:[file], title:'Comprobante UV Store GT' }); }
-    catch(e) { if (e.name !== 'AbortError') descargar(); }
-  } else {
-    descargar();
+  if (!_dataURL) return;
+  const fname = 'comprobante-' + (nombre||'uv').replace(/\s+/g,'-') + '.jpg';
+  const blob  = getBlob();
+  const file  = new File([blob], fname, {type:'image/jpeg'});
+  if (navigator.canShare && navigator.canShare({files:[file]})) {
+    try { await navigator.share({files:[file], title:'Comprobante UV Store GT'}); return; }
+    catch(e) { if (e.name === 'AbortError') return; }
   }
+  descargar();
 }
 
 function descargar() {
-  if (!_blob) return;
-  const fname = 'comprobante-' + (nombre || 'uv').replace(/\s+/g, '-') + '.jpg';
-  const url   = URL.createObjectURL(_blob);
-  Object.assign(document.createElement('a'), { href:url, download:fname }).click();
-  URL.revokeObjectURL(url);
+  if (!_dataURL) return;
+  const fname = 'comprobante-' + (nombre||'uv').replace(/\s+/g,'-') + '.jpg';
+  const a = document.createElement('a');
+  a.href     = _dataURL;
+  a.download = fname;
+  a.click();
 }
 
 render().catch(e => {
-  document.getElementById('msg').textContent = 'Error al generar: ' + e.message;
+  document.getElementById('msg').textContent = 'Error: ' + e.message;
   console.error(e);
 });
 </script>

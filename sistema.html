@@ -17,7 +17,7 @@
   --green:#2fc76e;--red:#e63946;--gold:#C8963E;
   --nav-h:60px;--sidebar-w:220px;
 }
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;touch-action:manipulation}
 html{background:var(--bg);overflow-x:hidden}
 body{
   background:var(--bg);color:var(--text);
@@ -198,9 +198,9 @@ button,a{touch-action:manipulation;cursor:pointer}
 .modal-bg{
   display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);
   z-index:500;align-items:flex-start;justify-content:center;
-  padding:20px;overflow-y:auto;
+  padding:20px;overflow-y:auto;pointer-events:none;
 }
-.modal-bg.open{display:flex;}
+.modal-bg.open{display:flex;pointer-events:auto;}
 .modal{
   background:var(--bg2);border:1px solid var(--border2);border-radius:16px;
   max-width:640px;width:100%;margin:auto;padding:28px;position:relative;
@@ -1620,7 +1620,13 @@ function uvDetalleOrden() {
         abonado:  this.abonado,
         restante: Math.max(0, this.saldo)
       });
-      window.open('comprobante.html?' + params.toString(), '_blank');
+      const a = document.createElement('a');
+      a.href   = 'comprobante.html?' + params.toString();
+      a.target = '_blank';
+      a.rel    = 'noopener noreferrer';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
     },
     fmtQ, fmtUSD
   };
