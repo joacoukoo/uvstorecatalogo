@@ -563,40 +563,64 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
 
             <!-- Modal registrar pago -->
-            <div class="modal-bg" :class="{open:modalPago}" @click.self="modalPago=false">
+            <div class="modal-bg" :class="{open:modalPago}" @click.self="modalPago=false;pagoGuardado=false">
               <div class="modal">
-                <button class="modal-close" @click="modalPago=false">✕</button>
-                <div class="modal-title">Registrar pago</div>
-                <div class="form-row">
-                  <div><label class="form-label">Tipo</label>
-                    <select class="form-select" x-model="formPago.tipo" style="font-size:16px">
-                      <option value="reserva">Reserva</option>
-                      <option value="abono">Abono</option>
-                    </select></div>
-                  <div><label class="form-label">Método</label>
-                    <select class="form-select" x-model="formPago.metodo" style="font-size:16px">
-                      <option value="transferencia">Transferencia</option>
-                      <option value="efectivo">Efectivo</option>
-                      <option value="deposito">Deposito</option>
-                      <option value="tarjeta">Tarjeta (−5%)</option>
-                    </select></div>
-                </div>
-                <div class="form-row">
-                  <div><label class="form-label">Monto (Q)</label>
-                    <input class="form-input" type="number" x-model.number="formPago.monto" step="0.01" placeholder="0.00" style="font-size:16px"></div>
-                  <div><label class="form-label">Fecha</label>
-                    <input class="form-input" type="date" x-model="formPago.fecha" style="font-size:16px"></div>
-                </div>
-                <div class="form-row-1">
-                  <label class="form-label">Notas</label>
-                  <textarea class="form-textarea" x-model="formPago.notas" placeholder="Opcional..."></textarea>
-                </div>
-                <div class="modal-footer">
-                  <button class="btn-sm btn-ghost" @click="modalPago=false">Cancelar</button>
-                  <button class="btn-sm btn-purple" @click="registrarPago()" :disabled="guardandoPago">
-                    <span x-text="guardandoPago?'Guardando...':'Guardar pago'"></span>
-                  </button>
-                </div>
+                <button class="modal-close" @click="modalPago=false;pagoGuardado=false">✕</button>
+
+                <!-- Formulario -->
+                <template x-if="!pagoGuardado">
+                  <div>
+                    <div class="modal-title">Registrar pago</div>
+                    <div class="form-row">
+                      <div><label class="form-label">Tipo</label>
+                        <select class="form-select" x-model="formPago.tipo" style="font-size:16px">
+                          <option value="reserva">Reserva</option>
+                          <option value="abono">Abono</option>
+                        </select></div>
+                      <div><label class="form-label">Método</label>
+                        <select class="form-select" x-model="formPago.metodo" style="font-size:16px">
+                          <option value="transferencia">Transferencia</option>
+                          <option value="efectivo">Efectivo</option>
+                          <option value="deposito">Deposito</option>
+                          <option value="tarjeta">Tarjeta (−5%)</option>
+                        </select></div>
+                    </div>
+                    <div class="form-row">
+                      <div><label class="form-label">Monto (Q)</label>
+                        <input class="form-input" type="number" x-model.number="formPago.monto" step="0.01" placeholder="0.00" style="font-size:16px"></div>
+                      <div><label class="form-label">Fecha</label>
+                        <input class="form-input" type="date" x-model="formPago.fecha" style="font-size:16px"></div>
+                    </div>
+                    <div class="form-row-1">
+                      <label class="form-label">Notas</label>
+                      <textarea class="form-textarea" x-model="formPago.notas" placeholder="Opcional..."></textarea>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn-sm btn-ghost" @click="modalPago=false">Cancelar</button>
+                      <button class="btn-sm btn-purple" @click="registrarPago()" :disabled="guardandoPago">
+                        <span x-text="guardandoPago?'Guardando...':'Guardar pago'"></span>
+                      </button>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Confirmación con comprobante -->
+                <template x-if="pagoGuardado">
+                  <div style="text-align:center;padding:12px 0">
+                    <div style="font-size:40px;margin-bottom:8px">✅</div>
+                    <div style="font-size:17px;font-weight:700;color:#fff;margin-bottom:4px">Pago guardado</div>
+                    <div style="font-size:22px;font-weight:700;color:var(--green);margin-bottom:24px" x-text="fmtQ(ultimoPago?.monto)"></div>
+                    <button class="btn-sm btn-purple" style="width:100%;padding:13px;font-size:15px;margin-bottom:10px"
+                      @click="abrirComprobante(ultimoPago);modalPago=false;pagoGuardado=false">
+                      📄 Generar comprobante
+                    </button>
+                    <button class="btn-sm btn-ghost" style="width:100%;padding:13px;font-size:15px"
+                      @click="modalPago=false;pagoGuardado=false">
+                      Cerrar sin comprobante
+                    </button>
+                  </div>
+                </template>
+
               </div>
             </div>
 
@@ -1497,7 +1521,7 @@ function uvMetricas() {
 function uvDetalleOrden() {
   return {
     orden: null, pagos: [], loading: true, backView: 'ordenes',
-    modalPago: false, guardandoPago: false,
+    modalPago: false, guardandoPago: false, pagoGuardado: false, ultimoPago: null,
     modalMoverPago: false, pagoAMover: null, ordenesLista: [], ordenDestino: '', moviendoPago: false,
     formPago: { monto: 0, tipo: 'abono', metodo: 'transferencia', fecha: new Date().toISOString().slice(0,10), notas: '' },
     get abonado() { return calcAbonado(this.pagos); },
@@ -1526,7 +1550,7 @@ function uvDetalleOrden() {
       if (!this.formPago.monto || this.formPago.monto <= 0) { alert('Ingresá un monto válido'); return; }
       this.guardandoPago = true;
       try {
-        await dbSavePago({ ...this.formPago, orden_id: this.orden.id });
+        const saved = await dbSavePago({ ...this.formPago, orden_id: this.orden.id });
         this.pagos = await dbGetPagosByOrden(this.orden.id);
         if (this.saldo <= 0 && this.orden.estado !== 'cancelada') {
           await dbSaveOrden({ ...this.orden, estado: 'pagada' });
@@ -1535,7 +1559,8 @@ function uvDetalleOrden() {
           await dbSaveOrden({ ...this.orden, estado: 'en_proceso' });
           this.orden.estado = 'en_proceso';
         }
-        this.modalPago = false;
+        this.ultimoPago = saved;
+        this.pagoGuardado = true;
         this.formPago = { monto: 0, tipo: 'abono', metodo: 'transferencia', fecha: new Date().toISOString().slice(0,10), notas: '' };
         document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       } catch(e) { alert('Error: ' + e.message); }
