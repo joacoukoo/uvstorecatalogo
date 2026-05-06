@@ -1267,13 +1267,19 @@ function uvOrdenes() {
     async cambiarEstadoOrden(o, nuevoEstado) {
       const prev = o.estado;
       o.estado = nuevoEstado;
-      try { await dbUpdateEstadoOrden(o.id, nuevoEstado); }
+      try {
+        await dbUpdateEstadoOrden(o.id, nuevoEstado);
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
+      }
       catch(e) { o.estado = prev; alert('Error: ' + e.message); }
     },
     async toggleEntregado(o) {
       const prev = o.entregado;
       o.entregado = !o.entregado;
-      try { await dbSetEntregado(o.id, o.entregado); }
+      try {
+        await dbSetEntregado(o.id, o.entregado);
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
+      }
       catch(e) { o.entregado = prev; alert('Error: ' + e.message); }
     },
     fmtQ, fmtDate
@@ -1291,7 +1297,6 @@ function uvHistorialCliente() {
     async init() {
       if (_verClienteData) {
         this.cliente = _verClienteData;
-        _verClienteData = null;
         await this.cargar();
       }
     },
@@ -1666,7 +1671,10 @@ function uvDetalleOrden() {
     async toggleEntregado() {
       const prev = this.orden.entregado;
       this.orden.entregado = !this.orden.entregado;
-      try { await dbSetEntregado(this.orden.id, this.orden.entregado); }
+      try {
+        await dbSetEntregado(this.orden.id, this.orden.entregado);
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
+      }
       catch(e) { this.orden.entregado = prev; alert('Error: ' + e.message); }
     },
     editarOrden() {
