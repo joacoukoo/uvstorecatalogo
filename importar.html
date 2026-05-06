@@ -608,16 +608,16 @@ function extraerFilasConMeses(text, anio) {
     }
   }
   const result = [];
-  let mes = 1, hayDatos = false;
+  let mes = 1, hayDatos = false, anioActual = anio;
   for (const r of rows) {
     const v = (r[1] || '').trim();
-    // "Total 2022", "Total 2023", etc. = fin del año en esta hoja → parar
-    if (/^total\s+\d{4}/i.test(v)) break;
+    // "Total 2022", "Total 2023", etc. = cierre del año → las siguientes filas son del año siguiente
+    if (/^total\s+\d{4}/i.test(v)) { anioActual++; mes = 1; hayDatos = false; continue; }
     if (esSeparadorDeMes(r, abonadoIdx)) {
       if (hayDatos && mes < 12) { mes++; hayDatos = false; }
       continue;
     }
-    result.push({ row: r, mes, anio, abonadoIdx });
+    result.push({ row: r, mes, anio: anioActual, abonadoIdx });
     hayDatos = true;
   }
   return result;
@@ -911,6 +911,7 @@ function importApp() {
 
         const ordenesArr = [];
         const abonadosArr = [];
+        const ordenesVistas = new Set(); // deduplicar por producto+cliente+fecha
 
         for (const fila of rows) {
           const r = fila.row;
@@ -928,6 +929,10 @@ function importApp() {
 
           const mesStr = String(fila.mes).padStart(2, '0');
           const fecha_venta = `${fila.anio}-${mesStr}-01`;
+
+          const dedupeKey = `${producto.toLowerCase()}|${nombreNorm}|${fecha_venta}`;
+          if (ordenesVistas.has(dedupeKey)) continue;
+          ordenesVistas.add(dedupeKey);
 
           ordenesArr.push({
             cliente_id: nameToId[nombreNorm] || null,
