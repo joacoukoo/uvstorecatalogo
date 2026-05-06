@@ -223,11 +223,33 @@ button,a{touch-action:manipulation;cursor:pointer}
   .sidebar{display:none;}
   .main{margin-left:0;padding-bottom:calc(68px + env(safe-area-inset-bottom));}
   .mobile-nav{display:flex;}
-  .page-header{padding:20px 16px 0;}
+  .page-header{padding:20px 16px 0;flex-wrap:wrap;}
   .page-body{padding:0 16px 24px;}
   .stats-grid{grid-template-columns:repeat(2,1fr);gap:12px;}
   .form-row{grid-template-columns:1fr;}
   .form-row-3{grid-template-columns:1fr;}
+  /* Tablas: padding reducido */
+  .table th,.table td{padding:8px 10px;font-size:13px;}
+  /* Búsqueda full width */
+  .search-bar{max-width:100%;}
+  /* Dashboard grid 2-col → 1-col */
+  .dash-two-col{grid-template-columns:1fr !important;}
+  /* Métricas chart scrollable */
+  .chart-monthly-wrap{overflow-x:auto;margin:0 -4px;}
+  .chart-monthly{min-width:440px;}
+  /* Ocultar columnas no esenciales en cada tabla */
+  /* Órdenes: ocultar Cliente(2) Precio(3) Abonado(4) */
+  .tbl-ordenes th:nth-child(2),.tbl-ordenes td:nth-child(2),
+  .tbl-ordenes th:nth-child(3),.tbl-ordenes td:nth-child(3),
+  .tbl-ordenes th:nth-child(4),.tbl-ordenes td:nth-child(4){display:none;}
+  /* Historial cliente: ocultar Marca(2) Precio(5) */
+  .tbl-historial th:nth-child(2),.tbl-historial td:nth-child(2),
+  .tbl-historial th:nth-child(5),.tbl-historial td:nth-child(5){display:none;}
+  /* Métricas drilldown: ocultar Cliente(2) Ganancia(4) */
+  .tbl-metricas th:nth-child(2),.tbl-metricas td:nth-child(2),
+  .tbl-metricas th:nth-child(4),.tbl-metricas td:nth-child(4){display:none;}
+  /* Pagos: ocultar Método(3) */
+  .tbl-pagos th:nth-child(3),.tbl-pagos td:nth-child(3){display:none;}
 }
 </style>
 </head>
@@ -313,7 +335,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
           </div>
 
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
+          <div class="dash-two-col" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
             <div class="card" style="padding:20px">
               <div class="stat-label" style="margin-bottom:12px">Por estado</div>
               <template x-for="e in stats.porEstado" :key="e.estado">
@@ -389,7 +411,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             <p>No hay órdenes</p>
           </div>
           <div x-show="!loading && ordenesFiltradas.length>0" style="overflow-x:auto">
-            <table class="table">
+            <table class="table tbl-ordenes">
               <thead>
                 <tr>
                   <th>Producto</th>
@@ -517,7 +539,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <p>Sin pagos registrados</p>
               </div>
               <div x-show="pagos.length>0">
-                <table class="table">
+                <table class="table tbl-pagos">
                   <thead><tr><th>Fecha</th><th>Tipo</th><th>Método</th><th>Monto</th><th></th></tr></thead>
                   <tbody>
                     <template x-for="p in pagos" :key="p.id">
@@ -869,7 +891,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
             <div x-show="ordenes.length===0" class="empty"><p>Sin ordenes registradas</p></div>
             <div x-show="ordenes.length>0" class="card" style="overflow-x:auto">
-              <table class="table">
+              <table class="table tbl-historial">
                 <thead><tr><th>Producto</th><th>Marca</th><th>Estado</th><th>Entrega</th><th>Precio</th><th>Saldo</th><th></th></tr></thead>
                 <tbody>
                   <template x-for="o in ordenes" :key="o.id">
@@ -974,7 +996,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           <!-- Gráfico de barras por mes -->
           <div class="card" x-show="!soloAnual" style="padding:24px;margin-bottom:24px">
             <div class="card-title" style="margin-bottom:20px">Ventas por mes</div>
-            <div style="display:grid;grid-template-columns:repeat(12,1fr);gap:8px;align-items:end;height:120px">
+            <div class="chart-monthly-wrap"><div class="chart-monthly" style="display:grid;grid-template-columns:repeat(12,1fr);gap:8px;align-items:end;height:120px">
               <template x-for="m in meses" :key="m.mes">
                 <div style="display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end">
                   <div style="font-size:10px;color:var(--muted2)" x-text="fmtQShort(m.ventas)" x-show="m.ventas>0"></div>
@@ -984,7 +1006,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                   <div style="font-size:10px;color:var(--muted2);white-space:nowrap" x-text="m.nombre"></div>
                 </div>
               </template>
-            </div>
+            </div></div>
           </div>
 
           <!-- Tabla mensual -->
@@ -1032,7 +1054,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <span>Ventas: <b style="color:#fff" x-text="fmtQ(ordenesDelMes.reduce((s,o)=>s+(o.precio_venta_gtq||0),0))"></b></span>
                 <span>Ganancia: <b style="color:var(--green)" x-text="fmtUSD(ordenesDelMes.reduce((s,o)=>s+(o._ganancia||0),0))"></b></span>
               </div>
-              <table class="table">
+              <table class="table tbl-metricas">
                 <thead><tr><th>Producto</th><th>Cliente</th><th>Precio</th><th>Ganancia est.</th><th>Abonado</th><th>Saldo</th><th>Estado</th></tr></thead>
                 <tbody>
                   <template x-for="o in ordenesDelMes" :key="o.id">
