@@ -79,7 +79,7 @@ function fmtQ(v) {
 //   y = posición vertical desde arriba (px)
 const POS = {
   abono: {
-    nombre: { x:600, y:265 },
+    nombre: { x:600, y:330 },
     monto:  { x:655, y:400 },
     figura: { x:600, y:575 },
     val1:   { x:810, y:785 },   // Valor total
@@ -87,11 +87,11 @@ const POS = {
     val3:   { x:810, y:985 },   // Saldo pendiente
   },
   reserva: {
-    nombre: { x:600, y:265 },
-    monto:  { x:620, y:400 },
+    nombre: { x:600, y:330 },
+    monto:  { x:675, y:400 },
     figura: { x:600, y:555 },
-    val1:   { x:810, y:840 },   // El valor es de
-    val2:   { x:810, y:950 },   // Saldo restante
+    val1:   { x:810, y:840 },   // El valor es de — perfecto
+    val2:   { x:810, y:918 },   // Saldo restante
   }
 };
 // ────────────────────────────────────────────────────
@@ -150,7 +150,7 @@ async function render() {
   ctx.restore();
 
   texto(fmtQ(monto), p.monto.x, p.monto.y, 44, '#ffffff');
-  texto(figura,      p.figura.x, p.figura.y, 36, '#E8A020', true);
+  texto(figura,      p.figura.x, p.figura.y, 44, '#E8A020', true);
 
   if (tipo === 'abono') {
     texto(fmtQ(total),    p.val1.x, p.val1.y, 54, '#111111');
