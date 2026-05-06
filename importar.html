@@ -584,26 +584,37 @@ function extraerFilas(text) {
 
 // Versión con tracking de mes: fila vacía o nombre de mes = cierre de mes
 const MESES_RE = /^(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)/i;
-function esSeparadorDeMes(r) {
+function esSeparadorDeMes(r, abonadoIdx = 16) {
   const v = r[1]?.trim() || '';
   if (!v || v === 'Producto') return true;          // fila vacía o cabecera
   if (MESES_RE.test(v)) return true;                // nombre de mes
   if (/^total/i.test(v)) return true;               // fila de totales
   // fila sin precio de venta ni abonado → probablemente footer
-  if (!parseMoney(r[13]) && !parseMoney(r[15]) && v.length < 40) return true;
+  if (!parseMoney(r[13]) && !parseMoney(r[abonadoIdx]) && v.length < 40) return true;
   return false;
 }
 
 function extraerFilasConMeses(text, anio) {
   const rows = parseCSV(text);
+  // Detectar índice de "Abonado" desde el header — varía por hoja:
+  // 2023-2025 tienen columna "Teléfono" en r[15], "Abonado" en r[16]
+  // 2026 no tiene "Teléfono", "Abonado" está en r[15]
+  let abonadoIdx = 16;
+  for (const r of rows) {
+    if (r[1] && r[1].trim() === 'Producto') {
+      const idx = r.findIndex(c => c && c.trim() === 'Abonado');
+      if (idx >= 0) abonadoIdx = idx;
+      break;
+    }
+  }
   const result = [];
   let mes = 1, hayDatos = false;
   for (const r of rows) {
-    if (esSeparadorDeMes(r)) {
+    if (esSeparadorDeMes(r, abonadoIdx)) {
       if (hayDatos && mes < 12) { mes++; hayDatos = false; }
       continue;
     }
-    result.push({ row: r, mes, anio });
+    result.push({ row: r, mes, anio, abonadoIdx });
     hayDatos = true;
   }
   return result;
@@ -907,7 +918,7 @@ function importApp() {
           const normInfo = normMap[originalNombre.toLowerCase()];
           const nombreNorm = (normInfo?.normalizado || originalNombre).toLowerCase();
           const precioGTQ = parseMoney(r[13]);
-          const abonado = parseMoney(r[15]);
+          const abonado = parseMoney(r[fila.abonadoIdx]);
 
           let estado = 'en_proceso';
           if (abonado > 0 && abonado >= precioGTQ) estado = 'pagada';
