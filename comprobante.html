@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>Comprobante — UV Store GT</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
@@ -14,146 +14,156 @@ body {
   flex-direction:column;
   align-items:center;
   padding:16px;
+  gap:14px;
   font-family:'Montserrat',sans-serif;
-  gap:16px;
 }
-.wrap {
-  position:relative;
+#preview {
   width:100%;
   max-width:480px;
-}
-.wrap img {
-  width:100%;
   display:block;
+  border-radius:4px;
 }
-.overlay {
-  position:absolute;
-  top:0; left:0; width:100%; height:100%;
-  pointer-events:none;
-}
-.f {
-  position:absolute;
-  left:0; width:100%;
-  text-align:center;
-  line-height:1.2;
-}
-.f.tv {
-  left:40%; width:52%;
-}
-.btn-share {
+.btn {
   width:100%; max-width:480px;
   padding:14px;
-  background:#25D366; color:#fff;
   border:none; border-radius:10px;
   font-size:16px; font-weight:700;
   font-family:inherit; cursor:pointer;
   display:flex; align-items:center; justify-content:center; gap:8px;
 }
-.btn-share:disabled { opacity:.6; cursor:default; }
+.btn-wa  { background:#25D366; color:#fff; }
+.btn-dl  { background:#2a2b3d; color:#ccc; font-size:14px; padding:10px; }
+.btn:disabled { opacity:.55; cursor:default; }
+#estado  { color:var(--muted2,#666); font-size:13px; }
 </style>
 </head>
 <body>
 
-<div class="wrap" id="comp">
-  <img id="bg" src="" alt="comprobante" crossorigin="anonymous">
-  <div class="overlay" id="overlay"></div>
-</div>
+<canvas id="preview"></canvas>
+<p id="estado">Generando comprobante...</p>
+<button class="btn btn-wa"  id="btn-wa"  onclick="compartir()" disabled>📤 Compartir por WhatsApp</button>
+<button class="btn btn-dl"  id="btn-dl"  onclick="descargar()" disabled>⬇ Descargar imagen</button>
 
-<button class="btn-share" id="btn" onclick="compartir()">📤 Compartir por WhatsApp</button>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 const q = new URLSearchParams(location.search);
-const tipo     = q.get('tipo')    || 'abono';
-const nombre   = q.get('nombre')  || '';
-const figura   = q.get('figura')  || '';
-const monto    = q.get('monto')   || '0';
-const total    = q.get('total')   || '0';
-const abonado  = q.get('abonado') || '0';
-const restante = q.get('restante')|| '0';
+const tipo     = q.get('tipo')     || 'abono';
+const nombre   = q.get('nombre')   || '';
+const figura   = q.get('figura')   || '';
+const monto    = parseFloat(q.get('monto'))    || 0;
+const total    = parseFloat(q.get('total'))    || 0;
+const abonado  = parseFloat(q.get('abonado'))  || 0;
+const restante = parseFloat(q.get('restante')) || 0;
 
 function fmtQ(v) {
-  const n = parseFloat(v) || 0;
-  return 'Q' + n.toLocaleString('es-GT', { minimumFractionDigits:0, maximumFractionDigits:2 });
+  return 'Q' + (v || 0).toLocaleString('es-GT', { minimumFractionDigits:0, maximumFractionDigits:2 });
 }
 
-const bg = document.getElementById('bg');
-bg.src = tipo === 'reserva'
-  ? 'assets/comprobante-reserva-bg.png'
-  : 'assets/comprobante-abono-bg.png';
+// ─── Canvas 1200×1600 ─────────────────────────────────────────
+const W = 1200, H = 1600;
+let _blob = null;
 
-bg.onload = function() {
-  const wrap  = document.getElementById('comp');
-  const scale = wrap.offsetWidth / 1200;
+async function render() {
+  await document.fonts.load('800 68px Montserrat');
+  await document.fonts.load('700 42px Montserrat');
+  await document.fonts.load('italic 700 38px Montserrat');
 
-  const sNombre = Math.round(72 * scale) + 'px';
-  const sDesc   = Math.round(44 * scale) + 'px';
-  const sFigura = Math.round(40 * scale) + 'px';
-  const sTable  = Math.round(56 * scale) + 'px';
+  const offscreen = document.createElement('canvas');
+  offscreen.width = W; offscreen.height = H;
+  const ctx = offscreen.getContext('2d');
 
-  function add(cls, text, topPct, style) {
-    const el = document.createElement('div');
-    el.className = 'f' + (cls ? ' ' + cls : '');
-    el.textContent = text;
-    el.style.top = topPct + '%';
-    if (style) Object.assign(el.style, style);
-    document.getElementById('overlay').appendChild(el);
+  // fondo
+  const bgSrc = tipo === 'reserva'
+    ? 'assets/comprobante-reserva-bg.png'
+    : 'assets/comprobante-abono-bg.png';
+  const img = await loadImage(bgSrc);
+  ctx.drawImage(img, 0, 0, W, H);
+
+  // helper: texto centrado
+  function txt(text, x, y, size, color, style = 'bold') {
+    ctx.save();
+    ctx.font = style + ' ' + size + 'px Montserrat, sans-serif';
+    ctx.fillStyle = color;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    // wrap si es muy largo
+    const maxW = 1000;
+    if (ctx.measureText(text).width > maxW) {
+      ctx.font = style + ' ' + Math.round(size * 0.75) + 'px Montserrat, sans-serif';
+    }
+    ctx.fillText(text, x, y);
+    ctx.restore();
   }
 
-  add('', nombre,      18.5, { fontSize:sNombre, fontWeight:'800', color:'#fff' });
-  add('', fmtQ(monto), 26.2, { fontSize:sDesc,   fontWeight:'700', color:'#fff' });
+  // ── posiciones en px (canvas 1200×1600) ──────────────────────
+  //   Ajustar aquí si algo queda corrido
+  const CX = 600; // centro horizontal
 
   if (tipo === 'abono') {
-    add('', figura,           37,   { fontSize:sFigura, fontWeight:'700', color:'#E8A020', fontStyle:'italic' });
-    add('tv', fmtQ(total),    50.5, { fontSize:sTable,  fontWeight:'800', color:'#111' });
-    add('tv', fmtQ(abonado),  57.3, { fontSize:sTable,  fontWeight:'800', color:'#111' });
-    add('tv', fmtQ(restante), 64,   { fontSize:sTable,  fontWeight:'800', color:'#111' });
+    txt(nombre,       CX,  290, 68, '#ffffff', '800');
+    txt(fmtQ(monto),  CX,  422, 44, '#ffffff', '700');
+    txt(figura,       CX,  590, 36, '#E8A020', 'italic 700');
+    // tabla derecha: centro x ≈ 810
+    txt(fmtQ(total),    810, 800,  54, '#111111', '800');
+    txt(fmtQ(abonado),  810, 910,  54, '#111111', '800');
+    txt(fmtQ(restante), 810, 1018, 54, '#111111', '800');
   } else {
-    add('', figura,           35,   { fontSize:sFigura, fontWeight:'700', color:'#E8A020', fontStyle:'italic' });
-    add('tv', fmtQ(total),    53.8, { fontSize:sTable,  fontWeight:'800', color:'#111' });
-    add('tv', fmtQ(restante), 61,   { fontSize:sTable,  fontWeight:'800', color:'#111' });
+    txt(nombre,       CX,  295, 68, '#ffffff', '800');
+    txt(fmtQ(monto),  CX,  425, 44, '#ffffff', '700');
+    txt(figura,       CX,  565, 36, '#E8A020', 'italic 700');
+    // tabla derecha (2 filas)
+    txt(fmtQ(total),    810, 860, 54, '#111111', '800');
+    txt(fmtQ(restante), 810, 975, 54, '#111111', '800');
   }
-};
+
+  // preview escalado
+  const preview = document.getElementById('preview');
+  preview.width  = W;
+  preview.height = H;
+  preview.getContext('2d').drawImage(offscreen, 0, 0);
+
+  // blob para compartir
+  _blob = await new Promise(res => offscreen.toBlob(res, 'image/jpeg', 0.93));
+
+  document.getElementById('estado').textContent = '';
+  document.getElementById('btn-wa').disabled = false;
+  document.getElementById('btn-dl').disabled = false;
+}
+
+function loadImage(src) {
+  return new Promise((res, rej) => {
+    const i = new Image();
+    i.crossOrigin = 'anonymous';
+    i.onload  = () => res(i);
+    i.onerror = rej;
+    i.src = src;
+  });
+}
 
 async function compartir() {
-  const btn = document.getElementById('btn');
-  btn.disabled = true;
-  btn.textContent = 'Generando...';
-  try {
-    const el = document.getElementById('comp');
-    const canvas = await html2canvas(el, {
-      scale: 2.5,
-      useCORS: true,
-      logging: false,
-      backgroundColor: null
-    });
-
-    const { jsPDF } = window.jspdf;
-    const pw = canvas.width  / 2.5;
-    const ph = canvas.height / 2.5;
-    const pdf = new jsPDF({ orientation:'portrait', unit:'px', format:[pw, ph] });
-    pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, pw, ph);
-
-    const blob  = pdf.output('blob');
-    const fname = 'comprobante-' + nombre.replace(/\s+/g, '-') + '.pdf';
-    const file  = new File([blob], fname, { type:'application/pdf' });
-
-    if (navigator.canShare && navigator.canShare({ files:[file] })) {
-      await navigator.share({ files:[file], title:'Comprobante UV Store GT' });
-    } else {
-      const url = URL.createObjectURL(blob);
-      const a   = document.createElement('a');
-      a.href = url; a.download = fname; a.click();
-      URL.revokeObjectURL(url);
-    }
-  } catch(e) {
-    alert('Error al generar el comprobante: ' + e.message);
-  } finally {
-    btn.disabled = false;
-    btn.innerHTML = '📤 Compartir por WhatsApp';
+  if (!_blob) return;
+  const fname = 'comprobante-' + (nombre || 'uv').replace(/\s+/g, '-') + '.jpg';
+  const file  = new File([_blob], fname, { type:'image/jpeg' });
+  if (navigator.canShare && navigator.canShare({ files:[file] })) {
+    await navigator.share({ files:[file], title:'Comprobante UV Store GT' });
+  } else {
+    _dl(fname);
   }
 }
+
+function descargar() {
+  if (!_blob) return;
+  _dl('comprobante-' + (nombre || 'uv').replace(/\s+/g,'-') + '.jpg');
+}
+
+function _dl(fname) {
+  const url = URL.createObjectURL(_blob);
+  Object.assign(document.createElement('a'), { href:url, download:fname }).click();
+  URL.revokeObjectURL(url);
+}
+
+render().catch(e => {
+  document.getElementById('estado').textContent = 'Error: ' + e.message;
+});
 </script>
 </body>
 </html>
