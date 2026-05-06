@@ -610,6 +610,9 @@ function extraerFilasConMeses(text, anio) {
   const result = [];
   let mes = 1, hayDatos = false;
   for (const r of rows) {
+    const v = (r[1] || '').trim();
+    // "Total 2022", "Total 2023", etc. = fin del año en esta hoja → parar
+    if (/^total\s+\d{4}/i.test(v)) break;
     if (esSeparadorDeMes(r, abonadoIdx)) {
       if (hayDatos && mes < 12) { mes++; hayDatos = false; }
       continue;
