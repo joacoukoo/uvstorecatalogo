@@ -10492,6 +10492,117 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "qui-gon-jinn-moud8ytg",
+        "n": "Qui-Gon Jinn",
+        "i": "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b552a49cc.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b552a49cc.jpg",
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-scale-69f8b6f75c9ed.jpg",
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b55323c21.jpg",
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b55376ae2.jpg",
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b553c8bc6.jpg",
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b55427272.jpg",
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b5547bf87.jpg",
+          "https://www.sideshow.com/storage/product-images/915616/hot-toys-star-wars-qui-gon-jinn-sixth-scale-figure-gallery-69f8b554ef32e.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de colección Qui-Gon Jinn de Hot Toys captura magistralmente la presencia del legendario Maestro Jedi de The Phantom Menace con un escultura facial de alta precisión basada en Liam Neeson, completa con barba detallada y textura de piel cinematográfica. Con 30 puntos de articulación, ocho manos intercambiables y un traje meticulosamente recreado con múltiples capas y efectos de envejecimiento, esta figura premium de 1:6 ofrece un nivel de autenticidad sin precedentes. El inclusivo sable de luz LED iluminado y accesorios temáticos como hologramas y comlink la convierten en una pieza imprescindible para coleccionistas exigentes de Star Wars."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado, tela para ropa, silicona/pintura para cabeza esculpida, microfiber sintético para accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza: Escultura con ojos móviles independientes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-900g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables (sable, Force, gesto, comlink, imagecaster, relajada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ropa completa: poncho gris, túnica Jedi marrón, tabardo beige, túnica exterior beige, túnica interior beige, obi beige"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de utilidad de cuero sintético marrón oscuro con accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones marrones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de cuero sintético marrón oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable láser LED verde iluminado (USB powered)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable láser verde sin LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de sable láser verde en movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Comlink Hush-98"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzador de cable líquido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hologramas: Yoda, Mace Windu, Naboo Royal Starship"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Imagecaster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de exhibición con logo Star Wars y placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-06",
+        "reserva": "720",
+        "entrega": "Sep. 2027",
+        "cantidad": "5"
+      },
+      {
         "id": "anakin-skywalker-concept-art-version-artisan-editi-moucve8e",
         "n": "Anakin Skywalker™ (Concept Art Version) (Artisan Edition)",
         "i": "https://www.sideshow.com/storage/product-images/915549/hot-toys-star-wars-anakin-skywalker-concept-art-version-artisan-edition-sixth-scale-figure-gallery-69f8b9da0704a.jpg",
