@@ -458,7 +458,7 @@ button,a{touch-action:manipulation;cursor:pointer}
     </div>
 
     <!-- Vista: Detalle Orden -->
-    <div x-show="view==='detalle-orden'" x-data="uvDetalleOrden()">
+    <template x-if="view==='detalle-orden'"><div x-data="uvDetalleOrden()">
       <div class="page-header">
         <button class="btn-sm btn-ghost" @click="$dispatch('go-to', backView)" x-text="backView==='historial-cliente' ? '← Cliente' : '← Órdenes'"></button>
         <button class="btn-sm btn-ghost" @click="editarOrden()" x-show="orden">Editar</button>
@@ -649,7 +649,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
         </template>
       </div>
-    </div>
+    </div></template>
 
     <!-- Vista: Nueva / Editar Orden -->
     <template x-if="view==='nueva-orden'"><div x-data="uvNuevaOrden()">
@@ -679,14 +679,37 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <input class="form-input" type="text" x-model="form.pedido" placeholder="ebay, gundam, lts..." style="font-size:16px"></div>
               <div>
                 <label class="form-label">Cliente</label>
-                <div style="display:flex;gap:8px;align-items:center">
-                  <select class="form-select" x-model="form.cliente_id" style="font-size:16px;flex:1">
-                    <option value="">Sin asignar</option>
-                    <template x-for="c in clientes" :key="c.id">
-                      <option :value="c.id" x-text="c.nombre"></option>
-                    </template>
-                  </select>
-                  <button class="btn-sm btn-ghost" type="button" @click="modalNuevoCliente=true" style="white-space:nowrap">+ Cliente</button>
+                <div style="display:flex;gap:8px;align-items:flex-start">
+                  <div style="position:relative;flex:1">
+                    <input class="form-input" type="text"
+                      x-model="clienteBusqueda"
+                      @input="form.cliente_id='';mostrarClienteOpts=true"
+                      @focus="mostrarClienteOpts=true"
+                      placeholder="Buscar cliente..."
+                      autocomplete="off"
+                      style="font-size:16px;width:100%">
+                    <div x-show="mostrarClienteOpts && clientesFiltrados.length>0"
+                      @click.outside="mostrarClienteOpts=false"
+                      style="position:absolute;top:100%;left:0;right:0;z-index:300;
+                             background:var(--bg3);border:1px solid var(--border2);
+                             border-radius:8px;max-height:200px;overflow-y:auto;margin-top:4px">
+                      <button type="button" @mousedown.prevent="seleccionarCliente(null)"
+                        style="display:block;width:100%;text-align:left;padding:10px 14px;
+                               background:none;border:none;color:var(--muted2);
+                               font-size:14px;font-family:inherit;cursor:pointer">
+                        Sin asignar
+                      </button>
+                      <template x-for="c in clientesFiltrados" :key="c.id">
+                        <button type="button" @mousedown.prevent="seleccionarCliente(c)"
+                          style="display:block;width:100%;text-align:left;padding:10px 14px;
+                                 background:none;border:none;color:var(--text);
+                                 font-size:14px;font-family:inherit;cursor:pointer"
+                          x-text="c.nombre">
+                        </button>
+                      </template>
+                    </div>
+                  </div>
+                  <button class="btn-sm btn-ghost" type="button" @click="modalNuevoCliente=true" style="white-space:nowrap;margin-top:2px">+ Cliente</button>
                 </div>
               </div>
             </div>
@@ -792,7 +815,7 @@ button,a{touch-action:manipulation;cursor:pointer}
     </div></template>
 
     <!-- Vista: Lista Clientes -->
-    <div x-show="view==='clientes'" x-data="uvClientes()">
+    <template x-if="view==='clientes'"><div x-data="uvClientes()">
       <div class="page-header">
         <h1 class="page-title">Clientes</h1>
         <div style="display:flex;gap:8px">
@@ -858,10 +881,10 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
         </div>
       </div>
-    </div>
+    </div></template>
 
     <!-- Vista: Historial Cliente -->
-    <div x-show="view==='historial-cliente'" x-data="uvHistorialCliente()">
+    <template x-if="view==='historial-cliente'"><div x-data="uvHistorialCliente()">
       <div class="page-header">
         <button class="btn-sm btn-ghost" @click="$dispatch('go-to','clientes')">← Clientes</button>
       </div>
@@ -911,10 +934,10 @@ button,a{touch-action:manipulation;cursor:pointer}
           </div>
         </template>
       </div>
-    </div>
+    </div></template>
 
     <!-- Vista: WhatsApp Masivo -->
-    <div x-show="view==='whatsapp-masivo'" x-data="uvWhatsappMasivo()">
+    <template x-if="view==='whatsapp-masivo'"><div x-data="uvWhatsappMasivo()">
       <div class="page-header">
         <h1 class="page-title">Teléfonos</h1>
         <button class="btn-sm btn-purple" @click="guardarTodos()" :disabled="guardando">
@@ -951,10 +974,10 @@ button,a{touch-action:manipulation;cursor:pointer}
         </div>
         <div x-show="savedMsg" style="color:var(--green);font-size:14px;margin-top:16px" x-text="savedMsg"></div>
       </div>
-    </div>
+    </div></template>
 
     <!-- Vista: Métricas -->
-    <div x-show="view==='metricas'" x-data="uvMetricas()">
+    <template x-if="view==='metricas'"><div x-data="uvMetricas()">
       <div class="page-header">
         <h1 class="page-title">Métricas</h1>
         <div style="display:flex;gap:6px;flex-wrap:wrap">
@@ -1078,7 +1101,7 @@ button,a{touch-action:manipulation;cursor:pointer}
 
         </div>
       </div>
-    </div>
+    </div></template>
 
   </main>
 
@@ -1105,7 +1128,10 @@ button,a{touch-action:manipulation;cursor:pointer}
 </div>
 
 <script>
-let _editarOrdenId = null; // usado por uvDetalleOrden → uvNuevaOrden
+let _editarOrdenId  = null;
+let _verOrdenId     = null;
+let _detalleBack    = null;
+let _verClienteData = null;
 
 // ── AUTH ──────────────────────────────────────────────────────────────
 function uvLogin() {
@@ -1235,8 +1261,7 @@ function uvOrdenes() {
       });
     },
     verOrden(id) {
-      document.dispatchEvent(new CustomEvent('set-detalle-back', { detail: 'ordenes' }));
-      document.dispatchEvent(new CustomEvent('ver-orden', { detail: id }));
+      _verOrdenId = id; _detalleBack = 'ordenes';
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
     },
     async cambiarEstadoOrden(o, nuevoEstado) {
@@ -1264,11 +1289,11 @@ function uvHistorialCliente() {
     get totalAbonado() { return this.ordenes.reduce((s,o) => s+(o._abonado||0), 0); },
     get totalSaldo() { return this.totalGastado - this.totalAbonado; },
     async init() {
-      document.addEventListener('ver-cliente', async (e) => {
-        this.cliente = e.detail;
+      if (_verClienteData) {
+        this.cliente = _verClienteData;
+        _verClienteData = null;
         await this.cargar();
-      });
-      document.addEventListener('recargar-ordenes', () => this.cargar());
+      }
     },
     async cargar() {
       if (!this.cliente) return;
@@ -1281,8 +1306,7 @@ function uvHistorialCliente() {
       finally { this.loading = false; }
     },
     verOrden(id) {
-      document.dispatchEvent(new CustomEvent('set-detalle-back', { detail: 'historial-cliente' }));
-      document.dispatchEvent(new CustomEvent('ver-orden', { detail: id }));
+      _verOrdenId = id; _detalleBack = 'historial-cliente';
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
     },
     async toggleEntregado(o) {
@@ -1333,7 +1357,7 @@ function uvClientes() {
       catch(e) { alert('Error: ' + e.message); }
     },
     verCliente(c) {
-      document.dispatchEvent(new CustomEvent('ver-cliente', { detail: c }));
+      _verClienteData = c;
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'historial-cliente' }));
     },
     fmtQ, fmtDate
@@ -1344,12 +1368,22 @@ function uvClientes() {
 function uvNuevaOrden() {
   return {
     clientes: [], guardando: false, abonoInicial: 0,
+    clienteBusqueda: '', mostrarClienteOpts: false,
     modalNuevoCliente: false, nuevoClienteForm: { nombre: '', whatsapp: '' }, guardandoCliente: false,
     form: {
       id: null, cliente_id: '', producto: '', codigo: '', marca: '',
       escala: '', pedido: '', precio_original: 0, envio: 0, envio_mbe: 0,
       impuesto: 0, aduana: 0, arancel: 0, precio_venta_usd: 0,
       precio_venta_gtq: 0, estado: 'en_proceso', entregado: false, notas: ''
+    },
+    get clientesFiltrados() {
+      const q = this.clienteBusqueda.toLowerCase();
+      return !q ? this.clientes : this.clientes.filter(c => c.nombre.toLowerCase().includes(q));
+    },
+    seleccionarCliente(c) {
+      this.form.cliente_id = c ? c.id : '';
+      this.clienteBusqueda  = c ? c.nombre : '';
+      this.mostrarClienteOpts = false;
     },
     get aduanaCalc() {
       return ((this.form.precio_original||0) + (this.form.envio||0) + (this.form.impuesto||0)) * 0.12;
@@ -1374,6 +1408,10 @@ function uvNuevaOrden() {
         this.form = { ...o };
         this.abonoInicial = 0;
         _editarOrdenId = null;
+        if (o.cliente_id) {
+          const c = this.clientes.find(c => c.id === o.cliente_id);
+          if (c) this.clienteBusqueda = c.nombre;
+        }
       }
     },
     async crearCliente() {
@@ -1563,13 +1601,14 @@ function uvDetalleOrden() {
       return this.orden ? fmtDate(this.orden.created_at) : '';
     },
     async init() {
-      document.addEventListener('set-detalle-back', (e) => { this.backView = e.detail; });
-      document.addEventListener('ver-orden', async (e) => {
-        this.loading = true; this.orden = null; this.pagos = [];
-        this.orden = await dbGetOrden(e.detail);
-        this.pagos = await dbGetPagosByOrden(e.detail);
+      if (_verOrdenId) {
+        this.backView = _detalleBack || 'ordenes';
+        this.loading = true;
+        this.orden = await dbGetOrden(_verOrdenId);
+        this.pagos = await dbGetPagosByOrden(_verOrdenId);
         this.loading = false;
-      });
+        _verOrdenId = null; _detalleBack = null;
+      }
     },
     async registrarPago() {
       if (!this.formPago.monto || this.formPago.monto <= 0) { alert('Ingresá un monto válido'); return; }
