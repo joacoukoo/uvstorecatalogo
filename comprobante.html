@@ -80,9 +80,9 @@ function fmtQ(v) {
 const POS = {
   abono: {
     nombre: { x:600, y:330 },
-    monto:  { x:655, y:400 },
+    monto:  { x:700, y:400 },
     figura: { x:600, y:575 },
-    val1:   { x:810, y:690 },   // Valor total
+    val1:   { x:810, y:730 },   // Valor total
     val2:   { x:810, y:795 },   // Abono total
     val3:   { x:810, y:880 },   // Saldo pendiente
   },
@@ -150,7 +150,7 @@ async function render() {
   ctx.restore();
 
   texto(fmtQ(monto), p.monto.x, p.monto.y, 44, '#ffffff');
-  texto(figura,      p.figura.x, p.figura.y, 44, '#E8A020', true);
+  texto(figura,      p.figura.x, p.figura.y, 50, '#E8A020', true);
 
   if (tipo === 'abono') {
     texto(fmtQ(total),    p.val1.x, p.val1.y, 54, '#111111');
