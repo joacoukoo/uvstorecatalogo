@@ -1538,12 +1538,15 @@ function uvOrdenes() {
       catch(e) { o.entregado = prev; alert('Error: ' + e.message); }
     },
     async pagarRapido(o) {
+      if (this._pagandoId === o.id) return;
+      this._pagandoId = o.id;
       const hoy = new Date().toISOString().slice(0, 10);
       try {
         await dbSavePago({ orden_id: o.id, monto: o._saldo, tipo: 'abono', metodo: 'transferencia', fecha: hoy, notas: '' });
-        if (o.estado !== 'pagada') await dbSaveOrden({ ...o, estado: 'pagada' });
+        if (o.estado !== 'pagada') await dbUpdateEstadoOrden(o.id, 'pagada');
         await this.cargar();
       } catch(e) { alert('Error al registrar pago: ' + e.message); }
+      finally { this._pagandoId = null; }
     },
     fmtQ, fmtDate
   };
