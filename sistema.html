@@ -534,7 +534,8 @@ button,a{touch-action:manipulation;cursor:pointer}
                     <td>
                       <button class="btn-sm" :class="o.entregado ? 'btn-green' : 'btn-ghost'" @click="toggleEntregado(o)" style="font-size:11px;padding:3px 10px" x-text="o.entregado ? 'Entregado' : 'Sin entregar'"></button>
                     </td>
-                    <td>
+                    <td style="display:flex;gap:6px;flex-wrap:wrap">
+                      <button x-show="o._saldo > 0" class="btn-sm btn-green" @click="pagarRapido(o)">✓ Cobrado</button>
                       <button class="btn-sm btn-ghost" @click="verOrden(o.id)">Ver</button>
                     </td>
                   </tr>
@@ -1535,6 +1536,14 @@ function uvOrdenes() {
         document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       }
       catch(e) { o.entregado = prev; alert('Error: ' + e.message); }
+    },
+    async pagarRapido(o) {
+      const hoy = new Date().toISOString().slice(0, 10);
+      try {
+        await dbSavePago({ orden_id: o.id, monto: o._saldo, tipo: 'abono', metodo: 'transferencia', fecha: hoy, notas: '' });
+        if (o.estado !== 'pagada') await dbSaveOrden({ ...o, estado: 'pagada' });
+        await this.cargar();
+      } catch(e) { alert('Error al registrar pago: ' + e.message); }
     },
     fmtQ, fmtDate
   };
