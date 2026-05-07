@@ -6,6 +6,12 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
 
+db.auth.onAuthStateChange((event, session) => {
+  if (event === 'SIGNED_OUT' || event === 'TOKEN_REFRESHED') {
+    document.dispatchEvent(new CustomEvent('session-changed', { detail: session }));
+  }
+});
+
 // ── AUTH ──────────────────────────────────────────────────────────────
 async function dbSignIn(email, password) {
   const { data, error } = await db.auth.signInWithPassword({ email, password });
