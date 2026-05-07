@@ -1398,14 +1398,26 @@ function uvDashboard() {
       this.loading = true;
       try {
         const ahora = new Date();
-        const primerDia = `${ahora.getFullYear()}-${String(ahora.getMonth()+1).padStart(2,'0')}-01`;
-        const [ordenes, clientesCount, pagosMes] = await Promise.all([
+        const mesActual = ahora.getMonth();
+        const anioActual = ahora.getFullYear();
+        const [ordenes, clientesCount] = await Promise.all([
           dbGetOrdenes(),
-          db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0),
-          db.from('pagos').select('monto').gte('fecha', primerDia).then(r => r.data || [])
+          db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0)
         ]);
         this._ordenes = ordenes;
-        this.cobradoMes = pagosMes.reduce((s, p) => s + (p.monto || 0), 0);
+        this.cobradoMes = ordenes.reduce((sum, o) => {
+          if (o.estado === 'cancelada') return sum;
+          let ano, mes;
+          if (o.fecha_venta) {
+            const p = o.fecha_venta.split('-');
+            ano = parseInt(p[0]); mes = parseInt(p[1]) - 1;
+          } else {
+            const f = new Date(o.created_at);
+            ano = f.getFullYear(); mes = f.getMonth();
+          }
+          if (ano !== anioActual || mes !== mesActual) return sum;
+          return sum + (o.precio_venta_gtq || 0);
+        }, 0);
 
         let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
         const estadoCount = {};
