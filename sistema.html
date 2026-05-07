@@ -1506,8 +1506,8 @@ function uvOrdenes() {
     },
     get ordenesFiltradas() {
       return this.ordenes.filter(o => {
-        const q = this.busqueda.toLowerCase();
-        const matchQ = !q || o.producto?.toLowerCase().includes(q) || o.clientes?.nombre?.toLowerCase().includes(q);
+        const q = normalize(this.busqueda);
+        const matchQ = !q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q);
         const matchE = !this.filtroEstado || o.estado === this.filtroEstado;
         const matchEnt = !this.filtroEntregado ||
           (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
@@ -1592,8 +1592,8 @@ function uvClientes() {
       finally { this.loading = false; }
     },
     get clientesFiltrados() {
-      const q = this.busqueda.toLowerCase();
-      return !q ? this.clientes : this.clientes.filter(c => c.nombre.toLowerCase().includes(q));
+      const q = normalize(this.busqueda);
+      return !q ? this.clientes : this.clientes.filter(c => normalize(c.nombre).includes(q));
     },
     async toggleCobros() {
       this.mostraCobros = !this.mostraCobros;
@@ -1664,8 +1664,8 @@ function uvNuevaOrden() {
       precio_venta_gtq: 0, estado: 'en_proceso', entregado: false, notas: ''
     },
     get clientesFiltrados() {
-      const q = this.clienteBusqueda.toLowerCase();
-      return !q ? this.clientes : this.clientes.filter(c => c.nombre.toLowerCase().includes(q));
+      const q = normalize(this.clienteBusqueda);
+      return !q ? this.clientes : this.clientes.filter(c => normalize(c.nombre).includes(q));
     },
     seleccionarCliente(c) {
       this.form.cliente_id = c ? c.id : '';
@@ -1762,7 +1762,7 @@ function uvWhatsappMasivo() {
       }
     },
     get clientesAnuncio() {
-      const q = this.filtroAnuncio.toLowerCase().trim();
+      const q = normalize(this.filtroAnuncio);
       const mapa = {};
       for (const o of this._ordenes) {
         if (!o.cliente_id) continue;
@@ -1774,7 +1774,7 @@ function uvWhatsappMasivo() {
         if (mapa[o.cliente_id]) mapa[o.cliente_id]._productos.push(o.producto || '');
       }
       let lista = Object.values(mapa);
-      if (q) lista = lista.filter(c => c._productos.some(p => p.toLowerCase().includes(q)));
+      if (q) lista = lista.filter(c => c._productos.some(p => normalize(p).includes(q)));
       return lista;
     },
     get mensajeAnuncio() {
