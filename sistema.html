@@ -497,8 +497,7 @@ button,a{touch-action:manipulation;cursor:pointer}
         </div>
 
         <div class="card">
-          <div style="padding:8px 16px;font-size:11px;color:orange;background:#111;border-radius:6px;margin:8px">DBG: loading=<span x-text="loading"></span> | filas=<span x-text="ordenes.length"></span> | filtradas=<span x-text="ordenesFiltradas.length"></span> | error=<span x-text="errorMsg||'ok'"></span></div>
-          <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
+<div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
           <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
           <div x-show="!loading && ordenesFiltradas.length===0" class="empty">
             <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
@@ -1655,11 +1654,7 @@ function uvClientes() {
     async cargar() {
       this.loading = true; this.errorMsg = '';
       try {
-        const session = await dbGetSession();
-        if (!session) { this.errorMsg = 'Sin sesión — recargá la página e ingresá de nuevo'; return; }
-        const data = await dbGetClientes();
-        if (data.length === 0) this.errorMsg = 'DEBUG: 0 clientes. Sesión: ' + session.user.email;
-        this.clientes = data;
+        this.clientes = await dbGetClientes();
       }
       catch(e) { this.errorMsg = e.message || String(e); }
       finally { this.loading = false; }
