@@ -91,11 +91,13 @@ async function dbGetOrden(id) {
 async function dbSaveOrden(orden) {
   if (orden.id) {
     const { id, created_at, clientes, ...fields } = orden;
+    if (fields.fecha_venta === '') fields.fecha_venta = null;
     const { data, error } = await db.from('ordenes').update(fields).eq('id', id).select().single();
     if (error) throw error;
     return data;
   } else {
     const { id, created_at, clientes, ...fields } = orden;
+    if (fields.fecha_venta === '') fields.fecha_venta = null;
     const { data, error } = await db.from('ordenes').insert(fields).select().single();
     if (error) throw error;
     return data;
