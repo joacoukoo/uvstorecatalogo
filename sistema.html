@@ -393,7 +393,10 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </div>
               </div>
               <div class="goku-right">
-                <div class="goku-power-num" x-text="powerData.powerNum.toLocaleString('es-GT')"></div>
+                <div class="goku-power-num">
+                  <span style="font-size:0.38em;letter-spacing:3px;text-transform:uppercase;opacity:0.75;display:block;margin-bottom:2px">KI</span>
+                  <span x-text="kiDisplay.toLocaleString('es-GT')"></span>
+                </div>
                 <div class="ki-meter-wrap">
                   <div class="ki-meter">
                     <div class="ki-fill" :style="'width:' + Math.min(powerData.pct,100) + '%'"></div>
@@ -1392,6 +1395,7 @@ function uvDashboard() {
     loading: true,
     _ordenes: [],
     gananciaMes: 0,
+    kiDisplay: 0,
     metaUSD: 4000,
     stats: { total: 0, porCobrar: 0, cobrado: 0, clientes: 0, ventasTotal: 0, margen: 0, porEstado: [], ultimas: [] },
     async init() {
@@ -1447,7 +1451,22 @@ function uvDashboard() {
           porEstado: ordenEstados.filter(e => estadoCount[e]).map(e => ({ estado: e, count: estadoCount[e] })),
           ultimas: ordenes.slice(0, 10)
         };
-      } finally { this.loading = false; }
+      } finally {
+        this.loading = false;
+        this.animateKI(this.powerData.powerNum);
+      }
+    },
+    animateKI(target) {
+      const duration = 1800;
+      const startTime = performance.now();
+      const step = (now) => {
+        const progress = Math.min((now - startTime) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        this.kiDisplay = Math.floor(target * eased);
+        if (progress < 1) requestAnimationFrame(step);
+        else this.kiDisplay = target;
+      };
+      requestAnimationFrame(step);
     },
     get powerData() {
       const ventasUSD = this.gananciaMes;
