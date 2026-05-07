@@ -31584,6 +31584,87 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "bowser-2-0-movm35qu",
+        "n": "Bowser 2.0",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18171/images/373296/_2026-05-07_194807_031__08338.1778154851.386.513.jpg",
+        "franquicia": "Gaming",
+        "marca": "Joy Station",
+        "escala": "1:6/1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/18171/images/373296/_2026-05-07_194807_031__08338.1778154851.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373296/_2026-05-07_194807_031__08338.1778154851.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373297/_2026-05-07_194802_705__77897.1778154851.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373298/_2026-05-07_194804_273__89619.1778154851.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373299/_2026-05-07_194800_391__21031.1778154851.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373300/_2026-05-07_194816_059__13881.1778154851.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373301/_2026-05-07_194814_174__88071.1778154851.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373302/_2026-05-07_194810_767__05811.1778154852.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua diorama premium de Bowser 2.0 que captura al icónico villano en su versión cinematográfica de Super Mario Galaxy Movie, con detalles artísticos excepcionales y una escena temática de pintura que demuestra la maestría artesanal de Joy Station. Esta figura de edición limitada a solo 200 piezas mundial es un must-have para coleccionistas premium de franquicias gaming, presentando acabados de pintura profesional, texturas realistas y una base diorama totalmente inmersiva que recrea un ambiente de galería artística."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 41 cm (escala 1/6) / 61 cm (escala 1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm (1/6) / 55 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 40 cm (1/6) / 61 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6 y 1/4 (ambas disponibles)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Limitada: 200 piezas mundial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de Lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Joy Station"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Bowser"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama temática con ambiente de galería/estudio de pintura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de pintura y caballete"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-07",
+        "precio_d": "10800",
+        "reserva": "1360",
+        "reserva_d": "2160",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "misa-mosznqam",
         "n": "Misa",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-05_190250_336__80579.webp?v=1777985194",
