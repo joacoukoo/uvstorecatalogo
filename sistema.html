@@ -1525,7 +1525,10 @@ function uvOrdenes() {
     async cargar() {
       this.loading = true; this.errorMsg = '';
       try {
+        const session = await dbGetSession();
+        if (!session) { this.errorMsg = 'Sin sesión — recargá la página e ingresá de nuevo'; return; }
         const data = await dbGetOrdenes();
+        if (data.length === 0) this.errorMsg = 'DEBUG: 0 órdenes devueltas. Sesión: ' + session.user.email;
         for (const o of data) {
           o._abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
           o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
@@ -1641,7 +1644,13 @@ function uvClientes() {
     async init() { await this.cargar(); },
     async cargar() {
       this.loading = true; this.errorMsg = '';
-      try { this.clientes = await dbGetClientes(); }
+      try {
+        const session = await dbGetSession();
+        if (!session) { this.errorMsg = 'Sin sesión — recargá la página e ingresá de nuevo'; return; }
+        const data = await dbGetClientes();
+        if (data.length === 0) this.errorMsg = 'DEBUG: 0 clientes. Sesión: ' + session.user.email;
+        this.clientes = data;
+      }
       catch(e) { this.errorMsg = e.message || String(e); }
       finally { this.loading = false; }
     },
