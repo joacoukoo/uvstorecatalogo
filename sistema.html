@@ -1350,6 +1350,7 @@ let _editarOrdenId  = null;
 let _verOrdenId     = null;
 let _detalleBack    = null;
 let _verClienteData = null;
+let _verClienteId   = null;
 
 // ── AUTH ──────────────────────────────────────────────────────────────
 function uvLogin() {
@@ -1374,29 +1375,53 @@ function uvLogin() {
 
 const VIEWS_PERSISTIBLES = new Set(['dashboard', 'ordenes', 'clientes', 'metricas', 'whatsapp-masivo']);
 
+const ALL_VIEWS = new Set(['dashboard','ordenes','clientes','metricas','whatsapp-masivo','detalle-orden','historial-cliente','nueva-orden']);
+
 function uvApp() {
   return {
     session: null,
     view: 'dashboard',
     async init() {
       this.session = await dbGetSession();
-      const guardada = localStorage.getItem('uv_view');
-      if (guardada && VIEWS_PERSISTIBLES.has(guardada)) this.view = guardada;
+      if (!this.applyHash()) {
+        const guardada = localStorage.getItem('uv_view');
+        if (guardada && VIEWS_PERSISTIBLES.has(guardada)) this.view = guardada;
+      }
       document.addEventListener('session-changed', (e) => { this.session = e.detail; });
       document.addEventListener('go-to', (e) => {
         this.view = e.detail;
-        if (VIEWS_PERSISTIBLES.has(e.detail)) localStorage.setItem('uv_view', e.detail);
+        this.updateHash(e.detail);
       });
-      document.addEventListener('open-nueva-orden', () => { this.view = 'nueva-orden'; });
+      document.addEventListener('open-nueva-orden', () => { this.view = 'nueva-orden'; location.hash = '#nueva-orden'; });
+      window.addEventListener('hashchange', () => this.applyHash());
+    },
+    applyHash() {
+      const hash = location.hash.slice(1);
+      if (!hash) return false;
+      const parts = hash.split('/');
+      const v = parts[0];
+      if (!ALL_VIEWS.has(v)) return false;
+      if (v === 'detalle-orden' && parts[1]) { _verOrdenId = parts[1]; _detalleBack = 'ordenes'; }
+      else if (v === 'historial-cliente' && parts[1]) { _verClienteId = parts[1]; _verClienteData = null; }
+      else if (v === 'nueva-orden' && parts[1] === 'edit' && parts[2]) { _editarOrdenId = parts[2]; }
+      this.view = v;
+      return true;
+    },
+    updateHash(v) {
+      if (v === 'detalle-orden') { location.hash = '#detalle-orden/' + (_verOrdenId || ''); return; }
+      if (v === 'historial-cliente') { location.hash = '#historial-cliente/' + (_verClienteData?.id || _verClienteId || ''); return; }
+      if (v === 'nueva-orden' && _editarOrdenId) { location.hash = '#nueva-orden/edit/' + _editarOrdenId; return; }
+      location.hash = '#' + v;
     },
     goTo(v) {
       this.view = v;
-      if (VIEWS_PERSISTIBLES.has(v)) localStorage.setItem('uv_view', v);
+      this.updateHash(v);
     },
     async logout() {
       await dbSignOut();
       this.session = null;
       localStorage.removeItem('uv_view');
+      location.hash = '';
       document.dispatchEvent(new CustomEvent('session-changed', { detail: null }));
     }
   };
@@ -1608,8 +1633,12 @@ function uvHistorialCliente() {
     async init() {
       if (_verClienteData) {
         this.cliente = _verClienteData;
-        await this.cargar();
+        _verClienteData = null;
+      } else if (_verClienteId) {
+        try { this.cliente = await dbGetCliente(_verClienteId); } catch(e) {}
+        _verClienteId = null;
       }
+      if (this.cliente) await this.cargar();
     },
     async cargar() {
       if (!this.cliente) return;
