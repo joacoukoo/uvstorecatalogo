@@ -12,10 +12,11 @@
 [x-cloak]{display:none}
 :root{
   --bg:#07080d;--bg2:#0d0e18;--bg3:#13141f;--bg4:#1a1b28;
-  --purple:#7B2FBE;--pl:#9d5cd4;
+  --purple:#E8622A;--pl:#FF8C55;
   --border:#1c1d2c;--border2:#272840;
   --text:#ecedf8;--muted:#525568;--muted2:#848aa0;
-  --green:#2fc76e;--red:#e63946;--gold:#C8963E;
+  --green:#2fc76e;--red:#e63946;--gold:#FFD700;
+  --ssj-blue:#29B6F6;--ki-red:#CC2200;
   --nav-h:60px;--sidebar-w:220px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;touch-action:manipulation}
@@ -219,6 +220,46 @@ button,a{touch-action:manipulation;cursor:pointer}
 .empty svg{width:40px;height:40px;margin:0 auto 12px;stroke:var(--border2);
   stroke-width:1.5;fill:none;}
 
+/* ── GOKU WIDGET ── */
+.goku-card{position:relative;overflow:hidden;padding:20px;margin-bottom:24px;}
+.goku-aura-bg{
+  position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 90%, var(--goku-aura,transparent) 0%, transparent 70%);
+  animation:ki-pulse 2s ease-in-out infinite;
+}
+@keyframes ki-pulse{
+  0%,100%{opacity:.7;transform:scale(1);}
+  50%{opacity:1;transform:scale(1.04);}
+}
+.goku-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;position:relative;z-index:1;}
+.goku-scouter-lbl{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted2);}
+.goku-nivel-name{font-size:11px;font-weight:700;letter-spacing:1px;color:var(--gold);text-transform:uppercase;}
+.goku-body{display:flex;align-items:center;gap:20px;position:relative;z-index:1;}
+.goku-char-wrap{flex-shrink:0;}
+.goku-hair-fill{fill:var(--goku-hair,#1a1a1a);transition:fill .8s ease;}
+.goku-right{flex:1;min-width:0;}
+.goku-power-num{
+  font-size:26px;font-weight:900;color:#fff;letter-spacing:-1px;
+  margin-bottom:10px;font-variant-numeric:tabular-nums;
+  transition:text-shadow .8s;
+}
+.t-ssj2 .goku-power-num,.t-ssj3 .goku-power-num{text-shadow:0 0 18px rgba(255,235,50,.9),0 0 40px rgba(255,200,0,.4);}
+.t-blue .goku-power-num{text-shadow:0 0 18px rgba(41,182,246,.9),0 0 40px rgba(41,182,246,.4);}
+.ki-meter-wrap{margin-bottom:8px;}
+.ki-meter{height:8px;background:var(--bg4);border-radius:4px;overflow:hidden;}
+.ki-fill{height:100%;border-radius:4px;transition:width 1.2s ease,background 1s ease;
+  background:linear-gradient(90deg,#E8622A,var(--gold));}
+.t-kaioken .ki-fill{background:linear-gradient(90deg,#881100,#CC2200);}
+.t-ssj1 .ki-fill{background:linear-gradient(90deg,#CC8800,#FFD700);}
+.t-ssj2 .ki-fill{background:linear-gradient(90deg,#FFD700,#FFFDE7);}
+.t-ssj3 .ki-fill{background:linear-gradient(90deg,#FFD700,#FFF9C4);}
+.t-blue .ki-fill{background:linear-gradient(90deg,#0277BD,#29B6F6);}
+.ki-pct{font-size:11px;color:var(--muted2);margin-top:5px;}
+.ki-valores{font-size:12px;color:var(--muted2);margin-top:3px;}
+@media(max-width:480px){
+  .goku-body{flex-direction:column;align-items:center;text-align:center;}
+}
+
 /* ── RESPONSIVE ── */
 @media(max-width:768px){
   .sidebar{display:none;}
@@ -327,6 +368,62 @@ button,a{touch-action:manipulation;cursor:pointer}
       <div class="page-body">
         <div x-show="loading" style="color:var(--muted2)">Cargando...</div>
         <div x-show="!loading">
+
+          <!-- Widget Nivel de Poder -->
+          <div class="card goku-card"
+            :class="'t-' + powerData.nivel"
+            :style="'--goku-hair:' + powerData.hairColor + ';--goku-aura:' + powerData.auraColor">
+            <div class="goku-aura-bg"></div>
+            <div class="goku-header">
+              <span class="goku-scouter-lbl">⚡ Nivel de Poder</span>
+              <span class="goku-nivel-name" x-text="powerData.nombreNivel"></span>
+            </div>
+            <div class="goku-body">
+              <div class="goku-char-wrap">
+                <svg viewBox="0 0 80 100" width="80" height="100" xmlns="http://www.w3.org/2000/svg" fill="none">
+                  <!-- Hair back -->
+                  <path class="goku-hair-fill" d="M14,54 Q10,28 30,16 Q44,7 54,16 Q70,24 68,52"/>
+                  <!-- Head -->
+                  <ellipse cx="40" cy="56" rx="23" ry="25" fill="#F4C490"/>
+                  <!-- Hair spikes front -->
+                  <path class="goku-hair-fill" d="M16,46 L10,24 L24,40 Z"/>
+                  <path class="goku-hair-fill" d="M26,34 L24,12 L34,30 Z"/>
+                  <path class="goku-hair-fill" d="M38,28 L40,6 L47,26 Z"/>
+                  <path class="goku-hair-fill" d="M53,34 L58,12 L60,32 Z"/>
+                  <path class="goku-hair-fill" d="M63,44 L72,26 L62,42 Z"/>
+                  <!-- Eyes -->
+                  <ellipse cx="33" cy="55" rx="4" ry="5" fill="#1a1a1a"/>
+                  <ellipse cx="47" cy="55" rx="4" ry="5" fill="#1a1a1a"/>
+                  <circle cx="34.5" cy="53.5" r="1.5" fill="white"/>
+                  <circle cx="48.5" cy="53.5" r="1.5" fill="white"/>
+                  <!-- Eyebrows -->
+                  <path d="M27,47 Q32,44 37,47" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
+                  <path d="M43,47 Q48,44 53,47" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
+                  <!-- Nose -->
+                  <circle cx="40" cy="63" r="2" fill="#D4946A"/>
+                  <!-- Mouth -->
+                  <path d="M34,71 Q40,75 46,71" stroke="#C07050" stroke-width="2" stroke-linecap="round"/>
+                  <!-- Gi -->
+                  <path d="M17,78 Q14,96 40,102 Q66,96 63,78 Q60,69 40,67 Q20,69 17,78 Z" fill="#E8622A"/>
+                  <!-- Collar -->
+                  <path d="M28,70 L40,82 L52,70" stroke="#111" stroke-width="2.5"/>
+                  <!-- Belt -->
+                  <ellipse cx="40" cy="94" rx="17" ry="5" fill="#111"/>
+                </svg>
+              </div>
+              <div class="goku-right">
+                <div class="goku-power-num" x-text="powerData.powerNum.toLocaleString('es-GT')"></div>
+                <div class="ki-meter-wrap">
+                  <div class="ki-meter">
+                    <div class="ki-fill" :style="'width:' + Math.min(powerData.pct,100) + '%'"></div>
+                  </div>
+                  <div class="ki-pct" x-text="Math.round(powerData.pct) + '% de la meta mensual'"></div>
+                  <div class="ki-valores" x-text="'$' + Math.round(powerData.ventasUSD).toLocaleString() + ' / $' + metaUSD.toLocaleString() + ' USD'"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="stats-grid" style="margin-bottom:24px">
             <div class="stat-card">
               <div class="stat-label">Total órdenes</div>
@@ -1308,6 +1405,8 @@ function uvApp() {
 function uvDashboard() {
   return {
     loading: true,
+    _ordenes: [],
+    metaUSD: 4000,
     stats: { total: 0, porCobrar: 0, cobrado: 0, clientes: 0, ventasTotal: 0, margen: 0, porEstado: [], ultimas: [] },
     async init() {
       await this.cargar();
@@ -1320,6 +1419,7 @@ function uvDashboard() {
           dbGetOrdenes(),
           db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0)
         ]);
+        this._ordenes = ordenes;
 
         let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
         const estadoCount = {};
@@ -1346,6 +1446,46 @@ function uvDashboard() {
           ultimas: ordenes.slice(0, 10)
         };
       } finally { this.loading = false; }
+    },
+    get powerData() {
+      const now = new Date();
+      const mes = now.getMonth(), anio = now.getFullYear();
+      const ventasMes = this._ordenes
+        .filter(o => {
+          const d = new Date(o.fecha_orden || o.created_at);
+          return !isNaN(d) && d.getMonth() === mes && d.getFullYear() === anio;
+        })
+        .reduce((s, o) => s + (o.precio_venta_gtq || 0), 0);
+      const ventasUSD = ventasMes / 7.7;
+      const pct = Math.min((ventasUSD / this.metaUSD) * 100, 120);
+
+      let nivel, nombreNivel, hairColor, auraColor, powerNum;
+      if (pct < 20) {
+        nivel = 'base'; nombreNivel = 'Base';
+        hairColor = '#1a1a1a'; auraColor = 'transparent';
+        powerNum = Math.max(5000, Math.floor(ventasUSD * 12));
+      } else if (pct < 40) {
+        nivel = 'kaioken'; nombreNivel = 'Kaioken x10';
+        hairColor = '#CC2200'; auraColor = 'rgba(200,40,0,.45)';
+        powerNum = Math.floor(ventasUSD * 2500);
+      } else if (pct < 65) {
+        nivel = 'ssj1'; nombreNivel = 'Super Saiyan';
+        hairColor = '#FFD700'; auraColor = 'rgba(255,210,0,.5)';
+        powerNum = Math.floor(ventasUSD * 50000);
+      } else if (pct < 85) {
+        nivel = 'ssj2'; nombreNivel = 'Super Saiyan 2';
+        hairColor = '#FFF176'; auraColor = 'rgba(255,235,50,.55)';
+        powerNum = Math.floor(ventasUSD * 450000);
+      } else if (pct < 100) {
+        nivel = 'ssj3'; nombreNivel = 'Super Saiyan 3';
+        hairColor = '#FFE033'; auraColor = 'rgba(255,220,0,.6)';
+        powerNum = Math.floor(ventasUSD * 1200000);
+      } else {
+        nivel = 'blue'; nombreNivel = 'Super Saiyan Blue';
+        hairColor = '#29B6F6'; auraColor = 'rgba(41,182,246,.6)';
+        powerNum = Math.floor(ventasUSD * 6000000);
+      }
+      return { nivel, nombreNivel, hairColor, auraColor, powerNum, pct, ventasMes, ventasUSD };
     },
     fmtQ
   };
