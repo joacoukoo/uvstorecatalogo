@@ -1416,7 +1416,8 @@ function uvDashboard() {
             ano = f.getFullYear(); mes = f.getMonth();
           }
           if (ano !== anioActual || mes !== mesActual) return sum;
-          return sum + (o.precio_venta_gtq || 0);
+          const ab = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
+          return sum + ab;
         }, 0);
 
         let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
