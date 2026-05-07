@@ -380,36 +380,14 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
             <div class="goku-body">
               <div class="goku-char-wrap">
-                <svg viewBox="0 0 80 100" width="80" height="100" xmlns="http://www.w3.org/2000/svg" fill="none">
-                  <!-- Hair back -->
-                  <path class="goku-hair-fill" d="M14,54 Q10,28 30,16 Q44,7 54,16 Q70,24 68,52"/>
-                  <!-- Head -->
-                  <ellipse cx="40" cy="56" rx="23" ry="25" fill="#F4C490"/>
-                  <!-- Hair spikes front -->
-                  <path class="goku-hair-fill" d="M16,46 L10,24 L24,40 Z"/>
-                  <path class="goku-hair-fill" d="M26,34 L24,12 L34,30 Z"/>
-                  <path class="goku-hair-fill" d="M38,28 L40,6 L47,26 Z"/>
-                  <path class="goku-hair-fill" d="M53,34 L58,12 L60,32 Z"/>
-                  <path class="goku-hair-fill" d="M63,44 L72,26 L62,42 Z"/>
-                  <!-- Eyes -->
-                  <ellipse cx="33" cy="55" rx="4" ry="5" fill="#1a1a1a"/>
-                  <ellipse cx="47" cy="55" rx="4" ry="5" fill="#1a1a1a"/>
-                  <circle cx="34.5" cy="53.5" r="1.5" fill="white"/>
-                  <circle cx="48.5" cy="53.5" r="1.5" fill="white"/>
-                  <!-- Eyebrows -->
-                  <path d="M27,47 Q32,44 37,47" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
-                  <path d="M43,47 Q48,44 53,47" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
-                  <!-- Nose -->
-                  <circle cx="40" cy="63" r="2" fill="#D4946A"/>
-                  <!-- Mouth -->
-                  <path d="M34,71 Q40,75 46,71" stroke="#C07050" stroke-width="2" stroke-linecap="round"/>
-                  <!-- Gi -->
-                  <path d="M17,78 Q14,96 40,102 Q66,96 63,78 Q60,69 40,67 Q20,69 17,78 Z" fill="#E8622A"/>
-                  <!-- Collar -->
-                  <path d="M28,70 L40,82 L52,70" stroke="#111" stroke-width="2.5"/>
-                  <!-- Belt -->
-                  <ellipse cx="40" cy="94" rx="17" ry="5" fill="#111"/>
-                </svg>
+                <img :src="'goku-' + powerData.nivel + '.png'"
+                  :alt="powerData.nombreNivel"
+                  style="width:100px;height:120px;object-fit:contain;display:block;filter:drop-shadow(0 0 12px var(--goku-aura))"
+                  onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+                />
+                <div style="display:none;width:100px;height:120px;align-items:center;justify-content:center;font-size:60px">
+                  <span x-text="powerData.nivel==='base'?'🥋':powerData.nivel==='kaioken'?'🔴':powerData.nivel==='ssj1'?'⭐':powerData.nivel==='ssj2'?'⚡':powerData.nivel==='ssj3'?'🌟':'💎'"></span>
+                </div>
               </div>
               <div class="goku-right">
                 <div class="goku-power-num" x-text="powerData.powerNum.toLocaleString('es-GT')"></div>
@@ -1406,6 +1384,7 @@ function uvDashboard() {
   return {
     loading: true,
     _ordenes: [],
+    cobradoMes: 0,
     metaUSD: 4000,
     stats: { total: 0, porCobrar: 0, cobrado: 0, clientes: 0, ventasTotal: 0, margen: 0, porEstado: [], ultimas: [] },
     async init() {
@@ -1415,11 +1394,15 @@ function uvDashboard() {
     async cargar() {
       this.loading = true;
       try {
-        const [ordenes, clientesCount] = await Promise.all([
+        const ahora = new Date();
+        const primerDia = `${ahora.getFullYear()}-${String(ahora.getMonth()+1).padStart(2,'0')}-01`;
+        const [ordenes, clientesCount, pagosMes] = await Promise.all([
           dbGetOrdenes(),
-          db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0)
+          db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0),
+          db.from('pagos').select('monto').gte('fecha', primerDia).then(r => r.data || [])
         ]);
         this._ordenes = ordenes;
+        this.cobradoMes = pagosMes.reduce((s, p) => s + (p.monto || 0), 0);
 
         let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
         const estadoCount = {};
@@ -1448,15 +1431,7 @@ function uvDashboard() {
       } finally { this.loading = false; }
     },
     get powerData() {
-      const now = new Date();
-      const mes = now.getMonth(), anio = now.getFullYear();
-      const ventasMes = this._ordenes
-        .filter(o => {
-          const d = new Date(o.fecha_orden || o.created_at);
-          return !isNaN(d) && d.getMonth() === mes && d.getFullYear() === anio;
-        })
-        .reduce((s, o) => s + (o.precio_venta_gtq || 0), 0);
-      const ventasUSD = ventasMes / 7.7;
+      const ventasUSD = this.cobradoMes / 7.7;
       const pct = Math.min((ventasUSD / this.metaUSD) * 100, 120);
 
       let nivel, nombreNivel, hairColor, auraColor, powerNum;
