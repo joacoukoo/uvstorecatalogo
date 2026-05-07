@@ -399,7 +399,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                     <div class="ki-fill" :style="'width:' + Math.min(powerData.pct,100) + '%'"></div>
                   </div>
                   <div class="ki-pct" x-text="Math.round(powerData.pct) + '% de la meta mensual'"></div>
-                  <div class="ki-valores" x-text="'$' + Math.round(powerData.ventasUSD).toLocaleString() + ' / $' + metaUSD.toLocaleString() + ' USD'"></div>
+                  <div class="ki-valores" x-text="'Ganancia: $' + powerData.ventasUSD.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}) + ' / $' + metaUSD.toLocaleString() + ' USD'"></div>
                 </div>
               </div>
             </div>
@@ -1387,7 +1387,7 @@ function uvDashboard() {
   return {
     loading: true,
     _ordenes: [],
-    cobradoMes: 0,
+    gananciaMes: 0,
     metaUSD: 4000,
     stats: { total: 0, porCobrar: 0, cobrado: 0, clientes: 0, ventasTotal: 0, margen: 0, porEstado: [], ultimas: [] },
     async init() {
@@ -1405,7 +1405,7 @@ function uvDashboard() {
           db.from('clientes').select('id', { count: 'exact', head: true }).then(r => r.count || 0)
         ]);
         this._ordenes = ordenes;
-        this.cobradoMes = ordenes.reduce((sum, o) => {
+        this.gananciaMes = ordenes.reduce((sum, o) => {
           if (o.estado === 'cancelada') return sum;
           let ano, mes;
           if (o.fecha_venta) {
@@ -1416,8 +1416,7 @@ function uvDashboard() {
             ano = f.getFullYear(); mes = f.getMonth();
           }
           if (ano !== anioActual || mes !== mesActual) return sum;
-          const ab = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
-          return sum + ab;
+          return sum + ((o.precio_venta_gtq || 0) / 7.9) - calcCostoEstimado(o);
         }, 0);
 
         let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
@@ -1447,7 +1446,7 @@ function uvDashboard() {
       } finally { this.loading = false; }
     },
     get powerData() {
-      const ventasUSD = this.cobradoMes / 7.7;
+      const ventasUSD = this.gananciaMes;
       const pct = (ventasUSD / this.metaUSD) * 100;
 
       let nivel, nombreNivel, hairColor, auraColor, powerNum;
