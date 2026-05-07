@@ -1511,7 +1511,7 @@ function uvDashboard() {
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
-    ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '',
+    ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null,
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());

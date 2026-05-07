@@ -62,7 +62,6 @@ async function dbGetOrdenes() {
     const { data, error } = await db
       .from('ordenes')
       .select('*, clientes(nombre), pagos(monto)')
-      .order('sort_index', { ascending: false, nullsFirst: false })
       .order('created_at', { ascending: false })
       .range(from, from + PAGE - 1);
     if (error) throw error;
