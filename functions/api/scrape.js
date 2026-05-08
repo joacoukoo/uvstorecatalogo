@@ -216,7 +216,7 @@ export async function onRequestPost({ env, request }) {
 
     if (aiResult) {
       result.desc = aiResult.desc;
-      if (aiResult.franquicia && !result.franquicia) result.franquicia = aiResult.franquicia;
+      if (aiResult.franquicia && (!result.franquicia || result.franquicia === 'Otros')) result.franquicia = aiResult.franquicia;
       result.ai_ok = true;
     } else {
       result.ai_ok = false;

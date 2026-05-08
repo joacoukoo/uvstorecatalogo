@@ -189,7 +189,7 @@ function extractDeluxeVariantSku(ndRaw, currentSku) {
         const deluxe = obj.find(v => {
           const vname = (v.name || v.title || v.variantName || '').toLowerCase();
           const vid = String(v.sku || v.id || v.variantId || v.productId || '');
-          return /deluxe|exclusive/.test(vname) && vid !== String(currentSku);
+          return /deluxe|exclusive|artisan|premium|artist[\s-]edition|ultimate/.test(vname) && vid !== String(currentSku);
         });
         if (deluxe) return String(deluxe.sku || deluxe.id || deluxe.variantId || deluxe.productId);
       }
