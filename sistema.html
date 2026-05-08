@@ -429,6 +429,25 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
           </div>
 
+          <!-- Widget: Sin pedir al proveedor -->
+          <template x-if="sinPedir.length > 0">
+            <div class="card" style="padding:18px 20px;margin-bottom:24px;border-color:var(--orange)">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
+                <span style="width:8px;height:8px;border-radius:50%;background:var(--orange);flex-shrink:0"></span>
+                <span style="font-weight:700;color:#fff;font-size:14px" x-text="sinPedir.length + (sinPedir.length === 1 ? ' figura sin pedir al proveedor' : ' figuras sin pedir al proveedor')"></span>
+              </div>
+              <template x-for="o in sinPedir" :key="o.id">
+                <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-top:1px solid #2a2d3a;gap:12px">
+                  <div style="min-width:0">
+                    <div style="font-size:14px;font-weight:500;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" x-text="o.producto"></div>
+                    <div style="font-size:11px;color:var(--muted2)" x-text="o.clientes?.nombre || ''"></div>
+                  </div>
+                  <button class="btn-sm btn-orange" style="flex-shrink:0" @click="marcarPedida(o)">✓ Pedida</button>
+                </div>
+              </template>
+            </div>
+          </template>
+
           <div class="dash-two-col" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
             <div class="card" style="padding:20px">
               <div class="stat-label" style="margin-bottom:12px">Por estado</div>
@@ -1449,6 +1468,15 @@ function uvDashboard() {
     kiDisplay: 0,
     metaUSD: 4000,
     stats: { total: 0, porCobrar: 0, cobrado: 0, clientes: 0, ventasTotal: 0, margen: 0, porEstado: [], ultimas: [] },
+    get sinPedir() {
+      return this._ordenes.filter(o => !o.pedida_proveedor && !o.entregado && o.estado !== 'cancelada');
+    },
+    async marcarPedida(o) {
+      try {
+        await dbSetPedidaProveedor(o.id, true);
+        o.pedida_proveedor = true;
+      } catch(e) { alert('Error: ' + e.message); }
+    },
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());
