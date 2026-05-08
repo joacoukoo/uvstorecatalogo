@@ -31584,6 +31584,107 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mow8s223",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/06fe4fdbffe283a1c163eefe7375c707.jpg?v=1778168199",
+        "franquicia": "Anime",
+        "marca": "ZM Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/06fe4fdbffe283a1c163eefe7375c707.jpg?v=1778168199",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/80bd6a80a33e49c4beba9cba59dde040.jpg?v=1778168199",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ea029bd576f1b51fb90fd7fa2d129342.jpg?v=1778168199",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/95bbd3241bea91da3bf105e92d4ffd9c.jpg?v=1778168199",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fd33aa96c96c1dfe0a119825d9ab8466.jpg?v=1778168199",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b41ab5a51d7c26ef45f6c8013447ac8d.jpg?v=1778168199"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Asuka en escala 1:6 por ZM Studio, que captura la elegancia y sofisticación del personaje con un exquisito vestido de novia blanco. Con 22 cm de altura y un nivel de detalle extraordinario, esta pieza limitada a solo 188 unidades combina escultura de alta calidad, pintura meticulosa y accesorios de lujo que la convierten en un tesoro para coleccionistas de anime. La base decorativa y los acabados en resina garantizan una durabilidad y presencia visual incomparables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 22 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polistone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: ZM Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con diseño floral"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Velo nupcial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de cabello (flores y adornos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos de tacón plateados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-08",
+        "reserva": "740",
+        "entrega": "2Q 2017",
+        "cantidad": "1"
+      },
+      {
         "id": "bowser-2-0-movm35qu",
         "n": "Bowser 2.0",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18171/373296/_2026-05-07_194807_031__08338.1778154851.jpg",
