@@ -31584,6 +31584,91 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "rocky-the-underdog-moxjc170",
+        "n": "Rocky \"The Underdog\"",
+        "i": "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf995e20d8.jpg",
+        "franquicia": "Otros",
+        "marca": "SLY Stallone Shop",
+        "escala": "1:3",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "14800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf995e20d8.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf99644372.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf9969f15b.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf997030ea.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf997573d8.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf997b40f7.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf998089ca.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-silo.png",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf995e20d8_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf99644372_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive la gloria del campeón con esta impresionante estatua de Rocky Balboa a escala 1:3, capturando al legendario boxeador en su icónica pose de victoria con una presencia monumental de 66 cm de altura. Cada detalle está meticulosamente elaborado en resina de alta calidad con pintura artesanal, desde su emblemático entrenador gris hasta los guantes de boxeo rojo Everlast, transformando tu colección en un tributo definitivo al espíritu del underdog. Esta edición limitada de la SLY Stallone Shop es una pieza de coleccionista premium que captura la esencia del campeón del mundo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 66 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Estatua Premium de Edición Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Límite de compra: 2 unidades por persona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Rocky Balboa postura de victoria"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes de boxeo rojo Everlast"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa oficial temática con inscripción 'ROCKY'"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista con doble protección"
+          },
+          {
+            "t": "notion-text",
+            "x": "Edición de solo 300 unidades."
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-08",
+        "reserva": "2960",
+        "entrega": "Mar. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "asuka-mow8s223",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/06fe4fdbffe283a1c163eefe7375c707.jpg?v=1778168199",
