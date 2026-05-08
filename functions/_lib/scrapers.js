@@ -211,16 +211,32 @@ function extractDeluxeVariantSku(ndRaw, currentSku, html = '') {
     }
   }
 
-  // Estrategia 2: Buscar ?var=XXXXX en el HTML con contexto de edición especial
-  if (html) {
-    const re = /[?&]var=(\d{5,})/g;
+  if (!html) return null;
+
+  // Estrategia 2: ?var= o ?sku= en el HTML con contexto de edición especial
+  {
+    const re = /[?&](?:var|sku)=(\d{5,})/g;
     let m;
     while ((m = re.exec(html)) !== null) {
       if (m[1] === String(currentSku)) continue;
-      const start = Math.max(0, m.index - 250);
-      const end = Math.min(html.length, m.index + 350);
-      const ctx = html.slice(start, end);
-      if (SPECIAL_RE.test(ctx)) return m[1];
+      const start = Math.max(0, m.index - 300);
+      const end = Math.min(html.length, m.index + 400);
+      if (SPECIAL_RE.test(html.slice(start, end))) return m[1];
+    }
+  }
+
+  // Estrategia 3: href="/collectibles/...-XXXXXX/" con keyword en URL o contexto
+  {
+    const re = /href=["']([^"']*\/collectibles\/[^"']+?)["']/gi;
+    let m;
+    while ((m = re.exec(html)) !== null) {
+      const href = m[1];
+      const skuM = href.match(/-(\d{6,})\/?(?:\?[^"']*)?$/);
+      if (!skuM || skuM[1] === String(currentSku)) continue;
+      // keyword en el slug de la URL o en los 400 chars de contexto
+      const start = Math.max(0, m.index - 200);
+      const end = Math.min(html.length, m.index + 400);
+      if (SPECIAL_RE.test(href) || SPECIAL_RE.test(html.slice(start, end))) return skuM[1];
     }
   }
 
