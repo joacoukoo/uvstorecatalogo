@@ -42653,6 +42653,83 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "nonmi-a-bite-of-sweetheart-series-blind-box-moxk3vxw",
+        "n": "Nonmi: A Bite of Sweetheart Series Blind Box",
+        "i": "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883219c9.jpg",
+        "franquicia": "Otros",
+        "marca": "Hi Toy",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883219c9.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883530ab.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe588388cdf.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883d73d4.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe58843a88d.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe58848ad67.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5884d913d.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe588534555.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe588589f56.jpg",
+          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5885db0e5.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Descubre Nonmi: A Bite of Sweetheart Series, una colección premium de figuras ciegas que cautiva con personajes adorables vestidos como deliciosos postres. Cada figura de 10-12 cm combina resina de alta calidad con peluche sintético, ofreciendo detalles exquisitos y acabados premium que harán que tu colección brille. La sorpresa de cada caja ciega garantiza múltiples variantes temáticas dulces, convirtiéndola en una adición imprescindible para coleccionistas de figuras artísticas de alto valor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 10-12 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y peluche sintético de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Blind Box (Caja Sorpresa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 150-200 gramos por unidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hi TOY"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Nonmi articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos variados (gorros, adornos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium con doble caja"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diferentes variantes de personajes por caja sorpresa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-08",
+        "reserva": "580",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "desghidora-moxjmkr0",
         "n": "Desghidora",
         "i": "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65cdb619b.jpg",
