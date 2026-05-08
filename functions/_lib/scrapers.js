@@ -486,7 +486,7 @@ export async function scrapeSideshow(url, html) {
   const isPreorder = isPreOrder(html) || !!entrega;
 
   // Debug info para diagnóstico
-  const _dbg = [
+  let _dbg = [
     `sku:${sku||'?'}`,
     `html:${Math.round(html.length/1000)}kb`,
     `nextData:${nextDataM ? Math.round(nextDataM[1].length/1000)+'kb' : (html.includes('__NEXT_DATA__') ? 'NOMATCH' : 'NO')}`,
