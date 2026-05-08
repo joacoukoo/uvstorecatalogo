@@ -61,13 +61,20 @@ async function dbDeleteCliente(id) {
 }
 
 async function dbGetOrCreateClienteToken(clienteId) {
-  const { data } = await db.from('clientes').select('token').eq('id', clienteId).single();
-  if (data?.token) return data.token;
   const token = crypto.randomUUID();
-  const { data: updated, error } = await db
-    .from('clientes').update({ token }).eq('id', clienteId).select('token').single();
+  // Update only if token is currently null (atomic check-and-set)
+  const { data: updated } = await db
+    .from('clientes')
+    .update({ token })
+    .eq('id', clienteId)
+    .is('token', null)
+    .select('token')
+    .single();
+  if (updated?.token) return updated.token;
+  // Token was already set by another request — fetch it
+  const { data, error } = await db.from('clientes').select('token').eq('id', clienteId).single();
   if (error) throw error;
-  return updated.token;
+  return data.token;
 }
 
 // ── ORDENES ───────────────────────────────────────────────────────────
