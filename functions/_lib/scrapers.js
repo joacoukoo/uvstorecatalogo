@@ -501,7 +501,13 @@ export async function scrapeSideshow(url, html) {
     `entrega:${entrega||'?'}`,
   ].join(' | ');
 
+  // Diagnóstico de variante para debug
+  const artisanInHtml = /artisan/i.test(html);
+  const collectibleLinks = (html.match(/href=["'][^"']*\/collectibles\/[^"']+?["']/gi) || []).length;
+  const varLinks = (html.match(/[?&](?:var|sku)=\d{5,}/gi) || []).length;
+
   const deluxeVariantSku = sku ? extractDeluxeVariantSku(nextDataM ? nextDataM[1] : null, sku, html) : null;
+  _dbg += ` | artisan:${artisanInHtml?'yes':'no'} | colLinks:${collectibleLinks} | varLinks:${varLinks}`;
   if (deluxeVariantSku) _dbg += ` | deluxe:${deluxeVariantSku}`;
 
   return {
