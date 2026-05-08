@@ -60,6 +60,16 @@ async function dbDeleteCliente(id) {
   if (error) throw error;
 }
 
+async function dbGetOrCreateClienteToken(clienteId) {
+  const { data } = await db.from('clientes').select('token').eq('id', clienteId).single();
+  if (data?.token) return data.token;
+  const token = crypto.randomUUID();
+  const { data: updated, error } = await db
+    .from('clientes').update({ token }).eq('id', clienteId).select('token').single();
+  if (error) throw error;
+  return updated.token;
+}
+
 // ── ORDENES ───────────────────────────────────────────────────────────
 async function dbGetOrdenes() {
   const PAGE = 1000;
@@ -211,5 +221,10 @@ async function dbUpdateEstadoOrden(id, estado) {
 
 async function dbSetEntregado(id, entregado) {
   const { error } = await db.from('ordenes').update({ entregado }).eq('id', id);
+  if (error) throw error;
+}
+
+async function dbSetPedidaProveedor(id, value) {
+  const { error } = await db.from('ordenes').update({ pedida_proveedor: value }).eq('id', id);
   if (error) throw error;
 }
