@@ -1666,7 +1666,8 @@ function uvHistorialCliente() {
     async copiarLink() {
       try {
         const token = await dbGetOrCreateClienteToken(this.cliente.id);
-        const url = window.location.origin + '/mis-pedidos.html?t=' + token;
+        const slug = (this.cliente.nombre || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const url = 'https://uvstore.shop/mis-pedidos?t=' + token + '#' + slug;
         await navigator.clipboard.writeText(url);
         this.linkCopiado = true;
         setTimeout(() => { this.linkCopiado = false; }, 2000);

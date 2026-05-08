@@ -19,7 +19,7 @@ export async function onRequestGet({ env, request }) {
   const cliente = clientes[0];
 
   const oRes = await fetch(
-    `${base}/ordenes?cliente_id=eq.${cliente.id}&select=id,producto,created_at,precio_venta_gtq,estado,entregado,pagos(fecha,monto,metodo)&order=created_at.desc`,
+    `${base}/ordenes?cliente_id=eq.${cliente.id}&select=id,producto,marca,created_at,precio_venta_gtq,estado,entregado,pagos(fecha,monto,metodo)&order=created_at.desc`,
     { headers }
   );
   if (!oRes.ok) return resp({ error: 'Error de base de datos' }, 500);

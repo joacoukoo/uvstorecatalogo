@@ -8,32 +8,45 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
            background: #0f1117; color: #e8eaf0; min-height: 100vh; padding: 0 0 48px; }
-    .header { padding: 20px 20px 16px; border-bottom: 1px solid #2a2d3a; margin-bottom: 24px; }
-    .header-brand { font-size: 13px; font-weight: 700; letter-spacing: .08em;
-                    text-transform: uppercase; color: #7c3aed; margin-bottom: 6px; }
-    .header-name { font-size: 22px; font-weight: 700; color: #fff; }
-    .container { max-width: 600px; margin: 0 auto; padding: 0 16px; }
-    .card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 12px;
-            padding: 18px 20px; margin-bottom: 16px; }
-    .figura { font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 4px; }
-    .fecha { font-size: 12px; color: #6b7280; margin-bottom: 12px; }
-    .estado { display: inline-flex; align-items: center; gap: 5px;
-              font-size: 11px; font-weight: 700; letter-spacing: .05em;
-              text-transform: uppercase; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .header { padding: 16px 16px 14px; border-bottom: 1px solid #2a2d3a; margin-bottom: 16px; }
+    .header-brand { font-size: 12px; font-weight: 700; letter-spacing: .08em;
+                    text-transform: uppercase; color: #7c3aed; margin-bottom: 4px; }
+    .header-name { font-size: 20px; font-weight: 700; color: #fff; }
+    .container { max-width: 600px; margin: 0 auto; padding: 0 12px; }
+    .saldo-banner { background: rgba(248,113,113,.1); border: 1px solid rgba(248,113,113,.25);
+                    border-radius: 10px; padding: 12px 16px; margin-bottom: 16px;
+                    display: flex; justify-content: space-between; align-items: center; }
+    .saldo-banner-label { font-size: 11px; font-weight: 700; text-transform: uppercase;
+                          letter-spacing: .05em; color: #f87171; }
+    .saldo-banner-val { font-size: 20px; font-weight: 800; color: #f87171; }
+    .card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
+            padding: 14px 16px; margin-bottom: 12px; }
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
+    .figura { font-size: 15px; font-weight: 600; color: #fff; }
+    .marca { font-size: 11px; color: #6b7280; margin-top: 2px; }
+    .estado { display: inline-flex; align-items: center; flex-shrink: 0;
+              font-size: 10px; font-weight: 700; letter-spacing: .05em;
+              text-transform: uppercase; padding: 3px 9px; border-radius: 20px; white-space: nowrap; }
     .estado-proceso  { background: rgba(99,102,241,.15); color: #a5b4fc; }
     .estado-pagada   { background: rgba(16,185,129,.15); color: #6ee7b7; }
     .estado-cancelada{ background: rgba(239,68,68,.15);  color: #fca5a5; }
     .estado-entregada{ background: rgba(16,185,129,.2);  color: #34d399; }
-    .montos { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 16px; }
-    .monto-item { text-align: center; }
-    .monto-label { font-size: 10px; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 2px; }
-    .monto-val { font-size: 16px; font-weight: 700; color: #fff; }
+    .montos { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 0; }
+    .monto-item { text-align: center; background: #12141e; border-radius: 8px; padding: 8px 4px; }
+    .monto-label { font-size: 9px; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 2px; }
+    .monto-val { font-size: 15px; font-weight: 700; color: #fff; }
     .monto-val.green { color: #34d399; }
     .monto-val.red   { color: #f87171; }
-    .pagos-titulo { font-size: 11px; font-weight: 600; color: #6b7280; text-transform: uppercase;
-                    letter-spacing: .05em; margin-bottom: 8px; }
+    .fecha-row { font-size: 11px; color: #6b7280; margin-bottom: 10px; }
+    details { margin-top: 10px; border-top: 1px solid #2a2d3a; padding-top: 8px; }
+    summary { font-size: 11px; font-weight: 600; color: #6b7280; text-transform: uppercase;
+              letter-spacing: .05em; cursor: pointer; list-style: none; display: flex;
+              align-items: center; gap: 6px; user-select: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary::before { content: '▶'; font-size: 8px; transition: transform .15s; }
+    details[open] summary::before { transform: rotate(90deg); }
     .pago-row { display: flex; justify-content: space-between; align-items: center;
-                padding: 7px 0; border-top: 1px solid #2a2d3a; font-size: 13px; }
+                padding: 6px 0; border-top: 1px solid #1e2130; font-size: 12px; margin-top: 6px; }
     .pago-info  { color: #9ca3af; }
     .pago-monto { font-weight: 600; color: #34d399; }
     .empty   { text-align: center; padding: 60px 20px; color: #6b7280; }
@@ -49,7 +62,13 @@
         <div class="header-brand">UV Store GT</div>
         <div class="header-name" id="clienteNombre"></div>
       </div>
-      <div class="container" id="ordenes"></div>
+      <div class="container">
+        <div class="saldo-banner" id="saldoBanner" style="display:none">
+          <div class="saldo-banner-label">Saldo total pendiente</div>
+          <div class="saldo-banner-val" id="saldoTotal"></div>
+        </div>
+        <div id="ordenes"></div>
+      </div>
     </div>
     <div class="error" id="error" style="display:none"></div>
   </div>
@@ -81,17 +100,24 @@
       const abonado = pagos.reduce((s, p) => s + (p.monto || 0), 0);
       const saldo = (o.precio_venta_gtq || 0) - abonado;
       const pagosHtml = pagos.length === 0 ? '' : `
-        <div class="pagos-titulo">Pagos registrados</div>
-        ${pagos.map(p => `
-          <div class="pago-row">
-            <span class="pago-info">${p.fecha || ''} · ${p.metodo || ''}</span>
-            <span class="pago-monto">${fmtQ(p.monto)}</span>
-          </div>`).join('')}`;
+        <details>
+          <summary>Pagos registrados (${pagos.length})</summary>
+          ${pagos.map(p => `
+            <div class="pago-row">
+              <span class="pago-info">${p.fecha || ''} · ${p.metodo || ''}</span>
+              <span class="pago-monto">${fmtQ(p.monto)}</span>
+            </div>`).join('')}
+        </details>`;
       return `
         <div class="card">
-          <div class="figura">${o.producto || ''}</div>
-          <div class="fecha">${fmtDate(o.created_at)}</div>
-          <span class="estado ${estadoClass(o)}">${estadoLabel(o)}</span>
+          <div class="card-top">
+            <div>
+              <div class="figura">${o.producto || ''}</div>
+              ${o.marca ? `<div class="marca">${o.marca}</div>` : ''}
+            </div>
+            <span class="estado ${estadoClass(o)}">${estadoLabel(o)}</span>
+          </div>
+          <div class="fecha-row">${fmtDate(o.created_at)}</div>
           <div class="montos">
             <div class="monto-item">
               <div class="monto-label">Precio</div>
@@ -121,9 +147,22 @@
         const res = await fetch('/api/mis-pedidos?t=' + encodeURIComponent(token));
         const data = await res.json();
         if (!res.ok) throw new Error(data.error || 'Error');
+
         document.getElementById('loading').style.display = 'none';
         document.getElementById('content').style.display = '';
         document.getElementById('clienteNombre').textContent = 'Hola, ' + data.cliente.nombre;
+
+        const totalSaldo = (data.ordenes || [])
+          .filter(o => !o.entregado && o.estado !== 'cancelada')
+          .reduce((sum, o) => {
+            const abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
+            return sum + Math.max(0, (o.precio_venta_gtq || 0) - abonado);
+          }, 0);
+        if (totalSaldo > 0) {
+          document.getElementById('saldoBanner').style.display = '';
+          document.getElementById('saldoTotal').textContent = fmtQ(totalSaldo);
+        }
+
         const cont = document.getElementById('ordenes');
         if (!data.ordenes.length) {
           cont.innerHTML = '<div class="empty">No tenés pedidos registrados aún.</div>';
