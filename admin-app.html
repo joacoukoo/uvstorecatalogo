@@ -200,7 +200,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <label class="check-item"><input type="checkbox" id="add-preorden-mes"><span>Pre orden del mes</span></label>
     </div>
     <div class="btn-row">
-      <button class="btn btn-ai" onclick="generateAI('add')">Generar con IA</button>
+      <button class="btn btn-ai" onclick="generateAI('add')">Regenerar descripción</button>
       <button class="btn btn-ai" onclick="generateAIDeluxe('add')">IA Deluxe</button>
       <button class="btn btn-save" onclick="saveAdd()" style="margin-left:auto">Guardar y Publicar</button>
     </div>
@@ -317,7 +317,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <label class="check-item"><input type="checkbox" id="edit-preorden-mes"><span>Pre orden del mes</span></label>
     </div>
     <div class="btn-row">
-      <button class="btn btn-ai" onclick="generateAI('edit')">Generar con IA</button>
+      <button class="btn btn-ai" onclick="generateAI('edit')">Regenerar descripción</button>
       <button class="btn btn-ai" onclick="generateAIDeluxe('edit')">IA Deluxe</button>
       <button class="btn btn-danger" onclick="deleteProduct()">Eliminar</button>
       <button class="btn btn-save" onclick="saveEdit()" style="margin-left:auto">Guardar Cambios</button>
@@ -506,16 +506,19 @@ function resetAddForm(){
 
 async function scrapeUrl(){
   var url=getField('add-url');if(!url)return;
-  setStatus('Scrapeando...','orange');
+  setStatus('Scrapeando y generando descripción...','orange');
   try{
     var res=await fetch('/api/scrape',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url:url})});
     var data=await res.json();
     if(!res.ok)throw new Error(data.error);
     fillAddForm(data);
     document.getElementById('add-form').style.display='';
-    var dbgMsg='Datos cargados — revisa y ajusta';
+    var dbgMsg=data.ai_ok
+      ?'Listo — revisa y ajusta'
+      :'Datos cargados — generación IA falló, usá Regenerar descripción';
+    var dbgColor=data.ai_ok?'green':'orange';
     if(data._dbg)dbgMsg+=' | '+data._dbg;
-    setStatus(dbgMsg,'green');
+    setStatus(dbgMsg,dbgColor);
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
