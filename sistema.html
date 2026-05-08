@@ -1036,6 +1036,8 @@ button,a{touch-action:manipulation;cursor:pointer}
     <template x-if="view==='historial-cliente'"><div x-data="uvHistorialCliente()">
       <div class="page-header">
         <button class="btn-sm btn-ghost" @click="$dispatch('go-to','clientes')">← Clientes</button>
+        <button class="btn-sm btn-ghost" @click="copiarLink()" x-show="cliente"
+          x-text="linkCopiado ? '✓ Link copiado' : '🔗 Copiar link'"></button>
       </div>
       <div class="page-body">
         <div x-show="loading" style="color:var(--muted2)">Cargando...</div>
@@ -1636,7 +1638,7 @@ function uvOrdenes() {
 // ── HISTORIAL CLIENTE ─────────────────────────────────────────────────
 function uvHistorialCliente() {
   return {
-    cliente: null, ordenes: [], loading: false, _pagandoId: null,
+    cliente: null, ordenes: [], loading: false, _pagandoId: null, linkCopiado: false,
     get totalOrdenes() { return this.ordenes.length; },
     get totalGastado() { return this.ordenes.reduce((s,o) => s+(o.precio_venta_gtq||0), 0); },
     get totalAbonado() { return this.ordenes.reduce((s,o) => s+(o._abonado||0), 0); },
@@ -1660,6 +1662,15 @@ function uvHistorialCliente() {
         this.ordenes = data;
       } catch(err) { alert('Error: ' + err.message); }
       finally { this.loading = false; }
+    },
+    async copiarLink() {
+      try {
+        const token = await dbGetOrCreateClienteToken(this.cliente.id);
+        const url = window.location.origin + '/mis-pedidos.html?t=' + token;
+        await navigator.clipboard.writeText(url);
+        this.linkCopiado = true;
+        setTimeout(() => { this.linkCopiado = false; }, 2000);
+      } catch(e) { alert('Error al generar link: ' + e.message); }
     },
     verOrden(id) {
       _verOrdenId = id; _detalleBack = 'historial-cliente';
