@@ -31584,67 +31584,6 @@
     "slug": "estatuas",
     "products": [
       {
-        "id": "ho-oh-and-legendary-beasts-entei-suicune-and-raiko-moxkf16l",
-        "n": "Ho-Oh and Legendary Beasts Entei, Suicune and Raikou",
-        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/844f2c431f9c42b79b88d824f7358e78_905bb55f-dacc-4125-b4d2-25e459860cc3.jpg?v=1778237723",
-        "franquicia": "Anime",
-        "marca": "Phantom Beast",
-        "escala": "",
-        "disp": "Pre-Orden",
-        "estado": "Nuevo",
-        "precio": "6200",
-        "fotos": [
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/844f2c431f9c42b79b88d824f7358e78_905bb55f-dacc-4125-b4d2-25e459860cc3.jpg?v=1778237723",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/94ca3f5a6e5cc648cd0b1243e9bb938d_32167156-5b0e-4015-99b0-89d832dca2a3.jpg?v=1778237722",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7f160c8f255edc73328b0fa27b0e7107_55a207cc-25ef-48f3-a627-5b7b0d1385e5.jpg?v=1778237722",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2ed9ab973842541a2736a398bc79af30Large.jpg?v=1778237738",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bc47e31969194885f98ed7c07feedf06Large.jpg?v=1778237738",
-          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/539cab469e81906651d2b224bf3aef97_f3742c8f-285c-41ab-b9fa-5f23e232ccc8.jpg?v=1778237722"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Experimenta la majestuosidad de Ho-Oh y las Bestias Legendarias en esta espectacular estatua premium de StatueCorp. Con detalles meticulosamente elaborados y una escala monumental de 39 cm de altura, esta pieza edición limitada captura toda la potencia y belleza de estos iconos legendarios. Una obra maestra para coleccionistas que exigen lo mejor en calidad y presencia artística."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 39 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Profundidad: 26 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Ancho: 35 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Edición limitada: 128 piezas"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material: Resina premium con pintura detallada"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Figura de Ho-Oh con Bestias Legendarias (Entei, Suicune y Raikou)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base decorativa temática"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-05-08",
-        "reserva": "1240",
-        "entrega": "2Q 2027",
-        "cantidad": "1"
-      },
-      {
         "id": "scare-glow-legends-moxk5k76",
         "n": "Scare Glow Legends",
         "i": "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4bef07d.jpg",
@@ -47905,6 +47844,77 @@
   "Adultos": {
     "slug": "adultos",
     "products": [
+      {
+        "id": "ram-and-rem-moxkgdfc",
+        "n": "Ram and Rem",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_23___30809.webp?v=1778237221",
+        "franquicia": "Adultos",
+        "marca": "Tentacle",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_23___30809.webp?v=1778237221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_23__68817.webp?v=1778237221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8_13__14716.webp?v=1778237221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2_26__68246.webp?v=1778237221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4_24__94919.webp?v=1778237221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5_24__86822.webp?v=1778237221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7_17__39028.webp?v=1778237221",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3_23__92565.webp?v=1778237221"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium que captura la esencia mágica de Ram y Rem con un diseño extraordinario. Esta estatua de edición limitada a solo 128 piezas combina artesanía excepcional con materiales de alta calidad. Una pieza de culto imprescindible para coleccionistas de figuras premium de anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 13 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina coloreada de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: StatueCorp"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-text",
+            "x": "Q4200 CADA UNA"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-08",
+        "reserva": "840",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
       {
         "id": "c-c-mobr88vj",
         "n": "C.C.",
