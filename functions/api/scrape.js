@@ -222,7 +222,7 @@ export async function onRequestPost({ env, request }) {
       result.ai_ok = false;
     }
 
-    if (deluxeResult?.photos?.length) {
+    if (deluxeResult?.photos?.length >= 2) {
       result.photos_d = deluxeResult.photos;
       const aiDeluxe = await callClaudeForDesc(env, {
         name:       deluxeResult.name  || result.name  || '',
