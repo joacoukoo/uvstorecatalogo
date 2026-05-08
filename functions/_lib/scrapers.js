@@ -173,6 +173,36 @@ function extractShopifyScriptData(html, url) {
   return { photos, vendor, productType, tags };
 }
 
+// Busca en __NEXT_DATA__ una variante Deluxe/Exclusive distinta al SKU actual
+function extractDeluxeVariantSku(ndRaw, currentSku) {
+  let nd;
+  try { nd = JSON.parse(ndRaw); } catch { return null; }
+  function walk(obj, depth) {
+    if (depth > 14 || !obj || typeof obj !== 'object') return null;
+    if (Array.isArray(obj) && obj.length >= 2) {
+      const isVariantArray = obj.every(item =>
+        item && typeof item === 'object' &&
+        (item.sku || item.id || item.variantId || item.productId) &&
+        (item.name || item.title || item.variantName)
+      );
+      if (isVariantArray) {
+        const deluxe = obj.find(v => {
+          const vname = (v.name || v.title || v.variantName || '').toLowerCase();
+          const vid = String(v.sku || v.id || v.variantId || v.productId || '');
+          return /deluxe|exclusive/.test(vname) && vid !== String(currentSku);
+        });
+        if (deluxe) return String(deluxe.sku || deluxe.id || deluxe.variantId || deluxe.productId);
+      }
+    }
+    for (const val of Object.values(obj)) {
+      const found = walk(val, depth + 1);
+      if (found) return found;
+    }
+    return null;
+  }
+  return walk(nd, 0);
+}
+
 export async function scrapeSideshow(url, html) {
   const varMatch = url.match(/[?&](?:var|sku)=(\d{5,})/i);
   const pathMatch = url.match(/-(\d{6,})\/?(?:\?.*)?$/);
@@ -181,7 +211,8 @@ export async function scrapeSideshow(url, html) {
   // ── Nombre ──
   const name = decodeHtml(
     rx(html, /<h1[^>]*class="[^"]*(?:product[_-]?title|pdp[_-]?title)[^"]*"[^>]*>([^<]+)/i) ||
-    rx(html, /<h1[^>]*>([^<\n]+)/)
+    rx(html, /<h1[^>]*>([^<\n]+)/) ||
+    rx(html, /<meta[^>]*property="og:title"[^>]*content="([^"]+)"/i)
   );
 
   // ── Precio ──
@@ -404,11 +435,11 @@ export async function scrapeSideshow(url, html) {
     // Priorizar imágenes numeradas (_01, _02, -01, -02 ...) que suelen ser las fotos principales
     const numbered = allFound.filter(u => /[_-]\d{1,3}\.(?:jpg|webp|png)$/i.test(u));
     const chosen = numbered.length ? numbered : allFound;
-    photos = chosen.slice(0, 8);
+    photos = chosen.slice(0, 10);
   }
   if (!photos.length) {
     const allImgs = [...html.matchAll(/https?:\/\/[^"'\s]+\.(?:jpg|jpeg|webp)[^"'\s]*/gi)];
-    if (sku) photos = [...new Set(allImgs.map(m=>m[0]).filter(u=>u.includes(sku)))].slice(0, 8);
+    if (sku) photos = [...new Set(allImgs.map(m=>m[0]).filter(u=>u.includes(sku)))].slice(0, 10);
     if (!photos.length) { const og = ogImage(html); if (og) photos = [og]; }
   }
 
@@ -430,11 +461,13 @@ export async function scrapeSideshow(url, html) {
     `entrega:${entrega||'?'}`,
   ].join(' | ');
 
+  const deluxeVariantSku = (nextDataM && sku) ? extractDeluxeVariantSku(nextDataM[1], sku) : null;
+
   return {
     name, price, desc, photos, marca, escala, entrega, features,
     franquicia: guessFranquicia(name),
     estado: isPreorder ? 'Pre-Orden' : 'Entrega Inmediata',
-    provider: 'sideshow', sku, _dbg
+    provider: 'sideshow', sku, deluxeVariantSku, _dbg
   };
 }
 

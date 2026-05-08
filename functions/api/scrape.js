@@ -81,7 +81,7 @@ Texto/descripción del fabricante:
 ${desc_raw || '(no disponible)'}
 
 Responde SOLO con JSON válido sin markdown:
-{"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2"}`;
+{"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2","franquicia":"una de: Marvel|DC Comics|Star Wars|Anime|Gaming|Adultos|Otros"}`;
 
   const content = foto
     ? [{ type: 'image', source: { type: 'url', url: foto } }, { type: 'text', text: prompt }]
@@ -111,11 +111,30 @@ Responde SOLO con JSON válido sin markdown:
     if (!match) return null;
     const parsed = JSON.parse(match[0]);
     const parts = [parsed.desc, parsed.specs, parsed.includes].filter(Boolean);
-    return parts.length ? parts.join('\n\n') : null;
+    if (!parts.length) return null;
+    const VALID_FRANQUICIAS = ['Marvel','DC Comics','Star Wars','Anime','Gaming','Adultos','Otros'];
+    return {
+      desc: parts.join('\n\n'),
+      franquicia: VALID_FRANQUICIAS.includes(parsed.franquicia) ? parsed.franquicia : null,
+    };
   } catch {
     return null;
   } finally {
     clearTimeout(timer);
+  }
+}
+
+// Fetch the Deluxe/Exclusive variant page from Sideshow and scrape it
+async function fetchSideshowDeluxe(baseUrl, deluxeSku) {
+  try {
+    const u = new URL(baseUrl);
+    u.searchParams.set('var', deluxeSku);
+    const res = await fetchPage(u.toString());
+    if (!res.ok) return null;
+    const html = await res.text();
+    return await scrapeSideshow(u.toString(), html);
+  } catch {
+    return null;
   }
 }
 
@@ -181,21 +200,41 @@ export async function onRequestPost({ env, request }) {
       else                                        result = scrapeGeneric(html);
     }
 
-    // ── Claude: generar descripción ───────────────────────────────────────
-    const aiDesc = await callClaudeForDesc(env, {
-      name:       result.name       || '',
-      marca:      result.marca      || '',
-      escala:     result.escala     || '',
-      franquicia: result.franquicia || '',
-      desc_raw:   result.desc       || '',
-      foto:       result.photos?.[0] || '',
-    });
-    if (aiDesc) {
-      result.desc  = aiDesc;
+    // ── Claude + Deluxe fetch en paralelo ────────────────────────────────
+    const isSSDeluxe = result.provider === 'sideshow' && result.deluxeVariantSku;
+    const [aiResult, deluxeResult] = await Promise.all([
+      callClaudeForDesc(env, {
+        name:       result.name       || '',
+        marca:      result.marca      || '',
+        escala:     result.escala     || '',
+        franquicia: result.franquicia || '',
+        desc_raw:   result.desc       || '',
+        foto:       result.photos?.[0] || '',
+      }),
+      isSSDeluxe ? fetchSideshowDeluxe(url, result.deluxeVariantSku) : Promise.resolve(null),
+    ]);
+
+    if (aiResult) {
+      result.desc = aiResult.desc;
+      if (aiResult.franquicia && !result.franquicia) result.franquicia = aiResult.franquicia;
       result.ai_ok = true;
     } else {
       result.ai_ok = false;
     }
+
+    if (deluxeResult?.photos?.length) {
+      result.photos_d = deluxeResult.photos;
+      const aiDeluxe = await callClaudeForDesc(env, {
+        name:       deluxeResult.name  || result.name  || '',
+        marca:      deluxeResult.marca || result.marca || '',
+        escala:     deluxeResult.escala || result.escala || '',
+        franquicia: aiResult?.franquicia || result.franquicia || '',
+        desc_raw:   deluxeResult.desc  || '',
+        foto:       deluxeResult.photos?.[0] || '',
+      });
+      if (aiDeluxe) result.desc_d = aiDeluxe.desc;
+    }
+
     return json(result);
 
   } catch (e) {

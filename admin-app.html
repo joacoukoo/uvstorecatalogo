@@ -438,9 +438,9 @@ function fillAddForm(data){
     descParts.push(bullets);
   }
   setTA('add-desc',descParts.join('\n'));
-  setTA('add-desc-d','');
+  setTA('add-desc-d',data.desc_d||'');
   _photos.add.r=data.photos||[];
-  _photos.add.d=[];
+  _photos.add.d=data.photos_d||[];
   renderPhotos('add','r');
   renderPhotos('add','d');
   if(data.entrega)setField('add-entrega',data.entrega);
