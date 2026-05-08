@@ -173,6 +173,7 @@ button,a{touch-action:manipulation;cursor:pointer}
 .btn-green{background:rgba(47,199,110,.15);color:var(--green);border:1px solid rgba(47,199,110,.3);}
 .btn-green:hover{background:rgba(47,199,110,.25);}
 .btn-orange { background: var(--orange); color: #fff; border-color: var(--orange); }
+.btn-orange:hover { background: #c2620d; border-color: #c2620d; }
 
 /* ── SEARCH ── */
 .search-bar{
@@ -2116,6 +2117,7 @@ function uvDetalleOrden() {
       try {
         await dbSetPedidaProveedor(this.orden.id, val);
         this.orden.pedida_proveedor = val;
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       } catch(e) { alert('Error: ' + e.message); }
     },
     async toggleEntregado() {
