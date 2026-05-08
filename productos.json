@@ -31584,6 +31584,99 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "scare-glow-legends-moxk5k76",
+        "n": "Scare Glow Legends",
+        "i": "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4bef07d.jpg",
+        "franquicia": "Otros",
+        "marca": "Tweeterhead",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4bef07d.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4c6e61b.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4cb849c.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4d2e7fe.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4da3256.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4e06880.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4e78fb2.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4ecc34e.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4f2ba72.jpg",
+          "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4f7ed45.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con Scare Glow Legends, la maquette premium de Tweeterhead que captura la esencia terrorífica del Guerrero Fantasma Maligno de Eternia. Con una altura imponente de 52 cm, detalles impresionantes en su esqueleto luminiscente, capa púrpura fluida y su icónica Hoz del Destino, esta pieza de coleccionista representa el pico de la artesanía en figuras de acción de lujo. Incluye dos retratos intercambiables (moderno y clásico) y una base temática de la Montaña de Serpiente, convirtiéndola en una adición esencial para cualquier entusiasta de Masters of the Universe."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 52 cm (20.5\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 45 cm (17.7\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 34 cm (13.4\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:5"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polyresin (resina)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Maquette de edición limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artistas: Sadan Vague, The Kucharek Brothers, David Igo (Escultura), Paul Komoda (Diseño), Heath Hammond (Pintura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Límite de compra: 2 por persona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Maquette Scare Glow completamente ensamblada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos retratos intercambiables (retrato Moderno y Clásico)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Scythe of Doom (Hoz del Destino)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de Snake Mountain"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de pluma de miedo armado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-08",
+        "reserva": "1680",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "strawberry-snoopy-moxjkxqr",
         "n": "Strawberry Snoopy",
         "i": "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1294ff4.jpg",
@@ -42652,83 +42745,6 @@
   "Otras Figuras": {
     "slug": "escalas-112-y-otros",
     "products": [
-      {
-        "id": "nonmi-a-bite-of-sweetheart-series-blind-box-moxk3vxw",
-        "n": "Nonmi: A Bite of Sweetheart Series Blind Box",
-        "i": "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883219c9.jpg",
-        "franquicia": "Otros",
-        "marca": "Hi Toy",
-        "escala": "",
-        "disp": "Pre-Orden",
-        "estado": "Nuevo",
-        "precio": "2900",
-        "fotos": [
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883219c9.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883530ab.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe588388cdf.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5883d73d4.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe58843a88d.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe58848ad67.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5884d913d.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe588534555.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe588589f56.jpg",
-          "https://www.sideshow.com/storage/product-images/915649/hi-toy-nonmi-nonmi-a-bite-of-sweetheart-series-blind-box-set-gallery-69fe5885db0e5.jpg"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Descubre Nonmi: A Bite of Sweetheart Series, una colección premium de figuras ciegas que cautiva con personajes adorables vestidos como deliciosos postres. Cada figura de 10-12 cm combina resina de alta calidad con peluche sintético, ofreciendo detalles exquisitos y acabados premium que harán que tu colección brille. La sorpresa de cada caja ciega garantiza múltiples variantes temáticas dulces, convirtiéndola en una adición imprescindible para coleccionistas de figuras artísticas de alto valor."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 10-12 cm aproximadamente"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material: Resina y peluche sintético de alta calidad"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Edición: Blind Box (Caja Sorpresa)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Peso aproximado: 150-200 gramos por unidad"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Fabricante: Hi TOY"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Figura Nonmi articulada"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Accesorios temáticos variados (gorros, adornos)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base de exposición"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Embalaje premium con doble caja"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Diferentes variantes de personajes por caja sorpresa"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-05-08",
-        "reserva": "580",
-        "entrega": "Sep. 2026",
-        "cantidad": "2"
-      },
       {
         "id": "desghidora-moxjmkr0",
         "n": "Desghidora",
