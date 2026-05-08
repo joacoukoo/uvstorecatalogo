@@ -761,7 +761,7 @@ async function saveEdit(){
     await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
     _catalog=null;
     setStatus('Cambios guardados','green');
-    cancelEdit();renderProductList();
+    cancelEdit();loadCatalogTab();
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
@@ -773,7 +773,7 @@ async function deleteProduct(){
     await catalogAction({action:'delete', productId:productId});
     _catalog=null;
     setStatus('Producto eliminado','green');
-    cancelEdit();renderProductList();
+    cancelEdit();loadCatalogTab();
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
