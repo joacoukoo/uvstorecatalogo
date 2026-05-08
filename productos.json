@@ -31584,83 +31584,6 @@
     "slug": "estatuas",
     "products": [
       {
-        "id": "strawberry-snoopy-moxjkxqr",
-        "n": "Strawberry Snoopy",
-        "i": "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1294ff4.jpg",
-        "franquicia": "Otros",
-        "marca": "Beast Kingdom",
-        "escala": "",
-        "disp": "Pre-Orden",
-        "estado": "Nuevo",
-        "precio": "4100",
-        "fotos": [
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1294ff4.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-scale-69fe5f26dad71.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f138e159.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1497702.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1587e5e.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1688d1f.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f177982a.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1880815.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-gallery-69fe5f1980d4b.jpg",
-          "https://www.sideshow.com/storage/product-images/915650/beast-kingdom-peanuts-strawberry-snoopy-statue-silo.png"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Una adorable estatua Strawberry Snoopy Master Craft de Beast Kingdom que captura la ternura del icónico beagle con su característico sombrero de paja, rodeado de fresas frescas y su inseparable amigo Woodstock. Esta pieza de colección premium en escala 1:6 presenta un acabado pintado a mano en resina de alta calidad, perfecta para los coleccionistas de Peanuts que buscan una figura artesanal de excepcional detalle y presencia visual. Una obra de arte que combina nostalgia, colorido y maestría en cada uno de sus elementos decorativos."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Altura: 30 cm"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material: Resina premium"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Acabado: Pintado a mano"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Línea: Master Craft"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Fabricante: Beast Kingdom"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Figura de Snoopy"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Figura de Woodstock"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Canasta decorativa con fresas"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Base temática con terreno"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Accesorios decorativos adicionales"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-05-08",
-        "reserva": "820",
-        "entrega": "Dic. 2026",
-        "cantidad": "3"
-      },
-      {
         "id": "rocky-the-underdog-moxjc170",
         "n": "Rocky \"The Underdog\"",
         "i": "https://www.sideshow.com/storage/product-images/915642/sly-stallone-shop-rocky-rocky-the-underdog-1-3-scale-statue-gallery-69fcf995e20d8.jpg",
@@ -42652,6 +42575,99 @@
   "Otras Figuras": {
     "slug": "escalas-112-y-otros",
     "products": [
+      {
+        "id": "desghidora-moxjmkr0",
+        "n": "Desghidora",
+        "i": "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65cdb619b.jpg",
+        "franquicia": "Otros",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65cdb619b.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65ce07d8d.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65ce58d9f.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65ce9d337.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65cedde3e.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65cf2b111.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65cf67a00.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65cdb619b_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915651/x-plus-godzilla-desghidora-collectible-figure-gallery-69fe65ce07d8d_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Desghidora de X-Plus es una figura de colección premium que captura la majestuosidad del legendario Kaiju de tres cabezas con alas rojas desplegadas en todo su esplendor. Fabricada en resina de alta calidad con acabados acrílicos meticulosos y licencia oficial TOHO, esta pieza representa el pináculo del coleccionismo de monstruos clásicos. Su presencia dominante, nivel de detalle escultórico incomparable y articulación precisa la convierten en una obra maestra de exhibición que define cualquier colección de kaiju."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 49 cm (con alas desplegadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Resina colada, ABS y PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 2.5-3.5 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: TOHO"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Figura articulada con múltiples puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura acrílica de detalle premium con efectos de sombreado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas: Desplegables con tela texturizada roja"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Desghidora articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas rojas desplegadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base/soporte de exhibición dedicado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad TOHO"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Instrucciones de montaje y exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-08",
+        "reserva": "880",
+        "entrega": "Oct. 2026",
+        "cantidad": "1"
+      },
       {
         "id": "gremlins-bookends-moxj33h6",
         "n": "Gremlins Bookends",
