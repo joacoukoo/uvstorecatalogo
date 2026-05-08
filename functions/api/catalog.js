@@ -1,6 +1,6 @@
 const GH_API = 'https://api.github.com';
 
-function ghHeaders(token) {
+function headers(token) {
   return {
     'Authorization': `token ${token}`,
     'Accept': 'application/vnd.github.v3+json',
@@ -8,10 +8,8 @@ function ghHeaders(token) {
   };
 }
 
-async function readGitHub(token, repo) {
-  const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json`, {
-    headers: { ...ghHeaders(token), 'Cache-Control': 'no-cache' }
-  });
+async function readFile(token, repo) {
+  const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json`, { headers: headers(token) });
   if (!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
   const data = await res.json();
   let text;
@@ -37,13 +35,13 @@ function bytesToBase64(bytes) {
   return btoa(binary);
 }
 
-async function writeGitHub(token, repo, catalog, sha) {
+async function writeFile(token, repo, catalog, sha) {
   const json = JSON.stringify(catalog, null, 2);
   const bytes = new TextEncoder().encode(json);
   const b64 = bytesToBase64(bytes);
   const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json`, {
     method: 'PUT',
-    headers: { ...ghHeaders(token), 'Content-Type': 'application/json' },
+    headers: { ...headers(token), 'Content-Type': 'application/json' },
     body: JSON.stringify({ message: 'Update catalog — UV Store GT Admin', content: b64, sha })
   });
   if (!res.ok) {
@@ -55,42 +53,14 @@ async function writeGitHub(token, repo, catalog, sha) {
   return res.json();
 }
 
-// ── KV helpers ──────────────────────────────────────────────────────────────
-// KV es la fuente de verdad para escrituras. GitHub es secundario (historial).
-// Las escrituras en KV son atómicas — no hay race condition.
-
-async function kvGet(kv) {
-  const val = await kv.get('catalog');
-  return val ? JSON.parse(val) : null;
-}
-
-async function kvPut(kv, catalog) {
-  await kv.put('catalog', JSON.stringify(catalog));
-}
-
-// Lee el catálogo desde KV. Si KV está vacío (primer uso), cae a GitHub.
-// Solo para GET — no usar en mutaciones.
-async function readCatalogForGet(env) {
-  const fromKV = await kvGet(env.UV_CATALOG);
-  if (fromKV) return fromKV;
-  const { catalog } = await readGitHub(env.GITHUB_TOKEN, env.GITHUB_REPO);
-  await kvPut(env.UV_CATALOG, catalog);
-  return catalog;
-}
-
-// Lee desde GitHub + aplica mutateFn + escribe en GitHub y KV.
-// Reintenta hasta `retries` veces si el SHA cambió entre lectura y escritura.
-// Siempre usa GitHub como base — nunca KV — para que los commits directos
-// a git no queden ocultos por un KV desactualizado.
-async function mutateCatalog(env, mutateFn, retries = 3) {
+async function mutateCatalog(token, repo, mutateFn, retries = 3) {
   let lastErr;
   for (let attempt = 0; attempt < retries; attempt++) {
-    if (attempt > 0) await new Promise(r => setTimeout(r, 150 * attempt));
-    const { catalog, sha } = await readGitHub(env.GITHUB_TOKEN, env.GITHUB_REPO);
+    if (attempt > 0) await new Promise(r => setTimeout(r, 100 * attempt));
+    const { catalog, sha } = await readFile(token, repo);
     mutateFn(catalog);
     try {
-      await writeGitHub(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog, sha);
-      await kvPut(env.UV_CATALOG, catalog); // sincronizar KV tras escritura exitosa
+      await writeFile(token, repo, catalog, sha);
       return catalog;
     } catch (e) {
       lastErr = e;
@@ -101,11 +71,9 @@ async function mutateCatalog(env, mutateFn, retries = 3) {
   throw lastErr;
 }
 
-// ── Handlers ────────────────────────────────────────────────────────────────
-
 export async function onRequestGet({ env }) {
   try {
-    const catalog = await readCatalogForGet(env);
+    const { catalog } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
     return new Response(JSON.stringify(catalog), {
       headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' }
     });
@@ -120,12 +88,10 @@ export async function onRequestPut({ env, request }) {
   try {
     const body = await request.json();
 
-    // ── Backwards compat: { catalog } full replace ──
     if (body.catalog && !body.action) {
-      const { sha } = await readGitHub(env.GITHUB_TOKEN, env.GITHUB_REPO);
-      await writeGitHub(env.GITHUB_TOKEN, env.GITHUB_REPO, body.catalog, sha);
-      await kvPut(env.UV_CATALOG, body.catalog);
-      return ok();
+      const { sha } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
+      await writeFile(env.GITHUB_TOKEN, env.GITHUB_REPO, body.catalog, sha);
+      return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
     }
 
     const { action } = body;
@@ -133,13 +99,8 @@ export async function onRequestPut({ env, request }) {
     if (action === 'add') {
       const { category, product } = body;
       if (!category || !product) return err400('add requiere category y product');
-      await mutateCatalog(env, catalog => {
+      await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
         if (!catalog[category]) catalog[category] = { products: [] };
-        if (product.preorden_mes) {
-          for (const c in catalog) {
-            (catalog[c].products || []).forEach(p => { delete p.preorden_mes; });
-          }
-        }
         catalog[category].products.unshift(product);
       });
       return ok();
@@ -148,13 +109,7 @@ export async function onRequestPut({ env, request }) {
     if (action === 'edit') {
       const { productId, product, newCategory } = body;
       if (!productId || !product) return err400('edit requiere productId y product');
-      await mutateCatalog(env, catalog => {
-        if (product.preorden_mes) {
-          for (const c in catalog) {
-            (catalog[c].products || []).forEach(p => { delete p.preorden_mes; });
-          }
-        }
-        let found = false;
+      await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
         for (const c in catalog) {
           const prods = catalog[c].products || [];
           const i = prods.findIndex(p => p.id === productId);
@@ -165,10 +120,9 @@ export async function onRequestPut({ env, request }) {
           } else {
             prods[i] = product;
           }
-          found = true;
-          break;
+          return;
         }
-        if (!found) throw new Error('Producto no encontrado: ' + productId);
+        throw new Error('Producto no encontrado: ' + productId);
       });
       return ok();
     }
@@ -176,14 +130,13 @@ export async function onRequestPut({ env, request }) {
     if (action === 'delete') {
       const { productId } = body;
       if (!productId) return err400('delete requiere productId');
-      await mutateCatalog(env, catalog => {
-        let found = false;
+      await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
         for (const c in catalog) {
           const prods = catalog[c].products || [];
           const i = prods.findIndex(p => p.id === productId);
-          if (i !== -1) { prods.splice(i, 1); found = true; break; }
+          if (i !== -1) { prods.splice(i, 1); return; }
         }
-        if (!found) throw new Error('Producto no encontrado: ' + productId);
+        throw new Error('Producto no encontrado: ' + productId);
       });
       return ok();
     }
@@ -191,9 +144,8 @@ export async function onRequestPut({ env, request }) {
     if (action === 'replace') {
       const { catalog } = body;
       if (!catalog) return err400('replace requiere catalog');
-      const { sha } = await readGitHub(env.GITHUB_TOKEN, env.GITHUB_REPO);
-      await writeGitHub(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog, sha);
-      await kvPut(env.UV_CATALOG, catalog);
+      const { sha } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
+      await writeFile(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog, sha);
       return ok();
     }
 
