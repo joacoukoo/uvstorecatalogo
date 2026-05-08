@@ -9,7 +9,7 @@ function headers(token) {
 }
 
 async function readFile(token, repo) {
-  const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json`, { headers: headers(token) });
+  const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json`, { headers: headers(token), cache: 'no-store' });
   if (!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
   const data = await res.json();
   let text;

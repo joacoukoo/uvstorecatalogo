@@ -202,7 +202,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('add')">Regenerar descripción</button>
       <button class="btn btn-ai" onclick="generateAIDeluxe('add')">IA Deluxe</button>
-      <button class="btn btn-save" onclick="saveAdd()" style="margin-left:auto">Guardar y Publicar</button>
+      <button class="btn btn-save" id="btn-save-add" onclick="saveAdd()" style="margin-left:auto">Guardar y Publicar</button>
     </div>
   </div>
 </div>
@@ -623,6 +623,8 @@ async function catalogAction(body) {
 async function saveAdd(){
   var name=getField('add-name');if(!name)return setStatus('El nombre es obligatorio','orange');
   var cat=getField('add-cat');if(!cat)return setStatus('Elegi una categoria','orange');
+  var btn=document.getElementById('btn-save-add');
+  if(btn) btn.disabled=true;
   setStatus('Guardando...','orange');
   try{
     await catalogAction({action:'add', category:cat, product:buildAddProduct()});
@@ -630,6 +632,7 @@ async function saveAdd(){
     _catalog=null;
     resetAddForm();
   }catch(e){setStatus('Error: '+e.message,'red');}
+  finally{ if(btn) btn.disabled=false; }
 }
 
 var _catalog=null;
