@@ -1668,7 +1668,15 @@ function uvHistorialCliente() {
         const token = await dbGetOrCreateClienteToken(this.cliente.id);
         const slug = (this.cliente.nombre || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
         const url = 'https://uvstore.shop/mis-pedidos?t=' + token + '#' + slug;
-        await navigator.clipboard.writeText(url);
+        try {
+          await navigator.clipboard.writeText(url);
+        } catch {
+          const ta = document.createElement('textarea');
+          ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+          document.body.appendChild(ta); ta.focus(); ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+        }
         this.linkCopiado = true;
         setTimeout(() => { this.linkCopiado = false; }, 2000);
       } catch(e) { alert('Error al generar link: ' + e.message); }
