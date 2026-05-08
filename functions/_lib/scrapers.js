@@ -173,34 +173,58 @@ function extractShopifyScriptData(html, url) {
   return { photos, vendor, productType, tags };
 }
 
-// Busca en __NEXT_DATA__ una variante Deluxe/Exclusive distinta al SKU actual
-function extractDeluxeVariantSku(ndRaw, currentSku) {
-  let nd;
-  try { nd = JSON.parse(ndRaw); } catch { return null; }
-  function walk(obj, depth) {
-    if (depth > 14 || !obj || typeof obj !== 'object') return null;
-    if (Array.isArray(obj) && obj.length >= 2) {
-      const isVariantArray = obj.every(item =>
-        item && typeof item === 'object' &&
-        (item.sku || item.id || item.variantId || item.productId) &&
-        (item.name || item.title || item.variantName)
-      );
-      if (isVariantArray) {
-        const deluxe = obj.find(v => {
-          const vname = (v.name || v.title || v.variantName || '').toLowerCase();
-          const vid = String(v.sku || v.id || v.variantId || v.productId || '');
-          return /deluxe|exclusive|artisan|premium|artist[\s-]edition|ultimate/.test(vname) && vid !== String(currentSku);
-        });
-        if (deluxe) return String(deluxe.sku || deluxe.id || deluxe.variantId || deluxe.productId);
+// Busca variante especial (Deluxe/Artisan/etc.) distinta al SKU actual
+// Estrategia 1: walk __NEXT_DATA__ JSON; Estrategia 2: scan HTML por ?var= links
+function extractDeluxeVariantSku(ndRaw, currentSku, html = '') {
+  const SPECIAL_RE = /deluxe|exclusive|artisan|premium|artist[\s-]edition|ultimate/i;
+
+  // Estrategia 1: Walk __NEXT_DATA__
+  if (ndRaw) {
+    let nd;
+    try { nd = JSON.parse(ndRaw); } catch { /* ignorar */ }
+    if (nd) {
+      function walk(obj, depth) {
+        if (depth > 14 || !obj || typeof obj !== 'object') return null;
+        if (Array.isArray(obj) && obj.length >= 2) {
+          const getId = v => v.sku || v.id || v.variantId || v.productId || v.skuId || v.variantSku;
+          const getName = v => v.name || v.title || v.variantName || v.displayName || v.label || v.edition || v.editionName;
+          const isVariantArray = obj.every(item =>
+            item && typeof item === 'object' && getId(item) && getName(item)
+          );
+          if (isVariantArray) {
+            const special = obj.find(v => {
+              const vname = String(getName(v) || '').toLowerCase();
+              const vid = String(getId(v) || '');
+              return SPECIAL_RE.test(vname) && vid !== String(currentSku);
+            });
+            if (special) return String(getId(special));
+          }
+        }
+        for (const val of Object.values(obj)) {
+          const found = walk(val, depth + 1);
+          if (found) return found;
+        }
+        return null;
       }
+      const fromJson = walk(nd, 0);
+      if (fromJson) return fromJson;
     }
-    for (const val of Object.values(obj)) {
-      const found = walk(val, depth + 1);
-      if (found) return found;
-    }
-    return null;
   }
-  return walk(nd, 0);
+
+  // Estrategia 2: Buscar ?var=XXXXX en el HTML con contexto de edición especial
+  if (html) {
+    const re = /[?&]var=(\d{5,})/g;
+    let m;
+    while ((m = re.exec(html)) !== null) {
+      if (m[1] === String(currentSku)) continue;
+      const start = Math.max(0, m.index - 250);
+      const end = Math.min(html.length, m.index + 350);
+      const ctx = html.slice(start, end);
+      if (SPECIAL_RE.test(ctx)) return m[1];
+    }
+  }
+
+  return null;
 }
 
 export async function scrapeSideshow(url, html) {
@@ -461,7 +485,8 @@ export async function scrapeSideshow(url, html) {
     `entrega:${entrega||'?'}`,
   ].join(' | ');
 
-  const deluxeVariantSku = (nextDataM && sku) ? extractDeluxeVariantSku(nextDataM[1], sku) : null;
+  const deluxeVariantSku = sku ? extractDeluxeVariantSku(nextDataM ? nextDataM[1] : null, sku, html) : null;
+  if (deluxeVariantSku) _dbg += ` | deluxe:${deluxeVariantSku}`;
 
   return {
     name, price, desc, photos, marca, escala, entrega, features,
