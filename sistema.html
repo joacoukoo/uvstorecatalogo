@@ -1651,7 +1651,17 @@ function uvHistorialCliente() {
         try { this.cliente = await dbGetCliente(_verClienteId); } catch(e) {}
         _verClienteId = null;
       }
-      if (this.cliente) await this.cargar();
+      if (this.cliente) {
+        await this.cargar();
+        this._preloadLink();
+      }
+    },
+    async _preloadLink() {
+      try {
+        const token = await dbGetOrCreateClienteToken(this.cliente.id);
+        const slug = (this.cliente.nombre || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        this._linkUrl = 'https://uvstore.shop/mis-pedidos?t=' + token + '#' + slug;
+      } catch {}
     },
     async cargar() {
       if (!this.cliente) return;
@@ -1663,23 +1673,20 @@ function uvHistorialCliente() {
       } catch(err) { alert('Error: ' + err.message); }
       finally { this.loading = false; }
     },
-    async copiarLink() {
+    copiarLink() {
+      const url = this._linkUrl;
+      if (!url) { alert('El link todavía se está generando, intentá de nuevo.'); return; }
       try {
-        const token = await dbGetOrCreateClienteToken(this.cliente.id);
-        const slug = (this.cliente.nombre || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-        const url = 'https://uvstore.shop/mis-pedidos?t=' + token + '#' + slug;
-        try {
-          await navigator.clipboard.writeText(url);
-        } catch {
+        navigator.clipboard.writeText(url).catch(() => {
           const ta = document.createElement('textarea');
-          ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
-          document.body.appendChild(ta); ta.focus(); ta.select();
+          ta.value = url; ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;font-size:16px';
+          document.body.appendChild(ta); ta.focus(); ta.setSelectionRange(0, url.length);
           document.execCommand('copy');
           document.body.removeChild(ta);
-        }
+        });
         this.linkCopiado = true;
         setTimeout(() => { this.linkCopiado = false; }, 2000);
-      } catch(e) { alert('Error al generar link: ' + e.message); }
+      } catch(e) { alert('Error al copiar: ' + e.message); }
     },
     verOrden(id) {
       _verOrdenId = id; _detalleBack = 'historial-cliente';
