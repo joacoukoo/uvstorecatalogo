@@ -67,7 +67,59 @@ async function fetchViaProxy(url) {
   return { ok: true, text: () => Promise.resolve(html) };
 }
 
-export async function onRequestPost({ request }) {
+async function callClaudeForDesc(env, { name, marca, escala, franquicia, desc_raw, foto }) {
+  if (!env.ANTHROPIC_API_KEY) return null;
+  const ctx = [
+    marca      && `Fabricante: ${marca}.`,
+    escala     && `Escala: ${escala}.`,
+    franquicia && `Franquicia: ${franquicia}.`,
+  ].filter(Boolean).join(' ');
+
+  const prompt = `Sos experto en figuras de colección premium. Genera contenido de venta para "${name}".
+${ctx}
+Texto/descripción del fabricante:
+${desc_raw || '(no disponible)'}
+
+Responde SOLO con JSON válido sin markdown:
+{"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2"}`;
+
+  const content = foto
+    ? [{ type: 'image', source: { type: 'url', url: foto } }, { type: 'text', text: prompt }]
+    : prompt;
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 20000);
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      signal: controller.signal,
+      headers: {
+        'x-api-key': env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 1024,
+        messages: [{ role: 'user', content }],
+      }),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    const text = data.content?.[0]?.text || '';
+    const match = text.match(/\{[\s\S]*\}/);
+    if (!match) return null;
+    const parsed = JSON.parse(match[0]);
+    const parts = [parsed.desc, parsed.specs, parsed.includes].filter(Boolean);
+    return parts.length ? parts.join('\n\n') : null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+export async function onRequestPost({ env, request }) {
   let body;
   try { body = await request.json(); }
   catch { return json({ error: 'JSON invalido' }, 400); }
@@ -76,54 +128,76 @@ export async function onRequestPost({ request }) {
   if (!url || !url.startsWith('http')) return json({ error: 'URL invalida' }, 400);
 
   try {
-    // For known Shopify stores, try the JSON API first (direct, then via proxy)
+    let result = null;
+
+    // ── Shopify fast path (JSON API) ──────────────────────────────────────
     const providerEarly = detectProvider(url);
     if (providerEarly === 'shopify') {
       // Direct JSON API
       try {
-        const result = await scrapeShopify(url, '');
-        if (result.name) return json(result);
+        const r = await scrapeShopify(url, '');
+        if (r.name) result = r;
       } catch (_) {}
       // JSON API via proxy (for sites that block Cloudflare IPs)
-      const handleMatch = url.match(/\/products\/([^/?#]+)/);
-      if (handleMatch) {
-        try {
-          const jsonUrl = `${new URL(url).origin}/products/${handleMatch[1]}.json`;
-          const proxyRes = await fetch(PROXY_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: jsonUrl }) });
-          if (proxyRes.ok) {
-            const { html: jsonText, status } = await proxyRes.json();
-            if (status < 400) {
-              const { product } = JSON.parse(jsonText);
-              if (product?.title) {
-                const tags = product.tags ? (Array.isArray(product.tags) ? product.tags : product.tags.split(',').map(t=>t.trim())) : [];
-                const photos = (product.images||[]).map(i=>i.src.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/,'$1')).slice(0,8);
-                const name = product.title;
-                return json({ name, price: product.variants?.[0]?.price||'', marca: product.vendor||'', photos, franquicia: guessFranquiciaProxy(name, tags), escala: guessEscalaProxy(name, tags), estado: product.variants?.some(v=>v.available)?'Entrega Inmediata':'Pre-Orden', provider: 'shopify' });
+      if (!result) {
+        const handleMatch = url.match(/\/products\/([^/?#]+)/);
+        if (handleMatch) {
+          try {
+            const jsonUrl = `${new URL(url).origin}/products/${handleMatch[1]}.json`;
+            const proxyRes = await fetch(PROXY_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url: jsonUrl }) });
+            if (proxyRes.ok) {
+              const { html: jsonText, status } = await proxyRes.json();
+              if (status < 400) {
+                const { product } = JSON.parse(jsonText);
+                if (product?.title) {
+                  const tags = product.tags ? (Array.isArray(product.tags) ? product.tags : product.tags.split(',').map(t=>t.trim())) : [];
+                  const photos = (product.images||[]).map(i=>i.src.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/,'$1')).slice(0,8);
+                  const name = product.title;
+                  result = { name, price: product.variants?.[0]?.price||'', marca: product.vendor||'', photos, franquicia: guessFranquiciaProxy(name, tags), escala: guessEscalaProxy(name, tags), estado: product.variants?.some(v=>v.available)?'Entrega Inmediata':'Pre-Orden', provider: 'shopify' };
+                }
               }
             }
-          }
-        } catch (_) {}
+          } catch (_) {}
+        }
       }
     }
 
-    const res = await fetchPage(url);
-    if (!res.ok) return json({ error: `El sitio respondio ${res.status}` }, 422);
-    const html = await res.text();
+    // ── HTML fetch + provider-specific scrapers ───────────────────────────
+    if (!result) {
+      const res = await fetchPage(url);
+      if (!res.ok) return json({ error: `El sitio respondio ${res.status}` }, 422);
+      const html = await res.text();
 
-    // Re-detect with HTML for auto-detection (woocommerce, bigcommerce, etc.)
-    const provider = detectProvider(url, html);
+      // Re-detect with HTML for auto-detection (woocommerce, bigcommerce, etc.)
+      const provider = detectProvider(url, html);
 
-    let result;
-    if (provider === 'sideshow')          result = await scrapeSideshow(url, html);
-    else if (provider === 'shopify')      result = await scrapeShopify(url, html);
-    else if (provider === 'woocommerce')  result = scrapeWooCommerce(url, html);
-    else if (provider === 'bigcommerce')  result = scrapeBigCommerce(url, html);
-    else if (provider === 'opencart')     result = scrapeOpenCart(url, html);
-    else if (provider === 'entertainmentearth') result = scrapeEE(html);
-    else if (provider === 'bbts')         result = scrapeBBTS(html);
-    else                                  result = scrapeGeneric(html);
+      if (provider === 'sideshow')               result = await scrapeSideshow(url, html);
+      else if (provider === 'shopify')            result = await scrapeShopify(url, html);
+      else if (provider === 'woocommerce')        result = scrapeWooCommerce(url, html);
+      else if (provider === 'bigcommerce')        result = scrapeBigCommerce(url, html);
+      else if (provider === 'opencart')           result = scrapeOpenCart(url, html);
+      else if (provider === 'entertainmentearth') result = scrapeEE(html);
+      else if (provider === 'bbts')               result = scrapeBBTS(html);
+      else                                        result = scrapeGeneric(html);
+    }
 
+    // ── Claude: generar descripción ───────────────────────────────────────
+    const aiDesc = await callClaudeForDesc(env, {
+      name:       result.name       || '',
+      marca:      result.marca      || '',
+      escala:     result.escala     || '',
+      franquicia: result.franquicia || '',
+      desc_raw:   result.desc       || '',
+      foto:       result.photos?.[0] || '',
+    });
+    if (aiDesc) {
+      result.desc  = aiDesc;
+      result.ai_ok = true;
+    } else {
+      result.ai_ok = false;
+    }
     return json(result);
+
   } catch (e) {
     return json({ error: e.message }, 500);
   }
