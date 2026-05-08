@@ -751,8 +751,7 @@ async function saveEdit(){
     destacado:getBool('edit-destacado'),
     oferta:getBool('edit-oferta'),
     agotado_r:getBool('edit-agotado-r'),
-    agotado_d:getBool('edit-agotado-d'),
-    preorden_mes:getBool('edit-preorden-mes')||undefined
+    agotado_d:getBool('edit-agotado-d')
   });
   var pd=getField('edit-precio-d');updated.precio_d=pd||undefined;
   var rvd=getField('edit-reserva-d');updated.reserva_d=rvd||undefined;
@@ -764,7 +763,7 @@ async function saveEdit(){
     await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
     _catalog=null;
     setStatus('Cambios guardados','green');
-    cancelEdit();loadCatalogTab();
+    cancelEdit();renderProductList();
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
@@ -776,7 +775,7 @@ async function deleteProduct(){
     await catalogAction({action:'delete', productId:productId});
     _catalog=null;
     setStatus('Producto eliminado','green');
-    cancelEdit();loadCatalogTab();
+    cancelEdit();renderProductList();
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
