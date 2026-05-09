@@ -9,7 +9,13 @@ function headers(token) {
 }
 
 async function readFile(token, repo) {
-  const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json?_=${Date.now()}`, { headers: headers(token), cache: 'no-store' });
+  // Get latest commit SHA first — this endpoint changes every push and is not cached
+  const commitRes = await fetch(`${GH_API}/repos/${repo}/commits/main`, { headers: headers(token), cache: 'no-store' });
+  if (!commitRes.ok) throw new Error(`GitHub commits ${commitRes.status}: ${await commitRes.text()}`);
+  const commitSha = (await commitRes.json()).sha;
+
+  // Fetch file at that exact commit SHA — unique URL bypasses CDN cache
+  const res = await fetch(`${GH_API}/repos/${repo}/contents/productos.json?ref=${commitSha}`, { headers: headers(token), cache: 'no-store' });
   if (!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
   const data = await res.json();
   let text;
@@ -17,7 +23,7 @@ async function readFile(token, repo) {
     const bytes = Uint8Array.from(atob(data.content.replace(/\s/g, '')), c => c.charCodeAt(0));
     text = new TextDecoder().decode(bytes);
   } else if (data.download_url) {
-    const dlRes = await fetch(data.download_url);
+    const dlRes = await fetch(data.download_url, { cache: 'no-store' });
     if (!dlRes.ok) throw new Error(`download_url ${dlRes.status}`);
     text = await dlRes.text();
   } else {
