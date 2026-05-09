@@ -1504,7 +1504,15 @@ function uvSinPedir() {
       const lista = q ? this._todas.filter(o => (o.producto||'').toLowerCase().includes(q) || (o.clientes?.nombre||'').toLowerCase().includes(q)) : this._todas;
       return lista.length > this.mostrar;
     },
-    async init() { await this.cargar(); },
+    _cargado: false,
+    init() {
+      // Cargar solo cuando el usuario navega a esta vista, no al iniciar la página
+      // (evita competir con otras queries Supabase al arrancar)
+      if (location.hash.startsWith('#sin-pedir')) { this._cargado = true; this.cargar(); }
+      document.addEventListener('go-to', (e) => {
+        if (e.detail === 'sin-pedir' && !this._cargado) { this._cargado = true; this.cargar(); }
+      });
+    },
     async cargar() {
       this.loading = true;
       this.error = '';
@@ -1520,7 +1528,8 @@ function uvSinPedir() {
     async marcar(o) {
       try {
         await dbSetPedidaProveedor(o.id, true);
-        this._todas = this._todas.filter(x => x.id !== o.id);
+        const idx = this._todas.findIndex(x => x.id === o.id);
+        if (idx !== -1) this._todas.splice(idx, 1);
       } catch(e) { alert('Error: ' + e.message); }
     },
     verOrden(id) {
