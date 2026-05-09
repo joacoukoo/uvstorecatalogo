@@ -235,3 +235,13 @@ async function dbSetPedidaProveedor(id, value) {
   const { error } = await db.from('ordenes').update({ pedida_proveedor: value }).eq('id', id);
   if (error) throw error;
 }
+
+async function dbMarcarPedidasPorMarca(marca) {
+  const { data, error } = await db.from('ordenes')
+    .update({ pedida_proveedor: true })
+    .ilike('marca', `%${marca}%`)
+    .eq('pedida_proveedor', false)
+    .select('id');
+  if (error) throw error;
+  return data.length;
+}
