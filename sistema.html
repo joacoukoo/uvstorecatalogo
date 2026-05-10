@@ -387,9 +387,9 @@ button,a{touch-action:manipulation;cursor:pointer}
                 {n:'ssj4',   aura:'rgba(180,30,30,.6)'},
                 {n:'ultra',  aura:'rgba(200,220,255,.6)'}
               ]">
-                <div style="text-align:center;flex:1;min-width:65px;border-radius:8px;padding:6px 4px;" :style="'background:radial-gradient(ellipse at 50% 90%, ' + item.aura + ' 0%, var(--card-bg,#1a1a2e) 70%)'">
-                  <img :src="'goku-' + item.n + '.png'" :alt="item.n" style="width:65px;height:85px;object-fit:contain;display:block;margin:0 auto;" :style="'filter:drop-shadow(0 0 8px ' + item.aura + ')'">
-                  <div style="font-size:9px;margin-top:4px;color:var(--muted2)" x-text="item.n"></div>
+                <div style="text-align:center;flex:1;min-width:42px;border-radius:8px;padding:4px 2px;" :style="'background:radial-gradient(ellipse at 50% 90%, ' + item.aura + ' 0%, var(--card-bg,#1a1a2e) 70%)'">
+                  <img :src="'goku-' + item.n + '.png'" :alt="item.n" style="width:42px;height:55px;object-fit:contain;display:block;margin:0 auto;" :style="'filter:drop-shadow(0 0 6px ' + item.aura + ')'">
+                  <div style="font-size:8px;margin-top:3px;color:var(--muted2)" x-text="item.n"></div>
                 </div>
               </template>
             </div>
