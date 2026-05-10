@@ -10492,6 +10492,201 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "jiraiya-mp050ai4",
+        "n": "Jiraiya",
+        "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4223/37321/696186932_1518176866417848_1358300729035970228_n__00942.1778349305.jpg",
+        "franquicia": "Anime",
+        "marca": "Rocket Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4223/37321/696186932_1518176866417848_1358300729035970228_n__00942.1778349305.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4223/37323/688918035_1518177303084471_7939288242118825581_n__21684.1778349306.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4223/37324/689906009_1518177066417828_2902192053950121489_n__63752.1778349306.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4223/37322/691087008_1518177166417818_6974747559249836295_n__28536.1778349305.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4223/37328/691155500_1518177986417736_5719394934861728722_n__97522.1778349307.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Jiraiya en escala 1:6 de Rocket Toys, alcanzando los 34cm de altura con una calidad de escultura excepcional y detalles realistas. Incluye múltiples opciones de expresión facial intercambiables, cabeza en Modo Sabio, 16 manos articuladas diferentes y el icónico Rasengan con luz LED funcional. Una adición imprescindible para coleccionistas de Naruto que buscan una figura articulada de nivel premium con accesorios temáticos auténticos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 34 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado de plástico ABS, cabezas esculpidas en PVC de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo base masculino articulado exclusivo Jiraiya"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos móviles con ajuste de posición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples puntos de articulación para posabilidad avanzada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida 1: Expresión sonriente con cabello atado estático"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida 2: Expresión burlona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida 3: Modo Sabio Ver.1 con cabello suelto flotante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa facial alternativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolas de ojo móviles: 4 unidades estándar + 2 unidades versión Modo Sabio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón de ajuste de bolas oculares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 16 piezas diferentes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rasengan gigante con luz LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rollo/Pergamino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paleta/Popsicle desmontable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Libro Gutsy Ninja Chronicles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pluma fuente negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pipa para fumar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos: 2 pares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Haori rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta/Top exterior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones exteriores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta de malla interior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de malla interior"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-10",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "La edición Deluxe de Jiraiya incluye una segunda figura completa articulada con todos sus trajes, accesorios exclusivos del Modo Sabio y las emblemáticas ranas sabias Fukasaku y Shima. Esta versión premium está dirigida a coleccionistas exigentes que desean la experiencia más completa y exhaustiva del personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura corporal Jiraiya completa adicional (con trajes incluidos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa facial alternativa exclusiva Deluxe (Sage Mode Ver.2 Expresión Furiosa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolas de ojo articuladas ×2 (Versión Modo Sabio)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pergamino adicional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos Morph Rana Sabio ×3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pies Morph Rana Sabio ×2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fukasaku (Rana Sabio) ×1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Shima (Rana Sabio) ×1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorio magnético de fijación para ranas sabias"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición adicional"
+          }
+        ],
+        "precio_d": "5600",
+        "reserva": "760",
+        "reserva_d": "1120",
+        "entrega": "2Q 2027",
+        "cantidad": "2",
+        "fotos_d": [
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4224/37335/691028037_1518176923084509_5209571621163097442_n__37012.1778350513.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4224/37332/689943278_1518177699751098_4811200283242735532_n__44434.1778350513.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4224/37330/694657390_1518177386417796_4454573485080464398_n__20059.1778350513.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4224/37334/690368303_1518177489751119_9114404523223789468_n__22541.1778350513.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4224/37331/691438442_1518177553084446_2955493299445370344_n__59713.1778350513.jpg"
+        ]
+      },
+      {
         "id": "qui-gon-jinn-artisan-edition-moudgtk6",
         "n": "Qui-Gon Jinn™ (Artisan Edition)",
         "i": "https://www.sideshow.com/storage/product-images/9156161/hot-toys-star-wars-qui-gon-jinn-artisan-edition-sixth-scale-figure-gallery-69f8b7dfc1d50.jpg",
