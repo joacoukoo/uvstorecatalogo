@@ -51825,6 +51825,72 @@
         "destacado": false,
         "oferta": false,
         "added_at": "2026-05-10"
+      },
+      {
+        "id": "esquinero-detolf-5",
+        "n": "Mueble Esquinero UV — 5 Espacios",
+        "i": "assets/vitrinas/esquinero-detolf-5.png",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "4900",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [
+          "assets/vitrinas/esquinero-detolf-5.png"
+        ],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elaborado en melamina negra o blanca y vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Respaldo de melamina — paredes laterales de vidrio transparente de 5mm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puerta de vidrio con retén"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED en cada estante — cable y tomacorriente incluidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 espacios de 34 cm de altura cada uno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Área total del mueble: 63 cm ancho x 63 cm fondo x 180 cm alto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ideal para figuras escala 1:9 — 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pedido con el 20% de anticipo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tiempo de producción aproximado: 10 días hábiles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Entrega gratis dentro del perímetro de la ciudad"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-05-10"
       }
     ]
   }
