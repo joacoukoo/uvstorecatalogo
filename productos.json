@@ -51581,6 +51581,60 @@
         "destacado": false,
         "oferta": false,
         "added_at": "2026-05-10"
+      },
+      {
+        "id": "torre-uv4-backdrops",
+        "n": "Torre UV 4 + Backdrops",
+        "i": "assets/vitrinas/torre-uv4-backdrops.png",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "5300",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [
+          "assets/vitrinas/torre-uv4-backdrops.png"
+        ],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elaborada en melamina color negro o blanca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED en parte superior de cada espacio con cable y tomacorriente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantallas de acrílico transparente de 3mm desmontables sujetas por medio de imanes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 espacios de exhibición con backdrop incluido en cada uno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Área libre en cada espacio: 96.8 cm x 48 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Área total del mueble: 100 cm ancho x 38 cm fondo x 206.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye entrega en perímetro de la ciudad capital hasta Cercanías Pradera Concepción"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-05-10"
       }
     ]
   }
