@@ -51670,7 +51670,69 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "3 espacios: 1 espacio grande + 2 espacios pequeños"
+            "x": "4 espacios: 1 espacio grande + 3 espacios pequeños"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Área libre espacio grande: 55 cm x 147 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Área libre espacios pequeños: 55 cm x 48 cm c/u"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Área total del mueble: 115 cm ancho x 38 cm fondo x 181.5 cm alto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye entrega en perímetro de la ciudad capital hasta Cercanías Pradera Concepción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Las medidas pueden tener una variación de ± 1 cm"
+          }
+        ],
+        "yt": "",
+        "destacado": false,
+        "oferta": false,
+        "added_at": "2026-05-10"
+      },
+      {
+        "id": "torre-uv5-backdrops",
+        "n": "Torre UV 5 + Backdrops",
+        "i": "assets/vitrinas/torre-uv5-backdrops.png",
+        "l": "",
+        "marca": "UV Store GT",
+        "escala": "",
+        "franquicia": "",
+        "estado": "",
+        "disp": "Solo Bajo Pedido",
+        "precio": "5200",
+        "precio_d": "",
+        "precio_orig": "",
+        "reserva": "",
+        "entrega": "",
+        "cantidad": "",
+        "fotos": [
+          "assets/vitrinas/torre-uv5-backdrops.png"
+        ],
+        "content": [
+          {
+            "t": "notion-bulleted-list",
+            "x": "Elaborada en melamina color negro o blanca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED en parte superior de cada espacio con cable y tomacorriente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantallas de acrílico transparente de 3mm desmontables sujetas por medio de imanes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 espacios: 1 espacio grande + 3 espacios pequeños con backdrop incluido en cada uno"
           },
           {
             "t": "notion-bulleted-list",
