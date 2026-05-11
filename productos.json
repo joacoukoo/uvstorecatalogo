@@ -10492,6 +10492,104 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "blade-2-0-mp0l4ne2",
+        "n": "Blade 2.0",
+        "i": "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16020/688370858_1328261135818881_5707633401656391248_n__55748__96369.1778130735.jpg",
+        "franquicia": "Marvel",
+        "marca": "Soosootoys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16020/688370858_1328261135818881_5707633401656391248_n__55748__96369.1778130735.jpg",
+          "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16013/688728757_1328261985818796_3917176348737387695_n__12858__22712.1778130733.jpg",
+          "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16018/688958375_1328261035818891_9003402551826478495_n__75253__74500.1778130734.jpg",
+          "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16017/690065317_1328261095818885_6590078370017918774_n__32213__92985.1778130734.jpg",
+          "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16019/690770312_1328261249152203_9039997517801008766_n__19400__15584.1778130734.jpg",
+          "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16021/690809199_1328261959152132_8641536024732308329_n__55522__58491.1778130735.jpg",
+          "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16015/691965906_1328261282485533_791863276484746888_n__71124__60984.1778130734.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Blade 2.0 es una figura de colección premium de Soosootoys que captura la esencia del icónico cazavampiros con una escultura de cabeza detallada y tatuaje característico. Con más de 28 puntos de articulación y un abrigo de cuero genuino, esta figura ofrece una calidad de construcción excepcional y versatilidad para poses dinámicas. Equipada con un arsenal completo de armas y accesorios metálicos, es una pieza imprescindible para coleccionistas de Marvel y figuras de acción premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado con abrigo de cuero genuino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 28+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Soosootoys (SST092)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia: Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura con escultura de cabeza detallada y tatuaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables (puños, manos para pistola, palmas relajadas, manos para espada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo largo de cuero genuino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje blindado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada metálica plegable con vaina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escopeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 estacas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas de sol"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-11",
+        "reserva": "560",
+        "entrega": "2Q 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "jiraiya-mp050ai4",
         "n": "Jiraiya",
         "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4223/37321/696186932_1518176866417848_1358300729035970228_n__00942.1778349305.jpg",
