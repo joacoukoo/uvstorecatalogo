@@ -10492,6 +10492,97 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "obito-mp1a0cjj",
+        "n": "Obito",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203100_437__43969.webp?v=1778503436",
+        "franquicia": "Anime",
+        "marca": "Rocket Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203100_437__43969.webp?v=1778503436",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203101_906__73666.webp?v=1778503435",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203108_126__97061.webp?v=1778503435",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203109_828__74675.webp?v=1778503435",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203106_905__36116.webp?v=1778503435",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203111_075__32018.webp?v=1778503436",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203103_633__55172.webp?v=1778503436",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_203105_138__33706.webp?v=1778503435"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la presencia del misterioso Obito con esta espectacular figura de colección 1/6 de Pierrot. Con 32 cm de altura y detalles exquisitos en PVC de alta calidad, captura la esencia del personaje en su forma más icónica con una precisión envidiable. Una pieza imprescindible para los coleccionistas devotos de Naruto Shippuden que desean poseer un tributo definitivo a este personaje enigmático."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Pierrot x ROC Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Masashi Kishimoto/2007 Shippuden All Rights"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles articulados y pintura de acabado premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 500-700g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Obito articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable adicional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples accesorios intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición especializada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cintas de tela flotante removibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-11",
+        "reserva": "720",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "madara-mp19y0tg",
         "n": "Madara",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201636_256__84688.webp?v=1778502727",
