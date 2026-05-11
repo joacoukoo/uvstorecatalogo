@@ -10492,6 +10492,93 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "madara-mp19y0tg",
+        "n": "Madara",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201636_256__84688.webp?v=1778502727",
+        "franquicia": "Anime",
+        "marca": "Rocket Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201636_256__84688.webp?v=1778502727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201647_901__93295.webp?v=1778502727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201637_888__19680.webp?v=1778502727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201639_368__65796.webp?v=1778502727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201641_658__75856.webp?v=1778502727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201643_418__28320.webp?v=1778502727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201650_785__89664.webp?v=1778502728",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-11_201649_315__77765.webp?v=1778502727"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Madara a escala 1/6 que captura la esencia mística del icónico personaje de Naruto con una altura impresionante de 32 cm. Cuenta con sistemas de iluminación LED integrados que realzan los detalles de su atuendo y máscara, proporcionando un acabado de calidad superior con articulaciones precisas. Un must-have para coleccionistas devotos del anime que buscan piezas de exhibición de lujo con presencia visual impactante."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Múltiples puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación: LEDs integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante licenciado oficial: Pierrot China"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Madara"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable adicional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arma/espada envuelta en cadena"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de LEDs integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios variados de personalización"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-11",
+        "reserva": "680",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "blade-2-0-mp0l4ne2",
         "n": "Blade 2.0",
         "i": "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/1280x1280/products/1426/16020/688370858_1328261135818881_5707633401656391248_n__55748__96369.1778130735.jpg",
