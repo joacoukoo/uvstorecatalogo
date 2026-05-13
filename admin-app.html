@@ -55,6 +55,9 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .check-item span{font-size:12px;color:var(--muted2)}
 .section-title{font-family:'Syne',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin:20px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--border)}
 .photos-grid{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:8px;align-items:flex-start}
+.photo-thumb{position:relative;display:inline-block;cursor:grab}
+.photo-thumb.drag-over{outline:2px dashed var(--purple);border-radius:5px}
+.photo-thumb.dragging{opacity:0.35}
 .photo-add-row{display:flex;gap:6px;align-items:center}
 .photo-add-row input{flex:1;max-width:320px;padding:6px 10px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:12px;outline:none}
 .photo-add-row input:focus{border-color:var(--purple)}
@@ -392,6 +395,7 @@ function showTab(name){
 
 // photos: _photos['add']['r'], _photos['add']['d'], _photos['edit']['r'], _photos['edit']['d']
 var _photos={add:{r:[],d:[]},edit:{r:[],d:[]}};
+var _dragSrc={w:null,ed:null,idx:null};
 
 function getPhotos(w,ed){return _photos[w][ed];}
 
@@ -401,11 +405,37 @@ function renderPhotos(w,ed){
   var c=document.getElementById(id);
   if(!c)return;
   c.innerHTML=arr.map(function(url,i){
-    return '<div style="position:relative;display:inline-block">' +
-      '<img src="'+url+'" referrerpolicy="no-referrer" style="width:100px;height:100px;object-fit:cover;border-radius:5px;border:1px solid #222;display:block;cursor:pointer" onclick="window.open(\''+url+'\',\'_blank\')" onerror="this.style.opacity=0.2" title="Click para ver en tamaño completo">' +
+    return '<div class="photo-thumb" draggable="true" data-w="'+w+'" data-ed="'+ed+'" data-idx="'+i+'">' +
+      '<img src="'+url+'" referrerpolicy="no-referrer" style="width:100px;height:100px;object-fit:cover;border-radius:5px;border:1px solid #222;display:block" onclick="window.open(\''+url+'\',\'_blank\')" onerror="this.style.opacity=0.2" title="Click para ver en tamaño completo">' +
       '<button onclick="removePhoto(\''+w+'\',\''+ed+'\','+i+')" style="position:absolute;top:-5px;right:-5px;background:#e63946;border:none;border-radius:50%;width:17px;height:17px;color:#fff;font-size:10px;cursor:pointer;line-height:17px;text-align:center;padding:0">x</button>' +
     '</div>';
   }).join('');
+  c.querySelectorAll('.photo-thumb').forEach(function(el){
+    el.addEventListener('dragstart',function(e){
+      _dragSrc={w:w,ed:ed,idx:parseInt(el.dataset.idx)};
+      el.classList.add('dragging');
+      e.dataTransfer.effectAllowed='move';
+    });
+    el.addEventListener('dragend',function(){
+      el.classList.remove('dragging');
+      c.querySelectorAll('.photo-thumb').forEach(function(x){x.classList.remove('drag-over');});
+    });
+    el.addEventListener('dragover',function(e){
+      e.preventDefault();
+      c.querySelectorAll('.photo-thumb').forEach(function(x){x.classList.remove('drag-over');});
+      el.classList.add('drag-over');
+      e.dataTransfer.dropEffect='move';
+    });
+    el.addEventListener('drop',function(e){
+      e.preventDefault();
+      var toIdx=parseInt(el.dataset.idx);
+      if(_dragSrc.w===w&&_dragSrc.ed===ed&&_dragSrc.idx!==toIdx){
+        var item=_photos[w][ed].splice(_dragSrc.idx,1)[0];
+        _photos[w][ed].splice(toIdx,0,item);
+        renderPhotos(w,ed);
+      }
+    });
+  });
 }
 
 function addPhoto(w,ed){
