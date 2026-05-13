@@ -208,9 +208,8 @@ function fmtUSD(n) {
 }
 
 function normalize(s) {
-  return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
-
 function fmtDate(dt) {
   if (!dt) return '';
   return new Date(dt).toLocaleDateString('es-GT', { day: '2-digit', month: 'short', year: 'numeric' });

@@ -6,7 +6,7 @@
 <title>UV Store — Sistema</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
-<script src="sistema-db.js?v=20260508"></script>
+<script src="sistema-db.js?v=20260513"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 <style>
 [x-cloak]{display:none}
@@ -1403,11 +1403,12 @@ button,a{touch-action:manipulation;cursor:pointer}
 </div>
 
 <script>
-let _editarOrdenId  = null;
-let _verOrdenId     = null;
-let _detalleBack    = null;
-let _verClienteData = null;
-let _verClienteId   = null;
+let _editarOrdenId    = null;
+let _verOrdenId       = null;
+let _detalleBack      = null;
+let _verClienteData   = null;
+let _verClienteId     = null;
+let _nuevaOrdenBack   = null;
 
 // ── AUTH ──────────────────────────────────────────────────────────────
 function uvLogin() {
@@ -1461,7 +1462,7 @@ function uvApp() {
       if (v === 'detalle-orden' && parts[1]) { _verOrdenId = parts[1]; _detalleBack = 'ordenes'; }
       else if (v === 'historial-cliente' && parts[1]) { _verClienteId = parts[1]; _verClienteData = null; }
       else if (v === 'nueva-orden' && parts[1] === 'edit' && parts[2]) { _editarOrdenId = parts[2]; }
-      this.view = v;
+      if (this.view !== v) this.view = v;
       return true;
     },
     updateHash(v) {
@@ -1679,6 +1680,7 @@ function uvOrdenes() {
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());
+      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; } });
     },
     async cargar() {
       this.loading = true; this.errorMsg = '';
@@ -1693,9 +1695,9 @@ function uvOrdenes() {
       finally { this.loading = false; }
     },
     get _ordenesFiltradas() {
+      const q = normalize(this.busqueda);
       return this.ordenes.filter(o => {
-        const q = normalize(this.busqueda);
-        const matchQ = !q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q);
+        const matchQ = !q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q);
         const matchE = !this.filtroEstado || o.estado === this.filtroEstado;
         const matchEnt = !this.filtroEntregado ||
           (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
@@ -1772,7 +1774,7 @@ function uvHistorialCliente() {
     async _preloadLink() {
       try {
         const token = await dbGetOrCreateClienteToken(this.cliente.id);
-        const slug = (this.cliente.nombre || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const slug = (this.cliente.nombre || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
         this._linkUrl = 'https://uvstore.shop/mis-pedidos?t=' + token + '#' + slug;
       } catch {}
     },
@@ -1979,7 +1981,14 @@ function uvNuevaOrden() {
             metodo: 'transferencia', fecha: new Date().toISOString().slice(0,10), notas: ''
           });
         }
-        document.dispatchEvent(new CustomEvent('go-to', { detail: 'ordenes' }));
+        if (this.form.id) {
+          _verOrdenId = saved.id || this.form.id;
+          _detalleBack = _nuevaOrdenBack || 'ordenes';
+          _nuevaOrdenBack = null;
+          document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
+        } else {
+          document.dispatchEvent(new CustomEvent('go-to', { detail: 'ordenes' }));
+        }
         document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       } catch(e) { alert('Error: ' + e.message); }
       finally { this.guardando = false; }
@@ -2271,6 +2280,7 @@ function uvDetalleOrden() {
     },
     editarOrden() {
       _editarOrdenId = this.orden.id;
+      _nuevaOrdenBack = this.backView;
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'nueva-orden' }));
     },
     abrirComprobante(p) {
