@@ -6,7 +6,7 @@
 <title>UV Store — Sistema</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
-<script src="sistema-db.js?v=20260513"></script>
+<script src="sistema-db.js?v=20260514"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 <style>
 [x-cloak]{display:none}
@@ -1677,14 +1677,23 @@ function uvDashboard() {
 function uvOrdenes() {
   return {
     ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1,
-    _filtradas: [], ordenesFiltradas: [], hayMasOrdenes: false, totalFiltradas: 0,
+    _filtrar() {
+      const q = normalize(this.busqueda);
+      return this.ordenes.filter(o => {
+        const matchQ = !q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q);
+        const matchE = !this.filtroEstado || o.estado === this.filtroEstado;
+        const matchEnt = !this.filtroEntregado ||
+          (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
+        return matchQ && matchE && matchEnt;
+      });
+    },
+    get ordenesFiltradas() { return this._filtrar().slice(0, this.pagina * 100); },
+    get totalFiltradas() { return this._filtrar().length; },
+    get hayMasOrdenes() { return this._filtrar().length > this.pagina * 100; },
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());
-      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; this._computar(); } });
-      this.$watch('busqueda', () => { this.pagina = 1; this._computar(); });
-      this.$watch('filtroEstado', () => { this.pagina = 1; this._computar(); });
-      this.$watch('filtroEntregado', () => { this.pagina = 1; this._computar(); });
+      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; } });
     },
     async cargar() {
       this.loading = true; this.errorMsg = '';
@@ -1695,28 +1704,10 @@ function uvOrdenes() {
           o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
         }
         this.ordenes = data;
-        this._computar();
       } catch(e) { this.errorMsg = e.message || String(e); }
       finally { this.loading = false; }
     },
-    _computar() {
-      const q = normalize(this.busqueda);
-      this._filtradas = this.ordenes.filter(o => {
-        const matchQ = !q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q);
-        const matchE = !this.filtroEstado || o.estado === this.filtroEstado;
-        const matchEnt = !this.filtroEntregado ||
-          (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
-        return matchQ && matchE && matchEnt;
-      });
-      this.totalFiltradas = this._filtradas.length;
-      this.hayMasOrdenes = this._filtradas.length > this.pagina * 100;
-      this.ordenesFiltradas = this._filtradas.slice(0, this.pagina * 100);
-    },
-    verMas() {
-      this.pagina++;
-      this.hayMasOrdenes = this._filtradas.length > this.pagina * 100;
-      this.ordenesFiltradas = this._filtradas.slice(0, this.pagina * 100);
-    },
+    verMas() { this.pagina++; },
     verOrden(id) {
       _verOrdenId = id; _detalleBack = 'ordenes';
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
