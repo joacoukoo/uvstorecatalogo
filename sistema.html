@@ -1677,23 +1677,27 @@ function uvDashboard() {
 function uvOrdenes() {
   return {
     ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1,
-    _filtrar() {
+    ordenesFiltradas: [], totalFiltradas: 0, hayMasOrdenes: false,
+    _computar() {
       const q = normalize(this.busqueda);
-      return this.ordenes.filter(o => {
+      const f = this.ordenes.filter(o => {
         const matchQ = !q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q);
         const matchE = !this.filtroEstado || o.estado === this.filtroEstado;
         const matchEnt = !this.filtroEntregado ||
           (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
         return matchQ && matchE && matchEnt;
       });
+      this.totalFiltradas = f.length;
+      this.hayMasOrdenes = f.length > this.pagina * 100;
+      this.ordenesFiltradas = f.slice(0, this.pagina * 100);
     },
-    get ordenesFiltradas() { return this._filtrar().slice(0, this.pagina * 100); },
-    get totalFiltradas() { return this._filtrar().length; },
-    get hayMasOrdenes() { return this._filtrar().length > this.pagina * 100; },
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());
-      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; } });
+      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; this._computar(); } });
+      this.$watch('busqueda', () => { this.pagina = 1; this._computar(); });
+      this.$watch('filtroEstado', () => { this.pagina = 1; this._computar(); });
+      this.$watch('filtroEntregado', () => { this.pagina = 1; this._computar(); });
     },
     async cargar() {
       this.loading = true; this.errorMsg = '';
@@ -1704,10 +1708,11 @@ function uvOrdenes() {
           o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
         }
         this.ordenes = data;
+        this._computar();
       } catch(e) { this.errorMsg = e.message || String(e); }
       finally { this.loading = false; }
     },
-    verMas() { this.pagina++; },
+    verMas() { this.pagina++; this._computar(); },
     verOrden(id) {
       _verOrdenId = id; _detalleBack = 'ordenes';
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
