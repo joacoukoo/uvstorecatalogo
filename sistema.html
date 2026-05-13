@@ -566,7 +566,7 @@ button,a{touch-action:manipulation;cursor:pointer}
               </tbody>
             </table>
             <div x-show="hayMasOrdenes" style="padding:16px;text-align:center">
-              <button class="btn-sm btn-ghost" @click="pagina++" x-text="'Ver más (' + (totalFiltradas - ordenesFiltradas.length) + ' restantes)'"></button>
+              <button class="btn-sm btn-ghost" @click="verMas()" x-text="'Ver más (' + (totalFiltradas - ordenesFiltradas.length) + ' restantes)'"></button>
             </div>
           </div>
         </div>
@@ -1676,7 +1676,8 @@ function uvDashboard() {
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
-    ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1, _filtradas: [],
+    ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1,
+    _filtradas: [], ordenesFiltradas: [], hayMasOrdenes: false, totalFiltradas: 0,
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());
@@ -1707,15 +1708,14 @@ function uvOrdenes() {
           (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
         return matchQ && matchE && matchEnt;
       });
+      this.totalFiltradas = this._filtradas.length;
+      this.hayMasOrdenes = this._filtradas.length > this.pagina * 100;
+      this.ordenesFiltradas = this._filtradas.slice(0, this.pagina * 100);
     },
-    get ordenesFiltradas() {
-      return this._filtradas.slice(0, this.pagina * 100);
-    },
-    get hayMasOrdenes() {
-      return this._filtradas.length > this.pagina * 100;
-    },
-    get totalFiltradas() {
-      return this._filtradas.length;
+    verMas() {
+      this.pagina++;
+      this.hayMasOrdenes = this._filtradas.length > this.pagina * 100;
+      this.ordenesFiltradas = this._filtradas.slice(0, this.pagina * 100);
     },
     verOrden(id) {
       _verOrdenId = id; _detalleBack = 'ordenes';
