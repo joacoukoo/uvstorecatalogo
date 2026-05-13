@@ -10492,6 +10492,119 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "ezra-bridger-mp4e87bh",
+        "n": "Ezra Bridger™",
+        "i": "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a049661f4059.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a049661f4059.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-scale-6a0497d1f21f3.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a0496627a0fe.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a049662d204c.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a049663333a1.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a0496638c939.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a049663e2f66.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a04966467578.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a049664dee03.jpg",
+          "https://www.sideshow.com/storage/product-images/915296/hot-toys-star-wars-ezra-bridger-sixth-scale-figure-gallery-6a04966561a2c.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la legendaria aventura de Ezra Bridger con esta figura coleccionable de escala 1:6 de Hot Toys, que captura cada detalle del personaje de Star Wars: Rebels. Con cabeza intercambiable con efectos de weathering, articulación de 30 puntos y accesorios LED iluminados, este coleccionable premium ofrece infinitas posibilidades de exhibición."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico, microfiber, tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza sin casco con ojos móviles intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con casco y efectos de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables (relajadas, Fuerza, sable láser, pistola)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta naranja, roja y amarilla con placa pectoral amarilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones marrones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Comunicador de muñeca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de microfiber marrón con holster y soporte de sable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Protectores de espinilla marrones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos marrones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola blaster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empuñadura de sable láser LED iluminada (luz verde, USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empuñadura de sable láser estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de sable láser verde (estática y con movimiento)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jetpack magnético con placa trasera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 efectos de llama naranja translúcidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana temática con logotipo de Star Wars"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-13",
+        "reserva": "740",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "sabine-wren-mp4dv5ad",
         "n": "Sabine Wren™",
         "i": "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a04987143430.jpg",
