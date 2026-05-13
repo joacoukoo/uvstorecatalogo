@@ -488,6 +488,7 @@ button,a{touch-action:manipulation;cursor:pointer}
 
     <!-- Vista: Lista Órdenes -->
     <div x-show="view==='ordenes'" x-data="uvOrdenes()">
+      <span x-effect="_computar()" style="display:none"></span>
       <div class="page-header">
         <h1 class="page-title">Órdenes</h1>
         <button class="btn-sm btn-purple" @click="$dispatch('open-nueva-orden')">+ Nueva orden</button>
@@ -496,15 +497,15 @@ button,a{touch-action:manipulation;cursor:pointer}
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;align-items:center">
           <div class="search-bar">
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" placeholder="Buscar figura o cliente..." x-model="busqueda" @input="pagina = 1; _computar()" autocomplete="off" spellcheck="false" style="font-size:16px">
+            <input type="text" placeholder="Buscar figura o cliente..." x-model="busqueda" autocomplete="off" spellcheck="false" style="font-size:16px">
           </div>
-          <select class="form-select" x-model="filtroEstado" @change="pagina = 1; _computar()" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+          <select class="form-select" x-model="filtroEstado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Todos los estados</option>
             <option value="en_proceso">En proceso</option>
             <option value="pagada">Pagada</option>
             <option value="cancelada">Cancelada</option>
           </select>
-          <select class="form-select" x-model="filtroEntregado" @change="pagina = 1; _computar()" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+          <select class="form-select" x-model="filtroEntregado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Toda entrega</option>
             <option value="entregado">Entregadas</option>
             <option value="sin_entregar">Sin entregar</option>
@@ -1677,14 +1678,24 @@ function uvDashboard() {
 function uvOrdenes() {
   return {
     ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1,
+    _ultimaBusqueda: '', _ultimoFiltroE: '', _ultimoFiltroEnt: '',
     ordenesFiltradas: [], totalFiltradas: 0, hayMasOrdenes: false,
     _computar() {
-      const q = normalize(this.busqueda);
-      const f = this.ordenes.filter(o => {
-        const matchQ = !q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q);
-        const matchE = !this.filtroEstado || o.estado === this.filtroEstado;
-        const matchEnt = !this.filtroEntregado ||
-          (this.filtroEntregado === 'entregado' ? o.entregado : !o.entregado);
+      const q = this.busqueda;
+      const fe = this.filtroEstado;
+      const fent = this.filtroEntregado;
+      const todos = this.ordenes;
+      if (q !== this._ultimaBusqueda || fe !== this._ultimoFiltroE || fent !== this._ultimoFiltroEnt) {
+        this.pagina = 1;
+        this._ultimaBusqueda = q;
+        this._ultimoFiltroE = fe;
+        this._ultimoFiltroEnt = fent;
+      }
+      const qn = normalize(q);
+      const f = todos.filter(o => {
+        const matchQ = !qn || normalize(o.producto).includes(qn) || normalize(o.clientes?.nombre).includes(qn) || normalize(o.marca).includes(qn);
+        const matchE = !fe || o.estado === fe;
+        const matchEnt = !fent || (fent === 'entregado' ? o.entregado : !o.entregado);
         return matchQ && matchE && matchEnt;
       });
       this.totalFiltradas = f.length;
