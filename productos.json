@@ -10492,6 +10492,89 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "grace-ashcroft-mp4jkz6y",
+        "n": "Grace Ashcroft",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/3e3555d30e9fe4e5a64e577bdffaf4dc.jpg?v=1778338427",
+        "franquicia": "Gaming",
+        "marca": "X-STUDIO",
+        "escala": "1/6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/3e3555d30e9fe4e5a64e577bdffaf4dc.jpg?v=1778338427",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/d30ad6782fa0d4cebdd27adfcb27c3be.jpg?v=1778338427",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/ac665c6a95762846d672af24088e743c.jpg?v=1778338427",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/42cc8481b49a8ef5ff9702915983856e.jpg?v=1778338427",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/d20c627ee2eda7af15f6768c4dbd5afe.jpg?v=1778338427",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/d3a08fd578621aa1d70e411660b23ed0.jpg?v=1778338427",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/47029f46e47a386f1475a2ccba0f139e.jpg?v=1778338427",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/71a8ef6faf6f62901cb07ae8214d625e.jpg?v=1778338426"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la intensidad del survival horror con Grace, la figura de acción premium 1/6 de X-STUDIO que captura cada detalle de esta icónica heroína gamer. Con dos head sculpts intercambiables, atuendos versátiles y más de 25 accesorios auténticos, esta figura ofrece posibilidades de exhibición prácticamente ilimitadas. Resident Evil Requiem"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado con detalles en tela y cuero sintético"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Head Sculpts (estándar y dañado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta de cuero, sudadera y camiseta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola S&S M232 con municiones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo de utilidad y aguja de Freya"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máquina de escribir, linterna y teléfono inteligente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botiquín completo (jeringas, vendajes manchados de sangre, hierbas medicinales)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición con botas magnéticas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos adicionales (monedas, encendedor, carrete de cinta)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-13",
+        "reserva": "580",
+        "entrega": "1Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "leon-kennedy-mp4fuvi0",
         "n": "Leon Kennedy",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/2383f33276099c19175a45a3f91c4ba4.jpg?v=1778339041",
