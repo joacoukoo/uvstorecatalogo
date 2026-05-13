@@ -43855,6 +43855,117 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "butcher-mp4k6h41",
+        "n": "Butcher",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/396ed28cf4582e73030205bc944bc052.jpg?v=1778557162",
+        "franquicia": "Otros",
+        "marca": "Venus Toys",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/396ed28cf4582e73030205bc944bc052.jpg?v=1778557162",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01VeOVy01Cl0fQPngIB__2301300120.webp?v=1778557161",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01dahFl61Cl0fLlVY9Z__2301300120.webp?v=1778557161",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01IfMndm1Cl0fQTjjR7__2301300120.webp?v=1778557162",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01JjDEWY1Cl0fQWUHRA__2301300120.webp?v=1778557164",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN015wxbfg1Cl0fQcZ9Bt__2301300120.webp?v=1778557162",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01ZKXUec1Cl0fQLcqiu__2301300120.webp?v=1778557162",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01k2sJAf1Cl0fQxQ9LA__2301300120.webp?v=1778557162"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el mercado de figuras premium con THE ENFORCER de Venus Toys, una figura articulada de 1/12 con tres cabezas intercambiables y efectos luminosos UV. Este coleccionable incluye un arsenal completo de 12 accesorios intercambiables que capturan toda la versatilidad del personaje, desde armas tácticas hasta herramientas especializadas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples cabezas intercambiables con efectos UV"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "12 manos intercambiables para máxima poseabilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 cabezas esculpidas (sonriente, enfadada y luminosa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo, camisa y pantalones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "12 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle de francotirador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle de asalto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pala"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Taladro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Electropulsor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Martillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas de sol"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 granadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vial Compound V"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bebé (efecto luminoso UV)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de zapatos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-13",
+        "reserva": "300",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "homelander-mp4k58n0",
         "n": "Homelander",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/7b1f1c1baadfc324d23275fc7192c608_25dbe4b5-1aba-4dd1-8263-fe434184e47f.jpg?v=1778166127",
