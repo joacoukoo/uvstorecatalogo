@@ -10492,6 +10492,121 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "leon-kennedy-mp4fuvi0",
+        "n": "Leon Kennedy",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/2383f33276099c19175a45a3f91c4ba4.jpg?v=1778339041",
+        "franquicia": "Gaming",
+        "marca": "X-STUDIO",
+        "escala": "1/6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/2383f33276099c19175a45a3f91c4ba4.jpg?v=1778339041",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/c726b6c278c66768b027880933370e2f.jpg?v=1778339041",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/c56970595b2a54970f36f3bbae19bc41.jpg?v=1778339041",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/4b7dde37f24072dd97c202a9150bd1b1.jpg?v=1778339041",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/ab2f35f8fffcf725f02f94213b08ab02.jpg?v=1778339042",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/00087beda85c73d58414b260c43329ab.jpg?v=1778339041",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/83e8ae8e79bb8d398961dbdee92fa083.jpg?v=1778339041",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/4b598a9e0972e5d1b4737624745b46c4.jpg?v=1778339041"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con la figura de acción premium 1/6 Leon de X-STUDIO, meticulosamente diseñada con dos cabezas intercambiables, atuendo detallado y un arsenal completo de accesorios. Cada pieza captura la esencia del icónico personaje con articulación superior y acabados de nivel profesional que solo las figuras de colección premium ofrecen."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, caucho y plástico de ingeniería"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Múltiples puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios: 30+ piezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con daño de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta de cuero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Suéter de punto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas magnéticas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola Requiem"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escopeta MSBG 500"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle de cerrojo Classic 70"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Subfusil Gal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Motosierra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Granadas y munición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios complementarios (teléfono, linterna, reloj, hierba medicinal, jeringa)"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-13",
+        "reserva": "580",
+        "entrega": "1Q 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "saesee-tiin-clone-armor-mp4f9wuu",
         "n": "Saesee Tiin™ (Clone Armor)",
         "i": "https://www.sideshow.com/storage/product-images/915282/hot-toys-star-wars-saesee-tiin-clone-armor-sixth-scale-figure-gallery-6a0491ceb0a96.jpg",
