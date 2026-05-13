@@ -10492,6 +10492,123 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "sabine-wren-mp4dv5ad",
+        "n": "Sabine Wren™",
+        "i": "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a04987143430.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a04987143430.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-scale-6a04997ff342c.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a049871c4066.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a04987224fc8.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a0498727cc1f.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a049872dd206.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a04987345fe2.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a049873cbb72.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a049874500c9.jpg",
+          "https://www.sideshow.com/storage/product-images/915295/hot-toys-star-wars-sabine-wren-sixth-scale-figure-gallery-6a049874a5121.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la galaxia con la figura coleccionable premium de Sabine Wren de Hot Toys, basada en Star Wars: Rebels con increíble detalle y articulación. Esta obra maestra incluye dos cabezas intercambiables, armadura Mandalorian completamente equipada, sables de luz LED y múltiples accesorios para recrear tus escenas favoritas. Con 26 puntos de articulación y acabados con efectos de desgaste auténtico, es el complemento perfecto para cualquier colección Star Wars de élite."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, microfiber, metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 26"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: 2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cabezas esculpidas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura Mandalorian completa (pauldrones, peto, couters, vambraces, poleyns, grebas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pistolas blaster WESTAR-35"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable de luz LED (verde, alimentado por USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable de luz tradicional (verde)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Darksaber con hoja móvil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de vuelo y cinturón de cuero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jetpack con efecto de escape"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detonador térmico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo de combate personal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vambraces serie Ahsoka"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintor de spray"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Comunicador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana con logo Star Wars"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-13",
+        "reserva": "740",
+        "entrega": "Nov. 2026",
+        "cantidad": "4"
+      },
+      {
         "id": "luke-skywalker-shadows-of-the-empire-mp4dkqxt",
         "n": "Luke Skywalker™ (Shadows Of The Empire)",
         "i": "https://www.sideshow.com/storage/product-images/915670/hot-toys-star-wars-luke-skywalker-shadows-of-the-empire-sixth-scale-figure-gallery-6a0493e1ee1a1.jpg",
