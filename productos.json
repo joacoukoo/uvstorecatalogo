@@ -10492,6 +10492,111 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "clone-commando-sev-mp5tdqxf",
+        "n": "Clone Commando Sev",
+        "i": "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f8defe85.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f8defe85.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-scale-6a04912229b36.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f8e7258f.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f8ec53a7.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f8f29b71.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f8f83e8c.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f8fdd19c.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f90654ac.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f90db952.jpg",
+          "https://www.sideshow.com/storage/product-images/914434/hot-toys-star-wars-clone-commando-sev-sixth-scale-figure-gallery-6a048f913e112.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable de lujo 1:6 de Clone Commando Sev™ de Hot Toys, con increíbles detalles de weathering, visor LED iluminado azul y 30 puntos de articulación. Incluye múltiples configuraciones de armas intercambiables y accesorios tácticos para recrear cualquier escena épica de Star Wars."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Visor LED azul (batería incluida)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 2,500 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza casco intercambiable con efectos LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura completa blanca, gris y roja con detalles de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje base negro de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas rojas largas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle DC-17m ICWS (configuración rifle y sniper)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detonador térmico completo y medio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mochila magnética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Attachment sniper para hombro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Panel sniper para espinilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición con logo Star Wars"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-14",
+        "reserva": "640",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "konan-mp4w80cn",
         "n": "Konan ",
         "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35622/8b611367-2b34-4b2c-a4b6-38f369ecff12__79343.1778700451.jpg",
