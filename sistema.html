@@ -601,6 +601,15 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <button class="btn-sm" :class="orden.pedida_proveedor?'btn-orange':'btn-ghost'" @click="togglePedidaProveedor()" x-text="orden.pedida_proveedor?'Pedida al prov.':'Pedir al prov.'"></button>
                 <button class="btn-sm" :class="orden.entregado?'btn-green':'btn-ghost'" @click="toggleEntregado()" x-text="orden.entregado?'Entregado':'Sin entregar'"></button>
               </div>
+              <div style="display:flex;align-items:center;gap:8px;margin-top:14px">
+                <span style="font-size:12px;color:var(--muted2);white-space:nowrap">Proveedor:</span>
+                <input type="text" :value="orden.pedido||''"
+                  @change="guardarPedido($event.target.value)"
+                  placeholder="ebay, gundam, lts..."
+                  style="background:var(--bg3);border:1px solid var(--border2);border-radius:6px;padding:5px 10px;color:var(--text);font-size:13px;font-family:inherit;outline:none;flex:1;max-width:260px"
+                  @focus="$el.style.borderColor='var(--purple)'"
+                  @blur="$el.style.borderColor='var(--border2)'">
+              </div>
             </div>
 
             <div class="stats-grid" style="grid-template-columns:repeat(2,1fr);margin-bottom:24px">
@@ -2316,6 +2325,14 @@ function uvDetalleOrden() {
         document.dispatchEvent(new CustomEvent('recargar-ordenes'));
       }
       catch(e) { this.orden.entregado = prev; alert('Error: ' + e.message); }
+    },
+    async guardarPedido(val) {
+      const prev = this.orden.pedido;
+      this.orden.pedido = val;
+      try {
+        await dbSaveOrden({ ...this.orden });
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
+      } catch(e) { this.orden.pedido = prev; alert('Error: ' + e.message); }
     },
     editarOrden() {
       _editarOrdenId = this.orden.id;
