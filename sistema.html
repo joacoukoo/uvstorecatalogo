@@ -498,8 +498,8 @@ button,a{touch-action:manipulation;cursor:pointer}
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             <input type="text" x-ref="buscador" placeholder="Buscar figura o cliente..." @input="_inputBusqueda = $event.target.value" @keyup.enter="busqueda = _inputBusqueda" autocomplete="off" spellcheck="false" style="font-size:16px">
           </div>
-          <button class="btn-sm btn-purple" @click="busqueda = _inputBusqueda">Buscar</button>
-          <button x-show="busqueda || _inputBusqueda" class="btn-sm btn-ghost" @click="busqueda = ''; _inputBusqueda = ''; $refs.buscador.value = ''">✕ Limpiar</button>
+          <button class="btn-sm btn-purple" @click="buscar()">Buscar</button>
+          <button x-show="busqueda || _inputBusqueda" class="btn-sm btn-ghost" @click="limpiar()">✕ Limpiar</button>
           <select class="form-select" x-model="filtroEstado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Todos los estados</option>
             <option value="en_proceso">En proceso</option>
@@ -1692,6 +1692,16 @@ function uvOrdenes() {
         (!fe || o.estado === fe) &&
         (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
       );
+    },
+
+    buscar() {
+      this.busqueda = this._inputBusqueda;
+    },
+
+    limpiar() {
+      this.busqueda = '';
+      this._inputBusqueda = '';
+      if (this.$refs.buscador) this.$refs.buscador.value = '';
     },
 
     init() {
