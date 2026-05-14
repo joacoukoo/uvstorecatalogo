@@ -10492,6 +10492,106 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "konan-mp4w80cn",
+        "n": "Konan ",
+        "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35622/8b611367-2b34-4b2c-a4b6-38f369ecff12__79343.1778700451.jpg",
+        "franquicia": "Anime",
+        "marca": "Rocket Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35622/8b611367-2b34-4b2c-a4b6-38f369ecff12__79343.1778700451.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3176/images/35624/a438ced3-1ccb-4fe2-9fd9-aed1d9923d61__38754.1778700451.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35624/a438ced3-1ccb-4fe2-9fd9-aed1d9923d61__38754.1778700451.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35625/4cd1b47a-c044-4ac6-adc4-a64734b0eeaa__52505.1778700523.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35636/b9f3fd2c-92b9-4aa5-83ce-eb4dcce648ab__97813.1778700600.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35634/7de63f14-c9bb-4b2f-a5d0-27d12c95c8ef__97810.1778700600.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35632/6ea7d549-78b1-490b-b42d-f3ef449d44f6__09835.1778700600.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3176/35626/69966f88-1a07-48cd-bba9-795be142c235__58745.1778700600.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/original/products/3176/35623/964406f5-29c8-4534-a438-bca47cafe839__12825.1778700522.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium 1/6 de Konan con increíble nivel de detalle y múltiples accesorios intercambiables. Incluye dos cabezas esculpidas con diferentes expresiones, 12 tipos de manos reemplazables y efectos especiales que capturan su poder ninja. Perfecta para fans de Naruto que buscan una pieza de colección de alta calidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo: Femenino articulado 2D"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Plástico de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Rocket Toys (ROC)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cabezas esculpidas (expresión neutral y sonriente)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cabeza especial (versión papel delgado, expresión ceño fruncido)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "12 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 ojos móviles reemplazables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa Akatsuki"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Top interior y leggings"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "16 etiquetas explosivas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 lanza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 ramo de flores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de alas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón ajustador de ojos articulado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-14",
+        "reserva": "720",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "grace-ashcroft-mp4jkz6y",
         "n": "Grace Ashcroft",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/3e3555d30e9fe4e5a64e577bdffaf4dc.jpg?v=1778338427",
