@@ -1712,8 +1712,8 @@ function uvOrdenes() {
       try {
         const data = await dbGetOrdenes();
         for (const o of data) {
-          o._abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
-          o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
+          o._abonado = calcAbonado(o.pagos || []);
+          o._saldo = calcSaldo(o, o.pagos || []);
         }
         this._todos = data;
         this.filtrar();
