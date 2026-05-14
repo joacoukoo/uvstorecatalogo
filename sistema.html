@@ -496,15 +496,15 @@ button,a{touch-action:manipulation;cursor:pointer}
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;align-items:center">
           <div class="search-bar">
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" placeholder="Buscar figura o cliente..." x-model="busqueda" @input="filtrar()" autocomplete="off" spellcheck="false" style="font-size:16px">
+            <input type="text" placeholder="Buscar figura o cliente..." x-model="busqueda" autocomplete="off" spellcheck="false" style="font-size:16px">
           </div>
-          <select class="form-select" x-model="filtroEstado" @change="filtrar()" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+          <select class="form-select" x-model="filtroEstado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Todos los estados</option>
             <option value="en_proceso">En proceso</option>
             <option value="pagada">Pagada</option>
             <option value="cancelada">Cancelada</option>
           </select>
-          <select class="form-select" x-model="filtroEntregado" @change="filtrar()" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+          <select class="form-select" x-model="filtroEntregado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Toda entrega</option>
             <option value="entregado">Entregadas</option>
             <option value="sin_entregar">Sin entregar</option>
@@ -1675,7 +1675,6 @@ function uvDashboard() {
 function uvOrdenes() {
   return {
     _todos: [],
-    lista: [],
     loading: true,
     errorMsg: '',
     busqueda: '',
@@ -1683,11 +1682,11 @@ function uvOrdenes() {
     filtroEntregado: '',
     _pagandoId: null,
 
-    filtrar() {
+    get lista() {
       const q = normalize(this.busqueda);
       const fe = this.filtroEstado;
       const fent = this.filtroEntregado;
-      this.lista = this._todos.filter(o =>
+      return this._todos.filter(o =>
         (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
         (!fe || o.estado === fe) &&
         (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
@@ -1701,7 +1700,6 @@ function uvOrdenes() {
         this.busqueda = '';
         this.filtroEstado = '';
         this.filtroEntregado = '';
-        this.filtrar();
       });
       this.cargar();
     },
@@ -1716,7 +1714,6 @@ function uvOrdenes() {
           o._saldo = calcSaldo(o, o.pagos || []);
         }
         this._todos = data;
-        this.filtrar();
       } catch (e) {
         this.errorMsg = e.message || String(e);
       } finally {
