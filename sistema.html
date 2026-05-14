@@ -535,7 +535,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                   </tr>
                 </thead>
                 <tbody>
-                  <template x-for="o in lista" :key="o.id">
+                  <template x-for="o in lista" :key="filtroVersion + '_' + o.id">
                     <tr>
                       <td>
                         <div style="display:flex;align-items:center;gap:6px">
@@ -1679,7 +1679,7 @@ function uvDashboard() {
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
-    _todos: [], lista: [], _limite: 100,
+    _todos: [], lista: [], filtroVersion: 0, _limite: 100,
     loading: true, errorMsg: '',
     busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null,
 
@@ -1687,17 +1687,18 @@ function uvOrdenes() {
       const q = normalize(this.busqueda);
       const fe = this.filtroEstado;
       const fent = this.filtroEntregado;
-      const result = this._todos.filter(o =>
+      this.lista = this._todos.filter(o =>
         (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
         (!fe || o.estado === fe) &&
         (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
       ).slice(0, this._limite);
-      this.lista.splice(0, this.lista.length, ...result);
+      this.filtroVersion++;
     },
 
     limpiar() {
       this.busqueda = '';
-      this.$refs.buscador.value = '';
+      const inp = this.$el.querySelector('input[type="text"]');
+      if (inp) inp.value = '';
       this.filtrar();
     },
 
