@@ -513,6 +513,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           </select>
         </div>
         <div class="card">
+          <div style="padding:8px 16px;font-size:11px;color:yellow;background:#222">DEBUG — loading: <span x-text="loading"></span> | _todos: <span x-text="_todos.length"></span> | error: <span x-text="errorMsg||'—'"></span> | visible(row0): <span x-text="_todos[0] ? rowVisible(_todos[0], busqueda, filtroEstado, filtroEntregado) : 'n/a'"></span></div>
           <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
           <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
           <div x-show="!loading">
