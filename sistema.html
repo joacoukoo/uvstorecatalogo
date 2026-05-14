@@ -488,7 +488,6 @@ button,a{touch-action:manipulation;cursor:pointer}
 
     <!-- Vista: Lista Órdenes -->
     <div x-show="view==='ordenes'" x-data="uvOrdenes()">
-      <span x-effect="_computar()" style="display:none"></span>
       <div class="page-header">
         <h1 class="page-title">Órdenes</h1>
         <button class="btn-sm btn-purple" @click="$dispatch('open-nueva-orden')">+ Nueva orden</button>
@@ -497,15 +496,15 @@ button,a{touch-action:manipulation;cursor:pointer}
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;align-items:center">
           <div class="search-bar">
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" placeholder="Buscar figura o cliente..." x-model="busqueda" autocomplete="off" spellcheck="false" style="font-size:16px">
+            <input type="text" placeholder="Buscar figura o cliente..." x-model="busqueda" @input="pagina=1" autocomplete="off" spellcheck="false" style="font-size:16px">
           </div>
-          <select class="form-select" x-model="filtroEstado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+          <select class="form-select" x-model="filtroEstado" @change="pagina=1" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Todos los estados</option>
             <option value="en_proceso">En proceso</option>
             <option value="pagada">Pagada</option>
             <option value="cancelada">Cancelada</option>
           </select>
-          <select class="form-select" x-model="filtroEntregado" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+          <select class="form-select" x-model="filtroEntregado" @change="pagina=1" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
             <option value="">Toda entrega</option>
             <option value="entregado">Entregadas</option>
             <option value="sin_entregar">Sin entregar</option>
@@ -515,11 +514,11 @@ button,a{touch-action:manipulation;cursor:pointer}
 <div class="card">
 <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
           <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
-          <div x-show="!loading && ordenesFiltradas.length===0" class="empty">
+          <div x-show="!loading && _filtradas().length===0" class="empty">
             <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
             <p>No hay órdenes</p>
           </div>
-          <div x-show="!loading && ordenesFiltradas.length>0" style="overflow-x:auto">
+          <div x-show="!loading && _filtradas().length>0" style="overflow-x:auto">
             <table class="table tbl-ordenes">
               <thead>
                 <tr>
@@ -534,7 +533,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </tr>
               </thead>
               <tbody>
-                <template x-for="o in ordenesFiltradas" :key="o.id">
+                <template x-for="o in _filtradas().slice(0, pagina * 100)" :key="o.id">
                   <tr>
                     <td>
                       <div style="display:flex;align-items:center;gap:6px">
@@ -566,8 +565,8 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </template>
               </tbody>
             </table>
-            <div x-show="hayMasOrdenes" style="padding:16px;text-align:center">
-              <button class="btn-sm btn-ghost" @click="verMas()" x-text="'Ver más (' + (totalFiltradas - ordenesFiltradas.length) + ' restantes)'"></button>
+            <div x-show="_filtradas().length > pagina * 100" style="padding:16px;text-align:center">
+              <button class="btn-sm btn-ghost" @click="pagina++" x-text="'Ver más (' + (_filtradas().length - pagina * 100) + ' restantes)'"></button>
             </div>
           </div>
         </div>
@@ -1678,34 +1677,20 @@ function uvDashboard() {
 function uvOrdenes() {
   return {
     ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1,
-    _ultimaBusqueda: '', _ultimoFiltroE: '', _ultimoFiltroEnt: '',
-    ordenesFiltradas: [], totalFiltradas: 0, hayMasOrdenes: false,
-    _computar() {
-      const q = this.busqueda;
+    _filtradas() {
+      const q = normalize(this.busqueda);
       const fe = this.filtroEstado;
       const fent = this.filtroEntregado;
-      const todos = this.ordenes;
-      if (q !== this._ultimaBusqueda || fe !== this._ultimoFiltroE || fent !== this._ultimoFiltroEnt) {
-        this.pagina = 1;
-        this._ultimaBusqueda = q;
-        this._ultimoFiltroE = fe;
-        this._ultimoFiltroEnt = fent;
-      }
-      const qn = normalize(q);
-      const f = todos.filter(o => {
-        const matchQ = !qn || normalize(o.producto).includes(qn) || normalize(o.clientes?.nombre).includes(qn) || normalize(o.marca).includes(qn);
-        const matchE = !fe || o.estado === fe;
-        const matchEnt = !fent || (fent === 'entregado' ? o.entregado : !o.entregado);
-        return matchQ && matchE && matchEnt;
-      });
-      this.totalFiltradas = f.length;
-      this.hayMasOrdenes = f.length > this.pagina * 100;
-      this.ordenesFiltradas = f.slice(0, this.pagina * 100);
+      return this.ordenes.filter(o =>
+        (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
+        (!fe || o.estado === fe) &&
+        (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
+      );
     },
     async init() {
       await this.cargar();
       document.addEventListener('recargar-ordenes', () => this.cargar());
-      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; this._computar(); } });
+      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; } });
     },
     async cargar() {
       this.loading = true; this.errorMsg = '';
@@ -1716,11 +1701,9 @@ function uvOrdenes() {
           o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
         }
         this.ordenes = data;
-        this._computar();
       } catch(e) { this.errorMsg = e.message || String(e); }
       finally { this.loading = false; }
     },
-    verMas() { this.pagina++; this._computar(); },
     verOrden(id) {
       _verOrdenId = id; _detalleBack = 'ordenes';
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
