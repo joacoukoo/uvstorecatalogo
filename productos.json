@@ -32793,6 +32793,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "kikyo-mp4xjzac",
+        "n": "Kikyo",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375826/_2026-05-13_184159_440__02817.1778669198.jpg",
+        "franquicia": "Anime",
+        "marca": "Exorcism Studio × MIMO Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375826/_2026-05-13_184159_440__02817.1778669198.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375825/_2026-05-13_184203_814__22654.1778669188.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375828/_2026-05-13_184209_899__51733.1778669189.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375829/_2026-05-13_184205_749__99196.1778669190.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375830/_2026-05-13_184207_983__10138.1778669190.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375827/_2026-05-13_184211_869__18249.1778669195.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium 1:6 de Kikyo que captura la esencia mágica del personaje con increíble detalle artístico. Colaboración exclusiva entre Exorcism Studio y MIMO Studio que presenta una escultura magistral con efectos de luz azul y vegetación natural. Una obra maestra para los coleccionistas más exigentes que buscan auténtica calidad y artisticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 30-35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: acabado premium con detalles hand-painted"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: temática con elementos naturales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Kikyo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con elementos naturales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos luminosos integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos adicionales"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-14",
+        "reserva": "960",
+        "entrega": "Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "scare-glow-legends-moxk5k76",
         "n": "Scare Glow Legends",
         "i": "https://www.sideshow.com/storage/product-images/915469/tweeterhead-masters-of-the-universe-scare-glow-legends-maquette-gallery-69fb9f4bef07d.jpg",
