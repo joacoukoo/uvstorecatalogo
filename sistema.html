@@ -1673,12 +1673,12 @@ function uvDashboard() {
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
-    ordenes: [], ordenesMostradas: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '',
-    _aplicarFiltros() {
+    ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '',
+    get ordenesMostradas() {
       const q = normalize(this.busqueda);
       const fe = this.filtroEstado;
       const fent = this.filtroEntregado;
-      this.ordenesMostradas = this.ordenes.filter(o =>
+      return this.ordenes.filter(o =>
         (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
         (!fe || o.estado === fe) &&
         (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
@@ -1686,9 +1686,6 @@ function uvOrdenes() {
     },
     init() {
       this.cargar();
-      this.$watch('busqueda', () => this._aplicarFiltros());
-      this.$watch('filtroEstado', () => this._aplicarFiltros());
-      this.$watch('filtroEntregado', () => this._aplicarFiltros());
       document.addEventListener('recargar-ordenes', () => this.cargar());
       document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.filtroEstado = ''; this.filtroEntregado = ''; } });
     },
@@ -1701,7 +1698,6 @@ function uvOrdenes() {
           o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
         }
         this.ordenes = data;
-        this._aplicarFiltros();
       } catch(e) { this.errorMsg = e.message || String(e); }
       finally { this.loading = false; }
     },
