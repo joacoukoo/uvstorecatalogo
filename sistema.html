@@ -513,7 +513,6 @@ button,a{touch-action:manipulation;cursor:pointer}
           </select>
         </div>
         <div class="card">
-          <div style="padding:4px 12px;font-size:11px;color:yellow;background:#333">debug: loading=<span x-text="loading"></span> | _todos=<span x-text="_todos.length"></span> | lista=<span x-text="lista.length"></span></div>
           <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
           <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
           <div x-show="!loading">
@@ -568,6 +567,9 @@ button,a{touch-action:manipulation;cursor:pointer}
                   </template>
                 </tbody>
               </table>
+            <div x-show="lista.length >= _limite" style="padding:12px 16px;text-align:center;border-top:1px solid var(--border)">
+              <button class="btn-sm btn-ghost" @click="_limite += 100" style="font-size:13px">Ver más órdenes...</button>
+            </div>
             </div>
           </div>
         </div>
@@ -1677,7 +1679,7 @@ function uvDashboard() {
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
-    _todos: [],
+    _todos: [], _limite: 100,
     loading: true, errorMsg: '',
     busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null,
 
@@ -1689,7 +1691,7 @@ function uvOrdenes() {
         (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
         (!fe || o.estado === fe) &&
         (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
-      );
+      ).slice(0, this._limite);
     },
 
     init() {
@@ -1699,6 +1701,7 @@ function uvOrdenes() {
         this.busqueda = '';
         this.filtroEstado = '';
         this.filtroEntregado = '';
+        this._limite = 100;
       });
       this.cargar();
     },
