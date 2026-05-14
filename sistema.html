@@ -514,11 +514,11 @@ button,a{touch-action:manipulation;cursor:pointer}
 <div class="card">
 <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
           <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
-          <div x-show="!loading && ordenes.length===0" class="empty">
+          <div x-show="!loading && ordenesMostradas.length===0" class="empty">
             <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
             <p>No hay órdenes</p>
           </div>
-          <div x-show="!loading && ordenes.length>0" style="overflow-x:auto">
+          <div x-show="!loading && ordenesMostradas.length>0" style="overflow-x:auto">
             <table class="table tbl-ordenes">
               <thead>
                 <tr>
@@ -533,8 +533,8 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </tr>
               </thead>
               <tbody>
-                <template x-for="o in ordenes" :key="o.id">
-                  <tr x-show="rowVisible(o, busqueda, filtroEstado, filtroEntregado)">
+                <template x-for="o in ordenesMostradas" :key="o.id">
+                  <tr>
                     <td>
                       <div style="display:flex;align-items:center;gap:6px">
                         <span x-show="!o.pedida_proveedor && !o.entregado" title="Sin pedir al proveedor"
@@ -1673,17 +1673,24 @@ function uvDashboard() {
 // ── ÓRDENES LIST ──────────────────────────────────────────────────────
 function uvOrdenes() {
   return {
-    ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1,
-    rowVisible(o, q, fe, fent) {
-      const qn = normalize(q);
-      return (!qn || normalize(o.producto).includes(qn) || normalize(o.clientes?.nombre).includes(qn) || normalize(o.marca).includes(qn))
-        && (!fe || o.estado === fe)
-        && (!fent || (fent === 'entregado' ? o.entregado : !o.entregado));
+    ordenes: [], ordenesMostradas: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '',
+    _aplicarFiltros() {
+      const q = normalize(this.busqueda);
+      const fe = this.filtroEstado;
+      const fent = this.filtroEntregado;
+      this.ordenesMostradas = this.ordenes.filter(o =>
+        (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
+        (!fe || o.estado === fe) &&
+        (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
+      );
     },
-    async init() {
-      await this.cargar();
+    init() {
+      this.cargar();
+      this.$watch('busqueda', () => this._aplicarFiltros());
+      this.$watch('filtroEstado', () => this._aplicarFiltros());
+      this.$watch('filtroEntregado', () => this._aplicarFiltros());
       document.addEventListener('recargar-ordenes', () => this.cargar());
-      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.pagina = 1; } });
+      document.addEventListener('go-to', (e) => { if (e.detail === 'ordenes') { this.busqueda = ''; this.filtroEstado = ''; this.filtroEntregado = ''; } });
     },
     async cargar() {
       this.loading = true; this.errorMsg = '';
@@ -1694,6 +1701,7 @@ function uvOrdenes() {
           o._saldo = (o.precio_venta_gtq || 0) - o._abonado;
         }
         this.ordenes = data;
+        this._aplicarFiltros();
       } catch(e) { this.errorMsg = e.message || String(e); }
       finally { this.loading = false; }
     },
