@@ -514,11 +514,11 @@ button,a{touch-action:manipulation;cursor:pointer}
 <div class="card">
 <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
           <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
-          <div x-show="!loading && _filtradas(ordenes, busqueda, filtroEstado, filtroEntregado).length===0" class="empty">
+          <div x-show="!loading && ordenes.length===0" class="empty">
             <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
             <p>No hay órdenes</p>
           </div>
-          <div x-show="!loading && _filtradas(ordenes, busqueda, filtroEstado, filtroEntregado).length>0" style="overflow-x:auto">
+          <div x-show="!loading && ordenes.length>0" style="overflow-x:auto">
             <table class="table tbl-ordenes">
               <thead>
                 <tr>
@@ -533,8 +533,8 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </tr>
               </thead>
               <tbody>
-                <template x-for="o in _filtradas(ordenes, busqueda, filtroEstado, filtroEntregado).slice(0, pagina * 100)" :key="o.id">
-                  <tr>
+                <template x-for="o in ordenes" :key="o.id">
+                  <tr x-show="rowVisible(o, busqueda, filtroEstado, filtroEntregado)">
                     <td>
                       <div style="display:flex;align-items:center;gap:6px">
                         <span x-show="!o.pedida_proveedor && !o.entregado" title="Sin pedir al proveedor"
@@ -565,9 +565,6 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </template>
               </tbody>
             </table>
-            <div x-show="_filtradas(ordenes, busqueda, filtroEstado, filtroEntregado).length > pagina * 100" style="padding:16px;text-align:center">
-              <button class="btn-sm btn-ghost" @click="pagina++" x-text="'Ver más (' + (_filtradas(ordenes, busqueda, filtroEstado, filtroEntregado).length - pagina * 100) + ' restantes)'"></button>
-            </div>
           </div>
         </div>
       </div>
@@ -1677,13 +1674,11 @@ function uvDashboard() {
 function uvOrdenes() {
   return {
     ordenes: [], loading: true, busqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null, errorMsg: '', pagina: 1,
-    _filtradas(todos, busqueda, filtroEstado, filtroEntregado) {
-      const q = normalize(busqueda);
-      return (todos || []).filter(o =>
-        (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
-        (!filtroEstado || o.estado === filtroEstado) &&
-        (!filtroEntregado || (filtroEntregado === 'entregado' ? o.entregado : !o.entregado))
-      );
+    rowVisible(o, q, fe, fent) {
+      const qn = normalize(q);
+      return (!qn || normalize(o.producto).includes(qn) || normalize(o.clientes?.nombre).includes(qn) || normalize(o.marca).includes(qn))
+        && (!fe || o.estado === fe)
+        && (!fent || (fent === 'entregado' ? o.entregado : !o.entregado));
     },
     async init() {
       await this.cargar();
