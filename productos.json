@@ -32898,6 +32898,100 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "michael-myers-freddy-krueger-head-jar-mpdlxd8q",
+        "n": "Michael Myers & Freddy Krueger Head Jar",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376650/_2026-05-15_200007_962__78906.1778848122.jpg",
+        "franquicia": "Otros",
+        "marca": "3109 Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376650/_2026-05-15_200007_962__78906.1778848122.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376648/_2026-05-15_200000_918__16668.1778848062.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376651/_2026-05-15_195953_292__00823.1778848073.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376652/_2026-05-15_200006_049__81714.1778848127.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376656/_2026-05-15_195957_160__70100.1778848128.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376649/_2026-05-15_200004_092__58895.1778848062.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376653/_2026-05-15_195954_777__60111.1778848062.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Coleccionable de lujo que reúne dos iconos del terror en una presentación espectacular. Cada cabeza está meticulosamente esculpida en escala 1:4 y encapsulada en cilindros acrílicos iluminados con bases metálicas ornamentales, creando un display de museo digno de verdaderos aficionados al horror. Edición limitada a solo 88 unidades mundiales que captura la esencia aterradora de Michael Myers y Freddy Krueger con detalles fotorrealistas y tecnología LED integrada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 18.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 18.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada de alta calidad y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Iluminación LED integrada en cada cilindro acrílico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de entrega: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Michael Myers esculpido en escala 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Freddy Krueger esculpido en escala 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos cilindros acrílicos con iluminación LED integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos bases metálicas decorativas ornamentales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cables de alimentación para iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Presentación en conjunto de coleccionista premium"
+          },
+          {
+            "t": "notion-text",
+            "x": "El precio es por cada uno."
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-20",
+        "reserva": "560",
+        "entrega": "Q4 2026",
+        "cantidad": "3"
+      },
+      {
         "id": "kikyo-mp4xjzac",
         "n": "Kikyo",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18270/375826/_2026-05-13_184159_440__02817.1778669198.jpg",
