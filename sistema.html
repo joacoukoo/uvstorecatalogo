@@ -1952,7 +1952,12 @@ function uvNuevaOrden() {
           const c = this.clientes.find(c => c.id === o.cliente_id);
           if (c) this.clienteBusqueda = c.nombre;
         }
+        // Si el valor guardado difiere del calculado, fue un override manual
+        if (Math.abs((o.aduana||0) - this.aduanaCalc) > 0.001) this.aduanaManual = true;
+        if (Math.abs((o.arancel||0) - this.arancelCalc) > 0.001) this.arancelManual = true;
       }
+      this.$watch('aduanaCalc', val => { if (!this.aduanaManual) this.form.aduana = val; });
+      this.$watch('arancelCalc', val => { if (!this.arancelManual) this.form.arancel = val; });
     },
     async crearCliente() {
       if (!this.nuevoClienteForm.nombre.trim()) { alert('El nombre es obligatorio'); return; }
