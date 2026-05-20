@@ -1907,6 +1907,7 @@ function uvClientes() {
 function uvNuevaOrden() {
   return {
     clientes: [], guardando: false, abonoInicial: 0,
+    aduanaManual: false, arancelManual: false,
     clienteBusqueda: '', mostrarClienteOpts: false,
     modalNuevoCliente: false, nuevoClienteForm: { nombre: '', whatsapp: '' }, guardandoCliente: false,
     form: {
@@ -1935,7 +1936,7 @@ function uvNuevaOrden() {
     },
     get costoEstimado() {
       const f = this.form;
-      return (f.precio_original||0) + (f.envio||0) + (f.envio_mbe||0) + (f.impuesto||0) + this.aduanaCalc + this.arancelCalc;
+      return (f.precio_original||0) + (f.envio||0) + (f.envio_mbe||0) + (f.impuesto||0) + (f.aduana||0) + (f.arancel||0);
     },
     get gananciaEstimada() {
       return this.precioVentaUSDCalc - this.costoEstimado;
