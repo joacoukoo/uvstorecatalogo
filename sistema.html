@@ -866,7 +866,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </label>
                 <input class="form-input" type="number" step="0.01" style="font-size:16px"
                   x-model.number.lazy="form.aduana"
-                  @change="aduanaManual=true">
+                  @change="if (form.aduana !== aduanaCalc) aduanaManual = true">
               </div>
               <div>
                 <label class="form-label" style="display:flex;align-items:center;gap:6px">
@@ -877,7 +877,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </label>
                 <input class="form-input" type="number" step="0.01" style="font-size:16px"
                   x-model.number.lazy="form.arancel"
-                  @change="arancelManual=true">
+                  @change="if (form.arancel !== arancelCalc) arancelManual = true">
               </div>
             </div>
             <div class="form-row-1">
