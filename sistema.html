@@ -2020,8 +2020,6 @@ function uvNuevaOrden() {
       if (!this.form.producto.trim()) { alert('El producto es obligatorio'); return; }
       this.guardando = true;
       try {
-        this.form.aduana = this.aduanaCalc;
-        this.form.arancel = this.arancelCalc;
         this.form.precio_venta_usd = this.precioVentaUSDCalc;
         const saved = await dbSaveOrden(this.form);
         if (!this.form.id && this.abonoInicial > 0) {
