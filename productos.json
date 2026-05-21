@@ -10492,6 +10492,79 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "rotta-the-hutt-mpezqeqa",
+        "n": "Rotta The Hutt™",
+        "i": "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd4733374.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd4733374.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-scale-6a0dcf91b7c9c.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd47b31ba.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd483bac0.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd48b7666.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd494214d.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd49c0ed8.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd4a45b1b.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd4ac2504.jpg",
+          "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd4b49e56.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Posee una increíble escultura de cabeza con ojos rodantes móviles y expresión cinematográfica del personaje de Star Wars: The Mandalorian & Grogu. Su cuerpo especializado de vinilo suave ofrece 10 puntos de articulación para crear múltiples poses dinámicas y detalladas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinilo suave con detalles en resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 10 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye brazos y manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de brazos intercambiables (rectos y doblados)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 manos intercambiables (relajadas y para sostener hacha)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 hachas de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de display"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "740",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "queen-amidala-mpevyi4q",
         "n": "Queen Amidala",
         "i": "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb53b6f69.jpg",
