@@ -10492,6 +10492,83 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "queen-amidala-mpevyi4q",
+        "n": "Queen Amidala",
+        "i": "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb53b6f69.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb53b6f69.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-scale-6a0dccd41601b.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb54388d5.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb548db31.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb54e428e.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb5549dea.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb55a217a.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb5628b51.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb569ef87.jpg",
+          "https://www.sideshow.com/storage/product-images/915687/hot-toys-star-wars-queen-amidala-sixth-scale-figure-gallery-6a0dcb5703e55.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la majestuosidad de la Reina Amidala con esta figura de colección premium de Hot Toys a escala 1:6, featuring un escultura de cabeza ultra detallada con ojos móviles y expresión cinematográfica. El atuendo del Salón del Trono brilla con detalles bordados y función LED integrada, capturando la elegancia y poder de Natalie Portman en Star Wars: La Amenaza Fantasma."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado con 28 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza de silicona con ojos rodantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peluca y tocado real de Naboo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje del Salón del Trono rojo con ribete de piel sintética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tocado Real de Naboo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos de tacón rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición con logo de Star Wars"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "700",
+        "entrega": "Sep. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "roronoa-zoro-sixth-scale-figure-by-jimei-palace-mpdm47g3",
         "n": "Roronoa Zoro Sixth Scale Figure by Jimei Palace",
         "i": "https://www.sideshow.com/storage/product-images/915681/jimei-palace-one-piece-roronoa-zoro-sixth-scale-figure-gallery-6a07938b0bdfe.jpg",
