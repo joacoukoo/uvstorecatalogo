@@ -10492,6 +10492,99 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "imperial-remnant-at-at-driver-mpf01b1f",
+        "n": "Imperial Remnant AT-AT Driver™",
+        "i": "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc6ff496f9.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc6ff496f9.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-scale-6a0dc8fac873a.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc6ffc1bf4.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc700211e6.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc70075a0a.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc700cb5a8.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc702a359d.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc70304a99.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc72676a0f.jpg",
+          "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc726ccb2e.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la precisión militar del Imperio Galáctico con esta figura coleccionable de escala 1:6 del Imperial Remnant AT-AT Driver de Hot Toys. Con detalles auténticos, efectos de desgaste realistas y 30 puntos de articulación, esta figura de 30 cm captura la esencia del soldado de élite visto en Star Wars: The Mandalorian & Grogu. Incluye múltiples manos intercambiables, armadura completamente equipada y armas oficial para completar tu colección premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Efectos de desgaste auténtico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con casco del AT-AT Driver"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de vuelo gris claro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura blanca con dispositivo respiratorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario blanco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blancas y grises"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola SE-14r"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle E-11"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de figura con logo Star Wars"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "640",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "clone-commando-fixer-mpeztzao",
         "n": "Clone Commando Fixer™",
         "i": "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51aa77f1.jpg",
