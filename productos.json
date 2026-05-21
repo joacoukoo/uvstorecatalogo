@@ -864,12 +864,9 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/mirage-dlx",
         "marca": "Threezero",
         "escala": "20CM",
-        "estado": "Sellado",
-        "disp": "Entrega Inmediata",
+        "estado": "",
+        "disp": "Vendido",
         "precio": "2600",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
@@ -972,8 +969,6 @@
             "x": "Accesorios adicionales para expandir opciones de display"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Otros",
         "destacado": false,
         "oferta": false,
@@ -988,7 +983,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913632/mirage-dlx_transformers_gallery_669fe7659f147.jpg"
         ],
         "id": "mirage-dlx",
-        "added_at": "2026-04-05T19:47:22.893Z"
+        "added_at": "2026-04-05T19:47:22.893Z",
+        "agotado_r": true,
+        "agotado_d": true
       },
       {
         "n": "ROBO-DOU Ingram Unit 1 – Reactive Armor Version",
