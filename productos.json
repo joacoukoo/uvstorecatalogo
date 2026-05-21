@@ -10492,6 +10492,107 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "clone-commando-fixer-mpeztzao",
+        "n": "Clone Commando Fixer™",
+        "i": "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51aa77f1.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51aa77f1.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-scale-6a0dd6a0aae3f.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51b2e419.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51b81bff.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51bd6004.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51c37275.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51c8a9b5.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51cde9ec.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51d3eaa6.jpg",
+          "https://www.sideshow.com/storage/product-images/914435/hot-toys-star-wars-clone-commando-fixer-sixth-scale-figure-gallery-6a0dd51db4df7.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la galaxia con el Clone Commando Fixer™, una figura de colección premium de Hot Toys que captura cada detalle de este elite soldado clon de Star Wars: The Clone Wars. Con su armadura verde y blanca con efectos de desgaste, visor LED iluminado en azul y 30 puntos de articulación, esta pieza limitada a 2,500 unidades es imprescindible para cualquier coleccionista serio."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico, tela, metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 2,500 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza casco intercambiable con luz LED azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura Clone Commando completa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 hombreras intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje base en tela negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blancas con desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle blaster DC-17m ICWS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blaster secundario DC-15s"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Módulo de comunicaciones magnético"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mochila magnética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte con logo Star Wars"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "640",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "rotta-the-hutt-mpezqeqa",
         "n": "Rotta The Hutt™",
         "i": "https://www.sideshow.com/storage/product-images/915688/hot-toys-star-wars-rotta-the-hutt-sixth-scale-figure-gallery-6a0dcd4733374.jpg",
