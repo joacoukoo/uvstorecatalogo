@@ -33469,6 +33469,77 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mpg5iqis",
+        "n": "Asuka",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2a9bfc4969889948a71fae5c2903aa8dLarge.jpg?v=1779365014",
+        "franquicia": "Anime",
+        "marca": "Jijing Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2a9bfc4969889948a71fae5c2903aa8dLarge.jpg?v=1779365014",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/80d0402ab1ef6ba48b035765ba894fa7Large.jpg?v=1779365014",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/27b5110ba4587360980d73c7100f0777.jpg?v=1779364981",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/aac5127c75cd108d4b4a67a8ee34ec3cLarge.jpg?v=1779365014",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/584ea5bc9f17828ce69e28ef1f075ad8Large.jpg?v=1779365013",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/dd1c990e1b7d1ab3ffdaa8c390b9f719Large.jpg?v=1779365013",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6eab57f75056e2d1e6be81a1cbe35a27Large.jpg?v=1779365013",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/50434f24529233be65fe7291703c43eeLarge.jpg?v=1779365014"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Asuka en su icónico atuendo de performance, capturada en un momento de máxima energía sobre el escenario. Pieza limitada de 100 unidades que combina detalles exquisitos con una presencia escénica envolvente, perfecta para coleccionistas de Neon Genesis Evangelion."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 100 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Asuka"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de escenario con amplificadores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de micrófono y equipo musical"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "740",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "hellboy-mpfz4r51",
         "n": "Hellboy",
         "i": "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de674ca5ed.jpg",
