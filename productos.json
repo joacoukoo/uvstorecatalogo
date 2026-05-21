@@ -10492,6 +10492,99 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "battle-droid-and-stap-mpf05g8l",
+        "n": "Battle Droid and STAP™",
+        "i": "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd26448f8b.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd26448f8b.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-scale-6a0dd3fa45844.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd264c1d19.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd265276cd.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd265801b2.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd265d6e63.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd2665e24f.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd266d5294.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd26739e16.jpg",
+          "https://www.sideshow.com/storage/product-images/915690/hot-toys-star-wars-battle-droid-stap-sixth-scale-figure-accessory-gallery-6a0dd26791200.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la batalla de Naboo con este espectacular set de Hot Toys que incluye el icónico Battle Droid y su STAP con luces LED. Con 26 puntos de articulación, accesorios detallados y efectos de desgaste auténticos, esta es la pieza definitiva para coleccionistas de Star Wars."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Battle Droid: 32 cm (de pie) / 14 cm (modo compacto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura STAP con base: 43 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo mecánico pintado a mano con efectos de envejecimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 26 puntos en Battle Droid"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Turbinas con iluminación LED (luz naranja)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Battle Droid articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "STAP con luces LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle E-5 blaster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Set de antenas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paquete comlink con antenas extensibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Binoculares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "640",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "imperial-remnant-at-at-driver-mpf01b1f",
         "n": "Imperial Remnant AT-AT Driver™",
         "i": "https://www.sideshow.com/storage/product-images/915299/hot-toys-star-wars-imperial-remnant-at-at-driver-sixth-scale-figure-gallery-6a0dc6ff496f9.jpg",
