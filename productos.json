@@ -33472,6 +33472,79 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "hellboy-mpfz4r51",
+        "n": "Hellboy",
+        "i": "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de674ca5ed.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Gecco Corp",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de674ca5ed.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-scale-6a0de67a0fa50.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de67529482.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de67582717.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de675d8576.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de676392cc.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de6769380d.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de676e5fca.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de677464b5.jpg",
+          "https://www.sideshow.com/storage/product-images/915691/gecco-co-hellboy-hellboy-statue-gallery-6a0de6779b1d4.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la presencia imposente de Hellboy con esta estatua de colección premium 1:6 de Gecco Corp. Cada detalle está meticulosamente elaborado, desde su característico brazo rojo demoníaco hasta su atuendo de cazador de paranormales, capturando la esencia del icónico personaje. Una pieza imprescindible para los devotos coleccionistas de figuras de alta gama."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Gecco Corp"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Hellboy 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Revólver accesorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con calavera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "960",
+        "entrega": "Dic. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "the-mandalorian-fine-art-bust-mpfy2xuq",
         "n": "The Mandalorian Fine Art Bust",
         "i": "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21afe7aaa.jpg",
