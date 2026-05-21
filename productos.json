@@ -457,7 +457,7 @@
         "franquicia": "Marvel",
         "marca": "Hot Toys",
         "escala": "1:6",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "estado": "Nuevo",
         "precio": "3500",
         "fotos": [
@@ -533,7 +533,7 @@
         "agotado_d": false,
         "added_at": "2026-04-08",
         "precio_orig": "4200",
-        "cantidad": "1"
+        "cantidad": "0"
       },
       {
         "n": "Armored Batman (2.0)",
