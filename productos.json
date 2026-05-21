@@ -7996,12 +7996,9 @@
         "marca": "Mattel",
         "escala": "15CM - 20CM",
         "estado": "Nuevo",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "1050",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -8024,8 +8021,6 @@
             "x": "She-Ra: capa de tela, escudo yEspada de ProtecciónSwift Wind: armadura removible y alas intercambiables"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Otros",
         "destacado": false,
         "oferta": false,
@@ -8039,7 +8034,9 @@
           "https://cdn.shopify.com/s/files/1/0568/1132/3597/files/y0qedhabwh7p5e1z31q1.jpg?v=1763511696",
           "https://cdn.shopify.com/s/files/1/0568/1132/3597/files/fpj1rsglalxwovovyht5.jpg?v=1763511696"
         ],
-        "id": "she-ra-swiftwind-origins-2-pack"
+        "id": "she-ra-swiftwind-origins-2-pack",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Batman (1989) – Original Motion Picture Score LP & Graphic Novel Box Set",
