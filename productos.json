@@ -33472,6 +33472,71 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "the-mandalorian-fine-art-bust-mpfy2xuq",
+        "n": "The Mandalorian Fine Art Bust",
+        "i": "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21afe7aaa.jpg",
+        "franquicia": "Star Wars",
+        "marca": "PCS",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "21600",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21afe7aaa.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b04a1ea.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b09f931.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b0f39ca.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b1523e4.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b1a4638.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b20f8cb.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b26e0ce.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b2ce62d.jpg",
+          "https://www.sideshow.com/storage/product-images/915693/pcs-star-wars-the-mandalorian-fine-art-bust-gallery-6a0f21b33c5da.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Sumérgate en el universo de Star Wars con esta espectacular busto Fine Art de El Mandalorian en escala 1:6, una pieza maestra de colección que captura la esencia del cazarrecompensas más icónico de la galaxia. Exhibe detalles exquisitos en su armadura, armas y el entorno desértico de Tatooine, convirtiéndola en el centerpiece perfecto para cualquier coleccionista premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina y pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática: Desierto de Tatooine con elementos del universo Star Wars"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto oficial de Lucasfilm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura busto del Mandalorian"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con escenario temático"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios varios del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-21",
+        "reserva": "4320",
+        "entrega": "Abr. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "michael-myers-freddy-krueger-head-jar-mpdlxd8q",
         "n": "Michael Myers & Freddy Krueger Head Jar",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18307/376650/_2026-05-15_200007_962__78906.1778848122.jpg",
