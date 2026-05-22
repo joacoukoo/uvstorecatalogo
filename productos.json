@@ -33469,6 +33469,73 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "white-bomber-bomberman-mph0gyc9",
+        "n": "White Bomber Bomberman",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18401/379029/2026-05-22_17.49.43__03293.1779443447.png",
+        "franquicia": "Gaming",
+        "marca": "Dreammaker Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "159",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18401/379029/2026-05-22_17.49.43__03293.1779443447.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18401/379030/2026-05-22_17.49.53__22671.1779443446.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18401/379028/2026-05-22_17.49.48__30578.1779443420.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17944/367903/2026-04-20_16.03.14__82647.1776672474.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una obra maestra coleccionable que captura la esencia explosiva del icónico Bomberman en su versión White Bomber. Esta figura premium de Dreammaker Studio combina un esculpido extraordinariamente detallado con pintura de calidad museo y efectos de luz LED dinámicos que recrean el momento de máxima acción. Imprescindible para coleccionistas de gaming clásico y figuras de alta gama, edición limitada a solo 128 piezas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina PU con pintura acrílica de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones : 50 H x 39 D x 50 W cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye sistemas LED integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de White Bomber"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con efectos de energía luminosa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema LED integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-22",
+        "reserva": "32",
+        "entrega": "Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "rocky-over-drago-through-the-ropes-mpgfoypx",
         "n": "Rocky Over Drago: Through the Ropes",
         "i": "https://www.sideshow.com/storage/product-images/915694/sly-stallone-shop-rocky-rocky-over-drago-through-the-ropes-1-10-scale-statues-gallery-6a0f7a67a449a.jpg",
