@@ -33469,6 +33469,76 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "jean-kirstein-mpg93ygq",
+        "n": "Jean Kirstein",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378643/_2026-05-21_153739_580__11103.1779349355.jpg",
+        "franquicia": "Anime",
+        "marca": "CHIKARA Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3100",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378643/_2026-05-21_153739_580__11103.1779349355.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378641/_2026-05-21_153741_127__16164.1779349345.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378644/_2026-05-21_153737_797__00464.1779349348.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378640/_2026-05-21_153742_681__83589.1779349351.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378642/_2026-05-21_153744_024__80819.1779349353.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378637/_2026-05-21_153748_231__82447.1779349334.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18387/378638/_2026-05-21_153746_807__07936.1779349334.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la excelencia artesanal con esta estatua premium de Jean Kirstein de CHIKARA Studio. Captura cada detalle de su equipamiento táctico y expresión determinada en escala 1:6, perfecta para coleccionistas que demandan calidad superior. Un must-have para devotos de la franquicia que buscan una pieza de museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios tácticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armas de fuego"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-22",
+        "reserva": "620",
+        "entrega": "Q3-Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "asuka-mpg5iqis",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2a9bfc4969889948a71fae5c2903aa8dLarge.jpg?v=1779365014",
