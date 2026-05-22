@@ -33469,6 +33469,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "colossal-titan-mphkeryj",
+        "n": "Colossal Titan",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_b236affe-daad-4a14-a3fc-288d62c5bdca_jpg.webp?v=1689094052",
+        "franquicia": "Anime",
+        "marca": "Giant Studio",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "En caja abierta",
+        "precio": "9300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_b236affe-daad-4a14-a3fc-288d62c5bdca_jpg.webp?v=1689094052",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2_b5013f93-109f-4c28-b668-1058ef4dad97_jpg.webp?v=1689094052",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3_3d5f1402-3987-4d11-a1b0-9852dd36a1c7_jpg.webp?v=1689094053",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/4_b16f9022-f56b-4493-9545-ac7cf7614348_jpg.webp?v=1689094052",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5_a238e709-5f8e-48c8-be83-7af824d31b42_jpg.webp?v=1689094051",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6_cc37e925-b542-4bab-8601-495b9f2b711e_jpg.webp?v=1689094053",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7_cfcffc15-ee42-465a-90be-4b11bcba2d87_jpg.webp?v=1689094053"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la aterradora presencia del Titán Colosal con esta espectacular figura de colección de StatueCorp. Con luces LED integradas que iluminan sus músculos ardientes, esta obra maestra captura la devastación y el poder de uno de los personajes más icónicos del anime. Una pieza limitada que domina cualquier colección con su impresionante tamaño y detalle sin igual."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 63 cm (versión grande)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 52 cm (grande)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 38 cm (grande)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas (grande)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura del Titán Colosal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con diseño de fortaleza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-22",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "gray-fullbuster-mph7xtpk",
         "n": "Gray Fullbuster",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378932/_2026-05-22_150403_465__11288.1779436042.jpg",
