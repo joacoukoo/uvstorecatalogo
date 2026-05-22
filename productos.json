@@ -33469,6 +33469,80 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "gray-fullbuster-mph7xtpk",
+        "n": "Gray Fullbuster",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378932/_2026-05-22_150403_465__11288.1779436042.jpg",
+        "franquicia": "Anime",
+        "marca": "Sakura Studio × More Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "9600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378932/_2026-05-22_150403_465__11288.1779436042.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378931/_2026-05-22_150512_831__97599.1779436033.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378924/_2026-05-22_150433_732__73695.1779436055.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378930/_2026-05-22_150418_496__35373.1779436037.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378925/_2026-05-22_150454_509__40540.1779435964.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378926/_2026-05-22_150509_681__36351.1779435966.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18397/378927/_2026-05-22_150456_831__90440.1779435967.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Gray Fullbuster en escala 1:6 que captura magistralmente los poderes de hielo del personaje icónico de Fairy Tail. Esta obra maestra de Sakura Studio × More Studio presenta iluminación LED integrada que ilumina espectacularmente los efectos de cristal de hielo, con detalles artesanales de pintura de alta calidad que trasforman este coleccionable en una pieza de exhibición imprescindible. Su presencia escénica domina cualquier vitrina con cristales translúcidos y una base iluminada que captura la esencia glacial del mago de hielo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones base: 66 cm (ancho) × 56 cm (profundidad) × 60 cm (alto total)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU (Poliuretano) + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación: LED integrado en efectos de hielo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Período de lanzamiento estimado: Septiembre-Octubre 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Gray Fullbuster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con iluminación LED integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de hielo intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manual de instrucciones detallado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-22",
+        "reserva": "1920",
+        "entrega": "Sep-Oct 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "pokemon-alain-mph1aela",
         "n": "Pokemon Alain",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378983/_2026-05-22_154313_510__20539.1779437060.jpg",
