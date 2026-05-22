@@ -33469,6 +33469,80 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "pokemon-alain-mph1aela",
+        "n": "Pokemon Alain",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378983/_2026-05-22_154313_510__20539.1779437060.jpg",
+        "franquicia": "Anime",
+        "marca": "EMO Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8400",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378983/_2026-05-22_154313_510__20539.1779437060.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378981/_2026-05-22_154317_161__16648.1779436838.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378975/_2026-05-22_154340_179__12992.1779436802.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378976/_2026-05-22_154320_766__11399.1779436806.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378978/_2026-05-22_154332_911__78342.1779436809.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378979/_2026-05-22_154323_900__81404.1779436810.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18399/378980/_2026-05-22_154349_055__40933.1779436822.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la potencia épica de Alain y su Mega Charizard X con esta espectacular figura premium de EMO Studio que captura cada detalle con iluminación LED dinámica. Una obra maestra de colección que combina la precisión artesanal con efectos luminosos cautivadores, trayendo la batalla a la vida con realismo sin precedentes. Ideal para coleccionistas exigentes que buscan una pieza de exhibición de alto valor y calidad incomparable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura detallada con efecto metalizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación: LED incorporado dinámico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Alain y Mega Charizard X"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje protector de lujo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pokémon adicionales en diorama: Tyranitar, Metagross, Weavile, Malamar, Unfezant"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-22",
+        "reserva": "1680",
+        "entrega": "Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "white-bomber-bomberman-mph0gyc9",
         "n": "White Bomber Bomberman",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18401/379029/2026-05-22_17.49.43__03293.1779443447.png",
