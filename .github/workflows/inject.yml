@@ -8,6 +8,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: rebuild-index
+  cancel-in-progress: true
+
 jobs:
   rebuild:
     runs-on: ubuntu-latest
@@ -16,6 +20,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
