@@ -46150,6 +46150,103 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "pinguino-1992-mphrksbz",
+        "n": "Pinguino 1992",
+        "i": "https://cdn2.bigcommerce.com/server3500/26633/products/6225/images/177203/05__49127.1778149041.490.588.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Miniwork",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1400",
+        "fotos": [
+          "https://cdn2.bigcommerce.com/server3500/26633/products/6225/images/177203/05__49127.1778149041.490.588.jpg",
+          "https://cdn2.bigcommerce.com/server3500/26633/products/6225/images/177188/25__93755.1778149025.120.150.jpg",
+          "https://cdn2.bigcommerce.com/server3500/26633/products/6225/images/177184/02__15384.1778149036.1000.1200.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la exquisita maestría artesanal de Miniwork con esta figura premium del Pingüino 1/12 MW-002, una pieza de colección que captura cada detalle del villano de Gotham con precisión excepcional. Con su abrigo de pelaje auténtico, sombrero de copa elegante y accesorios temáticos, esta figura de 15 cm es una adquisición imprescindible para coleccionistas exigentes de DC Comics. Articulations versátiles y pintura manual de alta calidad garantizan una presencia espectacular en cualquier vitrina de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina con accesorios textiles de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 18 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Pintada a mano especializada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: No especificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con pintura manual detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Seis (6) pares de manos intercambiables (manos relajadas, manos enguantadas relajadas, manos enguantadas en posición)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo negro con cuello de pelaje sintético marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Body blanco roto con babero y corbata"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sombrero de copa negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cigarrillo con boquilla plateada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paraguas con marco de acero movible blanco y negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pez medio consumido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) figuras de pingüino emperador con cohetes en la espalda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "280",
+        "cantidad": "2"
+      },
+      {
         "id": "adonis-creed-mphnlfkt",
         "n": "Adonis Creed",
         "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/7_fdb44e5a-7f47-4004-99a8-0d039d1c7683.jpg?v=1778832014",
