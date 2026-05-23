@@ -46150,6 +46150,75 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "ghost-rider-mphrv0ta",
+        "n": "Ghost Rider",
+        "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37300/7363e19168a910f045c1f3b4b817d90f__89353.1778167276.JPG",
+        "franquicia": "Marvel",
+        "marca": "Sawtooth Studio",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1400",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37300/7363e19168a910f045c1f3b4b817d90f__89353.1778167276.JPG",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37295/3a5b49baa73638f86d6bad7780b03375__65403.1778167276.JPG",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37298/1219e76935d3ded499beb243a8dde4f4__57908.1778167276.JPG",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37292/52bee7d091c5e8a894c1db67a5d66bce__45310.1778167275.JPG",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37297/9665ee21d29137e4e491b56c83870338__79939.1778167276.JPG",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37296/a5f718d31b6b66028c073bef05138c72__06235.1778167276.JPG?c=2?imbypass=on"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la ciudad nocturna con el Flame Head Knight, una figura articulada de 1/12 escala que combina un diseño futurista con cabezas intercambiables luminosas. Este personaje premium cuenta con múltiples accesorios de combate y poses dinámicas para coleccionistas exigentes que buscan calidad superior."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado con detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: 3 piezas (llama luminosa boca abierta, llama luminosa boca cerrada, estilo cartoon)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ropa completa: Top, pantalones, ropa interior y zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pares de manos intercambiables (empuñadura de arma, señalando, postura relajada, puño cerrado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cadena"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Muleta/bastón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Martillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 cabezas con llama luminosa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "280",
+        "entrega": "Q3 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "pinguino-1992-mphrksbz",
         "n": "Pinguino 1992",
         "i": "https://cdn2.bigcommerce.com/server3500/26633/products/6225/images/177203/05__49127.1778149041.490.588.jpg",
