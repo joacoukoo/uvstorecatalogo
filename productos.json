@@ -10486,6 +10486,82 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "michael-jordan-the-last-shot-mphsr65l",
+        "n": "Michael Jordan (The Last Shot)",
+        "i": "https://www.bombusbee.net/wp-content/uploads/2026/04/08_ENTERBAY-Masterpiece-8.jpg",
+        "franquicia": "Otros",
+        "marca": "Enterbay",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4500",
+        "fotos": [
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/08_ENTERBAY-Masterpiece-8.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/01_ENTERBAY-Masterpiece-1.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/02_ENTERBAY-Masterpiece-2.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/03_ENTERBAY-Masterpiece-3.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/04_ENTERBAY-Masterpiece-4.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/05_ENTERBAY-Masterpiece-5.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/06_ENTERBAY-Masterpiece-6.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/07_ENTERBAY-Masterpiece-7.jpg",
+          "https://www.bombusbee.net/wp-content/uploads/2026/04/09_ENTERBAY-Masterpiece-9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium ENTERBAY RM-1058 en escala 1/6 con un nivel de detalle extraordinario que captura cada aspecto del icónico uniforme rojo de los Bulls. Totalmente articulada y poseable, perfecta para coleccionistas que buscan la máxima calidad y realismo en sus figuras de acción."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: resina y tela de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones múltiples para poseado dinámico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles hand-painted de alta precisión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uniforme completo de los Bulls"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazaletes deportivos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatillas deportivas de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "900",
+        "entrega": "3Q 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "faramir-mphpdo5w",
         "n": "Faramir",
         "i": "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b45bbbf0.jpg",
