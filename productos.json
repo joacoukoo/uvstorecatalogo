@@ -33743,6 +33743,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "goku-tribute-akira-toriyama-mpigtdv5",
+        "n": "Goku Tribute Akira Toriyama",
+        "i": "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035702_8_3885.jpg?v=1761320423",
+        "franquicia": "Anime",
+        "marca": "ERA Studio",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035702_8_3885.jpg?v=1761320423",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035703_9_3885.jpg?v=1761320423",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035659_5_3885.jpg?v=1761320423",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035700_6_3885.jpg?v=1761320423",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035701_7_3885.jpg?v=1761320423",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035704_10_3885.jpg?v=1761320423",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035705_11_3885.jpg?v=1761320423",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035706_12_3885.jpg?v=1761320423"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Tributo premium a Akira Toriyama presentado por ERA Studio: una estatua monumental de Goku de 33 cm de altura que captura la esencia del legendario creador de Dragon Ball. Con dos cabezas intercambiables y una base temática con flores de cerezo, esta edición limitada a 400 piezas es un homenaje definitivo para coleccionistas devotos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 400 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos cabezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con flores de cerezo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de lápida conmemorativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "cantidad": "1"
+      },
+      {
         "id": "the-last-of-us-bloater-regular-mphr5kfz",
         "n": "The Last of Us - Bloater (Regular)",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BLOATER-REG-SCALE_TILES.png?v=1779499749",
