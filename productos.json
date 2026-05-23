@@ -33469,6 +33469,68 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "armored-titan-mphl5l5a",
+        "n": "Armored Titan",
+        "i": "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/4A00F05E-974B-4F4E-A1C7-AF5F4C0FF0FB.jpg?v=1742337219",
+        "franquicia": "Anime",
+        "marca": "Model Power Studio",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "En caja abierta",
+        "precio": "6200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/4A00F05E-974B-4F4E-A1C7-AF5F4C0FF0FB.jpg?v=1742337219",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/409BFE44-8EC2-439D-BBDE-3BACECF97A38.jpg?v=1742337219",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/811A3530-3711-412B-802E-22CA491559B0.jpg?v=1742337219",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/799FE5D6-D22C-49C9-8733-3ACD18F115F7.jpg?v=1742337219",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/90DF325E-8517-49C3-8ED2-ABE9CA7B5CAC.jpg?v=1742337219",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/9CB97BC9-6D0B-4747-83DC-A0D47EE19710.jpg?v=1742337219",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/5D65FFBC-161C-46BC-93E5-22E4DFEE56B9.jpg?v=1742337219",
+          "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/67DEEFEF-2761-4267-A5EB-C699759AF461.jpg?v=1742337219"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con el Armored Titan de Attack on Titan Model Power Studio, una estatua de edición limitada a solo 168 piezas que captura la ferocidad y poder del Titán Acorazado en toda su gloria. Con dimensiones monumentales de 35cm de largo x 40cm de ancho x 34cm de altura, esta obra maestra en resina ofrece un nivel de detalle y presencia que solo las figuras premium pueden lograr."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 34 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 35cm (L) x 40cm (W) x 34cm (H)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 168 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Model Power Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama de roca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de impacto y batalla"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "majin-vegeta-mphl19t9",
         "n": "Majin Vegeta",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35113__82285.jpg?v=1716411181",
