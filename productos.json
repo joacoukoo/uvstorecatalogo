@@ -45862,6 +45862,86 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "rocky-iv-rocky-mphminjw",
+        "n": "Rocky IV Rocky",
+        "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/7_8cf8cb42-08df-49b1-95b9-ee87e438218b.jpg?v=1777017742",
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/7_8cf8cb42-08df-49b1-95b9-ee87e438218b.jpg?v=1777017742",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/5_591dd120-115a-4b4a-8296-28a66facb95d.jpg?v=1777017742",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/8_e43c42a4-75f9-451d-b9cd-eeb63cb2297e.jpg?v=1777017742",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/6_80ba4d7b-b6f9-4a92-b1fa-8dcb801e5fee.jpg?v=1777017742",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/9_6fe7320e-5795-47c0-9818-327e5d7f41ec.jpg?v=1777017742",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/3_44db115a-2185-426a-a897-ec48f5b52aa4.jpg?v=1777017741",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/4_9a5ddde6-dc42-481c-a653-7582f4ad14a2.jpg?v=1777017741",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/2_714ac50c-a9ca-40b4-bb7b-edc62addc08a.jpg?v=1777017741",
+          "https://www.hiyatoys.com/cdn/shop/files/83df74ab047a3e5cc33bcd345074316e_26f60573-3eb5-422b-97c9-72185f2ffbe3_550x.jpg?v=1777017742"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive el espíritu indomable del campeón Rocky Balboa con esta figura de colección premium HIYA Exquisite Super Series. Con una altura de 16cm y una escala 1/12, captura cada detalle de su determinación y músculos de batalla durante el épico enfrentamiento de Rocky IV. Posee 6 manos intercambiables, cabeza alternativa con heridas y accesorios de entrenamiento para recrear tus escenas legendarias favoritas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: HIYA Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ropa: Pantalones de boxeo con bandera estadounidense, guantes rojos y botas blancas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6x manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida alternativa con heridas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bata de boxeo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de ring de boxeo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Taburete de entrenamiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Torre de referencia"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "290",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "back-to-the-future-the-complete-screenplay-limited-mpg8ygf4",
         "n": "Back to the Future: The Complete Screenplay [Limited Edition] Book",
         "i": "https://www.sideshow.com/storage/product-images/915685/insight-editions-back-to-the-future-back-to-the-future-the-complete-screenplay-limited-edition-book-gallery-6a0e215295641.jpg",
