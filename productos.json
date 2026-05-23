@@ -33469,6 +33469,78 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "dr-doom-premium-format-tm-mphlrddo",
+        "n": "Dr. Doom Premium Format(TM)",
+        "i": "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b9871d0d60.jpg",
+        "franquicia": "Marvel",
+        "marca": "Sideshow ",
+        "escala": "1:4",
+        "disp": "Entrega Inmediata",
+        "estado": "En caja abierta",
+        "precio": "6000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b9871d0d60.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b986ed271d.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b98707fc88.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b9873a40be.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b987545a32.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b9876d640b.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b9878ab2f8.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_silo.png",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b986ed271d_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b98707fc88_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con esta épica figura Premium Format de Dr. Doom, el icónico villano de Marvel. Con un detalle meticuloso en su armadura plateada, capa verde y máscara característica, esta pieza de lujo captura la esencia del Señor de Latveria. Sideshow garantiza tu satisfacción con devoluciones sin complicaciones en 30 días y envío mundial rápido."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aprox. 48 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: resina, tela y accesorios de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Premium Format by Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Dr. Doom"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios variados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición"
+          },
+          {
+            "t": "notion-text",
+            "x": "El holster del arma es de cuerina porque la figura tiene varios años y está un poco deteriorado."
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "green-goblin-premium-format-mphljze3",
         "n": "Green Goblin Premium Format",
         "i": "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb3876037.jpg",
