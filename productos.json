@@ -33743,6 +33743,68 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ssj2-goku-mpihlewp",
+        "n": "SSJ2 Goku",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1422.jpg?v=1746359163",
+        "franquicia": "Anime",
+        "marca": "Infinite Studio",
+        "escala": "1:4",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "6500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1422.jpg?v=1746359163",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1426.jpg?v=1746359163",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1423.jpg?v=1746359163",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1425.jpg?v=1746359163",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1421.jpg?v=1746359163",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1424.jpg?v=1746359163",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1433.jpg?v=1746359163",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1427.jpg?v=1746359163"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica transformación de Son Goku en Super Saiyan 2 con esta espectacular figura de colección de Infinite. Capturada en su pose de batalla más legendaria, con efectos de energía eléctrica y detalles minuciosamente esculpidos que revelan toda la intensidad de este momento épico del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 53 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 500 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base Majin Vegeta (incluida en escalas 1/6 y 1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de energía Ki"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "goku-tribute-akira-toriyama-mpigtdv5",
         "n": "Goku Tribute Akira Toriyama",
         "i": "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035702_8_3885.jpg?v=1761320423",
