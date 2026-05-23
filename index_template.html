@@ -888,7 +888,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
   <div class="nav-links">
     <a id="nav-home" class="active" onclick="goHome()">Inicio</a>
     <a onclick="goCategory(0)">Entrega Inmediata</a>
-    <a onclick="goCategory(1)">Pre-Órdenes</a>
+    <a onclick="goPreOrdenes()">Pre-Órdenes</a>
     <a onclick="goCategory(2)">Estatuas</a>
     <a onclick="goCategory(3)">Escalas 1:12</a>
     <a onclick="goCategory(4)">Vitrinas</a>
@@ -990,7 +990,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
   <div class="section">
     <div class="sec-hdr"><div class="sec-meta" id="cp-count"></div></div>
     <div id="cp-filters" class="filter-row" style="margin-bottom:16px">
-      <button class="sort-btn sort-active" id="cp-sort-def" onclick="_cpSetSort('default')">Recientes</button>
+      <button class="sort-btn sort-active" id="cp-sort-def" onclick="_cpSetSort('recent')">Recientes</button>
       <button class="sort-btn" id="cp-sort-pa" onclick="_cpSetSort('price-a')">Precio ↑</button>
       <button class="sort-btn" id="cp-sort-pd" onclick="_cpSetSort('price-d')">Precio ↓</button>
       <span style="flex:1"></span>
@@ -1354,7 +1354,7 @@ function observeFadeUp(){
 
 function showPage(id){document.querySelectorAll(".page").forEach(function(p){p.classList.remove("active");});document.getElementById(id).classList.add("active");window.scrollTo(0,0);}
 function _setMnav(activeId){
-  ["mnav-home","mnav-inmediata","mnav-catalog","mnav-franq"].forEach(function(id){
+  ["mnav-home","mnav-inmediata","mnav-pre","mnav-catalog","mnav-franq"].forEach(function(id){
     var el=document.getElementById(id);if(el)el.classList.toggle("active",id===activeId);
   });
 }
@@ -1503,6 +1503,22 @@ function goOfertas(){
   showPage("cat-page");document.getElementById("nav-home").classList.remove("active");
   history.pushState({_uvNav:true},null,location.pathname+"#ofertas");
 }
+function goPreOrdenes(){
+  var prods=[];
+  CAT_KEYS.forEach(function(c){
+    (DATA[c]||{products:[]}).products.forEach(function(p){
+      if((p.disp||"").toLowerCase().indexOf("pre")>=0)prods.push({p:p,cat:c});
+    });
+  });
+  prods.sort(function(a,b){var da=a.p.added_at||"";var db=b.p.added_at||"";return da<db?1:da>db?-1:0;});
+  document.getElementById("cp-label").textContent="Catálogo";
+  document.getElementById("cp-label").style.color="#e8922a";
+  document.getElementById("cp-title").textContent="PRE-ÓRDENES";
+  _cpProds=prods;_cpSort="recent";_cpFilter="all";_cpResetControls();_cpRenderGrid();
+  showPage("cat-page");document.getElementById("nav-home").classList.remove("active");closeSearch();
+  history.pushState({_uvNav:true},null,location.pathname+"#preordenes");
+  _setMnav("mnav-pre");
+}
 function goFranchises(){
   buildFranchiseGrid("franchise-page-grid");
   showPage("franchise-page");
@@ -1640,6 +1656,8 @@ function _cpRenderGrid(){
     filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;if(!pa&&!pb)return 0;if(!pa)return 1;if(!pb)return-1;return pa-pb;});
   }else if(_cpSort==="price-d"){
     filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;return pb-pa;});
+  }else if(_cpSort==="recent"){
+    filtered.sort(function(a,b){var da=a.p.added_at||"";var db=b.p.added_at||"";return da<db?1:da>db?-1:0;});
   }else{
     // Default: ofertas primero
     filtered.sort(function(a,b){if(a.p.oferta&&!b.p.oferta)return-1;if(!a.p.oferta&&b.p.oferta)return 1;return 0;});
@@ -1652,7 +1670,7 @@ function _cpRenderGrid(){
 function _cpSetSort(s){
   _cpSort=s;
   ["def","pa","pd"].forEach(function(k){var b=document.getElementById("cp-sort-"+k);if(b)b.classList.remove("sort-active");});
-  var id=s==="default"?"cp-sort-def":s==="price-a"?"cp-sort-pa":"cp-sort-pd";
+  var id=(s==="default"||s==="recent")?"cp-sort-def":s==="price-a"?"cp-sort-pa":"cp-sort-pd";
   var el=document.getElementById(id);if(el)el.classList.add("sort-active");
   _cpRenderGrid();
 }
@@ -1986,6 +2004,7 @@ function routeHash(h){
   if(!h||h==="#"){showPage("home");document.getElementById("nav-home").classList.add("active");return;}
   if(h==="#catalogo"){goCatalog();return;}
   if(h==="#ofertas"){goOfertas();return;}
+  if(h==="#preordenes"){goPreOrdenes();return;}
   if(h==="#franquicias"){goFranchises();return;}
   var mFranq=h.match(/^#franquicia\/(.+)$/);
   if(mFranq){goFranchise(decodeURIComponent(mFranq[1]));return;}
@@ -2176,6 +2195,10 @@ window.addEventListener("popstate",function(){
   <button class="mobile-nav-item" id="mnav-inmediata" onclick="goCategory(0)" aria-label="En Stock">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
     En Stock
+  </button>
+  <button class="mobile-nav-item" id="mnav-pre" onclick="goPreOrdenes()" aria-label="Pre-Órdenes">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    Pre-Órdenes
   </button>
   <button class="mobile-nav-item" onclick="openSearchPage()" aria-label="Buscar">
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
