@@ -33469,6 +33469,74 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "green-goblin-premium-format-mphljze3",
+        "n": "Green Goblin Premium Format",
+        "i": "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb35e39eb.jpg",
+        "franquicia": "Marvel",
+        "marca": "Sideshow",
+        "escala": "1:4",
+        "disp": "Entrega Inmediata",
+        "estado": "En caja abierta",
+        "precio": "6000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb35e39eb.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb366aff2.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb36e78af.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb376cde1.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb37ebd1d.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb3876037.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb38f289b.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb3979af6.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb3a05c46.jpg",
+          "https://www.sideshow.com/storage/product-images/300375/green-goblin_marvel_gallery_5c4dfb3a83925.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con el Green Goblin Premium Format de Sideshow, una figura de lujo que captura la esencia maléfica del icónico villano de Marvel. Con detalles meticulosamente esculpidos, expresión amenazante y su característico trineo volador, esta pieza es el complemento perfecto para cualquier fan del Goblin Verde. Disfruta de envío mundial, garantía de 30 días y la calidad premium que solo Sideshow puede ofrecer."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Premium Format Figure"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel Comics"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de primera calidad con acabados de pintura detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura del Green Goblin completamente pintada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trineo volador/Goblin Glider"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "cloud-strife-fantasy-vii-mphlew70",
         "n": "Cloud Strife Fantasy VII",
         "i": "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina4.jpg",
