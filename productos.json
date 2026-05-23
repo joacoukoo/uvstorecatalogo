@@ -33469,6 +33469,96 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "cloud-strife-fantasy-vii-mphlew70",
+        "n": "Cloud Strife Fantasy VII",
+        "i": "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina4.jpg",
+        "franquicia": "Gaming",
+        "marca": "Dream Studio",
+        "escala": "1:4",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "9000",
+        "fotos": [
+          "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina4.jpg",
+          "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina.jpg10.jpg.webp",
+          "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina.jpg7_.jpg.webp",
+          "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina.jpg3_.jpg.webp"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la legendaria presencia de Cloud Strife con esta estatua de resina premium de Dream Studio en escala 1/4, capturando meticulosamente cada detalle del icónico protagonista de Final Fantasy VII. Esta edición limitada de galería presenta acabados artesanales de lujo con pintura a mano, postura dinámica y proporciones museum-grade que la convierten en la pieza central de cualquier colección de gaming. Un must-have para coleccionistas exigentes que demandan autenticidad, calidad superior y fidelidad absoluta al diseño original de la franquicia."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8-10 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Colección: Iconic"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Dream Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Cloud Strife pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Buster Sword destacable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arma adicional (Rifle)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de galería premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "vegito-mphla1zd",
         "n": "Vegito",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/products/Di-Tai-She-Vegito-StatueCorp-249.jpg?v=1685373485",
