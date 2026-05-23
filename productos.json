@@ -33670,6 +33670,93 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "the-last-of-us-bloater-regular-mphr5kfz",
+        "n": "The Last of Us - Bloater (Regular)",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BLOATER-REG-SCALE_TILES.png?v=1779499749",
+        "franquicia": "Gaming",
+        "marca": "Prime 1 Studio",
+        "escala": "1/4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "24000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BLOATER-REG-SCALE_TILES.png?v=1779499749",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a001-pByv9gU1.jpg?v=1779499756",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a002-AuiB45RW.jpg?v=1779499756",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a003-NDET8vNG.jpg?v=1779499756",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a004-CNmV7BpQ.jpg?v=1779499756",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a005-p0y4ICye.jpg?v=1779499756",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a006-u3tcFoAw.jpg?v=1779499756",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/a007-df90YQx5.jpg?v=1779499756"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el terror post-apocalíptico con esta estatua de colección premium del Bloater de The Last of Us en escala 1/4 de Prime 1 Studio. Cada grotesco detalle de esta criatura infectada está esculpido y pintado a mano con una precisión aterradora que recrea fielmente la icónica batalla del gimnasio del Capítulo 4. Una pieza de museo que domina cualquier vitrina con su presencia imponente y su elaborada anatomía fungal."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 52 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone y otros materiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 12.8 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Colección: Real Elite Masterline"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Código de producto: REMTLOU-03"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática del gimnasio de The Last of Us Part I"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua del Bloater con pose dinámica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles de fungal armor intricadamente esculpidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura con capas de tonos rosa y verde auténticos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "4800",
+        "entrega": "Q1 2028",
+        "cantidad": "1"
+      },
+      {
         "id": "dr-doom-premium-format-tm-mphlrddo",
         "n": "Dr. Doom Premium Format(TM)",
         "i": "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b9871d0d60.jpg",
