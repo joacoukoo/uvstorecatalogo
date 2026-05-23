@@ -45862,6 +45862,78 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "apollo-mphmjnhm",
+        "n": "Apollo",
+        "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/25_acf6bf56-f0a1-4c6d-80e9-10c7ebfbd001.jpg?v=1778318403",
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/25_acf6bf56-f0a1-4c6d-80e9-10c7ebfbd001.jpg?v=1778318403",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/28_fa2390a7-3c11-4fda-aa33-75e399fd3346.jpg?v=1778318404",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/29_89d364b2-a95e-43aa-8c1a-30e1450a760f.jpg?v=1778318403",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/27_87447157-88f7-4720-938c-dce6ac8ae77a.jpg?v=1778318403",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/23_b020ab82-a65a-478e-aee9-de9aaa4e53f3.jpg?v=1778318403",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/24_3b8bc524-97a2-4548-88e0-047bf6c516a0.jpg?v=1778318403",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/12_613d8aa4-af9b-4ba2-a241-9a03cd3e9209.jpg?v=1778318403",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/26_69ad8f09-6c83-45d2-8a16-a6720dd03ac8.jpg?v=1778318403",
+          "https://www.hiyatoys.com/cdn/shop/files/21_d0caeea2-7b27-4587-942d-76879526050d_550x.jpg?v=1778318403"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive el épico duelo de Rocky IV con esta figura premium de Apollo Creed de HIYA Toys. Con su icónico traje patriota de Uncle Sam y múltiples accesorios intercambiables, captura la determinación y el espíritu combativo del legendario campeón en su última batalla memorables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye cabeza alternativa con chistera de estrellas y franjas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza alternativa con chistera patriota"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco de entrada tipo Uncle Sam"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de ring de boxeo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Banco/taburete de esquina"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "290",
+        "entrega": "4Q 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "rocky-iv-rocky-mphminjw",
         "n": "Rocky IV Rocky",
         "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/7_8cf8cb42-08df-49b1-95b9-ee87e438218b.jpg?v=1777017742",
