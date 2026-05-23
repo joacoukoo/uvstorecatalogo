@@ -33743,6 +33743,83 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "yagami-light-ryuk-mpir7u18",
+        "n": "Yagami Light & Ryuk",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379304/_2026-05-23_170122_809__32183.1779527198.jpg",
+        "franquicia": "Anime",
+        "marca": "Anonymous Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379304/_2026-05-23_170122_809__32183.1779527198.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379311/_2026-05-23_170109_807__52889.1779527168.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379310/_2026-05-23_170108_175__69915.1779527171.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379305/_2026-05-23_170124_212__72030.1779527195.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379309/_2026-05-23_170118_275__30592.1779527177.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379314/_2026-05-23_170116_817__47603.1779527164.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de colección que captura el enfrentamiento icónico entre Light Yagami y Ryuk de Death Note. Elaborada por Anonymous Studio con exquisito detalle en resina de alta calidad y pintura manual, esta figura es una pieza imprescindible para coleccionistas y fans del anime clásico que desean poseer la esencia del thriller sobrenatural."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 49 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 34 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Aproximadamente 1/4 scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina PVC de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Anonymous Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Light Yagami"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Ryuk"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "1760",
+        "entrega": "Q3-Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "ssj2-goku-mpihlewp",
         "n": "SSJ2 Goku",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG1422.jpg?v=1746359163",
