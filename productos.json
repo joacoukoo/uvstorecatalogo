@@ -45862,6 +45862,85 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "rocky-iii-rocky-mphngylb",
+        "n": "Rocky III Rocky",
+        "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/2_61011ac3-c8e7-4318-ad49-50d28b31238f.jpg?v=1777516793",
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/2_61011ac3-c8e7-4318-ad49-50d28b31238f.jpg?v=1777516793",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/10_07ed5688-f86c-4769-9778-88ccc2078b42.jpg?v=1777516793",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/11_9bb1e4c9-920c-44af-b4b2-d301e0c8ff15.jpg?v=1777516793",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/9_5fcb5f39-4da5-4b93-9c53-630a45645488.jpg?v=1777516793",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/8_65d9e736-21da-4380-bc72-e6e69569bfc7.jpg?v=1777516793",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/1_9788f6b0-035e-40c6-8baf-ab8fa35e0d6c.jpg?v=1777516793",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/3_ccc4e463-0b24-4ab0-bf04-b856a67419f3.jpg?v=1777516794",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/4_740941c4-8826-4ad1-9382-98b7af54d0a0.jpg?v=1777516793",
+          "https://www.hiyatoys.com/cdn/shop/files/83df74ab047a3e5cc33bcd345074316e_c2a211c5-14c3-45ae-b8ff-c42537e6abef_550x.jpg?v=1777516793"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive el épico regreso de Rocky Balboa en Rocky III con esta figura de colección premium de HIYA Toys. Con una altura de 16 cm en escala 1/12, captura la intensidad y determinación del campeón en su momento de mayor gloria, perfecta para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: Escultura detallada con expresión enfocada y físico musculoso"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 guantes de boxeo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cabeza alternativa con moretones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 casco de entrenamiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cuerda para saltar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cinturón de campeón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición con soporte"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "290",
+        "cantidad": "1"
+      },
+      {
         "id": "apollo-mphmjnhm",
         "n": "Apollo",
         "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/25_acf6bf56-f0a1-4c6d-80e9-10c7ebfbd001.jpg?v=1778318403",
