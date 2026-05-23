@@ -33469,6 +33469,71 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "majin-vegeta-mphl19t9",
+        "n": "Majin Vegeta",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35113__82285.jpg?v=1716411181",
+        "franquicia": "Anime",
+        "marca": "DU Studio",
+        "escala": "1:4",
+        "disp": "Entrega Inmediata",
+        "estado": "En caja abierta",
+        "precio": "6000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35113__82285.jpg?v=1716411181",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35111__78919.jpg?v=1716411181",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35107__40080.jpg?v=1716411181",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35109__42461.jpg?v=1716411181",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35112__63865.jpg?v=1716411181",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35110__24878.jpg?v=1716411181",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG35106__18665.jpg?v=1716411181"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la esencia del poder de Majin Vegeta con esta espectacular figura de colección. Disponible en dos escalas premium, presenta detalles exquisitos, efectos de energía LED y un nivel de artesanía incomparable. Una pieza imprescindible para cualquier coleccionista de Dragon Ball."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 61 cm (1/4 scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 45 cm (1/4 scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 35 cm (1/4 scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con acabado pintura profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Efectos LED incluidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "LEDs incorporados para efectos de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "1200",
+        "cantidad": "1"
+      },
+      {
         "id": "colossal-titan-mphkeryj",
         "n": "Colossal Titan",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_b236affe-daad-4a14-a3fc-288d62c5bdca_jpg.webp?v=1689094052",
