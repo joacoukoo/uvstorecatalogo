@@ -9951,13 +9951,9 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/god-loki-artisan-edition",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
-        "estado": "Sellado",
+        "estado": "",
         "disp": "Entrega Inmediata",
         "precio": "5400",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
         "content": [
           {
             "t": "notion-text",
@@ -9981,8 +9977,6 @@
           }
         ],
         "id": "god-loki-artisan-edition",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
@@ -9995,7 +9989,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913301/god-loki_marvel_gallery_663e377a51f59.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913301/god-loki_marvel_gallery_663e377ad8930.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913301/god-loki_marvel_gallery_663e377b66469.jpg"
-        ]
+        ],
+        "agotado_r": true,
+        "agotado_d": true
       },
       {
         "n": "The Amazing Spider-Man",
