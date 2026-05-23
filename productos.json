@@ -10486,6 +10486,119 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "faramir-mphpdo5w",
+        "n": "Faramir",
+        "i": "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b45bbbf0.jpg",
+        "franquicia": "Otros",
+        "marca": "Asmus Collectible Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b45bbbf0.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b4629651.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b46847e4.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b46dfa1b.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b4747c07.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b47a0cd7.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b4828c74.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b48840b5.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b48df7b2.jpg",
+          "https://www.sideshow.com/storage/product-images/100531/asmus-collectible-toys-the-lord-of-the-rings-faramir-sixth-scale-figure-gallery-69fd1b4945e4f.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la legendaria presencia de Faramir con esta figura de colección premium en escala 1:6 de Asmus Collectible Toys. Cada detalle está meticulosamente recreado, desde el auténtico parecido del actor hasta los accesorios de combate, capturando la esencia del guerrero de Gondor. Una adición imprescindible para los coleccionistas devotos del Señor de los Anillos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina (cabeza), tela y accesorios en diecast metálico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado Adam+ de Asmus Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con auténtico parecido del actor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 pares de manos intercambiables (reposo, empuñadura de armas, puños)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica de manga larga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco marrón oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones largos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camisa marrón oscura de manga corta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa verde oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón con vaina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carcaj de flechas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazaletes de arma"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada de Faramir en metal diecast"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 flechas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de exhibición oficial Asmus Toys"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "660",
+        "entrega": "Nov. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "saruman-crown-series-mpho1yx8",
         "n": "Saruman Crown Series",
         "i": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914047/asmus-collectible-toys-the-lord-of-the-rings-saruman-sixth-scale-figure-gallery-68011c0e5a64c.jpg",
