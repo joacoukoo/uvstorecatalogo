@@ -9952,7 +9952,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
         "estado": "",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "5400",
         "content": [
           {
@@ -9991,7 +9991,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913301/god-loki_marvel_gallery_663e377b66469.jpg"
         ],
         "agotado_r": true,
-        "agotado_d": true
+        "agotado_d": true,
+        "cantidad": "0"
       },
       {
         "n": "The Amazing Spider-Man",
