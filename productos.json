@@ -45862,6 +45862,89 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "adonis-creed-mphnlfkt",
+        "n": "Adonis Creed",
+        "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/7_fdb44e5a-7f47-4004-99a8-0d039d1c7683.jpg?v=1778832014",
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "1/12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/7_fdb44e5a-7f47-4004-99a8-0d039d1c7683.jpg?v=1778832014",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/5_e3768ee3-5721-4bac-b9a1-c3a66a6faef5.jpg?v=1778832015",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/6_4e7215b4-910b-4e07-858a-32a05d282e22.jpg?v=1778832014",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/8_fc1ccd48-a8fd-4379-adb4-8d0d96f55e87.jpg?v=1778832014",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/3_c8427700-e015-4419-93e2-69d3a2dbbe27.jpg?v=1778832014",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/1_3c3ddd93-30d7-4558-81c6-acae78aa12f1.jpg?v=1778832014",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/2_f8aa69b0-8e3b-464c-9bbe-707d24bfb254.jpg?v=1778832014",
+          "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/4_3c4c46af-2de0-4d50-b10c-87378c22dd51.jpg?v=1778832014",
+          "https://www.hiyatoys.com/cdn/shop/files/83df74ab047a3e5cc33bcd345074316e_a0129ab9-980d-4b3d-b571-1660e27c6d73_550x.jpg?v=1778832014"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el ring con Adonis Creed en esta espectacular figura de colección de HIYA en escala 1/12. Captura cada detalle de su look de combate con accesorios intercambiables y escultura alternativa de cabeza, perfecta para revivir los momentos épicos de Creed II."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples puntos de articulación para poses dinámicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza alternativa con expresión de rugido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bata degradada negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sudadera con capucha roja tipo cremallera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de boxeo patrióticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes de boxeo negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de boxeo rojas"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-23",
+        "reserva": "290",
+        "cantidad": "2"
+      },
+      {
         "id": "rocky-iii-rocky-mphngylb",
         "n": "Rocky III Rocky",
         "i": "https://cdn.shopify.com/s/files/1/0714/3020/9818/files/2_61011ac3-c8e7-4318-ad49-50d28b31238f.jpg?v=1777516793",
