@@ -33743,6 +33743,66 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-mpkbkpwv",
+        "n": "Asuka",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18373/378235/_2026-05-20_165740_672__22648.1779268058.jpg",
+        "franquicia": "Anime",
+        "marca": "Mogu Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18373/378235/_2026-05-20_165740_672__22648.1779268058.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18373/378236/_2026-05-20_165738_110__31004.1779268058.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18373/378237/_2026-05-20_165742_080__86836.1779268058.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18373/378238/_2026-05-20_165736_637__34799.1779268058.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18373/378239/_2026-05-20_165734_697__92091.1779268058.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium 1:6 de Mogu Studio que captura la esencia de Asuka con detalles exquisitos y acabados de alta calidad. Una pieza imprescindible para coleccionistas que aprecian el arte figure con atención meticulosa a cada detalle. Disponible en pre-orden exclusivo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado profesional con detalles precisos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-24",
+        "reserva": "580",
+        "entrega": "Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "yagami-light-ryuk-mpir7u18",
         "n": "Yagami Light & Ryuk",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18411/379304/_2026-05-23_170122_809__32183.1779527198.jpg",
