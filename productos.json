@@ -33886,7 +33886,7 @@
         "franquicia": "Anime",
         "marca": "Infinite Studio",
         "escala": "1:4",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "estado": "Nuevo",
         "precio": "6500",
         "fotos": [
@@ -33935,11 +33935,11 @@
         ],
         "destacado": false,
         "oferta": false,
-        "agotado_r": false,
-        "agotado_d": false,
+        "agotado_r": true,
+        "agotado_d": true,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "0"
       },
       {
         "id": "goku-tribute-akira-toriyama-mpigtdv5",
