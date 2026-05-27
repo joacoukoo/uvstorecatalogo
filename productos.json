@@ -46491,6 +46491,95 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "bumblebee-dlx-cybertron-mode-mpo8ktp8",
+        "n": "Bumblebee DLX (Cybertron Mode)",
+        "i": "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d2522b5.jpg",
+        "franquicia": "Otros",
+        "marca": "Threezero",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d2522b5.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-scale-6a15d4d588fcd.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d2a49a1.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d301bc6.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d354c37.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d3a52c8.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d481413.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d4bef46.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d5103bc.jpg",
+          "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d54da85.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la potencia del icónico Bumblebee en su modo Cibertroniano con esta figura de colección premium de Threezero. Con 55 puntos de articulación, ojos LED que cambian entre rojo y azul, y un acabado weathered impecable, esta pieza de 20 cm es imprescindible para cualquier coleccionista exigente."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Marco de metal fundido con plásticos de ingeniería"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 55 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos LED intercambiables (rojo/azul)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura detallada y desgastada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 faceplates intercambiables (normal, enfadado, triste)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 pares de manos intercambiables (puños, relajadas, abiertas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arm Cannon con 2 placas de armadura intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con Battlemask"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de explosión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada Stinger"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte DLX"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-27",
+        "reserva": "460",
+        "entrega": "Feb. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "ghost-rider-mphrv0ta",
         "n": "Ghost Rider",
         "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4220/37300/7363e19168a910f045c1f3b4b817d90f__89353.1778167276.JPG",
