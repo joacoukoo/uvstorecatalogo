@@ -46491,6 +46491,83 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "thunder-megazord-mpopfh6o",
+        "n": "Thunder Megazord",
+        "i": "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eeddd8a2.jpg",
+        "franquicia": "Otros",
+        "marca": "Flame Toys",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eeddd8a2.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-scale-6a174ef1e0008.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eee35ff1.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eee83ee6.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eeed6590.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eef359ac.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eef88ee8.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eefd6e5f.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174ef03662c.jpg",
+          "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174ef083911.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El Thunder Megazord Action Figure de Flame Toys es una obra maestra coleccionable que captura la esencia épica de este icónico robot guerrero con un detallado diseño articulado y efectos de iluminación LED. Con su escala 1:6 y acabados premium en rojo y dorado, esta figura es el complemento perfecto para cualquier colección de figuras de acción de alta gama. Disfruta de la versatilidad del modo de transformación y combate con sus múltiples puntos de articulación y accesorios intercambiables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones múltiples para poseado dinámico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye efectos de iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Thunder Megazord"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples cabezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de armas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manual de instrucciones"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-27",
+        "reserva": "1080",
+        "entrega": "Ene. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "bumblebee-dlx-cybertron-mode-mpo8ktp8",
         "n": "Bumblebee DLX (Cybertron Mode)",
         "i": "https://www.sideshow.com/storage/product-images/915695/threezero-transformers-bumblebee-dlx-cybertron-mode-action-figure-gallery-6a15d4d2522b5.jpg",
