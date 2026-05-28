@@ -10483,6 +10483,90 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "cheetah-buster-mppq4q9z",
+        "n": "Cheetah Buster",
+        "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/products/4253/images/37616/710391562_1345865304058464_7831273674647108337_n__51813.1779961268.500.750.jpg",
+        "franquicia": "Otros",
+        "marca": "Soosoo Toys",
+        "escala": "1/6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/products/4253/images/37616/710391562_1345865304058464_7831273674647108337_n__51813.1779961268.500.750.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4253/37617/707826976_1345865387391789_8086465883703084729_n__00595.1779961268.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4253/37614/708243653_1345865220725139_5877689376117600317_n__34522.1779961267.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4253/37615/710192900_1345865084058486_3995420776369201539_n__13526.1779961268.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4253/37618/708833814_1345865094058485_8583601690015000954_n__24495.1779961268.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Cheetah Buster de Soosootoys con increíble detalle y articulación. Con más de 30 puntos de movimiento, manos intercambiables y accesorios incluidos para poses dinámicas. Una pieza imprescindible para coleccionistas que demandan calidad superior."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico y tela de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Q2/2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco/máscara detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables (relajadas, puños, agarre de armas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje rojo con logo blanco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blancas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón blanco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bomba de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-28",
+        "reserva": "520",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "red-power-ranger-mpoulmna",
         "n": "Red Power Ranger",
         "i": "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752a8b8c73.jpg",
