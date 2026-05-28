@@ -10483,6 +10483,107 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "red-power-ranger-mpoulmna",
+        "n": "Red Power Ranger",
+        "i": "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752a8b8c73.jpg",
+        "franquicia": "Otros",
+        "marca": "Threezero",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752a8b8c73.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-scale-6a1752ac667a0.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752a9223cc.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752a9872a4.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752a9e30eb.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752aa41e18.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752aa98a89.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752aad6bf5.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752ab20c40.jpg",
+          "https://www.sideshow.com/storage/product-images/915721/threezero-mighty-morphin-power-rangers-red-power-ranger-sixth-scale-figure-gallery-6a1752ab5ef88.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la legendaria acción del Ranger Rojo con esta figura de colección premium de Threezero, presentando un cuerpo musculoso detallado con 34 puntos de articulación y acabados envejecidos profesionales. Equipado con accesorios icónicos incluyendo la Espada de Poder y el Blade Blaster convertible, esta pieza de 31cm captura la esencia del héroe en cada detalle."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS con traje textil y accesorios de plástico y metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "34 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados con efectos de pintura envejecida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco del Ranger Rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje completo del Ranger Rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de utilidad con funda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón cruzado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de hombro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes de largo medio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa desgastada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada de Poder"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blade Blaster convertible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pares de manos intercambiables (puños, relajadas, para armas, posadas)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-28",
+        "reserva": "500",
+        "entrega": "May. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "michael-jordan-the-last-shot-mphsr65l",
         "n": "Michael Jordan (The Last Shot)",
         "i": "https://www.bombusbee.net/wp-content/uploads/2026/04/08_ENTERBAY-Masterpiece-8.jpg",
