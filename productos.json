@@ -1734,9 +1734,9 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "3200",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -1842,7 +1842,7 @@
         "precio_orig": "3500",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_gallery_650de229430bb.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912768/spider-man-black-suit-sixth-scale-figure-by-hot-toys_marvel_scale_650de22bc3e79.jpg",
@@ -1855,8 +1855,8 @@
         ],
         "id": "spider-man-black-suit",
         "content_ok": true,
-        "agotado_r": false,
-        "agotado_d": false
+        "agotado_r": true,
+        "agotado_d": true
       },
       {
         "n": "Grogu Life-Size",
