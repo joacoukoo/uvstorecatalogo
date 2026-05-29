@@ -10483,6 +10483,83 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "jeff-the-land-shark-deluxe-version-mpr7kc9z",
+        "n": "Jeff the Land Shark (Deluxe Version)",
+        "i": "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186aba8f511.jpg",
+        "franquicia": "Gaming",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186aba8f511.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-scale-6a186abf02b73.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abae92e0.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abb48874.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abb946f9.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abbe1830.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abc399a7.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abc7e342.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abcca4d0.jpg",
+          "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186abd228b3.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Traé a tu colección el adorable Jeff the Land Shark en su versión Deluxe de Hot Toys, con dos cabezas intercambiables y lenguas magnéticas para capturar todas sus expresiones. Esta figura de 1:6 captura cada detalle del personaje de Marvel Rivals con una calidad premium incomparable, perfecta para los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 11 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Largo: 18.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos cabezas intercambiables (sonrisa y boca abierta)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos lenguas magnéticas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Aleta dorsal desprendible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Aleta caudal desprendible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Collar rosa con etiqueta de nombre dorada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-29",
+        "reserva": "300",
+        "entrega": "Mar. 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "cheetah-buster-mppq4q9z",
         "n": "Cheetah Buster",
         "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/products/4253/images/37616/710391562_1345865304058464_7831273674647108337_n__51813.1779961268.500.750.jpg",
