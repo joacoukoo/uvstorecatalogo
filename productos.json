@@ -10483,6 +10483,119 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "lobo-mprtu5kk",
+        "n": "Lobo™",
+        "i": "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a23e371b.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a23e371b.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-scale-6a186a2a07903.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a2469c98.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a24cbabb.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a253856d.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a25bcf06.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a265949c.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a26b650f.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a271ffcf.jpg",
+          "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a2774b29.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con Lobo™, la figura de escala 1/6 de Hot Toys que captura toda la ferocidad del villano de Supergirl™ interpretado por Jason Momoa. Con un esculpido ultra detallado, 30 puntos de articulación y múltiples accesorios intercambiables, esta obra maestra de 33 cm es imprescindible para los coleccionistas premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona (brazos), plástico articulado, cuero genuino, tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo marrón con púas doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco de cuero negro con detalles de púas y botones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Collar con granada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de brazaletes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón negro con hebilla de calavera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de muslo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Coderas y espinilleras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas negras con púas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gancho encadenado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brass knuckles y manoplas grandes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pata de conejo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana temática con logo"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-05-30",
+        "reserva": "840",
+        "entrega": "Sep. 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "jeff-the-land-shark-deluxe-version-mpr7kc9z",
         "n": "Jeff the Land Shark (Deluxe Version)",
         "i": "https://www.sideshow.com/storage/product-images/9157072/hot-toys-marvel-jeff-in-the-shark-deluxe-version-sixth-scale-figure-gallery-6a186aba8f511.jpg",
