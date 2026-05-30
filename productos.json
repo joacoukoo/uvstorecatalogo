@@ -10483,6 +10483,120 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "supergirl-krypto-mpssytut",
+        "n": "Supergirl™ & Krypto™",
+        "i": "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bcbb60b.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bcbb60b.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-scale-6a1869c2d9e2c.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bd3fc3e.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bd95ad1.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bdf1814.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869be71898.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869beebc51.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bf70c28.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bfe720e.jpg",
+          "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869c04c663.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con esta figura articulada de Supergirl™ a escala 1:6 de Hot Toys, featuring la icónica actriz Milly Alcock con un esculido detallado y vestuario movie-accurate. Incluye su leal compañero Krypto™ con su propia capa de héroe, accesorios intercambiables y múltiples atuendos para recrear tus escenas favoritas del Arkaverso."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, silicona, cuero genuino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Hot Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable con ojos articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje Supergirl azul con símbolo S bordado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa roja con S-shield magnético"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo de trinchera marrón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Falda y shorts rojos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de cuero rojo y oro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón dorado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas de sol"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reproductor de música con auriculares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cronómetro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bebida en vaso"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Krypto™ con capa roja"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con logo S-shield"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "preorden_mes": true,
+        "added_at": "2026-05-30",
+        "reserva": "700",
+        "entrega": "Dic. 2026",
+        "cantidad": "8"
+      },
+      {
         "id": "lobo-mprtu5kk",
         "n": "Lobo™",
         "i": "https://www.sideshow.com/storage/product-images/915708/hot-toys-dc-comics-lobo-sixth-scale-figure-gallery-6a186a23e371b.jpg",
