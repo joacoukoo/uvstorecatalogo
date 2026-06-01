@@ -10483,6 +10483,95 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "skeletor-mpuo97jz",
+        "n": "Skeletor",
+        "i": "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a1719313dd2e.jpg",
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a1719313dd2e.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-scale-6a1719371f9f3.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a171931af388.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a1719320dc18.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a17193262352.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a171932bc5ae.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a17193324d29.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a17193396331.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a17193416e51.jpg",
+          "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a1719348caf1.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Skeletor a escala 1:6 de Hot Toys con detalles auténticos, ojos LED iluminados y cuerpo articulado de silicona platino. Un must-have para fans de Masters of the Universe con múltiples manos intercambiables y accesorios espectaculares incluyendo el Havoc Staff con efecto luminoso UV."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona platino con esqueleto metálico interno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 18 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Ojos LED rojo (batería), pintura detallada con técnicas meticulsas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 manos intercambiables (puño, gesto, sostén de staff)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de hombro con capa púrpura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de vambraces"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Falda tipo gladiador de microfibra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas largas de vinilo armado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Havoc Staff con efecto luminoso UV"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Corona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama temática Snake Mountain de dos niveles"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-01",
+        "reserva": "860",
+        "entrega": "Sep. 2027",
+        "cantidad": "10"
+      },
+      {
         "id": "supergirl-krypto-mpssytut",
         "n": "Supergirl™ & Krypto™",
         "i": "https://www.sideshow.com/storage/product-images/915560/hot-toys-dc-comics-supergirl-krypto-sixth-scale-figure-set-gallery-6a1869bcbb60b.jpg",
