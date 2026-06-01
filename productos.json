@@ -10483,6 +10483,103 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "he-man-mpuodrlo",
+        "n": "He-Man",
+        "i": "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cb625ca.jpg",
+        "franquicia": "Otros",
+        "marca": "Hoy Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cb625ca.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-scale-6a1718d1c0c01.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cbd9540.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cc39f64.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cca57ac.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cd15729.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cd79acc.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cdef5e8.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718ce80b7a.jpg",
+          "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cf06bcb.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la majestuosidad del Universo Masters with esta figura coleccionable de He-Man a escala 1:6 de Hot Toys, que captura cada detalle del icónico personaje con una calidad cinematográfica sin precedentes. Con su cuerpo musculoso articulado, rostro altamente detallado y accesorios premium incluyendo la legendaria Espada del Poder, esta es la adquisición definitiva para coleccionistas exigentes. Incluye una base temática de Castle Grayskull y múltiples manos intercambiables para infinitas posibilidades de display."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona de platino con esqueleto interno metálico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 18"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 8 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye efecto de iluminación translúcida azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de pecho plateada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de vambraces"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Falda gladiadora de microfibra marrón bitonos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de botas de vinilo marrón oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada del Poder"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de rayo translúcido azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de display temática Castle Grayskull"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-01",
+        "reserva": "760",
+        "entrega": "Sep. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "skeletor-mpuo97jz",
         "n": "Skeletor",
         "i": "https://www.sideshow.com/storage/product-images/915719/hot-toys-masters-of-the-universe-skeletor-sixth-scale-figure-gallery-6a1719313dd2e.jpg",
