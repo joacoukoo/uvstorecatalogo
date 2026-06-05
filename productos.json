@@ -2631,12 +2631,9 @@
         "marca": "Hot Toys",
         "escala": "1:6",
         "estado": "Nuevo",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "4500",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -2803,10 +2800,8 @@
             "x": "Baterías tipo botón incluidas para el accesorio LED"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Otros",
-        "destacado": true,
+        "destacado": false,
         "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058feee5697.jpg",
@@ -2819,7 +2814,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913238/jack-sparrow_disney_gallery_66058ff114f0b.jpg"
         ],
         "id": "jack-sparrow-deluxe",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": true,
+        "agotado_d": true
       },
       {
         "n": "Boba Fett (Quarter Scale Deluxe)",
