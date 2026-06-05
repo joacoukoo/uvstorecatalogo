@@ -2387,13 +2387,10 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/iron-man-mark-i-edicin-especial",
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
-        "estado": "Vendido",
-        "disp": "Entrega Inmediata",
+        "estado": "",
+        "disp": "Vendido",
         "precio": "3900",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -2500,10 +2497,8 @@
             "x": "Cable USB Micro no incluido (requerido para funciones de iluminación y motor)"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
-        "destacado": true,
+        "destacado": false,
         "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908901/iron-man-mark-i_marvel_gallery_66e9e3e64a6e1.jpg",
@@ -2517,9 +2512,8 @@
         ],
         "id": "iron-man-mark-i-edicion-especial",
         "content_ok": true,
-        "agotado_r": false,
-        "agotado_d": false,
-        "fotos_d": []
+        "agotado_r": true,
+        "agotado_d": true
       },
       {
         "n": "King Shark",
