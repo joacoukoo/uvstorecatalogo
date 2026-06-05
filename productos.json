@@ -1171,7 +1171,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Entrega Inmediata",
+        "disp": "Vendido",
         "precio": "5500",
         "content": [
           {
@@ -1261,8 +1261,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914844/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-691dec3c2e148.jpg"
         ],
         "id": "spider-man-1977-exclusive-600-unidades",
-        "agotado_r": false,
-        "agotado_d": false
+        "agotado_r": true,
+        "agotado_d": true,
+        "cantidad": "0"
       },
       {
         "n": "Ahsoka Tano (Clone Wars)",
