@@ -4608,13 +4608,10 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/pikachu-evolution",
         "marca": "PPAP Studio",
         "escala": "28CM",
-        "estado": "Exhibido - Excelente Estado",
-        "disp": "Entrega Inmediata",
+        "estado": "",
+        "disp": "Vendido",
         "precio": "4400",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -4637,18 +4634,16 @@
             "x": "Altura:28 cmAncho:29 cmProfundidad:22 cm"
           }
         ],
-        "precio_orig": "",
         "yt": "https://www.youtube.com/watch?v=ACG_0IxRc9E",
         "franquicia": "Anime",
         "destacado": false,
         "oferta": false,
         "id": "pikachu-evolution",
-        "agotado_r": false,
-        "agotado_d": false,
+        "agotado_r": true,
+        "agotado_d": true,
         "fotos": [
           "https://cdn.toyokoku.com.au/app/uploads/2023/01/05001242/WeChat-Image_20230104234155.jpg"
-        ],
-        "fotos_d": []
+        ]
       },
       {
         "n": "Batman & Robin 66",
