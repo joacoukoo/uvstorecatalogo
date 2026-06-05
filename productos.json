@@ -1271,25 +1271,14 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/ahsoka-tano-clone-wars",
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
-        "estado": "Abierta - Excelentes condiciones",
-        "disp": "Entrega Inmediata",
+        "estado": "",
+        "disp": "Vendido",
         "precio": "2900",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura coleccionable a sexta escala de Ahsoka Tano, la icónica Padawan de Star Wars: The Clone Wars. Esta réplica captura cada detalle del personaje con precisión y calidad premium."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nFigura coleccionable a sexta escala de Ahsoka Tano, la icónica Padawan de Star Wars: The Clone Wars. Esta réplica captura cada detalle del personaje con precisión y calidad premium.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -1304,7 +1293,7 @@
             "x": "Puntos de articulación: Más de 28"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Características"
           },
           {
@@ -1332,7 +1321,7 @@
             "x": "Escultura de cabeza especialmente pintada a mano"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Manos Intercambiables"
           },
           {
@@ -1352,7 +1341,7 @@
             "x": "Un puño derecho"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Vestuario"
           },
           {
@@ -1384,7 +1373,7 @@
             "x": "Un par de botas negras tipo cuero"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Accesorios"
           },
           {
@@ -1420,8 +1409,6 @@
             "x": "Soporte para figuras especialmente diseñado con placa de personaje y logo de Star Wars"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
         "oferta": false,
@@ -1436,7 +1423,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/906960/ahsoka-tano_star-wars_gallery_63d98f0051919.jpg"
         ],
         "id": "ahsoka-tano-clone-wars",
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": true,
+        "agotado_d": true
       },
       {
         "n": "Arc Trooper Fives",
