@@ -34394,6 +34394,82 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "marin-kitagawa-mq08u3br",
+        "n": "Marin Kitagawa",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0352aecb2ccf5f937d77666b3d174b14a25281dbe598ee7c1d5e0891215e4fb0.webp?v=1780321631",
+        "franquicia": "Anime",
+        "marca": "Scarlet",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0352aecb2ccf5f937d77666b3d174b14a25281dbe598ee7c1d5e0891215e4fb0.webp?v=1780321631",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a2247ddfd4e5962e90eefbd0771d92323e4bbc208d6176c01863158bc9fccbbd.webp?v=1780321632",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/62203aa5a61e3b914f5e1830c08181f6357b7a5175890ddaf6fae84b448a2b86.webp?v=1780321632",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7d52ea51fa56ade52fbc871d31208de7ab4e49e6f23b4c522e2536a2b7ac40e2.webp?v=1780321631",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2ff1cff3d0d1b7db78723c26434fe09763620c70cc276f81641e9de2973fb072.webp?v=1780321631"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la colección con esta excepcional figura de Marin Kitagawa en escala 1/6, disponible en dos versiones visuales cautivadoras: la edición estándar púrpura y la exclusiva edición blanca. Cada detalle ha sido meticulosamente esculpido con calidad de museo, capturando la elegancia y el estilo dinámico del personaje con precisión absoluta. Con solo 99 piezas (versión negra) y 50 piezas (versión blanca), esta es una inversión de coleccionabilidad garantizada para fans exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de calidad museo con detalles de precisión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 piezas (versión púrpura estándar) y 50 piezas (versión blanca)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Marin Kitagawa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática decorativa de 16x16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-05",
+        "reserva": "700",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "asuka-mpkbkpwv",
         "n": "Asuka",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18373/378235/_2026-05-20_165740_672__22648.1779268058.jpg",
