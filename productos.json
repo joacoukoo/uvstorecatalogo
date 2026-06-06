@@ -47293,6 +47293,81 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "teela-mq2s691g",
+        "n": "Teela",
+        "i": "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-029old.jpg?v=1731956227",
+        "franquicia": "Otros",
+        "marca": "Mondo",
+        "escala": "1/6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3150",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-029old.jpg?v=1731956227",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP002.jpg?v=1731956227",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-003.gif?v=1731956227",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP004.jpg?v=1731956227",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-005_d2875d5b-240c-48b5-9378-c4269fce7685.jpg?v=1731956227",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-006_6d4648a2-1e7d-46fa-919b-be8489689b0b.jpg?v=1731956227",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-009_375ae3be-babc-41bf-b10c-747778dea5b6.jpg?v=1731956227",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-012_837565e3-9f0b-480d-a5d8-8dcba251b2fe.jpg?v=1731956227"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el Castillo Grayskull con Teela, la legendaria Capitana de la Guardia Real del Palacio. Esta figura de colección premium en escala 1/6 de Mondo captura toda la ferocidad y elegancia de la guerrera diosa con detalles impecables, elementos de pelaje sintético y accesorios intercambiables. Una adición imprescindible para fans de Masters of the Universe que exigen lo mejor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 28-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada a mano, tela de pelaje sintético, accesorios de PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Múltiples puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Regular Edition"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanza dorada intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo guerrero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Retratos intercambiables de la guerrera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de pelaje sintético"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-06",
+        "reserva": "630",
+        "entrega": "1 mes",
+        "cantidad": "1"
+      },
+      {
         "id": "thunder-megazord-mpopfh6o",
         "n": "Thunder Megazord",
         "i": "https://www.sideshow.com/storage/product-images/915714/flame-toys-mighty-morphin-power-rangers-thunder-megazord-action-figure-gallery-6a174eeddd8a2.jpg",
