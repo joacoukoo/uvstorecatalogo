@@ -53431,6 +53431,88 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "fern-mq2wy6i1",
+        "n": "Fern",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356132/_2026-03-18_181411_590__87768.1773829061.jpg",
+        "franquicia": "Adultos",
+        "marca": "NewBorn Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5450",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356132/_2026-03-18_181411_590__87768.1773829061.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356127/_2026-03-18_181408_559__82720.1773829054.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356125/_2026-03-18_181401_201__28724.1773829035.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356126/_2026-03-18_181410_346__55952.1773829035.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356128/_2026-03-18_181405_227__91324.1773829035.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356129/_2026-03-18_181403_013__65009.1773829035.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356130/_2026-03-18_181406_708__46687.1773829035.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la máxima calidad con la figura premium Fern de NewBorn Studio, una pieza de colección magistralmente diseñada en escala 1:4 que captura cada detalle con precisión artística excepcional. Esta estatua de lujo representa el pico de la artesanía en miniaturas, con acabado pintado a mano y materiales de resina de alta calidad, ideal para coleccionistas exigentes que aprecian el arte, la elegancia y la sofisticación en sus colecciones premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU + Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado profesional pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje: Certificado de autenticidad incluido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Fern con acabado detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Plataforma/base decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-06",
+        "reserva": "1090",
+        "entrega": "Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "ram-and-rem-moxkgdfc",
         "n": "Ram and Rem",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_23___30809.webp?v=1778237221",
