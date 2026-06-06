@@ -34394,6 +34394,88 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "mewtwo-mq2xbjy5",
+        "n": "Mewtwo",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385194/_2026-06-05_193740_164__86630.1780660024.jpg",
+        "franquicia": "Anime",
+        "marca": "Phoenix Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385194/_2026-06-05_193740_164__86630.1780660024.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385192/_2026-06-05_193741_766__21407.1780660019.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385191/_2026-06-05_193747_273__90421.1780660020.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385190/_2026-06-05_193745_337__41216.1780660003.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385193/_2026-06-05_193743_654__42670.1780659998.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385189/_2026-06-05_193749_264__05506.1780660006.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18076/371243/_2026-04-29_154750_847__05283.1777449845.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con esta magistral estatua de Mewtwo de Phoenix Studio, que captura la esencia legendaria y el poder psíquico del icónico Pokémon en una composición dinámica envuelta en energía sobrenatural. Fabricada en resina premium con pintura detallada a mano, esta figura de escala 1:6 presenta una presencia visual arrebatadora que refleja la superioridad y maestría del personaje. Una inversión imprescindible para coleccionistas exigentes que valoran la autenticidad, la calidad artesanal y el valor duradero de sus piezas más preciadas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 26.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Phoenix Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Pokémon Anime"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Mewtwo posicionado dinámicamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición con efectos visuales temáticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-06",
+        "reserva": "1080",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "asuka-mq08xp6s",
         "n": "Asuka",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2a9bfc4969889948a71fae5c2903aa8dLarge.jpg?v=1779365014",
