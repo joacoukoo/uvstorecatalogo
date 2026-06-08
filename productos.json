@@ -34499,6 +34499,80 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "jin-woo-sung-mq5fita5",
+        "n": "Jin woo Sung",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340354/16351720434731_.pic_hd__04738.1768981426.png",
+        "franquicia": "Anime",
+        "marca": "Mask Studio",
+        "escala": "1/4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7200",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340354/16351720434731_.pic_hd__04738.1768981426.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340355/16361720434732_.pic_hd__61095.1768981426.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340356/16341720434727_.pic_hd__63676.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340357/16391720434732_.pic_hd__97835.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340358/16371720434732_.pic_hd__49997.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340359/16411720434735_.pic_hd__44911.1768981427.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340360/16401720434735_.pic_hd__96305.1768981427.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium Mask Studio del Shadow King Jin Woo-Sung en escala 1/4 con iluminación LED integrada que captura cada detalle de este poderoso personaje. Con una altura de 59 cm, esta obra maestra es el centro de atención perfecto para cualquier coleccionista exigente que busca calidad superior y presencia impactante."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 59 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Mask Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación: LED integrado con efectos púrpura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Jin Woo-Sung"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de armas"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-08",
+        "reserva": "1440",
+        "entrega": "agosto 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "mewtwo-mq2xbjy5",
         "n": "Mewtwo",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18628/385194/_2026-06-05_193740_164__86630.1780660024.jpg",
