@@ -10459,6 +10459,111 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "the-punisher-mq5dllln",
+        "n": "The Punisher",
+        "i": "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6bd6f767.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6bd6f767.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-scale-6a26d825b83a4.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6bde6263.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6be3b8a3.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6be831cb.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6becd814.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6d500b01.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6c27e571.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6c0a1c7b.jpg",
+          "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6c0ec7f2.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la máxima precisión coleccionista con esta figura de The Punisher a escala 1:6 de Hot Toys, basada en la película 'The Punisher: One Last Kill'. Con una réplica asombrosamente detallada de Jon Bernthal, más de 30 puntos de articulación y una colección completa de armas y accesorios intercambiables, esta es la adición definitiva para cualquier coleccionista de Marvel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Microfiber tipo cuero, tela, resina esculpida a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Más de 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos rodantes intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza esculpida con detalle de barba y arrugas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 Manos intercambiables (para sostener armas, puños, cuchillos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Abrigo de cuero con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Chaleco antibalas con calavera táctica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cinturón táctico con fundas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Escopeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Rifle AK47"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Hacha"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Daga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 Cargadores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Base con motivo de calavera"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-08",
+        "reserva": "680",
+        "entrega": "Sep. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "he-man-mpuodrlo",
         "n": "He-Man",
         "i": "https://www.sideshow.com/storage/product-images/915718/hot-toys-masters-of-the-universe-he-man-sixth-scale-figure-gallery-6a1718cb625ca.jpg",
