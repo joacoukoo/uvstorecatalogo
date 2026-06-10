@@ -47554,6 +47554,79 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "dlx-iron-man-mark-44-hulkbuster-battle-damaged-mq8nyaun",
+        "n": "DLX Iron Man Mark 44 \"Hulkbuster\" (Battle Damaged)",
+        "i": "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f036e1ee6.jpg",
+        "franquicia": "Marvel",
+        "marca": "Threezero",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f036e1ee6.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-scale-6a21f03aba643.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f0373e31d.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f0378d725.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f037df0be.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f0383e097.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f0388f44b.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f038ce5a9.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f0391a9a8.jpg",
+          "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f0395c853.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con el DLX Iron Man Mark 44 Hulkbuster de Threezero, una réplica devastadora de 30cm con más de 65 puntos de articulación y efectos de batalla realistas. Equipado con iluminación LED integrada en el reactor de arco, ojos y espalda, este coleccionable premium combina ingeniería de die-cast superior con detalles cinematográficos auténticos. Incluye tres juegos de manos intercambiables para infinitas posibilidades de posicionamiento y es totalmente compatible con otras figuras DLX Iron Man Mark 43."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Die-cast metal y plástico de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 65+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED: Reactor de arco, ojos y espalda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: Efectos de batalla realistas con detalles desgastados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres (3) pares de manos intercambiables: puños, relajadas y disparo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de acción articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED integrado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-10",
+        "reserva": "760",
+        "entrega": "Feb. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "teela-mq2s691g",
         "n": "Teela",
         "i": "https://cdn.shopify.com/s/files/1/0558/2081/files/Teela_PP-029old.jpg?v=1731956227",
