@@ -10459,6 +10459,77 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "t-800-endoskeleton-mqbmgzuj",
+        "n": "T-800 Endoskeleton",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-TERMINATOR.png?v=1781117317",
+        "franquicia": "Otros",
+        "marca": "InArt Collectibles",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-TERMINATOR.png?v=1781117317",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG_5392.jpg?v=1781117444",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1_4a91ec4a-92ea-47e8-aa4d-79bd5a59573c.jpg?v=1781288649",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2_eccb1c4a-185f-4164-9224-b7114ee5b975.jpg?v=1781288649",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3_fe855bce-f688-48b0-af5a-41de5cf9e1bf.jpg?v=1781288649",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4_70c1bd4f-2fe8-4e61-8737-33ed3ec26a76.jpg?v=1781288649",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5_322786b4-289c-4144-9389-33314829a681.jpg?v=1781288649",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6_62e30434-e7af-467a-8057-df59167c40ce.jpg?v=1781288649"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la precisión absoluta del futuro con la estatua InArt 1/6 del T-800 Endoskeleton, una obra maestra de ingeniería coleccionable que captura cada detalle del icónico esqueleto de metal. Con materiales premium y acabados excepcionales, esta figura de 34.5 cm es el complemento definitivo para cualquier coleccionista hardcore de ciencia ficción."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 34.5 cm (con base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, POM, ABS, componentes electrónicos y aleación fundida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones con base: 34.5 x 15 x 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones figura: 31.5 x 11 x 5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura del T-800 Endoskeleton"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Stand de soporte"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Herramienta magnética"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-13",
+        "reserva": "1200",
+        "entrega": "Mayo 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "the-punisher-mq5dllln",
         "n": "The Punisher",
         "i": "https://www.sideshow.com/storage/product-images/915676/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a26d6bd6f767.jpg",
