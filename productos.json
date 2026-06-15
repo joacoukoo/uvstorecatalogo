@@ -34594,11 +34594,19 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Experimenta el poder del Hombre de Acero con esta espectacular estatua Ultra HQS de Superman por Tsume Art, una obra maestra de colección limitada a solo 200 piezas. Cada detalle ha sido meticulosamente esculpido para capturar la esencia del icónico superhéroe de DC Comics en su máxima expresión heroica. Una inversión imprescindible para los verdaderos coleccionistas que demandan calidad premium y autenticidad."
+            "x": "Experimenta el poder absoluto del Hombre de Acero con esta espectacular estatua Ultra HQS de Superman por Tsume Art, una obra maestra que captura la esencia heroica del icónico personaje de DC Comics en su máxima expresión. Con una altura impresionante de 100 cm y limitada a solo 200 piezas en el mundo, cada detalle ha sido meticulosamente esculpido en resina de alta calidad para garantizar una pieza de colección de valor inestimable. Una inversión premium imprescindible para coleccionistas exigentes que demandan autenticidad, presencia visual y exclusividad garantizada."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura: aproximadamente 70 cm"
+            "x": "Altura: 100 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 85 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 92 cm"
           },
           {
             "t": "notion-bulleted-list",
@@ -34606,19 +34614,23 @@
           },
           {
             "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad (Polyresin)"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Edición limitada: 200 piezas"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Fabricante: Tsume Art"
+            "x": "Incluye fuente de alimentación LED"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Categoría: Ultra HQS"
+            "x": "Embalaje premium con opción de doble caja"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Material: Resina de alta calidad"
+            "x": "Certificado de autenticidad"
           },
           {
             "t": "notion-bulleted-list",
@@ -34630,11 +34642,15 @@
           },
           {
             "t": "notion-bulleted-list",
+            "x": "Fuente de alimentación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
             "x": "Certificado de autenticidad"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Embalaje premium con opción de doble caja"
+            "x": "Embalaje premium con protección reforzada"
           }
         ],
         "destacado": false,
