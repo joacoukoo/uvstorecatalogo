@@ -34570,6 +34570,83 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "superman-ultra-hqs-statue-by-tsume-art-mqfb2n08",
+        "n": "Superman Ultra HQS Statue by Tsume Art",
+        "i": "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580c12e8e.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Tsume Art",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "38400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580c12e8e.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-scale-6a2c5a8f2b440.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580c67d48.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580cc0ce5.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580d219ec.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580d78a43.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580dcfafe.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580e2f883.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580e83a54.jpg",
+          "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580eddc4e.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el poder del Hombre de Acero con esta espectacular estatua Ultra HQS de Superman por Tsume Art, una obra maestra de colección limitada a solo 200 piezas. Cada detalle ha sido meticulosamente esculpido para capturar la esencia del icónico superhéroe de DC Comics en su máxima expresión heroica. Una inversión imprescindible para los verdaderos coleccionistas que demandan calidad premium y autenticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 70 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 200 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Tsume Art"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Ultra HQS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Superman completa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana base diorámica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium con opción de doble caja"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-15",
+        "reserva": "7680",
+        "entrega": "Dic. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "jin-woo-sung-mq5fita5",
         "n": "Jin woo Sung",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/16821/340354/16351720434731_.pic_hd__04738.1768981426.png",
