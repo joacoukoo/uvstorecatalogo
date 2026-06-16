@@ -34570,6 +34570,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "wolverine-mqg2bxw1",
+        "n": "Wolverine",
+        "i": "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e551c39a.jpg",
+        "franquicia": "Marvel",
+        "marca": "PCS",
+        "escala": "1:3",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "15200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e551c39a.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e5576627.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9f8652d75.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e563e391.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e56e820e.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e5696057.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e5747a55.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e57e9b1f.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e58952cc.jpg",
+          "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e598c69c.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con esta épica estatua de Wolverine a escala 1:3 de PCS, capturando toda la ferocidad del mutante más letal de Marvel en una obra maestra de detalle y presencia. Con su icónico traje amarillo y azul, garras desenvainadas y postura de combate dinámica, esta pieza premium se convierte en el centro de atención de cualquier expositor. Fabricada con materiales de polistone de alta calidad y respaldada por la garantía de satisfacción de Sideshow, es una inversión de coleccionista imprescindible."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 61 cm (24\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone (resina de poliuretano)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 50 cm (19.5\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm (14.5\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso de envío: 19.3 kg (42.50 lbs)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura al detalle artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática arquitectónica decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Wolverine"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Garras reemplazables intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática arquitectónica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-16",
+        "reserva": "3040",
+        "entrega": "Septiembre 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "superman-ultra-hqs-statue-by-tsume-art-mqfb2n08",
         "n": "Superman Ultra HQS Statue by Tsume Art",
         "i": "https://www.sideshow.com/storage/product-images/915803/tsume-art-dc-comics-superman-ultra-hqs-statue-gallery-6a2c580c12e8e.jpg",
