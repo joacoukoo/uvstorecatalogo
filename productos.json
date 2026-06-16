@@ -54018,6 +54018,91 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "marin-kitagawa-mqgqtzp2",
+        "n": "Marin Kitagawa",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201833_385__48967.jpg?v=1781374574",
+        "franquicia": "Adultos",
+        "marca": "Domi Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201833_385__48967.jpg?v=1781374574",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201830_924__81658.jpg?v=1781374574",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201834_505__21707.jpg?v=1781374574",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201832_188__41238.jpg?v=1781374574",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201829_858__21940.jpg?v=1781374574",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201837_409__88828.jpg?v=1781374574",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-13_201828_565__85941.jpg?v=1781374574"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Marin Kitagawa en escala 1:6 que captura cada detalle con precisión artesanal incomparable. Esta edición limitada a solo 149 piezas mundiales representa el pico del coleccionismo de figuras de lujo, con acabados de nivel profesional y presencia escénica que domina cualquier vitrina. Diseñada por Domi , combina articulación funcional con una base decorativa de lujo que eleva esta pieza a obra de arte de colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 26 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 13 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Limitada: 149 piezas numeradas mundialmente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina de alta calidad con acabados de lujo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Domi Studio / Diseño: StatueCorp"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de Lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Figura de colección para adultos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa premium con acabados de lujo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de colección de lujo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-16",
+        "reserva": "720",
+        "cantidad": "2"
+      },
+      {
         "id": "fern-mq2wy6i1",
         "n": "Fern",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/17470/356132/_2026-03-18_181411_590__87768.1773829061.jpg",
