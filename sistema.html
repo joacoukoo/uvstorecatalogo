@@ -513,7 +513,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           </select>
         </div>
         <div style="font-size:11px;color:#FFD700;background:#1a1b28;padding:8px 12px;border-radius:8px;margin-bottom:8px;font-family:monospace">
-          DEBUG — busqueda: "<span x-text="busqueda"></span>" | filtrados: <span x-text="filtrados.length"></span> | IDs únicos: <span x-text="new Set(filtrados.map(o=>o.id)).size"></span> | _todos: <span x-text="_todos.length"></span>
+          DEBUG — _todos: <span x-text="_todos.length"></span> | _todos IDs únicos: <span x-text="new Set(_todos.map(o=>o.id)).size"></span> | filtrados: <span x-text="filtrados.length"></span> | filtrados IDs únicos: <span x-text="new Set(filtrados.map(o=>o.id)).size"></span>
         </div>
         <div class="card">
           <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
