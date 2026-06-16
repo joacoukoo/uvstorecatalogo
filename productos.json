@@ -34570,6 +34570,88 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "hornet-vs-lost-lace-mqgrmbs4",
+        "n": "Hornet vs Lost Lace",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385838/_2026-06-08_202447_590__05411.1780922144.jpg",
+        "franquicia": "Gaming",
+        "marca": "Radiance Studio × ST",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3300",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385838/_2026-06-08_202447_590__05411.1780922144.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385829/_2026-06-08_202509_836__09553.1780922143.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385836/_2026-06-08_202503_727__21434.1780922139.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385826/_2026-06-08_202508_352__02043.1780922126.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385827/_2026-06-08_202505_093__11635.1780922126.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385828/_2026-06-08_202449_239__93109.1780922126.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385830/_2026-06-08_202457_524__37203.1780922126.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium que captura la épica batalla entre Hornet y Lost Lace con un detalle extraordinario y composición dinámica. Elaborada en resina de alta calidad con pintura detallada a mano y efectos LED integrados que resaltan la intensidad del combate. Pieza imprescindible para coleccionistas exigentes de Hollow Knight, limitada a solo 198 unidades en el mundo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 21.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 12.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, PU y componentes LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Premium Format"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 198 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Radiance Studio × ST"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Previsión de entrega: Q3 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal Hornet vs Lost Lace"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con efecto de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales especiales con componentes PU"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-16",
+        "reserva": "660",
+        "entrega": "Q3 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "wolverine-mqg2bxw1",
         "n": "Wolverine",
         "i": "https://www.sideshow.com/storage/product-images/909387/wolverine_marvel_gallery_621e9e551c39a.jpg",
