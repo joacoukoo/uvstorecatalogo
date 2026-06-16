@@ -1578,7 +1578,9 @@ function uvDashboard() {
     metaUSD: 4000,
     stats: { total: 0, porCobrar: 0, cobrado: 0, clientes: 0, ventasTotal: 0, margen: 0, porEstado: [], ultimas: [] },
     get sinPedir() {
-      return this._ordenes.filter(o => !o.pedida_proveedor && !o.entregado && o.estado !== 'cancelada');
+      return this._ordenes
+        .filter(o => !o.pedida_proveedor && !o.entregado && o.estado !== 'cancelada')
+        .sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
     },
     async marcarPedida(o) {
       try {
