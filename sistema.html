@@ -512,6 +512,9 @@ button,a{touch-action:manipulation;cursor:pointer}
             <option value="sin_entregar">Sin entregar</option>
           </select>
         </div>
+        <div style="font-size:11px;color:#FFD700;background:#1a1b28;padding:8px 12px;border-radius:8px;margin-bottom:8px;font-family:monospace">
+          DEBUG — busqueda: "<span x-text="busqueda"></span>" | _inputBusqueda: "<span x-text="_inputBusqueda"></span>" | _todos: <span x-text="_todos.length"></span> | filtrados: <span x-text="filtrados.length"></span>
+        </div>
         <div class="card">
           <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
           <div x-show="loading" style="padding:32px;text-align:center;color:var(--muted2)">Cargando...</div>
