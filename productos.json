@@ -34683,6 +34683,63 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "messi-mqh6udgt",
+        "n": "Messi",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e733b709cb215a1c200e81839be4c9d8.jpg?v=1781547127",
+        "franquicia": "Otros",
+        "marca": "Joy Toon",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e733b709cb215a1c200e81839be4c9d8.jpg?v=1781547127",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/083396f13c2f3449e17173d32c3c42ed.jpg?v=1781547127",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/034db71e8e66cd43286f85a91e729dd7.jpg?v=1781547127",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/56b7ac704e41fd94a4a70f5a00409b26.jpg?v=1781547127",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3a8b1e3333168139297fc99f9566b7d4.jpg?v=1781547127",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2ad687f27295bf48424595ccf51757cf.jpg?v=1781547127"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive el momento más glorioso del fútbol mundial con esta figura premium de Messi sosteniendo la Copa del Mundo. Una obra maestra coleccionable que captura la esencia del campeón argentino en su apogeo, perfecta para los fanáticos del deporte rey."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Copa del Mundo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-16",
+        "reserva": "340",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "hornet-vs-lost-lace-mqgrmbs4",
         "n": "Hornet vs Lost Lace",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18659/385838/_2026-06-08_202447_590__05411.1780922144.jpg",
