@@ -10459,6 +10459,103 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "zenitsu-agatsuma-mqi9rsyq",
+        "n": "Zenitsu Agatsuma",
+        "i": "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d8ede5f2.jpg",
+        "franquicia": "Anime",
+        "marca": "Threezero",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d8ede5f2.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-scale-6a302d925d3d9.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d8f38fef.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d8f8f4fb.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d8fddf49.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d903a294.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d908c5d3.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d90ce0bd.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d911833f.jpg",
+          "https://www.sideshow.com/storage/product-images/915805/threezero-demon-slayer-zenitsu-agatsuma-sixth-scale-figure-gallery-6a302d91561d9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el arte del Respirar de Trueno con esta extraordinaria figura de Zenitsu Agatsuma de Threezero, una réplica premium de 1:6 escala con 37 puntos de articulación y detalles impresionantes. Incluye uniformes de tela, tres cabezas intercambiables y accesorios temáticos que capturan la esencia del joven espadachín de Demon Slayer."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Tela, metal y plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 37"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uniforme Demon Slayer Corps de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Haori de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Kyahan (polainas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tabi y zori (sandalias)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 cabezas intercambiables (estándar, dormida, cómica)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 piezas de cabello frontal intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Nichirin Sword de metal con vaina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gorrión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bola de arroz"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de Respirar de Trueno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 tipos de manos intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-17",
+        "reserva": "460",
+        "entrega": "Feb. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "alien-warrior-mqgvzo28",
         "n": "Alien Warrior",
         "i": "https://www.sideshow.com/storage/product-images/915785/hot-toys-alien-alien-warrior-sixth-scale-figure-gallery-6a31711a1ab2d.jpg",
