@@ -48287,6 +48287,83 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "arnold-book-by-taschen-mqiwg1ac",
+        "n": "ARNOLD Book by TASCHEN",
+        "i": "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e273f95.jpg",
+        "franquicia": "Otros",
+        "marca": "Taschen",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e273f95.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e2cc45f.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e32f885.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e3864a5.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e3db745.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e43e9cf.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e499630.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e52179a.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e5a1092.jpg",
+          "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e62a50a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La edición XL de ARNOLD de TASCHEN es una obra maestra de colección con encuadernación de lujo y 528 páginas de contenido premium. Este libro de gran formato (10.5 x 14.7 in.) presenta una presentación espectacular con cubierta turquesa y detalles dorados que capturan la esencia de una leyenda. Una adquisición imprescindible para coleccionistas de arte y cultura de alto nivel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Hardcover XL"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 10.5 x 14.7 pulgadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 10.42 lb (4.73 kg)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Páginas: 528"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "ISBN: 978-3-8365-9958-0"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Idioma: English"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Encuadernación: Premium con detalles dorados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Libro Hardcover XL Edition"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estuche de presentación premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fold-out incluido"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-18",
+        "reserva": "420",
+        "entrega": "Sep. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "dlx-iron-man-mark-44-hulkbuster-battle-damaged-mq8nyaun",
         "n": "DLX Iron Man Mark 44 \"Hulkbuster\" (Battle Damaged)",
         "i": "https://www.sideshow.com/storage/product-images/915747/threezero-marvel-dlx-iron-man-mark-44-hulkbuster-battle-damaged-action-figure-gallery-6a21f036e1ee6.jpg",
