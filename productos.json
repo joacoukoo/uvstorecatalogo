@@ -35350,6 +35350,84 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "kitagawa-marin-mqmr826p",
+        "n": "Kitagawa Marin",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390166/_2026-06-19_154105_004__80298.1781855400.jpg",
+        "franquicia": "Anime",
+        "marca": "LiYue Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390166/_2026-06-19_154105_004__80298.1781855400.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390160/_2026-06-19_154114_775__42931.1781855351.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390161/_2026-06-19_154124_317__09981.1781855351.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390162/_2026-06-19_154118_213__31590.1781855351.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390163/_2026-06-19_154120_195__75059.1781855352.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390159/_2026-06-19_154116_496__72908.1781855379.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390164/_2026-06-19_154108_313__08293.1781855352.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Kitagawa Marin en escala 1:6 por LiYue Studio que captura magistralmente cada detalle de este icónico personaje de anime con acabado artístico de calidad superior. Esta pieza representa la excelencia en escultura y pintura a mano, con una anatomía perfectamente proporcionada y expresión facial cautivadora que refleja la personalidad del personaje. Imprescindible para coleccionistas exigentes que buscan una representación excepcional y detallada de Marin Kitagawa."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 26cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU + Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Pintada a mano con acabado artístico premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones base: 17 cm (Ancho) × 18 cm (Profundidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximadamente 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento estimada: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: LiYue Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Kitagawa Marin pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición oficial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium para coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-20",
+        "reserva": "720",
+        "entrega": "Q4 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "batman-weapon-case-mqlfchky",
         "n": "Batman Weapon Case",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3f57f340caa9d94c6387571eb8750186.jpg?v=1781796467",
