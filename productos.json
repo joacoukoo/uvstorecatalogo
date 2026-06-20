@@ -10459,6 +10459,121 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "ken-kaneki-battle-suit-mqlmkbep",
+        "n": "Ken Kaneki - Battle Suit",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-19_152714_914__60445.jpg?v=1781856147",
+        "franquicia": "Anime",
+        "marca": "Rocket Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-19_152714_914__60445.jpg?v=1781856147",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/54c8625d32afd67157e804975649a9dc.jpg?v=1781856147",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b3c5a3bd0b590e96bf6e6eefe4a0cab7.jpg?v=1781856147",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-19_152711_478__69919.jpg?v=1781856147",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a94b688c57156ac1c166098b052440d5.jpg?v=1781856147",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-19_152716_379__54358.jpg?v=1781856147",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-19_152713_299__00105.jpg?v=1781856147",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2ee0c71859d6855a875a9a84cc3e6248.jpg?v=1781856147"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la intensidad del icónico Ken Kaneki con esta figura coleccionable premium de 1/6 escala que captura cada detalle de su look gótico y expresión desafiante en la Battle Suit. Con múltiples cabezas intercambiables, cuerpos articulados de proporciones anime y un Rinkaku Kagune detallado, esta pieza licenciada oficialmente es un imprescindible para coleccionistas de Tokyo Ghoul. La altura de 27.5 cm y la calidad de manufactura de Rocket Toys la convierten en una adición dominante a cualquier colección premium de anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado con detalles en resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Rocket Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpos: 2x cuerpos masculinos articulados con proporciones anime"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Sui Ishida/Shueisha Tokyo Ghoul Production Committee"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Cabezas intercambiables (Expresión enmascarada y expresión feroz con Centipede mask)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3x Cabezas adicionales bonus (Estado normal con peinado estático)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Ojos móviles intercambiables (Estado Kakugan y estado en blanco)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5x Ojos móviles adicionales bonus (2x estado normal, 1x estado Kakugan)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Herramienta de ajuste de ojos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "12x Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Taza de café con platillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Rinkaku (Half-Kakuja) Kagune"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Pares de zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Traje negro sin mangas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Pantalones cortos negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Bodysuits negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Bases de exhibición con brazos de soporte intercambiables (3 brazos incluidos)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-20",
+        "reserva": "1040",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "ken-kaneki-awakening-mqlmgjft",
         "n": "Ken Kaneki - Awakening",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-19_151144_264__16686.jpg?v=1781856036",
