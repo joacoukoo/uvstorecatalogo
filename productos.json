@@ -10459,6 +10459,80 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "batman-forever-1995-batmobile-ultimate-dx-1-6-scal-mqlnnzla",
+        "n": "Batman Forever (1995) - Batmobile (Ultimate DX) 1/6 Scale Vehicle",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BATMAN-FOREVER-BATMOBILE.png?v=1758152765",
+        "franquicia": "DC Comics",
+        "marca": "JazzInc",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "24800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BATMAN-FOREVER-BATMOBILE.png?v=1758152765",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1995-batmobile-0___original_3370_2247.jpg?v=1758152774",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1995-batmobile-000___original_3433_2289.jpg?v=1758152774",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1995-batmobile-2___original_3433_2289.jpg?v=1758152774",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1995-batmobile-5___original_3433_2289.jpg?v=1758152774",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1995-batmobile-6___original_3433_2289.jpg?v=1758152774",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1995-batmobile-7___original_3433_2289.jpg?v=1758152774",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1995-batmobile-9___original_3433_2289.jpg?v=1758152774"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el icónico Batmobile de Batman Forever (1995) en esta espectacular réplica a escala 1/6 de JazzInc, que captura perfectamente el diseño biomecánico único de la película cult de Joel Schumacher. Con un interior detallado, panel de control funcional con LEDs y acentos luminosos en la carrocería, esta figura de colección premium es una obra maestra para los verdaderos coleccionistas de DC Comics."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Largo (con ala): 122.1 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36.56 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alto: 37.8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y componentes electrónicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: JazzInc"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Interior detallado del Batmobile"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Panel de control funcional con LEDs"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acentos luminosos en la carrocería"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Luces de cabina iluminadas"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-20",
+        "reserva": "4960",
+        "cantidad": "1"
+      },
+      {
         "id": "ken-kaneki-battle-suit-mqlmkbep",
         "n": "Ken Kaneki - Battle Suit",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-06-19_152714_914__60445.jpg?v=1781856147",
