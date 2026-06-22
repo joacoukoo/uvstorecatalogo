@@ -243,14 +243,17 @@ body::after{
   26%{transform:translate(-50%,-50%) scale(.95);filter:blur(10px) brightness(1.1)}
   100%{transform:translate(-50%,-50%) scale(1);filter:blur(10px) brightness(1)}
 }
+.hero-bg-frame{
+  position:absolute;inset:0;
+  -webkit-mask-image:radial-gradient(ellipse 50% 62% at 50% 46%, #000 58%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
+  mask-image:radial-gradient(ellipse 50% 62% at 50% 46%, #000 58%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
+}
 .hero-bg-slide{
   position:absolute;top:50%;left:50%;
   max-width:92%;max-height:94%;
   width:auto;height:auto;
   opacity:0;pointer-events:none;
   transition:opacity .5s ease;
-  -webkit-mask-image:radial-gradient(ellipse 52% 64% at 50% 45%, #000 60%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
-  mask-image:radial-gradient(ellipse 52% 64% at 50% 45%, #000 60%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
 }
 .hero-bg-slide.active{
   opacity:1;pointer-events:auto;cursor:pointer;
@@ -834,7 +837,13 @@ body::after{
   .hero-stage{min-height:0;height:auto;display:flex;flex-direction:column}
   .hero-inner{min-height:0;height:auto}
   .hero-text{max-width:100%}
-  .hero-bg{position:relative;width:100%;height:280px;order:-1;margin-bottom:6px;flex-shrink:0}
+  .hero-bg{position:relative;width:100%;height:300px;order:-1;margin-bottom:6px;flex-shrink:0}
+  .hero-bg::before{width:80%;aspect-ratio:1/1.25}
+  .hero-bg::after{width:52%;aspect-ratio:1/1}
+  .hero-bg-frame{
+    -webkit-mask-image:radial-gradient(ellipse 40% 72% at 50% 48%, #000 56%, rgba(0,0,0,.9) 72%, rgba(0,0,0,.4) 86%, transparent 100%);
+    mask-image:radial-gradient(ellipse 40% 72% at 50% 48%, #000 56%, rgba(0,0,0,.9) 72%, rgba(0,0,0,.4) 86%, transparent 100%);
+  }
   .hero-bg-overlay{background:linear-gradient(180deg, transparent 65%, var(--bg) 100%)}
   .section{padding:0 16px 40px}
   .cat-grid{grid-template-columns:repeat(2,1fr);gap:8px}
@@ -1015,7 +1024,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
 <div class="page active" id="home">
   <div class="hero">
     <div class="hero-stage">
-      <div class="hero-bg" id="hero-bg"></div>
+      <div class="hero-bg"><div class="hero-bg-frame" id="hero-bg"></div></div>
       <div class="hero-bg-overlay"></div>
       <div class="hero-inner">
         <div class="hero-text">
