@@ -210,21 +210,34 @@ body::after{
   filter:blur(8px);
   pointer-events:none;
 }
+.hero-bg.pulse::before{
+  animation:heroGlowImpact 6.5s cubic-bezier(.22,1,.36,1) both;
+}
+@keyframes heroGlowImpact{
+  0%{transform:translate(-50%,-50%) scale(.82);filter:blur(8px) brightness(1)}
+  13%{transform:translate(-50%,-50%) scale(1.3);filter:blur(2px) brightness(2.3)}
+  26%{transform:translate(-50%,-50%) scale(.95);filter:blur(10px) brightness(1.1)}
+  100%{transform:translate(-50%,-50%) scale(1);filter:blur(10px) brightness(1)}
+}
 .hero-bg-slide{
   position:absolute;top:50%;left:50%;
   max-width:82%;max-height:86%;
   width:auto;height:auto;
   opacity:0;pointer-events:none;
-  transition:opacity 1.1s ease;
+  transition:opacity .5s ease;
   filter:drop-shadow(0 35px 45px rgba(0,0,0,.6));
 }
 .hero-bg-slide.active{
   opacity:1;pointer-events:auto;cursor:pointer;
-  animation:heroFloat 6.5s ease-in-out infinite alternate;
+  animation:heroImpact 6.5s cubic-bezier(.22,1,.36,1) both;
 }
-@keyframes heroFloat{
-  from{transform:translate(-50%,-50%) translateY(0) scale(1)}
-  to{transform:translate(-50%,-50%) translateY(-12px) scale(1.025)}
+@keyframes heroImpact{
+  0%{transform:translate(-50%,-50%) scale(.85)}
+  13%{transform:translate(-50%,-50%) scale(1.13)}
+  24%{transform:translate(-50%,-50%) scale(.98)}
+  34%{transform:translate(-50%,-50%) scale(1.05)}
+  46%{transform:translate(-50%,-50%) scale(1)}
+  100%{transform:translate(-50%,-50%) scale(1.018)}
 }
 .hero-bg-overlay{
   position:absolute;inset:0;z-index:0;pointer-events:none;
@@ -1292,12 +1305,20 @@ function makeCard(p,cat){
 
 function animateCount(el,target){if(!el)return;var s=0,step=Math.max(1,Math.ceil(target/40));var t=setInterval(function(){s=Math.min(s+step,target);el.textContent=s;if(s>=target)clearInterval(t);},20);}
 var _heroTimer=null,_heroIdx=0;
+function _heroPulse(){
+  var box=document.getElementById("hero-bg");
+  if(!box||window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  box.classList.remove("pulse");
+  void box.offsetWidth;
+  box.classList.add("pulse");
+}
 function heroAdvance(){
   var slides=document.querySelectorAll("#hero-bg .hero-bg-slide");
   if(slides.length<2)return;
   slides[_heroIdx].classList.remove("active");
   _heroIdx=(_heroIdx+1)%slides.length;
   slides[_heroIdx].classList.add("active");
+  _heroPulse();
 }
 function buildHeroBg(items){
   var box=document.getElementById("hero-bg");
@@ -1313,6 +1334,7 @@ function buildHeroBg(items){
     img.addEventListener("click",(function(rr){return function(){_uvOpenedFromNav=true;openModal(rr.p,rr.cat);};})(r));
     box.appendChild(img);
   });
+  _heroPulse();
   if(items.length>1&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
     _heroTimer=setInterval(heroAdvance,6500);
   }
