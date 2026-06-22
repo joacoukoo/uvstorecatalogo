@@ -249,8 +249,8 @@ body::after{
   width:auto;height:auto;
   opacity:0;pointer-events:none;
   transition:opacity .5s ease;
-  -webkit-mask-image:radial-gradient(ellipse 40% 54% at 50% 44%, #000 32%, rgba(0,0,0,.7) 48%, rgba(0,0,0,.22) 66%, transparent 86%);
-  mask-image:radial-gradient(ellipse 40% 54% at 50% 44%, #000 32%, rgba(0,0,0,.7) 48%, rgba(0,0,0,.22) 66%, transparent 86%);
+  -webkit-mask-image:radial-gradient(ellipse 52% 64% at 50% 45%, #000 60%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
+  mask-image:radial-gradient(ellipse 52% 64% at 50% 45%, #000 60%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
 }
 .hero-bg-slide.active{
   opacity:1;pointer-events:auto;cursor:pointer;
@@ -945,9 +945,8 @@ button:focus-visible,a:focus-visible{
   filter:blur(7px);pointer-events:none;
 }
 .po-img img{
-  position:relative;max-width:90%;max-height:94%;width:auto;height:auto;
-  -webkit-mask-image:radial-gradient(ellipse 44% 54% at 50% 46%, #000 36%, rgba(0,0,0,.65) 56%, transparent 88%);
-  mask-image:radial-gradient(ellipse 44% 54% at 50% 46%, #000 36%, rgba(0,0,0,.65) 56%, transparent 88%);
+  position:relative;max-width:92%;max-height:96%;width:auto;height:auto;
+  filter:drop-shadow(0 10px 18px rgba(0,0,0,.5));
 }
 .po-tag{font-family:"Syne",sans-serif;font-size:10.5px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:7px;}
 .po-name{font-family:"Bebas Neue",sans-serif;font-size:30px;letter-spacing:.5px;color:#fff;line-height:1.05;}
@@ -1428,7 +1427,18 @@ function buildHome(){
   document.getElementById("feat-meta").textContent=(destLabel>0?destLabel+" destacados":destProds.length+" figuras");
   var fg=document.getElementById("feat-grid");fg.innerHTML="";
   destProds.slice(0,16).forEach(function(r){fg.appendChild(makeCard(r.p,r.cat));});
-  buildHeroBg(destProds.slice(0,6));
+  // Hero: muestra aleatoria de TODA la tienda (no solo destacados)
+  var allProdsForHero=[];
+  CAT_KEYS.forEach(function(c){
+    (DATA[c]||{products:[]}).products.forEach(function(p){
+      if(p.i||(p.fotos&&p.fotos.length>0))allProdsForHero.push({p:p,cat:c});
+    });
+  });
+  for(var hi=allProdsForHero.length-1;hi>0;hi--){
+    var hj=Math.floor(Math.random()*(hi+1));
+    var htmp=allProdsForHero[hi];allProdsForHero[hi]=allProdsForHero[hj];allProdsForHero[hj]=htmp;
+  }
+  buildHeroBg(allProdsForHero.slice(0,12));
 
   // Sección Novedades
   var novProds=[];
