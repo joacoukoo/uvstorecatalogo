@@ -221,11 +221,12 @@ body::after{
 }
 .hero-bg-slide{
   position:absolute;top:50%;left:50%;
-  max-width:82%;max-height:86%;
+  max-width:92%;max-height:94%;
   width:auto;height:auto;
   opacity:0;pointer-events:none;
   transition:opacity .5s ease;
-  filter:drop-shadow(0 35px 45px rgba(0,0,0,.6));
+  -webkit-mask-image:radial-gradient(ellipse 40% 54% at 50% 44%, #000 32%, rgba(0,0,0,.7) 48%, rgba(0,0,0,.22) 66%, transparent 86%);
+  mask-image:radial-gradient(ellipse 40% 54% at 50% 44%, #000 32%, rgba(0,0,0,.7) 48%, rgba(0,0,0,.22) 66%, transparent 86%);
 }
 .hero-bg-slide.active{
   opacity:1;pointer-events:auto;cursor:pointer;
