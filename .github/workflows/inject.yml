@@ -33,5 +33,5 @@ jobs:
       - name: Commit index.html
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Rebuild index.html [skip ci]"
+          commit_message: "Rebuild index.html"
           file_pattern: index.html
