@@ -35350,6 +35350,68 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ssj3-goku-mqpg2cph",
+        "n": "SSJ3 Goku",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d5ee76175aeb86a75bd83442d1fa14c2.jpg?v=1781521159",
+        "franquicia": "Anime",
+        "marca": "PL Studio",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d5ee76175aeb86a75bd83442d1fa14c2.jpg?v=1781521159",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e9a7ab3597b46b32e00b577e16861b3a.jpg?v=1781521159",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8851b8fc39c5555e07e3ac762538434a.jpg?v=1782071923",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5b98696eb6a82b7082308de639fca485.jpg?v=1781521159",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e8c85260112df7ae1440042cefca775b.jpg?v=1782071923",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/056796e4be806b1bcc0f9e36db1719cd.jpg?v=1782071923",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/34f750a01bd78dcfc0cb5bb9659a47e8.jpg?v=1781521159"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la transformación definitiva con esta espectacular figura PL SSJ3 Goku de PL Studio. Captura el poder extremo del Super Saiyajin 3 con sus icónicos cabellos dorados y aura energética, perfecta para coleccionistas exigentes. Edición limitada de solo 188 piezas que elevará tu colección al siguiente nivel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de calidad premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Goku SSJ3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-22",
+        "reserva": "760",
+        "entrega": "Julio 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "kitagawa-marin-mqmr826p",
         "n": "Kitagawa Marin",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/18830/390166/_2026-06-19_154105_004__80298.1781855400.jpg",
