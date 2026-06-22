@@ -1383,14 +1383,18 @@ function buildHeroBg(items){
   box.innerHTML="";_heroIdx=0;
   items.forEach(function(r,i){
     var img=document.createElement("img");
-    img.className="hero-bg-slide"+(i===0?" active":"");
+    img.className="hero-bg-slide";
     img.src=(r.p.fotos&&r.p.fotos.length>0)?r.p.fotos[0]:r.p.i;
     img.alt=r.p.n;
     img.loading=(i===0)?"eager":"lazy";
     img.addEventListener("click",(function(rr){return function(){_uvOpenedFromNav=true;openModal(rr.p,rr.cat);};})(r));
     box.appendChild(img);
+    if(i===0){
+      var activateFirst=function(){img.classList.add("active");_heroPulse();};
+      if(img.complete&&img.naturalWidth>0)activateFirst();
+      else{img.addEventListener("load",activateFirst,{once:true});img.addEventListener("error",activateFirst,{once:true});}
+    }
   });
-  _heroPulse();
   if(items.length>1&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
     _heroTimer=setInterval(heroAdvance,6500);
   }
