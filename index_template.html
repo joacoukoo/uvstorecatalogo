@@ -187,11 +187,15 @@ body::after{
   overflow:hidden;
   min-height:600px;
 }
-.hero-inner{
+.hero-stage{
   max-width:1400px;margin:0 auto;
+  position:relative;
+  height:100%;min-height:460px;
+}
+.hero-inner{
   position:relative;z-index:2;
   pointer-events:none;
-  min-height:460px;
+  height:100%;
   display:flex;align-items:center;
 }
 .hero-text{max-width:480px}
@@ -212,6 +216,26 @@ body::after{
 }
 .hero-bg.pulse::before{
   animation:heroGlowImpact 6.5s cubic-bezier(.22,1,.36,1) both;
+}
+.hero-bg::after{
+  content:'';
+  position:absolute;top:50%;left:50%;
+  width:76%;aspect-ratio:1/1;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  background:conic-gradient(from -30deg,
+    transparent 0deg, rgba(157,92,212,.7) 25deg, transparent 55deg,
+    transparent 145deg, rgba(229,185,107,.6) 172deg, transparent 198deg,
+    transparent 295deg, rgba(157,92,212,.5) 322deg, transparent 350deg);
+  -webkit-mask-image:radial-gradient(circle, transparent calc(50% - 2.5px), #000 calc(50% - 2.5px), #000 50%, transparent 50.5%);
+  mask-image:radial-gradient(circle, transparent calc(50% - 2.5px), #000 calc(50% - 2.5px), #000 50%, transparent 50.5%);
+  pointer-events:none;
+  opacity:.85;
+  animation:heroRingSpin 80s linear infinite;
+}
+@keyframes heroRingSpin{
+  from{transform:translate(-50%,-50%) rotate(0deg)}
+  to{transform:translate(-50%,-50%) rotate(360deg)}
 }
 @keyframes heroGlowImpact{
   0%{transform:translate(-50%,-50%) scale(.82);filter:blur(8px) brightness(1)}
@@ -806,8 +830,9 @@ body::after{
 @media(max-width:1024px){.cat-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:768px){
   .nav-links{display:none}
-  .hero{padding:80px 16px 28px;min-height:0;display:flex;flex-direction:column}
-  .hero-inner{min-height:0}
+  .hero{padding:80px 16px 28px;min-height:0}
+  .hero-stage{min-height:0;height:auto;display:flex;flex-direction:column}
+  .hero-inner{min-height:0;height:auto}
   .hero-text{max-width:100%}
   .hero-bg{position:relative;width:100%;height:280px;order:-1;margin-bottom:6px;flex-shrink:0}
   .hero-bg-overlay{background:linear-gradient(180deg, transparent 65%, var(--bg) 100%)}
@@ -906,24 +931,44 @@ button:focus-visible,a:focus-visible{
   .reveal{opacity:1!important;transform:none!important;transition:none!important}
 }
 /* ── Pre Orden del Mes Band ─────────────────────────────────────────────── */
-#preorden-band{background:linear-gradient(135deg,rgba(123,47,190,.1) 0%,rgba(200,150,62,.05) 100%);border-top:1px solid rgba(123,47,190,.25);border-bottom:1px solid rgba(123,47,190,.12);padding:0 24px;}
-.preorden-band-inner{max-width:900px;margin:0 auto;padding:16px 0;display:grid;grid-template-columns:108px 1fr auto;align-items:center;gap:20px;}
-.po-img{width:108px;height:120px;border-radius:8px;overflow:hidden;border:1px solid rgba(123,47,190,.35);background:var(--bg3);flex-shrink:0;}
-.po-img img{width:100%;height:100%;object-fit:cover;}
-.po-tag{font-family:"Syne",sans-serif;font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:5px;}
-.po-name{font-family:"Bebas Neue",sans-serif;font-size:20px;color:var(--text);line-height:1.1;letter-spacing:.5px;}
-.po-sub{font-size:11px;color:var(--muted2);margin-top:2px;}
+#preorden-band{
+  background:linear-gradient(120deg,rgba(123,47,190,.14) 0%,rgba(7,8,13,.3) 45%,rgba(200,150,62,.07) 100%);
+  border-top:1px solid rgba(123,47,190,.25);border-bottom:1px solid rgba(123,47,190,.12);
+  padding:30px 24px;
+}
+.preorden-band-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:150px 1fr auto;align-items:center;gap:28px;}
+.po-img{position:relative;width:150px;height:170px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.po-img::before{
+  content:'';position:absolute;top:50%;left:50%;
+  width:140%;aspect-ratio:1/1;transform:translate(-50%,-50%);
+  background:radial-gradient(circle, rgba(229,185,107,.32) 0%, rgba(123,47,190,.2) 45%, transparent 72%);
+  filter:blur(7px);pointer-events:none;
+}
+.po-img img{
+  position:relative;max-width:90%;max-height:94%;width:auto;height:auto;
+  -webkit-mask-image:radial-gradient(ellipse 44% 54% at 50% 46%, #000 36%, rgba(0,0,0,.65) 56%, transparent 88%);
+  mask-image:radial-gradient(ellipse 44% 54% at 50% 46%, #000 36%, rgba(0,0,0,.65) 56%, transparent 88%);
+}
+.po-tag{font-family:"Syne",sans-serif;font-size:10.5px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:7px;}
+.po-name{font-family:"Bebas Neue",sans-serif;font-size:30px;letter-spacing:.5px;color:#fff;line-height:1.05;}
+.po-sub{font-size:12.5px;color:var(--muted2);margin-top:5px;font-family:"Syne",sans-serif;letter-spacing:.3px;}
 .po-right{text-align:right;flex-shrink:0;}
 .po-price{font-family:"Bebas Neue",sans-serif;font-size:24px;color:var(--text);line-height:1;}
 .po-reserva{font-size:11px;color:var(--gold);margin:3px 0;}
-.po-entrega{font-size:10px;color:var(--muted2);margin-bottom:6px;}
-.po-btn{background:var(--purple);color:#fff;border:none;border-radius:6px;font-family:"Syne",sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:8px 18px;cursor:pointer;transition:opacity .15s;}
-.po-btn:hover{opacity:.85;}
+.po-entrega{font-size:11px;color:var(--muted2);margin-bottom:10px;}
+.po-btn{
+  background:var(--purple);color:#fff;border:none;border-radius:8px;
+  font-family:"Syne",sans-serif;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
+  padding:11px 26px;cursor:pointer;transition:transform .15s,box-shadow .15s;
+  box-shadow:0 8px 22px rgba(123,47,190,.4);
+}
+.po-btn:hover{transform:translateY(-1px);box-shadow:0 10px 28px rgba(123,47,190,.55);}
 @media(max-width:600px){
-#preorden-band{padding:0 16px;}
-.preorden-band-inner{grid-template-columns:80px 1fr;gap:6px 12px;align-items:start;}
-.po-img{width:80px;height:90px;grid-row:1/3;}
-.po-right{text-align:left;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+#preorden-band{padding:22px 16px;}
+.preorden-band-inner{grid-template-columns:104px 1fr;gap:8px 16px;align-items:center;}
+.po-img{width:104px;height:120px;grid-row:1/3;}
+.po-name{font-size:23px;}
+.po-right{grid-column:1/3;text-align:left;display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:2px;}
 .po-price{font-size:18px;}
 .po-reserva{margin:0;}
 .po-entrega{display:none;}
@@ -970,18 +1015,20 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
 
 <div class="page active" id="home">
   <div class="hero">
-    <div class="hero-bg" id="hero-bg"></div>
-    <div class="hero-bg-overlay"></div>
-    <div class="hero-inner">
-      <div class="hero-text">
-        <div class="hero-eye">Coleccionables Premium &middot; Guatemala</div>
-        <h1 class="hero-title">UV <span>STORE</span><br>GUATEMALA</h1>
-        <div class="hero-sub">Figuras 1:6, estatuas y pre-&oacute;rdenes exclusivas. Hot Toys, Sideshow, Iron Studios y m&aacute;s.</div>
-        <div class="hero-stats">
-          <div class="hero-stat"><div class="hero-stat-num" id="stat-total">—</div><div class="hero-stat-lbl">Figuras</div></div>
-          <div class="hero-stat"><div class="hero-stat-num" id="stat-stock">—</div><div class="hero-stat-lbl">En Stock</div></div>
-          <div class="hero-stat"><div class="hero-stat-num" id="stat-pre">—</div><div class="hero-stat-lbl">Pre-Órdenes</div></div>
-          <div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-lbl">Categorías</div></div>
+    <div class="hero-stage">
+      <div class="hero-bg" id="hero-bg"></div>
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-eye">Coleccionables Premium &middot; Guatemala</div>
+          <h1 class="hero-title">UV <span>STORE</span><br>GUATEMALA</h1>
+          <div class="hero-sub">Figuras 1:6, estatuas y pre-&oacute;rdenes exclusivas. Hot Toys, Sideshow, Iron Studios y m&aacute;s.</div>
+          <div class="hero-stats">
+            <div class="hero-stat"><div class="hero-stat-num" id="stat-total">—</div><div class="hero-stat-lbl">Figuras</div></div>
+            <div class="hero-stat"><div class="hero-stat-num" id="stat-stock">—</div><div class="hero-stat-lbl">En Stock</div></div>
+            <div class="hero-stat"><div class="hero-stat-num" id="stat-pre">—</div><div class="hero-stat-lbl">Pre-Órdenes</div></div>
+            <div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-lbl">Categorías</div></div>
+          </div>
         </div>
       </div>
     </div>
