@@ -35350,6 +35350,71 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "eevee-life-size-mqu7jxfx",
+        "n": "Eevee Life-Size",
+        "i": "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9d56e98.jpg",
+        "franquicia": "Anime",
+        "marca": "Sideshow Collectibles",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9d56e98.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9dc495a.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9e4cf13.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9ecc166.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9f531ba.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9fceb50.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0ba026574.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0ba0a21cd.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0ba123725.jpg",
+          "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0ba197eb8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "¡Trae a casa la adorable Eevee en tamaño de vida con esta figura premium de Sideshow Collectibles! Esta pieza de colección captura toda la ternura y personalidad del icónico Pokémon con un detalle extraordinario. Perfecta para fans y coleccionistas que buscan una pieza central única para su colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 45 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 3.5 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Eevee tamaño vida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con plantas y flores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-26",
+        "reserva": "1280",
+        "entrega": "Feb. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "ssj3-goku-mqpg2cph",
         "n": "SSJ3 Goku",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d5ee76175aeb86a75bd83442d1fa14c2.jpg?v=1781521159",
