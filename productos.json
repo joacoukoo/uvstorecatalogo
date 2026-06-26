@@ -49166,6 +49166,97 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "spider-noir-mqv82q7s",
+        "n": "Spider-Noir",
+        "i": "https://img.shoplineapp.com/media/image_clips/6a3c633d79442c67eccb7c4a/original.jpg?1782342461=&owner_id=62f310ccf972b800600e7b20",
+        "franquicia": "Marvel",
+        "marca": "Hell Cat Studio",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1350",
+        "fotos": [
+          "https://img.shoplineapp.com/media/image_clips/6a3c633d79442c67eccb7c4a/original.jpg?1782342461=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a3c60d93ac2af8748c0b882/original.JPG?1782341848=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a3c60db2fed7e17b952228d/original.JPG?1782341849=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a3c60d9d529866989db6f5c/original.JPG?1782341846=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a3c60dc79442c5321cb7ec9/original.JPG?1782341851=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a3c60da652ef27bbe5cb2c6/original.JPG?1782341849=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a3c60db60c779168a1a54e2/original.JPG?1782341850=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a3c60d9be6b224de81100d3/original.JPG?1782341846=&owner_id=62f310ccf972b800600e7b20"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con la figura articulada Nightweaver de 1/12, un sofisticado antihéroe con detalles cinematográficos que captura su esencia mortal. Disponible en versión blanco y negro o a todo color, incluye múltiples cabezas intercambiables y accesorios premium para recrear escenas épicas. Precisión de coleccionista con articulaciones avanzadas que permiten poses dinámicas y auténticas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: ABS/PVC articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo totalmente articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples cabezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 cabezas (realista, enmascarada, media máscara removible)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje con red y abrigo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sombrero de copa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hilo de red"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Copa de vino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos bonus (sosteniendo copa y fumando)"
+          },
+          {
+            "t": "notion-text",
+            "x": "Versión Color o B&N"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-26",
+        "reserva": "270",
+        "entrega": "Feb. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "arnold-book-by-taschen-mqiwg1ac",
         "n": "ARNOLD Book by TASCHEN",
         "i": "https://www.sideshow.com/storage/product-images/9124822/taschen-arnold-schwarzenegger-arnold-book-gallery-6a3301e273f95.jpg",
