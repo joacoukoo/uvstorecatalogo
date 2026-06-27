@@ -3,6 +3,98 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "iron-spider-mqwh3x4v",
+        "n": "Iron Spider",
+        "i": "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88c64f02.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "4200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88c64f02.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_scale_669fd8936e9b9.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88cd31cd.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88d3c64d.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88d9b907.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88e0a23b.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88e68b8e.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88ed2721.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88f3bca6.jpg",
+          "https://www.sideshow.com/storage/product-images/913630/iron-spider_marvel_gallery_669fd88f9f090.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la épica batalla final con la figura Iron Spider Sixth Scale de Hot Toys, que captura cada detalle del traje nano-tecnológico de Peter Parker en Avengers: Endgame. Con cabeza LED iluminada intercambiable, pincers magnéticos articulados y el Guantelete del Infinito iluminado, esta pieza maestra es imprescindible para coleccionistas de Marvel. Personaliza infinitas poses con 30 puntos de articulación y 12 manos intercambiables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado con traje de tela y accesorios de resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funciones: Luces LED en cabeza y traje (USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza de Spider-Man enmascarada con LED y 5 juegos de ojos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza sin máscara con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "12 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje Iron Spider con iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pincers dorados de 4 patas articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantelete del Infinito dañado con Piedras iluminadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mjolnir (martillo de Thor)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 accesorios de tela de araña"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama especializada"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "robin-mon4pkg2",
         "n": "Robin",
         "i": "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93cca80c.jpg",
