@@ -35350,6 +35350,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "t-rex-breakout-mqvvegus",
+        "n": "T-Rex Breakout",
+        "i": "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c117ab3.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2850",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c117ab3.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c0b354d.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c16e4d2.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c1c5732.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c22c3c5.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c28690b.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c2df2ec.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c341b8a.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c398b35.jpg",
+          "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-silo.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el icónico momento de fuga del T-Rex con esta espectacular estatua de Iron Studios a escala 1:6. Cada detalle está meticulosamente elaborado, desde la musculatura del dinosaurio hasta sus devastadores colmillos y expresión amenazante. Una pieza de colección definitiva que captura la adrenalina pura de Jurassic Park."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliestireno, pintura acrílica y detalles en resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua del T-Rex en pose de ataque"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vehículo dañado con detalles de destrucción"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con vegetación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          },
+          {
+            "t": "notion-text",
+            "x": "Non scale\nProduct Size\nHeight: 6.8\" (17 cm)\nWidth: 7.3\" (19 cm)\nDepth: 10.5\" (27 cm) *"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "570",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "peter-pan-tinker-bell-mqvvbwxq",
         "n": "Peter Pan & Tinker Bell",
         "i": "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f809ba6.jpg",
