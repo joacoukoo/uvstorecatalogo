@@ -35350,6 +35350,103 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "supergirl-krypto-1-10-scale-statue-by-iron-studios-mqvvgbaw",
+        "n": "Supergirl & Krypto 1:10 Scale Statue by Iron Studios",
+        "i": "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f0968d6ed4.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2850",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f0968d6ed4.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f09694afc8.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f0969b48db.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f096a2073f.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f096a85581.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f096af1400.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f096b6a17a.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f096bcc471.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f096c45709.jpg",
+          "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-silo.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el universo DC con esta espectacular estatua de Supergirl y Krypto de Iron Studios, capturando toda la potencia y heroísmo de la Doncella de Acero junto a su leal compañero Kryptónico. Una pieza de colección imprescindible que combina escultura detallada con pintura a mano y una base dinámicamente diseñada con efectos de energía inspirados en el icónico símbolo de Superman. Perfecta para cualquier fan dedicado que busque una obra maestra de alta gama para su colección DC."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25 cm (aproximadamente)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina Polystone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con efectos de energía especiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: DC Comics"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Supergirl completamente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Krypto (super-perro de Kryptón)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática con símbolo de Superman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía especiales en la base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Opción de doble caja para protección"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "570",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "t-rex-breakout-mqvvegus",
         "n": "T-Rex Breakout",
         "i": "https://www.sideshow.com/storage/product-images/915834/iron-studios-jurassic-park-t-rex-breakout-set-a-statue-gallery-6a3ef8c117ab3.jpg",
