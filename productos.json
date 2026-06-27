@@ -35350,6 +35350,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "queen-amidala-mqvv5ncs",
+        "n": "Queen Amidala",
+        "i": "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaab9bf6c.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2850",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaab9bf6c.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-scale-6a3dbaae54bab.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaabd8815.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaac21447.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaac5d6bf.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaac9adf7.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaacd7bc1.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaad1f1b9.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaad5b106.jpg",
+          "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaad95527.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive la majestuosidad de Naboo con esta espectacular estatua de la Reina Padmé Amidala a escala 1:10 de Iron Studios. Cada detalle de su icónico atuendo rojo y su elaborada corona ha sido meticulosamente esculpido, capturando la elegancia y el poder de uno de los personajes más icónicos de Star Wars. Una pieza de colección premium imprescindible para los verdaderos aficionados de la saga galáctica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Padmé Amidala"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "570",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "caraxes-mqvv3s4o",
         "n": "Caraxes",
         "i": "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da048d7746.jpg",
