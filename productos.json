@@ -35350,6 +35350,87 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "caraxes-mqvv3s4o",
+        "n": "Caraxes",
+        "i": "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da048d7746.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da048d7746.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-scale-6a3da04c32376.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da0491bea0.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da0495f388.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da049a254c.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da049e0801.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da04a2929f.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da04a6a2e8.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da04aaac52.jpg",
+          "https://www.sideshow.com/storage/product-images/915832/iron-studios-dc-comics-caraxes-statue-gallery-6a3da04aec90a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Sumérgete en la épica de House of the Dragon con esta espectacular estatua de Caraxes, el legendario dragón rojo de Daemon Targaryen. Iron Studios captura con precisión magistral cada detalle de esta criatura mítica: sus alas desplegadas en toda su gloria, su musculatura devastadora y el resplandor ígneo que ilumina sus escamas. Una obra maestra de colección que encarna la ferocidad y grandiosidad de Westeros, imprescindible para devotos fans y coleccionistas premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Non-scale (tamaño premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 34 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de poliuretano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado a mano con detalles en múltiples capas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Colección: Icons - House of the Dragon"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Caraxes completamente esculpida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de House of the Dragon"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos temáticos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "1040",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "darkseid-unleashed-mqvv0wvl",
         "n": "Darkseid Unleashed",
         "i": "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1ca80a7f.jpg",
