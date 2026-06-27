@@ -35350,6 +35350,79 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "darkseid-unleashed-mqvv0wvl",
+        "n": "Darkseid Unleashed",
+        "i": "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1ca80a7f.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5750",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1ca80a7f.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-scale-6a3da1cdcca98.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cac05fe.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cb0a42a.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cb4928b.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cb8ca33.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cbcaca4.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cc1058a.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cc4c146.jpg",
+          "https://www.sideshow.com/storage/product-images/915833/iron-studios-dc-comics-darkseid-unleashed-1-10-scale-statues-gallery-6a3da1cc8be83.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el poder cósmico con la estatua Darkseid Unleashed de Iron Studios, una obra maestra que captura al Señor de Apokolips en su máxima expresión de dominio. Con un detalle exquisito en escultura y pintura, esta figura premium de 1:10 escala es un imprescindible para coleccionistas de DC Comics que desean poseer el icónico villano en su forma más amenazante."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25-28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua principal de Darkseid"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa tematizada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de colección premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "1150",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "eevee-life-size-mqu7jxfx",
         "n": "Eevee Life-Size",
         "i": "https://www.sideshow.com/storage/product-images/400393/sideshow-collectibles-pokemon-eevee-life-size-figure-gallery-6a3b0b9d56e98.jpg",
