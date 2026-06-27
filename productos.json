@@ -35350,6 +35350,87 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "peter-pan-tinker-bell-mqvvbwxq",
+        "n": "Peter Pan & Tinker Bell",
+        "i": "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f809ba6.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f809ba6.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f850365.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f892a27.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f8d57b5.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f929eaf.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f96d328.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f9aed59.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1f9efe41.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1fa3c336.jpg",
+          "https://www.sideshow.com/storage/product-images/915836/iron-studios-disney-peter-pan-tinker-bell-statue-gallery-6a3ef1fa7d4ac.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive la magia de Nunca Jamás con esta espectacular estatua de Peter Pan y Campanilla de Iron Studios. Esta pieza de colección captura el encanto eterno del clásico Disney con un detallismo extraordinario, mostrando a Peter Pan en su icónica pose con la pequeña hada resplandeciente en su mano. Una obra maestra artesanal pintada a mano que transportará la nostalgia y la aventura a cualquier colección premium de Disney."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm (9.2 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 21 cm (8.4 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 22 cm (8.5 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina artesanal pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.5-2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Peter Pan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Tinker Bell (Campanilla) con efectos de brillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "1040",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "scare-glow-mqvv8r5z",
         "n": "Scare Glow",
         "i": "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba7736788.jpg",
