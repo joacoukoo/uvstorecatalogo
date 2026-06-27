@@ -35350,6 +35350,91 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "scare-glow-mqvv8r5z",
+        "n": "Scare Glow",
+        "i": "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba7736788.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba7736788.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-scale-6a3dba7a42a93.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba78398e1.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba777206f.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba77b5939.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba77f007c.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba7873286.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba78b40b5.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba78f2c39.jpg",
+          "https://www.sideshow.com/storage/product-images/915835/iron-studios-masters-of-the-universe-scare-glow-1-10-scale-statues-gallery-6a3dba793ee26.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Desata el terror con Scare Glow, la estatua de colección premium de Iron Studios que captura toda la esencia maléfica del icónico villano de Masters of the Universe en escala 1:10. Esta pieza maestra presenta una calidad de escultura de museo con acabados en pintura de experto que destacan cada terrorífico rasgo, desde su cráneo fantasmal iluminado hasta su armadura cósmica de detalle inmaculado. Una adición obligatoria para coleccionistas hardcore que exigen lo mejor en sus piezas de lujo de edición limitada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de poliestireno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: Aproximado 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Scare Glow con capa y armadura detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas fantasmales fluorescentes intercambiables (2 piezas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-06-27",
+        "reserva": "800",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "queen-amidala-mqvv5ncs",
         "n": "Queen Amidala",
         "i": "https://www.sideshow.com/storage/product-images/915837/iron-studios-disney-queen-amidala-1-10-scale-statues-gallery-6a3dbaab9bf6c.jpg",
