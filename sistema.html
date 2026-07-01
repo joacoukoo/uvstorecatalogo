@@ -295,11 +295,12 @@ button,a{touch-action:manipulation;cursor:pointer}
   .chart-monthly-wrap{overflow-x:auto;margin:0 -4px;}
   .chart-monthly{min-width:440px;}
   /* Ocultar columnas no esenciales en cada tabla */
-  /* Órdenes: ocultar Cliente(2) Precio(3) Abonado(4) Saldo(5) */
+  /* Órdenes: ocultar Cliente(2) Precio(3) Abonado(4) Saldo(5) Proveedor(8) */
   .tbl-ordenes th:nth-child(2),.tbl-ordenes td:nth-child(2),
   .tbl-ordenes th:nth-child(3),.tbl-ordenes td:nth-child(3),
   .tbl-ordenes th:nth-child(4),.tbl-ordenes td:nth-child(4),
-  .tbl-ordenes th:nth-child(5),.tbl-ordenes td:nth-child(5){display:none;}
+  .tbl-ordenes th:nth-child(5),.tbl-ordenes td:nth-child(5),
+  .tbl-ordenes th:nth-child(8),.tbl-ordenes td:nth-child(8){display:none;}
   /* Historial cliente: ocultar Marca(2) Precio(5) */
   .tbl-historial th:nth-child(2),.tbl-historial td:nth-child(2),
   .tbl-historial th:nth-child(5),.tbl-historial td:nth-child(5){display:none;}
@@ -513,6 +514,11 @@ button,a{touch-action:manipulation;cursor:pointer}
             <option value="entregado">Entregadas</option>
             <option value="sin_entregar">Sin entregar</option>
           </select>
+          <select class="form-select" x-model="filtroPedida" style="width:auto;max-width:160px;padding:8px 12px;font-size:14px">
+            <option value="">Toda pedida</option>
+            <option value="pedida">Pedida al prov.</option>
+            <option value="sin_pedir">Sin pedir al prov.</option>
+          </select>
         </div>
         <div class="card">
           <div x-show="errorMsg" style="padding:16px;color:var(--red);font-size:14px" x-text="errorMsg"></div>
@@ -533,6 +539,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                     <th>Saldo</th>
                     <th>Pago</th>
                     <th>Entrega</th>
+                    <th>Proveedor</th>
                     <th></th>
                   </tr>
                 </thead>
@@ -561,6 +568,12 @@ button,a{touch-action:manipulation;cursor:pointer}
                       </td>
                       <td>
                         <button class="btn-sm" :class="o.entregado ? 'btn-green' : 'btn-ghost'" @click="toggleEntregado(o)" style="font-size:11px;padding:3px 10px" x-text="o.entregado ? 'Entregado' : 'Sin entregar'"></button>
+                      </td>
+                      <td>
+                        <div style="display:flex;flex-direction:column;gap:4px;min-width:120px">
+                          <button class="btn-sm" :class="o.pedida_proveedor ? 'btn-orange' : 'btn-ghost'" @click="togglePedidaProveedor(o)" style="font-size:11px;padding:3px 10px" x-text="o.pedida_proveedor ? 'Pedida' : 'Sin pedir'"></button>
+                          <input type="text" :value="o.pedido||''" @change="guardarPedido(o, $event.target.value)" placeholder="proveedor..." style="background:var(--bg3);border:1px solid var(--border2);border-radius:6px;padding:3px 8px;color:var(--text);font-size:11px;font-family:inherit;outline:none;width:100%" @focus="$el.style.borderColor='var(--purple)'" @blur="$el.style.borderColor='var(--border2)'">
+                        </div>
                       </td>
                       <td style="display:flex;gap:6px;flex-wrap:wrap">
                         <button x-show="o._saldo > 0" class="btn-sm btn-green" style="padding:3px 8px;font-size:11px" @click="pagarRapido(o)">✓ Cobrado</button>
@@ -1710,16 +1723,18 @@ function uvOrdenes() {
   return {
     _todos: [], _limite: 100,
     loading: true, errorMsg: '',
-    busqueda: '', _inputBusqueda: '', filtroEstado: '', filtroEntregado: '', _pagandoId: null,
+    busqueda: '', _inputBusqueda: '', filtroEstado: '', filtroEntregado: '', filtroPedida: '', _pagandoId: null,
 
     get filtrados() {
       const q = normalize(this.busqueda);
       const fe = this.filtroEstado;
       const fent = this.filtroEntregado;
+      const fp = this.filtroPedida;
       return this._todos.filter(o =>
         (!q || normalize(o.producto).includes(q) || normalize(o.clientes?.nombre).includes(q) || normalize(o.marca).includes(q)) &&
         (!fe || o.estado === fe) &&
-        (!fent || (fent === 'entregado' ? o.entregado : !o.entregado))
+        (!fent || (fent === 'entregado' ? o.entregado : !o.entregado)) &&
+        (!fp || (fp === 'pedida' ? o.pedida_proveedor : !o.pedida_proveedor))
       );
     },
 
@@ -1732,6 +1747,7 @@ function uvOrdenes() {
       this._inputBusqueda = '';
       this.filtroEstado = '';
       this.filtroEntregado = '';
+      this.filtroPedida = '';
       if (this.$refs.buscador) this.$refs.buscador.value = '';
     },
 
@@ -1744,6 +1760,7 @@ function uvOrdenes() {
         if (this.$refs.buscador) this.$refs.buscador.value = '';
         this.filtroEstado = '';
         this.filtroEntregado = '';
+        this.filtroPedida = '';
         this._limite = 100;
       });
       this.cargar();
@@ -1792,6 +1809,28 @@ function uvOrdenes() {
         await this.cargar();
       } catch (e) {
         o.entregado = prev;
+        alert('Error: ' + e.message);
+      }
+    },
+
+    async togglePedidaProveedor(o) {
+      const prev = o.pedida_proveedor;
+      o.pedida_proveedor = !prev;
+      try {
+        await dbSetPedidaProveedor(o.id, o.pedida_proveedor);
+      } catch (e) {
+        o.pedida_proveedor = prev;
+        alert('Error: ' + e.message);
+      }
+    },
+
+    async guardarPedido(o, val) {
+      const prev = o.pedido;
+      o.pedido = val;
+      try {
+        await dbSetPedido(o.id, val);
+      } catch (e) {
+        o.pedido = prev;
         alert('Error: ' + e.message);
       }
     },

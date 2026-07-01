@@ -236,6 +236,11 @@ async function dbSetPedidaProveedor(id, value) {
   if (error) throw error;
 }
 
+async function dbSetPedido(id, pedido) {
+  const { error } = await db.from('ordenes').update({ pedido }).eq('id', id);
+  if (error) throw error;
+}
+
 async function dbMarcarPedidasPorMarca(marca) {
   const { data, error } = await db.from('ordenes')
     .update({ pedida_proveedor: true })
