@@ -1822,7 +1822,6 @@ function uvDashboard() {
         ]);
         this._ordenes = ordenes;
         this.gananciaMes = ordenes.reduce((sum, o) => {
-          if (o.estado === 'cancelada') return sum;
           let ano, mes;
           if (o.fecha_venta) {
             const p = o.fecha_venta.split('-');
@@ -1832,6 +1831,7 @@ function uvDashboard() {
             ano = f.getFullYear(); mes = f.getMonth();
           }
           if (ano !== anioActual || mes !== mesActual) return sum;
+          if (o.estado === 'cancelada') return sum + (calcAbonado(o.pagos || []) / 7.9);
           return sum + ((o.precio_venta_gtq || 0) / 7.9) - calcCostoEstimado(o);
         }, 0);
 
