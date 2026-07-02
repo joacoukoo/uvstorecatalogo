@@ -861,6 +861,39 @@ button,a{touch-action:manipulation;cursor:pointer}
                 </div>
               </div>
             </div>
+
+            <div x-show="!loteExpandido" class="form-row-1">
+              <button type="button" class="btn-sm btn-ghost" @click="loteExpandido=true">+ Vincular a lote de pedido</button>
+            </div>
+            <div x-show="loteExpandido" class="form-row-1" style="padding:14px;background:var(--bg3);border:1px solid var(--border2);border-radius:8px">
+              <template x-if="!form.lote_id">
+                <div>
+                  <label class="form-label">Buscar lote (producto, marca o código)</label>
+                  <div style="position:relative">
+                    <input class="form-input" type="text" x-model="loteBusqueda" @input="buscarLotes()" placeholder="Ej: Jinx, Hot Toys, JIHO01..." style="font-size:16px">
+                    <div x-show="lotesFiltrados.length>0" style="position:absolute;top:100%;left:0;right:0;z-index:300;background:var(--bg3);border:1px solid var(--border2);border-radius:8px;max-height:200px;overflow-y:auto;margin-top:4px">
+                      <template x-for="l in lotesFiltrados" :key="l.id">
+                        <button type="button" @click="seleccionarLote(l)" style="display:block;width:100%;text-align:left;padding:10px 14px;background:none;border:none;color:var(--text);font-size:14px;font-family:inherit;cursor:pointer">
+                          <span x-text="l.producto + ' · ' + l.codigo"></span>
+                          <span :style="l.disponibles<=0?'color:var(--red)':'color:var(--green)'" x-text="' — ' + l.disponibles + ' disponibles'"></span>
+                        </button>
+                      </template>
+                    </div>
+                  </div>
+                </div>
+              </template>
+              <template x-if="form.lote_id">
+                <div>
+                  <div style="display:flex;justify-content:space-between;align-items:center">
+                    <span style="font-size:14px;color:#fff" x-text="loteVinculado ? (loteVinculado.producto + ' · ' + loteVinculado.codigo) : ''"></span>
+                    <button type="button" class="btn-sm btn-ghost" @click="quitarLote()">Quitar vínculo</button>
+                  </div>
+                  <div x-show="loteVinculado && loteVinculado.disponibles<=0" style="color:var(--red);font-size:12px;margin-top:6px">
+                    ⚠ Ya no quedan unidades disponibles en este lote.
+                  </div>
+                </div>
+              </template>
+            </div>
           </div>
 
           <div style="margin-bottom:24px">
@@ -2172,11 +2205,12 @@ function uvNuevaOrden() {
     aduanaManual: false, arancelManual: false,
     clienteBusqueda: '', mostrarClienteOpts: false,
     modalNuevoCliente: false, nuevoClienteForm: { nombre: '', whatsapp: '' }, guardandoCliente: false,
+    loteExpandido: false, loteBusqueda: '', lotesTodos: [], loteVinculado: null,
     form: {
       id: null, cliente_id: '', producto: '', codigo: '', marca: '',
       escala: '', pedido: '', precio_original: 0, envio: 0, envio_mbe: 0,
       impuesto: 0, aduana: 0, arancel: 0, precio_venta_usd: 0,
-      precio_venta_gtq: 0, estado: 'en_proceso', entregado: false, pedida_proveedor: false, notas: ''
+      precio_venta_gtq: 0, estado: 'en_proceso', entregado: false, pedida_proveedor: false, notas: '', lote_id: ''
     },
     get clientesFiltrados() {
       const q = normalize(this.clienteBusqueda);
@@ -2186,6 +2220,32 @@ function uvNuevaOrden() {
       this.form.cliente_id = c ? c.id : '';
       this.clienteBusqueda  = c ? c.nombre : '';
       this.mostrarClienteOpts = false;
+    },
+    get lotesFiltrados() {
+      const q = normalize(this.loteBusqueda);
+      if (!q) return [];
+      return this.lotesTodos.filter(l =>
+        normalize(l.producto).includes(q) ||
+        normalize(l.marca || '').includes(q) ||
+        normalize(l.codigo).includes(q)
+      ).slice(0, 8);
+    },
+    async buscarLotes() {
+      if (this.lotesTodos.length === 0) this.lotesTodos = await dbGetLotes();
+    },
+    seleccionarLote(l) {
+      this.form.lote_id = l.id;
+      this.loteVinculado = l;
+      this.loteBusqueda = '';
+      if (!this.form.marca) this.form.marca = l.marca;
+      if (!this.form.escala) this.form.escala = l.escala;
+      if (!this.form.pedido) this.form.pedido = l.proveedor;
+      this.form.pedida_proveedor = true;
+      if (l.disponibles <= 0) alert('Ya vendiste todas las unidades de este lote (' + l.cantidad + '). Podés vincularla igual si vas a pedir más.');
+    },
+    quitarLote() {
+      this.form.lote_id = '';
+      this.loteVinculado = null;
     },
     get aduanaCalc() {
       return ((this.form.precio_original||0) + (this.form.envio||0) + (this.form.impuesto||0)) * 0.12;
@@ -2207,12 +2267,16 @@ function uvNuevaOrden() {
       this.clientes = await dbGetClientes();
       if (_editarOrdenId) {
         const o = await dbGetOrden(_editarOrdenId);
-        this.form = { ...o };
+        this.form = { ...o, lote_id: o.lote_id || '' };
         this.abonoInicial = 0;
         _editarOrdenId = null;
         if (o.cliente_id) {
           const c = this.clientes.find(c => c.id === o.cliente_id);
           if (c) this.clienteBusqueda = c.nombre;
+        }
+        if (o.lote_id) {
+          this.loteExpandido = true;
+          this.loteVinculado = await dbGetLote(o.lote_id);
         }
         // Si el valor guardado difiere del calculado, fue un override manual
         if (Math.abs((o.aduana||0) - this.aduanaCalc) > 0.001) this.aduanaManual = true;
