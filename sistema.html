@@ -359,6 +359,10 @@ button,a{touch-action:manipulation;cursor:pointer}
         <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         Métricas
       </button>
+      <button class="nav-item" :class="{active: view==='lotes'}" @click="goTo('lotes')">
+        <svg viewBox="0 0 24 24"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" y1="22" x2="12" y2="12"/></svg>
+        Lotes de Pedido
+      </button>
     </nav>
     <div class="sidebar-footer">
       <a href="importar.html" class="btn-logout" style="display:block;text-align:center;text-decoration:none;margin-bottom:8px">⚙️ Importar datos</a>
@@ -493,10 +497,7 @@ button,a{touch-action:manipulation;cursor:pointer}
     <div x-show="view==='ordenes'" x-data="uvOrdenes()">
       <div class="page-header">
         <h1 class="page-title">Órdenes</h1>
-        <div style="display:flex;gap:8px">
-          <button class="btn-sm btn-ghost" @click="$dispatch('go-to','lotes')">📦 Lotes de Pedido</button>
-          <button class="btn-sm btn-purple" @click="$dispatch('open-nueva-orden')">+ Nueva orden</button>
-        </div>
+        <button class="btn-sm btn-purple" @click="$dispatch('open-nueva-orden')">+ Nueva orden</button>
       </div>
       <div class="page-body">
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;align-items:center">
@@ -1334,10 +1335,7 @@ button,a{touch-action:manipulation;cursor:pointer}
     <div x-show="view==='lotes'" x-data="uvLotes()">
       <div class="page-header">
         <h1 class="page-title">Lotes de Pedido</h1>
-        <div style="display:flex;gap:8px">
-          <button class="btn-sm btn-ghost" @click="$dispatch('go-to','ordenes')">← Órdenes</button>
-          <button class="btn-sm btn-purple" @click="abrirNuevo()">+ Nuevo lote</button>
-        </div>
+        <button class="btn-sm btn-purple" @click="abrirNuevo()">+ Nuevo lote</button>
       </div>
       <div class="page-body">
         <div x-show="loading" style="color:#fff;font-size:14px;padding:24px 0">Cargando...</div>
@@ -1581,6 +1579,10 @@ button,a{touch-action:manipulation;cursor:pointer}
       <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
       Clientes
     </button>
+    <button class="mobile-nav-item" :class="{active:view==='lotes'}" @click="goTo('lotes')">
+      <svg viewBox="0 0 24 24"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" y1="22" x2="12" y2="12"/></svg>
+      Lotes
+    </button>
     <button class="mobile-nav-item" @click="logout()" style="color:var(--muted2)">
       <svg viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
       Salir
@@ -1618,7 +1620,7 @@ function uvLogin() {
   };
 }
 
-const VIEWS_PERSISTIBLES = new Set(['dashboard', 'ordenes', 'clientes', 'metricas', 'whatsapp-masivo']);
+const VIEWS_PERSISTIBLES = new Set(['dashboard', 'ordenes', 'clientes', 'metricas', 'whatsapp-masivo', 'lotes']);
 
 const ALL_VIEWS = new Set(['dashboard','ordenes','clientes','metricas','whatsapp-masivo','detalle-orden','historial-cliente','nueva-orden','sin-pedir','lotes']);
 
