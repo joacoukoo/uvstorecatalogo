@@ -10551,6 +10551,103 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "thia-and-bud-mr2y2i53",
+        "n": "Thia and Bud ",
+        "i": "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de14e7955.jpg",
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de14e7955.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de146fbd1.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-scale-6a43e082ec1ee.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de154ad66.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de15a18cc.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de1603282.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de165a043.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de16d01c4.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de1735d1d.jpg",
+          "https://www.sideshow.com/storage/product-images/915841/hot-toys-predator-thia-and-bud-sixth-scale-figure-set-gallery-6a43de178be19.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive la épica de Predator: Badlands con este set premium de dos figuras articuladas a escala 1:6 de Hot Toys. Thia y Bud llegan con detalles asombrosos, accesorios intercambiables y auténticas similitudes de los personajes para los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Thia: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Bud: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones Thia: 28 puntos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones Bud: 4 puntos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida de Thia con ojos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de ojos intercambiables (iris marrón y Weyland-Yutani)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables para Thia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de una pieza con efectos de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Impermeable Weyland-Yutani con alambre flexible en capucha"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle de pulso con correa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Bud"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Impermeable Weyland-Yutani para Bud"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte temático de instalación de investigación con placa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-02",
+        "reserva": "680",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "leon-kennedy-mr2wnxcu",
         "n": "Leon Kennedy",
         "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4299/38039/3__56703.1782813369.jpg",
