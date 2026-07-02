@@ -312,7 +312,8 @@ async function dbBuscarOrdenesSimilares(producto) {
     .from('ordenes')
     .select('*, clientes(nombre)')
     .is('lote_id', null)
-    .neq('estado', 'cancelada');
+    .neq('estado', 'cancelada')
+    .eq('entregado', false);
   if (error) throw error;
   const p = normalize(producto || '');
   if (!p) return [];
