@@ -109,6 +109,7 @@ async function dbGetOrden(id) {
 function _cleanOrdenFields(fields) {
   if (fields.fecha_venta === '') fields.fecha_venta = null;
   if (fields.cliente_id === '') fields.cliente_id = null;
+  if (fields.lote_id === '') fields.lote_id = null;
   delete fields.sort_index;
   delete fields._abonado;
   delete fields._saldo;
@@ -249,4 +250,79 @@ async function dbMarcarPedidasPorMarca(marca) {
     .select('id');
   if (error) throw error;
   return data.length;
+}
+
+// ── LOTES DE PEDIDO ───────────────────────────────────────────────────
+function generarCodigoLote(producto, marca, codigosExistentes) {
+  const limpiar = (s) => (s || '')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-zA-Z]/g, '')
+    .toUpperCase();
+  const prefijo = limpiar(producto).slice(0, 2) + limpiar(marca).slice(0, 2);
+  const existentesSet = new Set(codigosExistentes.map(c => (c || '').toUpperCase()));
+  let n = 1;
+  let codigo;
+  do {
+    codigo = prefijo + String(n).padStart(2, '0');
+    n++;
+  } while (existentesSet.has(codigo));
+  return codigo;
+}
+
+async function dbCreateLote(lote) {
+  let codigo = (lote.codigo || '').trim().toUpperCase();
+  if (!codigo) {
+    const { data: existentes, error: errBusq } = await db.from('lotes_pedido').select('codigo');
+    if (errBusq) throw errBusq;
+    codigo = generarCodigoLote(lote.producto, lote.marca, existentes.map(l => l.codigo));
+  }
+  const { id, ...fields } = lote;
+  const { data, error } = await db.from('lotes_pedido').insert({ ...fields, codigo }).select().single();
+  if (error) throw error;
+  return data;
+}
+
+function _conDisponibilidad(lote) {
+  const vendidas = (lote.ordenes || []).filter(o => o.estado !== 'cancelada').length;
+  const { ordenes, ...resto } = lote;
+  return { ...resto, vendidas, disponibles: lote.cantidad - vendidas };
+}
+
+async function dbGetLotes() {
+  const { data, error } = await db
+    .from('lotes_pedido')
+    .select('*, ordenes(id, estado)')
+    .order('created_at', { ascending: false });
+  if (error) throw error;
+  return data.map(_conDisponibilidad);
+}
+
+async function dbGetLote(id) {
+  const { data, error } = await db
+    .from('lotes_pedido')
+    .select('*, ordenes(id, estado)')
+    .eq('id', id)
+    .single();
+  if (error) throw error;
+  return _conDisponibilidad(data);
+}
+
+async function dbBuscarOrdenesSimilares(producto, marca) {
+  const { data, error } = await db
+    .from('ordenes')
+    .select('*, clientes(nombre)')
+    .is('lote_id', null)
+    .neq('estado', 'cancelada');
+  if (error) throw error;
+  const p = normalize(producto || '');
+  const m = normalize(marca || '');
+  return data.filter(o =>
+    (p && normalize(o.producto || '').includes(p)) ||
+    (m && normalize(o.marca || '').includes(m))
+  );
+}
+
+async function dbVincularOrdenesALote(ordenIds, loteId) {
+  const { error } = await db.from('ordenes').update({ lote_id: loteId }).in('id', ordenIds);
+  if (error) throw error;
 }
