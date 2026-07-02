@@ -493,7 +493,10 @@ button,a{touch-action:manipulation;cursor:pointer}
     <div x-show="view==='ordenes'" x-data="uvOrdenes()">
       <div class="page-header">
         <h1 class="page-title">Órdenes</h1>
-        <button class="btn-sm btn-purple" @click="$dispatch('open-nueva-orden')">+ Nueva orden</button>
+        <div style="display:flex;gap:8px">
+          <button class="btn-sm btn-ghost" @click="$dispatch('go-to','lotes')">📦 Lotes de Pedido</button>
+          <button class="btn-sm btn-purple" @click="$dispatch('open-nueva-orden')">+ Nueva orden</button>
+        </div>
       </div>
       <div class="page-body">
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;align-items:center">
@@ -1293,6 +1296,84 @@ button,a{touch-action:manipulation;cursor:pointer}
       </div>
     </div>
 
+    <!-- Vista: Lotes de Pedido -->
+    <div x-show="view==='lotes'" x-data="uvLotes()">
+      <div class="page-header">
+        <h1 class="page-title">Lotes de Pedido</h1>
+        <div style="display:flex;gap:8px">
+          <button class="btn-sm btn-ghost" @click="$dispatch('go-to','ordenes')">← Órdenes</button>
+          <button class="btn-sm btn-purple" @click="abrirNuevo()">+ Nuevo lote</button>
+        </div>
+      </div>
+      <div class="page-body">
+        <div x-show="loading" style="color:#fff;font-size:14px;padding:24px 0">Cargando...</div>
+        <div x-show="!loading && error" style="color:var(--red);font-size:14px;padding:16px 0" x-text="'Error: ' + error"></div>
+        <div x-show="!loading && !error">
+          <div x-show="lotes.length === 0" style="color:var(--muted2);font-size:14px;padding:16px 0">No hay lotes pedidos todavía.</div>
+          <div class="card" x-show="lotes.length > 0">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Producto</th><th>Código</th><th>Pedidas</th><th>Vendidas</th><th>Disponibles</th><th>Proveedor</th>
+                </tr>
+              </thead>
+              <tbody>
+                <template x-for="l in lotes" :key="l.id">
+                  <tr>
+                    <td>
+                      <div style="font-weight:600;color:#fff" x-text="l.producto"></div>
+                      <div style="font-size:12px;color:var(--muted2)" x-text="[l.marca,l.escala].filter(Boolean).join(' · ')"></div>
+                    </td>
+                    <td x-text="l.codigo"></td>
+                    <td x-text="l.cantidad"></td>
+                    <td x-text="l.vendidas"></td>
+                    <td :style="l.disponibles<=0?'color:var(--red);font-weight:700':'color:var(--green);font-weight:700'" x-text="l.disponibles"></td>
+                    <td x-text="l.proveedor||'—'"></td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal nuevo lote -->
+      <div class="modal-bg" :class="{open:modalNuevo}" @click.self="modalNuevo=false">
+        <div class="modal">
+          <button class="modal-close" @click="modalNuevo=false">✕</button>
+          <div class="modal-title">Nuevo lote de pedido</div>
+          <div class="form-row">
+            <div><label class="form-label">Producto *</label>
+              <input class="form-input" type="text" x-model="form.producto" placeholder="Ej: Jinx" style="font-size:16px"></div>
+            <div><label class="form-label">Marca</label>
+              <input class="form-input" type="text" x-model="form.marca" placeholder="Hot Toys..." style="font-size:16px"></div>
+          </div>
+          <div class="form-row">
+            <div><label class="form-label">Escala</label>
+              <input class="form-input" type="text" x-model="form.escala" placeholder="1:6, 1:12..." style="font-size:16px"></div>
+            <div><label class="form-label">Cantidad pedida *</label>
+              <input class="form-input" type="number" x-model.number="form.cantidad" min="1" style="font-size:16px"></div>
+          </div>
+          <div class="form-row">
+            <div><label class="form-label">Código</label>
+              <input class="form-input" type="text" x-model="form.codigo" placeholder="Auto si se deja vacío" style="font-size:16px"></div>
+            <div><label class="form-label">Proveedor</label>
+              <input class="form-input" type="text" x-model="form.proveedor" placeholder="ebay, gundam, lts..." style="font-size:16px"></div>
+          </div>
+          <div class="form-row-1">
+            <label class="form-label">Fecha de pedido</label>
+            <input class="form-input" type="date" x-model="form.fecha_pedido" style="font-size:16px">
+          </div>
+          <div class="modal-footer">
+            <button class="btn-sm btn-ghost" @click="modalNuevo=false">Cancelar</button>
+            <button class="btn-sm btn-purple" @click="crearLote()" :disabled="guardando">
+              <span x-text="guardando?'Creando...':'Crear lote'"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Vista: Métricas -->
     <template x-if="view==='metricas'"><div x-data="uvMetricas()">
       <div class="page-header">
@@ -1479,7 +1560,7 @@ function uvLogin() {
 
 const VIEWS_PERSISTIBLES = new Set(['dashboard', 'ordenes', 'clientes', 'metricas', 'whatsapp-masivo']);
 
-const ALL_VIEWS = new Set(['dashboard','ordenes','clientes','metricas','whatsapp-masivo','detalle-orden','historial-cliente','nueva-orden','sin-pedir']);
+const ALL_VIEWS = new Set(['dashboard','ordenes','clientes','metricas','whatsapp-masivo','detalle-orden','historial-cliente','nueva-orden','sin-pedir','lotes']);
 
 function uvApp() {
   return {
@@ -1580,6 +1661,37 @@ function uvSinPedir() {
     verOrden(id) {
       _verOrdenId = id; _detalleBack = 'sin-pedir';
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'detalle-orden' }));
+    },
+  };
+}
+
+// ── LOTES DE PEDIDO ───────────────────────────────────────────────────
+function uvLotes() {
+  return {
+    loading: true, error: '', lotes: [],
+    modalNuevo: false, guardando: false,
+    form: { producto: '', marca: '', escala: '', cantidad: 1, codigo: '', proveedor: '', fecha_pedido: '', notas: '' },
+    async init() { await this.cargar(); },
+    async cargar() {
+      this.loading = true; this.error = '';
+      try { this.lotes = await dbGetLotes(); }
+      catch(e) { this.error = e.message; }
+      finally { this.loading = false; }
+    },
+    abrirNuevo() {
+      this.form = { producto: '', marca: '', escala: '', cantidad: 1, codigo: '', proveedor: '', fecha_pedido: '', notas: '' };
+      this.modalNuevo = true;
+    },
+    async crearLote() {
+      if (!this.form.producto.trim()) { alert('El producto es obligatorio'); return; }
+      if (!this.form.cantidad || this.form.cantidad < 1) { alert('La cantidad debe ser mayor a 0'); return; }
+      this.guardando = true;
+      try {
+        const nuevo = await dbCreateLote(this.form);
+        this.modalNuevo = false;
+        this.lotes.unshift({ ...nuevo, vendidas: 0, disponibles: nuevo.cantidad });
+      } catch(e) { alert('Error: ' + e.message); }
+      finally { this.guardando = false; }
     },
   };
 }
