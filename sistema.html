@@ -814,7 +814,12 @@ button,a{touch-action:manipulation;cursor:pointer}
             <div class="card-title" style="margin-bottom:16px;font-size:16px">Producto</div>
             <div class="form-row">
               <div><label class="form-label">Nombre del producto *</label>
-                <input class="form-input" type="text" x-model="form.producto" placeholder="Ej: Batman Arkham Origins" style="font-size:16px"></div>
+                <input class="form-input" type="text" x-model="form.producto" placeholder="Ej: Batman Arkham Origins" style="font-size:16px">
+                <div x-show="loteSugerido"
+                  :style="'margin-top:6px;font-size:12px;color:' + (loteSugerido && loteSugerido.disponibles<=0 ? 'var(--red)' : 'var(--muted2)')"
+                  x-text="loteSugerido ? ((loteSugerido.disponibles<=0?'⚠ ':'') + 'Lote ' + loteSugerido.codigo + ': ' + loteSugerido.disponibles + (loteSugerido.disponibles===1?' disponible':' disponibles')) : ''">
+                </div>
+              </div>
               <div><label class="form-label">Código</label>
                 <input class="form-input" type="text" x-model="form.codigo" placeholder="Código opcional" style="font-size:16px"></div>
             </div>
@@ -2224,6 +2229,12 @@ function uvNuevaOrden() {
       this.clienteBusqueda  = c ? c.nombre : '';
       this.mostrarClienteOpts = false;
     },
+    get loteSugerido() {
+      if (this.form.lote_id) return null;
+      const q = normalize(this.form.producto);
+      if (!q) return null;
+      return this.lotesTodos.find(l => normalize(l.producto).includes(q)) || null;
+    },
     get lotesFiltrados() {
       const q = normalize(this.loteBusqueda);
       if (!q) return [];
@@ -2267,7 +2278,9 @@ function uvNuevaOrden() {
       return this.precioVentaUSDCalc - this.costoEstimado;
     },
     async init() {
-      this.clientes = await dbGetClientes();
+      const [clientes, lotes] = await Promise.all([dbGetClientes(), dbGetLotes()]);
+      this.clientes = clientes;
+      this.lotesTodos = lotes;
       if (_editarOrdenId) {
         const o = await dbGetOrden(_editarOrdenId);
         this.form = { ...o, lote_id: o.lote_id || '' };
