@@ -307,7 +307,7 @@ async function dbGetLote(id) {
   return _conDisponibilidad(data);
 }
 
-async function dbBuscarOrdenesSimilares(producto, marca) {
+async function dbBuscarOrdenesSimilares(producto) {
   const { data, error } = await db
     .from('ordenes')
     .select('*, clientes(nombre)')
@@ -315,11 +315,8 @@ async function dbBuscarOrdenesSimilares(producto, marca) {
     .neq('estado', 'cancelada');
   if (error) throw error;
   const p = normalize(producto || '');
-  const m = normalize(marca || '');
-  return data.filter(o =>
-    (p && normalize(o.producto || '').includes(p)) ||
-    (m && normalize(o.marca || '').includes(m))
-  );
+  if (!p) return [];
+  return data.filter(o => normalize(o.producto || '').includes(p));
 }
 
 async function dbVincularOrdenesALote(ordenIds, loteId) {

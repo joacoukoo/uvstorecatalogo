@@ -1760,7 +1760,7 @@ function uvLotes() {
       this.seleccionados = [];
       this.modalVincular = true;
       this.buscandoCandidatos = true;
-      try { this.candidatos = await dbBuscarOrdenesSimilares(lote.producto, lote.marca); }
+      try { this.candidatos = await dbBuscarOrdenesSimilares(lote.producto); }
       catch(e) { alert('Error buscando órdenes: ' + e.message); }
       finally { this.buscandoCandidatos = false; }
     },

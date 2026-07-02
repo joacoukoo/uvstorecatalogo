@@ -96,7 +96,7 @@ async function dbVincularOrdenesALote(ordenIds, loteId) { /* update masivo de lo
 async function dbSetOrdenLote(ordenId, loteId) { /* update individual, usado desde el form de orden */ }
 ```
 
-**Criterio de "se parecen por texto"** (usado tanto en `dbBuscarOrdenesSimilares` como en el buscador de lotes del form de orden): coincidencia parcial case-insensitive (`ILIKE '%...%'`) entre el `producto` del lote/búsqueda y el `producto` de la orden, o entre `marca` y `marca`. Es deliberadamente laxo — el objetivo es achicar la lista para revisión humana, no encontrar la coincidencia exacta.
+**Criterio de "se parecen por texto"** (usado tanto en `dbBuscarOrdenesSimilares` como en el buscador de lotes del form de orden): coincidencia parcial case-insensitive por `producto` únicamente (`normalize(producto).includes(normalize(o.producto))`). No se usa `marca` como criterio independiente: en uso real, matchear por marca sola (ej. "Hot Toys") devolvía todas las órdenes de esa marca sin importar la figura, inundando la lista de candidatos con falsos positivos (bug reportado el 2026-07-02 con el lote "Darth Malgus").
 
 ---
 
