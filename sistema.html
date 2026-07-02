@@ -2462,14 +2462,16 @@ function uvMetricas() {
         esActual: i === mesActual && anio === anioActual
       }));
 
-      let totalOrdenes=0, totalVentas=0, totalCobrado=0, totalCosto=0;
+      let totalOrdenes=0, totalVentas=0, totalCobrado=0, totalGanancia=0;
 
       for (const o of this._ordenes) {
         // Calcular abonado para TODOS los órdenes (no solo el año seleccionado)
         const ab = (o.pagos || []).reduce((s,p) => s + (p.monto||0), 0);
         o._abonado = ab;
         o._saldo   = Math.max(0, (o.precio_venta_gtq||0) - ab);
-        o._ganancia = ((o.precio_venta_gtq||0) / 7.9) - calcCostoEstimado(o);
+        o._ganancia = o.estado === 'cancelada'
+          ? (ab / 7.9)
+          : (((o.precio_venta_gtq||0) / 7.9) - calcCostoEstimado(o));
 
         let anioOrden, mesOrden;
         if (o.fecha_venta) {
@@ -2490,14 +2492,14 @@ function uvMetricas() {
         totalOrdenes++;
         totalVentas  += o.precio_venta_gtq || 0;
         totalCobrado += ab;
-        totalCosto   += calcCostoEstimado(o);
+        totalGanancia += o._ganancia;
       }
 
       const maxVentas = Math.max(...byMes.map(m => m.ventas), 1);
       const mesesConDatos = byMes.filter(m => m.ordenes > 0).length;
       this.soloAnual = mesesConDatos <= 1;
       this.meses = byMes.map(m => ({ ...m, pct: Math.round(m.ventas / maxVentas * 100) }));
-      this.resumen = { ordenes: totalOrdenes, ventas: totalVentas, cobrado: totalCobrado, margen: (totalVentas / 7.9) - totalCosto };
+      this.resumen = { ordenes: totalOrdenes, ventas: totalVentas, cobrado: totalCobrado, margen: totalGanancia };
     },
 
     selMes(m) { this.mesSel = this.mesSel?.mes === m.mes ? null : m; },
