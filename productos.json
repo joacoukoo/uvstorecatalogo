@@ -10551,6 +10551,222 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "leon-kennedy-mr2wnxcu",
+        "n": "Leon Kennedy",
+        "i": "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4299/38039/3__56703.1782813369.jpg",
+        "franquicia": "Gaming",
+        "marca": "Umbrella Studio",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4299/38039/3__56703.1782813369.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4299/38043/11__41800.1782813369.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4299/38037/1__52066.1782813368.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4299/38045/2__67466.1782813369.jpg",
+          "https://cdn11.bigcommerce.com/s-djq855hvdn/images/stencil/1280x1280/products/4299/38038/5__39127.1782813369.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de escala 1/6 que captura al icónico Agente FBI con un nivel de detalle excepcional. Featuring cabeza esculpida con innovadores ojos magnéticos móviles, dos sculpts intercambiables (estándar y con daño de batalla) y un arsenal táctico completo que incluye múltiples armas, accesorios funcionales y detalles de museo. Edición de pre-orden limitada que define el estándar de figuras de acción de alta gama para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS con accesorios de metal y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza: Cabello esculpido con ojos magnéticos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo: Totalmente articulado con múltiples puntos de movilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye manos intercambiables (estándar, sosteniendo armas, especiales)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 600-700g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida estándar con ojos magnéticos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con daño de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo masculino articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta de cuero táctico negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones tácticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arnés táctico de hombro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón táctico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Linterna táctica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fundas para cargadores de pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano infectada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de guantes enguantados (sostenimiento normal y armas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guante especial enguantado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas multifuncionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola Snapping Turtle completa con accesorios (cuerpo, silenciador, linterna táctica, mira, cargadores estándar y extendidos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de munición de pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funda Snapping Turtle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha inicial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha nivel máximo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha especial Death's Edge"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolsa de cintura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puñal de dedo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola Requiem inicial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola Requiem nivel máximo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funda Requiem"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 balas Requiem"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cargador rápido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botella de pólvora tipo A"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botella de pólvora tipo B"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hierbas mixtas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escopeta de doble cañón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de munición de escopeta (10 piezas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj de pulsera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 granadas (desmontables y ensamblables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolsa de chatarra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piedra de afilar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Marco fotográfico (Foto grupal S.T.A.R.S.)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzacohetes (Bonificación pre-orden)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de escalera R.P.D."
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-02",
+        "reserva": "760",
+        "entrega": "1Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "batman-forever-1995-batmobile-ultimate-dx-1-6-scal-mqlnnzla",
         "n": "Batman Forever (1995) - Batmobile (Ultimate DX) 1/6 Scale Vehicle",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-BATMAN-FOREVER-BATMOBILE.png?v=1758152765",
