@@ -611,6 +611,7 @@ button,a{touch-action:manipulation;cursor:pointer}
               <div style="font-size:14px;color:var(--muted2)" x-text="[orden.marca, orden.escala, orden.pedido].filter(Boolean).join(' · ')"></div>
               <div style="margin-top:10px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
                 <span class="badge" :class="'badge-'+orden.estado" x-text="orden.estado.replace('_',' ')"></span>
+                <span x-show="loteVinculado" class="badge" style="background:rgba(232,98,42,.15);color:var(--pl)" x-text="loteVinculado ? ('Lote ' + loteVinculado.codigo + ' — ' + loteVinculado.disponibles + ' disp.') : ''"></span>
                 <span style="font-size:12px;color:var(--muted2)" x-text="'Creada el ' + fechaOrden"></span>
               </div>
               <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px">
@@ -2509,7 +2510,7 @@ function uvMetricas() {
 // ── DETALLE ORDEN ─────────────────────────────────────────────────────
 function uvDetalleOrden() {
   return {
-    orden: null, pagos: [], loading: true, backView: 'ordenes',
+    orden: null, pagos: [], loading: true, backView: 'ordenes', loteVinculado: null,
     modalPago: false, guardandoPago: false, pagoGuardado: false, ultimoPago: null,
     modalMoverPago: false, pagoAMover: null, ordenesLista: [], ordenDestino: '', moviendoPago: false,
     formPago: { monto: 0, tipo: 'abono', metodo: 'transferencia', fecha: new Date().toISOString().slice(0,10), notas: '' },
@@ -2535,6 +2536,7 @@ function uvDetalleOrden() {
             dbGetOrden(_verOrdenId),
             dbGetPagosByOrden(_verOrdenId)
           ]);
+          if (this.orden.lote_id) this.loteVinculado = await dbGetLote(this.orden.lote_id);
         } catch(e) { alert('Error al cargar orden: ' + e.message); }
         finally { this.loading = false; _verOrdenId = null; _detalleBack = null; }
       }
