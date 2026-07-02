@@ -601,6 +601,7 @@ button,a{touch-action:manipulation;cursor:pointer}
       <div class="page-header">
         <button class="btn-sm btn-ghost" @click="$dispatch('go-to', backView)" x-text="backView==='historial-cliente' ? '← Cliente' : backView==='dashboard' ? '← Dashboard' : backView==='sin-pedir' ? '← Sin pedir' : '← Órdenes'"></button>
         <button class="btn-sm btn-ghost" @click="editarOrden()" x-show="orden">Editar</button>
+        <button class="btn-sm btn-danger" @click="eliminarOrden()" x-show="orden">Eliminar</button>
       </div>
       <div class="page-body">
         <div x-show="loading" style="color:var(--muted2)">Cargando...</div>
@@ -2640,6 +2641,14 @@ function uvDetalleOrden() {
       _editarOrdenId = this.orden.id;
       _nuevaOrdenBack = this.backView;
       document.dispatchEvent(new CustomEvent('go-to', { detail: 'nueva-orden' }));
+    },
+    async eliminarOrden() {
+      if (!confirm('¿Eliminar esta orden? Esta acción no se puede deshacer.')) return;
+      try {
+        await dbDeleteOrden(this.orden.id);
+        document.dispatchEvent(new CustomEvent('recargar-ordenes'));
+        document.dispatchEvent(new CustomEvent('go-to', { detail: this.backView }));
+      } catch(e) { alert('Error al eliminar: ' + e.message); }
     },
     abrirComprobante(p) {
       const figura = this.orden.producto + (this.orden.marca ? ' by ' + this.orden.marca : '');
