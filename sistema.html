@@ -2540,6 +2540,7 @@ function uvDetalleOrden() {
     },
     get gananciaEstimada() {
       if (!this.orden) return 0;
+      if (this.orden.estado === 'cancelada') return this.abonado / 7.9;
       return ((this.orden.precio_venta_gtq||0) / 7.9) - this.costoEstimado - (this.comisionTarjeta / 7.9);
     },
     get fechaOrden() {
