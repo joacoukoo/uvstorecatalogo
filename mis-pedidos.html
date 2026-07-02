@@ -13,12 +13,11 @@
                     text-transform: uppercase; color: #7c3aed; margin-bottom: 4px; }
     .header-name { font-size: 20px; font-weight: 700; color: #fff; }
     .container { max-width: 600px; margin: 0 auto; padding: 0 12px; }
-    .saldo-banner { background: rgba(248,113,113,.1); border: 1px solid rgba(248,113,113,.25);
-                    border-radius: 10px; padding: 12px 16px; margin-bottom: 16px;
-                    display: flex; justify-content: space-between; align-items: center; }
-    .saldo-banner-label { font-size: 11px; font-weight: 700; text-transform: uppercase;
-                          letter-spacing: .05em; color: #f87171; }
-    .saldo-banner-val { font-size: 20px; font-weight: 800; color: #f87171; }
+    .herencia-banner { background: rgba(251,191,36,.1); border: 1px solid rgba(251,191,36,.3);
+                    border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; text-align: center; }
+    .herencia-banner-label { font-size: 12px; font-weight: 700;
+                          letter-spacing: .02em; color: #fbbf24; margin-bottom: 4px; }
+    .herencia-banner-val { font-size: 24px; font-weight: 800; color: #fbbf24; }
     .card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
             padding: 14px 16px; margin-bottom: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
@@ -63,9 +62,9 @@
         <div class="header-name" id="clienteNombre"></div>
       </div>
       <div class="container">
-        <div class="saldo-banner" id="saldoBanner" style="display:none">
-          <div class="saldo-banner-label">Saldo total pendiente</div>
-          <div class="saldo-banner-val" id="saldoTotal"></div>
+        <div class="herencia-banner" id="herenciaBanner" style="display:none">
+          <div class="herencia-banner-label">🎉 Felicidades, tu herencia estimada es de</div>
+          <div class="herencia-banner-val" id="herenciaTotal"></div>
         </div>
         <div id="ordenes"></div>
       </div>
@@ -152,15 +151,12 @@
         document.getElementById('content').style.display = '';
         document.getElementById('clienteNombre').textContent = 'Hola, ' + data.cliente.nombre;
 
-        const totalSaldo = (data.ordenes || [])
-          .filter(o => !o.entregado && o.estado !== 'cancelada')
-          .reduce((sum, o) => {
-            const abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
-            return sum + Math.max(0, (o.precio_venta_gtq || 0) - abonado);
-          }, 0);
-        if (totalSaldo > 0) {
-          document.getElementById('saldoBanner').style.display = '';
-          document.getElementById('saldoTotal').textContent = fmtQ(totalSaldo);
+        const totalHerencia = (data.ordenes || [])
+          .filter(o => o.entregado)
+          .reduce((sum, o) => sum + (o.precio_venta_gtq || 0), 0);
+        if (totalHerencia > 0) {
+          document.getElementById('herenciaBanner').style.display = '';
+          document.getElementById('herenciaTotal').textContent = fmtQ(totalHerencia);
         }
 
         const cont = document.getElementById('ordenes');
