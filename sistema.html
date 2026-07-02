@@ -1835,7 +1835,7 @@ function uvDashboard() {
           return sum + ((o.precio_venta_gtq || 0) / 7.9) - calcCostoEstimado(o);
         }, 0);
 
-        let porCobrar = 0, cobrado = 0, ventasTotal = 0, costoTotal = 0;
+        let porCobrar = 0, cobrado = 0, ventasTotal = 0, margenTotal = 0;
         const estadoCount = {};
 
         for (const o of ordenes) {
@@ -1846,7 +1846,9 @@ function uvDashboard() {
           if (saldo > 0) porCobrar += saldo;
           cobrado += ab;
           ventasTotal += o.precio_venta_gtq || 0;
-          costoTotal += calcCostoEstimado(o);
+          margenTotal += o.estado === 'cancelada'
+            ? (ab / 7.9)
+            : (((o.precio_venta_gtq || 0) / 7.9) - calcCostoEstimado(o));
           estadoCount[o.estado] = (estadoCount[o.estado] || 0) + 1;
         }
 
@@ -1855,7 +1857,7 @@ function uvDashboard() {
           total: ordenes.length,
           porCobrar, cobrado, clientes: clientesCount,
           ventasTotal,
-          margen: (ventasTotal / 7.9) - costoTotal,
+          margen: margenTotal,
           porEstado: ordenEstados.filter(e => estadoCount[e]).map(e => ({ estado: e, count: estadoCount[e] })),
           ultimas: ordenes.slice(0, 10)
         };
