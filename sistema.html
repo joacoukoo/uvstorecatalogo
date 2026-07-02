@@ -1314,7 +1314,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             <table class="table">
               <thead>
                 <tr>
-                  <th>Producto</th><th>Código</th><th>Pedidas</th><th>Vendidas</th><th>Disponibles</th><th>Proveedor</th>
+                  <th>Producto</th><th>Código</th><th>Pedidas</th><th>Vendidas</th><th>Disponibles</th><th>Proveedor</th><th></th>
                 </tr>
               </thead>
               <tbody>
@@ -1329,6 +1329,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                     <td x-text="l.vendidas"></td>
                     <td :style="l.disponibles<=0?'color:var(--red);font-weight:700':'color:var(--green);font-weight:700'" x-text="l.disponibles"></td>
                     <td x-text="l.proveedor||'—'"></td>
+                    <td><button class="btn-sm btn-ghost" @click="abrirVincular(l)">Buscar y vincular órdenes</button></td>
                   </tr>
                 </template>
               </tbody>
@@ -1369,6 +1370,31 @@ button,a{touch-action:manipulation;cursor:pointer}
             <button class="btn-sm btn-purple" @click="crearLote()" :disabled="guardando">
               <span x-text="guardando?'Creando...':'Crear lote'"></span>
             </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal vincular órdenes existentes -->
+      <div class="modal-bg" :class="{open:modalVincular}" @click.self="modalVincular=false">
+        <div class="modal">
+          <button class="modal-close" @click="modalVincular=false">✕</button>
+          <div class="modal-title" x-text="'¿Alguna de estas órdenes es del lote ' + (loteActivo ? loteActivo.codigo : '') + '?'"></div>
+          <div x-show="buscandoCandidatos" style="color:var(--muted2);font-size:14px">Buscando órdenes parecidas...</div>
+          <div x-show="!buscandoCandidatos && candidatos.length===0" style="color:var(--muted2);font-size:14px">No se encontraron órdenes sin lote que se parezcan por nombre. Podés volver a buscar más adelante con este mismo botón.</div>
+          <div x-show="!buscandoCandidatos && candidatos.length>0">
+            <template x-for="o in candidatos" :key="o.id">
+              <label style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);cursor:pointer">
+                <input type="checkbox" :value="o.id" x-model="seleccionados" style="width:16px;height:16px;accent-color:var(--purple)">
+                <div>
+                  <div style="font-size:14px;color:#fff" x-text="o.producto"></div>
+                  <div style="font-size:12px;color:var(--muted2)" x-text="[o.clientes?.nombre, o.marca].filter(Boolean).join(' · ')"></div>
+                </div>
+              </label>
+            </template>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-sm btn-ghost" @click="modalVincular=false">Cerrar sin vincular</button>
+            <button class="btn-sm btn-purple" @click="confirmarVinculacion()" x-text="'Vincular seleccionadas (' + seleccionados.length + ')'" :disabled="seleccionados.length===0"></button>
           </div>
         </div>
       </div>
@@ -1671,6 +1697,7 @@ function uvLotes() {
     loading: true, error: '', lotes: [],
     modalNuevo: false, guardando: false,
     form: { producto: '', marca: '', escala: '', cantidad: 1, codigo: '', proveedor: '', fecha_pedido: '', notas: '' },
+    modalVincular: false, loteActivo: null, candidatos: [], seleccionados: [], buscandoCandidatos: false,
     async init() { await this.cargar(); },
     async cargar() {
       this.loading = true; this.error = '';
@@ -1690,8 +1717,25 @@ function uvLotes() {
         const nuevo = await dbCreateLote(this.form);
         this.modalNuevo = false;
         this.lotes.unshift({ ...nuevo, vendidas: 0, disponibles: nuevo.cantidad });
+        await this.abrirVincular(nuevo);
       } catch(e) { alert('Error: ' + e.message); }
       finally { this.guardando = false; }
+    },
+    async abrirVincular(lote) {
+      this.loteActivo = lote;
+      this.seleccionados = [];
+      this.modalVincular = true;
+      this.buscandoCandidatos = true;
+      try { this.candidatos = await dbBuscarOrdenesSimilares(lote.producto, lote.marca); }
+      catch(e) { alert('Error buscando órdenes: ' + e.message); }
+      finally { this.buscandoCandidatos = false; }
+    },
+    async confirmarVinculacion() {
+      try {
+        await dbVincularOrdenesALote(this.seleccionados, this.loteActivo.id);
+        await this.cargar();
+        this.modalVincular = false;
+      } catch(e) { alert('Error: ' + e.message); }
     },
   };
 }
