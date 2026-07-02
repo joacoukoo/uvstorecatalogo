@@ -1806,7 +1806,6 @@ function uvOrdenes() {
       o.entregado = !prev;
       try {
         await dbSetEntregado(o.id, o.entregado);
-        await this.cargar();
       } catch (e) {
         o.entregado = prev;
         alert('Error: ' + e.message);
