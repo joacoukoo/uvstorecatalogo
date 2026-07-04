@@ -10551,6 +10551,121 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "back-to-the-future-2-time-machine-dx-ver-mr5pqtvn",
+        "n": "Back to the Future 2 'Time Machine' DX Ver.",
+        "i": "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-hoverboard-outatime-set.jpg?v=1746603404",
+        "franquicia": "Otros",
+        "marca": "Blitzway",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "13000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-hoverboard-outatime-set.jpg?v=1746603404",
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-main-key-visual.jpg?v=1746603458",
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-time-machine-fire-trail.jpg?v=1746603514",
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-time-machine-side-profile.jpg?v=1746603564",
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-gullwing-doors-open.jpg?v=1746603607",
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-side-angle-door-open.jpg?v=1746603650",
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-front-angle-door-open.jpg?v=1746603693",
+          "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-rear-quarter-gullwing-open.jpg?v=1746603745"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive la magia de Regreso al Futuro con esta réplica magistral del Delorean Time Machine en escala 1/6 de Blitzway, presentando 8 funciones interactivas incluyendo puertas automáticas, luces LED auténticas y efectos de sonido cinemáticos. Esta edición DX Premium es el pináculo del coleccionismo cinematográfico, combinando ingeniería de precisión con detalles interiores de cuero genuino, circuitos iluminados y una base motorizada que replica el icónico modo flotación del film de 1985."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36 cm (con base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Largo: 74.2 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aprox.: 9 kg (vehículo), 1 kg (base), 14 kg (total con embalaje)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, Die-Cast, Metal, Cuero genuino, Imanes, LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funciones: 8 características interactivas (puertas automáticas con sensor magnético, ventanas motorizadas, ruedas LED motorizadas, dirección funcional, luces de freno activadas por pedal, sonido de arranque, indicadores con sonido, iluminación undercarriage)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alimentación: 8 baterías 6LR61 (9V) o adaptador 9V 2.2A (20W)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Universal Studios Back to the Future Part II"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Blitzway (Colección Premium UMS)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Modelo: BW-UMS-12203"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Time Machine (Delorean) completamente motorizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de hover con iluminación inferior y sensores magnéticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa OUTATIME intercambiable (versión Parte I)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoverboard funcional (Parte II)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón de Biff"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lata de cerveza coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Revista incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Varilla magnética para activación de funciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación de lujo con styrofoam"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-04",
+        "reserva": "2600",
+        "entrega": "Noviembre 2026",
+        "cantidad": "1"
+      },
+      {
         "id": "fractured-jinx-mr570p4z",
         "n": "Fractured Jinx",
         "i": "https://www.sideshow.com/storage/product-images/915781/hot-toys-league-of-legends-fractured-jinx-sixth-scale-figure-gallery-6a47d4db72fdf.jpg",
