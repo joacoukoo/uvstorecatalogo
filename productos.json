@@ -10551,6 +10551,109 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "batman-the-dark-knight-returns-mr6ld89l",
+        "n": "Batman The Dark Knight Returns",
+        "i": "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce51e03b4d.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce51e03b4d.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-scale-672ce73c1672a.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce51eb80c6.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce5319dafa.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce51f17124.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce521db337.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce5226b770.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce5310de2d.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce51f9ea22.jpg",
+          "https://www.sideshow.com/storage/product-images/913944/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-672ce51ff03f4.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica versión de Batman de DC Comics con esta figura de colección premium de Hot Toys a escala 1:6. Con un cuerpo musculoso ultra detallado, más de 30 puntos de articulación y tres expresiones faciales intercambiables, cada movimiento captura la esencia del Caballero Oscuro. Un must-have para coleccionistas exigentes que buscan la máxima calidad y autenticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela cosida, accesorios metálicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: 1 máscara + 3 partes inferiores de rostro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 6 pares especializadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 cabeza con máscara Batman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 partes inferiores de rostro intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos enguantadas especializadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje Batsuit cosido finamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa negra con soporte de alambre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de utilidad equipado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de guanteletes de antebrazo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de botas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 Batarangs + 1 Batarang con cuerda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 rifle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de exhibición con placa identificativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-04",
+        "cantidad": "1"
+      },
+      {
         "id": "back-to-the-future-2-time-machine-dx-ver-mr5pqtvn",
         "n": "Back to the Future 2 'Time Machine' DX Ver.",
         "i": "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/bttf-dx-version-hoverboard-outatime-set.jpg?v=1746603404",
