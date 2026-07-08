@@ -36086,6 +36086,88 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "jiraiya-gamaken-mrcmemek",
+        "n": "Jiraiya & Gamaken",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396718/_2026-07-08_190419_247__08835.1783508955.jpg",
+        "franquicia": "Anime",
+        "marca": "PickStar Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8400",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396718/_2026-07-08_190419_247__08835.1783508955.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396717/_2026-07-08_190422_855__04427.1783508946.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396722/_2026-07-08_190415_284__63870.1783508954.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396721/_2026-07-08_190436_380__49400.1783508951.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396716/_2026-07-08_190420_681__52622.1783508942.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396715/_2026-07-08_190432_880__92501.1783508901.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19096/396719/_2026-07-08_190438_056__72230.1783508903.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium 1:6 de Jiraiya, el legendario Sannin de Naruto, fabricada por PickStar Studio con acabados de artista profesional. Esta pieza maestra captura cada detalle del icónico personaje con su distintiva capa roja, cabello blanco y expresión característica, montado dinámicamente sobre su compañero Gamaken. Una adquisición imprescindible para coleccionistas de anime de nivel superior que buscan obras de arte en escala 1:6 con calidad de museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 46 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 42 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PU, Resina y ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 8kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura acrílica profesional de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: PickStar Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Jiraiya"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de Gamaken"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-08",
+        "reserva": "1680",
+        "entrega": "Q1 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "michael-myers-lifesize-bust-mrcmbnvo",
         "n": "Michael Myers Lifesize Bust",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/dbbd8dff096696c5c8506eacc3869125.jpg?v=1783514705",
