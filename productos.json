@@ -36086,6 +36086,88 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "team-rocket-jesse-james-mrcm93p9",
+        "n": "Team Rocket Jesse & James",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19100/396824/_2026-07-08_193220_097__50277.1783515344.jpg",
+        "franquicia": "Anime",
+        "marca": "SXB Studio",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6500",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19100/396824/_2026-07-08_193220_097__50277.1783515344.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19100/396823/_2026-07-08_193217_712__92037.1783515332.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19100/396826/_2026-07-08_193214_903__52381.1783515334.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua premium de SXB Studio que captura toda la esencia y poder del Team Rocket en una composición dinámica y detallada. Esta pieza maestra combina magistralmente a Jesse y James con efectos visuales impresionantes, efectos de energía y una base temática decorativa. Perfecta para coleccionistas exigentes que buscan calidad sin compromiso, combinando pintura profesional a mano con detalles en tela y materiales premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40-45 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles en tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "No articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 2.5-3.5 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Jesse del Team Rocket"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de James del Team Rocket"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales de energía/poder"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de personajes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-08",
+        "reserva": "1300",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "tsubasa-ozora-mrc8ke7i",
         "n": "Tsubasa Ozora",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3c3c2b3031951db7cb4bd21cb0d3fbf4.jpg?v=1783520001",
