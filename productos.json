@@ -36086,6 +36086,101 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "tsubasa-ozora-mrc8ke7i",
+        "n": "Tsubasa Ozora",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3c3c2b3031951db7cb4bd21cb0d3fbf4.jpg?v=1783520001",
+        "franquicia": "Anime",
+        "marca": "Dream Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3c3c2b3031951db7cb4bd21cb0d3fbf4.jpg?v=1783520001",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/07a03a3779e370de77e601cb60642871.jpg?v=1783520001",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e62ebf194e60de23d186a6fe76ae402a.jpg?v=1783520001",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b71e62dfa6c50a5c86d5f31d27ff93ce.jpg?v=1783520001",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/85ddb33e486c87def6a8e3d71bf17a5c.jpg?v=1783520001",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/74acaf6c3e72d3a1b0dec0c1434b3342.jpg?v=1783520001",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/c5d9129b5f3361592b875ef087a764a5.jpg?v=1783520001",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ed560c8b7ed9528247e00817bccbe292.jpg?v=1783520001"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Posee una figura de colección premium que captura el icónico momento de disparo de Tsubasa Ozora, el legendario protagonista del anime clásico, con una altura imponente de 27 cm que garantiza presencia en cualquier vitrina. Los detalles artísticos son excepcionales, desde la expresión dinámica del personaje hasta los efectos de energía azul que envuelven el balón, transmitiendo la potencia de sus movimientos más famosos. Esta edición limitada de Dream Studio es una pieza imprescindible para coleccionistas de anime que buscan calidad premium y nostalgia en una sola obra maestra."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Polystone y PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 2-2.5 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Colección: Animation"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Dream Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Tsubasa Ozora"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con campo de fútbol"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Balón de fútbol con efectos de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía azul destacables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana decorativa de colección"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-08",
+        "reserva": "1200",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "supergirl-krypto-1-10-scale-statue-by-iron-studios-mqvvgbaw",
         "n": "Supergirl & Krypto 1:10 Scale Statue by Iron Studios",
         "i": "https://www.sideshow.com/storage/product-images/915831/iron-studios-dc-comics-supergirl-krypto-1-10-scale-statues-gallery-6a3f0968d6ed4.jpg",
