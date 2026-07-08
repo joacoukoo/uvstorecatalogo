@@ -36086,6 +36086,105 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "michael-myers-lifesize-bust-mrcmbnvo",
+        "n": "Michael Myers Lifesize Bust",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/dbbd8dff096696c5c8506eacc3869125.jpg?v=1783514705",
+        "franquicia": "Otros",
+        "marca": "Eamon Toys",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "21600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/dbbd8dff096696c5c8506eacc3869125.jpg?v=1783514705",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/667da3f490a413cbb534ec991ce9bd5f.jpg?v=1783514705",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/23ede64a37a21d2a23f862c2022dc907.jpg?v=1783514706",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/37f275a91898755624444cb3f9956f84.jpg?v=1783514705",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/58fd2dde5d64bfa1369bc85670baa722.jpg?v=1783514705",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7d7d52222798d05633d0086f2f76a2ec.jpg?v=1783514705",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3895ccb602a99b84d33926ca7a7668a6.jpg?v=1783514706",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/c3d661e3634420467872a2aa78ae521a.jpg?v=1783514705"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el terror definitivo con esta monumental figura de Michael Myers de Halloween Kills, una obra maestra artesanal de Eamoon Toys que captura la esencia malévola del asesino enmascarado con 90 cm de altura. Cada detalle ha sido meticulosamente elaborado a mano, desde la icónica máscara hasta el overol azul marino con motivos de leopardo, convirtiéndola en una pieza de colección premium imprescindible. Limitada a solo 99 ejemplares en el mundo, esta edición es un tesoro para los aficionados al horror que buscan una obra de arte que combine craftsmanship superior con un impacto visual apocalíptico."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 90 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 53 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (Tamaño natural superior del torso)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 piezas mundiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Eamoon Toys"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de lanzamiento: Q2 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara de Michael Myers ultra realista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Overol azul marino con detalles de leopardo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo ensangrentado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-08",
+        "reserva": "4320",
+        "entrega": "2Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "team-rocket-jesse-james-mrcm93p9",
         "n": "Team Rocket Jesse & James",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/19100/396824/_2026-07-08_193220_097__50277.1783515344.jpg",
