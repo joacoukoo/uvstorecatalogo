@@ -36086,6 +36086,87 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "ghost-face-life-size-bust-mrefpoxl",
+        "n": "Ghost Face Life-Size Bust",
+        "i": "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad385e32.jpg",
+        "franquicia": "Otros",
+        "marca": "PCS",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "12800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad385e32.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad3d9dca.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad437400.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad48a491.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad4db06f.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad538c30.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad58694e.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad5d3d08.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad62ecc5.jpg",
+          "https://www.sideshow.com/storage/product-images/915879/pcs-ghost-face-ghost-face-life-size-bust-gallery-6a4ebad68ef40.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección de horror con este busto de tamaño real de Ghost Face, el icónico asesino de la franquicia Scream. Fabricado por PCS en resina de alta calidad con acabado pintado a mano, esta pieza de edición limitada captura cada detalle cinematográfico del emblemático rostro enmascarado con precisión aterradora. Una adquisición imprescindible para coleccionistas premium que buscan presencia y autenticidad de museo en su galería de horror."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 56 cm (22\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 48 cm (19\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30 cm (12\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (Tamaño de vida)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: PCS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de tamaño de vida de Ghost Face"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-10",
+        "reserva": "2560",
+        "entrega": "Jul. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "charizard-statue-by-sideshow-collectibles-mrcquuat",
         "n": "Charizard Statue by Sideshow Collectibles",
         "i": "https://www.sideshow.com/storage/product-images/300948/sideshow-collectibles-pokemon-charizard-statue-gallery-68a7b6276487b.jpg",
