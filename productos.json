@@ -36230,6 +36230,97 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "link-mrp2hd77",
+        "n": "Link",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/779e2dc5cb70f94d165dc60ba42fa4baLarge.jpg?v=1784288902",
+        "franquicia": "Gaming",
+        "marca": "Seven Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/779e2dc5cb70f94d165dc60ba42fa4baLarge.jpg?v=1784288902",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e150d9a9d5ebba8cd00b4ad2893ce2f8Large.jpg?v=1784288902",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/02e986116568df73feb1b2470e81e666Large.jpg?v=1784288902",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f1bd30fbdc2060c8189474e7dc25a1d8.jpg?v=1784288887",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/09df05febd7539148a811e23906d88d1.jpg?v=1784288887",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d8bb95f4f5985bd1a14457479674ea72.jpg?v=1784288887",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/196de07c246d4dd6990c397ca593363d.jpg?v=1784288887",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cb040cb2272c71cfd7afaf5980789117.jpg?v=1784288887"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Obra maestra de colección que captura la legendaria aventura de Link en una composición épica de dos versiones del héroe. Esta estatua premium de Seven Studio combina una artesanía excepcional con detalles envolventes, presentando al Joven Link y Link Adulto en posturas heroicas rodeados de elementos naturales y una impresionante cascada temática. Edición limitada a solo 88 piezas en el mundo, esta pieza es un tesoro imprescindible para coleccionistas dedicados del icónico videojuego."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 42.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anchura: 31.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha de finalización estimada: Q4 2026"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo Hyliano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha doble"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ocarina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Navi la Hada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con cascada decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos versiones de Link (Joven y Adulto)"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-17",
+        "reserva": "1360",
+        "entrega": "2Q 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "goku-vs-kid-buu-spirit-bomb-mrp0vcab",
         "n": "Goku vs Kid Buu Spirit Bomb",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/81a8a74b4b20eaf1fdffacc5e84423db.jpg?v=1781869897",
