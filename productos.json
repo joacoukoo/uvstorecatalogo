@@ -10551,6 +10551,99 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "alien-queen-mrxmv8dw",
+        "n": "Alien Queen",
+        "i": "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e43c5fa.jpg",
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e43c5fa.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-scale-6a5e65cded066.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e4b7abf.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e51f597.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e57f6a3.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e5db016.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e649155.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e6a4561.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e7121d3.jpg",
+          "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e7e639f.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura coleccionable de la Reina Alien de Hot Toys captura la esencia aterradora del icónico xenomorfo de la película Aliens con una altura de 53cm y 110cm de largo. Con más de 30 puntos de articulación, cabezas intercambiables con mandíbula extendible, y detalles cinematográficamente precisos, esta es la pieza maestra definitiva para coleccionistas exigentes. Incluyendo dos rostros intercambiables, brazos secundarios articulados y una base temática de huevo xenomorfo, este es el objeto de deseo para cualquier fanático de la franquicia."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 53 cm (sin incluir la cola)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Largo total: 110 cm (incluyendo cola)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, silicona parcial y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Colas articuladas con cable metálico integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Cabeza con cresta craneal completa y mandíbula articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Rostro alternativo con boca abierta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dientes transparentes y mandíbula interna retráctil (función magnética)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de garras intercambiables para brazos primarios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de garras para brazos secundarios del pecho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 espinas dorsales articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 huevo Xenomorfo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama temática de resina Xenomorfo"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-23",
+        "reserva": "1460",
+        "entrega": "Dic. 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "ohtani-shohei-standard-ver-mrkynvsu",
         "n": "Ohtani Shohei (Standard Ver.)",
         "i": "https://cdn.shopify.com/s/files/1/0618/7394/6666/files/1_260625_ShoheiOhtani_ST_2.jpg?v=1783721401",
