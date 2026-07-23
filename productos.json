@@ -10551,6 +10551,131 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "spider-man-mrxn5x2m",
+        "n": "Spider-Man ",
+        "i": "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e648111c4c.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e648111c4c.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-scale-6a4e6d42d8584.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e6482cab30.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e64834e455.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e64842527e.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e648230f2f.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e6483c7ccd.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e64827f67c.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e6481d6e74.jpg",
+          "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e64818c30d.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la excelencia coleccionable con la figura de Spider-Man a escala 1/6 de Hot Toys, capturando cada detalle del Hombre Araña en su gloria cinematográfica con 30 puntos de articulación y expresiones intercambiables. Este masterpiece incluye 10 manos intercambiables, efectos de telaraña y accesorios premium que te permitirán recrear tus escenas favoritas con precisión museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Tela elástica roja y azul, cuerpo articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza enmascarada con 4 pares de ojos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 manos intercambiables (puños, relajadas, abiertas, adhesivas, disparadoras)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje Spider-Man rojo y azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 efectos de telaraña en diferentes formas y longitudes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Web-Shooters magnéticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Llave de la Ciudad de Nueva York"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Teléfono móvil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de exhibición con logo de película y placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-23",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "La versión Deluxe eleva la experiencia coleccionable con accesorios temáticos de batalla y una base diorama exclusiva que recrea enfrentamientos épicos del Hombre Araña. Incluye además prendas de vestir intercambiables que expanden las posibilidades de posado y narrativa visual del personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gorro de lana negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco acolchado multicolor a rayas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama temática de batalla con cola flexible del Escorpión (alambre incorporado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de Boomerangs del arma de Boomerang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa de personaje exclusiva"
+          }
+        ],
+        "precio_d": "3900",
+        "reserva": "640",
+        "reserva_d": "780",
+        "entrega": "Dic. 2026",
+        "cantidad": "2",
+        "fotos_d": [
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e687174ae8.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-scale-6a4e6d6b5e224.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e6871f2a0a.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e68724b41e.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e687296b71.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e6872e0f92.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e687339161.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e687382c98.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e6873cd8ce.jpg",
+          "https://www.sideshow.com/storage/product-images/9157642/hot-toys-marvel-spider-man-deluxe-version-sixth-scale-figure-gallery-6a4e6874238f8.jpg"
+        ]
+      },
+      {
         "id": "the-joker-2-0-artisan-edition-mrxn0ia9",
         "n": "The Joker (2.0) (Artisan Edition)",
         "i": "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e608eb8a5b.jpg",
