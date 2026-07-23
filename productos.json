@@ -10551,6 +10551,79 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "hulk-mrxmy3xz",
+        "n": "Hulk",
+        "i": "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e672e7e5f9.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e672e7e5f9.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-scale-6a5e6732011f2.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e672eed7f4.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e672f3d067.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e672f7ff36.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e672fc50d8.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e673016573.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e67305a317.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e67309dc43.jpg",
+          "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e673116a3b.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la potencia del Hulk con esta figura de colección premium de Hot Toys a escala 1:6, basada en su aparición en Spider-Man: Brand New Day. Con una altura de 51 cm, cuerpo musculoso articulado con más de 28 puntos de movimiento y tres cabezas intercambiables con expresiones diferentes, es la pieza definitiva para coleccionistas exigentes. Cada detalle, desde la textura de la piel hasta el peinado negro meticulosamente esculpido, captura la esencia de Mark Ruffalo como el Increíble Hulk."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 28+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo de silicona con esqueleto interno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 cabezas intercambiables (neutra, apretando dientes, rugiendo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pares de manos intercambiables (puños y gestos abiertos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones grises dañados en batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana con logo de película y placa de personaje"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-23",
+        "reserva": "1080",
+        "entrega": "Dic. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "alien-queen-mrxmv8dw",
         "n": "Alien Queen",
         "i": "https://www.sideshow.com/storage/product-images/915784/hot-toys-alien-alien-queen-sixth-scale-figure-gallery-6a5e62e43c5fa.jpg",
