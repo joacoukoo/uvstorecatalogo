@@ -10551,6 +10551,127 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "the-joker-2-0-artisan-edition-mrxn0ia9",
+        "n": "The Joker (2.0) (Artisan Edition)",
+        "i": "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e608eb8a5b.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e608eb8a5b.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-scale-6a5e60929a66e.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e608f3272e.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e608f844a8.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e608fd4dcb.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e6090327b2.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e6090851d4.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e6090d63b4.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e60913bf56.jpg",
+          "https://www.sideshow.com/storage/product-images/915779/hot-toys-dc-comics-the-joker-20-quarter-scale-figure-gallery-6a5e6091e7a6a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura artesanal definitiva del Joker de Heath Ledger en escala 1/4, con escultura de cabeza magistralmente detallada, cabello rizado implantado y expresión de película que captura la esencia del icónico villano de El Caballero Oscuro. Posee más de 30 puntos de articulación, 10 pares de manos intercambiables y un traje meticulosamente tailoreado con efectos de desgaste, permitiendo infinitas posibilidades de display. Incluye una diorama temática de Gotham con piezas de la Batpod destruida y está limitada a solo 2,000 unidades en mercados seleccionados."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 46 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo especializado articulado, cabello de lana implantado, tela tailoreada, accesorios de múltiples materiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cantidad limitada: 2,000 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 pares de manos intercambiables gloveadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de manos intercambiables con antebrazos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trench coat púrpura con función magnética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blazer gris"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco verde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camisa estampada y corbata"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones púrpura con tirantes y cadena metálica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Calcetines cuadriculados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos marrón con cordones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola, revólver, subfusil, escopeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo y cuchillos de zapato"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tubo de plomo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lápiz y cartas de Joker"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 granadas y detonador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pilas de billetes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama de calle de Gotham con placas de Batpod"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-23",
+        "reserva": "1480",
+        "entrega": "Dic. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "hulk-mrxmy3xz",
         "n": "Hulk",
         "i": "https://www.sideshow.com/storage/product-images/915765/hot-toys-marvel-hulk-sixth-scale-figure-gallery-6a5e672e7e5f9.jpg",
