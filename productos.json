@@ -10551,6 +10551,115 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "the-punisher-sm-brand-new-day-mrydpsge",
+        "n": "The Punisher (SM: Brand New Day)",
+        "i": "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e4d3c14.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e4d3c14.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-scale-6a5e66e8ad63c.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e54fb33.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e59371d.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e5d84c5.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e628c69.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e67ff22.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e6ea1f6.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e75fd99.jpg",
+          "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e7ca952.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la justicia implacable con la figura de colección The Punisher de Hot Toys, que captura cada detalle del vigilante de Marvel con precisión cinematográfica. Este masterpiece de 1:6 escala presenta un esculpido impresionante del rostro de Jon Bernthal, articulaciones avanzadas y accesorios tácticos auténticos que harán que este vengador sea la joya de tu colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 11 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camisa negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco táctico antibalas con motivo calavera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón táctico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funda de pistola para muslo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle con mira deslizable y culata retráctil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola con corredera accionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 cargadores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj de pulsera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "11 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte temático con calavera"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-24",
+        "reserva": "700",
+        "entrega": "Dic. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "spider-man-mrxn5x2m",
         "n": "Spider-Man ",
         "i": "https://www.sideshow.com/storage/product-images/915764/hot-toys-marvel-spider-man-sixth-scale-figure-gallery-6a4e648111c4c.jpg",
