@@ -10551,6 +10551,119 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "sung-jinwoo-mrydsjyo",
+        "n": "Sung Jinwoo",
+        "i": "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d29adf4.jpg",
+        "franquicia": "Anime",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d29adf4.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-scale-6a6227f701df0.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d5c9de6.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d37f6c2.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d3d5eaf.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d43bced.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d326947.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d519890.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d5716a1.jpg",
+          "https://www.sideshow.com/storage/product-images/915782/hot-toys-solo-leveling-sung-jinwoo-sixth-scale-figure-gallery-6a6225d62ebb3.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el mundo coleccionable con la figura Sung Jinwoo de Hot Toys, capturando cada detalle del protagonista de Solo Leveling con una precisión extraordinaria. Con más de 30 puntos de articulación, intercambiables de cabeza, manos y atuendos, esta figura de 32cm te permite recrear cualquier momento épico de la serie."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, tela y plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 pares de ojos intercambiables con efecto luminoso UV"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 piezas de cabello frontal intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 pares de manos intercambiables con antebrazos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo con capucha azul con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta blanca y pantalones negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas tácticas de cordones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Daga Kasaka's Venom Fang"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Daga Knight Killer"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 dagas del Rey Demonio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada larga del Rey Demonio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 efectos de corte translúcidos azules"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botella de poción y piedra de teletransportación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Panel de estado del Sistema"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de ojo luminoso"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatuas de Igris y Beru con efecto UV"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base especial con logo de Solo Leveling"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-24",
+        "reserva": "700",
+        "entrega": "Dic. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "the-punisher-sm-brand-new-day-mrydpsge",
         "n": "The Punisher (SM: Brand New Day)",
         "i": "https://www.sideshow.com/storage/product-images/915908/hot-toys-marvel-the-punisher-sixth-scale-figure-gallery-6a5e66e4d3c14.jpg",
