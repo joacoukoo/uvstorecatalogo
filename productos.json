@@ -10551,6 +10551,158 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "magneto-ms2qa1qz",
+        "n": "Magneto",
+        "i": "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e475dfccc.jpg",
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e475dfccc.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-scale-6a63e479e1fb4.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e47658d34.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e476a1206.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e476e7edc.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e47749a71.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e47793a43.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e47810ccf.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e47883423.jpg",
+          "https://www.sideshow.com/storage/product-images/915928/hot-toys-marvel-magneto-sixth-scale-figure-gallery-6a63e4790057f.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la maestría del villano más icónico de Marvel con esta figura de colección premium de Magneto, masterizada por Hot Toys con una precisión cinematográfica extraordinaria. Disfruta de una escultura facial de casco intercambiable con ojos móviles, más de 30 puntos de articulación y seis manos intercambiables que capturan cada gesto de poder magnético. Una adquisición imprescindible para coleccionistas que demandan autenticidad y calidad sin compromisos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Piel sintética, tela, plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial Marvel Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza con casco removible y ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables (manos de poder magnético, abiertas y relajadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica de color burdeos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas altas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa gris oscuro con forro burdeos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón negro con hebilla con logo X"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición con logo de la película"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-27",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Domina el mercado de coleccionables con esta figura Magneto Deluxe de Hot Toys, capturando la esencia magistral de Sir Ian McKellen con un nivel de detalle incomparable. Disfruta de más de 30 puntos de articulación, seis manos intercambiables y accesorios auténticos que recrean fielmente al icónico villano de Avengers: Doomsday."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado con esculturas de cabeza de silicona, capas de tela, accesorios plásticos y metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos móviles separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables (poder magnético, abiertas, relajadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa gris oscuro con forro interior borgoña"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica larga borgoña"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón negro con hebilla X-logo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones borgoña"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas altas negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte especial con logo de película"
+          }
+        ],
+        "precio_d": "4700",
+        "reserva": "700",
+        "reserva_d": "940",
+        "entrega": "Dic. 2027",
+        "cantidad": "6",
+        "fotos_d": [
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a0c06a6.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a1120db.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a157747.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a19cac8.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a1e17ec.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a235f61.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a2a266f.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a31d6d5.jpg",
+          "https://www.sideshow.com/storage/product-images/9159283/hot-toys-marvel-magneto-deluxe-version-special-edition-sixth-scale-figure-gallery-6a63e5a38b549.jpg"
+        ]
+      },
+      {
         "id": "gambit-ms2q80e1",
         "n": "Gambit",
         "i": "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c4d9bc0.jpg",
