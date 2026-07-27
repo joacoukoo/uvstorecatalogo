@@ -10551,6 +10551,158 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "gambit-ms2q80e1",
+        "n": "Gambit",
+        "i": "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c4d9bc0.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c4d9bc0.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-scale-6a63f5c8b90d9.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c555cf0.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c59a6a5.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c5df903.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c631311.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c677c5c.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c6e53fa.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c75f237.jpg",
+          "https://www.sideshow.com/storage/product-images/915926/hot-toys-marvel-gambit-sixth-scale-figure-gallery-6a63f5c7ce304.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el campo de batalla con la figura Gambit Sixth Scale de Hot Toys, capturando la esencia del mutante cajun en Avengers: Doomsday con un increíble detalle y articulación. Disfruta de ojos rodantes con efecto luminoso UV, manos intercambiables y efectos de energía cinética en translúcido púrpura que cobran vida en tus manos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Microfiber tipo cuero, armadura de plástico con efectos de desgaste, vinilo suave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 pares/piezas de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo de cuero marrón con alambre flexible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura de pecho púrpura oscuro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones negros con rayas púrpura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de armadura plateadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bō Staff estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bō Staff con efecto de energía cinética translúcido púrpura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 efectos de barrido de energía cinética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 cartas de juego cinéticamente cargadas con efectos de arrastre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cartas de juego cinéticamente cargadas individuales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de carga de energía cinética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de carga doble"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 dedos con cartas elevadas translúcidas púrpuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 cartas de plástico negro y doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 cartas de tamaño real negro y doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana con logo Avengers: Doomsday"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-27",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "La versión Deluxe de Gambit es una edición de colector premium que incluye una base diorama temática batalla-dañada con tema Sentinel y función LED, elevando la experiencia de exhibición a un nivel cinemático nunca visto."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama temática Sentinel con efectos de explosión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Función LED iluminada (USB powered)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa de identificación de personaje"
+          }
+        ],
+        "precio_d": "4500",
+        "reserva": "700",
+        "reserva_d": "900",
+        "entrega": "Sep. 2027",
+        "cantidad": "6",
+        "fotos_d": [
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f633e7be2.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-scale-6a63f637c10d6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f634638b7.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f634a8a5c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f6353f445.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f635f1a48.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f6429209d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f64410724.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f644a6ae1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f6454b6f6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f64698ad6.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f646e32f1.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9169262/hot-toys-marvel-gambit-deluxe-version-sixth-scale-figure-gallery-6a63f6473c39c.jpg"
+        ]
+      },
+      {
         "id": "cyclops-ms2pyi5c",
         "n": "Cyclops ",
         "i": "https://www.sideshow.com/storage/product-images/915927/hot-toys-marvel-cyclops-sixth-scale-figure-gallery-6a6467514bc9b.jpg",
