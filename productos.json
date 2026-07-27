@@ -10551,6 +10551,75 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "doom-s-throne-ms2qkw3e",
+        "n": "Doom's Throne",
+        "i": "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a656535290a1.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a656535290a1.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-scale-6a65644140f4e.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a6565359f485.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a656535e6fd1.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a6565363d6c1.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a656536b1cb0.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a65653734789.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a656537ac014.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a65653830568.jpg",
+          "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a656538a8342.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El Trono de Doom es una pieza arquitectónica magistral que captura la esencia del poder absoluto con sus detalles ornamentales en oro y su imponente diseño de respaldo elevado. Compatible con la figura coleccionable 1/6 del Doctor Doom, este accesorio premium presenta un telón de fondo temático con vidrios teñidos de verde que recrea el salón del trono. Una adición imprescindible para los coleccionistas que desean recrear escenas épicas de Avengers: Doomsday."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 43.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinilo con textura de grano de piedra realista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles geométricos rúnicos pintados en color dorado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trono de Doom"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Telón de fondo temático con vidrios teñidos verdes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-27",
+        "reserva": "560",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "doctor-doom-ms2qi44r",
         "n": "Doctor Doom",
         "i": "https://www.sideshow.com/storage/product-images/915924/hot-toys-marvel-doctor-doom-sixth-scale-figure-gallery-6a6463c4da434.jpg",
