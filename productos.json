@@ -37669,6 +37669,103 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "snorlax-diorama-ms88tcxk",
+        "n": "Snorlax Diorama",
+        "i": "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfc6ca3c.jpg",
+        "franquicia": "Anime",
+        "marca": "Sideshow",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfc6ca3c.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfa0022c.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfa6e18c.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfaeb414.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfb4824c.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfb92779.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfbe232d.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfce40e1.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfd65aa5.jpg",
+          "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfddb01a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una diorama premium de Sideshow Collectibles que captura toda la esencia del universo Pokémon con detalles artesanales de nivel museo. Esta pieza maestra presenta a Snorlax en su entorno natural con vegetación exuberante, accesorios temáticos y figuras complementarias que crean una escena envolvente y altamente coleccionable. Fabricada en polystone con pintura acrílica profesional, representa la máxima expresión del arte de colección de Pokémon para aficionados de buen gusto."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm (13 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 35 cm (13.63 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 34 cm (13.19 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acrílica profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Snorlax"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama base con paisaje detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Árbol con follaje verde exuberante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras complementarias de Pokémon (Pikachu, Eevee y otros)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos variados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición de lujo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Flores y elementos decorativos del entorno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Agua/río decorativo integrado en la base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-07-31",
+        "reserva": "1620",
+        "entrega": "Ago. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "link-mrp2hd77",
         "n": "Link",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/779e2dc5cb70f94d165dc60ba42fa4baLarge.jpg?v=1784288902",
