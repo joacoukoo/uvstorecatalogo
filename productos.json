@@ -52920,6 +52920,93 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "dark-nights-metal-batman-dawnbreaker-msakg07h",
+        "n": "Dark Nights: Metal - Batman - Dawnbreaker",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/1_decb53d6-e681-4b45-9cbc-27bf5d891657.jpg?v=1785540021",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1_decb53d6-e681-4b45-9cbc-27bf5d891657.jpg?v=1785540021",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-DAWNBREAKER_f1bfdaf2-17e7-4dcb-a693-54b61a77a52f.png?v=1785539783",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2_ef27dd96-0fe4-455f-a3b5-783612867c87.jpg?v=1785540021",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3_bd80fdf7-cb3f-40d8-9ca2-e4e3b26a84f0.jpg?v=1785540021",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4_a9bfa9c9-d7f7-4734-a5a3-e6954ba912ad.jpg?v=1785540021",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5_e0218f4f-fdce-49fd-84f0-0150c8b9d523.jpg?v=1785540021",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6_bc8c862d-1d54-4dd1-9c84-94c72a77381a.jpg?v=1785540021",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/7_0ef153ce-08ab-45a4-b91c-e0e4539d65cc.jpg?v=1785540021",
+          "https://www.specfictionshop.com/cdn/shop/files/14_ca707bc0-13f1-4d47-a001-77807ded3676_2000x.jpg?v=1785540021",
+          "https://www.specfictionshop.com/cdn/shop/files/15_fee9d9fe-8e35-4146-be76-f29d98dd6688_2000x.jpg?v=1785540021",
+          "https://www.specfictionshop.com/cdn/shop/files/16_a6db903a-54cb-48c1-8d72-bbf5c530d1e6_2000x.jpg?v=1785540021",
+          "https://www.specfictionshop.com/cdn/shop/files/17_7298ec4d-ebee-41ee-8a88-f47415824ca7_2000x.jpg?v=1785540021"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el poder oscuro del universo DC con esta impresionante figura de Dawnbreaker de Queen Studios. Con un nivel de detalle excepcional y construcciones de Green Lantern que brillan con energía, esta pieza de colección de 18cm captura la esencia del vigilante más poderoso de Dark Nights: Metal."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, ABS, POK, Die-cast"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: H 19cm x W 11cm x D 12cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Head Sculpt intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 Manos intercambiables (Puños, Palmas abiertas, Gestos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Green Lantern Construct pequeño"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Green Lantern Construct grande"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Base Green Lantern Construct"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Base estándar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Figure Stand"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Effects Part Stand"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-08-01",
+        "reserva": "400",
+        "entrega": "Marzo 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "spider-noir-mqv82q7s",
         "n": "Spider-Noir",
         "i": "https://img.shoplineapp.com/media/image_clips/6a3c633d79442c67eccb7c4a/original.jpg?1782342461=&owner_id=62f310ccf972b800600e7b20",
