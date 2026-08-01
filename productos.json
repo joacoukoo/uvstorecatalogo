@@ -52920,6 +52920,77 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "dark-nights-metal-batman-the-devastator-msakzddm",
+        "n": "Dark Nights: Metal - Batman: The Devastator",
+        "i": "https://img.shoplineapp.com/media/image_clips/6a6d2505f091bd2f3dc7941e/original.JPG?1785537796=&owner_id=62f310ccf972b800600e7b20",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "fotos": [
+          "https://img.shoplineapp.com/media/image_clips/6a6d2505f091bd2f3dc7941e/original.JPG?1785537796=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a6d2594f891a334d3f61a9c/original.JPG?1785537940=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a6d250449a6a70767b2a317/original.JPG?1785537796=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a6d2505849f9c12703eb640/original.JPG?1785537796=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a6d250579e90d2e6d2e981e/original.JPG?1785537796=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a6d250549a6a7fbf0b2a3c1/original.JPG?1785537796=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a6d2505a7c8a921123e60cb/original.JPG?1785537797=&owner_id=62f310ccf972b800600e7b20",
+          "https://img.shoplineapp.com/media/image_clips/6a6d2505f23d742bcffc7d83/original.JPG?1785537797=&owner_id=62f310ccf972b800600e7b20"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la oscuridad absoluta con la figura de acción premium Batman: The Devastator de INART, basada en el épico crossover Dark Nights: Metal de DC Comics. Con dos cabezas intercambiables, seis manos diferentes y un detallado soporte, esta pieza de colección captura toda la brutalidad y poder de este Batman corrompido en una escala masterizada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base y soporte articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado premium con detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones múltiples para posabilidad total"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Cabezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Acesorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base y soporte articulado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-08-01",
+        "reserva": "420",
+        "entrega": "Marzo 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "dark-nights-metal-batman-dawnbreaker-msakg07h",
         "n": "Dark Nights: Metal - Batman - Dawnbreaker",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/1_decb53d6-e681-4b45-9cbc-27bf5d891657.jpg?v=1785540021",
