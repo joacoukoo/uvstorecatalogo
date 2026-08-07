@@ -3810,53 +3810,81 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/the-batman-special-art-edition-deluxe-bonus-version",
         "marca": "Prime 1 Studio",
         "escala": "1:3 - 88CM",
-        "estado": "Exhibido - Excelente Estado",
+        "estado": "En caja abierta",
         "disp": "Entrega Inmediata",
-        "precio": "21000",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "",
+        "precio": "25000",
+        "reserva": "0",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-text",
-            "x": "Prime 1 Studio | Museum Masterline | Escala 1/3 —The Batman Presentada poco después del impactante tráiler deDC FanDome,Prime 1 Studiose enorgullece en presentar esta espectacularThe Batman – Special Art Edition Deluxe Bonus Versionen escala 1/3, inspirada directamente en la impresionante ilustración deJim Leemostrada durante el eventoDC FanDome 2020. Limitada a solo 500piezas en todo el mundoy con una altura cercana a los88 cm, esta estatua fue diseñada para capturar cada aspecto del nuevo Batman y resaltar la fuerza visual de su renovada estética. El equipo artístico de Prime 1 tomó la esencia del arte de Jim Lee y la llevó a un nivel superior, aumentando el realismo y la carga dramática. Inspirados por la película, los artistas empujaron los límites técnicos para ofrecer una interpretación intensa y poderosa del Caballero Oscuro. Desde el retrato se aprecia claramente latextura tipo cuero del casco, lascosturas intrincadas, y los sutiles rasgos faciales visibles en la parte inferior"
+            "x": "Estatua de colección Premium en escala 1:3 que captura la esencia del Batman contemporáneo con un realismo sin precedentes. Inspirada directamente en la icónica ilustración de Jim Lee presentada en DC FanDome 2020, esta pieza maestra de 88 cm de altura destaca por su meticulosa atención al detalle en textura, costuras y rasgos faciales. Limitada a solo 500 unidades en el mundo, representa el máximo exponente del arte de Prime 1 Studio con múltiples opciones de personalización para los coleccionistas más exigentes."
           },
           {
             "t": "notion-bulleted-list",
-            "x": "3 retratos intercambiablesInspirado en el arte de Jim LeeBasado en la próxima películaEstilo más clásico de cómic2 manos izquierdas intercambiables3 manos derechas intercambiables"
+            "x": "Altura: 88 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Inspirado en el arte de Jim LeeBasado en la próxima películaEstilo más clásico de cómic"
+            "x": "Ancho: 71 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Par de manos especialescon un accesorio secreto de Batman(revelado en una fecha futura)Lámina artística de Jim Lee tamaño A4"
+            "x": "Profundidad: 59 cm"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Marca:Prime 1 StudioColección:Museum MasterlineSerie:DC Series / Batman SeriesEscala:1/3Materiales:Polystone y otros materiales"
+            "x": "Escala: 1:3"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Altura:88 cmAncho:71 cmProfundidad:59 cm"
+            "x": "Materiales: Polystone y otros materiales premium"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "28.9 kg"
+            "x": "Peso aproximado: 28.9 kg"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "3 retratos intercambiables2 manos izquierdas intercambiables3 manos derechas intercambiablesBase temática gárgola de Gotham CityPar de manos con accesorio secreto (Bonus Part)Arte impreso de Jim Lee tamaño A4 (Bonus Part)"
+            "x": "Fabricante: Prime 1 Studio"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "500 piezas en el mundo"
+            "x": "Colección: Museum Masterline"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Serie: DC Comics / Batman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 500 piezas mundiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 retratos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 manos izquierdas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 manos derechas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con diseño de gárgola de Gotham City"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos especiales con accesorio secreto de Batman (Bonus)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lámina artística de Jim Lee tamaño A4 impresa (Bonus Part)"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -3870,7 +3898,9 @@
           "https://www.sideshow.com/cdn-cgi/image/height=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85187f473_sm.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=100,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb8518ad2b5_sm.jpg"
         ],
-        "id": "the-batman-special-art-edition-deluxe-bonus-version"
+        "id": "the-batman-special-art-edition-deluxe-bonus-version",
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Hulkbuster – Deluxe Version",
