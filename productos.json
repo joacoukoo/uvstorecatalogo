@@ -10551,6 +10551,101 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "man-of-steel-2013-superman-msj38gzm",
+        "n": "Man of Steel (2013) - Superman",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-SUPERMAN_e1ffc62f-829f-4c57-93b0-a733a5269291.png?v=1786038274",
+        "franquicia": "DC Comics",
+        "marca": "InArt Collectibles",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-SUPERMAN_e1ffc62f-829f-4c57-93b0-a733a5269291.png?v=1786038274",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1copy_18fe437c-ce76-4219-856c-adcc40924620.jpg?v=1786061594",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2copy_0bdd1dba-561b-4380-acb3-37c7e406447c.jpg?v=1786061594",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3copy_fc4c2786-ef48-4478-813c-bb7ac768c8a0.jpg?v=1786061594",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4copy_f0c02ac9-908d-456a-ab58-1c3bf85a2829.jpg?v=1786061594",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5copy_87397590-7892-420d-af6a-6eb6b8490651.jpg?v=1786061594",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6copy_212a749b-8c79-4a43-afca-e9305ba9d0ed.jpg?v=1786061595",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/7copy_2cfba6c8-9fc1-4e90-b3f3-770669b3df70.jpg?v=1786061594"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la épica del Hombre de Acero con esta figura de colección premium de InArt basada en Man of Steel (2013). Con un cuerpo articulado cromado, múltiples cabezas intercambiables y accesorios detallados, captura cada momento heroico del icónico Superman. Una pieza imprescindible para coleccionistas que demandan la máxima calidad y autenticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32.5 cm (incluyendo base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6 Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado cromado, traje Kryptoniano de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 9 pares con diferentes posiciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: 2 con ojos articulados, 1 tranquila, 1 enfadada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Superman articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Cabezas con ojos articulados (Tranquila y Enfadada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 Manos intercambiables (Relajadas, Puños, Palmas abiertas, Gesticulantes, Sostenedora)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa drapeable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa con cable articulable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Llave de Comando Kryptoniana"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Esposas rotas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Soportes (Vuelo y Estándar)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de apoyo"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-08-07",
+        "reserva": "1000",
+        "entrega": "Septiembre 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "doom-s-throne-ms2qkw3e",
         "n": "Doom's Throne",
         "i": "https://www.sideshow.com/storage/product-images/915925/hot-toys-marvel-dooms-throne-sixth-scale-figure-accessory-gallery-6a656535290a1.jpg",
