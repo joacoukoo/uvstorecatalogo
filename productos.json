@@ -37795,6 +37795,103 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "omega-red-premium-format-msnho3d4",
+        "n": "Omega Red Premium Format™",
+        "i": "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b39df235.jpg",
+        "franquicia": "Marvel",
+        "marca": "Sideshow Collectibles",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "9900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b39df235.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3a65967.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3aaf3ba.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3b36c9e.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3bb872e.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3c3aa95.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3cbb13a.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3d36635.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3da7077.jpg",
+          "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b3e247a9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el poder devastador de Omega Red con esta figura Premium Format de Sideshow Collectibles, una obra maestra que captura al icónico villano de Marvel en toda su ferocidad. Con detalles escultóricos excepcionales en su traje escarlata, piel necrótica gris y sus mortíferos tentáculos de Carbonadio, esta pieza de museo representa la violencia y destrucción personificadas. Una adquisición imprescindible para coleccionistas exigentes que demandan la máxima calidad y autenticidad en sus piezas Premium Format."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 47.8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 54 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 59.2 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4 (Premium Format)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Resina (polystone), tela y metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura por Martin Canale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura a mano por Bernardo Esquivel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Premium Format de Omega Red"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tentáculos cibernéticos de Carbonadio articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática tipo tundra nevada con escombros metálicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fotografía de objetivo (Wolverine) integrada en la base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estructuras metálicas dispersas en la base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos visuales de nieve y devastación ambiental"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación oficial y certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-08-10",
+        "reserva": "1980",
+        "entrega": "Jun. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "snorlax-diorama-ms88tcxk",
         "n": "Snorlax Diorama",
         "i": "https://www.sideshow.com/storage/product-images/200689/sideshow-collectibles-pokemon-snorlax-diorama-gallery-6a6a3dfc6ca3c.jpg",
