@@ -10581,6 +10581,81 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "thundercats-lion-o-msyxs55x",
+        "n": "ThunderCats - Lion-O",
+        "i": "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP001.jpg?v=1733165917",
+        "franquicia": "Otros",
+        "marca": "Mondo",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP001.jpg?v=1733165917",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP002.jpg?v=1733165917",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP003.gif?v=1733165917",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP005.jpg?v=1733165917",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP006.jpg?v=1733165917",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP007.jpg?v=1733165917",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP008.jpg?v=1733165917",
+          "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP009.jpg?v=1733165917"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "¡Encabeza a los ThunderCats contra Mumm-Ra con esta espectacular figura premium de Lion-O! Diseñada por Mondo con armadura removible, múltiples cabezas intercambiables y accesorios icónicos que capturan toda la esencia del Señor de los ThunderCats en una escala 1/6 perfectamente detallada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y tela premium con pintura aplicada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Totalmente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples cabezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada del Rayo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Protectores de garras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Libro de Omens"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-08-18",
+        "reserva": "640",
+        "entrega": "2 meses",
+        "cantidad": "1"
+      },
+      {
         "id": "jonesy-the-first-msrrhy3i",
         "n": "Jonesy The First",
         "i": "https://www.sideshow.com/storage/product-images/915993/hot-toys-fortnite-jonesy-the-first-sixth-scale-figure-gallery-6a7dde82d5bb1.jpg",
