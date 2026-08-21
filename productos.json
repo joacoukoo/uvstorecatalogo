@@ -10581,6 +10581,125 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "bruce-lee-yellow-jumpsuit-mt36pgzl",
+        "n": "Bruce Lee (Yellow Jumpsuit)",
+        "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/18_08d105c1-4f49-4608-a21d-5aba62851255.jpg?v=1787223696",
+        "franquicia": "Otros",
+        "marca": "INART",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/18_08d105c1-4f49-4608-a21d-5aba62851255.jpg?v=1787223696",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/1_dd2e01c9-a7b9-4c8b-a5b0-3d11434dfdba.jpg?v=1787223696",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/2_deacb210-cb24-4c85-abf7-b5559ceb8577.jpg?v=1787223696",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/3_74669785-4158-4222-b4db-4edbd62cf55c.jpg?v=1787223696",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/4_4f69fc0d-4a12-48a2-986b-3ad645f9dc5f.jpg?v=1787223696",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/5_ae989342-f106-482b-9a9d-92244b61dc5f.jpg?v=1787223696",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/6_f4c94c5d-a968-469c-b0ce-60d0dd22ade7.jpg?v=1787223696",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/7_c0e29563-9db5-4c73-b60e-26534003fcb4.jpg?v=1787223697"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive el legado inmortal de Bruce Lee con esta figura premium INART en escala 1/6, capturando al maestro de artes marciales en su icónico traje amarillo. Con escultura de calidad incomparable, cuerpo totalmente articulado en silicona y detalles anatómicos precisos, esta pieza es imprescindible para coleccionistas exigentes. Incluye dos cabezas intercambiables y 12 manos diferentes para recrear las poses más emblemáticas del legendario ícono del cine de acción."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29.6 cm (con base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura sin base: 27.6 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, ABS, Die-cast, Silicona y tela real"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones con base: 29.6 x 14 x 11 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones sin base: 27.6 x 8 x 4.4 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo: Totalmente articulado en silicona de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de detalle artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Bruce Lee"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo de silicona articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje amarillo con detalles en negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables (2): Serena y Expresiva"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables (12): Puños, Manos gestuales, Manos relajadas, Palmas abiertas, Manos para nunchaku, Mano derecha para bastón (2 tipos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón de bambú"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Nunchaku"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolsa para nunchaku"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pulsera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza diorama de escaleras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte ajustable"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-08-21",
+        "reserva": "1200",
+        "entrega": "Julio 2027",
+        "cantidad": "3"
+      },
+      {
         "id": "thundercats-lion-o-msyxs55x",
         "n": "ThunderCats - Lion-O",
         "i": "https://cdn.shopify.com/s/files/1/0558/2081/files/Lion-O.REG_PP001.jpg?v=1733165917",
