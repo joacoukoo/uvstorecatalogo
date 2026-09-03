@@ -10581,6 +10581,117 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "the-walking-dead-season-8-rick-grimes-mtlz1w7u",
+        "n": "The Walking Dead: Season 8 - Rick Grimes",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-RICK-GRIMES_88fb11c9-056e-415c-ac23-d688a8694e57.png?v=1758223560",
+        "franquicia": "Otros",
+        "marca": "InArt Collectibles",
+        "escala": "1/6Scale",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-RICK-GRIMES_88fb11c9-056e-415c-ac23-d688a8694e57.png?v=1758223560",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1_24162cb3-2317-497b-82aa-c788cc2f645f.jpg?v=1758223579",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2_976dac25-9f56-4703-8563-da1cec007f2e.jpg?v=1758223579",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3_321e538f-00ee-495b-93f8-c0347c7c5034.jpg?v=1758223579",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4_a87b43e0-d33e-4744-b427-5299e89f86f5.jpg?v=1758223579",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5_f2ba66f4-2de2-4f4e-851e-64f55a3c0218.jpg?v=1758223579",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6_60fa750a-63c1-4bc1-9606-15c04630e423.jpg?v=1758223579",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/7_286bbb0e-5f34-40d6-a172-80ebe1478eac.jpg?v=1758223579"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive la épica de The Walking Dead con esta figura premium de Rick Grimes en escala 1/6 de InArt Collectibles. Con cabeza esculpida de cabello implantado, ojos articulados y un cuerpo totalmente articulado, podrás recrear cualquier momento icónico de la serie. Incluye 7 brazos intercambiables y un arsenal completo de accesorios para máxima versatilidad de posado."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 35 cm (con base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo articulado de alta calidad con cabeza esculpida premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos articulados funcionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 brazos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Revólver"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Walkie-Talkie"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camisa azul manga larga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funda de pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funda de hacha"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base expositora"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-03",
+        "reserva": "1060",
+        "entrega": "Diciembre 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "the-walking-dead-daryl-dixon-mtlz0bmr",
         "n": "The Walking Dead - Daryl Dixon",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-DARYL-DISXON-SIXTH-SCALE_TILES.png?v=1764896085",
