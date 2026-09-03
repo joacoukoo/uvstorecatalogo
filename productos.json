@@ -10581,6 +10581,105 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "the-walking-dead-daryl-dixon-mtlz0bmr",
+        "n": "The Walking Dead - Daryl Dixon",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-DARYL-DISXON-SIXTH-SCALE_TILES.png?v=1764896085",
+        "franquicia": "Otros",
+        "marca": "InArt Collectibles",
+        "escala": "1/6Scale",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-DARYL-DISXON-SIXTH-SCALE_TILES.png?v=1764896085",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1copy_b25e1e12-784c-4e71-a86e-2ed08ad11580.jpg?v=1764896226",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2copy_1b46d7e2-7e5e-4c21-8488-7c3be91e5fc3.jpg?v=1764896226",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3copy_95b5fb53-4222-4469-8603-352b91641965.jpg?v=1764896226",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4copy_b3fd2e30-9399-4cd5-bed5-c54d1d2642ef.jpg?v=1764896226",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5copy_3c54b117-ec55-4a8a-bc13-da2026a99675.jpg?v=1764896226",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6copy_8d799752-08c0-4cc5-81d6-cddc7b58df99.jpg?v=1764896226",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/7copy_d618ae52-805b-4947-a02a-e5f8ac3537fe.jpg?v=1764896226"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la colección de The Walking Dead con esta figura premium de Daryl Dixon de InArt Collectibles, que redefine el estándar de detalle y articulación en escala 1/6. Cada elemento está meticulosamente elaborado, desde el cabello enraizado individualmente hasta los ojos articulados que capturan magistralmente la intensidad característica del personaje. Con 7 brazos intercambiables y un arsenal completo de accesorios, esta pieza es el Holy Grail para coleccionistas que exigen autenticidad cinematográfica y versatilidad de pose."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36.5 cm (incluyendo base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, Die-cast metálico, Lana y textiles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello: Enraizado individualmente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos: Articulados para múltiples expresiones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de grado museo con detalles de cicatrices y tatuajes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con cabello enraizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos articulados intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 brazos intercambiables (posiciones neutral, empuñadura de ballesta, revólver y poses dinámicas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ballesta con 5 flechas de precisión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Revólver Colt con funda de cuero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo táctico con vaina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bandana"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición con soporte metálico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado con torso esculpido"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-03",
+        "reserva": "1100",
+        "entrega": "Marzo 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "bruce-lee-yellow-jumpsuit-mt36pgzl",
         "n": "Bruce Lee (Yellow Jumpsuit)",
         "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/18_08d105c1-4f49-4608-a21d-5aba62851255.jpg?v=1787223696",
