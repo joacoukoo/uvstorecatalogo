@@ -1918,11 +1918,13 @@ function modalSetVersion(ver){
     btnR.classList.remove("active");btnD.classList.add("active");
     carouselBuild((p.fotos_d&&p.fotos_d.length>0)?p.fotos_d:(p.fotos&&p.fotos.length>0?p.fotos:[p.i]));
     var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+p.precio_d;
+    var re=document.getElementById("modal-reserva-val");if(re)re.textContent=p.reserva_d?fmtReserva(p.reserva_d):"";
     if(p.content_d&&p.content_d.length)renderModalContent(p.content_d);
   }else{
     btnD.classList.remove("active");btnR.classList.add("active");
     carouselBuild((p.fotos&&p.fotos.length>0)?p.fotos:[p.i]);
     var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+(p.precio||"");
+    var re=document.getElementById("modal-reserva-val");if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
     renderModalContent(p.content||[]);
   }
 }
@@ -2068,7 +2070,7 @@ function openModal(p,cat){
   if(p.escala)propList.push({label:"Escala",value:esc(p.escala),id:"modal-escala-val"});
   if(p.entrega)propList.push({label:"Entrega Estimada",value:esc(p.entrega)});
   if(p.cantidad)propList.push({label:"Disponibles",value:esc(p.cantidad)});
-  if(p.reserva)propList.push({label:"Reserva con",value:esc(fmtReserva(p.reserva)),id:"modal-reserva-val"});
+  if(p.reserva||p.reserva_d)propList.push({label:"Reserva con",value:esc(fmtReserva(p.reserva||p.reserva_d)),id:"modal-reserva-val"});
   propList.forEach(function(prop){
     var d=document.createElement("div");d.className="modal-prop";
     d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'"+(prop.id?' id="'+prop.id+'"':"")+">"+prop.value+"</div>";
