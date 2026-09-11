@@ -10581,6 +10581,99 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "it-welcome-to-derry-season-1-pennywise-bloody-vers-mtx76um5",
+        "n": "IT: Welcome to Derry Season 1 - Pennywise (Bloody Version)",
+        "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/8_adec70c2-afdf-42b6-92fa-a702389d3a34.jpg?v=1789006099",
+        "franquicia": "Otros",
+        "marca": "INART",
+        "escala": "1:6 ",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6100",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/8_adec70c2-afdf-42b6-92fa-a702389d3a34.jpg?v=1789006099",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/2_ed6b26be-e34b-4fb4-8687-e6e8a99c4429.jpg?v=1789006098",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/1_fae86e8e-23ac-4744-b560-1973245380b8.jpg?v=1789006098",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/6_04226ff4-1efe-4ac8-a3a0-17873e8dfa84.jpg?v=1789006098",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/3_6c1f894e-26d6-4030-895c-54ebfbbdb0f6.jpg?v=1789006098",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/4_d151fd45-feaa-408d-85ba-f1244f8e5951.jpg?v=1789006098",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/5_607efd71-f566-4e8c-9495-f62a5575831c.jpg?v=1789006098",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/7_32940f2b-fcba-406a-a6f0-d1608be8f13e.jpg?v=1789006098",
+          "https://global.inart.studio/cdn/shop/files/17_9bdec7b6-6dd1-4e2b-b350-ae6b04678947.jpg?v=1789006098&width=500",
+          "https://global.inart.studio/cdn/shop/files/26_901bcf67-2074-4c6c-90ad-e1c75ad3a277.jpg?v=1789006098&width=500",
+          "https://global.inart.studio/cdn/shop/files/28_5009f9f9-5632-43ce-ae73-da64870831b9.jpg?v=1789006098&width=500",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/1_1408d737-cb45-4a8b-bd63-537cd6ce7cc9.jpg?v=1789038235",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/2_ab1a9e3c-9d9c-4016-a43a-36e2c3afd339.jpg?v=1789038244",
+          "https://global.inart.studio/cdn/shop/files/f831bc585a40bc23abfee255b3280422_321c13cd-0312-4deb-9b76-19cca270da42.jpg?v=1789038438"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el horror definitivo con esta figura premium de Pennywise en su versión Bloody más aterradora, creada por INART con un realismo incomparable. Cada detalle grotesco del icónico payaso ha sido meticulosamente capturado, desde la pintura facial craquelada hasta los efectos de sangre de silicona de grado coleccionista. Un must-have absoluto para aficionados al cine de terror, fans de Stephen King y coleccionistas que exigen la máxima autenticidad y presencia visual."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Resina, silicona de grado coleccionista, tela de calidad premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello: Fibra sintética roja de alta densidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Aplicación manual con acabado de sangre realista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Múltiples puntos de articulación para posicionamiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 500-700 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Pennywise versión Bloody"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello intercambiable de fibra sintética roja"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos especiales de sangre y accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana de exhibición temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium con documentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-11",
+        "reserva": "1220",
+        "entrega": "Diciembre 2027",
+        "cantidad": "3"
+      },
+      {
         "id": "wolverine-sixth-scale-figure-by-hot-toys-mtx4zb6a",
         "n": "Wolverine Sixth Scale Figure by Hot Toys",
         "i": "https://www.sideshow.com/storage/product-images/916093/hot-toys-marvel-wolverine-sixth-scale-figure-gallery-6aa41d8334acd.jpg",
