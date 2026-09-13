@@ -351,7 +351,7 @@ async function dbBuscarOrdenesSimilares(lote) {
   if (!lote || !lote.producto) return [];
 
   const sinEntregarNiCancelada = data.filter(o => o.estado !== 'cancelada' && o.entregado !== true);
-  console.debug('[dbBuscarOrdenesSimilares] lote:', lote.producto, lote.marca, lote.escala,
+  console.log('[dbBuscarOrdenesSimilares] lote:', lote.producto, lote.marca, lote.escala,
     '| sin_lote_id total:', data.length, '| sin cancelar/entregar:', sinEntregarNiCancelada.length,
     sinEntregarNiCancelada.map(o => ({ id: o.id, producto: o.producto, marca: o.marca, escala: o.escala, estado: o.estado, entregado: o.entregado })));
 
@@ -366,7 +366,7 @@ async function dbBuscarOrdenesSimilares(lote) {
     const motivo = campos.filter(c => c.coincide(c.valorLote, c.valorOrden(o))).map(c => c.clave);
     return { ...o, _motivo: motivo };
   });
-  console.debug('[dbBuscarOrdenesSimilares] scores:', conScore.map(o => ({ producto: o.producto, motivo: o._motivo })), '| requeridos:', requeridos);
+  console.log('[dbBuscarOrdenesSimilares] scores:', conScore.map(o => ({ producto: o.producto, motivo: o._motivo })), '| requeridos:', requeridos);
   return conScore
     .filter(o => o._motivo.length >= requeridos)
     .sort((a, b) => b._motivo.length - a._motivo.length);
