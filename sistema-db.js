@@ -283,16 +283,17 @@ async function dbCreateLote(lote) {
 }
 
 function _conDisponibilidad(lote) {
-  const vendidas = (lote.ordenes || []).filter(o => o.estado !== 'cancelada').length;
+  const activas = (lote.ordenes || []).filter(o => o.estado !== 'cancelada');
   const tieneOrdenes = (lote.ordenes || []).length > 0;
+  const clientes = activas.map(o => o.clientes?.nombre).filter(Boolean);
   const { ordenes, ...resto } = lote;
-  return { ...resto, vendidas, disponibles: lote.cantidad - vendidas, tieneOrdenes };
+  return { ...resto, vendidas: activas.length, disponibles: lote.cantidad - activas.length, tieneOrdenes, clientes };
 }
 
 async function dbGetLotes() {
   const { data, error } = await db
     .from('lotes_pedido')
-    .select('*, ordenes(id, estado)')
+    .select('*, ordenes(id, estado, clientes(nombre))')
     .order('created_at', { ascending: false });
   if (error) throw error;
   return data.map(_conDisponibilidad);
@@ -301,7 +302,7 @@ async function dbGetLotes() {
 async function dbGetLote(id) {
   const { data, error } = await db
     .from('lotes_pedido')
-    .select('*, ordenes(id, estado)')
+    .select('*, ordenes(id, estado, clientes(nombre))')
     .eq('id', id)
     .single();
   if (error) throw error;
