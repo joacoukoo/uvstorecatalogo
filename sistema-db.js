@@ -364,16 +364,15 @@ async function dbBuscarOrdenesSimilares(lote) {
     return { ...o, _motivo: motivo };
   });
 
-  if (typeof alert === 'function') {
+  if (typeof prompt === 'function') {
     const lineas = conScore.slice(0, 15).map(o =>
       `- "${o.producto}" | marca:"${o.marca||''}" | escala:"${o.escala||''}" | estado:${o.estado} | entregado:${o.entregado} -> coincide: [${o._motivo.join(', ')||'ninguno'}]`
     );
-    alert(
-      `DEBUG buscar-vincular\n` +
-      `Lote: "${lote.producto}" | marca:"${lote.marca||''}" | escala:"${lote.escala||''}"\n` +
-      `Ordenes sin lote_id: ${data.length} | sin cancelar/entregar: ${sinEntregarNiCancelada.length} | requeridos: ${requeridos}\n\n` +
-      (lineas.length ? lineas.join('\n') : '(no hay ordenes sin lote_id para comparar)')
-    );
+    const texto =
+      `DEBUG buscar-vincular | Lote: "${lote.producto}" | marca:"${lote.marca||''}" | escala:"${lote.escala||''}" | ` +
+      `sin_lote_id:${data.length} sin_cancelar/entregar:${sinEntregarNiCancelada.length} requeridos:${requeridos} || ` +
+      (lineas.length ? lineas.join(' || ') : '(no hay ordenes sin lote_id para comparar)');
+    prompt('Copiá este texto (Ctrl+A / seleccionar todo, luego copiar) y pegámelo:', texto);
   }
 
   return conScore
