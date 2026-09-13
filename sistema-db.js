@@ -308,7 +308,34 @@ async function dbGetLote(id) {
   return _conDisponibilidad(data);
 }
 
-async function dbBuscarOrdenesSimilares(producto) {
+function _distanciaEdicion(a, b) {
+  if (a === b) return 0;
+  const m = a.length, n = b.length;
+  if (Math.abs(m - n) > 1) return 2; // no puede ser <=1, cortamos temprano
+  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i - 1] === b[j - 1]
+        ? dp[i - 1][j - 1]
+        : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+    }
+  }
+  return dp[m][n];
+}
+
+function _coincideParecido(a, b) {
+  if (!a || !b) return false;
+  return _distanciaEdicion(normalize(a), normalize(b)) <= 1;
+}
+
+function _coincideExacto(a, b) {
+  if (!a || !b) return false;
+  return normalize(a) === normalize(b);
+}
+
+async function dbBuscarOrdenesSimilares(lote) {
   const { data, error } = await db
     .from('ordenes')
     .select('*, clientes(nombre)')
@@ -316,9 +343,22 @@ async function dbBuscarOrdenesSimilares(producto) {
     .neq('estado', 'cancelada')
     .eq('entregado', false);
   if (error) throw error;
-  const p = normalize(producto || '');
-  if (!p) return [];
-  return data.filter(o => normalize(o.producto || '').includes(p));
+  if (!lote || !lote.producto) return [];
+
+  const campos = [
+    { clave: 'nombre', valorLote: lote.producto, coincide: _coincideParecido, valorOrden: o => o.producto },
+    { clave: 'marca', valorLote: lote.marca, coincide: _coincideParecido, valorOrden: o => o.marca },
+    { clave: 'escala', valorLote: lote.escala, coincide: _coincideExacto, valorOrden: o => o.escala },
+  ].filter(c => c.valorLote);
+  const requeridos = Math.min(2, campos.length);
+
+  const conScore = data.map(o => {
+    const motivo = campos.filter(c => c.coincide(c.valorLote, c.valorOrden(o))).map(c => c.clave);
+    return { ...o, _motivo: motivo };
+  });
+  return conScore
+    .filter(o => o._motivo.length >= requeridos)
+    .sort((a, b) => b._motivo.length - a._motivo.length);
 }
 
 async function dbVincularOrdenesALote(ordenIds, loteId) {

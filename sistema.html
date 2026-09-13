@@ -1429,6 +1429,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <div>
                   <div style="font-size:14px;color:#fff" x-text="o.producto"></div>
                   <div style="font-size:12px;color:var(--muted2)" x-text="[o.clientes?.nombre, o.marca].filter(Boolean).join(' · ')"></div>
+                  <div style="font-size:11px;color:var(--purple)" x-show="o._motivo && o._motivo.length" x-text="'Coincide: ' + (o._motivo||[]).join(', ')"></div>
                 </div>
               </label>
             </template>
@@ -1771,7 +1772,7 @@ function uvLotes() {
       this.seleccionados = [];
       this.modalVincular = true;
       this.buscandoCandidatos = true;
-      try { this.candidatos = await dbBuscarOrdenesSimilares(lote.producto); }
+      try { this.candidatos = await dbBuscarOrdenesSimilares(lote); }
       catch(e) { alert('Error buscando órdenes: ' + e.message); }
       finally { this.buscandoCandidatos = false; }
     },
