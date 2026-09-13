@@ -1367,7 +1367,10 @@ button,a{touch-action:manipulation;cursor:pointer}
                     <td x-text="l.vendidas"></td>
                     <td :style="l.disponibles<=0?'color:var(--red);font-weight:700':'color:var(--green);font-weight:700'" x-text="l.disponibles"></td>
                     <td x-text="l.proveedor||'—'"></td>
-                    <td><button class="btn-sm btn-ghost" @click="abrirVincular(l)">Buscar y vincular órdenes</button></td>
+                    <td style="white-space:nowrap">
+                      <button class="btn-sm btn-ghost" @click="abrirVincular(l)">Buscar y vincular órdenes</button>
+                      <button class="btn-sm btn-ghost" style="color:var(--red)" x-show="!l.tieneOrdenes" @click="eliminarLote(l)">Eliminar</button>
+                    </td>
                   </tr>
                 </template>
               </tbody>
@@ -1778,6 +1781,14 @@ function uvLotes() {
         await this.cargar();
         this.modalVincular = false;
       } catch(e) { alert('Error: ' + e.message); }
+    },
+    async eliminarLote(l) {
+      if (l.tieneOrdenes) return;
+      if (!confirm('¿Eliminar el lote ' + l.codigo + '? Esta acción no se puede deshacer.')) return;
+      try {
+        await dbDeleteLote(l.id);
+        this.lotes = this.lotes.filter(x => x.id !== l.id);
+      } catch(e) { alert('Error al eliminar: ' + e.message); }
     },
   };
 }

@@ -284,8 +284,9 @@ async function dbCreateLote(lote) {
 
 function _conDisponibilidad(lote) {
   const vendidas = (lote.ordenes || []).filter(o => o.estado !== 'cancelada').length;
+  const tieneOrdenes = (lote.ordenes || []).length > 0;
   const { ordenes, ...resto } = lote;
-  return { ...resto, vendidas, disponibles: lote.cantidad - vendidas };
+  return { ...resto, vendidas, disponibles: lote.cantidad - vendidas, tieneOrdenes };
 }
 
 async function dbGetLotes() {
@@ -322,5 +323,10 @@ async function dbBuscarOrdenesSimilares(producto) {
 
 async function dbVincularOrdenesALote(ordenIds, loteId) {
   const { error } = await db.from('ordenes').update({ lote_id: loteId }).in('id', ordenIds);
+  if (error) throw error;
+}
+
+async function dbDeleteLote(id) {
+  const { error } = await db.from('lotes_pedido').delete().eq('id', id);
   if (error) throw error;
 }
