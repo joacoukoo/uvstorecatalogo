@@ -328,35 +328,45 @@ function _distanciaEdicion(a, b) {
 
 function _coincideParecido(a, b) {
   if (!a || !b) return false;
-  return _distanciaEdicion(normalize(a), normalize(b)) <= 1;
+  const na = normalize(a), nb = normalize(b);
+  if (na === nb || na.includes(nb) || nb.includes(na)) return true;
+  return _distanciaEdicion(na, nb) <= 1;
 }
 
-function _coincideExacto(a, b) {
+function _normalizaEscala(s) {
+  return normalize(s).replace(/[\s/]+/g, ':').replace(/:+/g, ':').replace(/^:|:$/g, '');
+}
+
+function _coincideEscala(a, b) {
   if (!a || !b) return false;
-  return normalize(a) === normalize(b);
+  return _normalizaEscala(a) === _normalizaEscala(b);
 }
 
 async function dbBuscarOrdenesSimilares(lote) {
   const { data, error } = await db
     .from('ordenes')
     .select('*, clientes(nombre)')
-    .is('lote_id', null)
-    .neq('estado', 'cancelada')
-    .eq('entregado', false);
+    .is('lote_id', null);
   if (error) throw error;
   if (!lote || !lote.producto) return [];
+
+  const sinEntregarNiCancelada = data.filter(o => o.estado !== 'cancelada' && o.entregado !== true);
+  console.debug('[dbBuscarOrdenesSimilares] lote:', lote.producto, lote.marca, lote.escala,
+    '| sin_lote_id total:', data.length, '| sin cancelar/entregar:', sinEntregarNiCancelada.length,
+    sinEntregarNiCancelada.map(o => ({ id: o.id, producto: o.producto, marca: o.marca, escala: o.escala, estado: o.estado, entregado: o.entregado })));
 
   const campos = [
     { clave: 'nombre', valorLote: lote.producto, coincide: _coincideParecido, valorOrden: o => o.producto },
     { clave: 'marca', valorLote: lote.marca, coincide: _coincideParecido, valorOrden: o => o.marca },
-    { clave: 'escala', valorLote: lote.escala, coincide: _coincideExacto, valorOrden: o => o.escala },
+    { clave: 'escala', valorLote: lote.escala, coincide: _coincideEscala, valorOrden: o => o.escala },
   ].filter(c => c.valorLote);
   const requeridos = Math.min(2, campos.length);
 
-  const conScore = data.map(o => {
+  const conScore = sinEntregarNiCancelada.map(o => {
     const motivo = campos.filter(c => c.coincide(c.valorLote, c.valorOrden(o))).map(c => c.clave);
     return { ...o, _motivo: motivo };
   });
+  console.debug('[dbBuscarOrdenesSimilares] scores:', conScore.map(o => ({ producto: o.producto, motivo: o._motivo })), '| requeridos:', requeridos);
   return conScore
     .filter(o => o._motivo.length >= requeridos)
     .sort((a, b) => b._motivo.length - a._motivo.length);
