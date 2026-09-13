@@ -346,11 +346,13 @@ async function dbBuscarOrdenesSimilares(lote) {
   const { data, error } = await db
     .from('ordenes')
     .select('*, clientes(nombre)')
-    .is('lote_id', null);
+    .is('lote_id', null)
+    .neq('estado', 'cancelada')
+    .or('entregado.is.null,entregado.eq.false')
+    .order('created_at', { ascending: false })
+    .limit(2000);
   if (error) throw error;
   if (!lote || !lote.producto) return [];
-
-  const sinEntregarNiCancelada = data.filter(o => o.estado !== 'cancelada' && o.entregado !== true);
 
   const campos = [
     { clave: 'nombre', valorLote: lote.producto, coincide: _coincideParecido, valorOrden: o => o.producto },
@@ -359,21 +361,10 @@ async function dbBuscarOrdenesSimilares(lote) {
   ].filter(c => c.valorLote);
   const requeridos = Math.min(2, campos.length);
 
-  const conScore = sinEntregarNiCancelada.map(o => {
+  const conScore = data.map(o => {
     const motivo = campos.filter(c => c.coincide(c.valorLote, c.valorOrden(o))).map(c => c.clave);
     return { ...o, _motivo: motivo };
   });
-
-  if (typeof prompt === 'function') {
-    const lineas = conScore.slice(0, 15).map(o =>
-      `- "${o.producto}" | marca:"${o.marca||''}" | escala:"${o.escala||''}" | estado:${o.estado} | entregado:${o.entregado} -> coincide: [${o._motivo.join(', ')||'ninguno'}]`
-    );
-    const texto =
-      `DEBUG buscar-vincular | Lote: "${lote.producto}" | marca:"${lote.marca||''}" | escala:"${lote.escala||''}" | ` +
-      `sin_lote_id:${data.length} sin_cancelar/entregar:${sinEntregarNiCancelada.length} requeridos:${requeridos} || ` +
-      (lineas.length ? lineas.join(' || ') : '(no hay ordenes sin lote_id para comparar)');
-    prompt('Copiá este texto (Ctrl+A / seleccionar todo, luego copiar) y pegámelo:', texto);
-  }
 
   return conScore
     .filter(o => o._motivo.length >= requeridos)
