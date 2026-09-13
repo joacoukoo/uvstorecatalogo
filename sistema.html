@@ -1341,7 +1341,11 @@ button,a{touch-action:manipulation;cursor:pointer}
     <div x-show="view==='lotes'" x-data="uvLotes()">
       <div class="page-header">
         <h1 class="page-title">Lotes de Pedido</h1>
-        <button class="btn-sm btn-purple" @click="abrirNuevo()">+ Nuevo lote</button>
+        <div style="display:flex;gap:6px;align-items:center">
+          <button class="btn-sm" :class="ordenPor==='alfabetico' ? 'btn-purple' : 'btn-ghost'" @click="ordenPor='alfabetico'">A-Z</button>
+          <button class="btn-sm" :class="ordenPor==='fecha' ? 'btn-purple' : 'btn-ghost'" @click="ordenPor='fecha'">Más reciente</button>
+          <button class="btn-sm btn-purple" @click="abrirNuevo()">+ Nuevo lote</button>
+        </div>
       </div>
       <div class="page-body">
         <div x-show="loading" style="color:#fff;font-size:14px;padding:24px 0">Cargando...</div>
@@ -1352,11 +1356,11 @@ button,a{touch-action:manipulation;cursor:pointer}
             <table class="table">
               <thead>
                 <tr>
-                  <th>Producto</th><th>Código</th><th>Pedidas</th><th>Vendidas</th><th>Disponibles</th><th>Proveedor</th><th>Clientes</th><th></th>
+                  <th>Producto</th><th>Código</th><th>Pedidas</th><th>Vendidas</th><th>Disponibles</th><th>Proveedor</th><th>Clientes</th><th>Creado</th><th></th>
                 </tr>
               </thead>
               <tbody>
-                <template x-for="l in lotes" :key="l.id">
+                <template x-for="l in lotesOrdenados" :key="l.id">
                   <tr>
                     <td>
                       <div style="font-weight:600;color:#fff" x-text="l.producto"></div>
@@ -1378,6 +1382,7 @@ button,a{touch-action:manipulation;cursor:pointer}
                       </details>
                       <span x-show="!l.clientes || !l.clientes.length" style="color:var(--muted2);font-size:12px">—</span>
                     </td>
+                    <td style="color:var(--muted2);font-size:13px;white-space:nowrap" x-text="fmtDate(l.created_at)"></td>
                     <td style="white-space:nowrap">
                       <button class="btn-sm btn-ghost" @click="abrirVincular(l)">Buscar y vincular órdenes</button>
                       <button class="btn-sm btn-ghost" style="color:var(--red)" x-show="!l.tieneOrdenes" @click="eliminarLote(l)">Eliminar</button>
@@ -1751,10 +1756,16 @@ function uvSinPedir() {
 // ── LOTES DE PEDIDO ───────────────────────────────────────────────────
 function uvLotes() {
   return {
-    loading: true, error: '', lotes: [],
+    loading: true, error: '', lotes: [], ordenPor: 'alfabetico',
     modalNuevo: false, guardando: false,
     form: { producto: '', marca: '', escala: '', cantidad: 1, codigo: '', proveedor: '', fecha_pedido: '', notas: '' },
     modalVincular: false, loteActivo: null, candidatos: [], seleccionados: [], buscandoCandidatos: false,
+    get lotesOrdenados() {
+      const copia = [...this.lotes];
+      return this.ordenPor === 'fecha'
+        ? copia.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+        : copia.sort((a, b) => a.producto.localeCompare(b.producto, 'es'));
+    },
     async init() { await this.cargar(); },
     async cargar() {
       this.loading = true; this.error = '';
