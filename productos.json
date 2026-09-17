@@ -35649,24 +35649,14 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 28CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Vendido",
         "precio": "3600",
-        "precio_d": "",
         "reserva": "Q720",
         "entrega": "Mayo 2026",
-        "cantidad": "",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura de sexta escala de Jinx basada en el personaje de Arcane, adaptación de League of Legends. Presenta una imagen auténtica y detallada del icónico personaje con su distintivo estilo visual."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Descripción\nFigura de sexta escala de Jinx basada en el personaje de Arcane, adaptación de League of Legends. Presenta una imagen auténtica y detallada del icónico personaje con su distintivo estilo visual.\nEspecificaciones"
           },
           {
             "t": "notion-bulleted-list",
@@ -35681,7 +35671,7 @@
             "x": "Puntos de articulación: Más de 28 puntos"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Cabeza y Rostro"
           },
           {
@@ -35709,7 +35699,7 @@
             "x": "Cada pieza de escultura de cabeza pintada a mano"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Detalles de Pintura y Acabado"
           },
           {
@@ -35729,7 +35719,7 @@
             "x": "Tatuaje con patrón de nubes impreso en la parte superior del torso"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Cuerpo"
           },
           {
@@ -35741,7 +35731,7 @@
             "x": "Diseño sin costuras desde el cuello hasta los brazos en material de silicona"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Manos Intercambiables"
           },
           {
@@ -35757,7 +35747,7 @@
             "x": "Un (1) par de manos con armas cogidas"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Vestuario"
           },
           {
@@ -35785,7 +35775,7 @@
             "x": "Un (1) par de botas con cordones y detalles magenta"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Accesorios y Armas"
           },
           {
@@ -35806,8 +35796,6 @@
           }
         ],
         "id": "jinx-arcane",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Gaming",
         "destacado": false,
         "oferta": false,
@@ -35821,7 +35809,9 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3cea2a6.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913946/hot-toys-league-of-legends-jinx-sixth-scale-figure-gallery-6740ac3d4dec4.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado_r": true,
+        "agotado_d": true
       },
       {
         "n": "TK Stormtrooper™",
