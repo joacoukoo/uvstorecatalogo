@@ -10001,6 +10001,108 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "lotr-saruman-inart-1-6-scale-figure-muado6oq",
+        "n": "LOTR - Saruman InArt 1/6 Scale Figure",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN_SARUMAN.jpg?v=1788427169",
+        "franquicia": "Otros",
+        "marca": "InArt Collectibles",
+        "escala": "1/6Scale",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN_SARUMAN.jpg?v=1788427169",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/1_541ebf53-f7fb-4159-96b7-818c13584e62.jpg?v=1788426484",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/2_1356d95a-5d6f-45a6-8c36-453201bfdd0f.jpg?v=1788426484",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/3_e938b181-d527-44c8-888d-c76bbb6344ba.jpg?v=1788426484",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/4_536f1f01-2158-455f-aafc-32c52e460406.jpg?v=1788426484",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/5_8fc105a6-88a1-4981-8183-8020f2c691f1.jpg?v=1788426484",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/6_56bd25c8-322d-478b-9d6a-f9f32cdbe8f5.jpg?v=1788426483",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/7_c8aa50b4-ccbf-4c10-a803-87c956d9dc87.jpg?v=1788426484",
+          "https://global.inart.studio/cdn/shop/files/19_66576fdc-ffcc-4a7d-803e-a99c0cb8f5ea.jpg?v=1788343346&width=500",
+          "https://global.inart.studio/cdn/shop/files/18_bc9e9bef-9eca-41d6-b2c8-b55374e2058d.jpg?v=1788343346&width=500",
+          "https://global.inart.studio/cdn/shop/files/21_7c0790ac-2ab9-4b5f-8363-d05a28400995.jpg?v=1788343346&width=500"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Posee la figura de colección más icónica de InArt: Saruman en escala 1/6 con escultura de cabeza articulada y barba enraizada, capturando cada detalle del mago de Isengard. Con 10 manos intercambiables y 13 accesorios incluyendo el Palantir luminoso, esta pieza premium alcanza 35.5 cm de altura y ofrece infinitas posibilidades de exhibición. Una obra maestra de artesanía que combina materiales premium como telas reales, metal fundido y escultura de nivel de museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 35.5 cm (con base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, ABS, lana, metal fundido y telas reales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Cuerpo completo con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 2.5-3 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica interior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaleco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Protectores de brazo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Báculo mágico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Palantires (1 con luz LED)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altar del Palantir"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con soporte"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-20",
+        "reserva": "1380",
+        "entrega": "Marzo 2028",
+        "cantidad": "2"
+      },
+      {
         "id": "it-welcome-to-derry-season-1-pennywise-bloody-vers-mtx76um5",
         "n": "IT: Welcome to Derry Season 1 - Pennywise (Bloody Version)",
         "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/8_adec70c2-afdf-42b6-92fa-a702389d3a34.jpg?v=1789006099",
