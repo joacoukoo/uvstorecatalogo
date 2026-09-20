@@ -53410,6 +53410,87 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "dlx-iron-man-mark-1-action-figure-by-threezero-muaahuk1",
+        "n": "DLX Iron Man Mark 1 Action Figure by Threezero",
+        "i": "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6937fab.jpg",
+        "franquicia": "Marvel",
+        "marca": "Threezero",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6937fab.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-scale-6aa46c6e0eb40.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6988360.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c69da39b.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6a39aaf.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6a8eb4c.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6ae5abc.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6b31e26.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6b7266a.jpg",
+          "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6dc48aa.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la legendaria armadura Mark 1 de Iron Man con esta figura de colección premium de Threezero, reconocida por su incomparable calidad y autenticidad. Cada detalle captura fielmente el diseño original con acabados de desgaste realista que reflejan la batalla épica, mientras que el reactor Arc iluminado por LED proporciona un toque dinámico y espectacular. Con 44 puntos de articulación y accesorios intercambiables, esta pieza es imprescindible para coleccionistas devotos del universo Marvel que exigen lo mejor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 17.3 cm (6.8 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Marco de aleación de zinc fundido + detalles de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 44"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Threezero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazo izquierdo con misil intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 efectos de fuego intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de manos intercambiables (puños cerrados y manos relajadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reactor Arc con LED iluminado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-20",
+        "reserva": "300",
+        "entrega": "Ago. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "dark-nights-metal-batman-the-devastator-msakzddm",
         "n": "Dark Nights: Metal - Batman: The Devastator",
         "i": "https://img.shoplineapp.com/media/image_clips/6a6d2505f091bd2f3dc7941e/original.JPG?1785537796=&owner_id=62f310ccf972b800600e7b20",
