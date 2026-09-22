@@ -68,7 +68,7 @@ El campo `estado` **no se toca** — hoy guarda la condición de la pieza (`"Sel
 
 En el formulario de "Nuevo/Editar lote" en `sistema.html`, se agrega un campo "Producto del catálogo" con un buscador (mismo patrón visual que el buscador de cliente/lote ya existente). Este buscador consulta `GET /api/stock-sync` (mismo endpoint, con método GET también protegido por sesión de Supabase), que devuelve una lista liviana de productos (`id`, `n`, `marca`, `escala`, `disp`, `cantidad`, `estado`, `agotado_r`, `agotado_d` — sin fotos ni contenido largo).
 
-- Al elegir un producto, se guarda `catalogo_id`. Si el producto tiene variantes (tiene `agotado_r`/`agotado_d` presentes en el catálogo), aparece un selector adicional "Variante" (Regular/Deluxe/Ninguna) para fijar `catalogo_variante`.
+- Al elegir un producto, se guarda `catalogo_id`. Si el producto tiene variante Deluxe (`precio_d` definido en el catálogo), aparece un selector adicional "Variante" (Regular/Deluxe/Ninguna) para fijar `catalogo_variante`.
 - Es opcional, igual que el resto del sistema de lotes: un lote sin `catalogo_id` sigue funcionando exactamente igual que hoy (solo trackea proveedor/órdenes, sin tocar la página).
 
 ## Flujo 2: Venta que agota el lote (o cancelación que libera cupo)
@@ -90,9 +90,9 @@ Al guardar un producto (nuevo o editado) en `admin-app.html` con un valor de `ca
 
 ## Variantes Regular/Deluxe — excluidas del automático
 
-Los ~6 productos Hot Toys con `agotado_r`/`agotado_d` no tienen una cantidad separada por variante en el catálogo hoy (una sola `cantidad` para el producto entero), así que no hay forma automática de saber cuánto asignarle a cada variante. Por eso:
+Los productos Hot Toys con variante Deluxe no tienen una cantidad separada por variante en el catálogo hoy (una sola `cantidad` para el producto entero), así que no hay forma automática de saber cuánto asignarle a cada variante. Por eso:
 
-- El alta automática (Flujo 3) **no se dispara** para estos productos — se detecta porque el producto ya tiene `agotado_r` o `agotado_d` definidos, o porque el usuario explícitamente elige una variante al vincular un lote a mano.
+- El alta automática (Flujo 3) **no se dispara** para estos productos. La señal para detectarlos es `precio_d` (el precio de la variante Deluxe) — **no** `agotado_r`/`agotado_d`: esos dos campos están presentes como `false` en 293 productos del catálogo actual (el formulario de `admin-app.html` los escribe para todos, no solo para los que realmente tienen Deluxe), mientras que `precio_d` solo está definido en los ~30 productos que de verdad tienen esa variante — es el mismo campo que ya usa `index.html` para decidir si mostrar el chip "Deluxe Disponible".
 - Si se quiere conectar uno de estos productos, se hace a mano desde `sistema.html`: crear un lote, buscar el producto, elegir variante (Regular o Deluxe) y cantidad real de esa variante. A partir de ahí, ese lote específico sí sincroniza automáticamente (Flujo 2).
 - `admin-app.html` sigue editando `agotado_r`/`agotado_d` a mano para estos productos, como hoy, salvo que existan lotes vinculados que los controlen.
 
@@ -105,7 +105,7 @@ Hecho eso, se corre una importación (botón "Importar figuras del catálogo" en
 - No tiene ya un lote con ese `catalogo_id` (evita duplicar los recién vinculados a mano).
 - `estado` no es `"Vendido"` y `agotado` no es `true` (32 productos hoy tienen `estado="Vendido"` — ya no están a la venta, no hace falta trackearlos).
 - `cantidad` es un número entero válido (excluye vacíos y textos como `"Consultar Disponibilidad"` — quedan sin lote hasta que alguien cargue una cantidad real a mano, desde `admin-app.html` o creando el lote directo en `sistema.html`).
-- No tiene `agotado_r` ni `agotado_d` definidos (excluye las variantes duales, ver arriba).
+- No tiene `precio_d` definido (excluye los ~30 productos con variante Deluxe real, ver arriba — no `agotado_r`/`agotado_d`, que están presentes como `false` en 293 productos sin ser dual-variante).
 
 Cada lote creado usa `cantidad` = el valor actual del catálogo, `catalogo_variante = null`, y el `producto`/`marca`/`escala` copiados del catálogo (para que el lote se vea igual de completo que uno creado a mano).
 
@@ -122,7 +122,7 @@ Cada lote creado usa `cantidad` = el valor actual del catálogo, `catalogo_varia
 | `functions/api/_middleware.js` | Excluir `/api/stock-sync` del chequeo de `ADMIN_SECRET` (mismo patrón que `/api/mis-pedidos`) |
 | `sistema-db.js` | + `dbGetLoteCatalogo`, `dbVincularLoteCatalogo(loteId, catalogoId, variante)`, `dbSyncStockCatalogo(lote)` (llama a `/api/stock-sync`), `dbImportarLotesCatalogo()` |
 | `sistema.html` | + campo "Producto del catálogo" y selector de variante en form de lote; + botón "Importar figuras del catálogo" en vista de Lotes; llamada a `dbSyncStockCatalogo` tras guardar/cancelar/eliminar una orden vinculada a lote |
-| `admin-app.html` | Al guardar producto (alta o edición) con `cantidad`, llamar a `/api/lote-sync` antes de `/api/catalog`, salvo que el producto tenga `agotado_r`/`agotado_d` definidos; + checkbox "Agotado" (campo `agotado`) en los formularios de alta/edición, igual patrón que `agotado_r`/`agotado_d` |
+| `admin-app.html` | Al guardar producto (alta o edición) con `cantidad`, llamar a `/api/lote-sync` antes de `/api/catalog`, salvo que el producto tenga `precio_d` definido; + checkbox "Agotado" (campo `agotado`) en los formularios de alta/edición, igual patrón que `agotado_r`/`agotado_d` |
 | `index.html` | El badge "Agotado" (línea ~1327) también dispara con `p.agotado === true`, además de `estado`/`disp` como hoy |
 
 ## Lo que NO cambia
