@@ -1834,11 +1834,16 @@ function uvLotes() {
       this.catalogoBusqueda = '';
       this.modalNuevo = true;
     },
-    abrirEditar(l) {
+    async abrirEditar(l) {
       this.form = { id: l.id, producto: l.producto, marca: l.marca || '', escala: l.escala || '', cantidad: l.cantidad, codigo: l.codigo, proveedor: l.proveedor || '', fecha_pedido: l.fecha_pedido || '', notas: l.notas || '', catalogo_id: l.catalogo_id || '', catalogo_variante: l.catalogo_variante || '' };
-      this.catalogoSeleccionado = l.catalogo_id ? { id: l.catalogo_id, n: l.producto, marca: l.marca } : null;
       this.catalogoBusqueda = '';
       this.modalNuevo = true;
+      if (l.catalogo_id) {
+        await this.buscarCatalogo();
+        this.catalogoSeleccionado = this.catalogoTodos.find(p => p.id === l.catalogo_id) || { id: l.catalogo_id, n: l.producto, marca: l.marca };
+      } else {
+        this.catalogoSeleccionado = null;
+      }
     },
     async crearLote() {
       if (!this.form.producto.trim()) { alert('El producto es obligatorio'); return; }
