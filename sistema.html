@@ -190,6 +190,7 @@ button,a{touch-action:manipulation;cursor:pointer}
 
 /* ── STAT CARDS ── */
 .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px;}
+.stats-grid-5{grid-template-columns:repeat(5,1fr);}
 .stat-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:20px;}
 .stat-label{font-size:11px;font-weight:600;color:var(--muted2);
   text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;}
@@ -258,7 +259,7 @@ button,a{touch-action:manipulation;cursor:pointer}
 .t-ssj4 .ki-fill{background:linear-gradient(90deg,#8B0000,#E53935);}
 .t-ssj4 .goku-power-num{text-shadow:0 0 18px rgba(180,30,30,.9),0 0 40px rgba(255,80,0,.4);}
 .t-ultra .ki-fill{background:linear-gradient(90deg,#90CAF9,#E8EAF6);}
-.t-ultra .goku-power-num{text-shadow:0 0 20px rgba(200,220,255,.9),0 0 50px rgba(150,180,255,.5);}
+.t-ultra .goku-power-num{color:#0a0e1a;text-shadow:0 0 20px rgba(200,220,255,.9),0 0 50px rgba(150,180,255,.5);}
 .ki-pct{font-size:11px;color:var(--muted2);margin-top:5px;}
 .ki-valores{font-size:12px;color:var(--muted2);margin-top:3px;}
 @media(max-width:480px){
@@ -418,7 +419,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             </div>
           </div>
 
-          <div class="stats-grid" style="margin-bottom:24px">
+          <div class="stats-grid stats-grid-5" style="margin-bottom:24px">
             <div class="stat-card">
               <div class="stat-label">Total órdenes</div>
               <div class="stat-value" x-text="stats.total"></div>
@@ -426,6 +427,10 @@ button,a{touch-action:manipulation;cursor:pointer}
             <div class="stat-card">
               <div class="stat-label">Por cobrar</div>
               <div class="stat-value gold" x-text="fmtQ(stats.porCobrar)"></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Ganancia</div>
+              <div class="stat-value green" x-text="fmtQ(gananciaMes * 7.9)"></div>
             </div>
             <div class="stat-card">
               <div class="stat-label">Ya cobrado</div>
