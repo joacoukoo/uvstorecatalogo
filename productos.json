@@ -38164,6 +38164,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "batman-absolute-1-10-art-scale-statue-mud5su3r",
+        "n": "Batman Absolute 1:10 Art Scale Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce147b5d.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3750",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce147b5d.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-scale-6932fce451469.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce18731e.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce1ca09a.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce2149c0.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce252663.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce2911a4.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce2cfc52.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce3184b1.jpg",
+          "https://www.sideshow.com/storage/product-images/915108/iron-studios-dc-comics-batman-absolute-1-10-scale-statues-gallery-6932fce3546b3.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina Gotham con esta espectacular estatua de Batman Absolute a escala 1:10 de Iron Studios. Captura la esencia del Caballero Oscuro con un diseño épico que incluye su icónico traje blindado y capa ondulante, perfecto para coleccionistas que exigen lo mejor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10 Art Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-text",
+            "x": "incluye:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Batman Absolute"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de Gotham"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "750",
+        "entrega": "Dic. 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "severus-snape-premium-format-mixed-media-figure-by-mud49j5h",
         "n": "Severus Snape Premium Format Mixed Media Figure",
         "i": "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922caaab0.jpg",
