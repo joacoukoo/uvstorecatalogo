@@ -38164,6 +38164,83 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "severus-snape-premium-format-mixed-media-figure-by-mud49j5h",
+        "n": "Severus Snape Premium Format Mixed Media Figure by Sideshow Collectibles",
+        "i": "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922caaab0.jpg",
+        "franquicia": "Otros",
+        "marca": "Sideshow Collectibles",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "10300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922caaab0.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922d372c0.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922d8414a.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922dd1abd.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922e5af16.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922ead9e1.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922f0564c.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922f51758.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922f9d0a4.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922fe8fa6.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la presencia del Maestro de Pociones con esta figura Premium Format de Severus Snape de Sideshow Collectibles. Con un detallado traje de mago y accesorios icónicos, captura la esencia misteriosa y poderosa del personaje. Una pieza imprescindible para coleccionistas de Harry Potter que demanda un lugar de honor en cualquier colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 48 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: resina, tela y accesorios premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado con detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con elementos decorativos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Severus Snape articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Varita mágica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con motivos de Hogwarts"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos de biblioteca"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "2060",
+        "entrega": "Sep 2027 - Dec 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "omega-red-premium-format-msnho3d4",
         "n": "Omega Red Premium Format™",
         "i": "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b39df235.jpg",
