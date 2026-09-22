@@ -53686,6 +53686,79 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "lupin-the-third-55th-anniversary-collectible-mud538cv",
+        "n": "Lupin the Third 55th Anniversary Collectible",
+        "i": "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a4562cd.jpg",
+        "franquicia": "Anime",
+        "marca": "MegaHouse",
+        "escala": "1:24",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1650",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a4562cd.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-scale-6aa858a903fe6.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a4a7ca3.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a503975.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a553f0d.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a5a378e.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a5f2d5c.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a672acf.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a6d603c.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a7541ff.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra el 55 aniversario de Lupin III con esta exclusiva colección premium de MegaHouse que incluye dos figuras articuladas magistralmente detalladas y su icónico automóvil Fiat 500. Una pieza de colección imprescindible para los devotos de la legendaria saga de heists que combina craftmanship de lujo con nostalgia cinematográfica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:24"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC pre-pintado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Acrílico conmemorativo 55 aniversario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras: 2 personajes articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vehículo: Réplica detallada del Fiat 500"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 figuras pre-pintadas de Lupin III y asociado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Automóvil Fiat 500 pre-pintado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base acrílica conmemorativa 55 aniversario"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "330",
+        "entrega": "May. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "dlx-iron-man-mark-1-action-figure-by-threezero-muaahuk1",
         "n": "DLX Iron Man Mark 1 Action Figure by Threezero",
         "i": "https://www.sideshow.com/storage/product-images/916102/threezero-marvel-dlx-iron-man-mark-1-action-figure-gallery-6aa46c6937fab.jpg",
