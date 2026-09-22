@@ -38164,6 +38164,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "huggy-wuggy-mud76cxj",
+        "n": "Huggy Wuggy",
+        "i": "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1ce31fa.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1ce31fa.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-scale-6a612b1f73a6b.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1d2c00a.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1d6bfeb.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1dacd2d.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1de9098.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1e32ecd.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1e6f250.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1eaf62b.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1eec3a8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el terror con la estatua Huggy Wuggy 1:10 de Iron Studios, una pieza de colección premium que captura la esencia amenazante del personaje icónico de Poppy Playtime. Con un detalle exquisito en su textura azul, su expresión aterradora y su característica mano amarilla asomando por la puerta, esta figura es imprescindible para fanáticos del horror y coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina articulada y pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Huggy Wuggy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con marco de puerta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "760",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "batman-sixth-scale-figure-mud64xn4",
         "n": "Batman™ Sixth Scale Figure",
         "i": "https://www.sideshow.com/storage/product-images/915198/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-694ab9978fb77.jpg",
