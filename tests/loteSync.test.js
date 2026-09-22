@@ -60,4 +60,34 @@ describe('onRequestPost', () => {
     const res = await onRequestPost({ request: req, env: ENV });
     expect(res.status).toBe(400);
   });
+
+  it('devuelve 400 si cantidad no es un número', async () => {
+    const req = new Request('https://x/api/lote-sync', {
+      method: 'POST',
+      body: JSON.stringify({ catalogo_id: 'a', producto: 'Jinx', marca: 'Hot Toys', escala: '1:6', cantidad: 'no-es-numero' })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(res.status).toBe(400);
+    expect(body).toEqual({ error: 'cantidad debe ser un número' });
+  });
+
+  it('devuelve 500 si Supabase retorna un error', async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce(new Response('[]', { status: 200 })) // buscar existente -> ninguno
+      .mockResolvedValueOnce(new Response('[]', { status: 200 })) // todos los codigos -> ninguno
+      .mockResolvedValueOnce(new Response('Error', { status: 500 })); // insert falla
+    vi.stubGlobal('fetch', fetchMock);
+
+    const req = new Request('https://x/api/lote-sync', {
+      method: 'POST',
+      body: JSON.stringify({ catalogo_id: 'a', producto: 'Jinx', marca: 'Hot Toys', escala: '1:6', cantidad: 3 })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(res.status).toBe(500);
+    expect(body).toHaveProperty('error');
+  });
 });

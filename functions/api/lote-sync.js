@@ -53,8 +53,11 @@ async function todosLosCodigos(serviceKey) {
 export async function onRequestPost({ request, env }) {
   try {
     const { catalogo_id, producto, marca, escala, cantidad } = await request.json();
-    if (!catalogo_id || !producto || !cantidad) {
-      return new Response(JSON.stringify({ error: 'catalogo_id, producto y cantidad son requeridos' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
+    if (!catalogo_id || !producto) {
+      return new Response(JSON.stringify({ error: 'catalogo_id y producto son requeridos' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
+    }
+    if (typeof cantidad !== 'number' || !Number.isFinite(cantidad)) {
+      return new Response(JSON.stringify({ error: 'cantidad debe ser un número' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
     }
     const serviceKey = env.SUPABASE_SERVICE_KEY;
     const existente = await buscarLotePorCatalogoId(serviceKey, catalogo_id);
