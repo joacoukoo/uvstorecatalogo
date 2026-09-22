@@ -36,10 +36,9 @@ describe('onRequestPost', () => {
     expect(insertBody).toMatchObject({ producto: 'Jinx', marca: 'Hot Toys', catalogo_id: 'a', catalogo_variante: null, cantidad: 3 });
   });
 
-  it('actualiza la cantidad de un lote existente y calcula disponibles con ordenes activas', async () => {
+  it('no toca un lote existente: calcula disponibles con la cantidad del lote, no la del request', async () => {
     const fetchMock = vi.fn()
-      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'lote-1', cantidad: 3 }]), { status: 200 })) // buscar existente
-      .mockResolvedValueOnce(new Response('[]', { status: 200 })) // patch
+      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'lote-1', cantidad: 5 }]), { status: 200 })) // buscar existente
       .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'o1' }, { id: 'o2' }]), { status: 200 })); // 2 ordenes activas
     vi.stubGlobal('fetch', fetchMock);
 
@@ -51,8 +50,26 @@ describe('onRequestPost', () => {
     const body = await res.json();
 
     expect(body).toEqual({ disponibles: 3, agotado: false });
-    expect(fetchMock.mock.calls[1][1].method).toBe('PATCH');
-    expect(JSON.parse(fetchMock.mock.calls[1][1].body)).toEqual({ cantidad: 5 });
+    expect(fetchMock.mock.calls.some(c => c[1] && c[1].method === 'PATCH')).toBe(false);
+  });
+
+  it('ignora la cantidad del request cuando el lote ya existe (no pisa la cantidad pedida)', async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'lote-1', cantidad: 3 }]), { status: 200 })) // lote real: 3
+      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'o1' }]), { status: 200 })); // 1 orden activa
+    vi.stubGlobal('fetch', fetchMock);
+
+    const req = new Request('https://x/api/lote-sync', {
+      method: 'POST',
+      body: JSON.stringify({ catalogo_id: 'a', producto: 'Jinx', marca: 'Hot Toys', escala: '1:6', cantidad: 99 })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    // 3 (cantidad real del lote) - 1 activa = 2. Nada derivado de 99.
+    expect(body).toEqual({ disponibles: 2, agotado: false });
+    expect(fetchMock).toHaveBeenCalledTimes(2); // solo buscar lote + contar ordenes
+    expect(fetchMock.mock.calls.some(c => c[1] && c[1].method === 'PATCH')).toBe(false);
   });
 
   it('devuelve 400 si falta un campo requerido', async () => {

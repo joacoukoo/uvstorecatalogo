@@ -653,8 +653,11 @@ async function catalogAction(body) {
   return result;
 }
 
+// Se llama DESPUES de que el catalogo se guardo bien. Es solo contabilidad del lote en
+// Supabase: no modifica el producto ya guardado. Devuelve null si salio todo bien (o si no
+// aplica), o el texto del aviso si el sync fallo. Nunca tira.
 async function syncLoteStock(p){
-  if(p.precio_d || !p.cantidad || !/^\d+$/.test(String(p.cantidad).trim())) return;
+  if(p.precio_d || !p.cantidad || !/^\d+$/.test(String(p.cantidad).trim())) return null;
   try{
     var res = await fetch('/api/lote-sync', {
       method: 'POST',
@@ -663,11 +666,17 @@ async function syncLoteStock(p){
     });
     var data = await res.json();
     if(!res.ok) throw new Error(data.error);
-    p.cantidad = String(data.disponibles);
-    p.agotado = data.agotado;
+    return null;
   }catch(e){
-    setStatus('Aviso: no se pudo sincronizar el lote de stock ('+e.message+'), el producto se guarda igual','orange');
+    return 'Aviso: no se pudo sincronizar el lote de stock ('+e.message+') — el producto se guardo igual';
   }
+}
+
+// El mensaje de "Guardado" pisa cualquier aviso inmediato, asi que mostramos el aviso
+// despues, para que el admin lo llegue a ver (setStatus no se auto-limpia).
+function avisarSyncLote(aviso){
+  if(!aviso) return;
+  setTimeout(function(){ setStatus(aviso,'orange'); }, 2000);
 }
 
 async function saveAdd(){
@@ -678,11 +687,12 @@ async function saveAdd(){
   setStatus('Guardando...','orange');
   try{
     var product=buildAddProduct();
-    await syncLoteStock(product);
     await catalogAction({action:'add', category:cat, product:product});
+    var aviso=await syncLoteStock(product);
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
     _catalog=null;
     resetAddForm();
+    avisarSyncLote(aviso);
   }catch(e){setStatus('Error: '+e.message,'red');}
   finally{ if(btn) btn.disabled=false; }
 }
@@ -817,11 +827,12 @@ async function saveEdit(){
   var newCat=getField('edit-cat');
   setStatus('Guardando...','orange');
   try{
-    await syncLoteStock(updated);
     await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
+    var aviso=await syncLoteStock(updated);
     _catalog=null;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();
+    avisarSyncLote(aviso);
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 

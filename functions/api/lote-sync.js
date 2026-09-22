@@ -63,14 +63,13 @@ export async function onRequestPost({ request, env }) {
     const existente = await buscarLotePorCatalogoId(serviceKey, catalogo_id);
 
     let loteId;
+    let cantidadLote;
     if (existente) {
-      const res = await fetch(`${SUPABASE_URL}/rest/v1/lotes_pedido?id=eq.${existente.id}`, {
-        method: 'PATCH',
-        headers: headersServicio(serviceKey),
-        body: JSON.stringify({ cantidad })
-      });
-      if (!res.ok) throw new Error(`Supabase ${res.status}: ${await res.text()}`);
+      // El lote ya existe: su `cantidad` es la cantidad realmente pedida al proveedor y
+      // manda sobre lo que muestre el formulario del admin (que puede traer un número viejo
+      // o depletado). No se toca — el lote es la fuente de verdad a partir de acá.
       loteId = existente.id;
+      cantidadLote = existente.cantidad;
     } else {
       const codigo = generarCodigoLote(producto, marca, await todosLosCodigos(serviceKey));
       const res = await fetch(`${SUPABASE_URL}/rest/v1/lotes_pedido`, {
@@ -81,10 +80,11 @@ export async function onRequestPost({ request, env }) {
       if (!res.ok) throw new Error(`Supabase ${res.status}: ${await res.text()}`);
       const [creado] = await res.json();
       loteId = creado.id;
+      cantidadLote = cantidad;
     }
 
     const activas = await contarOrdenesActivas(serviceKey, loteId);
-    const disponibles = cantidad - activas;
+    const disponibles = cantidadLote - activas;
     return new Response(JSON.stringify({ disponibles, agotado: disponibles <= 0 }), { headers: { 'Content-Type': 'application/json' } });
   } catch (e) {
     return new Response(JSON.stringify({ error: e.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });

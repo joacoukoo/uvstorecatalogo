@@ -277,7 +277,7 @@ function generarCodigoLote(producto, marca, codigosExistentes) {
   return codigo;
 }
 
-async function dbCreateLote(lote) {
+async function dbCreateLote(lote, opts = {}) {
   let codigo = (lote.codigo || '').trim().toUpperCase();
   if (!codigo) {
     const { data: existentes, error: errBusq } = await db.from('lotes_pedido').select('codigo');
@@ -287,7 +287,10 @@ async function dbCreateLote(lote) {
   const { id, ...fields } = lote;
   const { data, error } = await db.from('lotes_pedido').insert({ ...fields, codigo }).select().single();
   if (error) throw error;
-  await _syncStockSiCorresponde(data.id);
+  // Un lote recién creado siempre tiene disponibles === cantidad (nunca agotado), así que
+  // no hay nada que sincronizar: la importación masiva usa skipSync para no disparar
+  // cientos de round-trips a GitHub (uno por figura del catálogo).
+  if (!opts.skipSync) await _syncStockSiCorresponde(data.id);
   return data;
 }
 
@@ -449,7 +452,7 @@ async function dbImportarLotesCatalogo() {
     const cantidad = parseInt(p.cantidad, 10);
     const codigo = generarCodigoLote(p.n, p.marca, codigosExistentes);
     codigosExistentes.push(codigo);
-    await dbCreateLote({ producto: p.n, marca: p.marca, escala: p.escala, cantidad, codigo, catalogo_id: p.id, catalogo_variante: null });
+    await dbCreateLote({ producto: p.n, marca: p.marca, escala: p.escala, cantidad, codigo, catalogo_id: p.id, catalogo_variante: null }, { skipSync: true });
     creados++;
   }
   return creados;

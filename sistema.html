@@ -1840,12 +1840,21 @@ function uvLotes() {
     async abrirEditar(l) {
       this.form = { id: l.id, producto: l.producto, marca: l.marca || '', escala: l.escala || '', cantidad: l.cantidad, codigo: l.codigo, proveedor: l.proveedor || '', fecha_pedido: l.fecha_pedido || '', notas: l.notas || '', catalogo_id: l.catalogo_id || '', catalogo_variante: l.catalogo_variante || '' };
       this.catalogoBusqueda = '';
+      // Fijamos el valor provisional ANTES de abrir el modal: si no, mientras carga el
+      // catálogo se muestra el producto del lote editado anteriormente (y queda pegado
+      // para siempre si el fetch falla).
+      this.catalogoSeleccionado = l.catalogo_id ? { id: l.catalogo_id, n: l.producto, marca: l.marca } : null;
       this.modalNuevo = true;
       if (l.catalogo_id) {
-        await this.buscarCatalogo();
-        this.catalogoSeleccionado = this.catalogoTodos.find(p => p.id === l.catalogo_id) || { id: l.catalogo_id, n: l.producto, marca: l.marca };
-      } else {
-        this.catalogoSeleccionado = null;
+        try {
+          await this.buscarCatalogo();
+          // Si mientras cargaba el catálogo se abrió otro lote, no pisamos lo que ya se muestra.
+          if (this.form.id !== l.id) return;
+          this.catalogoSeleccionado = this.catalogoTodos.find(p => p.id === l.catalogo_id) || this.catalogoSeleccionado;
+        } catch(e) {
+          if (this.form.id !== l.id) return;
+          alert('No se pudo cargar el catálogo para mostrar el producto vinculado: ' + e.message);
+        }
       }
     },
     async crearLote() {
@@ -1894,7 +1903,11 @@ function uvLotes() {
       } catch(e) { alert('Error al eliminar: ' + e.message); }
     },
     async importarCatalogo() {
-      if (!confirm('Esto va a crear un lote nuevo para cada figura del catálogo que todavía no tenga uno vinculado. ¿Continuar?')) return;
+      const sinVincular = this.lotes.filter(l => !l.catalogo_id).length;
+      const msg = sinVincular > 0
+        ? 'Hay ' + sinVincular + ' lote(s) existentes sin vincular a un producto del catálogo. Si alguno corresponde a una figura que ya está en el catálogo, hay que vincularlo a mano ANTES de importar (botón "Editar" → buscar el producto), o la importación va a crear un lote duplicado para esa figura.\n\n¿Ya revisaste/vinculaste los que correspondía y querés continuar con la importación?'
+        : 'Esto va a crear un lote nuevo para cada figura del catálogo que todavía no tenga uno vinculado. ¿Continuar?';
+      if (!confirm(msg)) return;
       this.importando = true;
       try {
         const creados = await dbImportarLotesCatalogo();

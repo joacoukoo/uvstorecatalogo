@@ -3,6 +3,32 @@ import { onRequestGet, onRequestPost, verifySupabaseSession } from '../functions
 
 function b64(str) { return Buffer.from(str, 'utf-8').toString('base64'); }
 const ENV = { GITHUB_TOKEN: 'gh', GITHUB_REPO: 'o/r' };
+const ADMIN_ID = '902668dd-2f20-4d1e-a56a-dce062f98afc';
+
+// Sesion valida del unico admin del sitio.
+function authOk() { return new Response(JSON.stringify({ id: ADMIN_ID }), { status: 200 }); }
+// Las dos llamadas que hace readFile(): commit sha + contenido del archivo.
+function ghRead(catalog) {
+  return [
+    new Response(JSON.stringify({ sha: 'c1' }), { status: 200 }),
+    new Response(JSON.stringify({ content: b64(JSON.stringify(catalog)), sha: 'f1' }), { status: 200 })
+  ];
+}
+function mockFetch(responses) {
+  const m = vi.fn();
+  for (const r of responses) m.mockResolvedValueOnce(r);
+  vi.stubGlobal('fetch', m);
+  return m;
+}
+// El body escrito en el PUT a GitHub, decodificado.
+function catalogoEscrito(fetchMock) {
+  const put = fetchMock.mock.calls.find(c => c[1] && c[1].method === 'PUT');
+  expect(put, 'se esperaba un PUT a GitHub').toBeTruthy();
+  return JSON.parse(Buffer.from(JSON.parse(put[1].body).content, 'base64').toString('utf-8'));
+}
+function huboPut(fetchMock) {
+  return fetchMock.mock.calls.some(c => c[1] && c[1].method === 'PUT');
+}
 
 afterEach(() => { vi.unstubAllGlobals(); });
 
@@ -10,13 +36,17 @@ describe('verifySupabaseSession', () => {
   it('devuelve false sin token', async () => {
     expect(await verifySupabaseSession(null)).toBe(false);
   });
-  it('devuelve true si Supabase responde ok', async () => {
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 200 })));
+  it('devuelve true si Supabase responde ok con el id del admin', async () => {
+    mockFetch([authOk()]);
     expect(await verifySupabaseSession('tok123')).toBe(true);
   });
   it('devuelve false si Supabase rechaza el token', async () => {
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 401 })));
+    mockFetch([new Response('{}', { status: 401 })]);
     expect(await verifySupabaseSession('tok-malo')).toBe(false);
+  });
+  it('devuelve false si el token es valido pero de otro usuario', async () => {
+    mockFetch([new Response(JSON.stringify({ id: 'otro-usuario-cualquiera' }), { status: 200 })]);
+    expect(await verifySupabaseSession('tok-de-otro')).toBe(false);
   });
 });
 
@@ -28,11 +58,7 @@ describe('onRequestGet', () => {
 
   it('devuelve la lista liviana del catalogo con sesion valida', async () => {
     const catalog = { Cat: { products: [{ id: 'a', n: 'Figura', marca: 'M', cantidad: '2', agotado: false }] } };
-    const fetchMock = vi.fn()
-      .mockResolvedValueOnce(new Response('{}', { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ sha: 'c1' }), { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ content: b64(JSON.stringify(catalog)), sha: 'f1' }), { status: 200 }));
-    vi.stubGlobal('fetch', fetchMock);
+    mockFetch([authOk(), ...ghRead(catalog)]);
 
     const req = new Request('https://x/api/stock-sync', { headers: { Authorization: 'Bearer tok123' } });
     const res = await onRequestGet({ request: req, env: ENV });
@@ -49,14 +75,14 @@ describe('onRequestPost', () => {
     expect(res.status).toBe(401);
   });
 
-  it('marca agotado y actualiza cantidad cuando disponibles es 0', async () => {
+  it('marca agotado sin tocar cantidad cuando disponibles es 0', async () => {
     const catalog = { Cat: { products: [{ id: 'a', cantidad: '1', agotado: false }] } };
-    const fetchMock = vi.fn()
-      .mockResolvedValueOnce(new Response('{}', { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ sha: 'c1' }), { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ content: b64(JSON.stringify(catalog)), sha: 'f1' }), { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ ok: true }), { status: 200 }));
-    vi.stubGlobal('fetch', fetchMock);
+    const fetchMock = mockFetch([
+      authOk(),
+      ...ghRead(catalog), // chequeo previo
+      ...ghRead(catalog), // lectura de mutateCatalog
+      new Response(JSON.stringify({ ok: true }), { status: 200 }) // PUT
+    ]);
 
     const req = new Request('https://x/api/stock-sync', {
       method: 'POST',
@@ -67,19 +93,36 @@ describe('onRequestPost', () => {
     const body = await res.json();
 
     expect(body).toEqual({ ok: true, agotado: true });
-    const writeBody = JSON.parse(fetchMock.mock.calls[3][1].body);
-    const written = JSON.parse(Buffer.from(writeBody.content, 'base64').toString('utf-8'));
-    expect(written.Cat.products[0]).toEqual({ id: 'a', cantidad: '0', agotado: true });
+    // cantidad queda como la dejo el admin en admin-app.html: el sync solo maneja `agotado`.
+    expect(catalogoEscrito(fetchMock).Cat.products[0]).toEqual({ id: 'a', cantidad: '1', agotado: true });
+  });
+
+  it('no escribe nada si el catalogo ya tiene el mismo valor de agotado', async () => {
+    const catalog = { Cat: { products: [{ id: 'a', cantidad: '1', agotado: true }] } };
+    const fetchMock = mockFetch([authOk(), ...ghRead(catalog)]);
+
+    const req = new Request('https://x/api/stock-sync', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer tok123' },
+      body: JSON.stringify({ catalogo_id: 'a', catalogo_variante: null, disponibles: 0 })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(res.status).toBe(200);
+    expect(body).toEqual({ ok: true, agotado: true, skipped: true });
+    expect(huboPut(fetchMock)).toBe(false);
+    expect(fetchMock).toHaveBeenCalledTimes(3); // auth + los 2 GET del chequeo previo
   });
 
   it('marca agotado_r en la variante regular sin tocar cantidad', async () => {
     const catalog = { Cat: { products: [{ id: 'a', cantidad: '3', agotado_r: false, agotado_d: false }] } };
-    const fetchMock = vi.fn()
-      .mockResolvedValueOnce(new Response('{}', { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ sha: 'c1' }), { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ content: b64(JSON.stringify(catalog)), sha: 'f1' }), { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ ok: true }), { status: 200 }));
-    vi.stubGlobal('fetch', fetchMock);
+    const fetchMock = mockFetch([
+      authOk(),
+      ...ghRead(catalog),
+      ...ghRead(catalog),
+      new Response(JSON.stringify({ ok: true }), { status: 200 })
+    ]);
 
     const req = new Request('https://x/api/stock-sync', {
       method: 'POST',
@@ -88,19 +131,14 @@ describe('onRequestPost', () => {
     });
     await onRequestPost({ request: req, env: ENV });
 
-    const writeBody = JSON.parse(fetchMock.mock.calls[3][1].body);
-    const written = JSON.parse(Buffer.from(writeBody.content, 'base64').toString('utf-8'));
+    const written = catalogoEscrito(fetchMock);
     expect(written.Cat.products[0].agotado_r).toBe(true);
     expect(written.Cat.products[0].cantidad).toBe('3');
   });
 
   it('devuelve 500 si el producto no existe en el catalogo', async () => {
     const catalog = { Cat: { products: [] } };
-    const fetchMock = vi.fn()
-      .mockResolvedValueOnce(new Response('{}', { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ sha: 'c1' }), { status: 200 }))
-      .mockResolvedValueOnce(new Response(JSON.stringify({ content: b64(JSON.stringify(catalog)), sha: 'f1' }), { status: 200 }));
-    vi.stubGlobal('fetch', fetchMock);
+    mockFetch([authOk(), ...ghRead(catalog), ...ghRead(catalog)]);
 
     const req = new Request('https://x/api/stock-sync', {
       method: 'POST',
@@ -109,10 +147,11 @@ describe('onRequestPost', () => {
     });
     const res = await onRequestPost({ request: req, env: ENV });
     expect(res.status).toBe(500);
+    expect((await res.json()).error).toMatch(/Producto no encontrado/);
   });
 
   it('devuelve 400 si disponibles no es un número', async () => {
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 200 })));
+    mockFetch([authOk()]);
 
     const req = new Request('https://x/api/stock-sync', {
       method: 'POST',
@@ -127,7 +166,7 @@ describe('onRequestPost', () => {
   });
 
   it('devuelve 400 si disponibles falta', async () => {
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 200 })));
+    mockFetch([authOk()]);
 
     const req = new Request('https://x/api/stock-sync', {
       method: 'POST',
@@ -142,7 +181,7 @@ describe('onRequestPost', () => {
   });
 
   it('devuelve 400 si disponibles es NaN', async () => {
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 200 })));
+    mockFetch([authOk()]);
 
     const req = new Request('https://x/api/stock-sync', {
       method: 'POST',
