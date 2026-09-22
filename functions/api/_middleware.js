@@ -1,8 +1,10 @@
 import { verifyToken, getSessionToken } from '../_lib/auth.js';
 
+const RUTAS_SIN_ADMIN_SECRET = new Set(['/api/mis-pedidos', '/api/stock-sync']);
+
 export async function onRequest(context) {
   const url = new URL(context.request.url);
-  if (url.pathname === '/api/mis-pedidos') {
+  if (RUTAS_SIN_ADMIN_SECRET.has(url.pathname)) {
     return context.next();
   }
   const token = getSessionToken(context.request);
