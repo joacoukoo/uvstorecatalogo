@@ -1344,6 +1344,9 @@ button,a{touch-action:manipulation;cursor:pointer}
         <div style="display:flex;gap:6px;align-items:center">
           <button class="btn-sm" :class="ordenPor==='alfabetico' ? 'btn-purple' : 'btn-ghost'" @click="ordenPor='alfabetico'">A-Z</button>
           <button class="btn-sm" :class="ordenPor==='fecha' ? 'btn-purple' : 'btn-ghost'" @click="ordenPor='fecha'">Más reciente</button>
+          <button class="btn-sm btn-ghost" @click="importarCatalogo()" :disabled="importando">
+            <span x-text="importando ? 'Importando...' : 'Importar figuras del catálogo'"></span>
+          </button>
           <button class="btn-sm btn-purple" @click="abrirNuevo()">+ Nuevo lote</button>
         </div>
       </div>
@@ -1889,6 +1892,16 @@ function uvLotes() {
         await dbDeleteLote(l.id);
         this.lotes = this.lotes.filter(x => x.id !== l.id);
       } catch(e) { alert('Error al eliminar: ' + e.message); }
+    },
+    async importarCatalogo() {
+      if (!confirm('Esto va a crear un lote nuevo para cada figura del catálogo que todavía no tenga uno vinculado. ¿Continuar?')) return;
+      this.importando = true;
+      try {
+        const creados = await dbImportarLotesCatalogo();
+        alert(creados + ' lote(s) nuevo(s) creado(s).');
+        await this.cargar();
+      } catch(e) { alert('Error al importar: ' + e.message); }
+      finally { this.importando = false; }
     },
   };
 }
