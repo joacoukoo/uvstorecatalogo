@@ -1324,7 +1324,7 @@ function makeCard(p,cat){
   var badgeText="",badgeCls="";
   var estadoLow=(p.estado||"").toLowerCase();
   var dispLow=(p.disp||"").toLowerCase();
-  if(estadoLow==="vendido"||dispLow==="vendido"){badgeText="Agotado";badgeCls="badge-agotado";}
+  if(estadoLow==="vendido"||dispLow==="vendido"||p.agotado){badgeText="Agotado";badgeCls="badge-agotado";}
   else if(dispLow.indexOf("inmediata")>=0){badgeText="En Stock";badgeCls="badge-stock";}
   else if(dispLow.indexOf("pre")>=0){badgeText="Pre-Orden";badgeCls="badge-pre";}
   else if(cat==="Entrega Inmediata"){badgeText="En Stock";badgeCls="badge-stock";}
