@@ -46,6 +46,7 @@ export async function onRequestPost({ request, env }) {
   try {
     const { catalogo_id, catalogo_variante, disponibles } = await request.json();
     if (!catalogo_id) return new Response(JSON.stringify({ error: 'catalogo_id requerido' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
+    if (typeof disponibles !== 'number' || !Number.isFinite(disponibles)) return new Response(JSON.stringify({ error: 'disponibles debe ser un número' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
     const agotado = disponibles <= 0;
 
     await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {

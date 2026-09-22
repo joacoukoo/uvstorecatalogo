@@ -110,4 +110,49 @@ describe('onRequestPost', () => {
     const res = await onRequestPost({ request: req, env: ENV });
     expect(res.status).toBe(500);
   });
+
+  it('devuelve 400 si disponibles no es un número', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 200 })));
+
+    const req = new Request('https://x/api/stock-sync', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer tok123' },
+      body: JSON.stringify({ catalogo_id: 'a', catalogo_variante: null, disponibles: 'no-es-numero' })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(res.status).toBe(400);
+    expect(body).toEqual({ error: 'disponibles debe ser un número' });
+  });
+
+  it('devuelve 400 si disponibles falta', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 200 })));
+
+    const req = new Request('https://x/api/stock-sync', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer tok123' },
+      body: JSON.stringify({ catalogo_id: 'a', catalogo_variante: null })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(res.status).toBe(400);
+    expect(body).toEqual({ error: 'disponibles debe ser un número' });
+  });
+
+  it('devuelve 400 si disponibles es NaN', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValueOnce(new Response('{}', { status: 200 })));
+
+    const req = new Request('https://x/api/stock-sync', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer tok123' },
+      body: JSON.stringify({ catalogo_id: 'a', catalogo_variante: null, disponibles: NaN })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(res.status).toBe(400);
+    expect(body).toEqual({ error: 'disponibles debe ser un número' });
+  });
 });
