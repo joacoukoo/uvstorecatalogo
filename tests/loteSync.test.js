@@ -1,0 +1,63 @@
+import { describe, it, expect, vi, afterEach } from 'vitest';
+import { onRequestPost, generarCodigoLote } from '../functions/api/lote-sync.js';
+
+const ENV = { SUPABASE_SERVICE_KEY: 'service-key' };
+
+afterEach(() => { vi.unstubAllGlobals(); });
+
+describe('generarCodigoLote', () => {
+  it('genera codigo de 2+2 letras mas sufijo 01', () => {
+    expect(generarCodigoLote('Jinx', 'Hot Toys', [])).toBe('JIHO01');
+  });
+  it('incrementa el sufijo si ya existe', () => {
+    expect(generarCodigoLote('Jinx', 'Hot Toys', ['JIHO01', 'JIHO02'])).toBe('JIHO03');
+  });
+});
+
+describe('onRequestPost', () => {
+  it('crea un lote nuevo cuando no existe uno para ese catalogo_id', async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce(new Response('[]', { status: 200 })) // buscar existente -> ninguno
+      .mockResolvedValueOnce(new Response('[]', { status: 200 })) // todos los codigos -> ninguno
+      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'lote-1' }]), { status: 201 })) // insert
+      .mockResolvedValueOnce(new Response('[]', { status: 200 })); // contar ordenes activas -> 0
+    vi.stubGlobal('fetch', fetchMock);
+
+    const req = new Request('https://x/api/lote-sync', {
+      method: 'POST',
+      body: JSON.stringify({ catalogo_id: 'a', producto: 'Jinx', marca: 'Hot Toys', escala: '1:6', cantidad: 3 })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(body).toEqual({ disponibles: 3, agotado: false });
+    expect(fetchMock.mock.calls[2][1].method).toBe('POST');
+    const insertBody = JSON.parse(fetchMock.mock.calls[2][1].body);
+    expect(insertBody).toMatchObject({ producto: 'Jinx', marca: 'Hot Toys', catalogo_id: 'a', catalogo_variante: null, cantidad: 3 });
+  });
+
+  it('actualiza la cantidad de un lote existente y calcula disponibles con ordenes activas', async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'lote-1', cantidad: 3 }]), { status: 200 })) // buscar existente
+      .mockResolvedValueOnce(new Response('[]', { status: 200 })) // patch
+      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: 'o1' }, { id: 'o2' }]), { status: 200 })); // 2 ordenes activas
+    vi.stubGlobal('fetch', fetchMock);
+
+    const req = new Request('https://x/api/lote-sync', {
+      method: 'POST',
+      body: JSON.stringify({ catalogo_id: 'a', producto: 'Jinx', marca: 'Hot Toys', escala: '1:6', cantidad: 5 })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+    const body = await res.json();
+
+    expect(body).toEqual({ disponibles: 3, agotado: false });
+    expect(fetchMock.mock.calls[1][1].method).toBe('PATCH');
+    expect(JSON.parse(fetchMock.mock.calls[1][1].body)).toEqual({ cantidad: 5 });
+  });
+
+  it('devuelve 400 si falta un campo requerido', async () => {
+    const req = new Request('https://x/api/lote-sync', { method: 'POST', body: JSON.stringify({ catalogo_id: 'a' }) });
+    const res = await onRequestPost({ request: req, env: ENV });
+    expect(res.status).toBe(400);
+  });
+});
