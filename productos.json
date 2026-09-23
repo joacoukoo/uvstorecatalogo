@@ -53651,12 +53651,12 @@
         ],
         "destacado": false,
         "oferta": false,
-        "agotado": true,
+        "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-09-23",
         "reserva": "0",
-        "cantidad": "0"
+        "cantidad": "1"
       },
       {
         "id": "dave-the-diver-1-12-scale-action-figure-mud6m32c",
