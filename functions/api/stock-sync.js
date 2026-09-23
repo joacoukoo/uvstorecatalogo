@@ -41,7 +41,8 @@ export async function onRequestGet({ request, env }) {
         lista.push({
           id: p.id, n: p.n, marca: p.marca, escala: p.escala, disp: p.disp,
           cantidad: p.cantidad, estado: p.estado, agotado: !!p.agotado,
-          agotado_r: p.agotado_r, agotado_d: p.agotado_d, precio_d: p.precio_d
+          agotado_r: p.agotado_r, agotado_d: p.agotado_d, precio_d: p.precio_d,
+          i: p.i, fotos: p.fotos, fotos_d: p.fotos_d
         });
       }
     }
@@ -51,10 +52,42 @@ export async function onRequestGet({ request, env }) {
   }
 }
 
+const JSON_HEADERS = { 'Content-Type': 'application/json' };
+
+function aplicarItem(p, it) {
+  let cambio = aplicarStock(p, it.catalogo_variante || null, it.disponibles);
+  if (it.disp && p.disp !== it.disp) { p.disp = it.disp; cambio = true; }
+  return cambio;
+}
+
+// Varios productos en un solo commit (importación de documentos de Sideshow).
+async function sincronizarVarios(items, env) {
+  for (const it of items) {
+    if (!it || !it.catalogo_id || typeof it.disponibles !== 'number' || !Number.isFinite(it.disponibles)) {
+      return new Response(JSON.stringify({ error: 'cada item requiere catalogo_id y disponibles numérico' }), { status: 400, headers: JSON_HEADERS });
+    }
+  }
+  const { catalog: actual } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
+  const noEncontrados = items.filter(it => !findProducto(actual, it.catalogo_id)).map(it => it.catalogo_id);
+  const aplicables = items.filter(it => !noEncontrados.includes(it.catalogo_id));
+  const cambiados = aplicables.filter(it => aplicarItem({ ...findProducto(actual, it.catalogo_id) }, it)).length;
+  if (cambiados > 0) {
+    await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
+      for (const it of aplicables) {
+        const p = findProducto(catalog, it.catalogo_id);
+        if (p) aplicarItem(p, it);
+      }
+    }, { message: 'Sync stock — Importación Sideshow' });
+  }
+  return new Response(JSON.stringify({ ok: true, cambiados, no_encontrados: noEncontrados }), { headers: JSON_HEADERS });
+}
+
 export async function onRequestPost({ request, env }) {
   if (!(await verifySupabaseSession(getBearerToken(request)))) return unauthorized();
   try {
-    const { catalogo_id, catalogo_variante, disponibles } = await request.json();
+    const body = await request.json();
+    if (Array.isArray(body.items)) return await sincronizarVarios(body.items, env);
+    const { catalogo_id, catalogo_variante, disponibles } = body;
     if (!catalogo_id) return new Response(JSON.stringify({ error: 'catalogo_id requerido' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
     if (typeof disponibles !== 'number' || !Number.isFinite(disponibles)) return new Response(JSON.stringify({ error: 'disponibles debe ser un número' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
     const agotado = disponibles <= 0;

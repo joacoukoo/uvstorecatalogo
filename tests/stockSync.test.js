@@ -215,3 +215,51 @@ describe('onRequestPost', () => {
     expect(body).toEqual({ error: 'disponibles debe ser un número' });
   });
 });
+
+describe('onRequestPost con items[]', () => {
+  const post = (body) => new Request('https://x/api/stock-sync', {
+    method: 'POST', headers: { Authorization: 'Bearer tok123' }, body: JSON.stringify(body)
+  });
+
+  it('aplica varios productos en un solo PUT, con disp opcional', async () => {
+    const catalog = { Cat: { products: [
+      { id: 'a', cantidad: '1', agotado: false, disp: 'Pre Orden' },
+      { id: 'b', cantidad: '5', agotado_r: false, precio_d: '1' }
+    ] } };
+    const fetchMock = mockFetch([authOk(), ...ghRead(catalog), ...ghRead(catalog), new Response('{}', { status: 200 })]);
+    const res = await onRequestPost({ request: post({ items: [
+      { catalogo_id: 'a', catalogo_variante: null, disponibles: 3, disp: 'Entrega Inmediata' },
+      { catalogo_id: 'b', catalogo_variante: 'regular', disponibles: 0 },
+      { catalogo_id: 'zz', catalogo_variante: null, disponibles: 1 }
+    ] }), env: ENV });
+
+    expect(await res.json()).toEqual({ ok: true, cambiados: 2, no_encontrados: ['zz'] });
+    expect(fetchMock.mock.calls.filter(c => c[1] && c[1].method === 'PUT')).toHaveLength(1);
+    const escrito = catalogoEscrito(fetchMock).Cat.products;
+    expect(escrito[0]).toMatchObject({ cantidad: '3', agotado: false, disp: 'Entrega Inmediata' });
+    expect(escrito[1]).toMatchObject({ cantidad: '5', agotado_r: true });
+  });
+
+  it('no escribe si nada cambia', async () => {
+    const catalog = { Cat: { products: [{ id: 'a', cantidad: '3', agotado: false }] } };
+    const fetchMock = mockFetch([authOk(), ...ghRead(catalog)]);
+    const res = await onRequestPost({ request: post({ items: [{ catalogo_id: 'a', catalogo_variante: null, disponibles: 3 }] }), env: ENV });
+    expect(await res.json()).toEqual({ ok: true, cambiados: 0, no_encontrados: [] });
+    expect(huboPut(fetchMock)).toBe(false);
+  });
+
+  it('400 si algun item no trae disponibles numerico', async () => {
+    mockFetch([authOk()]);
+    const res = await onRequestPost({ request: post({ items: [{ catalogo_id: 'a', disponibles: 'x' }] }), env: ENV });
+    expect(res.status).toBe(400);
+  });
+});
+
+describe('onRequestGet: fotos', () => {
+  it('incluye las fotos para buscar por numero de Sideshow', async () => {
+    const catalog = { Cat: { products: [{ id: 'a', n: 'A', i: 'u1', fotos: ['u1'], fotos_d: ['u2'] }] } };
+    mockFetch([authOk(), ...ghRead(catalog)]);
+    const res = await onRequestGet({ request: new Request('https://x/api/stock-sync', { headers: { Authorization: 'Bearer t' } }), env: ENV });
+    expect((await res.json())[0]).toMatchObject({ id: 'a', i: 'u1', fotos: ['u1'], fotos_d: ['u2'] });
+  });
+});
