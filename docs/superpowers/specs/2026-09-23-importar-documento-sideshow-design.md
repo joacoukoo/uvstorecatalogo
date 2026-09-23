@@ -100,7 +100,7 @@ activas), `q` = cantidad del documento.
 
 | Caso | Opciones (★ = por defecto) | Efecto |
 |---|---|---|
-| Sin lote | ★ Crear lote · Ignorar | Crear: `codigo`, `producto` = nombre, `marca` = último paréntesis del nombre (ej. "Hot Toys"), `cantidad = q`, `recibidas = q`, `proveedor = 'Sideshow'` |
+| Sin lote | ★ Crear lote y vincular a <figura> (si se encuentra, ver Vinculación automática) · Crear lote · Ignorar | Crear: `codigo`, `producto` = nombre, `marca` = último paréntesis del nombre (ej. "Hot Toys"), `cantidad = q`, `recibidas = q`, `proveedor = 'Sideshow'` y, si corresponde, `catalogo_id`/`catalogo_variante` |
 | `R' = C` | ★ Sumar recibidas | `recibidas = R'` |
 | `R' < C` | ★ Faltan, las completo por otro lado · Bajar el lote a `R'` | Ambas: `recibidas = R'`. Bajar además: `cantidad = R'`. Si `R' < V`, aviso: "te faltarían N figuras para clientes" |
 | `R' > C` | ★ Subir el lote a `R'` · Dejar la cantidad igual | Ambas: `recibidas = R'`. Subir además: `cantidad = R'` |
@@ -111,7 +111,7 @@ activas), `q` = cantidad del documento.
 
 | Caso | Opciones (★ = por defecto) | Efecto |
 |---|---|---|
-| Sin lote | ★ Crear lote · Ignorar | Crear: como en factura pero `recibidas = 0`; `marca` vacía (los nombres del PDF son abreviados) |
+| Sin lote | ★ Crear lote y vincular a <figura> (si se encuentra) · Crear lote · Ignorar | Crear: como en factura pero `recibidas = 0`; `marca` vacía (los nombres del PDF son abreviados) |
 | `q = C` | Sin cambios | nada |
 | `q ≠ C` | ★ Dejar igual · Ajustar el lote a `q` | Ajustar: `cantidad = q`. Si `q < V`, el mismo aviso |
 
@@ -124,11 +124,35 @@ activas), `q` = cantidad del documento.
   `{ items: [{catalogo_id, catalogo_variante, disponibles}] }` y aplica todos con un único
   `mutateCatalog`. Se evita un commit y un deploy por figura. La forma actual (un solo ítem) se
   mantiene.
-- Los lotes creados por la importación no se vinculan solos al catálogo. Se vinculan desde
-  Lotes → Editar, como siempre.
+- Los lotes creados por la importación se vinculan al catálogo si se eligió "Crear lote y
+  vincular" (ver Vinculación automática) y entran en el mismo sync.
 - **Antes** de aplicar se inserta el registro en `documentos_proveedor` con el resumen de
   acciones elegidas, cada una con `aplicado: false`. Cada acción que se guarda bien se marca
   `aplicado: true` en ese registro.
+
+## Vinculación automática al crear un lote
+
+Al proponer "Crear lote", se busca en el catálogo (`GET /api/stock-sync`, la lista liviana, que
+se extiende con `i`, `fotos` y `fotos_d`) un producto cuyas fotos contengan
+`product-images/<codigo>/`. Es el mismo criterio con el que se vincularon los 26 lotes
+existentes.
+
+- Encontrado y **sin** `precio_d` → opción por defecto **"Crear lote y vincular a <nombre>"**,
+  variante `null`.
+- Encontrado **con** `precio_d` → variante `deluxe` si el código aparece en `fotos_d`, si no
+  `regular`. Se muestra en la fila y se puede cambiar.
+- Se descarta el candidato si ese producto (o esa variante) ya tiene un lote, por la regla de un
+  lote por figura.
+- No encontrado → "Crear lote" sin vincular, como antes.
+
+Al vincular, el "Disponibles" de la página pasa a ser el del lote (regla de una sola cantidad).
+
+## Pasar a "Entrega Inmediata" (solo facturas)
+
+Casilla en la revisión, **desmarcada por defecto**: "Pasar a Entrega Inmediata las figuras de la
+página que llegaron en esta factura". Si se marca, a cada producto vinculado (existente o recién
+vinculado) con `q > 0` se le pone `disp = "Entrega Inmediata"` en el mismo commit del sync
+(`items[]` acepta un `disp` opcional). No se cambia la categoría del producto.
 
 ## Duplicados
 
@@ -157,7 +181,8 @@ activas), `q` = cantidad del documento.
     donde `filas` es el texto por fila ya agrupado desde pdf.js.
   - `agruparFilasPdf(itemsPdfJs)`: agrupa por Y y ordena por X.
   - `detectarDocumento(texto | filas)`.
-  - `proponerAcciones(documento, lotes)` → filas de revisión con opciones y valor por defecto.
+  - `buscarEnCatalogo(codigo, catalogo, lotes)` → `{producto, variante} | null` (ver Vinculación automática).
+  - `proponerAcciones(documento, lotes, catalogo)` → filas de revisión con opciones y valor por defecto.
   - `efectoDeAccion(fila, accion)` → `{crear?, update?: {cantidad?, recibidas?}, aviso?}`.
 - `sistema.html`: modal, carga de pdf.js y aplicación de los efectos.
 - `sistema-db.js`: `dbGetDocumentoProveedor(tipo, numero)`, `dbGuardarDocumentoProveedor(...)`,
@@ -176,6 +201,8 @@ activas), `q` = cantidad del documento.
     → 12 ítems, `MISC` excluido, número `00328836-0`.
   - `proponerAcciones` y `efectoDeAccion`: cada caso de las dos tablas, incluido el aviso por
     ventas.
-- **stock-sync** con `items[]`: un solo PUT para varios productos, y ninguno si nada cambia.
+- **stock-sync** con `items[]`: un solo PUT para varios productos, y ninguno si nada cambia;
+  `disp` opcional.
+- `buscarEnCatalogo`: coincidencia por foto regular/deluxe, descarte si ya tiene lote, sin coincidencia.
 - **Chrome** (puppeteer, datos simulados): subir el `.eml` y el PDF reales, revisar y aplicar;
   verificar que el duplicado se bloquea.
