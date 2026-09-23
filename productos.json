@@ -229,7 +229,8 @@
         "agotado_d": false,
         "added_at": "2026-04-24",
         "reserva": "860",
-        "cantidad": "2"
+        "cantidad": "1",
+        "agotado": false
       },
       {
         "id": "black-widow-artisan-edition-mo1lizyk",
