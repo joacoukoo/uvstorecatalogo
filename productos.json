@@ -8929,22 +8929,11 @@
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "180",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "\"It's not who I am underneath, but what I do, that defines me.\" Celebra la evolución del Caballero Oscuro con Batman Assemble, una línea que recorre seis interpretaciones icónicas de Batman a lo largo del cine y la televisión. Desde su debut en Detective Comics (1939), Batman se ha reinventado innumerables veces; esta serie reúne algunas de sus versiones más queridas para que armes tu propio viaje del Hombre Murciélago."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Características"
+            "x": "Descripción\n\"It's not who I am underneath, but what I do, that defines me.\" Celebra la evolución del Caballero Oscuro con Batman Assemble, una línea que recorre seis interpretaciones icónicas de Batman a lo largo del cine y la televisión. Desde su debut en Detective Comics (1939), Batman se ha reinventado innumerables veces; esta serie reúne algunas de sus versiones más queridas para que armes tu propio viaje del Hombre Murciélago.\nCaracterísticas"
           },
           {
             "t": "notion-bulleted-list",
@@ -8967,7 +8956,7 @@
             "x": "Las figuras vienen en caja cerrada con contenido aleatorio"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Especificaciones"
           },
           {
@@ -8975,7 +8964,7 @@
             "x": "Altura aproximada: 8 cm (3\")"
           },
           {
-            "t": "notion-heading-2",
+            "t": "notion-text",
             "x": "Serie Incluye"
           },
           {
@@ -9003,17 +8992,11 @@
             "x": "Justice League – Ben Affleck (Traje más estilizado para enfrentar amenazas mayores)"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Marca"
-          },
-          {
             "t": "notion-text",
-            "x": "Beast Kingdom | Entertainment Experience Brand"
+            "x": "Marca\nBeast Kingdom | Entertainment Experience Brand"
           }
         ],
         "id": "batman-mistery-minis",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
@@ -9026,7 +9009,10 @@
           "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_9_aaf85a4e-9f5f-4f77-a2ed-4d836dbd4834.jpg?v=1679671283",
           "https://cdn.shopify.com/s/files/1/0534/6928/2469/products/IG-01_10_599f241c-dea4-4a46-8637-8ed4d9d1e6de.jpg?v=1679671283"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Hand of the King - Abrebotellas",
