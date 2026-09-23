@@ -75,7 +75,7 @@ describe('onRequestPost', () => {
     expect(res.status).toBe(401);
   });
 
-  it('marca agotado sin tocar cantidad cuando disponibles es 0', async () => {
+  it('marca agotado y pone Disponibles en 0 cuando disponibles es 0', async () => {
     const catalog = { Cat: { products: [{ id: 'a', cantidad: '1', agotado: false }] } };
     const fetchMock = mockFetch([
       authOk(),
@@ -93,12 +93,12 @@ describe('onRequestPost', () => {
     const body = await res.json();
 
     expect(body).toEqual({ ok: true, agotado: true });
-    // cantidad queda como la dejo el admin en admin-app.html: el sync solo maneja `agotado`.
-    expect(catalogoEscrito(fetchMock).Cat.products[0]).toEqual({ id: 'a', cantidad: '1', agotado: true });
+    // El lote del producto completo maneja tambien el "Disponibles" que ve el cliente.
+    expect(catalogoEscrito(fetchMock).Cat.products[0]).toEqual({ id: 'a', cantidad: '0', agotado: true });
   });
 
-  it('no escribe nada si el catalogo ya tiene el mismo valor de agotado', async () => {
-    const catalog = { Cat: { products: [{ id: 'a', cantidad: '1', agotado: true }] } };
+  it('no escribe nada si el catalogo ya refleja el stock del lote', async () => {
+    const catalog = { Cat: { products: [{ id: 'a', cantidad: '0', agotado: true }] } };
     const fetchMock = mockFetch([authOk(), ...ghRead(catalog)]);
 
     const req = new Request('https://x/api/stock-sync', {
@@ -113,6 +113,26 @@ describe('onRequestPost', () => {
     expect(body).toEqual({ ok: true, agotado: true, skipped: true });
     expect(huboPut(fetchMock)).toBe(false);
     expect(fetchMock).toHaveBeenCalledTimes(3); // auth + los 2 GET del chequeo previo
+  });
+
+  it('actualiza Disponibles aunque la figura siga sin agotarse', async () => {
+    const catalog = { Cat: { products: [{ id: 'a', cantidad: '3', agotado: false }] } };
+    const fetchMock = mockFetch([
+      authOk(),
+      ...ghRead(catalog),
+      ...ghRead(catalog),
+      new Response(JSON.stringify({ ok: true }), { status: 200 })
+    ]);
+
+    const req = new Request('https://x/api/stock-sync', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer tok123' },
+      body: JSON.stringify({ catalogo_id: 'a', catalogo_variante: null, disponibles: 2 })
+    });
+    const res = await onRequestPost({ request: req, env: ENV });
+
+    expect(await res.json()).toEqual({ ok: true, agotado: false });
+    expect(catalogoEscrito(fetchMock).Cat.products[0]).toEqual({ id: 'a', cantidad: '2', agotado: false });
   });
 
   it('marca agotado_r en la variante regular sin tocar cantidad', async () => {

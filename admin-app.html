@@ -653,16 +653,19 @@ async function catalogAction(body) {
   return result;
 }
 
-// Se llama DESPUES de que el catalogo se guardo bien. Es solo contabilidad del lote en
-// Supabase: no modifica el producto ya guardado. Devuelve null si salio todo bien (o si no
-// aplica), o el texto del aviso si el sync fallo. Nunca tira.
-async function syncLoteStock(p){
-  if(p.precio_d || !p.cantidad || !/^\d+$/.test(String(p.cantidad).trim())) return null;
+// Se llama DESPUES de que el catalogo se guardo bien. El lote de stock es la fuente de verdad:
+// el servidor crea el lote si hace falta, lo ajusta si el admin cambio la cantidad a mano
+// (cantidadCambiada) y deja el Agotado/Disponibles del producto coherente con el lote.
+// Devuelve null si salio todo bien (o si no aplica), o el texto del aviso si fallo. Nunca tira.
+async function syncLoteStock(p, cantidadCambiada){
+  if(!p.id) return null;
+  var txt = String(p.cantidad||'').trim();
+  var cantidad = /^\d+$/.test(txt) ? parseInt(txt, 10) : null;
   try{
     var res = await fetch('/api/lote-sync', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ catalogo_id: p.id, producto: p.n, marca: p.marca, escala: p.escala, cantidad: parseInt(p.cantidad, 10) })
+      body: JSON.stringify({ catalogo_id: p.id, producto: p.n, marca: p.marca, escala: p.escala, cantidad: cantidad, cantidad_cambiada: !!cantidadCambiada, precio_d: !!p.precio_d })
     });
     var data = await res.json();
     if(!res.ok) throw new Error(data.error);
@@ -688,7 +691,7 @@ async function saveAdd(){
   try{
     var product=buildAddProduct();
     await catalogAction({action:'add', category:cat, product:product});
-    var aviso=await syncLoteStock(product);
+    var aviso=await syncLoteStock(product, true);
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
     _catalog=null;
     resetAddForm();
@@ -828,7 +831,7 @@ async function saveEdit(){
   setStatus('Guardando...','orange');
   try{
     await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
-    var aviso=await syncLoteStock(updated);
+    var aviso=await syncLoteStock(updated, String(updated.cantidad||'').trim()!==String(p.cantidad||'').trim());
     _catalog=null;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();

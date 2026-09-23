@@ -1,4 +1,4 @@
-import { readFile, mutateCatalog, findProducto } from '../_lib/githubCatalog.js';
+import { readFile, mutateCatalog, findProducto, aplicarStock } from '../_lib/githubCatalog.js';
 
 // Misma clave publica ("anon") ya usada del lado del cliente en sistema-db.js:5 — no es secreta.
 const SUPABASE_URL = 'https://rpaiizqttenkfbiqulng.supabase.co';
@@ -58,26 +58,21 @@ export async function onRequestPost({ request, env }) {
     if (!catalogo_id) return new Response(JSON.stringify({ error: 'catalogo_id requerido' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
     if (typeof disponibles !== 'number' || !Number.isFinite(disponibles)) return new Response(JSON.stringify({ error: 'disponibles debe ser un número' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
     const agotado = disponibles <= 0;
-    const campo = catalogo_variante === 'regular' ? 'agotado_r'
-      : catalogo_variante === 'deluxe' ? 'agotado_d'
-      : 'agotado';
 
-    // Chequeo previo de solo lectura: si el catálogo ya refleja este valor, no escribimos nada.
+    // Chequeo previo de solo lectura: si el catálogo ya refleja este stock, no escribimos nada.
     // Evita un commit no-op (y su rebuild+deploy) por cada cambio de orden que no afecta la
     // disponibilidad (ej. marcar una orden como pagada). Si el producto no aparece, seguimos
     // de largo y deja que mutateCatalog tire su propio error de "no encontrado".
     const { catalog: actualCatalog } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
     const actual = findProducto(actualCatalog, catalogo_id);
-    if (actual && !!actual[campo] === agotado) {
+    if (actual && !aplicarStock({ ...actual }, catalogo_variante, disponibles)) {
       return new Response(JSON.stringify({ ok: true, agotado, skipped: true }), { headers: { 'Content-Type': 'application/json' } });
     }
 
     await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
       const p = findProducto(catalog, catalogo_id);
       if (!p) throw new Error('Producto no encontrado en el catálogo: ' + catalogo_id);
-      if (catalogo_variante === 'regular') p.agotado_r = agotado;
-      else if (catalogo_variante === 'deluxe') p.agotado_d = agotado;
-      else { p.agotado = agotado; }
+      aplicarStock(p, catalogo_variante, disponibles);
     }, { message: 'Sync stock — Sistema de Órdenes' });
 
     return new Response(JSON.stringify({ ok: true, agotado }), { headers: { 'Content-Type': 'application/json' } });

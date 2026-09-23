@@ -83,3 +83,22 @@ export function findProducto(catalog, catalogoId) {
   }
   return null;
 }
+
+// Refleja en el producto del catálogo la disponibilidad real de un lote vinculado.
+// Lote del producto completo (variante null): maneja `agotado` y también `cantidad`
+// (el "Disponibles" que ve el cliente). Lote de una variante: solo `agotado_r`/`agotado_d`,
+// porque ambas variantes comparten el mismo campo `cantidad`.
+// Devuelve true si cambió algo.
+export function aplicarStock(producto, variante, disponibles) {
+  const agotado = disponibles <= 0;
+  let cambio = false;
+  if (variante === 'regular' || variante === 'deluxe') {
+    const campo = variante === 'regular' ? 'agotado_r' : 'agotado_d';
+    if (!!producto[campo] !== agotado) { producto[campo] = agotado; cambio = true; }
+    return cambio;
+  }
+  if (!!producto.agotado !== agotado) { producto.agotado = agotado; cambio = true; }
+  const cantidad = String(Math.max(disponibles, 0));
+  if (producto.cantidad !== cantidad) { producto.cantidad = cantidad; cambio = true; }
+  return cambio;
+}

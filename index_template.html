@@ -2080,7 +2080,7 @@ function openModal(p,cat){
   if(p.marca)propList.push({label:"Marca",value:esc(p.marca)});
   if(p.escala)propList.push({label:"Escala",value:esc(p.escala),id:"modal-escala-val"});
   if(p.entrega)propList.push({label:"Entrega Estimada",value:esc(p.entrega)});
-  if(p.cantidad)propList.push({label:"Disponibles",value:esc(p.cantidad)});
+  if(p.cantidad&&!_esAgotado(p))propList.push({label:"Disponibles",value:esc(p.cantidad)});
   if(p.reserva||p.reserva_d)propList.push({label:"Reserva con",value:esc(fmtReserva(p.reserva||p.reserva_d)),id:"modal-reserva-val"});
   propList.forEach(function(prop){
     var d=document.createElement("div");d.className="modal-prop";
