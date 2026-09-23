@@ -1,6 +1,9 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'fs';
-import { extraerTextoEml, leerFactura, agruparFilasPdf, leerOrdenVenta, detectarDocumento } from '../sideshow-doc.js';
+import {
+  extraerTextoEml, leerFactura, agruparFilasPdf, leerOrdenVenta, detectarDocumento,
+  buscarEnCatalogo, proponerAcciones, efectoDeAccion, nombreCorto, marcaDeNombre
+} from '../sideshow-doc.js';
 
 const fx = f => fs.readFileSync(new URL('./fixtures/' + f, import.meta.url), 'utf8');
 
@@ -85,5 +88,104 @@ describe('detectarDocumento', () => {
   });
   it('tira un error claro si el PDF no tiene texto', () => {
     expect(() => detectarDocumento([])).toThrow('Este PDF es una imagen; no lo puedo leer. Pegá el texto o subí el correo.');
+  });
+});
+
+// ── Decisiones por figura ─────────────────────────────────────────────
+const IMG = c => `https://www.sideshow.com/storage/product-images/${c}/foto.jpg`;
+const CAT = [
+  { id: 'blade', n: 'Blade', i: IMG('913953'), fotos: [IMG('913953')] },
+  { id: 'atrt', n: 'AT-RT Driver', precio_d: '6000', i: IMG('915300'), fotos: [IMG('915300')], fotos_d: [IMG('9153002')] },
+  { id: 'nicepool', n: 'Nicepool', i: IMG('914072'), fotos: [] }
+];
+const lote = (o) => ({ id: 'L' + o.codigo, producto: 'x', recibidas: 0, vendidas: 0, catalogo_id: null, catalogo_variante: null, ...o });
+const fac = items => ({ tipo: 'factura', numero: '1', fecha: null, items });
+const ov = items => ({ tipo: 'orden_venta', numero: '1-0', fecha: null, items });
+
+describe('nombreCorto / marcaDeNombre', () => {
+  it('corta en el primer " - " y saca la marca del ultimo parentesis', () => {
+    const n = 'Grand Admiral Thrawn (Imperial Armor) Sixth Scale Figure - Star Wars: Rebels (Hot Toys) EXCLUSIVE';
+    expect(nombreCorto(n)).toBe('Grand Admiral Thrawn (Imperial Armor) Sixth Scale Figure');
+    expect(marcaDeNombre(n)).toBe('Hot Toys');
+    expect(marcaDeNombre('Sin marca')).toBe('');
+  });
+});
+
+describe('buscarEnCatalogo', () => {
+  it('encuentra por la foto y sin variante si no hay deluxe', () => {
+    expect(buscarEnCatalogo('913953', CAT, [])).toEqual({ id: 'blade', n: 'Blade', variante: null });
+  });
+  it('elige regular o deluxe segun en que fotos aparece', () => {
+    expect(buscarEnCatalogo('915300', CAT, [])).toMatchObject({ id: 'atrt', variante: 'regular' });
+    expect(buscarEnCatalogo('9153002', CAT, [])).toMatchObject({ id: 'atrt', variante: 'deluxe' });
+  });
+  it('no confunde un codigo con otro que lo contiene', () => {
+    expect(buscarEnCatalogo('915300', [{ id: 'x', n: 'X', i: IMG('9153002') }], [])).toBeNull();
+  });
+  it('descarta el producto si ya tiene un lote en conflicto', () => {
+    expect(buscarEnCatalogo('913953', CAT, [lote({ codigo: 'OTRO', catalogo_id: 'blade' })])).toBeNull();
+    expect(buscarEnCatalogo('9153002', CAT, [lote({ codigo: 'R', catalogo_id: 'atrt', catalogo_variante: 'regular' })])).toMatchObject({ variante: 'deluxe' });
+  });
+  it('null si no esta en el catalogo', () => {
+    expect(buscarEnCatalogo('999999', CAT, [])).toBeNull();
+  });
+});
+
+describe('proponerAcciones: factura', () => {
+  it('sin lote y en el catalogo: crear y vincular por defecto', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '913953', nombre: 'Blade Sixth Scale Figure - Marvel (Hot Toys)', cantidad: 3 }]), [], CAT);
+    expect(f).toMatchObject({ estado: 'nuevo', accion: 'crear_vincular', candidato: { id: 'blade' } });
+    expect(f.opciones.map(o => o.valor)).toEqual(['crear_vincular', 'crear', 'ignorar']);
+    expect(efectoDeAccion(f, 'crear_vincular')).toEqual({ crear: {
+      codigo: '913953', producto: 'Blade Sixth Scale Figure', marca: 'Hot Toys', cantidad: 3, recibidas: 3,
+      proveedor: 'Sideshow', catalogo_id: 'blade', catalogo_variante: null } });
+    expect(efectoDeAccion(f, 'crear').crear).toMatchObject({ catalogo_id: null, catalogo_variante: null });
+    expect(efectoDeAccion(f, 'ignorar')).toEqual({});
+  });
+  it('sin lote y fuera del catalogo: crear por defecto', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '999999', nombre: 'Algo (Marca)', cantidad: 1 }]), [], CAT);
+    expect(f.accion).toBe('crear');
+    expect(f.opciones.map(o => o.valor)).toEqual(['crear', 'ignorar']);
+  });
+  it('coincide: sumar recibidas', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '100519', nombre: 'J', cantidad: 2 }]), [lote({ codigo: '100519', cantidad: 2 })], CAT);
+    expect(f).toMatchObject({ estado: 'ok', accion: 'sumar' });
+    expect(efectoDeAccion(f, 'sumar')).toEqual({ update: { recibidas: 2 } });
+  });
+  it('vinieron menos: faltan por defecto, o bajar con aviso si quedan ventas sin cubrir', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '913848', nombre: 'S', cantidad: 2 }]), [lote({ codigo: '913848', cantidad: 3, vendidas: 3 })], CAT);
+    expect(f).toMatchObject({ estado: 'diferencia', accion: 'faltan' });
+    expect(f.opciones.map(o => o.valor)).toEqual(['faltan', 'bajar']);
+    expect(efectoDeAccion(f, 'faltan')).toEqual({ update: { recibidas: 2 } });
+    expect(efectoDeAccion(f, 'bajar')).toEqual({ update: { recibidas: 2, cantidad: 2 }, aviso: 'Te faltaría 1 figura para clientes' });
+  });
+  it('recibidas acumuladas de facturas anteriores', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '913848', nombre: 'S', cantidad: 1 }]), [lote({ codigo: '913848', cantidad: 3, recibidas: 2 })], CAT);
+    expect(f).toMatchObject({ estado: 'ok', accion: 'sumar' });
+    expect(efectoDeAccion(f, 'sumar')).toEqual({ update: { recibidas: 3 } });
+  });
+  it('vinieron mas: subir por defecto', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '1', nombre: 'S', cantidad: 4 }]), [lote({ codigo: '1', cantidad: 3 })], CAT);
+    expect(f.accion).toBe('subir');
+    expect(efectoDeAccion(f, 'subir')).toEqual({ update: { recibidas: 4, cantidad: 4 } });
+    expect(efectoDeAccion(f, 'dejar')).toEqual({ update: { recibidas: 4 } });
+  });
+});
+
+describe('proponerAcciones: orden de venta', () => {
+  it('coincide: sin cambios', () => {
+    const [f] = proponerAcciones(ov([{ codigo: '1', nombre: 'S', cantidad: 3, pedidas: 3 }]), [lote({ codigo: '1', cantidad: 3 })], CAT);
+    expect(f).toMatchObject({ estado: 'ok', accion: 'sin_cambios' });
+    expect(efectoDeAccion(f, 'sin_cambios')).toEqual({});
+  });
+  it('distinto: dejar igual por defecto; ajustar nunca toca recibidas', () => {
+    const [f] = proponerAcciones(ov([{ codigo: '1', nombre: 'S', cantidad: 1, pedidas: 1 }]), [lote({ codigo: '1', cantidad: 3, vendidas: 2, recibidas: 3 })], CAT);
+    expect(f).toMatchObject({ estado: 'diferencia', accion: 'dejar' });
+    expect(efectoDeAccion(f, 'dejar')).toEqual({});
+    expect(efectoDeAccion(f, 'ajustar')).toEqual({ update: { cantidad: 1 }, aviso: 'Te faltaría 1 figura para clientes' });
+  });
+  it('sin lote: crea con 0 recibidas y sin marca', () => {
+    const [f] = proponerAcciones(ov([{ codigo: '999999', nombre: 'Carnage (Deluxe) 1:6 (HT)', cantidad: 1, pedidas: 1 }]), [], CAT);
+    expect(efectoDeAccion(f, 'crear').crear).toMatchObject({ cantidad: 1, recibidas: 0, marca: '', producto: 'Carnage (Deluxe) 1:6 (HT)' });
   });
 });
