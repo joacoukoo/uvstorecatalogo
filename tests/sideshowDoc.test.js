@@ -31,6 +31,13 @@ describe('leerFactura', () => {
       { codigo: '914057', nombre: 'Vi Sixth Scale Figure - Arcane - Television Masterpiece Series - League of Legends (Hot Toys)', cantidad: 6 }
     ]);
   });
+  it('lee el nombre aunque haya lineas en blanco antes de Item (formato real del correo)', () => {
+    const t = 'Invoice ID: 0005007540\n\n*Joel Miller Sixth Scale Figure - The Last of Us (Hot Toys)*\n\nItem: 100519\nOrder: 00332512\n$185.25 / Qty: 2\n\nTotal: *$370.50*\n\n*Darth Vader (Mustafar) (Artisan Edition) Sixth Scale Figure - Revenge of\nthe Sith - Star Wars (Hot Toys)*\n\nItem: 9146252\nOrder: 1\n$1.00 / Qty: 1\n';
+    expect(leerFactura(t).items.map(i => i.nombre)).toEqual([
+      'Joel Miller Sixth Scale Figure - The Last of Us (Hot Toys)',
+      'Darth Vader (Mustafar) (Artisan Edition) Sixth Scale Figure - Revenge of the Sith - Star Wars (Hot Toys)'
+    ]);
+  });
   it('suma cantidades si el mismo codigo aparece dos veces', () => {
     const t = 'Invoice ID: 1\n*A (X)*\nItem: 111111\nOrder: 1\n$1.00 / Qty: 1\nTotal: $1\n*A (X)*\nItem: 111111\nOrder: 2\n$1.00 / Qty: 2\n';
     expect(leerFactura(t).items).toEqual([{ codigo: '111111', nombre: 'A (X)', cantidad: 3 }]);

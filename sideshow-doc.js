@@ -74,9 +74,10 @@ export function leerFactura(texto) {
     if (!m) return;
     // El nombre son las líneas anteriores a "Item:" (entre asteriscos en el correo, sin ellos si se pegó).
     const partes = [];
-    for (let j = i - 1; j >= 0 && partes.length < 4; j--) {
+    for (let j = i - 1; j >= 0 && j >= i - 8 && partes.length < 4; j--) {
       const previa = lineas[j];
-      if (!previa || FIN_NOMBRE.test(previa) || ITEM_FACTURA.test(previa) || /Qty:/.test(previa)) break;
+      if (!previa) continue; // el correo real deja líneas en blanco entre el nombre e "Item:"
+      if (FIN_NOMBRE.test(previa) || ITEM_FACTURA.test(previa) || /Qty:/.test(previa)) break;
       partes.unshift(previa);
       if (previa.startsWith('*')) break;
     }
