@@ -200,3 +200,16 @@ describe('proponerAcciones: orden de venta', () => {
     expect(efectoDeAccion(f, 'crear').crear).toMatchObject({ cantidad: 1, recibidas: 0, marca: '', producto: 'Carnage (Deluxe) 1:6 (HT)' });
   });
 });
+
+describe('proponerAcciones: lote con otro codigo (creado desde admin-app)', () => {
+  it('usa el lote de la figura aunque su codigo no sea el numero de Sideshow', () => {
+    const lotes = [lote({ codigo: 'BLHO01', cantidad: 3, catalogo_id: 'blade' })];
+    const [f] = proponerAcciones(fac([{ codigo: '913953', nombre: 'Blade (Hot Toys)', cantidad: 3 }]), lotes, CAT);
+    expect(f).toMatchObject({ estado: 'ok', accion: 'sumar', lote: { codigo: 'BLHO01' } });
+  });
+  it('respeta la variante: la foto deluxe no usa el lote regular', () => {
+    const lotes = [lote({ codigo: 'ATRT01', cantidad: 1, catalogo_id: 'atrt', catalogo_variante: 'regular' })];
+    const [f] = proponerAcciones(fac([{ codigo: '9153002', nombre: 'AT-RT Deluxe (Hot Toys)', cantidad: 1 }]), lotes, CAT);
+    expect(f).toMatchObject({ estado: 'nuevo', accion: 'crear_vincular', candidato: { id: 'atrt', variante: 'deluxe' } });
+  });
+});

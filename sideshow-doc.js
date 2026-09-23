@@ -159,14 +159,27 @@ function chocaConLote(lotes, productoId, variante) {
 
 // Busca la figura del catálogo cuyas fotos llevan el número de Sideshow (mismo criterio con el
 // que se vincularon los lotes existentes). Descarta productos que ya tienen un lote en conflicto.
-export function buscarEnCatalogo(codigo, catalogo, lotes) {
+function figurasConCodigo(codigo, catalogo) {
+  const res = [];
   for (const p of catalogo) {
     const enDeluxe = tieneFoto(p.fotos_d, codigo);
     const enRegular = tieneFoto([p.i, ...(p.fotos || [])], codigo);
     if (!enDeluxe && !enRegular) continue;
-    const variante = p.precio_d ? (enDeluxe ? 'deluxe' : 'regular') : null;
-    if (chocaConLote(lotes, p.id, variante)) continue;
-    return { id: p.id, n: p.n, variante };
+    res.push({ id: p.id, n: p.n, variante: p.precio_d ? (enDeluxe ? 'deluxe' : 'regular') : null });
+  }
+  return res;
+}
+
+export function buscarEnCatalogo(codigo, catalogo, lotes) {
+  return figurasConCodigo(codigo, catalogo).find(f => !chocaConLote(lotes, f.id, f.variante)) || null;
+}
+
+// Lote que ya tiene la figura del catálogo con ese número de Sideshow, aunque su código sea
+// otro (ej. un lote creado desde admin-app, con código generado).
+function loteDeLaFigura(codigo, catalogo, lotes) {
+  for (const f of figurasConCodigo(codigo, catalogo)) {
+    const lote = lotes.find(l => l.catalogo_id === f.id && (l.catalogo_variante || null) === f.variante);
+    if (lote) return lote;
   }
   return null;
 }
@@ -192,7 +205,7 @@ function opciones(valores, candidato, q) {
 export function proponerAcciones(doc, lotes, catalogo) {
   return doc.items.map(item => {
     const base = { tipo: doc.tipo, codigo: item.codigo, nombre: item.nombre, q: item.cantidad, lote: null, candidato: null };
-    const lote = lotes.find(l => String(l.codigo) === item.codigo) || null;
+    const lote = lotes.find(l => String(l.codigo) === item.codigo) || loteDeLaFigura(item.codigo, catalogo, lotes);
     if (!lote) {
       const candidato = buscarEnCatalogo(item.codigo, catalogo, lotes);
       const valores = candidato ? ['crear_vincular', 'crear', 'ignorar'] : ['crear', 'ignorar'];
