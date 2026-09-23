@@ -126,12 +126,16 @@ activas), `q` = cantidad del documento.
   mantiene.
 - Los lotes creados por la importación no se vinculan solos al catálogo. Se vinculan desde
   Lotes → Editar, como siempre.
-- Al final se inserta el registro en `documentos_proveedor` con el resumen.
+- **Antes** de aplicar se inserta el registro en `documentos_proveedor` con el resumen de
+  acciones elegidas, cada una con `aplicado: false`. Cada acción que se guarda bien se marca
+  `aplicado: true` en ese registro.
 
 ## Duplicados
 
-- **Factura ya importada:** se bloquea la aplicación, porque sumaría las recibidas dos veces. Se
-  muestra el aviso "Esta factura ya se importó el dd/mm/aaaa".
+- **Factura ya importada** (todas sus acciones aplicadas): se bloquea, porque sumaría las
+  recibidas dos veces. Se muestra el aviso "Esta factura ya se importó el dd/mm/aaaa".
+- **Factura importada a medias** (quedó alguna acción con `aplicado: false`): se ofrece
+  "Terminar de aplicar", que ejecuta **solo** las pendientes, con las decisiones ya guardadas.
 - **Orden de venta ya importada:** aviso, pero se permite volver a revisarla y aplicarla (sus
   acciones fijan valores y no suman). Al aplicar se actualiza el registro existente.
 
@@ -140,9 +144,9 @@ activas), `q` = cantidad del documento.
 - Archivo que no es de Sideshow o sin ítems: "No encontré figuras de Sideshow en este documento".
 - PDF escaneado (sin texto): "Este PDF es una imagen; no lo puedo leer. Pega el texto o sube el
   correo".
-- Falla al guardar un lote: se detiene, se informa qué se aplicó y qué no, y no se registra el
-  documento. Así se puede reintentar, y las acciones ya aplicadas quedan en `R = C` o sin
-  diferencia.
+- Falla al guardar un lote: se detiene y se informa qué se aplicó y qué no. Como cada acción
+  queda marcada en el registro del documento, al volver a subirlo solo se ofrecen las pendientes
+  (ver Duplicados). Nunca se suma dos veces.
 
 ## Organización del código
 
