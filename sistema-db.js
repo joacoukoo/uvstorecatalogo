@@ -346,11 +346,20 @@ function _distanciaEdicion(a, b) {
   return dp[m][n];
 }
 
+function _palabras(s) {
+  return new Set(normalize(s).split(/[^a-z0-9]+/).filter(w => w.length >= 2));
+}
+
 function _coincideParecido(a, b) {
   if (!a || !b) return false;
   const na = normalize(a), nb = normalize(b);
   if (na === nb || na.includes(nb) || nb.includes(na)) return true;
-  return _distanciaEdicion(na, nb) <= 1;
+  if (_distanciaEdicion(na, nb) <= 1) return true;
+  // Mismas palabras en otro orden ("Skeletor Disco Exclusive" = "Disco Skeletor Exclusive"), o
+  // todas las palabras del nombre más corto (al menos 2) presentes en el otro.
+  const pa = _palabras(a), pb = _palabras(b);
+  const [corta, larga] = pa.size <= pb.size ? [pa, pb] : [pb, pa];
+  return corta.size >= 2 && [...corta].every(w => larga.has(w));
 }
 
 function _normalizaEscala(s) {
@@ -359,20 +368,32 @@ function _normalizaEscala(s) {
 
 function _coincideEscala(a, b) {
   if (!a || !b) return false;
+  // Solo la proporción: "1:6 - 31CM" = "1:6" = "1/6".
+  const proporcion = s => { const m = normalize(s).match(/(\d+)\s*[:/]\s*(\d+)/); return m ? m[1] + ':' + m[2] : null; };
+  const pa = proporcion(a), pb = proporcion(b);
+  if (pa && pb) return pa === pb;
   return _normalizaEscala(a) === _normalizaEscala(b);
 }
 
 async function dbBuscarOrdenesSimilares(lote) {
-  const { data, error } = await db
-    .from('ordenes')
-    .select('*, clientes(nombre)')
-    .is('lote_id', null)
-    .neq('estado', 'cancelada')
-    .or('entregado.is.null,entregado.eq.false')
-    .order('created_at', { ascending: false })
-    .limit(2000);
-  if (error) throw error;
   if (!lote || !lote.producto) return [];
+  // Todas las órdenes sin lote (Supabase devuelve como máximo 1000 por consulta).
+  // Incluye las ya entregadas: un lote de stock puede corresponder a una venta ya entregada.
+  const PAGE = 1000;
+  let data = [];
+  for (let from = 0; ; from += PAGE) {
+    const { data: pagina, error } = await db
+      .from('ordenes')
+      .select('*, clientes(nombre)')
+      .is('lote_id', null)
+      .neq('estado', 'cancelada')
+      .order('created_at', { ascending: false })
+      .order('id', { ascending: false })
+      .range(from, from + PAGE - 1);
+    if (error) throw error;
+    data = data.concat(pagina);
+    if (pagina.length < PAGE) break;
+  }
 
   const campos = [
     { clave: 'nombre', valorLote: lote.producto, coincide: _coincideParecido, valorOrden: o => o.producto },
