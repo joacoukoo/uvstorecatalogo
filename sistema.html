@@ -6,7 +6,7 @@
 <title>UV Store — Sistema</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
-<script src="sistema-db.js?v=20260923b"></script>
+<script src="sistema-db.js?v=20260923c"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 <style>
 [x-cloak]{display:none}
@@ -1896,6 +1896,14 @@ function uvLotes() {
       this.guardando = true;
       try {
         const datos = { ...this.form, catalogo_id: this.form.catalogo_id || null, catalogo_variante: this.form.catalogo_variante || null };
+        // Un solo lote por figura (o por variante): si hubiera dos, cada uno le mandaría a la
+        // página su propio stock y se pisarían. Para sumar unidades se edita el lote existente.
+        const otro = datos.catalogo_id && this.lotes.find(l => l.id !== datos.id && l.catalogo_id === datos.catalogo_id &&
+          (!l.catalogo_variante || !datos.catalogo_variante || l.catalogo_variante === datos.catalogo_variante));
+        if (otro) {
+          alert('Esta figura ya tiene el lote ' + otro.codigo + ' (' + otro.producto + ').\n\nPara sumar unidades, editá ese lote y subí la "Cantidad pedida".');
+          return;
+        }
         if (datos.id) {
           const { id, ...fields } = datos;
           await dbUpdateLote(id, fields);

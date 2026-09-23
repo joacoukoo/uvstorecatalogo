@@ -295,9 +295,9 @@ async function dbCreateLote(lote, opts = {}) {
   const { id, ...fields } = lote;
   const { data, error } = await db.from('lotes_pedido').insert({ ...fields, codigo }).select().single();
   if (error) throw error;
-  // Un lote recién creado siempre tiene disponibles === cantidad (nunca agotado), así que
-  // no hay nada que sincronizar: la importación masiva usa skipSync para no disparar
-  // cientos de round-trips a GitHub (uno por figura del catálogo).
+  // Si está vinculado a una figura, el lote nuevo define su Disponibles/Agotado en la página.
+  // La importación masiva usa skipSync: crea los lotes con la misma cantidad que ya muestra el
+  // catálogo, así que no hay nada que cambiar y evita cientos de commits a GitHub.
   if (!opts.skipSync) await _syncStockSiCorresponde(data.id);
   return data;
 }
