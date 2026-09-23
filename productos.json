@@ -35492,7 +35492,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5be7e4e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5c5cbea.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Captain America (Stealth 2.0)",
