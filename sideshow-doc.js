@@ -8,7 +8,7 @@ const ERROR_SIN_ITEMS = 'No encontré figuras de Sideshow en este documento';
 const ERROR_PDF_IMAGEN = 'Este PDF es una imagen; no lo puedo leer. Pegá el texto o subí el correo.';
 
 function limpiar(s) {
-  return s.replace(/\r/g, '').replace(/[  \t]/g, ' ');
+  return s.replace(/\r/g, '').replace(/[\u00a0\u202f\t]/g, ' ');
 }
 
 function bytesAUtf8(bytes) {
