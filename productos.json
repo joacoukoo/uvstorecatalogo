@@ -4069,7 +4069,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -4124,7 +4124,8 @@
         "fotos": [
           "https://www.actionfigureinsider.com/wpress/wp-content/uploads/2025/07/MEGA-SPACE-MOLLY-400_-风火轮-HOTW-400.439-MC20250217174516wtS2.jpg"
         ],
-        "fotos_d": []
+        "fotos_d": [],
+        "agotado": true
       },
       {
         "n": "Pikachu Evolution",
@@ -6138,7 +6139,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6176,7 +6177,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914144/threezero-transformers-optimus-prime-dlx-action-figure-gallery-6792da663e76e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914144/threezero-transformers-optimus-prime-dlx-action-figure-gallery-6792da6752857.jpg"
         ],
-        "id": "optimus-prime-war-for-cybertron"
+        "id": "optimus-prime-war-for-cybertron",
+        "agotado": true
       },
       {
         "n": "She-Ra",
@@ -6553,7 +6555,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "0",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-text",
@@ -6592,7 +6594,7 @@
           "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704g.jpg?v=1680560071"
         ],
         "id": "batman-1989-2",
-        "agotado": true
+        "agotado": false
       },
       {
         "n": "Batman: Gotham by Gaslight Deluxe",
@@ -7200,7 +7202,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7228,7 +7230,8 @@
           "https://tamashiiweb.com/images/item/item_0000015443_DChLTgJM_01.jpg",
           "https://tamashiiweb.com/images/item/item_0000015443_4fT0uNTz_03.jpg"
         ],
-        "id": "piccolo-daimao-gran-rey-demonio-exclusive-sdcc-2025"
+        "id": "piccolo-daimao-gran-rey-demonio-exclusive-sdcc-2025",
+        "agotado": true
       },
       {
         "n": "Geralt de Rivia",
@@ -7290,7 +7293,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "2",
         "content": [
           {
             "t": "notion-text",
@@ -7572,7 +7575,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7609,7 +7612,8 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_009_8c4aa6d5-5b77-4373-aa63-ac7532602742.png?v=1724948926",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/MOND_099F_Batman_89_001_f5f6c9f9-eddc-4866-9184-b88c0f7a1382.png?v=1724948926"
         ],
-        "id": "batman-1989-original-motion-picture-score-lp-graphic-novel-b"
+        "id": "batman-1989-original-motion-picture-score-lp-graphic-novel-b",
+        "agotado": true
       },
       {
         "n": "Powerpuff Girls – Action Figure Set",
@@ -7676,7 +7680,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "2",
         "content": [
           {
             "t": "notion-text",
@@ -7971,7 +7975,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "2",
         "content": [
           {
             "t": "notion-text",
@@ -8014,7 +8018,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "5",
         "content": [
           {
             "t": "notion-text",
@@ -8727,7 +8731,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "3",
         "content": [
           {
             "t": "notion-text",
@@ -8834,7 +8838,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -8875,7 +8879,8 @@
           "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_5.jpg?v=1629926210",
           "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_6.jpg?v=1629926210",
           "https://cdn.shopify.com/s/files/1/1205/3844/products/BAS61730_7.jpg?v=1629926211"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Spider-Man Deluxe – Spider-Man vs Villains Diorama",
@@ -19157,7 +19162,7 @@
         "franquicia": "Star Wars",
         "marca": "Hot Toys",
         "escala": "1:6",
-        "disp": "Pre-Orden",
+        "disp": "Entrega Inmediata",
         "estado": "Nuevo",
         "precio": "3100",
         "fotos": [
@@ -30646,7 +30651,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
         "estado": "Vendido",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3800",
         "precio_d": "",
         "reserva": "Q760",
@@ -31294,7 +31299,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 33CM",
         "estado": "Nuevo",
-        "disp": "Entrega Inmediata",
+        "disp": "Pre-Orden",
         "precio": "3700",
         "precio_d": "",
         "reserva": "Q740",
@@ -31552,7 +31557,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3300",
         "precio_d": "",
         "reserva": "Q660",
@@ -32854,7 +32859,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3400",
         "precio_d": "",
         "reserva": "Q680",
@@ -33831,7 +33836,7 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3300",
         "precio_d": "",
         "reserva": "660",
@@ -38930,7 +38935,8 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-07-09",
-        "cantidad": "1"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "jiraiya-gamaken-mrcmemek",
