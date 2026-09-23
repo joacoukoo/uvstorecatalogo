@@ -30133,7 +30133,7 @@
         "precio_d": "",
         "reserva": "1120",
         "entrega": "Marzo 2027",
-        "cantidad": "2",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -30654,7 +30654,7 @@
         "precio_d": "",
         "reserva": "Q760",
         "entrega": "Febrero 2027",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-heading-2",
@@ -31874,7 +31874,7 @@
         "precio_d": "",
         "reserva": "Q600",
         "entrega": "Octubre 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -33269,7 +33269,7 @@
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Noviembre 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -33536,7 +33536,7 @@
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Mayo 2026",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-heading-2",
@@ -33681,7 +33681,7 @@
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Noviembre 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -34713,7 +34713,7 @@
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Agosto 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -34867,7 +34867,7 @@
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Agosto 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -35021,7 +35021,7 @@
         "precio_d": "",
         "reserva": "Q780",
         "entrega": "Mayo 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -35336,7 +35336,7 @@
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Mayo 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -40515,7 +40515,7 @@
         "added_at": "2026-06-16",
         "reserva": "3040",
         "entrega": "Septiembre 2026",
-        "cantidad": "",
+        "cantidad": "0",
         "agotado": true
       },
       {
