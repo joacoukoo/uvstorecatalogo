@@ -30288,7 +30288,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f3b60cd.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914708/hot-toys-marvel-iron-man-mark-iii-armor-suit-up-version-sixth-scale-figure-gallery-687e82f414bd0.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Invisible Woman",
@@ -31968,7 +31969,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914528/hot-toys-disney-stitch-collectible-figure-gallery-685c9820e675e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914528/hot-toys-disney-stitch-collectible-figure-gallery-682dfdbcc1ab4.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Obi-Wan Kenobi (EP II)",
@@ -33426,7 +33428,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117f047d7d.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913848/hot-toys-dc-comics-scarecrow-20-sixth-scale-figure-gallery-680117f34b983.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "K-2SO",
@@ -33821,7 +33824,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabdb36f6fa.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914278/hot-toys-marvel-daredevil-sixth-scale-figure-gallery-67eabd9e4b6c3.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "TIE Fighter Pilot",
@@ -34848,7 +34852,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-679269631c37a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914057/hot-toys-league-of-legends-vi-sixth-scale-figure-gallery-6792696378342.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Rain Carradine",
@@ -35001,7 +35006,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba26c54f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914037/hot-toys-alien-rain-carradine-sixth-scale-figure-gallery-67868ba2d761a.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Darth Malgus",
@@ -35162,7 +35168,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4d66f72.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914071/hot-toys-star-wars-darth-malgus-sixth-scale-figure-gallery-6776ba4f08477.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Batman (Batman & Robin)",
@@ -35492,7 +35499,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5be7e4e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914035/hot-toys-star-wars-plo-koon-sixth-scale-figure-gallery-675b0a5c5cbea.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Captain America (Stealth 2.0)",
@@ -38164,6 +38172,152 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "huggy-wuggy-mud76cxj",
+        "n": "Huggy Wuggy",
+        "i": "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1ce31fa.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1ce31fa.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-scale-6a612b1f73a6b.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1d2c00a.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1d6bfeb.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1dacd2d.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1de9098.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1e32ecd.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1e6f250.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1eaf62b.jpg",
+          "https://www.sideshow.com/storage/product-images/915915/iron-studios-poppy-playtime-huggy-wuggy-1-10-scale-statues-gallery-6a612b1eec3a8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el terror con la estatua Huggy Wuggy 1:10 de Iron Studios, una pieza de colección premium que captura la esencia amenazante del personaje icónico de Poppy Playtime. Con un detalle exquisito en su textura azul, su expresión aterradora y su característica mano amarilla asomando por la puerta, esta figura es imprescindible para fanáticos del horror y coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina articulada y pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Huggy Wuggy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con marco de puerta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "760",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
+        "id": "severus-snape-premium-format-mixed-media-figure-by-mud49j5h",
+        "n": "Severus Snape Premium Format Mixed Media Figure",
+        "i": "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922caaab0.jpg",
+        "franquicia": "Otros",
+        "marca": "Sideshow Collectibles",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "10300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922caaab0.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922d372c0.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922d8414a.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922dd1abd.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922e5af16.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922ead9e1.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922f0564c.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922f51758.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922f9d0a4.jpg",
+          "https://www.sideshow.com/storage/product-images/300051/sideshow-collectibles-harry-potter-severus-snape-premium-format-figure-gallery-6a73922fe8fa6.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la presencia del Maestro de Pociones con esta figura Premium Format de Severus Snape de Sideshow Collectibles. Con un detallado traje de mago y accesorios icónicos, captura la esencia misteriosa y poderosa del personaje. Una pieza imprescindible para coleccionistas de Harry Potter que demanda un lugar de honor en cualquier colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 48 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: resina, tela y accesorios premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado con detalles pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con elementos decorativos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Severus Snape articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Varita mágica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con motivos de Hogwarts"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos de biblioteca"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "2060",
+        "entrega": "Sep 2027 - Dec 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "omega-red-premium-format-msnho3d4",
         "n": "Omega Red Premium Format™",
         "i": "https://www.sideshow.com/storage/product-images/300959/sideshow-collectibles-marvel-omega-red-premium-format-figure-gallery-6a723b39df235.jpg",
@@ -40361,7 +40515,8 @@
         "added_at": "2026-06-16",
         "reserva": "3040",
         "entrega": "Septiembre 2026",
-        "cantidad": ""
+        "cantidad": "",
+        "agotado": true
       },
       {
         "id": "superman-ultra-hqs-statue-by-tsume-art-mqfb2n08",
@@ -53511,6 +53666,172 @@
   "Otras Figuras": {
     "slug": "escalas-112-y-otros",
     "products": [
+      {
+        "id": "dave-the-diver-1-12-scale-action-figure-mud6m32c",
+        "n": "Dave the Diver 1:12 Scale Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e4064d413e.jpg",
+        "franquicia": "Gaming",
+        "marca": "Underverse",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e4064d413e.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e40653804e.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e406589eb3.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e40667fd49.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e4066cfa16.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e40672c536.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e40677c383.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e4067bd874.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e40680907e.jpg",
+          "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e40684ad5b.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de acción premium de Dave the Diver a escala 1:12 con 25 puntos de articulación y una altura de 15.24 cm. Incluye 5 cabezas intercambiables con diferentes expresiones y 2 máscaras de buceo para recrear todos los momentos icónicos del juego. Acompañada de accesorios detallados como el arpón, el pico y la famosa captura del atún azul."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15.24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 25"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: MINTROCKET"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 cabezas intercambiables con expresiones variadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 máscaras de buceo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arpón antiguo con arpón de metal real"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Martillo de dormir"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pollo de goma"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Atún azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición exclusiva"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "300",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
+        "id": "lupin-the-third-55th-anniversary-collectible-mud538cv",
+        "n": "Lupin the Third 55th Anniversary Collectible",
+        "i": "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a4562cd.jpg",
+        "franquicia": "Anime",
+        "marca": "MegaHouse",
+        "escala": "1:20",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1650",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a4562cd.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-scale-6aa858a903fe6.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a4a7ca3.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a503975.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a553f0d.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a5a378e.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a5f2d5c.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a672acf.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a6d603c.jpg",
+          "https://www.sideshow.com/storage/product-images/916103/megahouse-lupin-the-third-lupin-the-third-55th-anniversary-collectible-figure-gallery-6aa858a7541ff.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra el 55 aniversario de Lupin III con esta exclusiva colección premium de MegaHouse que incluye dos figuras articuladas magistralmente detalladas y su icónico automóvil Fiat 500. Una pieza de colección imprescindible para los devotos de la legendaria saga de heists que combina craftmanship de lujo con nostalgia cinematográfica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:20"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC pre-pintado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Acrílico conmemorativo 55 aniversario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras: 2 personajes articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vehículo: Réplica detallada del Fiat 500"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 figuras pre-pintadas de Lupin III y asociado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Automóvil Fiat 500 pre-pintado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base acrílica conmemorativa 55 aniversario"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-22",
+        "reserva": "330",
+        "entrega": "May. 2027",
+        "cantidad": "2"
+      },
       {
         "id": "dlx-iron-man-mark-1-action-figure-by-threezero-muaahuk1",
         "n": "DLX Iron Man Mark 1 Action Figure by Threezero",
