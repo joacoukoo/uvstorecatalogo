@@ -434,10 +434,42 @@ async function dbSyncStockCatalogo(lote) {
   return res.json();
 }
 
-async function dbUpdateLote(id, fields) {
+// ── DOCUMENTOS DE PROVEEDOR (importación Sideshow) ───────────────────
+async function dbGetDocumentoProveedor(tipo, numero) {
+  const { data, error } = await db.from('documentos_proveedor').select('*').eq('tipo', tipo).eq('numero', numero).maybeSingle();
+  if (error) throw error;
+  return data;
+}
+
+async function dbGuardarDocumentoProveedor(doc) {
+  const { data, error } = await db.from('documentos_proveedor').upsert(doc, { onConflict: 'tipo,numero' }).select().single();
+  if (error) throw error;
+  return data;
+}
+
+async function dbActualizarResumenDocumento(id, resumen) {
+  const { error } = await db.from('documentos_proveedor').update({ resumen }).eq('id', id);
+  if (error) throw error;
+}
+
+// Actualiza varios productos de la página en un solo commit.
+async function dbSyncStockCatalogoLote(items) {
+  if (!items.length) return { ok: true, cambiados: 0, no_encontrados: [] };
+  const session = await dbGetSession();
+  const res = await fetch('/api/stock-sync', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + (session ? session.access_token : '') },
+    body: JSON.stringify({ items })
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || 'Error al sincronizar stock');
+  return data;
+}
+
+async function dbUpdateLote(id, fields, opts = {}) {
   const { error } = await db.from('lotes_pedido').update(fields).eq('id', id);
   if (error) throw error;
-  await _syncStockSiCorresponde(id);
+  if (!opts.skipSync) await _syncStockSiCorresponde(id);
   return dbGetLote(id);
 }
 
