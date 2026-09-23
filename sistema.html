@@ -6,7 +6,7 @@
 <title>UV Store — Sistema</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
-<script src="sistema-db.js?v=20260514"></script>
+<script src="sistema-db.js?v=20260923"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 <style>
 [x-cloak]{display:none}
@@ -1431,6 +1431,9 @@ button,a{touch-action:manipulation;cursor:pointer}
             <template x-if="!form.catalogo_id">
               <div style="position:relative">
                 <input class="form-input" type="text" x-model="catalogoBusqueda" @input="buscarCatalogo()" placeholder="Buscar por nombre o marca..." style="font-size:16px">
+                <div x-show="catalogoCargando" style="font-size:12px;color:var(--muted2);margin-top:6px">Cargando catálogo...</div>
+                <div x-show="catalogoError" style="font-size:12px;color:#f87171;margin-top:6px" x-text="catalogoError"></div>
+                <div x-show="!catalogoCargando && !catalogoError && catalogoBusqueda && catalogoTodos.length>0 && catalogoFiltrado.length===0" style="font-size:12px;color:var(--muted2);margin-top:6px">Sin resultados</div>
                 <div x-show="catalogoFiltrado.length>0" style="position:absolute;top:100%;left:0;right:0;z-index:300;background:var(--bg3);border:1px solid var(--border2);border-radius:8px;max-height:200px;overflow-y:auto;margin-top:4px">
                   <template x-for="p in catalogoFiltrado" :key="p.id">
                     <button type="button" @click="seleccionarCatalogo(p)" style="display:block;width:100%;text-align:left;padding:10px 14px;background:none;border:none;color:var(--text);font-size:14px;font-family:inherit;cursor:pointer">
@@ -1799,13 +1802,18 @@ function uvLotes() {
     form: { id: null, producto: '', marca: '', escala: '', cantidad: 1, codigo: '', proveedor: '', fecha_pedido: '', notas: '', catalogo_id: '', catalogo_variante: '' },
     modalVincular: false, loteActivo: null, candidatos: [], seleccionados: [], buscandoCandidatos: false,
     catalogoTodos: [], catalogoBusqueda: '', catalogoSeleccionado: null, importando: false,
+    catalogoCargando: false, catalogoError: '',
     get catalogoFiltrado() {
       const q = normalize(this.catalogoBusqueda);
       if (!q) return [];
       return this.catalogoTodos.filter(p => normalize(p.n).includes(q) || normalize(p.marca || '').includes(q)).slice(0, 8);
     },
     async buscarCatalogo() {
-      if (this.catalogoTodos.length === 0) this.catalogoTodos = await dbGetCatalogoLiviano();
+      if (this.catalogoTodos.length > 0 || this.catalogoCargando) return;
+      this.catalogoCargando = true; this.catalogoError = '';
+      try { this.catalogoTodos = await dbGetCatalogoLiviano(); }
+      catch (e) { this.catalogoError = 'No se pudo cargar el catálogo: ' + e.message; }
+      finally { this.catalogoCargando = false; }
     },
     seleccionarCatalogo(p) {
       this.form.catalogo_id = p.id;
