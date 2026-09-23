@@ -120,22 +120,29 @@ function _cleanOrdenFields(fields) {
 async function dbSaveOrden(orden) {
   if (orden.id) {
     const { id, created_at, clientes, ...fields } = orden;
+    const { data: previa } = await db.from('ordenes').select('lote_id').eq('id', id).single();
     _cleanOrdenFields(fields);
     const { data, error } = await db.from('ordenes').update(fields).eq('id', id).select().single();
     if (error) throw error;
+    const loteAnterior = previa ? previa.lote_id : null;
+    if (loteAnterior && loteAnterior !== data.lote_id) await _syncStockSiCorresponde(loteAnterior);
+    await _syncStockSiCorresponde(data.lote_id);
     return data;
   } else {
     const { id, created_at, clientes, ...fields } = orden;
     _cleanOrdenFields(fields);
     const { data, error } = await db.from('ordenes').insert(fields).select().single();
     if (error) throw error;
+    await _syncStockSiCorresponde(data.lote_id);
     return data;
   }
 }
 
 async function dbDeleteOrden(id) {
+  const { data: previa } = await db.from('ordenes').select('lote_id').eq('id', id).single();
   const { error } = await db.from('ordenes').delete().eq('id', id);
   if (error) throw error;
+  if (previa) await _syncStockSiCorresponde(previa.lote_id);
 }
 
 async function dbGetOrdenesByCliente(clienteId) {
@@ -223,8 +230,9 @@ async function dbMovePago(pagoId, newOrdenId) {
 }
 
 async function dbUpdateEstadoOrden(id, estado) {
-  const { error } = await db.from('ordenes').update({ estado }).eq('id', id);
+  const { data, error } = await db.from('ordenes').update({ estado }).eq('id', id).select('lote_id').single();
   if (error) throw error;
+  await _syncStockSiCorresponde(data.lote_id);
 }
 
 async function dbSetEntregado(id, entregado) {
@@ -269,7 +277,7 @@ function generarCodigoLote(producto, marca, codigosExistentes) {
   return codigo;
 }
 
-async function dbCreateLote(lote) {
+async function dbCreateLote(lote, opts = {}) {
   let codigo = (lote.codigo || '').trim().toUpperCase();
   if (!codigo) {
     const { data: existentes, error: errBusq } = await db.from('lotes_pedido').select('codigo');
@@ -279,6 +287,10 @@ async function dbCreateLote(lote) {
   const { id, ...fields } = lote;
   const { data, error } = await db.from('lotes_pedido').insert({ ...fields, codigo }).select().single();
   if (error) throw error;
+  // Un lote recién creado siempre tiene disponibles === cantidad (nunca agotado), así que
+  // no hay nada que sincronizar: la importación masiva usa skipSync para no disparar
+  // cientos de round-trips a GitHub (uno por figura del catálogo).
+  if (!opts.skipSync) await _syncStockSiCorresponde(data.id);
   return data;
 }
 
@@ -374,9 +386,74 @@ async function dbBuscarOrdenesSimilares(lote) {
 async function dbVincularOrdenesALote(ordenIds, loteId) {
   const { error } = await db.from('ordenes').update({ lote_id: loteId }).in('id', ordenIds);
   if (error) throw error;
+  await _syncStockSiCorresponde(loteId);
 }
 
 async function dbDeleteLote(id) {
   const { error } = await db.from('lotes_pedido').delete().eq('id', id);
   if (error) throw error;
+}
+
+async function _syncStockSiCorresponde(loteId) {
+  if (!loteId) return;
+  try {
+    const lote = await dbGetLote(loteId);
+    if (lote.catalogo_id) await dbSyncStockCatalogo(lote);
+  } catch (e) {
+    console.error('No se pudo sincronizar el stock del catálogo:', e.message);
+    alert('No se pudo sincronizar el stock en la página — revisalo a mano en Lotes de Pedido.');
+  }
+}
+
+async function dbGetCatalogoLiviano() {
+  const session = await dbGetSession();
+  const res = await fetch('/api/stock-sync', {
+    headers: { Authorization: 'Bearer ' + (session ? session.access_token : '') }
+  });
+  if (!res.ok) throw new Error((await res.json()).error || 'Error al cargar el catálogo');
+  return res.json();
+}
+
+async function dbSyncStockCatalogo(lote) {
+  if (!lote || !lote.catalogo_id) return;
+  const session = await dbGetSession();
+  const res = await fetch('/api/stock-sync', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + (session ? session.access_token : '') },
+    body: JSON.stringify({ catalogo_id: lote.catalogo_id, catalogo_variante: lote.catalogo_variante || null, disponibles: lote.disponibles })
+  });
+  if (!res.ok) throw new Error((await res.json()).error || 'Error al sincronizar stock');
+  return res.json();
+}
+
+async function dbUpdateLote(id, fields) {
+  const { error } = await db.from('lotes_pedido').update(fields).eq('id', id);
+  if (error) throw error;
+  await _syncStockSiCorresponde(id);
+  return dbGetLote(id);
+}
+
+async function dbImportarLotesCatalogo() {
+  const catalogo = await dbGetCatalogoLiviano();
+  const { data: lotesExistentes, error } = await db.from('lotes_pedido').select('codigo, catalogo_id');
+  if (error) throw error;
+  const idsYaVinculados = new Set(lotesExistentes.map(l => l.catalogo_id).filter(Boolean));
+  const codigosExistentes = lotesExistentes.map(l => l.codigo);
+
+  const candidatos = catalogo.filter(p =>
+    !idsYaVinculados.has(p.id) &&
+    p.estado !== 'Vendido' && !p.agotado &&
+    !p.precio_d &&
+    /^\d+$/.test(String(p.cantidad || '').trim())
+  );
+
+  let creados = 0;
+  for (const p of candidatos) {
+    const cantidad = parseInt(p.cantidad, 10);
+    const codigo = generarCodigoLote(p.n, p.marca, codigosExistentes);
+    codigosExistentes.push(codigo);
+    await dbCreateLote({ producto: p.n, marca: p.marca, escala: p.escala, cantidad, codigo, catalogo_id: p.id, catalogo_variante: null }, { skipSync: true });
+    creados++;
+  }
+  return creados;
 }

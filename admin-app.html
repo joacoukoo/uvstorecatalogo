@@ -198,6 +198,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="checks">
       <label class="check-item"><input type="checkbox" id="add-destacado"><span>Destacado</span></label>
       <label class="check-item"><input type="checkbox" id="add-oferta"><span>Oferta</span></label>
+      <label class="check-item"><input type="checkbox" id="add-agotado"><span>Agotado</span></label>
       <label class="check-item"><input type="checkbox" id="add-agotado-r"><span>Agotado Regular</span></label>
       <label class="check-item"><input type="checkbox" id="add-agotado-d"><span>Agotado Deluxe</span></label>
       <label class="check-item"><input type="checkbox" id="add-preorden-mes"><span>Pre orden del mes</span></label>
@@ -315,6 +316,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="checks">
       <label class="check-item"><input type="checkbox" id="edit-destacado"><span>Destacado</span></label>
       <label class="check-item"><input type="checkbox" id="edit-oferta"><span>Oferta</span></label>
+      <label class="check-item"><input type="checkbox" id="edit-agotado"><span>Agotado</span></label>
       <label class="check-item"><input type="checkbox" id="edit-agotado-r"><span>Agotado Regular</span></label>
       <label class="check-item"><input type="checkbox" id="edit-agotado-d"><span>Agotado Deluxe</span></label>
       <label class="check-item"><input type="checkbox" id="edit-preorden-mes"><span>Pre orden del mes</span></label>
@@ -506,6 +508,7 @@ function buildAddProduct(){
     content:buildContent(getTA('add-desc')),
     destacado:getBool('add-destacado'),
     oferta:getBool('add-oferta'),
+    agotado:getBool('add-agotado'),
     agotado_r:getBool('add-agotado-r'),
     agotado_d:getBool('add-agotado-d'),
     preorden_mes:getBool('add-preorden-mes')||undefined,
@@ -527,7 +530,7 @@ function resetAddForm(){
   ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-reserva-d','add-entrega','add-cantidad','add-yt','add-cat','add-disp'].forEach(function(id){setField(id,'');});
   setField('add-estado','Nuevo');
   ['add-desc','add-desc-d'].forEach(function(id){setTA(id,'');});
-  ['add-destacado','add-oferta','add-agotado-r','add-agotado-d','add-preorden-mes'].forEach(function(id){setBool(id,false);});
+  ['add-destacado','add-oferta','add-agotado','add-agotado-r','add-agotado-d','add-preorden-mes'].forEach(function(id){setBool(id,false);});
   _photos.add={r:[],d:[]};
   renderPhotos('add','r');renderPhotos('add','d');
   document.getElementById('add-form').style.display='none';
@@ -650,6 +653,32 @@ async function catalogAction(body) {
   return result;
 }
 
+// Se llama DESPUES de que el catalogo se guardo bien. Es solo contabilidad del lote en
+// Supabase: no modifica el producto ya guardado. Devuelve null si salio todo bien (o si no
+// aplica), o el texto del aviso si el sync fallo. Nunca tira.
+async function syncLoteStock(p){
+  if(p.precio_d || !p.cantidad || !/^\d+$/.test(String(p.cantidad).trim())) return null;
+  try{
+    var res = await fetch('/api/lote-sync', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ catalogo_id: p.id, producto: p.n, marca: p.marca, escala: p.escala, cantidad: parseInt(p.cantidad, 10) })
+    });
+    var data = await res.json();
+    if(!res.ok) throw new Error(data.error);
+    return null;
+  }catch(e){
+    return 'Aviso: no se pudo sincronizar el lote de stock ('+e.message+') — el producto se guardo igual';
+  }
+}
+
+// El mensaje de "Guardado" pisa cualquier aviso inmediato, asi que mostramos el aviso
+// despues, para que el admin lo llegue a ver (setStatus no se auto-limpia).
+function avisarSyncLote(aviso){
+  if(!aviso) return;
+  setTimeout(function(){ setStatus(aviso,'orange'); }, 2000);
+}
+
 async function saveAdd(){
   var name=getField('add-name');if(!name)return setStatus('El nombre es obligatorio','orange');
   var cat=getField('add-cat');if(!cat)return setStatus('Elegi una categoria','orange');
@@ -657,10 +686,13 @@ async function saveAdd(){
   if(btn) btn.disabled=true;
   setStatus('Guardando...','orange');
   try{
-    await catalogAction({action:'add', category:cat, product:buildAddProduct()});
+    var product=buildAddProduct();
+    await catalogAction({action:'add', category:cat, product:product});
+    var aviso=await syncLoteStock(product);
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
     _catalog=null;
     resetAddForm();
+    avisarSyncLote(aviso);
   }catch(e){setStatus('Error: '+e.message,'red');}
   finally{ if(btn) btn.disabled=false; }
 }
@@ -744,6 +776,7 @@ function openEdit(cat,idx){
   setTA('edit-desc-d',contentToText(p.content_d));
   setBool('edit-destacado',p.destacado);
   setBool('edit-oferta',p.oferta);
+  setBool('edit-agotado',p.agotado);
   setBool('edit-agotado-r',p.agotado_r);
   setBool('edit-agotado-d',p.agotado_d);
   setBool('edit-preorden-mes',p.preorden_mes);
@@ -783,6 +816,7 @@ async function saveEdit(){
     content_d:(function(){var c=buildContent(getTA('edit-desc-d'));return c.length?c:undefined;})(),
     destacado:getBool('edit-destacado'),
     oferta:getBool('edit-oferta'),
+    agotado:getBool('edit-agotado'),
     agotado_r:getBool('edit-agotado-r'),
     agotado_d:getBool('edit-agotado-d')
   });
@@ -794,9 +828,11 @@ async function saveEdit(){
   setStatus('Guardando...','orange');
   try{
     await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
+    var aviso=await syncLoteStock(updated);
     _catalog=null;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();
+    avisarSyncLote(aviso);
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 
