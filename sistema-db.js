@@ -245,6 +245,14 @@ async function dbSetPedidaProveedor(id, value) {
   if (error) throw error;
 }
 
+// Marca la orden como pedida al proveedor y, si se indicó, guarda dónde se pidió (campo "pedido").
+async function dbMarcarPedidaProveedor(id, proveedor) {
+  const fields = { pedida_proveedor: true };
+  if (proveedor) fields.pedido = proveedor;
+  const { error } = await db.from('ordenes').update(fields).eq('id', id);
+  if (error) throw error;
+}
+
 async function dbSetPedido(id, pedido) {
   const { error } = await db.from('ordenes').update({ pedido }).eq('id', id);
   if (error) throw error;
