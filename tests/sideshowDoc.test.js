@@ -41,6 +41,10 @@ describe('extraerTextoEml', () => {
   it('decodifica quoted-printable y da lo mismo que el texto', () => {
     expect(leerFactura(extraerTextoEml(fx('sideshow-factura.eml')))).toEqual(leerFactura(fx('sideshow-factura.txt')));
   });
+  it('no corta en lineas que empiezan con "--" dentro del cuerpo (correo reenviado)', () => {
+    const raw = 'Content-Type: multipart/alternative; boundary="000abc"\n\n--000abc\nContent-Type: text/plain; charset="UTF-8"\nContent-Transfer-Encoding: quoted-printable\n\n---------- Mensaje reenviado ---------\nInvoice ID: 7\n--000abc\nContent-Type: text/html\n\n<p>x</p>\n--000abc--\n';
+    expect(extraerTextoEml(raw)).toBe('---------- Mensaje reenviado ---------\nInvoice ID: 7');
+  });
   it('devuelve el texto tal cual si no es un correo MIME', () => {
     expect(extraerTextoEml('hola\nmundo')).toBe('hola\nmundo');
   });

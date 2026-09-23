@@ -35,6 +35,9 @@ export function extraerTextoEml(raw) {
   const lineas = raw.replace(/\r/g, '').split('\n');
   const ini = lineas.findIndex(l => /^Content-Type:\s*text\/plain/i.test(l));
   if (ini === -1) return raw;
+  // Solo el separador declarado corta la parte: un reenvío trae "---------- Mensaje reenviado".
+  const boundary = (raw.match(/boundary="?([^"\s;]+)"?/i) || [])[1];
+  const esSeparador = l => boundary ? (l === '--' + boundary || l === '--' + boundary + '--') : false;
   let i = ini;
   let encoding = '';
   for (; i < lineas.length && lineas[i] !== ''; i++) {
@@ -42,7 +45,7 @@ export function extraerTextoEml(raw) {
     if (m) encoding = m[1].toLowerCase();
   }
   const cuerpo = [];
-  for (i++; i < lineas.length && !/^--\S/.test(lineas[i]); i++) cuerpo.push(lineas[i]);
+  for (i++; i < lineas.length && !esSeparador(lineas[i]); i++) cuerpo.push(lineas[i]);
   const texto = cuerpo.join('\n').replace(/\n+$/, '');
   if (encoding === 'quoted-printable') return decodificarQP(texto);
   if (encoding === 'base64') return bytesAUtf8(Uint8Array.from(atob(texto.replace(/\s/g, '')), c => c.charCodeAt(0)));
