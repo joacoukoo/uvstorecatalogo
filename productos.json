@@ -564,7 +564,7 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959de6642a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959e04aad0.jpg"
         ],
-        "agotado_r": false,
+        "agotado_r": true,
         "agotado_d": true,
         "content_d": [
           {
@@ -5122,7 +5122,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -5184,7 +5184,8 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/files/DiscoSkele_PP-008_af0ba4bd-5e17-49b6-99d1-ff17be81f723.jpg?v=1702310606",
           "https://cdn.shopify.com/s/files/1/0558/2081/files/DiscoSkele_PP-009_7478ba8c-5cce-445a-bfce-f3310e2d43a9.jpg?v=1702310601"
         ],
-        "id": "skeletor-disco-exclusive"
+        "id": "skeletor-disco-exclusive",
+        "agotado": true
       },
       {
         "n": "He-Man",
@@ -5775,7 +5776,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -5813,7 +5814,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/400346/deadpool_marvel_gallery_5f0df73103d6b.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/400346/deadpool_marvel_gallery_5f0df73155aae.jpg"
         ],
-        "id": "deadpool-bust"
+        "id": "deadpool-bust",
+        "agotado": true
       },
       {
         "n": "Sansa Stark (Season 8)",
@@ -6551,7 +6553,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6589,7 +6591,8 @@
           "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704f.jpg?v=1680560071",
           "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704g.jpg?v=1680560071"
         ],
-        "id": "batman-1989-2"
+        "id": "batman-1989-2",
+        "agotado": true
       },
       {
         "n": "Batman: Gotham by Gaslight Deluxe",
@@ -6655,7 +6658,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6697,7 +6700,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913637/gizmo-mogwai_gremlins_gallery_66a28e8ec2bdd.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913637/gizmo-mogwai_gremlins_silo.png"
         ],
-        "id": "gizmo-mogwai-prop-replica"
+        "id": "gizmo-mogwai-prop-replica",
+        "agotado": true
       },
       {
         "n": "George Mogwai – Prop Replica",
@@ -6767,7 +6771,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6808,7 +6812,8 @@
           "https://cdn.shopify.com/s/files/1/0611/4030/4091/products/Overwatch_Statue_Tracer_27cm_17.jpg?v=1682384970",
           "https://cdn.shopify.com/s/files/1/0611/4030/4091/products/Overwatch_Statue_Tracer_27cm_12.jpg?v=1682384970"
         ],
-        "id": "tracer-premium-collector-figure"
+        "id": "tracer-premium-collector-figure",
+        "agotado": true
       },
       {
         "n": "Luke Skywalker – Deluxe",
@@ -7150,7 +7155,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7180,7 +7185,8 @@
           "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/0Purearts-Promo_S-Batman_Robin__7.jpg?v=1728706611",
           "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/0Purearts-Promo_S-Batman_Robin__8.jpg?v=1728706611"
         ],
-        "id": "batman-robin-1966"
+        "id": "batman-robin-1966",
+        "agotado": true
       },
       {
         "n": "Piccolo Daimaō (Gran Rey Demonio) - Exclusive SDCC 2025",
@@ -7617,7 +7623,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7655,7 +7661,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910415/powerpuff-girls-set_powerpuff-girls_gallery_620c0b14a48d0.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910415/powerpuff-girls-set_powerpuff-girls_gallery_620c0b150ac1f.jpg"
         ],
-        "id": "powerpuff-girls-action-figure-set"
+        "id": "powerpuff-girls-action-figure-set",
+        "agotado": true
       },
       {
         "n": "Monkey D. Luffy – Magnetic Night Lamp",
@@ -8163,7 +8170,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -8201,7 +8208,8 @@
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/13_53999688386_o.jpg?v=1727468464",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2b_54000112060_oLarge.jpg?v=1727468673",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/15_53998790682_o.jpg?v=1727468464"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Magic the Gathering YouTooz",
@@ -8523,7 +8531,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -8562,7 +8570,8 @@
           "https://img.shoplineapp.com/media/image_clips/679f8217d561ae000a314433/original.jpg?1738506775",
           "https://img.shoplineapp.com/media/image_clips/679f82179f26f600114ca255/original.jpg?1738506775",
           "https://img.shoplineapp.com/media/image_clips/679f821709e52a000b68af6b/original.jpg?1738506775"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Vegeta Daima",
@@ -12814,7 +12823,8 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-07-04",
-        "cantidad": "1"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "back-to-the-future-2-time-machine-dx-ver-mr5pqtvn",
@@ -41398,7 +41408,8 @@
         "agotado_d": false,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "cloud-strife-fantasy-vii-mphlew70",
@@ -41663,7 +41674,8 @@
         "agotado_d": false,
         "added_at": "2026-05-23",
         "reserva": "1200",
-        "cantidad": "1"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "colossal-titan-mphkeryj",
@@ -56342,7 +56354,8 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-19",
-        "cantidad": "1"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "snoopy-piggy-bank-black-gold-version-mo1nzluy",
