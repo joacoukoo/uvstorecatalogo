@@ -1438,7 +1438,7 @@ button,a{touch-action:manipulation;cursor:pointer}
             <div><label class="form-label">Escala</label>
               <input class="form-input" type="text" x-model="form.escala" placeholder="1:6, 1:12..." style="font-size:16px"></div>
             <div><label class="form-label">Cantidad pedida *</label>
-              <input class="form-input" type="number" x-model.number="form.cantidad" min="1" style="font-size:16px"></div>
+              <input class="form-input" type="number" x-model.number="form.cantidad" :min="form.id ? 0 : 1" style="font-size:16px"></div>
           </div>
           <div class="form-row">
             <div><label class="form-label">Código</label>
@@ -2089,7 +2089,11 @@ function uvLotes() {
     },
     async crearLote() {
       if (!this.form.producto.trim()) { alert('El producto es obligatorio'); return; }
-      if (!this.form.cantidad || this.form.cantidad < 1) { alert('La cantidad debe ser mayor a 0'); return; }
+      // Al editar se permite 0 (la figura se quedó sin stock sin una venta registrada); un lote nuevo necesita al menos 1.
+      const minimo = this.form.id ? 0 : 1;
+      if (!Number.isInteger(this.form.cantidad) || this.form.cantidad < minimo) {
+        alert(this.form.id ? 'La cantidad no puede ser negativa' : 'La cantidad debe ser mayor a 0'); return;
+      }
       this.guardando = true;
       try {
         const datos = { ...this.form, catalogo_id: this.form.catalogo_id || null, catalogo_variante: this.form.catalogo_variante || null };
