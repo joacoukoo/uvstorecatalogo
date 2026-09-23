@@ -53562,6 +53562,103 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "a-marvelous-mathoms-everything-bundle-secret-lair--mueqq11o",
+        "n": "A Marvelous Mathoms™ Everything Bundle - Secret Lair - The Hobbit",
+        "i": "https://cdn-prod.scalefast.com/public/assets/user/10751401/image/7854f891b366ec83a1588049ec3dd65e.png",
+        "franquicia": "Otros",
+        "marca": "Magic the Gathering",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://cdn-prod.scalefast.com/public/assets/user/10751401/image/7854f891b366ec83a1588049ec3dd65e.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/73cfa61e05b717e5c9b1088d0eeba691.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/29a3443b40a2ba9760bb20134420e251.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/0195649e3e0a9161e0237a0433413eb9.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/a547f8c65c469da383cff47e5754b3a8.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/b2b7f94d58cf06f5bc73bfbd87d3f87c.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/622a5d4e159d1906318223cca6e43b45.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/e18d29f0ee4558611cace7cc8ea320dc.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/f19a6cdca74a60de8e12868c17ab59cc.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/b5a840101e37ebdab29fd786160933a2.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/9dc0cd234d276e9cd6feaaac98901923.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/6cd52cd68aa107585882f55a8d863c14.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/aa24917127a6514b118854609e53fe65.png",
+          "https://cdn-prod.scalefast.com/resize/-x636/public/assets/user/10751401/sample/044874b475ddfa05c938ba20567ac5e3.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una colección definitiva de Magic: The Gathering que une dos universos legendarios en una edición limitada de extraordinario valor para coleccionistas. Este bundle premium reúne cartas exclusivas con foil effect simulado inspiradas en El Hobbit, presentando diseños artísticos excepcionales que capturan la magia de la Tierra Media. Una inversión imprescindible para aficionados que desean poseer la experiencia completa de esta colaboración histórica entre Secret Lair y Middle-earth Enterprises."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Bundle de cartas coleccionables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cartulina premium para cartas de juego"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada Secret Lair x The Hobbit"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Foil effect simulado en selección de cartas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Idioma: Inglés"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estado: Nuevo/Sin abrir"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Second Breakfast and Beyond (Non-Foil)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Second Breakfast and Beyond (Foil Edition)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Over the Edge of the Wild (Non-Foil)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Over the Edge of the Wild (Foil Edition)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Smaug's Spoils (Non-Foil)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Smaug's Spoils (Foil Edition)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Desolation (Non-Foil)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1x Secret Lair x The Hobbit: Desolation (Foil Edition)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-23",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "dave-the-diver-1-12-scale-action-figure-mud6m32c",
         "n": "Dave the Diver 1:12 Scale Action Figure",
         "i": "https://www.sideshow.com/storage/product-images/915907/underverse-beautiful-chemistry-dave-the-diver-action-figure-gallery-6a5e4064d413e.jpg",
