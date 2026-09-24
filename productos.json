@@ -38174,6 +38174,80 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "raphael-quarter-scale-statue-mufwx6s3",
+        "n": "Raphael Quarter Scale Statue",
+        "i": "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b570147.jpg",
+        "franquicia": "Otros",
+        "marca": "PCS",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b570147.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b5c86f5.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b6320db.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b67cee6.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b6b5f22.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b6f0f34.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b7646c0.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b7b5b42.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b81be22.jpg",
+          "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b86d038.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la ferocidad de Raphael con esta espectacular estatua Quarter Scale de PCS. Con un nivel de detalle excepcional, captura cada músculo, cicatriz y emoción del guerrero ninja más apasionado. Una pieza imprescindible para los coleccionistas que demandan calidad premium y autenticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 45-50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4 (Quarter Scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: PCS (Premium Collectibles Studio)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Raphael Quarter Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa de entorno urbano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-24",
+        "reserva": "1700",
+        "entrega": "Ene. 2028",
+        "cantidad": "2"
+      },
+      {
         "id": "son-gohan-quarter-scale-statue-by-hex-collectibles-mufwryzx",
         "n": "Son Gohan Quarter Scale Statue by HEX Collectibles",
         "i": "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056c47a1a.jpg",
