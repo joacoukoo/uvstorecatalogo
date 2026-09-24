@@ -38174,6 +38174,83 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "son-gohan-quarter-scale-statue-by-hex-collectibles-mufwryzx",
+        "n": "Son Gohan Quarter Scale Statue by HEX Collectibles",
+        "i": "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056c47a1a.jpg",
+        "franquicia": "Anime",
+        "marca": "HEX Collectibles",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "15000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056c47a1a.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056cbaf4a.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056d2f585.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056da3a13.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056e233b3.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056e98560.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056eead4e.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056f6ea5c.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e056fc1ccb.jpg",
+          "https://www.sideshow.com/storage/product-images/916036/hex-collectibles-dragon-ball-son-gohan-quarter-scale-statue-gallery-6a8e057020d13.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la transformación épica de Son Gohan en esta impresionante estatua a escala 1:6 de HEX Collectibles, capturando cada detalle de su poder energético con efectos de iluminación dinámicos. Esta pieza de colección premium combina escultura de alta calidad con una presentación visual espectacular, perfecta para cualquier fan de Dragon Ball que busque una obra maestra en su colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 40-45 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de luz LED integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua principal de Son Gohan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con efectos de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-24",
+        "reserva": "3000",
+        "cantidad": "2"
+      },
+      {
         "id": "supergirl-woman-of-tomorrow-quarter-scale-statue-b-mufwpc60",
         "n": "Supergirl: Woman of Tomorrow Quarter Scale Statue by Prime 1 Studio",
         "i": "https://www.sideshow.com/storage/product-images/916043/prime-1-studio-dc-comics-supergirl-woman-of-tomorrow-quarter-scale-statue-gallery-6a8de359e5913.jpg",
