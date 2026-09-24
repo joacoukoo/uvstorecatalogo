@@ -53562,6 +53562,83 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "blue-eyes-white-dragon-diorama-led-collectible-lam-mufwm3e0",
+        "n": "Blue Eyes White Dragon Diorama LED Collectible Lamp",
+        "i": "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19c41589.jpg",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19c41589.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19c94c00.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19ce6218.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19d45aa3.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19d99cb3.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19e1a0c3.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19e7ab5b.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19ecc62a.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19f35135.jpg",
+          "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19f86c39.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la magia del icónico Blue-Eyes White Dragon con esta lámpara diorama coleccionable de Forge Panda, featuring LEDs direccionables personalizables y una base inspirada en artefactos antiguos. Una pieza premium que combina artesanía de lujo con efectos de energía cinematográficos, perfecta para fans de Yu-Gi-Oh! que desean iluminar su colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/Acrílico con LEDs integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alimentación: USB-C (cable incluido)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Función: Control de iluminación LED personalizable vía WLED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Activación: Llave Millennium Puzzle magnética"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lámpara diorama LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cable USB-C"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Llave Puzzle magnética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Almohadilla de limpieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guantes de manipulación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-24",
+        "reserva": "500",
+        "cantidad": "2"
+      },
+      {
         "id": "a-marvelous-mathoms-everything-bundle-secret-lair--mueqq11o",
         "n": "A Marvelous Mathoms™ Everything Bundle - Secret Lair - The Hobbit",
         "i": "https://cdn-prod.scalefast.com/public/assets/user/10751401/image/7854f891b366ec83a1588049ec3dd65e.png",
