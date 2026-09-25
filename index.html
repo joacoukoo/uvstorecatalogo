@@ -848,7 +848,6 @@ body::after{
   .section{padding:0 16px 40px}
   .cat-grid{grid-template-columns:repeat(2,1fr);gap:8px}
   .prod-grid{grid-template-columns:repeat(2,1fr);gap:8px}
-  .modal-props{grid-template-columns:1fr}
   .search-body{padding:16px}
   .search-res{grid-template-columns:repeat(2,1fr);gap:8px}
   .hero-stats{max-width:100%}
@@ -981,6 +980,49 @@ button:focus-visible,a:focus-visible{
 .po-reserva{margin:0;}
 .po-entrega{display:none;}
 }
+/* ══ MEJORAS UX 2026-09 ══ */
+.hero-ctas{display:flex;gap:10px;flex-wrap:wrap;margin:-8px 0 24px}
+.hero-cta{font-family:"DM Sans",sans-serif;font-size:14px;font-weight:600;border-radius:10px;padding:12px 20px;cursor:pointer;transition:background-color .15s,border-color .15s,transform .15s;border:1px solid transparent}
+.hero-cta:active{transform:scale(.97)}
+.hero-cta-main{background:var(--purple);color:#fff;border-color:var(--purple)}
+.hero-cta-main:hover{background:#8d3fd6}
+.hero-cta-sec{background:var(--bg3);color:var(--text);border-color:var(--border2)}
+.hero-cta-sec:hover{border-color:var(--purple)}
+.cat-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+#franchise-home-grid{grid-template-columns:repeat(auto-fit,minmax(150px,1fr)) !important}
+.modal-title.modal-title-long{font-family:"DM Sans",sans-serif;font-weight:700;font-size:24px;letter-spacing:0;line-height:1.25}
+.modal-desc-p{white-space:pre-line}
+#modal.open ~ .wa-fab{display:none}
+.modal-cta-price{display:none;flex-direction:column;justify-content:center;flex-shrink:0;padding-right:4px}
+.modal-cta-price-lbl{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-family:"Syne",sans-serif}
+.modal-cta-price-val{font-size:18px;font-weight:700;color:var(--gold-l);line-height:1.1;white-space:nowrap}
+.modal-cta-price-val span{font-size:12px;color:var(--gold);margin-right:2px}
+@media(max-width:1024px){
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-grid .cat-card:first-child:nth-last-child(odd){grid-column:span 2}
+}
+@media(max-width:768px){
+  .hero-ctas{margin:-12px 0 20px}
+  .hero-cta{flex:1;text-align:center;padding:12px 10px}
+  .modal-props{grid-template-columns:repeat(2,1fr);gap:6px}
+  .modal-prop{padding:9px 12px}
+  .modal-prop.modal-prop-price{grid-column:span 2}
+  .modal-title{font-size:30px}
+  .modal-title.modal-title-long{font-size:20px}
+  #modal .modal-body{display:flex;flex-direction:column;padding-bottom:0}
+  #modal .modal-cta{
+    order:10;position:sticky;bottom:0;z-index:6;
+    margin:16px -24px 0 !important;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));
+    background:rgba(13,13,20,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+    border-top:1px solid var(--border);
+  }
+  #modal .modal-cta .modal-wa{margin-top:0;white-space:nowrap;padding:11px 12px !important;font-size:13.5px !important}
+  .modal-cta-price{display:flex}
+  #modal-yt{margin-bottom:8px}
+  #franchise-home-grid{grid-auto-flow:column;grid-template-columns:none !important;grid-auto-columns:34%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:none}
+  #franchise-home-grid::-webkit-scrollbar{display:none}
+  #franchise-home-grid>*{scroll-snap-align:start}
+}
 </style>
 <!-- Meta Pixel -->
 <script>
@@ -1031,11 +1073,14 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
           <div class="hero-eye">Coleccionables Premium &middot; Guatemala</div>
           <h1 class="hero-title">UV <span>STORE</span><br>GUATEMALA</h1>
           <div class="hero-sub">Figuras 1:6, estatuas y pre-&oacute;rdenes exclusivas. Hot Toys, Sideshow, Iron Studios y m&aacute;s.</div>
+          <div class="hero-ctas">
+            <button class="hero-cta hero-cta-main" onclick="goCategory(0)">Ver en stock</button>
+            <button class="hero-cta hero-cta-sec" onclick="goPreOrdenes()">Pre-órdenes</button>
+          </div>
           <div class="hero-stats">
             <div class="hero-stat"><div class="hero-stat-num" id="stat-total">—</div><div class="hero-stat-lbl">Figuras</div></div>
             <div class="hero-stat"><div class="hero-stat-num" id="stat-stock">—</div><div class="hero-stat-lbl">En Stock</div></div>
             <div class="hero-stat"><div class="hero-stat-num" id="stat-pre">—</div><div class="hero-stat-lbl">Pre-Órdenes</div></div>
-            <div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-lbl">Categorías</div></div>
           </div>
         </div>
       </div>
@@ -1147,6 +1192,12 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
       <button id="cat-sort-price-d" onclick="goCatalog('price-d')"  class="sort-btn">Mayor precio</button>
       <button id="cat-sort-price-a" onclick="goCatalog('price-a')"  class="sort-btn">Menor precio</button>
     </div>
+    <div style="display:flex;align-items:center;gap:8px;margin-top:10px;flex-wrap:wrap">
+      <span style="font-size:12px;color:var(--muted);font-family:'Syne',sans-serif">Mostrar:</span>
+      <button class="filter-btn on" id="cat-fil-all" onclick="_catSetFilter('all')">Todos</button>
+      <button class="filter-btn" id="cat-fil-stock" onclick="_catSetFilter('stock')">En stock</button>
+      <button class="filter-btn" id="cat-fil-pre" onclick="_catSetFilter('pre')">Pre-orden</button>
+    </div>
     <div style="font-size:12px;color:var(--muted);margin-top:10px;font-family:'Syne',sans-serif" id="catalog-count"></div>
   </div>
   <div class="section" style="padding-top:0">
@@ -1213,7 +1264,8 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
       </div>
       <div class="ver-toggle" id="modal-variantes-toggle" style="display:none"></div>
       <div class="modal-props" id="modal-props"></div>
-      <div style="display:flex;gap:8px;margin-top:12px">
+      <div class="modal-cta" style="display:flex;gap:8px;margin-top:12px">
+      <div class="modal-cta-price" id="modal-cta-price"></div>
       <a class="modal-wa" id="modal-wa" href="#" target="_blank" rel="noopener" style="flex:1;padding:11px 18px;font-size:13.5px">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         Consultar por WhatsApp
@@ -1262,7 +1314,9 @@ var FRANCHISE_ACCENTS={"Marvel":"#e63946","DC Comics":"#1d3557","Star Wars":"#f4
 var _carIdx=0,_carPhotos=[],_currentFigId="";
 
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
-function fmtReserva(v){v=String(v).trim();return"Q"+(v.toLowerCase().startsWith("q")?v.slice(1):v);}
+// "11900" -> "11,900". Si no es un numero limpio (ej. "Consultar") lo deja como vino.
+function fmtQ(v){var t=String(v==null?"":v).trim();var n=t.replace(/[,\s]/g,"");return /^\d+(\.\d+)?$/.test(n)?Number(n).toLocaleString("en-US"):t;}
+function fmtReserva(v){v=String(v).trim();return"Q"+fmtQ(v.toLowerCase().startsWith("q")?v.slice(1):v);}
 
 function carouselBuild(photos, prodName){
   // Resolve relative URLs to absolute so lightbox works after history.pushState cambia a /p/...
@@ -1328,7 +1382,7 @@ function makeCard(p,cat){
   var info=document.createElement("div");info.className="prod-info";
   var nm=document.createElement("div");nm.className="prod-name";nm.textContent=p.n;
   var meta=document.createElement("div");meta.className="prod-meta";
-  if(p.precio){var pr=document.createElement("div");pr.className="prod-price";pr.innerHTML="<span>Q</span>"+p.precio;meta.appendChild(pr);}
+  if(p.precio){var pr=document.createElement("div");pr.className="prod-price";pr.innerHTML="<span>Q</span>"+esc(fmtQ(p.precio));meta.appendChild(pr);}
   else{var pr2=document.createElement("div");pr2.className="prod-price-empty";pr2.textContent="Consultar";meta.appendChild(pr2);}
   var badgeText="",badgeCls="";
   var estadoLow=(p.estado||"").toLowerCase();
@@ -1359,7 +1413,7 @@ function makeCard(p,cat){
   }
   // Precio tachado si hay oferta y precio original
   if(p.oferta&&p.precio_orig){
-    var prOrig=document.createElement("div");prOrig.className="precio-tachado";prOrig.innerHTML="Q"+p.precio_orig;
+    var prOrig=document.createElement("div");prOrig.className="precio-tachado";prOrig.textContent="Q"+fmtQ(p.precio_orig);
     meta.insertBefore(prOrig,meta.firstChild);
   }
   info.appendChild(nm);info.appendChild(meta);
@@ -1473,8 +1527,8 @@ function buildHome(){
   if(novProds.length>0&&novSec&&novGrid){
     novSec.style.display="";
     novGrid.innerHTML="";
-    _agotadasAlFinal(novProds.slice(0,6)).forEach(function(r){novGrid.appendChild(makeCard(r.p,r.cat));});
-    document.getElementById("novedades-meta").textContent=Math.min(novProds.length,6)+" figura"+(Math.min(novProds.length,6)!==1?"s":"");
+    _agotadasAlFinal(novProds.slice(0,10)).forEach(function(r){novGrid.appendChild(makeCard(r.p,r.cat));});
+    document.getElementById("novedades-meta").textContent="";
   } else if(novSec){novSec.style.display="none";}
 
   // Sección Ofertas
@@ -1496,7 +1550,21 @@ function buildHome(){
   renderPreOrdenBand();
   // Trigger fade-in for visible cards
   setTimeout(observeFadeUp, 50);
+  setTimeout(_trimOrphans, 60);
 }
+// Oculta la ultima fila incompleta de Novedades y Destacados (evita una tarjeta suelta al final).
+function _trimOrphans(){
+  ["novedades-grid","feat-grid"].forEach(function(id){
+    var g=document.getElementById(id);if(!g||!g.offsetParent)return;
+    var kids=[].slice.call(g.children);kids.forEach(function(k){k.style.display="";});
+    var cols=getComputedStyle(g).gridTemplateColumns.split(" ").filter(Boolean).length;
+    if(cols<2||kids.length<=cols)return;
+    var keep=Math.floor(kids.length/cols)*cols;
+    kids.forEach(function(k,i){if(i>=keep)k.style.display="none";});
+  });
+}
+var _trimT=null;
+window.addEventListener("resize",function(){clearTimeout(_trimT);_trimT=setTimeout(_trimOrphans,150);});
 var _poProduct=null,_poCategory=null;
 function renderPreOrdenBand(){
   var band=document.getElementById("preorden-band");
@@ -1537,7 +1605,7 @@ function observeFadeUp(){
   document.querySelectorAll(".fade-up:not(.visible)").forEach(function(el){obs.observe(el);});
 }
 
-function showPage(id){document.querySelectorAll(".page").forEach(function(p){p.classList.remove("active");});document.getElementById(id).classList.add("active");window.scrollTo(0,0);}
+function showPage(id){document.querySelectorAll(".page").forEach(function(p){p.classList.remove("active");});document.getElementById(id).classList.add("active");window.scrollTo(0,0);if(id==="home"&&typeof _trimOrphans==="function")_trimOrphans();}
 function _setMnav(activeId){
   ["mnav-home","mnav-inmediata","mnav-pre","mnav-catalog","mnav-franq"].forEach(function(id){
     var el=document.getElementById(id);if(el)el.classList.toggle("active",id===activeId);
@@ -1595,11 +1663,11 @@ function makeFranchiseCard(fname,gridId){
   textDiv.style.cssText="position:absolute;bottom:0;left:0;right:0;padding:10px 8px;text-align:center;";
 
   var lbl=document.createElement("div");
-  lbl.style.cssText="font-family:'Bebas Neue',sans-serif;font-size:11px;color:#fff;letter-spacing:1.5px;text-shadow:0 1px 4px rgba(0,0,0,.8);";
+  lbl.style.cssText="font-family:'Bebas Neue',sans-serif;font-size:15px;color:#fff;letter-spacing:1.5px;text-shadow:0 1px 4px rgba(0,0,0,.8);";
   lbl.textContent=fname;
 
   var cnt=document.createElement("div");
-  cnt.style.cssText="font-size:9px;color:rgba(255,255,255,.65);margin-top:2px;font-family:'Syne',sans-serif;";
+  cnt.style.cssText="font-size:10px;color:rgba(255,255,255,.65);margin-top:2px;font-family:'Syne',sans-serif;";
   cnt.textContent=prods.length+" fig.";
 
   textDiv.appendChild(lbl);textDiv.appendChild(cnt);
@@ -1642,11 +1710,24 @@ function shareProduct(){
     });
   }
 }
+var _catSort="recent",_catFilter="all";
+function _catSetFilter(f){
+  _catFilter=f;
+  ["all","stock","pre"].forEach(function(k){var b=document.getElementById("cat-fil-"+k);if(b)b.classList.toggle("on",k===f);});
+  goCatalog(_catSort);
+}
 function goCatalog(sort){
   sort=sort||"recent";
+  var yaEnCatalogo=document.getElementById("catalog-page").classList.contains("active");
+  _catSort=sort;
   var all=[];
   CAT_KEYS.forEach(function(c){
-    (DATA[c]||{products:[]}).products.forEach(function(p){all.push({p:p,cat:c});});
+    (DATA[c]||{products:[]}).products.forEach(function(p){
+      var d=(p.disp||"").toLowerCase();
+      if(_catFilter==="stock"&&d.indexOf("inmediata")<0)return;
+      if(_catFilter==="pre"&&d.indexOf("pre")<0)return;
+      all.push({p:p,cat:c});
+    });
   });
   if(sort==="recent"){
     all.sort(function(a,b){
@@ -1670,6 +1751,7 @@ function goCatalog(sort){
   document.getElementById("catalog-count").textContent=all.length+" figuras";
   var grid=document.getElementById("catalog-grid");grid.innerHTML="";
   _agotadasAlFinal(all).forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});
+  if(yaEnCatalogo)return;
   showPage("catalog-page");
   document.getElementById("nav-home").classList.remove("active");
   document.getElementById("nav-catalog").classList.add("active");
@@ -1902,6 +1984,29 @@ function _srSetFilter(f){
 }
 
 var _modalProd=null;
+// Precio chico en la barra fija de WhatsApp (solo se ve en el celular).
+function _setCtaPrice(v){
+  var el=document.getElementById("modal-cta-price");if(!el)return;
+  el.innerHTML=v?"<div class='modal-cta-price-lbl'>Precio</div><div class='modal-cta-price-val'><span>Q</span>"+esc(fmtQ(v))+"</div>":"";
+}
+// Un bloque de texto con parrafos separados por lineas en blanco. Un titulo corto conocido
+// ("Incluye", "Caracteristicas"...) pasa a titulo, y las lineas cortas que le siguen, a vinetas.
+function _renderTextBlock(contentEl,text){
+  var paras=String(text||"").split(/\n\s*\n/).map(function(s){return s.trim();}).filter(Boolean);
+  var enLista=false;
+  paras.forEach(function(par){
+    var corto=par.indexOf("\n")<0&&par.length<=90&&!/[.!?]$/.test(par);
+    var el=document.createElement("div");
+    if(corto&&par.length<=28&&/^(incluye|caracter|especifica|contenido|detalles|accesorios|el paquete|la figura)/i.test(par)){
+      el.className="modal-desc-title";el.textContent=par.replace(/:$/,"");enLista=true;
+    }else if(corto&&enLista){
+      el.className="modal-desc-bullet";el.textContent=par;
+    }else{
+      el.className="modal-desc modal-desc-p";el.textContent=par;enLista=false;
+    }
+    contentEl.appendChild(el);
+  });
+}
 function renderModalContent(contentArr){
   var contentEl=document.getElementById("modal-content");
   if(!contentEl)return;
@@ -1917,7 +2022,7 @@ function renderModalContent(contentArr){
       if(byNewline.length>1){items=byNewline;}
       else{items=raw.split(/\.\s+(?=[A-ZÁÉÍÓÚÑ])/).map(function(s){return s.trim().replace(/\.$/,"");}).filter(Boolean);if(items.length<=1)items=[raw];}
       items.forEach(function(item){if(item.trim()){var li=document.createElement("div");li.className="modal-desc-bullet";li.textContent=item.trim();contentEl.appendChild(li);}});return;
-    }else{el=document.createElement("div");el.className="modal-desc";el.textContent=b.x;}
+    }else{_renderTextBlock(contentEl,b.x);return;}
     contentEl.appendChild(el);
   });
 }
@@ -1928,13 +2033,13 @@ function modalSetVersion(ver){
   if(ver==="deluxe"){
     btnR.classList.remove("active");btnD.classList.add("active");
     carouselBuild((p.fotos_d&&p.fotos_d.length>0)?p.fotos_d:(p.fotos&&p.fotos.length>0?p.fotos:[p.i]));
-    var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+p.precio_d;
+    var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+esc(fmtQ(p.precio_d));_setCtaPrice(p.precio_d);
     var re=document.getElementById("modal-reserva-val");if(re)re.textContent=p.reserva_d?fmtReserva(p.reserva_d):"";
     if(p.content_d&&p.content_d.length)renderModalContent(p.content_d);
   }else{
     btnD.classList.remove("active");btnR.classList.add("active");
     carouselBuild((p.fotos&&p.fotos.length>0)?p.fotos:[p.i]);
-    var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+(p.precio||"");
+    var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+esc(fmtQ(p.precio||""));_setCtaPrice(p.precio);
     var re=document.getElementById("modal-reserva-val");if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
     renderModalContent(p.content||[]);
   }
@@ -1987,6 +2092,7 @@ function openModal(p,cat){
   document.getElementById("modal-cat").textContent=CAT_LABELS[cat]||cat;
   document.getElementById("modal-cat").style.color=accent;
   document.getElementById("modal-name").textContent=p.n;
+  document.getElementById("modal-name").classList.toggle("modal-title-long",(p.n||"").length>38);
   // Version toggle
   var toggleEl=document.getElementById("modal-version-toggle");
   if(p.precio_d){
@@ -2010,23 +2116,7 @@ function openModal(p,cat){
     var basePhotos=(p.fotos&&p.fotos.length>0)?p.fotos:[p.i];
     var baseContent=p.content||[];
     // Helper: rebuild content section
-    function _renderContent(contentArr){
-      var contentEl=document.getElementById("modal-content");contentEl.innerHTML="";
-      if(!contentArr||!contentArr.length)return;
-      contentArr.slice(0,30).forEach(function(b){
-        var el;
-        if(b.t==="notion-heading-2"||b.t==="notion-heading-3"){
-          el=document.createElement("div");el.className="modal-desc-title";el.textContent=b.x;
-        }else if(b.t==="notion-bulleted-list"||b.t==="notion-numbered-list"){
-          var raw=b.x;var items=[];
-          var byNewline=raw.split(/\n+/).map(function(s){return s.trim();}).filter(Boolean);
-          if(byNewline.length>1){items=byNewline;}
-          else{items=raw.split(/\.\s+(?=[A-ZÁÉÍÓÚÑ])/).map(function(s){return s.trim().replace(/\.$/,"");}).filter(Boolean);if(items.length<=1)items=[raw];}
-          items.forEach(function(item){if(item.trim()){var li=document.createElement("div");li.className="modal-desc-bullet";li.textContent=item.trim();contentEl.appendChild(li);}});return;
-        }else{el=document.createElement("div");el.className="modal-desc";el.textContent=b.x;}
-        contentEl.appendChild(el);
-      });
-    }
+    var _renderContent=renderModalContent;
     // Botón base (el producto principal) — siempre dice "Regular"
     var btnBase=document.createElement("button");
     btnBase.className="ver-btn active"+(p.agotado_r?" ver-btn-ago":"");
@@ -2037,7 +2127,7 @@ function openModal(p,cat){
       var pe=document.getElementById("modal-precio-val");
       var re=document.getElementById("modal-reserva-val");
       var se=document.getElementById("modal-escala-val");
-      if(pe&&p.precio)pe.innerHTML="<span>Q</span>"+p.precio;
+      if(pe&&p.precio){pe.innerHTML="<span>Q</span>"+esc(fmtQ(p.precio));_setCtaPrice(p.precio);}
       if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
       if(se&&p.escala)se.textContent=p.escala;
       carouselBuild(basePhotos);
@@ -2055,7 +2145,7 @@ function openModal(p,cat){
         var pe=document.getElementById("modal-precio-val");
         var re=document.getElementById("modal-reserva-val");
         var se=document.getElementById("modal-escala-val");
-        if(pe&&v.precio)pe.innerHTML="<span>Q</span>"+v.precio;
+        if(pe&&v.precio){pe.innerHTML="<span>Q</span>"+esc(fmtQ(v.precio));_setCtaPrice(v.precio);}
         if(re)re.textContent=v.reserva?fmtReserva(v.reserva):"";
         if(se){se.textContent=v.escala||se.textContent;}
         if(v.fotos&&v.fotos.length>0)carouselBuild(v.fotos);
@@ -2073,7 +2163,8 @@ function openModal(p,cat){
   // Las variantes solo actualizan al hacer click
   var propsEl=document.getElementById("modal-props");propsEl.innerHTML="";
   var propList=[];
-  if(p.precio)propList.push({label:"Precio",value:"<span>Q</span>"+p.precio,cls:"price",id:"modal-precio-val"});
+  _setCtaPrice(p.precio);
+  if(p.precio)propList.push({label:"Precio",value:"<span>Q</span>"+esc(fmtQ(p.precio)),cls:"price",id:"modal-precio-val",wrap:"modal-prop-price"});
   if(p.franquicia)propList.push({label:"Franquicia",value:esc(p.franquicia)});
   if(p.disp){var dispCls=p.disp.toLowerCase().indexOf("inmediata")>=0?"stock":p.disp.toLowerCase().indexOf("pre")>=0?"preorder":"";propList.push({label:"Disponibilidad",value:esc(p.disp),cls:dispCls});}
   if(p.estado)propList.push({label:"Estado",value:esc(p.estado)});
@@ -2083,7 +2174,7 @@ function openModal(p,cat){
   if(p.cantidad&&!_esAgotado(p))propList.push({label:"Disponibles",value:esc(p.cantidad)});
   if(p.reserva||p.reserva_d)propList.push({label:"Reserva con",value:esc(fmtReserva(p.reserva||p.reserva_d)),id:"modal-reserva-val"});
   propList.forEach(function(prop){
-    var d=document.createElement("div");d.className="modal-prop";
+    var d=document.createElement("div");d.className="modal-prop"+(prop.wrap?" "+prop.wrap:"");
     d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'"+(prop.id?' id="'+prop.id+'"':"")+">"+prop.value+"</div>";
     propsEl.appendChild(d);
   });
