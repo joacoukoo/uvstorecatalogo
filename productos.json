@@ -38174,6 +38174,88 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "master-chief-quarter-scale-statue-muh5x7v7",
+        "n": "Master Chief Quarter Scale Statue",
+        "i": "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f41c0648.jpg",
+        "franquicia": "Gaming",
+        "marca": "Prime 1 Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "19500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f41c0648.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-scale-6ab56f45c1bd4.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f4202ccb.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f4237a42.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f426d6a8.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f42a2f88.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f42d45c6.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f431b8b5.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f43573f8.jpg",
+          "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f43a2c81.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con la Master Chief Quarter Scale Statue de Prime 1 Studio, una pieza épica de 78cm de altura que captura al icónico Spartan en su máxima gloria. Con iluminación LED integrada, brazos intercambiables y una base temática de Halo: Combat Evolved, esta estatua de edición limitada es el complemento perfecto para cualquier fan de gaming. Cada detalle ha sido meticulosamente esculpido para ofrecerte una obra maestra de coleccionista que trasciende lo ordinario."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 78 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 54 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 49 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de poliestireno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada y de Coleccionista"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos (2) juegos de brazos intercambiables (Espada de Energía y Rifle de Asalto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática Halo: Combat Evolved"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED (Base, Casco y Espada de Energía)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-25",
+        "reserva": "3900",
+        "entrega": "Sep. 2028",
+        "cantidad": "2"
+      },
+      {
         "id": "raphael-quarter-scale-statue-mufwx6s3",
         "n": "Raphael Quarter Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/916116/pcs-teenage-mutant-ninja-turtles-raphael-quarter-scale-statue-gallery-6aad74b570147.jpg",
