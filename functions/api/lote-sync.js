@@ -63,7 +63,9 @@ async function todosLosCodigos(serviceKey) {
 
 // Lo llama admin-app.html después de guardar un producto (alta o edición). El lote es la
 // fuente de verdad del stock:
-//  - Sin lote: si el producto trae una cantidad numérica (y no es Deluxe), se crea su lote.
+//  - Sin lote: solo si el admin marcó "Crear lote de stock" (`crear_lote`), el producto trae una
+//    cantidad numérica y no es Deluxe, se crea su lote. Los productos que se suben "por si se
+//    venden" (sin pedirlos) quedan sin lote y su cantidad es solo informativa.
 //  - Con lote del producto completo y `cantidad_cambiada`: el admin corrigió "Disponibles" a
 //    mano, así que se ajusta el lote para que le queden exactamente esas unidades
 //    (cantidad del lote = disponibles pedidas + órdenes activas). Si el admin no tocó la
@@ -72,7 +74,7 @@ async function todosLosCodigos(serviceKey) {
 //    lo que también corrige un "Agotado" pisado por una edición con datos viejos.
 export async function onRequestPost({ request, env }) {
   try {
-    const { catalogo_id, producto, marca, escala, cantidad, cantidad_cambiada, precio_d } = await request.json();
+    const { catalogo_id, producto, marca, escala, cantidad, cantidad_cambiada, precio_d, crear_lote } = await request.json();
     if (!catalogo_id || !producto) {
       return new Response(JSON.stringify({ error: 'catalogo_id y producto son requeridos' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
     }
@@ -84,7 +86,7 @@ export async function onRequestPost({ request, env }) {
     let lotes = await buscarLotesPorCatalogoId(serviceKey, catalogo_id);
 
     if (lotes.length === 0) {
-      if (precio_d || !hayCantidad) {
+      if (crear_lote !== true || precio_d || !hayCantidad) {
         return new Response(JSON.stringify({ sin_lote: true }), { headers: { 'Content-Type': 'application/json' } });
       }
       const codigo = generarCodigoLote(producto, marca, await todosLosCodigos(serviceKey));
@@ -114,6 +116,22 @@ export async function onRequestPost({ request, env }) {
 
     const principal = stock.find(s => !s.variante) || stock[0];
     return new Response(JSON.stringify({ disponibles: principal.disponibles, agotado: principal.disponibles <= 0 }), { headers: { 'Content-Type': 'application/json' } });
+  } catch (e) {
+    return new Response(JSON.stringify({ error: e.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
+  }
+}
+
+// Lo usa admin-app.html al abrir un producto para saber si ya tiene lote (y no ofrecer crear otro).
+export async function onRequestGet({ request, env }) {
+  const catalogoId = new URL(request.url).searchParams.get('catalogo_id');
+  if (!catalogoId) {
+    return new Response(JSON.stringify({ error: 'catalogo_id es requerido' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
+  }
+  try {
+    const url = `${SUPABASE_URL}/rest/v1/lotes_pedido?catalogo_id=eq.${encodeURIComponent(catalogoId)}&select=codigo,catalogo_variante`;
+    const res = await fetch(url, { headers: headersServicio(env.SUPABASE_SERVICE_KEY) });
+    if (!res.ok) throw new Error(`Supabase ${res.status}: ${await res.text()}`);
+    return new Response(JSON.stringify({ lotes: await res.json() }), { headers: { 'Content-Type': 'application/json' } });
   } catch (e) {
     return new Response(JSON.stringify({ error: e.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
   }

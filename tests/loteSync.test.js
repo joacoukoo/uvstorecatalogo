@@ -59,7 +59,7 @@ describe('onRequestPost', () => {
   it('crea un lote nuevo cuando no existe uno para ese catalogo_id', async () => {
     const catalog = { Cat: { products: [{ id: 'a', cantidad: '3' }] } };
     const m = mockBackend({ catalog });
-    const { body } = await post({ ...BASE, cantidad: 3, cantidad_cambiada: true });
+    const { body } = await post({ ...BASE, cantidad: 3, cantidad_cambiada: true, crear_lote: true });
 
     expect(body).toEqual({ disponibles: 3, agotado: false });
     const [insert] = llamadas(m, 'POST', '/rest/v1/lotes_pedido');
@@ -68,16 +68,24 @@ describe('onRequestPost', () => {
     expect(llamadas(m, 'PUT', '/contents/')).toHaveLength(0);
   });
 
+  it('no crea lote si el admin no marco "Crear lote de stock" (producto subido por si se vende)', async () => {
+    const m = mockBackend({});
+    const { body } = await post({ ...BASE, cantidad: 2, cantidad_cambiada: true });
+    expect(body).toEqual({ sin_lote: true });
+    expect(llamadas(m, 'POST', '/rest/v1/lotes_pedido')).toHaveLength(0);
+    expect(llamadas(m, 'PUT', '/contents/')).toHaveLength(0);
+  });
+
   it('no crea lote si el producto no trae cantidad', async () => {
     const m = mockBackend({});
-    const { body } = await post({ ...BASE, cantidad: null, cantidad_cambiada: false });
+    const { body } = await post({ ...BASE, cantidad: null, cantidad_cambiada: false, crear_lote: true });
     expect(body).toEqual({ sin_lote: true });
     expect(llamadas(m, 'POST', '/rest/v1/lotes_pedido')).toHaveLength(0);
   });
 
   it('no crea lote para un producto con Deluxe (sus lotes van por variante, a mano)', async () => {
     const m = mockBackend({});
-    const { body } = await post({ ...BASE, cantidad: 2, cantidad_cambiada: true, precio_d: true });
+    const { body } = await post({ ...BASE, cantidad: 2, cantidad_cambiada: true, precio_d: true, crear_lote: true });
     expect(body).toEqual({ sin_lote: true });
     expect(llamadas(m, 'POST', '/rest/v1/lotes_pedido')).toHaveLength(0);
   });
@@ -151,7 +159,7 @@ describe('onRequestPost', () => {
 
   it('devuelve 500 si Supabase retorna un error', async () => {
     mockBackend({ insertFalla: true });
-    const { status, body } = await post({ ...BASE, cantidad: 3, cantidad_cambiada: true });
+    const { status, body } = await post({ ...BASE, cantidad: 3, cantidad_cambiada: true, crear_lote: true });
     expect(status).toBe(500);
     expect(body).toHaveProperty('error');
   });

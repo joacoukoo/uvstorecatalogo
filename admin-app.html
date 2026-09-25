@@ -139,7 +139,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="section-title">Disponibilidad y Precios</div>
     <div class="field-row">
       <div class="field"><label class="field-label">Disponibilidad (disp)</label>
-        <select id="add-disp">
+        <select id="add-disp" onchange="setBool('add-crear-lote',this.value==='Entrega Inmediata')">
           <option value="">-- Estado --</option>
           <option value="Entrega Inmediata">Entrega Inmediata</option>
           <option value="Pre-Orden">Pre-Orden</option>
@@ -167,6 +167,9 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="field-row">
       <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="add-entrega" placeholder="Q1 2025, Marzo 2025..."></div>
       <div class="field"><label class="field-label">Cantidad disponible</label><input type="text" id="add-cantidad" placeholder="1, 2..."></div>
+    </div>
+    <div class="checks" style="margin-bottom:14px">
+      <label class="check-item"><input type="checkbox" id="add-crear-lote"><span>Crear lote de stock (ya lo pedi o lo tengo) <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">— sin lote, la cantidad es solo informativa y nada la agota</span></span></label>
     </div>
 
     <div class="section-title">Fotos — Edicion Regular</div>
@@ -285,6 +288,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="field-row">
       <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="edit-entrega"></div>
       <div class="field"><label class="field-label">Cantidad disponible</label><input type="text" id="edit-cantidad"></div>
+    </div>
+    <div id="edit-lote-info" style="font-size:12px;color:var(--muted2);margin-bottom:6px"></div>
+    <div class="checks" id="edit-crear-lote-row" style="margin-bottom:14px;display:none">
+      <label class="check-item"><input type="checkbox" id="edit-crear-lote"><span>Crear lote de stock (ya lo pedi o lo tengo)</span></label>
     </div>
 
     <div class="section-title">Fotos — Edicion Regular</div>
@@ -478,6 +485,7 @@ function fillAddForm(data){
   if(data.entrega)setField('add-entrega',data.entrega);
   var disp=data.disp||data.estado||'';
   if(disp==='Entrega Inmediata'||disp==='Pre-Orden')setField('add-disp',disp);
+  setBool('add-crear-lote',getField('add-disp')==='Entrega Inmediata');
   setField('add-estado','Nuevo');
   // Default quantity
   setField('add-cantidad','2');
@@ -530,7 +538,7 @@ function resetAddForm(){
   ['add-name','add-franquicia','add-marca','add-escala','add-precio','add-precio-d','add-precio-orig','add-reserva','add-reserva-d','add-entrega','add-cantidad','add-yt','add-cat','add-disp'].forEach(function(id){setField(id,'');});
   setField('add-estado','Nuevo');
   ['add-desc','add-desc-d'].forEach(function(id){setTA(id,'');});
-  ['add-destacado','add-oferta','add-agotado','add-agotado-r','add-agotado-d','add-preorden-mes'].forEach(function(id){setBool(id,false);});
+  ['add-destacado','add-oferta','add-agotado','add-agotado-r','add-agotado-d','add-preorden-mes','add-crear-lote'].forEach(function(id){setBool(id,false);});
   _photos.add={r:[],d:[]};
   renderPhotos('add','r');renderPhotos('add','d');
   document.getElementById('add-form').style.display='none';
@@ -654,10 +662,10 @@ async function catalogAction(body) {
 }
 
 // Se llama DESPUES de que el catalogo se guardo bien. El lote de stock es la fuente de verdad:
-// el servidor crea el lote si hace falta, lo ajusta si el admin cambio la cantidad a mano
+// el servidor crea el lote solo si el admin lo pidio (crearLote), lo ajusta si el admin cambio la cantidad a mano
 // (cantidadCambiada) y deja el Agotado/Disponibles del producto coherente con el lote.
 // Devuelve null si salio todo bien (o si no aplica), o el texto del aviso si fallo. Nunca tira.
-async function syncLoteStock(p, cantidadCambiada){
+async function syncLoteStock(p, cantidadCambiada, crearLote){
   if(!p.id) return null;
   var txt = String(p.cantidad||'').trim();
   var cantidad = /^\d+$/.test(txt) ? parseInt(txt, 10) : null;
@@ -665,7 +673,7 @@ async function syncLoteStock(p, cantidadCambiada){
     var res = await fetch('/api/lote-sync', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ catalogo_id: p.id, producto: p.n, marca: p.marca, escala: p.escala, cantidad: cantidad, cantidad_cambiada: !!cantidadCambiada, precio_d: !!p.precio_d })
+      body: JSON.stringify({ catalogo_id: p.id, producto: p.n, marca: p.marca, escala: p.escala, cantidad: cantidad, cantidad_cambiada: !!cantidadCambiada, precio_d: !!p.precio_d, crear_lote: !!crearLote })
     });
     var data = await res.json();
     if(!res.ok) throw new Error(data.error);
@@ -691,7 +699,7 @@ async function saveAdd(){
   try{
     var product=buildAddProduct();
     await catalogAction({action:'add', category:cat, product:product});
-    var aviso=await syncLoteStock(product, true);
+    var aviso=await syncLoteStock(product, true, getBool('add-crear-lote'));
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
     _catalog=null;
     resetAddForm();
@@ -787,8 +795,34 @@ function openEdit(cat,idx){
   _photos.edit.d=(p.fotos_d||[]).slice();
   renderPhotos('edit','r');
   renderPhotos('edit','d');
+  cargarLoteEdit(p.id);
   document.getElementById('edit-list-container').style.display='none';
   document.getElementById('edit-form').style.display='';
+}
+
+// Muestra el lote vinculado, o la casilla para crearlo si el producto no tiene (ej. se subio
+// "por si se vende" y recien ahora se pidio). El servidor nunca crea un segundo lote.
+async function cargarLoteEdit(id){
+  var info=document.getElementById('edit-lote-info'),row=document.getElementById('edit-crear-lote-row');
+  setBool('edit-crear-lote',false);
+  row.style.display='none';
+  info.textContent='Buscando lote de stock...';
+  try{
+    var res=await fetch('/api/lote-sync?catalogo_id='+encodeURIComponent(id),{cache:'no-store'});
+    var data=await res.json();
+    if(!res.ok) throw new Error(data.error);
+    if(!_editTarget||_editTarget.id!==id) return;
+    if(data.lotes.length){
+      info.textContent='Lote de stock: '+data.lotes.map(function(l){return l.codigo+(l.catalogo_variante?' ('+l.catalogo_variante+')':'');}).join(', ');
+    }else{
+      info.textContent='Sin lote de stock — la cantidad es solo informativa';
+      row.style.display='';
+    }
+  }catch(e){
+    if(!_editTarget||_editTarget.id!==id) return;
+    info.textContent='No se pudo verificar el lote ('+e.message+')';
+    row.style.display='';
+  }
 }
 
 function cancelEdit(){
@@ -831,7 +865,7 @@ async function saveEdit(){
   setStatus('Guardando...','orange');
   try{
     await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
-    var aviso=await syncLoteStock(updated, String(updated.cantidad||'').trim()!==String(p.cantidad||'').trim());
+    var aviso=await syncLoteStock(updated, String(updated.cantidad||'').trim()!==String(p.cantidad||'').trim(), getBool('edit-crear-lote'));
     _catalog=null;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();
