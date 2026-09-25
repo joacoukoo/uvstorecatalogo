@@ -53787,6 +53787,79 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "iron-man-metallic-comics-1-10-art-scale-statue-by--muh5t77p",
+        "n": "Iron Man (Metallic Comics) 1:10 Art Scale Statue by Iron Studios",
+        "i": "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa44d824.jpg",
+        "franquicia": "Marvel",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa44d824.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-scale-6aa85fa772260.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa48cbf8.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa4c897f.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa5102f4.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa54d918.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa588e65.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa5c3aaa.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa609e25.jpg",
+          "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa6431c1.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la grandiosidad del Hombre de Hierro con esta espectacular estatua Art Scale de Iron Studios, donde el icónico traje metálico rojo y dorado brilla con todo su esplendor. Esta pieza de colección premium captura la esencia del Invencible Vengador en una pose dinámina rodeado de hologramas tecnológicos que evocan su genio inventivo. Perfecta para los verdaderos devotos del Universo Marvel que buscan una obra maestra de artesanía de museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina con pintura al óleo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: BDS Art Scale"
+          },
+          {
+            "t": "notion-text",
+            "x": "incluye:"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Iron Man con traje metálico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Plataforma temática con paneles holográficos iluminados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios interactivos diorama"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-25",
+        "reserva": "600",
+        "cantidad": "2"
+      },
+      {
         "id": "blue-eyes-white-dragon-diorama-led-collectible-lam-mufwm3e0",
         "n": "Blue Eyes White Dragon Diorama LED Collectible Lamp",
         "i": "https://www.sideshow.com/storage/product-images/915222/forge-panda-yu-gi-oh-blue-eyes-white-dragon-diorama-led-collectible-lamp-gallery-695eb19c41589.jpg",
