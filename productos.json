@@ -53869,6 +53869,80 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "azog-art-mask-life-size-bust-by-purearts-muh5z3yt",
+        "n": "Azog Art Mask Life-Size Bust by PureArts",
+        "i": "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d463fcbb.jpg",
+        "franquicia": "Otros",
+        "marca": "",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "15200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d463fcbb.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-scale-6ab58d498cf57.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d468e052.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d46d96dd.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d473645f.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d4767d78.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d479858b.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d47de40a.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d482e2ba.jpg",
+          "https://www.sideshow.com/storage/product-images/916144/purearts-the-lord-of-the-rings-azog-art-mask-life-size-bust-gallery-6ab58d4871c96.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la presencia intimidante de Azog el Desfigurador con esta busto de vida de PureArts, una obra maestra hiperdetallada que captura cada cicatriz y rasgo del legendario antagonista. Con piel de silicona de realismo extremo y ojos de cristal, esta pieza es un tributo perfecto para coleccionistas apasionados del universo de El Hobbit."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 45 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona, poliresina y cristal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Poliresina con textura rocosa"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Azog hiperdetallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de poliresina con maza de guerra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa numerada en la base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad (COA) con número de edición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-25",
+        "reserva": "3040",
+        "entrega": "Sep. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "iron-man-metallic-comics-1-10-art-scale-statue-by--muh5t77p",
         "n": "Iron Man (Metallic Comics) 1:10 Art Scale Statue by Iron Studios",
         "i": "https://www.sideshow.com/storage/product-images/914973/iron-studios-marvel-iron-man-metallic-comics-1-10-scale-statues-gallery-6aa85fa44d824.jpg",
