@@ -38174,6 +38174,37 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "pokemon-emo-studio-mega-rayquaza-x-groudon-x-kyogr-muh7a1m4",
+        "n": "Pokemon EMO Studio Mega Rayquaza X Groudon X Kyogre Resin Statue - Kaioland",
+        "i": "https://www.kaioland.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-25-142337-1024x634.avif",
+        "franquicia": "Anime",
+        "marca": "Emo Studio",
+        "escala": "Diorama",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11500",
+        "fotos": [
+          "https://www.kaioland.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-25-142337-1024x634.avif",
+          "https://www.kaioland.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-25-142353-1024x635.avif",
+          "https://www.kaioland.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-25-142401.avif",
+          "https://www.kaioland.com/wp-content/uploads/2026/09/Captura-de-pantalla-2026-09-25-142407-1024x701.avif"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Lleva la batalla elemental más icónica de Hoenn a tu exhibición con la estatua de resina Pokémon Legendary Trio (Mega Rayquaza x Primal Groudon x Primal Kyogre) de EMO Studio. Un diorama de alto nivel que plasma el choque supremo entre los tres titanes legendarios en una escena llena de dinamismo y poder. Con impresionantes efectos translúcidos que simulan energía, fuego y agua, esta pieza de edición limitada es una joya imprescindible para todo coleccionista exigente de la franquicia. Un trabajo de esculpido magistral diseñado para ser el centro de atención absoluto.\n\nIncluye:\n\nEscena completa con Mega Rayquaza, Primal Groudon y Primal Kyogre\n\nBase diorama con efectos de resina transparente (agua, aura y ráfagas)\n\nCertificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-25",
+        "reserva": "2300",
+        "cantidad": "2"
+      },
+      {
         "id": "master-chief-quarter-scale-statue-muh5x7v7",
         "n": "Master Chief Quarter Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/916122/prime-1-studio-halo-master-chief-quarter-scale-statue-gallery-6ab56f41c0648.jpg",
