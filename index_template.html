@@ -1509,11 +1509,11 @@ function buildHome(){
   document.getElementById("feat-meta").textContent=(destLabel>0?destLabel+" destacados":destProds.length+" figuras");
   var fg=document.getElementById("feat-grid");fg.innerHTML="";
   _agotadasAlFinal(destProds.slice(0,16)).forEach(function(r){fg.appendChild(makeCard(r.p,r.cat));});
-  // Hero: vitrina con figuras que se pueden comprar ya o destacadas (sin agotadas), al azar.
+  // Hero: vitrina con figuras que se pueden comprar ya o destacadas (sin agotadas ni vendidas), al azar.
   var heroTop=[],heroRest=[];
   CAT_KEYS.forEach(function(c){
     (DATA[c]||{products:[]}).products.forEach(function(p){
-      if(!(p.i||(p.fotos&&p.fotos.length>0))||_esAgotado(p)||!p.precio)return;
+      if(!(p.i||(p.fotos&&p.fotos.length>0))||_esAgotado(p)||!p.precio||(p.disp||"").toLowerCase().indexOf("vendid")>=0)return;
       var enStock=(p.disp||"").toLowerCase().indexOf("inmediata")>=0;
       (p.destacado||enStock?heroTop:heroRest).push({p:p,cat:c});
     });
