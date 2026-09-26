@@ -10002,6 +10002,99 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "darth-vader-mustafar-artisan-edition-sixth-scale-f-muhowpyk",
+        "n": "Darth Vader™ (Mustafar) (Artisan Edition) Sixth Scale Figure by Hot Toys",
+        "i": "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b524469.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "6000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b524469.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-scale-68e6c6b9dbefb.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b59a312.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b61b8ef.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b67569d.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b71492d.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b76687a.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b7c08f8.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b82f142.jpg",
+          "https://www.sideshow.com/storage/product-images/9146252/hot-toys-star-wars-darth-vader-mustafar-artisan-edition-sixth-scale-figure-gallery-68e6c6b8abb4a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la transformación épica de Anakin Skywalker a Darth Vader con esta figura Artisan Edition de Hot Toys, que captura magistralmente el momento crucial en Mustafar con un escultor de cabeza de Hayden Christensen con ojos amarillos Sith y cabello implantado de lana. Con 30 puntos de articulación, 9 manos intercambiables y un sable de luz LED iluminado, esta obra maestra coleccionable ofrece infinitas posibilidades de exhibición y posicionamiento."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, tela, cuero sintético y silicona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Artisan (Exclusiva Sideshow)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 manos intercambiables (puños, abierta, sosteniendo sables, uso de Fuerza)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazo mecánico intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje completo de Anakin Skywalker (túnica Jedi, tabardo, túnicas, pantalones, botas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de utilidad con hebilla plateada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable de luz LED con iluminación roja (USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable de luz sin LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 hojas de sable rojo (estática y en movimiento)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 hojas de sable azul (estática y en movimiento)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama LED iluminada con droide de panorámica de Mustafar y efectos de lava"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-26",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "nicepool-sixth-scale-figure-by-hot-toys-muhoc4un",
         "n": "Nicepool Sixth Scale Figure by Hot Toys",
         "i": "https://www.sideshow.com/storage/product-images/914072/hot-toys-marvel-nicepool-sixth-scale-figure-gallery-6776bda0d62f9.jpg",
