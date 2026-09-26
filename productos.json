@@ -10002,6 +10002,87 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "darth-vader-action-figure-by-hono-studio-muhnnpq0",
+        "n": "Darth Vader™ Action Figure by HONO Studio",
+        "i": "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee6247166.jpg",
+        "franquicia": "Star Wars",
+        "marca": "HONO Studio",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee6247166.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-scale-6814f337e3e76.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee62b4076.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee656cafa.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee632b9d0.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee63a7997.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee64895fb.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee66e3b7a.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814eea5a9e61.jpg",
+          "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814eea6458db.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la galaxia con esta figura de acción Darth Vader 1/6 de HONO Studio, que captura cada detalle del Señor Oscuro con armadura negra meticulosamente elaborada y capa de tela. Incluye sable de luz LED iluminado con batería USB y múltiples manos intercambiables para recrear las poses más icónicas del personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico, tela, metal y componentes LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable de luz LED rojo con alimentación USB"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sable de luz sin luz"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja roja intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de manos relajadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de manos para sostener sable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 puño izquierdo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 mano izquierda para usar la Fuerza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-26",
+        "reserva": "560",
+        "cantidad": "3"
+      },
+      {
         "id": "stormtrooper-action-figure-by-hono-studio-muhnkgst",
         "n": "Stormtrooper™ Action Figure by HONO Studio",
         "i": "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d57d0a36.jpg",
