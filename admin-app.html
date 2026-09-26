@@ -157,7 +157,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
     <div class="field-row-3">
       <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="add-precio" placeholder="0"></div>
-      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="add-precio-d" placeholder="0"></div>
+      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="add-precio-d" oninput="toggleAgotadoVar('add')" placeholder="0"></div>
       <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="add-precio-orig" placeholder="Para ofertas"></div>
     </div>
     <div class="field-row">
@@ -201,10 +201,13 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="checks">
       <label class="check-item"><input type="checkbox" id="add-destacado"><span>Destacado</span></label>
       <label class="check-item"><input type="checkbox" id="add-oferta"><span>Oferta</span></label>
-      <label class="check-item"><input type="checkbox" id="add-agotado"><span>Agotado</span></label>
-      <label class="check-item"><input type="checkbox" id="add-agotado-r"><span>Agotado Regular</span></label>
-      <label class="check-item"><input type="checkbox" id="add-agotado-d"><span>Agotado Deluxe</span></label>
+      <label class="check-item"><input type="checkbox" id="add-agotado"><span>Agotada</span></label>
       <label class="check-item"><input type="checkbox" id="add-preorden-mes"><span>Pre orden del mes</span></label>
+    </div>
+    <div class="checks" id="add-agotado-var" style="display:none;margin-top:8px">
+      <span style="font-size:12px;color:var(--muted2);align-self:center">Si solo se agoto una version:</span>
+      <label class="check-item"><input type="checkbox" id="add-agotado-r"><span>Regular agotada</span></label>
+      <label class="check-item"><input type="checkbox" id="add-agotado-d"><span>Deluxe agotada</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('add')">Regenerar descripción</button>
@@ -278,7 +281,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
     <div class="field-row-3">
       <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="edit-precio"></div>
-      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="edit-precio-d"></div>
+      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="edit-precio-d" oninput="toggleAgotadoVar('edit')"></div>
       <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="edit-precio-orig"></div>
     </div>
     <div class="field-row">
@@ -323,10 +326,13 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="checks">
       <label class="check-item"><input type="checkbox" id="edit-destacado"><span>Destacado</span></label>
       <label class="check-item"><input type="checkbox" id="edit-oferta"><span>Oferta</span></label>
-      <label class="check-item"><input type="checkbox" id="edit-agotado"><span>Agotado</span></label>
-      <label class="check-item"><input type="checkbox" id="edit-agotado-r"><span>Agotado Regular</span></label>
-      <label class="check-item"><input type="checkbox" id="edit-agotado-d"><span>Agotado Deluxe</span></label>
+      <label class="check-item"><input type="checkbox" id="edit-agotado"><span>Agotada</span></label>
       <label class="check-item"><input type="checkbox" id="edit-preorden-mes"><span>Pre orden del mes</span></label>
+    </div>
+    <div class="checks" id="edit-agotado-var" style="display:none;margin-top:8px">
+      <span style="font-size:12px;color:var(--muted2);align-self:center">Si solo se agoto una version:</span>
+      <label class="check-item"><input type="checkbox" id="edit-agotado-r"><span>Regular agotada</span></label>
+      <label class="check-item"><input type="checkbox" id="edit-agotado-d"><span>Deluxe agotada</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('edit')">Regenerar descripción</button>
@@ -498,6 +504,21 @@ function makeId(name){
     +'-'+Date.now().toString(36);
 }
 
+// "Agotada" es la unica casilla que hace falta. Las de Regular/Deluxe solo aparecen si la figura
+// tiene precio Deluxe, para cuando se agota una sola version.
+function toggleAgotadoVar(m){
+  var row=document.getElementById(m+'-agotado-var');
+  if(row) row.style.display=getField(m+'-precio-d')?'':'none';
+}
+// Reglas al guardar: disponibilidad "Vendido" => agotada; ambas versiones agotadas => agotada;
+// sin precio Deluxe no existen las versiones.
+function normalizarAgotado(p){
+  if(!p.precio_d){ p.agotado_r=false; p.agotado_d=false; }
+  if(p.precio_d && p.agotado_r && p.agotado_d) p.agotado=true;
+  if(String(p.disp||'').toLowerCase()==='vendido') p.agotado=true;
+  return p;
+}
+
 function buildAddProduct(){
   var now=new Date().toISOString().slice(0,10);
   var fotos=_photos.add.r.slice();
@@ -531,7 +552,7 @@ function buildAddProduct(){
   var cn=getField('add-cantidad');if(cn)p.cantidad=cn;
   var yt=getField('add-yt');if(yt)p.yt=yt;
   if(fotos_d.length)p.fotos_d=fotos_d;
-  return p;
+  return normalizarAgotado(p);
 }
 
 function resetAddForm(){
@@ -539,6 +560,7 @@ function resetAddForm(){
   setField('add-estado','Nuevo');
   ['add-desc','add-desc-d'].forEach(function(id){setTA(id,'');});
   ['add-destacado','add-oferta','add-agotado','add-agotado-r','add-agotado-d','add-preorden-mes','add-crear-lote'].forEach(function(id){setBool(id,false);});
+  toggleAgotadoVar('add');
   _photos.add={r:[],d:[]};
   renderPhotos('add','r');renderPhotos('add','d');
   document.getElementById('add-form').style.display='none';
@@ -791,6 +813,7 @@ function openEdit(cat,idx){
   setBool('edit-agotado-r',p.agotado_r);
   setBool('edit-agotado-d',p.agotado_d);
   setBool('edit-preorden-mes',p.preorden_mes);
+  toggleAgotadoVar('edit');
   _photos.edit.r=(p.fotos||[]).slice();
   _photos.edit.d=(p.fotos_d||[]).slice();
   renderPhotos('edit','r');
@@ -861,11 +884,19 @@ async function saveEdit(){
   var rvd=getField('edit-reserva-d');updated.reserva_d=rvd||undefined;
   var po=getField('edit-precio-orig');updated.precio_orig=po||undefined;
   var fd=_photos.edit.d.slice();updated.fotos_d=fd.length?fd:undefined;
+  normalizarAgotado(updated);
+  // Con lote de stock, el lote manda: marcar "Agotada" se traduce en 0 disponibles para que el
+  // sync no la vuelva a poner disponible. (Sin lote no cambia nada: la cantidad es informativa.)
+  var seAgoto=updated.agotado&&!p.agotado&&!updated.precio_d;
+  if(seAgoto) updated.cantidad='0';
   var newCat=getField('edit-cat');
   setStatus('Guardando...','orange');
   try{
     await catalogAction({action:'edit', productId:productId, product:updated, newCategory:newCat});
-    var aviso=await syncLoteStock(updated, String(updated.cantidad||'').trim()!==String(p.cantidad||'').trim(), getBool('edit-crear-lote'));
+    var aviso=await syncLoteStock(updated, seAgoto||String(updated.cantidad||'').trim()!==String(p.cantidad||'').trim(), getBool('edit-crear-lote'));
+    if(!aviso&&p.agotado&&!updated.agotado&&!updated.precio_d&&!/^[1-9]\d*$/.test(String(updated.cantidad||'').trim())){
+      aviso='Aviso: si la figura tiene lote de stock, pone la "Cantidad disponible" (1, 2...) para que vuelva a estar disponible';
+    }
     _catalog=null;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();

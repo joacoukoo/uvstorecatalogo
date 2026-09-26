@@ -340,7 +340,8 @@
         "agotado_d": false,
         "added_at": "2026-04-16",
         "reserva": "1080",
-        "cantidad": "0"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "wolverine-tva-jacket-version-mnqjskgn",
@@ -425,7 +426,8 @@
         "agotado_d": false,
         "added_at": "2026-04-08",
         "precio_orig": "4200",
-        "cantidad": "0"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "n": "Armored Batman (2.0)",
@@ -812,7 +814,8 @@
         "id": "mirage-dlx",
         "added_at": "2026-04-05T19:47:22.893Z",
         "agotado_r": true,
-        "agotado_d": true
+        "agotado_d": true,
+        "agotado": true
       },
       {
         "n": "ROBO-DOU Ingram Unit 1 – Reactive Armor Version",
@@ -1151,7 +1154,8 @@
         "id": "ahsoka-tano-clone-wars",
         "content_ok": true,
         "agotado_r": true,
-        "agotado_d": true
+        "agotado_d": true,
+        "agotado": true
       },
       {
         "n": "Arc Trooper Fives",
@@ -1427,7 +1431,8 @@
         "id": "spider-man-black-suit",
         "content_ok": true,
         "agotado_r": true,
-        "agotado_d": true
+        "agotado_d": true,
+        "agotado": true
       },
       {
         "n": "Grogu Life-Size",
@@ -1512,7 +1517,8 @@
         "id": "grogu-life-size",
         "content_ok": true,
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "agotado": true
       },
       {
         "n": "Batman (1989)",
@@ -1670,7 +1676,8 @@
         "id": "batman-1989",
         "content_ok": true,
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "agotado": true
       },
       {
         "n": "Mandalorian Super Commando Captain",
@@ -2094,7 +2101,8 @@
         "id": "iron-man-mark-i-edicion-especial",
         "content_ok": true,
         "agotado_r": true,
-        "agotado_d": true
+        "agotado_d": true,
+        "agotado": true
       },
       {
         "n": "King Shark",
@@ -2397,7 +2405,8 @@
         "id": "jack-sparrow-deluxe",
         "content_ok": true,
         "agotado_r": true,
-        "agotado_d": true
+        "agotado_d": true,
+        "agotado": true
       },
       {
         "n": "Boba Fett (Quarter Scale Deluxe)",
@@ -3806,7 +3815,8 @@
           "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-03-courtesy-of-Disney-Robosen.png",
           "https://attractionsmagazine.com/wp-content/uploads/2024/10/Buzz-Lightyear-toy-robot-08-courtesy-of-Disney-Robosen-copy.png"
         ],
-        "fotos_d": []
+        "fotos_d": [],
+        "agotado": true
       },
       {
         "n": "Ellie – The Last of Us Part II",
@@ -4007,7 +4017,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914572/hot-toys-marvel-iron-man-mark-iv-sub-zero-fractal-armor-sixth-scale-figure-gallery-68cacefdcf4c3.jpg"
         ],
         "id": "iron-man-mark-iv-sub-zero-fractal-armor",
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Batman: The Dark Knight Returns",
@@ -4168,7 +4179,8 @@
         "agotado_d": true,
         "fotos": [
           "https://cdn.toyokoku.com.au/app/uploads/2023/01/05001242/WeChat-Image_20230104234155.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Batman & Robin 66",
@@ -4218,7 +4230,8 @@
         "franquicia": "DC Comics",
         "destacado": false,
         "oferta": false,
-        "id": "batman-robin-66"
+        "id": "batman-robin-66",
+        "agotado": true
       },
       {
         "n": "Iron Man – Origins (Deluxe Version)",
@@ -4881,7 +4894,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913363/darth-maul_star-wars_gallery_6635113dc91c1.jpg"
         ],
         "id": "darth-maul-the-phantom-menace",
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Peacemaker (Season 1)",
@@ -6089,7 +6103,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912975/zoltar-speaks-fortune-teller-machine_zoltar-speaks_gallery_666b818676e83.jpg"
         ],
         "id": "zoltar-speaks-fortune-teller-machine-scaled-replica",
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Pegaso Deluxe",
@@ -6125,7 +6140,8 @@
         ],
         "id": "pegaso-deluxe",
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "agotado": true
       },
       {
         "n": "Optimus Prime (War for Cybertron)",
@@ -7379,7 +7395,8 @@
         ],
         "id": "don-vito-corleone",
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "agotado": true
       },
       {
         "n": "Proxima Midnight",
@@ -7561,7 +7578,8 @@
         ],
         "id": "she-ra-swiftwind-origins-2-pack",
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "agotado": true
       },
       {
         "n": "Batman (1989) – Original Motion Picture Score LP & Graphic Novel Box Set",
@@ -9511,7 +9529,8 @@
         ],
         "agotado_r": true,
         "agotado_d": true,
-        "cantidad": "0"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "n": "The Amazing Spider-Man",
@@ -9559,7 +9578,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913818/hot-toys-marvel-the-amazing-spider-man-sixth-scale-figure-gallery-678a8c3a83017.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913818/hot-toys-marvel-the-amazing-spider-man-sixth-scale-figure-gallery-678a8c3a88187.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913818/hot-toys-marvel-the-amazing-spider-man-sixth-scale-figure-gallery-678a8c3a8dd1d.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "X-23",
@@ -9611,7 +9631,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913951/hot-toys-marvel-x-23-sixth-scale-figure-gallery-673f5ad155ecb.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913951/hot-toys-marvel-x-23-sixth-scale-figure-gallery-673f5ad0e171e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913951/hot-toys-marvel-x-23-sixth-scale-figure-gallery-673f5ad0442ec.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Batman Returns 1992",
@@ -9873,7 +9894,8 @@
           }
         ],
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "agotado": true
       },
       {
         "n": "Peter Parker (Anti-Venom Suit)",
@@ -9994,7 +10016,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914002/hot-toys-marvel-peter-parker-anti-venom-suit-sixth-scale-figure-gallery-6751cfda178e5.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914002/hot-toys-marvel-peter-parker-anti-venom-suit-sixth-scale-figure-gallery-6751cfda9fd15.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       }
     ]
   },
@@ -20510,7 +20533,8 @@
         "added_at": "2026-04-09",
         "reserva": "1100",
         "entrega": "Diciembre 2026",
-        "cantidad": "Consultar Disponibilidad"
+        "cantidad": "Consultar Disponibilidad",
+        "agotado": true
       },
       {
         "id": "lionel-messi-qatar-world-cup-champion",
@@ -24788,7 +24812,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914711/hot-toys-dc-comics-the-joker-bank-robber-version-sixth-scale-figure-gallery-687fd5ced5607.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914711/hot-toys-dc-comics-the-joker-bank-robber-version-sixth-scale-figure-gallery-687fd5cf3a039.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "John Wick",
@@ -25200,7 +25225,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-28T19:27:07.011482"
+        "added_at": "2026-03-28T19:27:07.011482",
+        "agotado": true
       },
       {
         "id": "indiana-jones",
@@ -25360,7 +25386,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911557/robo-dou-griffon__gallery_62d9a0136576f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911557/robo-dou-griffon__gallery_62d9a013bb89a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911557/robo-dou-griffon__gallery_62d9a03920583.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "id": "quint",
@@ -30355,7 +30382,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513dd73db.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914714/hot-toys-robocop-robocain-sixth-scale-figure-gallery-6881513e2f7f4.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Big Chap",
@@ -31109,7 +31137,7 @@
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/the-thing",
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
-        "estado": "Vendido",
+        "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "3800",
         "precio_d": "",
@@ -31597,7 +31625,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914692/hot-toys-kamen-rider-battle-hopper-sixth-scale-figure-accessory-gallery-68782f80e8da4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914692/hot-toys-kamen-rider-battle-hopper-sixth-scale-figure-accessory-gallery-68782f816f0c3.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Joel Miller",
@@ -35147,7 +35176,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eef8c9b9.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914192/hot-toys-marvel-captain-america-sixth-scale-figure-gallery-67a62eefe3e9c.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Vi (Arcane)",
@@ -35770,7 +35800,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c1760e5.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914044/hot-toys-dc-comics-batman-sixth-scale-figure-gallery-6761a6c1d5057.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Plo Koon",
@@ -36093,7 +36124,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cb34e002.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913994/hot-toys-marvel-captain-america-stealth-strike-suit-20-sixth-scale-figure-gallery-674f2cc798df0.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Scorched Xenomorph",
@@ -36198,7 +36230,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744079d49e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744080949a.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Jinx (Arcane)",
@@ -36369,7 +36402,8 @@
         ],
         "content_ok": true,
         "agotado_r": true,
-        "agotado_d": true
+        "agotado_d": true,
+        "agotado": true
       },
       {
         "n": "TK Stormtrooper™",
@@ -42141,7 +42175,8 @@
         "agotado_d": true,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "0"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "goku-tribute-akira-toriyama-mpigtdv5",
@@ -53291,7 +53326,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915334/megahouse-jujutsu-kaisen-satoru-gojo-hollow-technique-purple-version-collectible-figure-gallery-6984f221d5f44.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915334/megahouse-jujutsu-kaisen-satoru-gojo-hollow-technique-purple-version-collectible-figure-gallery-6984f22214ce5.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915334/megahouse-jujutsu-kaisen-satoru-gojo-hollow-technique-purple-version-collectible-figure-gallery-6984f2224a578.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Aquaman™: Lord of the Deep",
@@ -53767,7 +53803,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef69a018.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef6d5382.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914972/iron-studios-predator-greyback-elder-predator-1-10-scale-statues-gallery-699dfef71e462.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Batgirl™ (Stephanie Brown Variant)",
@@ -53807,7 +53844,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643abbc976.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643ac3f484.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/3008542/sideshow-collectibles-dc-comics-batgirl-stephanie-brown-variant-premium-format-figure-gallery-699643aca108e.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Mai Shiranui (Ultimate Bonus Version)",
@@ -61200,7 +61238,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915322/tamashii-nations-marvel-wolverine-gamerverse-action-figure-gallery-6983752818115.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915322/tamashii-nations-marvel-wolverine-gamerverse-action-figure-gallery-698375284d47e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915322/tamashii-nations-marvel-wolverine-gamerverse-action-figure-gallery-6983753459c4a.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Kamen Rider Black RX",
@@ -61506,7 +61545,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915274/mondo-beavis-and-butt-head-beavis-and-butt-head-collectible-set-gallery-6972a2307d019.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915274/mondo-beavis-and-butt-head-beavis-and-butt-head-collectible-set-gallery-6972a230a20bf.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Skeletor MOTU200X",
@@ -63833,7 +63873,8 @@
         "yt": "",
         "destacado": false,
         "oferta": false,
-        "added_at": "2026-03-29T23:51:21.747081"
+        "added_at": "2026-03-29T23:51:21.747081",
+        "agotado": true
       },
       {
         "id": "bunny-girl-firefly",
