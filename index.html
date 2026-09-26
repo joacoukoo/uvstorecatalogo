@@ -923,52 +923,35 @@ button:focus-visible,a:focus-visible{
   .marquee-track{animation:none!important}
   .reveal{opacity:1!important;transform:none!important;transition:none!important}
 }
-/* ── Pre Orden del Mes: panel con la foto en carta y el resplandor de la figura ── */
-#preorden-band{padding:8px 32px 40px}
-.po-panel{position:relative;max-width:1100px;margin:0 auto;border-radius:24px;overflow:hidden;
-  border:1px solid rgba(229,185,107,.22);background:var(--bg2);
-  box-shadow:0 30px 80px rgba(0,0,0,.45)}
+/* ── Pre Orden del Mes: franja compacta (foto chica en carta + resplandor suave) ── */
+#preorden-band{padding:0 32px 28px}
+.po-panel{position:relative;max-width:1100px;margin:0 auto;border-radius:16px;overflow:hidden;
+  border:1px solid rgba(229,185,107,.18);background:var(--bg2)}
 .po-amb{position:absolute;inset:0;pointer-events:none}
-.po-amb img{position:absolute;left:-10%;top:-20%;width:70%;height:140%;object-fit:cover;filter:blur(70px) saturate(1.5);opacity:.45}
-.po-amb::after{content:'';position:absolute;inset:0;
-  background:linear-gradient(100deg,transparent 0%,rgba(13,13,20,.55) 45%,rgba(13,13,20,.92) 75%),
-             radial-gradient(ellipse at 85% 0%,rgba(229,185,107,.12),transparent 55%)}
-.po-grid{position:relative;display:grid;grid-template-columns:minmax(240px,340px) 1fr;gap:40px;align-items:center;padding:36px 44px}
-.po-card{position:relative;aspect-ratio:4/5;border-radius:18px;overflow:hidden;cursor:pointer;
-  border:1px solid rgba(255,255,255,.1);box-shadow:0 26px 60px rgba(0,0,0,.6);background:var(--bg3)}
-.po-card img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;transition:transform .6s ease}
-.po-card:hover img{transform:scale(1.04)}
-.po-tag{font-family:"Syne",sans-serif;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
-.po-name{font-family:"Bebas Neue",sans-serif;font-size:clamp(38px,4.4vw,58px);letter-spacing:1px;color:#fff;line-height:.95}
-.po-name.po-name-long{font-family:"DM Sans",sans-serif;font-weight:700;font-size:clamp(24px,2.4vw,32px);letter-spacing:0;line-height:1.2}
-.po-sub{font-size:13px;color:var(--muted2);margin-top:10px}
-.po-facts{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 24px}
-.po-fact{background:rgba(255,255,255,.04);border:1px solid var(--border2);border-radius:12px;padding:10px 16px;min-width:110px}
-.po-fact-lbl{font-family:"Syne",sans-serif;font-size:9px;font-weight:600;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
-.po-fact-val{font-size:15px;font-weight:600;color:var(--text)}
-.po-fact-val.gold{font-size:22px;font-weight:700;color:var(--gold-l)}
-.po-fact-val.gold span{font-size:13px;color:var(--gold);margin-right:2px}
-.po-actions{display:flex;gap:10px;flex-wrap:wrap}
-.po-wa{display:inline-flex;align-items:center;gap:9px;background:#25D366;color:#fff;text-decoration:none;
-  border-radius:10px;padding:13px 22px;font-size:14px;font-weight:600;transition:background .15s}
+.po-amb img{position:absolute;left:-5%;top:-60%;width:40%;height:220%;object-fit:cover;filter:blur(50px) saturate(1.4);opacity:.3}
+.po-amb::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(13,13,20,.7) 30%,rgba(13,13,20,.95) 60%)}
+.po-grid{position:relative;display:grid;grid-template-columns:84px 1fr auto;gap:20px;align-items:center;padding:14px 22px 14px 14px}
+.po-card{width:84px;aspect-ratio:4/5;border-radius:10px;overflow:hidden;cursor:pointer;
+  border:1px solid rgba(255,255,255,.1);box-shadow:0 10px 24px rgba(0,0,0,.5);background:var(--bg3)}
+.po-card img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.po-tag{font-family:"Syne",sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.po-name{font-family:"Bebas Neue",sans-serif;font-size:26px;letter-spacing:.5px;color:#fff;line-height:1.05}
+.po-name.po-name-long{font-family:"DM Sans",sans-serif;font-weight:700;font-size:17px;letter-spacing:0;line-height:1.25}
+.po-line{font-size:12.5px;color:var(--muted2);margin-top:5px}
+.po-line b{color:var(--gold-l);font-weight:700;font-size:14px}
+.po-actions{display:flex;align-items:center;gap:14px}
+.po-wa{background:#25D366;color:#fff;text-decoration:none;border-radius:9px;padding:10px 18px;font-size:13px;font-weight:600;white-space:nowrap;transition:background .15s}
 .po-wa:hover{background:#1fb855}
-.po-more{background:transparent;color:var(--text);border:1px solid var(--border2);border-radius:10px;
-  padding:13px 20px;font-size:14px;font-weight:600;cursor:pointer;font-family:"DM Sans",sans-serif;transition:border-color .15s}
-.po-more:hover{border-color:var(--purple)}
-.po-note{font-size:12px;color:var(--muted);margin-top:14px}
+.po-more{background:none;border:none;color:var(--muted2);font-size:13px;font-weight:500;cursor:pointer;font-family:"DM Sans",sans-serif;white-space:nowrap;padding:0}
+.po-more:hover{color:#fff}
 @media(max-width:768px){
-  #preorden-band{padding:0 16px 32px}
-  .po-grid{grid-template-columns:1fr;gap:20px;padding:18px 18px 22px}
-  .po-card{aspect-ratio:1/1}
-  .po-amb img{left:-20%;top:-10%;width:140%;height:70%}
-  .po-amb::after{background:linear-gradient(180deg,transparent 0%,rgba(13,13,20,.6) 40%,rgba(13,13,20,.94) 65%)}
-  .po-facts{margin:16px 0 18px;gap:8px}
-  .po-fact{flex:1;min-width:0;padding:9px 12px}
-  .po-fact-val{font-size:13.5px}
-  .po-fact-val.gold{font-size:18px}
-  .po-actions>*{flex:1;justify-content:center;text-align:center}
-  .po-wa,.po-more{padding:12px 10px;font-size:13.5px;white-space:nowrap}
-  .po-fact-lbl{letter-spacing:1.2px;white-space:nowrap}
+  #preorden-band{padding:0 16px 24px}
+  .po-grid{grid-template-columns:72px 1fr;gap:10px 14px;padding:12px}
+  .po-card{width:72px}
+  .po-name{font-size:22px}
+  .po-name.po-name-long{font-size:15px}
+  .po-actions{grid-column:1/3;justify-content:space-between}
+  .po-wa{flex:1;text-align:center}
 }
 /* ══ MEJORAS UX 2026-09 ══ */
 .hero-ctas{display:flex;gap:10px;flex-wrap:wrap;margin:-8px 0 24px;pointer-events:auto}
@@ -1591,13 +1574,12 @@ function renderPreOrdenBand(){
   var now=new Date();
   var monthLabel=months[now.getMonth()]+" "+now.getFullYear();
   var foto=(found.fotos&&found.fotos.length>0)?found.fotos[0]:found.i;
-  var sub=[found.franquicia,found.marca,found.escala].filter(Boolean).join(" \u00B7 ");
   var link=location.origin+"/p/"+encodeURIComponent(found.id||"");
   var wa="https://wa.me/50230261622?text="+encodeURIComponent("Hola, quiero reservar la pre-orden del mes: "+found.n+"\nLink: "+link);
-  var facts="";
-  if(found.precio)facts+="<div class='po-fact'><div class='po-fact-lbl'>Precio</div><div class='po-fact-val gold'><span>Q</span>"+esc(fmtQ(found.precio))+"</div></div>";
-  if(found.reserva)facts+="<div class='po-fact'><div class='po-fact-lbl'>Reserva con</div><div class='po-fact-val'>"+esc(fmtReserva(found.reserva))+"</div></div>";
-  if(found.entrega)facts+="<div class='po-fact'><div class='po-fact-lbl'>Entrega</div><div class='po-fact-val'>"+esc(found.entrega)+"</div></div>";
+  var partes=[];
+  if(found.precio)partes.push("<b>Q"+esc(fmtQ(found.precio))+"</b>");
+  if(found.reserva)partes.push("Reserva "+esc(fmtReserva(found.reserva)));
+  if(found.entrega)partes.push("Entrega "+esc(found.entrega));
   band.innerHTML="<div class='po-panel'>"+
     "<div class='po-amb'><img src='"+esc(foto)+"' alt='' loading='lazy' referrerpolicy='no-referrer'></div>"+
     "<div class='po-grid'>"+
@@ -1605,13 +1587,11 @@ function renderPreOrdenBand(){
       "<div class='po-info'>"+
         "<div class='po-tag'>\u2726 Pre-orden del mes \u00B7 "+monthLabel+"</div>"+
         "<div class='po-name"+((found.n||"").length>24?" po-name-long":"")+"'>"+esc(found.n)+"</div>"+
-        (sub?"<div class='po-sub'>"+esc(sub)+"</div>":"")+
-        (facts?"<div class='po-facts'>"+facts+"</div>":"")+
-        "<div class='po-actions'>"+
-          "<a class='po-wa' href='"+esc(wa)+"' target='_blank' rel='noopener'>Reservar por WhatsApp</a>"+
-          "<button class='po-more' onclick='_uvOpenedFromNav=true;openModal(_poProduct,_poCategory)'>Ver figura</button>"+
-        "</div>"+
-        (found.reserva?"<div class='po-note'>Asegur\u00e1s tu unidad con la reserva y pag\u00e1s el resto cuando llega.</div>":"")+
+        (partes.length?"<div class='po-line'>"+partes.join(" \u00B7 ")+"</div>":"")+
+      "</div>"+
+      "<div class='po-actions'>"+
+        "<a class='po-wa' href='"+esc(wa)+"' target='_blank' rel='noopener'>Reservar</a>"+
+        "<button class='po-more' onclick='_uvOpenedFromNav=true;openModal(_poProduct,_poCategory)'>Ver figura &rarr;</button>"+
       "</div>"+
     "</div>"+
   "</div>";
