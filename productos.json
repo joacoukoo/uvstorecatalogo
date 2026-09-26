@@ -54585,6 +54585,83 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "star-wars-unlimited-spark-of-rebellion-booster-box-muhp51wd",
+        "n": "Star Wars Unlimited: Spark of Rebellion: Booster Box",
+        "i": "https://cdn.shopify.com/s/files/1/0579/0960/8613/files/booster.png?v=1704911006",
+        "franquicia": "Star Wars",
+        "marca": "Fantasy Flight Games",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "1200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0579/0960/8613/files/booster.png?v=1704911006",
+          "https://cdn.shopify.com/s/files/1/0579/0960/8613/files/large_Star_Wars_Unlimited_Product_Spread_Booster_Display_df67b51f25.png?v=1704911006"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Sumérgete en el universo Star Wars con Star Wars Unlimited: Spark of Rebellion, el juego de cartas coleccionables que te permite construir poderosos decks con líderes icónicos y bases estratégicas. Cada caja contiene 24 packs de booster con 16 cartas cada uno, garantizando cartas raras, legendarias y foil especiales que elevarán tu colección al siguiente nivel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: 24 Booster Packs"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas por pack: 16"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Garantizadas: Mínimo 1 Rara o Legendaria por pack"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye: Líder, Base y Carta Foil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Posibilidad de variantes especiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Fantasy Flight Games"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "24 Booster Packs"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas Comunes y Poco Comunes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mínimo 1 Carta Rara o Legendaria por pack"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas Líder"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas Base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas Foil"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-26",
+        "reserva": "240",
+        "cantidad": "3"
+      },
+      {
         "id": "one-piece-lg-studio-gluttonous-luffy-resin-statue--muh6t05o",
         "n": "One Piece LG Studio Gluttonous Luffy Resin Statue - Kaioland",
         "i": "https://majin-store.com/89837-large_default/one-piece-gluttonous-luffy-lg-studio.jpg",
