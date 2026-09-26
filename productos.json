@@ -38428,6 +38428,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "pikachu-life-size-figure-by-sideshow-collectibles-muhnsnad",
+        "n": "Pikachu Life-Size Figure by Sideshow Collectibles",
+        "i": "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac008725a9.jpg",
+        "franquicia": "Anime",
+        "marca": "Sideshow Collectibles",
+        "escala": "1:1",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "5700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac008725a9.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac009c7bfb.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac008e42cd.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac00cc7718.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac0095d5fc.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac00ab1e68.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac00a410a7.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac00b2a0c3.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac00b9ef43.jpg",
+          "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac00c0a942.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de Pikachu Life-Size de Sideshow Collectibles es una obra maestra de coleccionismo que captura toda la esencia del Pokémon más icónico del mundo en dimensiones realistas. Con un meticuloso acabado artístico en polistone y pintura de alta calidad, cada detalle ha sido cuidadosamente esculpido para reflejar la expresión alegre, mejillas rojas y cola de rayo características de Pikachu. Esta pieza de edición limitada es el complemento definitivo para cualquier coleccionista dedicado de Pokémon, combinando calidad premium con el carisma inconfundible del personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 46 cm (18 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 46.3 cm (18.25 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 25.4 cm (10 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone esculpido y pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 6.9 kg (15.25 lbs)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada oficial bajo licencia Pokémon/Nintendo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultores: Gabriel Soares, Matias Cabrera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Limitado a 2 unidades por persona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Pikachu esculpida en polistone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con detalles de pasto y ruta de viaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de protección premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-26",
+        "reserva": "0",
+        "cantidad": "2"
+      },
+      {
         "id": "my-hero-academia-heroe-collectibles-all-might-x-de-muh7j8k8",
         "n": "My Hero Academia Heroe Collectibles All Might X Deku Midoriya Resin Statue - Kaioland",
         "i": "https://www.kaioland.com/wp-content/uploads/2026/09/My-Hero-Academia-Heroe-Collectibles-All-Might-x-Deku-Midoriya-Resin-Statue-1.avif",
