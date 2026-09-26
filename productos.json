@@ -18606,12 +18606,12 @@
       },
       {
         "id": "grand-admiral-thrawn-imperial-armor-mok724s5",
-        "n": "Grand Admiral Thrawn™ (Imperial Armor)",
+        "n": "Grand Admiral Thrawn™ (Imperial Armor) Exclusive",
         "i": "https://www.sideshow.com/storage/product-images/915283/hot-toys-star-wars-grand-admiral-thrawn-imperial-armor-sixth-scale-figure-gallery-69e8e081c8c47.jpg",
         "franquicia": "Star Wars",
         "marca": "Hot Toys",
         "escala": "1:6",
-        "disp": "Pre-Orden",
+        "disp": "Entrega Inmediata",
         "estado": "Nuevo",
         "precio": "3400",
         "fotos": [
@@ -18707,9 +18707,9 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-29",
-        "reserva": "680",
-        "entrega": "Sep. 2026",
-        "cantidad": "1"
+        "reserva": "0",
+        "cantidad": "1",
+        "agotado": false
       },
       {
         "id": "clone-commander-gree-mojbdkh8",
