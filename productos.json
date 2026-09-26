@@ -33897,26 +33897,16 @@
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde02931a.jpg",
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/cassian-andor",
         "marca": "Hot Toys",
-        "escala": "1:6 - 29CM",
+        "escala": "1:6",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
-        "precio": "3600",
-        "precio_d": "",
-        "reserva": "Q720",
-        "entrega": "Mayo 2026",
+        "disp": "Entrega Inmediata",
+        "precio": "3500",
+        "reserva": "0",
         "cantidad": "1",
         "content": [
           {
-            "t": "notion-heading-2",
-            "x": "Descripción"
-          },
-          {
             "t": "notion-text",
-            "x": "Figura de sexta escala que presenta una imagen auténtica y detallada de la interpretación de Diego Luna como Cassian Andor en Rogue One: Una historia de Star Wars."
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Especificaciones"
+            "x": "Figura de colección premium de Hot Toys que captura la esencia del icónico Cassian Andor interpretado por Diego Luna en Rogue One. Con más de 30 puntos de articulación y una escultura de cabeza recién desarrollada con ojos rodantes separados, esta figura ofrece un nivel de detalle y autenticidad sin igual. El vestuario completamente equipado y los múltiples accesorios hacen de esta una pieza imprescindible para coleccionistas de Star Wars de alto nivel."
           },
           {
             "t": "notion-bulleted-list",
@@ -33924,23 +33914,15 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Escala: sexta escala"
+            "x": "Escala: 1/6 (sexta escala)"
           },
           {
             "t": "notion-bulleted-list",
             "x": "Puntos de articulación: más de 30"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Cabeza y cuerpo"
-          },
-          {
             "t": "notion-bulleted-list",
-            "x": "Escultura de cabeza recién desarrollada con ojos rodantes separados"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Expresión facial fiel a la pantalla con textura detallada de la piel"
+            "x": "Material: Escultura de cabeza con pintura manual, cuerpo articulado, vestuario en tela auténtica"
           },
           {
             "t": "notion-bulleted-list",
@@ -33948,11 +33930,19 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Pintura a mano en cada pieza de escultura de cabeza"
+            "x": "Expresión facial fiel a la pantalla con textura detallada de piel"
           },
           {
-            "t": "notion-heading-2",
-            "x": "Manos intercambiables"
+            "t": "notion-bulleted-list",
+            "x": "Ojos rodantes separados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-900 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida intercambiable con ojos rodantes separados"
           },
           {
             "t": "notion-bulleted-list",
@@ -33965,10 +33955,6 @@
           {
             "t": "notion-bulleted-list",
             "x": "Un par de puños"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Vestuario"
           },
           {
             "t": "notion-bulleted-list",
@@ -33996,11 +33982,7 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Botas de piel color marrón oscuro con textura similar a la piel"
-          },
-          {
-            "t": "notion-heading-2",
-            "x": "Accesorios"
+            "x": "Botas de piel color marrón oscuro"
           },
           {
             "t": "notion-bulleted-list",
@@ -34016,12 +33998,14 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "Soporte para figuras especialmente diseñado con placa de personaje y logo de Star Wars"
+            "x": "Soporte para figuras especialmente diseñado con placa de personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Logo de Star Wars en soporte"
           }
         ],
         "id": "cassian-andor",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
         "oferta": false,
@@ -34035,7 +34019,10 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde281ee3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde2e323e.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Daredevil",
