@@ -38527,6 +38527,75 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "aquarius-camus-1-10-art-scale-statue-by-iron-studi-muhogew2",
+        "n": "Aquarius Camus 1:10 Art Scale Statue by Iron Studios",
+        "i": "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c08ee087.jpg",
+        "franquicia": "Anime",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c08ee087.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-scale-683e1d445523f.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c093206e.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c096a6be.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c09a22f0.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c09dabdb.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c0a1fc81.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c0a5791d.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c0a9075c.jpg",
+          "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c0ac8ac8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la majestuosidad de Aquarius Camus con esta espectacular estatua Art Scale de Iron Studios. Capturada en su pose más icónica con efectos de poder helado, esta figura de colección premium combina maestría artesanal y detalle cinematográfico. Una pieza imprescindible para los aficionados de Saint Seiya que exigen lo mejor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina poliuretánica de alta calidad con pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorámica temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Aquarius Camus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorámica con efectos helados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-26",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "pikachu-life-size-figure-by-sideshow-collectibles-muhnsnad",
         "n": "Pikachu Life-Size Figure by Sideshow Collectibles",
         "i": "https://www.sideshow.com/storage/product-images/400392/sideshow-collectibles-pokemon-pikachu-life-size-figure-gallery-696ac008725a9.jpg",
