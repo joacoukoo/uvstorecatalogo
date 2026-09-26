@@ -203,69 +203,60 @@ body::after{
   position:absolute;top:0;right:0;bottom:0;
   width:56%;
   z-index:1;
-  overflow:hidden;
 }
-.hero-bg::before{
-  content:'';
-  position:absolute;top:50%;left:50%;
-  width:115%;aspect-ratio:1/1;
-  transform:translate(-50%,-50%);
-  background:radial-gradient(circle, rgba(123,47,190,.4) 0%, rgba(123,47,190,.14) 38%, transparent 68%);
-  filter:blur(8px);
-  pointer-events:none;
+/* Vitrina: la figura activa en una carta nitida, las siguientes asoman detras en abanico,
+   y un resplandor hecho con la misma foto desenfocada le da el color de cada figura. */
+.hs{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.hs-amb{position:absolute;inset:6% 4%;pointer-events:none}
+.hs-amb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  filter:blur(60px) saturate(1.5);opacity:0;transform:scale(.8);transition:opacity 1.1s ease}
+.hs-amb img.on{opacity:.5}
+.hs-deck{position:relative;height:min(450px,calc(100% - 20px));aspect-ratio:4/5;margin-top:-20px}
+.hs-card{position:absolute;inset:0;margin:0;border-radius:18px;overflow:hidden;cursor:pointer;
+  background:var(--bg3);border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 30px 80px rgba(0,0,0,.65),0 0 0 1px rgba(0,0,0,.4);
+  transform-origin:50% 100%;opacity:0;pointer-events:none;
+  transition:transform .8s cubic-bezier(.22,1,.36,1),opacity .6s ease,filter .6s ease}
+.hs-card img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.hs-card.is-active{opacity:1;pointer-events:auto;z-index:3;transform:none}
+.hs-card.is-active img{animation:hsZoom 9s ease-out both}
+.hs-card.is-next{opacity:.55;z-index:2;filter:brightness(.45);transform:translateX(15%) rotate(5deg) scale(.9)}
+.hs-card.is-next2{opacity:.3;z-index:1;filter:brightness(.3);transform:translateX(27%) rotate(9deg) scale(.8)}
+.hs-card.is-prev{opacity:0;z-index:4;transform:translateX(-22%) rotate(-7deg) scale(.96)}
+@keyframes hsZoom{from{transform:scale(1)}to{transform:scale(1.07)}}
+.hs-cap{position:absolute;left:0;right:0;bottom:0;padding:64px 18px 16px;
+  background:linear-gradient(to top,rgba(6,6,12,.95) 0%,rgba(6,6,12,.75) 45%,transparent 100%)}
+.hs-tag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;
+  padding:3px 8px;border-radius:5px;margin-bottom:8px;backdrop-filter:blur(4px)}
+.hs-tag.stock{background:rgba(47,199,110,.18);color:var(--green);border:1px solid rgba(47,199,110,.35)}
+.hs-tag.pre{background:rgba(232,146,42,.16);color:var(--amber);border:1px solid rgba(232,146,42,.35)}
+.hs-name{font-size:16px;font-weight:600;color:#fff;line-height:1.3;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hs-row{display:flex;align-items:center;justify-content:space-between;margin-top:8px;gap:10px}
+.hs-price{font-size:19px;font-weight:700;color:var(--gold-l)}
+.hs-price span{font-size:12px;color:var(--gold);margin-right:2px}
+.hs-go{font-size:12px;font-weight:600;color:#fff;opacity:.8;white-space:nowrap}
+.hs-card:hover .hs-go{opacity:1}
+.hs-bars{position:absolute;left:50%;bottom:-20px;transform:translateX(-50%);display:flex;gap:6px;z-index:5}
+.hs-bar{width:28px;height:3px;border-radius:2px;background:rgba(255,255,255,.18);overflow:hidden;cursor:pointer;border:0;padding:0}
+.hs-bar i{display:block;height:100%;width:0;background:#fff;border-radius:2px}
+.hs-bar.done i{width:100%;background:rgba(255,255,255,.55)}
+.hs-bar.on i{animation:hsFill 6.5s linear forwards}
+.hs:hover .hs-bar.on i{animation-play-state:paused}
+@keyframes hsFill{from{width:0}to{width:100%}}
+@media(max-width:768px){
+  .hs-deck{height:350px;margin-top:-16px}
+  .hs-card.is-next{transform:translateX(11%) rotate(4deg) scale(.9)}
+  .hs-card.is-next2{transform:translateX(20%) rotate(7deg) scale(.8)}
+  .hs-name{font-size:14.5px}
+  .hs-price{font-size:17px}
+  .hs-cap{padding:52px 14px 13px}
+  .hs-bars{bottom:-8px}
 }
-.hero-bg.pulse::before{
-  animation:heroGlowImpact 6.5s cubic-bezier(.22,1,.36,1) both;
-}
-.hero-bg::after{
-  content:'';
-  position:absolute;top:50%;left:50%;
-  width:76%;aspect-ratio:1/1;
-  transform:translate(-50%,-50%);
-  border-radius:50%;
-  background:conic-gradient(from -30deg,
-    transparent 0deg, rgba(157,92,212,.7) 25deg, transparent 55deg,
-    transparent 145deg, rgba(229,185,107,.6) 172deg, transparent 198deg,
-    transparent 295deg, rgba(157,92,212,.5) 322deg, transparent 350deg);
-  -webkit-mask-image:radial-gradient(circle, transparent calc(50% - 2.5px), #000 calc(50% - 2.5px), #000 50%, transparent 50.5%);
-  mask-image:radial-gradient(circle, transparent calc(50% - 2.5px), #000 calc(50% - 2.5px), #000 50%, transparent 50.5%);
-  pointer-events:none;
-  opacity:.85;
-  animation:heroRingSpin 80s linear infinite;
-}
-@keyframes heroRingSpin{
-  from{transform:translate(-50%,-50%) rotate(0deg)}
-  to{transform:translate(-50%,-50%) rotate(360deg)}
-}
-@keyframes heroGlowImpact{
-  0%{transform:translate(-50%,-50%) scale(.82);filter:blur(8px) brightness(1)}
-  13%{transform:translate(-50%,-50%) scale(1.3);filter:blur(2px) brightness(2.3)}
-  26%{transform:translate(-50%,-50%) scale(.95);filter:blur(10px) brightness(1.1)}
-  100%{transform:translate(-50%,-50%) scale(1);filter:blur(10px) brightness(1)}
-}
-.hero-bg-frame{
-  position:absolute;inset:0;
-  -webkit-mask-image:radial-gradient(ellipse 50% 62% at 50% 46%, #000 58%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
-  mask-image:radial-gradient(ellipse 50% 62% at 50% 46%, #000 58%, rgba(0,0,0,.9) 74%, rgba(0,0,0,.45) 88%, transparent 100%);
-}
-.hero-bg-slide{
-  position:absolute;top:50%;left:50%;
-  max-width:92%;max-height:94%;
-  width:auto;height:auto;
-  opacity:0;pointer-events:none;
-  transition:opacity .5s ease;
-}
-.hero-bg-slide.active{
-  opacity:1;pointer-events:auto;cursor:pointer;
-  animation:heroImpact 6.5s cubic-bezier(.22,1,.36,1) both;
-}
-@keyframes heroImpact{
-  0%{transform:translate(-50%,-50%) scale(.85)}
-  13%{transform:translate(-50%,-50%) scale(1.13)}
-  24%{transform:translate(-50%,-50%) scale(.98)}
-  34%{transform:translate(-50%,-50%) scale(1.05)}
-  46%{transform:translate(-50%,-50%) scale(1)}
-  100%{transform:translate(-50%,-50%) scale(1.018)}
+@media(prefers-reduced-motion:reduce){
+  .hs-card,.hs-amb img{transition:none}
+  .hs-card.is-active img{animation:none}
+  .hs-bar.on i{animation:none;width:100%}
 }
 .hero-bg-overlay{
   position:absolute;inset:0;z-index:0;pointer-events:none;
@@ -837,13 +828,7 @@ body::after{
   .hero-stage{min-height:0;height:auto;display:flex;flex-direction:column}
   .hero-inner{min-height:0;height:auto}
   .hero-text{max-width:100%}
-  .hero-bg{position:relative;width:100%;height:300px;order:-1;margin-bottom:6px;flex-shrink:0}
-  .hero-bg::before{width:80%;aspect-ratio:1/1.25}
-  .hero-bg::after{width:52%;aspect-ratio:1/1}
-  .hero-bg-frame{
-    -webkit-mask-image:radial-gradient(ellipse 40% 72% at 50% 48%, #000 56%, rgba(0,0,0,.9) 72%, rgba(0,0,0,.4) 86%, transparent 100%);
-    mask-image:radial-gradient(ellipse 40% 72% at 50% 48%, #000 56%, rgba(0,0,0,.9) 72%, rgba(0,0,0,.4) 86%, transparent 100%);
-  }
+  .hero-bg{position:relative;width:100%;height:390px;order:-1;margin-bottom:18px;flex-shrink:0;overflow:visible}
   .hero-bg-overlay{background:linear-gradient(180deg, transparent 65%, var(--bg) 100%)}
   .section{padding:0 16px 40px}
   .cat-grid{grid-template-columns:repeat(2,1fr);gap:8px}
@@ -1066,7 +1051,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
 <div class="page active" id="home">
   <div class="hero">
     <div class="hero-stage">
-      <div class="hero-bg"><div class="hero-bg-frame" id="hero-bg"></div></div>
+      <div class="hero-bg"><div class="hs" id="hero-bg" aria-roledescription="carrusel" aria-label="Figuras destacadas"></div></div>
       <div class="hero-bg-overlay"></div>
       <div class="hero-inner">
         <div class="hero-text">
@@ -1424,43 +1409,64 @@ function makeCard(p,cat){
 
 function animateCount(el,target){if(!el)return;var s=0,step=Math.max(1,Math.ceil(target/40));var t=setInterval(function(){s=Math.min(s+step,target);el.textContent=s;if(s>=target)clearInterval(t);},20);}
 var _heroTimer=null,_heroIdx=0;
-function _heroPulse(){
-  var box=document.getElementById("hero-bg");
-  if(!box||window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;
-  box.classList.remove("pulse");
-  void box.offsetWidth;
-  box.classList.add("pulse");
+function _heroShow(idx){
+  var box=document.getElementById("hero-bg");if(!box)return;
+  var cards=box.querySelectorAll(".hs-card"),amb=box.querySelectorAll(".hs-amb img"),bars=box.querySelectorAll(".hs-bar");
+  var n=cards.length;if(!n)return;
+  var prev=_heroIdx;_heroIdx=(idx+n)%n;
+  cards.forEach(function(c,i){
+    var rel=(i-_heroIdx+n)%n;
+    c.className="hs-card"+(rel===0?" is-active":rel===1?" is-next":rel===2&&n>3?" is-next2":(i===prev&&prev!==_heroIdx)?" is-prev":"");
+    c.setAttribute("aria-hidden",rel===0?"false":"true");
+  });
+  amb.forEach(function(a,i){a.classList.toggle("on",i===_heroIdx);});
+  bars.forEach(function(b,i){
+    b.classList.remove("on");b.classList.toggle("done",i<_heroIdx);
+    var f=b.firstChild;f.style.animation="none";void f.offsetWidth;f.style.animation="";
+  });
+  if(bars[_heroIdx])bars[_heroIdx].classList.add("on");
 }
-function heroAdvance(){
-  var slides=document.querySelectorAll("#hero-bg .hero-bg-slide");
-  if(slides.length<2)return;
-  slides[_heroIdx].classList.remove("active");
-  _heroIdx=(_heroIdx+1)%slides.length;
-  slides[_heroIdx].classList.add("active");
-  _heroPulse();
-}
+function heroAdvance(){_heroShow(_heroIdx+1);}
 function buildHeroBg(items){
   var box=document.getElementById("hero-bg");
   if(!box)return;
   if(_heroTimer){clearInterval(_heroTimer);_heroTimer=null;}
   box.innerHTML="";_heroIdx=0;
+  if(!items.length)return;
+  var amb=document.createElement("div");amb.className="hs-amb";
+  var deck=document.createElement("div");deck.className="hs-deck";
+  var bars=document.createElement("div");bars.className="hs-bars";
   items.forEach(function(r,i){
-    var img=document.createElement("img");
-    img.className="hero-bg-slide";
-    img.src=(r.p.fotos&&r.p.fotos.length>0)?r.p.fotos[0]:r.p.i;
-    img.alt=r.p.n;
-    img.loading=(i===0)?"eager":"lazy";
-    img.addEventListener("click",(function(rr){return function(){_uvOpenedFromNav=true;openModal(rr.p,rr.cat);};})(r));
-    box.appendChild(img);
-    if(i===0){
-      var activateFirst=function(){img.classList.add("active");_heroPulse();};
-      if(img.complete&&img.naturalWidth>0)activateFirst();
-      else{img.addEventListener("load",activateFirst,{once:true});img.addEventListener("error",activateFirst,{once:true});}
-    }
+    var p=r.p,src=(p.fotos&&p.fotos.length>0)?p.fotos[0]:p.i;
+    var a=document.createElement("img");a.src=src;a.alt="";a.loading=i<2?"eager":"lazy";a.referrerPolicy="no-referrer";
+    amb.appendChild(a);
+    var card=document.createElement("figure");card.className="hs-card";
+    var img=document.createElement("img");img.src=src;img.alt=p.n;img.loading=i<3?"eager":"lazy";img.referrerPolicy="no-referrer";
+    card.appendChild(img);
+    var d=(p.disp||"").toLowerCase(),tag=d.indexOf("inmediata")>=0?"<span class='hs-tag stock'>En stock</span>":d.indexOf("pre")>=0?"<span class='hs-tag pre'>Pre-orden</span>":"";
+    var cap=document.createElement("figcaption");cap.className="hs-cap";
+    cap.innerHTML=tag+"<div class='hs-name'>"+esc(p.n)+"</div><div class='hs-row'>"+(p.precio?"<div class='hs-price'><span>Q</span>"+esc(fmtQ(p.precio))+"</div>":"<div></div>")+"<div class='hs-go'>Ver figura &rarr;</div></div>";
+    card.appendChild(cap);
+    card.addEventListener("click",(function(rr,k){return function(){
+      if(k!==_heroIdx){_heroShow(k);return;}
+      _uvOpenedFromNav=true;openModal(rr.p,rr.cat);
+    };})(r,i));
+    deck.appendChild(card);
+    var bar=document.createElement("button");bar.className="hs-bar";bar.setAttribute("aria-label","Figura "+(i+1));
+    bar.innerHTML="<i></i>";
+    bar.addEventListener("click",(function(k){return function(e){e.stopPropagation();_heroShow(k);};})(i));
+    bar.firstChild.addEventListener("animationend",function(){heroAdvance();});
+    bars.appendChild(bar);
   });
-  if(items.length>1&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
-    _heroTimer=setInterval(heroAdvance,6500);
-  }
+  box.appendChild(amb);box.appendChild(deck);if(items.length>1)box.appendChild(bars);
+  // Deslizar con el dedo en el celular.
+  var x0=null;
+  deck.addEventListener("touchstart",function(e){x0=e.touches[0].clientX;},{passive:true});
+  deck.addEventListener("touchend",function(e){
+    if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;x0=null;
+    if(Math.abs(dx)>40){_heroShow(_heroIdx+(dx<0?1:-1));}
+  });
+  _heroShow(0);
 }
 function buildHome(){
   document.getElementById("nav-logo-img").src=LOGO;
@@ -1503,18 +1509,18 @@ function buildHome(){
   document.getElementById("feat-meta").textContent=(destLabel>0?destLabel+" destacados":destProds.length+" figuras");
   var fg=document.getElementById("feat-grid");fg.innerHTML="";
   _agotadasAlFinal(destProds.slice(0,16)).forEach(function(r){fg.appendChild(makeCard(r.p,r.cat));});
-  // Hero: muestra aleatoria de TODA la tienda (no solo destacados)
-  var allProdsForHero=[];
+  // Hero: vitrina con figuras que se pueden comprar ya o destacadas (sin agotadas), al azar.
+  var heroTop=[],heroRest=[];
   CAT_KEYS.forEach(function(c){
     (DATA[c]||{products:[]}).products.forEach(function(p){
-      if(p.i||(p.fotos&&p.fotos.length>0))allProdsForHero.push({p:p,cat:c});
+      if(!(p.i||(p.fotos&&p.fotos.length>0))||_esAgotado(p)||!p.precio)return;
+      var enStock=(p.disp||"").toLowerCase().indexOf("inmediata")>=0;
+      (p.destacado||enStock?heroTop:heroRest).push({p:p,cat:c});
     });
   });
-  for(var hi=allProdsForHero.length-1;hi>0;hi--){
-    var hj=Math.floor(Math.random()*(hi+1));
-    var htmp=allProdsForHero[hi];allProdsForHero[hi]=allProdsForHero[hj];allProdsForHero[hj]=htmp;
-  }
-  buildHeroBg(allProdsForHero.slice(0,12));
+  function _shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+  var allProdsForHero=_shuffle(heroTop).concat(_shuffle(heroRest));
+  buildHeroBg(allProdsForHero.slice(0,7));
 
   // Sección Novedades
   var novProds=[];
