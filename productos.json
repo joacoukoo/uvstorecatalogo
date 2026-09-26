@@ -10002,6 +10002,95 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "stormtrooper-squad-leader-action-figure-by-hono-st-muhnhzqt",
+        "n": "Stormtrooper™ Squad Leader Action Figure by HONO Studio",
+        "i": "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc76c3a9.jpg",
+        "franquicia": "Star Wars",
+        "marca": "HONO Studio",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc76c3a9.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-scale-67d06dcb3d570.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc7c7136.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc833635.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc896de9.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc95a235.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc9b71d7.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dca23140.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dca7d421.jpg",
+          "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dcad7b41.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con el Stormtrooper Squad Leader de HONO Studio, una figura de acción premium en escala 1:6 que captura la precisión militar del Imperio Galáctico. Con su icónico armadura blanca, hombreras naranjas distintivas y arsenal completo, esta pieza de lujo es obligatoria para cualquier fan de Star Wars. Cada detalle ha sido meticulosamente elaborado para ofrecerte una figura de museum quality que destaca en cualquier vitrina."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico ABS y tela de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Múltiples puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: HONO Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura completa blanca con casco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje interior negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hombreras naranjas con distintivo de tropa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón blanco con detonador térmico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Heavy Blaster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de manos intercambiables (relajadas y para sostener arma)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blancas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-26",
+        "reserva": "0",
+        "cantidad": "2"
+      },
+      {
         "id": "lotr-saruman-inart-1-6-scale-figure-muado6oq",
         "n": "LOTR - Saruman InArt 1/6 Scale Figure",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN_SARUMAN.jpg?v=1788427169",
