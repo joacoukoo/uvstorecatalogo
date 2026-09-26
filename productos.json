@@ -10002,6 +10002,90 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "stormtrooper-action-figure-by-hono-studio-muhnkgst",
+        "n": "Stormtrooper™ Action Figure by HONO Studio",
+        "i": "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d57d0a36.jpg",
+        "franquicia": "Star Wars",
+        "marca": "HONO Studio",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d57d0a36.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-scale-67d06d5b99293.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d583454e.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d588ea99.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d58f1b18.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d5957cc0.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d59af34b.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d5a1c3aa.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d5a740ca.jpg",
+          "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d5acc01a.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la galaxia con esta espectacular figura de acción del Stormtrooper a escala 1/6 de HONO Studio. Con detalles impecables en su armadura blanca icónica, múltiples manos intercambiables y accesorios auténticos, esta es la pieza definitiva para coleccionistas de Star Wars. Experimenta la calidad premium y la precisión absoluta en cada detalle de este soldado de élite del Imperio Galáctico."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye múltiples accesorios de intercambio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base temática expositora"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura completa Stormtrooper blanca con casco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de tela negra interior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón blanco con detonador térmico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blancas (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos relajadas (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos para sostener arma (1 par)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle Blaster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base expositora temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-26",
+        "cantidad": "3"
+      },
+      {
         "id": "stormtrooper-squad-leader-action-figure-by-hono-st-muhnhzqt",
         "n": "Stormtrooper™ Squad Leader Action Figure by HONO Studio",
         "i": "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc76c3a9.jpg",
