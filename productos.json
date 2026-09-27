@@ -54623,6 +54623,94 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "arkham-origins-joker-inart-1-12-scale-figure-muja47vu",
+        "n": "Arkham Origins - Joker InArt 1/12 Scale Figure",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-JOKER-INART.png?v=1789586598",
+        "franquicia": "DC Comics",
+        "marca": "InArt Collectibles",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-JOKER-INART.png?v=1789586598",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG-8014.jpg?v=1789889456",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG-8013.jpg?v=1789889456",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG-8012.jpg?v=1789889456",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG-8010.jpg?v=1789889456",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG-8011.jpg?v=1789889456",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG-8009.jpg?v=1789889456",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/IMG-8008.jpg?v=1789889456"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina la ciudad de Gotham con esta figura premium del Joker de Arkham Origins de InArt Collectibles. Con 14 manos intercambiables, 2 cabezas esculpidas y 9 accesorios detallados, esta pieza de 1/12 escala captura toda la locura y carisma del Príncipe Payaso del Crimen. Un must-have para coleccionistas exigentes que buscan calidad sin compromisos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16.9 cm (figura) / 17.6 cm (con base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, ABS, POK, Die-cast"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cabezas intercambiables (sonriente y riendo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "14 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Revólver con bandera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Metralleta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pata de cabra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Flor de ácido intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dientes del Joker"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas de juego"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-27",
+        "reserva": "260",
+        "entrega": "Abril 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "star-wars-unlimited-spark-of-rebellion-booster-box-muhp51wd",
         "n": "Star Wars Unlimited: Spark of Rebellion: Booster Box",
         "i": "https://cdn.shopify.com/s/files/1/0579/0960/8613/files/booster.png?v=1704911006",
