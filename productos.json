@@ -38654,6 +38654,86 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asuka-life-size-bust-mulm1mdb",
+        "n": "Asuka Life Size Bust",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/86064e05d9abc210f8e5c273218936c7.png?v=1790603783",
+        "franquicia": "Anime",
+        "marca": "Li Yue Studio",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "18000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/86064e05d9abc210f8e5c273218936c7.png?v=1790603783",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f3ec2232315e0ae77a4145e9b98c5370.png?v=1790603783",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/92d5ff7441b14c9d1e429b2105f2ccbd.png?v=1790603783",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3c0557387525c1ad2261502816c975d2.jpg?v=1790603782",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/29107299be24c03449c739a3fa2ad7e6.png?v=1790603783",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/891072c58ba49c9894ad544b4b56789f.jpg?v=1790603782",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/79647b444dc6f330a9fa7269a6c168e5.png?v=1790603783",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9cc79b869be35448cc0bdbc72bbce1d4Large.jpg?v=1790603790"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la presencia icónica de Asuka Langley Soryu en escala de vida real con esta pieza maestra de colección premium. Con 90 cm de altura y detalles meticulosamente elaborados, esta figura captura la esencia del personaje en su emblemático traje de piloto rojo, acompañada de una base con efectos de fuego dinámico que transmite intensidad y dramatismo. Limitada a solo 68 piezas en el mundo, representa una inversión imprescindible para coleccionistas devotos de Neon Genesis Evangelion que buscan poseer una obra de arte de museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 90 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 46 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (Tamaño de vida real)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone/Resina premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 68 piezas mundiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanzamiento: Q3 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de busto Asuka Langley Soryu"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con efecto de fuego dinámico iluminado con LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-28",
+        "reserva": "3600",
+        "entrega": "Julio 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "aquarius-camus-1-10-art-scale-statue-by-iron-studi-muhogew2",
         "n": "Aquarius Camus 1:10 Art Scale Statue by Iron Studios",
         "i": "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c08ee087.jpg",
