@@ -54703,6 +54703,103 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "dlx-iron-man-mark-3-battle-damaged-mun7unoq",
+        "n": "DLX Iron Man Mark 3 (Battle Damaged)",
+        "i": "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a117539.jpg",
+        "franquicia": "Marvel",
+        "marca": "Threezero",
+        "escala": "1:12",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "1400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a117539.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-scale-681133a5a326a.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a14c0f3.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a1a8911.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a20fc0e.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a26aed3.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a2b032b.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a30148e.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a3486b6.jpg",
+          "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a38e8b9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura coleccionable DLX Iron Man Mark 3 (Battle Damaged) de Threezero es una obra maestra para coleccionistas exigentes, capturando cada detalle de la icónica armadura con daño de batalla meticulosamente esculpido y acabado metálico multicapa de alta calidad. Con 48 puntos de articulación totalmente funcionales y características LED iluminadas en el Arc Reactor del pecho, esta pieza de 17.5 cm ofrece poseabilidad extrema y presencia visual espectacular. Incluye múltiples accesorios intercambiables y efectos de vuelo dinámicos que transforman esta figura en la pieza de colección imprescindible para cualquier fan de Marvel."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 17.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Die-cast metal y plástico ABS de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 48 puntos totalmente articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: LED light-up en Arc Reactor, daño de batalla esculpido en detalle, revestimiento metálico multicapa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Threezero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Marvel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de Arm Missiles intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de Smart Micro Guns"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 par de Decoy flares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de efectos de vuelo para manos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de efectos de vuelo para pies"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 pares de manos intercambiables (puños, relajadas, disparo, vuelo, adicionales)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 stand DLX oficial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arc Reactor iluminado con LED en el pecho"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-09-29",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "arkham-origins-joker-inart-1-12-scale-figure-muja47vu",
         "n": "Arkham Origins - Joker InArt 1/12 Scale Figure",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-JOKER-INART.png?v=1789586598",
