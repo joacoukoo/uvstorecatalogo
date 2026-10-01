@@ -7795,10 +7795,7 @@
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "720",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7817,8 +7814,6 @@
             "x": "Izquierda: 4 tiposDerecha: 4 tipos"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Anime",
         "destacado": false,
         "oferta": false,
@@ -7826,7 +7821,10 @@
           "https://tamashiiweb.com/images/item/item_0000015015_IvYERlWE_01.jpg",
           "https://tamashiiweb.com/images/item/item_0000015015_ZE6WBFB9_03.jpg"
         ],
-        "id": "super-saiyan-son-goku"
+        "id": "super-saiyan-son-goku",
+        "agotado": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Peanuts Tamagotchi Nano",
