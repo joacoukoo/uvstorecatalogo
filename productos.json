@@ -8135,10 +8135,7 @@
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "5000",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -8166,8 +8163,6 @@
           }
         ],
         "id": "billy-puppet-saw-life-size",
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Otros",
         "destacado": false,
         "oferta": false,
@@ -8178,7 +8173,10 @@
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912809/billy-the-puppet-deluxe_saw_gallery_65247c97d2536.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912809/billy-the-puppet-deluxe_saw_gallery_65247c981947c.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912809/billy-the-puppet-deluxe_saw_silo.png"
-        ]
+        ],
+        "agotado": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Link vs Ganondorf",
