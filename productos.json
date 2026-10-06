@@ -102,7 +102,8 @@
         "agotado_d": false,
         "added_at": "2026-05-01",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "batman-returns-1992-deluxe-moda4hfp",
