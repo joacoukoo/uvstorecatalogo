@@ -26912,7 +26912,7 @@
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Diciembre 2026",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -27055,7 +27055,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914584/hot-toys-disney-pelegostos-chief-jack-sparrow-sixth-scale-figure-gallery-69987ec8b23aa.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914584/hot-toys-disney-pelegostos-chief-jack-sparrow-sixth-scale-figure-gallery-69987ec93ba48.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Neo (The Matrix Reloaded)",
