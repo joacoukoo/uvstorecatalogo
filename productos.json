@@ -6261,7 +6261,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6289,7 +6289,8 @@
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
-        "id": "iron-man-flotador-golden-version"
+        "id": "iron-man-flotador-golden-version",
+        "agotado": true
       },
       {
         "n": "Grog - Vox Machina",
