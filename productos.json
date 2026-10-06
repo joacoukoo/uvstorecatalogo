@@ -33348,7 +33348,7 @@
         "precio_d": "",
         "reserva": "Q680",
         "entrega": "Noviembre 2026",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -33455,7 +33455,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc93c81ba.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc945df7d.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Palpatine (Darth Sidious)",
