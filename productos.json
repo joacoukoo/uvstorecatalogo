@@ -54703,6 +54703,118 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "batman-the-dark-knight-returns-batman-blue-suit-muykntzy",
+        "n": "Batman: The Dark Knight Returns - Batman (Blue Suit)",
+        "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/1_d2f7f170-440f-4162-b9e5-f1ce7cc82016.jpg?v=1790844169",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1550",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/1_d2f7f170-440f-4162-b9e5-f1ce7cc82016.jpg?v=1790844169",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/2_f5a64c81-b7f7-43c8-825f-491f327025e2.jpg?v=1790844169",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/3_21d79c1d-f08b-40e0-9c1e-1bd6b6ab1eef.jpg?v=1790844169",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/4_37b5cfda-a22a-44e3-995f-ec3d0592a843.jpg?v=1790844169",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/5_c5440e7e-3e6d-406a-bba0-3f2a7d8c11b2.jpg?v=1790844169",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/6_08559e33-69ed-4726-b608-300edbd9a94b.jpg?v=1790844169",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/7_c3f469c7-f33e-402b-8432-b5dc8b3c14f7.jpg?v=1790844169",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/8_aec3d6ca-5af2-47b3-aad5-1c290dee45eb.jpg?v=1790844169"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica visión de Frank Miller de Batman con esta figura de colección premium de INART que captura la intensidad del Caballero Oscuro en su legendario traje azul. Con tres esculpidos intercambiables de cabeza, 13 manos diferentes y 11 accesorios detallados, esta obra maestra de articulación y acabado ofrece infinitas posibilidades de posado para el coleccionista exigente. Cada detalle, desde la capa de tela real hasta los accesorios funcionales, refleja la calidad de manufactura de nivel museo que define a INART."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura de figura: 16.9 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura total con base: 17.6 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10 (aproximadamente)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, POK, Tela Real, Die-cast"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones base: 15 cm (W) x 15 cm (D)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 300-350g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada Batman x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Esculpidos de cabeza intercambiables x3 (Neutral, Enfadado, Sonriendo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables x13 (Puños, Palmas abiertas, Sostenedor de gancho, Sostenedor de rifle, Sostenedor de Batarang, Gestos, Sostenedor de compuesto congelante, Sostenedor de moneda)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa de tela real x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Moneda x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gancho de amarre con cuerda x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle de francotirador x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Emblema de pecho estándar intercambiable x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Emblema de pecho dañado en batalla intercambiable x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolsa de cinturón utilitario intercambiable x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Compuesto congelante x1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Batarangs x3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con soporte x1"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-07",
+        "reserva": "310",
+        "entrega": "Marzo 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "dlx-iron-man-mark-3-battle-damaged-mun7unoq",
         "n": "DLX Iron Man Mark 3 (Battle Damaged)",
         "i": "https://www.sideshow.com/storage/product-images/914480/threezero-marvel-dlx-iron-man-mark-3-battle-damaged-action-figure-gallery-681133a117539.jpg",
