@@ -6529,7 +6529,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6559,7 +6559,8 @@
           "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-3-1200x1200.jpg",
           "https://www.bombusbee.net/wp-content/uploads/2025/11/GONG-Batman-4-1200x1200.jpg"
         ],
-        "id": "batman-hush"
+        "id": "batman-hush",
+        "agotado": true
       },
       {
         "n": "Batman (1989)",
