@@ -7949,7 +7949,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7980,7 +7980,8 @@
         "oferta": false,
         "fotos": [
           "https://cdnx.jumpseller.com/avso-toyz-store/image/40693055/resize/1200/1200?1696975658"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Hot Wheels RacerVerse™ Marvel – 2-Pack",
