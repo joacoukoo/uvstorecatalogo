@@ -10023,6 +10023,108 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "steve-rogers-sixth-scale-figure-by-hot-toys-mv1s09yk",
+        "n": "Steve Rogers Sixth Scale Figure by Hot Toys",
+        "i": "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39cc3a75.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39cc3a75.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-scale-6abfe5a3ce971.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39d44413.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39d8bc19.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39dd481e.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39e27896.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39e70727.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39eb6ebe.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39f09212.jpg",
+          "https://www.sideshow.com/storage/product-images/916179/hot-toys-marvel-steve-rogers-sixth-scale-figure-gallery-6abfe39f50753.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive el poder de Steve Rogers con esta figura de colección Premium de Hot Toys a escala 1:6, que captura cada detalle de Chris Evans en Avengers: Doomsday. Incluye el icónico Mjolnir iluminado con efectos de rayo y múltiples opciones de brazos y manos intercambiables para recrear tus escenas favoritas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, silicona, tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con detalles faciales precisos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 pares de brazos intercambiables (brazos sin costuras y compatibles)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables con diferentes gestos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chaqueta marrón carbón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones marrón oliva"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón con hebilla plateada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mjolnir roto con luz LED azul (funcionamiento por batería)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de rayo Mjolnir translúcido azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana especial con logo de Avengers: Doomsday"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-10",
+        "reserva": "700",
+        "entrega": "Dic. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "the-riddler-sixth-scale-figure-by-hot-toys-muyn3zyt",
         "n": "The Riddler Sixth Scale Figure by Hot Toys",
         "i": "https://www.sideshow.com/storage/product-images/916150/hot-toys-dc-comics-the-riddler-sixth-scale-figure-gallery-6abbd9d2eb295.jpg",
