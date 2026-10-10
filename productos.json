@@ -24939,7 +24939,7 @@
         "precio_d": "",
         "reserva": "720",
         "entrega": "Marzo 2027",
-        "cantidad": "6",
+        "cantidad": "3",
         "content": [
           {
             "t": "notion-heading-2",
@@ -33756,7 +33756,7 @@
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Noviembre 2026",
-        "cantidad": "",
+        "cantidad": "2",
         "content": [
           {
             "t": "notion-heading-2",
@@ -36253,7 +36253,7 @@
         "precio_d": "",
         "reserva": "Q800",
         "entrega": "Mayo 2026",
-        "cantidad": "",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-heading-2",
@@ -36345,7 +36345,7 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744080949a.jpg"
         ],
         "content_ok": true,
-        "agotado": true
+        "agotado": false
       },
       {
         "n": "Jinx (Arcane)",
