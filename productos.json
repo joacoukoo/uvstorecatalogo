@@ -6574,7 +6574,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6613,7 +6613,7 @@
           "https://cdn.shopify.com/s/files/1/2637/6278/products/696198770704g.jpg?v=1680560071"
         ],
         "id": "batman-1989-2",
-        "agotado": false
+        "agotado": true
       },
       {
         "n": "Batman: Gotham by Gaslight Deluxe",
