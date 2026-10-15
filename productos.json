@@ -65765,7 +65765,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "",
-        "precio": "2900",
+        "precio": "3300",
         "fotos": [
           "assets/vitrinas/detolf-3.png"
         ],
@@ -65827,7 +65827,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "",
-        "precio": "3000",
+        "precio": "3400",
         "fotos": [
           "assets/vitrinas/detolf-4.png"
         ],
@@ -65881,7 +65881,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "",
-        "precio": "3100",
+        "precio": "3600",
         "fotos": [
           "assets/vitrinas/detolf-5.png"
         ],
@@ -65935,7 +65935,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "",
-        "precio": "3300",
+        "precio": "3800",
         "fotos": [
           "assets/vitrinas/detolf-6.png"
         ],
@@ -65989,7 +65989,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "Solo Bajo Pedido",
-        "precio": "4500",
+        "precio": "4900",
         "precio_d": "",
         "precio_orig": "",
         "reserva": "",
@@ -66055,7 +66055,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "Solo Bajo Pedido",
-        "precio": "4900",
+        "precio": "5300",
         "precio_d": "",
         "precio_orig": "",
         "reserva": "",
@@ -66121,7 +66121,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "Solo Bajo Pedido",
-        "precio": "5200",
+        "precio": "5700",
         "precio_d": "",
         "precio_orig": "",
         "reserva": "",
@@ -66187,7 +66187,7 @@
         "franquicia": "",
         "estado": "",
         "disp": "Solo Bajo Pedido",
-        "precio": "5700",
+        "precio": "6100",
         "precio_d": "",
         "precio_orig": "",
         "reserva": "",
@@ -66246,21 +66246,21 @@
       {
         "id": "mueble-uv3",
         "n": "Mueble UV3",
-        "i": "assets/vitrinas/uv3.jpg",
+        "i": "assets/vitrinas/uv3.png",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
         "franquicia": "",
         "estado": "",
         "disp": "Solo Bajo Pedido",
-        "precio": "3300",
+        "precio": "3600",
         "precio_d": "",
         "precio_orig": "",
         "reserva": "",
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/uv3.jpg"
+          "assets/vitrinas/uv3.png"
         ],
         "content": [
           {
@@ -66296,21 +66296,21 @@
       {
         "id": "uv1-modulo",
         "n": "UV1 + UV2 — Sistema Modular",
-        "i": "assets/vitrinas/uv1-uv2.jpg",
+        "i": "assets/vitrinas/uv1-uv2.png",
         "l": "",
         "marca": "UV Store GT",
         "escala": "",
         "franquicia": "",
         "estado": "",
         "disp": "Solo Bajo Pedido",
-        "precio": "2200",
+        "precio": "2500",
         "precio_d": "",
         "precio_orig": "",
         "reserva": "",
         "entrega": "",
         "cantidad": "",
         "fotos": [
-          "assets/vitrinas/uv1-uv2.jpg"
+          "assets/vitrinas/uv1-uv2.png"
         ],
         "content": [
           {
@@ -66319,11 +66319,11 @@
           },
           {
             "t": "notion-bulleted-list",
-            "x": "UV1 (módulo): 110cm x 50cm x 40cm — Ideal para figuras escala 1:6 — Q2,200 c/u"
+            "x": "UV1 (módulo): 110cm x 50cm x 40cm — Ideal para figuras escala 1:6 — Q2,500 c/u"
           },
           {
             "t": "notion-bulleted-list",
-            "x": "UV2 (base): 110cm x 50cm x 40cm — Eleva los módulos del piso — Q650"
+            "x": "UV2 (base): 110cm x 50cm x 40cm — Eleva los módulos del piso — Q750"
           },
           {
             "t": "notion-bulleted-list",
