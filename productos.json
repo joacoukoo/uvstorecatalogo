@@ -5215,7 +5215,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -5261,7 +5261,8 @@
           "https://cdn.shopify.com/s/files/1/0558/2081/products/HeMan_Reg_PP_007.jpg?v=1666299989",
           "https://cdn.shopify.com/s/files/1/0558/2081/products/HeMan_Reg_PP_008.jpg?v=1666299989"
         ],
-        "id": "he-man"
+        "id": "he-man",
+        "agotado": true
       },
       {
         "n": "104th Battalion “Wolfpack” Clone Trooper™",
