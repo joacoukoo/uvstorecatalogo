@@ -55085,6 +55085,94 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "batman-arkham-origins-deathstroke-mvbcbgs8",
+        "n": "Batman: Arkham Origins - Deathstroke ",
+        "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3269/images/36649/c23133fc-464a-4416-a65d-dbf597923ccb__61595.1788750188.386.513.jpg",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3269/images/36649/c23133fc-464a-4416-a65d-dbf597923ccb__61595.1788750188.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3269/36649/c23133fc-464a-4416-a65d-dbf597923ccb__61595.1788750188.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3269/36650/3eddf31d-b41c-4294-8747-0b24f09d44b4__07853.1788750188.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3269/36652/3740fa58-c388-441a-a4af-9b789bcb9632__55262.1788750188.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3269/36651/65d87d7e-4647-4ab4-859b-978081c9f1c7__07015.1788750188.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3269/36643/9b259947-c0c8-42e2-a5a9-a5768a731cc9__50567.1788750187.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3269/36655/839274b7-f915-48d1-a1fd-a1f51926209d__12413.1788750188.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3269/36648/b51ac3da-042a-4076-bdcf-16ddbdb5b696__31793.1788750188.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la letal precisión de Deathstroke en esta espectacular figura coleccionable de INART. Con dos cabezas intercambiables, diez pares de manos diferentes y un arsenal completo que incluye espada, pistola y ballistic staff, esta réplica 1/12 captura cada detalle del mercenario más temido de Gotham. Articulación total y accesorios premium para los fans más exigentes de Batman: Arkham Origins."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: INART"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Modelo: MAG-G0012"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos cabezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diez pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vaina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ballistic staff"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base y soporte de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-16",
+        "reserva": "300",
+        "entrega": "Febrero 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "batman-the-dark-knight-returns-batman-blue-suit-muykntzy",
         "n": "Batman: The Dark Knight Returns - Batman (Blue Suit)",
         "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/1_d2f7f170-440f-4162-b9e5-f1ce7cc82016.jpg?v=1790844169",
