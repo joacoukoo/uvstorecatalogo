@@ -55085,6 +55085,98 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "batman-v-superman-dawn-of-justice-superman-mvbchbh5",
+        "n": "Batman v Superman: Dawn of Justice - Superman",
+        "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3266/images/36562/0c54dd82-060a-4fa0-85a8-2793b6dccdc7__86296.1788757959.386.513.jpg",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3266/images/36562/0c54dd82-060a-4fa0-85a8-2793b6dccdc7__86296.1788757959.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3266/36562/0c54dd82-060a-4fa0-85a8-2793b6dccdc7__86296.1788757959.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3266/36567/c9fcd800-4dcd-4d92-9272-a350fe50ab08__87234.1788757959.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3266/36558/2abefd43-6f83-4ba3-9def-b6f7b62d9e11__66846.1788747566.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3266/36560/4dbb5fcc-35dd-4024-a924-f356b4164cf7__42353.1788747566.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3266/36570/9df00c27-c66e-4f36-82b2-9443a24dd6f3__75520.1788747566.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3266/36559/58cdca9c-539f-44c7-99c9-d2afbb067613__53078.1788747566.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3266/36561/4e5f2116-da6f-41d3-8f19-b6e381c36f66__51584.1788747566.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la épica batalla de Batman v Superman con esta figura de colección premium de Superman a escala 1/12 de INART. Con dos escultura de cabeza intercambiables, nueve pares de manos diferentes y accesorios icónicos como la lanza de kryptonita, esta obra maestra captura cada detalle del traje y la capa roja característica del Hombre de Acero. Perfecta para coleccionistas que demandan autenticidad y articulación superior."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Plástico articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: INART"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Referencia: HG-M0005"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fecha estimada de lanzamiento: Q1 2027"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos escultura de cabeza intercambiables (estándar y enojado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Nueve pares de manos intercambiables (puños, relajadas, abiertas, agarrando lanza, sosteniendo máscara)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanza de kryptonita"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Kryptonita"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de visión térmica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte para efectos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado 1/12"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-16",
+        "reserva": "300",
+        "entrega": "Abril 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "the-batman-mvbcflsu",
         "n": "The Batman",
         "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3267/images/36601/08f6d2ef-ebdb-46f4-8ddc-5360d1aff880__54624.1788749025.386.513.jpg",
