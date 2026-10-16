@@ -93,6 +93,7 @@ async function dbGetOrdenes() {
     if (data.length < PAGE) break;
     from += PAGE;
   }
+  await _aplicarEstadoAuto(all);
   return all;
 }
 
@@ -127,6 +128,7 @@ async function dbSaveOrden(orden) {
     const loteAnterior = previa ? previa.lote_id : null;
     if (loteAnterior && loteAnterior !== data.lote_id) await _syncStockSiCorresponde(loteAnterior);
     await _syncStockSiCorresponde(data.lote_id);
+    data.estado = await dbSyncEstadoOrden(data.id);
     return data;
   } else {
     const { id, created_at, clientes, ...fields } = orden;
@@ -152,6 +154,7 @@ async function dbGetOrdenesByCliente(clienteId) {
     .eq('cliente_id', clienteId)
     .order('created_at', { ascending: false });
   if (error) throw error;
+  await _aplicarEstadoAuto(data);
   return data;
 }
 
@@ -170,12 +173,14 @@ async function dbSavePago(pago) {
   const { id, created_at, ...fields } = pago;
   const { data, error } = await db.from('pagos').insert(fields).select().single();
   if (error) throw error;
+  await dbSyncEstadoOrden(data.orden_id);
   return data;
 }
 
 async function dbDeletePago(id) {
-  const { error } = await db.from('pagos').delete().eq('id', id);
+  const { data, error } = await db.from('pagos').delete().eq('id', id).select('orden_id');
   if (error) throw error;
+  for (const p of data || []) await dbSyncEstadoOrden(p.orden_id);
 }
 
 async function dbGetUltimosPagos(limit = 10) {
@@ -208,6 +213,45 @@ function calcSaldo(orden, pagos) {
   return (orden.precio_venta_gtq || 0) - calcAbonado(pagos);
 }
 
+// Una orden entregada y sin saldo pendiente queda finalizada. Si deja de cumplirse
+// (se desmarca la entrega o se borra un pago), vuelve a pagada / en proceso.
+function calcEstadoAuto(orden, pagos) {
+  if (orden.estado === 'cancelada') return orden.estado;
+  const saldo = calcSaldo(orden, pagos);
+  if (orden.entregado && saldo <= 0) return 'finalizada';
+  if (orden.estado === 'finalizada') return saldo <= 0 ? 'pagada' : 'en_proceso';
+  return orden.estado;
+}
+
+async function dbSyncEstadoOrden(id) {
+  const { data: o, error } = await db
+    .from('ordenes').select('estado, entregado, precio_venta_gtq, pagos(monto)').eq('id', id).single();
+  if (error) throw error;
+  const estado = calcEstadoAuto(o, o.pagos || []);
+  if (estado !== o.estado) {
+    const { error: e2 } = await db.from('ordenes').update({ estado }).eq('id', id);
+    if (e2) throw e2;
+  }
+  return estado;
+}
+
+// Corrige en lote las órdenes cargadas (tienen que venir con pagos(monto)).
+async function _aplicarEstadoAuto(ordenes) {
+  const porEstado = {};
+  for (const o of ordenes) {
+    const estado = calcEstadoAuto(o, o.pagos || []);
+    if (estado === o.estado) continue;
+    o.estado = estado;
+    (porEstado[estado] = porEstado[estado] || []).push(o.id);
+  }
+  for (const [estado, ids] of Object.entries(porEstado)) {
+    for (let i = 0; i < ids.length; i += 100) {
+      const { error } = await db.from('ordenes').update({ estado }).in('id', ids.slice(i, i + 100));
+      if (error) console.warn('No se pudo actualizar el estado automático:', error.message);
+    }
+  }
+}
+
 function fmtQ(n) {
   return 'Q' + Number(n || 0).toLocaleString('es-GT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
@@ -225,19 +269,24 @@ function fmtDate(dt) {
 }
 
 async function dbMovePago(pagoId, newOrdenId) {
+  const { data: previo } = await db.from('pagos').select('orden_id').eq('id', pagoId).single();
   const { error } = await db.from('pagos').update({ orden_id: newOrdenId }).eq('id', pagoId);
   if (error) throw error;
+  if (previo) await dbSyncEstadoOrden(previo.orden_id);
+  await dbSyncEstadoOrden(newOrdenId);
 }
 
 async function dbUpdateEstadoOrden(id, estado) {
   const { data, error } = await db.from('ordenes').update({ estado }).eq('id', id).select('lote_id').single();
   if (error) throw error;
   await _syncStockSiCorresponde(data.lote_id);
+  return dbSyncEstadoOrden(id);
 }
 
 async function dbSetEntregado(id, entregado) {
   const { error } = await db.from('ordenes').update({ entregado }).eq('id', id);
   if (error) throw error;
+  return dbSyncEstadoOrden(id);
 }
 
 async function dbSetPedidaProveedor(id, value) {
