@@ -55085,6 +55085,89 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "batman-arkham-origins-batman-xe-suit-mvbcdqsn",
+        "n": "Batman: Arkham Origins - Batman (XE Suit)",
+        "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36625/4e69c2bf-9ac4-4d28-a47a-0666678d60b3__87142.1788749701.jpg",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1600",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36625/4e69c2bf-9ac4-4d28-a47a-0666678d60b3__87142.1788749701.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36622/0e5eef59-ac9f-41c7-9ac8-f8afb9042b4a__20027.1788749724.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36621/3b832994-1d5f-416d-ad5d-99adfcad7003__48059.1788749724.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36623/147bc227-d852-4d04-8330-084c1f3a79dc__09958.1788749724.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36626/1491b062-2250-4b77-9b34-eaa63ae62dcb__91518.1788749701.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36627/99398037-0972-440d-b839-e20b7df9ef18__72083.1788749701.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36629/c9fd71b3-3656-40ea-87bf-7405641d5d96__61216.1788749701.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la precisión y el detalle de INART con esta figura premium de Batman en su traje XE de Arkham Origins. Con 8 manos intercambiables y accesorios temáticos de hielo, podrás recrear cada momento épico del juego en escala 1/12. Un must-have para coleccionistas que exigen lo mejor en calidad y articulación."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 17-18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables (puños, manos abiertas, para taladro, para dart, para pistola, efecto congelado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Taladro congelado activado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 accesorios de taladro intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Triple bat-dart con efecto térmico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorio de pierna con efecto congelado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gancho de agarre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte de figura y base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-16",
+        "reserva": "320",
+        "entrega": "Febrero 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "batman-arkham-origins-deathstroke-mvbcbgs8",
         "n": "Batman: Arkham Origins - Deathstroke ",
         "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3269/images/36649/c23133fc-464a-4416-a65d-dbf597923ccb__61595.1788750188.386.513.jpg",
