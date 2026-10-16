@@ -55085,6 +55085,82 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "the-batman-mvbcflsu",
+        "n": "The Batman",
+        "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3267/images/36601/08f6d2ef-ebdb-46f4-8ddc-5360d1aff880__54624.1788749025.386.513.jpg",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1500",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3267/images/36601/08f6d2ef-ebdb-46f4-8ddc-5360d1aff880__54624.1788749025.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3267/36601/08f6d2ef-ebdb-46f4-8ddc-5360d1aff880__54624.1788749025.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3267/36602/5f081d44-a854-4258-be8e-136c310c0002__20346.1788749025.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3267/36604/6a1b7edc-ae0f-4e8c-ab8b-165f19c291c1__91492.1788749025.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3267/36599/7cfd6c0d-16b8-4166-b7ce-d07e04a91b3e__63267.1788749025.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3267/36597/b490982c-8bf2-4681-b317-4aa0bb28c35d__35034.1788748888.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3267/36598/c71c5603-dd28-483d-9b43-87ae9110626a__42890.1788748888.jpg",
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3267/36605/db17c3e9-1f03-4f5f-ab10-5a4920afcbaa__76881.1788748889.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la excelencia de la colección INART con esta figura premium de The Batman a escala 1/12. Cada detalle del traje, armadura y capa ha sido meticulosamente esculpido para capturar la esencia oscura del vigilante de Gotham. Una pieza de museo perfecta para coleccionistas que exigen lo mejor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS con pintura detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones posables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada The Batman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios varios"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-16",
+        "reserva": "300",
+        "entrega": "Mayo 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "batman-arkham-origins-batman-xe-suit-mvbcdqsn",
         "n": "Batman: Arkham Origins - Batman (XE Suit)",
         "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/1280x1280/products/3268/36625/4e69c2bf-9ac4-4d28-a47a-0666678d60b3__87142.1788749701.jpg",
