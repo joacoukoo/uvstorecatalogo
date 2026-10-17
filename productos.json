@@ -5951,9 +5951,6 @@
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "2300",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
         "cantidad": "1",
         "content": [
           {
@@ -5973,22 +5970,16 @@
             "x": "Pistola×1Cuchillo×1Linterna×1Libro de bromas×1Bolsa de dormir×1Mochila×1Base de exhibición×1"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Otros",
         "destacado": false,
         "oferta": false,
         "fotos": [
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/2200/images/24651/342517184_1960903887582293_4707559974680680319_n__97180.1682137861.386.513.jpg?c=1",
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/250x100/oso_1768794167__92396.original.png",
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/500x659/products/2200/24651/342517184_1960903887582293_4707559974680680319_n__97180.1682137861.jpg?c=1",
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24651/342517184_1960903887582293_4707559974680680319_n__97180.1682137861.jpg?c=1",
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24652/342211406_807763430971281_1634109063333518330_n__10542.1682137861.jpg?c=1",
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24655/342509676_188602507329983_6631745967715748561_n__08451.1682137861.jpg?c=1",
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24656/342509963_972463647089789_2838947568206841583_n__00507.1682137861.jpg?c=1",
-          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/100x100/products/2200/24653/341622000_1480799955992191_8978602154816627915_n__15114.1682137861.jpg?c=1"
+          "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/2200/images/24651/342517184_1960903887582293_4707559974680680319_n__97180.1682137861.386.513.jpg?c=1"
         ],
-        "id": "ellie-tv-series"
+        "id": "ellie-tv-series",
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "Zoltar Speaks – Fortune Teller Machine (Scaled Replica)",
