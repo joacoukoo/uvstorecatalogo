@@ -39034,6 +39034,90 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "teenage-mutant-ninja-turtles-1-6-scale-movie-diora-mvfsly2h",
+        "n": "Teenage Mutant Ninja Turtles 1/6 Scale Movie Diorama",
+        "i": "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_1.jpg?v=1792071975",
+        "franquicia": "Otros",
+        "marca": "PureArts",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "16000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_1.jpg?v=1792071975",
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_2.jpg?v=1792071975",
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_3.jpg?v=1792071975",
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_4.jpg?v=1792071975",
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_5.jpg?v=1792071975",
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_6.jpg?v=1792071975",
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_7.jpg?v=1792071975",
+          "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_8.jpg?v=1792071975"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Revive la era dorada de los Ninja Turtles con esta espectacular diorama de 1/6 escala de PureArts, donde Leonardo, Donatello, Michelangelo y Raphael se presentan en una pose de combate lista para la acción sobre una auténtica base de las calles de Nueva York. Cada tortuga está meticulosamente esculpida en poliresina de alta calidad con detalles hiperrrealistas y una pintura de acabado premium fiel a la película clásica de los 90. Una pieza de coleccionista definitiva para fans del icónico dúo Eastman y Laird."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 35.6 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 8 kg (aproximado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Numerada individualmente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial Paramount"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de calle de Nueva York con canister roto de ooze"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa numerada de fondo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad (COA)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuatro figuras de tortuga (Leonardo, Donatello, Michelangelo y Raphael)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-19",
+        "reserva": "3200",
+        "entrega": "4Q 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "asuka-life-size-bust-mulm1mdb",
         "n": "Asuka Life Size Bust",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/86064e05d9abc210f8e5c273218936c7.png?v=1790603783",
