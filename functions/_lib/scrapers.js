@@ -526,6 +526,33 @@ export async function scrapeSideshow(url, html) {
   };
 }
 
+// Opciones de producto tal como las publica la tienda; opcionesReales() descarta las de pago/stock.
+// Shopify: product.options + la foto de la primera variante de cada valor.
+export function shopifyOpciones(product) {
+  return (product?.options || []).filter(o => (o.values || []).length > 1 || o.name !== 'Title').map((o, idx) => {
+    const key = 'option' + (idx + 1);
+    const fotos = o.values.map(v => {
+      const src = (product.variants || []).find(x => x[key] === v)?.featured_image?.src;
+      return src ? [src] : [];
+    });
+    return fotos.some(f => f.length) ? { nombre: o.name, valores: o.values, fotos } : { nombre: o.name, valores: o.values };
+  });
+}
+
+// BigCommerce: cada <div class="form-field" data-product-attribute="..."> con su etiqueta y valores.
+export function bigCommerceOpciones(html) {
+  const out = [];
+  const partes = String(html || '').split(/<div class="form-field[^"]*"[^>]*data-product-attribute="/).slice(1);
+  for (const parte of partes) {
+    const lbl = parte.match(/<label class="form-label[^"]*"[^>]*>([\s\S]*?)(?:<small|<\/label>)/);
+    const nombre = decodeHtml((lbl?.[1] || '').replace(/<[^>]+>/g, '')).replace(/[:*]+\s*$/, '').trim();
+    const valores = [...parte.matchAll(/data-product-attribute-value="[^"]*"[^>]*>([^<]+)</g), ...parte.matchAll(/<option[^>]*value="\d+"[^>]*>([^<]+)</g)]
+      .map(m => decodeHtml(m[1]).trim()).filter(Boolean);
+    if (nombre) out.push({ nombre, valores });
+  }
+  return out;
+}
+
 export async function scrapeShopify(url, html = '') {
   const handleMatch = url.match(/\/products\/([^/?#]+)/);
   if (handleMatch) {
@@ -555,6 +582,7 @@ export async function scrapeShopify(url, html = '') {
           franquicia: guessFranquicia(name, tags),
           escala: guessEscala(name, tags),
           estado: product.variants?.some(v=>v.available) ? 'Entrega Inmediata' : 'Pre-Orden',
+          opciones: shopifyOpciones(product),
           provider: 'shopify'
         };
       }
@@ -689,7 +717,7 @@ export function scrapeBigCommerce(url, html) {
   const escala = specs['scale'] || guessEscala(name);
   const entrega = specs['estimated release time'] || specs['release date'] || specs['release time'] || '';
 
-  return { name, price, desc, photos, marca, escala, entrega, franquicia: guessFranquicia(name), estado: isPreOrder(html) ? 'Pre-Orden' : 'Entrega Inmediata', provider: 'bigcommerce' };
+  return { name, price, desc, photos, marca, escala, entrega, franquicia: guessFranquicia(name), estado: isPreOrder(html) ? 'Pre-Orden' : 'Entrega Inmediata', opciones: bigCommerceOpciones(html), provider: 'bigcommerce' };
 }
 
 export function scrapeOpenCart(url, html) {

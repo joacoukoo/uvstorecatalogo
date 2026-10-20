@@ -1,0 +1,72 @@
+{
+ "code": 0,
+ "data": {
+  "id": 32755,
+  "title": "(WF2026 Shipping Included)JIMEI PALACE X Toei Animation - One Piece - Donquixote Doflamingo 1/6  Statue -（Licensed）",
+  "description": "【Pre-sale 2027 Q2】\nThis product will be shipped directly from China\nIf you have any questions, please contact us through email or facebook regarding your order\ninfo@hexapusacg.com\nwww.facebook.com/hexapusofficialaccount",
+  "content": "<p><strong><a href=\"WF2026 DAY 1 LIVE REPLAY（STATUE REVIEW） WF2026 DAY 2 LIVE REPLAY（INTERVIEW）\" target=\"_blank\">WF2026 DAY 1 LIVE REPLAY（STATUE REVIEW）</a></strong></p><p><strong><a href=\"https://www.youtube.com/live/JMhTJ_8egqc?si=51vxwh4_3POSFXSV\" target=\"_blank\">WF2026 DAY 2 LIVE REPLAY（INTERVIEW）</a></strong></p><p><strong>Tax and shipping information</strong></p><p style=\"text-align:start;\" size=\"5\" _root=\"[object Object]\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"><strong>Customers from Contiguous EU, USA, AUS, CA, UK, Malaysia and Singapore (Not Including Islands such as Hawaii etc.) :</strong></p><p style=\"text-align:start;\" size=\"5\" _root=\"[object Object]\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"></p><p style=\"text-align:start;\" size=\"5\" _root=\"[object Object]\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"><strong>Everything you see is everything you pay for. Shipping and customs are included in the price!</strong></p><p style=\"text-align:start;\" size=\"5\" _root=\"[object Object]\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"></p><p style=\"text-align:start;\" size=\"5\" _root=\"[object Object]\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"><strong>Customers from other countries:</strong></p><p style=\"text-align:start;\" size=\"5\" _root=\"[object Object]\" __ownerid=\"undefined\" __hash=\"undefined\" __altered=\"false\"><strong>Shipping and / or customs are not included in the price and a minimum surcharge will",
+  "img": [
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Yq0IAcz_YU9Gj4hbOaxyn1790244407018.jpg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BmLJWdU-tVT2JrZJAo3of1790244413186.jpg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mzIjBU1qGegjvwMdr9bT91790244421610.jpg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/NM1ib-dKrKvcyoFRrXoKt1790244421610.jpg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/s_J9ay3583Vf8RKOmLEYr1790422197424.jpeg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/O_Cj6v3LX2pS5G7SdJf961790422197426.jpeg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ogbSpkQlXu9xUhjzJUqFv1790422197426.jpeg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/T8G22px_rXV1rXDaMa3nL1790422197426.jpeg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/O2cT_mGzX9S54YXY4mHTt1790422205761.jpeg",
+   "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5SJm2MvNZVr6uaqRGNz4a1790422219910.jpeg"
+  ],
+  "ip_id": 5,
+  "role": "Donquixote Doflamingo",
+  "material": "",
+  "factory": "",
+  "status": 1,
+  "type": 2,
+  "pay_channel": 1,
+  "ori_price": 435,
+  "price": 435,
+  "end_time": 1773504000000,
+  "final_pay_end_time": 1774713600000,
+  "logistics_time": 1773504000000,
+  "sales": 34,
+  "stock": 5,
+  "like_num": 0,
+  "create_time": 1790244546000,
+  "modify_time": 1792522200000,
+  "ip": {
+   "id": 5,
+   "cname": "海贼王",
+   "ename": "One Piece",
+   "status": 1,
+   "jdy_id": ""
+  },
+  "can_final_pay": false,
+  "not_show_in_all": false,
+  "platforms": null,
+  "company": "Hexapus ACG",
+  "goods_list": [
+   {
+    "id": 51182,
+    "name": "Echo Version",
+    "price": 435,
+    "sku": "JP X TA-DD 1/6 Echo",
+    "scale": "",
+    "img": [
+     "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/AzMHHaxyPx4t_qBYeMQ1i1790244430951.jpg"
+    ]
+   },
+   {
+    "id": 51183,
+    "name": "Premium Version",
+    "price": 509,
+    "sku": "JP X TA-DD 1/6 Premium",
+    "scale": "",
+    "img": [
+     "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WqnudV9kvFCSNdTLELRxe1790244439342.jpg"
+    ]
+   }
+  ]
+ },
+ "msg": "ok"
+}

@@ -538,7 +538,8 @@ async function revisarMarcaCampo(id){
 }
 
 function fillAddForm(data){
-  setField('add-name',data.name||'');
+  setField('add-name',data.nombre_limpio||data.name||'');
+  if(data.categoria)setField('add-cat',data.categoria);
   setField('add-franquicia',data.franquicia||'');
   setField('add-marca',resolverMarca(data.marca||'').marca);
   setField('add-escala',data.escala||'');
