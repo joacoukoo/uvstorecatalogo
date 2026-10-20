@@ -80,6 +80,30 @@ describe('POST /api/scrape con ficha de Nonasea y respuesta de la IA', () => {
     expect(tieneBasura(d.desc)).toBe(false);
     expect(d.photos.length).toBeGreaterThan(0);
   });
+
+  it('guarda qué trae cada versión cuando la IA lo explica', async () => {
+    vi.stubGlobal('fetch', mock({
+      nombre: 'Doflamingo', desc: 'Una estatua.', categoria: 'Estatuas Premium',
+      variantes: [{ nombre: 'Echo', incluye: 'Sin alas, base octagonal' }, { nombre: 'Premium', incluye: 'Con alas y base escénica' }],
+    }));
+    const d = await (await onRequestPost(req())).json();
+    expect(d.variantes_ia.map(v => [v.label, v.detalle])).toEqual([['Echo', 'Sin alas, base octagonal'], ['Premium', 'Con alas y base escénica']]);
+  });
+});
+
+describe('fotos de BigCommerce', () => {
+  it('no repite la foto principal en miniatura: queda solo la grande', async () => {
+    const { scrapeBigCommerce } = await import('../functions/_lib/scrapers.js');
+    const html = '<h1 class="productView-title">X</h1>'
+      + '<img src="https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/20685/images/435325/_robin__42619.1792481996.386.513.jpg">'
+      + '<a href="https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435325/_robin__42619.1792481996.jpg"></a>'
+      + '<a href="https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435322/_otra__45307.1792481993.jpg"></a>';
+    const r = scrapeBigCommerce('https://www.fanaticanimestore.com/x/', html);
+    expect(r.photos).toEqual([
+      'https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435325/_robin__42619.1792481996.jpg',
+      'https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435322/_otra__45307.1792481993.jpg',
+    ]);
+  });
 });
 
 describe('opciones de los scrapers', () => {

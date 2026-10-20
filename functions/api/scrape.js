@@ -21,7 +21,7 @@ Reglas: nunca menciones tiendas (Fanatic Anime Store, FNC, Nonasea, Hexapus, Sta
 "categoria": "Hot Toys 1:6" si el fabricante es Hot Toys; "Estatuas Premium" para estatuas y bustos; "Otras Figuras" para figuras articuladas que no son Hot Toys; "Adultos" para contenido adulto.
 "marca": el fabricante real de la figura (nunca la tienda que la vende), "" si no se sabe.
 "entrega": fecha estimada de entrega si el texto la trae (ej. "2027 Q2"), si no "".
-"variantes": un nombre corto en español por cada opción a la venta, en el mismo orden (ej. "1:4", "Deluxe", "Cabeza extra"); [] si no hay opciones.
+"variantes": una por cada opción a la venta, en el mismo orden: {"nombre": nombre corto ("1:4", "Deluxe", "EX"), "incluye": qué trae esa versión que la diferencia de las otras, en español y en pocas palabras, sacado del texto (ej. "Con alas y base escénica"), "" si el texto no lo dice}; [] si no hay opciones.
 
 Responde SOLO con JSON válido sin markdown:
 {"nombre":"...","marca":"","categoria":"...","entrega":"","variantes":[],"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2","franquicia":"una de: Marvel|DC Comics|Star Wars|Anime|Gaming|Harry Potter|El Señor de los Anillos|Alien|Predator|Terminator|Tortugas Ninja|Masters of the Universe|Transformers|Adultos|Otros"}`;
@@ -63,7 +63,9 @@ Responde SOLO con JSON válido sin markdown:
       marca: typeof parsed.marca === 'string' ? parsed.marca.trim() : '',
       categoria: parsed.categoria,
       entrega: typeof parsed.entrega === 'string' ? parsed.entrega.trim() : '',
-      variantes: Array.isArray(parsed.variantes) ? parsed.variantes.map(String) : [],
+      variantes: Array.isArray(parsed.variantes)
+        ? parsed.variantes.map(v => (v && typeof v === 'object') ? { nombre: String(v.nombre || ''), incluye: String(v.incluye || '').trim() } : { nombre: String(v), incluye: '' })
+        : [],
     };
   } catch {
     return null;
@@ -218,9 +220,11 @@ function completarParaCatalogo(result, ai, url) {
   const op = result.opciones[0];
   const esEscala = /scale|escala/i.test(op?.nombre || '');
   result.variantes_ia = (op?.valores || []).map((v, i) => {
-    const label = limpiarNombre(ai?.variantes?.[i] || v) || v;
+    const iv = ai?.variantes?.[i];
+    const label = limpiarNombre(iv?.nombre || v) || v;
+    const detalle = sacarOracionesConBasura(iv?.incluye || '').trim();
     const fotos = op.fotos?.[i]?.length ? op.fotos[i] : undefined;
-    return { label, ...(esEscala ? { escala: v.replace('/', ':') } : {}), ...(fotos ? { fotos } : {}) };
+    return { label, ...(detalle ? { detalle } : {}), ...(esEscala ? { escala: v.replace('/', ':') } : {}), ...(fotos ? { fotos } : {}) };
   });
 }
 

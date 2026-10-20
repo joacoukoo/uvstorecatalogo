@@ -116,6 +116,23 @@ describe('armarProducto', () => {
     expect(r.product).toMatchObject({ precio: '1800', precio_d: '2100', reserva_d: '420', fotos_d: ['https://f/d.jpg'] });
     expect(r.product.variantes).toBeUndefined();
   });
+  it('cada versión muestra arriba de la descripción qué trae', () => {
+    const d = { ...base, variantes_ia: [
+      { label: 'Simple', detalle: 'Sin alas, base octagonal' },
+      { label: 'Regular', detalle: 'Con alas, base octagonal' },
+      { label: 'EX', detalle: 'Con alas y base escénica' },
+    ] };
+    const r = armarProducto(d, { base: '2800', variantes: ['3200', '4000'] }, extra, helpers);
+    expect(r.product.content).toEqual([{ t: 'notion-text', x: 'Versión Simple: Sin alas, base octagonal.' }, { t: 'notion-text', x: 'Linda.' }]);
+    expect(r.product.variantes.map(v => v.content[0].x)).toEqual(['Versión Regular: Con alas, base octagonal.', 'Versión EX: Con alas y base escénica.']);
+    expect(r.product.variantes[1].content[1]).toEqual({ t: 'notion-text', x: 'Linda.' });
+  });
+  it('en Regular / Deluxe la Deluxe tiene su propia descripción con lo que trae', () => {
+    const d = { ...base, variantes_ia: [{ label: 'Regular', detalle: 'Figura y base' }, { label: 'Deluxe', detalle: 'Agrega cabeza extra' }] };
+    const r = armarProducto(d, { base: '1800', variantes: ['2100'] }, extra, helpers);
+    expect(r.product.content[0].x).toBe('Versión Regular: Figura y base.');
+    expect(r.product.content_d[0].x).toBe('Versión Deluxe: Agrega cabeza extra.');
+  });
   it('sin ningún precio no arma nada', () => {
     expect(armarProducto(base, { base: '', variantes: [] }, extra, helpers)).toBeNull();
   });

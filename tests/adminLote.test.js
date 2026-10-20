@@ -86,6 +86,17 @@ describe('Pendientes en el admin', () => {
   });
 });
 
+describe('Pendientes muestra qué trae cada versión', () => {
+  it('al lado del precio aparece el detalle de la versión', () => {
+    const E = crearEntorno();
+    const f = fila('a', 'Nico Robin');
+    f.datos.variantes_ia = [{ label: 'Simple', detalle: 'Sin alas, base octagonal' }, { label: 'EX', detalle: 'Con alas y base escénica' }];
+    E.api._pend = [f];
+    E.api.pendRender();
+    expect(E.el('pend-lista').innerHTML).toContain('Con alas y base escénica');
+  });
+});
+
 describe('Lote en el admin', () => {
   it('no deja abrir otra página mientras está trayendo figuras', async () => {
     const E = crearEntorno();

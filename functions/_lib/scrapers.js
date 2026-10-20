@@ -677,7 +677,10 @@ export function scrapeBigCommerce(url, html) {
     for (const m of source.matchAll(cdnRe)) {
       const u = m[0];
       if (!u.includes('/products/')) continue;
-      const key = u.replace(/\/stencil\/[^/]+\//, '/stencil//');
+      // Una misma foto aparece como miniatura (/products/ID/images/FOTO/x.386.513.jpg) y en
+      // /stencil/1280x1280/products/ID/FOTO/: se agrupa por foto y gana la más grande.
+      const id = u.match(/\/products\/(\d+)\/(?:images\/)?(\d+)\//);
+      const key = id ? id[1] + '/' + id[2] : u.replace(/\/stencil\/[^/]+\//, '/stencil//');
       if (!byImgId.has(key)) byImgId.set(key, u);
       else {
         const curSize = parseInt(byImgId.get(key).match(/\/stencil\/(\d+)x/)?.[1] || '0');

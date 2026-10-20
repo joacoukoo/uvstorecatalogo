@@ -101,6 +101,11 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
   if (!conPrecio.length) return null;
 
   const [b, ...resto] = conPrecio;
+  // Arriba de la descripción, qué trae la versión elegida (la web la cambia al tocar el botón).
+  const conVersion = o => [
+    ...(o.detalle && o.label ? [{ t: 'notion-text', x: 'Versión ' + o.label + ': ' + o.detalle.replace(/[.\s]+$/, '') + '.' }] : []),
+    ...buildContent(datos.desc || ''),
+  ];
   const product = {
     id: makeId(extra.nombre || datos.nombre_limpio || 'figura'),
     n: extra.nombre || datos.nombre_limpio || '',
@@ -113,7 +118,7 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
     estado: 'Nuevo',
     precio: String(b.precio),
     reserva: reserva(b.precio),
-    content: buildContent(datos.desc || ''),
+    content: conVersion(b),
     destacado: false, oferta: false, agotado: false, agotado_r: false, agotado_d: false,
     added_at: new Date().toISOString().slice(0, 10),
     origen: datos.origen || '',
@@ -125,11 +130,13 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
     product.precio_d = String(resto[0].precio);
     product.reserva_d = reserva(resto[0].precio);
     if (resto[0].fotos?.length) product.fotos_d = resto[0].fotos;
+    if (resto[0].detalle) product.content_d = conVersion(resto[0]);
   } else if (resto.length) {
     product.label_base = b.label;
     product.variantes = resto.map(v => ({
       label: v.label, precio: String(v.precio), reserva: reserva(v.precio),
       ...(v.escala ? { escala: v.escala } : {}), ...(v.fotos?.length ? { fotos: v.fotos } : {}),
+      ...(v.detalle ? { content: conVersion(v) } : {}),
     }));
   }
   return { category: extra.categoria || datos.categoria || 'Otras Figuras', product };

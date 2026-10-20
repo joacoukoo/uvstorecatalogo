@@ -1215,7 +1215,7 @@ function pendRender(){
     var vars=d.variantes_ia||[];
     var filas=(vars.length?vars:[{label:'Precio'}]).map(function(v,k){
       var pv=val('p'+k,'');var res=parseFloat(pv)>0?'Reserva Q'+Math.round(parseFloat(pv)*RESERVA_FACTOR):'';
-      return '<div class="pend-precio"><label>'+_e(vars.length?v.label:'Precio')+'</label><span style="color:var(--muted2)">Q</span><input type="number" min="0" inputmode="numeric" id="pend-p-'+id+'-'+k+'" value="'+_e(pv)+'" oninput="pendReserva(\''+id+'\','+k+')"><span class="pend-reserva" id="pend-r-'+id+'-'+k+'">'+res+'</span></div>';
+      return '<div class="pend-precio"><label>'+_e(vars.length?v.label:'Precio')+'</label>'+(v.detalle?'<span style="color:var(--muted2);font-size:12px">'+_e(v.detalle)+'</span>':'')+'<span style="color:var(--muted2)">Q</span><input type="number" min="0" inputmode="numeric" id="pend-p-'+id+'-'+k+'" value="'+_e(pv)+'" oninput="pendReserva(\''+id+'\','+k+')"><span class="pend-reserva" id="pend-r-'+id+'-'+k+'">'+res+'</span></div>';
     }).join('');
     var marca=val('m',rm.marca);
     var sug=rm.sugerencia&&!('m' in g)?'<button class="chip-sug" onclick="setField(\'pend-m-'+id+'\',this.dataset.v);this.remove()" data-v="'+_e(rm.sugerencia)+'">¿'+_e(rm.sugerencia)+'?</button>':'';
@@ -1271,7 +1271,7 @@ async function pendPublicar(){
 pendContar();
 </script>
 <script type="module">
-import * as LoteImport from './lote-import.js?v=20261020';
+import * as LoteImport from './lote-import.js?v=20261021';
 window.LoteImport = LoteImport;
 </script>
 </body>
