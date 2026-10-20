@@ -70,6 +70,33 @@ export async function onRequestPut({ env, request }) {
       return ok();
     }
 
+    // Publicar varias figuras de una (lista de precios del lote): un solo commit, y las que ya
+    // existen (doble clic, o publicadas por otro mientras tanto) se omiten.
+    if (action === 'add_many') {
+      const { items } = body;
+      if (!Array.isArray(items) || !items.length) return err400('add_many requiere items');
+      if (items.some(it => !it?.category || !it?.product?.id)) return err400('cada item requiere category y product.id');
+      let agregadas = 0, omitidas = [];
+      try {
+        await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
+          const malas = items.filter(it => !catalog[it.category]).map(it => it.category);
+          if (malas.length) { const e = new Error('Categoría inexistente: ' + malas.join(', ')); e.status400 = true; throw e; }
+          const ids = new Set(Object.values(catalog).flatMap(c => (c.products || []).map(p => p.id)));
+          agregadas = 0; omitidas = [];
+          for (const { category, product } of [...items].reverse()) {
+            if (ids.has(product.id)) { omitidas.unshift(product.id); continue; }
+            catalog[category].products.unshift(product);
+            ids.add(product.id);
+            agregadas++;
+          }
+        }, { message: 'Add batch — UV Store GT Admin' });
+      } catch (e) {
+        if (e.status400) return err400(e.message);
+        throw e;
+      }
+      return new Response(JSON.stringify({ ok: true, agregadas, omitidas }), { headers: { 'Content-Type': 'application/json' } });
+    }
+
     if (action === 'replace') {
       const { catalog } = body;
       if (!catalog) return err400('replace requiere catalog');
