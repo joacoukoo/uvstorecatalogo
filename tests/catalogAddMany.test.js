@@ -47,6 +47,15 @@ describe('PUT /api/catalog add_many', () => {
     expect(puts[0].catalog['Otras Figuras'].products.map(p => p.id)).toEqual(['n2', 'n1']);
   });
 
+  it('omite una figura cuyo origen ya está publicado aunque traiga otro id', async () => {
+    const puts = mockGitHub({ 'Otras Figuras': { products: [{ id: 'viejo-id', origen: 'https://statuecorp.com/products/kogenta' }] } });
+    const res = await onRequestPut(req({ action: 'add_many', items: [
+      { category: 'Otras Figuras', product: { id: 'nuevo-id', origen: 'https://statuecorp.com/products/kogenta' } },
+    ] }));
+    expect(await res.json()).toEqual({ ok: true, agregadas: 0, omitidas: ['nuevo-id'] });
+    expect(puts[0].catalog['Otras Figuras'].products).toHaveLength(1);
+  });
+
   it('sin items responde 400', async () => {
     mockGitHub({});
     expect((await onRequestPut(req({ action: 'add_many', items: [] }))).status).toBe(400);

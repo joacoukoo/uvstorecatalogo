@@ -1113,6 +1113,7 @@ async function _leerPagina(pagina){
   _lote.items=_lote.items.concat(nuevos);
 }
 async function loteVer(){
+  if(_lote.trayendo)return setStatus('Esperá a que termine de traer las figuras','orange');
   var url=getField('lote-url').trim();if(!url)return;
   _lote={url:url,pagina:1,siguiente:null,items:[],trayendo:false};
   setStatus('Leyendo la página...','orange');
@@ -1121,7 +1122,7 @@ async function loteVer(){
   loteRender();
 }
 async function loteMas(){
-  if(!_lote.siguiente)return;
+  if(!_lote.siguiente||_lote.trayendo)return;
   setStatus('Cargando más...','orange');
   try{_lote.pagina=_lote.siguiente;await _leerPagina(_lote.pagina);setStatus('Listo','green');}
   catch(e){setStatus('Error: '+e.message,'red');}
@@ -1163,8 +1164,7 @@ async function loteTraer(indices){
   _lote.trayendo=true;
   idx.forEach(function(i){_lote.items[i].proceso='cola';_lote.items[i].elegida=false;});
   loteRender();
-  var tareas=idx.map(function(i){return async function(){
-    var it=_lote.items[i];
+  var tareas=idx.map(function(i){var it=_lote.items[i];return async function(){
     try{
       var datos=await _postJson('/api/scrape',{url:it.origen});
       try{await _postJson('/api/pendientes',{clave:it.clave,origen:it.origen,datos:datos});}
@@ -1189,46 +1189,68 @@ async function pendCargar(){
   catch(e){setStatus('Error: '+e.message,'red');}
 }
 function _opts(lista,sel){return lista.map(function(v){return '<option'+(v===sel?' selected':'')+'>'+_e(v)+'</option>';}).join('');}
+// Las filas se identifican por el id del pendiente (no por su posición), y lo que ya se escribió
+// se guarda antes de redibujar para no perderlo al quitar una figura o volver a la pestaña.
+var _pendEscrito={},_pendDibujadas=[];
+var _pendCampos=['n','c','f','m'];
+function _pendGuardarEscrito(){
+  _pendDibujadas.forEach(function(r){
+    var g={};_pendCampos.forEach(function(c){var x=document.getElementById('pend-'+c+'-'+r.id);if(x)g[c]=x.value;});
+    for(var k=0;k<r.n;k++){var x=document.getElementById('pend-p-'+r.id+'-'+k);if(x)g['p'+k]=x.value;}
+    _pendEscrito[r.id]=g;
+  });
+}
 function pendRender(){
+  _pendGuardarEscrito();
+  var vivos={};_pend.forEach(function(p){vivos[p.id]=1;});
+  Object.keys(_pendEscrito).forEach(function(id){if(!vivos[id])delete _pendEscrito[id];});
   document.getElementById('pend-count').textContent=_pend.length?'('+_pend.length+')':'';
   var franq=[].slice.call(document.getElementById('add-franquicia').options).map(function(o){return o.value;}).filter(Boolean);
   var el=document.getElementById('pend-lista');
+  _pendDibujadas=_pend.map(function(p){return{id:p.id,n:Math.max(1,((p.datos||{}).variantes_ia||[]).length)};});
   if(!_pend.length){el.innerHTML='<p style="color:var(--muted);padding:18px 0">No hay figuras esperando precio. Traelas desde la pestaña Lote.</p>';return;}
-  el.innerHTML=_pend.map(function(p,i){
-    var d=p.datos||{};var rm=resolverMarca(d.marca||'');
+  el.innerHTML=_pend.map(function(p){
+    var d=p.datos||{};var rm=resolverMarca(d.marca||'');var id=_e(p.id);
+    var g=_pendEscrito[p.id]||{};var val=function(c,def){return c in g?g[c]:def;};
     var vars=d.variantes_ia||[];
     var filas=(vars.length?vars:[{label:'Precio'}]).map(function(v,k){
-      return '<div class="pend-precio"><label>'+_e(vars.length?v.label:'Precio')+'</label><span style="color:var(--muted2)">Q</span><input type="number" min="0" inputmode="numeric" id="pend-p-'+i+'-'+k+'" oninput="pendReserva('+i+','+k+')"><span class="pend-reserva" id="pend-r-'+i+'-'+k+'"></span></div>';
+      var pv=val('p'+k,'');var res=parseFloat(pv)>0?'Reserva Q'+Math.round(parseFloat(pv)*RESERVA_FACTOR):'';
+      return '<div class="pend-precio"><label>'+_e(vars.length?v.label:'Precio')+'</label><span style="color:var(--muted2)">Q</span><input type="number" min="0" inputmode="numeric" id="pend-p-'+id+'-'+k+'" value="'+_e(pv)+'" oninput="pendReserva(\''+id+'\','+k+')"><span class="pend-reserva" id="pend-r-'+id+'-'+k+'">'+res+'</span></div>';
     }).join('');
-    var sug=rm.sugerencia?'<button class="chip-sug" onclick="setField(\'pend-m-'+i+'\',this.dataset.v);this.remove()" data-v="'+_e(rm.sugerencia)+'">¿'+_e(rm.sugerencia)+'?</button>':'';
+    var marca=val('m',rm.marca);
+    var sug=rm.sugerencia&&!('m' in g)?'<button class="chip-sug" onclick="setField(\'pend-m-'+id+'\',this.dataset.v);this.remove()" data-v="'+_e(rm.sugerencia)+'">¿'+_e(rm.sugerencia)+'?</button>':'';
     return '<div class="pend-row"><img src="'+_e((d.photos||[])[0]||'')+'" alt="">'
-      +'<div class="pend-body"><input id="pend-n-'+i+'" value="'+_e(d.nombre_limpio||d.name||'')+'" style="width:100%;max-width:420px">'
-      +'<div class="pend-meta"><select id="pend-c-'+i+'">'+_opts(CATEGORIAS_LOTE,d.categoria)+'</select>'
-      +'<select id="pend-f-'+i+'"><option value="">Franquicia</option>'+_opts(franq,d.franquicia)+'</select>'
-      +'<input id="pend-m-'+i+'" list="marcas-list" placeholder="Marca" value="'+_e(rm.marca)+'" style="width:150px">'+sug+'</div>'
+      +'<div class="pend-body"><input id="pend-n-'+id+'" value="'+_e(val('n',d.nombre_limpio||d.name||''))+'" style="width:100%;max-width:420px">'
+      +'<div class="pend-meta"><select id="pend-c-'+id+'">'+_opts(CATEGORIAS_LOTE,val('c',d.categoria))+'</select>'
+      +'<select id="pend-f-'+id+'"><option value="">Franquicia</option>'+_opts(franq,val('f',d.franquicia))+'</select>'
+      +'<input id="pend-m-'+id+'" list="marcas-list" placeholder="Marca" value="'+_e(marca)+'" style="width:150px">'+sug+'</div>'
       +filas+'</div>'
-      +'<button class="btn btn-danger" style="padding:5px 10px;font-size:12px" onclick="pendQuitar('+i+')">Quitar</button></div>';
+      +'<button class="btn btn-danger" style="padding:5px 10px;font-size:12px" onclick="pendQuitar(\''+id+'\')">Quitar</button></div>';
   }).join('');
 }
-function pendReserva(i,k){
-  var v=parseFloat(getField('pend-p-'+i+'-'+k));
-  document.getElementById('pend-r-'+i+'-'+k).textContent=v>0?'Reserva Q'+Math.round(v*RESERVA_FACTOR):'';
+function pendReserva(id,k){
+  var v=parseFloat(getField('pend-p-'+id+'-'+k));
+  document.getElementById('pend-r-'+id+'-'+k).textContent=v>0?'Reserva Q'+Math.round(v*RESERVA_FACTOR):'';
 }
-async function pendQuitar(i){
-  var p=_pend[i];if(!p||!confirm('¿Quitar "'+((p.datos||{}).nombre_limpio||'esta figura')+'" de pendientes?'))return;
-  try{await _postJson('/api/pendientes',{ids:[p.id]},'DELETE');_pend.splice(i,1);pendRender();setStatus('Quitada','green');}
-  catch(e){setStatus('Error: '+e.message,'red');}
+async function pendQuitar(id){
+  var p=_pend.find(function(x){return x.id===id;});
+  if(!p||!confirm('¿Quitar "'+((p.datos||{}).nombre_limpio||'esta figura')+'" de pendientes?'))return;
+  try{
+    await _postJson('/api/pendientes',{ids:[id]},'DELETE');
+    _pend=_pend.filter(function(x){return x.id!==id;});delete _pendEscrito[id];
+    pendRender();setStatus('Quitada','green');
+  }catch(e){setStatus('Error: '+e.message,'red');}
 }
 async function pendPublicar(){
   var btn=document.getElementById('pend-publicar');
   var items=[],ids=[];
-  _pend.forEach(function(p,i){
-    var d=p.datos||{};var n=Math.max(1,(d.variantes_ia||[]).length);
-    var precios={base:getField('pend-p-'+i+'-0'),variantes:[]};
-    for(var k=1;k<n;k++)precios.variantes.push(getField('pend-p-'+i+'-'+k));
+  _pend.forEach(function(p){
+    var d=p.datos||{};var n=Math.max(1,(d.variantes_ia||[]).length);var id=p.id;
+    var precios={base:getField('pend-p-'+id+'-0'),variantes:[]};
+    for(var k=1;k<n;k++)precios.variantes.push(getField('pend-p-'+id+'-'+k));
     var r=LoteImport.armarProducto(d,precios,{
-      nombre:getField('pend-n-'+i).trim(),categoria:getField('pend-c-'+i),
-      franquicia:getField('pend-f-'+i),marca:resolverMarca(getField('pend-m-'+i)).marca
+      nombre:getField('pend-n-'+id).trim(),categoria:getField('pend-c-'+id),
+      franquicia:getField('pend-f-'+id),marca:resolverMarca(getField('pend-m-'+id)).marca
     },{makeId:makeId,buildContent:buildContent});
     if(r){items.push(r);ids.push(p.id);}
   });

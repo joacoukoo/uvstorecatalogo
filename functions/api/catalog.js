@@ -81,12 +81,18 @@ export async function onRequestPut({ env, request }) {
         await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
           const malas = items.filter(it => !catalog[it.category]).map(it => it.category);
           if (malas.length) { const e = new Error('Categoría inexistente: ' + malas.join(', ')); e.status400 = true; throw e; }
-          const ids = new Set(Object.values(catalog).flatMap(c => (c.products || []).map(p => p.id)));
+          // Los ids llevan la hora, así que un segundo intento trae ids nuevos: el origen
+          // (link de la tienda) es lo que dice si la figura ya está publicada.
+          const todos = Object.values(catalog).flatMap(c => c.products || []);
+          const ids = new Set(todos.map(p => p.id));
+          const origenes = new Set(todos.map(p => p.origen).filter(Boolean));
           agregadas = 0; omitidas = [];
           for (const { category, product } of [...items].reverse()) {
-            if (ids.has(product.id)) { omitidas.unshift(product.id); continue; }
+            if (ids.has(product.id) || (product.origen && origenes.has(product.origen))) { omitidas.unshift(product.id); continue; }
+            if (!Array.isArray(catalog[category].products)) catalog[category].products = [];
             catalog[category].products.unshift(product);
             ids.add(product.id);
+            if (product.origen) origenes.add(product.origen);
             agregadas++;
           }
         }, { message: 'Add batch — UV Store GT Admin' });
