@@ -129,7 +129,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       </div>
     </div>
     <div class="field-row-3">
-      <div class="field"><label class="field-label">Marca</label><input type="text" id="add-marca" placeholder="Hot Toys, Sideshow..."></div>
+      <div class="field"><label class="field-label">Marca</label><input type="text" id="add-marca" list="marcas-list" onfocus="cargarMarcas()" autocomplete="off" placeholder="Hot Toys, Sideshow..."></div>
       <div class="field"><label class="field-label">Escala</label><input type="text" id="add-escala" placeholder="1:6, 1:4..."></div>
       <div class="field"><label class="field-label">Categoria</label>
         <select id="add-cat">
@@ -262,7 +262,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       </div>
     </div>
     <div class="field-row-3">
-      <div class="field"><label class="field-label">Marca</label><input type="text" id="edit-marca"></div>
+      <div class="field"><label class="field-label">Marca</label><input type="text" id="edit-marca" list="marcas-list" onfocus="cargarMarcas()" autocomplete="off"></div>
+      <datalist id="marcas-list"></datalist>
       <div class="field"><label class="field-label">Escala</label><input type="text" id="edit-escala"></div>
       <div class="field"><label class="field-label">Categoria</label>
         <select id="edit-cat">
@@ -484,10 +485,62 @@ function removePhoto(w,ed,idx){
   renderPhotos(w,ed);
 }
 
+// ── MARCAS: autocompletar y normalizar contra las que ya usa el catalogo ──
+// Misma clave que usan los filtros de la web: "InArt Collectibles" = "INART", "hot toys" = "Hot Toys".
+function marcaKey(s){
+  var base=String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]/g,'');
+  var k=base,prev;
+  do{prev=k;k=k.replace(/(collectibles?|studios?|studo|toys|toyz)$/,'');}while(k!==prev&&k);
+  return k||base;
+}
+function _lev(a,b){
+  var p=[],i,j;for(j=0;j<=b.length;j++)p[j]=j;
+  for(i=1;i<=a.length;i++){var c=[i];for(j=1;j<=b.length;j++)c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1));p=c;}
+  return p[b.length];
+}
+var _marcas=null; // {key:{label, n}}
+function _indexarMarcas(catalog){
+  var cnt={};
+  for(var cat in catalog){(catalog[cat].products||[]).forEach(function(p){
+    var m=String(p.marca||'').trim();if(!m)return;var k=marcaKey(m);
+    cnt[k]=cnt[k]||{};cnt[k][m]=(cnt[k][m]||0)+1;
+  });}
+  _marcas={};
+  for(var k in cnt){var best='',n=0,tot=0;for(var m in cnt[k]){tot+=cnt[k][m];if(cnt[k][m]>n){best=m;n=cnt[k][m];}}_marcas[k]={label:best,n:tot};}
+  var dl=document.getElementById('marcas-list');
+  if(dl)dl.innerHTML=Object.keys(_marcas).sort(function(a,b){return _marcas[b].n-_marcas[a].n;}).map(function(k){return '<option value="'+_marcas[k].label.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')+'"></option>';}).join('');
+}
+async function cargarMarcas(){
+  if(_marcas)return;
+  try{_indexarMarcas(_catalog||await fetchFreshCatalog());}catch(e){}
+}
+// Devuelve {marca, sugerencia}: marca con la forma del catalogo si es una variante conocida;
+// sugerencia = marca existente muy parecida cuando la escrita es nueva (posible error de tipeo).
+function resolverMarca(m){
+  m=String(m||'').trim();if(!m||!_marcas)return{marca:m,sugerencia:null};
+  var k=marcaKey(m);
+  if(_marcas[k])return{marca:_marcas[k].label,sugerencia:null};
+  if(k.length<3)return{marca:m,sugerencia:null};
+  var tope=k.length>=8?2:1,mejor=null;
+  for(var o in _marcas){
+    if(o.length<3)continue;
+    var d=_lev(k,o);
+    if(d<=tope&&(!mejor||d<mejor.d||(d===mejor.d&&_marcas[o].n>_marcas[mejor.k].n)))mejor={k:o,d:d};
+  }
+  return{marca:m,sugerencia:mejor?_marcas[mejor.k].label:null};
+}
+// Antes de guardar: normaliza el campo y, si parece un error de tipeo, pregunta.
+async function revisarMarcaCampo(id){
+  await cargarMarcas();
+  var r=resolverMarca(getField(id));
+  if(r.sugerencia&&confirm('La marca "'+r.marca+'" no existe en el catálogo.\n\n¿Quisiste decir "'+r.sugerencia+'"?\n\nAceptar = usar "'+r.sugerencia+'"\nCancelar = dejar "'+r.marca+'" como marca nueva'))r.marca=r.sugerencia;
+  setField(id,r.marca);
+}
+
 function fillAddForm(data){
   setField('add-name',data.name||'');
   setField('add-franquicia',data.franquicia||'');
-  setField('add-marca',data.marca||'');
+  setField('add-marca',resolverMarca(data.marca||'').marca);
   setField('add-escala',data.escala||'');
   setField('add-precio',data.price||'');
   if(data.price){var p=parseFloat(data.price);if(!isNaN(p)&&p>0)setField('add-reserva',Math.round(p*RESERVA_FACTOR));}
@@ -590,6 +643,7 @@ async function scrapeUrl(){
     var res=await fetch('/api/scrape',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url:url})});
     var data=await res.json();
     if(!res.ok)throw new Error(data.error);
+    await cargarMarcas();
     fillAddForm(data);
     document.getElementById('add-form').style.display='';
     var dbgMsg=data.ai_ok
@@ -735,11 +789,12 @@ async function saveAdd(){
   if(btn) btn.disabled=true;
   setStatus('Guardando...','orange');
   try{
+    await revisarMarcaCampo('add-marca');
     var product=buildAddProduct();
     await catalogAction({action:'add', category:cat, product:product});
     var aviso=await syncLoteStock(product, true, getBool('add-crear-lote'));
     setStatus('Guardado — el sitio se actualiza en ~30 seg','green');
-    _catalog=null;
+    _catalog=null;_marcas=null;
     resetAddForm();
     avisarSyncLote(aviso);
   }catch(e){setStatus('Error: '+e.message,'red');}
@@ -874,6 +929,7 @@ async function saveEdit(){
   if(!_editTarget)return;
   var productId=_editTarget.id;
   var p=_catalog[_editTarget.cat].products[_editTarget.idx];
+  if(getField('edit-marca').trim()!==String(p.marca||'').trim())await revisarMarcaCampo('edit-marca');
   var updated=Object.assign({},p,{
     n:getField('edit-name'),
     franquicia:getField('edit-franquicia'),
@@ -913,7 +969,7 @@ async function saveEdit(){
     if(!aviso&&p.agotado&&!updated.agotado&&!updated.precio_d&&!/^[1-9]\d*$/.test(String(updated.cantidad||'').trim())){
       aviso='Aviso: si la figura tiene lote de stock, pone la "Cantidad disponible" (1, 2...) para que vuelva a estar disponible';
     }
-    _catalog=null;
+    _catalog=null;_marcas=null;
     setStatus('Cambios guardados','green');
     cancelEdit();renderProductList();
     avisarSyncLote(aviso);
@@ -926,7 +982,7 @@ async function deleteProduct(){
   setStatus('Eliminando...','orange');
   try{
     await catalogAction({action:'delete', productId:productId});
-    _catalog=null;
+    _catalog=null;_marcas=null;
     setStatus('Producto eliminado','green');
     cancelEdit();renderProductList();
   }catch(e){setStatus('Error: '+e.message,'red');}
@@ -956,7 +1012,7 @@ async function optimizeCatalog(){
       }
     }
     await catalogAction({action:'replace', catalog:catalog});
-    _catalog=null;
+    _catalog=null;_marcas=null;
     setStatus(count+' productos optimizados','green');
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
