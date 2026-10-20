@@ -1952,7 +1952,7 @@ function _escalaNorm(s){var m=String(s||"").match(/1\s*[:\/]\s*(\d+)/);return m?
 // "InArt Collectibles" e "INART" -> "inart"; "Sideshow Collectibles" -> "sideshow"
 function _marcaKey(s){
   var base=_norm(s).replace(/[^a-z0-9]/g,"");var k=base,prev;
-  do{prev=k;k=k.replace(/(collectibles?|studios?|studo|toys)$/,"");}while(k!==prev&&k);
+  do{prev=k;k=k.replace(/(collectibles?|studios?|studo|toys|toyz)$/,"");}while(k!==prev&&k);
   return k||base;
 }
 var _marcaLabels=null;
