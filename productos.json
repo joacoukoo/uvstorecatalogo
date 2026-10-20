@@ -39037,9 +39037,8 @@
       {
         "id": "nico-robin-1-7-statue-mvhbs43b",
         "n": "Nico Robin 1:7 Statue",
-        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/20685/images/435325/_2026-10-20_151509_105__42619.1792481996.386.513.jpg",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435325/_2026-10-20_151509_105__42619.1792481996.jpg",
         "fotos": [
-          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/20685/images/435325/_2026-10-20_151509_105__42619.1792481996.386.513.jpg",
           "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435325/_2026-10-20_151509_105__42619.1792481996.jpg",
           "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435322/_2026-10-20_151502_597__45307.1792481993.jpg",
           "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435318/_2026-10-20_151507_420__74593.1792481988.jpg",
@@ -39056,6 +39055,10 @@
         "precio": "2800",
         "reserva": "560",
         "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Simple: Robin sin alas, base octagonal."
+          },
           {
             "t": "notion-text",
             "x": "Espectacular estatua de Nico Robin en su forma de ángel marino, capturada en toda su gloria con alas desplegadas en tonos coral y rosa. Esta pieza premium de WeiMeng Studio destaca por su detallado trabajo artesanal y su escala 1:7, perfecta para coleccionistas exigentes. El entorno submarino con corales vibrantes y luz divina crean una atmósfera mágica y envolvente."
@@ -39098,12 +39101,80 @@
           {
             "label": "Regular",
             "precio": "3200",
-            "reserva": "640"
+            "reserva": "640",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Regular: Robin con alas, base octagonal."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular estatua de Nico Robin en su forma de ángel marino, capturada en toda su gloria con alas desplegadas en tonos coral y rosa. Esta pieza premium de WeiMeng Studio destaca por su detallado trabajo artesanal y su escala 1:7, perfecta para coleccionistas exigentes. El entorno submarino con corales vibrantes y luz divina crean una atmósfera mágica y envolvente."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:7"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Fabricante: WeiMeng Studio"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina de alta calidad"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Acabado: Pintura artesanal detallada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura principal"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base temática submarina"
+              }
+            ]
           },
           {
             "label": "EX",
             "precio": "4000",
-            "reserva": "800"
+            "reserva": "800",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión EX: Robin con alas y base escénica."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular estatua de Nico Robin en su forma de ángel marino, capturada en toda su gloria con alas desplegadas en tonos coral y rosa. Esta pieza premium de WeiMeng Studio destaca por su detallado trabajo artesanal y su escala 1:7, perfecta para coleccionistas exigentes. El entorno submarino con corales vibrantes y luz divina crean una atmósfera mágica y envolvente."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:7"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Fabricante: WeiMeng Studio"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina de alta calidad"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Acabado: Pintura artesanal detallada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura principal"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base temática submarina"
+              }
+            ]
           }
         ]
       },
