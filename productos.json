@@ -39035,6 +39035,147 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "nico-robin-1-7-statue-mvhbs43b",
+        "n": "Nico Robin 1:7 Statue",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/20685/images/435325/_2026-10-20_151509_105__42619.1792481996.386.513.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/20685/images/435325/_2026-10-20_151509_105__42619.1792481996.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435325/_2026-10-20_151509_105__42619.1792481996.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435322/_2026-10-20_151502_597__45307.1792481993.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435318/_2026-10-20_151507_420__74593.1792481988.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435319/_2026-10-20_151510_444__79438.1792481988.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435320/_2026-10-20_151505_792__92424.1792481988.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435321/_2026-10-20_151504_323__09507.1792481988.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435323/_2026-10-20_151513_745__06976.1792481988.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "WeiMeng Studio",
+        "escala": "1:7",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "reserva": "560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua de Nico Robin en su forma de ángel marino, capturada en toda su gloria con alas desplegadas en tonos coral y rosa. Esta pieza premium de WeiMeng Studio destaca por su detallado trabajo artesanal y su escala 1:7, perfecta para coleccionistas exigentes. El entorno submarino con corales vibrantes y luz divina crean una atmósfera mágica y envolvente."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:7"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: WeiMeng Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática submarina"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-20",
+        "origen": "https://www.fanaticanimestore.com/pre-order-weimeng-studio-1-7-nico-robin/",
+        "entrega": "Q4 2026-Q1 2027",
+        "label_base": "Simple",
+        "variantes": [
+          {
+            "label": "Regular",
+            "precio": "3200",
+            "reserva": "640"
+          },
+          {
+            "label": "EX",
+            "precio": "4000",
+            "reserva": "800"
+          }
+        ]
+      },
+      {
+        "id": "vincent-valentine-statue-1-4-scale-mvhbs43c",
+        "n": "Vincent Valentine Statue 1/4 Scale",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/20704/images/435805/_2026-10-20_200502_777__16754.1792498115.386.513.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/products/20704/images/435805/_2026-10-20_200502_777__16754.1792498115.386.513.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20704/435805/_2026-10-20_200502_777__16754.1792498115.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20704/435799/_2026-10-20_200508_417__00335.1792498100.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20704/435804/_2026-10-20_200505_653__18902.1792498119.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20704/435800/_2026-10-20_200512_939__01113.1792498100.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20704/435801/_2026-10-20_200510_936__03839.1792498101.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20704/435802/_2026-10-20_200514_203__10524.1792498101.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20704/435803/_2026-10-20_200504_284__37140.1792498102.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Joy Station",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8400",
+        "reserva": "1680",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua de Vincent Valentine de Final Fantasy VII Remake que captura toda la esencia del icónico personaje con una presencia abrumadora. Elaborada con meticuloso detalle, presenta la característica capa roja ondulante y su postura heroica respaldada por un efecto de energía cristalina azul que crea un impacto visual extraordinario. Una pieza magistral para los coleccionistas más exigentes que desean la representación definitiva de este legendario antagonista."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 67 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anchura: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina premium y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de cristal azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-20",
+        "origen": "https://www.fanaticanimestore.com/pre-order-joy-station-ff7-re-vincent-veluntine/",
+        "entrega": "Q1 2027"
+      },
+      {
         "id": "teenage-mutant-ninja-turtles-1-6-scale-movie-diora-mvfsly2h",
         "n": "Teenage Mutant Ninja Turtles 1/6 Scale Movie Diorama",
         "i": "https://cdn.shopify.com/s/files/1/0097/7810/2350/files/Purearts-Promo-TMNTDiorama_1.jpg?v=1792071975",
