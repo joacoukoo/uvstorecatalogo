@@ -2232,10 +2232,11 @@ function openModal(p,cat){
     var baseContent=p.content||[];
     // Helper: rebuild content section
     var _renderContent=renderModalContent;
-    // Botón base (el producto principal) — siempre dice "Regular"
+    // Botón base (el producto principal): su nombre si lo tiene (ej. "1:6"), si no "Regular"
     var btnBase=document.createElement("button");
+    var lblBase=p.label_base||"Regular";
     btnBase.className="ver-btn active"+(p.agotado_r?" ver-btn-ago":"");
-    btnBase.textContent=p.agotado_r?"Regular — Agotada":"Regular";
+    btnBase.textContent=p.agotado_r?lblBase+" — Agotada":lblBase;
     btnBase.onclick=function(){
       varToggleEl.querySelectorAll(".ver-btn").forEach(function(b){b.classList.remove("active");});
       btnBase.classList.add("active");
