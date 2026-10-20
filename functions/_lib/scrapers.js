@@ -92,6 +92,14 @@ export function guessFranquicia(name, tags = []) {
   if (/\b(star\s*wars|darth\s*vader|luke\s*skywalker|yoda|mandalorian|stormtrooper|boba\s*fett|kylo\s*ren|obi.?wan|jedi|sith|grogu|han\s*solo|princess\s*leia|chewbacca|r2.?d2|c.?3po)\b/.test(text)) return 'Star Wars';
   if (/\b(dragon\s*ball|naruto|one\s*piece|demon\s*slayer|attack\s*on\s*titan|my\s*hero\s*academia|fullmetal|bleach|sword\s*art|evangelion|gundam|goku|vegeta|luffy|ichigo|jujutsu|chainsaw\s*man|death\s*note|berserk|kimetsu)\b/.test(text)) return 'Anime';
   if (/\b(god\s*of\s*war|halo|master\s*chief|last\s*of\s*us|resident\s*evil|final\s*fantasy|zelda|mario|sonic|kratos|horizon|cyberpunk|mortal\s*kombat|street\s*fighter|gaming|video\s*game)\b/.test(text)) return 'Gaming';
+  if (/\b(harry\s*potter|dumbledore|voldemort|snape|draco|malfoy|hermione|hogwarts|hagrid|fantastic\s*beasts|dobby)\b/.test(text)) return 'Harry Potter';
+  if (/\b(lord\s*of\s*the\s*rings|lotr|hobbit|gandalf|saruman|sauron|arwen|frodo|gimli|legolas|aragorn|faramir|nazg[uû]l|azog|gollum|witch.?king|balrog)\b/.test(text)) return 'El Señor de los Anillos';
+  if (/\b(predator|yautja)\b/.test(text)) return 'Predator';
+  if (!/ultraman/.test(text) && /\b(aliens?|xenomorph|ripley|facehugger|big\s*chap)\b/.test(text)) return 'Alien';
+  if (/\b(terminator|t-800|t-1000|endoskeleton)\b/.test(text)) return 'Terminator';
+  if (/\b(teenage\s*mutant|tmnt|ninja\s*turtles|donatello|raphael|leonardo|michelangelo|krang|shredder)\b/.test(text)) return 'Tortugas Ninja';
+  if (/\b(he-man|skeletor|she-ra|motu|masters\s*of\s*the\s*universe|battle\s*cat|teela|scare\s*glow|kobra\s*khan)\b/.test(text)) return 'Masters of the Universe';
+  if (/\b(transformers|optimus|bumblebee|megatron|ultra\s*magnus|starscream|cybertron)\b/.test(text)) return 'Transformers';
   return 'Otros';
 }
 

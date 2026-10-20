@@ -1467,7 +1467,7 @@ class UVAdminApp:
 
         tk.Label(right,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=9,column=0,sticky="w",pady=(6,2))
         self.add_franquicia_var = tk.StringVar(value="")
-        ttk.Combobox(right,textvariable=self.add_franquicia_var,values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros","Adultos"],
+        ttk.Combobox(right,textvariable=self.add_franquicia_var,values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Harry Potter","El Señor de los Anillos","Alien","Predator","Terminator","Tortugas Ninja","Masters of the Universe","Transformers","Otros","Adultos"],
                      state="readonly",font=("Helvetica",11)).grid(row=9,column=1,sticky="ew",pady=(6,2),padx=(8,0))
 
         # Precio original + checkboxes Destacado/Oferta
@@ -1633,7 +1633,7 @@ class UVAdminApp:
         tk.Label(form_frame,text="Franquicia:",bg=BG,fg=MUTED,font=("Helvetica",9)).grid(row=7,column=0,sticky="w",pady=(6,2))
         self.ef_franquicia = tk.StringVar()
         ttk.Combobox(form_frame,textvariable=self.ef_franquicia,
-                     values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Otros","Adultos"],
+                     values=["","Marvel","DC Comics","Star Wars","Anime","Gaming","Harry Potter","El Señor de los Anillos","Alien","Predator","Terminator","Tortugas Ninja","Masters of the Universe","Transformers","Otros","Adultos"],
                      state="readonly",font=("Helvetica",11)).grid(row=7,column=1,sticky="ew",pady=(6,2),padx=(8,0))
         efield("Precio Orig (Q):", self.ef_precio_orig, 7, 1)
 

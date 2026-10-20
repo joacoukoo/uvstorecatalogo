@@ -751,6 +751,32 @@ body::after{
 }
 .filter-btn:hover,.filter-btn.on{background:var(--purple);border-color:var(--purple);color:#fff}
 
+/* ══ FACETAS (franquicia / escala / marca) ══ */
+.facet-rows{display:flex;flex-direction:column;gap:8px;margin-bottom:18px;min-width:0}
+.facet-rows:empty{display:none}
+.facet-row{display:flex;align-items:center;gap:10px;min-width:0}
+.facet-lbl{font-family:"Syne",sans-serif;font-size:10.5px;color:var(--muted);letter-spacing:.6px;text-transform:uppercase;width:78px;flex-shrink:0}
+.facet-scroll{display:flex;gap:6px;flex-wrap:wrap;min-width:0}
+.facet-chip{
+  background:var(--bg3);border:1px solid var(--border);color:var(--muted2);
+  font-family:"DM Sans",sans-serif;font-size:12px;padding:5px 12px;border-radius:20px;cursor:pointer;
+  white-space:nowrap;transition:background-color .15s,border-color .15s,color .15s;
+}
+.facet-chip span{opacity:.5;margin-left:5px;font-size:11px}
+.facet-chip:hover{border-color:var(--purple);color:#fff}
+.facet-chip.on{background:var(--purple);border-color:var(--purple);color:#fff}
+.facet-chip.on span{opacity:.8}
+.facet-more{background:none;border:1px dashed var(--border2);color:var(--muted2);font-family:"DM Sans",sans-serif;font-size:12px;padding:5px 12px;border-radius:20px;cursor:pointer;white-space:nowrap}
+.facet-more:hover{color:#fff;border-color:var(--purple)}
+.facet-clear{align-self:flex-start;background:none;border:none;color:var(--muted2);font-family:"DM Sans",sans-serif;font-size:12px;text-decoration:underline;cursor:pointer;padding:2px 0}
+.facet-clear:hover{color:#fff}
+@media(max-width:768px){
+  .facet-row{flex-direction:column;align-items:flex-start;gap:5px}
+  .facet-scroll{flex-wrap:nowrap;overflow-x:auto;width:100%;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+  .facet-scroll::-webkit-scrollbar{display:none}
+  .facet-chip,.facet-more{flex-shrink:0}
+}
+
 /* ══ MISC ══ */
 .page{display:none}.page.active{display:block;animation:pageIn .2s ease both}
 @keyframes pageIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
@@ -1141,6 +1167,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
       <button class="filter-btn" id="cp-fil-stock" onclick="_cpSetFilter('stock')">Disponible</button>
       <button class="filter-btn" id="cp-fil-pre" onclick="_cpSetFilter('pre')">Pre Orden</button>
     </div>
+    <div class="facet-rows" id="cp-facets"></div>
     <div class="prod-grid" id="cp-grid"></div>
   </div>
 </div>
@@ -1171,6 +1198,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
       <button class="filter-btn" id="cat-fil-stock" onclick="_catSetFilter('stock')">En stock</button>
       <button class="filter-btn" id="cat-fil-pre" onclick="_catSetFilter('pre')">Pre-orden</button>
     </div>
+    <div class="facet-rows" id="cat-facets" style="margin-top:14px;margin-bottom:0"></div>
     <div style="font-size:12px;color:var(--muted);margin-top:10px;font-family:'Syne',sans-serif" id="catalog-count"></div>
   </div>
   <div class="section" style="padding-top:0">
@@ -1197,6 +1225,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
       <button class="filter-btn" id="sr-fil-stock" onclick="_srSetFilter('stock')">Disponible</button>
       <button class="filter-btn" id="sr-fil-pre" onclick="_srSetFilter('pre')">Pre Orden</button>
     </div>
+    <div class="facet-rows" id="sr-facets" style="margin-top:12px;margin-bottom:0"></div>
   </div>
   <div class="section">
     <div class="prod-grid" id="search-inline-res"></div>
@@ -1723,6 +1752,7 @@ function goCatalog(sort){
   sort=sort||"recent";
   var yaEnCatalogo=document.getElementById("catalog-page").classList.contains("active");
   _catSort=sort;
+  if(!yaEnCatalogo)_facetReset("cat");
   var all=[];
   CAT_KEYS.forEach(function(c){
     (DATA[c]||{products:[]}).products.forEach(function(p){
@@ -1732,6 +1762,7 @@ function goCatalog(sort){
       all.push({p:p,cat:c});
     });
   });
+  all=_facetApply("cat",all);
   if(sort==="recent"){
     all.sort(function(a,b){
       var da=a.p.added_at||""; var db=b.p.added_at||"";
@@ -1822,7 +1853,7 @@ function clearSearchInline(){
   document.getElementById("search-inline-res").innerHTML="";
   document.getElementById("search-inline-clear").style.display="none";
   var f=document.getElementById("sr-filters");if(f)f.style.display="none";
-  _srProds=[];
+  _srProds=[];_facetReset("sr");var fb=document.getElementById("sr-facets");if(fb)fb.innerHTML="";
   if(new URLSearchParams(location.search).get("q")){history.replaceState(null,"","/");}
   if(_prevPageId){showPage(_prevPageId);_prevPageId=null;}
 }
@@ -1856,6 +1887,7 @@ function doSearchInline(q){
     document.getElementById("search-inline-res").innerHTML="";
     qt.textContent="";document.getElementById("search-inline-count").textContent="";
     if(filters)filters.style.display="none";
+    _facetReset("sr");var fb=document.getElementById("sr-facets");if(fb)fb.innerHTML="";
     // si el input queda vacío, se mantiene en la página de búsqueda para poder escribir otra cosa
     return;
   }
@@ -1868,7 +1900,7 @@ function doSearchInline(q){
     });
   });
   qt.textContent="Resultados para: "+q;
-  _srProds=results;_srSort="default";_srFilter="all";
+  _srProds=results;_srSort="default";_srFilter="all";_facetReset("sr");
   ["def","pa","pd"].forEach(function(k){var b=document.getElementById("sr-sort-"+k);if(b)b.classList.toggle("sort-active",k==="def");});
   ["all","stock","pre"].forEach(function(k){var b=document.getElementById("sr-fil-"+k);if(b)b.classList.toggle("on",k==="all");});
   if(filters)filters.style.display=results.length?"flex":"none";
@@ -1908,20 +1940,100 @@ function goCategory(idx){
   _setMnav(idx===0?"mnav-inmediata":"");
 }
 
+// ── FACETAS (franquicia / escala / marca) ──
+// Botones para acotar una lista. ns = "cp" (categoria/franquicia), "sr" (busqueda), "cat" (catalogo).
+// Una opcion por fila; las filas se combinan. Escala y marca se agrupan solo al mostrar.
+var _FACET_GROUPS=[{k:"franquicia",label:"Franquicia"},{k:"escala",label:"Escala"},{k:"marca",label:"Marca"}];
+var _FACET_MARCA_TOP=8;
+var _facetSel={cp:{},sr:{},cat:{}};var _facetMas={cp:false,sr:false,cat:false};
+var _facetRerender={cp:function(){_cpRenderGrid();},sr:function(){_srRenderGrid();},cat:function(){goCatalog(_catSort);}};
+// "1:6 - 30CM", "1/6", "1/6Scale" -> "1:6"; sin escala reconocible -> ""
+function _escalaNorm(s){var m=String(s||"").match(/1\s*[:\/]\s*(\d+)/);return m?"1:"+m[1]:"";}
+// "InArt Collectibles" e "INART" -> "inart"; "Sideshow Collectibles" -> "sideshow"
+function _marcaKey(s){
+  var base=_norm(s).replace(/[^a-z0-9]/g,"");var k=base,prev;
+  do{prev=k;k=k.replace(/(collectibles?|studios?|studo|toys)$/,"");}while(k!==prev&&k);
+  return k||base;
+}
+var _marcaLabels=null;
+// Nombre a mostrar de una marca: la forma mas usada en todo el catalogo
+function _marcaLabel(key){
+  if(!_marcaLabels){
+    var cnt={};
+    Object.keys(DATA).forEach(function(c){(DATA[c].products||[]).forEach(function(p){
+      var m=String(p.marca||"").trim();if(!m)return;var k=_marcaKey(m);
+      cnt[k]=cnt[k]||{};cnt[k][m]=(cnt[k][m]||0)+1;
+    });});
+    _marcaLabels={};
+    Object.keys(cnt).forEach(function(k){var best="",n=0;Object.keys(cnt[k]).forEach(function(m){if(cnt[k][m]>n){best=m;n=cnt[k][m];}});_marcaLabels[k]=best;});
+  }
+  return _marcaLabels[key]||key;
+}
+function _facetVal(p,k){
+  if(k==="franquicia"){var f=String(p.franquicia||"").trim();return(!f||f==="Adultos")?"Otros":f;}
+  if(k==="escala")return _escalaNorm(p.escala);
+  var m=String(p.marca||"").trim();return m?_marcaKey(m):"";
+}
+function _facetMatch(p,sel,skip){
+  for(var k in sel){if(k!==skip&&sel[k]&&_facetVal(p,k)!==sel[k])return false;}
+  return true;
+}
+function _facetApply(ns,list){
+  var sel=_facetSel[ns];
+  _facetRender(ns,list);
+  return list.filter(function(r){return _facetMatch(r.p,sel);});
+}
+function _facetRender(ns,list){
+  var box=document.getElementById(ns+"-facets");if(!box)return;
+  var sel=_facetSel[ns];var html="";var hasSel=false;
+  _FACET_GROUPS.forEach(function(g){
+    // Cada fila cuenta con los filtros de las otras filas aplicados
+    var cnt={};
+    list.forEach(function(r){if(!_facetMatch(r.p,sel,g.k))return;var v=_facetVal(r.p,g.k);if(v)cnt[v]=(cnt[v]||0)+1;});
+    if(sel[g.k]&&!cnt[sel[g.k]])cnt[sel[g.k]]=0;
+    var vals=Object.keys(cnt).sort(function(a,b){return cnt[b]-cnt[a]||a.localeCompare(b);});
+    var io=g.k==="franquicia"?vals.indexOf("Otros"):-1;
+    if(io>=0){vals.splice(io,1);vals.push("Otros");}
+    if(vals.length<2&&!sel[g.k])return;
+    if(sel[g.k])hasSel=true;
+    var shown=vals,extra=0;
+    if(g.k==="marca"&&vals.length>_FACET_MARCA_TOP+1&&!_facetMas[ns]){
+      shown=vals.slice(0,_FACET_MARCA_TOP);
+      if(sel.marca&&shown.indexOf(sel.marca)<0)shown.push(sel.marca);
+      extra=vals.length-shown.length;
+    }
+    html+="<div class='facet-row'><span class='facet-lbl'>"+g.label+"</span><div class='facet-scroll'>";
+    shown.forEach(function(v){
+      var lbl=g.k==="marca"?_marcaLabel(v):v;
+      html+="<button class='facet-chip"+(sel[g.k]===v?" on":"")+"' data-v=\""+esc(v)+"\" onclick=\"_facetToggle('"+ns+"','"+g.k+"',this.dataset.v)\">"+esc(lbl)+"<span>"+cnt[v]+"</span></button>";
+    });
+    if(extra)html+="<button class='facet-more' onclick=\"_facetMore('"+ns+"')\">+"+extra+" marcas</button>";
+    else if(g.k==="marca"&&_facetMas[ns])html+="<button class='facet-more' onclick=\"_facetMore('"+ns+"')\">Menos</button>";
+    html+="</div></div>";
+  });
+  if(hasSel)html+="<button class='facet-clear' onclick=\"_facetClear('"+ns+"')\">Limpiar filtros</button>";
+  box.innerHTML=html;
+}
+function _facetToggle(ns,k,v){var s=_facetSel[ns];s[k]=(s[k]===v)?"":v;_facetRerender[ns]();}
+function _facetMore(ns){_facetMas[ns]=!_facetMas[ns];_facetRerender[ns]();}
+function _facetClear(ns){_facetSel[ns]={};_facetRerender[ns]();}
+function _facetReset(ns){_facetSel[ns]={};_facetMas[ns]=false;}
+
 // ── CATEGORY/FRANCHISE FILTERS ──
 var _cpProds=[];var _cpSort="default";var _cpFilter="all";
 function _cpResetControls(){
   ["def","pa","pd"].forEach(function(k){var b=document.getElementById("cp-sort-"+k);if(b)b.classList.toggle("sort-active",k==="def");});
   ["all","stock","pre"].forEach(function(k){var b=document.getElementById("cp-fil-"+k);if(b)b.classList.toggle("on",k==="all");});
+  _facetReset("cp");
 }
 function _cpRenderGrid(){
-  var filtered=_cpProds.filter(function(r){
+  var filtered=_facetApply("cp",_cpProds.filter(function(r){
     if(_cpFilter==="all")return true;
     var d=(r.p.disp||"").toLowerCase();
     if(_cpFilter==="stock")return d.indexOf("inmediata")>=0;
     if(_cpFilter==="pre")return d.indexOf("pre")>=0;
     return true;
-  });
+  }));
   if(_cpSort==="price-a"){
     filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;if(!pa&&!pb)return 0;if(!pa)return 1;if(!pb)return-1;return pa-pb;});
   }else if(_cpSort==="price-d"){
@@ -1955,13 +2067,13 @@ function _cpSetFilter(f){
 // ── SEARCH FILTERS ──
 var _srProds=[];var _srSort="default";var _srFilter="all";
 function _srRenderGrid(){
-  var filtered=_srProds.filter(function(r){
+  var filtered=_facetApply("sr",_srProds.filter(function(r){
     if(_srFilter==="all")return true;
     var d=(r.p.disp||"").toLowerCase();
     if(_srFilter==="stock")return d.indexOf("inmediata")>=0;
     if(_srFilter==="pre")return d.indexOf("pre")>=0;
     return true;
-  });
+  }));
   if(_srSort==="price-a"){
     filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;if(!pa&&!pb)return 0;if(!pa)return 1;if(!pb)return-1;return pa-pb;});
   }else if(_srSort==="price-d"){

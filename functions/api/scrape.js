@@ -81,7 +81,7 @@ Texto/descripción del fabricante:
 ${desc_raw || '(no disponible)'}
 
 Responde SOLO con JSON válido sin markdown:
-{"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2","franquicia":"una de: Marvel|DC Comics|Star Wars|Anime|Gaming|Adultos|Otros"}`;
+{"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2","franquicia":"una de: Marvel|DC Comics|Star Wars|Anime|Gaming|Harry Potter|El Señor de los Anillos|Alien|Predator|Terminator|Tortugas Ninja|Masters of the Universe|Transformers|Adultos|Otros"}`;
 
   const content = foto
     ? [{ type: 'image', source: { type: 'url', url: foto } }, { type: 'text', text: prompt }]
@@ -112,7 +112,7 @@ Responde SOLO con JSON válido sin markdown:
     const parsed = JSON.parse(match[0]);
     const parts = [parsed.desc, parsed.specs, parsed.includes].filter(Boolean);
     if (!parts.length) return null;
-    const VALID_FRANQUICIAS = ['Marvel','DC Comics','Star Wars','Anime','Gaming','Adultos','Otros'];
+    const VALID_FRANQUICIAS = ['Marvel','DC Comics','Star Wars','Anime','Gaming','Harry Potter','El Señor de los Anillos','Alien','Predator','Terminator','Tortugas Ninja','Masters of the Universe','Transformers','Adultos','Otros'];
     return {
       desc: parts.join('\n\n'),
       franquicia: VALID_FRANQUICIAS.includes(parsed.franquicia) ? parsed.franquicia : null,
