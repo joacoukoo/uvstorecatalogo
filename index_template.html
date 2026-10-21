@@ -1373,14 +1373,42 @@ function _esAgotado(p){
 function _agotadasAlFinal(rows){
   return rows.filter(function(r){return !_esAgotado(r.p);}).concat(rows.filter(function(r){return _esAgotado(r.p);}));
 }
+// Listas largas (Pre-Órdenes tiene ~500): dibujar todas juntas traba el teléfono ~1 s.
+// Se ponen de a 24 y las siguientes se agregan antes de que el scroll llegue al final.
+var _LOTE_CARDS=24;
+function _renderCards(grid,rows){
+  if(grid._obs){grid._obs.disconnect();grid._obs=null;}
+  grid.innerHTML="";
+  var i=0;
+  function mas(n){
+    var frag=document.createDocumentFragment();var fin=Math.min(i+n,rows.length);
+    for(;i<fin;i++)frag.appendChild(makeCard(rows[i].p,rows[i].cat));
+    grid.insertBefore(frag,sent);
+  }
+  var sent=document.createElement("div");sent.style.cssText="grid-column:1/-1;height:1px";
+  grid.appendChild(sent);
+  if(!window.IntersectionObserver){mas(rows.length);sent.remove();return;}
+  mas(_LOTE_CARDS);
+  if(i>=rows.length){sent.remove();return;}
+  var obs=new IntersectionObserver(function(entries){
+    if(!entries[0].isIntersecting)return;
+    mas(_LOTE_CARDS);
+    if(i>=rows.length){obs.disconnect();grid._obs=null;sent.remove();return;}
+    // Volver a observar avisa de nuevo si el centinela sigue a la vista (scroll rápido)
+    obs.unobserve(sent);obs.observe(sent);
+  },{rootMargin:"1500px 0px"});
+  obs.observe(sent);grid._obs=obs;
+}
 function makeCard(p,cat){
   var div=document.createElement("div");div.className="prod-card";div.id="prod-"+p.id;
   // Image wrapper
   var wrap=document.createElement("div");wrap.className="prod-img-wrap";
   var img=document.createElement("img");
   img.className="prod-img shim";
+  // lazy antes que src: si no, Safari baja la foto aunque la tarjeta esté lejos de la pantalla
+  img.loading="lazy";img.decoding="async";
   img.src=(p.fotos&&p.fotos.length>0)?p.fotos[0]:p.i;
-  img.alt=p.n;img.loading="lazy";
+  img.alt=p.n;
   img.onload=function(){this.classList.remove("shim");};
   img.onerror=function(){this.src=p.i;this.classList.remove("shim");};
   wrap.appendChild(img);
@@ -1795,8 +1823,7 @@ function goCatalog(sort){
   var activeId=sort==="recent"?"cat-sort-recent":sort==="price-d"?"cat-sort-price-d":"cat-sort-price-a";
   var activeEl=document.getElementById(activeId);if(activeEl)activeEl.classList.add("sort-active");
   document.getElementById("catalog-count").textContent=all.length+" figuras";
-  var grid=document.getElementById("catalog-grid");grid.innerHTML="";
-  _agotadasAlFinal(all).forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});
+  _renderCards(document.getElementById("catalog-grid"),_agotadasAlFinal(all));
   if(yaEnCatalogo)return;
   showPage("catalog-page");
   document.getElementById("nav-home").classList.remove("active");
@@ -2080,9 +2107,8 @@ function _cpRenderGrid(){
     filtered.sort(function(a,b){if(a.p.oferta&&!b.p.oferta)return-1;if(!a.p.oferta&&b.p.oferta)return 1;return 0;});
   }
   filtered=_agotadasAlFinal(filtered);
-  var grid=document.getElementById("cp-grid");grid.innerHTML="";
+  var grid=document.getElementById("cp-grid");_renderCards(grid,filtered);
   if(!filtered.length){grid.innerHTML="<p style='color:#666;font-size:14px;padding:24px;grid-column:1/-1'>Sin resultados con este filtro</p>";}
-  else{filtered.forEach(function(r){grid.appendChild(makeCard(r.p,r.cat));});}
   var cpWord=document.getElementById("cp-title").textContent==="TCG"?" producto":" figura";
   document.getElementById("cp-count").textContent=filtered.length+cpWord+(filtered.length!==1?"s":"");
 }
@@ -2116,9 +2142,8 @@ function _srRenderGrid(){
     filtered.sort(function(a,b){var pa=parseFloat(a.p.precio)||0;var pb=parseFloat(b.p.precio)||0;return pb-pa;});
   }
   filtered=_agotadasAlFinal(filtered);
-  var el=document.getElementById("search-inline-res");el.innerHTML="";
+  var el=document.getElementById("search-inline-res");_renderCards(el,filtered);
   if(!filtered.length){el.innerHTML="<p style='color:#666;font-size:14px;padding:24px;grid-column:1/-1'>Sin resultados con este filtro</p>";}
-  else{filtered.forEach(function(r){el.appendChild(makeCard(r.p,r.cat));});}
   document.getElementById("search-inline-count").textContent=filtered.length+" figura"+(filtered.length!==1?"s":"")+" encontrada"+(filtered.length!==1?"s":"");
 }
 function _srSetSort(s){
@@ -2375,7 +2400,7 @@ function doSearch(q){
   qc.textContent=results.length+" figura"+(results.length!==1?"s":"")+" encontrada"+(results.length!==1?"s":"");
   el.innerHTML="";
   if(!results.length){el.innerHTML="<p style='color:#666;font-size:14px;padding:24px;grid-column:1/-1'>Sin resultados</p>";return;}
-  _agotadasAlFinal(results).forEach(function(r){el.appendChild(makeCard(r.p,r.cat));});
+  _renderCards(el,_agotadasAlFinal(results));
 }
 document.addEventListener("keydown",function(e){if(e.key==="Escape"){closeModal();closeSearch();closeLightbox();}});
 
