@@ -39115,7 +39115,15 @@
         "n": "Rubeus Hagrid 1/6 Statue",
         "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BER6ws1m6Cg60DHpFws-P1792113758780.webp",
         "fotos": [
-          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BER6ws1m6Cg60DHpFws-P1792113758780.webp"
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BER6ws1m6Cg60DHpFws-P1792113758780.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/blpz50Qbo1ugvc02vDJwf1792056662354.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/qgUOYwomre3gbBLnTj3Nd1792056662355.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bIkQ8QuKC1apzC1VAffeX1792056662355.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TQMxY_w1cKueJi7rrkNth1792056662355.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/m6J-kPErjlhZBkFz6u6dy1792056662355.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gpswnYVVTB9t1bz9iZRdd1792056662355.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KeuFsn2TycFXtlPwX0_7L1792056662355.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GIj4e9L5xRFD8MFuaLNpb1792056662355.webp"
         ],
         "franquicia": "Harry Potter",
         "marca": "Jnd Studios",
@@ -39127,7 +39135,11 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Captura la majestuosidad del guardabosque de Hogwarts con esta estatua premium de JND Studios. Featuring un retrato de silicona con cabello enraizado y ojos de vidrio magnéticos articulados, junto con la icónica indumentaria de Hagrid y la pequeña criatura Norbert. Una obra maestra de colección para los fans devotos del universo Harry Potter."
+            "x": "Versión Regular: base normal (18 × 18 cm)."
+          },
+          {
+            "t": "notion-text",
+            "x": "Captura la majestuosidad del guardabosque de Hogwarts con esta estatua premium de JND Studios. Cuenta con un retrato de silicona con cabello enraizado y ojos de vidrio magnéticos articulados, junto con la icónica indumentaria de Hagrid y la pequeña criatura Norbert. Una obra maestra de colección para los fans devotos del universo Harry Potter."
           },
           {
             "t": "notion-bulleted-list",
@@ -39193,11 +39205,81 @@
         "label_base": "Regular",
         "variantes": [
           {
-            "label": "Regular+Extended Base",
+            "label": "Base extendida",
             "precio": "13900",
             "reserva": "2780",
             "fotos": [
-              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bK4e0q_I3BpQE7JXZCUDj1792113496600.webp"
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bK4e0q_I3BpQE7JXZCUDj1792113496600.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/blpz50Qbo1ugvc02vDJwf1792056662354.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/qgUOYwomre3gbBLnTj3Nd1792056662355.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bIkQ8QuKC1apzC1VAffeX1792056662355.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TQMxY_w1cKueJi7rrkNth1792056662355.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/m6J-kPErjlhZBkFz6u6dy1792056662355.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gpswnYVVTB9t1bz9iZRdd1792056662355.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KeuFsn2TycFXtlPwX0_7L1792056662355.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GIj4e9L5xRFD8MFuaLNpb1792056662355.webp"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Base extendida: base más grande (37 × 28 cm)."
+              },
+              {
+                "t": "notion-text",
+                "x": "Captura la majestuosidad del guardabosque de Hogwarts con esta estatua premium de JND Studios. Cuenta con un retrato de silicona con cabello enraizado y ojos de vidrio magnéticos articulados, junto con la icónica indumentaria de Hagrid y la pequeña criatura Norbert. Una obra maestra de colección para los fans devotos del universo Harry Potter."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 42 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Cabeza de silicona con cabello enraizado y ojos de vidrio magnéticos"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Cuerpo articulado"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Vestuario completo (abrigo, camisa, chaleco, pantalones, cinturón, calcetines, ropa interior acolchada)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Par de zapatos"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Mano de silicona sosteniendo a Norbert"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Par de manos de silicona sosteniendo cinturón"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura de Norbert"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Dos plataformas base intercambiables (tierra y piedra)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Bolígrafo de ajuste magnético para ojos"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Pinzas de ajuste magnético"
+              }
             ]
           }
         ]
