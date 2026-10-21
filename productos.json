@@ -56217,6 +56217,72 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "pyramid-head-1-6-figure-deluxe-version-mvilwwwe",
+        "n": "Pyramid Head 1/6 Figure Deluxe Version",
+        "i": "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f30717da6.jpg",
+        "franquicia": "Otros",
+        "marca": "Star Ace",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f30717da6.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f3076c9f2.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f307bec76.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f30820bdc.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f3087c6d8.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f308cb755.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f3092e7c6.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f30975a20.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f309ba7a1.jpg",
+          "https://www.sideshow.com/storage/product-images/916234/star-ace-toys-ltd-silent-hill-pyramid-head-deluxe-version-sixth-scale-figure-gallery-6ad8f30a0abab.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura a escala 1:6 de Pyramid Head Deluxe captura toda la aterradora presencia del icónico antagonista con una escultura detallada y accesorios intercambiables. Incluye múltiples manos articuladas, su distintivo Gran Cuchillo y una base diorama que permite recrear escenas icónicas. Perfecta para coleccionistas que buscan una representación premium de este legendario personaje del terror."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 5"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polímero y PVC articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinco manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gran Cuchillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Delantal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-21",
+        "reserva": "740",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "executioner-berserk-1-6-figure-mvidqotl",
         "n": "Executioner Berserk 1/6 Figure",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20707/435926/_2026-10-20_215242_472__03671.1792505014.jpg",
