@@ -130,7 +130,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
   <div id="add-form" style="display:none">
     <div class="section-title">Basico</div>
     <div class="field-row">
-      <div class="field"><label class="field-label">Nombre</label><input type="text" id="add-name" placeholder="Nombre de la figura"></div>
+      <div class="field"><label class="field-label">Nombre</label><input type="text" id="add-name" placeholder="Nombre de la figura" oninput="sugerirTCG()"></div>
       <div class="field"><label class="field-label">Franquicia</label>
         <select id="add-franquicia">
           <option value="">-- Elegir --</option>
@@ -164,6 +164,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
           <option value="Otras Figuras">Otras Figuras</option>
           <option value="Adultos">Adultos</option>
           <option value="Vitrinas Para Figuras">Vitrinas Para Figuras</option>
+          <option value="TCG">TCG (cartas)</option>
         </select>
       </div>
     </div>
@@ -297,6 +298,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
           <option value="Otras Figuras">Otras Figuras</option>
           <option value="Adultos">Adultos</option>
           <option value="Vitrinas Para Figuras">Vitrinas Para Figuras</option>
+          <option value="TCG">TCG (cartas)</option>
         </select>
       </div>
     </div>
@@ -433,6 +435,12 @@ function getTA(id){var el=document.getElementById(id);return el?el.value:'';}
 function setTA(id,val){var el=document.getElementById(id);if(el)el.value=val||'';}
 function getBool(id){var el=document.getElementById(id);return el?el.checked:false;}
 function setBool(id,val){var el=document.getElementById(id);if(el)el.checked=!!val;}
+// Si el nombre es de cartas (booster, tin, ETB...) la categoria pasa a TCG, que se vende en stock.
+function sugerirTCG(){
+  if(!window.esTCG||!esTCG(getField('add-name'))||getField('add-cat')==='TCG')return;
+  setField('add-cat','TCG');
+  if(!getField('add-disp')){setField('add-disp','Entrega Inmediata');setBool('add-crear-lote',true);}
+}
 
 // Convert a single textarea string to Notion content blocks.
 // Lines starting with "- " or "• " become notion-bulleted-list; paragraph groups become notion-text.
@@ -1092,7 +1100,7 @@ async function optimizeCatalog(){
 // Paso 1: leer la página de la tienda (/api/scrape-lista) y marcar las que ya tenemos.
 // Paso 2: scrapear las elegidas de a 2 (/api/scrape) y guardarlas en Pendientes (Supabase).
 // Paso 3 (pestaña Pendientes): precios, y "Publicar todas" en un solo cambio del catálogo.
-var CATEGORIAS_LOTE=['Hot Toys 1:6','Estatuas Premium','Otras Figuras','Adultos'];
+var CATEGORIAS_LOTE=['Hot Toys 1:6','Estatuas Premium','Otras Figuras','Adultos','TCG'];
 var _lote={url:'',pagina:1,siguiente:null,items:[],trayendo:false};
 var _pend=[];
 function _e(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -1272,7 +1280,9 @@ pendContar();
 </script>
 <script type="module">
 import * as LoteImport from './lote-import.js?v=20261023';
+import { esTCG } from './tcg.js?v=20261021';
 window.LoteImport = LoteImport;
+window.esTCG = esTCG;
 </script>
 </body>
 </html>

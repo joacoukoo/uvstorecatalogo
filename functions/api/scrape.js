@@ -1,6 +1,7 @@
 import { detectProvider, scrapeSideshow, scrapeShopify, scrapeWooCommerce, scrapeBigCommerce, scrapeOpenCart, scrapeEE, scrapeBBTS, scrapeGeneric, guessFranquicia as guessFranquiciaProxy, guessEscala as guessEscalaProxy, MAX_FOTOS } from '../_lib/scrapers.js';
 import { fetchPage, PROXY_URL } from '../_lib/fetchPage.js';
 import { limpiarNombre, sacarOracionesConBasura, opcionesReales, esTienda } from '../_lib/limpieza.js';
+import { esTCG, CATEGORIA_TCG } from '../_lib/tcg.js';
 
 async function callClaudeForDesc(env, { name, marca, escala, franquicia, desc_raw, foto, opciones = [] }) {
   if (!env.ANTHROPIC_API_KEY) return null;
@@ -18,7 +19,7 @@ ${desc_raw || '(no disponible)'}
 
 Reglas: nunca menciones tiendas (Fanatic Anime Store, FNC, Nonasea, Hexapus, Statuecorp, Sideshow ni otras), envíos, aduanas, formas de pago, depósitos, emails, redes sociales ni links.
 "nombre": solo el personaje (y la obra si hace falta para entenderlo) y como mucho el tipo ("Statue", "1/6 Figure", "Bust"). Sin marca ni licenciante, sin "PRE-ORDER", "Shipping Included", "Licensed", "WF2026", corchetes ni emojis. Ejemplo: "(WF2026 Shipping Included)JIMEI PALACE X Toei Animation - One Piece - Donquixote Doflamingo 1/6 Statue -（Licensed）" → "Donquixote Doflamingo 1/6 Statue".
-"categoria": "Hot Toys 1:6" si el fabricante es Hot Toys; "Estatuas Premium" para estatuas y bustos; "Otras Figuras" para figuras articuladas que no son Hot Toys; "Adultos" para contenido adulto.
+"categoria": "Hot Toys 1:6" si el fabricante es Hot Toys; "Estatuas Premium" para estatuas y bustos; "Otras Figuras" para figuras articuladas que no son Hot Toys; "Adultos" para contenido adulto; "TCG" para cartas coleccionables y su producto sellado (boosters, tins, ETB, colecciones, sobres).
 "marca": el fabricante real de la figura (nunca la tienda que la vende), "" si no se sabe.
 "entrega": fecha estimada de entrega si el texto la trae (ej. "2027 Q2"), si no "".
 "variantes": una por cada opción a la venta, en el mismo orden: {"nombre": nombre corto ("1:4", "Deluxe", "EX"), "incluye": qué trae esa versión que la diferencia de las otras, en español y en pocas palabras, sacado del texto (ej. "Con alas y base escénica"), nunca vacío: si el texto no lo explica, deducilo del nombre de la opción (ej. "Regular+Extended Base" → "Base extendida más grande")}; [] si no hay opciones.
@@ -199,7 +200,7 @@ export async function onRequestPost({ env, request }) {
   }
 }
 
-const CATEGORIAS = ['Hot Toys 1:6', 'Estatuas Premium', 'Otras Figuras', 'Adultos'];
+const CATEGORIAS = ['Hot Toys 1:6', 'Estatuas Premium', 'Otras Figuras', 'Adultos', CATEGORIA_TCG];
 
 // Lo que el admin necesita para cargar la figura sin retocar: nombre limpio, categoría de la web,
 // siempre Pre-Orden (stock de una tienda extranjera no es stock en Guatemala) y variantes reales.
@@ -211,9 +212,12 @@ function completarParaCatalogo(result, ai, url) {
   result.escala = String(result.escala || '').replace(/\b1\s*\/\s*(\d+)/g, '1:$1');
   const esHotToys = /hot\s*toys/i.test(result.marca || '');
   result.categoria = esHotToys ? 'Hot Toys 1:6' : (CATEGORIAS.includes(ai?.categoria) ? ai.categoria : 'Otras Figuras');
+  // Las cartas se venden solo en stock
+  const tcg = result.categoria === CATEGORIA_TCG || esTCG(result.name) || esTCG(result.nombre_limpio);
+  if (tcg) result.categoria = CATEGORIA_TCG;
   result.entrega = result.entrega || ai?.entrega || '';
-  result.disp = 'Pre-Orden';
-  result.estado = 'Pre-Orden';
+  result.disp = tcg ? 'Entrega Inmediata' : 'Pre-Orden';
+  result.estado = tcg ? 'Nuevo' : 'Pre-Orden';
   result.desc = sacarOracionesConBasura(result.desc);
   if (result.desc_d) result.desc_d = sacarOracionesConBasura(result.desc_d);
   result.opciones = opcionesReales(result.opciones);
