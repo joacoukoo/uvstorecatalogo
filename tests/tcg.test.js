@@ -15,6 +15,8 @@ describe('esTCG', () => {
       'Sobres One Piece',
       'A Marvelous Mathoms™ Everything Bundle - Secret Lair - The Hobbit',
       'Secret Lair Drop: Fallout',
+      'Magic: The Gathering Duskmourn Bundle',
+      'Prismatic Evolutions Poster Collection',
     ].forEach(n => expect(esTCG(n), n).toBe(true));
   });
 
