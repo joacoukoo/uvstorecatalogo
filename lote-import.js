@@ -102,7 +102,7 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
 
   const [b, ...resto] = conPrecio;
   // La foto propia de la versión va primero, seguida de la galería (sin repetir).
-  const fotosDe = o => [...new Set([...(o.fotos || []), ...fotosBase])];
+  const fotosDe = o => [...new Set([...(o.fotos || []), ...fotosBase])].slice(0, 10);
   // Arriba de la descripción, qué trae la versión elegida (la web la cambia al tocar el botón).
   const conVersion = o => [
     ...(o.detalle && o.label ? [{ t: 'notion-text', x: 'Versión ' + o.label + ': ' + o.detalle.replace(/[.\s]+$/, '') + '.' }] : []),

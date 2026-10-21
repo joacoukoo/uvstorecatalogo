@@ -1,3 +1,4 @@
+export const MAX_FOTOS = 10;
 // Explicit domain → platform mapping
 const DOMAIN_PLATFORMS = {
   'sideshow.com':           'sideshow',
@@ -569,7 +570,7 @@ export async function scrapeShopify(url, html = '') {
         const { product } = await res.json();
         const photos = (product.images || [])
           .map(i => i.src.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1'))
-          .slice(0, 8);
+          .slice(0, MAX_FOTOS);
         const tags = product.tags ? (Array.isArray(product.tags) ? product.tags : product.tags.split(',').map(t=>t.trim())) : [];
         const desc = htmlToDesc(product.body_html || '');
         const name = product.title || '';
@@ -608,7 +609,7 @@ export async function scrapeShopify(url, html = '') {
         const imgRaw = Array.isArray(ldProduct.image) ? ldProduct.image : (ldProduct.image ? [ldProduct.image] : []);
         photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean)
           .map(u => u.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/, '$1'))
-          .slice(0, 8);
+          .slice(0, MAX_FOTOS);
       }
       const marca = scriptData.vendor || ldProduct.brand?.name || '';
       const allTags = scriptData.tags.length ? scriptData.tags : [];
@@ -646,7 +647,7 @@ export function scrapeWooCommerce(url, html) {
   );
   const largeImgs = [...html.matchAll(/data-large_image="([^"]+)"/gi)].map(m => m[1]);
   const galleryImgs = [...html.matchAll(/class="[^"]*woocommerce[^"]*gallery[^"]*"[\s\S]{0,500}?<img[^>]+src="([^"]+)"/gi)].map(m => m[1]);
-  const allImgs = [...new Set([...largeImgs, ...galleryImgs])].filter(u => u.startsWith('http')).slice(0, 8);
+  const allImgs = [...new Set([...largeImgs, ...galleryImgs])].filter(u => u.startsWith('http')).slice(0, MAX_FOTOS);
   const photos = allImgs.length ? allImgs : [ogImage(html)].filter(Boolean);
   const price = extractPrice(
     rx(html, /class="[^"]*woocommerce-Price-amount[^"]*"[^>]*>(?:<[^>]+>)*\s*\$?([\d,.]+)/i) ||
@@ -689,11 +690,11 @@ export function scrapeBigCommerce(url, html) {
       }
     }
   }
-  let photos = [...byImgId.values()].slice(0, 8);
+  let photos = [...byImgId.values()].slice(0, MAX_FOTOS);
   // Strategy 2: JSON-LD image(s)
   if (!photos.length && ldProduct?.image) {
     const imgRaw = Array.isArray(ldProduct.image) ? ldProduct.image : [ldProduct.image];
-    photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean).slice(0, 8);
+    photos = imgRaw.map(i => typeof i === 'string' ? i : (i.url || '')).filter(Boolean).slice(0, MAX_FOTOS);
   }
   if (!photos.length) photos = [ogImage(html)].filter(Boolean);
 
@@ -727,7 +728,7 @@ export function scrapeOpenCart(url, html) {
   const name = decodeHtml(rx(html, /<h1[^>]*>([^<]+)/));
   const imgs = [...html.matchAll(/<img[^>]+src="([^"]+)"[^>]*class="[^"]*(?:img-thumbnail|product)[^"]*"/gi)]
     .map(m => m[1]).filter(u => u.startsWith('http'));
-  const photos = imgs.length ? [...new Set(imgs)].slice(0, 8) : [ogImage(html)].filter(Boolean);
+  const photos = imgs.length ? [...new Set(imgs)].slice(0, MAX_FOTOS) : [ogImage(html)].filter(Boolean);
   const price = extractPrice(rx(html, /class="[^"]*price[^"]*"[^>]*>(?:<[^>]+>)*\s*\$?([\d,.]+)/i));
   const desc = decodeHtml(rx(html, /<meta[^>]*property="og:description"[^>]*content="([^"]+)"/i));
   return { name, price, desc, photos, franquicia: guessFranquicia(name), estado: isPreOrder(html) ? 'Pre-Orden' : 'Entrega Inmediata', provider: 'opencart' };

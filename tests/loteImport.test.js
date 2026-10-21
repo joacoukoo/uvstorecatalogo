@@ -142,6 +142,14 @@ describe('armarProducto', () => {
     expect(r.product.i).toBe('https://f/r.jpg');
     expect(r.product.variantes[0].fotos).toEqual(['https://f/x.jpg', 'https://f/1.jpg', 'https://f/2.jpg', 'https://f/r.jpg']);
   });
+  it('como mucho 10 fotos por versión', () => {
+    const gal = Array.from({ length: 12 }, (_, k) => 'https://f/g' + k + '.jpg');
+    const d = { ...base, photos: gal, variantes_ia: [{ label: 'A', fotos: ['https://f/a.jpg'] }, { label: 'B', fotos: ['https://f/b.jpg'] }] };
+    const r = armarProducto(d, { base: '100', variantes: ['200'] }, extra, helpers);
+    expect(r.product.fotos).toHaveLength(10);
+    expect(r.product.fotos[0]).toBe('https://f/a.jpg');
+    expect(r.product.variantes[0].fotos).toHaveLength(10);
+  });
   it('sin ningún precio no arma nada', () => {
     expect(armarProducto(base, { base: '', variantes: [] }, extra, helpers)).toBeNull();
   });

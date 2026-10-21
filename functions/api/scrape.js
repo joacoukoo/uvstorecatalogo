@@ -1,4 +1,4 @@
-import { detectProvider, scrapeSideshow, scrapeShopify, scrapeWooCommerce, scrapeBigCommerce, scrapeOpenCart, scrapeEE, scrapeBBTS, scrapeGeneric, guessFranquicia as guessFranquiciaProxy, guessEscala as guessEscalaProxy } from '../_lib/scrapers.js';
+import { detectProvider, scrapeSideshow, scrapeShopify, scrapeWooCommerce, scrapeBigCommerce, scrapeOpenCart, scrapeEE, scrapeBBTS, scrapeGeneric, guessFranquicia as guessFranquiciaProxy, guessEscala as guessEscalaProxy, MAX_FOTOS } from '../_lib/scrapers.js';
 import { fetchPage, PROXY_URL } from '../_lib/fetchPage.js';
 import { limpiarNombre, sacarOracionesConBasura, opcionesReales, esTienda } from '../_lib/limpieza.js';
 
@@ -125,7 +125,7 @@ export async function onRequestPost({ env, request }) {
                 const { product } = JSON.parse(jsonText);
                 if (product?.title) {
                   const tags = product.tags ? (Array.isArray(product.tags) ? product.tags : product.tags.split(',').map(t=>t.trim())) : [];
-                  const photos = (product.images||[]).map(i=>i.src.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/,'$1')).slice(0,8);
+                  const photos = (product.images||[]).map(i=>i.src.replace(/_\d+x\d*(?:@\d+x)?(\.\w+)(\?.*)?$/,'$1')).slice(0,MAX_FOTOS);
                   const name = product.title;
                   result = { name, price: product.variants?.[0]?.price||'', marca: product.vendor||'', photos, franquicia: guessFranquiciaProxy(name, tags), escala: guessEscalaProxy(name, tags), estado: product.variants?.some(v=>v.available)?'Entrega Inmediata':'Pre-Orden', provider: 'shopify' };
                 }
@@ -240,7 +240,7 @@ function scrapeNonasea(p) {
     escala: guessEscalaProxy(p.title),
     franquicia: guessFranquiciaProxy(p.title),
     desc: [p.description, html].filter(Boolean).join('\n').slice(0, 4000),
-    photos: (Array.isArray(p.img) ? p.img : [p.img]).filter(Boolean).slice(0, 8),
+    photos: (Array.isArray(p.img) ? p.img : [p.img]).filter(Boolean).slice(0, MAX_FOTOS),
     price: p.price ? String(p.price) : '',
     opciones: goods.length > 1 ? [{ nombre: 'Versión', valores: goods.map(g => g.name), fotos: goods.map(g => g.img || []) }] : [],
     provider: 'nonasea',

@@ -102,6 +102,13 @@ describe('POST /api/scrape con ficha de Nonasea y respuesta de la IA', () => {
 });
 
 describe('fotos de BigCommerce', () => {
+  it('trae hasta 10 fotos', async () => {
+    const { scrapeBigCommerce } = await import('../functions/_lib/scrapers.js');
+    const html = '<h1 class="productView-title">X</h1>' + Array.from({ length: 12 }, (_, k) =>
+      '<a href="https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/1/' + (100 + k) + '/f.jpg"></a>').join('');
+    expect(scrapeBigCommerce('https://www.fanaticanimestore.com/x/', html).photos).toHaveLength(10);
+  });
+
   it('no repite la foto principal en miniatura: queda solo la grande', async () => {
     const { scrapeBigCommerce } = await import('../functions/_lib/scrapers.js');
     const html = '<h1 class="productView-title">X</h1>'
