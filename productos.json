@@ -56217,94 +56217,6 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
-        "id": "pokemon-tcg-scarlet-violet-prismatic-evolutions-po-mvihbe6c",
-        "n": "Pokémon TCG: Scarlet & Violet-Prismatic Evolutions Poster Collection",
-        "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_01.jpg",
-        "franquicia": "Otros",
-        "marca": "Pokémon TCG",
-        "escala": "",
-        "disp": "Entrega Inmediata",
-        "estado": "Nuevo",
-        "precio": "550",
-        "fotos": [
-          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_01.jpg",
-          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_02.jpg",
-          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_03.jpg",
-          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_04.jpg",
-          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_05.jpg"
-        ],
-        "content": [
-          {
-            "t": "notion-text",
-            "x": "Colecciona las tres evoluciones icónicas de Eevee con esta exclusiva colección de póster de Pokémon TCG Scarlet & Violet—Prismatic Evolutions. Incluye tres tarjetas holográficas premium de Flareon, Vaporeon y Jolteon, junto con un impresionante póster de coleccionista que presenta 27 ilustraciones diferentes de Eevee y sus evoluciones en calidad artística superior. Una pieza imprescindible para coleccionistas serios que buscan piezas limitadas y de alto valor de la franquicia Pokémon."
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Formato: Trading Card Game Collectible Set"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Tarjetas promo: 3 tarjetas holográficas de foil premium"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Póster: Dimensiones estándar de coleccionista (68.6 x 101.6 cm / 27 x 40 pulgadas)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Contenido: Tarjetas de tamaño estándar TCG (63.5 x 88.9 mm)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material de tarjetas: Cartulina de alta calidad con acabado holográfico foil"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Material de póster: Papel de arte de calidad museo"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Expansión: Scarlet & Violet—Prismatic Evolutions"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "Región: Oficial Pokémon TCG Internacional"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "3 tarjetas foil promo (Flareon, Vaporeon, Jolteon)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 póster de arte de 68.6 x 101.6 cm con 27 ilustraciones de Eevee y evoluciones"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "3 paquetes de expansión Pokémon TCG Scarlet & Violet—Prismatic Evolutions"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "30 tarjetas base (10 por paquete)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "3 cartas de energía básica (1 por paquete)"
-          },
-          {
-            "t": "notion-bulleted-list",
-            "x": "1 código digital para Pokémon TCG Live"
-          }
-        ],
-        "destacado": false,
-        "oferta": false,
-        "agotado": false,
-        "agotado_r": false,
-        "agotado_d": false,
-        "added_at": "2026-10-21",
-        "reserva": "0",
-        "cantidad": "3"
-      },
-      {
         "id": "executioner-berserk-1-6-figure-mvidqotl",
         "n": "Executioner Berserk 1/6 Figure",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20707/435926/_2026-10-20_215242_472__03671.1792505014.jpg",
@@ -69100,6 +69012,94 @@
   "TCG": {
     "slug": "tcg",
     "products": [
+      {
+        "id": "pokemon-tcg-scarlet-violet-prismatic-evolutions-po-mvihbe6c",
+        "n": "Pokémon TCG: Scarlet & Violet-Prismatic Evolutions Poster Collection",
+        "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_01.jpg",
+        "franquicia": "Otros",
+        "marca": "Pokémon TCG",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "550",
+        "fotos": [
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_01.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_02.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_03.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_04.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10005/P10459_10-10024-101_05.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Colecciona las tres evoluciones icónicas de Eevee con esta exclusiva colección de póster de Pokémon TCG Scarlet & Violet—Prismatic Evolutions. Incluye tres tarjetas holográficas premium de Flareon, Vaporeon y Jolteon, junto con un impresionante póster de coleccionista que presenta 27 ilustraciones diferentes de Eevee y sus evoluciones en calidad artística superior. Una pieza imprescindible para coleccionistas serios que buscan piezas limitadas y de alto valor de la franquicia Pokémon."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Trading Card Game Collectible Set"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjetas promo: 3 tarjetas holográficas de foil premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Póster: Dimensiones estándar de coleccionista (68.6 x 101.6 cm / 27 x 40 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: Tarjetas de tamaño estándar TCG (63.5 x 88.9 mm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material de tarjetas: Cartulina de alta calidad con acabado holográfico foil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material de póster: Papel de arte de calidad museo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Expansión: Scarlet & Violet—Prismatic Evolutions"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Región: Oficial Pokémon TCG Internacional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 tarjetas foil promo (Flareon, Vaporeon, Jolteon)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 póster de arte de 68.6 x 101.6 cm con 27 ilustraciones de Eevee y evoluciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 paquetes de expansión Pokémon TCG Scarlet & Violet—Prismatic Evolutions"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "30 tarjetas base (10 por paquete)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 cartas de energía básica (1 por paquete)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 código digital para Pokémon TCG Live"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-21",
+        "reserva": "0",
+        "cantidad": "3"
+      },
       {
         "id": "pokemon-tcg-mega-forces-tin-pack-de-3-mvhoa2it",
         "n": "Pokémon TCG: Mega Forces Tin - Pack de 3",

@@ -623,6 +623,7 @@ function fillAddForm(data){
   var disp=data.disp||data.estado||'';
   if(disp==='Entrega Inmediata'||disp==='Pre-Orden')setField('add-disp',disp);
   setBool('add-crear-lote',getField('add-disp')==='Entrega Inmediata');
+  sugerirTCG();
   setField('add-estado','Nuevo');
   // Default quantity
   setField('add-cantidad','2');
