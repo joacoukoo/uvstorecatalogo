@@ -39035,6 +39035,174 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "conan-1-3-statue-mvhdg2qx",
+        "n": "Conan 1/3 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zJaJCeXGruAP19-Zci-2l1791532819921.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zJaJCeXGruAP19-Zci-2l1791532819921.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/fuiPCx71bexToGZ1K8IRS1791532819921.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ZUvoWVGA9W6ufzOJYFKaE1791532819921.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nh6gKrmOEg_3bXc9net9w1791532819921.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3vSsOKgKlPAKS-lEgZWuS1791532819921.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_cxgFPMY4K7_BbGzb5cq31791532819922.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pTTLHUSntkqtNd1g2oOBD1791532819922.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1bAhH5yxv1IZzoJP1toXm1791532819922.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Premium Collectibles Studio",
+        "escala": "1:3",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "22000",
+        "reserva": "4400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Imponente estatua de Conan el Bárbaro en escala 1/3 que captura toda la ferocidad y poder del legendario guerrero. Con una altura de 72 cm, esta obra maestra presenta un nivel de detalle excepcional en la musculatura, indumentaria y accesorios. Elaborada en resina importada y PU de alta calidad, es una pieza imprescindible para coleccionistas de fantasy y aventura clásica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 72,4 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anchura: 35,6 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 36,8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha de batalla ornamentada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con motivos de león"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón y arnés detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazaletes de cuero"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-21",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33279",
+        "entrega": "2027 Q4"
+      },
+      {
+        "id": "rubeus-hagrid-1-6-statue-mvhdg2qx",
+        "n": "Rubeus Hagrid 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BER6ws1m6Cg60DHpFws-P1792113758780.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BER6ws1m6Cg60DHpFws-P1792113758780.webp"
+        ],
+        "franquicia": "Harry Potter",
+        "marca": "Jnd Studios",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11500",
+        "reserva": "2300",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la majestuosidad del guardabosque de Hogwarts con esta estatua premium de JND Studios. Featuring un retrato de silicona con cabello enraizado y ojos de vidrio magnéticos articulados, junto con la icónica indumentaria de Hagrid y la pequeña criatura Norbert. Una obra maestra de colección para los fans devotos del universo Harry Potter."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 42 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza de silicona con cabello enraizado y ojos de vidrio magnéticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario completo (abrigo, camisa, chaleco, pantalones, cinturón, calcetines, ropa interior acolchada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano de silicona sosteniendo a Norbert"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de manos de silicona sosteniendo cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Norbert"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos plataformas base intercambiables (tierra y piedra)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolígrafo de ajuste magnético para ojos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pinzas de ajuste magnético"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-21",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33272",
+        "entrega": "2028 Q2",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Regular+Extended Base",
+            "precio": "13900",
+            "reserva": "2780",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bK4e0q_I3BpQE7JXZCUDj1792113496600.webp"
+            ]
+          }
+        ]
+      },
+      {
         "id": "nico-robin-1-7-statue-mvhbs43b",
         "n": "Nico Robin 1:7 Statue",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435325/_2026-10-20_151509_105__42619.1792481996.jpg",
