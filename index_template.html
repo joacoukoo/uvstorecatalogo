@@ -2423,6 +2423,19 @@ function lightboxMove(dir){
 // ── HASH ROUTER ──
 // Tracks whether the current session started with internal navigation
 var _uvOpenedFromNav=false;
+// Figura por id (o por nombre en links viejos sin id), incluidas las de Adultos: openModal pide la edad.
+function _figuraPorId(id){
+  var cats=CAT_KEYS.concat(["Adultos"]);
+  for(var i=0;i<cats.length;i++){
+    var prods=(DATA[cats[i]]||{}).products||[];
+    for(var j=0;j<prods.length;j++){
+      var pp=prods[j];
+      var ppId=pp.id||(pp.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
+      if(ppId===id)return{p:pp,cat:cats[i]};
+    }
+  }
+  return null;
+}
 function routeHash(h){
   h=h||"";
   if(!h||h==="#"){showPage("home");document.getElementById("nav-home").classList.add("active");return;}
@@ -2450,16 +2463,7 @@ function routeHash(h){
       var cat=CAT_KEYS[ci];
       if(cat&&DATA[cat]&&DATA[cat].products[pi]){found=DATA[cat].products[pi];foundCat=cat;}
     }
-    if(!found){
-      outer:for(var ki=0;ki<CAT_KEYS.length;ki++){
-        var ck=CAT_KEYS[ki];var prods=(DATA[ck]||{}).products||[];
-        for(var pi2=0;pi2<prods.length;pi2++){
-          var pp=prods[pi2];
-          var ppId=pp.id||(pp.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
-          if(ppId===figId){found=pp;foundCat=ck;break outer;}
-        }
-      }
-    }
+    if(!found){var fr=_figuraPorId(figId);if(fr){found=fr.p;foundCat=fr.cat;}}
     if(found){openModal(found,foundCat);}
     else{showPage("home");document.getElementById("nav-home").classList.add("active");}
     return;
@@ -2500,16 +2504,8 @@ window.addEventListener("popstate",function(){
   // Cold load: abrir modal si la URL es /p/:slug directamente
   if(location.pathname.startsWith("/p/")){
     var _slug=decodeURIComponent(location.pathname.slice(3));
-    var _found=null,_foundCat=null;
-    outer2:for(var _ki=0;_ki<CAT_KEYS.length;_ki++){
-      var _ck=CAT_KEYS[_ki];var _prods=(DATA[_ck]||{}).products||[];
-      for(var _pi=0;_pi<_prods.length;_pi++){
-        var _pp=_prods[_pi];
-        var _ppId=_pp.id||(_pp.n||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").substring(0,60);
-        if(_ppId===_slug){_found=_pp;_foundCat=_ck;break outer2;}
-      }
-    }
-    if(_found)openModal(_found,_foundCat);
+    var _fr=_figuraPorId(_slug);
+    if(_fr)openModal(_fr.p,_fr.cat);
   }
   // Restore search from URL ?q= param
   (function(){

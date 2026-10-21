@@ -50,6 +50,11 @@ function entorno({ edadOk = false } = {}) {
     '\nreturn {_buscarProductos,getFranchiseProducts,makeCard,_pedirEdad,ageGateConfirm,ageGateDeny};')(...n.map(k => ctx[k]));
   return { api, gate, abiertas, store };
 }
+entorno.DATA = {
+  'Hot Toys 1:6': { products: [{ id: 'd1', n: 'Draco' }] },
+  'Estatuas Premium': { products: [{ id: 'd2', n: 'Draco 1:4' }] },
+  Adultos: { products: [{ id: 'a1', n: 'Draco Female' }] },
+};
 
 describe('figuras de adultos en la web', () => {
   it('la búsqueda trae también las de adultos aunque no se haya confirmado la edad', () => {
@@ -84,6 +89,14 @@ describe('figuras de adultos en la web', () => {
     E.api._pedirEdad('Adultos', () => E.abiertas.push('a1'));
     E.api.ageGateDeny();
     expect(E.abiertas).toEqual([]);
+  });
+
+  it('un link compartido encuentra también las figuras de adultos', () => {
+    const buscar = new Function('DATA', 'CAT_KEYS', fn('_figuraPorId') + '\nreturn _figuraPorId;')(
+      entorno.DATA, ['Hot Toys 1:6', 'Estatuas Premium']);
+    expect(buscar('a1')).toEqual({ p: entorno.DATA.Adultos.products[0], cat: 'Adultos' });
+    expect(buscar('d2').cat).toBe('Estatuas Premium');
+    expect(buscar('nada')).toBe(null);
   });
 
   it('con la edad confirmada o fuera de Adultos no pide nada', () => {

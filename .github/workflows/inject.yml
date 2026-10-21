@@ -5,6 +5,7 @@ on:
     paths:
       - productos.json
       - index_template.html
+      - inject_data.py
     branches:
       - main
 
@@ -34,4 +35,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Rebuild index.html"
-          file_pattern: index.html
+          file_pattern: index.html sitemap.xml

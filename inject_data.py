@@ -9,7 +9,8 @@ Uso:
     python inject_data.py --template index_template.html --data productos.json --output index.html
 """
 
-import json, sys, argparse
+import json, re, sys, argparse, unicodedata
+from datetime import date
 from pathlib import Path
 
 
@@ -49,14 +50,52 @@ def inject(template_path, data_path, output_path):
     print("Listo para publicar.")
 
 
+SITIO = "https://uvstore.shop"
+
+
+def slug(s):
+    # Igual que toSlug() en functions/categoria y functions/marca
+    s = unicodedata.normalize("NFD", str(s).lower())
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def build_sitemap(data_path, sitemap_path):
+    """sitemap.xml para Google: portada, categorias, marcas y cada figura (sin Adultos)."""
+    data = json.loads(data_path.read_text(encoding="utf-8"))
+    hoy = date.today().isoformat()
+    urls = [(SITIO + "/", hoy)]
+    marcas, figuras = [], []
+    for cat, v in data.items():
+        if cat == "Adultos":
+            continue
+        urls.append((SITIO + "/categoria/" + slug(cat), hoy))
+        for p in v.get("products", []):
+            m = slug(p.get("marca") or "")
+            if m and m not in marcas:
+                marcas.append(m)
+            if p.get("id"):
+                figuras.append((SITIO + "/p/" + p["id"], (p.get("added_at") or "")[:10]))
+    urls += [(SITIO + "/marca/" + m, hoy) for m in marcas] + figuras
+    filas = ["  <url><loc>" + u + "</loc>" + ("<lastmod>" + f + "</lastmod>" if f else "") + "</url>"
+             for u, f in urls]
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + "\n".join(filas) + "\n</urlset>\n")
+    sitemap_path.write_text(xml, encoding="utf-8")
+    print("sitemap.xml: " + str(len(urls)) + " URLs")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--template", default="index_template.html")
     parser.add_argument("--data",     default="productos.json")
     parser.add_argument("--output",   default="index.html")
+    parser.add_argument("--sitemap",  default="sitemap.xml")
     args = parser.parse_args()
 
     inject(Path(args.template), Path(args.data), Path(args.output))
+    build_sitemap(Path(args.data), Path(args.sitemap))
 
 
 if __name__ == "__main__":
