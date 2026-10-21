@@ -55796,6 +55796,92 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "pokemon-tcg-prismatic-evolutions-super-premium-col-mvho6b1x",
+        "n": "Pokémon TCG: Prismatic Evolutions - Super Premium Collection (UPC)",
+        "i": "https://acdn-us.mitiendanube.com/stores/004/821/233/products/sv8pt5-super-premium-collection-169-en-2d5d3a78d71d1a241c17473656685913-1024-1024.webp",
+        "franquicia": "Otros",
+        "marca": "Pokemon",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2400",
+        "fotos": [
+          "https://acdn-us.mitiendanube.com/stores/004/821/233/products/sv8pt5-super-premium-collection-169-en-2d5d3a78d71d1a241c17473656685913-1024-1024.webp",
+          "https://acdn-us.mitiendanube.com/stores/004/821/233/products/guest_e8a20410-8644-42f3-8d27-a211641099eb-51f6ad087f668c893417473656687754-1024-1024.webp",
+          "https://acdn-us.mitiendanube.com/stores/004/821/233/products/svp_en_174-9a8ef138ad6ba2930617473656690795-1024-1024.webp",
+          "https://acdn-us.mitiendanube.com/stores/004/821/233/products/prismatic-evolutions-super-premium-collection-deck-box-scaled-f3700b10fbb4bb6a0917473656694787-1024-1024.webp",
+          "https://acdn-us.mitiendanube.com/stores/004/821/233/products/prismatic-evolutions-super-premium-collection-playmat-d6381bf7918e7ae26e17473656692697-1024-1024.webp",
+          "https://acdn-us.mitiendanube.com/stores/004/821/233/products/prismatic-evolutions-super-premium-collection-sleevees-d8d3b45dc3b3690f8d17473656691495-1024-1024.webp",
+          "https://acdn-us.mitiendanube.com/stores/004/821/233/products/guest_52f08e8d-4cc2-4b8e-8b07-cd7bf0cd6482-65388814372a2b1a5f17473656687572-1024-1024.webp"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La Pokémon TCG Prismatic Evolutions Super Premium Collection es una edición exclusiva de coleccionista que celebra a Eevee y sus evoluciones con componentes premium de alta calidad. Esta colección UPC incluye una carta promocional holográfica de Eevee EX Tera Estelar con arte completo, perfecta para coleccionistas serios. Un must-have para fans de Eevee que buscan accesorios oficiales de lujo combinados con sobres de expansión auténticos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto: Colección de Cartas Coleccionables Pokémon TCG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Expansión: Scarlet & Violet - Prismatic Evolutions"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Idioma: Inglés"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Ultra Premium Collection (UPC)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cantidad de Sobres: 15 sobres de mejora"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material de Accesorios: Peluche (baraja), Poliéster (tapete y fundas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido Total: 65 fundas para cartas + 1 carta promocional holográfica + accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Carta Promocional Holográfica Eevee EX Tera Estelar con arte completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Caja de Baraja de Peluche Eevee"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Tapete de Juego con Eevee y sus Evoluciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "65 Fundas para Cartas con diseños de Eevee y sus Evoluciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "15 Sobres de Mejora Escarlata y Violeta: Prismatic Evolutions"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 Código de Acceso para Pokémon TCG Live"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-21",
+        "reserva": "0",
+        "cantidad": "3"
+      },
+      {
         "id": "batman-v-superman-dawn-of-justice-superman-mvbchbh5",
         "n": "Batman v Superman: Dawn of Justice - Superman",
         "i": "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/3266/images/36562/0c54dd82-060a-4fa0-85a8-2793b6dccdc7__86296.1788757959.386.513.jpg",
