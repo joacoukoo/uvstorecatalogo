@@ -1380,6 +1380,11 @@ button,a{touch-action:manipulation;cursor:pointer}
         <div x-show="!loading && error" style="color:var(--red);font-size:14px;padding:16px 0" x-text="'Error: ' + error"></div>
         <div x-show="!loading && !error">
           <div x-show="lotes.length === 0" style="color:var(--muted2);font-size:14px;padding:16px 0">No hay lotes pedidos todavía.</div>
+          <div x-show="lotes.length > 0" style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
+            <input class="form-input" type="search" x-model="busqueda" placeholder="Buscar lote: producto, marca, código, proveedor o cliente..." style="font-size:16px;flex:1">
+            <span x-show="busqueda" style="color:var(--muted2);font-size:13px;white-space:nowrap" x-text="lotesOrdenados.length + ' de ' + lotes.length"></span>
+          </div>
+          <div x-show="busqueda && lotes.length > 0 && lotesOrdenados.length === 0" style="color:var(--muted2);font-size:14px;padding:8px 0 16px">Ningún lote coincide con la búsqueda.</div>
           <div class="card" x-show="lotes.length > 0">
             <table class="table">
               <thead>
@@ -1903,7 +1908,7 @@ function uvSinPedir() {
 // ── LOTES DE PEDIDO ───────────────────────────────────────────────────
 function uvLotes() {
   return {
-    loading: true, error: '', lotes: [], ordenPor: 'alfabetico',
+    loading: true, error: '', lotes: [], ordenPor: 'alfabetico', busqueda: '',
     modalNuevo: false, guardando: false,
     form: { id: null, producto: '', marca: '', escala: '', cantidad: 1, codigo: '', proveedor: '', fecha_pedido: '', notas: '', catalogo_id: '', catalogo_variante: '' },
     modalVincular: false, loteActivo: null, candidatos: [], seleccionados: [], buscandoCandidatos: false,
@@ -2052,7 +2057,11 @@ function uvLotes() {
       this.catalogoSeleccionado = null;
     },
     get lotesOrdenados() {
-      const copia = [...this.lotes];
+      // Busca por producto, marca, código, proveedor o cliente
+      const q = normalize(this.busqueda);
+      const copia = q
+        ? this.lotes.filter(l => normalize([l.producto, l.marca, l.codigo, l.proveedor, ...(l.clientes || [])].filter(Boolean).join(' ')).includes(q))
+        : [...this.lotes];
       return this.ordenPor === 'fecha'
         ? copia.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
         : copia.sort((a, b) => a.producto.localeCompare(b.producto, 'es'));
