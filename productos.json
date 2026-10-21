@@ -25219,7 +25219,7 @@
         "precio_d": "",
         "reserva": "720",
         "entrega": "Marzo 2027",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -25394,7 +25394,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914847/hot-toys-john-wick-john-wick-sixth-scale-figure-gallery-68d2d06a77ec2.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914847/hot-toys-john-wick-john-wick-sixth-scale-figure-gallery-68d2d09d06a89.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "id": "dek",
