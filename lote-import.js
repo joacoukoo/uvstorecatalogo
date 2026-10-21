@@ -101,6 +101,8 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
   if (!conPrecio.length) return null;
 
   const [b, ...resto] = conPrecio;
+  // La foto propia de la versión va primero, seguida de la galería (sin repetir).
+  const fotosDe = o => [...new Set([...(o.fotos || []), ...fotosBase])];
   // Arriba de la descripción, qué trae la versión elegida (la web la cambia al tocar el botón).
   const conVersion = o => [
     ...(o.detalle && o.label ? [{ t: 'notion-text', x: 'Versión ' + o.label + ': ' + o.detalle.replace(/[.\s]+$/, '') + '.' }] : []),
@@ -109,8 +111,8 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
   const product = {
     id: makeId(extra.nombre || datos.nombre_limpio || 'figura'),
     n: extra.nombre || datos.nombre_limpio || '',
-    i: (b.fotos?.[0]) || fotosBase[0] || '',
-    fotos: b.fotos?.length ? b.fotos : fotosBase,
+    i: fotosDe(b)[0] || '',
+    fotos: fotosDe(b),
     franquicia: extra.franquicia || datos.franquicia || '',
     marca: extra.marca || datos.marca || '',
     escala: b.escala || datos.escala || '',
@@ -129,13 +131,13 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
   if (esDeluxe) {
     product.precio_d = String(resto[0].precio);
     product.reserva_d = reserva(resto[0].precio);
-    if (resto[0].fotos?.length) product.fotos_d = resto[0].fotos;
+    if (resto[0].fotos?.length) product.fotos_d = fotosDe(resto[0]);
     if (resto[0].detalle) product.content_d = conVersion(resto[0]);
   } else if (resto.length) {
     product.label_base = b.label;
     product.variantes = resto.map(v => ({
       label: v.label, precio: String(v.precio), reserva: reserva(v.precio),
-      ...(v.escala ? { escala: v.escala } : {}), ...(v.fotos?.length ? { fotos: v.fotos } : {}),
+      ...(v.escala ? { escala: v.escala } : {}), ...(v.fotos?.length ? { fotos: fotosDe(v) } : {}),
       ...(v.detalle ? { content: conVersion(v) } : {}),
     }));
   }

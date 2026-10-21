@@ -81,6 +81,16 @@ describe('POST /api/scrape con ficha de Nonasea y respuesta de la IA', () => {
     expect(d.photos.length).toBeGreaterThan(0);
   });
 
+  it('le pide a la IA las versiones con nombre y qué incluye', async () => {
+    const f = mock({ nombre: 'Doflamingo', desc: 'Una estatua.', categoria: 'Estatuas Premium', variantes: [] });
+    vi.stubGlobal('fetch', f);
+    await onRequestPost(req());
+    const body = JSON.parse(f.mock.calls.find(c => String(c[0]).includes('anthropic'))[1].body);
+    const prompt = JSON.stringify(body.messages[0].content);
+    expect(prompt).toContain('\\"variantes\\":[{\\"nombre\\"');
+    expect(prompt).toMatch(/nunca vac/i);
+  });
+
   it('guarda qué trae cada versión cuando la IA lo explica', async () => {
     vi.stubGlobal('fetch', mock({
       nombre: 'Doflamingo', desc: 'Una estatua.', categoria: 'Estatuas Premium',

@@ -108,12 +108,12 @@ describe('armarProducto', () => {
     const d = { ...base, variantes_ia: [{ label: '1:6', escala: '1:6' }, { label: '1:4', escala: '1:4', fotos: ['https://f/4.jpg'] }] };
     const r = armarProducto(d, { base: '1800', variantes: ['2600'] }, extra, helpers);
     expect(r.product.label_base).toBe('1:6');
-    expect(r.product.variantes).toEqual([{ label: '1:4', precio: '2600', reserva: '520', escala: '1:4', fotos: ['https://f/4.jpg'] }]);
+    expect(r.product.variantes).toEqual([{ label: '1:4', precio: '2600', reserva: '520', escala: '1:4', fotos: ['https://f/4.jpg', 'https://f/1.jpg'] }]);
   });
   it('Regular / Deluxe usa el sistema Deluxe', () => {
     const d = { ...base, variantes_ia: [{ label: 'Regular' }, { label: 'Deluxe', fotos: ['https://f/d.jpg'] }] };
     const r = armarProducto(d, { base: '1800', variantes: ['2100'] }, extra, helpers);
-    expect(r.product).toMatchObject({ precio: '1800', precio_d: '2100', reserva_d: '420', fotos_d: ['https://f/d.jpg'] });
+    expect(r.product).toMatchObject({ precio: '1800', precio_d: '2100', reserva_d: '420', fotos_d: ['https://f/d.jpg', 'https://f/1.jpg'] });
     expect(r.product.variantes).toBeUndefined();
   });
   it('cada versión muestra arriba de la descripción qué trae', () => {
@@ -132,6 +132,15 @@ describe('armarProducto', () => {
     const r = armarProducto(d, { base: '1800', variantes: ['2100'] }, extra, helpers);
     expect(r.product.content[0].x).toBe('Versión Regular: Figura y base.');
     expect(r.product.content_d[0].x).toBe('Versión Deluxe: Agrega cabeza extra.');
+  });
+  it('la foto de cada versión va primero pero no tapa la galería', () => {
+    const d = { ...base, photos: ['https://f/1.jpg', 'https://f/2.jpg', 'https://f/r.jpg'], variantes_ia: [
+      { label: 'Regular', fotos: ['https://f/r.jpg'] }, { label: 'Base extendida', fotos: ['https://f/x.jpg'] },
+    ] };
+    const r = armarProducto(d, { base: '11500', variantes: ['13900'] }, extra, helpers);
+    expect(r.product.fotos).toEqual(['https://f/r.jpg', 'https://f/1.jpg', 'https://f/2.jpg']);
+    expect(r.product.i).toBe('https://f/r.jpg');
+    expect(r.product.variantes[0].fotos).toEqual(['https://f/x.jpg', 'https://f/1.jpg', 'https://f/2.jpg', 'https://f/r.jpg']);
   });
   it('sin ningún precio no arma nada', () => {
     expect(armarProducto(base, { base: '', variantes: [] }, extra, helpers)).toBeNull();

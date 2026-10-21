@@ -21,10 +21,10 @@ Reglas: nunca menciones tiendas (Fanatic Anime Store, FNC, Nonasea, Hexapus, Sta
 "categoria": "Hot Toys 1:6" si el fabricante es Hot Toys; "Estatuas Premium" para estatuas y bustos; "Otras Figuras" para figuras articuladas que no son Hot Toys; "Adultos" para contenido adulto.
 "marca": el fabricante real de la figura (nunca la tienda que la vende), "" si no se sabe.
 "entrega": fecha estimada de entrega si el texto la trae (ej. "2027 Q2"), si no "".
-"variantes": una por cada opción a la venta, en el mismo orden: {"nombre": nombre corto ("1:4", "Deluxe", "EX"), "incluye": qué trae esa versión que la diferencia de las otras, en español y en pocas palabras, sacado del texto (ej. "Con alas y base escénica"), "" si el texto no lo dice}; [] si no hay opciones.
+"variantes": una por cada opción a la venta, en el mismo orden: {"nombre": nombre corto ("1:4", "Deluxe", "EX"), "incluye": qué trae esa versión que la diferencia de las otras, en español y en pocas palabras, sacado del texto (ej. "Con alas y base escénica"), nunca vacío: si el texto no lo explica, deducilo del nombre de la opción (ej. "Regular+Extended Base" → "Base extendida más grande")}; [] si no hay opciones.
 
 Responde SOLO con JSON válido sin markdown:
-{"nombre":"...","marca":"","categoria":"...","entrega":"","variantes":[],"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2","franquicia":"una de: Marvel|DC Comics|Star Wars|Anime|Gaming|Harry Potter|El Señor de los Anillos|Alien|Predator|Terminator|Tortugas Ninja|Masters of the Universe|Transformers|Adultos|Otros"}`;
+{"nombre":"...","marca":"","categoria":"...","entrega":"","variantes":[{"nombre":"...","incluye":"..."}],"desc":"2-3 oraciones vendedoras en español","specs":"- Altura: X cm\\n- Escala: 1:X\\n- Material: ...","includes":"- accesorio1\\n- accesorio2","franquicia":"una de: Marvel|DC Comics|Star Wars|Anime|Gaming|Harry Potter|El Señor de los Anillos|Alien|Predator|Terminator|Tortugas Ninja|Masters of the Universe|Transformers|Adultos|Otros"}`;
 
   const content = foto
     ? [{ type: 'image', source: { type: 'url', url: foto } }, { type: 'text', text: prompt }]
