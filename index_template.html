@@ -435,6 +435,9 @@ body::after{
 .prod-card:hover .prod-img-wrap::before{
   background:rgba(123,47,190,0.07);
 }
+.adult-tag{display:none}
+.prod-adult .prod-img{filter:blur(18px);transform:scale(1.15)}
+.prod-adult .adult-tag{display:block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:2;pointer-events:none;background:rgba(0,0,0,.55);border:1px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:14px;letter-spacing:.5px;padding:8px 13px;border-radius:999px}
 .prod-info{padding:12px 14px 14px}
 .prod-name{
   font-size:13px;font-weight:500;color:var(--text);line-height:1.4;
@@ -1380,6 +1383,10 @@ function makeCard(p,cat){
   img.onload=function(){this.classList.remove("shim");};
   img.onerror=function(){this.src=p.i;this.classList.remove("shim");};
   wrap.appendChild(img);
+  if(cat==="Adultos"&&!_edadOk()){
+    div.classList.add("prod-adult");
+    var tag18=document.createElement("div");tag18.className="adult-tag";tag18.textContent="18+";wrap.appendChild(tag18);
+  }
   div.appendChild(wrap);
   var info=document.createElement("div");info.className="prod-info";
   var nm=document.createElement("div");nm.className="prod-name";nm.textContent=p.n;
@@ -1661,6 +1668,10 @@ function getFranchiseProducts(fname){
       if(match)results.push({p:p,cat:cat});
     });
   });
+  // Las de Adultos de esta franquicia también aparecen (borrosas)
+  if(fname!=="Otros"&&DATA["Adultos"]){
+    DATA["Adultos"].products.forEach(function(p){if(p.franquicia===fname)results.push({p:p,cat:"Adultos"});});
+  }
   return results;
 }
 function makeFranchiseCard(fname,gridId){
@@ -1891,14 +1902,7 @@ function doSearchInline(q){
     // si el input queda vacío, se mantiene en la página de búsqueda para poder escribir otra cosa
     return;
   }
-  var ql=_norm(q);var results=[];
-  var searchKeys=sessionStorage.getItem("uv_age_ok")==="1"?CAT_KEYS.concat(["Adultos"]):CAT_KEYS;
-  searchKeys.forEach(function(cat){
-    var info=DATA[cat];if(!info)return;
-    info.products.forEach(function(p){
-      if(_prodSearchText(p).indexOf(ql)>=0) results.push({p:p,cat:cat});
-    });
-  });
+  var results=_buscarProductos(q);
   qt.textContent="Resultados para: "+q;
   _srProds=results;_srSort="default";_srFilter="all";_facetReset("sr");
   ["def","pa","pd"].forEach(function(k){var b=document.getElementById("sr-sort-"+k);if(b)b.classList.toggle("sort-active",k==="def");});
@@ -1907,19 +1911,39 @@ function doSearchInline(q){
   _srRenderGrid();
 }
 function openSearch(){openSearchPage();}
+// Busca en todas las categorías, Adultos incluida (esas tarjetas salen borrosas hasta confirmar la edad).
+function _buscarProductos(q){
+  var ql=_norm(q),results=[];
+  CAT_KEYS.concat(["Adultos"]).forEach(function(cat){
+    var info=DATA[cat];if(!info)return;
+    info.products.forEach(function(p){
+      if(_prodSearchText(p).indexOf(ql)>=0) results.push({p:p,cat:cat});
+    });
+  });
+  return results;
+}
 
 var _ageGateTarget=null;
-function showAgeGate(fname){
-  if(sessionStorage.getItem("uv_age_ok")==="1"){goFranchise(fname);return;}
-  _ageGateTarget=fname;
+function _edadOk(){try{return sessionStorage.getItem("uv_age_ok")==="1";}catch(e){return false;}}
+// Las figuras de Adultos se ven (borrosas) en búsqueda y franquicias; para abrirlas se confirma la edad.
+// Devuelve true si mostró la pregunta: "despues" corre recién al confirmar.
+function _pedirEdad(cat,despues){
+  if(cat!=="Adultos"||_edadOk())return false;
+  _ageGateTarget=despues;
   document.getElementById("age-gate").classList.add("open");
   document.body.style.overflow="hidden";
+  return true;
+}
+function showAgeGate(fname){
+  if(!_pedirEdad("Adultos",function(){goFranchise(fname);}))goFranchise(fname);
 }
 function ageGateConfirm(){
-  sessionStorage.setItem("uv_age_ok","1");
+  try{sessionStorage.setItem("uv_age_ok","1");}catch(e){}
   document.getElementById("age-gate").classList.remove("open");
   document.body.style.overflow="";
-  if(_ageGateTarget){goFranchise(_ageGateTarget);_ageGateTarget=null;}
+  document.querySelectorAll(".prod-adult").forEach(function(el){el.classList.remove("prod-adult");});
+  var t=_ageGateTarget;_ageGateTarget=null;
+  if(typeof t==="function")t();
 }
 function ageGateDeny(){
   document.getElementById("age-gate").classList.remove("open");
@@ -2199,6 +2223,7 @@ function clearProductSchema(){
   if(el)el.textContent="";
 }
 function openModal(p,cat){
+  if(_pedirEdad(cat,function(){openModal(p,cat);}))return;
   _modalProd=p;
   var accent=CAT_ACCENTS[cat]||"#7B2FBE";
   // Build carousel: regular photos by default
@@ -2333,14 +2358,7 @@ function doSearch(q){
   var qc=document.getElementById("search-count");
   q=q.trim();
   if(q.length<2){el.innerHTML="";qt.textContent="";qc.textContent="";return;}
-  var ql=_norm(q);var results=[];
-  var searchKeys=sessionStorage.getItem("uv_age_ok")==="1"?CAT_KEYS.concat(["Adultos"]):CAT_KEYS;
-  searchKeys.forEach(function(cat){
-    var info=DATA[cat];if(!info)return;
-    info.products.forEach(function(p){
-      if(_prodSearchText(p).indexOf(ql)>=0) results.push({p:p,cat:cat});
-    });
-  });
+  var results=_buscarProductos(q);
   qt.textContent="Resultados para: "+q;
   qc.textContent=results.length+" figura"+(results.length!==1?"s":"")+" encontrada"+(results.length!==1?"s":"");
   el.innerHTML="";
