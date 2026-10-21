@@ -13,6 +13,8 @@ describe('esTCG', () => {
       'Yu-Gi-Oh! Structure Deck',
       'Lata Pokémon Mega Evolución',
       'Sobres One Piece',
+      'A Marvelous Mathoms™ Everything Bundle - Secret Lair - The Hobbit',
+      'Secret Lair Drop: Fallout',
     ].forEach(n => expect(esTCG(n), n).toBe(true));
   });
 
@@ -22,6 +24,8 @@ describe('esTCG', () => {
       'Evolution of Mewtwo Mega X & Mega Y - Pokemon Resin Statue - EGGS Studios',
       'Pokemon Alain',
       'Tintin',
+      'Magic the Gathering FigPins',
+      'Magic the Gathering YouTooz',
       'Vitrina Detolf',
       '',
     ].forEach(n => expect(esTCG(n), n).toBe(false));

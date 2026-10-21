@@ -4,7 +4,7 @@
 
 export const CATEGORIA_TCG = 'TCG';
 
-const TCG = /\btcg\b|\bccg\b|trading\s*card|card\s*game|booster|\betb\b|elite\s*trainer|\bupc\b|premium\s*collection|\btins?\b|\blatas?\b|\bsobres?\b|starter\s*deck|structure\s*deck|\bblister\b/i;
+const TCG = /\btcg\b|\bccg\b|trading\s*card|card\s*game|booster|\betb\b|elite\s*trainer|\bupc\b|premium\s*collection|\btins?\b|\blatas?\b|\bsobres?\b|secret\s*lair|bundles?|starter\s*deck|structure\s*deck|\bblister\b/i;
 
 export function esTCG(nombre) {
   return TCG.test(String(nombre || ''));
