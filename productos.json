@@ -68982,6 +68982,59 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "mega-clefable-ex-119-psa-10",
+        "n": "Pokémon TCG: Mega Clefable ex #119 Special Illustration Rare - PSA 10",
+        "i": "https://uvstore.shop/assets/productos/mega-clefable-ex-119-psa-10/1.jpg",
+        "fotos": [
+          "https://uvstore.shop/assets/productos/mega-clefable-ex-119-psa-10/1.jpg",
+          "https://uvstore.shop/assets/productos/mega-clefable-ex-119-psa-10/2.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Pokémon TCG",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Gradeada PSA 10",
+        "precio": "800",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Mega Clefable ex en su versión Special Illustration Rare, gradeada PSA 10 Gem Mint: la calificación más alta de PSA, con la carta en estado perfecto y sellada en su estuche oficial. Una pieza ideal para coleccionistas que buscan lo mejor de las Mega Evoluciones ex."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carta: Mega Clefable ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rareza: Special Illustration Rare"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Número: 119/088"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Expansión: Pokémon POR (2026), en inglés"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grado: PSA 10 Gem Mint"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado PSA: 165212272"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-21",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "a-marvelous-mathoms-everything-bundle-secret-lair--mueqq11o",
         "n": "A Marvelous Mathoms™ Everything Bundle - Secret Lair - The Hobbit",
         "i": "https://cdn-prod.scalefast.com/public/assets/user/10751401/image/7854f891b366ec83a1588049ec3dd65e.png",
