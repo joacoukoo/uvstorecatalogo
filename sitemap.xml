@@ -6,6 +6,7 @@
   <url><loc>https://uvstore.shop/categoria/estatuas-premium</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/categoria/otras-figuras</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/categoria/vitrinas-para-figuras</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://uvstore.shop/categoria/tcg</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/hot-toys</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/threezero</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/prime1studio</loc><lastmod>2026-10-21</lastmod></url>
@@ -181,9 +182,6 @@
   <url><loc>https://uvstore.shop/marca/wake-studio</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/wu-jin-studio</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/orange-art-studio</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://uvstore.shop/marca/pokemon-tcg</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://uvstore.shop/marca/pokemon</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://uvstore.shop/marca/fantasy-flight-games</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/lg-studio</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/magic-the-gathering</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/hell-cat-studio</loc><lastmod>2026-10-21</lastmod></url>
@@ -208,6 +206,8 @@
   <url><loc>https://uvstore.shop/marca/klg-x-upf-studio</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/fei-hong-studio</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/marca/uv-store-gt</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://uvstore.shop/marca/pokemon-tcg</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://uvstore.shop/marca/star-wars-unlimited</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/p/robin-mon4pkg2</loc><lastmod>2026-05-01</lastmod></url>
   <url><loc>https://uvstore.shop/p/batman-returns-1992-deluxe-moda4hfp</loc><lastmod>2026-04-24</lastmod></url>
   <url><loc>https://uvstore.shop/p/black-widow-artisan-edition-mo1lizyk</loc><lastmod>2026-04-16</lastmod></url>
@@ -768,8 +768,6 @@
   <url><loc>https://uvstore.shop/p/wake-riku</loc><lastmod>2026-04-06</lastmod></url>
   <url><loc>https://uvstore.shop/p/shinobu-mnqax90c</loc><lastmod>2026-04-08</lastmod></url>
   <url><loc>https://uvstore.shop/p/executioner-berserk-1-6-figure-mvidqotl</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://uvstore.shop/p/pokemon-tcg-mega-forces-tin-pack-de-3-mvhoa2it</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://uvstore.shop/p/pokemon-tcg-prismatic-evolutions-super-premium-col-mvho6b1x</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://uvstore.shop/p/batman-v-superman-dawn-of-justice-superman-mvbchbh5</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://uvstore.shop/p/the-batman-mvbcflsu</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://uvstore.shop/p/batman-arkham-origins-batman-xe-suit-mvbcdqsn</loc><lastmod>2026-10-16</lastmod></url>
@@ -777,7 +775,6 @@
   <url><loc>https://uvstore.shop/p/batman-the-dark-knight-returns-batman-blue-suit-muykntzy</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://uvstore.shop/p/dlx-iron-man-mark-3-battle-damaged-mun7unoq</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://uvstore.shop/p/arkham-origins-joker-inart-1-12-scale-figure-muja47vu</loc><lastmod>2026-09-27</lastmod></url>
-  <url><loc>https://uvstore.shop/p/star-wars-unlimited-spark-of-rebellion-booster-box-muhp51wd</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://uvstore.shop/p/one-piece-lg-studio-gluttonous-luffy-resin-statue--muh6t05o</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://uvstore.shop/p/azog-art-mask-life-size-bust-by-purearts-muh5z3yt</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://uvstore.shop/p/iron-man-metallic-comics-1-10-art-scale-statue-by--muh5t77p</loc><lastmod>2026-09-25</lastmod></url>
@@ -873,4 +870,7 @@
   <url><loc>https://uvstore.shop/p/torre-uv5</loc><lastmod>2026-05-10</lastmod></url>
   <url><loc>https://uvstore.shop/p/torre-uv5-backdrops</loc><lastmod>2026-05-10</lastmod></url>
   <url><loc>https://uvstore.shop/p/vitrina-tematica-batman-14</loc><lastmod>2026-05-12</lastmod></url>
+  <url><loc>https://uvstore.shop/p/pokemon-tcg-mega-forces-tin-pack-de-3-mvhoa2it</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://uvstore.shop/p/pokemon-tcg-prismatic-evolutions-super-premium-col-mvho6b1x</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://uvstore.shop/p/star-wars-unlimited-spark-of-rebellion-booster-box-muhp51wd</loc><lastmod>2026-09-26</lastmod></url>
 </urlset>
