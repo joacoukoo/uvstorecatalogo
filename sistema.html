@@ -1407,9 +1407,10 @@ button,a{touch-action:manipulation;cursor:pointer}
                         x-text="l.recibidas ? (l.recibidas + '/' + l.cantidad) : '—'"></td>
                     <td x-text="l.proveedor||'—'"></td>
                     <td>
-                      <details x-show="l.clientes && l.clientes.length" style="position:relative">
+                      <details x-show="l.clientes && l.clientes.length">
                         <summary class="btn-sm btn-ghost" style="cursor:pointer;display:inline-block" x-text="'Clientes (' + (l.clientes ? l.clientes.length : 0) + ')'"></summary>
-                        <div style="position:absolute;z-index:50;background:var(--bg3);border:1px solid var(--border2);border-radius:8px;padding:8px 12px;margin-top:4px;min-width:160px">
+                        <!-- En la celda, no flotante: la .card tiene overflow:hidden y recortaba la lista -->
+                        <div style="background:var(--bg3);border:1px solid var(--border2);border-radius:8px;padding:6px 12px;margin-top:4px;min-width:160px">
                           <template x-for="(nombre, idx) in l.clientes" :key="idx">
                             <div style="font-size:13px;color:#fff;padding:4px 0" x-text="nombre"></div>
                           </template>
