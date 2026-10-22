@@ -10,9 +10,11 @@ function json(body, status = 200) { return new Response(JSON.stringify(body), { 
 
 // Simula Supabase + GitHub según la URL. `lotes`: filas de lotes_pedido del producto;
 // `activas`: órdenes activas por id de lote; `catalog`: productos.json.
-function mockBackend({ lotes = [], activas = {}, catalog = { Cat: { products: [{ id: 'a' }] } }, insertFalla = false }) {
+// `importados`: lotes sin vincular (importados de Sideshow) que coinciden por código.
+function mockBackend({ lotes = [], activas = {}, catalog = { Cat: { products: [{ id: 'a' }] } }, insertFalla = false, importados = [] }) {
   const m = vi.fn(async (url, opts = {}) => {
     const metodo = opts.method || 'GET';
+    if (url.includes('/rest/v1/lotes_pedido?catalogo_id=is.null')) return json(importados);
     if (url.includes('/rest/v1/lotes_pedido?catalogo_id=')) return json(lotes);
     if (url.includes('/rest/v1/lotes_pedido?select=codigo')) return json([]);
     if (url.endsWith('/rest/v1/lotes_pedido') && metodo === 'POST') {
@@ -66,6 +68,27 @@ describe('onRequestPost', () => {
     expect(JSON.parse(insert[1].body)).toMatchObject({ producto: 'Jinx', marca: 'Hot Toys', catalogo_id: 'a', catalogo_variante: null, cantidad: 3 });
     // El catálogo ya coincide (3 disponibles, no agotado): no se escribe nada.
     expect(llamadas(m, 'PUT', '/contents/')).toHaveLength(0);
+  });
+
+  it('vincula el lote importado de Sideshow (mismo artículo en las fotos) en vez de crear otro', async () => {
+    const catalog = { Cat: { products: [{ id: 'a', cantidad: '2', i: 'https://www.sideshow.com/storage/product-images/400392/pikachu-1.jpg' }] } };
+    const m = mockBackend({ catalog, importados: [{ id: 'IMP', cantidad: 2 }] });
+    const { body } = await post({ ...BASE, cantidad: 2, cantidad_cambiada: true, crear_lote: true });
+
+    expect(body).toEqual({ disponibles: 2, agotado: false });
+    expect(llamadas(m, 'POST', '/rest/v1/lotes_pedido')).toHaveLength(0);
+    const [busqueda] = llamadas(m, 'GET', 'catalogo_id=is.null');
+    expect(busqueda[0]).toContain('codigo=in.(400392)');
+    const [vinculo] = llamadas(m, 'PATCH', '/rest/v1/lotes_pedido?id=eq.IMP');
+    expect(JSON.parse(vinculo[1].body)).toEqual({ catalogo_id: 'a', catalogo_variante: null });
+  });
+
+  it('sin lote importado con ese artículo, crea uno nuevo como siempre', async () => {
+    const catalog = { Cat: { products: [{ id: 'a', cantidad: '3', i: 'https://www.sideshow.com/storage/product-images/999/x.jpg' }] } };
+    const m = mockBackend({ catalog, importados: [] });
+    await post({ ...BASE, cantidad: 3, cantidad_cambiada: true, crear_lote: true });
+    expect(llamadas(m, 'POST', '/rest/v1/lotes_pedido')).toHaveLength(1);
+    expect(llamadas(m, 'PATCH', '/rest/v1/lotes_pedido?id=eq.')).toHaveLength(0);
   });
 
   it('no crea lote si el admin no marco "Crear lote de stock" (producto subido por si se vende)', async () => {

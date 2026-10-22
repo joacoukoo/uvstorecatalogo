@@ -37,6 +37,32 @@ async function buscarLotesPorCatalogoId(serviceKey, catalogoId) {
   return res.json();
 }
 
+// "Importar documento Sideshow" crea lotes sin vincular cuyo código es el artículo de Sideshow,
+// el mismo número que va en las fotos (product-images/400392/...). Si la figura tiene uno así,
+// ese es su lote: se vincula en vez de crear un segundo lote del mismo pedido.
+async function buscarLoteImportado(env, catalogoId) {
+  const { catalog } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
+  const p = findProducto(catalog, catalogoId);
+  if (!p) return null;
+  const codigos = [...new Set([p.i, ...(p.fotos || [])]
+    .map(u => (String(u || '').match(/product-images\/(\d+)\//) || [])[1]).filter(Boolean))];
+  if (!codigos.length) return null;
+  const url = `${SUPABASE_URL}/rest/v1/lotes_pedido?catalogo_id=is.null&codigo=in.(${codigos.join(',')})&select=id,cantidad`;
+  const res = await fetch(url, { headers: headersServicio(env.SUPABASE_SERVICE_KEY) });
+  if (!res.ok) throw new Error(`Supabase ${res.status}: ${await res.text()}`);
+  const rows = await res.json();
+  return rows.length === 1 ? rows[0] : null;
+}
+
+async function vincularLote(serviceKey, loteId, catalogoId) {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/lotes_pedido?id=eq.${loteId}`, {
+    method: 'PATCH',
+    headers: headersServicio(serviceKey),
+    body: JSON.stringify({ catalogo_id: catalogoId, catalogo_variante: null })
+  });
+  if (!res.ok) throw new Error(`Supabase ${res.status}: ${await res.text()}`);
+}
+
 async function actualizarCantidadLote(serviceKey, loteId, cantidad) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/lotes_pedido?id=eq.${loteId}`, {
     method: 'PATCH',
@@ -63,6 +89,7 @@ async function todosLosCodigos(serviceKey) {
 
 // Lo llama admin-app.html después de guardar un producto (alta o edición). El lote es la
 // fuente de verdad del stock:
+//  - Sin lote vinculado pero con uno importado de Sideshow para el mismo artículo: se vincula ese.
 //  - Sin lote: solo si el admin marcó "Crear lote de stock" (`crear_lote`), el producto trae una
 //    cantidad numérica y no es Deluxe, se crea su lote. Los productos que se suben "por si se
 //    venden" (sin pedirlos) quedan sin lote y su cantidad es solo informativa.
@@ -84,6 +111,14 @@ export async function onRequestPost({ request, env }) {
     }
     const serviceKey = env.SUPABASE_SERVICE_KEY;
     let lotes = await buscarLotesPorCatalogoId(serviceKey, catalogo_id);
+
+    if (lotes.length === 0 && !precio_d) {
+      const importado = await buscarLoteImportado(env, catalogo_id);
+      if (importado) {
+        await vincularLote(serviceKey, importado.id, catalogo_id);
+        lotes = [{ id: importado.id, cantidad: importado.cantidad, catalogo_variante: null }];
+      }
+    }
 
     if (lotes.length === 0) {
       if (crear_lote !== true || precio_d || !hayCantidad) {
