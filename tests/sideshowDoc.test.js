@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'fs';
 import {
-  extraerTextoEml, leerFactura, agruparFilasPdf, leerOrdenVenta, detectarDocumento,
+  extraerTextoEml, leerFactura, agruparFilasPdf, leerOrdenVenta, leerFacturaComercial, detectarDocumento,
   buscarEnCatalogo, proponerAcciones, efectoDeAccion, nombreCorto, marcaDeNombre
 } from '../sideshow-doc.js';
 
@@ -86,12 +86,32 @@ describe('leerOrdenVenta', () => {
   });
 });
 
+describe('leerFacturaComercial', () => {
+  const doc = leerFacturaComercial(JSON.parse(fx('sideshow-ci-filas.json')));
+  it('lee el envio como factura: numero de shipment y fecha', () => {
+    expect(doc).toMatchObject({ tipo: 'factura', numero: '0004343212-SH', fecha: '2026-04-03' });
+  });
+  it('lee las figuras de las dos paginas, sin el cargo MISC', () => {
+    expect(doc.items.map(i => i.codigo + 'x' + i.cantidad)).toEqual([
+      '300919x1', '9136122x3', '9138082x3', '914045x2', '914074x1', '914100x2', '9147842x1',
+      '913989x3', '914469x1', '9144692x1'
+    ]);
+  });
+  it('el nombre es la descripcion, sin pais ni precios', () => {
+    expect(doc.items[2].nombre).toBe('Batman (Returns) Deluxe Version 1:6 (HT)');
+    expect(doc.items[6].nombre).toBe('TMNT – Raphael 1:2 Deluxe Statue (PCS)');
+  });
+});
+
 describe('detectarDocumento', () => {
   it('reconoce factura por texto', () => {
     expect(detectarDocumento(fx('sideshow-factura.txt')).tipo).toBe('factura');
   });
   it('reconoce orden de venta por filas', () => {
     expect(detectarDocumento(JSON.parse(fx('sideshow-orden-filas.json'))).tipo).toBe('orden_venta');
+  });
+  it('reconoce la commercial invoice del PDF como factura', () => {
+    expect(detectarDocumento(JSON.parse(fx('sideshow-ci-filas.json'))).numero).toBe('0004343212-SH');
   });
   it('tira un error claro si no es de Sideshow', () => {
     expect(() => detectarDocumento('hola')).toThrow('No encontré figuras de Sideshow en este documento');

@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
 <script src="sistema-db.js?v=20260923e"></script>
 <script type="module">
-  import * as SideshowDoc from './sideshow-doc.js?v=20260923b';
+  import * as SideshowDoc from './sideshow-doc.js?v=20261022';
   window.SideshowDoc = SideshowDoc;
 </script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
@@ -1535,7 +1535,7 @@ button,a{touch-action:manipulation;cursor:pointer}
           <div class="modal-title">Importar documento Sideshow</div>
           <template x-if="imp.paso==='carga'">
             <div>
-              <label class="form-label">Archivo: el correo de la factura (.eml) o el PDF de la orden</label>
+              <label class="form-label">Archivo: el correo de la factura (.eml), el PDF de la orden o la Commercial Invoice</label>
               <input type="file" accept=".eml,.pdf,.txt" @change="leerArchivo($event.target.files[0])" style="font-size:16px;color:var(--text)">
               <div style="margin:16px 0 6px;color:var(--muted2);font-size:13px">o pegá el texto del correo</div>
               <textarea class="form-input" rows="6" x-model="imp.texto" style="font-size:16px;width:100%"></textarea>

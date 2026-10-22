@@ -4,6 +4,8 @@
 const ITEM_FACTURA = /^Item:\s*(\d{5,7})\b/;
 const FIN_NOMBRE = /^(\*?Order Information\*?|Invoice (Date|ID):|Total:|Track shipment|Ships via|Comments:|\*?Tariff Offsets)/i;
 const FILA_ITEM_PDF = /^(\d{5,7})\s+\d{3}\s+(\d+)\s+(\d+)\s+(\d+)\s+PC\b/;
+// Commercial Invoice: cantidad, PC, código, país de fabricación, descripción, valor unitario y total.
+const FILA_ITEM_CI = /^(\d+)\s+PC\s+(\d{5,7})\s+(?:Hong Kong|Viet Nam|United States|\S+)\s+(.+?)\s+[\d,]+\.\d{2}\s+[\d,]+\.\d{2}$/;
 const ERROR_SIN_ITEMS = 'No encontré figuras de Sideshow en este documento';
 const ERROR_PDF_IMAGEN = 'Este PDF es una imagen; no lo puedo leer. Pegá el texto o subí el correo.';
 
@@ -123,13 +125,29 @@ export function leerOrdenVenta(filas) {
   return { tipo: 'orden_venta', numero: orden ? `${orden}-${cambio}` : '', fecha: f ? fechaISO(f[2], f[1], f[3]) : null, items };
 }
 
+// Commercial Invoice del envío (PDF): unidades despachadas, como la factura del correo.
+// El número es el del envío (Shipment #), porque una orden puede llegar en varios envíos.
+export function leerFacturaComercial(filas) {
+  const todo = filas.join('\n');
+  const envio = (todo.match(/\b(\d{10}-SH)\b/) || [])[1] || '';
+  const f = todo.match(/Invoice Date:.*\n(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+  const items = [];
+  for (const fila of filas) {
+    const m = fila.match(FILA_ITEM_CI);
+    if (m) agregarItem(items, { codigo: m[2], nombre: m[3].trim(), cantidad: parseInt(m[1], 10) });
+  }
+  return { tipo: 'factura', numero: envio, fecha: f ? fechaISO(f[2], f[1], f[3]) : null, items };
+}
+
 // Reconoce el tipo de documento. `entrada`: texto (correo o pegado) o filas de un PDF.
 export function detectarDocumento(entrada) {
   if (Array.isArray(entrada) && entrada.length === 0) throw new Error(ERROR_PDF_IMAGEN);
   const texto = Array.isArray(entrada) ? entrada.join('\n') : limpiar(entrada);
   let doc = null;
   if (/Invoice ID:/.test(texto)) doc = leerFactura(texto);
-  else if (/Sales Order/.test(texto) && /Order Number:/.test(texto)) {
+  else if (/Commercial Invoice/.test(texto)) {
+    doc = leerFacturaComercial(Array.isArray(entrada) ? entrada : texto.split('\n').map(l => l.trim()));
+  } else if (/Sales Order/.test(texto) && /Order Number:/.test(texto)) {
     doc = leerOrdenVenta(Array.isArray(entrada) ? entrada : texto.split('\n').map(l => l.trim()));
   }
   if (!doc || !doc.items.length) throw new Error(ERROR_SIN_ITEMS);
