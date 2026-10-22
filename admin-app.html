@@ -1128,6 +1128,23 @@ async function _leerPagina(pagina){
   d.items.forEach(function(it,i){it.pagina=pagina;it.pos=i+1;});
   var nuevos=LoteImport.marcarDuplicados(d.items.filter(function(it){return!ya[it.clave];}),catalogo,pend);
   _lote.items=_lote.items.concat(nuevos);
+  loteRevisar(nuevos);
+}
+// Las dudosas (misma marca, nombre parecido) las decide la IA comparando las fotos, de a 3, sin
+// frenar la grilla: cada tarjeta se actualiza sola cuando llega su respuesta.
+function loteRevisar(items){
+  var url=_lote.url;
+  var tareas=items.filter(function(it){return it.revisar;}).map(function(it){return async function(){
+    var res=null;
+    try{res=await _postJson('/api/comparar-figura',{tienda:{nombre:it.nombre,foto:it.foto},nuestras:it.revisar});}catch(e){}
+    if(_lote.url!==url)return;
+    var i=_lote.items.findIndex(function(x){return x.clave===it.clave;});
+    var actual=_lote.items[i];if(!actual||actual.proceso)return;
+    // Sin respuesta (error o sin foto) queda como estaba, ya sin el "Revisando".
+    _lote.items[i]=res&&!res.sinFoto?LoteImport.aplicarRevision(actual,res):Object.assign({},actual,{revisar:undefined,revisado:true});
+    loteRender();
+  };});
+  if(tareas.length)LoteImport.procesarCola(tareas,3);
 }
 async function loteVer(){
   if(_lote.trayendo)return setStatus('Esperá a que termine de traer las figuras','orange');
@@ -1148,10 +1165,10 @@ async function loteMas(){
 function loteToggle(i){
   // "Ya la tenés" por nombre se puede marcar igual (puede ser otra versión); por foto/origen no.
   var it=_lote.items[i];if(!it||(it.estado==='tenes'&&!it.porNombre)||it.proceso||_lote.trayendo)return;
-  it.elegida=!it.elegida;loteRender();
+  it.elegida=!it.elegida;it.tocada=true;loteRender();
 }
 function loteTodas(v){
-  _lote.items.forEach(function(it){if(it.estado!=='tenes'&&!it.proceso)it.elegida=v;});loteRender();
+  _lote.items.forEach(function(it){if(it.estado!=='tenes'&&!it.proceso){it.elegida=v;it.tocada=true;}});loteRender();
 }
 function loteRender(){
   var g=document.getElementById('lote-grid');
@@ -1167,10 +1184,11 @@ function loteRender(){
     }
     var tag=it.proceso==='ok'?'<span class="lote-tag ok">En pendientes</span>'
       :it.proceso==='error'?'<span class="lote-tag err">Falló</span>'
-      :it.proceso==='cola'?'<span class="lote-tag">Trayendo...</span>':(tags[it.estado]||'');
+      :it.proceso==='cola'?'<span class="lote-tag">Trayendo...</span>'
+      :it.revisar&&it.estado!=='tenes'?'<span class="lote-tag q">Revisando fotos...</span>':(tags[it.estado]||'');
     var cls='lote-item'+(it.elegida?' elegida':'')+(it.estado!=='nueva'?' '+it.estado:'')+(it.porNombre?' por-nombre':'');
     var retry=it.proceso==='error'?'<button class="btn btn-secondary" style="margin-top:5px;padding:3px 8px;font-size:11px" onclick="event.stopPropagation();loteTraer(['+i+'])">Reintentar</button>':'';
-    var coincide=it.coincide&&it.estado!=='nueva'?'<div class="lote-coincide">Tuya: '+_e(it.coincide)+'</div>':'';
+    var coincide=it.coincide&&it.estado!=='nueva'?'<div class="lote-coincide">'+(it.porIA?'Misma figura que tu ':'Tuya: ')+_e(it.coincide)+'</div>':'';
     html+='<div class="'+cls+'" onclick="loteToggle('+i+')" title="'+_e(it.nombre)+'">'+tag+'<span class="lote-num">'+it.pos+'</span>'
       +(it.foto?'<img loading="lazy" src="'+_e(it.foto)+'" alt="">':'')+_e(LoteImport.limpiarNombre(it.nombre)||it.nombre)+coincide+retry+'</div>';
   });
@@ -1300,7 +1318,7 @@ async function pendPublicar(){
 pendContar();
 </script>
 <script type="module">
-import * as LoteImport from './lote-import.js?v=20261023c';
+import * as LoteImport from './lote-import.js?v=20261023d';
 import { esTCG } from './tcg.js?v=20261021b';
 window.LoteImport = LoteImport;
 window.esTCG = esTCG;

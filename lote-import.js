@@ -81,7 +81,7 @@ export function marcarDuplicados(items, catalogo, pendientes) {
     for (const p of catalogo[cat].products || []) {
       if (p.origen) claves.add(claveDeOrigen(p.origen));
       clavesDeFotos([p.i, ...(p.fotos || [])]).forEach(k => fotos.add(k));
-      nombres.push({ n: p.n || '', marca: p.marca || '' });
+      nombres.push({ id: p.id, n: p.n || '', marca: p.marca || '', escala: p.escala || '', foto: p.i || p.fotos?.[0] || '', tcg: cat === 'TCG' });
     }
   }
   for (const p of pendientes || []) nombres.push({ n: p.datos?.nombre_limpio || '', marca: p.datos?.marca || '' });
@@ -103,8 +103,48 @@ export function marcarDuplicados(items, catalogo, pendientes) {
     const parecida = igual || candidatas.find(x => similitudNombre(it.nombre, x.n, x.marca) >= 0.8)
       || candidatas.find(x => x.marca && personajeDentro(it.nombre, x.n, x.marca));
     const estado = seguro ? 'tenes' : parecida ? 'quizas' : 'nueva';
-    return { ...it, estado, elegida: estado === 'nueva', ...(parecida ? { coincide: parecida.n, porNombre: true } : {}) };
+    const revisar = seguro ? [] : sospechosas(it.nombre, candidatas, parecida);
+    return { ...it, estado, elegida: estado === 'nueva', ...(parecida ? { coincide: parecida.n, porNombre: true } : {}),
+      ...(revisar.length ? { revisar } : {}) };
   });
+}
+
+function escalaDe(s) {
+  const m = String(s || '').match(/\b1\s*[:/]\s*(\d+)\b/);
+  return m ? m[1] : '';
+}
+
+// Figuras nuestras que podrían ser la de la tienda aunque el nombre no alcance para decidir
+// ("Leon S. Kennedy" de Lark = "Leon Requiem" de Lark): misma marca, alguna palabra del personaje
+// en común y escala compatible. Las decide la IA mirando las fotos (/api/comparar-figura).
+const MAX_SOSPECHOSAS = 4;
+function sospechosas(nombreTienda, candidatas, parecida) {
+  const escala = escalaDe(nombreTienda);
+  const puntaje = x => {
+    if (!x.id || !x.marca || !x.foto || x.tcg) return 0;
+    const otra = escalaDe(x.n) || escalaDe(x.escala);
+    if (escala && otra && escala !== otra) return 0;
+    const tn = new Set(tokens(x.n, x.marca));
+    return [...tokensPersonaje(nombreTienda, x.marca)].filter(t => t.length > 2 && tn.has(t)).length;
+  };
+  return candidatas
+    .map(x => ({ x, p: puntaje(x) + (x === parecida ? 10 : 0) }))
+    .filter(c => c.p > 0 && c.x.id && c.x.foto)
+    .sort((a, b) => b.p - a.p)
+    .slice(0, MAX_SOSPECHOSAS)
+    .map(({ x }) => ({ id: x.id, n: x.n, foto: x.foto }));
+}
+
+// Respuesta de la IA para un ítem: {id} de la nuestra que es la misma figura, o {id: null}.
+// Lo que el dueño ya tocó a mano no se cambia.
+export function aplicarRevision(it, res) {
+  const out = { ...it, revisado: true };
+  delete out.revisar;
+  const misma = res?.id && (it.revisar || []).find(c => c.id === res.id);
+  if (misma) Object.assign(out, { estado: 'tenes', coincide: misma.n, porNombre: true, porIA: true });
+  else if (it.estado === 'quizas') { out.estado = 'nueva'; delete out.coincide; delete out.porNombre; }
+  if (!it.tocada) out.elegida = out.estado === 'nueva';
+  return out;
 }
 
 export async function procesarCola(tareas, paralelo = 2, onAvance = () => {}) {

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'fs';
-import { clavesDeFotos, claveDeOrigen, similitudNombre, marcarDuplicados, procesarCola, armarProducto } from '../lote-import.js';
+import { clavesDeFotos, claveDeOrigen, similitudNombre, marcarDuplicados, aplicarRevision, procesarCola, armarProducto } from '../lote-import.js';
 import { leerListaBigCommerce } from '../functions/_lib/listas.js';
 
 const FNC_FOTO = 'https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/3266/397615/x__52856.1783684099.jpg';
@@ -96,6 +96,19 @@ describe('marcarDuplicados', () => {
     ], cat, []);
     expect(r.map(i => i.estado)).toEqual(['quizas', 'nueva']);
     expect(r[0].coincide).toBe('Cake Rabbit Le Malin 1/6 Figure');
+  });
+  it('manda a revisar con fotos las de la misma marca con algo del personaje en común', () => {
+    const cat = {
+      'Estatuas Premium': { products: [
+        { id: 'leon', n: 'Leon Requiem Statue 1:4', marca: 'Lark Studio', i: 'https://x/leon.jpg' },
+        { id: 'leon6', n: 'Leon Requiem 1:6', marca: 'Lark Studio', i: 'https://x/leon6.jpg' },
+        { id: 'otra', n: 'Leon Kennedy', marca: 'Otro Studio', i: 'https://x/o.jpg' },
+      ] },
+      TCG: { products: [{ id: 'c', n: 'Pokémon Leon Card', marca: 'Lark', i: 'https://x/c.jpg' }] },
+    };
+    const [it] = marcarDuplicados([{ clave: 'n:1', nombre: 'Lark Studio - Resident Evil - Leon S. Kennedy 1/4 Statue', foto: 'f' }], cat, []);
+    expect(it.estado).toBe('nueva');
+    expect(it.revisar).toEqual([{ id: 'leon', n: 'Leon Requiem Statue 1:4', foto: 'https://x/leon.jpg' }]);
   });
   it('si nuestra figura no tiene marca, el mismo nombre queda en duda', () => {
     const cat = { X: { products: [{ id: 'v', n: 'Majin Vegeta' }] } };
@@ -198,5 +211,25 @@ describe('armarProducto', () => {
   });
   it('sin ningún precio no arma nada', () => {
     expect(armarProducto(base, { base: '', variantes: [] }, extra, helpers)).toBeNull();
+  });
+});
+
+describe('aplicarRevision', () => {
+  const base = { clave: 'n:1', estado: 'nueva', elegida: true, revisar: [{ id: 'leon', n: 'Leon Requiem' }] };
+  it('si la IA encuentra la misma, pasa a "ya la tenés" y se desmarca', () => {
+    const r = aplicarRevision(base, { id: 'leon' });
+    expect(r).toMatchObject({ estado: 'tenes', coincide: 'Leon Requiem', porNombre: true, porIA: true, elegida: false, revisado: true });
+    expect(r.revisar).toBeUndefined();
+  });
+  it('si dice que ninguna, una dudosa pasa a nueva y se marca', () => {
+    const r = aplicarRevision({ ...base, estado: 'quizas', elegida: false, coincide: 'X', porNombre: true }, { id: null });
+    expect(r).toMatchObject({ estado: 'nueva', elegida: true });
+    expect(r.coincide).toBeUndefined();
+  });
+  it('no cambia lo que el dueño tocó a mano', () => {
+    expect(aplicarRevision({ ...base, elegida: true, tocada: true }, { id: 'leon' }).elegida).toBe(true);
+  });
+  it('un id que no estaba entre las sospechosas no cuenta', () => {
+    expect(aplicarRevision(base, { id: 'inventado' }).estado).toBe('nueva');
   });
 });
