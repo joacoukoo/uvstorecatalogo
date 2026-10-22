@@ -39160,6 +39160,872 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "anya-forger-sheep-new-year-statue-mvjuw96q",
+        "n": "Anya Forger Sheep New Year Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YnbZGxSiqtJqiT_NbXFyY1792659561984.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YnbZGxSiqtJqiT_NbXFyY1792659561984.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/cfJO8a6LhmbnprKUQTmSY1792659566169.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/g0IFcyxWcqrlLpWbgNISy1792659566169.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wpQSB334EMPPnlYOPIKeF1792659566169.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-1l53CTKz7fm1cYQ_a2KT1792659566169.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JdgYcd1u06ZkCTMmBSgD01792659566169.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Y2tyxJDKLeiPHZV1TOtoR1792659566169.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Wakuwaku Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "reserva": "580",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Anya Forger luciendo un vibrante atuendo de celebración del Año Nuevo Chino, portando un elaborado león danzante de resina importada. Esta estatua premium captura la alegría y la energía festiva del personaje en una composición artística de 24 cm de altura que combina detalles exquisitos con materiales de alta calidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Set de Dísticos de Festival de Primavera personalizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 Sobres rojos tradicionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Imán de refrigerador con cabeza de Meimei"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33700",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "dodogama-x-zinogre-statue-mvjuw96q",
+        "n": "Dodogama X Zinogre Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gYGevDrRtRPm03cA1NrJx1792667280985.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gYGevDrRtRPm03cA1NrJx1792667280985.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DX2awMhd2TjiaAwX1uHsU1792666897905.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Fusion Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1700",
+        "reserva": "340",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Versión A: Zinogre."
+          },
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funcionalidad: LED integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Dodogama X Zinogre"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema LED"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33701",
+        "entrega": "2027 Q1",
+        "label_base": "Versión A",
+        "variantes": [
+          {
+            "label": "Versión B",
+            "precio": "1700",
+            "reserva": "340",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pAXpDrT9d8SGmgu3wxP3K1792667283827.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DX2awMhd2TjiaAwX1uHsU1792666897905.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Versión B: Stygian Zinogre."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Funcionalidad: LED integrado"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua Dodogama X Zinogre"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Sistema LED"
+              }
+            ]
+          },
+          {
+            "label": "Versión C",
+            "precio": "1700",
+            "reserva": "340",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-uDwEb1ZfF5A2Jbqj5Zve1792667286868.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DX2awMhd2TjiaAwX1uHsU1792666897905.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Versión C: Thunderlord Zinogre."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Funcionalidad: LED integrado"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua Dodogama X Zinogre"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Sistema LED"
+              }
+            ]
+          },
+          {
+            "label": "Versión D",
+            "precio": "1700",
+            "reserva": "340",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/PYFYAsHO64meHhMfDKfEI1792667292035.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DX2awMhd2TjiaAwX1uHsU1792666897905.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Versión D: Howling Zinogre."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Funcionalidad: LED integrado"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua Dodogama X Zinogre"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Sistema LED"
+              }
+            ]
+          },
+          {
+            "label": "Combo",
+            "precio": "6100",
+            "reserva": "1220",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tAdKVLb_YUV2b4jEDyiVB1792667325776.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DX2awMhd2TjiaAwX1uHsU1792666897905.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Combo: Todas las versiones."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Funcionalidad: LED integrado"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua Dodogama X Zinogre"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Sistema LED"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "saber-1-6-statue-mvjuw96q",
+        "n": "Saber 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FGSvaUQYqC916YTp1VqY_1792661884278.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FGSvaUQYqC916YTp1VqY_1792661884278.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/axEU3yIdaAuHgh9cjBrkh1792661884278.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xbJm5MUd7HgN-BUpw3sGn1792661884279.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/XHVrTrjUbiNFTw822PQL41792661884279.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wX6TXxuzdR9U364FWlbeD1792661884279.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WZIM17isi5XYqjhBmHpLo1792661884279.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Red Diamond Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "reserva": "760",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Esta magnífica estatua de Saber captura la esencia de la legendaria guerrera de Fate con un nivel de detalle extraordinario. Viste su icónico armadura plateada y falda azul marino, empuñando su noble espada con elegancia guerrera. Una pieza de colección imprescindible para fans de la franquicia Fate, con acabados Premium en resina importada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Unidades limitadas: 80"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada Excalibur"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33698",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "arkveld-statue-mvjuw96q",
+        "n": "Arkveld Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/SYbMWOtMkjr4HaTD5aoj-1792652404607.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/SYbMWOtMkjr4HaTD5aoj-1792652404607.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gAJA9GL-qRjBl87aVI2-Z1792652404607.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/x0clk_YVkgAXeNZyHxGXQ1792652404607.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/AjbaiRR3w7uOQNR3JjRx71792652404608.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/hy5O6XOvtpqrw3X9C67qI1792652423846.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/cDUG-WuexcRK6qh-Vcfyc1792652423846.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/HXeT4Hse8nEy0abadRHFq1792652423847.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/2laYltRk-lJg2huSjQozW1792652423847.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/2TeX6T5a8mtC1vmFUA9HC1792652429668.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yErqwhB-mWqKus0NcrtHN1792652429668.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "S6 Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2600",
+        "reserva": "520",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una épica estatua de resina del temible Arkveld de Monster Hunter, capturado en toda su gloria con alas desplegadas y cristales brillantes. Esta pieza de colección limitada a solo 222 unidades presenta un detalle extraordinario, combinando texturas orgánicas con elementos de cristal resplandeciente. Incluye una placa de metal exclusiva que certifica su edición limitada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23.7 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 25.9 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Sin especificar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y poliuretano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 222 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa de metal con número de edición limitada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33682",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "natsu-dragneel-statue-mvjuw96q",
+        "n": "Natsu Dragneel Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KqQJDs7NsDUczstFawpXc1792656038742.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KqQJDs7NsDUczstFawpXc1792656038742.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/m6OP2hywfMXlg6NrWdsab1792656045971.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/65O2YLx0fxR5RY6gso0Jq1792656045972.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/89Zj6yrOrD8J10exj9D8O1792656045972.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/x6gfWAuRroIlNop_UrX5e1792656045972.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Apm Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4200",
+        "reserva": "840",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium del carismático Natsu Dragneel en toda su gloria de Dragon Slayer, sentado majestuosamente en su trono con llamas doradas en la mano. Esta obra maestra captura la esencia ardiente del personaje con detalles extraordinarios en resina importada y PU, limitada a solo 107 unidades. Una pieza imprescindible para los verdaderos coleccionistas de Fairy Tail."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Marco de madera tallada con ilustración de Natsu"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33681",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "turtwig-1-10-statue-mvjuw96r",
+        "n": "Turtwig 1/10 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6m7kT1GmDUbzmS4qEgpAt1792656610909.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6m7kT1GmDUbzmS4qEgpAt1792656610909.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Miumiu Studio",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1100",
+        "reserva": "220",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una estatua premium de Turtwig que captura la esencia del pequeño Pokémon hierba en toda su adorabilidad. Crafted con resina importada y materiales PU de alta calidad, esta pieza de colección destaca por su detallado trabajo artístico y su vibrante presentación en un entorno de bosque mágico. Perfecta para coleccionistas que desean una representación artística y sofisticada de este icónico Pokémon."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Turtwig"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33679",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "edward-elric-statue-mvjuw96r",
+        "n": "Edward Elric Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/MCeU3fEV9mWlgPrguofXP1792656167134.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/MCeU3fEV9mWlgPrguofXP1792656167134.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/CMxSFmEm9CNBBKhkDWnuk1792656167135.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_OULODae0wE0YKZXnfvrl1792656167135.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DXLW-NiZagoRH29OJR-Ag1792656167135.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eQuV00Pb76j1b4xbu5wsH1792656167135.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-uNEzc69ceOJ2SfRaCOL11792656167135.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "ANE Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6100",
+        "reserva": "1220",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Magnífica estatua de Edward Elric de Fullmetal Alchemist que captura al Alquimista de Acero en todo su esplendor. Con una altura de 55 cm, presenta detalles exquisitos que incluyen su distintiva capa roja ondeante, su brazo de automail plateado y su báculo alquímico dorado. Basada en resina importada y materiales de primera calidad, limitada a solo 188 unidades en todo el mundo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 55 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Báculo alquímico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica con efectos de energía azul"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33678",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "uro-takako-1-4-bust-mvjuw96r",
+        "n": "Uro Takako 1/4 Bust",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/9vJ4yTJBlMdx9Io3-_Ac71792409337582.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/9vJ4yTJBlMdx9Io3-_Ac71792409337582.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/7qhUAsfShVWXdsJEbt-HS1792409342779.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DNLDzM5Xsg3T41e0mZNER1792409342779.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ikQfKBGXeVmSMHHgBSfXE1792409342779.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z3-0Ca4AdeWjc6U1frnpi1792409342779.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1tIAwc8M_7aT8A-dR1-lS1792409342779.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/QUutv1WT-WYRTol0JseK81792409342779.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5xSWWvXIyOIDN2UpFGn-z1792409342780.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_EnK01RA7S00WS0yOkkXR1792409342780.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Utopia Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "reserva": "920",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Espectacular busto de Uro Takako de Jujutsu Kaisen con increíbles detalles en su cabello ondulante en tonos púrpura y rosa. La base escénica incluye efectos de iluminación LED controlables por control remoto con múltiples modos. Una pieza de colección imprescindible para fans del anime con acabado de museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, PU, ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica con efectos de iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Control remoto para iluminación (luz continua/respirante/apagada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cable USB Type-C para alimentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33669",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "raiden-shogun-nun-version-1-4-statue-mvjuw96r",
+        "n": "Raiden Shogun Nun Version 1/4 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dPQfmLpUCow9dpdkuyilY1792583983820.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dPQfmLpUCow9dpdkuyilY1792583983820.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mqv0SKHHsmZ7i8DZMXf1Y1792583932096.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/g0mEYiWrSbmWDw6nQong-1792583932096.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ZI2UX9PKwqjPvvFablYSe1792583932096.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/h33wE-CNF-_4GDFtq1ngT1792583936731.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sojYTRPiHHPpf_lndJKZr1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/qMJAYacmswfvw2255SHRx1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YrjrHuQje7zJdB5I_enEI1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ltxe3Q9nKfT_rY23ZVvMM1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tGGYQwwNLouYv_SjH2Pz21792583936732.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Rou Long Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7900",
+        "reserva": "1580",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Regular Version: Una cabeza, manos intercambiables y sombrero."
+          },
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua de la Raiden Shogun en su versión Nun de Genshin Impact, con una altura de 60 cm en escala 1/4. Elaborada en resina PU importada con cuerpo articulado, captura cada detalle de este icónico personaje con precisión artística. Edición limitada a solo 188 unidades, perfecta para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina PU importada y cuerpo PU puro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable (Deluxe: 2 cabezas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sombrero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base para cabeza (Deluxe)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33673",
+        "entrega": "2027 Q1",
+        "precio_d": "8800",
+        "reserva_d": "1760",
+        "fotos_d": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lpHCZnxc8YNf-OgeJ5jcT1792583987231.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mqv0SKHHsmZ7i8DZMXf1Y1792583932096.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/g0mEYiWrSbmWDw6nQong-1792583932096.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ZI2UX9PKwqjPvvFablYSe1792583932096.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/h33wE-CNF-_4GDFtq1ngT1792583936731.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sojYTRPiHHPpf_lndJKZr1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/qMJAYacmswfvw2255SHRx1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YrjrHuQje7zJdB5I_enEI1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ltxe3Q9nKfT_rY23ZVvMM1792583936732.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tGGYQwwNLouYv_SjH2Pz21792583936732.jpg"
+        ],
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Versión Deluxe Version: Dos cabezas, manos intercambiables, sombrero y base para cabeza."
+          },
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua de la Raiden Shogun en su versión Nun de Genshin Impact, con una altura de 60 cm en escala 1/4. Elaborada en resina PU importada con cuerpo articulado, captura cada detalle de este icónico personaje con precisión artística. Edición limitada a solo 188 unidades, perfecta para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina PU importada y cuerpo PU puro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 188 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable (Deluxe: 2 cabezas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sombrero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base para cabeza (Deluxe)"
+          }
+        ]
+      },
+      {
+        "id": "nelliel-tu-odelschwanck-cheongsam-version-statue-mvjuw96r",
+        "n": "Nelliel Tu Odelschwanck Cheongsam Version Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/z4JKGXMocmm4wkja2NOYW1792565598047.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/z4JKGXMocmm4wkja2NOYW1792565598047.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/hi5GZiQ1988IamvpmqU3P1792565602844.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/IVV-mjyPOnwR4SZ82xEzb1792565606824.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sMA6OpRRQluF_eT1Tdoxc1792565606824.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YERlOhR2GKj4bk_ByFYtn1792565606824.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FsaPqVMaZYe5BccKQOaDN1792565609305.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Fuguang Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "reserva": "720",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Nelliel Tu Odelschwanck de Bleach luciendo un elegante traje chino tradicional. Fabricada en resina importada y PU de la más alta calidad, captura cada detalle de este icónico personaje con una presencia cautivadora. Una pieza de colección imprescindible para los verdaderos admiradores del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de madera"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33659",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "mega-gengar-statue-mvjuw96r",
+        "n": "Mega Gengar Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dT3sR0Paa-SQCrBGJ4jqj1792578236964.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dT3sR0Paa-SQCrBGJ4jqj1792578236964.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KQyVFTHyGRS9p7JEc7ZMi1792578236964.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/NQpHRpl6G3bXwjyBp9fQN1792578236964.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Rocketo Punch Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5600",
+        "reserva": "1120",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una estatua premium de Mega Gengar que captura toda la esencia espectral y amenazante del icónico Pokémon. Con una altura de 30 cm y elaborada en resina importada y PU de alta calidad, esta pieza presenta un detallado trabajo de pintura que resalta sus características púrpuras, los detalles en rojo y amarillo, y la base decorativa con motivos psicodélicos. Una obra maestra para coleccionistas que buscan una representación impactante y magistralmente ejecutada de uno de los Pokémon más populares."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Mega Gengar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33653",
+        "entrega": "2027 Q1"
+      },
+      {
         "id": "guts-1-4-statue-mvidqotj",
         "n": "Guts 1/4 Statue",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20727/436472/_2026-10-21_191727_152__03435.1792582323.png",
@@ -64204,6 +65070,64 @@
   "Adultos": {
     "slug": "adultos",
     "products": [
+      {
+        "id": "tsaritsa-anastasya-1-6-statue-mvjuw96q",
+        "n": "Tsaritsa Anastasya 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/XmZkz8LoVWnnZpMlueODp1792665078047.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/XmZkz8LoVWnnZpMlueODp1792665078047.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/0JAvJIh0RU-wZqtCU_br11792665078048.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/97B8737eC6HmAwSKH_9KH1792665078048.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-Pi0xaA9cbYGGCUdnWGwb1792665078048.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/aoLi1evw8N9ZaT7gPe6S_1792665078049.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/IaVJG6Ofmah_CyDTL5HxM1792665078049.webp"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Li Hui Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "reserva": "740",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de la Tsaritsa Anastasya de Genshin Impact, capturada en una pose majestuosa con detallados flujos de tela y expresión enigmática. Fabricada en PU y resina de alta calidad, limitada a solo 118 unidades en el mundo. Una obra maestra de colección para los fans más devotos del juego."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 14.4 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 22.1 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 14.4 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU y Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Tsaritsa Anastasya"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-22",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33692",
+        "entrega": "2027 Q1"
+      },
       {
         "id": "cake-rabbit-le-malin-1-6-figure-mvidqoti",
         "n": "Cake Rabbit Le Malin 1/6 Figure",
