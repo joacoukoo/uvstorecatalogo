@@ -85,6 +85,18 @@ describe('marcarDuplicados', () => {
     ], cat, []);
     expect(r.map(i => i.estado)).toEqual(['nueva', 'tenes']);
   });
+  it('sospecha cuando el personaje de la tienda está dentro del nuestro (otra tienda, otro título)', () => {
+    const cat = { Adultos: { products: [
+      { id: 'lm', n: 'Cake Rabbit Le Malin 1/6 Figure', marca: 'White Berry Studio' },
+      { id: 'lp', n: 'Le Malin Mercredi', marca: 'Pertop Studio' },
+    ] } };
+    const r = marcarDuplicados([
+      { clave: 'n:1', nombre: '(Shipping Included)White Berry Studio - Azur Lane - Le Malin 1/6 Statue', foto: '' },
+      { clave: 'n:2', nombre: '(Shipping Included)Other Studio - Azur Lane - Le Malin 1/6 Statue', foto: '' },
+    ], cat, []);
+    expect(r.map(i => i.estado)).toEqual(['quizas', 'nueva']);
+    expect(r[0].coincide).toBe('Cake Rabbit Le Malin 1/6 Figure');
+  });
   it('si nuestra figura no tiene marca, el mismo nombre queda en duda', () => {
     const cat = { X: { products: [{ id: 'v', n: 'Majin Vegeta' }] } };
     const r = marcarDuplicados([{ clave: 'n:1', nombre: 'RYU Studio - Dragon Ball - Majin Vegeta 1/4 Statue', foto: '' }], cat, []);

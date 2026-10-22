@@ -66,6 +66,13 @@ function mismoPersonaje(nombreTienda, nuestro, marca) {
   return tn.size > 0 && tp.size === tn.size && [...tn].every(t => tp.has(t));
 }
 
+// Al revés: el personaje de la tienda entra entero en nuestro nombre, que trae de más
+// ("Le Malin" de Nonasea = "Cake Rabbit Le Malin" subida desde FNC). Solo con la misma marca.
+function personajeDentro(nombreTienda, nuestro, marca) {
+  const tp = tokensPersonaje(nombreTienda, marca), tn = new Set(tokens(nuestro, marca));
+  return tp.size > 0 && [...tp].every(t => tn.has(t));
+}
+
 export function marcarDuplicados(items, catalogo, pendientes) {
   const claves = new Set((pendientes || []).map(p => p.clave));
   const fotos = new Set();
@@ -93,7 +100,8 @@ export function marcarDuplicados(items, catalogo, pendientes) {
     const igual = candidatas.find(x => x.marca && mismoPersonaje(it.nombre, x.n, x.marca))
       || candidatas.find(x => !x.marca && mismoPersonaje(it.nombre, x.n));
     const seguro = igual && igual.marca;
-    const parecida = igual || candidatas.find(x => similitudNombre(it.nombre, x.n, x.marca) >= 0.8);
+    const parecida = igual || candidatas.find(x => similitudNombre(it.nombre, x.n, x.marca) >= 0.8)
+      || candidatas.find(x => x.marca && personajeDentro(it.nombre, x.n, x.marca));
     const estado = seguro ? 'tenes' : parecida ? 'quizas' : 'nueva';
     return { ...it, estado, elegida: estado === 'nueva', ...(parecida ? { coincide: parecida.n, porNombre: true } : {}) };
   });
