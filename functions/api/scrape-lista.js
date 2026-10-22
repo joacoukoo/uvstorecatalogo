@@ -5,7 +5,8 @@ import { fetchPage } from '../_lib/fetchPage.js';
 // el admin después pide /api/scrape por cada figura elegida.
 const NO_SOPORTADO = 'Este sitio no está soportado para lote; usá el link individual';
 const NONASEA_API = 'https://www.nonasea.com/api/customer';
-const POR_PAGINA = 50;
+// Las tiendas suben pocas figuras nuevas por vez: 20 alcanza y se compara más rápido.
+const POR_PAGINA = 20;
 
 export async function onRequestPost({ request }) {
   let body;

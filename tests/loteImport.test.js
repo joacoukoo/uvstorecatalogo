@@ -110,6 +110,11 @@ describe('marcarDuplicados', () => {
     expect(it.estado).toBe('nueva');
     expect(it.revisar).toEqual([{ id: 'leon', n: 'Leon Requiem Statue 1:4', foto: 'https://x/leon.jpg' }]);
   });
+  it('reconoce la marca aunque una la escriba junta y la otra separada', () => {
+    const cat = { Adultos: { products: [{ id: 'q', n: 'QingXiao & Hsin 1/6 Statue', marca: 'YaoMengMeng Studio', i: 'https://x/q.jpg' }] } };
+    const [it] = marcarDuplicados([{ clave: 'n:1', nombre: '(Shipping Included)Yao Meng Meng Studio - Wuthering Waves - Hsin X Qingxiao 1/6 Statue', foto: 'f' }], cat, []);
+    expect(it).toMatchObject({ estado: 'tenes', coincide: 'QingXiao & Hsin 1/6 Statue' });
+  });
   it('si nuestra figura no tiene marca, el mismo nombre queda en duda', () => {
     const cat = { X: { products: [{ id: 'v', n: 'Majin Vegeta' }] } };
     const r = marcarDuplicados([{ clave: 'n:1', nombre: 'RYU Studio - Dragon Ball - Majin Vegeta 1/4 Statue', foto: '' }], cat, []);

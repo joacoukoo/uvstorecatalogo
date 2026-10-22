@@ -54,19 +54,20 @@ export async function onRequestPost({ env, request }) {
 
   const [fotoTienda, ...fotosNuestras] = await Promise.all([tienda.foto, ...nuestras.map(x => x.foto)].map(bajarFoto));
   // Sin la foto de la tienda no hay nada que comparar: mejor no decidir que adivinar.
-  if (!fotoTienda) return json({ id: null, sinFoto: true });
+  if (!fotoTienda) { console.log('comparar-figura sin foto de la tienda', tienda.foto); return json({ id: null, sinFoto: true }); }
 
   const content = [{ type: 'text', text: `FOTO TIENDA — "${tienda.nombre}"` }, fotoTienda];
   const opciones = [];
   nuestras.forEach((x, i) => {
-    if (!fotosNuestras[i]) return;
+    if (!fotosNuestras[i]) { console.log('comparar-figura sin foto nuestra', x.foto); return; }
     opciones.push(x);
     content.push({ type: 'text', text: `FOTO ${opciones.length} — "${x.n}"` }, fotosNuestras[i]);
   });
   if (!opciones.length) return json({ id: null, sinFoto: true });
   content.push({ type: 'text', text: `Sos experto en estatuas y figuras de colección. Las tiendas nombran distinto el mismo producto.
-¿Alguna de las FOTOS 1-${opciones.length} es EXACTAMENTE el mismo producto que la FOTO TIENDA (misma escultura, pose, base y estudio)?
-Mismo personaje con otra pose, otra escultura, otra escala u otro estudio = producto distinto. Una edición/versión de color distinta de la misma escultura cuenta como el mismo producto.
+¿Alguna de las FOTOS 1-${opciones.length} muestra el mismo producto que la FOTO TIENDA?
+Las fotos pueden ser distintas: una puede ser un primer plano, otro ángulo, otro fondo o una foto promocional, y la base puede no verse. Fijate en el personaje, su ropa, peinado, accesorios/armas, pose y el logo del estudio.
+Es el mismo producto si es la misma escultura del mismo personaje (los nombres de las tiendas suelen ser distintos). Es otro producto si es otro personaje, otra pose u otra escultura claramente distinta.
 Responde SOLO JSON: {"misma": <número de la foto o 0 si ninguna>}` });
 
   try {
@@ -75,11 +76,13 @@ Responde SOLO JSON: {"misma": <número de la foto o 0 si ninguna>}` });
       headers: { 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
       body: JSON.stringify({ model: 'claude-haiku-4-5-20251001', max_tokens: 50, messages: [{ role: 'user', content }] }),
     });
-    if (!res.ok) throw new Error(`Anthropic ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    if (!res.ok) throw new Error(`Anthropic ${res.status}: ${(await res.text()).slice(0, 300)}`);
     const text = (await res.json()).content?.[0]?.text || '';
     const n = parseInt((text.match(/"misma"\s*:\s*(\d+)/) || [])[1], 10);
+    console.log('comparar-figura', JSON.stringify({ tienda: tienda.nombre, opciones: opciones.map(x => x.n), respuesta: text }));
     return json({ id: n > 0 && opciones[n - 1] ? opciones[n - 1].id : null });
   } catch (e) {
+    console.log('comparar-figura error', e.message);
     return json({ error: e.message }, 502);
   }
 }

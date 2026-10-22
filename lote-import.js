@@ -34,7 +34,7 @@ export function claveDeOrigen(url) {
 // estudio y lo que las tiendas le pegan al título ("Early bird", "Deposit").
 const RELLENO = new Set(['statue', 'figure', 'figura', 'estatua', 'scale', 'escala', 'edition', 'version', 'ver',
   'the', 'of', 'de', 'la', 'el', 'and', 'y', 'with', 'by', 'sixth', 'quarter', 'half', 'bust', 'action',
-  'studio', 'studios', 'early', 'bird', 'deposit', 'reserve', 'shipping', 'included']);
+  'studio', 'studios', 'early', 'bird', 'deposit', 'reserve', 'shipping', 'included', 'x', 'vs']);
 function tokens(s, sinMarca) {
   const marca = sinMarca ? new Set(tokens(sinMarca)) : null;
   return limpiarNombre(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
@@ -90,7 +90,10 @@ export function marcarDuplicados(items, catalogo, pendientes) {
     const tm = tokens(marca).filter(t => !['studio', 'studios', 'toys', 'collectibles'].includes(t));
     if (!tm.length) return true;
     const tn = new Set(tokens(nombreTienda));
-    return tm.some(t => tn.has(t));
+    // "YaoMengMeng Studio" = "Yao Meng Meng Studio": también se compara sin espacios.
+    const junta = s => s.toLowerCase().normalize('NFD').replace(/[^a-z0-9]/g, '');
+    const nucleo = tm.join('');
+    return tm.some(t => tn.has(t)) || (nucleo.length >= 4 && junta(nombreTienda).includes(nucleo));
   };
   // Por nombre: mismo personaje y marca = "tenes" (se puede marcar igual, por si es otra versión);
   // nombre muy parecido = "quizas". `coincide` dice con cuál de las nuestras.

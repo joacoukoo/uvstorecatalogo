@@ -77,7 +77,7 @@ describe('POST /api/scrape-lista', () => {
       // Sin este header Nonasea devuelve un catálogo reducido y en otro orden.
       if (init?.headers?.['server-code'] !== 'nonasea') throw new Error('falta server-code ' + url);
       if (url.includes('classification_list')) return new Response(JSON.stringify({ data: [{ id: 32, ename: 'NEW PRODUCTS' }] }));
-      if (url.includes('/shop/product?class_id=32&ordering=-id&page=1&page_size=50')) return new Response(fx('nonasea-lista.json'));
+      if (url.includes('/shop/product?class_id=32&ordering=-id&page=1&page_size=20')) return new Response(fx('nonasea-lista.json'));
       throw new Error('fetch inesperado ' + url);
     });
     vi.stubGlobal('fetch', f);
