@@ -59,6 +59,37 @@ describe('marcarDuplicados', () => {
     expect(r.map(i => i.estado)).toEqual(['tenes', 'tenes']);
     expect(r.some(i => i.elegida)).toBe(false);
   });
+  it('reconoce las Hot Toys subidas desde Sideshow cuando aparecen en Nonasea', () => {
+    const cat = { 'Hot Toys 1:6': { products: [
+      { id: 'sr', n: 'Steve Rogers Sixth Scale Figure by Hot Toys', marca: 'Hot Toys' },
+      { id: 'th', n: 'Thor Sixth Scale Figure by Hot Toys', marca: 'Hot Toys' },
+      { id: 'mg', n: 'Magneto', marca: 'Hot Toys' },
+      { id: 'kr', n: 'Kamen Rider V3', marca: 'Hot Toys' },
+    ] } };
+    const r = marcarDuplicados([
+      { clave: 'nonasea:1', nombre: '(Shipping Included)Hot Toys - Marvel - Steve Rogers 1/6 Figure - (Licensed)', foto: '' },
+      { clave: 'nonasea:2', nombre: '(Shipping Included)Hot Toys - Marvel - Thor 1/6 Figure - (Licensed)', foto: '' },
+      { clave: 'nonasea:3', nombre: '(Shipping Included)Hot Toys - Marvel - Magneto 1/6 Figure - (Licensed)', foto: '' },
+      { clave: 'nonasea:4', nombre: '(Shipping Included)Hot Toys - Kamen Rider - Kamen Rider W 1/6 Figure - (Licensed)', foto: '' },
+      { clave: 'nonasea:5', nombre: '(Shipping Included)Hot Toys - Marvel - Professor X 1/6 Figure - (Licensed)', foto: '' },
+    ], cat, []);
+    expect(r.map(i => i.estado)).toEqual(['tenes', 'tenes', 'tenes', 'nueva', 'nueva']);
+    expect(r[0].coincide).toBe('Steve Rogers Sixth Scale Figure by Hot Toys');
+    expect(r[0].porNombre).toBe(true);
+  });
+  it('un personaje de una palabra solo coincide si la tienda no le agrega nada', () => {
+    const cat = { X: { products: [{ id: 'h', n: 'Hulk', marca: 'Hot Toys' }] } };
+    const r = marcarDuplicados([
+      { clave: 'n:1', nombre: 'Hot Toys - Marvel - Red Hulk 1/6 Figure', foto: '' },
+      { clave: 'n:2', nombre: 'Hot Toys - Marvel - Hulk 1/6 Figure', foto: '' },
+    ], cat, []);
+    expect(r.map(i => i.estado)).toEqual(['nueva', 'tenes']);
+  });
+  it('si nuestra figura no tiene marca, el mismo nombre queda en duda', () => {
+    const cat = { X: { products: [{ id: 'v', n: 'Majin Vegeta' }] } };
+    const r = marcarDuplicados([{ clave: 'n:1', nombre: 'RYU Studio - Dragon Ball - Majin Vegeta 1/4 Statue', foto: '' }], cat, []);
+    expect(r[0].estado).toBe('quizas');
+  });
 });
 
 describe('similitudNombre', () => {
@@ -67,6 +98,9 @@ describe('similitudNombre', () => {
   });
   it('no confunde personajes que solo difieren en una letra', () => {
     expect(similitudNombre('Hot Toys - Kamen Rider - Kamen Rider W 1/6 Figure', 'Kamen Rider Amazon')).toBeLessThan(0.8);
+  });
+  it('no cuenta la marca ni "Sixth Scale Figure by" del nombre de Sideshow', () => {
+    expect(similitudNombre('Hot Toys - Marvel - Steve Rogers 1/6 Figure', 'Steve Rogers Sixth Scale Figure by Hot Toys', 'Hot Toys')).toBe(1);
   });
   it('ignora nombres del catálogo de una sola palabra', () => {
     expect(similitudNombre('Tsume Goku Ultra Instinct', 'Goku')).toBe(0);

@@ -1,6 +1,7 @@
 // Lógica de "Traer en lote" del admin (sin DOM, testeable): saber qué figuras ya tenemos,
 // procesar la cola de scrapeos de a pocas, y armar el producto del catálogo con precios y variantes.
 import { limpiarNombre } from './limpieza.js';
+export { limpiarNombre };
 
 const RESERVA_FACTOR = 0.2;
 
@@ -29,21 +30,40 @@ export function claveDeOrigen(url) {
   return prod ? `shopify:${host}:${prod[1]}` : '';
 }
 
-const RELLENO = new Set(['statue', 'figure', 'figura', 'estatua', 'scale', 'escala', 'edition', 'version', 'ver', 'the', 'of', 'de', 'la', 'el', 'and', 'y', 'with']);
-function tokens(s) {
+// Palabras que no dicen qué figura es: tipo, escala ("Sixth Scale Figure by Hot Toys" de Sideshow),
+// estudio y lo que las tiendas le pegan al título ("Early bird", "Deposit").
+const RELLENO = new Set(['statue', 'figure', 'figura', 'estatua', 'scale', 'escala', 'edition', 'version', 'ver',
+  'the', 'of', 'de', 'la', 'el', 'and', 'y', 'with', 'by', 'sixth', 'quarter', 'half', 'bust', 'action',
+  'studio', 'studios', 'early', 'bird', 'deposit', 'reserve', 'shipping', 'included']);
+function tokens(s, sinMarca) {
+  const marca = sinMarca ? new Set(tokens(sinMarca)) : null;
   return limpiarNombre(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
-    .replace(/\b1\s*[:/]\s*\d+\b/g, ' ').split(/[^a-z0-9]+/).filter(t => t && !RELLENO.has(t));
+    .replace(/\b1\s*[:/]\s*\d+\b/g, ' ').split(/[^a-z0-9]+/).filter(t => t && !RELLENO.has(t) && !marca?.has(t));
+}
+
+// El personaje en un título "Marca - Obra - Personaje 1/6 Figure" (Nonasea) es el último tramo;
+// sin guiones (FNC) es el título entero. Sin la marca de nuestra figura.
+function tokensPersonaje(nombreTienda, marca) {
+  const tramos = limpiarNombre(nombreTienda).split(/\s[-–—|]\s/).map(t => tokens(t, marca)).filter(t => t.length);
+  return new Set(tramos.length ? tramos[tramos.length - 1] : []);
 }
 
 // Qué parte del nombre de nuestra figura (b) aparece en el de la tienda (a), de 0 a 1. El de la
-// tienda trae de más (marca, obra, código). Sin la marca: dos Hot Toys distintas no se parecen.
-// Nombres de una sola palabra ("Goku") no alcanzan para sospechar.
-export function similitudNombre(a, b) {
-  const ta = new Set(tokens(a)), tb = new Set(tokens(b));
+// tienda trae de más (marca, obra, código); la marca de la nuestra no cuenta, si no dos Hot Toys
+// distintas se parecerían. Nombres de una sola palabra ("Goku") no alcanzan para sospechar.
+export function similitudNombre(a, b, marca) {
+  const ta = new Set(tokens(a, marca)), tb = new Set(tokens(b, marca));
   if (tb.size < 2) return 0;
   let n = 0;
   for (const t of tb) if (ta.has(t)) n++;
   return n / tb.size;
+}
+
+// El personaje de la tienda es exactamente el nuestro: "Steve Rogers" = "Steve Rogers Sixth Scale
+// Figure by Hot Toys", "Hulk" = "Hulk" (pero no "Red Hulk").
+function mismoPersonaje(nombreTienda, nuestro, marca) {
+  const tp = tokensPersonaje(nombreTienda, marca), tn = new Set(tokens(nuestro, marca));
+  return tn.size > 0 && tp.size === tn.size && [...tn].every(t => tp.has(t));
 }
 
 export function marcarDuplicados(items, catalogo, pendientes) {
@@ -65,11 +85,17 @@ export function marcarDuplicados(items, catalogo, pendientes) {
     const tn = new Set(tokens(nombreTienda));
     return tm.some(t => tn.has(t));
   };
+  // Por nombre: mismo personaje y marca = "tenes" (se puede marcar igual, por si es otra versión);
+  // nombre muy parecido = "quizas". `coincide` dice con cuál de las nuestras.
   return items.map(it => {
-    let estado = 'nueva';
-    if (claves.has(it.clave) || clavesDeFotos([it.foto]).some(k => fotos.has(k))) estado = 'tenes';
-    else if (nombres.some(x => x.n && similitudNombre(it.nombre, x.n) >= 0.8 && mismaMarca(it.nombre, x.marca))) estado = 'quizas';
-    return { ...it, estado, elegida: estado === 'nueva' };
+    if (claves.has(it.clave) || clavesDeFotos([it.foto]).some(k => fotos.has(k))) return { ...it, estado: 'tenes', elegida: false };
+    const candidatas = nombres.filter(x => x.n && mismaMarca(it.nombre, x.marca));
+    const igual = candidatas.find(x => x.marca && mismoPersonaje(it.nombre, x.n, x.marca))
+      || candidatas.find(x => !x.marca && mismoPersonaje(it.nombre, x.n));
+    const seguro = igual && igual.marca;
+    const parecida = igual || candidatas.find(x => similitudNombre(it.nombre, x.n, x.marca) >= 0.8);
+    const estado = seguro ? 'tenes' : parecida ? 'quizas' : 'nueva';
+    return { ...it, estado, elegida: estado === 'nueva', ...(parecida ? { coincide: parecida.n, porNombre: true } : {}) };
   });
 }
 

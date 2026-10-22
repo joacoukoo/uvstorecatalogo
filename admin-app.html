@@ -83,7 +83,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .lote-item.elegida{border-color:var(--purple);color:var(--text)}
 .lote-item.quizas{border-color:var(--orange)}
 .lote-item.quizas.elegida{border-color:var(--purple)}
-.lote-item.tenes{opacity:.35;cursor:default}
+.lote-item.tenes{opacity:.45;cursor:default}
+.lote-item.tenes.por-nombre{cursor:pointer}
+.lote-item.tenes.elegida{opacity:1}
+.lote-pag{grid-column:1/-1;font-size:12px;font-weight:600;color:var(--muted2);padding:8px 2px 2px;border-bottom:1px solid var(--border2)}
+.lote-pag:first-child{padding-top:0}
+.lote-num{position:absolute;top:10px;right:10px;font-size:10px;font-weight:600;padding:2px 6px;border-radius:4px;background:rgba(0,0,0,.75);color:var(--text)}
+.lote-coincide{margin-top:4px;font-size:10.5px;color:var(--orange)}
+.lote-item.tenes .lote-coincide{color:var(--muted2)}
 .lote-tag{position:absolute;top:10px;left:10px;font-size:10px;font-weight:600;padding:2px 6px;border-radius:4px;background:rgba(0,0,0,.75)}
 .lote-tag.ok{color:var(--green)}.lote-tag.err{color:var(--red)}.lote-tag.q{color:var(--orange)}
 .pend-row{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--border);align-items:flex-start}
@@ -1118,6 +1125,7 @@ async function _leerPagina(pagina){
   var catalogo=_catalog||await fetchFreshCatalog();
   var pend=await _api('/api/pendientes');
   var ya={};_lote.items.forEach(function(it){ya[it.clave]=1;});
+  d.items.forEach(function(it,i){it.pagina=pagina;it.pos=i+1;});
   var nuevos=LoteImport.marcarDuplicados(d.items.filter(function(it){return!ya[it.clave];}),catalogo,pend);
   _lote.items=_lote.items.concat(nuevos);
 }
@@ -1138,7 +1146,8 @@ async function loteMas(){
   loteRender();
 }
 function loteToggle(i){
-  var it=_lote.items[i];if(!it||it.estado==='tenes'||it.proceso||_lote.trayendo)return;
+  // "Ya la tenés" por nombre se puede marcar igual (puede ser otra versión); por foto/origen no.
+  var it=_lote.items[i];if(!it||(it.estado==='tenes'&&!it.porNombre)||it.proceso||_lote.trayendo)return;
   it.elegida=!it.elegida;loteRender();
 }
 function loteTodas(v){
@@ -1147,14 +1156,25 @@ function loteTodas(v){
 function loteRender(){
   var g=document.getElementById('lote-grid');
   var tags={tenes:'<span class="lote-tag">Ya la tenés</span>',quizas:'<span class="lote-tag q">¿Ya la tenés?</span>'};
-  g.innerHTML=_lote.items.map(function(it,i){
+  // Una sección por página de la tienda, en su mismo orden y numerada, para ubicarse comparando con la web.
+  var html='',pag=0;
+  _lote.items.forEach(function(it,i){
+    if(it.pagina!==pag){
+      pag=it.pagina;
+      var deEsta=_lote.items.filter(function(x){return x.pagina===pag;});
+      var cuenta=function(e){return deEsta.filter(function(x){return x.estado===e;}).length;};
+      html+='<div class="lote-pag">Página '+pag+' · '+deEsta.length+' figuras — '+cuenta('nueva')+' nuevas · '+cuenta('quizas')+' en duda · '+cuenta('tenes')+' ya las tenés</div>';
+    }
     var tag=it.proceso==='ok'?'<span class="lote-tag ok">En pendientes</span>'
       :it.proceso==='error'?'<span class="lote-tag err">Falló</span>'
       :it.proceso==='cola'?'<span class="lote-tag">Trayendo...</span>':(tags[it.estado]||'');
-    var cls='lote-item'+(it.elegida?' elegida':'')+(it.estado!=='nueva'?' '+it.estado:'');
+    var cls='lote-item'+(it.elegida?' elegida':'')+(it.estado!=='nueva'?' '+it.estado:'')+(it.porNombre?' por-nombre':'');
     var retry=it.proceso==='error'?'<button class="btn btn-secondary" style="margin-top:5px;padding:3px 8px;font-size:11px" onclick="event.stopPropagation();loteTraer(['+i+'])">Reintentar</button>':'';
-    return '<div class="'+cls+'" onclick="loteToggle('+i+')">'+tag+(it.foto?'<img loading="lazy" src="'+_e(it.foto)+'" alt="">':'')+_e(it.nombre)+retry+'</div>';
-  }).join('');
+    var coincide=it.coincide&&it.estado!=='nueva'?'<div class="lote-coincide">Tuya: '+_e(it.coincide)+'</div>':'';
+    html+='<div class="'+cls+'" onclick="loteToggle('+i+')" title="'+_e(it.nombre)+'">'+tag+'<span class="lote-num">'+it.pos+'</span>'
+      +(it.foto?'<img loading="lazy" src="'+_e(it.foto)+'" alt="">':'')+_e(LoteImport.limpiarNombre(it.nombre)||it.nombre)+coincide+retry+'</div>';
+  });
+  g.innerHTML=html;
   var elegidas=_lote.items.filter(function(it){return it.elegida&&!it.proceso;}).length;
   var nuevas=_lote.items.filter(function(it){return it.estado!=='tenes';}).length;
   document.getElementById('lote-acciones').style.display=_lote.items.length?'':'none';
@@ -1280,7 +1300,7 @@ async function pendPublicar(){
 pendContar();
 </script>
 <script type="module">
-import * as LoteImport from './lote-import.js?v=20261023';
+import * as LoteImport from './lote-import.js?v=20261023b';
 import { esTCG } from './tcg.js?v=20261021b';
 window.LoteImport = LoteImport;
 window.esTCG = esTCG;
