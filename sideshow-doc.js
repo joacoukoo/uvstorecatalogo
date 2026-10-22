@@ -219,6 +219,18 @@ function opciones(valores, candidato, q) {
   return valores.map(v => ({ valor: v, etiqueta: ETIQUETAS[v](candidato, q) }));
 }
 
+function opcionesFactura(fila, previas) {
+  const r2 = previas + fila.q;
+  if (r2 === fila.lote.cantidad) return { ...fila, previas, estado: 'ok', opciones: opciones(['sumar']), accion: 'sumar' };
+  const valores = r2 < fila.lote.cantidad ? ['faltan', 'bajar'] : ['subir', 'dejar'];
+  return { ...fila, previas, estado: 'diferencia', opciones: opciones(valores, null, r2), accion: valores[0] };
+}
+
+// Cuando corregís cuántas te habían llegado antes de esta factura.
+export function cambiarPrevias(fila, previas) {
+  return opcionesFactura(fila, Math.max(0, parseInt(previas, 10) || 0));
+}
+
 // Una fila de revisión por figura del documento, con sus opciones y la opción por defecto.
 export function proponerAcciones(doc, lotes, catalogo) {
   return doc.items.map(item => {
@@ -230,10 +242,11 @@ export function proponerAcciones(doc, lotes, catalogo) {
       return { ...base, candidato, estado: 'nuevo', opciones: opciones(valores, candidato), accion: valores[0] };
     }
     if (doc.tipo === 'factura') {
-      const r2 = (lote.recibidas || 0) + item.cantidad;
-      if (r2 === lote.cantidad) return { ...base, lote, estado: 'ok', opciones: opciones(['sumar']), accion: 'sumar' };
-      const valores = r2 < lote.cantidad ? ['faltan', 'bajar'] : ['subir', 'dejar'];
-      return { ...base, lote, estado: 'diferencia', opciones: opciones(valores, null, r2), accion: valores[0] };
+      // Si entregaste más figuras de las que figuran recibidas, hubo llegadas sin registrar:
+      // se parte de las entregadas y se te consulta cuántas llegaron antes.
+      const recibidas = lote.recibidas || 0;
+      const consultarPrevias = (lote.entregadas || 0) > recibidas;
+      return opcionesFactura({ ...base, lote, consultarPrevias }, Math.max(recibidas, lote.entregadas || 0));
     }
     if (item.cantidad === lote.cantidad) return { ...base, lote, estado: 'ok', opciones: opciones(['sin_cambios']), accion: 'sin_cambios' };
     return { ...base, lote, estado: 'diferencia', opciones: opciones(['dejar', 'ajustar'], null, item.cantidad), accion: 'dejar' };
@@ -264,7 +277,7 @@ export function efectoDeAccion(fila, accion) {
   }
   const lote = fila.lote;
   if (fila.tipo === 'factura') {
-    const r2 = (lote.recibidas || 0) + fila.q;
+    const r2 = (fila.previas ?? (lote.recibidas || 0)) + fila.q;
     if (accion === 'bajar' || accion === 'subir') {
       const efecto = { update: { recibidas: r2, cantidad: r2 } };
       const aviso = avisoFaltantes(r2, lote.vendidas);

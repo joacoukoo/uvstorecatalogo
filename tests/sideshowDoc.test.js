@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import fs from 'fs';
 import {
   extraerTextoEml, leerFactura, agruparFilasPdf, leerOrdenVenta, leerFacturaComercial, detectarDocumento,
-  buscarEnCatalogo, proponerAcciones, efectoDeAccion, nombreCorto, marcaDeNombre
+  buscarEnCatalogo, proponerAcciones, cambiarPrevias, efectoDeAccion, nombreCorto, marcaDeNombre
 } from '../sideshow-doc.js';
 
 const fx = f => fs.readFileSync(new URL('./fixtures/' + f, import.meta.url), 'utf8');
@@ -200,6 +200,23 @@ describe('proponerAcciones: factura', () => {
     expect(f.accion).toBe('subir');
     expect(efectoDeAccion(f, 'subir')).toEqual({ update: { recibidas: 4, cantidad: 4 } });
     expect(efectoDeAccion(f, 'dejar')).toEqual({ update: { recibidas: 4 } });
+  });
+  it('si ya entregaste mas de las registradas, consulta cuantas llegaron antes', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '914584', nombre: 'J', cantidad: 2 }]), [lote({ codigo: '914584', cantidad: 3, vendidas: 3, entregadas: 2 })], CAT);
+    expect(f).toMatchObject({ previas: 2, consultarPrevias: true, estado: 'diferencia', accion: 'subir' });
+    expect(efectoDeAccion(f, 'subir')).toEqual({ update: { recibidas: 4, cantidad: 4 } });
+  });
+  it('cambiar las previas recalcula opciones y efecto', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '914584', nombre: 'J', cantidad: 2 }]), [lote({ codigo: '914584', cantidad: 3, vendidas: 3, entregadas: 2 })], CAT);
+    const g = cambiarPrevias(f, 3);
+    expect(g).toMatchObject({ previas: 3, consultarPrevias: true, accion: 'subir' });
+    expect(g.opciones[0].etiqueta).toBe('Subir el lote a 5');
+    expect(efectoDeAccion(g, 'subir')).toEqual({ update: { recibidas: 5, cantidad: 5 } });
+    expect(cambiarPrevias(f, 1)).toMatchObject({ estado: 'ok', accion: 'sumar' });
+  });
+  it('con las recibidas al dia no consulta', () => {
+    const [f] = proponerAcciones(fac([{ codigo: '1', nombre: 'S', cantidad: 1 }]), [lote({ codigo: '1', cantidad: 3, recibidas: 2, entregadas: 2 })], CAT);
+    expect(f).toMatchObject({ previas: 2, consultarPrevias: false });
   });
 });
 

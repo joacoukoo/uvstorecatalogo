@@ -6,9 +6,9 @@
 <title>UV Store — Sistema</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
-<script src="sistema-db.js?v=20260923e"></script>
+<script src="sistema-db.js?v=20261022"></script>
 <script type="module">
-  import * as SideshowDoc from './sideshow-doc.js?v=20261022';
+  import * as SideshowDoc from './sideshow-doc.js?v=20261022b';
   window.SideshowDoc = SideshowDoc;
 </script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
@@ -1556,13 +1556,25 @@ button,a{touch-action:manipulation;cursor:pointer}
                 <table class="table tbl-importar" style="font-size:13px">
                   <thead><tr><th>Código</th><th>Figura</th><th x-text="imp.doc?.tipo==='factura' ? 'Llegaron' : 'Pedidas'"></th><th>Lote</th><th>Acción</th></tr></thead>
                   <tbody>
-                    <template x-for="f in imp.filas" :key="f.codigo">
+                    <template x-for="(f, i) in imp.filas" :key="f.codigo">
                       <tr>
                         <td data-label="Código" x-text="f.codigo"></td>
                         <td class="imp-nombre" x-text="f.nombre" style="min-width:180px"></td>
                         <td :data-label="imp.doc?.tipo==='factura' ? 'Llegaron' : 'Pedidas'" x-text="f.q"></td>
                         <td data-label="Lote" :style="'white-space:nowrap;' + (f.estado==='diferencia' ? 'color:var(--orange);font-weight:700' : (f.estado==='nuevo' ? 'color:var(--muted2)' : ''))"
-                            x-text="imp.modo==='terminar' ? '—' : (f.lote ? (f.lote.cantidad + (imp.doc?.tipo==='factura' ? ' (recibidas ' + (f.lote.recibidas||0) + ')' : '')) : 'sin lote')"></td>
+                            >
+                          <span x-text="imp.modo==='terminar' ? '—' : (f.lote ? f.lote.cantidad : 'sin lote')"></span>
+                          <template x-if="imp.doc?.tipo==='factura' && f.lote && imp.modo!=='terminar'">
+                            <div style="margin-top:4px;font-weight:400;white-space:normal" :style="f.consultarPrevias ? 'color:var(--orange)' : 'color:var(--muted2)'">
+                              <div x-show="f.consultarPrevias" style="font-size:12px;max-width:200px"
+                                   x-text="'Ya entregaste ' + f.lote.entregadas + ' pero figuraban ' + (f.lote.recibidas||0) + ' recibidas. ¿Cuántas te habían llegado antes?'"></div>
+                              <label style="font-size:12px;display:flex;gap:6px;align-items:center">llegaron antes
+                                <input type="number" min="0" class="form-input" :value="f.previas" @change="imp.filas[i] = SideshowDoc.cambiarPrevias(f, $event.target.value)"
+                                       style="width:64px;font-size:16px;padding:2px 6px">
+                              </label>
+                            </div>
+                          </template>
+                        </td>
                         <td class="imp-accion" style="min-width:260px">
                           <select class="form-select" x-model="f.accion" style="font-size:14px" :disabled="imp.modo==='terminar' || f.opciones.length===1">
                             <template x-for="o in f.opciones" :key="o.valor"><option :value="o.valor" x-text="o.etiqueta" :selected="o.valor===f.accion"></option></template>
