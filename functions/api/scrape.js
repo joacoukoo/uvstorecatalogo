@@ -102,7 +102,7 @@ export async function onRequestPost({ env, request }) {
 
     // ── Nonasea: ficha JSON de su API ─────────────────────────────────────
     if (/nonasea\.com\/api\/customer\/shop\/product\/\d+/.test(url)) {
-      result = scrapeNonasea((await (await fetch(url)).json()).data);
+      result = scrapeNonasea((await (await fetch(url, { headers: { 'server-code': 'nonasea' } })).json()).data);
     }
 
     // ── Shopify fast path (JSON API) ──────────────────────────────────────

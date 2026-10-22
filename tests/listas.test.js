@@ -72,15 +72,25 @@ describe('POST /api/scrape-lista', () => {
     expect(data.items).toHaveLength(3);
     expect(data.siguiente).toBe(2);
   });
-  it('resuelve el código de Nonasea al id de clasificación', async () => {
-    const f = vi.fn(async url => {
+  it('resuelve el código de Nonasea al id de clasificación y pide la lista igual que su web', async () => {
+    const f = vi.fn(async (url, init) => {
+      // Sin este header Nonasea devuelve un catálogo reducido y en otro orden.
+      if (init?.headers?.['server-code'] !== 'nonasea') throw new Error('falta server-code ' + url);
       if (url.includes('classification_list')) return new Response(JSON.stringify({ data: [{ id: 32, ename: 'NEW PRODUCTS' }] }));
-      if (url.includes('class_product_list?class_id=32&ordering=-id&page=1&page_size=50')) return new Response(fx('nonasea-lista.json'));
+      if (url.includes('/shop/product?class_id=32&ordering=-id&page=1&page_size=50')) return new Response(fx('nonasea-lista.json'));
       throw new Error('fetch inesperado ' + url);
     });
     vi.stubGlobal('fetch', f);
     const res = await onRequestPost(req({ url: 'https://www.nonasea.com/mall/NEWPRODUCTS?ordering=-id&page=1&page_size=50' }));
     const data = await res.json();
     expect(data.items[0].clave).toBe('nonasea:32755');
+  });
+  it('respeta el orden elegido en la URL de Nonasea', async () => {
+    const f = vi.fn(async url => url.includes('classification_list')
+      ? new Response(JSON.stringify({ data: [{ id: 32, ename: 'NEW PRODUCTS' }] }))
+      : new Response(fx('nonasea-lista.json')));
+    vi.stubGlobal('fetch', f);
+    await onRequestPost(req({ url: 'https://www.nonasea.com/mall/NEWPRODUCTS?ordering=-sales' }));
+    expect(f.mock.calls[1][0]).toContain('ordering=-sales');
   });
 });
