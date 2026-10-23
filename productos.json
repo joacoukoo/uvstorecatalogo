@@ -57369,6 +57369,90 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "toxic-white-1-6-figure-mvlar5p7",
+        "n": "Toxic White 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/380cacf23610510a4565f5e275c6bbcd.jpg?v=1750757632",
+        "franquicia": "Otros",
+        "marca": "Present Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2140",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/380cacf23610510a4565f5e275c6bbcd.jpg?v=1750757632",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01sf6uCu2BmYUcaCt0k__369668381.webp?v=1750757631",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN017Ac8pb2BmYUdSpjaM__369668381.webp?v=1750757632",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01HXfo7z2BmYUcVnEtI__369668381.webp?v=1750757632",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01m622pP2BmYUdjHGqC__369668381.webp?v=1750757632",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01JNrlPu2BmYUb9G6ZH__369668381.webp?v=1750757631",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01CPTOcQ2BmYUcaCcQ6__369668381.webp?v=1750757632",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01g8gBSo2BmYUbhoEjE__369668381.webp?v=1750757631",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01ERE7AA2BmYUeARLBp__369668381.webp?v=1750757631"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada premium de 1/6 que captura al icónico personaje en su atuendo distintivo amarillo y negro. Incluye múltiples manos intercambiables, accesorios de seguridad y una base exclusiva para exhibición profesional. Detalle excepcional y articulación completa para recrear cualquier pose."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina (cabeza), cuerpo articulado, tela (vestuario)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 manos intercambiables con guantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara antigás"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de una pieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Delantal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta blanca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base exclusiva"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "428",
+        "cantidad": "2"
+      },
+      {
         "id": "toxic-pink-1-6-figure-mvlaped2",
         "n": "Toxic Pink 1/6 Figure",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/d831417c70e5bb0fa2d2797a7636d49e.jpg?v=1750757221",
