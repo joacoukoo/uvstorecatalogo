@@ -57369,6 +57369,119 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "kingpin-one-12-collective-mvl6p4d4",
+        "n": "Kingpin One:12 Collective",
+        "i": "https://media.entertainmentearth.com/assets/images/50d0b5756b1b408b9686ee90809426d8lg.jpg",
+        "franquicia": "Otros",
+        "marca": "Mezco",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "fotos": [
+          "https://media.entertainmentearth.com/assets/images/50d0b5756b1b408b9686ee90809426d8lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/d9464327a67c465baa1aaef63473a643lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/f4054f0a4d59436a85e9ca04b5c701belg.jpg",
+          "https://media.entertainmentearth.com/assets/images/196f0e75f8e946e3b11124fc2e053f99lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/e5f39cda070f46c3a1f0a9040d406df3lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/50279db3001947739df8f55e1c79edc0lg.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El Kingpin One:12 Collective de Mezco es una figura de colección premium que captura la esencia del temido señor del crimen con detalles artesanales impecables. Con cinco cabezas intercambiables que expresan desde el cálculo frío hasta la brutal determinación, y un traje de tres piezas perfectamente confeccionado, esta figura de 17.6cm es un testimonio del dominio criminal de Wilson Fisk. Cada accesorio, desde su icónico bastón con detalles de gema hasta efectos especiales de láser y gas, ha sido diseñado para recrear los momentos más icónicos de este villano legendario."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 17.6 cm (6.93 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado: Más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado manual auténtico con detalle en cada pieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base de exhibición One:12 Collective con poste ajustable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 cabezas intercambiables (default, sonrisa burlona, mueca de dientes, sonrisa completa, bandada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables (puños, agarre, soporte, postura)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de tres piezas confeccionado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camisa de vestir"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de cintura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj de pulsera removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón con detalle de gema clara"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de láser intercambiable para bastón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de gas intercambiable para bastón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Katana"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición One:12 Collective con logo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Poste de exhibición ajustable One:12 Collective"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje amigable con coleccionistas"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "420",
+        "cantidad": "2"
+      },
+      {
         "id": "naruto-72-series-naruto-uzumaki-and-gaara-figuarts-mvjuq6un",
         "n": "Naruto 72 Series Naruto Uzumaki and Gaara Figuarts ZERO Statue",
         "i": "https://media.entertainmentearth.com/assets/images/9783d57bfcce4f0589d8b87b10c8a728lg.jpg",
