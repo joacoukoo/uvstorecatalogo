@@ -57369,6 +57369,108 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "voldemort-1-6-figure-mvlanenl",
+        "n": "Voldemort 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/b27bdcb559d3b09b0fa4fcf33c832017.jpg?v=1791363375",
+        "franquicia": "Harry Potter",
+        "marca": "INART",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/b27bdcb559d3b09b0fa4fcf33c832017.jpg?v=1791363375",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01bAlmylACZMB1bRp0__3074253986.webp?v=1791363374",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01A4kcsdOEWyF1bRp0__3074253986.webp?v=1791363374",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/ce302cfd12f1b4c775f025a178a9d735_5fe68775-d89b-4a3c-ac4b-570062932fa8.jpg?v=1791363373",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01N9WCg5ZxobI1bRvn__3074253986.webp?v=1791363373",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01A2SldmyOV8L1bRvn__3074253986_4f757609-38c8-45a3-8579-9a80ec553632.webp?v=1791363373",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01SzwXoV3QKlI1bRvn__3074253986_7f1122dc-9340-4e2c-bee2-1d2c2b84d3b5.webp?v=1791363373",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01Fa1cwhyz3UE1bRvn__3074253986.webp?v=1791363374",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01LOU6dX8e3eG1bRvn__3074253986.webp?v=1791363374",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01nHMeTdb9GDI1bRvn__3074253986.webp?v=1791363374"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada premium de Voldemort en escala 1/6 con dos cabezas intercambiables, nueve brazos intercambiables para múltiples poses de lanzamiento de hechizos, y ambas varitas icónicas. La versión Deluxe incluye la cabeza furiosa exclusiva y la serpiente Nagini para recrear los momentos más épicos de la saga."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo totalmente articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye ropa interior y túnica exterior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pies desnudos intercambiables y zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con soporte metálico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Cabezas intercambiables (Serena + Furiosa en Deluxe)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 Brazos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Varita de Voldemort"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Varita Elder"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ropa interior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica exterior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pies desnudos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Nagini (Deluxe)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte metálico"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "1380",
+        "entrega": "2027 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "thriller-dancer-2-0-two-person-suit-1-6-figure-mvla7sbz",
         "n": "Thriller Dancer 2.0 Two-Person Suit 1/6 Figure",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/2b062d9595842afe7f29f9d21c5615af.jpg?v=1792598401",
