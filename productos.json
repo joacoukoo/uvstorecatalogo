@@ -57369,6 +57369,83 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "hellboy-black-and-white-1-12-scale-action-figure-e-mvl6xhx8",
+        "n": "Hellboy Black and White 1:12 Scale Action Figure - Entertainment Earth Exclusive",
+        "i": "https://media.entertainmentearth.com/assets/images/50f4ff0817ad4803bd263a68cda7dfd6lg.jpg",
+        "franquicia": "Otros",
+        "marca": "",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1280",
+        "fotos": [
+          "https://media.entertainmentearth.com/assets/images/50f4ff0817ad4803bd263a68cda7dfd6lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/fa4803c7280f4e76b519e5df768d6e39lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/7afd5d3ca4ce47d1a6ccc5f19c3705d5lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/492078c3f83e4ae4a64a77dc87ed7b23lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/f84f2c0a4a8a4cfba5c30b7144d5e03alg.jpg",
+          "https://media.entertainmentearth.com/assets/images/e4e45f4e506a4c07b1dbcc97f2787a47lg.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Esta exclusiva figura de Hellboy en blanco y negro de Entertainment Earth captura la esencia noir del personaje icónico de Mike Mignola con un diseño de alto contraste inspirado en la dramática dirección de arte que definió la serie. Con 27 puntos de articulación y un detallado acabado en escala 1:12, ofrece posibilidades infinitas de posicionamiento y exhibición para coleccionistas exigentes. Una pieza limitada a solo 1,500 unidades que representa un hito obligatorio para cualquier colección de cómics independientes y personajes paranormales del más alto calibre."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 19 cm (7.5 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado con pintura aplicada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 27"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 1,500 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Exclusiva Entertainment Earth"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Blanco y negro (deco noir)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de acción articulada de Hellboy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2x Manos intercambiables (1x izquierda y 1x derecha)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "256",
+        "cantidad": "2"
+      },
+      {
         "id": "transformers-optimus-prime-1986-movie-edition-mdlx-mvl6su52",
         "n": "Transformers Optimus Prime 1986 Movie Edition MDLX Action Figure",
         "i": "https://media.entertainmentearth.com/assets/images/5c4aa481714b4803b30484aad952cfd4lg.jpg",
