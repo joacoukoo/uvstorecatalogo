@@ -57369,6 +57369,120 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "ada-wong-1-6-figure-mvlasu1n",
+        "n": "Ada Wong 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/45eafc69b440d54068aa2afb234e9af6.jpg?v=1782269451",
+        "franquicia": "Gaming",
+        "marca": "TOYSTAY",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2460",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/45eafc69b440d54068aa2afb234e9af6.jpg?v=1782269451",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/d0429563d1925247b834d8813752cb85.jpg?v=1782269450",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01KC3lmr1Cl0frMUHqz__2301300120.webp?v=1782269450",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01zeCR6i1Cl0fraJOiM__2301300120.webp?v=1782269449",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01k0QEYc1Cl0frixyzl__2301300120.webp?v=1782269449",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN0192YK8z1Cl0frXP6dp__2301300120.webp?v=1782269449",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01ZDFJq51Cl0fmsuba8__2301300120.webp?v=1782269449",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01LcVhoz1Cl0frbEZ1y__2301300120.webp?v=1782269449",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01dIHFxE1Cl0frSxEWX__2301300120.webp?v=1782269448",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01ksXTE81Cl0frTGrl7__2301300120.webp?v=1782269449"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de Ada Wong en escala 1/6 con cuerpo de silicona de proporciones anime y cabeza esculpida con ojos articulados. Incluye múltiples atuendos y un arsenal completo de accesorios tácticos. Captura la esencia de la icónica agente de Resident Evil con detalles premium y alta personalización."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cuerpo de silicona de platino, cabeza esculpida articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos de tacón alto incluidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado de silicona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantimedia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola con cargador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola especial con accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Subfusil Steyr con cargador y silenciador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escopeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Walkie-talkie"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Monocular"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Granadas (convencional y aturdidora)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Llavero de osito de peluche"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ámbar en frasco transparente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arnés de pecho y cintura de cuero"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "492",
+        "entrega": "2026 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "toxic-white-1-6-figure-mvlar5p7",
         "n": "Toxic White 1/6 Figure",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/380cacf23610510a4565f5e275c6bbcd.jpg?v=1750757632",
