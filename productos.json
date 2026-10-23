@@ -7076,13 +7076,10 @@
         "l": "https://uv-store-guatemala.super.site/entrega-inmediata/deadpool-comics",
         "marca": "Sideshow",
         "escala": "1:6 - 30CM",
-        "estado": "Exhibido - Una cabeza faltante",
+        "estado": "",
         "disp": "Entrega Inmediata",
         "precio": "2100",
-        "precio_d": "",
-        "reserva": "",
-        "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7113,8 +7110,6 @@
             "x": "Soporte para figuraBurbujas de texto intercambiablesHoja con frases y pensamientos explícitos"
           }
         ],
-        "precio_orig": "",
-        "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
         "oferta": false,
@@ -7128,7 +7123,10 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100178/deadpool_marvel_gallery_5c4b93385cad3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/100178/deadpool_marvel_gallery_5c4b9339a7356.jpg"
         ],
-        "id": "deadpool-comics"
+        "id": "deadpool-comics",
+        "agotado": true,
+        "agotado_r": false,
+        "agotado_d": false
       },
       {
         "n": "The Armorer Helmet – Black Series Roleplay",
