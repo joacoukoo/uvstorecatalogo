@@ -57369,6 +57369,116 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "jungle-huntress-1-12-action-figure-mvla0nmj",
+        "n": "Jungle Huntress 1/12 Action Figure",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/ae4c821b1e0c217c8b5a368f93657702.jpg?v=1792553851",
+        "franquicia": "Gaming",
+        "marca": "Fist Toys",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1740",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/ae4c821b1e0c217c8b5a368f93657702.jpg?v=1792553851",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/95244418b0004a77d71d376eeea7ecb8.jpg?v=1792553850",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN015DyOxQd9h7D50QcX__660487950.webp?v=1792553851",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/df3b47fd9c95af194187eea94e9bf4c6.jpg?v=1792553851",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/e34beba5f2d4adfbcbbd381124cf6e26.jpg?v=1792553851",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/b9ce261b619232c45a0e4dbe42f6818f.jpg?v=1792553850",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/6652d33c915dd34e306922bd81fd1aee_735fcbae-4b67-4932-8106-8bef2fb84fcc.jpg?v=1792553850",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/470d3e71a9e8c89f85ed5614dac5817d.jpg?v=1792553851",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/2d6ec7011854f4674a61a058466ae074.jpg?v=1792553851",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/bb8e97185168b566d4393565b23022b5.jpg?v=1792553851"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada premium de 14.5cm con cabeza intercambiable de ojos móviles y cuerpo de silicona de platino desarrollado internamente. Incluye un extenso arsenal de accesorios y equipamiento táctico para recrear aventuras de caza en la jungla. Disponible en dos versiones de busto para adaptarse a tus preferencias de colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 14.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona de platino (cuerpo), plástico y pintura (accesorios)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos móviles intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo pintado de silicona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 flechas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carcaj trasero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hacha de escalada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Antorcha"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj de pulsera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Walkie-talkie"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Granada de destello"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escopeta (bonificación de preorden)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "348",
+        "entrega": "2027 Q2",
+        "cantidad": "2"
+      },
+      {
         "id": "hellboy-black-and-white-1-12-scale-action-figure-e-mvl6xhx8",
         "n": "Hellboy Black and White 1:12 Scale Action Figure - Entertainment Earth Exclusive",
         "i": "https://media.entertainmentearth.com/assets/images/50f4ff0817ad4803bd263a68cda7dfd6lg.jpg",
