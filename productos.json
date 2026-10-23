@@ -57369,6 +57369,79 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "transformers-optimus-prime-1986-movie-edition-mdlx-mvl6su52",
+        "n": "Transformers Optimus Prime 1986 Movie Edition MDLX Action Figure",
+        "i": "https://media.entertainmentearth.com/assets/images/5c4aa481714b4803b30484aad952cfd4lg.jpg",
+        "franquicia": "Transformers",
+        "marca": "",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1740",
+        "fotos": [
+          "https://media.entertainmentearth.com/assets/images/5c4aa481714b4803b30484aad952cfd4lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/2806fddc4108482690580052f3265e79lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/5d7f77ed69b740339621ea44dc998e13lg.jpg",
+          "https://media.entertainmentearth.com/assets/images/b7453b2700c64658942d884827c5df7elg.jpg",
+          "https://media.entertainmentearth.com/assets/images/34f77d94da084707a53fe8620944de34lg.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica transformación del Optimus Prime de 1986 con esta figura de colección premium MDLX de Threezero, que combina ingeniería de precisión con 48 puntos de articulación para poses dinámicas sin límites. Fabricada con aleación de zinc fundido y marco de plástico de grado industrial, captura cada detalle de la película original con escultura renovada de cabeza y acabado rojo en la mochila. Una pieza imprescindible para coleccionistas serios que demandan autenticidad, durabilidad excepcional y presencia visual espectacular."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 18 cm (7 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Aleación de zinc fundido (die-cast metal) y marco de plástico de grado industrial"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 48"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: aproximadamente 200-250 g (estimado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura detallada con réplica fiel de la película de 1986"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ion Blaster (arma)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Energon Axe (hacha energética)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta bio exclusiva"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "348",
+        "entrega": "enero 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "kingpin-one-12-collective-mvl6p4d4",
         "n": "Kingpin One:12 Collective",
         "i": "https://media.entertainmentearth.com/assets/images/50d0b5756b1b408b9686ee90809426d8lg.jpg",
