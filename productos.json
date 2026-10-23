@@ -57369,6 +57369,95 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "toxic-pink-1-6-figure-mvlaped2",
+        "n": "Toxic Pink 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/d831417c70e5bb0fa2d2797a7636d49e.jpg?v=1750757221",
+        "franquicia": "Otros",
+        "marca": "Present Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2140",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/d831417c70e5bb0fa2d2797a7636d49e.jpg?v=1750757221",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01BynCdz2BmYUdk4gFl__369668381.webp?v=1750757219",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01kWjguD2BmYUcVmuAG__369668381.webp?v=1750757219",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01EmDFFc2BmYUd6f6zR__369668381.webp?v=1750757220",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01UYOI5G2BmYUb9Ed6X__369668381.webp?v=1750757220",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN0132Im9f2BmYUdk3XUR__369668381.webp?v=1750757220",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01dx4Wad2BmYUdk40cZ__369668381.webp?v=1750757220",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01HH4IBu2BmYUWmsqjt__369668381.webp?v=1750757219",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01p2aaCc2BmYUcoLabi__369668381.webp?v=1750757220",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01sKJjVb2BmYUdSs12s__369668381.webp?v=1750757220"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de colección a escala 1/6 con escultura de cabeza altamente detallada y cuerpo totalmente articulado. Incluye traje de una pieza, delantal, camiseta blanca y accesorios de protección profesional. Perfecta para coleccionistas que buscan calidad premium y múltiples opciones de puesta en escena."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza: 1 pieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado: articulaciones completas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela y accesorios de resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 manos intercambiables con guantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara antigas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de una pieza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Delantal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta blanca"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas (2 pares)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición exclusiva"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "428",
+        "cantidad": "2"
+      },
+      {
         "id": "voldemort-1-6-figure-mvlanenl",
         "n": "Voldemort 1/6 Figure",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/b27bdcb559d3b09b0fa4fcf33c832017.jpg?v=1791363375",
