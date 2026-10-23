@@ -57369,6 +57369,104 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "zenitsu-agatsuma-1-6-figure-mvlauziz",
+        "n": "Zenitsu Agatsuma 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/6ee60d81d569cf64462ae97c7bf6d77a.jpg?v=1781691625",
+        "franquicia": "Anime",
+        "marca": "Threezero",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2920",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/6ee60d81d569cf64462ae97c7bf6d77a.jpg?v=1781691625",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01B6tPZf1ch3GK7Xa1t__3398393631_590fdce7-0fc7-437a-8bb6-6f2258f79d07.webp?v=1781691623",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01QwOhMO1ch3GK14rXp__3398393631_31a9b70f-4f3b-4c2f-8fec-2589218ccdad.webp?v=1781691623",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01QaAMEV1ch3GKERe4Z__3398393631.webp?v=1781691624",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01zT7WVP1ch3GJxQNE6__3398393631.webp?v=1781691624",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01u4K0PG1ch3GKg8thn__3398393631.webp?v=1781691624",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01yWx8WB1ch3GK7U1g5__3398393631.webp?v=1781691624",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN018Q59lr1ch3GKGfMxh__3398393631_4dc547b6-6110-4269-ace6-907fbca6e521.webp?v=1781691623",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN019FEPS11ch3GKBqr05__3398393631_637fa7e4-afc3-4fcf-8b3a-2f366af081aa.webp?v=1781691623",
+          "https://cdn.shopify.com/s/files/1/1877/8853/files/O1CN01dDNeFY1ch3GFak2vB__3398393631.webp?v=1781691624"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de Zenitsu Agatsuma del anime Demon Slayer con una precisión excepcional que captura su carisma y energía. Incluye múltiples accesorios intercambiables, tres rostros expresivos y efectos especiales de Respiración de Trueno para recrear tus escenas favoritas del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 37 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: ABS, PVC, POM, metal, imán y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uniforme del Cuerpo Demonios Cazadores de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Haori de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Kyahan (polainas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Calcetines tabi y sandalias zori"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 rostros intercambiables (estándar, dormido, gracioso)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 piezas de flequillo intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada Nichirin de metal con vaina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sparrow (gorrión)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bola de arroz"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos Respiración de Trueno (2 variantes)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 tipos de manos intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-23",
+        "reserva": "584",
+        "entrega": "2026 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "ada-wong-1-6-figure-mvlasu1n",
         "n": "Ada Wong 1/6 Figure",
         "i": "https://cdn.shopify.com/s/files/1/1877/8853/files/45eafc69b440d54068aa2afb234e9af6.jpg?v=1782269451",
