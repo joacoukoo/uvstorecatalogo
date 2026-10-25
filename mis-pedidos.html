@@ -42,6 +42,7 @@
               text-transform: uppercase; padding: 3px 9px; border-radius: 20px; white-space: nowrap; }
     .estado-proceso  { background: rgba(99,102,241,.15); color: #a5b4fc; }
     .estado-pagada   { background: rgba(16,185,129,.15); color: #6ee7b7; }
+    .estado-saldo    { background: rgba(251,191,36,.15); color: #fcd34d; }
     .estado-cancelada{ background: rgba(239,68,68,.15);  color: #fca5a5; }
     .estado-entregada{ background: rgba(16,185,129,.2);  color: #34d399; }
     .montos { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 0; }
@@ -105,12 +106,23 @@
       const abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
       return (o.precio_venta_gtq || 0) - abonado;
     }
+    // Cada figura cae en una sola categoría: cruza si está pagada y si está entregada.
+    const CATEGORIAS = [
+      { id: 'por-pagar',    nombre: 'Por pagar',             etiqueta: 'Por pagar',             clase: 'estado-proceso' },
+      { id: 'pagada',       nombre: 'Pagadas sin entregar',  etiqueta: 'Pagada · sin entregar', clase: 'estado-pagada' },
+      { id: 'entr-saldo',   nombre: 'Entregadas con saldo',  etiqueta: 'Entregada · con saldo', clase: 'estado-saldo' },
+      { id: 'completa',     nombre: 'Entregadas y pagadas',  etiqueta: '✓ Entregada y pagada',  clase: 'estado-entregada' },
+      { id: 'cancelada',    nombre: 'Canceladas',            etiqueta: 'Cancelada',             clase: 'estado-cancelada' },
+    ];
+    function categoriaDe(o) {
+      if (o.estado === 'cancelada') return CATEGORIAS[4];
+      const pagada = saldoDe(o) <= 0;
+      if (o.entregado) return pagada ? CATEGORIAS[3] : CATEGORIAS[2];
+      return pagada ? CATEGORIAS[1] : CATEGORIAS[0];
+    }
     const FILTROS = [
-      { id: 'todas',     nombre: 'Todas',           fn: o => true },
-      { id: 'saldo',     nombre: 'Saldo pendiente', fn: o => o.estado !== 'cancelada' && saldoDe(o) > 0 },
-      { id: 'pagadas',   nombre: 'Pagadas',         fn: o => o.estado !== 'cancelada' && !o.entregado && saldoDe(o) <= 0 },
-      { id: 'entregadas',nombre: 'Entregadas',      fn: o => o.entregado },
-      { id: 'canceladas',nombre: 'Canceladas',      fn: o => o.estado === 'cancelada', soloSiHay: true },
+      { id: 'todas', nombre: 'Todas', fn: o => true, siempre: true },
+      ...CATEGORIAS.map(c => ({ id: c.id, nombre: c.nombre, fn: o => categoriaDe(o) === c })),
     ];
 
     function linkAbono(o, saldo) {
@@ -126,18 +138,8 @@
       if (!dt) return '';
       return new Date(dt).toLocaleDateString('es-GT', { day: '2-digit', month: 'short', year: 'numeric' });
     }
-    function estadoClass(o) {
-      if (o.entregado) return 'estado-entregada';
-      if (o.estado === 'pagada') return 'estado-pagada';
-      if (o.estado === 'cancelada') return 'estado-cancelada';
-      return 'estado-proceso';
-    }
-    function estadoLabel(o) {
-      if (o.entregado) return '✓ Entregada';
-      if (o.estado === 'pagada') return 'Pagada';
-      if (o.estado === 'cancelada') return 'Cancelada';
-      return 'En proceso';
-    }
+    function estadoClass(o) { return categoriaDe(o).clase; }
+    function estadoLabel(o) { return categoriaDe(o).etiqueta; }
     function renderOrden(o) {
       const pagos = o.pagos || [];
       const abonado = pagos.reduce((s, p) => s + (p.monto || 0), 0);
@@ -206,7 +208,7 @@
       const el = document.getElementById('filtros');
       el.innerHTML = FILTROS
         .map(f => ({ ...f, n: ORDENES.filter(f.fn).length }))
-        .filter(f => !f.soloSiHay || f.n > 0)
+        .filter(f => f.siempre || f.n > 0 || f.id === FILTRO)
         .map(f => `<button class="filtro${f.id === FILTRO ? ' activo' : ''}" data-f="${f.id}">${f.nombre}<span class="filtro-n">${f.n}</span></button>`)
         .join('');
       el.style.display = '';
