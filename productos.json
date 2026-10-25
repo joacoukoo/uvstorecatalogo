@@ -44033,8 +44033,8 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-07-09",
-        "cantidad": "1",
-        "agotado": false
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "jiraiya-gamaken-mrcmemek",
