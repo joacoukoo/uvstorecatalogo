@@ -13,11 +13,6 @@
                     text-transform: uppercase; color: #7c3aed; margin-bottom: 4px; }
     .header-name { font-size: 20px; font-weight: 700; color: #fff; }
     .container { max-width: 600px; margin: 0 auto; padding: 0 12px; }
-    .herencia-banner { background: rgba(251,191,36,.1); border: 1px solid rgba(251,191,36,.3);
-                    border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; text-align: center; }
-    .herencia-banner-label { font-size: 12px; font-weight: 700;
-                          letter-spacing: .02em; color: #fbbf24; margin-bottom: 4px; }
-    .herencia-banner-val { font-size: 24px; font-weight: 800; color: #fbbf24; }
     .card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
             padding: 14px 16px; margin-bottom: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
@@ -62,10 +57,6 @@
         <div class="header-name" id="clienteNombre"></div>
       </div>
       <div class="container">
-        <div class="herencia-banner" id="herenciaBanner" style="display:none">
-          <div class="herencia-banner-label">🎉 Felicidades, tu herencia estimada es de</div>
-          <div class="herencia-banner-val" id="herenciaTotal"></div>
-        </div>
         <div id="ordenes"></div>
       </div>
     </div>
@@ -150,14 +141,6 @@
         document.getElementById('loading').style.display = 'none';
         document.getElementById('content').style.display = '';
         document.getElementById('clienteNombre').textContent = 'Hola, ' + data.cliente.nombre;
-
-        const totalHerencia = (data.ordenes || [])
-          .filter(o => o.entregado)
-          .reduce((sum, o) => sum + (o.precio_venta_gtq || 0), 0);
-        if (totalHerencia > 0) {
-          document.getElementById('herenciaBanner').style.display = '';
-          document.getElementById('herenciaTotal').textContent = fmtQ(totalHerencia);
-        }
 
         const cont = document.getElementById('ordenes');
         if (!data.ordenes.length) {
