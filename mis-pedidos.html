@@ -143,7 +143,8 @@
     function renderOrden(o) {
       const pagos = o.pagos || [];
       const abonado = pagos.reduce((s, p) => s + (p.monto || 0), 0);
-      const saldo = (o.precio_venta_gtq || 0) - abonado;
+      const cancelada = o.estado === 'cancelada';
+      const saldo = cancelada ? 0 : (o.precio_venta_gtq || 0) - abonado;
       const pagosHtml = pagos.length === 0 ? '' : `
         <details>
           <summary>Pagos registrados (${pagos.length})</summary>
@@ -174,7 +175,7 @@
             </div>
             <div class="monto-item">
               <div class="monto-label">Saldo</div>
-              <div class="monto-val ${saldo > 0 ? 'red' : 'green'}">${fmtQ(saldo)}</div>
+              <div class="monto-val ${cancelada ? '' : saldo > 0 ? 'red' : 'green'}">${fmtQ(saldo)}</div>
             </div>
           </div>
           ${o.estado !== 'cancelada' && saldo > 0 ? `
