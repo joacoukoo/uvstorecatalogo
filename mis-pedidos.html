@@ -32,6 +32,10 @@
     .rango-bar { height: 6px; background: #12141e; border-radius: 3px; overflow: hidden; }
     .rango-fill { height: 100%; background: var(--rc, #7c3aed); border-radius: 3px; }
     .rango-next { font-size: 11px; color: #9ca3af; margin-top: 5px; }
+    .fundador { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; padding: 12px 16px; border-radius: 10px;
+                background: linear-gradient(135deg, #2a2310, #1a1d27 70%); border: 1px solid #c9930a; }
+    .fundador-titulo { font-size: 15px; font-weight: 800; color: #f5c542; }
+    .fundador-texto { font-size: 12px; color: #d1c9a8; margin-top: 2px; }
     .card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
             padding: 14px 16px; margin-bottom: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
@@ -63,6 +67,10 @@
                 padding: 6px 0; border-top: 1px solid #1e2130; font-size: 12px; margin-top: 6px; }
     .pago-info  { color: #9ca3af; }
     .pago-monto { font-weight: 600; color: #34d399; }
+    .buscar { width: 100%; background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
+              color: #e8eaf0; font: inherit; font-size: 16px; padding: 10px 14px; margin-bottom: 10px; outline: none; }
+    .buscar:focus { border-color: #7c3aed; }
+    .buscar::placeholder { color: #6b7280; }
     .filtros { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
     .filtro { flex-shrink: 0; background: #1a1d27; border: 1px solid #2a2d3a; color: #9ca3af;
               font: inherit; font-size: 12px; font-weight: 600; padding: 7px 12px; border-radius: 20px; cursor: pointer; }
@@ -87,6 +95,8 @@
       </div>
       <div class="container">
         <div class="rango" id="rango" style="display:none"></div>
+        <div class="fundador" id="fundador" style="display:none"></div>
+        <input class="buscar" id="buscar" type="search" placeholder="🔍 Buscar figura o marca..." autocomplete="off" style="display:none">
         <div class="filtros" id="filtros" style="display:none"></div>
         <div id="ordenes"></div>
       </div>
@@ -94,11 +104,18 @@
     <div class="error" id="error" style="display:none"></div>
   </div>
 
-  <script src="/rangos.js?v=20261024"></script>
+  <script src="/rangos.js?v=20261025"></script>
   <script>
     const token = new URLSearchParams(location.search).get('t');
     const WA_TIENDA = '50230261622';
-    let ORDENES = [], CLIENTE = '', FILTRO = 'todas';
+    let ORDENES = [], CLIENTE = '', FILTRO = 'todas', BUSQUEDA = '';
+
+    const normalizar = t => (t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    // Órdenes que coinciden con la búsqueda; los filtros y contadores trabajan sobre esto.
+    function buscadas() {
+      const q = normalizar(BUSQUEDA).trim();
+      return q ? ORDENES.filter(o => normalizar(o.producto + ' ' + (o.marca || '')).includes(q)) : ORDENES;
+    }
 
     function saldoDe(o) {
       const abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
@@ -206,7 +223,7 @@
     function renderFiltros() {
       const el = document.getElementById('filtros');
       el.innerHTML = FILTROS
-        .map(f => ({ ...f, n: ORDENES.filter(f.fn).length }))
+        .map(f => ({ ...f, n: buscadas().filter(f.fn).length }))
         .filter(f => f.siempre || f.n > 0 || f.id === FILTRO)
         .map(f => `<button class="filtro${f.id === FILTRO ? ' activo' : ''}" data-f="${f.id}">${f.nombre}<span class="filtro-n">${f.n}</span></button>`)
         .join('');
@@ -215,11 +232,17 @@
 
     function renderOrdenes() {
       const f = FILTROS.find(x => x.id === FILTRO);
-      const lista = ORDENES.filter(f.fn);
+      const lista = buscadas().filter(f.fn);
       document.getElementById('ordenes').innerHTML = lista.length
         ? lista.map(renderOrden).join('')
-        : '<div class="empty">No hay pedidos en esta categoría.</div>';
+        : `<div class="empty">${BUSQUEDA.trim() ? 'No encontramos figuras con esa búsqueda.' : 'No hay pedidos en esta categoría.'}</div>`;
     }
+
+    document.getElementById('buscar').addEventListener('input', e => {
+      BUSQUEDA = e.target.value;
+      renderFiltros();
+      renderOrdenes();
+    });
 
     document.getElementById('filtros').addEventListener('click', e => {
       const b = e.target.closest('.filtro');
@@ -246,12 +269,20 @@
         document.getElementById('clienteNombre').textContent = 'Hola, ' + data.cliente.nombre;
 
         if ((data.ordenes || []).length) renderRango(data.ordenes);
+        if (data.cliente.fundador) {
+          const f = document.getElementById('fundador');
+          f.innerHTML = `${insigniaFundador(44)}
+            <div><div class="fundador-titulo">Coleccionista Fundador</div>
+            <div class="fundador-texto">Gracias por confiar en UV Store desde el principio</div></div>`;
+          f.style.display = '';
+        }
 
         ORDENES = data.ordenes || [];
         CLIENTE = data.cliente.nombre || '';
         if (!ORDENES.length) {
           document.getElementById('ordenes').innerHTML = '<div class="empty">No tenés pedidos registrados aún.</div>';
         } else {
+          if (ORDENES.length > 3) document.getElementById('buscar').style.display = '';
           renderFiltros();
           renderOrdenes();
         }

@@ -47,3 +47,24 @@ function insigniaRango(rango, size = 48) {
         fill="#ffffff" stroke="#0b0b12" stroke-width="3" paint-order="stroke" style="font-style:normal">UV</text>
 </svg>`;
 }
+
+// Insignia de Coleccionista Fundador: estrella dorada con UV, para los
+// clientes que compraron antes de 2022 (campo clientes.fundador).
+function insigniaFundador(size = 48) {
+  const g = 'fd' + (++_rangoSvgSeq);
+  const pts = [];
+  for (let i = 0; i < 10; i++) {
+    const a = -Math.PI / 2 + i * Math.PI / 5, rad = i % 2 ? 13.5 : 29;
+    pts.push((32 + rad * Math.cos(a)).toFixed(1) + ',' + (33 + rad * Math.sin(a)).toFixed(1));
+  }
+  return `<svg width="${size}" height="${size}" viewBox="0 0 64 64" role="img" aria-label="Coleccionista Fundador" style="flex-shrink:0;filter:drop-shadow(0 2px 6px #c9930a99)">
+  <defs>
+    <linearGradient id="${g}" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3b0"/><stop offset=".5" stop-color="#f5c542"/><stop offset="1" stop-color="#a86b00"/>
+    </linearGradient>
+  </defs>
+  <polygon points="${pts.join(' ')}" fill="url(#${g})" stroke="#0b0b12" stroke-width="3" stroke-linejoin="round"/>
+  <text x="32" y="40" text-anchor="middle" font-family="'Arial Black','Segoe UI',sans-serif" font-weight="900" font-size="15" letter-spacing="-1"
+        fill="#ffffff" stroke="#0b0b12" stroke-width="2.5" paint-order="stroke" style="font-style:normal">UV</text>
+</svg>`;
+}

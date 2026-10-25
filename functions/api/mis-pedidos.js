@@ -10,7 +10,7 @@ export async function onRequestGet({ env, request }) {
   };
 
   const cRes = await fetch(
-    `${base}/clientes?token=eq.${encodeURIComponent(token)}&select=id,nombre`,
+    `${base}/clientes?token=eq.${encodeURIComponent(token)}&select=id,nombre,fundador`,
     { headers }
   );
   if (!cRes.ok) return resp({ error: 'Error de base de datos' }, 500);
@@ -25,7 +25,7 @@ export async function onRequestGet({ env, request }) {
   if (!oRes.ok) return resp({ error: 'Error de base de datos' }, 500);
   const ordenes = await oRes.json();
 
-  return resp({ cliente: { nombre: cliente.nombre }, ordenes: ordenes || [] });
+  return resp({ cliente: { nombre: cliente.nombre, fundador: !!cliente.fundador }, ordenes: ordenes || [] });
 }
 
 function resp(data, status = 200) {
