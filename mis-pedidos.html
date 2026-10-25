@@ -62,6 +62,17 @@
                 padding: 6px 0; border-top: 1px solid #1e2130; font-size: 12px; margin-top: 6px; }
     .pago-info  { color: #9ca3af; }
     .pago-monto { font-weight: 600; color: #34d399; }
+    .filtros { display: flex; gap: 6px; overflow-x: auto; margin-bottom: 14px; padding-bottom: 2px;
+               scrollbar-width: none; }
+    .filtros::-webkit-scrollbar { display: none; }
+    .filtro { flex-shrink: 0; background: #1a1d27; border: 1px solid #2a2d3a; color: #9ca3af;
+              font: inherit; font-size: 12px; font-weight: 600; padding: 7px 12px; border-radius: 20px; cursor: pointer; }
+    .filtro.activo { background: #7c3aed; border-color: #7c3aed; color: #fff; }
+    .filtro-n { opacity: .7; margin-left: 3px; }
+    .btn-abono { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 10px;
+                 padding: 10px; border-radius: 8px; background: rgba(37,211,102,.12); border: 1px solid rgba(37,211,102,.35);
+                 color: #4ade80; font-size: 13px; font-weight: 700; text-decoration: none; }
+    .btn-abono:active { background: rgba(37,211,102,.22); }
     .empty   { text-align: center; padding: 60px 20px; color: #6b7280; }
     .error   { text-align: center; padding: 60px 20px; color: #f87171; }
     .loading { text-align: center; padding: 60px 20px; color: #6b7280; font-size: 14px; }
@@ -77,6 +88,7 @@
       </div>
       <div class="container">
         <div class="rango" id="rango" style="display:none"></div>
+        <div class="filtros" id="filtros" style="display:none"></div>
         <div id="ordenes"></div>
       </div>
     </div>
@@ -86,6 +98,26 @@
   <script src="/rangos.js?v=20261024"></script>
   <script>
     const token = new URLSearchParams(location.search).get('t');
+    const WA_TIENDA = '50230261622';
+    let ORDENES = [], CLIENTE = '', FILTRO = 'todas';
+
+    function saldoDe(o) {
+      const abonado = (o.pagos || []).reduce((s, p) => s + (p.monto || 0), 0);
+      return (o.precio_venta_gtq || 0) - abonado;
+    }
+    const FILTROS = [
+      { id: 'todas',     nombre: 'Todas',           fn: o => true },
+      { id: 'saldo',     nombre: 'Saldo pendiente', fn: o => o.estado !== 'cancelada' && saldoDe(o) > 0 },
+      { id: 'pagadas',   nombre: 'Pagadas',         fn: o => o.estado !== 'cancelada' && !o.entregado && saldoDe(o) <= 0 },
+      { id: 'entregadas',nombre: 'Entregadas',      fn: o => o.entregado },
+      { id: 'canceladas',nombre: 'Canceladas',      fn: o => o.estado === 'cancelada', soloSiHay: true },
+    ];
+
+    function linkAbono(o, saldo) {
+      const msg = `Hola UV Store 👋 Soy ${CLIENTE}. Quiero hacer un abono a mi figura *${o.producto || ''}*`
+        + ` (saldo pendiente ${fmtQ(saldo)}). ¿Me pasan los datos para transferencia o depósito?`;
+      return `https://wa.me/${WA_TIENDA}?text=${encodeURIComponent(msg)}`;
+    }
 
     function fmtQ(n) {
       return 'Q' + Number(n || 0).toLocaleString('es-GT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -143,6 +175,8 @@
               <div class="monto-val ${saldo > 0 ? 'red' : 'green'}">${fmtQ(saldo)}</div>
             </div>
           </div>
+          ${o.estado !== 'cancelada' && saldo > 0 ? `
+            <a class="btn-abono" href="${linkAbono(o, saldo)}" target="_blank" rel="noopener">💬 Quiero hacer un abono</a>` : ''}
           ${pagosHtml}
         </div>`;
     }
@@ -168,6 +202,32 @@
       el.style.display = '';
     }
 
+    function renderFiltros() {
+      const el = document.getElementById('filtros');
+      el.innerHTML = FILTROS
+        .map(f => ({ ...f, n: ORDENES.filter(f.fn).length }))
+        .filter(f => !f.soloSiHay || f.n > 0)
+        .map(f => `<button class="filtro${f.id === FILTRO ? ' activo' : ''}" data-f="${f.id}">${f.nombre}<span class="filtro-n">${f.n}</span></button>`)
+        .join('');
+      el.style.display = '';
+    }
+
+    function renderOrdenes() {
+      const f = FILTROS.find(x => x.id === FILTRO);
+      const lista = ORDENES.filter(f.fn);
+      document.getElementById('ordenes').innerHTML = lista.length
+        ? lista.map(renderOrden).join('')
+        : '<div class="empty">No hay pedidos en esta categoría.</div>';
+    }
+
+    document.getElementById('filtros').addEventListener('click', e => {
+      const b = e.target.closest('.filtro');
+      if (!b) return;
+      FILTRO = b.dataset.f;
+      renderFiltros();
+      renderOrdenes();
+    });
+
     async function load() {
       if (!token) {
         document.getElementById('loading').style.display = 'none';
@@ -186,11 +246,13 @@
 
         if ((data.ordenes || []).length) renderRango(data.ordenes);
 
-        const cont = document.getElementById('ordenes');
-        if (!data.ordenes.length) {
-          cont.innerHTML = '<div class="empty">No tenés pedidos registrados aún.</div>';
+        ORDENES = data.ordenes || [];
+        CLIENTE = data.cliente.nombre || '';
+        if (!ORDENES.length) {
+          document.getElementById('ordenes').innerHTML = '<div class="empty">No tenés pedidos registrados aún.</div>';
         } else {
-          cont.innerHTML = data.ordenes.map(renderOrden).join('');
+          renderFiltros();
+          renderOrdenes();
         }
       } catch(e) {
         document.getElementById('loading').style.display = 'none';
