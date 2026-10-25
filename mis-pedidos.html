@@ -13,6 +13,14 @@
                     text-transform: uppercase; color: #7c3aed; margin-bottom: 4px; }
     .header-name { font-size: 20px; font-weight: 700; color: #fff; }
     .container { max-width: 600px; margin: 0 auto; padding: 0 12px; }
+    .rango { display: flex; align-items: center; gap: 14px; background: #1a1d27;
+             border: 1px solid var(--rc, #2a2d3a); border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; }
+    .rango-info { flex: 1; min-width: 0; }
+    .rango-label { font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #6b7280; }
+    .rango-nombre { font-size: 20px; font-weight: 800; color: var(--rc, #fff); margin: 1px 0 8px; }
+    .rango-bar { height: 6px; background: #12141e; border-radius: 3px; overflow: hidden; }
+    .rango-fill { height: 100%; background: var(--rc, #7c3aed); border-radius: 3px; }
+    .rango-next { font-size: 11px; color: #9ca3af; margin-top: 5px; }
     .card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
             padding: 14px 16px; margin-bottom: 12px; }
     .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
@@ -57,12 +65,14 @@
         <div class="header-name" id="clienteNombre"></div>
       </div>
       <div class="container">
+        <div class="rango" id="rango" style="display:none"></div>
         <div id="ordenes"></div>
       </div>
     </div>
     <div class="error" id="error" style="display:none"></div>
   </div>
 
+  <script src="/rangos.js?v=20261024"></script>
   <script>
     const token = new URLSearchParams(location.search).get('t');
 
@@ -126,6 +136,27 @@
         </div>`;
     }
 
+    function renderRango(ordenes) {
+      const total = ordenes
+        .filter(o => o.estado !== 'cancelada')
+        .reduce((s, o) => s + (o.precio_venta_gtq || 0), 0);
+      const r = rangoPorMonto(total);
+      const prog = progresoRango(total);
+      const el = document.getElementById('rango');
+      el.style.setProperty('--rc', r.c1);
+      el.innerHTML = `
+        ${insigniaRango(r, 56)}
+        <div class="rango-info">
+          <div class="rango-label">Tu rango de coleccionista</div>
+          <div class="rango-nombre">${r.nombre}</div>
+          ${prog ? `
+            <div class="rango-bar"><div class="rango-fill" style="width:${prog.pct.toFixed(0)}%"></div></div>
+            <div class="rango-next">Próximo rango: ${prog.siguiente.nombre}</div>`
+          : `<div class="rango-next">Llegaste al rango máximo 👑</div>`}
+        </div>`;
+      el.style.display = '';
+    }
+
     async function load() {
       if (!token) {
         document.getElementById('loading').style.display = 'none';
@@ -141,6 +172,8 @@
         document.getElementById('loading').style.display = 'none';
         document.getElementById('content').style.display = '';
         document.getElementById('clienteNombre').textContent = 'Hola, ' + data.cliente.nombre;
+
+        if ((data.ordenes || []).length) renderRango(data.ordenes);
 
         const cont = document.getElementById('ordenes');
         if (!data.ordenes.length) {
