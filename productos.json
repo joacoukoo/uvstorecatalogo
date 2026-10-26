@@ -39270,6 +39270,92 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "gengar-diorama-statue-mvpivm7y",
+        "n": "Gengar Diorama Statue",
+        "i": "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e1a833f.jpg",
+        "franquicia": "Anime",
+        "marca": "Sideshow",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e1a833f.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5df4c7a1.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5dfbaf09.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e00f73d.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e05a8c1.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e0d22c4.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e15a13b.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e216aae.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e272dec.jpg",
+          "https://www.sideshow.com/storage/product-images/200695/sideshow-collectibles-pokemon-gengar-diorama-gallery-6acfa5e2cfdde.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La Gengar Diorama de Sideshow es una obra maestra de colección que reúne a la icónica tríada evolutiva de Pokémon fantasma en una escena aterradora llena de detalles artísticos excepcionales. Con una altura imponente de 36.8 cm, esta pieza premium captura la malevolencia púrpura de Gengar, Haunter y Gastly emergiendo de las sombras con efecto de niebla fantasmal, perfecta para coleccionistas exigentes que buscan la máxima calidad y presencia intimidante. Cada detalle está meticulosamente pintado en polystone de alta calidad, con texturas de corteza de árbol retorcida y musgo que crean una atmósfera verdaderamente perturbadora."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36.8 cm (14.5 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 23.3 cm (9.19 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 23.7 cm (9.35 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina de alta calidad) con pintura profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintado a mano con detalles artísticos excepcionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Premium Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Pokémon"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Basado en: Diseños de la serie animada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua diorama Gengar completamente pintada con Gastly y Haunter"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa de colección premium con acabado natural y texturas de piedra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de niebla fantasmal integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Árbol retorcido con detalles de musgo verde"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-26",
+        "reserva": "1540",
+        "entrega": "Feb. 2028",
+        "cantidad": "2"
+      },
+      {
         "id": "kiriko-1-6-statue-mvms2frr",
         "n": "Kiriko 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-KIRIKO.png?v=1792784470",
