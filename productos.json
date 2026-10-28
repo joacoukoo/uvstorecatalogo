@@ -10036,6 +10036,96 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "sentinel-jumbo-sofvi-collectible-figure-mvskdl16",
+        "n": "Sentinel Jumbo Sofvi Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21964c3ba8.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21964c3ba8.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21966b107d.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-scale-6ae21c291a1d5.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae219651a40e.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae2196569383.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21965bbfbb.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae2196616bd5.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae2196661392.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae219673281e.jpg",
+          "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21967aa075.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21968ea7a8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21968a20e8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae219698b79b.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae219798d4f8.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21979d7050.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae2197a2ba3c.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae2197aaa361.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae2197bb85c7.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El imponente Sentinel de Avengers: Doomsday en escala jumbo de 60cm, con acabados metálicos en púrpura y gris que capturan cada detalle de esta amenaza colosal. Cuenta con ojos LED intercambiables en verde y naranja, 18 puntos de articulación y placas intercambiables de cabeza y pecho para recrear tanto su forma íntegra como su versión dañada en batalla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinilo de desarrollo propio con componentes articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 18"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos LED recargables (verde y naranja)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura metálica púrpura y gris"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos placas de cara intercambiables (íntegra y dañada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos placas de pecho intercambiables (íntegra y dañada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Seis manos intercambiables (puños, manos abiertas, manos de ráfaga de energía)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura en miniatura de Doctor Doom (~11.5cm con base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de terreno rocoso"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-28",
+        "reserva": "880",
+        "entrega": "Dic. 2027",
+        "cantidad": "6"
+      },
+      {
         "id": "regan-macneil-1-6-figure-mvjyilmi",
         "n": "Regan MacNeil 1:6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/100514/sideshow-collectibles-the-exorcist-regan-macneil-sixth-scale-figure-gallery-6a750a376651c.jpg",
