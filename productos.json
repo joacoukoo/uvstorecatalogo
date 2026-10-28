@@ -39360,6 +39360,84 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "scooby-doo-and-shaggy-statue-mvskflio",
+        "n": "Scooby-Doo and Shaggy Statue",
+        "i": "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d241658cc.jpg",
+        "franquicia": "Otros",
+        "marca": "Sideshow",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d241658cc.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d241d4cc5.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d2424fef0.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d2429479e.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d242da14a.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d243547d9.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d2439a301.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d243e0155.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d24430dee.jpg",
+          "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d24476a61.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una magistral representación de la icónica dupla Scooby-Doo y Shaggy que captura la esencia de su legendaria amistad y las travesuras que los caracterizan. Fabricada por Sideshow con exquisita artesanía en resina y pintura manual, esta estatua de escala 1:6 presenta una composición dinámica llena de personalidad y movimiento. Una pieza imprescindible para coleccionistas de clásicos de la animación que buscan auténtica calidad de museo en sus colecciones."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 30-35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina artesanal de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado manual detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Scooby-Doo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1,5-2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Scooby-Doo y Shaggy Rogers"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática con detalles de relieve"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-28",
+        "reserva": "800",
+        "entrega": "Ene. 2028",
+        "cantidad": "2"
+      },
+      {
         "id": "lucy-heartfilia-1-6-figure-mvqxv0g3",
         "n": "Lucy Heartfilia 1:6 Figure",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20828/438820/2026-10-27_18.16.28__28992.1793096694.png",
