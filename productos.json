@@ -62399,6 +62399,101 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "mega-space-molly-1000-sweet-messages-bear-mvu125an",
+        "n": "Mega Space Molly 1000% Sweet Messages Bear",
+        "i": "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-gallery-6ae26de8db6a5.jpg",
+        "franquicia": "Otros",
+        "marca": "Pop Mart",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-gallery-6ae26de8db6a5.jpg",
+          "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-scale-6ae26dea6775f.jpg",
+          "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-gallery-6ae26de936524.jpg",
+          "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-gallery-6ae26de96b995.jpg",
+          "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-gallery-6ae26de9a2db7.jpg",
+          "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-gallery-6ae26de9da577.jpg",
+          "https://www.sideshow.com/storage/product-images/916238/pop-mart-molly-x-care-bears-mega-space-molly-1000-sweet-messages-bear-collectible-figure-gallery-6ae26dea1d073.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Sumérgate en un universo de ternura intergaláctica con Mega Space Molly 1000%, la figura coleccionable premium de POP MART que fusiona lo adorable con lo futurista. Con su distintiva textura de peluche suave, brazos articulables y accesorios removibles, esta joya de 70cm es el complemento imprescindible para toda colección de lujo. Autentica tu pieza exclusiva mediante la tecnología NFC integrada y disfruta de un diseño único que captura la magia del espacio en forma de oso cósmico."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 70 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1000%"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Peluche suave con articulaciones de resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazos: Totalmente articulables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco: Ajustable y removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Autenticación: Tecnología NFC integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000 g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figurina principal 1000% (70 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figurina compañera articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco removible ajustable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cámara portátil removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sobre de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manual de instrucciones detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Chip NFC de autenticación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "reserva": "2380",
+        "entrega": "Feb. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "mega-space-molly-1000-optimus-prime-mvu10mvw",
         "n": "Mega Space Molly 1000% Optimus Prime",
         "i": "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-gallery-6ae278dfd891f.jpg",
