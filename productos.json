@@ -10036,6 +10036,93 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "professor-x-1-6-figure-mvu0mybn",
+        "n": "Professor X 1:6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e74162f.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e74162f.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-scale-6a88678b19936.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e7bee84.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e81344d.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e85bab0.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865eb14623.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e8a5b19.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e8eeff8.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e944fcc.jpg",
+          "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e9d7671.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de colección premium que captura la esencia del Profesor X de Sir Patrick Stewart en Avengers: Doomsday. Con escultura de cabeza altamente detallada, ojos móviles y expresión facial impresionantemente realista, cada arruga y textura de piel ha sido meticulosamente recreada. Incluye silla de ruedas magnéticamente acoplable, múltiples manos intercambiables y traje táctico con los logos de los X-Men para una versatilidad de poses sin límites."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24,5 cm (incluida silla de ruedas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela y accesorios detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza con ojos rodantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado con 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables (relajadas, control de silla, poderes telepáticos, señalando, gesto abierto)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje táctico completo con chaqueta, camisa interior, pantalones y cinturón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Silla de ruedas con palanca articulada y ruedas giratorias"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartel de la Escuela para Jóvenes Superdotados de Xavier"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta gráfica temática de suelo de madera"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "preorden_mes": true,
+        "added_at": "2026-10-29",
+        "reserva": "700",
+        "entrega": "Dic. 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "sentinel-jumbo-sofvi-collectible-figure-mvskdl16",
         "n": "Sentinel Jumbo Sofvi Collectible Figure",
         "i": "https://www.sideshow.com/storage/product-images/915775/hot-toys-marvel-sentinel-collectible-figure-gallery-6ae21964c3ba8.jpg",
