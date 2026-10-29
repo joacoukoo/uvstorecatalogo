@@ -62399,6 +62399,109 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "mega-space-molly-1000-optimus-prime-mvu10mvw",
+        "n": "Mega Space Molly 1000% Optimus Prime",
+        "i": "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-gallery-6ae278dfd891f.jpg",
+        "franquicia": "Transformers",
+        "marca": "Pop Mart",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-gallery-6ae278dfd891f.jpg",
+          "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-scale-6ae278e108a0a.jpg",
+          "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-gallery-6ae278e02a57f.jpg",
+          "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-gallery-6ae278e065e33.jpg",
+          "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-gallery-6ae278e0a1da4.jpg",
+          "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-gallery-6ae278e0c82a9.jpg",
+          "https://www.sideshow.com/storage/product-images/9161652/pop-mart-molly-x-transformers-mega-space-molly-1000-optimus-prime-collectible-figure-silo.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una magistral fusión entre el icónico líder Autobot y la estética contemporánea de Space Molly de POP MART. Esta figura de colección de 1000% representa una reinterpretación audaz y única que captura la esencia de Optimus Prime en un formato artístico de edición limitada, perfecta para coleccionistas que buscan piezas premium que combinen franquicias legendarias con arte de diseño moderno."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 70 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1000% (MEGA)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinilo de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 2.5-3.5 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazos articulados y ajustables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco removible e intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles en colores rojo, azul, dorado y plateado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado premium con pintura aplicada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figurina principal Mega Space Molly Optimus Prime 1000%"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazos ajustables alternativos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cámara de video de mano removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sobre de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta guía de producto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de edición de coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "reserva": "2380",
+        "entrega": "Ene. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "molly-space-1000-stranger-things-mvu0yjz7",
         "n": "Molly Space 1000% Stranger Things",
         "i": "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e4e509f.jpg",
