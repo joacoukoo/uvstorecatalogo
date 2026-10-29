@@ -62399,6 +62399,100 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "molly-space-1000-stranger-things-mvu0yjz7",
+        "n": "Molly Space 1000% Stranger Things",
+        "i": "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e4e509f.jpg",
+        "franquicia": "Otros",
+        "marca": "Pop Mart",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "11900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e4e509f.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-scale-6ae270e7c00c2.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e527af8.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e567e1f.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e59fce4.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e5d7aac.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e61d5aa.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e67c614.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e6c9736.jpg",
+          "https://www.sideshow.com/storage/product-images/916239/pop-mart-molly-x-stranger-things-mega-space-molly-1000-stranger-things-collectible-figure-gallery-6ae270e7233ec.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La icónica Molly de Stranger Things se materializa en esta espectacular figura de colección a escala 1000% de POP MART, alcanzando los imponentes 70cm de altura. Con su traje espacial futurista detalladamente diseñado, brazos articulables y casco ajustable, esta pieza premium captura la esencia aventurera del personaje. Incluye cámara de video removible y certificación NFC auténtica, garantizando la verificación de autenticidad de tu colección de alto valor."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 70 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1000%"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y vinilo de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazos articulables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco ajustable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificación NFC integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado premium con detalles pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figurina Molly 1000% (70cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cámara de video removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco ajustable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta de coleccionista certificado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manual del producto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sobre de presentación premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sensor NFC para autenticación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "reserva": "2380",
+        "entrega": "Feb. 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "ohr-ein-sof-1-6-figure-set-mvtvr3st",
         "n": "Ohr & Ein & Sof 1:6 Figure Set",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439276/_2026-10-28_180222_159__42926.1793182057.jpg",
