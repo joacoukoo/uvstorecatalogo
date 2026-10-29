@@ -39447,6 +39447,64 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "wolverine-marvel-zombies-statue-mvu0ww2e",
+        "n": "Wolverine: Marvel Zombies Statue",
+        "i": "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae21077ea888.jpg",
+        "franquicia": "Marvel",
+        "marca": "Sideshow",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae21077ea888.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae210786a527.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae21078c579e.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae210791899d.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae210795e26e.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae21079b2660.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae2107a11e4f.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae2107a59d94.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae2107ab3500.jpg",
+          "https://www.sideshow.com/storage/product-images/200715/sideshow-collectibles-marvel-wolverine-marvel-zombies-statue-gallery-6ae2107b1e37b.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una interpretación aterradora del mutante más letal de Marvel transformado en zombie. Esta estatua de escala 1:4 captura a Wolverine en su forma más oscura, con detalles esculpidos meticulosamente y pintura que refleja su naturaleza corrupta. Perfecta para coleccionistas que buscan llevar el universo Marvel Zombies a su colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y pintura de calidad museo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Wolverine Zombie"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "reserva": "1460",
+        "entrega": "Feb. 2028",
+        "cantidad": "1"
+      },
+      {
         "id": "michael-myers-quarter-scale-statue-mvu0v6bc",
         "n": "Michael Myers Quarter Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/916241/pcs-halloween-michael-myers-quarter-scale-statue-gallery-6ae2666a10687.jpg",
