@@ -39360,6 +39360,898 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "tsukino-usagi-mizuno-ami-1-6-figure-mvtvr3sp",
+        "n": "Tsukino Usagi & Mizuno Ami 1:6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20870/439826/2026-10-29_18.20.26__53905.1793269284.png",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20870/439826/2026-10-29_18.20.26__53905.1793269284.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20870/439827/2026-10-29_18.20.15__48645.1793269289.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20870/439828/2026-10-29_18.20.21__37968.1793269294.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18654/385767/_2026-06-08_184249_124__00209.1780915592.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20723/436369/_2026-10-21_181920_135__00022.1792578153.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/9806/176269/381717239082_.pic_hd__97681.1717239415.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/15026/296994/_2025-09-12_160014_187__47162.1757664276.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/9812/176370/7ed3b8daed154060ca7acab4b7da0b0f__87190.1717401561.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Cdkey × PG Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "reserva": "740",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Tsukino Usagi: Figura vestida con traje blanco elegante."
+          },
+          {
+            "t": "notion-text",
+            "x": "Figuras de colección premium a escala 1:6 que capturan la elegancia y belleza de estos icónicos personajes de Sailor Moon. Cada figura presenta detalles meticulosos en el vestuario, accesorios y expresión facial, perfectas para coleccionistas exigentes. Esculturas artísticas de alta calidad que rinden homenaje a estas legendarias heroínas del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 28-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-cdkey-pg-studio-1-6-tsukino-usagi-mizuno-ami/",
+        "entrega": "Q1 2027",
+        "label_base": "Tsukino Usagi",
+        "variantes": [
+          {
+            "label": "Mizuno Ami",
+            "precio": "3700",
+            "reserva": "740",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Mizuno Ami: Figura vestida con traje azul elegante."
+              },
+              {
+                "t": "notion-text",
+                "x": "Figuras de colección premium a escala 1:6 que capturan la elegancia y belleza de estos icónicos personajes de Sailor Moon. Cada figura presenta detalles meticulosos en el vestuario, accesorios y expresión facial, perfectas para coleccionistas exigentes. Esculturas artísticas de alta calidad que rinden homenaje a estas legendarias heroínas del anime."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina PVC"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura aproximada: 28-30 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Acabado pintado a mano"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura articulada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base de exhibición"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios intercambiables"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eldreda-sunbringer-1-6-figure-mvtvr3sq",
+        "n": "Eldreda Sunbringer 1/6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439788/_2026-10-29_174002_494__35961.1793267056.png",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439788/_2026-10-29_174002_494__35961.1793267056.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439789/_2026-10-29_174013_071__63492.1793267054.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439783/_2026-10-29_174004_236__55027.1793267044.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439784/_2026-10-29_174011_393__01403.1793267044.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439785/_2026-10-29_174007_638__09486.1793267046.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439786/_2026-10-29_174005_835__96954.1793267046.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20868/439787/_2026-10-29_174009_744__70225.1793267047.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18714/386991/_2026-06-11_170056_296__39339.1781168755.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19262/400805/_2026-07-17_214843_274__47050.1784296263.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18006/369403/_2026-04-23_175040_267__65602.1776937983.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Galaxy Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4700",
+        "reserva": "940",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de Eldreda Sunbringer a escala 1:6 con un acabado premium y detalles extraordinarios. Presenta la armadura negra y la capa azul flotante característica del personaje, junto con su arma ceremonial de batalla. Una pieza imprescindible para coleccionistas que buscan capturar la esencia épica de este guerrero."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y PVC articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base con efectos de energía azul"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arma principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica con efectos luminosos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas intercambiables de manos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-galaxy-studio-1-6-eldreda-sunbringer/",
+        "entrega": "Q2 2027"
+      },
+      {
+        "id": "reze-1-6-figure-mvtvr3sq",
+        "n": "Reze 1/6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20864/439635/_2026-10-29_155931_967__08498.1793261035.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20864/439635/_2026-10-29_155931_967__08498.1793261035.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20864/439636/_2026-10-29_155945_816__77337.1793261037.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20864/439637/_2026-10-29_155943_666__85670.1793261037.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20864/439638/_2026-10-29_155930_442__07827.1793261038.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20048/419594/IMG_3439__12901.1788789113.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/16965/344109/IMG_2639__93725.1769848618.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19885/415704/2026-08-28_17.48.36__16187.1787910586.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17148/349147/_2026-02-13_195054_715__59835.1770984062.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18985/394054/_2026-07-01_190222_306__56035.1782904036.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19709/411211/_2026-08-17_191811_593__79586.1786965662.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Spira Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "reserva": "740",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión 1:6: Escala 1:6."
+          },
+          {
+            "t": "notion-text",
+            "x": "Figura premium de Reze con detallado atuendo gótico y accesorios icónicos. Captura la esencia del personaje con una pose dinámica y expresión cautivadora. Disponible en dos escalas para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 / 1:4 seleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base incluida con temática urbana"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altamente detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios varios"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-spira-studio-1-6-1-4-reze/",
+        "entrega": "Q3 2027",
+        "label_base": "1:6",
+        "variantes": [
+          {
+            "label": "1:4",
+            "precio": "4700",
+            "reserva": "940",
+            "escala": "1:4",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión 1:4: Escala 1:4."
+              },
+              {
+                "t": "notion-text",
+                "x": "Figura premium de Reze con detallado atuendo gótico y accesorios icónicos. Captura la esencia del personaje con una pose dinámica y expresión cautivadora. Disponible en dos escalas para coleccionistas exigentes."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6 / 1:4 seleccionable"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: PVC/Resina"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base incluida con temática urbana"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altamente detallado"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura principal"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base decorativa"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios varios"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "talia-yang-cyberpunk-edgerunners-1-6-figura-mvtvr3ss",
+        "n": "Talia Yang Cyberpunk: Edgerunners 1/6 Figura",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439447/3__17295.1793251228.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439447/3__17295.1793251228.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439455/1__36441.1793251220.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439454/11__65454.1793251223.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439453/10__96446.1793251227.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439451/5__95371.1793251215.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439446/6__82805.1793251190.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439448/4__29847.1793251193.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439449/9__32948.1793251197.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439450/8__90900.1793251199.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20856/439452/7__24303.1793251202.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Dusk × Bard Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4500",
+        "reserva": "900",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión 1:6: Escala 1:6."
+          },
+          {
+            "t": "notion-text",
+            "x": "Talia Yang cobra vida en esta espectacular figura de colección que captura su esencia futurista con un nivel de detalle extraordinario. La combinación de armadura cibernética, armas sofisticadas y su icónico cabello rosa crea una pieza visualmente impactante. Disponible en dos escalas para adaptarse a tu colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 o 1:4 (seleccionable)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC / Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Escénica iluminada en rosa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Variable según escala"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye accesorios múltiples"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pistola futurista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Látigo energético"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica iluminada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-dusk-bard-studio-cyberpunk-edgerunners-2-1-6-1-4-talia-yang/",
+        "entrega": "Q2 2027",
+        "label_base": "1:6",
+        "variantes": [
+          {
+            "label": "1:4",
+            "precio": "6200",
+            "reserva": "1240",
+            "escala": "1:4",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión 1:4: Escala 1:4."
+              },
+              {
+                "t": "notion-text",
+                "x": "Talia Yang cobra vida en esta espectacular figura de colección que captura su esencia futurista con un nivel de detalle extraordinario. La combinación de armadura cibernética, armas sofisticadas y su icónico cabello rosa crea una pieza visualmente impactante. Disponible en dos escalas para adaptarse a tu colección."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6 o 1:4 (seleccionable)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: PVC / Resina"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base: Escénica iluminada en rosa"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: Variable según escala"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Incluye accesorios múltiples"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura articulada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Pistola futurista"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Látigo energético"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base escénica iluminada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios intercambiables"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lucy-cyberpunk-edgerunners-statue-1-5-mvtvr3ss",
+        "n": "Lucy Cyberpunk Edgerunners Statue 1:5",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439429/_2026-10-28_205045_536__52418.1793192421.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439429/_2026-10-28_205045_536__52418.1793192421.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439422/_2026-10-28_205054_465__66118.1793192411.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439423/_2026-10-28_205051_947__54870.1793192413.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439424/_2026-10-28_205053_108__00027.1793192414.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439425/_2026-10-28_205049_601__65861.1793192414.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439426/_2026-10-28_205050_814__42856.1793192414.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439427/_2026-10-28_205048_431__38034.1793192414.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20855/439428/_2026-10-28_205047_164__73421.1793192414.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/13138/247801/488101629_1079472247556272_6750871806249592529_n__51793.1743751695.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18901/391895/_2026-06-25_181348_349__39581.1782382568.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Prime 1 Studio",
+        "escala": "1:5",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "12000",
+        "reserva": "2400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Regular: Estatua base con iluminación LED."
+          },
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Lucy del universo Cyberpunk Edgerunners a escala 1:5, capturada en toda su gloria futurista con detalles impresionantes. Presenta iluminación LED integrada que realza su presencia cyberpunk. Una pieza de colección magistral que recrea el espíritu rebelde del personaje en una escala monumental."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 50-60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:5"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina artesanal pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática iluminada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Lucy con outfit cyberpunk"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-prime-1-studio-1-5-cyberpunk-lucy/",
+        "entrega": "Q1-Q2 2028",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Bonus",
+            "precio": "14000",
+            "reserva": "2800",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Bonus: Estatua base con iluminación LED y accesorios adicionales."
+              },
+              {
+                "t": "notion-text",
+                "x": "Estatua premium de Lucy del universo Cyberpunk Edgerunners a escala 1:5, capturada en toda su gloria futurista con detalles impresionantes. Presenta iluminación LED integrada que realza su presencia cyberpunk. Una pieza de colección magistral que recrea el espíritu rebelde del personaje en una escala monumental."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: aproximadamente 50-60 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:5"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina artesanal pintada a mano"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base temática iluminada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua de Lucy con outfit cyberpunk"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base con iluminación LED"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios temáticos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "h-r-giger-s-alien-statue-mvtvr3st",
+        "n": "H.R. Giger's Alien Statue",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439328/_2026-10-28_190801_819__94293.1793186543.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439328/_2026-10-28_190801_819__94293.1793186543.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439316/_2026-10-28_190823_494__40838.1793186506.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439317/_2026-10-28_190820_621__48375.1793186507.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439329/_2026-10-28_190759_436__54610.1793186532.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439330/_2026-10-28_190803_682__62134.1793186538.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439318/_2026-10-28_190834_690__24075.1793186510.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439319/_2026-10-28_190836_500__34317.1793186510.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439320/_2026-10-28_190830_160__01420.1793186510.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439321/_2026-10-28_190831_648__69094.1793186510.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20854/439322/_2026-10-28_190828_338__16089.1793186510.jpg"
+        ],
+        "franquicia": "Alien",
+        "marca": "Deep Tale Studio",
+        "escala": "1:3",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "26400",
+        "reserva": "5280",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Réplica monumental del icónico Xenomorfo de H.R. Giger a escala 1:3, que captura cada detalle anatómico del diseño original con precisión artística. Esta pieza de colección representa la maestría biomecánica del artista suizo, mostrando la estructura ósea, muscular y visceral del ser más terrorífico del cine de ciencia ficción. Una adquisición imprescindible para coleccionistas que reverencian el horror clásico y el diseño conceptual revolucionario."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con acabados en múltiples tonos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua del Xenomorfo"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-deep-tale-studio-1-3-h-r-giger-s-alien/",
+        "entrega": "Q3 2027"
+      },
+      {
+        "id": "gogeta-bust-mvtvr3st",
+        "n": "Gogeta Bust",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20853/439304/_2026-10-28_181205_204__94281.1793182675.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20853/439304/_2026-10-28_181205_204__94281.1793182675.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20853/439301/_2026-10-28_181201_346__86427.1793182670.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20853/439302/_2026-10-28_181202_678__58906.1793182670.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20853/439303/_2026-10-28_181203_847__17813.1793182670.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20853/439305/_2026-10-28_181206_473__47865.1793182670.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18725/387438/_2026-06-12_132311_972__99554.1781242740.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/15640/366449/_2026-04-16_161936_704__21084.1776327638.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18870/391062/_2026-06-23_195816_431__34020.1782217434.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20140/421929/_2026-09-14_160319_299__43437.1789373284.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17368/353905/_2026-03-10_144005_316__91061.1773124932.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "FXW × FER Studio",
+        "escala": "1:5",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "reserva": "540",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión 1:5 Yellow: Escala 1:5, cabello amarillo Super Saiyan, aura naranja y azul."
+          },
+          {
+            "t": "notion-text",
+            "x": "Espectacular busto de Gogeta en dos escalas y versiones de color que capturan la esencia del guerrero supremo de Dragon Ball. Cada pieza destaca por sus detalles musculares exquisitos, el halo celestial y la base temática con efectos energéticos. Una adición imprescindible para coleccionistas que demandan calidad premium y precisión artística."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm (1:5) / 46 cm (1:1 aproximado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:5 o 1:1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto de Gogeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con efectos energéticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Halo celestial"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-fxw-fer-studio-1-5-1-1-ss-gogeta-bust/",
+        "entrega": "TBD",
+        "label_base": "1:5 Yellow",
+        "variantes": [
+          {
+            "label": "1:5 Blue",
+            "precio": "2700",
+            "reserva": "540",
+            "escala": "1:1",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión 1:5 Blue: Escala 1:5, cabello azul Super Saiyan Blue, aura azul y cian."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular busto de Gogeta en dos escalas y versiones de color que capturan la esencia del guerrero supremo de Dragon Ball. Cada pieza destaca por sus detalles musculares exquisitos, el halo celestial y la base temática con efectos energéticos. Una adición imprescindible para coleccionistas que demandan calidad premium y precisión artística."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 23 cm (1:5) / 46 cm (1:1 aproximado)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:5 o 1:1"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina de alta calidad con pintura artesanal"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Busto de Gogeta"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base temática con efectos energéticos"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Halo celestial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dark-moon-ring-statue-mvtvr3st",
+        "n": "Dark Moon Ring Statue",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20850/439242/_2026-10-28_175826_581__35654.1793181706.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20850/439242/_2026-10-28_175826_581__35654.1793181706.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20850/439241/_2026-10-28_175825_234__31210.1793181700.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18788/388986/_2026-06-16_154817_282__40303.1781596846.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20681/435233/_2026-10-20_133302_879__16450.1792475029.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/3634/54582/127281628831633_.pic_hd__40646.1628832250.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19899/416005/_2026-08-28_215504_542__95987.1787925510.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20305/426073/_20260924131420_1425_10__11958.1790228503.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "LP Studio",
+        "escala": "1:1",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1100",
+        "reserva": "220",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Un anillo inspirado en la luna oscura, meticulosamente recreado a escala 1:1 con detalles ornamentales de lujo. Esta pieza de colección premium captura la elegancia gótica y mística con una piedra azul profunda engarzada en un elaborado marco de plata. Una joya de fantasía perfecta para coleccionistas que buscan piezas únicas y detalladas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Metal plateado con resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piedra central: Azul cristalizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño: Ornamental detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anillo Dark Moon"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-lp-studio-1-1-dark-moon-ring/",
+        "entrega": "Q1 2027"
+      },
+      {
+        "id": "murong-ziying-1-4-statue-mvtvr3st",
+        "n": "Murong Ziying 1:4 Statue",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439214/_2026-10-28_174430_191__97930.1793181436.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439214/_2026-10-28_174430_191__97930.1793181436.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439208/_2026-10-28_174438_289__82048.1793181435.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439216/_2026-10-28_174445_380__34602.1793181421.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439213/_2026-10-28_174436_972__87468.1793181431.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439205/_2026-10-28_174444_048__02075.1793181331.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439206/_2026-10-28_174435_490__80322.1793181334.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439207/_2026-10-28_174439_513__52558.1793181338.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439209/_2026-10-28_174440_729__51721.1793181339.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439210/_2026-10-28_174431_664__59656.1793181340.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20849/439211/_2026-10-28_174432_948__40150.1793181341.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "STAREXVA Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8800",
+        "reserva": "1760",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Regular: Versión estándar."
+          },
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua premium de Murong Ziying de Sword and Fairy 4 a escala 1:4, capturando su elegancia y poder con una factura impecable. Presenta un magnífico traje azul y blanco con detalles intrincados, pose dinámica y accesorios temáticos que destacan su condición de guerrera celestial. Una pieza de colección imprescindible para los aficionados de la franquicia de fantasía oriental."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y accesorios premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura hand-painted de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arma del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-starexva-studio-1-4-sword-and-fairy-4-murong-ziying-licensed/",
+        "entrega": "Q3-Q4 2027",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Ex",
+            "precio": "9800",
+            "reserva": "1960",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Ex: Versión extendida con accesorios adicionales."
+              },
+              {
+                "t": "notion-text",
+                "x": "Espectacular estatua premium de Murong Ziying de Sword and Fairy 4 a escala 1:4, capturando su elegancia y poder con una factura impecable. Presenta un magnífico traje azul y blanco con detalles intrincados, pose dinámica y accesorios temáticos que destacan su condición de guerrera celestial. Una pieza de colección imprescindible para los aficionados de la franquicia de fantasía oriental."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:4"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina y accesorios premium"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Acabado: Pintura hand-painted de alta calidad"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura principal"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base temática"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Arma del personaje"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "scooby-doo-and-shaggy-statue-mvskflio",
         "n": "Scooby-Doo and Shaggy Statue",
         "i": "https://www.sideshow.com/storage/product-images/700261/sideshow-collectibles-scooby-doo-scooby-doo-and-shaggy-statue-gallery-6ae0d241658cc.jpg",
@@ -60603,6 +61495,64 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "ohr-ein-sof-1-6-figure-set-mvtvr3st",
+        "n": "Ohr & Ein & Sof 1:6 Figure Set",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439276/_2026-10-28_180222_159__42926.1793182057.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439276/_2026-10-28_180222_159__42926.1793182057.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439275/_2026-10-28_180225_541__28937.1793182056.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439271/_2026-10-28_180223_834__97175.1793182020.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439272/_2026-10-28_180218_515__66365.1793182030.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439273/_2026-10-28_180216_447__08805.1793182034.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20851/439274/_2026-10-28_180220_165__29384.1793182035.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20513/431306/_2026-10-09_150410_519__65911.1791530152.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20710/436021/_2026-10-21_151658_162___42738.1792567880.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20514/431326/_2026-10-09_151652_955___20686.1791530496.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20711/436034/_2026-10-21_153443_915__72711.1792568559.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Mili Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4400",
+        "reserva": "880",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Conjunto de tres figuras articuladas 1:6 de exquisita factura que capturan la esencia de estos personajes con detalles meticulosos en sus trajes blanco y negro. Cada figura presenta accesorios únicos y posturas dinámicas que reflejan sus personalidades distintas. Una adquisición imprescindible para coleccionistas de figuras premium de alta calidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye: Base de presentación individual para cada figura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres figuras articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bases de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-mili-studio-1-6-ohr-ein-sof/",
+        "entrega": "Q2 2027"
+      },
+      {
         "id": "tsaritsa-anastasya-1-6-figure-mvqxv0g5",
         "n": "Tsaritsa Anastasya 1/6 Figure",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20815/438539/_2026-10-27_152729_362__54733.1793086420.jpg",
@@ -70282,6 +71232,762 @@
   "Adultos": {
     "slug": "adultos",
     "products": [
+      {
+        "id": "cynthia-lucario-1-6-figure-mvtvr3sq",
+        "n": "Cynthia & Lucario 1:6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439760/IMG_20261028_145629_052___21168.1793264714.png",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439760/IMG_20261028_145629_052___21168.1793264714.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439757/IMG_20261028_145629_052__60721.1793264696.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439750/IMG_20261028_145628_297__44375.1793264675.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439751/IMG_20261028_145628_202__27946.1793264676.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439752/IMG_20261028_145628_969__71462.1793264678.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439753/IMG_20261028_145628_487__69245.1793264679.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439754/IMG_20261028_145628_722__26886.1793264679.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439755/IMG_20261028_145628_611__22749.1793264679.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439756/IMG_20261028_145628_908__31158.1793264679.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20867/439758/IMG_20261028_145628_889__11913.1793264679.png"
+        ],
+        "franquicia": "Anime",
+        "marca": "Beast Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3900",
+        "reserva": "780",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de colección que captura a Cynthia y su compañero Lucario en una escena íntima y detallada. Con acabados de lujo en pintura y texturas, esta pieza de 1:6 demuestra el dominio artístico de Beast Studio en la escultura de figuras de alta gama. Un must-have para coleccionistas adultos que aprecian la calidad y el arte."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tamaño: Aproximadamente 20-25 cm (estimado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Cynthia"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Lucario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-beast-studio-1-6-cynthia-lucario/",
+        "entrega": "Q3 2027"
+      },
+      {
+        "id": "mifuyu-yukino-1-6-figure-mvtvr3sq",
+        "n": "Mifuyu Yukino 1:6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439661/9__89447.1793261642.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439661/9__89447.1793261642.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439657/7__04758.1793261626.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439650/16__91019.1793261629.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439662/12__13161.1793261640.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439648/17__70914.1793261538.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439649/15__50513.1793261538.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439651/14__41790.1793261540.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439652/2__55887.1793261542.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439653/4__47354.1793261542.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20865/439654/3__31267.1793261542.jpg"
+        ],
+        "franquicia": "Adultos",
+        "marca": "BieMa Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "reserva": "680",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium 1:6 de Mifuyu Yukino con acabados de alta calidad y detalles meticulosos. Presenta un traje de sirvienta clásico con accesorios y base decorativa dorada. Pieza destacada para coleccionistas de figuras de escala 1:6."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Dorada con detalles ornamentales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-biema-studio-1-6-mifuyu-yukino/",
+        "entrega": "Jan 2027"
+      },
+      {
+        "id": "kitagawa-marin-1-6-figure-mvtvr3sq",
+        "n": "Kitagawa Marin 1:6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20863/439626/_2026-10-29_155451_435__87713.1793260733.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20863/439626/_2026-10-29_155451_435__87713.1793260733.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20863/439623/_2026-10-29_155454_018__09047.1793260676.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20863/439624/_2026-10-29_155452_802__26281.1793260719.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20863/439625/_2026-10-29_155501_233__93927.1793260724.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18758/388203/_2026-06-13_201833_385__48967.1781353455.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18914/392223/_2026-06-26_175615_155__30803.1782468270.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18422/379632/_2026-05-25_154701_102__59045.1779695643.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/14001/270602/02db3b0d4f14fa6308f390fe9f6e4414__13961.1750688776.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18328/377095/2026-05-18_14.48.23__41036.1779086944.png"
+        ],
+        "franquicia": "Anime",
+        "marca": "Gaia Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "reserva": "680",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium 1:6 de Kitagawa Marin con acabados de lujo y detalles meticulosos. Captura la elegancia y el carisma del personaje en una escala coleccionable de alta calidad. Pieza imprescindible para los fans de anime con exigentes estándares de detalle."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 28-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: resina PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-gaia-studio-1-6-kitagawa-marin/",
+        "entrega": "Q1 2027"
+      },
+      {
+        "id": "moria-ruruka-1-6-figure-mvtvr3sr",
+        "n": "Moria Ruruka 1:6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20862/439616/_2026-10-29_154501_249___20792.1793260462.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20862/439616/_2026-10-29_154501_249___20792.1793260462.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20862/439614/_2026-10-29_154501_249__37509.1793260321.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20862/439615/_2026-10-29_154502_532__15147.1793260311.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18165/373218/_2026-05-07_141519_934__63210.1778134775.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19029/395027/_2026-07-03_180903_667__85770.1783073635.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20170/422624/_1__93479.1789535738.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18203/374143/_2026-05-09_164139_038__70644.1778316376.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20610/433494/_2026-10-14_184006_106__95524.1791974691.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Mili Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "reserva": "640",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Regular: Figura vestida con uniforme escolar."
+          },
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium 1:6 de Moria Ruruka con acabados detallados y pintura de alta calidad. Captura la esencia del personaje con expresiones faciales naturales y poses dinámicas. Disponible en múltiples opciones para completar tu colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MiLi Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 27-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-mili-studio-1-6-moria-ruruka/",
+        "entrega": "Q2 2027",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Nude",
+            "precio": "3200",
+            "reserva": "640",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Nude: Figura sin ropa."
+              },
+              {
+                "t": "notion-text",
+                "x": "Figura de colección premium 1:6 de Moria Ruruka con acabados detallados y pintura de alta calidad. Captura la esencia del personaje con expresiones faciales naturales y poses dinámicas. Disponible en múltiples opciones para completar tu colección."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Fabricante: MiLi Studio"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: PVC/Resina"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura aproximada: 27-30 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura articulada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios intercambiables"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base de exhibición"
+              }
+            ]
+          },
+          {
+            "label": "Both",
+            "precio": "5800",
+            "reserva": "1160",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Both: Ambas versiones, vestida y sin ropa."
+              },
+              {
+                "t": "notion-text",
+                "x": "Figura de colección premium 1:6 de Moria Ruruka con acabados detallados y pintura de alta calidad. Captura la esencia del personaje con expresiones faciales naturales y poses dinámicas. Disponible en múltiples opciones para completar tu colección."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Fabricante: MiLi Studio"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: PVC/Resina"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura aproximada: 27-30 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura articulada"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios intercambiables"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base de exhibición"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "angel-of-darkness-umbra-1-6-figure-mvtvr3sr",
+        "n": "Angel of Darkness Umbra 1:6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20861/439594/14__94296.1793259888.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20861/439594/14__94296.1793259888.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20861/439592/10__42333.1793259808.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20861/439593/13__37993.1793259808.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19085/396315/_2026-07-07_202953_418__37276.1783427407.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/8799/154915/nor_02__61523.1703751558.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20096/420810/2026-09-10_17.54.47__03759.1789034106.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18367/378144/_2026-05-20_152948_841__83326.1779262408.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20099/420862/_2026-09-10_203949_441__62235.1789044150.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Danny's Magic House Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5900",
+        "reserva": "1180",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de colección 1:6 que representa al Angel of Darkness Umbra con un nivel de detalle y acabado excepcional. Diseño artístico de alto impacto que captura la esencia oscura y misteriosa del personaje. Pieza imprescindible para coleccionistas que aprecian el arte figura adulto de calidad superior."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y telas de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios articulados y detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios y detalles artísticos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-danny-s-magic-house-studio-1-6-angel-of-darkness-umbra/",
+        "entrega": "Q1 2027"
+      },
+      {
+        "id": "hikari-kuroda-1-5-statue-mvtvr3ss",
+        "n": "Hikari Kuroda 1:5 Statue",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439532/2026-10-29_14.25.14__08225.1793255815.png",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439532/2026-10-29_14.25.14__08225.1793255815.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439529/2026-10-29_14.25.08__96818.1793255425.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439530/2026-10-29_14.25.21__19541.1793255431.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439531/2026-10-29_14.25.35__29678.1793255440.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439525/2026-10-29_14.25.29__96258.1793255436.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439523/2026-10-29_14.26.09__16480.1793255408.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439524/2026-10-29_14.26.03__28628.1793255409.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439526/2026-10-29_14.26.16__84865.1793255411.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439527/2026-10-29_14.25.42__31776.1793255411.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20858/439528/2026-10-29_14.25.57__50133.1793255412.png"
+        ],
+        "franquicia": "Otros",
+        "marca": "Nocturne Studio",
+        "escala": "1:5",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "reserva": "920",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Nocturne Studio que captura con detalle excepcional a Hikari Kuroda en una pose cautivadora. Escultura artesanal de alta calidad que destaca por su acabado realista y proporciones anatómicas precisas. Una pieza de exhibición para coleccionistas que aprecian el arte figurativo de nivel superior."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 35-40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:5"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-nocturne-studio-1-5-hikari-kuroda/",
+        "entrega": "Q1-Q2 2027"
+      },
+      {
+        "id": "sparxie-1-6-figure-mvtvr3ss",
+        "n": "Sparxie 1/6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439576/_2026-10-29_153458_206__04269.1793259567.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439576/_2026-10-29_153458_206__04269.1793259567.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439575/_2026-10-29_153459_675__76093.1793259563.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439574/_2026-10-29_153500_849__44805.1793259560.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439573/_2026-10-29_153503_323__64601.1793259566.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439571/_2026-10-29_153504_634__86189.1793259558.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439572/_2026-10-29_153506_402__61109.1793259552.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20860/439577/_2026-10-29_153502_119__76664.1793259552.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18410/379287/_2026-05-23_164334_217__79698.1779526038.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18346/377567/_2026-05-19_151047_251__98957.1782893239.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18033/370049/_2026-04-25_165116_737__41940.1777107570.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Lemon Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "reserva": "640",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de colección en escala 1/6 que captura todos los detalles de este personaje con una calidad excepcional. Perfecta para coleccionistas que buscan piezas artísticas de alta gama con acabados profesionales y atención meticulosa."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Lemon Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y componentes premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura aproximada: 25-30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios incluidos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-lemon-studio-1-6-sparxie/",
+        "entrega": "Q2 2027"
+      },
+      {
+        "id": "nurse-sisters-reze-makima-1-6-figure-mvtvr3ss",
+        "n": "Nurse Sisters Reze & Makima 1:6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20857/439481/2026-10-29_13.31.42__48764.1793252047.png",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20857/439481/2026-10-29_13.31.42__48764.1793252047.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20857/439482/_2026-10-29_132615_397__70799.1793252052.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20857/439479/_2026-10-29_132613_736__44938.1793252009.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20857/439480/_2026-10-29_132607_289__45227.1793252027.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20857/439484/_2026-10-29_132617_216__40367.1793252061.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20857/439483/_2026-10-29_132610_203__41648.1793252057.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19563/407726/IMG_20260807_142553_213___71841.1786092379.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/15396/306149/_2025-10-15_181406_954__67531.1760523305.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/15175/300825/_2025-09-25_131440_101__93079.1758777491.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/16474/331218/IMG_4503___23769.1766392824.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "VIVI Creation Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "reserva": "700",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Reze: Personaje Reze con uniforme de enfermera blanco."
+          },
+          {
+            "t": "notion-text",
+            "x": "Figuras coleccionables de 1:6 de alta calidad que traen a la vida a estos personajes en versiones temáticas de enfermeras. Cada figura destaca por su escultura detallada, pintura premium y accesorios cuidadosamente diseñados. Una adición imprescindible para coleccionistas de figuras premium adultas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, resina y textiles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bases temáticas incluidas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios médicos detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios médicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas intercambiables opcionales"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-vivi-creation-studio-1-6-nurse-sisters-reze-makima/",
+        "entrega": "Q2 2027",
+        "label_base": "Reze",
+        "variantes": [
+          {
+            "label": "Makima",
+            "precio": "3500",
+            "reserva": "700",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Makima: Personaje Makima con uniforme de enfermera negro."
+              },
+              {
+                "t": "notion-text",
+                "x": "Figuras coleccionables de 1:6 de alta calidad que traen a la vida a estos personajes en versiones temáticas de enfermeras. Cada figura destaca por su escultura detallada, pintura premium y accesorios cuidadosamente diseñados. Una adición imprescindible para coleccionistas de figuras premium adultas."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: PVC, resina y textiles"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Bases temáticas incluidas"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios médicos detallados"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura principal"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base de exhibición temática"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios médicos"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Piezas intercambiables opcionales"
+              }
+            ]
+          },
+          {
+            "label": "Set Completo",
+            "precio": "6800",
+            "reserva": "1360",
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Set Completo: Ambos personajes Reze y Makima."
+              },
+              {
+                "t": "notion-text",
+                "x": "Figuras coleccionables de 1:6 de alta calidad que traen a la vida a estos personajes en versiones temáticas de enfermeras. Cada figura destaca por su escultura detallada, pintura premium y accesorios cuidadosamente diseñados. Una adición imprescindible para coleccionistas de figuras premium adultas."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: PVC, resina y textiles"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Bases temáticas incluidas"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios médicos detallados"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Figura principal"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base de exhibición temática"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios médicos"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Piezas intercambiables opcionales"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jack-the-ripper-1-6-figure-mvtvr3st",
+        "n": "Jack the Ripper 1/6 Figure",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20852/439296/_2026-10-28_180814_467__25962.1793182285.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20852/439296/_2026-10-28_180814_467__25962.1793182285.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20852/439295/_2026-10-28_180815_818__48124.1793182281.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20513/431306/_2026-10-09_150410_519__65911.1791530152.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20710/436021/_2026-10-21_151658_162___42738.1792567880.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20514/431326/_2026-10-09_151652_955___20686.1791530496.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20711/436034/_2026-10-21_153443_915__72711.1792568559.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20851/439276/_2026-10-28_180222_159__42926.1793182057.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Mili Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "reserva": "720",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección a escala 1/6 de Jack the Ripper con un acabado artístico de alta calidad. Diseño detallado con vestimenta característica y accesorios temáticos. Pieza premium ideal para coleccionistas de figuras de anime y personajes oscuros."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina/PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: MiLi Studio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.fanaticanimestore.com/pre-order-mili-studio-1-6-jack-the-ripper/",
+        "entrega": "Q2 2027"
+      },
       {
         "id": "matsuda-1-6-figure-mvqxv0g3",
         "n": "Matsuda 1/6 Figure",
