@@ -39360,6 +39360,651 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "nojiko-statue-mvu07dkn",
+        "n": "Nojiko Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pnbH7A-zB1U6t6QubyK3-1793261215226.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pnbH7A-zB1U6t6QubyK3-1793261215226.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ADpCnnG_rTUgM6P0efLtd1793261275928.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ON8hJ52zAJaxiGV6ZY9E81793261283915.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gXQtRxhhnmErXFUrxbbEd1793261283915.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/9o8IC78WbxfU46eHggOR_1793261283915.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zHUEv7-pj-OCmDR1a-jdv1793261287702.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Black Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "reserva": "700",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Nojiko de One Piece, capturando la esencia del personaje con una expresión vivaz y detalles meticulosos. Elaborada con resina importada y material PU de alta calidad, esta pieza limitada es imprescindible para coleccionistas del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 30 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura estatua"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34220",
+        "entrega": "2026 Q4"
+      },
+      {
+        "id": "asuka-ayanami-rei-1-6-statue-mvu07dko",
+        "n": "Asuka & Ayanami Rei 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/49hBSl3F7_tli4_tuKW0G1793260074068.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/49hBSl3F7_tli4_tuKW0G1793260074068.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/88zTAzxHY6fWQmg2u5X971793260059978.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jnNVnlfeUgMf5zRDQzEjB1793260059978.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LaX9IRXRoHg7o2eQDBwVE1793260059978.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/VBU4w19sqBH9HSGRrXN4-1793260059978.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Vx7ewZqWIi6warCgj85Vf1793260059978.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Candy Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3100",
+        "reserva": "620",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Asuka: Figura de Asuka Langley Soryu en uniforme escolar."
+          },
+          {
+            "t": "notion-text",
+            "x": "Recreación premium de las icónicas heroínas de Neon Genesis Evangelion en escala 1/6. Cada estatua captura perfectamente los detalles de sus uniformes escolares y poses características. Fabricadas en resina importada y PU de alta calidad para un acabado excepcional."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua en escala 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34153",
+        "entrega": "2027 Q1",
+        "label_base": "Asuka",
+        "variantes": [
+          {
+            "label": "Ayanami Rei",
+            "precio": "3100",
+            "reserva": "620",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/faiDp7gbiZEMT_jRBGGOJ1793260070694.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/88zTAzxHY6fWQmg2u5X971793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jnNVnlfeUgMf5zRDQzEjB1793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LaX9IRXRoHg7o2eQDBwVE1793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/VBU4w19sqBH9HSGRrXN4-1793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Vx7ewZqWIi6warCgj85Vf1793260059978.webp"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Ayanami Rei: Figura de Ayanami Rei en uniforme escolar."
+              },
+              {
+                "t": "notion-text",
+                "x": "Recreación premium de las icónicas heroínas de Neon Genesis Evangelion en escala 1/6. Cada estatua captura perfectamente los detalles de sus uniformes escolares y poses características. Fabricadas en resina importada y PU de alta calidad para un acabado excepcional."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1/6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Incluye base de presentación"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua en escala 1/6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base de presentación"
+              }
+            ]
+          },
+          {
+            "label": "Combo",
+            "precio": "5600",
+            "reserva": "1120",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/X6H8MszvwEkNdJWWUFytW1793260094235.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/88zTAzxHY6fWQmg2u5X971793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jnNVnlfeUgMf5zRDQzEjB1793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LaX9IRXRoHg7o2eQDBwVE1793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/VBU4w19sqBH9HSGRrXN4-1793260059978.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Vx7ewZqWIi6warCgj85Vf1793260059978.webp"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Combo: Ambas figuras juntas."
+              },
+              {
+                "t": "notion-text",
+                "x": "Recreación premium de las icónicas heroínas de Neon Genesis Evangelion en escala 1/6. Cada estatua captura perfectamente los detalles de sus uniformes escolares y poses características. Fabricadas en resina importada y PU de alta calidad para un acabado excepcional."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1/6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Incluye base de presentación"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua en escala 1/6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base de presentación"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "soul-statue-1-3-mvu07dko",
+        "n": "Soul Statue 1/3",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/L6bzGm7bL99o8FnASzh-d1793260386104.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/L6bzGm7bL99o8FnASzh-d1793260386104.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/oB-4gB-cX_iZ0WEIjr1CG1793260402514.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/laEAh6coKY4ZHn8mNhmQo1793260402515.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1Fz7c3f7pRuUPvyi0pOR61793260402515.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/fQ2WjfYESFhowR5bJ-JYa1793260402517.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/y2Br7FukBT2jKjEEoTfY41793260402520.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/cXMcrey1CDjHIcFFMr6yc1793260402521.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/SY4qiMMRpWv_IZSTvWsNi1793260402522.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ApAiJ7xHWcc4-bnruzsX71793260402522.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/aJIGhcgY7iJIdN_AU4-aS1793260402522.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Queen Studios",
+        "escala": "1:3",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "36000",
+        "reserva": "7200",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Soul de Phantom Blade Zero en escala 1/3, elaborada con materiales de alta calidad incluyendo silicona de platino, resina y tela real. Una pieza de colección espectacular que captura la esencia del personaje con un nivel de detalle extraordinario. Diseño artesanal que refleja la maestría de Queen Studios."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 74 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 42.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 41 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Silicona de platino, lana, resina, polistone, tela real, piezas fundidas y componentes electrónicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34146",
+        "entrega": "2027 Q4"
+      },
+      {
+        "id": "cartethyia-1-6-figure-mvu07dko",
+        "n": "Cartethyia 1/6 Figure",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/kPABN6c902EMVCn3JcodX1793271638315.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/kPABN6c902EMVCn3JcodX1793271638315.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TXUVFpsQoTUh1P8pmkLqv1793271638315.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mAyNuHjmwMAeUTZZxf-eZ1793271638315.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3wjCB93xEz3nMNNSJr1lA1793271638315.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KTRi_dwOKaCE6XvOZF6b11793271638315.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/frtFsrXJRWJ5M6wlNp03R1793271638316.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dNJNf39N_YfwynAEW9D1H1793271638316.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/IxdEGqMaptHYBfQ7_Gy3a1793271638316.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/40d4vYn5_1bHaUQ6a7qWc1793271638316.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OG8PsOch_h4Gdbu4HalUH1793271638316.webp"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Infinity Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "reserva": "560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Cartethyia de Wuthering Waves, capturando su elegancia sobrenatural con detalles exquisitos. Escultura de 29.4 cm de altura que reproduce fielmente el diseño del personaje con sus característicos efectos de agua azul. Incluye mano intercambiable adicional para mayor versatilidad de poses."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29.4 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anchura: 19.8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, ABS, Metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano intercambiable"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34140",
+        "entrega": "2027 Q4"
+      },
+      {
+        "id": "pikachu-statue-mvu07dko",
+        "n": "Pikachu Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/H6A4LyIWvPheSJ7RRq1Fx1793261598518.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/H6A4LyIWvPheSJ7RRq1Fx1793261598518.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Yy1v5WweU7F6uhYUzM1Ck1793261598518.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tiHhEatvroi9jY6zyaG0u1793261598518.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1ks4EUSpxKnHYTcoHivvs1793261598519.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Peak Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "reserva": "400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una exquisita estatua de Pikachu que captura toda la magia y encanto del icónico Pokémon. Elaborada con resina importada y materiales PU de alta calidad, esta pieza limitada es un tesoro imprescindible para los coleccionistas más devotos. Con solo 168 unidades producidas, representa una inversión en un clásico absoluto del universo Pokémon."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 168 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Pikachu"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34092",
+        "entrega": "2026 Q4"
+      },
+      {
+        "id": "gengar-statue-mvu07dko",
+        "n": "Gengar Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3YVQ4vAmOcv7VoYPac7en1793261424896.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3YVQ4vAmOcv7VoYPac7en1793261424896.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tlTFkFUMNgEQ6Q72oSsb01793261424896.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/b_9LgdnAkeFbfXA28o9c_1793261424896.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/64ktvZFFp9msPSBvHHrLc1793261424897.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Peak Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "reserva": "400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Gengar cobra vida en esta estatua premium inspirada en la serie Starry Night de Van Gogh. Con su característica sonrisa malvada y ojos ardientes, luce un elegante sombrero de ala ancha mientras desata su energía espectral. Una pieza de colección única que combina arte clásico con el universo Pokémon."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 168 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Paleta de pintor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tubos de pintura decorativos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34091",
+        "entrega": "2026 Q4"
+      },
+      {
+        "id": "subaru-natsuki-1-6-statue-mvu07dkp",
+        "n": "Subaru Natsuki 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/b21w6gHIt3eU_PdrvdCjO1793238855963.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/b21w6gHIt3eU_PdrvdCjO1793238855963.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iXmUSxduBWDDr_GLXakk_1793238855963.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Fibonacci Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3100",
+        "reserva": "620",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de Subaru Natsuki de Re:Zero en escala 1/6, capturando al protagonista en una pose dinámica y expresiva. Fabricada en resina importada y PU de alta calidad, representa un must-have para coleccionistas de la serie. Con 29 cm de altura, esta estatua destaca por su detallado acabado y presencia en cualquier colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34011",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "krillin-with-sword-statue-mvu07dkp",
+        "n": "Krillin with Sword Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/RJRbOetokjCXtD9JhPp4b1793238782950.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/RJRbOetokjCXtD9JhPp4b1793238782950.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "C Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "reserva": "290",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura al querido Krillin de Dragon Ball en una pose dinámica y desafiante, empuñando su icónica espada con determinación. Esta estatua premium de resina importada y PU recrea el espíritu combativo del personaje con expresión feroz y detalles meticulosos. Una pieza imprescindible para coleccionistas devotos de la saga Dragon Ball."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 6,9 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34010",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "sesshomaru-1-6-statue-mvu07dkp",
+        "n": "Sesshomaru 1:6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/oS21kUlKl2UtYrKlZ4xb91793239009069.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/oS21kUlKl2UtYrKlZ4xb91793239009069.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/XwZ0XtJ6aHqzhbjWPPnxa1793239017261.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/AN0oVb963NDqhxPX5CDn61793239017262.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3m_E9lVZw4bwGHtoSzlCG1793239017262.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OI0SGrxlRiN26zAZwf3P91793239017262.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/U6MTLgO1CjbI6fyyR-WAY1793239017262.png"
+        ],
+        "franquicia": "Anime",
+        "marca": "Ads Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3300",
+        "reserva": "660",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Espectacular estatua de Sesshomaru del clásico anime Inuyasha, capturando la elegancia y poder del señor demonio en una escultura de alta calidad. Con una altura de 36 cm, esta pieza premium combina resina importada y PU para ofrecer detalles excepcionales y acabados artísticos. El diseño presenta dos variantes para personalizar tu colección según tus preferencias."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Sesshomaru"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34009",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "tier-harribel-statue-mvu07dkp",
+        "n": "Tier Harribel Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JYrzefj1dvhKW6iAgXvv-1793239454884.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JYrzefj1dvhKW6iAgXvv-1793239454884.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Dd9FYHf0U9uGIdYnpLfOY1793239459175.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/usQkrt3pxAVf6aGmX09971793239459176.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "C Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "reserva": "400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium del personaje Tier Harribel de Bleach, capturando su elegancia y poder con intrincados detalles. Elaborada en resina importada y PU de alta calidad, presenta un diseño dinámico rodeado de efectos de agua azul cristalina. Una pieza imprescindible para coleccionistas devotos del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 10 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Anchura: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 8,3 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Tier Harribel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34008",
+        "entrega": "2027 Q2"
+      },
+      {
         "id": "tsukino-usagi-mizuno-ami-1-6-figure-mvtvr3sp",
         "n": "Tsukino Usagi & Mizuno Ami 1:6 Figure",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20870/439826/2026-10-29_18.20.26__53905.1793269284.png",
@@ -71232,6 +71877,51 @@
   "Adultos": {
     "slug": "adultos",
     "products": [
+      {
+        "id": "lucy-y-rebecca-1-6-statue-mvu07dkp",
+        "n": "Lucy y Rebecca 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Ug54b_wobgzC6OdBiL_Hf1793169232201.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Ug54b_wobgzC6OdBiL_Hf1793169232201.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/T09QHXzBGBJvZqGeb3kMd1793169232201.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/VnUuaJiJZ8hPi7k3pFpza1793169232201.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bbiIPnbI4nt-TSpEtEhao1793169232201.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/oTn_JJw4Z22QFnRznjOYw1793169232201.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Rumeng Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4100",
+        "reserva": "820",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de las icónicas Lucy y Rebecca del anime Cyberpunk: Edgerunners, capturando su carisma y estilo futurista en una escala 1/6. Elaborada en PU y resina con un detallado nivel de acabado. Una pieza imprescindible para coleccionistas de anime y ciencia ficción."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Cyberpunk: Edgerunners"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-29",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/33981",
+        "entrega": "2027 Q2"
+      },
       {
         "id": "cynthia-lucario-1-6-figure-mvtvr3sq",
         "n": "Cynthia & Lucario 1:6 Figure",
