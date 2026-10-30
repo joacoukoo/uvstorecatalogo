@@ -197,12 +197,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
     <div class="field-row-3">
       <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="add-precio" placeholder="0"></div>
-      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="add-precio-d" oninput="toggleAgotadoVar('add')" placeholder="0"></div>
+      <div class="field"><label class="field-label">Precio Variante (Q)</label><input type="text" id="add-precio-d" oninput="toggleAgotadoVar('add')" placeholder="0"></div>
       <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="add-precio-orig" placeholder="Para ofertas"></div>
     </div>
     <div class="field-row">
       <div class="field"><label class="field-label">Reserva con (Q)</label><input type="text" id="add-reserva" placeholder="0"></div>
-      <div class="field"><label class="field-label">Reserva Deluxe (Q)</label><input type="text" id="add-reserva-d" placeholder="0"></div>
+      <div class="field"><label class="field-label">Reserva Variante (Q)</label><input type="text" id="add-reserva-d" placeholder="0"></div>
     </div>
     <div class="field-row">
       <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="add-entrega" placeholder="Q1 2025, Marzo 2025..."></div>
@@ -219,22 +219,22 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <button class="btn btn-secondary" onclick="addPhoto('add','r')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
 
-    <div class="section-title">Fotos — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(solo si hay precio deluxe)</span></div>
+    <div class="section-title">Fotos — Variante <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(solo si hay precio de variante)</span></div>
     <div id="add-photos-d" class="photos-grid"></div>
     <div class="photo-add-row" style="margin-bottom:6px">
       <input type="url" id="add-photo-d-input" placeholder="URL de foto individual">
       <button class="btn btn-secondary" onclick="addPhoto('add','d')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
     <div class="photo-add-row" style="margin-bottom:14px">
-      <input type="url" id="add-scrape-d-url" placeholder="URL ficha Deluxe (importa todas las fotos)">
+      <input type="url" id="add-scrape-d-url" placeholder="URL ficha de la variante (importa todas las fotos)">
       <button class="btn btn-ai" onclick="scrapeDeluxePhotos('add')" style="padding:6px 11px;font-size:12px">Importar fotos</button>
     </div>
 
     <div class="section-title">Contenido — Edicion Regular</div>
     <div class="field"><label class="field-label">Descripcion <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">lineas con "- " son viñetas</span></label><textarea id="add-desc" placeholder="Figura de coleccion premium...&#10;&#10;- Altura: 30 cm&#10;- Escala: 1:6&#10;- Incluye: espada, escudo, base..." style="min-height:140px"></textarea></div>
 
-    <div class="section-title">Contenido — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
-    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="add-desc-d" placeholder="Misma figura con accesorios exclusivos...&#10;&#10;- Incluye: accesorios adicionales..." style="min-height:100px"></textarea></div>
+    <div class="section-title">Contenido — Variante <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
+    <div class="field"><label class="field-label">Descripcion Variante</label><textarea id="add-desc-d" placeholder="Misma figura con accesorios exclusivos...&#10;&#10;- Incluye: accesorios adicionales..." style="min-height:100px"></textarea></div>
     <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="add-yt" placeholder="https://youtube.com/watch?v=..."></div>
 
     <div class="section-title">Flags</div>
@@ -247,11 +247,11 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="checks" id="add-agotado-var" style="display:none;margin-top:8px">
       <span style="font-size:12px;color:var(--muted2);align-self:center">Si solo se agoto una version:</span>
       <label class="check-item"><input type="checkbox" id="add-agotado-r"><span>Regular agotada</span></label>
-      <label class="check-item"><input type="checkbox" id="add-agotado-d"><span>Deluxe agotada</span></label>
+      <label class="check-item"><input type="checkbox" id="add-agotado-d"><span>Variante agotada</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('add')">Regenerar descripción</button>
-      <button class="btn btn-ai" onclick="generateAIDeluxe('add')">IA Deluxe</button>
+      <button class="btn btn-ai" onclick="generateAIDeluxe('add')">IA Variante</button>
       <button class="btn btn-save" id="btn-save-add" onclick="saveAdd()" style="margin-left:auto">Guardar y Publicar</button>
     </div>
   </div>
@@ -331,12 +331,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
     <div class="field-row-3">
       <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="edit-precio"></div>
-      <div class="field"><label class="field-label">Precio Deluxe (Q)</label><input type="text" id="edit-precio-d" oninput="toggleAgotadoVar('edit')"></div>
+      <div class="field"><label class="field-label">Precio Variante (Q)</label><input type="text" id="edit-precio-d" oninput="toggleAgotadoVar('edit')"></div>
       <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="edit-precio-orig"></div>
     </div>
     <div class="field-row">
       <div class="field"><label class="field-label">Reserva con (Q)</label><input type="text" id="edit-reserva"></div>
-      <div class="field"><label class="field-label">Reserva Deluxe (Q)</label><input type="text" id="edit-reserva-d"></div>
+      <div class="field"><label class="field-label">Reserva Variante (Q)</label><input type="text" id="edit-reserva-d"></div>
     </div>
     <div class="field-row">
       <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="edit-entrega"></div>
@@ -354,22 +354,22 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <button class="btn btn-secondary" onclick="addPhoto('edit','r')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
 
-    <div class="section-title">Fotos — Edicion Deluxe</div>
+    <div class="section-title">Fotos — Variante</div>
     <div id="edit-photos-d" class="photos-grid"></div>
     <div class="photo-add-row" style="margin-bottom:6px">
       <input type="url" id="edit-photo-d-input" placeholder="URL de foto individual">
       <button class="btn btn-secondary" onclick="addPhoto('edit','d')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
     <div class="photo-add-row" style="margin-bottom:14px">
-      <input type="url" id="edit-scrape-d-url" placeholder="URL ficha Deluxe (importa todas las fotos)">
+      <input type="url" id="edit-scrape-d-url" placeholder="URL ficha de la variante (importa todas las fotos)">
       <button class="btn btn-ai" onclick="scrapeDeluxePhotos('edit')" style="padding:6px 11px;font-size:12px">Importar fotos</button>
     </div>
 
     <div class="section-title">Contenido — Edicion Regular</div>
     <div class="field"><label class="field-label">Descripcion <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">lineas con "- " son viñetas</span></label><textarea id="edit-desc" style="min-height:140px"></textarea></div>
 
-    <div class="section-title">Contenido — Edicion Deluxe <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
-    <div class="field"><label class="field-label">Descripcion Deluxe</label><textarea id="edit-desc-d" style="min-height:100px"></textarea></div>
+    <div class="section-title">Contenido — Variante <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
+    <div class="field"><label class="field-label">Descripcion Variante</label><textarea id="edit-desc-d" style="min-height:100px"></textarea></div>
     <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="edit-yt"></div>
 
     <div class="section-title">Flags</div>
@@ -382,11 +382,11 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="checks" id="edit-agotado-var" style="display:none;margin-top:8px">
       <span style="font-size:12px;color:var(--muted2);align-self:center">Si solo se agoto una version:</span>
       <label class="check-item"><input type="checkbox" id="edit-agotado-r"><span>Regular agotada</span></label>
-      <label class="check-item"><input type="checkbox" id="edit-agotado-d"><span>Deluxe agotada</span></label>
+      <label class="check-item"><input type="checkbox" id="edit-agotado-d"><span>Variante agotada</span></label>
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('edit')">Regenerar descripción</button>
-      <button class="btn btn-ai" onclick="generateAIDeluxe('edit')">IA Deluxe</button>
+      <button class="btn btn-ai" onclick="generateAIDeluxe('edit')">IA Variante</button>
       <button class="btn btn-danger" onclick="deleteProduct()">Eliminar</button>
       <button class="btn btn-save" onclick="saveEdit()" style="margin-left:auto">Guardar Cambios</button>
     </div>
@@ -764,7 +764,7 @@ async function generateAIDeluxe(w){
   var descRegular=getTA(w+'-desc');
   var descDeluxe=getTA(w+'-desc-d');
   if(!name)return setStatus('Ingresa el nombre primero','orange');
-  setStatus('Generando contenido Deluxe con IA...','orange');
+  setStatus('Generando contenido de la variante con IA...','orange');
   var ctx='';
   if(marca)ctx+='Fabricante: '+marca+'. ';
   var prompt='Sos experto en figuras de coleccion premium. Genera contenido EXCLUSIVO para la version Deluxe de "'+name+'".\n'+ctx+'\nDescripcion version regular:\n'+(descRegular||'(no disponible)')+'\n\nContenido Deluxe actual:\n'+(descDeluxe||'(vacio)')+'\n\nNECESITO solo lo que diferencia la version Deluxe de la regular:\n1. "desc": 1-2 oraciones en español sobre que hace especial a la edicion Deluxe (exclusivos, accesorios extra, edicion limitada)\n2. "includes": lista SOLO de los accesorios/extras exclusivos de Deluxe (no repetir los de la regular)\n\nResponde SOLO con JSON valido sin markdown:\n{"desc":"...","includes":"- Exclusivo 1\\n- Exclusivo 2"}';
@@ -783,15 +783,15 @@ async function generateAIDeluxe(w){
         if(parts.length)setTA(w+'-desc-d',parts.join('\n\n'));
       }catch(pe){}
     }
-    setStatus('Contenido Deluxe generado — revisa y ajusta','green');
+    setStatus('Contenido de la variante generado — revisa y ajusta','green');
   }catch(e){setStatus('Error IA: '+e.message,'red');}
 }
 
 async function scrapeDeluxePhotos(w){
   var inputId=w+'-scrape-d-url';
   var url=document.getElementById(inputId)?.value.trim();
-  if(!url)return setStatus('Ingresa la URL de la ficha Deluxe','orange');
-  setStatus('Importando fotos Deluxe...','orange');
+  if(!url)return setStatus('Ingresa la URL de la ficha de la variante','orange');
+  setStatus('Importando fotos de la variante...','orange');
   try{
     var res=await fetch('/api/scrape',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url:url})});
     var data=await res.json();
@@ -801,7 +801,7 @@ async function scrapeDeluxePhotos(w){
     photos.forEach(function(p){if(!_photos[w].d.includes(p))_photos[w].d.push(p);});
     renderPhotos(w,'d');
     document.getElementById(inputId).value='';
-    setStatus(photos.length+' fotos Deluxe importadas','green');
+    setStatus(photos.length+' fotos de la variante importadas','green');
   }catch(e){setStatus('Error: '+e.message,'red');}
 }
 

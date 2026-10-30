@@ -23149,7 +23149,7 @@
         "estado": "Nuevo",
         "disp": "Pre Orden",
         "precio": "5600",
-        "precio_d": "",
+        "precio_d": "6400",
         "precio_orig": "",
         "reserva": "1120",
         "entrega": "Abril 2027",
@@ -23254,23 +23254,117 @@
         "destacado": false,
         "oferta": false,
         "added_at": "2026-04-06T15:43:53.303967",
-        "variantes": [
-          {
-            "label": "Premium",
-            "precio": "6400",
-            "reserva": "1280",
-            "fotos": [
-              "https://www.specfictionshop.com/cdn/shop/files/DUMBPREMIUM_2000x.jpg?v=1770407650",
-              "https://www.specfictionshop.com/cdn/shop/files/625980069_883489007797587_1310820670441556201_n_2000x.jpg?v=1770407650",
-              "https://www.specfictionshop.com/cdn/shop/files/626296689_883522774460877_8256330687867411682_n_2000x.jpg?v=1770408108",
-              "https://www.specfictionshop.com/cdn/shop/files/627668891_883529947793493_2419542881748260618_n_2000x.jpg?v=1770407650"
-            ],
-            "desc": "Albus Dumbledore (Premium) – Figura Sixth Scale\n\n[InArt Collectibles – 1:6 Scale – Harry Potter]\n\nDescripción\n\nEsta figura Sixth Scale de Albus Dumbledore en su versión Premium, desarrollada por InArt Collectibles, ofrece una representación detallada del icónico director de Hogwarts, destacando su presencia imponente y su carácter sabio dentro del universo de Harry Potter.\n\nLa pieza incorpora un head sculpt con cabello y barba implantados, junto con un sistema de ojos articulados controlados mediante imanes y mecanismos internos, permitiendo ajustar la mirada con precisión. El cuerpo completamente articulado facilita una amplia variedad de poses.\n\nEsta versión Premium amplía el set con la inclusión de Fawkes, el fénix, acompañado de su propio soporte de exhibición. Además, incluye múltiples accesorios icónicos como la Varita de Saúco y la espada de Gryffindor, junto con elementos de escritorio que enriquecen la presentación.\n\nDetalles\n\nLínea: No especificado  \nFabricante: InArt Collectibles  \nTipo: Figura articulada Sixth Scale  \nGénero: Cine / Fantasía  \n\nEspecificaciones\n\nAltura: 37 cm (con base y sombrero)  \nEscala: 1:6  \nMateriales: PVC, ABS, tela, otros no especificados  \nArticulación: Sí  \n\nIncluye\n\n- Head sculpt con cabello y barba implantados  \n- Ojos articulados magnéticos  \n\nManos:\n- 8 manos intercambiables:\n  - Manos relajadas  \n  - Manos señalando  \n  - Manos abiertas  \n  - Mano para varita  \n  - Mano para espada  \n\nFigura adicional:\n- Fawkes (fénix)  \n- Base para Fawkes  \n\nVestuario:\n- Set completo de túnica de mago  \n\nAccesorios:\n- Gafas  \n- Sombrero de mago  \n- Varita de Saúco  \n- Espada de Gryffindor  \n- 2 libros  \n- Pluma  \n- Tintero  \n- Mesa  \n\nDisplay:\n- Base  \n- Soporte metálico  \n- Caja de exhibición  \n- Estuche protector para head sculpt  \n\nCaracterísticas\n\n- Versión Premium con figura adicional de Fawkes  \n- Cabello y barba implantados para mayor realismo  \n- Sistema de ojos articulados con control magnético  \n- Figura completamente articulada  \n- Amplia variedad de accesorios icónicos  \n- Incluye elementos de display adicionales  \n- Ideal para coleccionistas de Harry Potter"
-          }
-        ],
         "agotado_r": false,
         "agotado_d": false,
-        "fotos_d": []
+        "fotos_d": [
+          "https://www.specfictionshop.com/cdn/shop/files/DUMBPREMIUM_2000x.jpg?v=1770407650",
+          "https://www.specfictionshop.com/cdn/shop/files/625980069_883489007797587_1310820670441556201_n_2000x.jpg?v=1770407650",
+          "https://www.specfictionshop.com/cdn/shop/files/626296689_883522774460877_8256330687867411682_n_2000x.jpg?v=1770408108",
+          "https://www.specfictionshop.com/cdn/shop/files/627668891_883529947793493_2419542881748260618_n_2000x.jpg?v=1770407650"
+        ],
+        "reserva_d": "1280",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "Esta figura Sixth Scale de Albus Dumbledore en su versión Premium, desarrollada por InArt Collectibles, ofrece una representación detallada del icónico director de Hogwarts, destacando su presencia imponente y su carácter sabio dentro del universo de Harry Potter.\n\nLa pieza incorpora un head sculpt con cabello y barba implantados, junto con un sistema de ojos articulados controlados mediante imanes y mecanismos internos, permitiendo ajustar la mirada con precisión. El cuerpo completamente articulado facilita una amplia variedad de poses.\n\nEsta versión Premium amplía el set con la inclusión de Fawkes, el fénix, acompañado de su propio soporte de exhibición. Además, incluye múltiples accesorios icónicos como la Varita de Saúco y la espada de Gryffindor, junto con elementos de escritorio que enriquecen la presentación.\n\nDetalles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: InArt Collectibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada Sixth Scale"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Género: Cine / Fantasía"
+          },
+          {
+            "t": "notion-text",
+            "x": "Especificaciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 37 cm (con base y sombrero)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, ABS, tela, otros no especificados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulación: Sí"
+          },
+          {
+            "t": "notion-text",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Head sculpt con cabello y barba implantados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos articulados magnéticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables: relajadas, señalando, abiertas, para varita y para espada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura adicional: Fawkes (fénix) con su base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vestuario: set completo de túnica de mago"
+          },
+          {
+            "t": "notion-text",
+            "x": "Accesorios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sombrero de mago"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Varita de Saúco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada de Gryffindor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 libros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pluma"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tintero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mesa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Display: base, soporte metálico, caja de exhibición y estuche protector para head sculpt"
+          }
+        ]
       },
       {
         "id": "catwoman-the-dark-knight-rises-2012",
