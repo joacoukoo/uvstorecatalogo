@@ -10036,6 +10036,124 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "corporal-hicks-1-6-figure-mvv7bn1f",
+        "n": "Corporal Hicks 1:6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c30e83cab.jpg",
+        "franquicia": "Alien",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c30e83cab.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c30ed67ff.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c30f3897a.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c30f9505d.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c30feac0b.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c3104ab51.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c310a1d3f.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c310f2ae2.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c311531d6.jpg",
+          "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c311a9042.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Corporal Hicks llega como una figura de colección de élite que captura magistralmente al icónico soldado de Aliens en su apogeo de combate. Con una escultura de cabeza de desarrollo completamente nuevo, ojos móviles funcionales y brazos de silicona para articulación sin costuras, esta figura representa el pico de la precisión artesanal de Hot Toys. Equipado con un arsenal completo auténtico, uniforme USCM personalizado con calcomanías detalladas y una base diorama temática con restos de Xenomorfo iluminada por LED, ofrece una experiencia de coleccionista premium sin compromiso."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 18"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: PVC, plástico, silicona, tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 600-700 gramos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza con ojos móviles intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco M10 Pattern Ballistic"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uniforme de camuflaje USCM verde personalizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura M3 Pattern Personal con calcomanías (corazón con candado, impacto de bala, marcas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Muñequera verde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de combate con efecto envejecido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle de Pulso M41A con recámara deslizable, culata retráctil, cargador removible y correa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escopeta de acción de bombeo con funda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuchillo de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Granadas M40 HEDP"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lámpara de hombro TNR con luz LED blanca (alimentación USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soldador manual ME3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj de pulsera negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 pares de manos intercambiables (puños, relajadas, para armas, para cuchillo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama con rejilla metálica, restos de Xenomorfo y placa de identificación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-30",
+        "reserva": "740",
+        "entrega": "Dic. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "professor-x-1-6-figure-mvu0mybn",
         "n": "Professor X 1:6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/915770/hot-toys-marvel-professor-x-sixth-scale-figure-gallery-6a8865e74162f.jpg",
