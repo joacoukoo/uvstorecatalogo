@@ -22768,13 +22768,12 @@
         "escala": "1:6",
         "franquicia": "Marvel",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3300",
-        "precio_d": "4600",
-        "precio_orig": "",
+        "precio_d": "4500",
         "reserva": "660",
         "entrega": "1 mes",
-        "cantidad": "",
+        "cantidad": "1",
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_gallery_63d8359a1a456.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909812/spider-man-integrated-suit_marvel_scale_640f930c92eb6.jpg",
@@ -22867,7 +22866,6 @@
             "x": "Amplia selección de accesorios temáticos incluyendo telarañas, pinzas articuladas y alas magnéticas"
           }
         ],
-        "yt": "",
         "destacado": false,
         "oferta": false,
         "added_at": "2026-04-06T18:30:50.814824",
@@ -22883,15 +22881,11 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d839aef24ae.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909813/spider-man-integrated-suit-deluxe-version_marvel_gallery_63d83cf669ada.jpg"
         ],
-        "reserva_d": "920",
+        "reserva_d": "900",
         "content_d": [
           {
             "t": "notion-text",
-            "x": "Después de que Mysterio desenmascara su identidad, Peter Parker ya no puede separar su vida normal de los peligros extremos de ser Spider-Man. Cuando busca la ayuda del Doctor Strange, los riesgos se vuelven aún mayores, obligándolo a descubrir el verdadero significado de ser Spider-Man. Esta figura coleccionable de sexta escala captura ese momento crítico de Spider-Man: No Way Home, presentando a nuestro héroe en su icónico traje integrado rojo y negro."
-          },
-          {
-            "t": "notion-text",
-            "x": "Hot Toys ha magistralmente recreado la apariencia de Spider-Man/Peter Parker interpretada por Tom Holland, con especial atención al detalle en cada aspecto. Las múltiples cabezas esculpidas, oculares intercambiables y manos de postura variada ofrecen infinitas posibilidades de personalización. Cada pieza está cuidadosamente pintada a mano, garantizando la máxima calidad en esta versión deluxe de la serie Movie Masterpiece."
+            "x": "Después de que Mysterio desenmascara su identidad, Peter Parker ya no puede separar su vida normal de los peligros extremos de ser Spider-Man. Cuando busca la ayuda del Doctor Strange, los riesgos se vuelven aún mayores, obligándolo a descubrir el verdadero significado de ser Spider-Man. Esta figura coleccionable de sexta escala captura ese momento crítico de Spider-Man: No Way Home, presentando a nuestro héroe en su icónico traje integrado rojo y negro.\nHot Toys ha magistralmente recreado la apariencia de Spider-Man/Peter Parker interpretada por Tom Holland, con especial atención al detalle en cada aspecto. Las múltiples cabezas esculpidas, oculares intercambiables y manos de postura variada ofrecen infinitas posibilidades de personalización. Cada pieza está cuidadosamente pintada a mano, garantizando la máxima calidad en esta versión deluxe de la serie Movie Masterpiece."
           },
           {
             "t": "notion-bulleted-list",
@@ -22997,7 +22991,8 @@
             "t": "notion-bulleted-list",
             "x": "Versión Deluxe de la serie Movie Masterpiece con accesorios y opciones expandidas"
           }
-        ]
+        ],
+        "agotado": false
       },
       {
         "id": "clone-commander-wolffe-2",
