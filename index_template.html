@@ -587,14 +587,14 @@ body::after{
 .modal-prop-value.price span{color:var(--gold);font-size:14px;font-weight:500}
 .modal-prop-value.stock{color:var(--green)}
 .modal-prop-value.preorder{color:var(--amber)}
-/* Version toggle (Regular / Deluxe) */
+/* Version toggle (Regular / Variante) */
 .ver-toggle{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
 .ver-btn{background:var(--bg3);border:1px solid var(--border);color:var(--muted);
   border-radius:8px;padding:7px 16px;font-size:11.5px;font-weight:700;
   cursor:pointer;transition:background-color .15s,border-color .15s,color .15s;font-family:"Syne",sans-serif;letter-spacing:.5px}
 .ver-btn.active{background:var(--purple);border-color:var(--purple);color:#fff}
 .ver-btn.ver-btn-ago{opacity:.55;text-decoration:line-through}
-/* Deluxe chip on product card */
+/* Variante chip on product card */
 .prod-dlx-chip{display:inline-block;font-size:9px;font-weight:700;
   letter-spacing:.8px;text-transform:uppercase;padding:3px 8px;border-radius:5px;
   margin-top:5px;font-family:"Syne",sans-serif}
@@ -1266,7 +1266,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
       <div class="modal-title" id="modal-name"></div>
       <div class="ver-toggle" id="modal-version-toggle" style="display:none">
         <button class="ver-btn" id="modal-ver-reg" onclick="modalSetVersion('regular')">Regular</button>
-        <button class="ver-btn" id="modal-ver-dlx" onclick="modalSetVersion('deluxe')">Deluxe</button>
+        <button class="ver-btn" id="modal-ver-dlx" onclick="modalSetVersion('deluxe')">Variante</button>
       </div>
       <div class="ver-toggle" id="modal-variantes-toggle" style="display:none"></div>
       <div class="modal-props" id="modal-props"></div>
@@ -1431,12 +1431,12 @@ function makeCard(p,cat){
   else if(cat==="Entrega Inmediata"){badgeText="En Stock";badgeCls="badge-stock";}
   else if(cat==="Hot Toys · Pre-Órdenes"){badgeText="Pre-Orden";badgeCls="badge-pre";}
   if(badgeText){var badge=document.createElement("div");badge.className="prod-badge "+badgeCls;badge.textContent=badgeText;meta.appendChild(badge);}
-  // Deluxe chip
+  // Variante chip
   if(p.precio_d){
     var dlxEl=document.createElement("div");
-    if(!p.agotado_d&&!p.agotado_r){dlxEl.className="prod-dlx-chip chip-dlx-ok";dlxEl.textContent="Deluxe Disponible";}
+    if(!p.agotado_d&&!p.agotado_r){dlxEl.className="prod-dlx-chip chip-dlx-ok";dlxEl.textContent="Variante Disponible";}
     else if(!p.agotado_d&&p.agotado_r){dlxEl.className="prod-dlx-chip chip-reg-ago";dlxEl.textContent="Regular Agotada";}
-    else if(p.agotado_d&&!p.agotado_r){dlxEl.className="prod-dlx-chip chip-dlx-ago";dlxEl.textContent="Deluxe Agotada";}
+    else if(p.agotado_d&&!p.agotado_r){dlxEl.className="prod-dlx-chip chip-dlx-ago";dlxEl.textContent="Variante Agotada";}
     else{dlxEl.className="prod-dlx-chip chip-dlx-ago";dlxEl.textContent="Ambas Agotadas";}
     meta.appendChild(dlxEl);
   }
@@ -2279,7 +2279,7 @@ function openModal(p,cat){
     btnR.className="ver-btn active"+(p.agotado_r?" ver-btn-ago":"");
     btnR.textContent=p.agotado_r?"Regular — Agotada":"Regular";
     btnD.className="ver-btn"+(p.agotado_d?" ver-btn-ago":"");
-    btnD.textContent=p.agotado_d?"Deluxe — Agotada":"Deluxe";
+    btnD.textContent=p.agotado_d?"Variante — Agotada":"Variante";
   }else{
     toggleEl.style.display="none";
   }
