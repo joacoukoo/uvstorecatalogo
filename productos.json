@@ -21250,9 +21250,9 @@
         "added_at": "2026-04-10",
         "reserva": "1120",
         "entrega": "Mayo 2027",
-        "cantidad": "0",
+        "cantidad": "2",
         "preorden_mes": true,
-        "agotado": true
+        "agotado": false
       },
       {
         "id": "gridman-the-hyper-agent-tokusatsu-color-version-mnrjusto",
