@@ -82653,6 +82653,99 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "pokemon-30th-celebration-elite-trainer-box-mvvwxcd5",
+        "n": "Pokémon 30th Celebration Elite Trainer Box",
+        "i": "https://cdn.shopify.com/s/files/1/0621/1669/2121/files/raw_4bbb65d5-25eb-4de5-b3ce-8ba8208b1131.png?v=1783447810",
+        "franquicia": "Anime",
+        "marca": "Pokemon",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "1400",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0621/1669/2121/files/raw_4bbb65d5-25eb-4de5-b3ce-8ba8208b1131.png?v=1783447810",
+          "https://cdn.shopify.com/s/files/1/0621/1669/2121/files/raw_cc3444f6-0425-49bf-b9a6-04c9d18b6137.png?v=1783447813",
+          "https://cdn.shopify.com/s/files/1/0621/1669/2121/files/raw_31e3f08a-d4f2-40fe-b0b0-e8bdaf03014a.png?v=1783447816"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra tres décadas de Pokémon con esta exclusiva Elite Trainer Box conmemorativa del 30 aniversario. Esta edición de coleccionista incluye una carta foil full-art de Nidorina con ilustración especial, complementada con 9 sobres de expansión 30th Celebration y accesorios premium. Un lanzamiento imprescindible para coleccionistas dedicados que buscan piezas históricas y memorabilia de alto valor de la franquicia."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm (caja de almacenamiento)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo de producto: Elite Trainer Box conmemorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cartón de calidad premium con divisores internos de plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: 9 sobres, accesorios y componentes varios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edad recomendada: 6+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 30th Celebration"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta foil full-art promocional Nidorina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "9 sobres de expansión Pokémon TCG 30th Celebration"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "16 cartas de Energía foil básicas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "65 fundas protectoras para cartas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guía del jugador edición 30th Celebration"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 dados contadores de daño"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 dado de lanzamiento competitivo legal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 moneda de plástico coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de almacenamiento con 6 divisores internos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 código digital para Pokémon Trading Card Game Live"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-10-31",
+        "cantidad": "6"
+      },
+      {
         "id": "mega-clefable-ex-119-psa-10",
         "n": "Pokémon TCG: Mega Clefable ex #119 Special Illustration Rare - PSA 10",
         "i": "https://uvstore.shop/assets/productos/mega-clefable-ex-119-psa-10/1.jpg?v=2",
