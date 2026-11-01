@@ -10036,6 +10036,164 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "power-loader-1-6-figure-mvy9owtn",
+        "n": "Power Loader 1:6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaacea30fa4.jpg",
+        "franquicia": "Alien",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5100",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaacea30fa4.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-scale-6aaaaf249036d.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaaceaa3c90.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaaceb0667a.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaaceb5de39.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaacebb54b8.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaacec1ee83.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaacec76069.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaaceccbe69.jpg",
+          "https://www.sideshow.com/storage/product-images/915786/hot-toys-alien-power-loader-sixth-scale-figure-gallery-6aaaaced2f978.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La icónica armadura de carga de Aliens cobra vida con esta figura coleccionable de escala 1/6 de Hot Toys, repleta de detalles mecánicos y efectos de desgaste auténticos. Cuenta con más de 18 puntos de articulación, brazos y garras móviles, jaula protectora abrible y luces LED funcionales que capturan perfectamente la esencia del clásico de ciencia ficción. Compatible con la figura de Ellen Ripley en la misma escala para recrear los momentos más épicos del filme."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 51,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 18+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, metal, plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estructura del Power Loader articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazos mecánicos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Garras grabadoras articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jaula protectora abrible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Palancas de control deslizables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Asiento del operador con arnés funcional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cableado realista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Faro de advertencia con LED naranja (USB)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED interior blanca (USB)"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-01",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "La versión Deluxe es una edición exclusiva que incluye la figura de Ellen Ripley con escultura de cabeza nueva, cuerpo de silicona articulado y atuendo battle-damaged solo disponible en este set conjunto. Esta presentación definitiva reúne a Ripley en su momento más épico junto al Power Loader, capturando el icónico enfrentamiento final del film."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Ellen Ripley exclusiva con escultura de cabeza nueva y ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo de silicona con hombros y brazos desnudos de diseño sin costuras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Atuendo battle-damaged: camiseta blanca rasgada, camiseta gris interior, pantalones desgastados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arnés de granadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj de plata"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables diferentes (manos relajadas, para joystick, para armas, mano abierta, mano para accesorios)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Calcetín gris oscuro intercambiable con el zapato derecho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos Reebok Alien Stompers desgastados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana temática con rejilla metálica y logo de Aliens"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Compatibilidad perfecta: Ellen Ripley sentada en la cabina del Power Loader"
+          }
+        ],
+        "precio_d": "6800",
+        "reserva": "1020",
+        "reserva_d": "1360",
+        "entrega": "Dic. 2027",
+        "cantidad": "2",
+        "fotos_d": [
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6944adc.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-scale-6aaab14d3ee1f.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad69baa77.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6a1e9a0.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6a773d9.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6acc6e7.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6b2c22e.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6ba5f60.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6c264bb.jpg",
+          "https://www.sideshow.com/storage/product-images/9157862/hot-toys-alien-ellen-ripley-and-power-loader-sixth-scale-figure-set-gallery-6aaaad6c7cbbf.jpg"
+        ]
+      },
+      {
         "id": "corporal-hicks-1-6-figure-mvv7bn1f",
         "n": "Corporal Hicks 1:6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/915783/hot-toys-alien-corporal-hicks-sixth-scale-figure-gallery-6ae4c30e83cab.jpg",
