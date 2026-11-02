@@ -39914,6 +39914,104 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "silver-surfer-pewter-collectible-mvzgvf7u",
+        "n": "Silver Surfer Pewter Collectible",
+        "i": "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae51957562c8.jpg",
+        "franquicia": "Marvel",
+        "marca": "Royal Selangor",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "13530",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae51957562c8.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-scale-6ae519588b676.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae51957a4f1c.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae51957eda20.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae5195842acf.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-silo.png",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae51957562c8_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-scale-6ae519588b676_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae51957a4f1c_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/916240/royal-selangor-marvel-silver-surfer-pewter-collectible-gallery-6ae51957eda20_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El Silver Surfer de Royal Selangor captura la esencia cósmica del icónico personaje Marvel en pewter de acabado real, emergiendo dramáticamente de un vórtice interdimensional con su tabla de surfing reluciente. Esta edición limitada a solo 1,000 piezas mundial combina la maestría artesanal británica con detalles visuales espectaculares, incluyendo una base púrpura metálica que simula energía cósmica y la mano de Galactus acechante. Una pieza de colección premium imprescindible para coleccionistas serios del universo Marvel que buscan inversión y exhibición de nivel museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 26 cm (10.25\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 29 cm (11.6\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm (7.5\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Pewter (Estaño 96% pureza mínima)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Royal Selangor Pewter Royal Finish"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada a 1,000 piezas mundiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Marvel Comics"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque: Official Marvel Licensee packaging"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura del Silver Surfer en pewter"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base cósmica púrpura metálica con vórtice interdimensional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tabla de surfing integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano de Galactus en la base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad (típico en ediciones limitadas Royal Selangor)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque oficial Marvel"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-02",
+        "reserva": "2706",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "draco-sodom-s-beast-1-7-statue-mvv79wk6",
         "n": "Draco Sodom's Beast 1:7 Statue",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20898/440481/_2026-10-30_200857_967__50225.1793362411.jpg",
