@@ -39914,6 +39914,100 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "hydra-with-jason-warrior-statue-mw10jubz",
+        "n": "Hydra with Jason Warrior Statue",
+        "i": "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae907332ac9d.jpg",
+        "franquicia": "Otros",
+        "marca": "Star Ace",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6920",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae907332ac9d.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae91dcc5dec1.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae9073411856.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae9073465251.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae90734f0fc9.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae907358a4ce.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-silo.png",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae907332ac9d_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae91dcc5dec1_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae9073411856_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Recreación magistral de la legendaria batalla del Hydra contra Jasón del clásico de 1963 de Ray Harryhausen. Esta estatua de coleccionista presenta siete cabezas articuladas con detalles meticulosamente esculpidos, piel texturizada y ojos de cristal rojo brillante, capturando la ferocidad del monstruo mitológico. Fabricada en poliresina de alta calidad con pintura artesanal manual que replica fielmente la animación original, es una pieza de museo para coleccionistas devotos del stop-motion clásico."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm (Hydra)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Longitud: 40 cm (Hydra)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:7 aproximada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Poliresina (Polyresin)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal manual"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: 7 cabezas con expresiones únicas, cuerpo enrollado, espinas dorsales detalladas, ojos de resina roja, cola arqueada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Star Ace Toys Ltd."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia oficial: Ray Harryhausen Collection"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura del Hydra completamente articulada con 7 cabezas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Jason Warrior en posición de combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de batalla para escena completa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Opción de exhibición modular (piezas separables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada de Jasón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo de guerrero"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "reserva": "1384",
+        "entrega": "Mar. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "six-eared-macaque-statue-mw08lfg6",
         "n": "Six-Eared Macaque Statue",
         "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ziFuF3PB1DIeT0OQiJVd41793669003922.jpg",
