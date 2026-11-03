@@ -39914,6 +39914,108 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "darth-vader-lightsaber-collectible-set-silver-mw10qfxr",
+        "n": "Darth Vader Lightsaber Collectible Set Silver",
+        "i": "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace556016192.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Agoro",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2580",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace556016192.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace556040d8d.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace55606d91f.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace556098072.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace5560c3216.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace5560f0089.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace556126fd9.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace5561510cc.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace55617b141.jpg",
+          "https://www.sideshow.com/storage/product-images/916167/agoro-star-wars-darth-vader-lightsaber-collectible-set-silver-collectible-gallery-6ace5561a6976.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Un conjunto de colección premium que captura la esencia del Señor Oscuro en plata pura de 99.9%. Este lanzamiento de Agoro combina una moneda de sable de luz meticulosamente acuñada con un foil de edición limitada que muestra a Darth Vader iluminado por su hoja carmesí, ofreciendo un tributo oficial a una de las figuras más icónicas de Star Wars. Limitado a solo 1,000 ejemplares mundiales numerados, esta pieza de inversión es imprescindible para coleccionistas serios que buscan autenticidad y exclusividad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Conjunto de moneda y foil de plata pura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6 (referencia de tamaño del sable de luz)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plata pura 99.9%"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso total: Aproximadamente 20-25 g (1/2 oz de sable + 5 g de foil)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Moneda de sable de luz: 14 mm × 68 mm (aprox.)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Foil: 98 mm × 148 mm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Proof con color metálico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: Star Wars (licencia oficial)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 1,000 ejemplares mundiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatus legal: Moneda de curso legal (Sello Público de Niue)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Moneda de sable de luz de Darth Vader (1/2 oz plata pura 99.9%)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Foil de plata pura con retrato de Darth Vader (5 g)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reverso con símbolo Imperial y texto 'Sith Lord'"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estuche de foil protector con sobre de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pegatina de Marca de Autenticidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad con numeración individual (0000/1000)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "reserva": "516",
+        "entrega": "Ene. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "hydra-with-jason-warrior-statue-mw10jubz",
         "n": "Hydra with Jason Warrior Statue",
         "i": "https://www.sideshow.com/storage/product-images/916261/star-ace-toys-ltd-ray-harryhausen-hydra-with-jason-warrior-statue-gallery-6ae907332ac9d.jpg",
