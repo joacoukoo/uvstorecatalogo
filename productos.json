@@ -39914,6 +39914,1265 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "six-eared-macaque-statue-mw08lfg6",
+        "n": "Six-Eared Macaque Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ziFuF3PB1DIeT0OQiJVd41793669003922.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ziFuF3PB1DIeT0OQiJVd41793669003922.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nNUuCpzknVf1sfoLcV1Qu1793669013349.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/4IQNKUSIMeOrLLEaSWZ031793669013350.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/IyCwkTjVbTWK5Ina-43g01793669013350.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5M2AkUi6T5Uz4znAV6I3-1793669013350.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JMZvz6rPZbK7isTMYNMHW1793669013350.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/IpjHBKFCnc8dCRiCvA1ku1793669013350.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tRwTKvnoYbNdKeijtTbHC1793669013350.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nQYfNyUuvrGfIMgkPFPPk1793669013351.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mnaoGfIpXW8MPJ3v-b8nN1793669013351.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Guan Zhi Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5500",
+        "reserva": "1100",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Magnífica estatua del Mono de Seis Orejas, uno de los personajes más icónicos de Viaje al Oeste, capturado en una pose dinámica en el aire. Crafted con resina importada y PU de primera calidad, cada detalle está meticulosamente pintado con dorado, azul y rojo vibrante. Una pieza de colección limitada a solo 88 unidades que representa la esencia legendaria de este poderoso guerrero celestial."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 44 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua del Mono de Seis Orejas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con nubes celestiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bastón dorado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34582",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "link-majora-s-mask-statue-mw08lfg7",
+        "n": "Link Majora's Mask Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/HylHeyZy8riAKkrVwKOh71793669502915.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/HylHeyZy8riAKkrVwKOh71793669502915.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Wbz_ynbmP_O-V1lJgDw3e1793669497309.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5Dqnqp_J38mPTC6Dfjd181793669497310.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3YZC8UtTp_W6CDwDzq5U61793669497310.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YNvyE8tIQNIgee3agijKW1793669497310.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/X2m2Hzg91QZvXlabqGubF1793669497310.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ASsdVPWtfLd7fB7lwR2ko1793669497310.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/s0VYiRCTUfGYjEAO_d4UK1793669497310.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1N1q3IW0dPFVWmxc1rMgu1793669497311.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ey2z42j49zjczCAkLs1_x1793669497311.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Seven Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6900",
+        "reserva": "1380",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión 1/6: Altura 57 cm, incluye Link, Skull Kid, Goron Link, Deku Link, base diorama con iluminación LED ajustable."
+          },
+          {
+            "t": "notion-text",
+            "x": "Una monumental recreación de Link en su aventura contra Majora's Mask con múltiples transformaciones y una base escénica temática. Incluye iluminación LED con efectos dinámicos y la icónica luna con color ajustable entre modo normal y luna roja. Edición limitada a solo 126 unidades fabricadas con materiales importados de alta calidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 57 cm (1/6) o 86 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6 y 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU importado, resina importada y piezas impresas en cera roja"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 126 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Link con Majora's Mask"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Skull Kid"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Goron Link (transformación)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Deku Link (transformación)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama temática con luna"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de iluminación LED (encendido fijo, efecto respiración, estroboscópico)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34584",
+        "entrega": "2026 Q3",
+        "label_base": "1/6",
+        "variantes": [
+          {
+            "label": "1/4",
+            "precio": "14400",
+            "reserva": "2880",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_gEAg4-XMr3cNy1H-C2Ne1793669505564.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Wbz_ynbmP_O-V1lJgDw3e1793669497309.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5Dqnqp_J38mPTC6Dfjd181793669497310.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3YZC8UtTp_W6CDwDzq5U61793669497310.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YNvyE8tIQNIgee3agijKW1793669497310.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/X2m2Hzg91QZvXlabqGubF1793669497310.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ASsdVPWtfLd7fB7lwR2ko1793669497310.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/s0VYiRCTUfGYjEAO_d4UK1793669497310.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1N1q3IW0dPFVWmxc1rMgu1793669497311.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ey2z42j49zjczCAkLs1_x1793669497311.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión 1/4: Altura 86 cm, incluye Link, Skull Kid, Goron Link, Deku Link, base diorama con iluminación LED ajustable."
+              },
+              {
+                "t": "notion-text",
+                "x": "Una monumental recreación de Link en su aventura contra Majora's Mask con múltiples transformaciones y una base escénica temática. Incluye iluminación LED con efectos dinámicos y la icónica luna con color ajustable entre modo normal y luna roja. Edición limitada a solo 126 unidades fabricadas con materiales importados de alta calidad."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 57 cm (1/6) o 86 cm (1/4)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1/6 y 1/4"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: PU importado, resina importada y piezas impresas en cera roja"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Edición limitada: 126 unidades"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Link con Majora's Mask"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Skull Kid"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Goron Link (transformación)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Deku Link (transformación)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base diorama temática con luna"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Sistema de iluminación LED (encendido fijo, efecto respiración, estroboscópico)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ryoma-echizen-1-6-statue-mw08lfg7",
+        "n": "Ryoma Echizen 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5UlDzug7t5KNXImT21khm1793615993916.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5UlDzug7t5KNXImT21khm1793615993916.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gR7yacBi0ftlxgvK8xOAx1793615999055.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lNODrE6u8eHzluEI31eN51793615999055.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/fl0BziL6DpOfzQzuOSopa1793616003521.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1q-DPUYppFUyRnqvS5uAH1793616003521.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TrDaKolq9D_4AJ87SiMU21793616003522.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Heying Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6600",
+        "reserva": "1320",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Ryoma Echizen de The Prince of Tennis en escala 1/6, capturando al prodigio del tenis en una pose dinámica rodeado de efectos de energía y tormenta. Pieza limitada a solo 138 unidades fabricada en resina importada y PU de alta calidad. Una obra maestra coleccionable que representa la intensidad y poder del icónico personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 44 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 41 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 138 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Raqueta de tenis"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pelota de tenis"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34563",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "ryuuge-kisaki-1-6-statue-mw08lfg7",
+        "n": "Ryuuge Kisaki 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/PS4hymH9RQl0NcytbO04p1793618841697.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/PS4hymH9RQl0NcytbO04p1793618841697.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TfnuSWnBcSe3SLXXOctvG1793618841697.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LysB7F6aUSpdxohhZv24r1793618841697.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Bambi Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "reserva": "640",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Ryuuge Kisaki de Blue Archive en escala 1/6, capturando su elegancia con un exquisito detalle. Elaborada en PU y resina de alta calidad, esta figura limitada de solo 50 unidades es una pieza de colección imprescindible. Perfecta para los fans más exigentes que buscan calidad artesanal y exclusividad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Unidades limitadas: 50"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Ryuuge Kisaki"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34562",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "young-link-statue-mw08lfg7",
+        "n": "Young Link Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bqMT8JXP2qa1NNUMljwAw1793591928407.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bqMT8JXP2qa1NNUMljwAw1793591928407.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mort424GS2I3jbkxdPXVc1793591923653.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/O1Ro2QKOESIPmRwmPVjnq1793591923654.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uTc-ykj0gOZ-4Y9DWa7-J1793591923654.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/UG1iEDg-i80EVz6f9BbBR1793630819078.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Sq3G9FQsN4NmxdALaQ4L01793630823267.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/F9AE4kO2N-8By4fYLjl7z1793630823267.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8wevwKH0UeQch8cVvvlNx1793630823267.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GonuQ29J-8OaUUdR7teGL1793630823267.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bPqJjUGKKUDGVLOR3QbKq1793630823267.png"
+        ],
+        "franquicia": "Gaming",
+        "marca": "27Abyss Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5200",
+        "reserva": "1040",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión 1/3: Ojos de cristal personalizados hechos a mano."
+          },
+          {
+            "t": "notion-text",
+            "x": "Estatua premium del joven Link de The Legend of Zelda: Ocarina of Time con detalles excepcionales y acabados artesanales. Cada par de ojos es personalizado y confeccionado a mano por artesanos especializados. La versión 1/2 incluye a Navi con iluminación integrada para una experiencia visual envolvente."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 38 cm (1/3) / 50 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 28 cm (1/3) / 37 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 26 cm (1/3) / 33 cm (1/2)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/3, 1/2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos de cristal personalizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Navi con iluminación integrada (1/2)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34560",
+        "entrega": "2027 Q2",
+        "label_base": "1/3",
+        "variantes": [
+          {
+            "label": "1/2",
+            "precio": "9600",
+            "reserva": "1920",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mV115CHKidUx9Th8pjr561793630857043.png",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mort424GS2I3jbkxdPXVc1793591923653.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/O1Ro2QKOESIPmRwmPVjnq1793591923654.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uTc-ykj0gOZ-4Y9DWa7-J1793591923654.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/UG1iEDg-i80EVz6f9BbBR1793630819078.png",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Sq3G9FQsN4NmxdALaQ4L01793630823267.png",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/F9AE4kO2N-8By4fYLjl7z1793630823267.png",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8wevwKH0UeQch8cVvvlNx1793630823267.png",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GonuQ29J-8OaUUdR7teGL1793630823267.png",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bPqJjUGKKUDGVLOR3QbKq1793630823267.png"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión 1/2: Ojos de cristal personalizados hechos a mano y Navi con efectos de iluminación integrados."
+              },
+              {
+                "t": "notion-text",
+                "x": "Estatua premium del joven Link de The Legend of Zelda: Ocarina of Time con detalles excepcionales y acabados artesanales. Cada par de ojos es personalizado y confeccionado a mano por artesanos especializados. La versión 1/2 incluye a Navi con iluminación integrada para una experiencia visual envolvente."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 38 cm (1/3) / 50 cm (1/2)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Profundidad: 28 cm (1/3) / 37 cm (1/2)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Ancho: 26 cm (1/3) / 33 cm (1/2)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1/3, 1/2"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Ojos de cristal personalizados"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Navi con iluminación integrada (1/2)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asuka-langley-soryu-1-6-statue-mw08lfg8",
+        "n": "Asuka Langley Soryu 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/NC6SFpwDxVezzyPF5caBX1793612059117.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/NC6SFpwDxVezzyPF5caBX1793612059117.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dlNiCJnpyeomzyqynr3711793612059117.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/d-xH0S3khA95ZwOcMGrjF1793612059118.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Ex2FJZKNwLU_n6nbq2-2Z1793612059118.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/oZGqZIi08dsMDBtT3CGar1793612059118.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Nuonuo Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "reserva": "760",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Asuka Langley Soryu de Neon Genesis Evangelion a escala 1/6, elaborada en resina importada y PU de alta calidad. Pieza limitada a solo 88 unidades que captura a la icónica piloto en una pose relajada y seductora junto al mar. Incluye diorama de ventana con vista al océano, base y placa con nombre del personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama de ventana con marco de madera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base/colchoneta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fondo escénico con vista al océano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa con nombre del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34559",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "draco-malfoy-female-version-1-6-statue-mw08lfg8",
+        "n": "Draco Malfoy Female Version 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5hQ_lwB55LvPZ_noRYLg1793611945124.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5hQ_lwB55LvPZ_noRYLg1793611945124.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-5wVt-aw1aNBeVxW42Mo71793611941294.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Pr7ZbAX-IW0t7aQ2emRXB1793611941294.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TbFGtF6-4OWLfIcKVPcPd1793611941294.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DvV0UX6bcCGx0LI7EAwvs1793611941294.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OBpjbjkbIye38UHbqvLiE1793611941294.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LeGtSEJf_f_Qp1xU23PDU1793611941294.jpg"
+        ],
+        "franquicia": "Harry Potter",
+        "marca": "Eluma Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "reserva": "640",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Single Display Version: Versión con medias blancas e intercambiables negras."
+          },
+          {
+            "t": "notion-text",
+            "x": "Reinterpretación femenina del icónico personaje de Harry Potter en una estatua 1/6 de alta calidad. Esculpida con detalle premium en resina importada, captura el carisma de Draco Malfoy con uniforme de Slytherin. Disponible en versión única o dual para coleccionistas exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 26 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 199 unidades por versión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uniforme completo de Slytherin (túnica, suéter, falda)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Medias intercambiables (blancas y negras)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34558",
+        "entrega": "2027 Q3",
+        "label_base": "Single Display Version",
+        "variantes": [
+          {
+            "label": "Dual Display Version",
+            "precio": "4500",
+            "reserva": "900",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lIbIv-nL7V0_gYUntNlkM1793611947964.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-5wVt-aw1aNBeVxW42Mo71793611941294.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Pr7ZbAX-IW0t7aQ2emRXB1793611941294.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TbFGtF6-4OWLfIcKVPcPd1793611941294.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DvV0UX6bcCGx0LI7EAwvs1793611941294.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OBpjbjkbIye38UHbqvLiE1793611941294.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LeGtSEJf_f_Qp1xU23PDU1793611941294.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Dual Display Version: Ambas versiones: medias blancas y negras simultáneamente."
+              },
+              {
+                "t": "notion-text",
+                "x": "Reinterpretación femenina del icónico personaje de Harry Potter en una estatua 1/6 de alta calidad. Esculpida con detalle premium en resina importada, captura el carisma de Draco Malfoy con uniforme de Slytherin. Disponible en versión única o dual para coleccionistas exigentes."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 26 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Edición limitada: 199 unidades por versión"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Uniforme completo de Slytherin (túnica, suéter, falda)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Medias intercambiables (blancas y negras)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dragon-balls-museum-series-mw08lfg8",
+        "n": "Dragon Balls Museum Series",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/r_kUJy76rws9GC4wfGj7g1793616128464.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/r_kUJy76rws9GC4wfGj7g1793616128464.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mBcbQLwYWfb6fixKR8lb81793616130461.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Gulu Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3300",
+        "reserva": "660",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una réplica de museo de los siete Dragon Balls de Dragon Ball, presentados en una vitrina de lujo con iluminación LED ajustable. Cada esfera está montada sobre una base individual con césped simulado, dentro de una elegante estructura de aluminio y acrílico transparente que garantiza la máxima visualización y protección del polvo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 80 cm (ancho) x 25 cm (alto) x 20 cm (fondo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina transparente importada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Madera maciza con marco de aleación de aluminio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Unidades limitadas: 200"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 esferas Dragon Ball"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de madera maciza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Césped simulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Luces LED con control remoto inalámbrico (modos: brillo ajustable, luz continua, respirante, destello)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cubierta de acrílico antipolvo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa de metal con identificación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Marco base de aleación de aluminio"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34557",
+        "entrega": "2026 Q4"
+      },
+      {
+        "id": "satoru-gojo-1-6-statue-mw08lfg8",
+        "n": "Satoru Gojo 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/o6kpCfS8bYHfkT-0fdlyT1793612428771.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/o6kpCfS8bYHfkT-0fdlyT1793612428771.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yG2BaOsDKy4M2m0CJtkfg1793612409014.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/7Yf30HPMUTCH83oKUjAjU1793612409014.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Gw_7kd-8XSUrRBD6EV_sr1793612409014.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lSHZmSqtsVk8yTPB67UkT1793612416782.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/QwzfQNR1eRB7PJyd8xo2G1793612416782.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tWseTrSPxej5kihXEv-RS1793612416782.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/RSsGSLPQwhkUPoelY82NQ1793612416782.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TfQaK_-yQCSQrEqBQPNZG1793612420598.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1RO6vdoWZRlfLHuEk1w5u1793612420598.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Ice Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4100",
+        "reserva": "820",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Regular: Figura principal con cabeza normal, base regular y esfera luminosa en mano."
+          },
+          {
+            "t": "notion-text",
+            "x": "Captura la esencia del Poderoso Satoru Gojo con esta estatua de colección de lujo basada en Jujutsu Kaisen. La versión Premium ofrece una base escénica inmersiva con efectos de iluminación dinámica y una cabeza intercambiable para máxima versatilidad. Cada pieza es una obra maestra en resina importada que celebra al icónico maestro jujutsu."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm (Regular) / 53 cm (Premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 21 cm (Regular) / 42 cm (Premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 38 cm (Regular) / 39 cm (Premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Unidades limitadas: 99"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Esfera luminosa en mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base (regular o escénica según versión)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable (solo Premium)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de iluminación escénica (solo Premium)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34541",
+        "entrega": "2027 Q1",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Premium",
+            "precio": "8800",
+            "reserva": "1760",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/0WEt7ZFKX8kpduSBsQH1x1793612433283.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yG2BaOsDKy4M2m0CJtkfg1793612409014.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/7Yf30HPMUTCH83oKUjAjU1793612409014.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Gw_7kd-8XSUrRBD6EV_sr1793612409014.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lSHZmSqtsVk8yTPB67UkT1793612416782.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/QwzfQNR1eRB7PJyd8xo2G1793612416782.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tWseTrSPxej5kihXEv-RS1793612416782.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/RSsGSLPQwhkUPoelY82NQ1793612416782.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TfQaK_-yQCSQrEqBQPNZG1793612420598.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1RO6vdoWZRlfLHuEk1w5u1793612420598.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Premium: Figura principal con cabeza intercambiable, base escénica, esfera luminosa en mano y efectos de iluminación dinámica."
+              },
+              {
+                "t": "notion-text",
+                "x": "Captura la esencia del Poderoso Satoru Gojo con esta estatua de colección de lujo basada en Jujutsu Kaisen. La versión Premium ofrece una base escénica inmersiva con efectos de iluminación dinámica y una cabeza intercambiable para máxima versatilidad. Cada pieza es una obra maestra en resina importada que celebra al icónico maestro jujutsu."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 31 cm (Regular) / 53 cm (Premium)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Ancho: 21 cm (Regular) / 42 cm (Premium)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Profundidad: 38 cm (Regular) / 39 cm (Premium)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Unidades limitadas: 99"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Esfera luminosa en mano"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base (regular o escénica según versión)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Cabeza intercambiable (solo Premium)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Efectos de iluminación escénica (solo Premium)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "go-figure-studio-jujutsu-kaisen-satoru-gojo-statue-mw08lfg8",
+        "n": "Go Figure Studio - Jujutsu Kaisen - Satoru Gojo Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/AmcTTBiFLGFULhJnIohSZ1793605056420.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/AmcTTBiFLGFULhJnIohSZ1793605056420.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ojbAS12PuXc9SbBPEKo9Y1793605056421.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zafbsRxvTFCn2j-DYH0LV1793605056421.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Eu4oetaDu3KCgVYkjZUlP1793605056421.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DO9Imn9Cwvnm_btcQJxkD1793605056421.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uzhpZUuHdG0m9yJ9009IH1793605056422.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jptxN35cvxR83_xXH9um81793605056422.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-IMzM9hhIxZ_B03b5c91x1793605056422.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wftvt4xQ5bdPfhcYTTmdz1793605056422.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "GO FIGURE Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "reserva": "560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Customers from Contiguous EU, USA, AUS, CA, UK, Malaysia and Singapore (Not Including Islands such as Hawaii etc.) :\n\nEverything you see is everything you pay for.\n\nCustomers from other countries:\nWith regard to customs, we will help you pay as little as possible.\n\nStudio: Go Figure Studio\nProduct Name: Satoru Gojo\nEst. Completion: 2027 Q1\nSize: (H) 32 cm x (D) 11 cm x (W) 13.5 cm\nLimited No Of Unit: 100\nProduct IP: Jujutsu Kaisen\nProduct Role: Satoru Gojo\nProduct Scale: --\nProduct Material: Imported resin, imported PU, 3D printed hair, transparent 3D printed glasses\nSpecial Description: Hair produced via 3D batch printing with 0 shrinkage to guarantee sharpness; glasses made with transparent 3D printing.\n\nMY ORDER\n\nTherefore, we do not support any refund for any reason. Please consider placing the order carefully.\n\nRemaing amount will be available to be payed after Statue Release and Please Pay Within one Week."
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34514"
+      },
+      {
+        "id": "shinobu-kocho-1-6-statue-mw08lfg8",
+        "n": "Shinobu Kocho 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pnuVKEXbokbAOgBsjZXT91793605465456.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pnuVKEXbokbAOgBsjZXT91793605465456.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TneiYX3PqdbbL455FFVKV1793605465457.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/9mAa_cZwaokduxsESuPrO1793605465457.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Tk Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "reserva": "420",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de colección premium que captura a Shinobu Kocho en una pose cautivadora junto al mar, con exquisitos detalles en su katana y atuendo. Edición limitada de solo 268 unidades mundiales, fabricada con materiales importados de alta calidad. Una pieza imprescindible para los coleccionistas más exigentes del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU importado y cuerpo de resina con tonos de piel simulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 268 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Katana"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica con agua y conchas"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34513",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "mecha-calcifer-statue-mw08lfg8",
+        "n": "Mecha Calcifer Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jJ7tGaUEimpv0FViaphfs1793593685561.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jJ7tGaUEimpv0FViaphfs1793593685561.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gzFs2oUaVKQ0bNzkdWQ-61793593629359.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/m9YaZ8lBWJWGqRQwniLRM1793593629359.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ecUxR-a3uPZTM79ekkGgd1793593629359.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDOhyQhNFNfmsW1ilcVuR1793593629359.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zuJBm0KAJawbvS4tj8Z7r1793593629359.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YJPL5vETH2vIdmr5x93VR1793593629359.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vRWHjgqZN3FtmmqtAkfrC1793593629360.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JkUSFv5UQ2Ep6kkLbB68M1793593629360.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5R__jChLEx9zzb_I3rkr1793593692175.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Long Miao Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "reserva": "580",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Red Version: Versión roja con efectos de iluminación."
+          },
+          {
+            "t": "notion-text",
+            "x": "Una reimaginación steampunk del icónico fuego vivo Calcifer de El Castillo Ambulante, transformado en una colosal estatua mecánica con detalles futuristas y efectos de iluminación integrados. Esta pieza premium captura la esencia del personaje con un toque industrial único, perfecta para coleccionistas que buscan algo extraordinario y diferente."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 20,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Efectos de iluminación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Mecha Calcifer"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de iluminación funcionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34506",
+        "entrega": "2027 Q1",
+        "label_base": "Red Version",
+        "variantes": [
+          {
+            "label": "Blue Version",
+            "precio": "2900",
+            "reserva": "580",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YFC04mvreY2Ghhxliqq_i1793593668701.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gzFs2oUaVKQ0bNzkdWQ-61793593629359.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/m9YaZ8lBWJWGqRQwniLRM1793593629359.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ecUxR-a3uPZTM79ekkGgd1793593629359.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDOhyQhNFNfmsW1ilcVuR1793593629359.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zuJBm0KAJawbvS4tj8Z7r1793593629359.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YJPL5vETH2vIdmr5x93VR1793593629359.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vRWHjgqZN3FtmmqtAkfrC1793593629360.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JkUSFv5UQ2Ep6kkLbB68M1793593629360.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5R__jChLEx9zzb_I3rkr1793593692175.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Blue Version: Versión azul con efectos de iluminación."
+              },
+              {
+                "t": "notion-text",
+                "x": "Una reimaginación steampunk del icónico fuego vivo Calcifer de El Castillo Ambulante, transformado en una colosal estatua mecánica con detalles futuristas y efectos de iluminación integrados. Esta pieza premium captura la esencia del personaje con un toque industrial único, perfecta para coleccionistas que buscan algo extraordinario y diferente."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 16 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Profundidad: 19,5 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Ancho: 20,5 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Características: Efectos de iluminación"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua Mecha Calcifer"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Efectos de iluminación funcionales"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Base temática"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aventurine-waveflair-1-6-statue-mw08lfg9",
+        "n": "Aventurine Waveflair 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mL1D9AqX1YxlpA6d0Ibhr1793601100602.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mL1D9AqX1YxlpA6d0Ibhr1793601100602.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/aW_5NPeEJi9yP_PORN19Z1793601100602.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/QWDa_ivvpJCphr2xeK1Ua1793601100603.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/S7oheM1dSiXEw8YB7_d5c1793601100603.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Tf_CJYB6nCuJ1ue0Q3yKB1793601100603.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lRoS4P5KbxdGvePMsesBX1793601100603.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Dainty Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4100",
+        "reserva": "820",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium del personaje Aventurine de Honkai: Star Rail, capturando su elegante pose veraniega junto al mar. Elaborada en resina importada y PU, esta figura limitada a solo 99 unidades destaca por sus detalles meticulosos y acabados de alta calidad. Una pieza coleccionable imprescindible para los fans del juego."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Collar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas de sol"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34504",
+        "entrega": "2027 Q3"
+      },
+      {
+        "id": "frieren-x-usagi-tsukino-1-6-statue-mw08lfg9",
+        "n": "Frieren X Usagi Tsukino 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6hh3j0Os4FGaEA7jkfsL51793167703975.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6hh3j0Os4FGaEA7jkfsL51793167703975.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zBfNrNrCP7qWYDMl6SQu-1793167617479.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/fbwkqQPfPT1XwXdEKG0j01793167617480.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yGNVP_unIueb1smJlENbw1793167617480.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iaBuvTU3lKEkT7Y12jJrG1793167617480.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OG7zIJMsfmU5BjxYV4FDG1793601216209.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_wex7Z6EhjfU9rD8GElRd1793601216209.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Kiko Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "reserva": "640",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Version A: Frieren cosplay de Usagi Tsukino."
+          },
+          {
+            "t": "notion-text",
+            "x": "Una colaboración épica entre dos mundos: Frieren vistiendo el icónico uniforme de Sailor Moon en esta estatua de colección premium de 27 cm. Esculpida en resina importada y PU de alta calidad, captura la esencia mágica de ambas franquicias en una sola obra maestra. Elige entre el crossover único de la Versión A o la clásica Usagi Tsukino de la Versión B."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-03",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34505",
+        "entrega": "2027 Q2",
+        "label_base": "Version A",
+        "variantes": [
+          {
+            "label": "Version B",
+            "precio": "3200",
+            "reserva": "640",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ML-uRYzSxtI1yg2mjBzzF1793167707207.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zBfNrNrCP7qWYDMl6SQu-1793167617479.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/fbwkqQPfPT1XwXdEKG0j01793167617480.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yGNVP_unIueb1smJlENbw1793167617480.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iaBuvTU3lKEkT7Y12jJrG1793167617480.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OG7zIJMsfmU5BjxYV4FDG1793601216209.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_wex7Z6EhjfU9rD8GElRd1793601216209.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Version B: Usagi Tsukino."
+              },
+              {
+                "t": "notion-text",
+                "x": "Una colaboración épica entre dos mundos: Frieren vistiendo el icónico uniforme de Sailor Moon en esta estatua de colección premium de 27 cm. Esculpida en resina importada y PU de alta calidad, captura la esencia mágica de ambas franquicias en una sola obra maestra. Elige entre el crossover único de la Versión A o la clásica Usagi Tsukino de la Versión B."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 27 cm"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Estatua"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "eowyn-vs-witch-king-1-10-scale-statue-mvzhgvsc",
         "n": "Éowyn vs. Witch-king 1:10 Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/916256/iron-studios-the-lord-of-the-rings-eowyn-vs-witch-king-1-10-scale-statues-gallery-6ae51407417f7.jpg",
