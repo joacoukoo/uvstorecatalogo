@@ -40072,6 +40072,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "miss-fortune-the-bounty-hunter-1-6-statue-mw2e02pi",
+        "n": "Miss Fortune The Bounty Hunter 1:6 Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70e9102f9.jpg",
+        "franquicia": "Gaming",
+        "marca": "Jimei Palace",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7040",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70e9102f9.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-scale-68fa70ed21574.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70e9788c6.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70e9e742d.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70ea5a94d.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70eac5db8.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70eb54d95.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70ebca1e4.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70ec4a37c.jpg",
+          "https://www.sideshow.com/storage/product-images/915012/jimei-palace-league-of-legends-the-bounty-hunter-miss-fortune-statue-gallery-68fa70ecbce32.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la esencia de Miss Fortune, La Cazarrecompensas de League of Legends, con una precisión artesanal excepcional. Esta estatua de edición limitada de Jimei Palace presenta una pose dinámica sobre un barco destrozado con una criatura marina emergiendo del agua, alcanzando casi 17 pulgadas de altura. Una adición imprescindible para coleccionistas exigentes que demandan calidad premium y detalles visuales inmersivos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 43 cm (16.92 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 29 cm (11.41 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 20 cm (7.87 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 7.3 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Jimei Palace"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: League of Legends"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua principal de Miss Fortune"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorámica con efectos iluminados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mouse pad temático"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium protector"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "1408",
+        "cantidad": "2"
+      },
+      {
         "id": "chaves-chapolin-version-1-10-scale-statue-mw2dpnxa",
         "n": "Chaves (Chapolin Version) 1:10 Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/915106/iron-studios-el-chavo-del-ocho-chaves-chapolin-version-1-10-scale-statues-gallery-69331cd7d3112.jpg",
