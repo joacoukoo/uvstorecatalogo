@@ -39914,6 +39914,91 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "frankenstein-s-monster-statue-mw2divh0",
+        "n": "Frankenstein's Monster Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecc03b8a3.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3340",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecc03b8a3.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbbdaeff.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbfd4078.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbb6f5d3.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbeae330.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbc3ed2c.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbdcd703.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbd08af6.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbf146c5.jpg",
+          "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecbca6d16.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La Estatua Art Scale 1:10 de la Criatura de Frankenstein de Guillermo del Toro es una obra maestra de coleccionismo limitado que captura la esencia gótica y la complejidad emocional del monstruo icónico. Cada figura es meticulosamente elaborada a mano y pintada con detalles excepcionales, reflejando la atmosfera cinematográfica oscura y cautivadora de la película. Esta pieza de edición limitada es imprescindible para coleccionistas de horror premium que buscan agregar un símbolo del cine clásico reimaginado a sus colecciones de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina de poliestireno)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 0.9 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado artesanal pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada y numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso de envío: 2.7 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Art Scale 1:10 de la Criatura de Frankenstein"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "668",
+        "cantidad": "2"
+      },
+      {
         "id": "batman-vs-bane-statue-mw2dgm0p",
         "n": "Batman vs Bane Statue",
         "i": "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f522de46.jpg",
