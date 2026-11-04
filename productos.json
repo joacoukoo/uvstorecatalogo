@@ -39914,6 +39914,91 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "chapolin-colorado-1-10-statue-mw2dn2u0",
+        "n": "Chapolin Colorado 1:10 Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b4a5e12.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2510",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b4a5e12.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-scale-69331aa2c2d94.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b4eb197.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b539870.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b57b086.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b5bcb2a.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b60ebc0.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b6536b3.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b6926cb.jpg",
+          "https://www.sideshow.com/storage/product-images/915105/iron-studios-el-chapulin-colorado-chapolin-colorado-1-10-scale-statues-gallery-693317b6d26bd.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una pieza de colección premium que captura la esencia del icónico héroe latinoamericano Chapolin Colorado con extraordinario detalle y calidad. Esta estatua Art Scale 1:10 de Iron Studios presenta todos los elementos distintivos del personaje: su vibrante traje rojo y amarillo, sus antenas características y su pose heroica con el Martillo Biónico en mano. Un must-have para coleccionistas y nostálgicos que crecieron con el genio cómico de Roberto Gómez Bolaños, representando un legado cultural inmortalizador en forma de escultura de polistone de museo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm (8 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 12.2 cm (4.8 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 11.7 cm (4.6 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 0.8 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado pintura artesanal de museo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Chapolin Colorado posicionada en pose heroica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Martillo Biónico (Biônica Hammer) en mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "502",
+        "cantidad": "2"
+      },
+      {
         "id": "frankenstein-s-monster-statue-mw2divh0",
         "n": "Frankenstein's Monster Statue",
         "i": "https://www.sideshow.com/storage/product-images/915041/iron-studios-frankenstein-frankensteins-monster-1-10-scale-statues-gallery-6904ecc03b8a3.jpg",
