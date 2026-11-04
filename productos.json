@@ -69167,6 +69167,91 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "seto-kaiba-collectible-figure-mw2dxshn",
+        "n": "Seto Kaiba Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc85ae48.jpg",
+        "franquicia": "Anime",
+        "marca": "Kotobukiya",
+        "escala": "1:7",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2230",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc85ae48.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-scale-695e94bf108ae.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc8961dd.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc8cad79.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc901a7d.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc931eec.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc96e577.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc9aba89.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fc9e9ab7.jpg",
+          "https://www.sideshow.com/storage/product-images/915220/kotobukiya-yu-gi-oh-seto-kaiba-passionate-duelists-collectible-figure-gallery-695e8fca274d9.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Seto Kaiba de Kotobukiya que celebra los 25 años de Yu-Gi-Oh! Duel Monsters con un esculpido completamente nuevo basado en ilustración de aniversario del reconocido animador Takahiro Kagami. Cada detalle ha sido meticulosamente elaborado, desde las puntas de los dedos hasta el movimiento dinámico de su abrigo, capturando la esencia estilizada y poderosa del personaje icónico con calidad ARTFX J de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 26 cm (10.16 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:7"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: ABS, PVC y Acrílico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso de envío: 1.2 kg (2.70 lbs)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones de caja: 27 cm (alto) x 26.5 cm (ancho) x 34 cm (profundo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultor: Hirohito"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Kotobukiya"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: ARTFX J - Passionate Duelists"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Seto Kaiba articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carta de duelista intercambiable en mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de efecto de movimiento de capa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "446",
+        "cantidad": "2"
+      },
+      {
         "id": "jibril-bunny-ver-1-6-figure-mw10mhuf",
         "n": "Jibril: Bunny Ver. 1:6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/916262/phat-company-no-game-no-life-jibril-bunny-ver-collectible-figure-gallery-6ae90c0a6f921.jpg",
