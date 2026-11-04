@@ -39914,6 +39914,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "batman-vs-bane-statue-mw2dgm0p",
+        "n": "Batman vs Bane Statue",
+        "i": "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f522de46.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Iron Studios",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6060",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f522de46.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-scale-6aa85f549fa85.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f526da38.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f52a7d8a.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f52e24db.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f532bc34.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f5367cd9.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f53a6cbd.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f53e2fab.jpg",
+          "https://www.sideshow.com/storage/product-images/914394/iron-studios-dc-comics-batman-vs-bane-1-10-scale-statues-gallery-6aa85f5427edb.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el épico enfrentamiento entre el Caballero Oscuro y su más formidable adversario con esta estatua exclusiva de Iron Studios. Cada detalle ha sido meticulosamente esculpido y pintado a mano, capturando la intensidad del combate entre Batman y Bane en una composición dinámica que domina cualquier colección. Una pieza de edición limitada que representa la máxima calidad artesanal y la pasión por el universo DC Comics."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 33 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (Resina)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 2 kg (aproximadamente)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada y numerada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Exclusiva de evento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Batman vs Bane Art Scale 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de escena integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de coleccionista con caja de lujo"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "1212",
+        "cantidad": "2"
+      },
+      {
         "id": "chernabog-demi-art-scale-statue-mw2ddr88",
         "n": "Chernabog Demi Art Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecedd3203.jpg",
