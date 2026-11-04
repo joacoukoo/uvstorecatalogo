@@ -39914,6 +39914,92 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "the-joker-quarter-scale-statue-mw2d2vsm",
+        "n": "The Joker Quarter Scale Statue",
+        "i": "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea55186fdd6.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Prime 1 Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "12210",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea55186fdd6.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-scale-6aea551c6e31b.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea5518a8ab8.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea5518e8da9.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea551930f7b.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea55196c631.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea5519af4bb.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea551a0fa02.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea551a6385d.jpg",
+          "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea551ab719d.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La estatua The Joker Quarter Scale de Prime 1 Studio es una obra maestra del coleccionismo premium que trae a la vida la visión icónica de Lee Bermejo con una fidelidad sin precedentes. Con detalles esculturales refinados durante siete años, captura cada aspecto perturbador del personaje: los ojos rojo blanquecinos, la boca desgarrada con realismo crudo y los dientes amarillentos que generan una impresión inquietante. Cada elemento, desde la gabardina ondulante en movimiento hasta los exóticos zapatos de cuero, refleja el estilo único de Bermejo con alta precisión, consolidándose como una adición imprescindible para cualquier colección seria de DC Comics."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 53 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 34 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 9.4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño conceptual por Lee Bermejo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Ultimate Premium Masterline"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura estatua The Joker"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática The Joker con motivos de Batman: Noël"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles de base: Batman despojado de libertad, Robin en lateral, Bat-Signal grabado en reverso"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "2442",
+        "entrega": "Mar. 2028",
+        "cantidad": "2"
+      },
+      {
         "id": "william-birkin-g1-1-4-statue-mw1ok7xz",
         "n": "William Birkin G1 1/4 Statue",
         "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DNDg6A1DEkugOIS4_gIu11793719028240.png",
