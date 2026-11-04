@@ -39914,6 +39914,1004 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "william-birkin-g1-1-4-statue-mw1ok7xz",
+        "n": "William Birkin G1 1/4 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DNDg6A1DEkugOIS4_gIu11793719028240.png",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DNDg6A1DEkugOIS4_gIu11793719028240.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eN8MRyI4OTMuQjjCJ2HyP1793719028240.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/0dyX7KvyA3NWddPqYK37C1793719028240.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pu0P_ipJJC3CzakhrlJq51793719028240.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_e6ieyOdetLpkaeN-ym9w1793719028240.png",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/9e9DMeBUowJnsxN28zSLA1793719028240.png"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Singularity Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "10400",
+        "reserva": "2080",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de resina de alta calidad que captura al icónico William Birkin en su forma G1 del Resident Evil 2 Remake. Con una altura de 56.5 cm y un nivel de detalle extraordinario, esta pieza limitada a 30 unidades es imprescindible para los coleccionistas hardcore del horror de Capcom. Fabricada con resina importada y PU, representa la transformación monstruosa del personaje con una precisión aterradora."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 56.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 35.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 33.8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de William Birkin G1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34720",
+        "entrega": "2027 Q3"
+      },
+      {
+        "id": "saber-alter-1-6-statue-mw1ok7xz",
+        "n": "Saber Alter 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yKHr-YSBm6E30iD0IYMZi1793704434536.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yKHr-YSBm6E30iD0IYMZi1793704434536.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gUEsXTzHycI8u1EVBUOhd1793704434537.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Ap5s8XM1YUuGPNQDSi3cq1793704434537.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/htNuwmDVp1QPYELZ9sLcH1793704434537.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gwQBLuXkD53jEX93sASDW1793704434537.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Mai Mai Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7200",
+        "reserva": "1440",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Saber Alter de Fate/stay night en escala 1/6, capturando toda la intensidad y poder de este icónico personaje rodeado de llamas infernales. Con una altura de 50 cm y detalles meticulosamente esculpidos, esta pieza limitada a solo 60 unidades es una declaración de dominio absoluto. Fabricada en resina importada y PU de alta calidad, incluye cuerpo del personaje, base elaborada, escultura de cabeza intercambiable y soporte independiente."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 50 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 60 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte para escultura de cabeza"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de cabello impresas de alta precisión"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34718",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "reze-1-3-figure-mw1ok7xz",
+        "n": "Reze 1/3 Figure",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Dy0lpBSrJ5L0Exe5EkPBx1793706176678.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Dy0lpBSrJ5L0Exe5EkPBx1793706176678.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nfzcvc85pEkCw7Uq3lmXa1793706176678.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/7p69LjeKWgGpmAVSdGD3B1793706176679.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eLPWxRf4LyQSEMs3OSdCY1793706176679.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Rz Studio",
+        "escala": "1:3",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "9600",
+        "reserva": "1920",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de Reze de Chainsaw Man con una altura impresionante de 75 cm. Elaborada con esqueleto de aleación, silicona de platino y detalles articulados como ojos magnéticos móviles. Una pieza de colección de alta gama que captura la esencia del personaje con acabados de lujo y materiales de primera calidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 75 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Esqueleto de aleación, silicona de platino, ojos magnéticos móviles, cabello implantado, senos de silicona de gel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza de silicona con implante de cabello"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo de silicona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estructura de soporte de entrepierna"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Conjunto de ropa completo"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34690",
+        "entrega": "2026 Q4"
+      },
+      {
+        "id": "piplup-1-10-statue-mw1ok7xz",
+        "n": "Piplup 1/10 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/R9MzmEDB9qP4BFqRx5c9Y1793706604612.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/R9MzmEDB9qP4BFqRx5c9Y1793706604612.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/b-adPF7uu-R-4nWw7fu-91793706610471.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/S30g1L_5oz2zC8NQ7QT-n1793706610471.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Tg9QSEmlPVCuUAKPuy0gI1793706610472.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Miumiu Studio",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1300",
+        "reserva": "260",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la ternura del icónico Piplup de Pokémon en esta estatua premium de resina de alta calidad. Con una escala 1/10 y detalles meticulosos, esta figura destaca por su base oceánica decorativa que recrea el hábitat natural del pingüino de tipo agua. Una pieza de colección imprescindible para los amantes de Pokémon que valoran el arte y la precisión artesanal."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Piplup"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base oceánica decorativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34689",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "alice-margatroid-1-7-statue-mw1ok7xz",
+        "n": "Alice Margatroid 1/7 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/RpAmR4Bdij_nF9gA6Lse91793706358102.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/RpAmR4Bdij_nF9gA6Lse91793706358102.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/77vTLeIw-SKMDOCvC4jEe1793706358103.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ChYcUA9sSwVW8OASHFEu81793706358103.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8eE-_m39noa2w1FjmHGDX1793706358105.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Brk4hf0ZvX33K9VJU2wYp1793706358105.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eEEeP6VWf5XCwArAKW-xA1793706358106.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Zn_8r7YXRn0eTVegYEEaa1793706358106.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/y9xvxvc0RPQO9tTc-CA4Z1793706358106.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iCjleWDxSyx-p3PhFeya31793706358106.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Acgn 02 Studio",
+        "escala": "1:7",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5300",
+        "reserva": "1060",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Alice Margatroid de Touhou Project con una altura de 27 cm, caracterizada por su exquisito detalle y materiales de alta calidad. La figura captura la esencia del personaje con su icónico atuendo de muñeca viviente, adornado con flores rosas y elaborados encajes. Una pieza imprescindible para los coleccionistas devotos de Touhou."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/7"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU + Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Alice Margatroid"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34688",
+        "entrega": "2027 Q4"
+      },
+      {
+        "id": "satoru-gojo-statue-mw1ok7y0",
+        "n": "Satoru Gojo Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/z0C6FoDcFvgyBqewseZQ31793705786879.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/z0C6FoDcFvgyBqewseZQ31793705786879.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sxLqZdYFXPyYg2Z26N58s1793705786879.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/oKNFrFWsemaHcQtSvYiYA1793705786879.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/kjejWgSuC4KkhVCLuhXmp1793705786879.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Qichen Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "reserva": "400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium del icónico Satoru Gojo de Jujutsu Kaisen, capturando su elegancia característica con un detallado traje negro y su distintivo cabello blanco. Fabricada en resina importada y PU de alta calidad, esta pieza presenta un acabado artístico que resalta cada detalle del personaje. Una adición imprescindible para cualquier coleccionista apasionado por el anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Satoru Gojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34686",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "doma-1-6-statue-mw1ok7y0",
+        "n": "Doma 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/fkNxLPeaUQo1X6_IqGl0w1793705572548.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/fkNxLPeaUQo1X6_IqGl0w1793705572548.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vwXrO1dSfSCltvPOaNXYo1793705572548.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/NBukoJFQdLkhFcH9H47T81793705572548.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/I5qoesdXohvw0jZopeZ1B1793705572548.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TwOh8v0b-yGedjsQDX4uQ1793705572548.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/hJLr_vejq09DtUvdtz1co1793705572549.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/EuM6Lqczxwkgo4pjF0sZy1793705572549.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Eon Bliss Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3000",
+        "reserva": "600",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Doma de Demon Slayer en escala 1/6, capturando la elegancia glacial del personaje con detalles magistrales. Incluye base de loto transparente con efectos de iluminación que realza el impacto visual de esta pieza coleccionable limitada a solo 99 unidades."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Doma"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de loto transparente con efectos de iluminación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abanico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34685",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "son-gohan-casual-wear-1-6-statue-mw1ok7y0",
+        "n": "Son Gohan Casual Wear 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/I1p6P2ylke4Kmg9TQ5GMc1793695513113.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/I1p6P2ylke4Kmg9TQ5GMc1793695513113.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YHxftGIIz5TxsNDqzkeNl1793695513114.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KRlvWi9bpLAeEZc-FmMHx1793695513114.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pu6YdFe7VaRmyTUKHR83Q1793695513114.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LTpAE3AewGPSSM8mxVD-s1793695513114.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/EdLynSAxxrJH7ls7Su-7K1793695513114.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eoIDOMleT6xZL2GHgU9v01793695513114.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/7SeZykF-yauIF1NpDan4G1793695513114.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yJIJVMCNN3T788LepUUvO1793695513115.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_oJ0YjAU45sODwV2gOP7W1793695513115.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Wish Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "reserva": "560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una impresionante estatua de Son Gohan en atuendo casual, capturando al icónico personaje de Dragon Ball en una pose relajada pero llena de energía. Elaborada con resina avanzada y material PU de alta calidad, esta figura de escala 1/6 destaca por su exquisito detalle y acabado premium. Perfecta para coleccionistas que buscan una representación elegante y única del querido héroe."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 10 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina avanzada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura estatua"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34681",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "till-1-6-statue-mw1ok7y0",
+        "n": "Till 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xeiEQGIMwvoyguGzaH6UH1793612850416.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xeiEQGIMwvoyguGzaH6UH1793612850416.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FqlG5GctUX9dWFTuF2wLn1793612850417.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/G0vpEJnCMUG9sFTl4fufo1793612850417.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/phXYzN7CUU_GTmJfw2h_N1793612850417.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ophUMYEwgdz7qwyfqmpSh1793612850417.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tuKy7peZyd4g93XAGPaii1793612850417.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/7larwCeJ19dm12P0AVstM1793612850417.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GNbZjsXLrDDRV8B-Hv7xs1793612850417.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/UQMMiE6hcYMzUMLxmd8D-1793612850417.jpg"
+        ],
+        "franquicia": "Alien",
+        "marca": "Hs Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "reserva": "800",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium del personaje Till de Alien Stage con una altura de 25 cm y acabado artístico en resina importada y PU. Incluye base con efectos de iluminación en tres modos: luz fija, respiración y destello estroboscópico. Pieza altamente detallada y limitada a solo 88 unidades."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Auriculares in-ear"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con sistema de iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Patineta con detalles en relieve"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Controlador remoto"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34624",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "nezha-asking-heaven-lingchuan-1-6-statue-mw1ok7y0",
+        "n": "Nezha: Asking Heaven & Lingchuan 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/hq6t0ON8zgYPeAFUVfav11793676018168.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/hq6t0ON8zgYPeAFUVfav11793676018168.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/N-e879W3fuVHCIQ_PEGAL1793675973462.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1ZeDBWaOlyElzl2rUYfep1793675973462.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/rWLMc1yU9vr6sXozDanXe1793675973462.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FSzwDeFudNMJs4xTCz78W1793675973462.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/B1D_EFS1EYH-KZlNRnHA91793675973462.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vOY28ikQuAuTx79enQjdj1793676078407.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gXD0Ut-nHd-xayceQ5D-z1793676085849.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6obFZYQEhWfMKwSLaSbML1793676085849.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FK7ZM9aLmVn8OVNHPZnoR1793676085849.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Sparkly Key Animation Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7800",
+        "reserva": "1560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión Asking Heaven: Camiseta limitada de Nezha y accesorios de pendientes."
+          },
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Nezha del anime 'My Senior Brother is Too Steady' con dos versiones espectaculares: la versión Asking Heaven de 50 cm de altura con pose majestuosa, y la versión Lingchuan más compacta de 38 cm. Ambas featuring detalles exquisitos en polystone, resina de alta transparencia y elementos con efectos de fuego y nubes tradicionales chinas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 50 cm (Asking Heaven) / 38 cm (Lingchuan)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 28 cm (ambas versiones)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 22 cm (Asking Heaven) / 17 cm (Lingchuan)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone, resina de alta transparencia, resina PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios de pendientes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Camiseta limitada (versión Asking Heaven) o placa conmemorativa magnética (versión Lingchuan)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34625",
+        "entrega": "2027 Q4",
+        "label_base": "Asking Heaven",
+        "variantes": [
+          {
+            "label": "Lingchuan",
+            "precio": "4800",
+            "reserva": "960",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JwLhnJNVXgXr4kw80TaE_1793676023619.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/N-e879W3fuVHCIQ_PEGAL1793675973462.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1ZeDBWaOlyElzl2rUYfep1793675973462.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/rWLMc1yU9vr6sXozDanXe1793675973462.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FSzwDeFudNMJs4xTCz78W1793675973462.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/B1D_EFS1EYH-KZlNRnHA91793675973462.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vOY28ikQuAuTx79enQjdj1793676078407.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gXD0Ut-nHd-xayceQ5D-z1793676085849.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6obFZYQEhWfMKwSLaSbML1793676085849.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FK7ZM9aLmVn8OVNHPZnoR1793676085849.webp"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión Lingchuan: Placa conmemorativa magnética de metal y accesorios de pendientes."
+              },
+              {
+                "t": "notion-text",
+                "x": "Estatua premium de Nezha del anime 'My Senior Brother is Too Steady' con dos versiones espectaculares: la versión Asking Heaven de 50 cm de altura con pose majestuosa, y la versión Lingchuan más compacta de 38 cm. Ambas featuring detalles exquisitos en polystone, resina de alta transparencia y elementos con efectos de fuego y nubes tradicionales chinas."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 50 cm (Asking Heaven) / 38 cm (Lingchuan)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Profundidad: 28 cm (ambas versiones)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Ancho: 22 cm (Asking Heaven) / 17 cm (Lingchuan)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1/6"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Polystone, resina de alta transparencia, resina PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios de pendientes"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Camiseta limitada (versión Asking Heaven) o placa conmemorativa magnética (versión Lingchuan)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "si-1-6-statue-mw1ok7y0",
+        "n": "Si 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xqNJTuqUOUUI_wdIEcXmO1793611092243.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xqNJTuqUOUUI_wdIEcXmO1793611092243.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/s7Mqbahb2DduqR655diGG1793611092243.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_9mH-LKBoyVMdJOJFg1HM1793611092243.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FpRzYSonkVoxeSlT-fEOR1793611092243.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jx_s59L46QzV4CMN0ThOn1793611092243.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6SIrJwjIO8P8cZuHFMRit1793611092244.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/9z4CwYCTfodHv54i5RihL1793611092244.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Rumeng Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "reserva": "700",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Si del universo Arknights: Endfield, elaborada en resina importada y PU de alta calidad. Figura de colección en escala 1/6 con acabados detallados y una presentación escénica de lujo. Captura la esencia del personaje con un nivel de detalle excepcional."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Si"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34623",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "jiji-x-lily-statue-mw1ok7y0",
+        "n": "Jiji X Lily Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ujDXQia5bq1Hgs0hw7BuZ1793611306848.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ujDXQia5bq1Hgs0hw7BuZ1793611306848.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Wu Yu Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1900",
+        "reserva": "380",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una encantadora estatua que captura el heartwarming momento entre Jiji y Lily de El Servicio de Entregas de Kiki. Esta pieza de la serie Desktop Vol. 11 combina magistralmente la ternura de los personajes con detalles cotidianos que evocan la magia del clásico Studio Ghibli. Perfecta para coleccionistas que buscan traer un pedazo del mundo de Kiki a su hogar."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y PU importado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Jiji (gato negro)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Lily (gato blanco)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Leche"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de cojín acolchado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34622",
+        "entrega": "2026 Q4"
+      },
+      {
+        "id": "doc-q-x-stronger-statue-mw1ok7y0",
+        "n": "Doc Q X Stronger Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tkkrhFcDwdYkXwG173ZBX1793670040801.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tkkrhFcDwdYkXwG173ZBX1793670040801.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uFGLxp99oFD0deQOnfsEf1793670040801.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wRpTqXsu2TGGXZ6-8Mw8c1793670040801.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uUuzSMtTI649yOyTI--f-1793670040801.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/XBvvOpprHthHTXSSu1JI11793670040801.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/HHpn3kjRuO-xdYcJV0cYZ1793670040802.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/B3dXkbjTnFQB2Og10u20-1793670040802.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vW6j0y0I6VTMnLgF5YgSY1793670040802.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/AGyEkerWrGS9ZC2yAmXj21793670040802.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/an3-nTadu-QBGynX4SI801793670040802.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "C2 Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6800",
+        "reserva": "1360",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una magistral estatua que captura el icónico dúo de Doc Q y su fiel compañero Stronger en toda su gloria. Con efectos de humo envolventes y una presencia imposible de ignorar, esta pieza limitada a solo 38 unidades es un tesoro imprescindible para coleccionistas devotos de One Piece."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 34 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 31,7 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU importado y resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de humo efecto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base octagonal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manzana magnética desmontable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Stronger"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34621",
+        "entrega": "2026 Q2"
+      },
+      {
+        "id": "giyu-tomioka-bust-mw1ok7y1",
+        "n": "Giyu Tomioka Bust",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/kIOXmmJr75mQSaGQUxWa81790667234170.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/kIOXmmJr75mQSaGQUxWa81790667234170.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/EN0UdAxJSl-m0QkCNo_Ng1790667230017.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/F3sofYhiaEnEzcTUW7plq1790667230017.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lwIGa9QxBfWZQsLxORdKN1790667230017.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JCakSTUo_WIy5vTLwIRqZ1790667230017.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Man Zang Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "reserva": "1080",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Versión 1/3: Altura 40 cm."
+          },
+          {
+            "t": "notion-text",
+            "x": "Magnífico busto del Pilar del Agua Giyu Tomioka capturado en un momento de intensidad con sus espadas características. Esta obra maestra de Man Zang Studio presenta un nivel de detalle excepcional con efectos de agua incluidos y está limitada a solo 80 unidades. Una adquisición esencial para los coleccionistas más exigentes de Demon Slayer."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40 cm (1/3) / 102 cm (1/1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 37 cm (1/3) / 92 cm (1/1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 37 cm (1/3) / 92 cm (1/1)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3 / 1:1"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios con efecto de agua"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa coleccionista única"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/34609",
+        "entrega": "2027 Q1",
+        "label_base": "1/3",
+        "variantes": [
+          {
+            "label": "1/1",
+            "precio": "19200",
+            "reserva": "3840",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/RL4vT8p-a5uUHXVVZC7yA1790667260163.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/EN0UdAxJSl-m0QkCNo_Ng1790667230017.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/F3sofYhiaEnEzcTUW7plq1790667230017.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lwIGa9QxBfWZQsLxORdKN1790667230017.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JCakSTUo_WIy5vTLwIRqZ1790667230017.jpg"
+            ],
+            "content": [
+              {
+                "t": "notion-text",
+                "x": "Versión 1/1: Altura 102 cm, tamaño real."
+              },
+              {
+                "t": "notion-text",
+                "x": "Magnífico busto del Pilar del Agua Giyu Tomioka capturado en un momento de intensidad con sus espadas características. Esta obra maestra de Man Zang Studio presenta un nivel de detalle excepcional con efectos de agua incluidos y está limitada a solo 80 unidades. Una adquisición esencial para los coleccionistas más exigentes de Demon Slayer."
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Altura: 40 cm (1/3) / 102 cm (1/1)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Profundidad: 37 cm (1/3) / 92 cm (1/1)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Ancho: 37 cm (1/3) / 92 cm (1/1)"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Escala: 1:3 / 1:1"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Material: Resina importada y PU"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Accesorios con efecto de agua"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Certificado de autenticidad numerado"
+              },
+              {
+                "t": "notion-bulleted-list",
+                "x": "Placa coleccionista única"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "plana-arona-statue-mw1o7u3b",
         "n": "Plana & Arona Statue",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20965/442203/61c34c0324a9567b696173bcff7943c4_-___58975.1793715420.jpg",
