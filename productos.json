@@ -39914,6 +39914,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "mickey-friends-90s-retro-figurine-mw2d9ucc",
+        "n": "Mickey & Friends 90s Retro Figurine",
+        "i": "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b3172ac9a.jpg",
+        "franquicia": "Otros",
+        "marca": "Enesco",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3260",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b3172ac9a.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b31758c93.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b317bdd0e.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b3181deb5.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b31869972.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b318b4626.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-silo.png",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b3172ac9a_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b31758c93_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b317bdd0e_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una pieza de colección premium que captura la magia nostálgica de los años 90 con el icónico elenco de Mickey y sus amigos. Diseñada por el aclamado artista Jim Shore, esta figurina combina patrones folk-art tradicionales con un estilo retro vibrante, presentando acabados pintados a mano en resina de piedra de alta calidad. Imprescindible para coleccionistas de Disney que buscan una obra maestra que celebre la era dorada de la animación clásica con detalles artesanales excepcionales."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm (9 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4 (aproximada)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de piedra de alta calidad (Polystone)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura manual artesanal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 1.2-1.5 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Colección: Jim Shore Disney Traditions - Old School Cool"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Artista: Jim Shore (diseñador galardonado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles: Patrones inspirados en arte folclórico americano y europeo, motivos de edredón tradicional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figurina principal con Mickey, Minnie, Goofy, Donald Duck, Daisy Duck y Pluto"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos pequeñas figuras de ardilla (accesorios decorativos destacados)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja individual con fotografía frontal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "652",
+        "cantidad": "2"
+      },
+      {
         "id": "the-joker-quarter-scale-statue-mw2d2vsm",
         "n": "The Joker Quarter Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/916197/prime-1-studio-dc-comics-the-joker-quarter-scale-statue-gallery-6aea55186fdd6.jpg",
