@@ -39914,6 +39914,95 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "chernabog-demi-art-scale-statue-mw2ddr88",
+        "n": "Chernabog Demi Art Scale Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecedd3203.jpg",
+        "franquicia": "Otros",
+        "marca": "Iron Studios",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7560",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecedd3203.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-scale-6903ecf10f621.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecee1f42b.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecee5ecf8.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903eceeaa4ea.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecef06981.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecef49a9b.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecef8ad34.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecefc8fd1.jpg",
+          "https://www.sideshow.com/storage/product-images/915039/iron-studios-disney-chernabog-statue-gallery-6903ecf018bde.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La estatua Chernabog Demi Art Scale de Iron Studios captura la majestuosidad del icónico villano de Disney's Fantasia con un nivel de detalle extraordinario. Esta pieza de edición limitada presenta un acabado hand-painted que resalta cada aspecto de la figura, desde sus características demoníacas hasta los efectos de luz azul que envuelven su forma imponente. Una adquisición imprescindible para coleccionistas de Disney que buscan piezas premium de alta calidad y valor de colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 39 cm (15.5 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 32.7 cm (12.7 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm (7.5 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:20"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 4.2 kg (9.2 lbs)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone (resina de alta calidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Hand-painted (pintado a mano)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Iron Studios"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia: Disney Official"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática diseñada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Chernabog completamente ensamblada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-04",
+        "reserva": "1512",
+        "cantidad": "2"
+      },
+      {
         "id": "mickey-friends-90s-retro-figurine-mw2d9ucc",
         "n": "Mickey & Friends 90s Retro Figurine",
         "i": "https://www.sideshow.com/storage/product-images/916087/enesco-llc-disney-90s-retro-mickey-friends-figurine-gallery-6aa1b3172ac9a.jpg",
