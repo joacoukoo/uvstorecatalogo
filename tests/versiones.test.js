@@ -4,13 +4,13 @@ import { aplicarVersiones } from '../versiones.js';
 const fila = (o = {}) => ({ idx: -1, label: '', precio: '', reserva: '', escala: '', agotado: false, ...o });
 
 describe('aplicarVersiones', () => {
-  it('guarda precio, reserva y escala editados y conserva fotos/descripción de la variante', () => {
+  it('guarda precio, reserva y escala editados y conserva las fotos de la variante', () => {
     const anteriores = [{ label: '1:4', precio: '8000', reserva: '1600', escala: '1:4', fotos: ['a.jpg'], content: [{ t: 'x' }] }];
     const p = { precio: '5800', variantes: anteriores };
     aplicarVersiones(p, anteriores, { label: '1:6', agotado: false },
       [fila({ idx: 0, label: '1:4', precio: '9600', reserva: '1920', escala: '1:4' })]);
     expect(p.label_base).toBe('1:6');
-    expect(p.variantes).toEqual([{ label: '1:4', precio: '9600', reserva: '1920', escala: '1:4', fotos: ['a.jpg'], content: [{ t: 'x' }] }]);
+    expect(p.variantes).toEqual([{ label: '1:4', precio: '9600', reserva: '1920', escala: '1:4', fotos: ['a.jpg'] }]);
   });
 
   it('calcula la reserva al 20% si quedó vacía', () => {
@@ -42,6 +42,25 @@ describe('aplicarVersiones', () => {
   it('exige precio y nombre en cada versión', () => {
     expect(() => aplicarVersiones({}, [], { label: '1:6' }, [fila({ label: '1:4' })])).toThrow(/precio/);
     expect(() => aplicarVersiones({}, [], { label: '1:6' }, [fila({ precio: '9600' })])).toThrow(/nombre/);
+  });
+
+  it('guarda la diferencia de cada versión y reemplaza la copia vieja de la descripción', () => {
+    const anteriores = [{ label: 'EX', precio: '7750', content: [{ t: 'notion-text', x: 'Versión EX: vieja.' }] }];
+    const p = { variantes: anteriores };
+    aplicarVersiones(p, anteriores, { label: 'Regular', detalle: 'Base sencilla.' },
+      [fila({ idx: 0, label: 'EX', precio: '7750', detalle: 'Base escénica grande' })]);
+    expect(p.detalle_base).toBe('Base sencilla');
+    expect(p.variantes[0].detalle).toBe('Base escénica grande');
+    expect(p.variantes[0]).not.toHaveProperty('content');
+  });
+
+  it('sin diferencia la versión usa la descripción principal (y se borra la diferencia vieja)', () => {
+    const anteriores = [{ label: '1:4', precio: '9600', detalle: 'Más grande' }];
+    const p = { variantes: anteriores, detalle_base: 'x' };
+    aplicarVersiones(p, anteriores, { label: '1:6', detalle: '' }, [fila({ idx: 0, label: '1:4', precio: '9600', detalle: '' })]);
+    expect(p).not.toHaveProperty('detalle_base');
+    expect(p.variantes[0]).not.toHaveProperty('detalle');
+    expect(p.variantes[0]).not.toHaveProperty('content');
   });
 
   it('agotadas por versión: base en agotado_r, variante en agotado, y todas agotadas => figura agotada', () => {

@@ -35,6 +35,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .ver-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr .8fr auto auto;gap:8px;align-items:center;margin-bottom:8px}
 .ver-grid input[type=text]{width:100%;padding:7px 9px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:13px}
 .ver-nota{grid-column:1/-1;font-size:11px;color:var(--muted2)}
+.ver-grid input.ver-det{grid-column:1/-1;margin-top:-2px}
 @media(max-width:600px){.ver-grid{grid-template-columns:1fr 1fr}.ver-head{display:none}}
 .field-row-4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px}
 .url-row{display:flex;gap:8px;margin-bottom:20px}
@@ -967,8 +968,8 @@ function openEdit(cat,idx){
   var vs=p.variantes||[];
   _versiones={
     anteriores:vs,
-    base:{label:p.label_base||'',agotado:!!p.agotado_r},
-    filas:vs.map(function(v,i){return{idx:i,label:v.label||'',precio:v.precio||'',reserva:v.reserva||'',escala:v.escala||'',agotado:!!v.agotado,fotos:(v.fotos||[]).length,desc:!!(v.content&&v.content.length)};})
+    base:{label:p.label_base||'',agotado:!!p.agotado_r,detalle:p.detalle_base||''},
+    filas:vs.map(function(v,i){return{idx:i,label:v.label||'',precio:v.precio||'',reserva:v.reserva||'',escala:v.escala||'',agotado:!!v.agotado,detalle:v.detalle||detalleViejo(v),fotos:(v.fotos||[]).length};})
   };
   renderVersiones();
   cargarLoteEdit(p.id);
@@ -983,13 +984,20 @@ function openEdit(cat,idx){
 var _versiones={anteriores:[],base:{label:'',agotado:false},filas:[],dibujado:false};
 function escA(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
 
+// Variantes viejas con la descripción completa copiada: su primera linea es "Versión X: lo que trae."
+function detalleViejo(v){
+  var x=(v.content&&v.content[0]&&v.content[0].x)||'';
+  var m=x.match(/^Versi[oó]n .+?: ([\s\S]+?)\.?$/);
+  return m?m[1]:(v.desc||'');
+}
+
 function leerVersiones(){
   if(!_versiones.dibujado)return;
-  _versiones.base={label:getField('edit-vb-label'),agotado:getBool('edit-vb-ago')};
+  _versiones.base={label:getField('edit-vb-label'),agotado:getBool('edit-vb-ago'),detalle:getField('edit-vb-det')};
   _versiones.filas.forEach(function(f,k){
     f.label=getField('edit-v'+k+'-label');f.precio=getField('edit-v'+k+'-precio');
     f.reserva=getField('edit-v'+k+'-reserva');f.escala=getField('edit-v'+k+'-escala');
-    f.agotado=getBool('edit-v'+k+'-ago');
+    f.agotado=getBool('edit-v'+k+'-ago');f.detalle=getField('edit-v'+k+'-det');
   });
 }
 
@@ -1011,9 +1019,10 @@ function renderVersiones(){
       '<input type="text" id="edit-vb-label" value="'+escA(_versiones.base.label)+'" placeholder="Regular">'+
       '<label class="check-item"><input type="checkbox" id="edit-vb-ago"'+(_versiones.base.agotado?' checked':'')+'><span>Agotada</span></label>'+
       '<span class="ver-nota">Versión principal: usa el precio, reserva, escala, fotos y descripción de arriba</span>'+
+      '<input type="text" class="ver-det" id="edit-vb-det" value="'+escA(_versiones.base.detalle)+'" placeholder="Qué trae esta versión (opcional, ej. base sencilla)">'+
     '</div>';
   _versiones.filas.forEach(function(f,k){
-    var extra=[f.fotos?f.fotos+' fotos propias':'',f.desc?'descripción propia':''].filter(Boolean).join(' · ');
+    var extra=f.fotos?f.fotos+' fotos propias':'';
     h+='<div class="ver-grid">'+
       '<input type="text" id="edit-v'+k+'-label" value="'+escA(f.label)+'" placeholder="1:4">'+
       '<input type="text" id="edit-v'+k+'-precio" value="'+escA(f.precio)+'" oninput="reservaVersion('+k+')">'+
@@ -1021,6 +1030,7 @@ function renderVersiones(){
       '<input type="text" id="edit-v'+k+'-escala" value="'+escA(f.escala)+'" placeholder="1:4">'+
       '<label class="check-item"><input type="checkbox" id="edit-v'+k+'-ago"'+(f.agotado?' checked':'')+'><span>Agotada</span></label>'+
       '<button class="btn btn-secondary" onclick="quitarVersion('+k+')" style="padding:5px 9px;font-size:12px" title="Quitar esta versión">✕</button>'+
+      '<input type="text" class="ver-det" id="edit-v'+k+'-det" value="'+escA(f.detalle)+'" placeholder="Qué trae distinto (vacío = misma descripción, ej. solo más grande)">'+
       (extra?'<span class="ver-nota">'+extra+' (se conservan)</span>':'')+
     '</div>';
   });
@@ -1031,7 +1041,7 @@ function renderVersiones(){
 
 function agregarVersion(){
   leerVersiones();
-  _versiones.filas.push({idx:-1,label:'',precio:'',reserva:'',escala:'',agotado:false});
+  _versiones.filas.push({idx:-1,label:'',precio:'',reserva:'',escala:'',agotado:false,detalle:''});
   renderVersiones();
 }
 function quitarVersion(k){

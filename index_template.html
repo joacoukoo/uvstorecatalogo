@@ -2291,7 +2291,6 @@ function openModal(p,cat){
   if(p.variantes&&p.variantes.length>0){
     varToggleEl.style.display="flex";
     var basePhotos=(p.fotos&&p.fotos.length>0)?p.fotos:[p.i];
-    var baseContent=p.content||[];
     // Helper: rebuild content section
     var _renderContent=renderModalContent;
     // Botón base (el producto principal): su nombre si lo tiene (ej. "1:6"), si no "Regular"
@@ -2309,7 +2308,7 @@ function openModal(p,cat){
       if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
       if(se&&p.escala)se.textContent=p.escala;
       carouselBuild(basePhotos);
-      _renderContent(baseContent);
+      _renderContent(_contenidoVersion(p,null));
     };
     varToggleEl.appendChild(btnBase);
     // Variantes adicionales
@@ -2327,9 +2326,7 @@ function openModal(p,cat){
         if(re)re.textContent=v.reserva?fmtReserva(v.reserva):"";
         if(se){se.textContent=v.escala||se.textContent;}
         if(v.fotos&&v.fotos.length>0)carouselBuild(v.fotos);
-        // Cambiar descripción si la variante tiene la suya
-        if(v.content&&v.content.length){_renderContent(v.content);}
-        else if(v.desc){_renderContent([{t:"notion-text",x:v.desc}]);}
+        _renderContent(_contenidoVersion(p,v));
       };
       varToggleEl.appendChild(btn);
     });
@@ -2356,7 +2353,7 @@ function openModal(p,cat){
     d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'"+(prop.id?' id="'+prop.id+'"':"")+">"+prop.value+"</div>";
     propsEl.appendChild(d);
   });
-  renderModalContent(p.content||[]);
+  renderModalContent(p.variantes&&p.variantes.length?_contenidoVersion(p,null):(p.content||[]));
   var ytEl=document.getElementById("modal-yt");ytEl.innerHTML="";
   if(p.yt){
     ytEl.innerHTML="<a href='"+esc(p.yt)+"' target='_blank' rel='noopener'><svg width='20' height='14' viewBox='0 0 20 14' fill='white'><path d='M19.58 2.19A2.49 2.49 0 0 0 17.83.43C16.27 0 10 0 10 0S3.73 0 2.17.43A2.49 2.49 0 0 0 .42 2.19 26 26 0 0 0 0 7a26 26 0 0 0 .42 4.81 2.49 2.49 0 0 0 1.75 1.76C3.73 14 10 14 10 14s6.27 0 7.83-.43a2.49 2.49 0 0 0 1.75-1.76A26 26 0 0 0 20 7a26 26 0 0 0-.42-4.81z'/><polygon points='8,10 13,7 8,4' fill='red'/></svg>Ver en YouTube</a>";
@@ -2370,6 +2367,17 @@ function openModal(p,cat){
   document.getElementById("modal-wa").href="https://wa.me/50230261622?text="+waText;
   document.getElementById("modal").classList.add("open");
   document.body.style.overflow="hidden";
+}
+
+// Descripción de una versión (v=null: la principal). Cada opción guarda solo su diferencia (detalle,
+// detalle_base) y se muestra arriba de la descripción única; las variantes viejas con descripción
+// completa propia (content/desc) la siguen mostrando.
+function _contenidoVersion(p,v){
+  if(v&&v.content&&v.content.length)return v.content;
+  if(v&&v.desc)return [{t:"notion-text",x:v.desc}];
+  var det=v?v.detalle:p.detalle_base,lbl=v?(v.label||v.escala||"Variante"):(p.label_base||"Regular");
+  var base=p.content||[];
+  return det?[{t:"notion-text",x:"Versión "+lbl+": "+String(det).replace(/[.\s]+$/,"")+"."}].concat(base):base;
 }
 
 function closeModal(){

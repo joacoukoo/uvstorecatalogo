@@ -180,11 +180,14 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
   const [b, ...resto] = conPrecio;
   // La foto propia de la versión va primero, seguida de la galería (sin repetir).
   const fotosDe = o => [...new Set([...(o.fotos || []), ...fotosBase])].slice(0, 10);
-  // Arriba de la descripción, qué trae la versión elegida (la web la cambia al tocar el botón).
+  // Regular/Deluxe: arriba de cada descripción, qué trae esa versión. Con variantes (escalas, EX) la
+  // descripción es una sola y cada opción guarda solo su diferencia en `detalle` (la web la muestra
+  // arriba al tocar el botón), así no quedan copias de la descripción que se desactualicen.
   const conVersion = o => [
     ...(o.detalle && o.label ? [{ t: 'notion-text', x: 'Versión ' + o.label + ': ' + o.detalle.replace(/[.\s]+$/, '') + '.' }] : []),
     ...buildContent(datos.desc || ''),
   ];
+  const esDeluxe = resto.length === 1 && vars.length === 2 && /deluxe|exclusive/i.test(resto[0].label);
   const product = {
     id: makeId(extra.nombre || datos.nombre_limpio || 'figura'),
     n: extra.nombre || datos.nombre_limpio || '',
@@ -197,14 +200,13 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
     estado: 'Nuevo',
     precio: String(b.precio),
     reserva: reserva(b.precio),
-    content: conVersion(b),
+    content: esDeluxe || !resto.length ? conVersion(b) : buildContent(datos.desc || ''),
     destacado: false, oferta: false, agotado: false, agotado_r: false, agotado_d: false,
     added_at: new Date().toISOString().slice(0, 10),
     origen: datos.origen || '',
   };
   if (datos.entrega) product.entrega = datos.entrega;
 
-  const esDeluxe = resto.length === 1 && vars.length === 2 && /deluxe|exclusive/i.test(resto[0].label);
   if (esDeluxe) {
     product.precio_d = String(resto[0].precio);
     product.reserva_d = reserva(resto[0].precio);
@@ -212,10 +214,11 @@ export function armarProducto(datos, precios, extra, { makeId, buildContent }) {
     if (resto[0].detalle) product.content_d = conVersion(resto[0]);
   } else if (resto.length) {
     product.label_base = b.label;
+    if (b.label && b.detalle) product.detalle_base = b.detalle.replace(/[.\s]+$/, '');
     product.variantes = resto.map(v => ({
       label: v.label, precio: String(v.precio), reserva: reserva(v.precio),
       ...(v.escala ? { escala: v.escala } : {}), ...(v.fotos?.length ? { fotos: fotosDe(v) } : {}),
-      ...(v.detalle ? { content: conVersion(v) } : {}),
+      ...(v.detalle ? { detalle: v.detalle.replace(/[.\s]+$/, '') } : {}),
     }));
   }
   return { category: extra.categoria || datos.categoria || 'Otras Figuras', product };
