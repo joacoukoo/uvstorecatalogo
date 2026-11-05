@@ -3,7 +3,7 @@ import { fetchPage, PROXY_URL } from '../_lib/fetchPage.js';
 import { limpiarNombre, sacarOracionesConBasura, opcionesReales, esTienda } from '../_lib/limpieza.js';
 import { esTCG, CATEGORIA_TCG } from '../_lib/tcg.js';
 
-async function callClaudeForDesc(env, { name, marca, escala, franquicia, desc_raw, foto, opciones = [] }) {
+export async function callClaudeForDesc(env, { name, marca, escala, franquicia, desc_raw, foto, opciones = [] }) {
   if (!env.ANTHROPIC_API_KEY) return null;
   const ctx = [
     marca      && `Fabricante: ${marca}.`,
@@ -33,21 +33,25 @@ Responde SOLO con JSON válido sin markdown:
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
+  const pedir = c => fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    signal: controller.signal,
+    headers: {
+      'x-api-key': env.ANTHROPIC_API_KEY,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 1024,
+      messages: [{ role: 'user', content: c }],
+    }),
+  });
   try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      signal: controller.signal,
-      headers: {
-        'x-api-key': env.ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01',
-        'content-type': 'application/json',
-      },
-      body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 1024,
-        messages: [{ role: 'user', content }],
-      }),
-    });
+    let res = await pedir(content);
+    // La tienda puede bloquear la foto (ej. Fanatic Anime Store, robots.txt "Disallow: /") y
+    // Anthropic responde 400: mejor una descripción sin foto que la figura sin descripción.
+    if (res.status === 400 && foto) res = await pedir(prompt);
     if (!res.ok) return null;
     const data = await res.json();
     const text = data.content?.[0]?.text || '';
