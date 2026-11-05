@@ -1,5 +1,11 @@
 import { readFile, writeFile, mutateCatalog } from '../_lib/githubCatalog.js';
 
+// La web muestra una sola "Pre orden del mes" (la primera que encuentra): al marcar una nueva se
+// desmarcan las demás, si no la nueva nunca aparece.
+function desmarcarPreordenMes(catalog) {
+  for (const c in catalog) for (const p of catalog[c].products || []) delete p.preorden_mes;
+}
+
 export async function onRequestGet({ env }) {
   try {
     const { catalog } = await readFile(env.GITHUB_TOKEN, env.GITHUB_REPO);
@@ -30,6 +36,7 @@ export async function onRequestPut({ env, request }) {
       if (!category || !product) return err400('add requiere category y product');
       await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
         if (!catalog[category]) catalog[category] = { products: [] };
+        if (product.preorden_mes) desmarcarPreordenMes(catalog);
         catalog[category].products.unshift(product);
       });
       return ok();
@@ -39,6 +46,7 @@ export async function onRequestPut({ env, request }) {
       const { productId, product, newCategory } = body;
       if (!productId || !product) return err400('edit requiere productId y product');
       await mutateCatalog(env.GITHUB_TOKEN, env.GITHUB_REPO, catalog => {
+        if (product.preorden_mes) desmarcarPreordenMes(catalog);
         for (const c in catalog) {
           const prods = catalog[c].products || [];
           const i = prods.findIndex(p => p.id === productId);

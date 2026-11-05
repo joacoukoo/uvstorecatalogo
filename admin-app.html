@@ -1105,6 +1105,7 @@ async function saveEdit(){
   var pd=getField('edit-precio-d');updated.precio_d=pd||undefined;
   var rvd=getField('edit-reserva-d');updated.reserva_d=rvd||undefined;
   var po=getField('edit-precio-orig');updated.precio_orig=po||undefined;
+  updated.preorden_mes=getBool('edit-preorden-mes')||undefined;
   var fd=_photos.edit.d.slice();updated.fotos_d=fd.length?fd:undefined;
   leerVersiones();
   try{aplicarVersiones(updated,_versiones.anteriores,_versiones.base,_versiones.filas);}
