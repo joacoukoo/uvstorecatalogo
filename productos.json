@@ -40112,14 +40112,12 @@
         "variantes": [
           {
             "label": "1:4",
-            "precio": "8000",
-            "reserva": "1600",
+            "precio": "9600",
+            "reserva": "1920",
             "escala": "1:4"
           }
         ],
-        "cantidad": "4",
-        "precio_d": "9600",
-        "reserva_d": "1920"
+        "cantidad": "4"
       },
       {
         "id": "miss-fortune-the-bounty-hunter-1-6-statue-mw2e02pi",
