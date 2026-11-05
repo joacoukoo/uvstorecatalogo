@@ -40289,10 +40289,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión LingChuan: Nezha con lanza de fuego sobre roca volcánica, 38 cm de alto."
-          },
-          {
-            "t": "notion-text",
             "x": "Nezha por Sparkkey Studio en dos versiones: LingChuan, de pie sobre roca volcánica con su lanza de fuego, y WenTian, tensando el arco sobre una base de olas y nubes. Ropa roja y negra con bordados dorados y cintas al viento. De regalo trae una insignia magnética de metal y una camiseta de Nezha."
           },
           {
@@ -40330,38 +40326,10 @@
             "label": "WenTian",
             "precio": "7100",
             "reserva": "1420",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión WenTian: Nezha tensando el arco sobre base de olas y nubes, 50 cm de alto."
-              },
-              {
-                "t": "notion-text",
-                "x": "Nezha por Sparkkey Studio en dos versiones: LingChuan, de pie sobre roca volcánica con su lanza de fuego, y WenTian, tensando el arco sobre una base de olas y nubes. Ropa roja y negra con bordados dorados y cintas al viento. De regalo trae una insignia magnética de metal y una camiseta de Nezha."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "LingChuan: 38 cm alto × 17 cm ancho × 28 cm profundidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "WenTian: 50 cm alto × 22 cm ancho × 28 cm profundidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PU y resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Regalo: insignia magnética de metal y camiseta de Nezha"
-              }
-            ]
+            "detalle": "Nezha tensando el arco sobre base de olas y nubes, 50 cm de alto"
           }
-        ]
+        ],
+        "detalle_base": "Nezha con lanza de fuego sobre roca volcánica, 38 cm de alto"
       },
       {
         "id": "blizzard-1-6-harbinger-of-the-void-xal-x27-atath-mw3uai9t",
@@ -40441,10 +40409,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: figura en escala 1:6 con base sencilla."
-          },
-          {
-            "t": "notion-text",
             "x": "Sesshomaru de InuYasha por LueYing × Demons Studio, con su kimono blanco, la estola de piel y la espada en mano, con iluminación LED. Viene en dos versiones: la Regular en escala 1:6 sobre una base de agua sencilla, y la EX en escala 1:7 con una gran base escénica de cristal y energía demoníaca."
           },
           {
@@ -40479,34 +40443,10 @@
             "precio": "7750",
             "reserva": "1550",
             "escala": "1:7",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: figura en escala 1:7 con gran base escénica de 60 cm de alto."
-              },
-              {
-                "t": "notion-text",
-                "x": "Sesshomaru de InuYasha por LueYing × Demons Studio, con su kimono blanco, la estola de piel y la espada en mano, con iluminación LED. Viene en dos versiones: la Regular en escala 1:6 sobre una base de agua sencilla, y la EX en escala 1:7 con una gran base escénica de cristal y energía demoníaca."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Regular: figura 1:6 + base sencilla, 32 cm alto × 26 cm ancho × 24 cm profundidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "EX: figura 1:7 + gran base escénica, 60 cm alto × 48 cm ancho × 40 cm profundidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Iluminación LED"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura de Sesshomaru"
-              }
-            ]
+            "detalle": "figura en escala 1:7 con gran base escénica de 60 cm de alto"
           }
-        ]
+        ],
+        "detalle_base": "figura en escala 1:6 con base sencilla"
       },
       {
         "id": "pg-studio-plelades-liu-lan-fei-hong-mw3uai9q",
@@ -42006,10 +41946,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Asking Heaven: Camiseta limitada de Nezha y accesorios de pendientes."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua premium de Nezha del anime 'My Senior Brother is Too Steady' con dos versiones espectaculares: la versión Asking Heaven de 50 cm de altura con pose majestuosa, y la versión Lingchuan más compacta de 38 cm. Ambas featuring detalles exquisitos en polystone, resina de alta transparencia y elementos con efectos de fuego y nubes tradicionales chinas."
           },
           {
@@ -42067,46 +42003,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/6obFZYQEhWfMKwSLaSbML1793676085849.webp",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/FK7ZM9aLmVn8OVNHPZnoR1793676085849.webp"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Lingchuan: Placa conmemorativa magnética de metal y accesorios de pendientes."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de Nezha del anime 'My Senior Brother is Too Steady' con dos versiones espectaculares: la versión Asking Heaven de 50 cm de altura con pose majestuosa, y la versión Lingchuan más compacta de 38 cm. Ambas featuring detalles exquisitos en polystone, resina de alta transparencia y elementos con efectos de fuego y nubes tradicionales chinas."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 50 cm (Asking Heaven) / 38 cm (Lingchuan)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Profundidad: 28 cm (ambas versiones)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Ancho: 22 cm (Asking Heaven) / 17 cm (Lingchuan)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Polystone, resina de alta transparencia, resina PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios de pendientes"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Camiseta limitada (versión Asking Heaven) o placa conmemorativa magnética (versión Lingchuan)"
-              }
-            ]
+            "detalle": "Placa conmemorativa magnética de metal y accesorios de pendientes"
           }
-        ]
+        ],
+        "detalle_base": "Camiseta limitada de Nezha y accesorios de pendientes"
       },
       {
         "id": "si-1-6-statue-mw1ok7y0",
@@ -42311,10 +42211,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1/3: Altura 40 cm."
-          },
-          {
-            "t": "notion-text",
             "x": "Magnífico busto del Pilar del Agua Giyu Tomioka capturado en un momento de intensidad con sus espadas características. Esta obra maestra de Man Zang Studio presenta un nivel de detalle excepcional con efectos de agua incluidos y está limitada a solo 80 unidades. Una adquisición esencial para los coleccionistas más exigentes de Demon Slayer."
           },
           {
@@ -42371,50 +42267,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lwIGa9QxBfWZQsLxORdKN1790667230017.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JCakSTUo_WIy5vTLwIRqZ1790667230017.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1/1: Altura 102 cm, tamaño real."
-              },
-              {
-                "t": "notion-text",
-                "x": "Magnífico busto del Pilar del Agua Giyu Tomioka capturado en un momento de intensidad con sus espadas características. Esta obra maestra de Man Zang Studio presenta un nivel de detalle excepcional con efectos de agua incluidos y está limitada a solo 80 unidades. Una adquisición esencial para los coleccionistas más exigentes de Demon Slayer."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 40 cm (1/3) / 102 cm (1/1)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Profundidad: 37 cm (1/3) / 92 cm (1/1)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Ancho: 37 cm (1/3) / 92 cm (1/1)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:3 / 1:1"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios con efecto de agua"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Certificado de autenticidad numerado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Placa coleccionista única"
-              }
-            ]
+            "detalle": "Altura 102 cm, tamaño real"
           }
-        ]
+        ],
+        "detalle_base": "Altura 40 cm"
       },
       {
         "id": "plana-arona-statue-mw1o7u3b",
@@ -42640,10 +42496,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:6: Escala 1:6."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium de Link en su icónica aventura de Ocarina of Time, capturado en un momento de exploración junto a su compañera Navi. Cada detalle de su equipo y entorno ha sido meticulosamente esculpido y pintado para recrear la magia del clásico de Nintendo. Una pieza coleccionable imprescindible para fans de The Legend of Zelda."
           },
           {
@@ -42693,49 +42545,7 @@
             "label": "1:4",
             "precio": "10400",
             "reserva": "2080",
-            "escala": "1:4",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:4: Escala 1:4 más grande."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Link en su icónica aventura de Ocarina of Time, capturado en un momento de exploración junto a su compañera Navi. Cada detalle de su equipo y entorno ha sido meticulosamente esculpido y pintado para recrear la magia del clásico de Nintendo. Una pieza coleccionable imprescindible para fans de The Legend of Zelda."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6 / 1:4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y tela"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática con acabados detallados"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escultura de alta calidad artesanal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura de Link"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Compañera Navi"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica decorativa"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios detallados"
-              }
-            ]
+            "escala": "1:4"
           }
         ]
       },
@@ -42763,10 +42573,6 @@
         "precio": "2000",
         "reserva": "400",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión 1:4: Escala 1:4."
-          },
           {
             "t": "notion-text",
             "x": "Una adorable estatua premium que captura a Whale-chan en un exquisito disfraz de sirvienta, con sus característicos rasgos azules y detalles meticulosos. Disponible en dos escalas distintas para satisfacer cualquier preferencia de coleccionista. Pieza de alta calidad que destaca por su acabado impecable y diseño cautivador."
@@ -42810,41 +42616,7 @@
             "label": "1:1",
             "precio": "5600",
             "reserva": "1120",
-            "escala": "1:1",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:1: Escala 1:1 tamaño real."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una adorable estatua premium que captura a Whale-chan en un exquisito disfraz de sirvienta, con sus característicos rasgos azules y detalles meticulosos. Disponible en dos escalas distintas para satisfacer cualquier preferencia de coleccionista. Pieza de alta calidad que destaca por su acabado impecable y diseño cautivador."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:4 o 1:1"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: Variable según escala"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura estatua"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              }
-            ]
+            "escala": "1:1"
           }
         ]
       },
@@ -42872,10 +42644,6 @@
         "precio": "3800",
         "reserva": "760",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión A: Traje regular."
-          },
           {
             "t": "notion-text",
             "x": "Figura premium 1:6 de Si de Arknights: Endfield con una presencia majestuosa. Diseño detallado que captura su elegancia oriental, con accesorios y base escénica temática. Calidad de colección con múltiples opciones de atuendos intercambiables."
@@ -42923,89 +42691,16 @@
             "label": "B",
             "precio": "3000",
             "reserva": "600",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión B: Delantal."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium 1:6 de Si de Arknights: Endfield con una presencia majestuosa. Diseño detallado que captura su elegancia oriental, con accesorios y base escénica temática. Calidad de colección con múltiples opciones de atuendos intercambiables."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y tela"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Incluye base escénica decorativa con elementos temáticos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada de Si"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables según versión"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Múltiples opciones de atuendos"
-              }
-            ]
+            "detalle": "Delantal"
           },
           {
             "label": "A+B",
             "precio": "5900",
             "reserva": "1180",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión A+B: Traje regular y delantal."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium 1:6 de Si de Arknights: Endfield con una presencia majestuosa. Diseño detallado que captura su elegancia oriental, con accesorios y base escénica temática. Calidad de colección con múltiples opciones de atuendos intercambiables."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y tela"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Incluye base escénica decorativa con elementos temáticos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada de Si"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables según versión"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Múltiples opciones de atuendos"
-              }
-            ]
+            "detalle": "Traje regular y delantal"
           }
-        ]
+        ],
+        "detalle_base": "Traje regular"
       },
       {
         "id": "denji-chainsaw-man-statue-mw1o7u3d",
@@ -43098,10 +42793,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Asuka: Figura de Asuka con LED."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua premium de las icónicas pilotas de Evangelion capturadas en su máxima expresión de combate. Cada figura cuenta con iluminación LED integrada que realza los detalles de este espectacular diorama. Una pieza magistral que combina la artesanía de Dreammaker Studio con el poder visual del anime de culto."
           },
           {
@@ -43143,81 +42834,16 @@
             "label": "Ayanami Rei",
             "precio": "11200",
             "reserva": "2240",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ayanami Rei: Figura de Rei con LED."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de las icónicas pilotas de Evangelion capturadas en su máxima expresión de combate. Cada figura cuenta con iluminación LED integrada que realza los detalles de este espectacular diorama. Una pieza magistral que combina la artesanía de Dreammaker Studio con el poder visual del anime de culto."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Iluminación: LED integrado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Temática post-apocalíptica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura(s) articulada(s)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema de iluminación LED"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base decorativa"
-              }
-            ]
+            "detalle": "Figura de Rei con LED"
           },
           {
             "label": "Both",
             "precio": "21000",
             "reserva": "4200",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Both: Ambas figuras con LED."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de las icónicas pilotas de Evangelion capturadas en su máxima expresión de combate. Cada figura cuenta con iluminación LED integrada que realza los detalles de este espectacular diorama. Una pieza magistral que combina la artesanía de Dreammaker Studio con el poder visual del anime de culto."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Iluminación: LED integrado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Temática post-apocalíptica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura(s) articulada(s)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema de iluminación LED"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base decorativa"
-              }
-            ]
+            "detalle": "Ambas figuras con LED"
           }
-        ]
+        ],
+        "detalle_base": "Figura de Asuka con LED"
       },
       {
         "id": "ultraman-six-brothers-christmas-stacking-statue-mw1o7u3d",
@@ -43242,10 +42868,6 @@
         "precio": "4400",
         "reserva": "880",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Small Size: Tamaño compacto."
-          },
           {
             "t": "notion-text",
             "x": "Una espectacular composición apilada de los Seis Hermanos Ultraman transformados en una festiva estructura navideña, decorada con coronas de acebo, campanas doradas y adornos temáticos. Equipada con iluminación LED integrada que realza el brillo de los ojos característicos de estos icónicos guerreros. Una pieza de colección única que fusiona la nostalgia del anime clásico con la magia de las festividades."
@@ -43305,58 +42927,10 @@
             "label": "Plus",
             "precio": "11600",
             "reserva": "2320",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Plus: Tamaño mayor con más detalles."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una espectacular composición apilada de los Seis Hermanos Ultraman transformados en una festiva estructura navideña, decorada con coronas de acebo, campanas doradas y adornos temáticos. Equipada con iluminación LED integrada que realza el brillo de los ojos característicos de estos icónicos guerreros. Una pieza de colección única que fusiona la nostalgia del anime clásico con la magia de las festividades."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina con elementos decorativos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Iluminación: LED integrada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figuras apiladas de los Seis Hermanos Ultraman"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Corona navideña decorativa"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Campana dorada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Adornos navideños (bolas, lazos, galletas de jengibre)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Regalos miniatura"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema LED"
-              }
-            ]
+            "detalle": "Tamaño mayor con más detalles"
           }
-        ]
+        ],
+        "detalle_base": "Tamaño compacto"
       },
       {
         "id": "ryomen-sukuna-1-6-figure-mw1o7u3d",
@@ -43624,10 +43198,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:4: Escala 1:4."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua premium de Whale-chan en versión doncella con detalles exquisitos y acabados de lujo. Figura coleccionable de alta calidad con expresión cautivadora y traje de sirvienta meticulosamente diseñado. Disponible en dos escalas para adaptarse a tu colección."
           },
           {
@@ -43669,41 +43239,7 @@
             "label": "1:1",
             "precio": "5600",
             "reserva": "1120",
-            "escala": "1:1",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:1: Escala 1:1 tamaño real."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de Whale-chan en versión doncella con detalles exquisitos y acabados de lujo. Figura coleccionable de alta calidad con expresión cautivadora y traje de sirvienta meticulosamente diseñado. Disponible en dos escalas para adaptarse a tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:4 o 1:1"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              }
-            ]
+            "escala": "1:1"
           }
         ]
       },
@@ -43731,10 +43267,6 @@
         "precio": "3200",
         "reserva": "640",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Version A: Configuración estándar."
-          },
           {
             "t": "notion-text",
             "x": "Figura premium de Nami en escala 1:6 que captura la esencia de la navegante de los Piratas de Sombrero de Paja. Con un detallado vestuario, expresión cautivadora y una puesta en escena de temática pirata que te transportará directamente al mundo de One Piece. Una adición imprescindible para coleccionistas que buscan la máxima calidad en sus figuras de anime."
@@ -43786,97 +43318,16 @@
             "label": "Version B",
             "precio": "3200",
             "reserva": "640",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version B: Variante alternativa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Nami en escala 1:6 que captura la esencia de la navegante de los Piratas de Sombrero de Paja. Con un detallado vestuario, expresión cautivadora y una puesta en escena de temática pirata que te transportará directamente al mundo de One Piece. Una adición imprescindible para coleccionistas que buscan la máxima calidad en sus figuras de anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: aproximadamente 30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulación limitada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Báculo dorado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Nube blanca con corazones"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática con puerto"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios varios según versión"
-              }
-            ]
+            "detalle": "Variante alternativa"
           },
           {
             "label": "Version EX",
             "precio": "5700",
             "reserva": "1140",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version EX: Accesorios y detalles exclusivos."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Nami en escala 1:6 que captura la esencia de la navegante de los Piratas de Sombrero de Paja. Con un detallado vestuario, expresión cautivadora y una puesta en escena de temática pirata que te transportará directamente al mundo de One Piece. Una adición imprescindible para coleccionistas que buscan la máxima calidad en sus figuras de anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: aproximadamente 30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulación limitada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Báculo dorado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Nube blanca con corazones"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática con puerto"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios varios según versión"
-              }
-            ]
+            "detalle": "Accesorios y detalles exclusivos"
           }
-        ]
+        ],
+        "detalle_base": "Configuración estándar"
       },
       {
         "id": "darth-vader-lightsaber-collectible-set-silver-mw10qfxr",
@@ -44170,10 +43621,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1/6: Altura 57 cm, incluye Link, Skull Kid, Goron Link, Deku Link, base diorama con iluminación LED ajustable."
-          },
-          {
-            "t": "notion-text",
             "x": "Una monumental recreación de Link en su aventura contra Majora's Mask con múltiples transformaciones y una base escénica temática. Incluye iluminación LED con efectos dinámicos y la icónica luna con color ajustable entre modo normal y luna roja. Edición limitada a solo 126 unidades fabricadas con materiales importados de alta calidad."
           },
           {
@@ -44243,58 +43690,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1N1q3IW0dPFVWmxc1rMgu1793669497311.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ey2z42j49zjczCAkLs1_x1793669497311.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1/4: Altura 86 cm, incluye Link, Skull Kid, Goron Link, Deku Link, base diorama con iluminación LED ajustable."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una monumental recreación de Link en su aventura contra Majora's Mask con múltiples transformaciones y una base escénica temática. Incluye iluminación LED con efectos dinámicos y la icónica luna con color ajustable entre modo normal y luna roja. Edición limitada a solo 126 unidades fabricadas con materiales importados de alta calidad."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 57 cm (1/6) o 86 cm (1/4)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6 y 1/4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PU importado, resina importada y piezas impresas en cera roja"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Edición limitada: 126 unidades"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Link con Majora's Mask"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Skull Kid"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Goron Link (transformación)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Deku Link (transformación)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base diorama temática con luna"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema de iluminación LED (encendido fijo, efecto respiración, estroboscópico)"
-              }
-            ]
+            "detalle": "Altura 86 cm, incluye Link, Skull Kid, Goron Link, Deku Link, base diorama con iluminación LED ajustable"
           }
-        ]
+        ],
+        "detalle_base": "Altura 57 cm, incluye Link, Skull Kid, Goron Link, Deku Link, base diorama con iluminación LED ajustable"
       },
       {
         "id": "ryoma-echizen-1-6-statue-mw08lfg7",
@@ -44443,10 +43842,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1/3: Ojos de cristal personalizados hechos a mano."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua premium del joven Link de The Legend of Zelda: Ocarina of Time con detalles excepcionales y acabados artesanales. Cada par de ojos es personalizado y confeccionado a mano por artesanos especializados. La versión 1/2 incluye a Navi con iluminación integrada para una experiencia visual envolvente."
           },
           {
@@ -44504,46 +43899,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GonuQ29J-8OaUUdR7teGL1793630823267.png",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bPqJjUGKKUDGVLOR3QbKq1793630823267.png"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1/2: Ojos de cristal personalizados hechos a mano y Navi con efectos de iluminación integrados."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium del joven Link de The Legend of Zelda: Ocarina of Time con detalles excepcionales y acabados artesanales. Cada par de ojos es personalizado y confeccionado a mano por artesanos especializados. La versión 1/2 incluye a Navi con iluminación integrada para una experiencia visual envolvente."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 38 cm (1/3) / 50 cm (1/2)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Profundidad: 28 cm (1/3) / 37 cm (1/2)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Ancho: 26 cm (1/3) / 33 cm (1/2)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/3, 1/2"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Ojos de cristal personalizados"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Navi con iluminación integrada (1/2)"
-              }
-            ]
+            "detalle": "Ojos de cristal personalizados hechos a mano y Navi con efectos de iluminación integrados"
           }
-        ]
+        ],
+        "detalle_base": "Ojos de cristal personalizados hechos a mano"
       },
       {
         "id": "asuka-langley-soryu-1-6-statue-mw08lfg8",
@@ -44633,10 +43992,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Single Display Version: Versión con medias blancas e intercambiables negras."
-          },
-          {
-            "t": "notion-text",
             "x": "Reinterpretación femenina del icónico personaje de Harry Potter en una estatua 1/6 de alta calidad. Esculpida con detalle premium en resina importada, captura el carisma de Draco Malfoy con uniforme de Slytherin. Disponible en versión única o dual para coleccionistas exigentes."
           },
           {
@@ -44687,42 +44042,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OBpjbjkbIye38UHbqvLiE1793611941294.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/LeGtSEJf_f_Qp1xU23PDU1793611941294.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Dual Display Version: Ambas versiones: medias blancas y negras simultáneamente."
-              },
-              {
-                "t": "notion-text",
-                "x": "Reinterpretación femenina del icónico personaje de Harry Potter en una estatua 1/6 de alta calidad. Esculpida con detalle premium en resina importada, captura el carisma de Draco Malfoy con uniforme de Slytherin. Disponible en versión única o dual para coleccionistas exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 26 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Edición limitada: 199 unidades por versión"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Uniforme completo de Slytherin (túnica, suéter, falda)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Medias intercambiables (blancas y negras)"
-              }
-            ]
+            "detalle": "Ambas versiones: medias blancas y negras simultáneamente"
           }
-        ]
+        ],
+        "detalle_base": "Versión con medias blancas e intercambiables negras"
       },
       {
         "id": "dragon-balls-museum-series-mw08lfg8",
@@ -44824,10 +44147,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Figura principal con cabeza normal, base regular y esfera luminosa en mano."
-          },
-          {
-            "t": "notion-text",
             "x": "Captura la esencia del Poderoso Satoru Gojo con esta estatua de colección de lujo basada en Jujutsu Kaisen. La versión Premium ofrece una base escénica inmersiva con efectos de iluminación dinámica y una cabeza intercambiable para máxima versatilidad. Cada pieza es una obra maestra en resina importada que celebra al icónico maestro jujutsu."
           },
           {
@@ -44897,58 +44216,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TfQaK_-yQCSQrEqBQPNZG1793612420598.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1RO6vdoWZRlfLHuEk1w5u1793612420598.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Premium: Figura principal con cabeza intercambiable, base escénica, esfera luminosa en mano y efectos de iluminación dinámica."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura la esencia del Poderoso Satoru Gojo con esta estatua de colección de lujo basada en Jujutsu Kaisen. La versión Premium ofrece una base escénica inmersiva con efectos de iluminación dinámica y una cabeza intercambiable para máxima versatilidad. Cada pieza es una obra maestra en resina importada que celebra al icónico maestro jujutsu."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 31 cm (Regular) / 53 cm (Premium)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Ancho: 21 cm (Regular) / 42 cm (Premium)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Profundidad: 38 cm (Regular) / 39 cm (Premium)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Unidades limitadas: 99"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Esfera luminosa en mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base (regular o escénica según versión)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Cabeza intercambiable (solo Premium)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Efectos de iluminación escénica (solo Premium)"
-              }
-            ]
+            "detalle": "Figura principal con cabeza intercambiable, base escénica, esfera luminosa en mano y efectos de iluminación dinámica"
           }
-        ]
+        ],
+        "detalle_base": "Figura principal con cabeza normal, base regular y esfera luminosa en mano"
       },
       {
         "id": "go-figure-studio-jujutsu-kaisen-satoru-gojo-statue-mw08lfg8",
@@ -45063,10 +44334,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Red Version: Versión roja con efectos de iluminación."
-          },
-          {
-            "t": "notion-text",
             "x": "Una reimaginación steampunk del icónico fuego vivo Calcifer de El Castillo Ambulante, transformado en una colosal estatua mecánica con detalles futuristas y efectos de iluminación integrados. Esta pieza premium captura la esencia del personaje con un toque industrial único, perfecta para coleccionistas que buscan algo extraordinario y diferente."
           },
           {
@@ -45128,50 +44395,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JkUSFv5UQ2Ep6kkLbB68M1793593629360.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5R__jChLEx9zzb_I3rkr1793593692175.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Blue Version: Versión azul con efectos de iluminación."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una reimaginación steampunk del icónico fuego vivo Calcifer de El Castillo Ambulante, transformado en una colosal estatua mecánica con detalles futuristas y efectos de iluminación integrados. Esta pieza premium captura la esencia del personaje con un toque industrial único, perfecta para coleccionistas que buscan algo extraordinario y diferente."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 16 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Profundidad: 19,5 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Ancho: 20,5 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Características: Efectos de iluminación"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua Mecha Calcifer"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Efectos de iluminación funcionales"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              }
-            ]
+            "detalle": "Versión azul con efectos de iluminación"
           }
-        ]
+        ],
+        "detalle_base": "Versión roja con efectos de iluminación"
       },
       {
         "id": "aventurine-waveflair-1-6-statue-mw08lfg9",
@@ -45258,10 +44485,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Version A: Frieren cosplay de Usagi Tsukino."
-          },
-          {
-            "t": "notion-text",
             "x": "Una colaboración épica entre dos mundos: Frieren vistiendo el icónico uniforme de Sailor Moon en esta estatua de colección premium de 27 cm. Esculpida en resina importada y PU de alta calidad, captura la esencia mágica de ambas franquicias en una sola obra maestra. Elige entre el crossover único de la Versión A o la clásica Usagi Tsukino de la Versión B."
           },
           {
@@ -45304,34 +44527,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/OG7zIJMsfmU5BjxYV4FDG1793601216209.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_wex7Z6EhjfU9rD8GElRd1793601216209.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version B: Usagi Tsukino."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una colaboración épica entre dos mundos: Frieren vistiendo el icónico uniforme de Sailor Moon en esta estatua de colección premium de 27 cm. Esculpida en resina importada y PU de alta calidad, captura la esencia mágica de ambas franquicias en una sola obra maestra. Elige entre el crossover único de la Versión A o la clásica Usagi Tsukino de la Versión B."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 27 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua"
-              }
-            ]
+            "detalle": "Usagi Tsukino"
           }
-        ]
+        ],
+        "detalle_base": "Frieren cosplay de Usagi Tsukino"
       },
       {
         "id": "eowyn-vs-witch-king-1-10-scale-statue-mvzhgvsc",
@@ -45775,10 +44974,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Eren Jaeger: Figura de Eren Jaeger con uniforme de la Legión de Reconocimiento."
-          },
-          {
-            "t": "notion-text",
             "x": "Figuras articuladas de alta calidad a escala 1:6 de los personajes emblemáticos de Attack on Titan. Cada figura captura los detalles del uniforme de la Legión de Reconocimiento con precisión excepcional. Perfectas para coleccionistas que desean tener a estos titanes de anime en su colección premium."
           },
           {
@@ -45828,97 +45023,16 @@
             "label": "Levi Ackerman",
             "precio": "2900",
             "reserva": "580",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Levi Ackerman: Figura de Levi Ackerman con uniforme de la Legión de Reconocimiento."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figuras articuladas de alta calidad a escala 1:6 de los personajes emblemáticos de Attack on Titan. Cada figura captura los detalles del uniforme de la Legión de Reconocimiento con precisión excepcional. Perfectas para coleccionistas que desean tener a estos titanes de anime en su colección premium."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y PVC articulado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura aproximada: 30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulaciones: Múltiples puntos de articulación"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Uniforme completo de la Legión de Reconocimiento"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de soporte"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Figura de Levi Ackerman con uniforme de la Legión de Reconocimiento"
           },
           {
             "label": "Ambos",
             "precio": "4500",
             "reserva": "900",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ambos: Set completo con Eren Jaeger y Levi Ackerman."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figuras articuladas de alta calidad a escala 1:6 de los personajes emblemáticos de Attack on Titan. Cada figura captura los detalles del uniforme de la Legión de Reconocimiento con precisión excepcional. Perfectas para coleccionistas que desean tener a estos titanes de anime en su colección premium."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y PVC articulado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura aproximada: 30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulaciones: Múltiples puntos de articulación"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Uniforme completo de la Legión de Reconocimiento"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de soporte"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Set completo con Eren Jaeger y Levi Ackerman"
           }
-        ]
+        ],
+        "detalle_base": "Figura de Eren Jaeger con uniforme de la Legión de Reconocimiento"
       },
       {
         "id": "shu-arknights-1-7-statue-mvv79wk8",
@@ -46074,10 +45188,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Standing: Posición de pie."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura pintada a mano de Samei en escala 1/6 con un nivel de detalle excepcional. Presenta un elaborado traje negro con acentos dorados, cabello rojo vibrante y accesorios temáticos. Una pieza de colección premium que captura la esencia del personaje con acabado profesional."
           },
           {
@@ -46123,46 +45233,10 @@
             "label": "Sitting",
             "precio": "4000",
             "reserva": "800",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Sitting: Posición sentada."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura pintada a mano de Samei en escala 1/6 con un nivel de detalle excepcional. Presenta un elaborado traje negro con acentos dorados, cabello rojo vibrante y accesorios temáticos. Una pieza de colección premium que captura la esencia del personaje con acabado profesional."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina pintada a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado profesional con detalles metalizados"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Múltiples accesorios temáticos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de presentación"
-              }
-            ]
+            "detalle": "Posición sentada"
           }
-        ]
+        ],
+        "detalle_base": "Posición de pie"
       },
       {
         "id": "iuno-1-7-statue-mvv79wk9",
@@ -46371,10 +45445,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Versión estándar."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua premium de la Magician Girl con un diseño cautivador que fusiona elegancia mágica y detalles de fantasía. Destaca por su elaborada armadura turquesa, largo cabello púrpura y la base circular con símbolos arcanos dorados. Una pieza de colección imprescindible para admiradores del arte fantasy de alta calidad."
           },
           {
@@ -46412,38 +45482,10 @@
             "label": "EX",
             "precio": "3300",
             "reserva": "660",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: Versión exclusiva con detalles mejorados."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de la Magician Girl con un diseño cautivador que fusiona elegancia mágica y detalles de fantasía. Destaca por su elaborada armadura turquesa, largo cabello púrpura y la base circular con símbolos arcanos dorados. Una pieza de colección imprescindible para admiradores del arte fantasy de alta calidad."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: aproximadamente 45 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida con diseño temático"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base decorativa con símbolos arcanos"
-              }
-            ]
+            "detalle": "Versión exclusiva con detalles mejorados"
           }
-        ]
+        ],
+        "detalle_base": "Versión estándar"
       },
       {
         "id": "reze-statue-mvv79wkb",
@@ -46469,10 +45511,6 @@
         "precio": "3300",
         "reserva": "660",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Version A: Configuración estándar."
-          },
           {
             "t": "notion-text",
             "x": "Espectacular estatua premium de Reze que captura toda la majestuosidad del personaje con un diorama envolvente de agua y cristal. Cada detalle está meticulosamente elaborado, desde la expresión del rostro hasta los efectos de agua dinámica que rodean la figura. Una pieza de colección imprescindible para los admiradores del anime más exigentes."
@@ -46512,73 +45550,16 @@
             "label": "Version B",
             "precio": "2800",
             "reserva": "560",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version B: Configuración alternativa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua premium de Reze que captura toda la majestuosidad del personaje con un diorama envolvente de agua y cristal. Cada detalle está meticulosamente elaborado, desde la expresión del rostro hasta los efectos de agua dinámica que rodean la figura. Una pieza de colección imprescindible para los admiradores del anime más exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y cristal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base diorámica con efecto agua"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base diorámica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios de presentación"
-              }
-            ]
+            "detalle": "Configuración alternativa"
           },
           {
             "label": "Version A+B",
             "precio": "4900",
             "reserva": "980",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version A+B: Ambas configuraciones."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua premium de Reze que captura toda la majestuosidad del personaje con un diorama envolvente de agua y cristal. Cada detalle está meticulosamente elaborado, desde la expresión del rostro hasta los efectos de agua dinámica que rodean la figura. Una pieza de colección imprescindible para los admiradores del anime más exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y cristal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base diorámica con efecto agua"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base diorámica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios de presentación"
-              }
-            ]
+            "detalle": "Ambas configuraciones"
           }
-        ]
+        ],
+        "detalle_base": "Configuración estándar"
       },
       {
         "id": "android-18-1-5-statue-mvv79wkb",
@@ -46730,10 +45711,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Black Pantyhose: Medias negras."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura pintada a mano de alta calidad en escala 1:6 que captura cada detalle del personaje con precisión artesanal. Diseño cyberpunk con accesorios temáticos que la convierten en una pieza de colección imprescindible. Disponible en dos versiones para personalizar tu colección."
           },
           {
@@ -46779,46 +45756,10 @@
             "label": "Bare Leg",
             "precio": "3700",
             "reserva": "740",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Bare Leg: Piernas desnudas."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura pintada a mano de alta calidad en escala 1:6 que captura cada detalle del personaje con precisión artesanal. Diseño cyberpunk con accesorios temáticos que la convierten en una pieza de colección imprescindible. Disponible en dos versiones para personalizar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Tipo: Figura pintada a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y otros materiales premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura profesional detallada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              }
-            ]
+            "detalle": "Piernas desnudas"
           }
-        ]
+        ],
+        "detalle_base": "Medias negras"
       },
       {
         "id": "kiriko-bai-ze-1-6-statue-mvv79wkb",
@@ -47196,10 +46137,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Asuka: Figura de Asuka Langley Soryu en uniforme escolar."
-          },
-          {
-            "t": "notion-text",
             "x": "Recreación premium de las icónicas heroínas de Neon Genesis Evangelion en escala 1/6. Cada estatua captura perfectamente los detalles de sus uniformes escolares y poses características. Fabricadas en resina importada y PU de alta calidad para un acabado excepcional."
           },
           {
@@ -47245,36 +46182,7 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/VBU4w19sqBH9HSGRrXN4-1793260059978.webp",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Vx7ewZqWIi6warCgj85Vf1793260059978.webp"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ayanami Rei: Figura de Ayanami Rei en uniforme escolar."
-              },
-              {
-                "t": "notion-text",
-                "x": "Recreación premium de las icónicas heroínas de Neon Genesis Evangelion en escala 1/6. Cada estatua captura perfectamente los detalles de sus uniformes escolares y poses características. Fabricadas en resina importada y PU de alta calidad para un acabado excepcional."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Incluye base de presentación"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua en escala 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de presentación"
-              }
-            ]
+            "detalle": "Figura de Ayanami Rei en uniforme escolar"
           },
           {
             "label": "Combo",
@@ -47288,38 +46196,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/VBU4w19sqBH9HSGRrXN4-1793260059978.webp",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Vx7ewZqWIi6warCgj85Vf1793260059978.webp"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Combo: Ambas figuras juntas."
-              },
-              {
-                "t": "notion-text",
-                "x": "Recreación premium de las icónicas heroínas de Neon Genesis Evangelion en escala 1/6. Cada estatua captura perfectamente los detalles de sus uniformes escolares y poses características. Fabricadas en resina importada y PU de alta calidad para un acabado excepcional."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Incluye base de presentación"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua en escala 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de presentación"
-              }
-            ]
+            "detalle": "Ambas figuras juntas"
           }
-        ]
+        ],
+        "detalle_base": "Figura de Asuka Langley Soryu en uniforme escolar"
       },
       {
         "id": "soul-statue-1-3-mvu07dko",
@@ -47789,10 +46669,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Tsukino Usagi: Figura vestida con traje blanco elegante."
-          },
-          {
-            "t": "notion-text",
             "x": "Figuras de colección premium a escala 1:6 que capturan la elegancia y belleza de estos icónicos personajes de Sailor Moon. Cada figura presenta detalles meticulosos en el vestuario, accesorios y expresión facial, perfectas para coleccionistas exigentes. Esculturas artísticas de alta calidad que rinden homenaje a estas legendarias heroínas del anime."
           },
           {
@@ -47838,46 +46714,10 @@
             "label": "Mizuno Ami",
             "precio": "3700",
             "reserva": "740",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Mizuno Ami: Figura vestida con traje azul elegante."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figuras de colección premium a escala 1:6 que capturan la elegancia y belleza de estos icónicos personajes de Sailor Moon. Cada figura presenta detalles meticulosos en el vestuario, accesorios y expresión facial, perfectas para coleccionistas exigentes. Esculturas artísticas de alta calidad que rinden homenaje a estas legendarias heroínas del anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina PVC"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura aproximada: 28-30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado pintado a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Figura vestida con traje azul elegante"
           }
-        ]
+        ],
+        "detalle_base": "Figura vestida con traje blanco elegante"
       },
       {
         "id": "eldreda-sunbringer-1-6-figure-mvtvr3sq",
@@ -47975,10 +46815,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:6: Escala 1:6."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium de Reze con detallado atuendo gótico y accesorios icónicos. Captura la esencia del personaje con una pose dinámica y expresión cautivadora. Disponible en dos escalas para coleccionistas exigentes."
           },
           {
@@ -48024,45 +46860,7 @@
             "label": "1:4",
             "precio": "4700",
             "reserva": "940",
-            "escala": "1:4",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:4: Escala 1:4."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Reze con detallado atuendo gótico y accesorios icónicos. Captura la esencia del personaje con una pose dinámica y expresión cautivadora. Disponible en dos escalas para coleccionistas exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6 / 1:4 seleccionable"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida con temática urbana"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altamente detallado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base decorativa"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios varios"
-              }
-            ]
+            "escala": "1:4"
           }
         ]
       },
@@ -48090,10 +46888,6 @@
         "precio": "4500",
         "reserva": "900",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión 1:6: Escala 1:6."
-          },
           {
             "t": "notion-text",
             "x": "Talia Yang cobra vida en esta espectacular figura de colección que captura su esencia futurista con un nivel de detalle extraordinario. La combinación de armadura cibernética, armas sofisticadas y su icónico cabello rosa crea una pieza visualmente impactante. Disponible en dos escalas para adaptarse a tu colección."
@@ -48153,57 +46947,7 @@
             "label": "1:4",
             "precio": "6200",
             "reserva": "1240",
-            "escala": "1:4",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:4: Escala 1:4."
-              },
-              {
-                "t": "notion-text",
-                "x": "Talia Yang cobra vida en esta espectacular figura de colección que captura su esencia futurista con un nivel de detalle extraordinario. La combinación de armadura cibernética, armas sofisticadas y su icónico cabello rosa crea una pieza visualmente impactante. Disponible en dos escalas para adaptarse a tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6 o 1:4 (seleccionable)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC / Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Escénica iluminada en rosa"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: Variable según escala"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Incluye accesorios múltiples"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Pistola futurista"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Látigo energético"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica iluminada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "escala": "1:4"
           }
         ]
       },
@@ -48231,10 +46975,6 @@
         "precio": "12000",
         "reserva": "2400",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Regular: Estatua base con iluminación LED."
-          },
           {
             "t": "notion-text",
             "x": "Estatua premium de Lucy del universo Cyberpunk Edgerunners a escala 1:5, capturada en toda su gloria futurista con detalles impresionantes. Presenta iluminación LED integrada que realza su presencia cyberpunk. Una pieza de colección magistral que recrea el espíritu rebelde del personaje en una escala monumental."
@@ -48282,46 +47022,10 @@
             "label": "Bonus",
             "precio": "14000",
             "reserva": "2800",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Bonus: Estatua base con iluminación LED y accesorios adicionales."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de Lucy del universo Cyberpunk Edgerunners a escala 1:5, capturada en toda su gloria futurista con detalles impresionantes. Presenta iluminación LED integrada que realza su presencia cyberpunk. Una pieza de colección magistral que recrea el espíritu rebelde del personaje en una escala monumental."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: aproximadamente 50-60 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:5"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina artesanal pintada a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática iluminada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua de Lucy con outfit cyberpunk"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base con iluminación LED"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos"
-              }
-            ]
+            "detalle": "Estatua base con iluminación LED y accesorios adicionales"
           }
-        ]
+        ],
+        "detalle_base": "Estatua base con iluminación LED"
       },
       {
         "id": "h-r-giger-s-alien-statue-mvtvr3st",
@@ -48407,10 +47111,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:5 Yellow: Escala 1:5, cabello amarillo Super Saiyan, aura naranja y azul."
-          },
-          {
-            "t": "notion-text",
             "x": "Espectacular busto de Gogeta en dos escalas y versiones de color que capturan la esencia del guerrero supremo de Dragon Ball. Cada pieza destaca por sus detalles musculares exquisitos, el halo celestial y la base temática con efectos energéticos. Una adición imprescindible para coleccionistas que demandan calidad premium y precisión artística."
           },
           {
@@ -48453,42 +47153,10 @@
             "precio": "2700",
             "reserva": "540",
             "escala": "1:1",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:5 Blue: Escala 1:5, cabello azul Super Saiyan Blue, aura azul y cian."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular busto de Gogeta en dos escalas y versiones de color que capturan la esencia del guerrero supremo de Dragon Ball. Cada pieza destaca por sus detalles musculares exquisitos, el halo celestial y la base temática con efectos energéticos. Una adición imprescindible para coleccionistas que demandan calidad premium y precisión artística."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 23 cm (1:5) / 46 cm (1:1 aproximado)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:5 o 1:1"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad con pintura artesanal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Busto de Gogeta"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática con efectos energéticos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Halo celestial"
-              }
-            ]
+            "detalle": "Escala 1:5, cabello azul Super Saiyan Blue, aura azul y cian"
           }
-        ]
+        ],
+        "detalle_base": "Escala 1:5, cabello amarillo Super Saiyan, aura naranja y azul"
       },
       {
         "id": "dark-moon-ring-statue-mvtvr3st",
@@ -48575,10 +47243,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Versión estándar."
-          },
-          {
-            "t": "notion-text",
             "x": "Espectacular estatua premium de Murong Ziying de Sword and Fairy 4 a escala 1:4, capturando su elegancia y poder con una factura impecable. Presenta un magnífico traje azul y blanco con detalles intrincados, pose dinámica y accesorios temáticos que destacan su condición de guerrera celestial. Una pieza de colección imprescindible para los aficionados de la franquicia de fantasía oriental."
           },
           {
@@ -48620,42 +47284,10 @@
             "label": "Ex",
             "precio": "9800",
             "reserva": "1960",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ex: Versión extendida con accesorios adicionales."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua premium de Murong Ziying de Sword and Fairy 4 a escala 1:4, capturando su elegancia y poder con una factura impecable. Presenta un magnífico traje azul y blanco con detalles intrincados, pose dinámica y accesorios temáticos que destacan su condición de guerrera celestial. Una pieza de colección imprescindible para los aficionados de la franquicia de fantasía oriental."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y accesorios premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura hand-painted de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Arma del personaje"
-              }
-            ]
+            "detalle": "Versión extendida con accesorios adicionales"
           }
-        ]
+        ],
+        "detalle_base": "Versión estándar"
       },
       {
         "id": "scooby-doo-and-shaggy-statue-mvskflio",
@@ -49237,10 +47869,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Naruto: Figura de Naruto con efectos de chakra y base de dragón dorado."
-          },
-          {
-            "t": "notion-text",
             "x": "Captura la épica rivalidad entre Naruto y Sasuke en estas estatuas de colección premium de JiJing Studio. Cada figura presenta un impresionante nivel de detalle con efectos de chakra dinámicos y bases de dragón temáticas que reflejan el poder y la esencia de cada personaje. Una obra maestra para los coleccionistas más exigentes de Naruto."
           },
           {
@@ -49282,81 +47910,16 @@
             "label": "Sasuke",
             "precio": "3400",
             "reserva": "680",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Sasuke: Figura de Sasuke con base de dragón púrpura."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura la épica rivalidad entre Naruto y Sasuke en estas estatuas de colección premium de JiJing Studio. Cada figura presenta un impresionante nivel de detalle con efectos de chakra dinámicos y bases de dragón temáticas que reflejan el poder y la esencia de cada personaje. Una obra maestra para los coleccionistas más exigentes de Naruto."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: Aproximadamente 35-40 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura detallada a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática con dragón"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Efectos de chakra intercambiables"
-              }
-            ]
+            "detalle": "Figura de Sasuke con base de dragón púrpura"
           },
           {
             "label": "Both",
             "precio": "5500",
             "reserva": "1100",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Both: Ambas figuras: Naruto y Sasuke con sus respectivas bases de dragón."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura la épica rivalidad entre Naruto y Sasuke en estas estatuas de colección premium de JiJing Studio. Cada figura presenta un impresionante nivel de detalle con efectos de chakra dinámicos y bases de dragón temáticas que reflejan el poder y la esencia de cada personaje. Una obra maestra para los coleccionistas más exigentes de Naruto."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: Aproximadamente 35-40 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura detallada a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática con dragón"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Efectos de chakra intercambiables"
-              }
-            ]
+            "detalle": "Ambas figuras: Naruto y Sasuke con sus respectivas bases de dragón"
           }
-        ]
+        ],
+        "detalle_base": "Figura de Naruto con efectos de chakra y base de dragón dorado"
       },
       {
         "id": "gojo-satoru-1-6-figure-mvpjyu2i",
@@ -49446,10 +48009,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión White: Vestido de novia blanco."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium de Ryuuge Kisaki en escala 1:6 luciendo un elegante vestido de novia con detalles exquisitos. Disponible en versión blanca, negra o ambas, con acabados de lujo que capturan cada detalle de la indumentaria. Una pieza de colección excepcional para los aficionados más exigentes."
           },
           {
@@ -49495,89 +48054,16 @@
             "label": "Black",
             "precio": "2600",
             "reserva": "520",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Black: Vestido de novia negro."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Ryuuge Kisaki en escala 1:6 luciendo un elegante vestido de novia con detalles exquisitos. Disponible en versión blanca, negra o ambas, con acabados de lujo que capturan cada detalle de la indumentaria. Una pieza de colección excepcional para los aficionados más exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina/PVC de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada con prendas textiles premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Vestido de novia intercambiable"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base expositora"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios"
-              }
-            ]
+            "detalle": "Vestido de novia negro"
           },
           {
             "label": "A+B",
             "precio": "4900",
             "reserva": "980",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión A+B: Ambos vestidos (blanco y negro)."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Ryuuge Kisaki en escala 1:6 luciendo un elegante vestido de novia con detalles exquisitos. Disponible en versión blanca, negra o ambas, con acabados de lujo que capturan cada detalle de la indumentaria. Una pieza de colección excepcional para los aficionados más exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina/PVC de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada con prendas textiles premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Vestido de novia intercambiable"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base expositora"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios"
-              }
-            ]
+            "detalle": "Ambos vestidos (blanco y negro)"
           }
-        ]
+        ],
+        "detalle_base": "Vestido de novia blanco"
       },
       {
         "id": "sasuke-naruto-statue-mvpjyu2j",
@@ -49603,10 +48089,6 @@
         "precio": "3500",
         "reserva": "700",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Sasuke: Figura de Sasuke con atuendo ninja."
-          },
           {
             "t": "notion-text",
             "x": "Captura la intensa rivalidad y poder de dos de los personajes más icónicos del anime en esta espectacular estatua premium. Cada figura destaca por su detalle excepcional, dinámicas poses y efectos visuales que traen la batalla a la vida. Una pieza imprescindible para los verdaderos fans de Naruto que buscan calidad de colección de élite."
@@ -49650,81 +48132,16 @@
             "label": "Naruto",
             "precio": "3700",
             "reserva": "740",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Naruto: Figura de Naruto con atuendo ninja y efectos de chakra."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura la intensa rivalidad y poder de dos de los personajes más icónicos del anime en esta espectacular estatua premium. Cada figura destaca por su detalle excepcional, dinámicas poses y efectos visuales que traen la batalla a la vida. Una pieza imprescindible para los verdaderos fans de Naruto que buscan calidad de colección de élite."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura profesional detallada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida: Sí"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura(s) de personaje(s)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios según versión"
-              }
-            ]
+            "detalle": "Figura de Naruto con atuendo ninja y efectos de chakra"
           },
           {
             "label": "Both",
             "precio": "6800",
             "reserva": "1360",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Both: Ambos personajes Sasuke y Naruto en una composición."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura la intensa rivalidad y poder de dos de los personajes más icónicos del anime en esta espectacular estatua premium. Cada figura destaca por su detalle excepcional, dinámicas poses y efectos visuales que traen la batalla a la vida. Una pieza imprescindible para los verdaderos fans de Naruto que buscan calidad de colección de élite."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura profesional detallada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida: Sí"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura(s) de personaje(s)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios según versión"
-              }
-            ]
+            "detalle": "Ambos personajes Sasuke y Naruto en una composición"
           }
-        ]
+        ],
+        "detalle_base": "Figura de Sasuke con atuendo ninja"
       },
       {
         "id": "kurumi-fukuga-1-6-figure-mvpjyu2j",
@@ -50008,10 +48425,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Version A: Cabello color oscuro."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura articulada 1/6 de alta calidad que captura la esencia del personaje con un detallado uniforme y expresión característica. Elaborada con materiales premium por QuietArt Studio, ideal para coleccionistas exigentes. Disponible en dos versiones de color de cabello para personalizar tu colección."
           },
           {
@@ -50053,42 +48466,10 @@
             "label": "Version B",
             "precio": "3200",
             "reserva": "640",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version B: Cabello color claro."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura articulada 1/6 de alta calidad que captura la esencia del personaje con un detallado uniforme y expresión característica. Elaborada con materiales premium por QuietArt Studio, ideal para coleccionistas exigentes. Disponible en dos versiones de color de cabello para personalizar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: aprox. 30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina con pintura detallada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de soporte"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Cabello color claro"
           }
-        ]
+        ],
+        "detalle_base": "Cabello color oscuro"
       },
       {
         "id": "yuji-itadori-1-6-figure-mvpjyu2k",
@@ -50307,10 +48688,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Salted Caramel: Colorway azul con accesorios coordinados."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatuas premium de colección que fusionan arte anime con temática caprichosa de palomitas de maíz. Cada hada presenta detalles exquisitos, cabellos ondulantes dorados, alas elegantes y accesorios temáticos en sus correspondientes cajas de popcorn. Piezas de artesanía superior para coleccionistas que aprecian la creatividad y la calidad en cada detalle."
           },
           {
@@ -50360,50 +48737,10 @@
             "label": "Strawberry Cream",
             "precio": "3700",
             "reserva": "740",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Strawberry Cream: Colorway rojo con accesorios coordinados."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatuas premium de colección que fusionan arte anime con temática caprichosa de palomitas de maíz. Cada hada presenta detalles exquisitos, cabellos ondulantes dorados, alas elegantes y accesorios temáticos en sus correspondientes cajas de popcorn. Piezas de artesanía superior para coleccionistas que aprecian la creatividad y la calidad en cada detalle."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintado a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Presentación: Incluye base temática con caja de popcorn"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada del hada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Alas removibles"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Gafas de sol temáticas"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base con caja de popcorn"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios decorativos"
-              }
-            ]
+            "detalle": "Colorway rojo con accesorios coordinados"
           }
-        ]
+        ],
+        "detalle_base": "Colorway azul con accesorios coordinados"
       },
       {
         "id": "gengar-diorama-statue-mvpivm7y",
@@ -51598,10 +49935,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:6: Escala 1:6."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium de Zenin Maki capturando su pose icónica con detalles excepcionales. Diseño artístico que destaca los tatuajes distintivos y la expresión característica del personaje. Base temática que complementa la presentación de esta figura coleccionable de alta calidad."
           },
           {
@@ -51643,41 +49976,7 @@
             "label": "1:4",
             "precio": "6600",
             "reserva": "1320",
-            "escala": "1:4",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:4: Escala 1:4."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Zenin Maki capturando su pose icónica con detalles excepcionales. Diseño artístico que destaca los tatuajes distintivos y la expresión característica del personaje. Base temática que complementa la presentación de esta figura coleccionable de alta calidad."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6 / 1:4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC / Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Madera y plataforma decorativa"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "escala": "1:4"
           }
         ]
       },
@@ -51950,10 +50249,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Versión A: Zinogre."
-          },
-          {
-            "t": "notion-text",
             "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
           },
           {
@@ -51993,32 +50288,7 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Versión B: Stygian Zinogre."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Funcionalidad: LED integrado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua Dodogama X Zinogre"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema LED"
-              }
-            ]
+            "detalle": "Stygian Zinogre"
           },
           {
             "label": "Versión C",
@@ -52030,32 +50300,7 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Versión C: Thunderlord Zinogre."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Funcionalidad: LED integrado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua Dodogama X Zinogre"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema LED"
-              }
-            ]
+            "detalle": "Thunderlord Zinogre"
           },
           {
             "label": "Versión D",
@@ -52067,32 +50312,7 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Versión D: Howling Zinogre."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Funcionalidad: LED integrado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua Dodogama X Zinogre"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema LED"
-              }
-            ]
+            "detalle": "Howling Zinogre"
           },
           {
             "label": "Combo",
@@ -52104,34 +50324,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WUuLXvc6TJ2ztsy9JsvDT1792680107716.jpg",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Z5uDT4AQ7wkz1mWMOgz_W1792680117295.jpg"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Combo: Todas las versiones."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua de los icónicos monstruos Dodogama y Zinogre de Monster Hunter, elaborada en resina importada de alta calidad. Equipada con funcionalidad LED para destacar los detalles de estos temibles depredadores. Cada versión captura la esencia única de estas bestias legendarias con un nivel de detalle excepcional."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Funcionalidad: LED integrado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Estatua Dodogama X Zinogre"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema LED"
-              }
-            ]
+            "detalle": "Todas las versiones"
           }
-        ]
+        ],
+        "detalle_base": "Zinogre"
       },
       {
         "id": "saber-1-6-statue-mvjuw96q",
@@ -52759,10 +50955,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Versión estándar."
-          },
-          {
-            "t": "notion-text",
             "x": "Una estatua de colección de escala 1/4 que captura a Guts en su forma más épica y aterradora, portando la Espada de Hierro sobre un pedestal teatral. Con un nivel de detalle excepcional en la armadura, la vestimenta y la expresión facial, esta pieza premium es un tributo monumental al protagonista de la legendaria obra. Perfecta para coleccionistas que buscan una representación de arte fino y manufactura de clase mundial."
           },
           {
@@ -52804,42 +50996,10 @@
             "label": "EX",
             "precio": "6300",
             "reserva": "1260",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: Versión exclusiva con detalles mejorados."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una estatua de colección de escala 1/4 que captura a Guts en su forma más épica y aterradora, portando la Espada de Hierro sobre un pedestal teatral. Con un nivel de detalle excepcional en la armadura, la vestimenta y la expresión facial, esta pieza premium es un tributo monumental al protagonista de la legendaria obra. Perfecta para coleccionistas que buscan una representación de arte fino y manufactura de clase mundial."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Pedestal escénico temático"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Espada de Hierro"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios adicionales de armadura"
-              }
-            ]
+            "detalle": "Versión exclusiva con detalles mejorados"
           }
-        ]
+        ],
+        "detalle_base": "Versión estándar"
       },
       {
         "id": "the-winged-dragon-of-ra-statue-mvidqotj",
@@ -52936,10 +51096,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión PRO: Versión estándar con detalles premium."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua de colección de Ryomen Sukuna en escala 1:6 que captura la esencia del poderoso antagonista de Jujutsu Kaisen. Con una altura de 50 cm y detalles meticulosamente esculpidos, esta pieza presenta la transformación completa del personaje envuelto en llamas púrpuras y rojas. Una obra maestra para coleccionistas que buscan capturar la malevolencia y el carisma de uno de los personajes más icónicos del anime."
           },
           {
@@ -52981,42 +51137,10 @@
             "label": "PRO MAX",
             "precio": "8800",
             "reserva": "1760",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión PRO MAX: Versión mejorada con mayor nivel de detalle y accesorios adicionales."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua de colección de Ryomen Sukuna en escala 1:6 que captura la esencia del poderoso antagonista de Jujutsu Kaisen. Con una altura de 50 cm y detalles meticulosamente esculpidos, esta pieza presenta la transformación completa del personaje envuelto en llamas púrpuras y rojas. Una obra maestra para coleccionistas que buscan capturar la malevolencia y el carisma de uno de los personajes más icónicos del anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 50 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad con pintura detallada a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal de Ryomen Sukuna"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Versión mejorada con mayor nivel de detalle y accesorios adicionales"
           }
-        ]
+        ],
+        "detalle_base": "Versión estándar con detalles premium"
       },
       {
         "id": "levi-ackerman-statue-mvidqotl",
@@ -53391,10 +51515,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: base normal (18 × 18 cm)."
-          },
-          {
-            "t": "notion-text",
             "x": "Captura la majestuosidad del guardabosque de Hogwarts con esta estatua premium de JND Studios. Cuenta con un retrato de silicona con cabello enraizado y ojos de vidrio magnéticos articulados, junto con la icónica indumentaria de Hagrid y la pequeña criatura Norbert. Una obra maestra de colección para los fans devotos del universo Harry Potter."
           },
           {
@@ -53475,70 +51595,10 @@
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/KeuFsn2TycFXtlPwX0_7L1792056662355.webp",
               "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GIj4e9L5xRFD8MFuaLNpb1792056662355.webp"
             ],
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Base extendida: base más grande (37 × 28 cm)."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura la majestuosidad del guardabosque de Hogwarts con esta estatua premium de JND Studios. Cuenta con un retrato de silicona con cabello enraizado y ojos de vidrio magnéticos articulados, junto con la icónica indumentaria de Hagrid y la pequeña criatura Norbert. Una obra maestra de colección para los fans devotos del universo Harry Potter."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 42 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina importada y PU"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Cabeza de silicona con cabello enraizado y ojos de vidrio magnéticos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Cuerpo articulado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Vestuario completo (abrigo, camisa, chaleco, pantalones, cinturón, calcetines, ropa interior acolchada)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Par de zapatos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Mano de silicona sosteniendo a Norbert"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Par de manos de silicona sosteniendo cinturón"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura de Norbert"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Dos plataformas base intercambiables (tierra y piedra)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Bolígrafo de ajuste magnético para ojos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Pinzas de ajuste magnético"
-              }
-            ]
+            "detalle": "base más grande (37 × 28 cm)"
           }
-        ]
+        ],
+        "detalle_base": "base normal (18 × 18 cm)"
       },
       {
         "id": "nico-robin-1-7-statue-mvhbs43b",
@@ -53561,10 +51621,6 @@
         "precio": "2800",
         "reserva": "560",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Simple: Robin sin alas, base octagonal."
-          },
           {
             "t": "notion-text",
             "x": "Espectacular estatua de Nico Robin en su forma de ángel marino, capturada en toda su gloria con alas desplegadas en tonos coral y rosa. Esta pieza premium de WeiMeng Studio destaca por su detallado trabajo artesanal y su escala 1:7, perfecta para coleccionistas exigentes. El entorno submarino con corales vibrantes y luz divina crean una atmósfera mágica y envolvente."
@@ -53608,81 +51664,16 @@
             "label": "Regular",
             "precio": "3200",
             "reserva": "640",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Regular: Robin con alas, base octagonal."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua de Nico Robin en su forma de ángel marino, capturada en toda su gloria con alas desplegadas en tonos coral y rosa. Esta pieza premium de WeiMeng Studio destaca por su detallado trabajo artesanal y su escala 1:7, perfecta para coleccionistas exigentes. El entorno submarino con corales vibrantes y luz divina crean una atmósfera mágica y envolvente."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:7"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: WeiMeng Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura artesanal detallada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática submarina"
-              }
-            ]
+            "detalle": "Robin con alas, base octagonal"
           },
           {
             "label": "EX",
             "precio": "4000",
             "reserva": "800",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: Robin con alas y base escénica."
-              },
-              {
-                "t": "notion-text",
-                "x": "Espectacular estatua de Nico Robin en su forma de ángel marino, capturada en toda su gloria con alas desplegadas en tonos coral y rosa. Esta pieza premium de WeiMeng Studio destaca por su detallado trabajo artesanal y su escala 1:7, perfecta para coleccionistas exigentes. El entorno submarino con corales vibrantes y luz divina crean una atmósfera mágica y envolvente."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:7"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: WeiMeng Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura artesanal detallada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática submarina"
-              }
-            ]
+            "detalle": "Robin con alas y base escénica"
           }
-        ]
+        ],
+        "detalle_base": "Robin sin alas, base octagonal"
       },
       {
         "id": "vincent-valentine-statue-1-4-scale-mvhbs43c",
@@ -70678,10 +68669,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión White Dress: Vestido blanco."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura de colección premium de Tsaritsa Anastasya en escala 1/6, capturando la elegancia y majestuosidad del personaje en una catedral gótica. Con detalles exquisitos en el traje, accesorios y expresión facial, esta pieza es un tesoro para coleccionistas. Disponible en dos versiones: vestido blanco y vestido azul."
           },
           {
@@ -70735,54 +68722,10 @@
             "label": "Blue Dress",
             "precio": "3200",
             "reserva": "640",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Blue Dress: Vestido azul."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura de colección premium de Tsaritsa Anastasya en escala 1/6, capturando la elegancia y majestuosidad del personaje en una catedral gótica. Con detalles exquisitos en el traje, accesorios y expresión facial, esta pieza es un tesoro para coleccionistas. Disponible en dos versiones: vestido blanco y vestido azul."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: YM Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura aproximada: 27-30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base decorativa"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Tiara"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Guantes"
-              }
-            ]
+            "detalle": "Vestido azul"
           }
-        ]
+        ],
+        "detalle_base": "Vestido blanco"
       },
       {
         "id": "saya-1-6-figure-mvqxv0g6",
@@ -71006,10 +68949,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Version A: Configuración estándar."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium de Inoue Orihime a escala 1:6 con efectos de iluminación LED que capturan la intensidad de su poder espiritual. Cada detalle está meticulosamente elaborado para recrear la esencia del personaje en su momento más épico. Una pieza imprescindible para coleccionistas de anime de alto nivel."
           },
           {
@@ -71055,89 +68994,16 @@
             "label": "Version B",
             "precio": "4100",
             "reserva": "820",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version B: Configuración alternativa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Inoue Orihime a escala 1:6 con efectos de iluminación LED que capturan la intensidad de su poder espiritual. Cada detalle está meticulosamente elaborado para recrear la esencia del personaje en su momento más épico. Una pieza imprescindible para coleccionistas de anime de alto nivel."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: POP.ART Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Categoría: Figura de colección premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Características: Efectos LED incluidos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema de iluminación LED"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              }
-            ]
+            "detalle": "Configuración alternativa"
           },
           {
             "label": "Version C",
             "precio": "3200",
             "reserva": "640",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Version C: Configuración especial."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Inoue Orihime a escala 1:6 con efectos de iluminación LED que capturan la intensidad de su poder espiritual. Cada detalle está meticulosamente elaborado para recrear la esencia del personaje en su momento más épico. Una pieza imprescindible para coleccionistas de anime de alto nivel."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: POP.ART Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Categoría: Figura de colección premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Características: Efectos LED incluidos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Sistema de iluminación LED"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              }
-            ]
+            "detalle": "Configuración especial"
           }
-        ]
+        ],
+        "detalle_base": "Configuración estándar"
       },
       {
         "id": "satoru-gojo-1-6-figure-mvmragc2",
@@ -71163,10 +69029,6 @@
         "precio": "1600",
         "reserva": "320",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Baby Gojo: Versión bebé envuelto."
-          },
           {
             "t": "notion-text",
             "x": "Captura las tres etapas icónicas de Satoru Gojo en una colección de figura articulada de alta calidad a escala 1:6. Cada versión representa un momento clave en la vida del personaje más poderoso de Jujutsu Kaisen, con detalles minuciosos y accesorios temáticos. Una adición imprescindible para coleccionistas devotos del anime."
@@ -71214,89 +69076,16 @@
             "label": "Kid Gojo",
             "precio": "1750",
             "reserva": "350",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Kid Gojo: Versión niño con uniforme y hoodie."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura las tres etapas icónicas de Satoru Gojo en una colección de figura articulada de alta calidad a escala 1:6. Cada versión representa un momento clave en la vida del personaje más poderoso de Jujutsu Kaisen, con detalles minuciosos y accesorios temáticos. Una adición imprescindible para coleccionistas devotos del anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura artesanal de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y tela premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida para cada versión"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos según versión"
-              }
-            ]
+            "detalle": "Versión niño con uniforme y hoodie"
           },
           {
             "label": "Adult Gojo",
             "precio": "2800",
             "reserva": "560",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Adult Gojo: Versión adulta con kimono y paraguas rojo."
-              },
-              {
-                "t": "notion-text",
-                "x": "Captura las tres etapas icónicas de Satoru Gojo en una colección de figura articulada de alta calidad a escala 1:6. Cada versión representa un momento clave en la vida del personaje más poderoso de Jujutsu Kaisen, con detalles minuciosos y accesorios temáticos. Una adición imprescindible para coleccionistas devotos del anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura artesanal de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y tela premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida para cada versión"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos según versión"
-              }
-            ]
+            "detalle": "Versión adulta con kimono y paraguas rojo"
           }
-        ]
+        ],
+        "detalle_base": "Versión bebé envuelto"
       },
       {
         "id": "kurosaki-ichigo-1-6-figure-mvmragc2",
@@ -80673,40 +78462,7 @@
             "label": "EX",
             "precio": "4350",
             "reserva": "870",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: incluye cuerpo intercambiable sin ropa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Hsin, la zorra de la luna, por Roly Star: una kitsune de cabello plateado con orejas y cola esponjosa, recostada con un juego de té sobre una base de estilo oriental. La versión EX incluye un cuerpo intercambiable sin ropa."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Medidas: 16 cm alto × 22 cm ancho × 16 cm profundidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PU, ABS y polystone"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura de Hsin"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Juego de té"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de estilo oriental"
-              }
-            ]
+            "detalle": "incluye cuerpo intercambiable sin ropa"
           }
         ]
       },
@@ -80840,36 +78596,7 @@
             "label": "EX",
             "precio": "4150",
             "reserva": "830",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: incluye cuerpo intercambiable sin ropa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Marciana de Goddess of Victory: NIKKE por Red Stone Studio, en su versión de playa con traje de baño rojo, chaqueta azul y visera, sentada sobre la arena. La versión EX incluye un cuerpo intercambiable sin ropa."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:5"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Medidas: 20 cm alto × 16 cm ancho × 14 cm profundidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PU y resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura de Marciana"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de playa"
-              }
-            ]
+            "detalle": "incluye cuerpo intercambiable sin ropa"
           }
         ]
       },
@@ -81081,10 +78808,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Makima: Figura de Makima."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua premium en escala 1:4 que captura la esencia de estos icónicos personajes con una calidad artesanal excepcional. Detalles meticulosos y acabados de lujo que reflejan el carisma y poder de ambas figuras. Una pieza imprescindible para coleccionistas devotos del anime."
           },
           {
@@ -81126,81 +78849,16 @@
             "label": "Power",
             "precio": "7000",
             "reserva": "1400",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Power: Figura de Power."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium en escala 1:4 que captura la esencia de estos icónicos personajes con una calidad artesanal excepcional. Detalles meticulosos y acabados de lujo que reflejan el carisma y poder de ambas figuras. Una pieza imprescindible para coleccionistas devotos del anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: Scorpion Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura artesanal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura estatua"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base"
-              }
-            ]
+            "detalle": "Figura de Power"
           },
           {
             "label": "Both",
             "precio": "13600",
             "reserva": "2720",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Both: Figuras de Makima y Power."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium en escala 1:4 que captura la esencia de estos icónicos personajes con una calidad artesanal excepcional. Detalles meticulosos y acabados de lujo que reflejan el carisma y poder de ambas figuras. Una pieza imprescindible para coleccionistas devotos del anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: Scorpion Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina premium"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura artesanal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura estatua"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base"
-              }
-            ]
+            "detalle": "Figuras de Makima y Power"
           }
-        ]
+        ],
+        "detalle_base": "Figura de Makima"
       },
       {
         "id": "olga-celestine-1-4-statue-mvv79wk9",
@@ -81226,10 +78884,6 @@
         "precio": "6000",
         "reserva": "1200",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Olga: Versión en negro."
-          },
           {
             "t": "notion-text",
             "x": "Estatua premium de Tentacle Studio en escala 1:4 que captura toda la energía y carisma del personaje con un nivel de detalle excepcional. Cada versión presenta una interpretación única del diseño, perfecta para coleccionistas que buscan piezas de alta calidad artesanal."
@@ -81273,42 +78927,10 @@
             "label": "Celestine",
             "precio": "6000",
             "reserva": "1200",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Celestine: Versión en blanco."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de Tentacle Studio en escala 1:4 que captura toda la energía y carisma del personaje con un nivel de detalle excepcional. Cada versión presenta una interpretación única del diseño, perfecta para coleccionistas que buscan piezas de alta calidad artesanal."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: Tentacle Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base"
-              }
-            ]
+            "detalle": "Versión en blanco"
           }
-        ]
+        ],
+        "detalle_base": "Versión en negro"
       },
       {
         "id": "mythra-pyra-swimsuit-1-6-figure-mvv79wk9",
@@ -81334,10 +78956,6 @@
         "precio": "3600",
         "reserva": "720",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Mythra: Figura de Mythra con traje de baño."
-          },
           {
             "t": "notion-text",
             "x": "Figuras premium 1:6 de Mythra y Pyra en versión swimsuit, capturando el carisma y el estilo de estos personajes icónicos. Sculpt de alta calidad con detalles meticulosos, acabados impecables y pintura profesional. Coleccionable exclusivo de Hanae Studio para los fans más exigentes."
@@ -81385,89 +79003,16 @@
             "label": "Pyra",
             "precio": "3600",
             "reserva": "720",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Pyra: Figura de Pyra con traje de baño."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figuras premium 1:6 de Mythra y Pyra en versión swimsuit, capturando el carisma y el estilo de estos personajes icónicos. Sculpt de alta calidad con detalles meticulosos, acabados impecables y pintura profesional. Coleccionable exclusivo de Hanae Studio para los fans más exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y PVC"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Pintura: Hand-painted"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos"
-              }
-            ]
+            "detalle": "Figura de Pyra con traje de baño"
           },
           {
             "label": "Both",
             "precio": "6000",
             "reserva": "1200",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Both: Ambas figuras Mythra y Pyra con trajes de baño."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figuras premium 1:6 de Mythra y Pyra en versión swimsuit, capturando el carisma y el estilo de estos personajes icónicos. Sculpt de alta calidad con detalles meticulosos, acabados impecables y pintura profesional. Coleccionable exclusivo de Hanae Studio para los fans más exigentes."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y PVC"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Pintura: Hand-painted"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos"
-              }
-            ]
+            "detalle": "Ambas figuras Mythra y Pyra con trajes de baño"
           }
-        ]
+        ],
+        "detalle_base": "Figura de Mythra con traje de baño"
       },
       {
         "id": "lucy-y-rebecca-1-6-statue-mvu07dkp",
@@ -81723,10 +79268,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Figura vestida con uniforme escolar."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura de colección premium 1:6 de Moria Ruruka con acabados detallados y pintura de alta calidad. Captura la esencia del personaje con expresiones faciales naturales y poses dinámicas. Disponible en múltiples opciones para completar tu colección."
           },
           {
@@ -81772,89 +79313,16 @@
             "label": "Nude",
             "precio": "3200",
             "reserva": "640",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Nude: Figura sin ropa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura de colección premium 1:6 de Moria Ruruka con acabados detallados y pintura de alta calidad. Captura la esencia del personaje con expresiones faciales naturales y poses dinámicas. Disponible en múltiples opciones para completar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: MiLi Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura aproximada: 27-30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              }
-            ]
+            "detalle": "Figura sin ropa"
           },
           {
             "label": "Both",
             "precio": "5800",
             "reserva": "1160",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Both: Ambas versiones, vestida y sin ropa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura de colección premium 1:6 de Moria Ruruka con acabados detallados y pintura de alta calidad. Captura la esencia del personaje con expresiones faciales naturales y poses dinámicas. Disponible en múltiples opciones para completar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: MiLi Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura aproximada: 27-30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              }
-            ]
+            "detalle": "Ambas versiones, vestida y sin ropa"
           }
-        ]
+        ],
+        "detalle_base": "Figura vestida con uniforme escolar"
       },
       {
         "id": "angel-of-darkness-umbra-1-6-figure-mvtvr3sr",
@@ -82066,10 +79534,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Reze: Personaje Reze con uniforme de enfermera blanco."
-          },
-          {
-            "t": "notion-text",
             "x": "Figuras coleccionables de 1:6 de alta calidad que traen a la vida a estos personajes en versiones temáticas de enfermeras. Cada figura destaca por su escultura detallada, pintura premium y accesorios cuidadosamente diseñados. Una adición imprescindible para coleccionistas de figuras premium adultas."
           },
           {
@@ -82119,97 +79583,16 @@
             "label": "Makima",
             "precio": "3500",
             "reserva": "700",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Makima: Personaje Makima con uniforme de enfermera negro."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figuras coleccionables de 1:6 de alta calidad que traen a la vida a estos personajes en versiones temáticas de enfermeras. Cada figura destaca por su escultura detallada, pintura premium y accesorios cuidadosamente diseñados. Una adición imprescindible para coleccionistas de figuras premium adultas."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC, resina y textiles"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Bases temáticas incluidas"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios médicos detallados"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios médicos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Piezas intercambiables opcionales"
-              }
-            ]
+            "detalle": "Personaje Makima con uniforme de enfermera negro"
           },
           {
             "label": "Set Completo",
             "precio": "6800",
             "reserva": "1360",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Set Completo: Ambos personajes Reze y Makima."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figuras coleccionables de 1:6 de alta calidad que traen a la vida a estos personajes en versiones temáticas de enfermeras. Cada figura destaca por su escultura detallada, pintura premium y accesorios cuidadosamente diseñados. Una adición imprescindible para coleccionistas de figuras premium adultas."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC, resina y textiles"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Bases temáticas incluidas"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios médicos detallados"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios médicos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Piezas intercambiables opcionales"
-              }
-            ]
+            "detalle": "Ambos personajes Reze y Makima"
           }
-        ]
+        ],
+        "detalle_base": "Personaje Reze con uniforme de enfermera blanco"
       },
       {
         "id": "jack-the-ripper-1-6-figure-mvtvr3st",
@@ -82358,10 +79741,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:6: Escala 1:6."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura de colección premium de Tsukiyomi Rion en versión de monja prohibida, capturada en una pose dinámica y elegante. Elaborada con la máxima calidad artesanal, presenta detalles exquisitos en su vestimenta, cabello y accesorios. Disponible en dos escalas para que personalices tu colección según tus preferencias."
           },
           {
@@ -82411,49 +79790,7 @@
             "label": "1:4",
             "precio": "5400",
             "reserva": "1080",
-            "escala": "1:4",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:4: Escala 1:4, mayor tamaño."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura de colección premium de Tsukiyomi Rion en versión de monja prohibida, capturada en una pose dinámica y elegante. Elaborada con la máxima calidad artesanal, presenta detalles exquisitos en su vestimenta, cabello y accesorios. Disponible en dos escalas para que personalices tu colección según tus preferencias."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6 o 1:4 seleccionable"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado artesanal pintado a mano"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura de Tsukiyomi Rion"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Bandeja con copa de vino"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Botella de vino"
-              }
-            ]
+            "escala": "1:4"
           }
         ]
       },
@@ -82603,10 +79940,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Versión estándar con accesorios base."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium de la Sword Maiden a escala 1:6 con detalles meticulosos y acabados de alta calidad. Captura la esencia del personaje con una postura dinámica y expresión cautivadora. Una pieza esencial para coleccionistas de figuras de anime de lujo."
           },
           {
@@ -82648,42 +79981,10 @@
             "label": "Ex",
             "precio": "5900",
             "reserva": "1180",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ex: Versión extendida con accesorios y detalles adicionales."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de la Sword Maiden a escala 1:6 con detalles meticulosos y acabados de alta calidad. Captura la esencia del personaje con una postura dinámica y expresión cautivadora. Una pieza esencial para coleccionistas de figuras de anime de lujo."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: NTR Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Versión extendida con accesorios y detalles adicionales"
           }
-        ]
+        ],
+        "detalle_base": "Versión estándar con accesorios base"
       },
       {
         "id": "makima-1-6-figure-mvqxv0g4",
@@ -83010,10 +80311,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Figura base con accesorios estándar."
-          },
-          {
-            "t": "notion-text",
             "x": "Fern emerge del bosque encantado en esta impresionante figura 1:6 que captura cada detalle de su diseño con precisión artesanal. Su cabello púrpura vibrante, atuendo elegante y accesorios temáticos crean una presencia cautivadora. Una pieza coleccionable premium que transporta la magia del anime a tu colección."
           },
           {
@@ -83059,46 +80356,10 @@
             "label": "Ex",
             "precio": "4700",
             "reserva": "940",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ex: Versión extendida con accesorios adicionales."
-              },
-              {
-                "t": "notion-text",
-                "x": "Fern emerge del bosque encantado en esta impresionante figura 1:6 que captura cada detalle de su diseño con precisión artesanal. Su cabello púrpura vibrante, atuendo elegante y accesorios temáticos crean una presencia cautivadora. Una pieza coleccionable premium que transporta la magia del anime a tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Acabado: Pintura de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base decorativa con tema de bosque mágico"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Versión extendida con accesorios adicionales"
           }
-        ]
+        ],
+        "detalle_base": "Figura base con accesorios estándar"
       },
       {
         "id": "klee-squishing-sparkle-1-6-figure-mvpjyu2k",
@@ -83192,10 +80453,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Figura vestida con atuendo completo."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium 1/6 del poderoso demonio canino Sesshomaru con cabello plateado, atuendo elegante y presencia intimidante. Capturada en una pose majestuosa sentado en su trono rojo, esta pieza muestra un acabado de coleccionista de altísima calidad. Perfecta para fans que aprecian los personajes principales de este clásico anime."
           },
           {
@@ -83241,89 +80498,16 @@
             "label": "Nude",
             "precio": "3000",
             "reserva": "600",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Nude: Figura sin ropa."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium 1/6 del poderoso demonio canino Sesshomaru con cabello plateado, atuendo elegante y presencia intimidante. Capturada en una pose majestuosa sentado en su trono rojo, esta pieza muestra un acabado de coleccionista de altísima calidad. Perfecta para fans que aprecian los personajes principales de este clásico anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y tela"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulación limitada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura Sesshomaru"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Figura sin ropa"
           },
           {
             "label": "EX",
             "precio": "4100",
             "reserva": "820",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: Versión exclusiva con detalles mejorados."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium 1/6 del poderoso demonio canino Sesshomaru con cabello plateado, atuendo elegante y presencia intimidante. Capturada en una pose majestuosa sentado en su trono rojo, esta pieza muestra un acabado de coleccionista de altísima calidad. Perfecta para fans que aprecian los personajes principales de este clásico anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina y tela"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulación limitada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura Sesshomaru"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              }
-            ]
+            "detalle": "Versión exclusiva con detalles mejorados"
           }
-        ]
+        ],
+        "detalle_base": "Figura vestida con atuendo completo"
       },
       {
         "id": "sister-sachiel-asanagi-1-6-figure-mvpjyu2k",
@@ -83409,10 +80593,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Figura estándar con accesorios básicos."
-          },
-          {
-            "t": "notion-text",
             "x": "Una exquisita figura de colección a escala 1:6 que captura toda la elegancia y movimiento de Sylphiette en una pose dinámica y cautivadora. Elaborada con meticulosa atención al detalle, presenta acabados de alta calidad con expresión radiante y accesorios temáticos. Una pieza premium imprescindible para coleccionistas que buscan arte tridimensional de lujo."
           },
           {
@@ -83454,42 +80634,10 @@
             "label": "Ex",
             "precio": "6400",
             "reserva": "1280",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ex: Versión extendida con accesorios adicionales."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una exquisita figura de colección a escala 1:6 que captura toda la elegancia y movimiento de Sylphiette en una pose dinámica y cautivadora. Elaborada con meticulosa atención al detalle, presenta acabados de alta calidad con expresión radiante y accesorios temáticos. Una pieza premium imprescindible para coleccionistas que buscan arte tridimensional de lujo."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: Aproximadamente 30 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC, resina y accesorios metálicos"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base decorativa con motivos ornamentales"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos"
-              }
-            ]
+            "detalle": "Versión extendida con accesorios adicionales"
           }
-        ]
+        ],
+        "detalle_base": "Figura estándar con accesorios básicos"
       },
       {
         "id": "anchorage-1-6-figure-mvmragc0",
@@ -83645,10 +80793,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:6 Classic Resonance: Base Classic Resonance."
-          },
-          {
-            "t": "notion-text",
             "x": "Makima en su versión de ropa blanca, capturada con sus distintivas alas rojas oscuras y halo brillante. Esta figura de colección premium combina detalles exquisitos en la escultura facial y cuerpo con una base temática que refleja su poder sobrenatural. Disponible en dos escalas y con opciones de bases que evocan distintos aspectos de su personalidad."
           },
           {
@@ -83694,46 +80838,10 @@
             "label": "1:6 Blood Domination",
             "precio": "3200",
             "reserva": "640",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:6 Blood Domination: Base Blood Domination."
-              },
-              {
-                "t": "notion-text",
-                "x": "Makima en su versión de ropa blanca, capturada con sus distintivas alas rojas oscuras y halo brillante. Esta figura de colección premium combina detalles exquisitos en la escultura facial y cuerpo con una base temática que refleja su poder sobrenatural. Disponible en dos escalas y con opciones de bases que evocan distintos aspectos de su personalidad."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6 o 1:4 seleccionable"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Temática con efectos especiales"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Alas: Esculpidas en detalle con textura de plumas"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base intercambiable (Classic Resonance o Blood Domination)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios de displaytécnico"
-              }
-            ]
+            "detalle": "Base Blood Domination"
           }
-        ]
+        ],
+        "detalle_base": "Base Classic Resonance"
       },
       {
         "id": "frieren-1-6-figure-mvmragc2",
@@ -84094,10 +81202,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Versión estándar."
-          },
-          {
-            "t": "notion-text",
             "x": "Estatua premium de colección a escala 1:4 del personaje Roan en traje bunny. Pieza de alta calidad con acabados detallados, diseño provocativo y base temática. Disponible en versión Regular y EX para coleccionistas de figuras adultas."
           },
           {
@@ -84139,42 +81243,10 @@
             "label": "EX",
             "precio": "9600",
             "reserva": "1920",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: Versión exclusiva con detalles premium."
-              },
-              {
-                "t": "notion-text",
-                "x": "Estatua premium de colección a escala 1:4 del personaje Roan en traje bunny. Pieza de alta calidad con acabados detallados, diseño provocativo y base temática. Disponible en versión Regular y EX para coleccionistas de figuras adultas."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: aproximadamente 50 cm"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:4"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios integrados"
-              }
-            ]
+            "detalle": "Versión exclusiva con detalles premium"
           }
-        ]
+        ],
+        "detalle_base": "Versión estándar"
       },
       {
         "id": "ramiel-1-6-figure-mvk1ssp7",
@@ -84200,10 +81272,6 @@
         "precio": "3300",
         "reserva": "660",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Black: Versión en color negro."
-          },
           {
             "t": "notion-text",
             "x": "Figura premium 1/6 de Ramiel con una calidad de escultura excepcional y detalles meticulosos. Captura la esencia del personaje en una pose dinámmica y expresiva con alas desplegadas. Una pieza de colección imprescindible para coleccionistas exigentes que valoran la artesanía de calidad superior."
@@ -84247,42 +81315,10 @@
             "label": "White",
             "precio": "3300",
             "reserva": "660",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión White: Versión en color blanco."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium 1/6 de Ramiel con una calidad de escultura excepcional y detalles meticulosos. Captura la esencia del personaje en una pose dinámmica y expresiva con alas desplegadas. Una pieza de colección imprescindible para coleccionistas exigentes que valoran la artesanía de calidad superior."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina/PVC"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base incluida con acabado dorado"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base escénica dorada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos"
-              }
-            ]
+            "detalle": "Versión en color blanco"
           }
-        ]
+        ],
+        "detalle_base": "Versión en color negro"
       },
       {
         "id": "aisaka-taiga-1-6-figure-mvk1ssp7",
@@ -84308,10 +81344,6 @@
         "precio": "3000",
         "reserva": "600",
         "content": [
-          {
-            "t": "notion-text",
-            "x": "Versión Regular: Figura base con accesorios estándar."
-          },
           {
             "t": "notion-text",
             "x": "Figura articulada premium de Aisaka Taiga en escala 1:6 capturando su característica pose dinámina en el aula. Elaborada con exquisito detalle, presenta la expresión y atuendo de la adorable pequeña tigresa con una calidad de colección. Perfecta para fans que desean recrear los memorables momentos del anime."
@@ -84359,46 +81391,10 @@
             "label": "Ex",
             "precio": "3700",
             "reserva": "740",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión Ex: Figura con accesorios y opciones adicionales exclusivas."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura articulada premium de Aisaka Taiga en escala 1:6 capturando su característica pose dinámina en el aula. Elaborada con exquisito detalle, presenta la expresión y atuendo de la adorable pequeña tigresa con una calidad de colección. Perfecta para fans que desean recrear los memorables momentos del anime."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: 14,5 cm aproximadamente"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC y resina de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Manos alternativas"
-              }
-            ]
+            "detalle": "Figura con accesorios y opciones adicionales exclusivas"
           }
-        ]
+        ],
+        "detalle_base": "Figura base con accesorios estándar"
       },
       {
         "id": "hy-ga-hinata-1-6-figure-mvk1ssp7",
@@ -84546,10 +81542,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión No DLC: Figura base."
-          },
-          {
-            "t": "notion-text",
             "x": "Una exquisita figura en escala 1/6 que captura toda la belleza y elegancia del personaje Cake Rabbit Le Malin. Con un extraordinario nivel de detalle en la escultura y pintura, esta pieza premium es un must-have para coleccionistas exigentes. Múltiples opciones de contenido adicional para personalizar tu colección."
           },
           {
@@ -84591,120 +81583,22 @@
             "label": "DLC A",
             "precio": "4000",
             "reserva": "800",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión DLC A: Figura base con contenido adicional A."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una exquisita figura en escala 1/6 que captura toda la belleza y elegancia del personaje Cake Rabbit Le Malin. Con un extraordinario nivel de detalle en la escultura y pintura, esta pieza premium es un must-have para coleccionistas exigentes. Múltiples opciones de contenido adicional para personalizar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: White Berry Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exposición"
-              }
-            ]
+            "detalle": "Figura base con contenido adicional A"
           },
           {
             "label": "DLC B",
             "precio": "4000",
             "reserva": "800",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión DLC B: Figura base con contenido adicional B."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una exquisita figura en escala 1/6 que captura toda la belleza y elegancia del personaje Cake Rabbit Le Malin. Con un extraordinario nivel de detalle en la escultura y pintura, esta pieza premium es un must-have para coleccionistas exigentes. Múltiples opciones de contenido adicional para personalizar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: White Berry Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exposición"
-              }
-            ]
+            "detalle": "Figura base con contenido adicional B"
           },
           {
             "label": "DLC A+B",
             "precio": "4600",
             "reserva": "920",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión DLC A+B: Figura base con contenido adicional A y B."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una exquisita figura en escala 1/6 que captura toda la belleza y elegancia del personaje Cake Rabbit Le Malin. Con un extraordinario nivel de detalle en la escultura y pintura, esta pieza premium es un must-have para coleccionistas exigentes. Múltiples opciones de contenido adicional para personalizar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1/6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Fabricante: White Berry Studio"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios intercambiables"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exposición"
-              }
-            ]
+            "detalle": "Figura base con contenido adicional A y B"
           }
-        ]
+        ],
+        "detalle_base": "Figura base"
       },
       {
         "id": "shizuku-1-6-figure-mvidqotj",
@@ -84846,10 +81740,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Regular: Figura base con staff y accesorios estándar."
-          },
-          {
-            "t": "notion-text",
             "x": "Una cautivadora figura de Frieren a escala 1:6 que captura la esencia de su eterno viaje a través del tiempo. Posada elegantemente sobre su icónico staff de poder, esta estatuilla Premium recrea cada detalle de su atuendo y expresión con precisión artística. Perfecta para coleccionistas que desean llevar la magia y serenidad de este personaje épico a su colección."
           },
           {
@@ -84899,50 +81789,10 @@
             "label": "EX",
             "precio": "5200",
             "reserva": "1040",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión EX: Versión extendida con accesorios y detalles adicionales."
-              },
-              {
-                "t": "notion-text",
-                "x": "Una cautivadora figura de Frieren a escala 1:6 que captura la esencia de su eterno viaje a través del tiempo. Posada elegantemente sobre su icónico staff de poder, esta estatuilla Premium recrea cada detalle de su atuendo y expresión con precisión artística. Perfecta para coleccionistas que desean llevar la magia y serenidad de este personaje épico a su colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Altura: aproximadamente 28-30 cm (estimado)"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulaciones limitadas"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Staff de Frieren"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base temática"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios varios"
-              }
-            ]
+            "detalle": "Versión extendida con accesorios y detalles adicionales"
           }
-        ]
+        ],
+        "detalle_base": "Figura base con staff y accesorios estándar"
       },
       {
         "id": "qingxiao-hsin-1-6-statue-mvidqotk",
@@ -85027,10 +81877,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión 1:6: Escala 1:6."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura premium de Faelynn con múltiples poses dinámicas y detalles excepcionales. Disponible en dos escalas para adaptarse a tu colección. Captura la esencia del personaje con acabados de calidad superior y accesorios temáticos."
           },
           {
@@ -85072,41 +81918,7 @@
             "label": "1:3",
             "precio": "6500",
             "reserva": "1300",
-            "escala": "1:3",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión 1:3: Escala 1:3, tamaño aumentado."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura premium de Faelynn con múltiples poses dinámicas y detalles excepcionales. Disponible en dos escalas para adaptarse a tu colección. Captura la esencia del personaje con acabados de calidad superior y accesorios temáticos."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6 o 1:3"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: Resina/PVC de alta calidad"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base: Incluida"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura articulada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Accesorios temáticos"
-              }
-            ]
+            "escala": "1:3"
           }
         ]
       },
@@ -85200,10 +82012,6 @@
         "content": [
           {
             "t": "notion-text",
-            "x": "Versión Blue Swimsuit: Traje de baño azul."
-          },
-          {
-            "t": "notion-text",
             "x": "Figura coleccionable premium de Yuuki Mikan a escala 1:6 con acabados de alta calidad. Captura los detalles del personaje con expresión delicada y pintura meticulosa. Disponible en dos variantes de traje de baño para completar tu colección."
           },
           {
@@ -85241,38 +82049,10 @@
             "label": "White Swimsuit",
             "precio": "3700",
             "reserva": "740",
-            "content": [
-              {
-                "t": "notion-text",
-                "x": "Versión White Swimsuit: Traje de baño blanco."
-              },
-              {
-                "t": "notion-text",
-                "x": "Figura coleccionable premium de Yuuki Mikan a escala 1:6 con acabados de alta calidad. Captura los detalles del personaje con expresión delicada y pintura meticulosa. Disponible en dos variantes de traje de baño para completar tu colección."
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Escala: 1:6"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Material: PVC/Resina"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Articulación limitada"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Figura principal"
-              },
-              {
-                "t": "notion-bulleted-list",
-                "x": "Base de exhibición"
-              }
-            ]
+            "detalle": "Traje de baño blanco"
           }
-        ]
+        ],
+        "detalle_base": "Traje de baño azul"
       },
       {
         "id": "shieru-chloe-aubert-1-6-figure-mvidqotl",
