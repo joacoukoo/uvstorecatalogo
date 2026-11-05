@@ -32,6 +32,10 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
 .field textarea{resize:vertical;min-height:70px}
 .field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .field-row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.ver-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr .8fr auto auto;gap:8px;align-items:center;margin-bottom:8px}
+.ver-grid input[type=text]{width:100%;padding:7px 9px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:13px}
+.ver-nota{grid-column:1/-1;font-size:11px;color:var(--muted2)}
+@media(max-width:600px){.ver-grid{grid-template-columns:1fr 1fr}.ver-head{display:none}}
 .field-row-4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px}
 .url-row{display:flex;gap:8px;margin-bottom:20px}
 .url-row input{flex:1;padding:8px 12px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;color:var(--text);font-size:13px;outline:none;transition:border-color .15s}
@@ -331,13 +335,14 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
     <div class="field-row-3">
       <div class="field"><label class="field-label">Precio regular (Q)</label><input type="text" id="edit-precio"></div>
-      <div class="field"><label class="field-label">Precio Variante (Q)</label><input type="text" id="edit-precio-d" oninput="toggleAgotadoVar('edit')"></div>
+      <div class="field solo-deluxe"><label class="field-label">Precio Variante (Q)</label><input type="text" id="edit-precio-d" oninput="toggleAgotadoVar('edit');renderVersiones()"></div>
       <div class="field"><label class="field-label">Precio original (Q)</label><input type="text" id="edit-precio-orig"></div>
     </div>
     <div class="field-row">
       <div class="field"><label class="field-label">Reserva con (Q)</label><input type="text" id="edit-reserva"></div>
-      <div class="field"><label class="field-label">Reserva Variante (Q)</label><input type="text" id="edit-reserva-d"></div>
+      <div class="field solo-deluxe"><label class="field-label">Reserva Variante (Q)</label><input type="text" id="edit-reserva-d"></div>
     </div>
+    <div id="edit-versiones" style="margin-bottom:14px"></div>
     <div class="field-row">
       <div class="field"><label class="field-label">Entrega estimada</label><input type="text" id="edit-entrega"></div>
       <div class="field"><label class="field-label">Cantidad disponible</label><input type="text" id="edit-cantidad"></div>
@@ -354,13 +359,13 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
       <button class="btn btn-secondary" onclick="addPhoto('edit','r')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
 
-    <div class="section-title">Fotos — Variante</div>
-    <div id="edit-photos-d" class="photos-grid"></div>
-    <div class="photo-add-row" style="margin-bottom:6px">
+    <div class="section-title solo-deluxe">Fotos — Variante</div>
+    <div id="edit-photos-d" class="photos-grid solo-deluxe"></div>
+    <div class="photo-add-row solo-deluxe" style="margin-bottom:6px">
       <input type="url" id="edit-photo-d-input" placeholder="URL de foto individual">
       <button class="btn btn-secondary" onclick="addPhoto('edit','d')" style="padding:6px 11px;font-size:12px">+ Agregar</button>
     </div>
-    <div class="photo-add-row" style="margin-bottom:14px">
+    <div class="photo-add-row solo-deluxe" style="margin-bottom:14px">
       <input type="url" id="edit-scrape-d-url" placeholder="URL ficha de la variante (importa todas las fotos)">
       <button class="btn btn-ai" onclick="scrapeDeluxePhotos('edit')" style="padding:6px 11px;font-size:12px">Importar fotos</button>
     </div>
@@ -368,8 +373,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <div class="section-title">Contenido — Edicion Regular</div>
     <div class="field"><label class="field-label">Descripcion <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">lineas con "- " son viñetas</span></label><textarea id="edit-desc" style="min-height:140px"></textarea></div>
 
-    <div class="section-title">Contenido — Variante <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
-    <div class="field"><label class="field-label">Descripcion Variante</label><textarea id="edit-desc-d" style="min-height:100px"></textarea></div>
+    <div class="section-title solo-deluxe">Contenido — Variante <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted2)">(dejar vacio si es igual a la regular)</span></div>
+    <div class="field solo-deluxe"><label class="field-label">Descripcion Variante</label><textarea id="edit-desc-d" style="min-height:100px"></textarea></div>
     <div class="field"><label class="field-label">YouTube URL</label><input type="url" id="edit-yt"></div>
 
     <div class="section-title">Flags</div>
@@ -386,7 +391,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     </div>
     <div class="btn-row">
       <button class="btn btn-ai" onclick="generateAI('edit')">Regenerar descripción</button>
-      <button class="btn btn-ai" onclick="generateAIDeluxe('edit')">IA Variante</button>
+      <button class="btn btn-ai solo-deluxe" onclick="generateAIDeluxe('edit')">IA Variante</button>
       <button class="btn btn-danger" onclick="deleteProduct()">Eliminar</button>
       <button class="btn btn-save" onclick="saveEdit()" style="margin-left:auto">Guardar Cambios</button>
     </div>
@@ -652,7 +657,7 @@ function toggleAgotadoVar(m){
 // Reglas al guardar: disponibilidad "Vendido" => agotada; ambas versiones agotadas => agotada;
 // sin precio Deluxe no existen las versiones.
 function normalizarAgotado(p){
-  if(!p.precio_d){ p.agotado_r=false; p.agotado_d=false; }
+  if(!p.precio_d){ p.agotado_d=false; if(!(p.variantes&&p.variantes.length)) p.agotado_r=false; }
   if(p.precio_d && p.agotado_r && p.agotado_d) p.agotado=true;
   if(String(p.disp||'').toLowerCase()==='vendido') p.agotado=true;
   return p;
@@ -959,9 +964,84 @@ function openEdit(cat,idx){
   _photos.edit.d=(p.fotos_d||[]).slice();
   renderPhotos('edit','r');
   renderPhotos('edit','d');
+  var vs=p.variantes||[];
+  _versiones={
+    anteriores:vs,
+    base:{label:p.label_base||'',agotado:!!p.agotado_r},
+    filas:vs.map(function(v,i){return{idx:i,label:v.label||'',precio:v.precio||'',reserva:v.reserva||'',escala:v.escala||'',agotado:!!v.agotado,fotos:(v.fotos||[]).length,desc:!!(v.content&&v.content.length)};})
+  };
+  renderVersiones();
   cargarLoteEdit(p.id);
   document.getElementById('edit-list-container').style.display='none';
   document.getElementById('edit-form').style.display='';
+}
+
+// ── VERSIONES / ESCALAS ──
+// Las figuras del lote traen sus opciones (1:6/1:4, EX...) en p.variantes: la base es el producto
+// mismo y cada variante tiene su precio/reserva/escala. Es el otro sistema del Deluxe (precio_d), asi
+// que mientras haya versiones los campos de Variante/Deluxe se ocultan (ver versiones.js).
+var _versiones={anteriores:[],base:{label:'',agotado:false},filas:[],dibujado:false};
+function escA(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');}
+
+function leerVersiones(){
+  if(!_versiones.dibujado)return;
+  _versiones.base={label:getField('edit-vb-label'),agotado:getBool('edit-vb-ago')};
+  _versiones.filas.forEach(function(f,k){
+    f.label=getField('edit-v'+k+'-label');f.precio=getField('edit-v'+k+'-precio');
+    f.reserva=getField('edit-v'+k+'-reserva');f.escala=getField('edit-v'+k+'-escala');
+    f.agotado=getBool('edit-v'+k+'-ago');
+  });
+}
+
+function renderVersiones(){
+  leerVersiones();
+  var box=document.getElementById('edit-versiones');
+  var hay=_versiones.filas.length>0;
+  document.querySelectorAll('#edit-form .solo-deluxe').forEach(function(el){el.style.display=hay?'none':'';});
+  if(!hay){
+    box.innerHTML=getField('edit-precio-d')?'':
+      '<button class="btn btn-secondary" onclick="agregarVersion()" style="padding:6px 11px;font-size:12px">+ Agregar versión / escala</button>'+
+      ' <span style="font-size:11px;color:var(--muted2)">para figuras con varias escalas o ediciones (1:6 / 1:4, EX...)</span>';
+    _versiones.dibujado=true;
+    return;
+  }
+  var h='<div class="section-title">Versiones / escalas</div>'+
+    '<div class="ver-grid ver-head" style="font-size:11px;color:var(--muted2)"><span>Nombre</span><span>Precio (Q)</span><span>Reserva (Q)</span><span>Escala</span><span></span><span></span></div>'+
+    '<div class="ver-grid">'+
+      '<input type="text" id="edit-vb-label" value="'+escA(_versiones.base.label)+'" placeholder="Regular">'+
+      '<label class="check-item"><input type="checkbox" id="edit-vb-ago"'+(_versiones.base.agotado?' checked':'')+'><span>Agotada</span></label>'+
+      '<span class="ver-nota">Versión principal: usa el precio, reserva, escala, fotos y descripción de arriba</span>'+
+    '</div>';
+  _versiones.filas.forEach(function(f,k){
+    var extra=[f.fotos?f.fotos+' fotos propias':'',f.desc?'descripción propia':''].filter(Boolean).join(' · ');
+    h+='<div class="ver-grid">'+
+      '<input type="text" id="edit-v'+k+'-label" value="'+escA(f.label)+'" placeholder="1:4">'+
+      '<input type="text" id="edit-v'+k+'-precio" value="'+escA(f.precio)+'" oninput="reservaVersion('+k+')">'+
+      '<input type="text" id="edit-v'+k+'-reserva" value="'+escA(f.reserva)+'">'+
+      '<input type="text" id="edit-v'+k+'-escala" value="'+escA(f.escala)+'" placeholder="1:4">'+
+      '<label class="check-item"><input type="checkbox" id="edit-v'+k+'-ago"'+(f.agotado?' checked':'')+'><span>Agotada</span></label>'+
+      '<button class="btn btn-secondary" onclick="quitarVersion('+k+')" style="padding:5px 9px;font-size:12px" title="Quitar esta versión">✕</button>'+
+      (extra?'<span class="ver-nota">'+extra+' (se conservan)</span>':'')+
+    '</div>';
+  });
+  h+='<button class="btn btn-secondary" onclick="agregarVersion()" style="padding:6px 11px;font-size:12px">+ Agregar versión</button>';
+  box.innerHTML=h;
+  _versiones.dibujado=true;
+}
+
+function agregarVersion(){
+  leerVersiones();
+  _versiones.filas.push({idx:-1,label:'',precio:'',reserva:'',escala:'',agotado:false});
+  renderVersiones();
+}
+function quitarVersion(k){
+  leerVersiones();
+  _versiones.filas.splice(k,1);
+  renderVersiones();
+}
+function reservaVersion(k){
+  var precio=parseFloat(getField('edit-v'+k+'-precio'));
+  setField('edit-v'+k+'-reserva',!isNaN(precio)&&precio>0?Math.round(precio*RESERVA_FACTOR):'');
 }
 
 // Muestra el lote vinculado, o la casilla para crearlo si el producto no tiene (ej. se subio
@@ -1026,10 +1106,13 @@ async function saveEdit(){
   var rvd=getField('edit-reserva-d');updated.reserva_d=rvd||undefined;
   var po=getField('edit-precio-orig');updated.precio_orig=po||undefined;
   var fd=_photos.edit.d.slice();updated.fotos_d=fd.length?fd:undefined;
+  leerVersiones();
+  try{aplicarVersiones(updated,_versiones.anteriores,_versiones.base,_versiones.filas);}
+  catch(e){setStatus('Error: '+e.message,'red');return;}
   normalizarAgotado(updated);
   // Con lote de stock, el lote manda: marcar "Agotada" se traduce en 0 disponibles para que el
   // sync no la vuelva a poner disponible. (Sin lote no cambia nada: la cantidad es informativa.)
-  var seAgoto=updated.agotado&&!p.agotado&&!updated.precio_d;
+  var seAgoto=updated.agotado&&!p.agotado&&!updated.precio_d&&!(updated.variantes&&updated.variantes.length);
   if(seAgoto) updated.cantidad='0';
   var newCat=getField('edit-cat');
   setStatus('Guardando...','orange');
@@ -1320,7 +1403,9 @@ pendContar();
 <script type="module">
 import * as LoteImport from './lote-import.js?v=20261023e';
 import { esTCG } from './tcg.js?v=20261021b';
+import { aplicarVersiones } from './versiones.js?v=20261105a';
 window.LoteImport = LoteImport;
+window.aplicarVersiones = aplicarVersiones;
 window.esTCG = esTCG;
 </script>
 </body>
