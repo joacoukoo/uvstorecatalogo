@@ -674,10 +674,13 @@ export function scrapeBigCommerce(url, html) {
   const unescaped = html.replace(/\\u002F/gi, '/').replace(/\\/g, '').replace(/&quot;/g, '"');
   const cdnRe = /https?:\/\/cdn\d*\.bigcommerce\.com\/[^"'\s?]+\.(?:jpg|jpeg|webp|png)/gi;
   const byImgId = new Map();
+  // La ficha también trae las fotos de los "productos relacionados": solo valen las del producto.
+  const productId = rx(html, /name="product_id"\s+value="(\d+)"/i);
   for (const source of [html, unescaped]) {
     for (const m of source.matchAll(cdnRe)) {
       const u = m[0];
       if (!u.includes('/products/')) continue;
+      if (productId && !u.includes('/products/' + productId + '/')) continue;
       // Una misma foto aparece como miniatura (/products/ID/images/FOTO/x.386.513.jpg) y en
       // /stencil/1280x1280/products/ID/FOTO/: se agrupa por foto y gana la más grande.
       const id = u.match(/\/products\/(\d+)\/(?:images\/)?(\d+)\//);

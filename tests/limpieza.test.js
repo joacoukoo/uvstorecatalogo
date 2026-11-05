@@ -121,6 +121,15 @@ describe('fotos de BigCommerce', () => {
       'https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20685/435322/_otra__45307.1792481993.jpg',
     ]);
   });
+
+  it('no mete fotos de los "productos relacionados" de la página', async () => {
+    const { scrapeBigCommerce } = await import('../functions/_lib/scrapers.js');
+    const foto = (prod, img) => '<a href="https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/' + prod + '/' + img + '/f.jpg"></a>';
+    const html = '<h1 class="productView-title">Saber</h1><input type="hidden" name="product_id" value="20995">'
+      + foto(20995, 1) + foto(20995, 2) + foto(17027, 3) + foto(18898, 4);
+    const r = scrapeBigCommerce('https://www.fanaticanimestore.com/x/', html);
+    expect(r.photos.map(u => u.match(/products\/(\d+)\//)[1])).toEqual(['20995', '20995']);
+  });
 });
 
 describe('opciones de los scrapers', () => {
