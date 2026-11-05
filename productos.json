@@ -69255,6 +69255,834 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "dream-studio-1-6-1-4-young-link-ocarina-of-time-re-mw3uai9o",
+        "n": "Dream Studio 1:6/1:4 Young Link Ocarina of time Remake with LED",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443070/_20261105201117_282_35__73732.1793882408.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443070/_20261105201117_282_35__73732.1793882408.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443057/_20261105201136_295_35__86014.1793882336.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443058/_20261105201124_287_35__05241.1793882338.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443059/_20261105201120_284_35__86327.1793882339.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443060/_20261105201125_288_35__03833.1793882340.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443061/_20261105201121_285_35__46588.1793882341.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443062/_20261105201122_286_35__12227.1793882341.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443063/_20261105201134_294_35__26585.1793882342.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443064/_20261105201128_290_35__22843.1793882343.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21004/443065/_20261105201132_293_35__94996.1793882343.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Dream Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5300",
+        "reserva": "1060",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-dream-studio-1-6-1-4-young-link-ocarina-of-time-remake-with-led/",
+        "entrega": "Q3 2027",
+        "label_base": "1:6",
+        "variantes": [
+          {
+            "label": "1:4",
+            "precio": "8000",
+            "reserva": "1600",
+            "escala": "1:4"
+          }
+        ]
+      },
+      {
+        "id": "max-milk-qz-studio-1-6-ada-wong-mw3uai9q",
+        "n": "Max Milk × QZ Studio 1:6 Ada Wong",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443037/_2026-11-05_184408_007__33340.1793875827.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443037/_2026-11-05_184408_007__33340.1793875827.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443036/_2026-11-05_184409_948__84308.1793875826.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443031/_2026-11-05_184416_072__89269.1793875809.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443033/_2026-11-05_184413_904__92401.1793875809.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443034/_2026-11-05_184418_810__38189.1793875810.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443035/_2026-11-05_184420_574__79625.1793875810.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443032/_2026-11-05_184424_616__41855.1793875830.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443038/_2026-11-05_184411_717__33742.1793875811.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21003/443030/_2026-11-05_184422_741__33175.1793875823.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/3637/54625/127441628863673_.pic_hd__99759.1628864633.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Max Milk × QZ Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3800",
+        "reserva": "760",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-max-milk-qz-studio-1-6-ada-wong/",
+        "entrega": "Q4 2026"
+      },
+      {
+        "id": "ship-girl-studio-1-4-chunli-mw3uai9q",
+        "n": "Ship Girl Studio 1:4 ChunLi",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443005/_2026-11-05_183450_662__35894.1793875290.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443005/_2026-11-05_183450_662__35894.1793875290.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443008/_2026-11-05_183451_935__10788.1793875284.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443002/_2026-11-05_183457_396__64842.1793875283.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443000/_2026-11-05_183458_549__57080.1793875258.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443003/_2026-11-05_183456_127__90296.1793875258.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443004/_2026-11-05_183454_818__12734.1793875258.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443006/_2026-11-05_183447_833__19839.1793875258.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443007/_2026-11-05_183453_437__90558.1793875258.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443009/_2026-11-05_183449_293__11137.1793875258.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21002/443001/_2026-11-05_183500_045__98418.1793875287.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Ship Girl Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3850",
+        "reserva": "770",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-ship-girl-studio-1-4-chunli/",
+        "entrega": "Q1 2027"
+      },
+      {
+        "id": "pg-studio-plelades-liu-lan-fei-hong-mw3uai9q",
+        "n": "PG Studio Plelades Liu & Lan Fei Hong",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21001/442993/_2026-11-05_181624_020__86373.1793874706.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21001/442993/_2026-11-05_181624_020__86373.1793874706.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21001/442992/_2026-11-05_181625_431__66454.1793874704.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/21001/442991/_2026-11-05_181627_332__60280.1793874696.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/11243/202386/5916ce7a70e7017f871138205e9c2de5__43827.1726144015.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/12974/243975/2025-03-20_14.20.47__98151.1742452535.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/9254/164584/WechatIMG14277__36025.1710149612.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17877/375890/_2026-05-13_190246_449__71508.1778679437.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/8820/155472/WechatIMG115946__64345.1704195575.png"
+        ],
+        "franquicia": "Otros",
+        "marca": "PG Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "reserva": "680",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-pg-studio-plelades-liu-lan-fei-hong/",
+        "entrega": "Q2 2027",
+        "label_base": "Plelades Liu",
+        "variantes": [
+          {
+            "label": "Lan Fei Hong",
+            "precio": "3400",
+            "reserva": "680"
+          }
+        ]
+      },
+      {
+        "id": "lueying-demons-studio-sesshoumaru-with-led-mw3uai9q",
+        "n": "LueYing × Demons Studio Sesshoumaru with LED",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20998/442882/_2026-11-05_171936_585__31043.1793871488.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20998/442882/_2026-11-05_171936_585__31043.1793871488.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20998/442884/_2026-11-05_171933_280__78433.1793871487.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20998/442883/_2026-11-05_171935_162__39370.1793871484.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20998/442880/_2026-11-05_171939_300__25647.1793871455.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20998/442881/_2026-11-05_171941_137__46561.1793871456.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20998/442885/_2026-11-05_171937_955__95902.1793871457.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20816/438566/_2026-10-27_155741_194__19213.1793088676.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19307/401735/_2026-07-21_165106_073__59872.1784624746.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18618/384961/_2026-06-05_181504_705__90769.1780654808.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18003/369345/_2026-04-23_173358_078__43837.1776937307.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "LueYing × DEMONS Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4150",
+        "reserva": "830",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-lueying-demons-studio-sesshoumaru-with-led/",
+        "entrega": "Q2 2027",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Ex",
+            "precio": "7750",
+            "reserva": "1550"
+          }
+        ]
+      },
+      {
+        "id": "hxh-studio-tsugikuni-yoriichi-kokushibou-mw3uai9r",
+        "n": "HXH Studio Tsugikuni Yoriichi & Kokushibou",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442874/_2026-11-05_170500_860__49708.1793870136.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442874/_2026-11-05_170500_860__49708.1793870136.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442872/_2026-11-05_170504_782__33342.1793870132.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442868/_2026-11-05_170523_222__53521.1793870104.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442869/_2026-11-05_170511_105__02648.1793870105.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442870/_2026-11-05_170507_705__60635.1793870105.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442871/_2026-11-05_170509_040__80749.1793870105.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442873/_2026-11-05_170502_343__49565.1793870105.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20997/442875/_2026-11-05_170455_064__68711.1793870105.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19172/398584/_2026-07-13_200132_486__62005.1783944355.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20658/434657/_2026-10-18_201357_442__50890.1792325860.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "HXH Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3400",
+        "reserva": "680",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-hxh-studio-tsugikuni-yoriichi-kokushibou/",
+        "entrega": "Q1-Q2 2027",
+        "label_base": "Tsugikuni Yoriichi",
+        "variantes": [
+          {
+            "label": "Kokushibou",
+            "precio": "3400",
+            "reserva": "680"
+          }
+        ]
+      },
+      {
+        "id": "chenyu-studio-1-6-saber-altria-pendragon-mw3uai9s",
+        "n": "ChenYu Studio 1:6 Saber Altria Pendragon",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20995/442849/_2026-11-05_151924_128__48120.1793863482.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20995/442849/_2026-11-05_151924_128__48120.1793863482.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20995/442850/_2026-11-05_151922_274__99280.1793863489.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17027/345913/_2026-02-04_182232_461__65311.1770201392.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18898/391832/_2026-06-25_173559_489__11554.1782380575.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18180/373516/_2026-05-08_155827_408__68805.1778227652.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18003/369345/_2026-04-23_173358_078__43837.1776937307.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18355/377791/_2026-05-19_195133_852__76984.1779191868.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "ChenYu Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1600",
+        "reserva": "320",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-chenyu-studio-1-6-saber-altria-pendragon/",
+        "entrega": "Q2 2027"
+      },
+      {
+        "id": "red-stone-studio-1-5-nikke-marciana-mw3uai9s",
+        "n": "Red Stone Studio 1:5 NIKKE Marciana",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442827/_2026-11-05_143229_925__27485.1793861245.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442827/_2026-11-05_143229_925__27485.1793861245.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442825/_2026-11-05_143233_680__60508.1793861094.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442830/5__81777.1793861237.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442831/4__85012.1793861243.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442834/2__30902.1793861229.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442820/_2026-11-05_143242_308__39243.1793861045.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442821/_2026-11-05_143237_486__79045.1793861046.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442822/_2026-11-05_143244_680__21337.1793861048.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442823/_2026-11-05_143240_818__87400.1793861048.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20994/442824/_2026-11-05_143239_068__66037.1793861048.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Red Stone Studio",
+        "escala": "1:5",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3850",
+        "reserva": "770",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-red-stone-studio-1-5-nikke-marciana/",
+        "entrega": "Q1 2027",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Ex",
+            "precio": "4150",
+            "reserva": "830"
+          }
+        ]
+      },
+      {
+        "id": "bkn-studio-1-6-1-4-roxy-mw3uai9s",
+        "n": "BKN Studio 1:6/1:4 Roxy",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20992/442785/_2026-11-04_214032_413__09237.1793800239.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20992/442785/_2026-11-04_214032_413__09237.1793800239.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20992/442784/_2026-11-04_214040_376__00813.1793800055.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20992/442788/_2026-11-04_215002_266__98528.1793800237.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20992/442786/_2026-11-04_215001_057__38065.1793800231.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20992/442787/_2026-11-04_214959_627__06615.1793800231.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20992/442789/_2026-11-04_215003_508__96402.1793800231.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19982/419823/_20260908151832_1197_11__99904.1788852308.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18673/386165/2026-06-09_16.47.58__29077.1780994958.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20230/424231/_2026-09-19_132413_516__00904.1789796063.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19324/402105/_2026-07-22_150227_369__92181.1784704765.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "BKN Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3450",
+        "reserva": "690",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-bkn-studio-1-6-1-4-roxy/",
+        "entrega": "Q2 2027",
+        "label_base": "1:6",
+        "variantes": [
+          {
+            "label": "1:4",
+            "precio": "4100",
+            "reserva": "820",
+            "escala": "1:4"
+          }
+        ]
+      },
+      {
+        "id": "roly-star-studio-1-6-hsin-mw3uai9t",
+        "n": "Roly Star Studio 1:6 Hsin",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442762/_2026-11-04_195523_360__20190.1793793868.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442762/_2026-11-04_195523_360__20190.1793793868.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442763/_2026-11-04_195517_699__11654.1793793881.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442764/_2026-11-04_195510_757__64464.1793793883.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442765/_2026-11-04_195515_552__79814.1793793886.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442766/_2026-11-04_195519_560__62279.1793793894.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442767/_2026-11-04_195512_633__35076.1793793896.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20991/442768/_2026-11-04_195521_476__97704.1793793896.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19858/415079/2026-08-27_08.09.26__82444.1787789386.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19923/416528/_2026-08-31_131812_100__06490.1788153944.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20454/430000/IMG_3582__13656.1791086625.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Roly Star",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3850",
+        "reserva": "770",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-roly-star-studio-1-6-hsin/",
+        "entrega": "Q4 2026-Q1 2027",
+        "label_base": "Regular",
+        "variantes": [
+          {
+            "label": "Ex",
+            "precio": "4350",
+            "reserva": "870"
+          }
+        ]
+      },
+      {
+        "id": "blizzard-1-6-harbinger-of-the-void-xal-x27-atath-mw3uai9t",
+        "n": "Blizzard 1:6 Harbinger of the void Xal&#x27;atath",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20990/442751/IMG_3720__79665.1793791120.JPG",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20990/442751/IMG_3720__79665.1793791120.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20990/442750/IMG_3723__31991.1793791115.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20990/442752/IMG_3721__66118.1793791115.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20990/442753/IMG_3722__01359.1793791116.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20562/432324/IMG_3642__07496.1791786776.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20963/442142/IMG_3695__90132.1793710013.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/16627/335033/9__10798.1767523965.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19729/413564/room_01__06489.1787549291.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20495/430914/IMG_3600__62142.1791443500.JPG"
+        ],
+        "franquicia": "Otros",
+        "marca": "Blizzard",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4350",
+        "reserva": "870",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-blizzard-1-6-harbinger-of-the-void-xal-atath-licensed/",
+        "entrega": "Q2 2027"
+      },
+      {
+        "id": "white-berry-studio-1-6-yurizono-seia-swimsuit-mw3uai9t",
+        "n": "White Berry Studio 1:6 Yurizono Seia swimsuit",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442735/_2026-11-04_185926_749__04177.1793790488.png",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442735/_2026-11-04_185926_749__04177.1793790488.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442729/_2026-11-04_185913_358__83111.1793790461.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442730/_2026-11-04_185911_582__38080.1793790468.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442731/_2026-11-04_190003_226__02266.1793790472.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442732/_2026-11-04_185920_277__98137.1793790472.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442733/_2026-11-04_185923_726__61169.1793790473.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20989/442734/_2026-11-04_185918_179__87315.1793790475.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17366/353874/_2026-03-10_142901_673__01705.1773124404.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/16650/335636/2__48888.1767641929.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/13328/252608/332d8e277258708e9011b9129e82afd9__70298.1745307667.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "White Berry Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3450",
+        "reserva": "690",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-white-berry-studio-1-6-yurizono-seia/",
+        "entrega": "Q4 2026-Q1 2027"
+      },
+      {
+        "id": "sparkkey-studio-1-6-nazha-x27-lingchuan-wentian-x2-mw3uai9t",
+        "n": "Sparkkey Studio 1:6 NaZha &#x27;LingChuan & WenTian&#x27;",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20988/442715/_2026-11-04_182846_298__36545.1793788996.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20988/442715/_2026-11-04_182846_298__36545.1793788996.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20988/442716/_2026-11-04_182847_804__35901.1793788810.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20988/442714/_2026-11-04_182844_730__94044.1793788793.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20988/442718/_2026-11-04_182850_244__45298.1793788822.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20988/442717/_2026-11-04_182849_068__69438.1793788822.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/16225/324561/_2025-11-28_174507_092__80571.1764323855.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/5180/79701/4591655715904_.pic__54871.1655716055.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20834/438935/_2026-10-27_185957_731__12541.1793099119.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17813/364684/_2026-04-10_170936_954___68197.1775812508.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/7437/125396/SAGA_21__62597.1690536631.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Sparkkey Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4700",
+        "reserva": "940",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-sparkkey-studio-1-6-nazha-lingchuan-wentian-licensed/",
+        "entrega": "Q4 2027",
+        "label_base": "LingChuan",
+        "variantes": [
+          {
+            "label": "WenTian (Drawing the bow)",
+            "precio": "7100",
+            "reserva": "1420"
+          }
+        ]
+      },
+      {
+        "id": "haruhi-studio-1-6-akeboshi-himari-mw3uai9u",
+        "n": "Haruhi Studio 1:6 Akeboshi Himari",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442680/_2026-11-04_181229_157__41346.1793787483.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442680/_2026-11-04_181229_157__41346.1793787483.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442678/_2026-11-04_181248_049__16165.1793787459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442679/_2026-11-04_181245_572__62828.1793787459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442681/_2026-11-04_181224_319__12459.1793787459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442682/_2026-11-04_181222_574__68874.1793787459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442683/_2026-11-04_181234_336__98659.1793787459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442684/_2026-11-04_181232_248__09712.1793787459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442685/_2026-11-04_181227_772__38155.1793787460.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442686/_2026-11-04_181221_125__35709.1793787460.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20987/442687/_2026-11-04_181230_830__66351.1793787460.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Haruhi Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4550",
+        "reserva": "910",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-haruhi-studio-1-6-akeboshi-himari/",
+        "entrega": "Q4 2026-Q1 2027"
+      },
+      {
+        "id": "summer-studio-ocarina-of-time-1-6-1-4-link-mw3uai9u",
+        "n": "Summer Studio Ocarina of Time 1:6/1:4 Link",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442657/_2026-11-04_180220_886__88759.1793787019.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442657/_2026-11-04_180220_886__88759.1793787019.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442648/_2026-11-04_180231_783__77859.1793787003.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442649/_2026-11-04_180228_437__81719.1793787003.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442650/_2026-11-04_180224_783__91316.1793787004.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442651/_2026-11-04_180229_789__84271.1793787004.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442652/_2026-11-04_180223_530__33080.1793787005.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442653/_2026-11-04_180226_031__34220.1793787005.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442654/_2026-11-04_180222_240__63108.1793787005.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442655/_2026-11-04_180233_868__61796.1793787005.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20986/442656/_2026-11-04_180227_243__44860.1793787005.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Summer Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3750",
+        "reserva": "750",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-summer-studio-ocarina-of-time-1-6-1-4-link/",
+        "entrega": "Q1-Q2 2027",
+        "label_base": "1:6",
+        "variantes": [
+          {
+            "label": "1:4",
+            "precio": "4500",
+            "reserva": "900",
+            "escala": "1:4"
+          }
+        ]
+      },
+      {
+        "id": "abyssal-echo-studio-1-6-saya-mw3uai9u",
+        "n": "Abyssal Echo Studio 1:6 Saya",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20985/442637/_2026-11-04_174712_779__18000.1793786468.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20985/442637/_2026-11-04_174712_779__18000.1793786468.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20985/442636/_2026-11-04_174711_025__24776.1793786467.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20985/442633/_2026-11-04_174715_315__78152.1793786459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20985/442634/_2026-11-04_174714_028__65387.1793786459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20985/442635/_2026-11-04_174716_508__26465.1793786459.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20809/438423/2026-10-27_13.08.42__90945.1793077923.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/16737/338202/_1__47448.1768386023.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20380/428014/_2026-09-29_133011_980__15179.1790659864.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/17456/355879/_2026-03-17_153956_550__20393.1773734008.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/15755/315701/_2025-11-11_170933_943__58487.1762852479.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Abyssal Echo Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4150",
+        "reserva": "830",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-abyssal-echo-studio-1-6-saya/",
+        "entrega": "Q2 2027"
+      },
+      {
+        "id": "at-studio-1-4-leon-s-kennedy-mw3uai9u",
+        "n": "AT Studio 1:4 Leon S Kennedy",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442513/_2026-11-04_165038_928__77624.1793782596.jpg",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442513/_2026-11-04_165038_928__77624.1793782596.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442515/_2026-11-04_165035_523__81814.1793782587.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442512/_2026-11-04_165044_904__90143.1793782591.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442514/_2026-11-04_165043_088__89698.1793782594.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442509/_2026-11-04_165048_489__69209.1793782560.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442510/_2026-11-04_165054_612__48560.1793782563.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442511/_2026-11-04_165052_490__26648.1793782564.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442516/_2026-11-04_165037_282__80907.1793782577.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442517/_2026-11-04_165040_529__71632.1793782577.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20611/433515/_2026-10-14_184552_559__14991.1791976101.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "AT Studio",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7100",
+        "reserva": "1420",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-at-studio-1-4-leon-s-kennedy/",
+        "entrega": "Q1 2027"
+      },
+      {
+        "id": "kora-studio-1-6-remielle-dan-mw3uai9u",
+        "n": "KORA Studio 1:6 Remielle Dan",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20978/442496/_2026-11-04_164316_514__14304.1793782334.png",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20978/442496/_2026-11-04_164316_514__14304.1793782334.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20978/442497/_2026-11-04_164307_724__11660.1793782332.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20978/442494/_2026-11-04_164311_206__83080.1793782293.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20978/442495/_2026-11-04_164314_666__19037.1793782299.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20978/442498/_2026-11-04_164309_751__00472.1793782327.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19470/405338/_2026-07-31_154734_953__33725.1785484787.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19641/409576/_2026-08-12_220257_639__91253.1786543558.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19455/404991/_2026-07-30_174742_135__88513.1785405273.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19477/405572/_2026-07-31_170045_634__00397.1785488705.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19324/402105/_2026-07-22_150227_369__92181.1784704765.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "KORA Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3950",
+        "reserva": "790",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-kora-studio-1-6-remielle-dan/",
+        "entrega": "Q2 2027"
+      },
+      {
+        "id": "quesq-studio-1-7-erika-kuramoto-mw3uai9v",
+        "n": "QuesQ Studio 1:7 Erika Kuramoto",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20977/442477/IMG_3714__50935.1793780691.JPG",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20977/442477/IMG_3714__50935.1793780691.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20977/442479/IMG_3717__57544.1793780695.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20977/442476/IMG_3719__03511.1793780686.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20977/442478/IMG_3718__05857.1793780686.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20977/442480/IMG_3716__04305.1793780687.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20977/442481/IMG_3715__91681.1793780687.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20976/442456/IMG_3710__47727.1793780475.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20705/435854/FIGURE-209431_01__08471.1792501425.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20173/422677/_2026-09-16_133904_164__02567.1789537644.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19304/401639/_2026-07-21_145343_742__43884.1784616956.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "QuesQ Studio",
+        "escala": "1:7",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3750",
+        "reserva": "750",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-quesq-studio-1-7-erika-kuramoto/",
+        "entrega": "Q1 2028"
+      },
+      {
+        "id": "quesq-studio-1-7-misa-suzuhara-mw3uai9v",
+        "n": "QuesQ Studio 1:7 Misa Suzuhara",
+        "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20976/442456/IMG_3710__47727.1793780475.JPG",
+        "fotos": [
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20976/442456/IMG_3710__47727.1793780475.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20976/442457/IMG_3711__22355.1793780476.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20976/442458/IMG_3712__48645.1793780477.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20976/442459/IMG_3713__83056.1793780477.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20977/442477/IMG_3714__50935.1793780691.JPG",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/20705/435854/FIGURE-209431_01__08471.1792501425.jpg",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/19672/410344/2026-08-14_18.49.48__66489.1786704623.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18134/372565/_2026-05-05_190250_336__80579.1777979258.png",
+          "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/698x707/products/18735/387654/_2026-06-12_155924_039__00643.1781251440.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "QuesQ Studio",
+        "escala": "1:7",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3750",
+        "reserva": "750",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Top anime statue store"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-05",
+        "origen": "https://www.fanaticanimestore.com/pre-order-quesq-studio-1-7-misa-suzuhara/",
+        "entrega": "Q1 2028"
+      },
+      {
         "id": "godzilla-2026-collectible-figure-by-x-plus-mw2pwzrh",
         "n": "Godzilla (2026) Collectible Figure by X-Plus",
         "i": "https://www.sideshow.com/storage/product-images/916272/star-ace-toys-ltd-godzilla-godzilla-2026-collectible-figure-gallery-6aea6e72f1738.jpg",
