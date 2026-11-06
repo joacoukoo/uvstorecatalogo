@@ -40068,6 +40068,58 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "zoro-1-6-statue-mw58jm4n",
+        "n": "Zoro 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9a52b156c673fb9c24291b08490859c4.jpg?v=1793982727",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9a52b156c673fb9c24291b08490859c4.jpg?v=1793982727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fce4e69580ac84e69d4d9c57a810bd63.jpg?v=1793982727",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/044cab60d66519abc679740b108780be.jpg?v=1793982726",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/84decd6aedd5c53f214a5436b79dabc5.jpg?v=1793982727"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium del icónico espadachín de One Piece en escala 1/6, capturando su pose característica con su distintivo traje negro y expresión desafiante. Una pieza imprescindible para coleccionistas devotos del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 8,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espadas múltiples"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "540",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "pikachu-statue-mw58i92l",
         "n": "Pikachu Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cab44762de447276dd4bb86be273fdf8.jpg?v=1793982250",
