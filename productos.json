@@ -40068,6 +40068,60 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "rosa-and-snivy-statue-mw58tkse",
+        "n": "Rosa and Snivy Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/mmexport1793884162666___34198.webp?v=1793969563",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5100",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/mmexport1793884162666___34198.webp?v=1793969563",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/mmexport1793884162666__37388.webp?v=1793969563",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/mmexport1793884164100__63756.webp?v=1793969563",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/mmexport1793884169107__70040.webp?v=1793969563",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/mmexport1793884165880__19546.webp?v=1793969563",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/mmexport1793884167579__89699.webp?v=1793969563"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una estatua premium que captura el carisma de Rosa con su icónico Pokémon Snivy en una composición dinámmica y colorida. Esta pieza combina detalles meticulosos en la figura y el entorno natural, perfecta para coleccionistas que aprecian la calidad artesanal y el acabado de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 12 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con base de hierba y tierra"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1020",
+        "entrega": "2027 Q3",
+        "cantidad": "2"
+      },
+      {
         "id": "majora-s-mask-collector-s-edition-mask-set-mw58qdkw",
         "n": "Majora's Mask Collector's Edition Mask Set",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5a78165baa9ffcafb0291d3623f77f52.jpg?v=1793971183",
