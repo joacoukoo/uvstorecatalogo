@@ -40068,6 +40068,72 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "yuno-1-6-statue-mw59bf2g",
+        "n": "Yuno 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b041-bZjD0B04.jpg?v=1742834093",
+        "franquicia": "Anime",
+        "marca": "Prime 1 Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "14700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b041-bZjD0B04.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b029-JWLKrUWt.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b021-hcww6vCs.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a002-cZSfqZ4H.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a006-Fhtt2d4b.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a003-UqGkZi7w.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a004-A1OGmFBY.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b027-B8l4CEML.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b028-rxoTXbF8.jpg?v=1742834093",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b032-RtCOvPGz.jpg?v=1742834093"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Yuno con una altura imponente de 56.5 cm que captura su poder mágico con efectos de magia verde dinámicos. La escultura detalla magistralmente su atuendo, expresión y la energía devastadora de sus hechizos. Una pieza coleccionable de lujo para los fanáticos de Black Clover."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 56.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 36.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 43 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza intercambiable (varía según versión)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base tematizada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "2940",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "asta-1-6-statue-mw599fip",
         "n": "Asta 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9c5a70147dcfc13611c0039e0e6c4bc5.png?v=1788167861",
