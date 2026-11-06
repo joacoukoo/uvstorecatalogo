@@ -40068,6 +40068,72 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "yami-1-6-statue-mw593368",
+        "n": "Yami 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f2c36a126a59d00df24892d45490892b.jpg?v=1763315412",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f2c36a126a59d00df24892d45490892b.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/78f31e42f7b6fd4cb784b38b2e09136b.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b68fa03e93b8fdb411e1dc29f0564172.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/094bc42fc099a27d5356bd5316b643ab.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/47a52b4a6cb44b1ce57d8e8135107ffa.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0ddc26631a876d3afe7b0a225e25ffb4.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/68d31f26adff14d9fd58394ad4542a7b.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/110e687c8ca52302ae054d22f0c7512f.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/350ac8756c2c9a16c593d151e4a270fc.jpg?v=1763315412",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e2a261593c437155a9cf550b08a141d9.jpg?v=1763315412"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una impresionante estatua de Yami que captura toda la intensidad y poder del personaje en batalla. Con alas desplegadas, armas energéticas y detalles de combate que transmiten dinamismo y fuerza bruta. Pieza limitada de 99 ejemplares que no puede faltar en tu colección de figuras premium."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y tela con acabados detallados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas extensibles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armas de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1160",
+        "entrega": "Q4 2026",
+        "cantidad": "2"
+      },
+      {
         "id": "asta-1-6-statue-mw591be6",
         "n": "Asta 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213740_765__67736.jpg?v=1779805524",
