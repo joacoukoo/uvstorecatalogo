@@ -40068,6 +40068,71 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "pikachu-statue-mw58ot6t",
+        "n": "Pikachu Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a18e0c57926715332bbf57bedd9b968f_20dc09c7-be24-43c1-9859-80058e926bc1.jpg?v=1793973656",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a18e0c57926715332bbf57bedd9b968f_20dc09c7-be24-43c1-9859-80058e926bc1.jpg?v=1793973656",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/99f7103a06333d79d8c7f7da98dd86e6_eaaa3eb6-fc4a-4f22-8dc2-093ba91ec1bf.jpg?v=1793973654",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9cd8c5f2a47425b48df70a497581aafa_7f37cac0-0f8c-4fd9-bb2a-afb55e71ce79.jpg?v=1793973655",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0d9a51c3e324ef15d06ccdd71ad68b72_034a662b-0d5c-46c1-a6bf-28dad52f33e4.jpg?v=1793973656",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6e343fa30e77da1e59a99572d7b36d01_51c7e723-4822-4e3e-94e9-34162e940dc0.jpg?v=1793973654",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7b3873c870059f7fc5547163e8b287be_2fb72e91-e636-48bf-8c08-e2fb750aaf4d.jpg?v=1793973654",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fcc5cbce7f88f3d7e7e3ee13acafc5cb_52b1ad64-2d2a-43e2-9dfa-8f9b75dad45e.jpg?v=1793973655",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6c51f62d50747eb95adb0fb7bd2d55a6_88219d75-bae3-4bbf-b5b6-17bf91a67415.jpg?v=1793973655",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/7_446b6173-de2d-4163-a6dd-f3fc6fd3602f.jpg?v=1793973654"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Pikachu celebra el Año Nuevo en esta espectacular estatua premium que captura la alegría y energía del icónico Pokémon. Ataviado con un traje tradicional rojo y dorado, sostiene pergaminos de felicitación mientras está rodeado de abundancia y fuegos artificiales. Una pieza de colección imprescindible para fans que buscan el lujo y la nostalgia en su estantería."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 10 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 10 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Pikachu"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios festivos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "520",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "zoro-1-6-statue-mw58jm4n",
         "n": "Zoro 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9a52b156c673fb9c24291b08490859c4.jpg?v=1793982727",
