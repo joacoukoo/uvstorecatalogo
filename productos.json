@@ -40068,6 +40068,62 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "mewtwo-statue-mw59crd6",
+        "n": "Mewtwo Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20250313152314-scaled-e1741852550221.jpg?v=1741951015",
+        "franquicia": "Gaming",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6600",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20250313152314-scaled-e1741852550221.jpg?v=1741951015",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20250313152305-scaled.jpg?v=1741951015",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20250313162314-scaled.jpg?v=1741951015",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20250313152314-1-scaled.jpg?v=1741951015"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Mewtwo capturando toda la majestuosidad del legendario Pokémon psíquico. Detalle excepcional en la escultura con su característica cola y pose dinámica sobre peana temática. Edición limitada de 200 piezas con acabados en blanco y tonos púrpuras."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 13 cm (1/20 Regular) / 19 cm (1/20 Exclusive) / 34 cm (1/10 Exclusive)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/20 o 1/10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 200 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables (en versión 1/10)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana decorativa con cristales azules"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1320",
+        "entrega": "2026 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "yuno-1-6-statue-mw59bf2g",
         "n": "Yuno 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b041-bZjD0B04.jpg?v=1742834093",
