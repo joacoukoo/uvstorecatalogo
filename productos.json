@@ -40068,6 +40068,71 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "majora-s-mask-collector-s-edition-mask-set-mw58qdkw",
+        "n": "Majora's Mask Collector's Edition Mask Set",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5a78165baa9ffcafb0291d3623f77f52.jpg?v=1793971183",
+        "franquicia": "Gaming",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5100",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5a78165baa9ffcafb0291d3623f77f52.jpg?v=1793971183",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/e469eb65571f21378058b41550934f2f.jpg?v=1793971183",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8dffa1144a17e0aa020b65efa188b709.jpg?v=1793971183",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d2a121a6818c120903225ad507b6f7e6.jpg?v=1793971183",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/65fac7608c97f846dd657b9e0a051bf1.jpg?v=1793971183"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Un espectacular conjunto de máscaras de colección que recrea la icónica galería de Majora's Mask con 24 piezas detalladas. Cada máscara captura la esencia única de los personajes del juego, desde criaturas místicas hasta seres humanoides, en una presentación de museo con iluminación LED integrada. Una pieza maestra para coleccionistas que buscan el pináculo de la fidelidad artística."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 39 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 299 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada a mano con detalles especializados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "24 máscaras coleccionables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Vitrina de exposición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1020",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "pikachu-statue-mw58ot6t",
         "n": "Pikachu Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a18e0c57926715332bbf57bedd9b968f_20dc09c7-be24-43c1-9859-80058e926bc1.jpg?v=1793973656",
