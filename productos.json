@@ -79027,6 +79027,72 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "yidhari-1-6-figure-mw58rxto",
+        "n": "Yidhari 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2f3985ca7c3cea5fa4338bc5a20e09e9.jpg?v=1793970154",
+        "franquicia": "Otros",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4900",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2f3985ca7c3cea5fa4338bc5a20e09e9.jpg?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/11b9cdbe31e7fdbec68eb976f0738bdc.jpg?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b9c10d3e8389c1b07eccfab16be83f88.jpg?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/90ba897a4876b4042e78a7dd7f540361.jpg?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8a82973b1f0bf7b12e8711bacff33b13.jpg?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-11-06_175831_264__48031.webp?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-11-06_175834_564__20932.webp?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-11-06_175827_493__28439.webp?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-11-06_175825_730__93922.webp?v=1793970154",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-11-06_175829_538__01500.webp?v=1793970154"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura premium de Yidhari a escala 1/6 con exquisito detalle artístico y acabados en tonos púrpura y dorados. Edición limitada de solo 188 piezas que captura la elegancia y sofisticación del personaje. Versión exclusiva incluye cuerpo adicional para mayor versatilidad de poses."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: 188 piezas limitadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y PVC de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados: Pintura hand-painted con detalles dorados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo principal articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios temáticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "980",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "draco-malfoy-tentacle-1-6-statue-mw58mfnz",
         "n": "Draco Malfoy Tentacle 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_568.jpg?v=1793982501",
