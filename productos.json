@@ -40068,6 +40068,56 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "pikachu-statue-mw58i92l",
+        "n": "Pikachu Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cab44762de447276dd4bb86be273fdf8.jpg?v=1793982250",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/cab44762de447276dd4bb86be273fdf8.jpg?v=1793982250",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0ee6416b852848097f56bd5d63370725.jpg?v=1793982250"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Pikachu en su versión ejecutiva, luciendo elegantes gafas y atuendo corporativo mientras trabaja en su escritorio de oficina. Esta estatua captura al icónico Pokémon en un contexto profesional y moderno, perfecta para coleccionistas que aprecian interpretaciones creativas y humorísticas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 168 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Pikachu con escritorio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con temática Pokémon"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "560",
+        "entrega": "2027 Q3",
+        "cantidad": "2"
+      },
+      {
         "id": "at-studio-1-4-leon-s-kennedy-mw3uai9u",
         "n": "Leon S. Kennedy 1:4 Statue",
         "i": "https://cdn11.bigcommerce.com/s-5s1ah0hhi7/images/stencil/1280x1280/products/20979/442513/_2026-11-04_165038_928__77624.1793782596.jpg",
