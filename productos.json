@@ -40068,6 +40068,66 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asta-1-6-statue-mw599fip",
+        "n": "Asta 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9c5a70147dcfc13611c0039e0e6c4bc5.png?v=1788167861",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/9c5a70147dcfc13611c0039e0e6c4bc5.png?v=1788167861",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/a216cc545980631c587d43a5d63b53e7.png?v=1788167861",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2dab1fed00a187baf346e1ccc77925b7.jpg?v=1788167861",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f590829071ce4da215d7d4bd2c2f04ae.jpg?v=1788167861"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Asta de Black Clover capturado en toda su gloria con su icónico grimorio Anti-Demonio, montado sobre una base de roca infernal con efectos de fuego y energía oscura. Esta estatua premium de 37.5 cm refleja la intensidad y determinación del protagonista en su batalla contra las fuerzas demoníacas, con un nivel de detalle excepcional en su armadura, expresión y armas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 37.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 22 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 22 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 120 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grimorio Anti-Demonio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con efectos de fuego y energía"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1060",
+        "entrega": "2027 Q2",
+        "cantidad": "2"
+      },
+      {
         "id": "asta-statue-mw598aes",
         "n": "Asta Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ae001bd4445263a6b8a5fba859c93b8b.jpg?v=1790511761",
