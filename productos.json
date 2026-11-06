@@ -40068,6 +40068,70 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asta-statue-mw59742y",
+        "n": "Asta Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b5537a514564b621bbd662366202705f.jpg?v=1790257025",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5200",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b5537a514564b621bbd662366202705f.jpg?v=1790257025",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fa03c854c6b0343433e2fa0151b7ea17.jpg?v=1790257025",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/184ab954a80b6233ffd76435b30c563c.jpg?v=1790257025",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/6295f6375f1a08b137247b4eeb1750de.jpg?v=1790257026",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/fdfaeb662ff503b471e4db9523d0d742.jpg?v=1790257025",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/01f90bc53066c71bc0573a7a93fe9d32.jpg?v=1790257025",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/13d8747986219626b1ba0bc8c26d4381.jpg?v=1790257025",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8dc9324987c11a9b6015601c5c7a909d.jpg?v=1790257025"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la esencia del protagonista de Black Clover en esta impresionante estatua premium que destaca su pose de combate característica. Cada detalle ha sido meticulosamente esculpido para reflejar la determinación y poder del Mago Negro, desde sus distintivos accesorios hasta su equipamiento de batalla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 126 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grimororio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios característicos del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1040",
+        "entrega": "2027 Q3",
+        "cantidad": "2"
+      },
+      {
         "id": "noelle-silva-1-6-statue-mw5942t1",
         "n": "Noelle Silva 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0fdcf7bc61b70db60ec2140a0cfedf66.jpg?v=1716652204",
