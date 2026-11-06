@@ -1,3 +1,5 @@
+import { explicarErrorIA } from '../_lib/errorIA.js';
+
 export async function onRequestPost({ env, request }) {
   let body;
   try { body = await request.json(); }
@@ -27,7 +29,7 @@ export async function onRequestPost({ env, request }) {
     let res = await pedir(content);
     // La tienda de origen puede bloquear la foto (ej. Sideshow): mejor una descripción sin foto que un error.
     if (res.status === 400 && imagen) res = await pedir(prompt);
-    if (!res.ok) throw new Error(`Anthropic ${res.status}: ${await res.text()}`);
+    if (!res.ok) throw new Error(explicarErrorIA(res.status, await res.text()));
     const data = await res.json();
     return new Response(JSON.stringify({ text: data.content[0].text }), { headers: { 'Content-Type': 'application/json' } });
   } catch (e) {

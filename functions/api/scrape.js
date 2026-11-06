@@ -2,9 +2,13 @@ import { detectProvider, scrapeSideshow, scrapeShopify, scrapeWooCommerce, scrap
 import { fetchPage, PROXY_URL } from '../_lib/fetchPage.js';
 import { limpiarNombre, sacarOracionesConBasura, opcionesReales, esTienda } from '../_lib/limpieza.js';
 import { esTCG, CATEGORIA_TCG } from '../_lib/tcg.js';
+import { explicarErrorIA } from '../_lib/errorIA.js';
 
-export async function callClaudeForDesc(env, { name, marca, escala, franquicia, desc_raw, foto, opciones = [] }) {
-  if (!env.ANTHROPIC_API_KEY) return null;
+const RESPUESTA_ILEGIBLE = 'La respuesta de la IA no se pudo leer: probá de nuevo';
+
+export async function callClaudeForDesc(env, { name, marca, escala, franquicia, desc_raw, foto, opciones = [] }, alFallar) {
+  const fallar = causa => { alFallar?.(causa); return null; };
+  if (!env.ANTHROPIC_API_KEY) return fallar('Falta ANTHROPIC_API_KEY en Cloudflare');
   const ctx = [
     marca      && `Fabricante: ${marca}.`,
     escala     && `Escala: ${escala}.`,
@@ -52,14 +56,14 @@ Responde SOLO con JSON válido sin markdown:
     // La tienda puede bloquear la foto (ej. Fanatic Anime Store, robots.txt "Disallow: /") y
     // Anthropic responde 400: mejor una descripción sin foto que la figura sin descripción.
     if (res.status === 400 && foto) res = await pedir(prompt);
-    if (!res.ok) return null;
+    if (!res.ok) return fallar(explicarErrorIA(res.status, await res.text()));
     const data = await res.json();
     const text = data.content?.[0]?.text || '';
     const match = text.match(/\{[\s\S]*\}/);
-    if (!match) return null;
+    if (!match) return fallar(RESPUESTA_ILEGIBLE);
     const parsed = JSON.parse(match[0]);
     const parts = [parsed.desc, parsed.specs, parsed.includes].filter(Boolean);
-    if (!parts.length) return null;
+    if (!parts.length) return fallar(RESPUESTA_ILEGIBLE);
     const VALID_FRANQUICIAS = ['Marvel','DC Comics','Star Wars','Anime','Gaming','Harry Potter','El Señor de los Anillos','Alien','Predator','Terminator','Tortugas Ninja','Masters of the Universe','Transformers','Adultos','Otros'];
     return {
       desc: parts.join('\n\n'),
@@ -72,8 +76,9 @@ Responde SOLO con JSON válido sin markdown:
         ? parsed.variantes.map(v => (v && typeof v === 'object') ? { nombre: String(v.nombre || ''), incluye: String(v.incluye || '').trim() } : { nombre: String(v), incluye: '' })
         : [],
     };
-  } catch {
-    return null;
+  } catch (e) {
+    if (e.name === 'AbortError') return fallar('La IA tardó más de 20 segundos: probá de nuevo');
+    return fallar(e instanceof SyntaxError ? RESPUESTA_ILEGIBLE : e.message);
   } finally {
     clearTimeout(timer);
   }
@@ -171,7 +176,7 @@ export async function onRequestPost({ env, request }) {
         desc_raw:   result.desc       || '',
         foto:       result.photos?.[0] || '',
         opciones:   opcionesReales(result.opciones),
-      }),
+      }, causa => { result.ai_error = causa; }),
       isSSDeluxe ? fetchSideshowDeluxe(url, result.deluxeVariantSku) : Promise.resolve(null),
     ]);
 
