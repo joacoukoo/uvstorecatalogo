@@ -40068,6 +40068,71 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "noelle-silva-1-6-statue-mw5942t1",
+        "n": "Noelle Silva 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0fdcf7bc61b70db60ec2140a0cfedf66.jpg?v=1716652204",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "19100",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0fdcf7bc61b70db60ec2140a0cfedf66.jpg?v=1716652204",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/338db5d4cbaa47711045234a313ca365.jpg?v=1716652204",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/0e999e205745cc748721090ca85f4727.jpg?v=1716652204",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1ec409243fb6cb689987d9034f996807.jpg?v=1716652204",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3e54f9985dc3f7f629eb48188f7aaac6.jpg?v=1716652204",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/78731706fb734a7612187366fbce006c.jpg?v=1716652084",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ba53d61fad1773363ac59fdaee04c35c.jpg?v=1716652084",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d7e91e977bd2d5f51d34c669dc28445c.jpg?v=1716652086",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/d9096b63fb56712f51a1488188c7038e.jpg?v=1716652084"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Noelle Silva de Black Clover en escala 1/6, capturando toda la majestuosidad de la princesa del reino helado. Con una altura de 83.5 cm, esta obra maestra presenta un intrincado trabajo de detalle en su magia de hielo y atuendo aristocrático. Edición limitada a solo 88 piezas, diseñada por los creadores oficiales de la franquicia."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 83.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Noelle Silva"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica con efectos de hielo"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "3820",
+        "entrega": "2026 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "yami-1-6-statue-mw593368",
         "n": "Yami 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f2c36a126a59d00df24892d45490892b.jpg?v=1763315412",
