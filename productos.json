@@ -68685,6 +68685,71 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "yuno-grinbellor-1-6-figure-mw59ffpi",
+        "n": "Yuno Grinbellor 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG303_ca4c86f4-22ed-49f4-b7c2-12253f10706a.jpg?v=1751103315",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG303_ca4c86f4-22ed-49f4-b7c2-12253f10706a.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG301_8d4d458e-a118-4a6f-8001-3c84bc350afa.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG307_9d8ab015-29e7-422d-a27c-a0c3328fbb8e.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG302_138ca510-5c5a-4c68-89c0-df288efbb60a.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG304_9de5c7a7-bbc7-4c45-af48-47c9cfd2a7cf.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG309_b069fcd0-d247-46fa-bd3b-36336423ddce.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG306_3c3f2076-1adb-4749-8815-340f576d0386.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG305_c647b782-eab5-4c75-9cf6-4fc8c1ff2c80.jpg?v=1751103315",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/WechatIMG308_2be7b285-e975-403a-a5a0-202af1b63df7.jpg?v=1751103314"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de colección premium de Yuno Grinbellor en escala 1/6, capturando su esencia mágica con una elaborada base de efectos de energía blanca. Cada detalle de su atuendo y expresión ha sido meticulosamente esculpido para reflejar el carácter del personaje. Una pieza imprescindible para coleccionistas de Black Clover."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 37 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y pintura de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con diseño ornamental"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1460",
+        "entrega": "2026 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "hakimi-studio-genshin-impact-columbina-x-sandrone--mw58fhn9",
         "n": "Hakimi Studio - Genshin Impact - Columbina X Sandrone 1/6 Statue",
         "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/z6LQIukMXwbz1CaKa90vY1793982306584.jpg",
