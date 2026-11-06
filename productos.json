@@ -40068,6 +40068,70 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asta-1-6-statue-mw591be6",
+        "n": "Asta 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213740_765__67736.jpg?v=1779805524",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213740_765__67736.jpg?v=1779805524",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213731_009__61538.jpg?v=1779805524",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213737_905__63895.jpg?v=1779805525",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213742_650__74415.jpg?v=1779805524",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213733_969__46423.jpg?v=1779805525",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213732_524__23732.jpg?v=1779805524",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213739_443__21426.jpg?v=1779805525",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2026-05-26_213736_224__49193.jpg?v=1779805525"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura toda la esencia de combate de Asta con una representación dinásmica llena de poder y movimiento. Esta estatua premium muestra al personaje en su momento más épico, rodeado de efectos energéticos rojos que definen su presencia devastadora. Cada detalle está meticulosamente pintado y esculpido para reflejar la calidad de colección de clase mundial."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm (1/6 Scale) / 40.5 cm (1/4 Scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm (1/6 Scale) / 27 cm (1/4 Scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 29 cm (1/6 Scale) / 42 cm (1/4 Scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6 o 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad con pintura detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 piezas (1/6) / 50 piezas (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con efectos energéticos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1000",
+        "entrega": "2027 Q2",
+        "cantidad": "2"
+      },
+      {
         "id": "boa-hancock-statue-mw58wgz2",
         "n": "Boa Hancock Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bbf950c2385c5106611ddf24724f252fee1a112519a370c2588fb1e96fab8006.webp?v=1793877733",
