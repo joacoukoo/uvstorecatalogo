@@ -40068,6 +40068,72 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "asta-statue-mw598aes",
+        "n": "Asta Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ae001bd4445263a6b8a5fba859c93b8b.jpg?v=1790511761",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6300",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ae001bd4445263a6b8a5fba859c93b8b.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/160968d6ca6d2eddfa71b3bdcb7d350b.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bce252a9d4bc91ecd8dbb514fad396bb.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/efa8a66f8ab35e61f40a81d4f3213179.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/ffcd90a4916c8c9dc8b3912f96ee9028.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/912be69f5230fd7e4994b0689fc9d884.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3710f257728bdb3c090e6ead8c95b1c8.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/c16c3fd0e507b6b11587fe6a4f84162b.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/8c8ff6b3c98c360afa4c75ca1ff837a7.jpg?v=1790511761",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/14b8ad0b1295c96febde47264b58dc66.jpg?v=1790511761"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la esencia del protagonista de Black Clover en su forma más poderosa, rodeado de energía roja ardiente y su icónico grimorio. Esta estatua de edición limitada combina escultura detallada con iluminación LED integrada para un impacto visual espectacular. Ideal para coleccionistas que desean una pieza de museo que celebre la determinación y el poder del Capitán del Escuadrón Toro Negro."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 51 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED integrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1260",
+        "entrega": "2027 Q3",
+        "cantidad": "2"
+      },
+      {
         "id": "asta-statue-mw59742y",
         "n": "Asta Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/b5537a514564b621bbd662366202705f.jpg?v=1790257025",
