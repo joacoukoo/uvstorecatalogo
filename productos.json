@@ -40068,6 +40068,60 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "boa-hancock-statue-mw58wgz2",
+        "n": "Boa Hancock Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bbf950c2385c5106611ddf24724f252fee1a112519a370c2588fb1e96fab8006.webp?v=1793877733",
+        "franquicia": "Anime",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4800",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/bbf950c2385c5106611ddf24724f252fee1a112519a370c2588fb1e96fab8006.webp?v=1793877733",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/470356e8eaaef8295ea0d1452f3b7d170c1d61e515a93c79774681fff6dee381.webp?v=1793877733"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Boa Hancock en una pose elegante y seductora, recostada en un ornamentado sofá de oro y rojo. Captura la majestuosidad y el carisma del personaje con un nivel de detalle excepcional en cada aspecto de su vestimenta y accesorios."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 18,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 36,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 30 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sofá ornamentado con detalles en oro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "960",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "majora-s-mask-collector-s-edition-mask-set-mw58qdkw",
         "n": "Majora's Mask Collector's Edition Mask Set",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/5a78165baa9ffcafb0291d3623f77f52.jpg?v=1793971183",
