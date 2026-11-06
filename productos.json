@@ -78897,6 +78897,92 @@
     "slug": "adultos",
     "products": [
       {
+        "id": "draco-malfoy-tentacle-1-6-statue-mw58mfnz",
+        "n": "Draco Malfoy Tentacle 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_568.jpg?v=1793982501",
+        "franquicia": "Harry Potter",
+        "marca": "",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5100",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_568.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_074.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072516_861.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_542.jpg?v=1793982502",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_264.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072516_868.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072516_857.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_558.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072516_711.jpg?v=1793982501",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/IMG_20261106_072517_117.jpg?v=1793982502"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Draco Malfoy mujer en escala 1/6 con acabado articulado de alta calidad profesional. Edición limitada a solo 128 piezas con esculpido detallado y pintura experta que capturan la esencia del personaje. Incluye base temática decorativa y cuerpo adicional en versión Exclusive para los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone/Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 piezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura profesional aplicada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Draco Malfoy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo adicional (versión Exclusive)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje de coleccionista premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-06",
+        "reserva": "1020",
+        "entrega": "2027 Q3",
+        "cantidad": "2"
+      },
+      {
         "id": "shizaofang-studio-original-death-and-the-girl-stat-mw58fhn9",
         "n": "Shizaofang Studio - Original - Death and the Girl Statue",
         "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uucVqTX33r7jfHQy5Tgmb1793981840147.jpg",
