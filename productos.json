@@ -40170,6 +40170,124 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "godzilla-2026-statue-mwb49xgx",
+        "n": "Godzilla 2026 Statue",
+        "i": "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2d9f6abd0.jpg",
+        "franquicia": "Otros",
+        "marca": "Spiral Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2d9f6abd0.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-scale-6aee2da3b82c9.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2d9fbb90a.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2da01f751.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2da06e026.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2da0c2195.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2da11ec9e.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2da16dae4.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2da1bef8a.jpg",
+          "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2da21b2b0.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de colección premium que captura la majestuosidad del legendario Godzilla en su versión 2026, presentada por Spiral Studio con un trabajo artesanal excepcional. Fabricada en resina de alta calidad con pintura detallada a mano, esta pieza de 44 cm de altura exhibe texturas realistas y una postura imponente que refleja el poder destructivo del Rey de los Monstruos. Una adición esencial y de edición limitada para coleccionistas devotos que reverencian el universo de Godzilla Minus Zero y las clásicas criaturas de TOHO."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 44 cm (17.32\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 66 cm (26.18\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina PVC de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Estatua coleccionable de edición limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultor: Ken-ichi Tanaka"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia: TOHO Classic Monsters - Godzilla Minus Zero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Límite de compra: 6 unidades por persona"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Categoría: Collectible Premium Figure"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Godzilla 2026 (Collector Edition)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-10",
+        "content_d": [
+          {
+            "t": "notion-text",
+            "x": "La versión Deluxe Heat Ray presenta a Godzilla con su devastador rayo de calor activado, capturando el momento más icónico de destrucción del Kaiju con efectos de cristal azul luminoso que no incluye la versión regular."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de rayo de calor en cristal azul translúcido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dorsal brillante con tecnología LED (batería incluida)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición temática con escombros y ruinas de Tokio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          }
+        ],
+        "precio_d": "6800",
+        "reserva": "1300",
+        "reserva_d": "1360",
+        "entrega": "Jun. 2027",
+        "cantidad": "2",
+        "fotos_d": [
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306aa9025.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-scale-6aee306f0426a.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306b05e7c.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306b55163.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306ba3d1b.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306bf4181.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306c51dd8.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306ca1bb6.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306cf2a9e.jpg",
+          "https://www.sideshow.com/storage/product-images/9162912/spiral-studio-godzilla-godzilla-2026-heat-ray-version-collectible-figure-gallery-6aee306d4cd26.jpg"
+        ]
+      },
+      {
         "id": "link-on-epona-remake-1-6-statue-mwb3k400",
         "n": "Link on Epona Remake 1/6 Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003056_169_82__30810_93f3d6e1-5ef8-47b0-bbab-35ed59e21456.webp?v=1793985384",
