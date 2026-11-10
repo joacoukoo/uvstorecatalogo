@@ -40068,6 +40068,83 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "link-on-epona-remake-1-6-statue-mwb3k400",
+        "n": "Link on Epona Remake 1/6 Statue",
+        "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003056_169_82__30810_93f3d6e1-5ef8-47b0-bbab-35ed59e21456.webp?v=1793985384",
+        "franquicia": "Gaming",
+        "marca": "Kintsukuroi Creations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "10400",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003056_169_82__30810_93f3d6e1-5ef8-47b0-bbab-35ed59e21456.webp?v=1793985384",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003057_170_82__14810_72d894c5-8517-4cbe-82c9-fe9e3a9ad38a.webp?v=1793985384",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003059_171_82__88129_2e9592aa-d086-4b91-abdc-f6d0053ec48d.webp?v=1793985384",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003100_172_82__25132_b7c7479f-6733-4278-979c-0e1ff1bd6024.webp?v=1793985384",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003102_173_82__71597_ac78f88f-c0b2-47d6-8a63-1b4547e42fea.webp?v=1793985384",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003103_174_82__38091_8a2ded6d-49f7-434b-9464-7c5638b31d38.webp?v=1793985384",
+          "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003105_175_82__80670_144031f6-8c4a-4b84-badd-360183ee533b.webp?v=1793985384"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una magistral recreación de Link a caballo en Epona, capturando la esencia aventurera de la franquicia. Esta estatua premium combina detalles meticulosos en la armadura, la montura y el entorno natural, con un diorama que evoca la magia del juego. La inclusión de música envolvente eleva esta pieza a un nivel de inmersión incomparable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40 cm (1/6) / 55 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 46 cm (1/6) / 52 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 31 cm (1/6) / 44 cm (1/4)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6 o 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y pintura premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Link en pose de ataque"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Montura Epona con detalles de arnés"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diorama con rocas, vegetación y agua translúcida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cerca de madera decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de audio con música incluida"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-10",
+        "precio_d": "14800",
+        "reserva": "2080",
+        "reserva_d": "2960",
+        "entrega": "Q3 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "mewtwo-statue-mw59crd6",
         "n": "Mewtwo Statue",
         "i": "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20250313152314-scaled-e1741852550221.jpg?v=1741951015",
