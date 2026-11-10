@@ -10036,6 +10036,108 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "eleventh-brother-1-6-figure-mwb3pesn",
+        "n": "Eleventh Brother 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa62775f2.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3300",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa62775f2.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-scale-6aedfc3d60c5a.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa62ea59e.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa6349ffa.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa63a13bc.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa64205ae.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa6494ffa.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa6515b46.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa658a3ed.jpg",
+          "https://www.sideshow.com/storage/product-images/916277/hot-toys-star-wars-eleventh-brother-sixth-scale-figure-gallery-6aedfa660cfa0.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de Eleventh Brother basada en Star Wars: Maul - Shadow Lord con un nivel de detalle excepcional. Incluye dos sables de luz LED giratorios en modo media luna y disco, además de múltiples manos intercambiables y accesorios. Perfecta para coleccionistas que buscan capturar la esencia de este misterioso Inquisidor Sith."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza enmascarada con capucha (alambre flexible integrado)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa negra con broches plateados y emblemas imperiales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de guanteletes negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica negra superior"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón utilitario negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas largas de vinilo negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 empuñaduras de sable láser doble giratorio con LED rojo (modo media luna y disco)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 empuñaduras de sable láser doble giratorio sin LED (modo media luna y disco)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pares de hojas de sable láser rojas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana con logo de Star Wars y placa del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-10",
+        "reserva": "660",
+        "entrega": "Dic. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "sam-1-6-figure-mw2dst2v",
         "n": "Sam 1/6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/914671/hot-toys-death-stranding-sam-sixth-scale-figure-gallery-68815529ccabc.jpg",
