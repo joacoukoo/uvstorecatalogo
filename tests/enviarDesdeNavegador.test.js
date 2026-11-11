@@ -89,3 +89,15 @@ describe('favorito "Enviar a UV Store"', () => {
     expect(d.texto).toContain('CA$19.99');
   });
 });
+
+describe('Scrapear un link de Pokémon Center', () => {
+  it('el admin lo reconoce como tienda que bloquea (con o sin www y región)', () => {
+    const html = readFileSync(new URL('../admin-app.html', import.meta.url), 'utf-8');
+    const src = html.match(/var BLOQUEAN_SCRAPEO=[\s\S]*?\n\}/)[0];
+    const bloquea = new Function(src + '; return _bloqueaScrapeo;')();
+    expect(bloquea(PC_URL)).toBe(true);
+    expect(bloquea('https://pokemoncenter.com/product/x')).toBe(true);
+    expect(bloquea('https://www.sideshow.com/collectibles/x-916285')).toBe(false);
+    expect(bloquea('no es un link')).toBe(false);
+  });
+});

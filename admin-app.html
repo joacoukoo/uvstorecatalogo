@@ -768,8 +768,21 @@ window.addEventListener('load',function(){
   scrapeUrl(datos);
 });
 
+// Tiendas que no dejan leer sus páginas desde el servidor: se abren para usar el favorito.
+var BLOQUEAN_SCRAPEO=['pokemoncenter.com'];
+function _bloqueaScrapeo(url){
+  try{var h=new URL(url).hostname.replace(/^www\./,'');}catch(e){return false;}
+  return BLOQUEAN_SCRAPEO.some(function(d){return h===d||h.endsWith('.'+d);});
+}
+
 async function scrapeUrl(datosNavegador){
   var url=getField('add-url');if(!url)return;
+  if(!datosNavegador&&_bloqueaScrapeo(url)){
+    // Se abre antes de cualquier await: si no, el navegador lo toma como popup y lo bloquea.
+    window.open(url,'_blank');
+    setStatus('Esta tienda no deja scrapear: se abrió la figura en otra pestaña. Cuando cargue, tocá el favorito "Enviar a UV Store".','orange');
+    return;
+  }
   setStatus(datosNavegador?'Generando la descripción de la figura que mandó el navegador...':'Scrapeando y generando descripción...','orange');
   try{
     var body=datosNavegador?{url:url,datos:datosNavegador}:{url:url};
