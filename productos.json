@@ -89875,6 +89875,53 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "mega-kangaskhan-ex-caja-de-coleccion-jcc-pokemon-e-mwcg5la8",
+        "n": "Mega-Kangaskhan ex - Caja de Colección JCC Pokémon (ESPAÑOL)",
+        "i": "https://www.pokemon.com/static-assets/content-assets/cms2-es-xl/img/trading-card-game/series/incrementals/2025/mega-kangaskhan-ex-box/mega-kangaskhan-ex-box-latam-169.png",
+        "franquicia": "Otros",
+        "marca": "Pokemon",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "400",
+        "fotos": [
+          "https://www.pokemon.com/static-assets/content-assets/cms2-es-xl/img/trading-card-game/series/incrementals/2025/mega-kangaskhan-ex-box/mega-kangaskhan-ex-box-latam-169.png"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Desata el poder combinado de Kangaskhan y su cría con esta caja premium que reúne dos versiones espectaculares de Mega-Kangaskhan ex. Domina el juego con cartas exclusivas holográficas y lenticulares jumbo, más sobres de refuerzo para expandir tu colección con estrategias devastadoras."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: Caja oficial de colección JCC Pokémon"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye cartas promo exclusivas holográfica y lenticular jumbo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta promo holográfica de Mega-Kangaskhan ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta promo lenticular jumbo de Mega-Kangaskhan ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 sobres de refuerzo de JCC Pokémon"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "cantidad": "1"
+      },
+      {
         "id": "pokemon-30th-celebrations-box-ex-greninja-tcg-espa-mwcg37i0",
         "n": "Pokémon 30th Celebrations Box Ex Greninja TCG (ESPAÑOL)",
         "i": "https://http2.mlstatic.com/D_NQ_NP_667083-MLM117156189750_102026-O.webp",
