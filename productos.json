@@ -40170,6 +40170,100 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "godzilla-vs-king-ghidorah-poster-version-collectib-mwcllbfg",
+        "n": "Godzilla vs. King Ghidorah Poster Version Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-feature.jpg",
+        "franquicia": "Otros",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8400",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-feature.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-square.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a095393ac.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a09567320.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a09599fa6.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a095cdb1b.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a09610bc8.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a09649af3.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a09683307.jpg",
+          "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-gallery-6af4a096b7c6f.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una obra maestra de colección que captura el enfrentamiento épico entre Godzilla y King Ghidorah en una composición dinámica digna de los clásicos pósters de la franquicia. Elaborada por X-Plus bajo la prestigiosa línea Real Master Collection de Yuji Sakai, esta figura destaca por su pintura detallada a mano, escultura excepcional y presencia teatral que la convierte en pieza central de cualquier colección kaiju. Con más de 44 cm de altura y materiales premium en polistone, representa la máxima calidad artesanal en figuras de monstruos coleccionables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 44 cm (17.32\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 30 cm (11.81\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 43 cm (16.92\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polistone, PVC, Hierro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura detallada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: X-Plus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Real Master Collection - Yuji Sakai Best Works Selection Vol.2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "SKU: 916300"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "UPC: 4532149026291"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia: TOHO"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Godzilla articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de King Ghidorah con tres cabezas desplegadas y alas doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación diorama"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Embalaje premium de coleccionista"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "reserva": "1680",
+        "entrega": "May. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "godzilla-2024-evolved-deluxe-statue-mwcdxvuj",
         "n": "Godzilla (2024) Evolved Deluxe Statue",
         "i": "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf2e006c.jpg",
