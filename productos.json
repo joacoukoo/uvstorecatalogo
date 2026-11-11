@@ -89875,6 +89875,58 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "30th-celebration-sylveon-ex-box-ingles-mwcfngj9",
+        "n": "30th Celebration Sylveon ex Box (INGLES)",
+        "i": "https://tcgplayer-cdn.tcgplayer.com/product/704155_in_600x600.jpg",
+        "franquicia": "Otros",
+        "marca": "Pokemon",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "450",
+        "fotos": [
+          "https://tcgplayer-cdn.tcgplayer.com/product/704155_in_600x600.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra 30 años de Pokémon con esta caja coleccionista que trae a Sylveon ex en versión foil y oversized. Incluye 4 sobres de la expansión especial 30th Celebration para expandir tu colección con cartas de edición limitada."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: Caja oficial de Pokémon TCG"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: 30th Celebration"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas: Foil promo Sylveon ex + oversized foil Sylveon ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta foil promo Sylveon ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta foil oversized Sylveon ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 booster packs 30th Celebration"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "pokemon-tcg-30th-celebration-poster-collection-ing-mwcfhnc4",
         "n": "Pokémon TCG: 30th Celebration Poster Collection (INGLES)",
         "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11453_10-10467-109_01.jpg",
