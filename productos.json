@@ -89875,6 +89875,70 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "sylveon-ex-30th-celebration-box-espa-ol-mwcfwfxz",
+        "n": "Sylveon ex 30th Celebration Box (ESPAÑOL)",
+        "i": "https://cdnx.jumpseller.com/tcg-chile/image/80177290/resize/1200/1200?1787154410",
+        "franquicia": "Otros",
+        "marca": "The Pokémon Company",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "400",
+        "fotos": [
+          "https://cdnx.jumpseller.com/tcg-chile/image/80177290/resize/1200/1200?1787154410"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra los 30 años de Pokémon con esta caja especial de Sylveon ex que incluye una carta promo holográfica en versión estándar y jumbo. Perfecta para coleccionistas que buscan expandir su colección con exclusivas de edición aniversario y cartas de juego competitivo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carta Promo Sylveon ex PS 270"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Caja de colección sellada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye sobres de expansión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Recomendado a partir de 6 años"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carta Promo Sylveon ex Holográfica (versión estándar)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carta Promo Sylveon ex Holográfica (versión jumbo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 sobres de expansión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carta de promoción adicional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guía de referencia"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "30th-celebration-sylveon-ex-box-ingles-mwcfngj9",
         "n": "30th Celebration Sylveon ex Box (INGLES)",
         "i": "https://tcgplayer-cdn.tcgplayer.com/product/704155_in_600x600.jpg",
