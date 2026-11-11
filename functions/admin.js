@@ -24,6 +24,8 @@ button:hover{background:#6d20f0}
 <div class="card">
   <h1>UV Store GT</h1>
   <p class="sub">Admin &middot; Ingresa tu contrasena</p>
+  <script>/* Figura mandada con el favorito "Enviar a UV Store": el # se pierde al enviar la contraseña */
+    if(location.hash.indexOf('#importar=')===0)sessionStorage.setItem('uv_importar',location.hash.slice(10));</script>
   <form method="POST" action="/admin">
     <input type="password" name="password" placeholder="Contrasena" autofocus required>
     <button type="submit">Entrar</button>

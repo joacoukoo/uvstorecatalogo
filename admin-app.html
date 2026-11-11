@@ -139,6 +139,11 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);fon
     <input type="url" id="add-url" placeholder="https://www.sideshow.com/..." autocomplete="off">
     <button class="btn btn-secondary" onclick="scrapeUrl()">Scrapear</button>
   </div>
+  <div style="font-size:12px;color:#888;margin:-4px 0 14px">
+    ¿La tienda bloquea el scrapeo (ej. Pokémon Center)? Arrastrá este botón a la barra de favoritos:
+    <a id="bookmarklet" href="#" onclick="event.preventDefault();alert('Arrastralo a la barra de favoritos. Después, con la figura abierta en la tienda, tocá el favorito.')"
+       style="display:inline-block;margin-left:6px;padding:3px 10px;border-radius:6px;background:#7b2fff;color:#fff;text-decoration:none;font-weight:600;cursor:grab">Enviar a UV Store</a>
+  </div>
   <div id="add-form" style="display:none">
     <div class="section-title">Basico</div>
     <div class="field-row">
@@ -714,11 +719,61 @@ function resetAddForm(){
 
 function mensajeScrape(d){return d.ai_ok?'Listo — revisa y ajusta':'Datos cargados, pero la IA falló: '+(d.ai_error||'motivo desconocido')+' — después usá Regenerar descripción';}
 
-async function scrapeUrl(){
+// Favorito "Enviar a UV Store": corre en la página de la tienda que el dueño tiene abierta (tiendas
+// que bloquean al servidor, como Pokémon Center), lee la ficha ya cargada y abre el admin con esos
+// datos en el #. Sin comentarios de línea: el código termina en un link javascript:.
+function _enviarAUVStore(){
+  var ld=[];
+  document.querySelectorAll('script[type="application/ld+json"]').forEach(function(s){
+    try{var j=JSON.parse(s.textContent);[].concat(j['@graph']||j).forEach(function(x){ld.push(x);});}catch(e){}
+  });
+  var p=ld.filter(function(x){return x&&[].concat(x['@type']).indexOf('Product')>=0;})[0]||{};
+  var meta=function(n){var m=document.querySelector('meta[property="'+n+'"],meta[name="'+n+'"]');return m?m.content:'';};
+  var fotos=[];
+  var agregar=function(u){if(u&&typeof u==='object')u=u.contentUrl||u.url;if(typeof u!=='string')return;
+    try{u=new URL(u,location.href).href;}catch(e){return;}if(/^https:/.test(u)&&fotos.indexOf(u)<0)fotos.push(u);};
+  [].concat(p.image||[]).forEach(agregar);
+  agregar(meta('og:image'));
+  /* Galería: las imágenes grandes que se ven en la página */
+  [].slice.call(document.images).filter(function(i){return i.naturalWidth>=450&&i.naturalHeight>=450;})
+    .forEach(function(i){agregar(i.currentSrc||i.src);});
+  var oferta=[].concat(p.offers||[])[0]||{};
+  var marca=p.brand&&(p.brand.name||p.brand);
+  var zona=document.querySelector('main')||document.body;
+  var d={url:location.href.split('#')[0],name:p.name||meta('og:title')||document.title,
+    desc:p.description||meta('og:description')||meta('description')||'',
+    marca:typeof marca==='string'?marca:'',price:String(oferta.price||meta('product:price:amount')||''),
+    photos:fotos.slice(0,10),texto:(zona.innerText||'').slice(0,6000)};
+  window.open('https://uvstore.shop/admin#importar='+encodeURIComponent(JSON.stringify(d)),'_blank');
+}
+(function(){
+  var a=document.getElementById('bookmarklet');
+  if(a)a.href='javascript:'+encodeURIComponent('('+_enviarAUVStore.toString()+')()');
+})();
+
+// Lo que mandó el favorito: viene en el # de la URL, o guardado por la pantalla de login si había
+// que entrar primero (el # se pierde al enviar la contraseña).
+function _datosDelNavegador(){
+  var h=location.hash.indexOf('#importar=')===0?location.hash.slice(10):sessionStorage.getItem('uv_importar');
+  sessionStorage.removeItem('uv_importar');
+  if(location.hash)history.replaceState(null,'',location.pathname+location.search);
+  if(!h)return null;
+  try{return JSON.parse(decodeURIComponent(h));}catch(e){setStatus('No se pudieron leer los datos que mandó el navegador','red');return null;}
+}
+// En 'load': ya corrió el módulo del final (window.esTCG, aplicarVersiones) que usa fillAddForm.
+window.addEventListener('load',function(){
+  var datos=_datosDelNavegador();
+  if(!datos)return;
+  showTab('add');setField('add-url',datos.url||'');
+  scrapeUrl(datos);
+});
+
+async function scrapeUrl(datosNavegador){
   var url=getField('add-url');if(!url)return;
-  setStatus('Scrapeando y generando descripción...','orange');
+  setStatus(datosNavegador?'Generando la descripción de la figura que mandó el navegador...':'Scrapeando y generando descripción...','orange');
   try{
-    var res=await fetch('/api/scrape',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url:url})});
+    var body=datosNavegador?{url:url,datos:datosNavegador}:{url:url};
+    var res=await fetch('/api/scrape',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
     var data=await res.json();
     if(!res.ok)throw new Error(data.error);
     await cargarMarcas();

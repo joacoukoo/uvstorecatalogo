@@ -109,8 +109,12 @@ export async function onRequestPost({ env, request }) {
   try {
     let result = null;
 
+    // ── Datos leídos por el navegador (botón "Enviar a UV Store") ─────────
+    // Para tiendas que bloquean al servidor (Pokémon Center): la página ya la abrió el dueño.
+    if (body.datos) result = desdeNavegador(body.datos);
+
     // ── Nonasea: ficha JSON de su API ─────────────────────────────────────
-    if (/nonasea\.com\/api\/customer\/shop\/product\/\d+/.test(url)) {
+    if (!result && /nonasea\.com\/api\/customer\/shop\/product\/\d+/.test(url)) {
       result = scrapeNonasea((await (await fetch(url, { headers: { 'server-code': 'nonasea' } })).json()).data);
     }
 
@@ -173,7 +177,7 @@ export async function onRequestPost({ env, request }) {
         marca:      result.marca      || '',
         escala:     result.escala     || '',
         franquicia: result.franquicia || '',
-        desc_raw:   result.desc       || '',
+        desc_raw:   [result.desc, result.texto_pagina].filter(Boolean).join('\n\n'),
         foto:       result.photos?.[0] || '',
         opciones:   opcionesReales(result.opciones),
       }, causa => { result.ai_error = causa; }),
@@ -202,6 +206,7 @@ export async function onRequestPost({ env, request }) {
       if (aiDeluxe) result.desc_d = aiDeluxe.desc;
     }
 
+    delete result.texto_pagina;
     return json(result);
 
   } catch (e) {
@@ -239,6 +244,27 @@ function completarParaCatalogo(result, ai, url) {
     const fotos = op.fotos?.[i]?.length ? op.fotos[i] : undefined;
     return { label, ...(detalle ? { detalle } : {}), ...(esEscala ? { escala: v.replace('/', ':') } : {}), ...(fotos ? { fotos } : {}) };
   });
+}
+
+// Lo que mandó el botón del navegador: se limita a texto y fotos https (no se confía en la forma).
+// `texto_pagina` es el texto visible de la ficha: solo le da contexto a la IA, no va al catálogo.
+const texto = (v, max) => (typeof v === 'string' ? v : '').replace(/\s+\n/g, '\n').trim().slice(0, max);
+export function desdeNavegador(d) {
+  const name = texto(d?.name, 300);
+  if (!name) throw new Error('El navegador no mandó el nombre de la figura');
+  const photos = [...new Set((Array.isArray(d.photos) ? d.photos : [])
+    .filter(u => typeof u === 'string' && /^https:\/\/\S+$/.test(u) && u.length < 2000))].slice(0, MAX_FOTOS);
+  return {
+    name,
+    desc: texto(d.desc, 4000),
+    texto_pagina: texto(d.texto, 6000),
+    photos,
+    price: texto(String(d.price ?? ''), 30),
+    marca: texto(d.marca, 100),
+    escala: guessEscalaProxy(name),
+    franquicia: guessFranquiciaProxy(name),
+    provider: 'navegador',
+  };
 }
 
 // Ficha de la API de Nonasea. Título tipo "MARCA X Licenciante - Obra - Personaje 1/6 Statue".
