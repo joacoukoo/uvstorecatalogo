@@ -71,6 +71,9 @@ export async function onRequestGet(context) {
     if (d === "solo bajo pedido") return "https://schema.org/BackOrder";
     return "https://schema.org/OutOfStock";
   };
+  // Misma regla que _esAgotado de la web (index_template.html): agotada no se ofrece como en stock
+  const esAgotado = p => /^vendido$/i.test(p.estado || "") || /^vendido$/i.test(p.disp || "") || !!p.agotado ||
+    !!(p.precio_d && p.agotado_r && p.agotado_d);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -82,7 +85,7 @@ export async function onRequestGet(context) {
       "@type": "Offer",
       "priceCurrency": "GTQ",
       ...(product.precio ? { "price": parseFloat(product.precio) } : {}),
-      "availability": getAvailability(product.disp),
+      "availability": esAgotado(product) ? "https://schema.org/OutOfStock" : getAvailability(product.disp),
       "seller": { "@type": "Organization", "name": siteName }
     }
   };
