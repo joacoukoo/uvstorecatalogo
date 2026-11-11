@@ -16,6 +16,25 @@ describe('clavesDeFotos', () => {
     expect(clavesDeFotos(['https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iSPx1777215950164.jpg?x-oss-process=image']))
       .toEqual(['nonasea-img:iSPx1777215950164.jpg']);
   });
+  it('Sideshow usa el número de artículo, y la Deluxe cuenta también como la base', () => {
+    expect(clavesDeFotos(['https://www.sideshow.com/cdn-cgi/image/height=350,quality=75,f=auto/https://www.sideshow.com/storage/product-images/914623/x-silo_sm.png']))
+      .toEqual(['sideshow-img:914623']);
+    expect(clavesDeFotos(['https://www.sideshow.com/storage/product-images/9138082/batman-deluxe.jpg']))
+      .toEqual(['sideshow-img:9138082', 'sideshow-img:913808']);
+  });
+});
+
+describe('Sideshow ya cargada', () => {
+  const catalogo = { 'Estatuas Premium': { products: [{ id: 'g1', n: 'Godzilla 2024 Evolved Form', marca: 'Star Ace',
+    i: 'https://www.sideshow.com/storage/product-images/914623/star-ace-gallery.jpg' }] } };
+  it('la reconoce por la foto aunque el nombre sea distinto', () => {
+    const [r] = marcarDuplicados([{ clave: 'sideshow:914623', nombre: 'Godzilla (2024) Evolved Form Deluxe',
+      foto: 'https://www.sideshow.com/cdn-cgi/image/height=350/https://www.sideshow.com/storage/product-images/914623/silo_sm.png' }], catalogo, []);
+    expect(r.estado).toBe('tenes');
+  });
+  it('y por el link de origen', () => {
+    expect(claveDeOrigen('https://www.sideshow.com/collectibles/godzilla-desghidora-x-plus-915651')).toBe('sideshow:915651');
+  });
 });
 
 describe('claveDeOrigen', () => {
@@ -237,5 +256,15 @@ describe('aplicarRevision', () => {
   });
   it('un id que no estaba entre las sospechosas no cuenta', () => {
     expect(aplicarRevision(base, { id: 'inventado' }).estado).toBe('nueva');
+  });
+});
+
+describe('Sideshow con fabricante en el nombre', () => {
+  it('la misma figura subida desde otra tienda queda como "¿ya la tenés?"', () => {
+    const catalogo = { 'Estatuas Premium': { products: [{ id: 'kg', n: 'King Ghidorah Soft-Vinyl Statue', marca: 'Acro',
+      i: 'https://cdn.shopify.com/s/files/1/0216/7762/files/MAIN-KING-GHIDORAH.jpg' }] } };
+    const [r] = marcarDuplicados([{ clave: 'sideshow:916223', nombre: 'King Ghidorah by Acro', foto: '' }], catalogo, []);
+    expect(r.estado).toBe('quizas');
+    expect(r.coincide).toBe('King Ghidorah Soft-Vinyl Statue');
   });
 });

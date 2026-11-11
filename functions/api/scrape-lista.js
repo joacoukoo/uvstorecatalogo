@@ -1,5 +1,5 @@
-import { detectarLista, leerListaBigCommerce, leerListaNonasea, leerListaShopify } from '../_lib/listas.js';
-import { fetchPage } from '../_lib/fetchPage.js';
+import { detectarLista, leerListaBigCommerce, leerListaNonasea, leerListaShopify, consultaSideshow, leerListaSideshow, FILTRO_SIDESHOW } from '../_lib/listas.js';
+import { fetchPage, FETCH_HEADERS } from '../_lib/fetchPage.js';
 
 // POST {url, pagina?} → {items, siguiente}. Solo la lista liviana (sin IA ni fichas):
 // el admin después pide /api/scrape por cada figura elegida.
@@ -24,6 +24,18 @@ export async function onRequestPost({ request }) {
       const html = await (await fetchPage(u.toString())).text();
       const { items, siguiente } = leerListaBigCommerce(html, u.toString());
       return json({ items, siguiente: siguiente ? pagina + 1 : null });
+    }
+
+    if (tipo.tipo === 'sideshow') {
+      const consulta = consultaSideshow(await (await fetchPage(url)).text(), url);
+      if (!consulta) return json({ error: 'No encontré una lista de figuras en esa página de Sideshow' }, 422);
+      const qs = new URLSearchParams({ ...consulta, page: String(pagina), per_page: String(POR_PAGINA), efq: FILTRO_SIDESHOW });
+      const res = await fetch('https://www.sideshow.com/ajax/bloomreach-search?' + qs, {
+        headers: { 'User-Agent': FETCH_HEADERS['User-Agent'], 'Accept': 'application/json', 'X-Requested-With': 'XMLHttpRequest', 'Referer': url },
+      });
+      if (!res.ok) throw new Error(`Sideshow respondió ${res.status}`);
+      const { items, total } = leerListaSideshow(await res.json());
+      return json({ items, siguiente: pagina * POR_PAGINA < total ? pagina + 1 : null });
     }
 
     if (tipo.tipo === 'nonasea') {

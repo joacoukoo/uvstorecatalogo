@@ -11,6 +11,10 @@ export function clavesDeFotos(urls) {
     const s = String(u || '');
     let m = s.match(/cdn\d*\.bigcommerce\.com\/s-5s1ah0hhi7\/.*?\/products\/(\d+)\//);
     if (m) { out.push('fnc-img:' + m[1]); continue; }
+    // Sideshow: la carpeta es el número de artículo. La Deluxe usa el mismo número con un dígito más
+    // (913808 → 9138082), así que también cuenta como la figura base.
+    m = s.match(/sideshow\.com\/storage\/product-images\/(\d{6,})\//);
+    if (m) { out.push('sideshow-img:' + m[1]); if (m[1].length > 6) out.push('sideshow-img:' + m[1].slice(0, 6)); continue; }
     const archivo = (s.split('?')[0].split('/').pop() || '').replace(/_\d+x\d*(?:@\d+x)?(\.\w+)$/, '$1');
     if (/cdn\.shopify\.com\//.test(s) && archivo) out.push('shopify-img:' + archivo);
     else if (/hexapus.*aliyuncs\.com\/upload-assets\//.test(s) && archivo) out.push('nonasea-img:' + archivo);
@@ -24,6 +28,8 @@ export function claveDeOrigen(url) {
   try { u = new URL(url); } catch { return ''; }
   const host = u.hostname.replace(/^www\./, '');
   if (host === 'fanaticanimestore.com') return 'fnc:' + u.pathname.replace(/^\/|\/$/g, '');
+  const ss = u.pathname.match(/-(\d{6,})\/?$/);
+  if (host === 'sideshow.com' && ss) return 'sideshow:' + ss[1];
   const nona = u.pathname.match(/\/api\/customer\/shop\/product\/(\d+)/);
   if (host === 'nonasea.com' && nona) return 'nonasea:' + nona[1];
   const prod = u.pathname.match(/\/products\/([^/?#]+)/);

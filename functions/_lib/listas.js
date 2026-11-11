@@ -13,6 +13,7 @@ export function detectarLista(url) {
   try { u = new URL(url); } catch { return null; }
   const host = u.hostname.replace(/^www\./, '');
   if (host === 'fanaticanimestore.com') return { tipo: 'bigcommerce' };
+  if (host === 'sideshow.com') return { tipo: 'sideshow' };
   if (host === 'nonasea.com') {
     const m = u.pathname.match(/^\/mall\/([^/?#]+)/);
     return m ? { tipo: 'nonasea', codigo: decodeURIComponent(m[1]) } : null;
@@ -48,6 +49,56 @@ export function leerListaNonasea(json) {
     foto: (Array.isArray(p.img) ? p.img[0] : p.img) || '',
   }));
   return { items, total: json?.data?.total || 0 };
+}
+
+// Sideshow arma sus grillas (marca, franquicia, búsqueda) en el navegador con Bloomreach: la página
+// trae `new BloomreachSearchGrid('#...', { q : 'brand_138', search_type : 'category', ... })` y los
+// productos salen de /ajax/bloomreach-search. Devuelve {q, search_type} para pedir esa lista.
+export function consultaSideshow(html, url) {
+  const m = String(html || '').match(/new BloomreachSearchGrid\(\s*'[^']*'\s*,\s*\{([\s\S]*?)\}\s*\)/);
+  if (!m) return null;
+  const q = (m[1].match(/\bq\s*:\s*'([^']*)'/) || [])[1];
+  const tipo = (m[1].match(/\bsearch_type\s*:\s*'([^']*)'/) || [])[1] || 'category';
+  if (!q) return null;
+  if (q !== '*') return { q, search_type: tipo };
+  // Búsqueda por palabra (/search?q=godzilla): la palabra viene en la URL de la página.
+  const palabra = new URL(url).searchParams.get('q') || new URL(url).searchParams.get('keywords');
+  return palabra ? { q: palabra, search_type: 'keyword' } : { q: 'brg_dyn_nwf9is3a73', search_type: 'category' };
+}
+
+// Solo lo que se puede vender: en stock y pre-orden (no lista de espera ni agotadas).
+export const FILTRO_SIDESHOW = 'sc_combined_facet:("Pre-Order" OR "Available Now")';
+
+// El link es franquicia-título-fabricante-número ("godzilla-king-ghidorah-acro-916223"): lo que
+// sigue al título es el fabricante. '' si el título no aparece tal cual en el link.
+export function fabricanteSideshow(url, titulo) {
+  const slug = (String(url).split('/').pop() || '').replace(/-\d{6,}$/, '');
+  const t = String(titulo).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const i = t ? slug.lastIndexOf(t) : -1;
+  if (i < 0) return '';
+  return slug.slice(i + t.length).replace(/^-/, '').split('-').filter(Boolean)
+    .map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
+}
+
+export function leerListaSideshow(json) {
+  const docs = json?.response?.docs || [];
+  const vistos = new Set();
+  const items = [];
+  for (const d of docs) {
+    // Regular y Deluxe pueden venir como dos filas del mismo artículo (?var=916289 / ?var=9162892):
+    // es una sola figura, el scrape del link base ya trae la Deluxe.
+    const sku = String(d.sc_parent_sku || d.pid || d.sc_sku || '');
+    if (!sku || vistos.has(sku)) continue;
+    vistos.add(sku);
+    const origen = String(d.url || '').split('?')[0];
+    const nombre = decodeHtml(d.title);
+    const fabricante = fabricanteSideshow(origen, nombre);
+    // "King Ghidorah by Acro", como Sideshow nombra sus figuras: sin el fabricante no se puede
+    // reconocer la misma figura subida desde otra tienda (ver marcarDuplicados en lote-import.js).
+    items.push({ origen, clave: 'sideshow:' + sku, nombre: fabricante ? `${nombre} by ${fabricante}` : nombre, foto: d.thumb_image || '' });
+  }
+  return { items, total: json?.response?.numFound || 0 };
 }
 
 export function leerListaShopify(json, origin) {

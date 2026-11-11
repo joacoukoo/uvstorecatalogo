@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, afterEach } from 'vitest';
 import { readFileSync } from 'fs';
-import { detectarLista, leerListaBigCommerce, leerListaNonasea, leerListaShopify } from '../functions/_lib/listas.js';
+import { detectarLista, leerListaBigCommerce, leerListaNonasea, leerListaShopify, consultaSideshow, leerListaSideshow, fabricanteSideshow } from '../functions/_lib/listas.js';
 import { onRequestPost } from '../functions/api/scrape-lista.js';
 
 const fx = f => readFileSync(new URL('./fixtures/' + f, import.meta.url), 'utf-8');
@@ -21,7 +21,7 @@ describe('detectarLista', () => {
       .toMatchObject({ tipo: 'shopify', coleccion: 'all', origin: 'https://statuecorp.com' });
   });
   it('devuelve null para sitios no soportados', () => {
-    expect(detectarLista('https://www.sideshow.com/collectibles')).toBeNull();
+    expect(detectarLista('https://www.bigbadtoystore.com/Search')).toBeNull();
   });
 });
 
@@ -61,7 +61,7 @@ describe('leerListaShopify', () => {
 describe('POST /api/scrape-lista', () => {
   const req = body => ({ request: new Request('https://x/api/scrape-lista', { method: 'POST', body: JSON.stringify(body) }), env: {} });
   it('rechaza sitios no soportados con el mensaje para el admin', async () => {
-    const res = await onRequestPost(req({ url: 'https://www.sideshow.com/collectibles' }));
+    const res = await onRequestPost(req({ url: 'https://www.bigbadtoystore.com/Search' }));
     expect(res.status).toBe(400);
     expect((await res.json()).error).toBe('Este sitio no está soportado para lote; usá el link individual');
   });
@@ -92,5 +92,64 @@ describe('POST /api/scrape-lista', () => {
     vi.stubGlobal('fetch', f);
     await onRequestPost(req({ url: 'https://www.nonasea.com/mall/NEWPRODUCTS?ordering=-sales' }));
     expect(f.mock.calls[1][0]).toContain('ordering=-sales');
+  });
+});
+
+describe('Sideshow', () => {
+  const req = body => ({ request: new Request('https://x/api/scrape-lista', { method: 'POST', body: JSON.stringify(body) }), env: {} });
+  const GODZILLA = 'https://www.sideshow.com/brands/godzilla';
+  const html = `<script>document.br_search_grid = new BloomreachSearchGrid('#br-search-container', { q : 'brand_138', page : 1, search_type : 'category', list_name :  "Godzilla (brand)" });</script>`;
+  const doc = (pid, url, extra = {}) => ({ pid, sc_sku: pid, title: 'Godzilla vs. Shinsei-maru', url,
+    thumb_image: `https://www.sideshow.com/cdn-cgi/image/height=350/https://www.sideshow.com/storage/product-images/${pid}/x-silo_sm.png`, ...extra });
+
+  it('detecta sideshow.com', () => {
+    expect(detectarLista(GODZILLA)).toEqual({ tipo: 'sideshow' });
+  });
+
+  it('saca la consulta de Bloomreach de la página', () => {
+    expect(consultaSideshow(html, GODZILLA)).toEqual({ q: 'brand_138', search_type: 'category' });
+  });
+
+  it('en una búsqueda usa la palabra de la URL', () => {
+    const busq = `new BloomreachSearchGrid('#br-search-container', {\n q : '*', page : 1, search_type : 'keyword' })`;
+    expect(consultaSideshow(busq, 'https://www.sideshow.com/search?q=godzilla')).toEqual({ q: 'godzilla', search_type: 'keyword' });
+  });
+
+  it('sin grilla devuelve null', () => {
+    expect(consultaSideshow('<html></html>', GODZILLA)).toBeNull();
+  });
+
+  it('Regular y Deluxe del mismo artículo son una sola figura, con el link sin ?var', () => {
+    const base = 'https://www.sideshow.com/collectibles/godzilla-godzilla-vs-shinsei-maru-prime-1-studio-916289';
+    const { items, total } = leerListaSideshow({ response: { numFound: 2, docs: [
+      doc('916289', base + '?var=916289', { sc_parent_sku: '916289' }),
+      doc('9162892', base + '?var=9162892', { sc_parent_sku: '916289' }),
+    ] } });
+    expect(total).toBe(2);
+    expect(items).toHaveLength(1);
+    expect(items[0]).toMatchObject({ origen: base, clave: 'sideshow:916289', nombre: 'Godzilla vs. Shinsei-maru by Prime 1 Studio' });
+  });
+
+  it('pide solo disponibles y pre-orden, y pagina por el total', async () => {
+    const f = vi.fn()
+      .mockResolvedValueOnce(new Response(html, { status: 200 }))
+      .mockResolvedValueOnce(new Response(JSON.stringify({ response: { numFound: 35, docs: [doc('916285', 'https://www.sideshow.com/collectibles/godzilla-godzilla-2001-acro-916285')] } })));
+    vi.stubGlobal('fetch', f);
+    const r = await (await onRequestPost(req({ url: GODZILLA }))).json();
+    const pedida = decodeURIComponent(f.mock.calls[1][0]).replace(/\+/g, ' ');
+    expect(pedida).toContain('q=brand_138');
+    expect(pedida).toContain('sc_combined_facet:("Pre-Order" OR "Available Now")');
+    expect(r.items[0].clave).toBe('sideshow:916285');
+    expect(r.siguiente).toBe(2);
+  });
+});
+
+describe('fabricanteSideshow', () => {
+  it('saca el fabricante que sigue al título en el link', () => {
+    expect(fabricanteSideshow('https://www.sideshow.com/collectibles/godzilla-king-ghidorah-acro-916223', 'King Ghidorah')).toBe('Acro');
+    expect(fabricanteSideshow('https://www.sideshow.com/collectibles/godzilla-godzilla-2026-spiral-studio-916291', 'Godzilla (2026)')).toBe('Spiral Studio');
+  });
+  it('vacío si el título no está en el link', () => {
+    expect(fabricanteSideshow('https://www.sideshow.com/collectibles/godzilla-otra-cosa-x-plus-916000', 'King Ghidorah')).toBe('');
   });
 });
