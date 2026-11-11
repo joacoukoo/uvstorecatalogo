@@ -40170,6 +40170,735 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "godzilla-2024-evolved-deluxe-statue-mwcdxvuj",
+        "n": "Godzilla (2024) Evolved Deluxe Statue",
+        "i": "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf2e006c.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf2e006c.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-scale-685acbf7d5a3b.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf34acaf.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf3a9dec.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf423197.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf4863a3.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf50b52a.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf561bed.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf5b54bc.jpg",
+          "https://www.sideshow.com/storage/product-images/914623/star-ace-toys-ltd-godzilla-godzilla-2024-evolved-form-deluxe-statue-gallery-685acbf6164a3.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Star Ace",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4400",
+        "reserva": "880",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la majestosa presencia del Rey de los Monstruos en su forma evolved del 2024. Esta estatua deluxe de Star Ace Toys exhibe un nivel de detalle extraordinario con texturas realistas, espinas dorsales de color rojo ardiente y un corpulento diseño que transmite poder destructivo. Una pieza imprescindible para coleccionistas que demandan calidad cinematográfica en sus displays."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintado a mano con detalles intrincados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base incluida: Sí"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Documentación de autenticidad"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2024-evolved-form-deluxe-star-ace-toys-ltd-914623"
+      },
+      {
+        "id": "godzilla-series-1-glass-holiday-ornaments-mwcdxvuk",
+        "n": "Godzilla Series 1 Glass Holiday Ornaments",
+        "i": "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc864120.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc864120.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc8b5e4e.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc91bba4.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc972471.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc9c960e.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-silo.png",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc864120_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc8b5e4e_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc91bba4_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915565/paragon-fx-group-godzilla-godzilla-series-1-ornament-gallery-69e14dc972471_sm.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Paragon FX Group",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1120",
+        "reserva": "224",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Conjunto de adornos navideños de vidrio coleccionable que capturan la esencia icónica de Godzilla en elegantes formas plateadas. Perfectos para coleccionistas que desean traer el espíritu del Rey de los Monstruos a sus celebraciones festivas. Parte de la Serie 1, este lanzamiento premium combina artesanía de vidrio de calidad con el legado legendario de la franquicia."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vidrio soplado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Plateado espejado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye múltiples piezas para decoración"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de Godzilla en vidrio"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ornamento secundario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos adicionales"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-series-1-paragon-fx-group-915565"
+      },
+      {
+        "id": "the-art-of-godzilla-x-kong-the-new-empire-book-mwcdxvuk",
+        "n": "The Art of Godzilla x Kong: The New Empire Book",
+        "i": "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa0f2c06.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa0f2c06.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa13239e.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa186211.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa1d9aa5.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa240b5b.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-silo.png",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa0f2c06_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa13239e_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa186211_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915197/insight-editions-godzilla-the-art-of-godzilla-x-kong-the-new-empire-book-gallery-694acaa1d9aa5_sm.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Insight Editions",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1850",
+        "reserva": "370",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una colección de arte premium que celebra la épica batalla entre Godzilla y Kong en su nuevo imperio. Este libro de edición limitada reúne ilustraciones, diseños conceptuales y contenido exclusivo de la película, perfecto para fans del género kaiju. Un tesoro imprescindible para coleccionistas que desean sumergirse en los detalles artísticos de este enfrentamiento monumental."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones: 11.75 x 9.3 pulgadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Encuadernación: Tapa dura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: Edición limitada con accesorios premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Libro de tapa dura (11.75 x 9.3)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estuche de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Láminas de arte"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tarjeta de firma numerada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-vs-kong-the-art-of-godzilla-x-kong-the-new-empire-insight-editions-915197"
+      },
+      {
+        "id": "king-ghidorah-vinyl-collectible-mwcdxvuk",
+        "n": "King Ghidorah Vinyl Collectible",
+        "i": "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad25410a53ed.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad25410a53ed.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-scale-6ad2539f27fdc.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad25410d3ccf.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad2541138ade.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad25411c289d.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad254119056d.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad2541226975.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad254129a302.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad25413195aa.jpg",
+          "https://www.sideshow.com/storage/product-images/916223/acro-godzilla-king-ghidorah-vinyl-collectible-gallery-6ad254138c613.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Acro",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4400",
+        "reserva": "880",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La legendaria criatura de tres cabezas cobra vida en esta impresionante figura de colección. Con sus icónicas alas membranosas y efectos de energía eléctrica amarillenta, cada detalle captura la majestuosidad del rey de los monstruos. Una pieza imprescindible para los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinilo coleccionable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características: Efectos de luz LED integrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal de King Ghidorah"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de energía eléctrica"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-king-ghidorah-acro-916223",
+        "entrega": "Jul. 2027"
+      },
+      {
+        "id": "godzilla-2026-bust-mwcdxvuk",
+        "n": "Godzilla (2026) Bust",
+        "i": "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c438d690.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c438d690.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-scale-6af24c48739a1.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c43bac09.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c4416289.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c4463d33.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c44b268c.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c4510f7c.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c4569b53.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c45c2ce4.jpg",
+          "https://www.sideshow.com/storage/product-images/916296/megahouse-godzilla-godzilla-2026-set-bust-gallery-6af24c46201ce.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "MegaHouse",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "reserva": "290",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la ferocidad del Rey de los Monstruos con este espectacular busto de Godzilla (2026). Cada detalle de su piel rugosa, sus terroríficas fauces y su expresión amenazante ha sido meticulosamente esculpido. Una pieza imprescindible para los aficionados a la legendaria criatura."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Presentación: Busto con base decorativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con placa identificativa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Busto articulado de Godzilla"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2026-set-megahouse-916296",
+        "entrega": "Jul. 2027"
+      },
+      {
+        "id": "burning-godzilla-2019-collectible-figure-mwcdxvuk",
+        "n": "Burning Godzilla (2019) Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd06ea777.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd06ea777.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-scale-6a96fd0b39ecc.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd075f45e.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a9722bfa8575.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a9722c02239a.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd07b4daf.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd0940431.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd081b88f.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd087e1fb.jpg",
+          "https://www.sideshow.com/storage/product-images/916062/spiral-studio-godzilla-burning-godzilla-2019-collectible-figure-gallery-6a96fd068fa05.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Spiral Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8800",
+        "reserva": "1760",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una representación espectacular de Godzilla en su forma radiactiva más destructiva, con detalles incandescentes que capturan la esencia del Titán en llamas. Esta figura premium destaca por su acabado luminoso en tonos naranja y rojo que simula el calor nuclear emanando de su cuerpo. Una pieza imprescindible para coleccionistas que buscan la máxima calidad y autenticidad del Monsterverse."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: Aproximadamente 30-35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 (tamaño de exhibición)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y pintura artesanal de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Detalles luminiscentes y texturado en relieve"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Burning Godzilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-burning-godzilla-2019-spiral-studio-916062",
+        "entrega": "Jun. 2027"
+      },
+      {
+        "id": "godzilla-1991-hokkaido-version-statue-mwcdxvul",
+        "n": "Godzilla (1991) Hokkaido Version Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a4579258ddd3.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a4579258ddd3.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-scale-6a457926e9b84.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a457925c6080.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a45792608a26.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a4579263f4f6.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a4579267865d.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a457926b1363.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-gallery-6a4579258ddd3_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/915856/x-plus-godzilla-godzilla-1991-hokkaido-version-collectible-figure-scale-6a457926e9b84_sm.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "reserva": "740",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable de Godzilla en su versión Hokkaido de 1991, parte de la serie Sakai Yuji modeling collection de 30cm. Esculpida y pintada a mano con un nivel de detalle excepcional, capturando la icónica postura agresiva del Rey de los Monstruos. Pieza imprescindible para cualquier aficionado a la franquicia clásica de Toho."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura artesanal de Yuji Sakai"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Godzilla (1991)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-1991-hokkaido-version-x-plus-915856",
+        "entrega": "Nov. 2026"
+      },
+      {
+        "id": "destoroyah-perfect-form-statue-mwcdxvul",
+        "n": "Destoroyah Perfect Form Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e740901d8.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e740901d8.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-scale-6a21e74575bef.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e740ee0d5.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e7414a1f3.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e741983dd.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e741e6e4c.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e742458a8.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e7429d914.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e7430cf2f.jpg",
+          "https://www.sideshow.com/storage/product-images/915743/megahouse-godzilla-destoroyah-perfect-form-statue-gallery-6a21e743674f5.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "MegaHouse",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "reserva": "1080",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La forma perfecta de Destoroyah cobra vida en esta impresionante estatua que captura toda la ferocidad y majestuosidad de este icónico kaiju. Con alas desplegadas en tonos rosa neón y detalles escultóricos de nivel museo, esta pieza es un tributo definitivo a uno de los monstruos más memorables del cine. Domina tu colección con este titán de resina perfectamente articulado y pintado a mano."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pintura: Acabado artesanal detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas: Desplegadas en rosa neón translúcido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Destoroyah Perfect Form"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-destoroyah-perfect-form-megahouse-915743",
+        "entrega": "Feb. 2027"
+      },
+      {
+        "id": "godzilla-vs-shinsei-maru-diorama-mwcdxvul",
+        "n": "Godzilla vs. Shinsei-maru Diorama",
+        "i": "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa101228.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa101228.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-scale-6aee31f51c3b7.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa15ade7.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa19ac50.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa1e0d63.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa226b7b.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa25ff58.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa295e58.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa2cc784.jpg",
+          "https://www.sideshow.com/storage/product-images/916289/prime-1-studio-godzilla-godzilla-vs-shinsei-maru-diorama-gallery-6aee0fa30e54e.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Prime 1 Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "30400",
+        "reserva": "6080",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Diorama épico inspirado en Godzilla Minus One que captura el enfrentamiento monumental entre la legendaria criatura y el buque Shinsei-maru. Con una escala impresionante y detalles meticulosos, esta pieza limitada es el centro de atención de cualquier colección. Un tributo magistral al clásico del cine kaiju japonés."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 49 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 98 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 54 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Limitada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática Godzilla Minus One"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa con logo del título"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-vs-shinsei-maru-prime-1-studio-916289",
+        "entrega": "Oct. 2028"
+      },
+      {
+        "id": "godzilla-2016-collectible-figure-mwcdxvul",
+        "n": "Godzilla (2016) Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba11655cf0.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba11655cf0.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-scale-6adba118ace49.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba11683288.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba116d27be.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba1172db71.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba1177badf.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba117cba92.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba11830cbb.jpg",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/916236/megahouse-godzilla-godzilla-2016-collectible-figure-gallery-6adba11655cf0_sm.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "MegaHouse",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "reserva": "500",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una representación épica del Rey de los Monstruos en su forma de 2016, capturando toda la ferocidad y el poder destructivo de Godzilla. Esta figura premium de colección recrea magistralmente los detalles de la criatura, desde su piel texturizada hasta sus distintivas púas dorsales resplandecientes. Una pieza imprescindible para fans del kaiju que deseen tener al legendario monstruo en su colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y pintura especializada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles articulados y esculpidos a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática incluida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado de museo con degradados de color"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Godzilla (2016)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2016-megahouse-916236",
+        "entrega": "May. 2027"
+      },
+      {
+        "id": "godzilla-2001-25th-anniversary-version-statue-mwcdxvum",
+        "n": "Godzilla (2001) 25th Anniversary Version Statue",
+        "i": "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f3700867f5.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f3700867f5.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f3700c0612.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f370103ec7.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f370139149.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f37016d90b.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f3701a2b94.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f3701d7d0d.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f3702204c7.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f37025339d.jpg",
+          "https://www.sideshow.com/storage/product-images/916003/x-plus-godzilla-godzilla-2001-25th-anniversary-version-collectible-figure-gallery-6a7f370285d1f.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Max Factory",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "8000",
+        "reserva": "1600",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Conmemora el 25 aniversario de Godzilla 2000 con esta espectacular estatua que captura la ferocidad del Rey de los Monstruos en su icónica forma. Cada detalle de su textura escamosa, garras afiladas y expresión amenazante ha sido meticulosamente esculpido para ofrecerte una pieza de colección de museo. Una adición imprescindible para cualquier aficionado a los kaiju clásicos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: Escala de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Godzilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa con roca"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2001-25th-anniversary-version-x-plus-916003",
+        "entrega": "Dic. 2026"
+      },
+      {
+        "id": "mothra-leo-collectible-figure-mwcdxvum",
+        "n": "Mothra Leo Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983ead3e393.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983ead3e393.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983ead72734.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983eada7233.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983eaddc246.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983eae1c2a9.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983eae4f332.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983eae8492e.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983eaeb8bb5.jpg",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/915290/x-plus-godzilla-mothra-leo-collectible-figure-gallery-6a983ead3e393_sm.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4300",
+        "reserva": "860",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Esta espectacular figura de colección captura la majestuosa belleza de Mothra Leo, la icónica larva de mariposa gigante de la franquicia Godzilla. Con un detallado trabajo en sus alas multicolores, características faciales expresivas y una base temática de tronco rústico, es una pieza imprescindible para fans de los monstruos clásicos de Toho. Un ejemplar que destaca por su calidad artesanal y presencia visual única."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Tronco de árbol esculpido"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Antenas: Piezas articuladas doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de alta calidad con detalles en relieve"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Mothra Leo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática de tronco"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-mothra-leo-x-plus-915290",
+        "entrega": "Ene. 2027"
+      },
+      {
         "id": "godzilla-2026-statue-mwb49xgx",
         "n": "Godzilla 2026 Statue",
         "i": "https://www.sideshow.com/storage/product-images/916291/spiral-studio-godzilla-godzilla-2026-collectible-figure-gallery-6aee2d9f6abd0.jpg",
@@ -68778,6 +69507,1108 @@
   "Otras Figuras": {
     "slug": "escalas-112-y-otros",
     "products": [
+      {
+        "id": "godzilla-2004-heat-ray-ver-new-gotengo-action-figu-mwcdxvuj",
+        "n": "Godzilla [2004] Heat Ray Ver. New Gotengo Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1b11a70.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1b11a70.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-scale-691cc3a59dbbc.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1b40ca6.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1b7db42.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1bbee33.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1bea2bc.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1c16d2a.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1c54731.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1c91858.jpg",
+          "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1ccfa38.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2600",
+        "reserva": "520",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta el poder destructivo de Godzilla con esta espectacular figura que captura el icónico ataque de rayo de calor. Incluye la nave New Gotengo y efectos de fuego dinámicos que recrean uno de los momentos más épicos de la película. Una pieza imprescindible para los coleccionistas más exigentes del King of the Monsters."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Godzilla [2004]"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye vehículo New Gotengo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de efecto de Burning G-Spark Heat Ray intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo principal de Godzilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "New Gotengo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base para New Gotengo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de efecto Burning G-Spark Heat Ray"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base para piezas de efecto"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2004-heat-ray-ver-new-gotengo-tamashii-nations-915094"
+      },
+      {
+        "id": "godzilla-2016-second-form-third-form-giant-unident-mwcdxvuj",
+        "n": "Godzilla [2016] Second Form, Third Form & Giant Unidentified Creature Set Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-698382279b9ee.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-698382279b9ee.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-69838227cbdbe.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-6983822806252.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-6983822825102.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-6983822850630.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-698382287dbef.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-69838228a2de9.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-69838228c7f0f.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-69838228ee9f4.jpg",
+          "https://www.sideshow.com/storage/product-images/915326/tamashii-nations-godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-action-figure-gallery-6983822921105.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2300",
+        "reserva": "460",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Set completo que captura las transformaciones épicas de Godzilla en su versión 2016, incluyendo sus formas segunda y tercera junto con la misteriosa criatura gigante del filme. Figuras articuladas altamente detalladas que reproducen fielmente el diseño de Hideaki Anno con acabados en múltiples tonos y texturas realistas. Imprescindible para coleccionistas de kaiju y fans del Shin Godzilla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras articuladas de Tamashii Nations S.H. MonsterArts"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye múltiples cuerpos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo Principal Godzilla 2016 Forma 2"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo Principal Godzilla 2016 Forma 3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Criatura Gigante Desconocida"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2016-the-second-form-third-form-giant-unidentified-creature-set-tamashii-nations-915326"
+      },
+      {
+        "id": "godzilla-2001-vinyl-collectible-mwcdxvuk",
+        "n": "Godzilla (2001) Vinyl Collectible",
+        "i": "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72b7ac21.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72b7ac21.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-scale-6aecd7185c161.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72ba7b24.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72c07b47.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72c5e338.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72cb4df1.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72d16406.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72d88160.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72e05063.jpg",
+          "https://www.sideshow.com/storage/product-images/916285/acro-godzilla-godzilla-2001-vinyl-collectible-gallery-6aecd72e74e09.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Acro",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6200",
+        "reserva": "1240",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una figura coleccionable de vinilo que captura la esencia destructiva de Godzilla en su versión del 2001. Con un detalle impresionante en la textura de su piel escamosa y una expresión feroz inconfundible, esta pieza es imprescindible para cualquier fan del monstruo kaiju. Exhibe la icónica postura amenazante con sus garras afiladas y dorsal radiante."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinilo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura detallada con textura realista"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño: Basado en la versión de 2001"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Godzilla"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2001-acro-916285",
+        "entrega": "Ago. 2027"
+      },
+      {
+        "id": "king-ghidorah-2-0-action-figure-mwcdxvuk",
+        "n": "King Ghidorah 2.0 Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e02764562.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e02764562.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-scale-6a88e02931ecb.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e02796633.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e027baa46.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e027e1895.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e02810f6d.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e02834ca3.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e0285684d.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e02878a36.jpg",
+          "https://www.sideshow.com/storage/product-images/916032/hiya-toys-godzilla-king-ghidorah-20-action-figure-gallery-6a88e0289a51c.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2000",
+        "reserva": "400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura articulada King Ghidorah 2.0 captura toda la majestuosidad del legendario monstruo de tres cabezas con un increíble nivel de detalle y articulación. Incluye tres rayos gravitacionales intercambiables y bases de soporte para recrear las poses más épicas. Una adición imprescindible para cualquier coleccionista de kaiju que demande lo mejor en calidad y precisión."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye soportes de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rayos gravitacionales intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres rayos gravitacionales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres bases de soporte"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-king-ghidorah-20-hiya-toys-916032",
+        "entrega": "Mar. 2027"
+      },
+      {
+        "id": "godzilla-1991-vinyl-collectible-mwcdxvuk",
+        "n": "Godzilla (1991) Vinyl Collectible",
+        "i": "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b3129b6c6b.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b3129b6c6b.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-scale-6a2b3108f130b.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b3104c3ebc.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b31052379c.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b310579720.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b3105d0686.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b310635bc0.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b3106891e9.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b3106e2922.jpg",
+          "https://www.sideshow.com/storage/product-images/915800/acro-godzilla-godzilla-1991-vinyl-collectible-gallery-6a2b310742aa0.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Acro",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6300",
+        "reserva": "1260",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la icónica presencia del Rey de los Monstruos con esta figura de vinilo coleccionable de Godzilla (1991). Captura cada detalle de la legendaria criatura, desde su textura escamosa hasta sus distintivas aletas dorsales. Un imprescindible para los fans del kaiju clásico."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinilo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Premium con detalles pintados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño articulado con postura dinámica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Godzilla (1991)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-1991-acro-915800",
+        "entrega": "Feb. 2027"
+      },
+      {
+        "id": "mechagodzilla-2003-heavy-arms-high-mobility-versio-mwcdxvul",
+        "n": "Mechagodzilla (2003) Heavy Arms/High Mobility Version Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e244151dc.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e244151dc.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-scale-6a88e2473a39e.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e24468a14.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e244ba4bb.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e24517371.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e24568bf3.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e245b99a5.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e24639327.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e2468bc70.jpg",
+          "https://www.sideshow.com/storage/product-images/916033/hiya-toys-godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-action-figure-gallery-6a88e246dac8d.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1550",
+        "reserva": "310",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La versión de armas pesadas y alta movilidad de Mechagodzilla (2003) captura toda la potencia destructiva del titán mecánico con una postura amenazante y detalles cinematográficos impresionantes. Equipada con dos railguns y propulsores de fuego activo, esta figura es el colmo de la ingeniería de combate kaiju. Un must-have para coleccionistas de monstruos mecánicos y aficionados a la franquicia Godzilla."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Sideshow"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye sistemas de armas intercambiables y accesorios dinámicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos railguns"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Boquilla de propulsor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espiral de rastreo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mano intercambiable"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-mechagodzilla-2003-heavy-armshigh-mobility-version-hiya-toys-916033",
+        "entrega": "Sep. 2027"
+      },
+      {
+        "id": "godzilla-ultima-version-action-figure-mwcdxvul",
+        "n": "Godzilla Ultima Version Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac4056f3b68d.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac4056f3b68d.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac4056fd3b70.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac405709a7fc.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac405713a576.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac40571cdca2.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac4057246d9c.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac40572bd5b8.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac40573d64e9.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac405743461a.jpg",
+          "https://www.sideshow.com/storage/product-images/916186/hiya-toys-godzilla-godzilla-ultima-version-action-figure-gallery-6ac405733dadf.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1600",
+        "reserva": "320",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de acción Godzilla Ultima Version captura toda la ferocidad del Titán Monarca con un detalle extraordinario. Su musculatura articulada y dorsal erizado reflejan el poder destructivo de la criatura, mientras que su cabeza intercambiable con mandíbula abierta expresa su naturaleza imparable. Una adición imprescindible para coleccionistas de kaiju que buscan la representación más épica del icono de Toho."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalle pintura: Acabado profesional en gris oscuro con toques cromáticos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos manos intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-ultima-version-hiya-toys-916186",
+        "entrega": "Dic. 2027"
+      },
+      {
+        "id": "kaizer-ghidorah-action-figure-mwcdxvul",
+        "n": "Kaizer Ghidorah Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b06e05fe.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b06e05fe.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-scale-6ad14b0aadf00.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b0744d8f.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b07b7039.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b08397da.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b08abcda.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b091d539.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b0953dde.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b09d36a9.jpg",
+          "https://www.sideshow.com/storage/product-images/916221/tamashii-nations-godzilla-kaizer-ghidorah-action-figure-gallery-6ad14b0a46d3d.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4500",
+        "reserva": "900",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La legendaria bestia de tres cabezas cobra vida en esta impresionante figura articulada. Con detalles dorados metalizados y una presencia aterradora, captura toda la majestuosidad de este icónico monstruo. Una pieza esencial para collectors que buscan la máxima calidad y autenticidad."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: aproximadamente 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones posables en múltiples puntos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado metalizado en dorado y negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Kaizer Ghidorah"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-kaizer-ghidorah-tamashii-nations-916221",
+        "entrega": "Jul. 2027"
+      },
+      {
+        "id": "godzilla-2003-action-figure-mwcdxvum",
+        "n": "Godzilla [2003] Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e693a541.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e693a541.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-scale-6a4d1e6c136fc.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e698c8a2.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e69dfe6f.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e6a3db99.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e6a90b51.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e6ae66d8.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e6b6a75e.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-gallery-6a4d1e6ba77fb.jpg",
+          "https://www.sideshow.com/storage/product-images/915867/tamashii-nations-godzilla-godzilla-2003-action-figure-silo.png"
+        ],
+        "franquicia": "Otros",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "reserva": "290",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La icónica representación de Godzilla de 2003 en formato de figura articulada de alta calidad. Captura cada detalle de la legendaria criatura con precisión, desde su textura escamosa hasta sus garras doradas. Una pieza esencial para cualquier coleccionista del Rey de los Monstruos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño basado en Godzilla (2003)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado detallado con pintura profesional"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Godzilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-2003-tamashii-nation-915867",
+        "entrega": "Mar. 2027"
+      },
+      {
+        "id": "godzilla-godzilla-vs-mechagodzilla-ii-poster-color-mwcdxvum",
+        "n": "Godzilla Godzilla vs. Mechagodzilla II Poster Coloring Ver. Figura Articulada",
+        "i": "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-feature.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-feature.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-square.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-gallery-6aa027f03976c.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-scale-6aa027f23ff27.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-gallery-6aa027f0e9963.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-gallery-6aa027f07124c.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-gallery-6aa027f0ae882.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-gallery-6aa027f12b43e.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-gallery-6aa027f1cee9a.jpg",
+          "https://www.sideshow.com/storage/product-images/916084/tamashii-nations-godzilla-godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-action-figure-gallery-6aa027f15b6f7.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "reserva": "290",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La icónica representación de Godzilla inspirada en el póster de Godzilla vs. Mechagodzilla II, con detalles de color en versión poster. Esta figura articulada captura la ferocidad del Rey de los Monstruos con su distintiva dorsal radiante y postura amenazante, perfecta para coleccionistas de kaiju."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye placa visual del póster en PET"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de papel para placas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo principal articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa visual Godzilla vs. Mechagodzilla en formato póster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de papel para placas PET"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-vs-mechagodzilla-ii-poster-coloring-ver-movie-graphic-plus-tamashii-nations-916084",
+        "entrega": "May. 2027"
+      },
+      {
+        "id": "godzilla-collectible-figure-standard-version-mwcdxvum",
+        "n": "Godzilla Collectible Figure Standard Version",
+        "i": "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4bdc498.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4bdc498.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4e92372.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4b8a75b.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4d35ed7.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4c37d77.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4e37534.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4d86bdd.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4dd8aa0.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4cd967a.jpg",
+          "https://www.sideshow.com/storage/product-images/915890/x-plus-godzilla-gigantis-standard-version-collectible-figure-gallery-6a516f4c882be.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1450",
+        "reserva": "290",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una figura de colección premium que captura la icónica presencia del Rey de los Monstruos con un detalle impresionante. Esculpida con maestría, esta representación de Godzilla muestra su característico dorso de púas radioactivas y su feroz expresión. Perfecta para los fans que desean una pieza de exhibición de alta calidad que domina cualquier colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura artesanal detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Postura: De pie, lista para combate"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Godzilla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-gigantis-standard-version-x-plus-915890",
+        "entrega": "Ene. 2027"
+      },
+      {
+        "id": "mothra-2024-soft-vinyl-figure-deluxe-edition-mwcdxvum",
+        "n": "Mothra 2024 Soft-Vinyl Figure Deluxe Edition",
+        "i": "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc0394e1.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc0394e1.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-scale-6762ffc65c099.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc0b9b33.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc15b5d0.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc1e0df2.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc26d10d.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc2e8a13.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc374c84.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc3f0df9.jpg",
+          "https://www.sideshow.com/storage/product-images/914056/star-ace-toys-ltd-godzilla-mothra-2024-deluxe-collectible-figure-gallery-6762ffc459771.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Star Ace",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "reserva": "560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Experimenta la majestuosidad de Mothra en esta espectacular figura de vinil suave que captura cada detalle de la Reina de los Monstruos. Con alas translúcidas que brillan en tonos verdes y dorados, y una base escénica con efectos luminosos en rosa y púrpura, esta Deluxe Edition es una joya para cualquier coleccionista. Inspirada en Godzilla x Kong: The New Empire, esta obra maestra combina artesanía premium con un impacto visual incomparable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Vinil suave articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:1 aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de colección premium con detalles esculturales precisos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Alas translúcidas iluminadas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base escénica luminosa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de iluminación LED"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-mothra-2024-deluxe-star-ace-toys-ltd-914056",
+        "entrega": "Mar. 2027"
+      },
+      {
+        "id": "biollante-wakasa-bay-decisive-battle-action-figure-mwcdxvum",
+        "n": "Biollante Wakasa Bay Decisive Battle Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e9363f0c01.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e9363f0c01.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-scale-6a3e9f5b34366.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e9364354ea.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e93646bc42.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e9364a3ac2.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e9364d11ce.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e9365102a4.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e936539646.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-gallery-6a3e93655d27a.jpg",
+          "https://www.sideshow.com/storage/product-images/915839/tamashii-nations-godzilla-biollante-wakasa-bay-decisive-battle-ver-action-figure-silo.png"
+        ],
+        "franquicia": "Otros",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3900",
+        "reserva": "780",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una réplica espectacular de Biollante en su forma de batalla decisiva de la Bahía de Wakasa, capturando cada detalle de esta criatura única. Con múltiples tentáculos articulados y mandíbulas abiertas, esta figura ofrece posibilidades de exhibición sin límites. Imprescindible para coleccionistas de kaiju que demandan calidad y dinamismo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/ABS articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples puntos de articulación en tentáculos y extremidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detalles pintados a mano con acabados en relieve"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tentáculos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas alternativas intercambiables"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-biollante-wakasa-bay-decisive-battle-ver-tamashii-nations-915839",
+        "entrega": "Mar. 2027"
+      },
+      {
+        "id": "evangelion-test-type-01-g-awakening-form-action-fi-mwcdxvum",
+        "n": "Evangelion Test Type-01 \"G\" Awakening Form Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e64a4a8.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e64a4a8.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e69f758.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e6e063c.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e75207c.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e7b8e12.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e82c201.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e891217.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e90887c.jpg",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/915872/tamashii-nations-evangelion-evangelion-test-type-01-g-awakening-form-action-figure-gallery-6a5154e64a4a8_sm.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "reserva": "420",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura articulada del Evangelion Test Type-01 en su formidable forma despertada, capturando cada detalle de este icónico mecha del anime. Incluye partes de efectos de aliento atómico y base dedicada para desplegar toda su potencia destructiva. Una adición imprescindible para coleccionistas de la legendaria franquicia Evangelion."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: Tamashii Nations"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Línea: Premium Action Figure"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo principal articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Partes de efectos de aliento atómico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base dedicada para efectos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pieza de cuerno adicional"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/evangelion-evangelion-test-type-01-g-awakening-form-tamashii-nations-915872",
+        "entrega": "Mar. 2027"
+      },
+      {
+        "id": "megaguirus-action-figure-mwcdxvum",
+        "n": "Megaguirus Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac40401d4137.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac40401d4137.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac404023291d.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac404028405d.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac40402d4539.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac40403b8e7d.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac40404eb9ed.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac4040594fe3.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac404054764b.jpg",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/916185/hiya-toys-godzilla-megaguirus-action-figure-gallery-6ac40401d4137_sm.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1300",
+        "reserva": "260",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Megaguirus cobra vida con esta espectacular figura articulada que captura cada detalle de la temible criatura alada. Con un diseño altamente detallado y acabados premium, esta figura es un imprescindible para los coleccionistas del universo Godzilla. Disfruta de la libertad para recrear épicas batallas gracias a su superior articulación."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC y plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño película: Godzilla vs. Megaguirus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados: Pintura detallada en tonos negros, marrones y metalizados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas intercambiables incluidas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Megaguirus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-megaguirus-hiya-toys-916185",
+        "entrega": "Dic. 2027"
+      },
+      {
+        "id": "mechagodzilla-ohrai-noriyoshi-poster-ver-action-fi-mwcdxvum",
+        "n": "Mechagodzilla (Ohrai Noriyoshi Poster Ver.) Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-feature.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-feature.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-square.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-gallery-6aa024900b633.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-scale-6aa02491d26de.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-gallery-6aa024903a6fa.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-gallery-6aa024907c510.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-gallery-6aa02490b5778.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-gallery-6aa02490f1717.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-gallery-6aa024913318b.jpg",
+          "https://www.sideshow.com/storage/product-images/916083/tamashii-nations-godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-action-figure-gallery-6aa024915594b.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Tamashii Nations",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "reserva": "540",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de Mechagodzilla basada en el icónico póster de Ohrai Noriyoshi, con los tres componentes intercambiables de las mechas G-Force (Garuda, Gandarva y Naga) que forman esta legendaria construcción. Detalles metalizados excepcionales y acabados premium que capturan la esencia del diseño clásico de la franquicia kaiju. Una pieza imprescindible para coleccionistas de tokusatsu y figuras de alta gama."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico articulado con acabado metalizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye base para Garuda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo G-Force Mecha Garuda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo G-Force Mecha Gandarva"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo G-Force Mecha Naga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base para Garuda"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-mechagodzilla-ohrai-noriyoshi-poster-ver-tamashii-nations-916083",
+        "entrega": "Abr. 2027"
+      },
+      {
+        "id": "godzilla-vs-biollante-collectible-figure-mwcdxvum",
+        "n": "Godzilla VS Biollante Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a5568372a353.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a5568372a353.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a55683757684.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a5568378c8ff.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a556837b30eb.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a556837e00f3.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a55683815e77.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a5568384b153.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a5568386e210.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a556838911b5.jpg",
+          "https://www.sideshow.com/storage/product-images/915899/peria-studio-godzilla-godzilla-vs-biollante-collectible-figure-gallery-6a556838b492a.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "PeariA Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "reserva": "560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figuras coleccionables premium del épico enfrentamiento entre Godzilla y Biollante. Cada pieza captura la ferocidad y el detalle de estos titanes con una calidad artesanal excepcional. Perfectas para coleccionistas de kaiju que buscan piezas de exhibición de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina pintada a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Premium con detalles de alta definición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño: Cabezas escultóricas articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura coleccionable"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/godzilla-godzilla-vs-biollante-kotobukiya-915899",
+        "entrega": "Mar. 2027"
+      },
+      {
+        "id": "biollante-action-figure-mwcdxvum",
+        "n": "Biollante Action Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e0f5994b.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e0f5994b.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-scale-6a7a5e12e0a82.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e0fac52a.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e10090ac.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e105867e.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e10a811e.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e11055ea.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e117b1af.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e11ec9f9.jpg",
+          "https://www.sideshow.com/storage/product-images/915987/hiya-toys-godzilla-biollante-1989-action-figure-gallery-6a7a5e126f6a4.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "HIYA",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2400",
+        "reserva": "480",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Biollante cobra vida con esta figura articulada de Hiya Toys, capturando cada detalle de la temible criatura kaiju con una precisión excepcional. Su elaborado diseño combina texturas orgánicas, espinas afiladas y ese distintivo brillo interior que la hace una pieza imprescindible para coleccionistas del género. Domina tu colección con este monstruo de pesadilla convertido en obra maestra coleccionable."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico articulado de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye múltiples puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado con pintura detallada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diseño inspirado en el clásico de 1989"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada de Biollante"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exposición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "origen": "https://www.sideshow.com/collectibles/ghost-in-the-shell-biollante-1989-hiya-toys-915987",
+        "entrega": "Jun. 2027"
+      },
       {
         "id": "yuno-grinbellor-1-6-figure-mw59ffpi",
         "n": "Yuno Grinbellor 1/6 Figure",
