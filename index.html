@@ -587,6 +587,7 @@ body::after{
 .modal-prop-value.price span{color:var(--gold);font-size:14px;font-weight:500}
 .modal-prop-value.stock{color:var(--green)}
 .modal-prop-value.preorder{color:var(--amber)}
+.modal-prop-value.soldout{color:var(--red);font-weight:700;text-transform:uppercase}
 /* Version toggle (Regular / Variante) */
 .ver-toggle{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
 .ver-btn{background:var(--bg3);border:1px solid var(--border);color:var(--muted);
@@ -2243,7 +2244,7 @@ function injectProductSchema(p,figId){
     "offers":{
       "@type":"Offer",
       "priceCurrency":"GTQ",
-      "availability":_productAvailability(p.disp),
+      "availability":_esAgotado(p)?"https://schema.org/OutOfStock":_productAvailability(p.disp),
       "url":location.origin+"/p/"+encodeURIComponent(figId),
       "seller":{"@type":"Organization","name":"UV Store Guatemala"}
     }
@@ -2341,7 +2342,9 @@ function openModal(p,cat){
   _setCtaPrice(p.precio);
   if(p.precio)propList.push({label:"Precio",value:"<span>Q</span>"+esc(fmtQ(p.precio)),cls:"price",id:"modal-precio-val",wrap:"modal-prop-price"});
   if(p.franquicia)propList.push({label:"Franquicia",value:esc(p.franquicia)});
-  if(p.disp){var dispCls=p.disp.toLowerCase().indexOf("inmediata")>=0?"stock":p.disp.toLowerCase().indexOf("pre")>=0?"preorder":"";propList.push({label:"Disponibilidad",value:esc(p.disp),cls:dispCls});}
+  // Agotado manda sobre la disponibilidad cargada ("Entrega Inmediata" de una que ya se vendió)
+  if(_esAgotado(p))propList.push({label:"Disponibilidad",value:"Agotado",cls:"soldout"});
+  else if(p.disp){var dispCls=p.disp.toLowerCase().indexOf("inmediata")>=0?"stock":p.disp.toLowerCase().indexOf("pre")>=0?"preorder":"";propList.push({label:"Disponibilidad",value:esc(p.disp),cls:dispCls});}
   if(p.estado)propList.push({label:"Estado",value:esc(p.estado)});
   if(p.marca)propList.push({label:"Marca",value:esc(p.marca)});
   if(p.escala)propList.push({label:"Escala",value:esc(p.escala),id:"modal-escala-val"});
