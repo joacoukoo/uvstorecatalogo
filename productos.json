@@ -89875,6 +89875,62 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "lucario-tech-sticker-collection-30th-celebration-mwcfa0i1",
+        "n": "Lucario Tech Sticker Collection 30th Celebration",
+        "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11451_10-10449-122_01.jpg",
+        "franquicia": "Otros",
+        "marca": "Pokemon",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "310",
+        "fotos": [
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11451_10-10449-122_01.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11451_10-10449-122_02.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11451_10-10449-122_03.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11451_10-10449-122_04.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11451_10-10449-122_05.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra 30 años de Pokémon con esta exclusiva colección que presenta a Lucario como carta promo holográfica y en una hoja de stickers tecnológicos. Incluye 3 sobres de expansión 30th Celebration con cartas holográficas, energías holográficas y códigos para Pokémon TCG Live."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Producto oficial sellado de Pokémon Center"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cantidad limitada (1 por comprador)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye cartas con códigos digitales"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta promo holográfica de Lucario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 hoja de stickers tecnológicos (Lucario, Pikachu, Mewtwo)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 sobres booster 30th Celebration (5 cartas holográficas, 1 energía holográfica, 1 código Pokémon TCG Live por sobre)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "reserva": "0",
+        "cantidad": "2"
+      },
+      {
         "id": "pokemon-30th-celebration-elite-trainer-box-mvvwxcd5",
         "n": "Pokémon 30th Celebration Elite Trainer Box",
         "i": "https://cdn.shopify.com/s/files/1/0621/1669/2121/files/raw_4bbb65d5-25eb-4de5-b3ce-8ba8208b1131.png?v=1783447810",
