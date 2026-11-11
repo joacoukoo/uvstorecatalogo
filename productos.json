@@ -89875,6 +89875,66 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "pokemon-tcg-30th-celebration-poster-collection-ing-mwcfhnc4",
+        "n": "Pokémon TCG: 30th Celebration Poster Collection (INGLES)",
+        "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11453_10-10467-109_01.jpg",
+        "franquicia": "Otros",
+        "marca": "Pokemon",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "350",
+        "fotos": [
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11453_10-10467-109_01.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11453_10-10467-109_02.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11453_10-10467-109_03.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11453_10-10467-109_04.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11453_10-10467-109_05.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra 30 años de Pokémon con esta colección exclusiva que incluye tres cartas de promoción holográficas de los legendarios Articuno, Zapdos y Moltres de la región de Kanto. El póster doble cara presenta más de 160 cartas del conjunto especial 30th Celebration, complementado con tres sobres de refuerzo que contienen cartas holográficas adicionales y códigos para Pokémon TCG Live."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Póster: 26,875\" × 39\""
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas de promoción: 3 holográficas (Articuno, Zapdos, Moltres)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sobres de refuerzo: 3 (5 cartas holográficas + 1 energía holográfica + 1 código)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 cartas de promoción holográficas legendarias"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 póster doble cara (26,875\" × 39\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 sobres Pokémon TCG: 30th Celebration"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Códigos Pokémon TCG Live"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "reserva": "70",
+        "cantidad": "1"
+      },
+      {
         "id": "lucario-tech-sticker-collection-30th-celebration-mwcfa0i1",
         "n": "Lucario Tech Sticker Collection 30th Celebration",
         "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10050/P11451_10-10449-122_01.jpg",
