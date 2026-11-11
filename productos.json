@@ -90293,7 +90293,7 @@
         "escala": "",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "2400",
+        "precio": "1800",
         "fotos": [
           "https://acdn-us.mitiendanube.com/stores/004/821/233/products/sv8pt5-super-premium-collection-169-en-2d5d3a78d71d1a241c17473656685913-1024-1024.webp",
           "https://acdn-us.mitiendanube.com/stores/004/821/233/products/guest_e8a20410-8644-42f3-8d27-a211641099eb-51f6ad087f668c893417473656687754-1024-1024.webp",
@@ -90367,7 +90367,6 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-10-21",
-        "reserva": "0",
         "cantidad": "9"
       },
       {
