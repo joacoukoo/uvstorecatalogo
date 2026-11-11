@@ -89875,6 +89875,99 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "pokemon-30th-celebrations-box-ex-greninja-tcg-espa-mwcg37i0",
+        "n": "Pokémon 30th Celebrations Box Ex Greninja TCG (ESPAÑOL)",
+        "i": "https://http2.mlstatic.com/D_NQ_NP_667083-MLM117156189750_102026-O.webp",
+        "franquicia": "Otros",
+        "marca": "Pokemon",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "400",
+        "fotos": [
+          "https://http2.mlstatic.com/D_NQ_NP_667083-MLM117156189750_102026-O.webp",
+          "https://http2.mlstatic.com/D_NQ_NP_2X_626787-MLA118740630427_102026-F.webp"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La Pokémon 30th Celebrations Box Ex Greninja TCG es una caja de colección premium que celebra tres décadas de la franquicia con diseño exclusivo y cartas holográficas de edición limitada. Greninja Ex brilla en dos presentaciones deslumbrantes: una carta holográfica estándar lista para juego competitivo y una espectacular versión jumbo de coleccionista. Producto sellado y altamente codiciado para coleccionistas de TCG que buscan piezas históricas y de valor duradero en formato español."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo de producto: Caja de colección TCG sellada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición: 30th Celebrations (Edición limitada conmemorativa)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Personaje principal: Greninja Ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Formato: Trading Card Game (TCG)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Idioma: Español"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estado de empaque: Sellado de fábrica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material del contenido: Cartulina de alta calidad, cartas foil y holográficas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 200-250g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones de caja: Aproximadamente 15cm x 11cm x 8cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta promo holográfica de Greninja Ex"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta holográfica jumbo de Greninja Ex (tamaño oversized)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 sobres de refuerzo de Celebración 30° Aniversario"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "20 cartas foil adicionales (5 por sobre)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 Energías Básicas foil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 códigos digitales para Pokémon TCG Live"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empaque de presentación de lujo edición 30 aniversario"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-11",
+        "reserva": "0",
+        "cantidad": "1"
+      },
+      {
         "id": "sylveon-ex-30th-celebration-box-espa-ol-mwcfwfxz",
         "n": "Sylveon ex 30th Celebration Box (ESPAÑOL)",
         "i": "https://cdnx.jumpseller.com/tcg-chile/image/80177290/resize/1200/1200?1787154410",
