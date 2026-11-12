@@ -3,6 +3,63 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "the-dark-knight-batman-1-3-deluxe-queen-studios-mwdxku2b",
+        "n": "The Dark Knight Batman 1/3 (Deluxe Edition)",
+        "i": "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/ChristianBaleStatue.jpg?v=1677833073",
+        "franquicia": "DC Comics",
+        "marca": "Queen Studios",
+        "escala": "1:3 - 68.5CM",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "15000",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/ChristianBaleStatue.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/BatmanStatue.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/CollectibleDarkKnightBatman.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/LimitedEditionBatmanStatue.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/LimitedEditionDarkKnightBatman.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/LiflelikeBatmanStatue.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/BaleBatmanStatue.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/DarkKnightChristianBaleBatmanStatue.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/DarkKnightChristianBaleBatman.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/DarkKnightBatmanStatueQueenStudiosLimitedEditionVersions.jpg?v=1677833073",
+          "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/QueenStudiosBatmanStatueSize.jpg?v=1594288077"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua en escala 1:3 de Batman de The Dark Knight de Christopher Nolan, por Queen Studios con licencia oficial de DC. Esta es la Edición Deluxe, limitada a 500 piezas: incluye la cabeza con la máscara en polystone y una cabeza adicional con el rostro de Christian Bale y cabello artificial."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Medidas: 68.5 cm de alto x 40 cm de largo x 35 cm de ancho"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: polystone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición Deluxe limitada a 500 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye: cabeza con máscara y cabeza adicional de Christian Bale con cabello artificial"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-12",
+        "cantidad": "1"
+      },
+      {
         "id": "lebron-james-lakers-real-masterpiece-1-6-mwdxbwsw",
         "n": "LeBron James (LA Lakers) Real Masterpiece 1/6",
         "i": "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-1.jpg",
