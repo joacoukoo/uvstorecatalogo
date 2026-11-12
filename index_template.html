@@ -2383,14 +2383,22 @@ function _contenidoVersion(p,v){
   return det?[{t:"notion-text",x:"Versión "+lbl+": "+String(det).replace(/[.\s]+$/,"")+"."}].concat(base):base;
 }
 
-function closeModal(){
-  var m=document.getElementById("modal");
-  m.classList.remove("open");
+// Oculta la ficha sin tocar la página de abajo (resultados, categoría…), así queda donde estaba.
+function _hideModal(){
+  document.getElementById("modal").classList.remove("open");
+  var lb=document.getElementById("lightbox");if(lb)lb.classList.remove("open");
   clearProductSchema();
   document.body.style.overflow="";
   document.getElementById("modal-yt").innerHTML="";
+}
+var _uvSkipPop=false;
+function closeModal(){
   var openedFromNav=history.state&&history.state._openedFromNav;
+  _hideModal();
   if(openedFromNav){
+    // Solo sacamos /p/... del historial: el popstate que dispara no debe re-armar la página
+    // (eso la mandaba arriba de todo y perdía filtros/orden).
+    _uvSkipPop=true;
     history.back();
   } else {
     history.replaceState(null,"","/");
@@ -2509,8 +2517,10 @@ function routeHash(h){
   showPage("home");document.getElementById("nav-home").classList.add("active");
 }
 window.addEventListener("popstate",function(){
+  if(_uvSkipPop){_uvSkipPop=false;return;}
   var modal=document.getElementById("modal");
-  if(modal&&modal.classList.contains("open")){return;}
+  // Atrás del navegador/celular con la ficha abierta: se cierra y queda la página como estaba.
+  if(modal&&modal.classList.contains("open")){_hideModal();return;}
   _uvOpenedFromNav=true;
   // If back/forward lands on a search URL, restore search view
   var q=new URLSearchParams(location.search).get("q");
