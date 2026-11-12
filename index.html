@@ -2203,6 +2203,15 @@ function renderModalContent(contentArr){
     contentEl.appendChild(el);
   });
 }
+// "Disponibilidad" de la ficha: si la versión que se está viendo está agotada dice "Agotado",
+// si no, la disponibilidad cargada (Entrega Inmediata, Pre-Orden...).
+function _setModalDisp(agotado){
+  var el=document.getElementById("modal-disp-val"),p=_modalProd;if(!el||!p)return;
+  var d=agotado?"Agotado":(p.disp||""),l=d.toLowerCase();
+  el.textContent=d;
+  el.className="modal-prop-value "+(agotado?"soldout":l.indexOf("inmediata")>=0?"stock":l.indexOf("pre")>=0?"preorder":"");
+  if(el.parentNode)el.parentNode.style.display=d?"":"none";
+}
 function modalSetVersion(ver){
   var p=_modalProd;if(!p||!p.precio_d)return;
   var btnR=document.getElementById("modal-ver-reg");
@@ -2213,12 +2222,14 @@ function modalSetVersion(ver){
     var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+esc(fmtQ(p.precio_d));_setCtaPrice(p.precio_d);
     var re=document.getElementById("modal-reserva-val");if(re)re.textContent=p.reserva_d?fmtReserva(p.reserva_d):"";
     if(p.content_d&&p.content_d.length)renderModalContent(p.content_d);
+    _setModalDisp(_esAgotado(p)||!!p.agotado_d);
   }else{
     btnD.classList.remove("active");btnR.classList.add("active");
     carouselBuild((p.fotos&&p.fotos.length>0)?p.fotos:[p.i]);
     var pe=document.getElementById("modal-precio-val");if(pe)pe.innerHTML="<span>Q</span>"+esc(fmtQ(p.precio||""));_setCtaPrice(p.precio);
     var re=document.getElementById("modal-reserva-val");if(re)re.textContent=p.reserva?fmtReserva(p.reserva):"";
     renderModalContent(p.content||[]);
+    _setModalDisp(_esAgotado(p)||!!p.agotado_r);
   }
 }
 function _productAvailability(disp){
@@ -2310,6 +2321,7 @@ function openModal(p,cat){
       if(se&&p.escala)se.textContent=p.escala;
       carouselBuild(basePhotos);
       _renderContent(_contenidoVersion(p,null));
+      _setModalDisp(_esAgotado(p)||!!p.agotado_r);
     };
     varToggleEl.appendChild(btnBase);
     // Variantes adicionales
@@ -2328,6 +2340,7 @@ function openModal(p,cat){
         if(se){se.textContent=v.escala||se.textContent;}
         if(v.fotos&&v.fotos.length>0)carouselBuild(v.fotos);
         _renderContent(_contenidoVersion(p,v));
+        _setModalDisp(_esAgotado(p)||!!v.agotado);
       };
       varToggleEl.appendChild(btn);
     });
@@ -2343,8 +2356,8 @@ function openModal(p,cat){
   if(p.precio)propList.push({label:"Precio",value:"<span>Q</span>"+esc(fmtQ(p.precio)),cls:"price",id:"modal-precio-val",wrap:"modal-prop-price"});
   if(p.franquicia)propList.push({label:"Franquicia",value:esc(p.franquicia)});
   // Agotado manda sobre la disponibilidad cargada ("Entrega Inmediata" de una que ya se vendió)
-  if(_esAgotado(p))propList.push({label:"Disponibilidad",value:"Agotado",cls:"soldout"});
-  else if(p.disp){var dispCls=p.disp.toLowerCase().indexOf("inmediata")>=0?"stock":p.disp.toLowerCase().indexOf("pre")>=0?"preorder":"";propList.push({label:"Disponibilidad",value:esc(p.disp),cls:dispCls});}
+  // El valor lo pone _setModalDisp según la versión elegida (Regular/Variante pueden agotarse por separado)
+  propList.push({label:"Disponibilidad",value:"",id:"modal-disp-val"});
   if(p.estado)propList.push({label:"Estado",value:esc(p.estado)});
   if(p.marca)propList.push({label:"Marca",value:esc(p.marca)});
   if(p.escala)propList.push({label:"Escala",value:esc(p.escala),id:"modal-escala-val"});
@@ -2356,6 +2369,7 @@ function openModal(p,cat){
     d.innerHTML="<div class='modal-prop-label'>"+prop.label+"</div><div class='modal-prop-value "+(prop.cls||"")+"'"+(prop.id?' id="'+prop.id+'"':"")+">"+prop.value+"</div>";
     propsEl.appendChild(d);
   });
+  _setModalDisp(_esAgotado(p)||((p.precio_d||(p.variantes&&p.variantes.length))&&!!p.agotado_r));
   renderModalContent(p.variantes&&p.variantes.length?_contenidoVersion(p,null):(p.content||[]));
   var ytEl=document.getElementById("modal-yt");ytEl.innerHTML="";
   if(p.yt){
