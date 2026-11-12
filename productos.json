@@ -90339,6 +90339,60 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "foluck-trading-card-storage-box-commander-display-mwdxjnfx",
+        "n": "Caja para Cartas Foluck con Display Commander (4200+ cartas)",
+        "i": "https://m.media-amazon.com/images/I/71dZXO9re3L._AC_SL1500_.jpg",
+        "franquicia": "Otros",
+        "marca": "Foluck",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "800",
+        "fotos": [
+          "https://m.media-amazon.com/images/I/71dZXO9re3L._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/81rQXNl2JsL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/71u1QdCNmBL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/811lYpWb4VL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/71wHbwudkqL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/71olyZbv3mL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/71QawYoN-pL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/71q6kJ5ey0L._AC_SL1500_.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Caja organizadora para cartas de colección con 5 filas y 5 ventanas al frente para exhibir tus Commanders o cartas favoritas. Exterior de cuero sintético resistente al agua con costuras reforzadas e interior de microfibra que protege las cartas. La tapa es magnética, se puede quitar y usar debajo de la caja o como superficie de juego. Sirve para Magic, Pokémon, One Piece y cualquier TCG."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capacidad: más de 4,200 cartas sin funda, 1,900+ con doble funda u 850+ toploaders"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "No es compatible con cartas calificadas (PSA) ni magnetic holders de 35PT"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 ventanas de exhibición al frente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tapa magnética removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye: 20 toploaders, 15 topes, 30 separadores removibles y caja para dados"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-12",
+        "cantidad": "1"
+      },
+      {
         "id": "card-grading-centering-tool-mwdx5msh",
         "n": "Card Grading Centering Tool (Legends)",
         "i": "https://cdn.shopify.com/s/files/1/0649/5240/2177/products/TCGcardgrader.jpg?v=1662066589",
