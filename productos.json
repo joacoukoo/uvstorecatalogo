@@ -10176,6 +10176,86 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "jetpack-trooper-1-6-figure-mwdxh4bl",
+        "n": "Jetpack Trooper 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdcfd29e4.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdcfd29e4.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-scale-6a8eff68d4bb4.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd05adb4.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd0aea44.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd10f27a.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd163a6f.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd1baef4.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd23e767.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd2b5fdf.jpg",
+          "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdd316e63.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de sexta escala del Jetpack Trooper del videojuego Star Wars Jedi: Survivor, los soldados imperiales que persiguen a Cal Kestis. Cabeza con casco nueva, armadura con efecto de desgaste y jetpack magnético con efectos de llamas. Edición limitada a 2,000 unidades."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "30 puntos de articulación"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 manos enguantadas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura blanca con desgaste, traje negro, cinturón y botas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle bláster E-11"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jetpack magnético con 2 efectos de llamas translúcidos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tubos para el jetpack y el respirador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detonador térmico magnético"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con logo de Star Wars y placa del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-12",
+        "cantidad": "1"
+      },
+      {
         "id": "mr-knight-1-6-figure-mwdv4hah",
         "n": "Mr. Knight 1/6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/914024/hot-toys-marvel-mr-knight-sixth-scale-figure-gallery-6758711e02283.jpg",
