@@ -3,6 +3,63 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "billy-the-puppet-tricycle-1-6-figure-mwdx6sjk",
+        "n": "Billy the Puppet & Tricycle 1/6 Figure (SAW)",
+        "i": "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d3997e3.jpg",
+        "franquicia": "Otros",
+        "marca": "Trick or Treat Studios",
+        "escala": "1:6 - 18CM",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "1200",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d3997e3.jpg",
+          "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-scale-6a9b1f1e5cced.jpg",
+          "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d1f15fd.jpg",
+          "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d24a278.jpg",
+          "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d296aac.jpg",
+          "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d2e4657.jpg",
+          "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d347030.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "\"I want to play a game\". Figura oficial de SAW en escala 1:6 de Billy, el muñeco de Jigsaw, montado en su icónico triciclo. Tiene cabello real y los pies se enganchan a los pedales para exhibirlo. Viene en caja de colección con ventana y tapa magnética."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 18 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye: figura de Billy y triciclo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello real"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de colección con ventana y tapa magnética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "La figura se exhibe sobre el triciclo (no se para sola)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-12",
+        "cantidad": "1"
+      },
+      {
         "id": "robin-mon4pkg2",
         "n": "Robin",
         "i": "https://www.sideshow.com/storage/product-images/914045/hot-toys-dc-comics-robin-sixth-scale-figure-gallery-6761a93cca80c.jpg",
