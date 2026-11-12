@@ -3,6 +3,86 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "lebron-james-lakers-real-masterpiece-1-6-mwdxbwsw",
+        "n": "LeBron James (LA Lakers) Real Masterpiece 1/6",
+        "i": "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-1.jpg",
+        "franquicia": "Otros",
+        "marca": "Enterbay",
+        "escala": "1:6 - 30CM",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "fotos": [
+          "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-1.jpg",
+          "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-2.jpg",
+          "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-3.jpg",
+          "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-4.jpg",
+          "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-5.jpg",
+          "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-b1.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura Real Masterpiece de Enterbay en escala 1:6 de LeBron James con el uniforme amarillo de Los Angeles Lakers, licencia oficial de la NBA. Cabeza con un parecido muy real, pintada a mano en varias capas, y cuerpo nuevo con 30 puntos de articulación hecho a la proporción de su estatura real."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "30 puntos de articulación"
+          },
+          {
+            "t": "notion-heading-2",
+            "x": "Incluye"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jersey oficial #23 de los Lakers (local) con short"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Conjunto de calentamiento de los Lakers"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables (1 par con imán)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manga blanca de basketball, licra blanca de entrenamiento y calcetas blancas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Balón Spalding 1:6 con imán"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 trofeos de campeonato de la NBA"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tenis LeBron 17"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de madera con logo de los Lakers y soporte flexible"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-12",
+        "cantidad": "1"
+      },
+      {
         "id": "billy-the-puppet-tricycle-1-6-figure-mwdx6sjk",
         "n": "Billy the Puppet & Tricycle 1/6 Figure (SAW)",
         "i": "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d3997e3.jpg",
