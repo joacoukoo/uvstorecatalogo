@@ -90122,6 +90122,56 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "card-grading-centering-tool-mwdx5msh",
+        "n": "Card Grading Centering Tool (Legends)",
+        "i": "https://cdn.shopify.com/s/files/1/0649/5240/2177/products/TCGcardgrader.jpg?v=1662066589",
+        "franquicia": "Otros",
+        "marca": "Envy Born Games",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "180",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0649/5240/2177/products/TCGcardgrader.jpg?v=1662066589",
+          "https://cdn.shopify.com/s/files/1/0649/5240/2177/products/pop.png?v=1662066589&width=1200",
+          "https://cdn.shopify.com/s/files/1/0649/5240/2177/products/pop1.png?v=1662066589&width=1200",
+          "https://cdn.shopify.com/s/files/1/0649/5240/2177/products/thumbnail_cardcentercard.jpg?v=1662066590"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Herramienta para revisar el centrado de tus cartas antes de mandarlas a calificar con PSA o BGS. Se pone sobre la carta, se miden los bordes de izquierda a derecha y de arriba a abajo, y la tabla de porcentajes te dice si cumple. Funciona con cualquier carta de tamaño estándar: Pokémon, Magic, Digimon, One Piece, deportivas, etc."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acrílico transparente que no se deforma ni se raya fácilmente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tabla de porcentajes de centrado incluida (en rojo: 60/40 o mejor)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye paño de limpieza para las cartas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Trae plástico protector en ambos lados: quitarlo antes de usar"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Carta no incluida"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-12",
+        "cantidad": "5"
+      },
+      {
         "id": "mega-kangaskhan-ex-caja-de-coleccion-jcc-pokemon-e-mwcg5la8",
         "n": "Mega-Kangaskhan ex - Caja de Colección JCC Pokémon (ESPAÑOL)",
         "i": "https://www.pokemon.com/static-assets/content-assets/cms2-es-xl/img/trading-card-game/series/incrementals/2025/mega-kangaskhan-ex-box/mega-kangaskhan-ex-box-latam-169.png",
