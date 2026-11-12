@@ -1530,7 +1530,7 @@ function buildHome(){
     var prods=(DATA[c]||{products:[]}).products;
     totalFigs+=prods.length;
     prods.forEach(function(p){
-      var isStock=(p.disp&&p.disp.toLowerCase().indexOf("inmediata")>=0)||(c==="Entrega Inmediata"&&!p.disp);
+      var isStock=c!=="Vitrinas Para Figuras"&&((p.disp&&p.disp.toLowerCase().indexOf("inmediata")>=0)||(c==="Entrega Inmediata"&&!p.disp));
       var isPre=(p.disp&&p.disp.toLowerCase().indexOf("pre")>=0)||(c==="Hot Toys · Pre-Órdenes"&&!p.disp);
       if(isStock)stockFigs++;
       else if(isPre)preFigs++;
@@ -1568,7 +1568,7 @@ function buildHome(){
   CAT_KEYS.forEach(function(c){
     (DATA[c]||{products:[]}).products.forEach(function(p){
       if(!(p.i||(p.fotos&&p.fotos.length>0))||_esAgotado(p)||!p.precio||(p.disp||"").toLowerCase().indexOf("vendid")>=0)return;
-      var enStock=(p.disp||"").toLowerCase().indexOf("inmediata")>=0;
+      var enStock=c!=="Vitrinas Para Figuras"&&(p.disp||"").toLowerCase().indexOf("inmediata")>=0;
       (p.destacado||enStock?heroTop:heroRest).push({p:p,cat:c});
     });
   });
@@ -1986,7 +1986,8 @@ function _productosDeCategoria(cat){
   var rows=(DATA[cat]||{products:[]}).products.map(function(p){return{p:p,cat:cat};});
   var vistos={};rows.forEach(function(r){vistos[r.p.id]=1;});
   function sumar(c,ok){(DATA[c]||{products:[]}).products.forEach(function(p){if(!vistos[p.id]&&ok(p)){vistos[p.id]=1;rows.push({p:p,cat:c});}});}
-  if(cat==="Entrega Inmediata")CAT_KEYS.forEach(function(c){if(c!==cat)sumar(c,function(p){return (p.disp||"").toLowerCase().indexOf("inmediata")>=0;});});
+  // Las vitrinas no se muestran en "En Stock" (solo en su sección); TCG sí.
+  if(cat==="Entrega Inmediata")CAT_KEYS.forEach(function(c){if(c!==cat&&c!=="Vitrinas Para Figuras")sumar(c,function(p){return (p.disp||"").toLowerCase().indexOf("inmediata")>=0;});});
   else if(cat==="Hot Toys 1:6")sumar("Entrega Inmediata",function(p){return (p.marca||"").toLowerCase()==="hot toys";});
   return rows;
 }
