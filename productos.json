@@ -567,7 +567,7 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959de6642a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959e04aad0.jpg"
         ],
-        "agotado_r": true,
+        "agotado_r": false,
         "agotado_d": true,
         "content_d": [
           {
@@ -2117,7 +2117,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -2212,7 +2212,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909107/king-shark_dc-comics_gallery_6113fc14ea8d1.jpg"
         ],
         "id": "king-shark",
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Jack Sparrow (Deluxe)",
@@ -2739,7 +2740,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -2850,7 +2851,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908266/captain-america_marvel_gallery_608ae4eaa180e.jpg"
         ],
         "id": "captain-america-falcon-the-winter-soldier",
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "KX Enforcer Droid",
@@ -4975,7 +4977,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -5017,7 +5019,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913416/darth-sidious_star-wars_gallery_66462106aa81f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913416/darth-sidious_star-wars_gallery_6646210713ce5.jpg"
         ],
-        "id": "darth-sidious"
+        "id": "darth-sidious",
+        "agotado": true
       },
       {
         "n": "Chaplin",
@@ -5393,7 +5396,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -5435,7 +5438,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909166/captain-carter_marvel_gallery_6140d1727c860.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/909166/captain-carter_marvel_gallery_6140d172cdfde.jpg"
         ],
-        "id": "captain-carter"
+        "id": "captain-carter",
+        "agotado": true
       },
       {
         "n": "Dante – The Original (Luxury Edition)",
@@ -6743,7 +6747,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -6785,7 +6789,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913636/george-mogwai_gremlins_gallery_66a28dde82591.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913636/george-mogwai_gremlins_silo.png"
         ],
-        "id": "george-mogwai-prop-replica"
+        "id": "george-mogwai-prop-replica",
+        "agotado": true
       },
       {
         "n": "Tracer – Premium Collector Figure",
@@ -7754,7 +7759,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7792,7 +7797,8 @@
           "https://fondjoy.co.uk/wp-content/uploads/2025/09/2_925bbb7c-60c3-4e7e-ac36-fd94dd2bce37.webp",
           "https://fondjoy.co.uk/wp-content/uploads/2025/09/9_1038b20c-e979-465f-9723-964832bcb577.webp"
         ],
-        "id": "superman-krypto-deluxe"
+        "id": "superman-krypto-deluxe",
+        "agotado": true
       },
       {
         "n": "Super Saiyan Son Goku",
@@ -7846,7 +7852,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -7884,7 +7890,8 @@
           "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/tamagotchi_peanuts2.jpg?quality=90&strip=all&w=2400",
           "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/tamagotchi_peanuts3.jpg?quality=90&strip=all&w=2400"
         ],
-        "id": "peanuts-tamagotchi-nano"
+        "id": "peanuts-tamagotchi-nano",
+        "agotado": true
       },
       {
         "n": "Super Saiyan God Son Goku",
@@ -8611,7 +8618,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -8645,7 +8652,8 @@
           "https://darkostore.com/wp-content/uploads/2024/10/19-2-600x600.jpg",
           "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_02-600x750.jpg",
           "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176031_03-600x750.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Goku Daima",
@@ -8659,7 +8667,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -8693,7 +8701,8 @@
           "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_07.jpg",
           "https://darkostore.com/wp-content/uploads/2024/10/19-600x600.jpg",
           "https://darkostore.com/wp-content/uploads/2024/10/FIGURE-176029_02-600x750.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Monkey D. Luffy",
@@ -9405,7 +9414,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -9435,7 +9444,8 @@
           "https://popculture-art.com/wp-content/uploads/2023/11/c6.jpg",
           "https://popculture-art.com/wp-content/uploads/2023/11/c14.jpg",
           "https://popculture-art.com/wp-content/uploads/2023/11/c11.jpg"
-        ]
+        ],
+        "agotado": true
       },
       {
         "n": "Batman The Animated Series Trio",
@@ -28424,7 +28434,7 @@
         "marca": "Hot Toys",
         "escala": "Escala 1:6 - 30CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3700",
         "precio_d": "",
         "reserva": "Q740",
@@ -33564,7 +33574,7 @@
         "precio_d": "",
         "reserva": "Q660",
         "entrega": "Diciembre 2026",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -33719,7 +33729,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914550/hot-toys-james-bond-james-bond-sixth-scale-figure-gallery-683dbb07d7acb.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914550/hot-toys-james-bond-james-bond-sixth-scale-figure-gallery-683dbb08372d7.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Yelena Belova",
@@ -34866,7 +34877,7 @@
         "precio_d": "",
         "reserva": "Q680",
         "entrega": "Noviembre 2026",
-        "cantidad": "0",
+        "cantidad": "1",
         "content": [
           {
             "t": "notion-heading-2",
@@ -34974,7 +34985,7 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc945df7d.jpg"
         ],
         "content_ok": true,
-        "agotado": true
+        "agotado": false
       },
       {
         "n": "Palpatine (Darth Sidious)",
@@ -37648,8 +37659,8 @@
         "l": "https://uv-store-guatemala.super.site/hot-toys-pre-ordenes/scorched-xenomorph",
         "marca": "Hot Toys",
         "escala": "1:6 - 44CM",
-        "estado": "Vendido",
-        "disp": "Pre Orden",
+        "estado": "Nuevo",
+        "disp": "Entrega Inmediata",
         "precio": "4000",
         "precio_d": "",
         "reserva": "Q800",
