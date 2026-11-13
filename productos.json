@@ -3,6 +3,58 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "superman-absolute-1-10-iron-studios-ngttp144",
+        "n": "Superman Absolute 1:10 Art Scale (Iron Studios)",
+        "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd92fd708f.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Iron Studios",
+        "escala": "1:10 - 24CM",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3350",
+        "fotos": [
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd92fd708f.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd9302d8f9.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd9307515d.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd930b9984.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd9310cb88.jpg",
+          "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-scale-697cdb2531b2e.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de Superman en su versión Absolute de DC Comics, de la línea Art Scale 1:10 de Iron Studios. Edición limitada, hecha en polystone y pintada a mano, con gran nivel de detalle. Nueva en su caja."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10 (Art Scale)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Medidas: 24 x 19 x 17 cm aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 1.2 kg aprox."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone, pintado a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-13",
+        "cantidad": "1"
+      },
+      {
         "id": "the-dark-knight-batarang-prop-replica-queen-studios-mwdxqwte",
         "n": "The Dark Knight Batarang – Prop Replica 1:1 (Queen Studios)",
         "i": "https://cdn.shopify.com/s/files/1/0062/8083/9232/files/29.The_Dark_Knight_Batman_1-1_Statue.jpg?v=1696213387",
