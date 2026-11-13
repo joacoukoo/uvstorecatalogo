@@ -400,6 +400,22 @@ function _palabras(s) {
   return new Set(normalize(s).split(/[^a-z0-9]+/).filter(w => w.length >= 2));
 }
 
+// Texto de relleno que traen los nombres de catálogo/proveedor y no identifica la figura:
+// "Scorpion 1:10 Scale Statue", "Aquarius Camus 1:10 Art Scale Statue by Iron Studios".
+const _RELLENO_NOMBRE = new Set(['scale', 'art', 'statue', 'estatua', 'escala', 'figure', 'figura', 'by', 'the', 'de', 'la', 'el', 'and', 'y']);
+
+function _limpiaNombre(s) {
+  return normalize(s)
+    .replace(/\bby\s+[a-z0-9 ]*(studios?|toys|kingdom|sideshow)\b.*$/, ' ') // "by Iron Studios"
+    .replace(/\d+\s*[:/]\s*\d+/g, ' ')                                        // "1:10", "1/6"
+    .replace(/\b\d+\s*cm\b/g, ' ')
+    .replace(/\s+/g, ' ').trim();
+}
+
+function _palabrasClave(s) {
+  return new Set([..._palabras(_limpiaNombre(s))].filter(w => !_RELLENO_NOMBRE.has(w)));
+}
+
 function _coincideParecido(a, b) {
   if (!a || !b) return false;
   const na = normalize(a), nb = normalize(b);
@@ -409,7 +425,17 @@ function _coincideParecido(a, b) {
   // todas las palabras del nombre más corto (al menos 2) presentes en el otro.
   const pa = _palabras(a), pb = _palabras(b);
   const [corta, larga] = pa.size <= pb.size ? [pa, pb] : [pb, pa];
-  return corta.size >= 2 && [...corta].every(w => larga.has(w));
+  if (corta.size >= 2 && [...corta].every(w => larga.has(w))) return true;
+  // Igual que arriba pero sin el relleno ("1:10 Scale Statue"): "Scorpion 1:10 Scale Statue" ≈ "Scorpion (Marvel)".
+  const ka = _palabrasClave(a), kb = _palabrasClave(b);
+  if (!ka.size || !kb.size) return false;
+  const [kc, kl] = ka.size <= kb.size ? [ka, kb] : [kb, ka];
+  return [...kc].every(w => kl.has(w));
+}
+
+function _escalaDesdeNombre(s) {
+  const m = normalize(s).match(/(\d+)\s*[:/]\s*(\d+)/);
+  return m ? m[1] + ':' + m[2] : null;
 }
 
 function _normalizaEscala(s) {
@@ -445,21 +471,46 @@ async function dbBuscarOrdenesSimilares(lote) {
     if (pagina.length < PAGE) break;
   }
 
-  const campos = [
-    { clave: 'nombre', valorLote: lote.producto, coincide: _coincideParecido, valorOrden: o => o.producto },
-    { clave: 'marca', valorLote: lote.marca, coincide: _coincideParecido, valorOrden: o => o.marca },
-    { clave: 'escala', valorLote: lote.escala, coincide: _coincideEscala, valorOrden: o => o.escala },
-  ].filter(c => c.valorLote);
-  const requeridos = Math.min(2, campos.length);
-
+  const escalaLote = lote.escala || _escalaDesdeNombre(lote.producto);
   const conScore = data.map(o => {
-    const motivo = campos.filter(c => c.coincide(c.valorLote, c.valorOrden(o))).map(c => c.clave);
-    return { ...o, _motivo: motivo };
+    const marca = !!lote.marca && _coincideParecido(lote.marca, o.marca);
+    const escala = !!escalaLote && _coincideEscala(escalaLote, o.escala || _escalaDesdeNombre(o.producto));
+    const fuerte = _coincideParecido(lote.producto, o.producto);
+    // Parecido parcial: comparten alguna palabra importante ("Lex Luthor Unleashed" ~ "Lex Luthor & Power Armor").
+    // Solo cuenta si además coincide la marca, para no sugerir cualquier "Batman" de otra marca.
+    const compartidas = fuerte ? 0 : _palabrasCompartidas(lote.producto, o.producto, lote.marca, o.marca);
+    const parcial = !fuerte && marca && compartidas > 0;
+    const motivo = [];
+    if (fuerte) motivo.push('nombre');
+    if (parcial) motivo.push('nombre (parcial)');
+    if (marca) motivo.push('marca');
+    if (escala) motivo.push('escala');
+    // Hace falta algún parecido en el nombre: marca + escala solas traerían todas las Iron Studios 1:10.
+    const ok = (fuerte && (marca || escala || !lote.marca)) || parcial;
+    const score = (fuerte ? 10 : parcial ? 4 + compartidas : 0) + (marca ? 2 : 0) + (escala ? 1 : 0);
+    return { ...o, _motivo: motivo, _ok: ok, _score: score };
   });
 
   return conScore
-    .filter(o => o._motivo.length >= requeridos)
-    .sort((a, b) => b._motivo.length - a._motivo.length);
+    .filter(o => o._ok)
+    .sort((a, b) => b._score - a._score);
+}
+
+// Palabras genéricas que no identifican una figura (aparecen en cualquier versión).
+const _GENERICAS_NOMBRE = new Set(['deluxe', 'dx', 'exclusive', 'exclusiva', 'regular', 'reg', 'version', 'edition',
+  'edicion', 'comics', 'comic', 'vs', 'with', 'con', 'normal', 'bds', 'unleashed', 'diorama', 'bust', 'busto']);
+
+// Palabras que solas no alcanzan ("Plastic Man" no es "Iron Man"), pero sí suman si hay otra en común.
+const _DEBILES_NOMBRE = new Set(['man', 'woman', 'spider', 'super', 'captain', 'black', 'dark', 'red', 'green', 'king', 'mr', 'dr']);
+
+// Cantidad de palabras importantes en común, o 0 si lo compartido es demasiado débil para sugerir.
+function _palabrasCompartidas(a, b, marcaA, marcaB) {
+  const deMarca = new Set([..._palabras(marcaA || ''), ..._palabras(marcaB || '')]);
+  const clave = s => [..._palabrasClave(s)].filter(w => w.length >= 2 && !_GENERICAS_NOMBRE.has(w));
+  const ka = clave(a), kb = clave(b);
+  const comunes = ka.filter(w => kb.some(x => x === w || (w.length >= 5 && _distanciaEdicion(w, x) <= 1)));
+  const fuertes = comunes.filter(w => w.length >= 3 && !deMarca.has(w) && !_DEBILES_NOMBRE.has(w));
+  return (fuertes.length >= 1 || comunes.length >= 2) ? comunes.length : 0;
 }
 
 async function dbVincularOrdenesALote(ordenIds, loteId) {
