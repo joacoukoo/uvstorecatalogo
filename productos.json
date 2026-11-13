@@ -26248,12 +26248,12 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 31CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3600",
         "precio_d": "",
         "reserva": "720",
         "entrega": "Mayo 2027",
-        "cantidad": "1",
+        "cantidad": "2",
         "content": [
           {
             "t": "notion-heading-2",
@@ -35462,12 +35462,12 @@
         "marca": "Hot Toys",
         "escala": "1:6 - 29CM",
         "estado": "Nuevo",
-        "disp": "Pre Orden",
+        "disp": "Entrega Inmediata",
         "precio": "3700",
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Noviembre 2026",
-        "cantidad": "1",
+        "cantidad": "5",
         "content": [
           {
             "t": "notion-heading-2",
@@ -43319,7 +43319,7 @@
         "franquicia": "Otros",
         "marca": "Iron Studios",
         "escala": "1:10",
-        "disp": "Pre-Orden",
+        "disp": "Entrega Inmediata",
         "estado": "Nuevo",
         "precio": "3400",
         "fotos": [
@@ -43395,7 +43395,7 @@
         "agotado_d": false,
         "added_at": "2026-11-04",
         "reserva": "680",
-        "cantidad": "2"
+        "cantidad": "1"
       },
       {
         "id": "batman-vs-bane-statue-mw2dgm0p",
@@ -75330,7 +75330,7 @@
         "franquicia": "Marvel",
         "marca": "Iron Studios",
         "escala": "1:10",
-        "disp": "Pre-Orden",
+        "disp": "Entrega Inmediata",
         "estado": "Nuevo",
         "precio": "3000",
         "fotos": [
@@ -75394,7 +75394,7 @@
         "agotado_d": false,
         "added_at": "2026-09-25",
         "reserva": "600",
-        "cantidad": "2"
+        "cantidad": "1"
       },
       {
         "id": "blue-eyes-white-dragon-diorama-led-collectible-lam-mufwm3e0",
