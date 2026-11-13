@@ -333,6 +333,86 @@ def _detect_sideshow_editions(url, html, soup):
     return result
 
 
+# ── Sideshow: diseño con paneles laterales (2026) ────────────────────────────
+# La info está en <dialog> "Description" (id description-slideout-SKU), "What's In The Box"
+# (whats-in-the-box-slideout) y "Specs & Details" (id specs-details-slideout-SKU).
+_SS_SPECS_UTILES = re.compile(r"^(type|materials?|product size|size|edition size|artist|sculptor|designer|brand|character|scale)$", re.I)
+
+def _ss_txt(el):
+    t = el.get_text(" ", strip=True) if hasattr(el, "get_text") else str(el)
+    t = re.sub(r"[™®©]", "", t)
+    t = re.sub(r"\s+([,.!?])", r"\1", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+def _ss_dialog(scope, id_prefix):
+    d = scope.select_one(f'dialog[id^="{id_prefix}"]')
+    if not d:
+        return None
+    return d.select_one(".section__content-wrapper") or d
+
+def _sideshow_slideouts(scope, soup):
+    """Devuelve (descripcion, features, tipo, fabricante) leyendo los paneles nuevos.
+    "Brand" en Sideshow es la licencia (DC Comics, Star Wars); la marca real es "Manufacturer"."""
+    desc = ""; features = []; tipo = ""; fabricante = ""
+    d = _ss_dialog(scope, "description-slideout")
+    if d:
+        desc = "\n".join(t for t in (_ss_txt(p) for p in d.find_all("p")) if len(t) > 2)[:2500]
+
+    caja = _ss_dialog(scope, "whats-in-the-box-slideout") or _ss_dialog(soup, "whats-in-the-box-slideout")
+    if caja:
+        for el in caja.find_all(["p", "li"]):
+            # Solo el texto propio del <li>, sin su lista anidada (esos ítems salen solos)
+            if el.name == "li":
+                partes = [c for c in el.children if getattr(c, "name", None) not in ("ul", "ol")]
+                t = _ss_txt(BeautifulSoup("".join(str(c) for c in partes), "html.parser"))
+            else:
+                t = _ss_txt(el)
+                if not t.endswith(":"):
+                    continue  # párrafos de introducción ("The X features:") se omiten salvo subtítulos
+            if len(t) > 2 and t not in features:
+                features.append(t)
+
+    specs = _ss_dialog(scope, "specs-details-slideout")
+    if specs:
+        sub = [_ss_txt(li) for ul in specs.select("ul.product_sub-details") for li in ul.find_all("li")]
+        if sub:
+            features.append("Edición: " + ", ".join(sub))
+        for row in specs.select(".dl-row"):
+            dt, dd = row.find("dt"), row.find("dd")
+            if not dt or not dd:
+                continue
+            k = _ss_txt(dt)
+            for br in dd.find_all("br"):
+                br.replace_with(", ")
+            v = ", ".join(_ss_txt(a) for a in dd.find_all("a")) if dd.find("a") and k.lower() != "materials" else _ss_txt(dd)
+            v = re.sub(r"\s*\*\s*$", "", v).strip(" ,")
+            if k.lower() == "type":
+                tipo = v
+            if k.lower() == "manufacturer":
+                fabricante = v
+            if k and v and _SS_SPECS_UTILES.match(k):
+                features.append(f"{'Licencia' if k.lower() == 'brand' else k}: {v}")
+    return desc, features, tipo, fabricante
+
+def _sideshow_escala(name, tipo, features):
+    """Escala tipo "1:10 - 24CM" desde el nombre/Type de la figura (no de toda la página)."""
+    texto = f"{name} {tipo}"
+    m = re.search(r"\b1\s*[:/]\s*(\d{1,2})\b", texto)
+    esc = f"1:{m.group(1)}" if m else ""
+    if not esc:
+        for pat, val in [(r"sixth[\s-]?scale", "1:6"), (r"quarter[\s-]?scale", "1:4"),
+                         (r"half[\s-]?scale", "1:2"), (r"life[\s-]?size", "1:1")]:
+            if re.search(pat, texto, re.I):
+                esc = val; break
+    if not esc:
+        return ""
+    for f in features:
+        if f.lower().startswith(("product size", "size")):
+            cm = re.search(r"Height:[^()]*\((\d+(?:\.\d+)?)\s*cm\)", f, re.I)
+            if cm:
+                return f"{esc} - {cm.group(1)}CM"
+    return esc
+
 def scrape_sideshow(url, html, soup):
     # ── SKU extraction (for photos) ──────────────────────────────────────────
     sku_m = re.search(r'-(\d{6,})\/?(?:\?.*)?$', url)
@@ -375,53 +455,59 @@ def scrape_sideshow(url, html, soup):
         materials_info = meta_el.get("data-product-materials","").strip()
 
     # ── Scope to visible edition section to avoid mixing two editions' content ──
-    info_scope = soup.select_one(".pdp-info__details.visible") or soup
+    info_scope = (soup.select_one(f'.pdp-info__details-wrapper[data-product="{sku}"]') if sku else None) \
+        or soup.select_one(".pdp-info__details-wrapper.visible") \
+        or soup.select_one(".pdp-info__details.visible") or soup
 
-    # ── Description from "About" accordion section ────────────────────────────
-    desc = ""
-    about_sec = info_scope.select_one(".product-details-about .product-details-section__content, "
-                                      ".product-details-about .ui-dropdown--content")
-    if about_sec:
-        for tag in about_sec.find_all(["ul","ol","h2","h3","h4"]): tag.extract()
-        desc = about_sec.get_text(" ", strip=True)[:2500]
+    # ── Diseño actual (2026): paneles laterales Description / What's In The Box / Specs ──
+    desc, features, ss_tipo, ss_fabricante = _sideshow_slideouts(info_scope, soup)
+    if not marca and ss_fabricante:
+        marca = ss_fabricante
+
+    if not desc and not features:
+        # ── Diseño viejo: acordeones "About" / "Details" ─────────────────────────
+        about_sec = info_scope.select_one(".product-details-about .product-details-section__content, "
+                                          ".product-details-about .ui-dropdown--content")
+        if about_sec:
+            for tag in about_sec.find_all(["ul","ol","h2","h3","h4"]): tag.extract()
+            desc = about_sec.get_text(" ", strip=True)[:2500]
+
+        seen_f = set()
+
+        def _add_list_items(container):
+            for ul in container.find_all(["ul","ol"]):
+                for li in ul.find_all("li"):
+                    item = li.get_text(" ", strip=True)
+                    if len(item) > 4 and item.lower() not in seen_f:
+                        seen_f.add(item.lower()); features.append(item)
+
+        # Priority 1: "What's In The Box" — most important for collectors
+        in_box = info_scope.select_one(".product-details-in-the-box")
+        if in_box:
+            _add_list_items(in_box)
+
+        # Priority 2: "Details" and "Additional Details" sections
+        for section in info_scope.select(".product-details-section"):
+            title_el = section.select_one(".product-details-section__title")
+            if not title_el: continue
+            title = title_el.get_text(strip=True).lower()
+            if any(k in title for k in ["detail", "feature", "spec"]):
+                content = section.select_one(".product-details-section__content, .ui-dropdown--content")
+                if content:
+                    _add_list_items(content)
+                    for p in content.find_all("p"):
+                        t = p.get_text(strip=True)
+                        if len(t) > 8 and t.lower() not in seen_f:
+                            seen_f.add(t.lower()); features.append(t)
+
+        # Append size/materials from data-* if not already captured
+        if size_info and size_info.lower() not in seen_f:
+            features.append(f"Tamaño: {size_info}")
+        if materials_info and materials_info.lower() not in seen_f:
+            features.append(f"Materiales: {materials_info}")
+
     if not desc:
         desc = _get_desc(soup)
-
-    # ── Features from accordion sections (scoped to visible edition) ──────────
-    features = []; seen_f = set()
-
-    def _add_list_items(container):
-        for ul in container.find_all(["ul","ol"]):
-            for li in ul.find_all("li"):
-                item = li.get_text(" ", strip=True)
-                if len(item) > 4 and item.lower() not in seen_f:
-                    seen_f.add(item.lower()); features.append(item)
-
-    # Priority 1: "What's In The Box" — most important for collectors
-    in_box = info_scope.select_one(".product-details-in-the-box")
-    if in_box:
-        _add_list_items(in_box)
-
-    # Priority 2: "Details" and "Additional Details" sections
-    for section in info_scope.select(".product-details-section"):
-        title_el = section.select_one(".product-details-section__title")
-        if not title_el: continue
-        title = title_el.get_text(strip=True).lower()
-        if any(k in title for k in ["detail", "feature", "spec"]):
-            content = section.select_one(".product-details-section__content, .ui-dropdown--content")
-            if content:
-                _add_list_items(content)
-                for p in content.find_all("p"):
-                    t = p.get_text(strip=True)
-                    if len(t) > 8 and t.lower() not in seen_f:
-                        seen_f.add(t.lower()); features.append(t)
-
-    # Append size/materials from data-* if not already captured
-    if size_info and size_info.lower() not in seen_f:
-        features.append(f"Tamaño: {size_info}")
-    if materials_info and materials_info.lower() not in seen_f:
-        features.append(f"Materiales: {materials_info}")
-
     if not features:
         features = _get_features(soup)
 
@@ -442,7 +528,8 @@ def scrape_sideshow(url, html, soup):
     name = _get_name(soup)
     if not marca:
         marca = _get_marca(name, html, "sideshow.com", features)
-    result = _build_result(name, desc, features, unique[:8], _get_escala(html), marca, "", url)
+    escala = _sideshow_escala(name, ss_tipo, features) or _get_escala(html)
+    result = _build_result(name, desc, features, unique[:8], escala, marca, "", url)
     if entrega:
         result["entrega"] = entrega
 

@@ -252,6 +252,77 @@ function extractDeluxeVariantSku(ndRaw, currentSku, html = '') {
   return null;
 }
 
+// ── Diseño actual de Sideshow (2026): la info está en paneles laterales <dialog> ──
+// "Description" (id description-slideout-SKU), "What's In The Box" (whats-in-the-box-slideout)
+// y "Specs & Details" (id specs-details-slideout-SKU). Cada edición de la página tiene su
+// propio bloque <div class="pdp-info__details-wrapper" data-product="SKU">.
+const _SS_ENT = { rsquo: "'", lsquo: "'", rdquo: '"', ldquo: '"', hellip: '...', ndash: '-', mdash: '-' };
+const _SS_TXT = s => decodeHtml(s.replace(/<[^>]+>/g, ' ').replace(/&trade;|&reg;|&copy;|[™®©]/g, '')
+  .replace(/&(rsquo|lsquo|rdquo|ldquo|hellip|ndash|mdash);/g, (_, e) => _SS_ENT[e]))
+  .replace(/\s+([,.!?])/g, '$1').replace(/\s+/g, ' ').trim();
+
+// Specs que sirven para la ficha; el resto (SKU, UPC, límites de compra, caja, envío) se descarta.
+const _SS_SPECS_UTILES = /^(type|materials?|product size|size|edition size|artist|sculptor|designer|brand|character|scale)$/i;
+
+function _ssScope(html, sku) {
+  if (!sku) return html;
+  const ini = html.search(new RegExp(`<div[^>]*pdp-info__details-wrapper[^>]*data-product=["']${sku}["']`, 'i'));
+  if (ini === -1) return html;
+  const fin = html.indexOf('pdp-info__details-wrapper', ini + 40);
+  return fin === -1 ? html.slice(ini) : html.slice(ini, fin);
+}
+
+function _ssDialog(scope, idPrefix) {
+  const m = scope.match(new RegExp(`<dialog[^>]*id=["']${idPrefix}[^"']*["'][^>]*>([\\s\\S]*?)</dialog>`, 'i'));
+  if (!m) return '';
+  // Sin el encabezado del panel (título + botón "Close Modal")
+  return m[1].replace(/<div[^>]*class="[^"]*slideout__header[^"]*"[^>]*>[\s\S]*?<!--\s*\/\.slideout__header\s*-->/i, '');
+}
+
+// Párrafos y viñetas en el orden en que aparecen. El texto de cada <p>/<li> llega hasta el
+// siguiente <p>, <li>, <ul>, </p> o </li>, así una lista anidada no se pega con su ítem padre.
+function _ssTextoOrdenado(bloque) {
+  const out = [];
+  for (const m of bloque.matchAll(/<(p|li)\b[^>]*>([\s\S]*?)(?=<\/?(?:p|li|ul|ol)\b)/gi)) {
+    const t = _SS_TXT(m[2]);
+    if (t.length > 2) out.push(m[1].toLowerCase() === 'p' ? t : '- ' + t);
+  }
+  return [...new Set(out)].join('\n');
+}
+
+export function extractSideshowSlideouts(html, sku) {
+  const scope = _ssScope(html, sku);
+  const secciones = [];
+
+  const descBloque = _ssDialog(scope, 'description-slideout');
+  const about = descBloque ? _ssTextoOrdenado(descBloque) : '';
+  if (about.length > 30) secciones.push({ label: 'About', text: about });
+
+  const cajaBloque = _ssDialog(scope, 'whats-in-the-box-slideout') || _ssDialog(html, 'whats-in-the-box-slideout');
+  const caja = cajaBloque ? _ssTextoOrdenado(cajaBloque) : '';
+  if (caja.length > 30) secciones.push({ label: "What's In The Box", text: caja });
+
+  const specsBloque = _ssDialog(scope, 'specs-details-slideout');
+  let tipo = '';
+  if (specsBloque) {
+    const lineas = [];
+    const sub = [...specsBloque.matchAll(/<ul[^>]*class="[^"]*product_sub-details[^"]*"[^>]*>([\s\S]*?)<\/ul>/gi)]
+      .flatMap(m => [...m[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)].map(x => _SS_TXT(x[1])));
+    if (sub.length) lineas.push('- Edición: ' + sub.join(', '));
+    for (const m of specsBloque.matchAll(/<dt[^>]*>([\s\S]*?)<\/dt>\s*<dd[^>]*>([\s\S]*?)<\/dd>/gi)) {
+      const k = _SS_TXT(m[1]);
+      // Valores con varios <a>/<br> → separados por coma
+      const v = _SS_TXT(m[2].replace(/<\/a>\s*<a/gi, '</a>, <a').replace(/<br\s*\/?>/gi, ', ').replace(/\*\s*$/, ''))
+        .replace(/\s*\*\s*$/, '').replace(/,\s*,/g, ',');
+      if (/^type$/i.test(k)) tipo = v;
+      // "Brand" en Sideshow es la licencia (DC Comics, Star Wars), no el fabricante
+      if (k && v && _SS_SPECS_UTILES.test(k)) lineas.push(`- ${/^brand$/i.test(k) ? 'Licencia' : k}: ${v}`);
+    }
+    if (lineas.length) secciones.push({ label: 'Details', text: lineas.join('\n') });
+  }
+  return { secciones, tipo };
+}
+
 export async function scrapeSideshow(url, html) {
   const varMatch = url.match(/[?&](?:var|sku)=(\d{5,})/i);
   const pathMatch = url.match(/-(\d{6,})\/?(?:\?.*)?$/);
@@ -290,9 +361,17 @@ export async function scrapeSideshow(url, html) {
     [/\b1\s*[/:]\s*10\b/i, '1:10'],
     [/\b1\s*[/:]\s*12\b/i, '1:12'],
   ];
+  // Paneles del diseño actual (Description / What's In The Box / Specs & Details)
+  const slideouts = extractSideshowSlideouts(html, sku);
+
+  // Escala: primero del nombre y del "Type" de esta figura; buscar en toda la página trae
+  // falsos positivos de los productos relacionados ("Sixth Scale Figure Set" al pie).
   let escala = '';
-  for (const [re, label] of scaleMap) {
-    if (re.test(html)) { escala = label; break; }
+  for (const fuente of [name + ' ' + slideouts.tipo, html]) {
+    for (const [re, label] of scaleMap) {
+      if (re.test(fuente)) { escala = label; break; }
+    }
+    if (escala) break;
   }
 
   // ── Texto limpio del HTML (sin tags) para búsquedas ──
@@ -412,7 +491,9 @@ export async function scrapeSideshow(url, html) {
   let desc = '';
   {
     const ndSections = nextDataM ? extractNextDataSections(nextDataM[1]) : [];
-    const htmlSections = extractHtmlSections(html);
+    // Con los paneles nuevos no hace falta la búsqueda por palabras en el HTML (que agarraba
+    // textos de envío/devoluciones como "Details"); queda solo para el diseño viejo.
+    const htmlSections = slideouts.secciones.length ? slideouts.secciones : extractHtmlSections(html);
 
     // Preferir __NEXT_DATA__ (más completo), complementar con HTML
     const allSections = [...ndSections];
