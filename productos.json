@@ -5204,7 +5204,7 @@
         "precio_d": "",
         "reserva": "",
         "entrega": "",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-text",
@@ -5250,7 +5250,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98338645c2.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910487/peacemaker_dc-comics_gallery_62d98338bb8aa.jpg"
         ],
-        "id": "peacemaker-season-1"
+        "id": "peacemaker-season-1",
+        "agotado": true
       },
       {
         "n": "Darth Sidious",
