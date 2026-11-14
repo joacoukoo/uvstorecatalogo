@@ -90317,6 +90317,99 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "pokemon-tcg-mega-evolution-delta-reign-elite-train-mwgqbj4u",
+        "n": "Pokémon TCG: Mega Evolution-Delta Reign Elite Trainer Box (INGLES)",
+        "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10438-112_01.jpg",
+        "franquicia": "Otros",
+        "marca": "The Pokémon Company",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "550",
+        "fotos": [
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10438-112_01.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10438-112_02.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10438-112_03.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10438-112_04.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10438-112_05.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10438-112_06.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Caja de entrenador élite oficial con 11 sobres de expansión Mega Evolution-Delta Reign, incluyendo cartas promocionales brillantes de Kyogre y accesorios de juego completos. Desata el poder de legendarios como Mega Rayquaza ex, Mega Golurk ex, Mega Malamar ex y Mega Golisopod ex en este conjunto premium sellado. Perfecto para coleccionistas y jugadores que buscan expandir su colección con cartas de alta calidad y contenido exclusivo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: 11 sobres de 10 cartas cada uno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye energías básicas y códigos Pokémon TCG Live"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cartas promocionales: 2 Kyogre full-art foil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "11 sobres de expansión Mega Evolution-Delta Reign"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta promocional Kyogre full-art foil con logo Pokémon Center"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 carta promocional Kyogre full-art foil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "65 fundas de cartas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "40 cartas de Energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guía del jugador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 dados contador de daño"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 dado de moneda de juego legal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "1 moneda de plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de almacenamiento con 6 divisores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Código para Pokémon Trading Card Game Live"
+          },
+          {
+            "t": "notion-text",
+            "x": "El precio de este producto solo aplica pagando en transferencia o depósito. Pago con tarjeta tiene recargo. Envío NO incluido. Costo de envío Q35 o puede retirar por la tienda en Zona 10."
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-14",
+        "reserva": "0",
+        "cantidad": "9"
+      },
+      {
         "id": "pokemon-tcg-mega-evolution-delta-reign-booster-bun-mwgq8osb",
         "n": "Pokémon TCG: Mega Evolution—Delta Reign Booster Bundle (6 Packs) (INGLES)",
         "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10439-109_01.jpg",
