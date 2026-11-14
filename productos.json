@@ -90317,6 +90317,63 @@
     "slug": "tcg",
     "products": [
       {
+        "id": "pokemon-tcg-mega-evolution-delta-reign-booster-bun-mwgq8osb",
+        "n": "Pokémon TCG: Mega Evolution—Delta Reign Booster Bundle (6 Packs) (INGLES)",
+        "i": "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10439-109_01.jpg",
+        "franquicia": "Otros",
+        "marca": "Pokémon Center",
+        "escala": "",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "300",
+        "fotos": [
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10439-109_01.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10439-109_02.jpg",
+          "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10439-109_03.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Seis paquetes de expansión Mega Evolution—Delta Reign sellados y oficiales del juego de cartas coleccionables Pokémon. Cada sobre contiene 10 cartas, 1 energía básica y 1 código Pokémon TCG Live. Una oportunidad imprescindible para obtener poderosos Pokémon Mega Evolution como Rayquaza ex, Golurk ex, Malamar ex y Golisopod ex."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Contenido: 6 paquetes de 10 cartas cada uno"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Cartas de papel de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Incluye: 1 energía básica y 1 código Pokémon TCG Live por paquete"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 paquetes de booster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 cartas de energía básica"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 códigos Pokémon TCG Live"
+          },
+          {
+            "t": "notion-text",
+            "x": "El precio de este producto solo aplica pagando en transferencia o depósito. Pago con tarjeta tiene recargo. Envío NO incluido. Costo de envío Q35 o puede retirar por la tienda en Zona 10."
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-14",
+        "cantidad": "24"
+      },
+      {
         "id": "foluck-trading-card-storage-box-commander-display-mwdxjnfx",
         "n": "Caja para Cartas Foluck con Display Commander (4200+ cartas)",
         "i": "https://m.media-amazon.com/images/I/71dZXO9re3L._AC_SL1500_.jpg",
