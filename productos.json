@@ -33184,7 +33184,7 @@
         "precio_d": "",
         "reserva": "Q760",
         "entrega": "Febrero 2027",
-        "cantidad": "1",
+        "cantidad": "0",
         "content": [
           {
             "t": "notion-heading-2",
@@ -33287,7 +33287,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e6197210.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914701/hot-toys-marvel-the-thing-sixth-scale-figure-gallery-687a7e61ef69a.jpg"
         ],
-        "content_ok": true
+        "content_ok": true,
+        "agotado": true
       },
       {
         "n": "Superior Iron Man",
