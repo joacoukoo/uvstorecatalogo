@@ -42969,9 +42969,8 @@
         ],
         "destacado": true,
         "oferta": false,
-        "agotado": false,
-        "agotado_r": false,
-        "agotado_d": false,
+        "agotado": true,
+        "agotado_r": true,
         "added_at": "2026-11-05",
         "origen": "https://www.fanaticanimestore.com/pre-order-dream-studio-1-6-1-4-young-link-ocarina-of-time-remake-with-led/",
         "entrega": "Q3 2027",
@@ -42981,11 +42980,12 @@
             "label": "1:4",
             "precio": "9600",
             "reserva": "1920",
-            "escala": "1:4"
+            "escala": "1:4",
+            "agotado": true
           }
         ],
         "cantidad": "4",
-        "preorden_mes": true
+        "agotado_d": false
       },
       {
         "id": "miss-fortune-the-bounty-hunter-1-6-statue-mw2e02pi",
