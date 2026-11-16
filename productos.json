@@ -90395,12 +90395,12 @@
         ],
         "destacado": false,
         "oferta": false,
-        "agotado": false,
+        "agotado": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-14",
         "reserva": "0",
-        "cantidad": "8"
+        "cantidad": "0"
       },
       {
         "id": "pokemon-tcg-mega-evolution-delta-reign-booster-bun-mwgq8osb",
@@ -90453,11 +90453,11 @@
         ],
         "destacado": false,
         "oferta": false,
-        "agotado": false,
+        "agotado": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-14",
-        "cantidad": "24"
+        "cantidad": "0"
       },
       {
         "id": "foluck-trading-card-storage-box-commander-display-mwdxjnfx",
