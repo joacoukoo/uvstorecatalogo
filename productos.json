@@ -155,8 +155,7 @@
         "agotado_d": false,
         "added_at": "2026-11-12",
         "cantidad": "1",
-        "precio_orig": "16500",
-        "preorden_mes": true
+        "precio_orig": "16500"
       },
       {
         "id": "lebron-james-lakers-real-masterpiece-1-6-mwdxbwsw",
@@ -40703,13 +40702,12 @@
       {
         "id": "link-ocarina-of-time-weapons-and-ocarina-set-statu-mwkalsvm",
         "n": "Link - Ocarina of Time Weapons and Ocarina Set Statue",
-        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bUIO5iQXIFY_LI1BztIHQ1794814490129.jpg",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDKL5Oi2fVGfaqZgcZ6Eu1794814485444.jpg",
         "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDKL5Oi2fVGfaqZgcZ6Eu1794814485444.jpg",
           "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bUIO5iQXIFY_LI1BztIHQ1794814490129.jpg",
-          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dLdvAeqqdBbZ8mZvKcB_31794814480487.jpg",
-          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tBNVko0eN6mVdMnvTxHiy1794814485443.jpg",
           "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mbJclsEJuuQobT3hCgHp81794814485444.jpg",
-          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDKL5Oi2fVGfaqZgcZ6Eu1794814485444.jpg"
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dLdvAeqqdBbZ8mZvKcB_31794814480487.jpg"
         ],
         "franquicia": "Gaming",
         "marca": "Wu Shi Mo Wan Studio",
@@ -40752,11 +40750,10 @@
             "x": "Ocarina of Time"
           }
         ],
-        "destacado": false,
+        "destacado": true,
         "oferta": false,
         "agotado": false,
         "agotado_r": false,
-        "agotado_d": false,
         "added_at": "2026-11-17",
         "origen": "https://www.nonasea.com/api/customer/shop/product/35765",
         "entrega": "2027 Q2",
@@ -40802,7 +40799,9 @@
             ],
             "detalle": "Espada Kokiri, Escudo Deku y Ocarina of Time con bases"
           }
-        ]
+        ],
+        "preorden_mes": true,
+        "agotado_d": false
       },
       {
         "id": "godzilla-vs-king-ghidorah-poster-version-collectib-mwcllbfg",
