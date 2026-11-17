@@ -41641,7 +41641,7 @@
         "escala": "",
         "disp": "Pre-Orden",
         "estado": "Nuevo",
-        "precio": "10400",
+        "precio": "10800",
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003056_169_82__30810_93f3d6e1-5ef8-47b0-bbab-35ed59e21456.webp?v=1793985384",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/20261107003057_170_82__14810_72d894c5-8517-4cbe-82c9-fe9e3a9ad38a.webp?v=1793985384",
@@ -41703,9 +41703,9 @@
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-10",
-        "precio_d": "14800",
-        "reserva": "2080",
-        "reserva_d": "2960",
+        "precio_d": "16000",
+        "reserva": "2160",
+        "reserva_d": "3200",
         "entrega": "Q3 2027",
         "cantidad": "2"
       },
