@@ -40701,6 +40701,110 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "link-ocarina-of-time-weapons-and-ocarina-set-statu-mwkalsvm",
+        "n": "Link - Ocarina of Time Weapons and Ocarina Set Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bUIO5iQXIFY_LI1BztIHQ1794814490129.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/bUIO5iQXIFY_LI1BztIHQ1794814490129.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dLdvAeqqdBbZ8mZvKcB_31794814480487.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tBNVko0eN6mVdMnvTxHiy1794814485443.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mbJclsEJuuQobT3hCgHp81794814485444.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDKL5Oi2fVGfaqZgcZ6Eu1794814485444.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Wu Shi Mo Wan Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3600",
+        "reserva": "720",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Réplica premium de los iconónicos equipos de Link en Ocarina of Time, elaborada en resina importada y PU de alta calidad. Cada pieza captura los detalles característicos del juego clásico de Nintendo, perfecta para coleccionistas de The Legend of Zelda. Disponible en versiones individuales o combo completo para armar la colección definitiva."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espada Kokiri: 39 cm (H) x 69 cm (W) x 32 cm (D)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escudo Deku: 51 cm (H) x 46 cm (W) x 25 cm (D)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ocarina: 15 cm (H) x 18 cm (W) x 14 cm (D)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición (Espada Kokiri)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición (Escudo Deku)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ocarina of Time"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-17",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/35765",
+        "entrega": "2027 Q2",
+        "label_base": "Kokiri Sword",
+        "detalle_base": "Espada Kokiri con base de exhibición",
+        "variantes": [
+          {
+            "label": "Deku Shield",
+            "precio": "3600",
+            "reserva": "720",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jkdgSNc426Dg3DuQvkZ9k1794814494573.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dLdvAeqqdBbZ8mZvKcB_31794814480487.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tBNVko0eN6mVdMnvTxHiy1794814485443.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mbJclsEJuuQobT3hCgHp81794814485444.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDKL5Oi2fVGfaqZgcZ6Eu1794814485444.jpg"
+            ],
+            "detalle": "Escudo Deku con base de exhibición"
+          },
+          {
+            "label": "Ocarina of Time",
+            "precio": "1750",
+            "reserva": "350",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zChHhd0BcYs_K5U6JWB2E1794814497831.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dLdvAeqqdBbZ8mZvKcB_31794814480487.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tBNVko0eN6mVdMnvTxHiy1794814485443.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mbJclsEJuuQobT3hCgHp81794814485444.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDKL5Oi2fVGfaqZgcZ6Eu1794814485444.jpg"
+            ],
+            "detalle": "Ocarina of Time"
+          },
+          {
+            "label": "Combo",
+            "precio": "7600",
+            "reserva": "1520",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/SzmvG5XOQzVsS0i-BQsn71794814501187.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dLdvAeqqdBbZ8mZvKcB_31794814480487.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tBNVko0eN6mVdMnvTxHiy1794814485443.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/mbJclsEJuuQobT3hCgHp81794814485444.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eDKL5Oi2fVGfaqZgcZ6Eu1794814485444.jpg"
+            ],
+            "detalle": "Espada Kokiri, Escudo Deku y Ocarina of Time con bases"
+          }
+        ]
+      },
+      {
         "id": "godzilla-vs-king-ghidorah-poster-version-collectib-mwcllbfg",
         "n": "Godzilla vs. King Ghidorah Poster Version Collectible Figure",
         "i": "https://www.sideshow.com/storage/product-images/916300/x-plus-godzilla-godzilla-vs-king-ghidorah-poster-version-collectible-figure-feature.jpg",
