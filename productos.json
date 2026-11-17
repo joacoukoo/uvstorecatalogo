@@ -12949,7 +12949,8 @@
         "added_at": "2026-09-03",
         "reserva": "1060",
         "entrega": "Diciembre 2026",
-        "cantidad": "2"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "the-walking-dead-daryl-dixon-mtlz0bmr",
@@ -13048,7 +13049,8 @@
         "added_at": "2026-09-03",
         "reserva": "1100",
         "entrega": "Marzo 2027",
-        "cantidad": "2"
+        "cantidad": "0",
+        "agotado": true
       },
       {
         "id": "bruce-lee-yellow-jumpsuit-mt36pgzl",
