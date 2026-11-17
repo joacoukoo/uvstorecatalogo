@@ -90815,12 +90815,12 @@
         ],
         "destacado": false,
         "oferta": false,
-        "agotado": false,
+        "agotado": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-11",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "0"
       },
       {
         "id": "sylveon-ex-30th-celebration-box-espa-ol-mwcfwfxz",
