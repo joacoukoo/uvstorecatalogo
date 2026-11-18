@@ -10332,6 +10332,964 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "winter-soldier-1-6-figure-mwme1ng1",
+        "n": "Winter Soldier 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c3eb9f2.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c3eb9f2.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c44d0cb.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c4a4d10.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c506595.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c565c8c.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c5ba886.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c61be84.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c673a28.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c6d0909.jpg",
+          "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c738040.jpg"
+        ],
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "reserva": "700",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de lujo que captura al Winter Soldier en su nueva aparición de la serie Marvel Studios con precisión cinematográfica. Incluye el icónico brazo prostético mecánico, traje táctico detallado y múltiples manos intercambiables para infinitas posibilidades de poses. Un must-have para coleccionistas que buscan traer la acción del MCU a sus vitrinas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina (cabeza), tela y plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con rostro de Sebastian Stan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje táctico azul y azul marino"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazo prostético mecánico con detalles metalizado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 manos intercambiables (puños, manos abiertas, para armas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Metralleta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Daga"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de figura con placa de nombre"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/marvel-winter-soldier-hot-toys-908033"
+      },
+      {
+        "id": "vision-1-6-figure-mwme1ng1",
+        "n": "Vision 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d360033.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d360033.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d76466d.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d709cd0.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d87337e.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d8c857f.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d420f07.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d4ce594.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e0d6a2bc0.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e12455eaa.jpg",
+          "https://www.sideshow.com/storage/product-images/907936/vision-sixth-scale-figure-by-hot-toys_marvel_gallery_6046e1251f97e.jpg"
+        ],
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3450",
+        "reserva": "690",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de Vision basada en su icónico aparecimiento en WandaVision, con escultura de cabeza pintada a mano y tono de piel metálico rojo-violeta. Cuerpo altamente poseable con más de 30 puntos de articulación y traje completo con capa, gauntlets y botas detalladamente tailoreados. Incluye seis pares de manos intercambiables y base temática con telón de fondo Hex para recrear escenas de la serie."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Tela, resina, plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 30"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza con Stone of Mind"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje teal con detalles rojo-violeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa amarilla con patrones y detalles rojo-violeta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gauntlets rojo-violeta y dorados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas rojo-violeta y doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables (puños, relajadas, abiertas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de figura con nombre del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Telón de fondo temático Hex"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/marvel-vision-hot-toys-907936"
+      },
+      {
+        "id": "iron-man-mark-lxxxv-battle-damaged-1-6-figure-mwme1ng1",
+        "n": "Iron Man Mark LXXXV Battle Damaged 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d36231184330.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d36231184330.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_scale_641894788dc04.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d3623149c4b9.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d362314ecd05.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d3623144e7e5.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d362311e163b.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d3623124147f.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d3623154a9d6.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d3623159a718.jpg",
+          "https://www.sideshow.com/storage/product-images/904923/iron-man-mark-lxxxv-battle-damaged-version_marvel_gallery_5d362315ed98d.jpg"
+        ],
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4450",
+        "reserva": "890",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de colección definitiva del icónico traje Mark LXXXV de Tony Stark en su momento más épico de Avengers: Endgame. Presenta dos cabezas intercambiables —una con daño de batalla y otra casco iluminado— y múltiples efectos LED que iluminan todo el armadura. Con 16 puntos de luz LED, armadura dañada auténtica y la Nano Gauntlet funcional, es la pieza central imprescindible para cualquier coleccionista de Iron Man."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Aleación de zinc con elementos colada a presión"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "16 puntos LED (luz blanca, con batería)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza sin casco pintada a mano con detalles de barba y textura de piel"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza dañada en batalla con escultura realista de Robert Downey Jr."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con casco intercambiable con LED integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "3 pares de manos intercambiables (puños, dedos articulados con repulsores LED, manos de batalla con LED)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Nano Gauntlet dañada con 6 Infinity Stones iluminados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de lanzadores de garras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de diorama temática de roca con efectos dinámicos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Aletas traseras articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pechera de pecho desmontable con detalle mecánico interior"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/marvel-iron-man-mark-lxxxv-battle-damaged-version-hot-toys-904923"
+      },
+      {
+        "id": "batgirl-purple-and-gold-version-1-6-figure-mwme1ng2",
+        "n": "Batgirl (Purple and Gold Version) 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b0935c1.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b0935c1.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_scale_66e876b42c2c6.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b116ec7.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b1644b6.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b1b1d4e.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b20db2c.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b289a03.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b2d66d7.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b33054f.jpg",
+          "https://www.sideshow.com/storage/product-images/913513/batgirl-purple-and-gold-version_dc-comics_gallery_66e876b37c0a9.jpg"
+        ],
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3750",
+        "reserva": "750",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Celebra el 30 aniversario de Sideshow con esta espectacular figura de Batgirl en escala 1/6 inspirada en Batman: Arkham Knight. Su exclusivo esquema púrpura y oro metalizado la convierte en una pieza imprescindible para coleccionistas de DC Comics. Con más de 28 puntos de articulación, múltiples cabezas intercambiables y un arsenal completo de gadgets, esta edición limitada a 2,000 unidades es un verdadero tesoro para los fans del Caballero Oscuro."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 28+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: 10 pares"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con cowl pintada y 2 rostros intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabello de tela marrón rojizo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje púrpura con logo dorado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa púrpura y dorada con alambre integrado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cinturón de utilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guanteletes dorados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas doradas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Batarangs"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grapnel gun con Batclaw"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Remote Hacking Device"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/dc-comics-batgirl-purple-and-gold-version-hot-toys-913513"
+      },
+      {
+        "id": "grogu-1-6-sixth-scale-collectible-figure-set-mwme1ng2",
+        "n": "Grogu 1/6 Sixth Scale Collectible Figure Set",
+        "i": "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b109e44c.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b109e44c.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b11c13c1.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b12de1f2.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b14b3b44.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b15c9045.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b1159f37.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b122a483.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b12850f5.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b139d2d7.jpg",
+          "https://www.sideshow.com/storage/product-images/908288/grogu-sixth-scale-figure-set_star-wars_gallery_60909b14020b6.jpg"
+        ],
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2500",
+        "reserva": "500",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Un set coleccionable premium que presenta a Grogu en tres poses diferentes con expresiones faciales únicas y detalladas. Incluye accesorios icónicos de la serie The Mandalorian como el flotante, una loth-cat y una rana de Sorgan para completar tu colección Star Wars."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, tela y metal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras articuladas con función magnética"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabados pintados a mano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grogu envuelto en manta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grogu sentado con expresión normal (con función magnética)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Grogu sentado con boca abierta (con función magnética)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Flotante metalizado con manta y cubierta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de almacenamiento con efectos de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Loth-cat"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rana de Sorgan"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos pedestales especiales para flotante"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/star-wars-grogu-hot-toys-908288"
+      },
+      {
+        "id": "the-vision-1-6-figure-mwme1ng2",
+        "n": "The Vision 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b16b746.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b16b746.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b1cceb9.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b242c86.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b2aa228.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b3058d1.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b360800.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b3b9a44.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b418eb0.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b46c5bf.jpg",
+          "https://www.sideshow.com/storage/product-images/908787/the-vision_marvel_gallery_60df39b4c1083.jpg"
+        ],
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3450",
+        "reserva": "690",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura articulada de The Vision de WandaVision con cabeza esculpida en blanco degradado y LED iluminado en la frente. Incluye dos juegos de ojos intercambiables, traje blanco texturizado con capa, y múltiples manos para recrear las icónicas escenas de combate. Cuerpo altamente articulado con más de 30 puntos de movimiento y accesorios de rayo de energía."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31,5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Más de 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza esculpida con función LED (requiere pilas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 juegos de ojos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 pares de manos intercambiables (puños, relajadas, abiertas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje blanco texturizado con capa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Guanteletes blancos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas blancas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorio de rayo de energía"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con nombre del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/marvel-the-vision-hot-toys-908787"
+      },
+      {
+        "id": "silver-centurion-armor-suit-up-version-1-6-figure-mwme1ng2",
+        "n": "Silver Centurion (Armor Suit Up Version) 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb3d425e.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb3d425e.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb453d66.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb533f6d.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb598a07.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb6699ae.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb797d16.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb80899d.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb8ddd09.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebb9b2e2f.jpg",
+          "https://www.sideshow.com/storage/product-images/909463/silver-centurion-armor-suit-up-version_marvel_gallery_6155ebba23408.jpg"
+        ],
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5150",
+        "reserva": "1030",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El legendario Mark XXXIII Silver Centurion de Iron Man 3 cobra vida con esta figura articulada de Hot Toys que simula el proceso de equipamiento de la armadura en tiempo real. Presenta 10 puntos de iluminación LED distribuidos por todo el cuerpo, detalles metalizado en rojo y plata, y dos cabezas intercambiables con distintos niveles de detalle y daño de batalla. Una obra maestra de ingeniería y diseño que captura la belleza mecánica de uno de los trajes más icónicos de la Iron Legion."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm (12.6\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Diecast y plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Iluminación LED: 10 puntos (operados por USB y batería)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabezas intercambiables: Stark con daño de batalla y casco con LED desacoplable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables: Manos articuladas con repulsores luminosos y puños cerrados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza de Tony Stark dañada con casco"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con casco LED y máscara desacoplable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de armadura modulares (pecho, hombros, antebrazos, muslos, rodilleras, pantorrillas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Par de cuchillas diecast para antebrazos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con logo de película y placa del personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/marvel-silver-centurion-armor-suit-up-version-hot-toys-909463"
+      },
+      {
+        "id": "tony-stark-mark-v-suit-up-version-1-6-figure-mwme1ng2",
+        "n": "Tony Stark Mark V Suit up Version 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa4defc17.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa4defc17.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa4e56cbe.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa4eb8499.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa4f1be14.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa4f738dc.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa4fcbf0f.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa502f779.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa5085ce8.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa50daf43.jpg",
+          "https://www.sideshow.com/storage/product-images/908410/tony-stark-mark-v-suit-up-version_marvel_gallery_609caa513adff.jpg"
+        ],
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4750",
+        "reserva": "950",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable de Tony Stark en su icónico traje de carreras, basada en la escena de ensamblaje del Mark V en Iron Man 2. Incluye piezas de armadura articuladas que permiten recrear el proceso de transformación, con iluminación LED en el reactor arc y antebrazos. Réplica cinematográfica de lujo con más de 30 puntos de articulación y escultura de cabeza dañada en batalla con auténtico parecido a Robert Downey Jr."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31 cm (12.2\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 30+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Funciones: Iluminación LED en pecho y antebrazos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura de cabeza con daño de batalla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje de carreras azul y negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco Mark V completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura pectoral articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura dorsal articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hombreras articuladas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blindajes de brazos articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Blindajes de pantorrilla articulados"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armaduras intercambiables para diferentes configuraciones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos con dedos articulados e iluminación LED en repulsores"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tres pares de manos intercambiables (puños, sosteniendo maletín, relajadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con logo de película y placa de personaje"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/marvel-tony-stark-mark-v-suit-up-version-hot-toys-908410"
+      },
+      {
+        "id": "beetlejuice-1-6-figure-mwme1ng2",
+        "n": "Beetlejuice 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86ae01e6.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86ae01e6.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_scale_66d9caa42523b.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86bb737c.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c87118d73.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86c47880.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86b51d92.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86ccb58e.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86d3a50d.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86d9c063.jpg",
+          "https://www.sideshow.com/storage/product-images/913765/beetlejuice_beetlejuice_gallery_66d9c86e10696.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4750",
+        "reserva": "950",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura de colección más icónica del Señor de los Espíritus regresa con una calidad sin precedentes. Con dos cabezas intercambiables, una con sistema de ojos rodantes y otra con expresión burlona, además de su legendario traje a rayas blanco y negro con efectos de desgaste. Incluye accesorios de película como el periódico del Más Allá, el Manual para los Recién Fallecidos y ocho pares de manos intercambiables."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Tela, resina, cabello de lana"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30 puntos de movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dos cabezas intercambiables con sistema de ojos rodantes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ocho pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Traje a rayas blanco y negro con camisa y corbata"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Calcetines rojos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos negros"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "El Afterlife newspaper"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Handbook for the Recently Deceased"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Corazón"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Reloj"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pulsera"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Micrófono"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lima de uñas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama con tema de lápida"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/beetlejuice-beetlejuice-hot-toys-913765"
+      },
+      {
+        "id": "anakin-skywalker-and-stap-1-6-figure-set-mwme1ng2",
+        "n": "Anakin Skywalker and STAP 1/6 Figure Set",
+        "i": "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc26e12b.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc26e12b.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_scale_6411f8b9710ab.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc5214c6.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc372e61.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc4a0765.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc2ecbd6.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc711551.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacc8be696.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacf020f1b.jpg",
+          "https://www.sideshow.com/storage/product-images/906795/anakin-skywalker-and-stap_star-wars_gallery_63daacf0b83b0.jpg"
+        ],
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4650",
+        "reserva": "930",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el campo de batalla con esta réplica extraordinaria de Anakin Skywalker en escala 1/6 de Star Wars: The Clone Wars, capturando su icónico enfrentamiento durante el asalto al monasterio de B'omarr. Incluye el STAP pilotable con turbinas iluminadas LED y una colección completa de accesorios holográficos que traen la acción animada a tu colección. Con más de 30 puntos de articulación, múltiples manos intercambiables y un lightsaber LED funcional, este conjunto ofrece infinitas posibilidades de poses dinámicas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Anakin: 31 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura STAP: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho STAP: 22.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad STAP: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: 30+"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina, tela, plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lightsaber LED azul con batería"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hoja de lightsaber en movimiento"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Empuñadura de lightsaber"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "8 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pecho gris, hombreras grises y negras"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Túnica azul marino y bajo-túnica burdeos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones burdeos y botas marrones"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pecho negro con capa intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Detonador térmiático"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Proyector holográfico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Holograma de Ahsoka Tano"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Holograma de Yoda"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Holograma de Obi-Wan Kenobi"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición con placa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base dinámica para STAP"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/star-wars-anakin-skywalker-and-stap-hot-toys-906795"
+      },
+      {
         "id": "jetpack-trooper-1-6-figure-mwdxh4bl",
         "n": "Jetpack Trooper 1/6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdcfd29e4.jpg",
@@ -40701,6 +41659,83 @@
   "Estatuas Premium": {
     "slug": "estatuas",
     "products": [
+      {
+        "id": "doctor-doom-on-throne-1-10-scale-statue-mwme1ng2",
+        "n": "Doctor Doom on Throne 1:10 Scale Statue",
+        "i": "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e03616b3b.jpg",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e03616b3b.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-scale-6a67e29eec569.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e0365efe3.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e036ab784.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e036f2735.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e03745cda.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e037895c5.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e037d0282.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e03826fde.jpg",
+          "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e0386a0c9.jpg"
+        ],
+        "franquicia": "Marvel",
+        "marca": "Iron Studios",
+        "escala": "1:10",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4250",
+        "reserva": "850",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina tu colección con esta estatua de edición limitada del Todopoderoso Doctor Doom en su trono, procedente de Avengers: Doomsday. Crafted con meticuloso detalle y pintura a mano, esta pieza de polystone captura toda la majestuosidad y poder del icónico villano de Marvel. Tres opciones de brazos intercambiables te permiten personalizar tu figura del Doctor Doom exactamente como deseas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 22 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 17 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso: 2 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:10"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Polystone"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazo regular"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazo con la Llave"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Brazo sosteniendo el libro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-18",
+        "origen": "https://www.sideshow.com/collectibles/marvel-doctor-doom-on-throne-iron-studios-915933"
+      },
       {
         "id": "link-ocarina-of-time-weapons-and-ocarina-set-statu-mwkalsvm",
         "n": "Link - Ocarina of Time Weapons and Ocarina Set Statue",
