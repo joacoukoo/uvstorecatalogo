@@ -1041,7 +1041,7 @@ fbq('track','PageView');
 src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></noscript>
 <!-- End Meta Pixel -->
 <style>
-/* ── Black Friday banner (27–30 nov 2026; vista previa con ?bf=1) ── */
+/* ── Black Friday banner (19 nov – 1 dic 2026; vista previa con ?bf=1) ── */
 .bf{display:none;position:relative;overflow:hidden;margin-top:calc(60px + env(safe-area-inset-top,0px));
   background:radial-gradient(120% 90% at 85% 10%,rgba(200,150,62,.16),transparent 60%),var(--bg);
   border-bottom:1px solid rgba(200,150,62,.35)}
@@ -1107,7 +1107,7 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
     <div class="bf-in">
       <div>
         <h2 class="bf-title" id="bf-title">Black<span class="bf-l2">Friday</span></h2>
-        <div class="bf-dates">27 al 30 de noviembre</div>
+        <div class="bf-dates">Hasta el 1 de diciembre</div>
         <p class="bf-lead" id="bf-lead">Descuentos en figuras con entrega inmediata.</p>
         <button class="bf-cta" onclick="goOfertas()">Ver todas las ofertas</button>
       </div>
@@ -1880,10 +1880,10 @@ function goCatalog(sort){
   history.pushState({_uvNav:true},null,location.pathname+"#catalogo");
   _setMnav("mnav-catalog");
 }
-// ── BLACK FRIDAY BANNER ── visible del 27 al 30 nov 2026 (hora Guatemala), o con ?bf=1
+// ── BLACK FRIDAY BANNER ── visible del 19 nov al 1 dic 2026 inclusive (hora Guatemala), o con ?bf=1
 function renderBFBanner(){
   var el=document.getElementById("bf-banner");if(!el)return;
-  var now=Date.now(),ini=Date.UTC(2026,10,27,6),fin=Date.UTC(2026,11,1,6);
+  var now=Date.now(),ini=Date.UTC(2026,10,19,6),fin=Date.UTC(2026,11,2,6);
   var preview=new URLSearchParams(location.search).get("bf")==="1";
   if(!preview&&(now<ini||now>=fin)){el.classList.remove("on");document.getElementById("home").classList.remove("bf-on");return;}
   var num=function(v){var n=Number(String(v==null?"":v).replace(/[,\s]/g,""));return isFinite(n)?n:0;};
