@@ -1040,6 +1040,41 @@ fbq('track','PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></noscript>
 <!-- End Meta Pixel -->
+<style>
+/* ── Black Friday banner (27–30 nov 2026; vista previa con ?bf=1) ── */
+.bf{display:none;position:relative;overflow:hidden;margin-top:calc(60px + env(safe-area-inset-top,0px));
+  background:radial-gradient(120% 90% at 85% 10%,rgba(200,150,62,.16),transparent 60%),var(--bg);
+  border-bottom:1px solid rgba(200,150,62,.35)}
+.bf.on{display:block}
+#home.bf-on .hero{padding-top:40px}
+.bf-in{max-width:1400px;margin:0 auto;padding:56px 32px 40px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:40px;align-items:center}
+.bf-title{font-family:"Bebas Neue",sans-serif;font-weight:400;color:#fff;font-size:clamp(88px,13vw,232px);line-height:.8;letter-spacing:1px}
+.bf-title .bf-l2{display:block;color:transparent;-webkit-text-stroke:2px var(--gold-l)}
+.bf-dates{font-family:"Syne",sans-serif;font-weight:600;color:var(--gold-l);font-size:clamp(17px,1.6vw,22px);margin-top:22px}
+.bf-lead{color:var(--text);font-size:clamp(15px,1.3vw,18px);line-height:1.5;margin-top:8px;max-width:46ch}
+.bf-cta{margin-top:26px;background:var(--gold);color:#120d04;border:0;border-radius:10px;padding:15px 30px;font-family:"DM Sans",sans-serif;font-weight:600;font-size:16px;cursor:pointer;transition:background .15s}
+.bf-cta:hover{background:var(--gold-l)}
+.bf-cta:focus-visible,.bf-tile:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.bf-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.bf-tile{background:var(--bg3);border:1px solid var(--border2);border-radius:12px;overflow:hidden;cursor:pointer;text-align:left;padding:0;color:inherit;font:inherit;display:flex;flex-direction:column;transition:border-color .15s}
+.bf-tile:hover{border-color:var(--gold)}
+.bf-tile img{width:100%;aspect-ratio:3/4;object-fit:cover;background:#000;display:block}
+.bf-tile-b{padding:10px 12px 12px}
+.bf-tile-n{font-size:12.5px;color:var(--muted2);line-height:1.3;height:2.6em;overflow:hidden}
+.bf-tile-old{font-size:12px;color:var(--muted2);text-decoration:line-through;margin-top:6px}
+.bf-tile-new{font-family:"Bebas Neue",sans-serif;font-size:30px;line-height:1;color:var(--gold-l);letter-spacing:.5px}
+.bf-tile-save{font-size:12px;color:#fff;margin-top:3px}
+.bf-note{grid-column:1/-1;border-top:1px solid var(--border2);padding-top:16px;font-size:clamp(14px,1.2vw,16px);color:#fff;font-weight:500}
+.bf-note span{color:var(--gold-l)}
+@media(max-width:900px){
+  .bf-in{grid-template-columns:minmax(0,1fr);padding:36px 18px 28px;gap:26px}
+  .bf-tiles{margin:0 -18px;padding:0 18px;scroll-padding-left:18px}
+  .bf-title{font-size:clamp(76px,24vw,150px)}
+  .bf-tiles{grid-template-columns:repeat(3,minmax(140px,1fr));overflow-x:auto;scroll-snap-type:x mandatory}
+  .bf-tile{scroll-snap-align:start}
+  .bf-cta{width:100%}
+}
+</style>
 </head>
 <body>
 <nav class="nav">
@@ -1068,6 +1103,18 @@ src="https://www.facebook.com/tr?id=2973809056169356&ev=PageView&noscript=1"/></
 </nav>
 
 <div class="page active" id="home">
+  <section class="bf" id="bf-banner" aria-labelledby="bf-title">
+    <div class="bf-in">
+      <div>
+        <h2 class="bf-title" id="bf-title">Black<span class="bf-l2">Friday</span></h2>
+        <div class="bf-dates">27 al 30 de noviembre</div>
+        <p class="bf-lead" id="bf-lead">Descuentos en figuras con entrega inmediata.</p>
+        <button class="bf-cta" onclick="goOfertas()">Ver todas las ofertas</button>
+      </div>
+      <div class="bf-tiles" id="bf-tiles"></div>
+      <p class="bf-note"><span>*</span>Ofertas aplican pagando con transferencia o depósito. Envío incluido.</p>
+    </div>
+  </section>
   <div class="hero">
     <div class="hero-stage">
       <div class="hero-bg"><div class="hs" id="hero-bg" aria-roledescription="carrusel" aria-label="Figuras destacadas"></div></div>
@@ -1608,6 +1655,7 @@ function buildHome(){
   // Build franchise section on home
   buildFranchiseGrid("franchise-home-grid");
   renderPreOrdenBand();
+  renderBFBanner();
   // Trigger fade-in for visible cards
   setTimeout(observeFadeUp, 50);
   setTimeout(_trimOrphans, 60);
@@ -1831,6 +1879,38 @@ function goCatalog(sort){
   document.getElementById("nav-catalog").classList.add("active");
   history.pushState({_uvNav:true},null,location.pathname+"#catalogo");
   _setMnav("mnav-catalog");
+}
+// ── BLACK FRIDAY BANNER ── visible del 27 al 30 nov 2026 (hora Guatemala), o con ?bf=1
+function renderBFBanner(){
+  var el=document.getElementById("bf-banner");if(!el)return;
+  var now=Date.now(),ini=Date.UTC(2026,10,27,6),fin=Date.UTC(2026,11,1,6);
+  var preview=new URLSearchParams(location.search).get("bf")==="1";
+  if(!preview&&(now<ini||now>=fin)){el.classList.remove("on");document.getElementById("home").classList.remove("bf-on");return;}
+  var num=function(v){var n=Number(String(v==null?"":v).replace(/[,\s]/g,""));return isFinite(n)?n:0;};
+  var rows=[];
+  CAT_KEYS.forEach(function(c){(DATA[c]||{products:[]}).products.forEach(function(p){
+    if(!p.oferta||_esAgotado(p))return;
+    var a=num(p.precio_orig),b=num(p.precio);
+    rows.push({p:p,cat:c,save:(a>b&&b>0)?a-b:0});
+  });});
+  rows.sort(function(x,y){return y.save-x.save;});
+  var max=rows.length?rows[0].save:0;
+  var lead=document.getElementById("bf-lead");
+  if(rows.length)lead.textContent=rows.length+" figura"+(rows.length!==1?"s":"")+" en stock con descuento"+(max>0?", hasta Q"+fmtQ(max)+" menos":"")+".";
+  var box=document.getElementById("bf-tiles");box.innerHTML="";
+  rows.slice(0,3).forEach(function(r){
+    var b=document.createElement("button");b.className="bf-tile";b.type="button";
+    b.onclick=function(){openModal(r.p,r.cat);};
+    var img=document.createElement("img");img.src=r.p.i||((r.p.fotos||[])[0])||"";img.alt=r.p.n;img.loading="lazy";img.referrerPolicy="no-referrer";
+    var bd=document.createElement("div");bd.className="bf-tile-b";
+    var n=document.createElement("div");n.className="bf-tile-n";n.textContent=r.p.n;bd.appendChild(n);
+    if(r.save>0){var o=document.createElement("div");o.className="bf-tile-old";o.textContent="Q"+fmtQ(r.p.precio_orig);bd.appendChild(o);}
+    var nw=document.createElement("div");nw.className="bf-tile-new";nw.textContent="Q"+fmtQ(r.p.precio)+"*";bd.appendChild(nw);
+    if(r.save>0){var sv=document.createElement("div");sv.className="bf-tile-save";sv.textContent="Q"+fmtQ(r.save)+" menos";bd.appendChild(sv);}
+    b.appendChild(img);b.appendChild(bd);box.appendChild(b);
+  });
+  box.style.display=rows.length?"":"none";
+  el.classList.add("on");document.getElementById("home").classList.add("bf-on");
 }
 function goOfertas(){
   var ofertaProds=[];
