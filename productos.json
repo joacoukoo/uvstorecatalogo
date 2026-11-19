@@ -3,6 +3,79 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "robo-dou-evangelion-13-f520aded",
+        "n": "ROBO-DOU Evangelion 13",
+        "i": "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/1.jpg",
+        "franquicia": "Anime",
+        "marca": "Threezero",
+        "escala": "28CM",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2100",
+        "fotos": [
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/1.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/2.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/3.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/4.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/5.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/6.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/7.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/8.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/9.jpg",
+          "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/10.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura ROBO-DOU del Evangelion 13 de Evangelion: New Theatrical Edition, con estructura de zinc fundido y alrededor de 50 puntos de articulación. Trae muchas piezas intercambiables para recrear sus formas de 2 y 4 brazos."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 28 cm (con los pilones de hombro)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Aprox. 50 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estructura principal de zinc fundido (die-cast)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cabezas intercambiables (normal y ojos rojos)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 pecheras intercambiables (2 y 4 brazos) y un par de brazos extra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 RS Hoppers con efectos de ataque y de AT Field"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 Lanzas de Longinus"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "10 pares de manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de acción ROBO-DOU"
+          }
+        ],
+        "destacado": false,
+        "oferta": true,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "cantidad": "1",
+        "precio_orig": "2300"
+      },
+      {
         "id": "superman-absolute-1-10-iron-studios-ngttp144",
         "n": "Superman Absolute 1:10 Art Scale (Iron Studios)",
         "i": "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd92fd708f.jpg",
@@ -10344,6 +10417,317 @@
   "Hot Toys 1:6": {
     "slug": "hot-toys-pre-ordenes",
     "products": [
+      {
+        "id": "infinity-ultron-diecast-f520b1db",
+        "n": "Infinity Ultron (Diecast)",
+        "i": "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9bc77ea.jpg",
+        "franquicia": "Marvel",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "4600",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9bc77ea.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787ed7e8bf4.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787ea123f7d.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9f39b47.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787ed69e7fc.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9c57c32.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9d3d3be.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9e0ff6e.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9ed5859.jpg",
+          "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787ed706da8.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de sexta escala de Infinity Ultron de la serie What If...? de Marvel Studios, con piezas de metal fundido (diecast). Ojos, Gema de la Mente y Gemas del Infinito con luz LED, y capa roja con detalles dorados."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 39 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales con diecast"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ojos y Gema de la Mente con luz LED (a pilas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco con luz LED que se abre (magnético)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gemas del Infinito en la armadura con luz LED (a pilas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa roja con detalles dorados y alambre moldeable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Lanza de doble punta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "4 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": true,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "cantidad": "1",
+        "precio_orig": "5100"
+      },
+      {
+        "id": "boba-fett-repaint-armor-f520b1da",
+        "n": "Boba Fett (Repaint Armor)",
+        "i": "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b84b2cfa.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2350",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b84b2cfa.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_scale_64135cb9d8b09.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b853aaa6.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b85ba6b5.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b8438195.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b8643538.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b86e2bb8.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b876e689.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b87f3b1d.jpg",
+          "https://www.sideshow.com/storage/product-images/908895/boba-fett-repaint-armor_star-wars_gallery_63dd4b8880357.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de sexta escala de Boba Fett con la armadura repintada que luce en The Mandalorian. Casco con telémetro articulado, jetpack con desgaste y efecto de lanzallamas. Collector Edition."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco con telémetro articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura mandaloriana con efecto de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bláster y rifle"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jetpack con desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efecto de lanzallamas para el guantelete"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Látigo de fibra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base dinámica con placa con nombre"
+          }
+        ],
+        "destacado": false,
+        "oferta": true,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "cantidad": "1",
+        "precio_orig": "2600"
+      },
+      {
+        "id": "the-mandalorian-f520b1d9",
+        "n": "The Mandalorian",
+        "i": "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688162b217.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688162b217.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688167bb6d.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d968816d0787.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d96881727c12.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688178f29b.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d968817dfa1e.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688183810d.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688189a4f2.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688190d8c3.jpg",
+          "https://www.sideshow.com/storage/product-images/905333/the-mandalorian-sixth-scale-figure_star-wars_gallery_5d9688196d405.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de sexta escala de The Mandalorian, el cazarrecompensas de la serie de Star Wars. Casco plateado con desgaste, armadura dañada en batalla y accesorios para armar un diorama en el desierto."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco plateado con efecto de desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capa gris oscura y armadura de pecho y hombros dañada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Rifle bláster y pistola bláster"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Comunicador"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco de Stormtrooper dañado, bandera y 2 lanzas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "6 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con temática de desierto y placa con nombre"
+          }
+        ],
+        "destacado": false,
+        "oferta": true,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "cantidad": "1",
+        "precio_orig": "3200"
+      },
+      {
+        "id": "artillery-stormtrooper-f520b1d8",
+        "n": "Artillery Stormtrooper",
+        "i": "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a6904145d89.jpg",
+        "franquicia": "Star Wars",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "1800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a6904145d89.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a6904311571.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a6904430692.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a6904489453.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a690419f090.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a6904257268.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a69042ad93b.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a69044eb83e.jpg",
+          "https://www.sideshow.com/storage/product-images/908285/artillery-stormtrooper_star-wars_gallery_60a6904747b86.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de sexta escala del Artillery Stormtrooper de The Mandalorian, el soldado imperial de artillería con su mortero articulado y mochila militar. Armadura con marcas amarillas y efecto de desgaste."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Más de 30 puntos de articulación"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura con marcas amarillas y desgaste"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hombrera amarilla, cinturón y botas blancas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "7 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mortero articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mochila militar con 3 detonadores desmontables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base con logo de Star Wars y placa con nombre"
+          }
+        ],
+        "destacado": false,
+        "oferta": true,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "cantidad": "1",
+        "precio_orig": "2000"
+      },
       {
         "id": "spongebob-squarepants-cosbaby-figure-mwntwph8",
         "n": "SpongeBob SquarePants Cosbaby Figure",
