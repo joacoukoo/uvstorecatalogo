@@ -11,7 +11,7 @@
         "escala": "1:10 - 24CM",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3350",
+        "precio": "3050",
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd92fd708f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915157/iron-studios-dc-comics-superman-absolute-1-10-scale-statues-gallery-697cd9302d8f9.jpg",
@@ -47,12 +47,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-13",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3350"
       },
       {
         "id": "the-dark-knight-batarang-prop-replica-queen-studios-mwdxqwte",
@@ -63,7 +64,7 @@
         "escala": "1:1 - 22.5CM",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "2000",
+        "precio": "1800",
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0062/8083/9232/files/29.The_Dark_Knight_Batman_1-1_Statue.jpg?v=1696213387",
           "https://cdn.shopify.com/s/files/1/0062/8083/9232/files/28.The_Dark_Knight_Batman_1-1_Statue.jpg?v=1696213378",
@@ -92,12 +93,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "2000"
       },
       {
         "id": "the-dark-knight-batman-1-3-deluxe-queen-studios-mwdxku2b",
@@ -108,7 +110,7 @@
         "escala": "1:3 - 68.5CM",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "16500",
+        "precio": "14850",
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/ChristianBaleStatue.jpg?v=1677833073",
           "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/BatmanStatue.jpg?v=1677833073",
@@ -149,12 +151,13 @@
           }
         ],
         "destacado": true,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "16500"
       },
       {
         "id": "lebron-james-lakers-real-masterpiece-1-6-mwdxbwsw",
@@ -165,7 +168,7 @@
         "escala": "1:6 - 30CM",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3500",
+        "precio": "3150",
         "fotos": [
           "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-1.jpg",
           "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/1100x/040ec09b1e35df139433887a97daa66f/e/a/earm1084yel-2.jpg",
@@ -229,12 +232,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3500"
       },
       {
         "id": "billy-the-puppet-tricycle-1-6-figure-mwdx6sjk",
@@ -245,7 +249,7 @@
         "escala": "1:6 - 18CM",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "1200",
+        "precio": "1080",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-gallery-6a9b19d3997e3.jpg",
           "https://www.sideshow.com/storage/product-images/916014/trick-or-treat-studios-saw-billy-the-puppet-tricycle-sixth-scale-figure-scale-6a9b1f1e5cced.jpg",
@@ -286,12 +290,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "1200"
       },
       {
         "id": "robin-mon4pkg2",
@@ -728,7 +733,7 @@
         "escala": "1:6",
         "estado": "",
         "disp": "Entrega Inmediata",
-        "precio": "3900",
+        "precio": "3550",
         "precio_d": "4600",
         "content": [
           {
@@ -848,7 +853,7 @@
         "yt": "https://www.youtube.com/shorts/e_fbV6z5Hyo",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos_d": [
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959c7a93c9.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/9133002/armored-batman-20-deluxe-version_dc-comics_gallery_661959c837760.jpg",
@@ -976,7 +981,8 @@
             "t": "notion-bulleted-list",
             "x": "Ideal para coleccionistas de DC Comics"
           }
-        ]
+        ],
+        "precio_orig": "3900"
       },
       {
         "n": "Mirage DLX",
@@ -1116,7 +1122,7 @@
         "escala": "23CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "2100",
+        "precio": "1900",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -1267,11 +1273,11 @@
             "x": "Mano derecha para riot gun"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2100",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_gallery_663a94ea86bce.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913391/robo-dou-ingram-unit-1-reactive-armor-version_mobile-police-patlabor_scale_663a94ee93810.jpg",
@@ -1456,7 +1462,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "3200",
+        "precio": "2900",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -1577,9 +1583,9 @@
         ],
         "yt": "",
         "franquicia": "Star Wars",
-        "precio_orig": "",
+        "precio_orig": "3200",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_gallery_66878f47e4f26.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913577/arc-trooper-fives_star-wars_scale_668c1e5dc358c.jpg",
@@ -1978,7 +1984,7 @@
         "escala": "1:6 - 31CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "2800",
+        "precio": "2550",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -2093,11 +2099,11 @@
             "x": "Función magnética en el propulsor"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2800",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_gallery_65e0ac0835657.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913183/mandalorian-super-commando_star-wars_scale_65e0ae27aad5f.jpg",
@@ -2119,7 +2125,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "3000",
+        "precio": "2700",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -2245,7 +2251,7 @@
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658434e8a3f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658435415fb.jpg",
@@ -2257,7 +2263,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d6584372d778.jpg"
         ],
         "id": "spider-man-homemade-suit",
-        "content_ok": true
+        "content_ok": true,
+        "precio_orig": "3000"
       },
       {
         "n": "Iron Man Mark I (Edición Especial)",
@@ -2707,7 +2714,7 @@
         "escala": "1:6 - 45CM",
         "estado": "Nueva",
         "disp": "Entrega Inmediata",
-        "precio": "5500",
+        "precio": "4950",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -2866,11 +2873,11 @@
             "x": "Nota: El cable de conexión USB Micro no está incluido"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "5500",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc395460ce.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910333/boba-fett_star-wars_gallery_61fdc3959e00f.jpg",
@@ -2892,7 +2899,7 @@
         "escala": "1:6 - 38CM",
         "estado": "Abierta - Excelentes Condiciones",
         "disp": "Entrega Inmediata",
-        "precio": "4800",
+        "precio": "4350",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -2999,11 +3006,11 @@
             "x": "Expresiones faciales precisas con textura de piel detallada"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "4800",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/hot-toys-marvel-venom-sixth-scale-figure-gallery-671be7fa56094.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909871/venom-let-there-by-carnage-sixth-scale-figure_marvel_gallery_61a515efc3efc.jpg",
@@ -3151,7 +3158,7 @@
         "escala": "1:6 - 36CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "3600",
+        "precio": "3250",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3233,7 +3240,7 @@
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d731b095.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7367660.jpg",
@@ -3245,7 +3252,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d75587a4.jpg"
         ],
         "id": "kx-enforcer-droid",
-        "content_ok": true
+        "content_ok": true,
+        "precio_orig": "3600"
       },
       {
         "n": "Shadow Trooper",
@@ -3255,7 +3263,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "2800",
+        "precio": "2550",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3370,11 +3378,11 @@
             "x": "Diorama de la Estrella de la Muerte mide aproximadamente 35 cm de alto x 15 cm de ancho"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2800",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_gallery_6633bb5cca74c.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913222/shadow-trooper-with-death-star-environment_star-wars_scale_6633bb6477046.jpg",
@@ -3396,7 +3404,7 @@
         "escala": "Escala 1:3",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "41000",
+        "precio": "37000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3538,7 +3546,7 @@
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5ac059850.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abdab768.jpg",
@@ -3550,7 +3558,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abf112a8.jpg"
         ],
         "id": "batman-vs-superman-deluxe-edition",
-        "content_ok": true
+        "content_ok": true,
+        "precio_orig": "41000"
       },
       {
         "n": "Hulkbuster Escala 1:4",
@@ -3560,7 +3569,7 @@
         "escala": "Escala 1:4 - 1 metro",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "28000",
+        "precio": "25000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3575,11 +3584,11 @@
             "x": "Licencia:Estatua sin licencia - Edición Genérica RecastEscala:1/4Material:PolystoneAltura:96.6 cmAncho:74.5 cmProfundidad:75.6 cm"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "28000",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0216/7762/products/MAIN-IRONMAN-MK44.jpg?v=1640971331",
           "https://cdn.shopify.com/s/files/1/0216/7762/products/199231099_1871498249694513_8699546107229357321_n.jpg?v=1641026227",
@@ -3600,7 +3609,7 @@
         "escala": "1:3 - 88CM",
         "estado": "En caja abierta",
         "disp": "Entrega Inmediata",
-        "precio": "25000",
+        "precio": "22500",
         "reserva": "0",
         "cantidad": "1",
         "content": [
@@ -3675,7 +3684,7 @@
         ],
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb85187f473.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910953/the-batman-special-art-edition_dc-comics_gallery_66bb8518ad2b5.jpg",
@@ -3688,7 +3697,8 @@
         ],
         "id": "the-batman-special-art-edition-deluxe-bonus-version",
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "precio_orig": "25000"
       },
       {
         "n": "Hulkbuster – Deluxe Version",
@@ -3698,7 +3708,7 @@
         "escala": "1:6 - 56CM",
         "estado": "",
         "disp": "Entrega Inmediata",
-        "precio": "19500",
+        "precio": "17500",
         "reserva": "0",
         "cantidad": "1",
         "content": [
@@ -3809,7 +3819,7 @@
         ],
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f98a36bc.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/903803/hulkbuster-deluxe-version_marvel_gallery_64b59f991cff0.jpg",
@@ -3823,7 +3833,8 @@
         "id": "hulkbuster-deluxe-version",
         "content_ok": true,
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "precio_orig": "19500"
       },
       {
         "n": "Perfect Cell – Dragon Ball Z",
@@ -3833,7 +3844,7 @@
         "escala": "Escala 1:2 - 108CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "13000",
+        "precio": "11800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3866,9 +3877,9 @@
         ],
         "yt": "",
         "franquicia": "Anime",
-        "precio_orig": "",
+        "precio_orig": "13000",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://uvstore.shop/assets/productos/perfect-cell-dragon-ball-z/1.jpg"
         ],
@@ -3882,7 +3893,7 @@
         "escala": "1:6 - 57CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "9300",
+        "precio": "8400",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3913,11 +3924,11 @@
             "x": "9.5 kg"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "9300",
         "yt": "",
         "franquicia": "Gaming",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex_08.jpg?v=1774246261",
           "https://cdn.shopify.com/s/files/1/0396/0573/1491/files/linkonhorseback_ex-skuimages-4k.jpg?v=1774246261",
@@ -3938,7 +3949,7 @@
         "escala": "1:4 - 90CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "8000",
+        "precio": "7200",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3965,11 +3976,11 @@
             "x": "EstatuaOversizedpara máxima presenciaDiseño enfocado en el tamaño y fuerza del personajeIdeal como pieza central de colección"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "8000",
         "yt": "https://www.youtube.com/shorts/cFox-nToNZk",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "id": "broly-break-studio",
         "agotado_r": false,
         "agotado_d": false,
@@ -3986,7 +3997,7 @@
         "escala": "1:4",
         "estado": "Exhibido",
         "disp": "Entrega Inmediata",
-        "precio": "6500",
+        "precio": "5850",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4000,7 +4011,9 @@
         "id": "jessica-roger-rabbit",
         "fotos": [
           "https://uvstore.shop/assets/productos/jessica-roger-rabbit/1.jpg"
-        ]
+        ],
+        "precio_orig": "6500",
+        "oferta": true
       },
       {
         "n": "Buzz Lightyear Interactive Robot",
@@ -4112,7 +4125,7 @@
         "escala": "Escala 1:4 - 41CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "5800",
+        "precio": "5250",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4142,14 +4155,15 @@
         "yt": "https://www.youtube.com/watch?v=tUG2lJW25RU",
         "franquicia": "Gaming",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "id": "ellie-the-last-of-us-part-ii",
         "agotado_r": false,
         "agotado_d": false,
         "fotos": [
           "https://cdn.gamingheads.com/media/catalog/product/p/r/pro_big_16_1.jpg"
         ],
-        "fotos_d": []
+        "fotos_d": [],
+        "precio_orig": "5800"
       },
       {
         "n": "Iron Man Mark IV – Sub-Zero Fractal Armor",
@@ -4313,7 +4327,7 @@
         "escala": "1:6 - 38CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "5100",
+        "precio": "4600",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4336,11 +4350,11 @@
             "x": "Pieza de colección inspirada en el arte conceptual de DC Comics y Chiaroscuro Studios.Ideal para fans de DC y coleccionistas del Batman clásico de Frank Miller."
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "5100",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": true,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec3ff0e214.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/906716/batman-the-dark-knight-returns_dc-comics_gallery_5fcec3ff53966.jpg",
@@ -4531,7 +4545,7 @@
         "escala": "1:6 - 33CM",
         "estado": "Exhibido",
         "disp": "Entrega Inmediata",
-        "precio": "4200",
+        "precio": "3800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4686,11 +4700,11 @@
             "x": "Diseño de articulaciones mejorado en las piernas para mayor movilidad"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "4200",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9ca3287.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908142/iron-man_marvel_gallery_606f2b9d088f6.jpg",
@@ -4712,7 +4726,7 @@
         "escala": "1:4 - 54CM",
         "estado": "Exhibida - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "4200",
+        "precio": "3800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4735,11 +4749,11 @@
             "x": "Estatua deJirenen escala 1/4Mano adicional intercambiableBase incluida para exhibición"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "4200",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/41728bdf-5152-4a1d-bf31-0e490cc1f210.jpg?v=1706827811",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/3a2baa19-6e56-4037-b7bd-cf498a354e84.jpg?v=1706827811",
@@ -4760,7 +4774,7 @@
         "escala": "37CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "4000",
+        "precio": "3600",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4787,11 +4801,11 @@
             "x": "5.02 kg"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "4000",
         "yt": "",
         "franquicia": "Gaming",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_gallery_63d991058def1.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912116/strife_darksiders_scale_64388667432bd.jpg",
@@ -4812,7 +4826,7 @@
         "escala": "1:6 - 33CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "4000",
+        "precio": "3600",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4931,11 +4945,11 @@
             "x": "Botas largas blindadas en color negro"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "4000",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": true,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-gallery-68cd7197cfd94.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914706/hot-toys-dc-comics-batman-xe-suit-hellbat-version-sixth-scale-figure-scale-68cd75034d887.jpg",
@@ -4957,7 +4971,7 @@
         "escala": "34CM",
         "estado": "Exhibido",
         "disp": "Entrega Inmediata",
-        "precio": "4000",
+        "precio": "3600",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4984,11 +4998,11 @@
             "x": "Bluetooth BLE 5.0Puerto USB Type-CBatería:1460 mAh de ion-litioAdaptador:Power Delivery hasta20W"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "4000",
         "yt": "",
         "franquicia": "Transformers",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/spring-savings-2026-bumblebee-g1.jpg?v=1773902869",
           "https://cdn.shopify.com/s/files/1/0646/4962/5813/files/bumblebee-first.webp?v=1773902869",
@@ -5313,7 +5327,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3300",
+        "precio": "3000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5347,7 +5361,7 @@
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_6409393955392.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_64093939a7dd4.jpg",
@@ -5358,7 +5372,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_6409393aefd8d.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_6409393b5c3f3.jpg"
         ],
-        "id": "chaplin"
+        "id": "chaplin",
+        "precio_orig": "3300"
       },
       {
         "n": "Homelander",
@@ -5368,7 +5383,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3000",
+        "precio": "2700",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5399,11 +5414,11 @@
             "x": "BiberónBusto plateado escala 1/6Busto dorado escala 1/6(Bonus de preventa)Base de exhibiciónpara figuraFigura sin licencia oficial - John Lander"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "3000",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0523/0955/7435/products/152032346_2499633840341156_5973246252657521643_o.jpg?v=1624128496",
           "https://cdn.shopify.com/s/files/1/0523/0955/7435/products/149827307_2499633810341159_8836294524152680225_o.jpg?v=1624128496",
@@ -5562,7 +5577,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "2900",
+        "precio": "2650",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5596,7 +5611,7 @@
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-trooper-sixth-scale-figure-gallery-67698fa152dda.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-battalion-wolfpack-clone-trooper-sixth-scale-figure-scale-67699229a4842.jpg",
@@ -5607,7 +5622,8 @@
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-trooper-sixth-scale-figure-gallery-67698fa3647cd.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-trooper-sixth-scale-figure-gallery-67698fa3bf8d1.jpg"
         ],
-        "id": "104th-battalion-wolfpack-clone-trooper"
+        "id": "104th-battalion-wolfpack-clone-trooper",
+        "precio_orig": "2900"
       },
       {
         "n": "Clone Commando",
@@ -5617,7 +5633,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "2900",
+        "precio": "2650",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5648,11 +5664,11 @@
             "x": "Mochila militar pesadaconsistema magnético2 detonadores térmicosBase de exhibicióncon logo de Star Wars y placa con el nombre del personaje"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2900",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913610/hot-toys-star-wars-clone-commando-sixth-scale-figure-gallery-671a61fdd99fa.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913610/hot-toys-star-wars-clone-commando-sixth-scale-figure-scale-671a63c0b0d13.jpg",
@@ -5730,7 +5746,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3800",
+        "precio": "3450",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5761,11 +5777,11 @@
             "x": "FiguraDante – The Original (Luxury Edition)Set completo de armas y accesoriosManos intercambiablesBase y racks de armas"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "3800",
         "yt": "",
         "franquicia": "Gaming",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913703/dante-the-original_devil-may-cry_gallery_66b38c99a5c6d.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913703/dante-the-original_devil-may-cry_scale_66b38c9d0316a.jpg",
@@ -5786,7 +5802,7 @@
         "escala": "1:6 - 26CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "3100",
+        "precio": "2800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5829,11 +5845,11 @@
             "x": "Iwua translúcido(con articulación en cuello y brazos) *2 rodajas de pepino(acoplables al rostro sonriente, con función magnética)Dibujo de Groot"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "3100",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363eba9b06b8.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911943/groot_marvel_gallery_6363ebaa11d25.jpg",
@@ -5854,7 +5870,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Exhibida",
         "disp": "Entrega Inmediata",
-        "precio": "2800",
+        "precio": "2550",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5885,11 +5901,11 @@
             "x": "Base de exhibición para figura"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2800",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/products/674/images/6325/1__04922.1679888874.386.513.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-dpfh4l4mn7/images/stencil/760x760/products/674/6325/1__04922.1679888874.jpg?c=1",
@@ -5910,7 +5926,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Exhibido",
         "disp": "Entrega Inmediata",
-        "precio": "2500",
+        "precio": "2250",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6001,11 +6017,11 @@
             "x": "Botas blindadas"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2500",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/907516/shoretrooper-squad-leader_star-wars_gallery_5ffcab4f40c92.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/907516/shoretrooper-squad-leader_star-wars_gallery_5ffcab4f88708.jpg",
@@ -6026,7 +6042,7 @@
         "escala": "1:8 - 21CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "2700",
+        "precio": "2450",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6053,11 +6069,11 @@
             "x": "Peso de envío:aprox.0.8 kg"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2700",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://resize.cdn.otakumode.com/full/shop/product/272d52932c714823b1382c531c7153d4.jpg",
           "https://dzt1km7tv28ex.cloudfront.net/up/billboard/7c462ef5e23c489fa9f460739d71013c.jpg",
@@ -6131,7 +6147,7 @@
         "escala": "1:6 - 29CM",
         "estado": "Exhibida - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2600",
+        "precio": "2350",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6158,11 +6174,11 @@
             "x": "1 par demanos relajadas1mano derechapara sostener elcáliz1 par demanos en agarrepara ladaga1 par demanospara sostener lacarta"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2600",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908226/sansa-stark-season-8_game-of-thrones_gallery_6081a6dd79d30.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908226/sansa-stark-season-8_game-of-thrones_gallery_6081a6dddf822.jpg",
@@ -6183,7 +6199,7 @@
         "escala": "1:6 - 28CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "2500",
+        "precio": "2250",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6214,11 +6230,11 @@
             "x": "Espada Nichirindemetalcon vainaCuchilloCaja de maderaabrible (plástico)Efecto Water Breathingacoplable a la espadaEfecto de respiración(con imán) para el rostro serio"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2500",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913650/tanjiro-kamado_demon-slayer_gallery_66a29b586e580.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913650/tanjiro-kamado_demon-slayer_scale_66a29b5ba2a60.jpg",
@@ -6239,7 +6255,7 @@
         "escala": "1:6 - 25CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "2300",
+        "precio": "2100",
         "cantidad": "1",
         "content": [
           {
@@ -6261,7 +6277,7 @@
         ],
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/2200/images/24651/342517184_1960903887582293_4707559974680680319_n__97180.1682137861.386.513.jpg?c=1",
           "https://onesixthplace.com/cdn/shop/files/TLH02__59010_74cd4618-5329-45f5-b17e-91a8f0f9d9a4.jpg?v=1771805027&width=600",
@@ -6275,7 +6291,8 @@
         "id": "ellie-tv-series",
         "agotado": false,
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "precio_orig": "2300"
       },
       {
         "n": "Zoltar Speaks – Fortune Teller Machine (Scaled Replica)",
@@ -6493,7 +6510,7 @@
         "escala": "1:10 - 19CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2200",
+        "precio": "2000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6520,11 +6537,11 @@
             "x": "Alto:19 cmAncho:28 cmProfundidad:39 cmPeso de envío:1.9 kg"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2200",
         "yt": "",
         "franquicia": "Masters of the Universe",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912163/she-ra_masters-of-the-universe_gallery_63f938b9343aa.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912163/she-ra_masters-of-the-universe_gallery_63f938b9d45bf.jpg",
@@ -6591,7 +6608,7 @@
         "escala": "1:6 - 34CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2300",
+        "precio": "2100",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6614,11 +6631,11 @@
             "x": "Alto:30 cmAncho:37 cmProfundidad:51 cmPeso de envío:5.2 kg"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2300",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_gallery_642e1794e8716.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/200622/grog-vox-machina_critical-role_scale_642e17c548e55.jpg",
@@ -6639,7 +6656,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "2000",
+        "precio": "1800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6790,11 +6807,11 @@
             "x": "Par para sujetar armas cuerpo a cuerpo"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2000",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_gallery_65de70872b2d4.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913188/commando-snake-eyes_gi-joe_scale_65de708c5198f.jpg",
@@ -6914,7 +6931,7 @@
         "escala": "1:12 - 17CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "1500",
+        "precio": "1280",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -6941,11 +6958,11 @@
             "x": "(1)Planeador One:12 Collective(1)Par de goggles(1)Cowladicional(6)Cuchillos arrojadizos(4)Batarangs plegables(1)Grappling hookcon cuerda(1)Base One:12 Collectivecon logo(1)Soporte ajustable One:12"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "1500",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238g.jpg?v=1715285036",
           "https://cdn.shopify.com/s/files/1/2637/6278/files/696198761238.jpg?v=1715285019",
@@ -7136,7 +7153,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2500",
+        "precio": "2250",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7299,11 +7316,11 @@
             "x": "Múltiples configuraciones para recrear escenas clave de la película"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2500",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100190/luke-skywalker-deluxe_star-wars_gallery_5c54cc651a7b0.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100190/luke-skywalker-deluxe_star-wars_gallery_5c54cc65a7330.jpg",
@@ -7325,7 +7342,7 @@
         "escala": "1:1 - 45CM",
         "estado": "Exhibido",
         "disp": "Entrega Inmediata",
-        "precio": "2600",
+        "precio": "2350",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7344,11 +7361,11 @@
             "x": "Alto: 17.5 cmAncho: 45 cmProfundidad: 30 cm"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2600",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/433241321_926663146135947_2632288399643991513_n.jpg?v=1711033997",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/products/IMG_4960_1024x1024_2x_e2db4f6f-d3aa-421e-a2e7-04971d79ca63.webp?v=1711033997"
@@ -7421,7 +7438,7 @@
         "escala": "1:1 - Usable",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "1300",
+        "precio": "1110",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7444,11 +7461,11 @@
             "x": "Producido por Hasbro bajo licencia de Lucasfilm Ltd."
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "1300",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.media.amplience.net/i/hasbropulse/G0704_PROD_SW_BL_MIST_ELECTRONIC_HELMET_0005"
         ],
@@ -7550,7 +7567,7 @@
         "escala": "1:6 - 31CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2400",
+        "precio": "2200",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7573,11 +7590,11 @@
             "x": "Dos (2) espadasFunda de espada para la espaldaEstuche de cuero para espadaBolsaGarra cercenada (trofeo)"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "2400",
         "yt": "",
         "franquicia": "Gaming",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/products/1509/images/15519/163626cazuwom5iua3cghg__77936.1641680018.386.513.jpg?c=1",
           "https://cdn11.bigcommerce.com/s-o5r3sdh7a5/images/stencil/250x100/oso_1768794167__92396.original.png",
@@ -7598,7 +7615,7 @@
         "escala": "1:10 - 22CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "1200",
+        "precio": "1020",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7625,11 +7642,11 @@
             "x": "0.6 kg"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "1200",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_gallery_662fe7cbef04f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913369/poison-ivy-gotham-city-sirens_dc-comics_scale_662fe7ce5accd.jpg",
@@ -7699,7 +7716,7 @@
         "escala": "1:6 - 31CM",
         "estado": "Exhibido",
         "disp": "Entrega Inmediata",
-        "precio": "1800",
+        "precio": "1530",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7722,11 +7739,11 @@
             "x": "LanzaBase/soporte para figuraFigura sin licencia oficial - Shadow Void"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "1800",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn2.bigcommerce.com/server3500/26633/products/3875/images/99839/SV13__61932.1654061458.490.588.jpg?c=2",
           "https://cdn2.bigcommerce.com/server3500/26633/products/3875/images/99827/SV19__37350.1654061458.490.588.jpg?c=2"
@@ -7741,7 +7758,7 @@
         "escala": "15CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "1200",
+        "precio": "1020",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7764,11 +7781,11 @@
             "x": "Japan Kuji VersionGolden Toei Label"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "1200",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0657/6164/0702/files/Ichiban_Kuji_Dragon_Ball_VS_Omnibus_CROSS_-_E_Prize_Frieza_Evil_Emperor_Diorama_Figure_3.jpg?v=1747380151",
           "https://cdn.shopify.com/s/files/1/0657/6164/0702/files/IchibanKujiDragonBallVSOmnibusCROSS-EPrizeFriezaEvilEmperorDioramaFigure_1.jpg?v=1747380151",
@@ -7786,7 +7803,7 @@
         "escala": "10CM - Kenner Classic",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "1100",
+        "precio": "940",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -7809,11 +7826,11 @@
             "x": "4 figuras de héroes de The Real Ghostbusters"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "1100",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://toysntat.com/wp-content/uploads/2025/03/Hasbro-SDCC-2025-Exclusive-The-Real-Ghostbusters-Ecto-Glow-Heroes-Collectors-Set.webp",
           "https://toysntat.com/wp-content/uploads/2025/03/SDCC-2025-Ghostbusters-Ecto-Glow-Heroes-set.webp",
@@ -7987,7 +8004,7 @@
         "escala": "20CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "800",
+        "precio": "680",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8010,11 +8027,11 @@
             "x": "Alto: 20 cmAncho: 12 cmLargo: 17 cm"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "800",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://favorgk.com/wp-content/uploads/2024/09/001-16.jpg",
           "https://favorgk.com/wp-content/uploads/2024/09/002-12.jpg",
@@ -8181,7 +8198,7 @@
         "escala": "15CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "550",
+        "precio": "470",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8212,11 +8229,11 @@
             "x": "GritandoConcentrado / apretando los dientesSonrisa confiada"
           }
         ],
-        "precio_orig": "",
+        "precio_orig": "550",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://i0.wp.com/bigfanmerch.com/wp-content/uploads/2025/04/Dragon-Ball-Z-Super-Saiyan-God-Son-Goku-India-BigFan-Merch-1.webp?fit=960%2C1200&ssl=1",
           "https://i0.wp.com/bigfanmerch.com/wp-content/uploads/2025/07/Dragon-Ball-Z-Super-Saiyan-God-Son-Goku-India-BigFan-Merch-Live-Pic.webp?fit=2048%2C2048&ssl=1",
@@ -8283,7 +8300,7 @@
         "escala": "1:64",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "500",
+        "precio": "430",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8303,11 +8320,11 @@
           }
         ],
         "id": "hot-wheels-racerverse-marvel-2-pack",
-        "precio_orig": "",
+        "precio_orig": "500",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0568/1132/3597/files/kfy0bjr2zxouweynzyzy.jpg?v=1763512516",
           "https://cdn.shopify.com/s/files/1/0568/1132/3597/files/rd7pv11ijyk850ozwfi4.jpg?v=1763512517",
@@ -8326,7 +8343,7 @@
         "escala": "5CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "160",
+        "precio": "140",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8362,11 +8379,11 @@
           }
         ],
         "id": "magic-the-gathering-figpins",
-        "precio_orig": "",
+        "precio_orig": "160",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.media.amplience.net/s/hottopic/33144580_hi?h=630"
         ]
@@ -8379,7 +8396,7 @@
         "escala": "1:6 - 46CM de altura",
         "estado": "Exhibida - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "6900",
+        "precio": "6250",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8403,11 +8420,11 @@
           }
         ],
         "id": "vegito-vs-buu",
-        "precio_orig": "",
+        "precio_orig": "6900",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/f5d06920-b6ef-491f-9f69-0081ab6b8fd4.jpg?v=1707569875",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/616263219777ad51d4696cc3ae3fe0bd.jpg?v=1707569875",
@@ -8532,7 +8549,7 @@
         "escala": "11CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "720",
+        "precio": "620",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8581,11 +8598,11 @@
         ],
         "id": "magic-the-gathering-youtooz",
         "content_ok": true,
-        "precio_orig": "",
+        "precio_orig": "720",
         "yt": "https://www.youtube.com/shorts/-ls3Ne8q3IA",
         "franquicia": "",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "fotos": [
@@ -8606,7 +8623,7 @@
         "escala": "1:4 - 48CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "4500",
+        "precio": "4050",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8626,11 +8643,11 @@
           }
         ],
         "id": "rei-ayanami",
-        "precio_orig": "",
+        "precio_orig": "4500",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://uvstore.shop/assets/productos/rei-ayanami/1.jpg"
         ]
@@ -8643,7 +8660,7 @@
         "escala": "1:6 - 31CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "3100",
+        "precio": "2800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8675,11 +8692,11 @@
           }
         ],
         "id": "the-joker-knightmare-deluxe",
-        "precio_orig": "",
+        "precio_orig": "3100",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.actionfiguren-shop.com/media/1d/41/de/1673629671/flp-fp22156b-01.jpg",
           "https://www.actionfiguren-shop.com/media/1d/f6/ef/1673867847/flp-fp22156b-02.jpg",
@@ -8698,7 +8715,7 @@
         "escala": "MDLX - 13-16CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3100",
+        "precio": "2800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -8806,11 +8823,11 @@
           }
         ],
         "id": "transformers-one-4-pack",
-        "precio_orig": "",
+        "precio_orig": "3100",
         "yt": "",
         "franquicia": "Transformers",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913787/optimus-primeorion-pax-mdlx_transformers_gallery_66e0c99c91d7c.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913787/optimus-primeorion-pax-mdlx_transformers_scale_66e0c99f6eaa0.jpg",
@@ -8990,7 +9007,7 @@
         "escala": "15CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "480",
+        "precio": "410",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9014,11 +9031,11 @@
           }
         ],
         "id": "monkey-d-luffy",
-        "precio_orig": "",
+        "precio_orig": "480",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://img.toy-people.com/member/175307837984_1200.jpg",
           "https://img.toy-people.com/member/17530783766_1200.jpg",
@@ -9036,7 +9053,7 @@
         "escala": "Nano - 5CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "410",
+        "precio": "350",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9068,11 +9085,11 @@
           }
         ],
         "id": "grogu-tamagotchi-nano",
-        "precio_orig": "",
+        "precio_orig": "410",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://tamagotchi-official.com/tamagotchi/us/product/2024/05/07/MvvABIBb9nzXzr5a/01オレンジ.png?_=1",
           "https://tamagotchi-official.com/tamagotchi/us/product/2024/05/07/HOKAXChTxuRDzCfn/01オレンジ シリコン.png?_=1"
@@ -9086,7 +9103,7 @@
         "escala": "18CM",
         "estado": "Nueva",
         "disp": "Entrega Inmediata",
-        "precio": "400",
+        "precio": "340",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9098,11 +9115,11 @@
           }
         ],
         "id": "michael-myers-halloween-ii",
-        "precio_orig": "",
+        "precio_orig": "400",
         "yt": "https://www.youtube.com/watch?v=uVwyvmHUzYs",
         "franquicia": "",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "fotos": [
@@ -9118,7 +9135,7 @@
         "escala": "18CM",
         "estado": "Nueva",
         "disp": "Entrega Inmediata",
-        "precio": "400",
+        "precio": "340",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9140,7 +9157,9 @@
           "https://uvstore.shop/assets/productos/michael-myers-halloween-2018/3.jpg?v=2",
           "https://uvstore.shop/assets/productos/michael-myers-halloween-2018/4.jpg?v=2",
           "https://uvstore.shop/assets/productos/michael-myers-halloween-2018/5.jpg?v=2"
-        ]
+        ],
+        "precio_orig": "400",
+        "oferta": true
       },
       {
         "n": "Bases Dragon Ball",
@@ -9206,7 +9225,7 @@
         "escala": "1:10 - 37CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "3300",
+        "precio": "3000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9234,11 +9253,11 @@
           }
         ],
         "id": "spider-man-deluxe-spider-man-vs-villains-diorama",
-        "precio_orig": "",
+        "precio_orig": "3300",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_gallery_644bfbad7c7af.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/912284/spider-man_marvel_scale_644bfbb113f00.jpg",
@@ -9352,7 +9371,7 @@
         "escala": "15CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "300",
+        "precio": "260",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9423,7 +9442,9 @@
         "content_ok": true,
         "fotos": [
           "https://uvstore.shop/assets/productos/hand-of-the-king-abrebotellas/1.jpg"
-        ]
+        ],
+        "precio_orig": "300",
+        "oferta": true
       },
       {
         "n": "The Powerpuff Girls - Have a Nice Day",
@@ -9433,7 +9454,7 @@
         "escala": "16CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "350",
+        "precio": "300",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9461,11 +9482,11 @@
           }
         ],
         "id": "the-powerpuff-girls-have-a-nice-day",
-        "precio_orig": "",
+        "precio_orig": "350",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909159/the-powerpuff-girls-have-a-nice-day-d-stage_powerpuff-girls_gallery_612050883fa2e.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/909159/the-powerpuff-girls-have-a-nice-day-d-stage_powerpuff-girls_gallery_6120508894c05.jpg",
@@ -9481,7 +9502,7 @@
         "escala": "",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "1300",
+        "precio": "1110",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9518,11 +9539,11 @@
         ],
         "id": "espresso-trip-tina-funko-pop-sticker-sdcc",
         "content_ok": true,
-        "precio_orig": "",
+        "precio_orig": "1300",
         "yt": "https://www.youtube.com/watch?v=xJ6pfnfBsII",
         "franquicia": "",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "fotos": [
@@ -9538,7 +9559,7 @@
         "escala": "1:6 - 33CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2100",
+        "precio": "1900",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9570,11 +9591,11 @@
           }
         ],
         "id": "monkey-d-luffy-2",
-        "precio_orig": "",
+        "precio_orig": "2100",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://uvstore.shop/assets/productos/monkey-d-luffy-2/2.jpg",
           "https://uvstore.shop/assets/productos/monkey-d-luffy-2/3.jpg"
@@ -9588,7 +9609,7 @@
         "escala": "1:6 - 33CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2100",
+        "precio": "1900",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9608,11 +9629,11 @@
           }
         ],
         "id": "roronoa-zoro",
-        "precio_orig": "",
+        "precio_orig": "2100",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_6b3a712f-823f-4147-9336-1df24948ea32.jpg?v=1742340632",
           "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/image_e11743d7-47af-4ab8-bbdb-342f6f1665c1.jpg?v=1742340632",
@@ -9632,7 +9653,7 @@
         "escala": "1:10 - 19CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "2800",
+        "precio": "2550",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9664,11 +9685,11 @@
           }
         ],
         "id": "captain-america-vs-captain-america-endgame",
-        "precio_orig": "",
+        "precio_orig": "2800",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc801788c3.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905685/captain-america-2023_marvel_gallery_5e0bc801b963a.jpg",
@@ -9733,7 +9754,7 @@
         "escala": "1:10 - 25CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "6000",
+        "precio": "5400",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -9761,11 +9782,11 @@
           }
         ],
         "id": "batman-the-animated-series-trio",
-        "precio_orig": "",
+        "precio_orig": "6000",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910756/batman_dc-comics_gallery_623dee768e192.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910756/batman_dc-comics_gallery_623dee76db6fa.jpg",
@@ -11408,7 +11429,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "2900",
+        "precio": "2650",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-gallery-6a8efdcfd29e4.jpg",
           "https://www.sideshow.com/storage/product-images/915384/hot-toys-star-wars-jetpack-trooper-sixth-scale-figure-scale-6a8eff68d4bb4.jpg",
@@ -11472,19 +11493,20 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "2900"
       },
       {
         "id": "mr-knight-1-6-figure-mwdv4hah",
         "n": "Mr. Knight 1/6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/914024/hot-toys-marvel-mr-knight-sixth-scale-figure-gallery-6758711e02283.jpg",
         "franquicia": "Marvel",
-        "precio": "2900",
+        "precio": "2650",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/914024/hot-toys-marvel-mr-knight-sixth-scale-figure-gallery-6758711e02283.jpg",
           "https://www.sideshow.com/storage/product-images/914024/hot-toys-marvel-mr-knight-sixth-scale-figure-scale-675873040a84c.jpg",
@@ -11552,19 +11574,20 @@
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "2900"
       },
       {
         "id": "nightwing-arkham-knight-1-6-figure-mwdv4hai",
         "n": "Nightwing (Arkham Knight) 1/6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/908144/hot-toys-dc-comics-nightwing-sixth-scale-figure-gallery-689caed3880d0.jpg",
         "franquicia": "DC Comics",
-        "precio": "3600",
+        "precio": "3250",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/908144/hot-toys-dc-comics-nightwing-sixth-scale-figure-gallery-689caed3880d0.jpg",
           "https://www.sideshow.com/storage/product-images/908144/hot-toys-dc-comics-nightwing-sixth-scale-figure-scale-689cb1468d278.jpg",
@@ -11628,12 +11651,13 @@
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3600"
       },
       {
         "id": "eleventh-brother-1-6-figure-mwb3pesn",
@@ -13050,7 +13074,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3500",
+        "precio": "3150",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/914072/hot-toys-marvel-nicepool-sixth-scale-figure-gallery-6776bda0d62f9.jpg",
           "https://www.sideshow.com/storage/product-images/914072/hot-toys-marvel-nicepool-sixth-scale-figure-scale-6776bffdef069.jpg",
@@ -13146,12 +13170,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-09-26",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3500"
       },
       {
         "id": "darth-vader-action-figure-by-hono-studio-muhnnpq0",
@@ -13162,7 +13187,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "2800",
+        "precio": "2550",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-gallery-6814ee6247166.jpg",
           "https://www.sideshow.com/storage/product-images/914299/other-star-wars-darth-vader-action-figure-scale-6814f337e3e76.jpg",
@@ -13226,13 +13251,14 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-09-26",
         "reserva": "560",
-        "cantidad": "3"
+        "cantidad": "3",
+        "precio_orig": "2800"
       },
       {
         "id": "stormtrooper-action-figure-by-hono-studio-muhnkgst",
@@ -13243,7 +13269,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "2200",
+        "precio": "2000",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-gallery-67d06d57d0a36.jpg",
           "https://www.sideshow.com/storage/product-images/914234/hono-studio-star-wars-stormtrooper-action-figure-scale-67d06d5b99293.jpg",
@@ -13311,12 +13337,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-09-26",
-        "cantidad": "3"
+        "cantidad": "3",
+        "precio_orig": "2200"
       },
       {
         "id": "stormtrooper-squad-leader-action-figure-by-hono-st-muhnhzqt",
@@ -13327,7 +13354,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "2200",
+        "precio": "2000",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-gallery-67d06dc76c3a9.jpg",
           "https://www.sideshow.com/storage/product-images/914235/hono-studio-star-wars-stormtrooper-squad-leader-action-figure-scale-67d06dcb3d570.jpg",
@@ -13399,13 +13426,14 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-09-26",
         "reserva": "0",
-        "cantidad": "2"
+        "cantidad": "2",
+        "precio_orig": "2200"
       },
       {
         "id": "lotr-saruman-inart-1-6-scale-figure-muado6oq",
@@ -19583,7 +19611,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3100",
+        "precio": "2800",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/915282/hot-toys-star-wars-saesee-tiin-clone-armor-sixth-scale-figure-gallery-6a0491ceb0a96.jpg",
           "https://www.sideshow.com/storage/product-images/915282/hot-toys-star-wars-saesee-tiin-clone-armor-sixth-scale-figure-scale-6a0493312fa37.jpg",
@@ -19675,13 +19703,14 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-13",
         "reserva": "720",
         "entrega": "Nov. 2026",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3100"
       },
       {
         "id": "ezra-bridger-mp4e87bh",
@@ -21649,7 +21678,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3400",
+        "precio": "3100",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/915283/hot-toys-star-wars-grand-admiral-thrawn-imperial-armor-sixth-scale-figure-gallery-69e8e081c8c47.jpg",
           "https://www.sideshow.com/storage/product-images/915283/hot-toys-star-wars-grand-admiral-thrawn-imperial-armor-sixth-scale-figure-scale-69e8e1c0aa709.jpg",
@@ -21739,13 +21768,14 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-29",
         "reserva": "0",
         "cantidad": "1",
-        "agotado": false
+        "agotado": false,
+        "precio_orig": "3400"
       },
       {
         "id": "clone-commander-gree-mojbdkh8",
@@ -22566,7 +22596,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3100",
+        "precio": "2800",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-gallery-69dfa6dfc9470.jpg",
           "https://www.sideshow.com/storage/product-images/915300/hot-toys-star-wars-imperial-remnant-at-rt-driver-sixth-scale-figure-scale-69dfa83d1a669.jpg",
@@ -22660,7 +22690,7 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-15",
@@ -22724,7 +22754,8 @@
           "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacc9e972.jpg",
           "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacd17a47.jpg",
           "https://www.sideshow.com/storage/product-images/9153002/hot-toys-star-wars-imperial-remnant-at-rt-driver-and-at-rt-sixth-scale-figure-set-gallery-69dfaacd912eb.jpg"
-        ]
+        ],
+        "precio_orig": "3100"
       },
       {
         "id": "lieutenant-starbuck-mntu7wqa",
@@ -24783,7 +24814,7 @@
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
         "precio": "3300",
-        "precio_d": "4500",
+        "precio_d": "4050",
         "reserva": "660",
         "entrega": "1 mes",
         "cantidad": "1",
@@ -24880,7 +24911,7 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "added_at": "2026-04-06T18:30:50.814824",
         "agotado_r": true,
         "agotado_d": false,
@@ -25017,9 +25048,9 @@
         "franquicia": "Star Wars",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3300",
+        "precio": "3000",
         "precio_d": "",
-        "precio_orig": "",
+        "precio_orig": "3300",
         "reserva": "660",
         "entrega": "",
         "cantidad": "1",
@@ -25148,7 +25179,7 @@
         ],
         "yt": "",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "added_at": "2026-04-06T18:02:41.332067"
       },
       {
@@ -27369,7 +27400,7 @@
         "escala": "1:6 - 31CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3600",
+        "precio": "3250",
         "precio_d": "",
         "reserva": "720",
         "entrega": "Mayo 2027",
@@ -27513,11 +27544,11 @@
           }
         ],
         "id": "han-solo-the-empire-strikes-back",
-        "precio_orig": "",
+        "precio_orig": "3600",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915015/hot-toys-star-wars-han-solo-sixth-scale-figure-gallery-68fbaf42a2a0a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915015/hot-toys-star-wars-han-solo-sixth-scale-figure-scale-68fbaf4660c69.jpg",
@@ -30023,7 +30054,7 @@
         "escala": "Escala 1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3700",
+        "precio": "3350",
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Diciembre 2026",
@@ -30155,11 +30186,11 @@
           }
         ],
         "id": "pelegostos-chief-jack-sparrow",
-        "precio_orig": "",
+        "precio_orig": "3700",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914584/hot-toys-disney-pelegostos-chief-jack-sparrow-sixth-scale-figure-gallery-69987ec6c6008.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914584/hot-toys-disney-pelegostos-chief-jack-sparrow-sixth-scale-figure-scale-699880ace25a1.jpg",
@@ -30364,7 +30395,7 @@
         "escala": "49CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3100",
+        "precio": "2800",
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Febrero 2027",
@@ -30384,11 +30415,11 @@
           }
         ],
         "id": "chopper-one-piece-live-action",
-        "precio_orig": "",
+        "precio_orig": "3100",
         "yt": "",
         "franquicia": "Anime",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915398/hot-toys-one-piece-chopper-collectible-figure-gallery-69a74715d43bb.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/915398/hot-toys-one-piece-chopper-collectible-figure-scale-69a708e20454c.jpg",
@@ -34749,7 +34780,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3700",
+        "precio": "3350",
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Febrero 2027",
@@ -34877,11 +34908,11 @@
           }
         ],
         "id": "joel-miller-2",
-        "precio_orig": "",
+        "precio_orig": "3700",
         "yt": "",
         "franquicia": "Gaming",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100519/hot-toys-the-last-of-us-the-last-of-us-sixth-scale-figure-gallery-686eb5f114cb7.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/100519/hot-toys-the-last-of-us-the-last-of-us-sixth-scale-figure-gallery-686eb5f16ea17.jpg",
@@ -34901,7 +34932,7 @@
         "escala": "1:6 - 33CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3700",
+        "precio": "3350",
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Febrero 2027",
@@ -34989,11 +35020,11 @@
           }
         ],
         "id": "knightfall-batman",
-        "precio_orig": "",
+        "precio_orig": "3700",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914579/hot-toys-dc-comics-knightfall-batman-sixth-scale-figure-gallery-685d61983c208.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914579/hot-toys-dc-comics-knightfall-batman-sixth-scale-figure-scale-685d642d0ddf7.jpg",
@@ -36462,7 +36493,7 @@
         "escala": "1:6 - 31CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3400",
+        "precio": "3100",
         "precio_d": "",
         "reserva": "Q680",
         "entrega": "Noviembre 2026",
@@ -36558,11 +36589,11 @@
           }
         ],
         "id": "darth-nihilus",
-        "precio_orig": "",
+        "precio_orig": "3400",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-gallery-680fcc914397b.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914472/hot-toys-star-wars-darth-nihilus-sixth-scale-figure-scale-680fcc9924901.jpg",
@@ -36584,7 +36615,7 @@
         "escala": "1:6 - 29CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3700",
+        "precio": "3350",
         "precio_d": "",
         "reserva": "Q740",
         "entrega": "Noviembre 2026",
@@ -36728,11 +36759,11 @@
           }
         ],
         "id": "palpatine-darth-sidious",
-        "precio_orig": "",
+        "precio_orig": "3700",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-gallery-680fb29cb3537.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914439/other-star-wars-palpatine-sixth-scale-figure-scale-680fb55a07121.jpg",
@@ -36753,7 +36784,7 @@
         "escala": "1:6 - 31CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3600",
+        "precio": "3250",
         "precio_d": "",
         "reserva": "Q720",
         "entrega": "Noviembre 2026",
@@ -36845,11 +36876,11 @@
           }
         ],
         "id": "range-trooper",
-        "precio_orig": "",
+        "precio_orig": "3600",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-gallery-680a64105a185.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914462/other--range-trooper-8-inch-figure-scale-680a641440ee6.jpg",
@@ -37137,7 +37168,7 @@
         "escala": "1:6",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3500",
+        "precio": "3150",
         "reserva": "0",
         "cantidad": "1",
         "content": [
@@ -37245,7 +37276,7 @@
         "id": "cassian-andor",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-gallery-67f7dde02931a.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914402/hot-toys-star-wars-cassian-andor-sixth-scale-figure-scale-67f7e39984a87.jpg",
@@ -37259,7 +37290,8 @@
         "content_ok": true,
         "agotado": false,
         "agotado_r": false,
-        "agotado_d": false
+        "agotado_d": false,
+        "precio_orig": "3500"
       },
       {
         "n": "Daredevil",
@@ -37427,7 +37459,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3300",
+        "precio": "3000",
         "precio_d": "",
         "reserva": "660",
         "entrega": "Agosto 2026",
@@ -37531,11 +37563,11 @@
           }
         ],
         "id": "tie-fighter-pilot",
-        "precio_orig": "",
+        "precio_orig": "3300",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-gallery-67c72475be379.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914268/hot-toys-star-wars-tie-fighter-pilot-sixth-scale-figure-scale-67c7263fe8a8c.jpg",
@@ -39250,7 +39282,7 @@
         "escala": "1:6 - 44CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "4000",
+        "precio": "3600",
         "precio_d": "",
         "reserva": "Q800",
         "entrega": "Mayo 2026",
@@ -39330,11 +39362,11 @@
           }
         ],
         "id": "scorched-xenomorph",
-        "precio_orig": "",
+        "precio_orig": "4000",
         "yt": "",
         "franquicia": "Alien",
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-gallery-674744051a8b8.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/913989/hot-toys-alien-scorched-xenomorph-sixth-scale-figure-scale-67474762c9392.jpg",
@@ -55363,7 +55395,7 @@
         "escala": "1:10",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3000",
+        "precio": "2700",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-gallery-683e1c08ee087.jpg",
           "https://www.sideshow.com/storage/product-images/914557/iron-studios-saint-seiya-aquarius-camus-1-10-scale-statues-scale-683e1d445523f.jpg",
@@ -55415,13 +55447,14 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-09-26",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3000"
       },
       {
         "id": "pikachu-life-size-figure-by-sideshow-collectibles-muhnsnad",
@@ -58887,7 +58920,7 @@
         "escala": "1:6",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "4000",
+        "precio": "3600",
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035702_8_3885.jpg?v=1761320423",
           "https://cdn.shopify.com/s/files/1/0587/3477/2258/files/Image_20251024035703_9_3885.jpg?v=1761320423",
@@ -58941,11 +58974,12 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-23",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "4000"
       },
       {
         "id": "the-last-of-us-bloater-regular-mphr5kfz",
@@ -59043,7 +59077,7 @@
         "escala": "1:4",
         "disp": "Entrega Inmediata",
         "estado": "En caja abierta",
-        "precio": "6000",
+        "precio": "5400",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b9871d0d60.jpg",
           "https://www.sideshow.com/storage/product-images/300198/dr-doom_marvel_gallery_5c4b986ed271d.jpg",
@@ -59099,12 +59133,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "6000"
       },
       {
         "id": "green-goblin-premium-format-mphljze3",
@@ -59184,7 +59219,7 @@
         "escala": "1:4",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "9000",
+        "precio": "8100",
         "fotos": [
           "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina4.jpg",
           "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina.jpg10.jpg.webp",
@@ -59258,12 +59293,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "9000"
       },
       {
         "id": "vegito-mphla1zd",
@@ -59274,7 +59310,7 @@
         "escala": "1:3",
         "disp": "Entrega Inmediata",
         "estado": "En caja abierta",
-        "precio": "10500",
+        "precio": "9500",
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/products/Di-Tai-She-Vegito-StatueCorp-249.jpg?v=1685373485",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/products/Di-Tai-She-Vegito-StatueCorp-376.jpg?v=1685373485"
@@ -59306,12 +59342,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "10500"
       },
       {
         "id": "armored-titan-mphl5l5a",
@@ -59322,7 +59359,7 @@
         "escala": "",
         "disp": "Entrega Inmediata",
         "estado": "En caja abierta",
-        "precio": "6200",
+        "precio": "5600",
         "fotos": [
           "https://uvstore.shop/assets/productos/armored-titan-mphl5l5a/1.jpg"
         ],
@@ -59361,12 +59398,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "6200"
       },
       {
         "id": "majin-vegeta-mphl19t9",
@@ -59443,7 +59481,7 @@
         "escala": "",
         "disp": "Entrega Inmediata",
         "estado": "En caja abierta",
-        "precio": "9300",
+        "precio": "8400",
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/1_b236affe-daad-4a14-a3fc-288d62c5bdca_jpg.webp?v=1689094052",
           "https://cdn.shopify.com/s/files/1/0653/4280/0095/files/2_b5013f93-109f-4c28-b668-1058ef4dad97_jpg.webp?v=1689094052",
@@ -59496,12 +59534,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-22",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "9300"
       },
       {
         "id": "gray-fullbuster-mph7xtpk",
@@ -60877,7 +60916,7 @@
         "escala": "1:10",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "3000",
+        "precio": "2700",
         "fotos": [
           "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-gallery-680ff251ac26f.jpg",
           "https://www.sideshow.com/storage/product-images/914469/iron-studios-saint-seiya-aries-mu-1-10-scale-statues-scale-680ff38131d45.jpg",
@@ -60943,12 +60982,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-01",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3000"
       },
       {
         "id": "tmnt-underground-tabletop-edition-mom3td1y",
@@ -79874,7 +79914,7 @@
         "escala": "1:6 ",
         "disp": "Entrega Inmediata",
         "estado": "Usado",
-        "precio": "3500",
+        "precio": "3150",
         "fotos": [
           "https://img.sugotoys.com.au/images/20220613030050/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-0-1-1.jpg",
           "https://img.sugotoys.com.au/images/20220613030053/enterbayrealmasterpiece-ipman4thefinaleipmanrm-108316scaleactionfigure-1-1-1.jpg",
@@ -79969,12 +80009,13 @@
           }
         ],
         "destacado": false,
-        "oferta": false,
+        "oferta": true,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-14",
         "reserva": "0",
-        "cantidad": "1"
+        "cantidad": "1",
+        "precio_orig": "3500"
       },
       {
         "id": "scene-selection-03-mazinger-z-rocket-punch-mnttjxzf",
