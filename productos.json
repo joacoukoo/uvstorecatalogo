@@ -41660,6 +41660,68 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "marin-kitagawa-swimsuit-ver-1-4-figure-mwntau4d",
+        "n": "Marin Kitagawa: Swimsuit Ver. 1/4 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1228dbe2f.jpg",
+        "franquicia": "Anime",
+        "marca": "FREEing",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4250",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1228dbe2f.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-scale-6afe122a33e15.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1229063ae.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe122924ee8.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1229438e5.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1229629dc.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe12297f5d7.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1229a9848.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1229d3bae.jpg",
+          "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe122a09702.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Marin Kitagawa cobra vida en una impresionante figura de escala 1/4 con 40 cm de altura, luciendo su bikini floral característico de la serie. Cada detalle ha sido meticulosamente elaborado, desde los accesorios hasta el flujo de su cabello y su expresión radiante. Una pieza de colección que captura perfectamente la personalidad vibrante y el encanto de este personaje icónico."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultor: Morikura (Heartstrings)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de colección"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "reserva": "850",
+        "entrega": "Ago. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "doctor-doom-on-throne-1-10-scale-statue-mwme1ng2",
         "n": "Doctor Doom on Throne 1:10 Scale Statue",
         "i": "https://www.sideshow.com/storage/product-images/915933/iron-studios-marvel-doctor-doom-on-throne-1-10-scale-statues-gallery-6a67e03616b3b.jpg",
