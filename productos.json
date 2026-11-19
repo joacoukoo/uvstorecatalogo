@@ -108,7 +108,7 @@
         "escala": "1:3 - 68.5CM",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "15500",
+        "precio": "16500",
         "fotos": [
           "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/ChristianBaleStatue.jpg?v=1677833073",
           "https://cdn.shopify.com/s/files/1/0062/8083/9232/products/BatmanStatue.jpg?v=1677833073",
@@ -149,13 +149,12 @@
           }
         ],
         "destacado": true,
-        "oferta": true,
+        "oferta": false,
         "agotado": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-11-12",
-        "cantidad": "1",
-        "precio_orig": "16500"
+        "cantidad": "1"
       },
       {
         "id": "lebron-james-lakers-real-masterpiece-1-6-mwdxbwsw",
@@ -645,7 +644,7 @@
         "escala": "1:6",
         "disp": "Vendido",
         "estado": "Nuevo",
-        "precio": "3500",
+        "precio": "4200",
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/hot-toys-marvel-wolverine-tva-jacket-version-sixth-scale-figure-square.jpg",
           "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/913607/wolverine-tva-jacket-version_marvel_gallery_66a3f3cc300c7.jpg",
@@ -714,11 +713,10 @@
           }
         ],
         "destacado": true,
-        "oferta": true,
+        "oferta": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-04-08",
-        "precio_orig": "4200",
         "cantidad": "0",
         "agotado": true
       },
@@ -2121,7 +2119,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "2500",
+        "precio": "3000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -2244,11 +2242,10 @@
             "x": "Dos (2) clips intercambiables para figuras"
           }
         ],
-        "precio_orig": "3000",
         "yt": "",
         "franquicia": "Marvel",
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658434e8a3f.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905176/spider-man-homemade-suit_marvel_gallery_5d658435415fb.jpg",
@@ -3154,7 +3151,7 @@
         "escala": "1:6 - 36CM",
         "estado": "Sellado",
         "disp": "Entrega Inmediata",
-        "precio": "3300",
+        "precio": "3600",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3233,11 +3230,10 @@
             "x": "Batería incluida (se requieren celdas de botón adicionales)"
           }
         ],
-        "precio_orig": "3600",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d731b095.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7367660.jpg",
@@ -3400,7 +3396,7 @@
         "escala": "Escala 1:3",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "37000",
+        "precio": "41000",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -3539,11 +3535,10 @@
             "x": "Múltiples capas de envejecido, lavados y pigmentación para realismo ambiental"
           }
         ],
-        "precio_orig": "41000",
         "yt": "",
         "franquicia": "DC Comics",
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5ac059850.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/908172/batman-versus-superman_dc-comics_gallery_66ba5abdab768.jpg",
@@ -4117,7 +4112,7 @@
         "escala": "Escala 1:4 - 41CM",
         "estado": "Exhibido - Excelente Estado",
         "disp": "Entrega Inmediata",
-        "precio": "5500",
+        "precio": "5800",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -4146,9 +4141,8 @@
         ],
         "yt": "https://www.youtube.com/watch?v=tUG2lJW25RU",
         "franquicia": "Gaming",
-        "precio_orig": "5800",
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "id": "ellie-the-last-of-us-part-ii",
         "agotado_r": false,
         "agotado_d": false,
@@ -5319,7 +5313,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "3000",
+        "precio": "3300",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5350,11 +5344,10 @@
             "x": "Sombrero con cabello(compatible con ambas cabezas)BastónReloj despertadorTeléfonoMaletaEstetoscopioMartilloCortadores de metalDestornilladorRosa blancaBase de exhibición"
           }
         ],
-        "precio_orig": "3300",
         "yt": "",
         "franquicia": "Otros",
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_6409393955392.jpg",
           "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/911066/charlie-chaplin_charlie-chaplin_gallery_64093939a7dd4.jpg",
@@ -5569,7 +5562,7 @@
         "escala": "1:6 - 30CM",
         "estado": "Nuevo",
         "disp": "Entrega Inmediata",
-        "precio": "2800",
+        "precio": "2900",
         "precio_d": "",
         "reserva": "",
         "entrega": "",
@@ -5600,11 +5593,10 @@
             "x": "Jetpackcon2 efectos de propulsiónrealistas (conimanes)Base de exhibicióncon logo de Star Wars y placa con el nombre del personaje"
           }
         ],
-        "precio_orig": "2900",
         "yt": "",
         "franquicia": "Star Wars",
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "fotos": [
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-trooper-sixth-scale-figure-gallery-67698fa152dda.jpg",
           "https://www.sideshow.com/cdn-cgi/image/height=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/914066/hot-toys-star-wars-104th-battalion-wolfpack-clone-trooper-sixth-scale-figure-scale-67699229a4842.jpg",
@@ -66215,9 +66207,8 @@
         "franquicia": "Gaming",
         "estado": "Nuevo",
         "disp": "Pre Orden",
-        "precio": "10400",
+        "precio": "11400",
         "precio_d": "",
-        "precio_orig": "11400",
         "reserva": "2080",
         "entrega": "Q2 2027",
         "cantidad": "",
@@ -66319,7 +66310,7 @@
         ],
         "yt": "",
         "destacado": true,
-        "oferta": true,
+        "oferta": false,
         "added_at": "2026-04-03T12:14:51.200511"
       },
       {

@@ -1889,10 +1889,11 @@ function renderBFBanner(){
   var num=function(v){var n=Number(String(v==null?"":v).replace(/[,\s]/g,""));return isFinite(n)?n:0;};
   var rows=[];
   CAT_KEYS.forEach(function(c){(DATA[c]||{products:[]}).products.forEach(function(p){
-    if(!p.oferta||_esAgotado(p))return;
+    if(!p.oferta||_esAgotado(p)||!/^entrega/i.test(p.disp||""))return;
     var a=num(p.precio_orig),b=num(p.precio);
     rows.push({p:p,cat:c,save:(a>b&&b>0)?a-b:0});
   });});
+  if(!rows.length&&!preview){el.classList.remove("on");document.getElementById("home").classList.remove("bf-on");return;}
   rows.sort(function(x,y){return y.save-x.save;});
   var max=rows.length?rows[0].save:0;
   var lead=document.getElementById("bf-lead");
