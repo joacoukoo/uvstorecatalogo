@@ -71217,6 +71217,60 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "godzilla-2026-collectible-figure-mwntgw7z",
+        "n": "Godzilla (2026) Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac771059.jpg",
+        "franquicia": "Otros",
+        "marca": "X-Plus",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3000",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac771059.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac79a68d.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac7cd548.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac80b525.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac83d71b.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac86fcab.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac8a1b87.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac8d5b7f.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac91c31c.jpg",
+          "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac95389b.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Godzilla (2026) del aclamado filme Godzilla Minus Zero llega en la serie DefoReal de X-Plus, combinando diseño estilizado y realista. Con apenas 15 cm de altura, esta figura compacta reproduce fielmente cada detalle distintivo del monstruo: aletas dorsales, cola y texturas intrincadas que cautivan a primera vista."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 15 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "reserva": "600",
+        "entrega": "Feb. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "t-51-vault-tec-power-armor-1-6-figure-mwnte7ps",
         "n": "T-51 Vault-Tec Power Armor 1/6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde316e1b7f.jpg",
