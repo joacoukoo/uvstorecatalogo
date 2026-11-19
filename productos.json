@@ -10332,6 +10332,67 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "spongebob-squarepants-cosbaby-figure-mwntwph8",
+        "n": "SpongeBob SquarePants Cosbaby Figure",
+        "i": "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb0462226d.jpg",
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb0462226d.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-scale-67ddb04796c5b.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb262e876a.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb046f06a4.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb04740bf9.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb0462226d_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-scale-67ddb04796c5b_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb262e876a_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/914296/hot-toys-spongebob-squarepants-spongebob-cosbaby-collectible-figure-gallery-67ddb046f06a4_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "El jefe de cocina más carismático del fondo marino llega como figura Cosbaby con su característico humor desternillante. Con detalles adorables y expresión jovial, esta figura captura la esencia divertida de SpongeBob en su versión coleccionable. Perfecta para fans que desean traer un poco de Bikini Bottom a su colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 13 cm (5.12\")"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC/Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Minitridente con ancla"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espátula dorada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hamburguesa de Krusty Krab"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "reserva": "100",
+        "cantidad": "2"
+      },
+      {
         "id": "patrick-star-cosbaby-collectible-figure-mwntv6aq",
         "n": "Patrick Star Cosbaby Collectible Figure",
         "i": "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b84256b.jpg",
