@@ -10332,6 +10332,63 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "patrick-star-cosbaby-collectible-figure-mwntv6aq",
+        "n": "Patrick Star Cosbaby Collectible Figure",
+        "i": "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b84256b.jpg",
+        "franquicia": "Otros",
+        "marca": "Hot Toys",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "500",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b84256b.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-scale-67ddb2b97be44.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b89d2e4.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b8e7188.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b925a3a.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-silo.png",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b84256b_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-scale-67ddb2b97be44_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b89d2e4_sm.jpg",
+          "https://www.sideshow.com/storage/product-images/914297/hot-toys-spongebob-squarepants-patrick-star-cosbaby-collectible-figure-gallery-67ddb2b8e7188_sm.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Únete a las aventuras submarinas con Patrick Star, la estrella de mar más carismática y divertida del fondo del océano. Esta figura Cosbaby captura toda la esencia cómica del personaje con sus grandes ojos expresivos y su característico sonrisa. Perfecta para coleccionistas que adoran SpongeBob SquarePants y buscan traer un poco de humor de Fondo Bikini a sus colecciones."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 10 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura Cosbaby de Patrick Star"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Hamburguesa (accesorio)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "reserva": "100",
+        "cantidad": "2"
+      },
+      {
         "id": "winter-soldier-1-6-figure-mwme1ng1",
         "n": "Winter Soldier 1/6 Figure",
         "i": "https://www.sideshow.com/storage/product-images/908033/winter-soldier_marvel_gallery_605a11c3eb9f2.jpg",
