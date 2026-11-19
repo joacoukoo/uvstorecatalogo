@@ -71217,6 +71217,96 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "t-51-vault-tec-power-armor-1-6-figure-mwnte7ps",
+        "n": "T-51 Vault-Tec Power Armor 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde316e1b7f.jpg",
+        "franquicia": "Gaming",
+        "marca": "Threezero",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "6250",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde316e1b7f.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-scale-6afde3053ef91.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde31740f4a.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde3179146c.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde317e0309.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde3183d419.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde3188f1b2.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde318c9bc8.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde319117d6.jpg",
+          "https://www.sideshow.com/storage/product-images/916309/threezero-fallout-t-51-vault-tec-power-armor-sixth-scale-figure-gallery-6afde3194c99b.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La figura T-51 Vault-Tec Power Armor de Threezero es una obra maestra de coleccionismo que captura la icónica armadura del universo Fallout con un nivel de detalle excepcional. Con su esquema de colores azul y amarillo auténtico, aplicación de pintura refinada y efectos de desgaste realistas, esta pieza de 36.8 cm representa fielmente la textura y la estética de la armadura post-apocalíptica. Construida sobre un armazón de endoesqueleto con más de 35 puntos de articulación y funcionalidad LED en el casco, ofrece tanto exhibición espectacular como posibilidad de juego dinámico ilimitado."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36.8 cm (~14.5 pulgadas)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Plástico ABS, resina, metal die-cast, tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: Más de 35"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Características especiales: Puntos de conexión magnética, piezas de armadura intercambiables, LED en el casco, compatibilidad con otras figuras T-60 de Threezero Fallout"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo endoesqueleto con armazón articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura T-51 Vault-Tec completa (piezas magnéticas intercambiables)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Jet Pack nuevo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza masculina intercambiable esculpida"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Mini Gun"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Piezas de armadura T-60 Power Armor"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Casco con función LED luz"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Múltiples puntos de conexión magnética para personalización"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-19",
+        "reserva": "1250",
+        "entrega": "Ago. 2027",
+        "cantidad": "2"
+      },
+      {
         "id": "godzilla-2004-heat-ray-ver-new-gotengo-action-figu-mwcdxvuj",
         "n": "Godzilla [2004] Heat Ray Ver. New Gotengo Action Figure",
         "i": "https://www.sideshow.com/storage/product-images/915094/tamashii-nations-godzilla-godzilla-2004-heat-ray-ver-new-gotengo-action-figure-gallery-691cbe1b11a70.jpg",
