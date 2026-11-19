@@ -59219,7 +59219,7 @@
         "escala": "1:4",
         "disp": "Entrega Inmediata",
         "estado": "Nuevo",
-        "precio": "8100",
+        "precio": "9000",
         "fotos": [
           "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina4.jpg",
           "https://yardratshop.com/wp-content/uploads/2025/04/cloud-strife-og-dream-studio-final-fantasy-vii-estatua-resina.jpg10.jpg.webp",
@@ -59293,13 +59293,12 @@
           }
         ],
         "destacado": false,
-        "oferta": true,
+        "oferta": false,
         "agotado_r": false,
         "agotado_d": false,
         "added_at": "2026-05-23",
         "reserva": "0",
-        "cantidad": "1",
-        "precio_orig": "9000"
+        "cantidad": "1"
       },
       {
         "id": "vegito-mphla1zd",
