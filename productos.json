@@ -10418,6 +10418,104 @@
     "slug": "hot-toys-pre-ordenes",
     "products": [
       {
+        "id": "bane-1-6-figure-mwqj41xu",
+        "n": "Bane 1/6 Figure",
+        "i": "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b0082493eb7a.jpg",
+        "franquicia": "DC Comics",
+        "marca": "Hot Toys",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b0082493eb7a.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-scale-6b00824cf15ea.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b008249acd07.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b008249f2367.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b00824a43c30.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b00824a885b9.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b00824b0345b.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b00824b4b2be.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b00824bbb106.jpg",
+          "https://www.sideshow.com/storage/product-images/916327/hot-toys-dc-comics-bane-8-inch-figure-gallery-6b00824c3b178.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el universo de DC Comics con esta colosal figura de Bane de Hot Toys, que captura su abrumadora presencia con una altura intimidante de 47 cm y un cuerpo musculoso de silicona. Incluye dos cabezas intercambiables con estilos artísticos distintos y un sistema de Venom con tubería verde brillante para recrear su poder destructivo. Perfecta para enfrentar contra la figura de Batman Absolute y crear dioramas épicos de esta batalla titánica."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 47 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Silicona (torso superior), plástico articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Puntos de articulación: 16"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cabezas intercambiables (estilos Nick Dragotta y Clay Mann)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "5 manos intercambiables (puños, manos abiertas, mano para sostener Batman)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Armadura para antebrazos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Sistema de suministro Venom con tubería verde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cinturones de utilidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Pantalones de tela negra"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Botas de vinilo negro"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Batman en pose de combate (13,5 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Batman en pose levantada (17,5 cm)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Capucha de Batman"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de figura con placa de personaje"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-21",
+        "reserva": "960",
+        "entrega": "Mar. 2028",
+        "cantidad": "6"
+      },
+      {
         "id": "infinity-ultron-diecast-f520b1db",
         "n": "Infinity Ultron (Diecast)",
         "i": "https://www.sideshow.com/storage/product-images/909671/infinity-ultron_marvel_gallery_61787e9bc77ea.jpg",
