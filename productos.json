@@ -3,6 +3,46 @@
     "slug": "entrega-inmediata",
     "products": [
       {
+        "id": "voltron-reissue-mc-muscle-b3f4d050",
+        "n": "Voltron Reissue",
+        "i": "https://uvstore.shop/assets/productos/voltron-reissue-mc-muscle-b3f4d050/1.jpg",
+        "franquicia": "Anime",
+        "marca": "MC Muscle",
+        "escala": "38CM",
+        "disp": "Entrega Inmediata",
+        "estado": "Nuevo",
+        "precio": "3000",
+        "fotos": [
+          "https://uvstore.shop/assets/productos/voltron-reissue-mc-muscle-b3f4d050/1.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura de Voltron de MC Muscle (reedición), el robot gigante de la serie clásica Voltron: Defender of the Universe, formado por los cinco leones."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 38 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: ABS, POM y PVC"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada con espada"
+          }
+        ],
+        "destacado": false,
+        "oferta": true,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-24",
+        "cantidad": "1",
+        "precio_orig": "3200"
+      },
+      {
         "id": "robo-dou-evangelion-13-f520aded",
         "n": "ROBO-DOU Evangelion 13",
         "i": "https://uvstore.shop/assets/productos/robo-dou-evangelion-13-f520aded/1.jpg",
