@@ -42322,6 +42322,1172 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "rin-tohsaka-1-6-statue-mww8j4i9",
+        "n": "Rin Tohsaka 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nj32I2uFM4YuNyJ6XEpjX1795593851551.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nj32I2uFM4YuNyJ6XEpjX1795593851551.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/60MoKUyUfOsB-b7lqnvbr1795593851552.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/MWJCO2AN5DSKLi7iXXhmI1795593851552.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JNWGBtxtnT_AAecVinP1e1795593851553.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5qKw1B4gmkWyorhRVFoOo1795593851553.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/63ooXwxflK4PT-CxJ-v-O1795593851553.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sWe3Goa6NTDwQK3SN04FB1795593851553.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Lazy Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3500",
+        "reserva": "700",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Rin Tohsaka en escala 1/6 capturando toda la elegancia y carisma del personaje. Elaborada en resina importada y PU de alta calidad con acabados meticulosos. Edición limitada a solo 198 unidades."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36781",
+        "entrega": "2027 Q3"
+      },
+      {
+        "id": "childhood-satoru-gojo-statue-mww8j4ia",
+        "n": "Childhood Satoru Gojo Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/n-i2anVmpFRI2O-Ht00ZU1795592632615.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/n-i2anVmpFRI2O-Ht00ZU1795592632615.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3boS0wxA522Gx8_sZ8iPO1795592556833.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tCCwe3lknRVYvXm8sR18C1795592556833.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/PnitfMKja9m080dbIXXHH1795592556833.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DtiFOngKClQ3qm8jOmZuc1795592556833.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/HbAbERpzZtmpuRG-XlUze1795592556833.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/W5XUXthKTz7gsdolvZxZ81795592556833.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/A-rpTz1SfRt5hIS85-IUt1795592560639.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "GO FIGURE Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1600",
+        "reserva": "320",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una exquisita representación de Satoru Gojo en su infancia, sentado en un trono majestuoso en un palacio luminoso. Captura la esencia del carismático jefe de la familia Gojo con una pose relajada y elegante. Elaborada en resina importada de alta calidad con acabados precisos que destacan cada detalle."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Version A: 9.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura Version B: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad Version A: 6.6 cm / Version B: 13 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho Version A: 9 cm / Version B: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Satoru Gojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de trono"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36782",
+        "entrega": "2027 Q1",
+        "label_base": "Version A",
+        "detalle_base": "Tamaño compacto de 9.5 cm de alto",
+        "variantes": [
+          {
+            "label": "Version B",
+            "precio": "2000",
+            "reserva": "400",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/m38upzD723PMOvbfnISxY1795592572413.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3boS0wxA522Gx8_sZ8iPO1795592556833.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/tCCwe3lknRVYvXm8sR18C1795592556833.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/PnitfMKja9m080dbIXXHH1795592556833.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DtiFOngKClQ3qm8jOmZuc1795592556833.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/HbAbERpzZtmpuRG-XlUze1795592556833.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/W5XUXthKTz7gsdolvZxZ81795592556833.webp",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/A-rpTz1SfRt5hIS85-IUt1795592560639.webp"
+            ],
+            "detalle": "Tamaño grande de 23 cm de alto"
+          }
+        ]
+      },
+      {
+        "id": "asuka-langley-soryu-angel-1-6-statue-mww8j4ia",
+        "n": "Asuka Langley Soryu Angel 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ZqFNZ4JZtoGJboXoNYk871795592116147.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ZqFNZ4JZtoGJboXoNYk871795592116147.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ID7K9s5vC00WHEWTui3x01795592116147.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/TES9cNT1nAvCulzZh7BTB1795592116147.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yccOfPKnOiQ9p5nnjbzw81795592116147.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-H7CzqW4Istx8h8uZlLdn1795592116147.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Eve Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4000",
+        "reserva": "800",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de colección premium que captura a Asuka Langley Soryu en su forma de Ángel, rodeada de pétalos rojos y plumas en una escena épica de destrucción urbana. Con 32 cm de altura y acabado en resina importada, esta pieza limitada combina detalle artístico excepcional con la icónica estética de Neon Genesis Evangelion. Incluye figura del personaje y distintivo numerado con acabado iridiscente."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 32 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada con acabado PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Distintivo numerado iridiscente"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36780",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "kunieda-aoi-1-6-statue-mww8j4ia",
+        "n": "Kunieda Aoi 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/U-caNI7eOBSzmN40z5Xvo1795571144179.png",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/U-caNI7eOBSzmN40z5Xvo1795571144179.png"
+        ],
+        "franquicia": "Anime",
+        "marca": "Lao A Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3000",
+        "reserva": "600",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Kunieda Aoi del anime Beelzebub, capturando la elegancia y el carácter del personaje con detalle excepcional. Esta figura de 30 cm combina materiales de alta calidad (resina importada y PU) para una reproducción fidedigna. Edición limitada a solo 188 unidades, perfecta para coleccionistas devotos de la serie."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30,1 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14,2 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 15,7 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Kunieda Aoi"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36777",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "anya-forger-grape-girl-statue-mww8j4ia",
+        "n": "Anya Forger Grape Girl Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/30kdAeNTcRNWn7tdYiQNG1795509332215.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/30kdAeNTcRNWn7tdYiQNG1795509332215.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1vX4A2cmhOt6OzU1B2ztF1795509332216.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zRApVy13zE7smY6fpW-sv1795509332216.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nwonHABXLsjsc5OaWZ0vO1795509332216.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/a2oJ9WNyjT4LQcXht_GVc1795509332216.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uJDqfuYea83kCRjKkox7L1795509335395.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Wakuwaku Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2200",
+        "reserva": "440",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura a Anya Forger en su adorable forma de Fruit Girl, posando alegremente sobre una base temática de uvas. Esta estatua premium combina materiales importados de alta calidad con una escultura detallada que resalta la expresión alegre y los vibrantes colores púrpura y rosa del personaje. Una pieza imprescindible para los fans de Spy x Family que buscan una representación artística del entrañable personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 9 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 10 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU importado y resina importada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Statue"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática con uvas"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36691",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "rabbit-link-1-6-statue-mww8j4ia",
+        "n": "Rabbit Link 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BnCvOxrv3jZFLtCIH_N631795510861394.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/BnCvOxrv3jZFLtCIH_N631795510861394.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-z2Z-GACeVBnnEono817-1795510861394.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/W31JSJI6g1adzAChLlk_Y1795510861394.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/aAEhn200Z8wXWyuGqzbFy1795510861394.webp"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Moe Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2900",
+        "reserva": "580",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una icónica reinterpretación de Link con orejas de conejo basada en The Legend of Zelda: Ocarina of Time. Esta estatua premium de 20 cm captura la esencia del héroe de Hyrule con un detalle y acabado excepcional. Fabricada en resina importada y PU de alta calidad para los coleccionistas más exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 20 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Link con traje verde"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Diadema de conejo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de piedra"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36689",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "anya-forger-x-bulbasaur-statue-mww8j4ib",
+        "n": "Anya Forger X Bulbasaur Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vSV0IsS90in5_RB6HLbwe1795569702394.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vSV0IsS90in5_RB6HLbwe1795569702394.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/qAJEn3mkFI6jtrvj_B1pc1795569702395.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ilxyPgbZaPbi7QKI67N7R1795569702395.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Yohool Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2600",
+        "reserva": "520",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una estatua premium que fusiona dos universos icónicos: Anya Forger de Spy x Family montada sobre Bulbasaur de Pokémon. Esta pieza artesanal de resina ecológica captura la alegría de Anya en un momento de complicidad con el Pokémon tipo planta. Limitada a solo 199 unidades, es un must-have para coleccionistas de ambas franquicias."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 17.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 14.3 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina ecológica y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 199 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Anya Forger X Bulbasaur"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de presentación"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36688",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "uzumaki-suguru-geto-1-6-statue-mww8j4ib",
+        "n": "Uzumaki Suguru Geto 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yQSw3cZ-RFw_UEDcV-JKQ1795501404144.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/yQSw3cZ-RFw_UEDcV-JKQ1795501404144.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gX6K6FJlQxwHW-GnGoCNX1795501399443.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Jd-ZRAMLcv21rA7yo836s1795501399444.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wCMpJmQ2SGK8Av1sL_ztY1795501399444.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/SeMfbe8azntq5iC6RpYVc1795501399444.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xkNpaKhUw4umbsnfee4Mz1795501399445.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/aaBcXKkwnv0DRZz4E2Z0v1795501399445.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GcKuVaC6hrOUMcnl9jS561795501399445.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_GT6e2eOiLhkNke6TBaze1795501399445.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pUUQjAI_YQEbj0ttJSvTj1795501399445.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Zanyjoke Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "12000",
+        "reserva": "2400",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua de Suguru Geto en su forma del Desfile de los Cien Demonios, capturando toda la intensidad y poder del personaje a escala 1/6. Obra maestra artesanal de ZanyJoke Studio con detalle excepcional en resina importada y materiales PU premium. Limitada a solo 188 unidades, esta pieza es imprescindible para coleccionistas apasionados por Jujutsu Kaisen."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura del personaje: 73 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Dimensiones totales: 65 cm (alto) × 64 cm (ancho) × 53 cm (profundidad)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura del personaje"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escultura(s) de cabeza intercambiable(s)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base(s) simple(s)"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36450",
+        "entrega": "2027 Q3",
+        "label_base": "Regular",
+        "detalle_base": "1 figura y 1 escultura de cabeza",
+        "variantes": [
+          {
+            "label": "Ultimate",
+            "precio": "14400",
+            "reserva": "2880",
+            "fotos": [
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zj5O8PwFnNh-TrA1b7rFK1795501416150.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/gX6K6FJlQxwHW-GnGoCNX1795501399443.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Jd-ZRAMLcv21rA7yo836s1795501399444.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wCMpJmQ2SGK8Av1sL_ztY1795501399444.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/SeMfbe8azntq5iC6RpYVc1795501399444.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xkNpaKhUw4umbsnfee4Mz1795501399445.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/aaBcXKkwnv0DRZz4E2Z0v1795501399445.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/GcKuVaC6hrOUMcnl9jS561795501399445.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_GT6e2eOiLhkNke6TBaze1795501399445.jpg",
+              "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/pUUQjAI_YQEbj0ttJSvTj1795501399445.jpg"
+            ],
+            "detalle": "2 figuras, 3 esculturas de cabeza, 1 base simple para figura y 1 base simple para cabeza"
+          }
+        ]
+      },
+      {
+        "id": "zack-fair-1-6-statue-mww8j4ib",
+        "n": "Zack Fair 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8qU06nmOgHc1JVV2UGJZC1795500746791.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8qU06nmOgHc1JVV2UGJZC1795500746791.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iAoj89C1QAv8sv3ZqvxKI1795500746794.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zg90Fg5OATZxyv8vLzxhd1795500750340.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dY-PWB2fhWdRmqX6DqU6b1795500750340.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/06Yb5Zn20Bww7mJHozSJh1795500750340.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Chocobo Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4200",
+        "reserva": "840",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Zack Fair de Final Fantasy VII con acabado de resina importada y detalles meticulosos. Incluye dos cabezas esculpidas intercambiables y dos armas diferentes para recrear tus poses favoritas del icónico personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 18 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada, PU y ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 cabezas esculpidas intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "2 armas (Buster Sword y Masamune)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Moneda conmemorativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36448",
+        "entrega": "2027 Q3"
+      },
+      {
+        "id": "tanjiro-kamado-statue-mww8j4ic",
+        "n": "Tanjiro Kamado Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5yx8k6Yzw7CRsWoH-gusz1795491444607.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5yx8k6Yzw7CRsWoH-gusz1795491444607.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/w9DC754whJ15dgMHK5IZs1795491444607.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/7CCamusS-iIgsjdtpWoh-1795491444607.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sdADqAEmNod39de0AYp_d1795491444607.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_9F9DGou7eOhrjgUbREiq1795491444608.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/JIci3dnntW_9aTScZOaim1795491444608.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/QUM4u-BT7QDWWfJfPN9yC1795491444608.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sJ9Z898Ps7mhcUQ_GQcYq1795491444608.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/WCEuq2wsLdr8Z8cpJSDIa1795491444608.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/jhcnAncBZsrMMkQEw1kcq1795491444608.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Sakura Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "reserva": "1080",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura el poder flamígero de Tanjiro Kamado en esta estatua premium de 30 cm que muestra al protagonista rodeado de llamaradas intensas y dinámicas. Elaborada en resina importada y PU de alta calidad, es una pieza limitada a solo 128 unidades que representa fielmente el momento de combate del joven espadachín. Una obra maestra para coleccionistas de Demon Slayer que buscan una representación excepcional del personaje."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 28 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 128 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua de Tanjiro Kamado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36447",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "cammy-1-3-statue-mww8j4ic",
+        "n": "Cammy 1/3 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DFq1yTOfkutg4gBa8uSf11795504463151.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/DFq1yTOfkutg4gBa8uSf11795504463151.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8-RAi60-AdQsYFY9V07zk1795504463151.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/uMcotGiy9q8pnmoCYE4A31795504463152.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/R7u8HxUV3jXrxCVC6ouxh1795504463152.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/YC1e4VDye6ceUojXP-ND91795504463152.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/St-kq_K0kLwuh0peHCpn-1795504463152.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ZtK1Ypy7NSf18v2H5Qhaz1795504463152.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wJVOuYi1f6BehBQLdO1oP1795504463152.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/eRpePTD5E-REY7LAIKm4N1795504463152.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ph4kAdGsQSSQHfEE8jiTH1795504463153.jpg"
+        ],
+        "franquicia": "Gaming",
+        "marca": "Fries Studio",
+        "escala": "1:3",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "7500",
+        "reserva": "1500",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura a Cammy White en toda su gloria con esta impresionante estatua de Fries Studio a escala 1/3. Realizada en resina importada de alta calidad, presenta detalles meticulosos en su icónico traje verde y accesorios rojos. Una pieza de colección limitada a solo 99 unidades que trasladará el combate de Street Fighter a tu colección."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 60 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 27,7 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1/3"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 99 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Cammy"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base decorativa"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36445",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "asuka-shikinami-langley-1-6-statue-mww8j4ic",
+        "n": "Asuka Shikinami Langley 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/rq3eyez9w2Ghi-CI_ye1V1795507266503.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/rq3eyez9w2Ghi-CI_ye1V1795507266503.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5figrNJnNRPtD9Bk0FFVf1795507269276.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Insomnia Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3200",
+        "reserva": "640",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Una exquisita estatua de Asuka Shikinami Langley capturando su característico carácter tímido en un elegante vestido amarillo. Pieza limitada a solo 99 unidades mundiales, elaborada con materiales importados de alta calidad. Perfecta para coleccionistas apasionados por Neon Genesis Evangelion que buscan una figura premium de artesanía superior."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU importado y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura de Asuka Shikinami Langley"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36444",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "gear-5-nika-monkey-d-luffy-statue-mww8j4id",
+        "n": "Gear 5 Nika Monkey D. Luffy Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/H7r6yMBWamVgzr8v3Ex9r1795485487442.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/H7r6yMBWamVgzr8v3Ex9r1795485487442.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/wornCCIZ7nD7jH0kFx8Ot1795485487442.webp",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dMRtS-q49smXGdBK9KZGM1795485487442.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Uno Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "reserva": "540",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura el poder devastador de Gear 5 Nika con una escultura espectacular que mezcla resina importada de alta calidad con efectos dinámicos de energía. Dos cabezas intercambiables con expresiones distintas y una base diorama ornamental completan esta pieza de colección definitiva para fans de One Piece."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 27 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 24 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 19 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cuerpo principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con boca abierta"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cabeza con boca cerrada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte para cabezas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Partes de efectos de puños"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Efectos de relámpagos"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cintas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base diorama"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36428",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "primal-reversion-kyogre-ex-statue-mww8j4id",
+        "n": "Primal Reversion Kyogre EX Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nL5W_8lJGlTDpfO3-rs3U1795484844971.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nL5W_8lJGlTDpfO3-rs3U1795484844971.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_CGZ2zJoXBRqf7tEsZgp41795484844971.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/4RRbTJAoO2HUoSOoOqOJa1795484844971.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/zkQNdJM2MrJrNnpK9F_lB1795484844971.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/2HjvYqV17uZDcDacuLseQ1795484844972.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/HliiS7XSf4cXpfbbTN3rU1795484844972.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/sXY2Pu071Li2LjJvAuKhu1795484847889.jpg"
+        ],
+        "franquicia": "Otros",
+        "marca": "Geisha Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2700",
+        "reserva": "540",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la majestuosidad de Kyogre en su forma Primal con esta estatua de colección premium de Geisha Studio. Con 26 cm de altura y una mezcla de materiales resin, PU y componentes transparentes, ofrece un nivel de detalle excepcional. Edición 3er Aniversario limitada a solo 88 unidades con bonificaciones especiales para coleccionistas del trío de dioses del clima."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 26 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 11 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Espesor de tarjeta: 1.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina + PU + Componentes transparentes"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 88 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte trasero"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa de lenguaje reemplazable (pre-orden)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Placa de identificación de Kyogre"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36425",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "pikachu-statue-mww8j4id",
+        "n": "Pikachu Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ppuaoitYRFmkTLkP4uwyz1795417267760.webp",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ppuaoitYRFmkTLkP4uwyz1795417267760.webp"
+        ],
+        "franquicia": "Anime",
+        "marca": "Top Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1800",
+        "reserva": "360",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Pikachu conmemorativa del Campeonato Mundial Pokémon 2026, elaborada en PU importado de alta calidad. Con un diseño festivo y celebratorio que captura la esencia del icónico Pokémon en su momento de gloria. Pieza limitada a solo 168 unidades, perfecta para coleccionistas apasionados."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 16 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 8 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU importado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 168 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua Pikachu"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36414",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "renji-abarai-statue-mww8j4id",
+        "n": "Renji Abarai Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Kk2MAMOu5cQMyAIbJ1MEe1795417422188.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Kk2MAMOu5cQMyAIbJ1MEe1795417422188.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/ReLdhZr6foOK-ER7BODOt1795417422188.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/xcUN3xizBIBq0tsDvAzHg1795417422188.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_1ha0XnigfQocWiO9yj3w1795417422188.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Huansu Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "reserva": "740",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la esencia del poderoso Renji Abarai en una estatua premium de 35 cm que rebosa dinamismo y detalle. Con sus características llamas ardientes, alas espectrales y su icónico atuendo de shinigami, esta obra maestra del estudio Huansu es un tributo imprescindible para los devotos de Bleach. Edición limitada a tan solo 68 unidades, cada una acompañada de certificado numerado."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 25 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 23 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PU y resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado numerado"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36413",
+        "entrega": "2027 Q1"
+      },
+      {
+        "id": "toji-fushiguro-1-6-statue-mww8j4id",
+        "n": "Toji Fushiguro 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8TgaiXNJXQTEZYaLmcqas1795423093753.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/8TgaiXNJXQTEZYaLmcqas1795423093753.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Fm2iS5FhEkP6sZVXJdwCl1795423093753.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/J_cQ68Aqisg7G88uWO3M51795423093753.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5F3Cry0XbGZwFD4v0Mwa61795423093754.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/L-jYktOQVaOyzHqEZRQt-1795423093754.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/lnF52WD1egZc4yn4fNHWI1795423093754.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/dGWzk4cBflt9PTMA_aFak1795423093754.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/kvIlPjXjdV0Rwx7PxirEh1795423093754.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Gx4LeG9MQeMqTx6UNevh-1795423093755.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "LuanWu Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "3700",
+        "reserva": "740",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la esencia letal de Toji Fushiguro con esta estatua de 40 cm que presenta un estilo de tinta difuminada y fragmentado. Esculpida por DJE y pintada magistralmente, esta obra maestra de colección refleja la ferocidad del personaje en plena batalla. Limitada a solo 188 unidades, representa un tesoro imprescindible para los verdaderos aficionados de Jujutsu Kaisen."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 40 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 36 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 35 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cadenas de energía maldita"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36412",
+        "entrega": "2027 Q2"
+      },
+      {
+        "id": "neferpitou-1-6-statue-mww8j4ie",
+        "n": "Neferpitou 1/6 Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iHFDeG1Z3CtCJGbJ7d7yF1795433877355.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/iHFDeG1Z3CtCJGbJ7d7yF1795433877355.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/-5a8RH3HH3kfIU7zdExTH1795433877356.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/_m9LYl5aoUQ0UkG8P74Qs1795433877357.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/5wdtPWZv5RoWxtJLsxN4w1795433877357.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/3U1DzxaPQb_jobD5ntdIs1795433877357.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/vNWNhJBQ7me7uf3HKd5po1795433877358.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/rJwarFIEqoQQMIimhYq__1795433877358.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/Es3WnO9k7Z4ZWWyE811ik1795433877358.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/s44TXksdHg84p9h8pIiu31795433877358.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Zoldyck Studio",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "2800",
+        "reserva": "560",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Captura la elegancia letal de Neferpitou, la Guardia Real de Hunter x Hunter, en esta estatua de colección de 29.5 cm de altura. Elaborada en resina y PU con detalles meticulosos que resaltan su diseño único con orejas felinas y atuendo sofisticado. Parte de la exclusiva Royal Guards Resonance Series, perfecta para los devotos coleccionistas del anime."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 29.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 13 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 13 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Cola intercambiable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36411",
+        "entrega": "2027 Q2"
+      },
+      {
         "id": "marin-kitagawa-swimsuit-ver-1-4-figure-mwntau4d",
         "n": "Marin Kitagawa: Swimsuit Ver. 1/4 Figure",
         "i": "https://www.sideshow.com/storage/product-images/916315/freeing-my-dress-up-darling-marin-kitagawa-swimsuit-ver-collectible-figure-gallery-6afe1228dbe2f.jpg",
@@ -84016,6 +85182,67 @@
   "Adultos": {
     "slug": "adultos",
     "products": [
+      {
+        "id": "prinz-eugen-bunny-girl-statue-mww8j4ic",
+        "n": "Prinz Eugen Bunny Girl Statue",
+        "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/4euP-1lcS2IQiacxW0G721795491586745.jpg",
+        "fotos": [
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/4euP-1lcS2IQiacxW0G721795491586745.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/1YO0jrYNQZ0UtrEnipN201795491586745.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/qbEg_xJssh3FnLY4j-LH31795491586745.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/v7ir-Y3O7M5V8JkdFnT7I1795491586745.jpg",
+          "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/9X5ogfHq9WRHKr2Y7PBEZ1795491586745.jpg"
+        ],
+        "franquicia": "Anime",
+        "marca": "Lucky Studio",
+        "escala": "",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "4300",
+        "reserva": "860",
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Estatua premium de Prinz Eugen en versión Bunny Girl, capturando la elegancia y sofisticación del personaje de Azur Lane. Elaborada en resina importada y PU de alta calidad, limitada a solo 188 unidades en el mundo. Una pieza de colección imprescindible para los aficionados más exigentes."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 21 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Profundidad: 14 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Ancho: 13 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina importada y PU"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura principal"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base temática"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Accesorios decorativos"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-25",
+        "origen": "https://www.nonasea.com/api/customer/shop/product/36446",
+        "entrega": "2027 Q1"
+      },
       {
         "id": "rosa-and-snivy-statue-mw58tkse",
         "n": "Rosa and Snivy Statue",
