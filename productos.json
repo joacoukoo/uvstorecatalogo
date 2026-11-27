@@ -73051,6 +73051,100 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "bane-1-12-figure-mwz50hgu",
+        "n": "Bane 1/12 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/14_68293b6b-2baa-467b-9696-e66ada3f403d.jpg?v=1795770360",
+        "franquicia": "DC Comics",
+        "marca": "INART",
+        "escala": "1:12",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "1700",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/14_68293b6b-2baa-467b-9696-e66ada3f403d.jpg?v=1795770360",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/1_14041c1c-3f82-429d-bd85-acac9825f58d.jpg?v=1795601032",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/2_9155fdb7-7f41-436b-92a2-d740a8f2fb43.jpg?v=1795601036",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/3_9d2a2165-51f2-49fe-9900-c7bc6d00884c.jpg?v=1795601036",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/4_ab0953a6-156d-4150-98b6-cec1781eb7eb.jpg?v=1795601036",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/5_c1342101-57b4-4205-aae9-87d3da0fc4d2.jpg?v=1795601036",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/6_88445d6f-5377-49c7-99a3-7d68ea9b9678.jpg?v=1795601036",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/7_3b106585-c5a3-43c9-b86b-98ad7474496a.jpg?v=1795601035",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/8_637467ce-9cf3-420b-9327-2326224d8081.jpg?v=1795601036",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/9_3deeb9cb-71db-472c-a2b1-916005a3b3c3.jpg?v=1795601036"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Encarna la amenaza despiadada de Bane en su máxima expresión con esta figura articulada premium de INART a escala 1:12. Captura cada detalle del antagonista de The Dark Knight Rises, desde su icónico abrigo marrón con cuello de piel hasta su porte intimidante y máscara respirable, con múltiples puntos de articulación para poses dinámicas. Una pieza imprescindible para coleccionistas que buscan la máxima calidad en representaciones del universo Batman."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 18.5 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:12"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, tela, resina y ABS"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Múltiples puntos de movimiento articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: INART Action"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: DC Comics / The Dark Knight Rises"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Licencia: Warner Bros."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figura articulada Bane completa"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Abrigo marrón con cuello de piel de verdad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arnés táctico detallado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Máscara respirable"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Manos intercambiables (múltiples pares)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de soporte"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Stand de exhibición"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-27",
+        "reserva": "340",
+        "entrega": "1Q 2027",
+        "cantidad": "4"
+      },
+      {
         "id": "bruce-lee-kung-fu-outfit-1-6-figure-mwz4vwvb",
         "n": "Bruce Lee (Kung Fu Outfit) 1/6 Figure",
         "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/3_73a3ea48-e42a-4bc5-accf-58f4001ce528.jpg?v=1795770397",
