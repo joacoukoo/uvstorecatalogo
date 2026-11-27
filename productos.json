@@ -73051,6 +73051,112 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "neo-1-6-figure-mwz4tjrr",
+        "n": "Neo 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-23.jpg?v=1795769713",
+        "franquicia": "Otros",
+        "marca": "INART",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5400",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-23.jpg?v=1795769713",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/Screenshot2026-11-25at11.19.41.png?v=1795605606",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/Neo-InArt-Preorder-Announcement.jpg?v=1795428780",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/Neo-InArt-Livestream-Preview.jpg?v=1795428785",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-15.jpg?v=1795769713",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-03.jpg?v=1795769713",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-04.jpg?v=1795769713",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-05.jpg?v=1795769713",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-06.jpg?v=1795769713",
+          "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-07.jpg?v=1795769713"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Domina el universo de The Matrix con esta figura premium 1/6 de Neo que captura cada detalle icónico del personaje. Con rostro articulated con ojos móviles, abrigo negro con forma ajustable y un arsenal completo de accesorios intercambiables, esta figura INART ofrece infinitas posibilidades de posado para recrear las escenas más legendarias del cine. Realizada con materiales de alta calidad (PVC, ABS, metal fundido y tela), representa la máxima expresión del coleccionismo premium de figuras articuladas."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 31.6 cm (sin base)"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: PVC, ABS, metal fundido y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: INART"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Franquicia: The Matrix"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Tipo: Figura articulada premium con ojos móviles"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 800-1000g"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "12 manos intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "12 accesorios de armas miniatura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Gafas de sol"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Atuendo negro completo articulado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Zapatos con hebillas"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Arnés removible"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fundas de muslo intercambiables"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Soporte para figura"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Bolsa de transporte"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-27",
+        "reserva": "1080",
+        "entrega": "2027 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "godzilla-2026-collectible-figure-mwntgw7z",
         "n": "Godzilla (2026) Collectible Figure",
         "i": "https://www.sideshow.com/storage/product-images/916317/x-plus-godzilla-godzilla-2026-collectible-figure-gallery-6afdfac771059.jpg",
