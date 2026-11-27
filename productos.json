@@ -42322,6 +42322,96 @@
     "slug": "estatuas",
     "products": [
       {
+        "id": "batman-and-robin-1966-1-4-scale-diorama-mwzhqcp8",
+        "n": "Batman and Robin 1966 1:4 Scale Diorama",
+        "i": "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c51f14d0.jpg",
+        "franquicia": "DC Comics",
+        "marca": "PureArts",
+        "escala": "1:4",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "10800",
+        "fotos": [
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c51f14d0.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-scale-678a8c5238387.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c52049fd.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c520a1c7.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c520f592.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c5215930.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c521b025.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c5220c57.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c5226635.jpg",
+          "https://www.sideshow.com/storage/product-images/913860/purearts-dc-comics-batman-and-robin-diorama-gallery-678a8c522d443.jpg"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "La legendaria dupla de héroes de la serie de televisión de 1966 cobra vida en esta espectacular diorama de colección a escala 1:4, capturando cada detalle con precisión hiperrrealista. Cada figura presenta trajes de tela de alta calidad, cabello sintético auténtico y acabados de museo, montadas sobre la icónica réplica del Batmobile 1966 iluminado con efectos de neón. Esta edición limitada a solo 1800 unidades mundiales representa el pináculo del coleccionismo de DC Comics, perfecta para los aficionados más exigentes que buscan una pieza de arte definitiva."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura total: 52 cm"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:4"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Materiales: Resina y tela de calidad premium"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Figuras: Cabello sintético articulado y traje textil"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base: Réplica del Batmobile 1966 con efectos de iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peso aproximado: 3-4 kg"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Edición limitada: 1800 unidades"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua articulada de Batman con traje de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Estatua articulada de Robin con traje de tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Réplica del Batmobile 1966 como base con iluminación LED"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Peana decorativa con efectos de neón rojo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Certificado de autenticidad numerado"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Caja de presentación premium"
+          }
+        ],
+        "destacado": false,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-27",
+        "reserva": "2160",
+        "entrega": "Marzo 2027",
+        "cantidad": "1"
+      },
+      {
         "id": "rin-tohsaka-1-6-statue-mww8j4i9",
         "n": "Rin Tohsaka 1/6 Statue",
         "i": "https://hexapus.oss-us-west-1.aliyuncs.com/upload-assets/nj32I2uFM4YuNyJ6XEpjX1795593851551.jpg",
