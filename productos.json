@@ -73051,6 +73051,76 @@
     "slug": "escalas-112-y-otros",
     "products": [
       {
+        "id": "bruce-lee-kung-fu-outfit-1-6-figure-mwz4vwvb",
+        "n": "Bruce Lee (Kung Fu Outfit) 1/6 Figure",
+        "i": "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/3_73a3ea48-e42a-4bc5-accf-58f4001ce528.jpg?v=1795770397",
+        "franquicia": "Otros",
+        "marca": "INART",
+        "escala": "1:6",
+        "disp": "Pre-Orden",
+        "estado": "Nuevo",
+        "precio": "5500",
+        "fotos": [
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/3_73a3ea48-e42a-4bc5-accf-58f4001ce528.jpg?v=1795770397",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/24_85ffa836-2f82-49e6-a329-3127e0cf85c5.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/19_87061106-94ef-4d60-bcd8-223ed4f77bea.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/21_d45db3fa-ded2-485f-8cfc-4362d5f74940.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/6_79289637-ec4a-46d2-83ee-6bc2ee7f6cd5.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/7_4514fe1c-576e-4c67-9d38-ee1a20dcad89.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/8_8d8d33be-7ff0-43b5-b491-09879b018ad7.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/9_19fdc368-afe3-4aee-b05b-2d5e201a02a4.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/10_47f430fe-f558-4c70-9b88-42f2365fab31.jpg?v=1795519738",
+          "https://cdn.shopify.com/s/files/1/0676/2378/0490/files/11_6adb6663-68d5-4aef-9752-df488b7dd90e.jpg?v=1795519738"
+        ],
+        "content": [
+          {
+            "t": "notion-text",
+            "x": "Figura coleccionable premium de Bruce Lee en su icónico uniforme de kung fu, capturando la legendaria presencia y dinamismo del maestro de artes marciales. Elaborada por INART con detalles meticulosos, escultura de alta precisión y pintura de calidad superior que rinde homenaje a una de las figuras más influyentes del cine de acción. Pieza totalmente articulada en escala 1:6 que destaca en cualquier colección de lujo."
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Altura: 30 cm aproximadamente"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Escala: 1:6"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Material: Resina y tela"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Articulaciones: Totalmente articulada"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Acabado: Pintura de alta calidad"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Fabricante: INART"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Uniforme de kung fu completo"
+          },
+          {
+            "t": "notion-bulleted-list",
+            "x": "Base de exhibición"
+          }
+        ],
+        "destacado": true,
+        "oferta": false,
+        "agotado": false,
+        "agotado_r": false,
+        "agotado_d": false,
+        "added_at": "2026-11-27",
+        "reserva": "1100",
+        "entrega": "2027 Q4",
+        "cantidad": "2"
+      },
+      {
         "id": "neo-1-6-figure-mwz4tjrr",
         "n": "Neo 1/6 Figure",
         "i": "https://cdn.shopify.com/s/files/1/0216/7762/files/inart-matrix-neo-official-23.jpg?v=1795769713",
